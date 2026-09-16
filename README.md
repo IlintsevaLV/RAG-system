@@ -24,9 +24,19 @@ pip install -r requirements.txt
 python scripts/smoke_work_pc.py
 ```
 
-## Этапы
+## Source analysis + preprocess (этап 3)
 
-Активный план: [docs_ROADMAP.md](docs_ROADMAP.md). Исходники идей: `roadmap.md`, `roadmap_new.md`, chart pipeline.
+```powershell
+# TLQ по text layer → route text_layer | ocr
+python -m ingestion.run_source_analysis data\raw --pages 1-5
+
+# + IQS и предобработка для страниц с route=ocr (превью в data/cache/preprocess)
+python -m ingestion.run_source_analysis data\raw --pages 1-5 --preprocess
+
+# результат: data/ir/<doc_id>_source.json
+```
+
+Порог `TLQ_THRESHOLD` (по умолчанию 0.65) позже калибруется на golden set.
 
 ## Структура
 

@@ -40,6 +40,13 @@ class Settings(BaseSettings):
     enable_gpu_ocr: bool = True
     page_confidence_threshold: float = 0.85
 
+    # Source analysis / preprocess (roadmap_new §1–2)
+    tlq_threshold: float = 0.65
+    tlq_enable_visual_agreement: bool = True
+    render_dpi: int = 200
+    render_dpi_bad: int = 300
+    preprocess_enable_binarize: bool = False
+
     embedding_model: str = "intfloat/multilingual-e5-small"
     rerank_enabled: bool = False
 
