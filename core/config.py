@@ -48,8 +48,9 @@ class Settings(BaseSettings):
     preprocess_enable_binarize: bool = False
 
     # Lexical garbage detection for embedded text layer
-    lexical_veto_threshold: float = 0.45
-    lexical_min_tokens: int = 30
+    # Calibrated so OCR-like layers (long-token OOV ~0.30) veto; clean layers (~0.06) pass.
+    lexical_veto_threshold: float = 0.75
+    lexical_min_tokens: int = 25
 
     # RapidOCR
     ocr_max_side_len: int = 4000

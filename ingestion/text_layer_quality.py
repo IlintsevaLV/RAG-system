@@ -37,12 +37,11 @@ _TECHNICAL = re.compile(
     """
 )
 
-# Tokens that look like broken OCR inside an otherwise alphabetic word
 _GARBAGE_SHAPE = re.compile(
     r"""(?x)
-    [A-Za-z]{2,}[0-9]{2,}[A-Za-z]+   # dM11be style mid-digit
-  | [A-Za-z]*[~^*=_]{1,}[A-Za-z]*    # tgm~p=c
-  | (.)\1{3,}                        # aaaa
+    [A-Za-z]{2,}[0-9]{2,}[A-Za-z]+
+  | [A-Za-z]*[~^*=_]{1,}[A-Za-z]*
+  | (.)\1{3,}
     """
 )
 
@@ -97,7 +96,6 @@ def _is_technical(token: str) -> bool:
 
 def _zipf(token: str, lang: str) -> float:
     zipf_frequency = _wordfreq()
-    # wordfreq wants lowercase; keep original for Cyrillic lower
     return float(zipf_frequency(token.lower(), lang))
 
 
@@ -108,42 +106,62 @@ def _best_zipf(token: str, lang_hint: LangHint) -> float:
         langs = ("en", "ru")
     else:
         langs = ("en", "ru")
-    return max(_zipf(token, lg) for lg in langs)
+    # Strip dangling hyphen from PDF line-wrap: "impor-"
+    base = token[:-1] if token.endswith("-") and len(token) > 3 else token
+    return max(_zipf(base, lg) for lg in langs)
 
 
 def _is_typo_shaped(token: str) -> bool:
-    """Cheap OCR-typo shape heuristics (no full spellchecker)."""
     if _GARBAGE_SHAPE.search(token):
         return True
-    # vowel scarcity in Latin tokens length>=5
-    if _LAT.search(token) and not _CYR.search(token) and len(token) >= 5:
-        vowels = sum(1 for ch in token.lower() if ch in "aeiouy")
+    letters = "".join(ch for ch in token if ch.isalpha())
+    if len(letters) < 5:
+        return False
+    if _LAT.search(token) and not _CYR.search(token):
+        vowels = sum(1 for ch in letters.lower() if ch in "aeiouy")
         if vowels == 0:
             return True
-        if vowels / len(token) < 0.12 and len(token) >= 7:
+        if vowels / len(letters) < 0.12 and len(letters) >= 7:
             return True
-    if _CYR.search(token) and len(token) >= 5:
-        vowels = sum(1 for ch in token.lower() if ch in "аеёиоуыэюяaeiouy")
+    if _CYR.search(token):
+        vowels = sum(1 for ch in letters.lower() if ch in "аеёиоуыэюяaeiouy")
         if vowels == 0:
             return True
     return False
 
 
+def _alpha_len(token: str) -> int:
+    return sum(ch.isalpha() for ch in token)
+
+
 def lexical_quality(
     text: str,
     *,
-    min_tokens_for_veto: int = 30,
-    veto_threshold: float = 0.45,
+    min_tokens_for_veto: int = 25,
+    veto_threshold: float = 0.75,
     dict_zipf: float = 3.0,
     weak_zipf: float = 1.5,
+    min_token_alpha: int = 5,
+    oov_veto_ratio: float = 0.18,
 ) -> LexicalQualityResult:
-    """Score whether embedded text looks like real language vs OCR garbage."""
+    """Score embedded text: real language vs OCR-like garbage.
+
+    Short function words (the/of/a) inflate scores on mixed garbage layers,
+    so metrics are computed primarily on tokens with >= min_token_alpha letters.
+    """
     notes: list[str] = []
     lang = detect_lang_hint(text)
     tokens = tokenize(text)
-    # Prefer alphabetic-heavy tokens for dictionary checks
-    alpha_tokens = [t for t in tokens if sum(ch.isalpha() for ch in t) >= 2]
-    if not alpha_tokens:
+    alpha_tokens = [t for t in tokens if _alpha_len(t) >= 2]
+    # Content tokens — ignore short stopword-like noise for garbage detection
+    content_tokens = [t for t in alpha_tokens if _alpha_len(t) >= min_token_alpha]
+
+    if not content_tokens:
+        # Fall back to all alpha tokens if page has only short words
+        content_tokens = alpha_tokens
+        notes.append("fallback_to_short_tokens")
+
+    if not content_tokens:
         return LexicalQualityResult(
             lexical_quality=0.0,
             garbage_score=1.0,
@@ -163,45 +181,52 @@ def lexical_quality(
     technical = 0
     bad_samples: list[str] = []
 
-    for tok in alpha_tokens:
+    for tok in content_tokens:
         if _is_technical(tok):
             technical += 1
-            dict_hits += 1  # count as acceptable
+            dict_hits += 1
             continue
         z = _best_zipf(tok, lang)
         if z >= dict_zipf:
             dict_hits += 1
         elif z >= weak_zipf:
             weak_hits += 1
-            if _is_typo_shaped(tok):
+            if _is_typo_shaped(tok) or tok.endswith("-"):
                 typos += 1
                 if len(bad_samples) < 12:
                     bad_samples.append(tok)
         else:
             oov += 1
-            if _is_typo_shaped(tok) or z == 0.0:
-                typos += 1
+            typos += 1  # hard OOV on long tokens ≈ OCR garbage signature
             if len(bad_samples) < 12:
                 bad_samples.append(tok)
 
-    n = len(alpha_tokens)
+    n = len(content_tokens)
     dict_hit = dict_hits / n
     typo_ratio = typos / n
     oov_hard = oov / n
-    # weak hits partially count
-    dict_hit_soft = (dict_hits + 0.4 * weak_hits) / n
+    dict_hit_soft = (dict_hits + 0.35 * weak_hits) / n
 
-    quality = 0.55 * dict_hit_soft + 0.25 * (1.0 - typo_ratio) + 0.20 * (1.0 - oov_hard)
+    quality = 0.60 * dict_hit_soft + 0.25 * (1.0 - oov_hard) + 0.15 * (1.0 - typo_ratio)
     quality = float(max(0.0, min(1.0, quality)))
     garbage = 1.0 - quality
 
-    veto = bool(n >= min_tokens_for_veto and quality < veto_threshold)
+    veto = False
+    if n >= min_tokens_for_veto:
+        if quality < veto_threshold:
+            veto = True
+            notes.append(
+                f"garbage_veto lexical_quality={quality:.3f} < {veto_threshold} (n={n})"
+            )
+        elif oov_hard >= oov_veto_ratio:
+            veto = True
+            notes.append(
+                f"garbage_veto oov_hard={oov_hard:.3f} >= {oov_veto_ratio} (n={n})"
+            )
+
     if technical:
         notes.append(f"technical_tokens={technical}")
-    if veto:
-        notes.append(
-            f"garbage_veto lexical_quality={quality:.3f} < {veto_threshold} (n={n})"
-        )
+    notes.append(f"content_tokens_ge_{min_token_alpha}={n}")
 
     return LexicalQualityResult(
         lexical_quality=quality,

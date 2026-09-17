@@ -214,8 +214,8 @@ def compute_tlq(
     *,
     visual: float | None,
     threshold: float,
-    lexical_veto_threshold: float = 0.45,
-    lexical_min_tokens: int = 30,
+    lexical_veto_threshold: float = 0.75,
+    lexical_min_tokens: int = 25,
 ) -> TLQResult:
     notes: list[str] = []
     has_layer = bool(text.strip()) or bool(spans)
@@ -327,8 +327,8 @@ def analyze_page(
     tlq_threshold: float,
     enable_visual: bool,
     visual_dpi: int = 72,
-    lexical_veto_threshold: float = 0.45,
-    lexical_min_tokens: int = 30,
+    lexical_veto_threshold: float = 0.75,
+    lexical_min_tokens: int = 25,
 ) -> PageSourceAnalysis:
     rect = page.rect
     w, h = float(rect.width), float(rect.height)
@@ -372,8 +372,8 @@ def analyze_pdf(
     pages: list[int] | None = None,
     tlq_threshold: float = 0.65,
     enable_visual: bool = True,
-    lexical_veto_threshold: float = 0.45,
-    lexical_min_tokens: int = 30,
+    lexical_veto_threshold: float = 0.75,
+    lexical_min_tokens: int = 25,
 ) -> DocumentSourceAnalysis:
     path = Path(path)
     doc_id = doc_id or path.stem
