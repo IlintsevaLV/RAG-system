@@ -1,0 +1,13 @@
+AMCP 706-202
+plicated shapes, may require more complex anti-icing subsystems.
+
+Twin-engine helicopters often employ the semi-exposed configuration. This enables a single housing unit to enclose all engines, and provides good accessibility to all engines provided they are spaced sufficiently far apart. Additional accessibility can be obtained by making interengine firewalls removable. If this is done, the designer must pay particular attention to the seals on the removable sections. Labyrinth seals are superior to other sealing methods because they can be separated repeatedly; however, they do not seal as well as other methods.
+
+Interchangeability between engine installation components is desirable, and usually can be obtained for the exhaust ducts, engine mounts, and engine control installations. Careful design will enable many detail parts to be used on opposite assemblies with considerable savings in initial and maintenance costs, along with increased aircraft availability.
+
+3-2.1.3 Exposed installation
+
+In the exposed installation, engines are located out-side the airframe and are exposed on all sides. This arrangement, an example of which is shown in Fig. 3-3, is commonly used with a streamlined nacelle that provides environmental protection and reduces aerodynamic drag. The externally mounted engine arrangement provides the best accessibility, provided adequate service platforms or other convenient work areas are available.
+
+The nacelles sometimes are attached directly to fuselage frames. Access to the engines usually is provided by removable panels. The engine mounts may be incorporated into the basic nacelle structure. A feature of this type of nacelle construction is that many external surfaces may consist of hinged panels, which when open, expose the engine. If desired, the panels may be opened individually for servicing any localized section of the engine. When the panels are in the closed and locked position, they can become loadsharing structural members of the nacelle. The panels also may be designed so serve as a work platform. This arrangement requires a minimum amount of fixed structure and results in maximum accessibility of the engine.
+Figure 3-3. Exposed Engine Installation (Example)

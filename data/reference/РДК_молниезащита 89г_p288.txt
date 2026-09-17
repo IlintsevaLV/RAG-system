@@ -1,0 +1,53 @@
+Table 9.5
+EXPON - A Program in BASIC For Evaluating Constants
+of Double Exponential Waves
+(Conclusion)
+1620 DELY = SUM - SUMOLD
+1640 BOVREN = BOVERA - DELX*SUM/DELY
+1660 RETURN
+1680 'subroutine to find SUM
+1700 AT1 = LOG(BOVERA)/(BOVERA-1)
+1720 AT1 = AT1*BOVERA
+1740 A1 = AT1*TOVERT
+1760 A2 = A1*TOVERT
+1780 A3 = A1*TOVERT
+1800 SUM = (EXP(-A3) - EXP(-A2))
+1820 SUM = SUM - FAC*(EXP(-AT1) - EXP(-A1))
+1840 RETURN
+1860 END
+
+Table 9.6
+Calculation of Bessel and Hankel Functions
+for X = 0.5∠45°
+
+Function real imaginary
+
+J0(X) 0.99902 -0.06249
+J1(X) 0.18224 0.17120
+Y0(X) -0.48233 0.37148
+Y1(X) -1.44039 0.88145
+I0(X) 0.99902 0.06249
+I1(X) 0.17120 0.18224
+K0(X) 0.85591 -0.67158
+K1(X) 0.17120 -1.52240
+I0(X)/I1(X) 2.91772 -2.74097
+K0(X)/K1(X) 0.56158 0.17445
+H0-1 0.42754 -0.54582
+H1-1 -0.66920 -0.96919
+H0-2 1.57050 C.42083
+H1-2 1.03369 1.31158
+
+Table 9.7
+
+Calculation of Constants for a Double Exponential Wave
+Having an Amplitude of 1.0 With Front and Tail Times
+of 1.0 and 10.0 Microseconds respectively
+
+t1 and t2? 1e-6,10e-6
+
+alpha = 79.2375E+03
+beta = 40.0102E+05
+E1/R = 1.1043E+00
+
+272
+
