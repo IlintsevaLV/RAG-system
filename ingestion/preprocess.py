@@ -304,9 +304,10 @@ def process_page_image(
     dpi_good: int = 200,
     dpi_bad: int = 300,
     enable_binarize: bool = False,
+    force: bool = False,
 ) -> dict:
     """Render (if OCR route), score IQS, preprocess. Text-layer route skips heavy CV."""
-    if route == PageRoute.TEXT_LAYER:
+    if route == PageRoute.TEXT_LAYER and not force:
         return {
             "page": page_number,
             "route": route.value,
@@ -314,6 +315,7 @@ def process_page_image(
             "reason": "TLQ accepted text layer",
             "iqs": None,
             "steps": [],
+            "dpi": None,
         }
 
     # First pass at normal DPI to score; BAD may re-render higher
@@ -328,7 +330,7 @@ def process_page_image(
     )
     return {
         "page": page_number,
-        "route": route.value,
+        "route": route.value if not force else PageRoute.OCR.value,
         "skipped_preprocess": False,
         "iqs": iqs,
         "steps": steps,
@@ -336,6 +338,7 @@ def process_page_image(
         "band_count": len(bands) if bands else 0,
         "image_bgr": image,
         "bands": bands,
+        "dpi": rendered.dpi,
     }
 
 

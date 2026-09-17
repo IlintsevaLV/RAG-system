@@ -1,0 +1,36 @@
+# Эталон: US_Army_Materiel_Command__Engineering_Design_Handbook__244ac148, страница 87
+# Распознано движком: vlm
+#
+# СТАТУС: ЗАГОТОВКА — пока эта строка здесь, страница в метрику не идёт.
+# Вычитав текст, удалите её целиком: иначе заготовка сравнится
+# сама с собой и покажет безупречное качество там, где его не проверяли.
+#
+# Вычитайте текст ниже и исправьте ошибки распознавания.
+# Строки, начинающиеся с #, игнорируются.
+# Строку с формулой пометьте символом ~ в начале —
+# она не попадёт в посимвольную метрику, но будет посчитана отдельно.
+# Особое внимание: латиница и кириллица в обозначениях.
+#
+3-2.5.3 Anti-icing
+An induction anti-icing subsystem shall be designed to anti-ice satisfactorily the induction system when operating in the icing environments specified in MIL-E-8593. The anti-icing subsystem shall function from sea level to the helicopter service ceiling.
+If an ice detector is installed in the induction system, the detector shall conform to MIL-D-8181.
+Any failure of the anti-icing control shall result in the anti-icing subsystem remaining in or reverting to the anti-icing ON mode.
+Engine air induction systems can be anti-iced either electrically or by the use of engine bleed air. The former (electrically) can use a nonmetallic duct in which thermoelectric heating elements are embedded. The latter type (bleed air) has used a metallic duct that is formed into a double-skin heat exchanger adjacent to the area requiring thermal protection. These bleed air heat exchangers have been made with and without fins.
+The decision between electrical and hot air systems is made for each helicopter on the basis of the required helicopter mission and results of trade-off studies in which the airframe/transmission/engine match is considered to determine the system which results in the lowest aircraft penalty.
+3-2.5.3.1 Electrical Anti-icing
+Typically, electrically anti-iced helicopter engine air induction subsystems require a variation in local power density from 4.0 to 16.0 W/in.2 to account for local variations in surface velocity and moisture impingement rate. Relatively large amounts of electrical power are necessary, which results in a substantial investment in generator power and helicopter weight.
+Electrical systems are relatively easy to design and test. The surface temperature of the air induction duct normally is held to 40°F (4.4°C) for the atmospheric design condition the anti-icing system is required to meet. Calculation procedures are contained in Ref. 4.
+3-2.5.3.2 Bleed Air Anti-icing
+Hot-air-type anti-icing subsystems use compressor bleed air, which must be adequate in quantity and temperature to meet all requirements throughout the power and environmental spectra. An advantage of these systems is that the related power penalty is applicable only on a cold day, when anti-icing is required. In most cases, the helicopter will not be power-limited on a cold day and, therefore, will suffer only a fuel consumption penalty from the use of compressor bleed air.
+The bleed air system presents some mechanical problems, however. Fins, if used, must be brazed properly to the outer skins; otherwise, the local fin thermal effectiveness will be zero. A double-skin heat exchanger without fins requires small gap heights whose tolerances become very important. Manufacturing and assembly capabilities also become important design considerations.
+In a bleed air anti-icing subsystem, engine bleed air is ducted from the compressor bleed port to a solenoid shutoff valve and then into the intake manifold at the leading edge of the induction subsystem inlet. The flow then impinges on the inlet leading edge, providing the greatest heat transfer at the external flow stagnation point where the thermal load is highest. The flow then passes through heat exchangers along the inner and outer lips of the air intake. The gap height (minimum gap = 0.000 in.) along the induction system flow passages is tapered so that the external skin temperature is maintained close to 40°F. The air then is discharged overboard through discharge slots located at the rear of the outer lip. A thermal switch should be used to monitor duct skin temperature. This switch actuates a warning light if the skin temperature drops below 40°F while the system is in operation. Actuation of the light indicates either a subsystem failure or icing conditions more severe than the subsystem capacity.
+3-2.5.3.3 Anti-icing Demonstration
+The capability of the anti-icing subsystem must be demonstrated by test. The test requirements are described in Chapter 9, AMCP 706-203.
+3-2.6 EXHAUST SUBSYSTEM
+The design of the engine exhaust system shall meet the following objectives:
+1. Minimize pressure loss to reduce engine power loss. Losses usually can be held to a pressure loss of 1% or less. A 1% pressure loss generally results in an approximate 1% power loss.
+2. Prevent loss of tail rotor efficiency due to hot exhaust gas flowing through the tail rotor
+3. Prevent loss of power due to heating of the inlet air and/or reingestion
+4. Prevent overheating of the adjacent structure due to impingement by exhaust gases
+5. Provide maximum possible thrust recovery.
+Exhaust system assemblies usually are welded or furnace brazed. The brazed assembly offers high resistance to metal fatigue because the strength of the material is not affected appreciably by the brazing operation. Brazing has both advantages and disadvantages. It requires higher initial tooling expenditures, has a potentially lower unit price, and usually is

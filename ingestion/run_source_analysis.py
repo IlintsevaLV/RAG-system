@@ -1,9 +1,8 @@
-"""CLI: PDF source analysis (TLQ) + optional preprocess (IQS).
+"""CLI: TLQ → preprocess (OCR pages) → RapidOCR.
 
 Examples:
-  python -m ingestion.run_source_analysis path/to.pdf
-  python -m ingestion.run_source_analysis path/to.pdf --pages 1-3 --preprocess
-  python -m ingestion.run_source_analysis data/raw --preprocess --resume
+  python -m ingestion.run_source_analysis path/to.pdf --pages 1-5 --ocr
+  python -m ingestion.run_source_analysis path/to.pdf --pages 10 --ocr --force-ocr
 """
 
 from __future__ import annotations
@@ -22,6 +21,7 @@ if str(ROOT) not in sys.path:
 from core.config import get_settings
 from core.logger import get_logger, setup_logging
 from ingestion.models import PageRoute
+from ingestion.ocr_rapid import RapidOCRConfig, recognize_page_image
 from ingestion.preprocess import process_page_image, save_preview
 from ingestion.source_analysis import analyze_pdf
 
@@ -53,7 +53,7 @@ def main(argv: list[str] | None = None) -> int:
     setup_logging(settings.log_level)
     log = get_logger("source_analysis")
 
-    parser = argparse.ArgumentParser(description="TLQ source analysis + IQS preprocess")
+    parser = argparse.ArgumentParser(description="TLQ + IQS preprocess + RapidOCR")
     parser.add_argument(
         "path",
         nargs="?",
@@ -67,11 +67,24 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--preprocess",
         action="store_true",
-        help="For OCR-routed pages: render, IQS, preprocess, save previews",
+        help="Render+IQS+preprocess for OCR-routed pages",
+    )
+    parser.add_argument(
+        "--ocr",
+        action="store_true",
+        help="Run RapidOCR on OCR-routed pages (implies --preprocess)",
+    )
+    parser.add_argument(
+        "--force-ocr",
+        action="store_true",
+        help="OCR even if TLQ accepted text_layer (debug / mixed pages)",
     )
     parser.add_argument("--resume", action="store_true", help="Skip if IR json already exists")
     parser.add_argument("--out-dir", default=None, help="Override IR_DIR")
     args = parser.parse_args(argv)
+
+    if args.ocr:
+        args.preprocess = True
 
     threshold = args.threshold if args.threshold is not None else settings.tlq_threshold
     enable_visual = settings.tlq_enable_visual_agreement and not args.no_visual
@@ -83,6 +96,13 @@ def main(argv: list[str] | None = None) -> int:
     if not targets:
         log.error("no_pdfs_found", path=args.path)
         return 1
+
+    ocr_cfg = RapidOCRConfig(
+        use_gpu=settings.enable_gpu_ocr,
+        max_side_len=settings.ocr_max_side_len,
+        band_trigger_px=settings.ocr_band_trigger_px,
+        band_height=settings.ocr_band_height,
+    )
 
     for pdf in targets:
         doc_id = args.doc_id or pdf.stem
@@ -98,14 +118,18 @@ def main(argv: list[str] | None = None) -> int:
             pages=pages,
             tlq_threshold=threshold,
             enable_visual=enable_visual,
+            lexical_veto_threshold=settings.lexical_veto_threshold,
+            lexical_min_tokens=settings.lexical_min_tokens,
         )
 
         preprocess_meta: list[dict] = []
+        ocr_pages = 0
         if args.preprocess:
             doc = fitz.open(pdf)
             try:
                 preview_dir = settings.cache_dir / "preprocess" / doc_id
                 for page_res in analysis.pages:
+                    need_ocr = page_res.tlq.route == PageRoute.OCR or args.force_ocr
                     result = process_page_image(
                         doc,
                         page_res.page,
@@ -113,11 +137,13 @@ def main(argv: list[str] | None = None) -> int:
                         dpi_good=settings.render_dpi,
                         dpi_bad=settings.render_dpi_bad,
                         enable_binarize=settings.preprocess_enable_binarize,
+                        force=args.force_ocr,
                     )
                     if result.get("iqs") is not None:
                         page_res.iqs = result["iqs"]
                         page_res.preprocess_plan = result.get("steps") or []
-                    meta = {
+
+                    meta: dict = {
                         "page": page_res.page,
                         "route": page_res.tlq.route.value,
                         "skipped": result.get("skipped_preprocess"),
@@ -126,10 +152,29 @@ def main(argv: list[str] | None = None) -> int:
                         "iqs_level": page_res.iqs.level.value if page_res.iqs else None,
                         "band_count": result.get("band_count", 0),
                     }
+
                     if result.get("image_bgr") is not None:
                         preview_path = preview_dir / f"page_{page_res.page:04d}.png"
                         save_preview(result["image_bgr"], preview_path)
                         meta["preview"] = str(preview_path)
+
+                    if args.ocr and need_ocr and result.get("image_bgr") is not None:
+                        ocr_res = recognize_page_image(
+                            result["image_bgr"],
+                            dpi=int(result.get("dpi") or settings.render_dpi),
+                            page=page_res.page,
+                            doc_id=doc_id,
+                            cfg=ocr_cfg,
+                            bands=result.get("bands"),
+                        )
+                        page_res.ocr = ocr_res
+                        # Prefer OCR text when this page was OCR-routed / forced
+                        page_res.extracted_text = ocr_res.text
+                        ocr_pages += 1
+                        meta["ocr_lines"] = ocr_res.line_count
+                        meta["ocr_mean_conf"] = round(ocr_res.mean_confidence, 4)
+                        meta["ocr_used_bands"] = ocr_res.used_bands
+
                     preprocess_meta.append(meta)
                     log.info(
                         "page_done",
@@ -137,18 +182,17 @@ def main(argv: list[str] | None = None) -> int:
                         tlq=round(page_res.tlq.score, 3),
                         route=page_res.tlq.route.value,
                         iqs=meta["iqs_level"],
+                        ocr_lines=meta.get("ocr_lines"),
                     )
             finally:
                 doc.close()
 
+        analysis.summary["ocr_pages"] = ocr_pages
         payload = analysis.model_dump()
-        # Drop bulky spans from default dump? Keep them — needed for text route.
-        # Previews stay on disk only.
         payload["preprocess_meta"] = preprocess_meta
         out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info("analyze_done", out=str(out_json), summary=analysis.summary)
 
-        # Compact console table
         print(f"\n=== {doc_id} ===")
         print(f"pages: {analysis.summary}")
         for p in analysis.pages:
@@ -165,6 +209,14 @@ def main(argv: list[str] | None = None) -> int:
                     f"         IQS={p.iqs.score:.3f} level={p.iqs.level.value}"
                     f" skew={p.iqs.estimated_skew_deg:.2f}° steps={p.preprocess_plan}"
                 )
+            if p.ocr:
+                preview = (p.ocr.text[:120] + "…") if len(p.ocr.text) > 120 else p.ocr.text
+                print(
+                    f"         OCR lines={p.ocr.line_count} "
+                    f"conf={p.ocr.mean_confidence:.3f} bands={p.ocr.used_bands}"
+                )
+                if preview:
+                    print(f"         OCR text: {preview!r}")
 
     return 0
 

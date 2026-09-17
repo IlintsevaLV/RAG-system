@@ -27,6 +27,7 @@ from ingestion.models import (
     TLQComponents,
     TLQResult,
 )
+from ingestion.text_layer_quality import lexical_quality
 
 # Weights from roadmap_new
 W_PRINTABLE = 0.30
@@ -213,16 +214,29 @@ def compute_tlq(
     *,
     visual: float | None,
     threshold: float,
+    lexical_veto_threshold: float = 0.45,
+    lexical_min_tokens: int = 30,
 ) -> TLQResult:
     notes: list[str] = []
     has_layer = bool(text.strip()) or bool(spans)
+    lex = lexical_quality(
+        text,
+        min_tokens_for_veto=lexical_min_tokens,
+        veto_threshold=lexical_veto_threshold,
+    )
     comp = TLQComponents(
         printable_ratio=printable_ratio(text),
         language_score=language_score(text),
         geometry_score=geometry_score(spans, page_w, page_h),
         text_density_score=text_density_score(len(text), page_w, page_h),
         visual_agreement=visual,
+        lexical_quality=lex.lexical_quality,
+        garbage_score=lex.garbage_score,
+        dict_hit=lex.dict_hit,
+        typo_ratio=lex.typo_ratio,
+        oov_hard=lex.oov_hard,
     )
+    notes.extend(lex.notes)
 
     if visual is None:
         # Renormalize without visual term
@@ -253,6 +267,15 @@ def compute_tlq(
         notes.append("large text volume but TLQ below threshold (possible garbage layer)")
 
     route = PageRoute.TEXT_LAYER if has_layer and score >= threshold else PageRoute.OCR
+    garbage_veto = bool(has_layer and lex.garbage_veto)
+    if garbage_veto:
+        route = PageRoute.OCR
+        # Keep structural score visible, but mark veto in notes
+        notes.append(
+            f"garbage_veto overridden route→ocr "
+            f"(lexical_quality={lex.lexical_quality:.3f}, weighted_tlq={score:.3f})"
+        )
+
     return TLQResult(
         score=score,
         components=comp,
@@ -260,6 +283,9 @@ def compute_tlq(
         char_count=len(text),
         span_count=len(spans),
         route=route,
+        garbage_veto=garbage_veto,
+        lang_hint=lex.lang_hint,
+        sample_bad_tokens=lex.sample_bad_tokens,
         notes=notes,
     )
 
@@ -301,6 +327,8 @@ def analyze_page(
     tlq_threshold: float,
     enable_visual: bool,
     visual_dpi: int = 72,
+    lexical_veto_threshold: float = 0.45,
+    lexical_min_tokens: int = 30,
 ) -> PageSourceAnalysis:
     rect = page.rect
     w, h = float(rect.width), float(rect.height)
@@ -314,7 +342,16 @@ def analyze_page(
         visual = 0.0
         notes_extra.append("visual_agreement=0 (no spans)")
 
-    tlq = compute_tlq(text, spans, w, h, visual=visual, threshold=tlq_threshold)
+    tlq = compute_tlq(
+        text,
+        spans,
+        w,
+        h,
+        visual=visual,
+        threshold=tlq_threshold,
+        lexical_veto_threshold=lexical_veto_threshold,
+        lexical_min_tokens=lexical_min_tokens,
+    )
     tlq.notes.extend(notes_extra)
 
     return PageSourceAnalysis(
@@ -335,6 +372,8 @@ def analyze_pdf(
     pages: list[int] | None = None,
     tlq_threshold: float = 0.65,
     enable_visual: bool = True,
+    lexical_veto_threshold: float = 0.45,
+    lexical_min_tokens: int = 30,
 ) -> DocumentSourceAnalysis:
     path = Path(path)
     doc_id = doc_id or path.stem
@@ -355,6 +394,8 @@ def analyze_pdf(
                     page_number=pno,
                     tlq_threshold=tlq_threshold,
                     enable_visual=enable_visual,
+                    lexical_veto_threshold=lexical_veto_threshold,
+                    lexical_min_tokens=lexical_min_tokens,
                 )
             )
 
@@ -363,8 +404,23 @@ def analyze_pdf(
             "pages_analyzed": len(results),
             "route_text_layer": routes.count(PageRoute.TEXT_LAYER.value),
             "route_ocr": routes.count(PageRoute.OCR.value),
+            "garbage_veto_pages": sum(1 for p in results if p.tlq.garbage_veto),
             "mean_tlq": round(float(np.mean([p.tlq.score for p in results])), 4) if results else 0.0,
             "min_tlq": round(float(min(p.tlq.score for p in results)), 4) if results else 0.0,
+            "mean_lexical": round(
+                float(
+                    np.mean(
+                        [
+                            p.tlq.components.lexical_quality
+                            for p in results
+                            if p.tlq.components.lexical_quality is not None
+                        ]
+                    )
+                ),
+                4,
+            )
+            if any(p.tlq.components.lexical_quality is not None for p in results)
+            else None,
         }
         return DocumentSourceAnalysis(
             doc_id=doc_id,

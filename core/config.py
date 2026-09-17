@@ -37,7 +37,7 @@ class Settings(BaseSettings):
     model_port: int = 8080
 
     enable_vlm: bool = False
-    enable_gpu_ocr: bool = True
+    enable_gpu_ocr: bool = False  # CUDA EP often silent-fails; enable after smoke on work PC
     page_confidence_threshold: float = 0.85
 
     # Source analysis / preprocess (roadmap_new §1–2)
@@ -46,6 +46,15 @@ class Settings(BaseSettings):
     render_dpi: int = 200
     render_dpi_bad: int = 300
     preprocess_enable_binarize: bool = False
+
+    # Lexical garbage detection for embedded text layer
+    lexical_veto_threshold: float = 0.45
+    lexical_min_tokens: int = 30
+
+    # RapidOCR
+    ocr_max_side_len: int = 4000
+    ocr_band_trigger_px: int = 2800
+    ocr_band_height: int = 1600
 
     embedding_model: str = "intfloat/multilingual-e5-small"
     rerank_enabled: bool = False

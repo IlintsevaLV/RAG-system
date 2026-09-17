@@ -24,19 +24,44 @@ pip install -r requirements.txt
 python scripts/smoke_work_pc.py
 ```
 
-## Source analysis + preprocess (этап 3)
+## Source analysis + preprocess + OCR (этап 3)
 
 ```powershell
-# TLQ по text layer → route text_layer | ocr
+pip install -r requirements.txt
+
+# TLQ только
 python -m ingestion.run_source_analysis data\raw --pages 1-5
 
-# + IQS и предобработка для страниц с route=ocr (превью в data/cache/preprocess)
-python -m ingestion.run_source_analysis data\raw --pages 1-5 --preprocess
+# TLQ → preprocess → RapidOCR для страниц с низким TLQ
+python -m ingestion.run_source_analysis data\raw --pages 1-5 --ocr
 
-# результат: data/ir/<doc_id>_source.json
+# Принудительно OCR даже при хорошем text layer (отладка)
+python -m ingestion.run_source_analysis data\raw --pages 10 --ocr --force-ocr
 ```
 
-Порог `TLQ_THRESHOLD` (по умолчанию 0.65) позже калибруется на golden set.
+Результат: `data/ir/<doc_id>_source.json` (поля `tlq`, `iqs`, `ocr.lines` с bbox).
+Порог `TLQ_THRESHOLD` (0.65) позже калибруется на golden set.
+Мусорный text layer: `lexical_quality` + `garbage_veto` (даже при высоком TLQ → OCR).
+Модель: RapidOCR PP-OCRv5 Cyrillic (`ENABLE_GPU_OCR=false` по умолчанию).
+
+## Поиск мусорного text layer (рабочий ПК)
+
+```powershell
+git pull
+pip install -r requirements.txt
+
+# Быстрый обзор: ~8 страниц на документ
+python -m ingestion.scan_garbage_text_layer data\raw --pages-per-doc 8 --no-visual
+
+# Полный прогон всех страниц (дольше)
+python -m ingestion.scan_garbage_text_layer data\raw --full --no-visual
+```
+
+Результаты для вычитки:
+- `data/ir/garbage_text_layer_candidates.csv` — приоритетный список страниц
+- `data/ir/garbage_text_layer_report.json` — полный отчёт
+
+Колонка `priority`: `veto` (точно мусор) / `suspect` (подозрительно).
 
 ## Структура
 

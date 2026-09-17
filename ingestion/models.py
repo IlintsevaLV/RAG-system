@@ -1,4 +1,4 @@
-"""Source-analysis and preprocess result models (roadmap_new §1–2)."""
+"""Source-analysis, preprocess and OCR result models (roadmap_new §1–2)."""
 
 from __future__ import annotations
 
@@ -25,6 +25,11 @@ class TLQComponents(BaseModel):
     geometry_score: float
     text_density_score: float
     visual_agreement: float | None = None
+    lexical_quality: float | None = None
+    garbage_score: float | None = None
+    dict_hit: float | None = None
+    typo_ratio: float | None = None
+    oov_hard: float | None = None
 
 
 class TLQResult(BaseModel):
@@ -34,6 +39,9 @@ class TLQResult(BaseModel):
     char_count: int
     span_count: int
     route: PageRoute
+    garbage_veto: bool = False
+    lang_hint: str | None = None
+    sample_bad_tokens: list[str] = Field(default_factory=list)
     notes: list[str] = Field(default_factory=list)
 
 
@@ -60,6 +68,27 @@ class IQSResult(BaseModel):
     notes: list[str] = Field(default_factory=list)
 
 
+class OCRLine(BaseModel):
+    text: str
+    text_raw: str = ""
+    bbox_px: tuple[float, float, float, float]
+    bbox_pt: tuple[float, float, float, float]
+    confidence: float = 0.0
+    engine: str = "rapidocr"
+
+
+class OCRPageResult(BaseModel):
+    doc_id: str
+    page: int
+    lines: list[OCRLine] = Field(default_factory=list)
+    text: str = ""
+    mean_confidence: float = 0.0
+    line_count: int = 0
+    used_bands: bool = False
+    image_size: tuple[int, int] | None = None  # width, height px
+    dpi: int | None = None
+
+
 class PageSourceAnalysis(BaseModel):
     doc_id: str
     page: int  # 1-based
@@ -70,6 +99,7 @@ class PageSourceAnalysis(BaseModel):
     extracted_text: str = ""
     iqs: IQSResult | None = None
     preprocess_plan: list[str] = Field(default_factory=list)
+    ocr: OCRPageResult | None = None
 
 
 class DocumentSourceAnalysis(BaseModel):
