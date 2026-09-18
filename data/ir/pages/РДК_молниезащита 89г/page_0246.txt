@@ -1,0 +1,81 @@
+distribution time constants in a CFC aircraft are much
+faster than in a metal aircraft. The phenomena of
+distribution is discussed further in Cha.ter 11.
+8.5.3 Capacitively Generated Currents
+The third type of coupling, Fig. 8.10, involves
+electric fields passing directly through apertures, such
+as windows or canopies, to the interior of the aircraft.
+The displacement current forced through a grounded
+object, Fig. 8.10(c) is
+ (8.4) A 2 x LE 8.85 ,= 10-
+where A is the area available to intercept displacement
+current E is the intensity of the electric field. If the
+current flows through an impedance it will, of course,
+produce an electrically induced voltage. Capacitively
+induced voltages and currents, which are discussed
+§9.8.3, are proportional to the rate of electric of change
+field, frequently referred to as E or E dot.
+(a) tthat E~t
+.
+Zino Eim
+Et E~zdecisions
+(b)
+BMesuem
+• , ,proaches
+(c)
+Fig. 8.10 Aperture-type electric field coupling.
+(a) Extermal field pattens
+(b) Internal field patterns
+(c) Induced current
+
+In metal aircraft, electric field coupling is entirely
+re- through apertures, since virtually any thickness of
+metal provides extremely good shielding against elec-
+tric fields. With composite aircraft this may or may
+not be the case.
+8.6 Approaches to Determining the
+Response of Circuits
+There are two basic methods of conducting a flow-
+down analysis, that is, determining how much voltage
+and current might be induced on aircraft wiring by
+measurement. and analysis lightning; numerical
+Numerical analysis: Since an aircraft is a complex
+structure it is difficult to determine by analytical
+means the voltages and currents that might be in-
+duced on aircraft wiring by lightning. Some techniques
+are available for such analyses and they are reviewed
+in in Chapters 10, 11 and 12. Most of them are based
+on techniques derived from the field, and in NEMP
+fact most of the advanced numerical and mathemati-
+cal treatments of lightning interactions have their ori-
+gins in the analytical studies funded by efforts. NEMP
+All of them require a considerable investment in com-
+puter resources and training of personnel. They are
+also limited in the degree to which they can predict 0
+the voltages and curients of actual aircraft wiring, as
+opposed to idealized and oversimplified geometries.
+Numerical analysis, though, has the prime virtue
+one can predict the general responses of an air-
+craft that has yet to be built. Also, using simplified
+and idealized geometries, one can predict the order of
+magnitude of voltage and current on circuits too com-
+plex to analyze precisely. Frequently, an order of mag-
+nitude estimate of the voltages and current induced by
+lightning is enough to enable one to make intelligent
+regarding protective measures, In particular
+this is true if the primary purpose of the analysis is to
+give guidance for as to the levels at which to conduct
+laboratory proof tests.
+The other way of analysing the re- nts:
+sponse of an aircraft to lightning is to inject current
+into the aircraft and actually measure the resulting
+voltages and currents on wiring. Three basic ap.
+to such tests are as follows.
+1. Inject continuous wave alternating currents into
+the aircraft and make frequency domain mea-
+surements of the response, relating the measured
+response to the response to lightning through
+Fourier analysts techniques.
+2. Inject high level (full threat level) pulse currents
+into the aircraft and measure the response in the
+2,0

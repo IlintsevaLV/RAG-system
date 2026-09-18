@@ -1,0 +1,44 @@
+PREFACE
+This book is an attempt to present under one cover the current state of
+knowledge concerning the potential lightning on aircraft and the means effects
+that are available to designers and operators to against these effects. The protect
+impetus for writing this book springs from two sources--the increased use of
+nonmetallic materials in the structure of aircraft and the constant trend toward
+using electronic equipment to handle flight-critical control and navigation
+functions. Nonmetallic structures are inherently more likely to be damaged by a
+lightning strike than are metallic structures. Nonmetallic structures also provide
+less shielding against the intense electromagnetic fields of lightning than d o
+metallic structures. These fields have demonstrated an ability to damage or cause
+upset of electronic equipment.
+Such concerns, when added to the continuing apprehension regarding
+the vulnerability of fuel systems to lightning, have led in the past decade to
+increased research into lightning effects on aircraft. The results of this research
+are contained in the technical reports and literature published by ourselves and
+by researchers in other laboratories who are also working on these problems.
+Conferences and symposiums have been held so that researchers could exchange
+ideas and information; there is a high degree of cooperation among all of those
+working towards the goal of complete safety-of-flight in the lightning environ-
+men t.
+information on aircraft protection from The persons who can best use
+lightning are the aircraft designers and operators, but generally they are not
+among those who produced this information. Moreover, they are often unaware
+of its existence, and they seldom have the background to distill from it the
+important facts that can and should be applied to achieve safer designs. The
+purpose of this book is to present the most important parts of this body of
+knowledge in a manner most useful to the designer and the operator.
+This book is organized into seventeen chapters. In the first of these we
+review what lightning is and how it originates. The second chapter describes how
+the aircraft becomes involved with the lightning Slash and why it is that aircraft
+do not produce their own lightning flashes, but may, we think, sometimes trigger
+natural ones. Chapter considers how often and under what conditions aircraft 3
+have been struck, reviews avoidance procedures now in use by operators, and
+reviews their degree of success. We also take up the question of whether or not
+strikes could be totally avoided. The fourth chapter summarizes the various
+effects which have occurred when lightning has struck aircraft, giving the
+operator an idea of the direct and indirect effects which he may expect when his
+." aircraft is "zapped
+Since our main purpose is to help the designer protect against those effects
+that may be hazardous, the remainder of the book is devoted to this purpose.
+5, Chapters and deal with protection against the direct physical damage 7 6 ,
+effects. Chapter sets forth three philosopl~ical steps which guide us in the 5
+design work that follows. Attention is also called to government standards or

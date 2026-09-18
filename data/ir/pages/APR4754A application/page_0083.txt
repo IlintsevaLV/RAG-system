@@ -1,0 +1,24 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+Table 19 Example Completed Verification Matrix
+ Verification
+ Method(s)
+Analysis Service Inspect Safety FDAL Test
+Verification Verification Pass /
+Associated Procedure Artifact Fail
+Unique ID Requirement Text Function Reference Reference (P/F)
+The primary display system and the
+Avionic System
+AVSYS-R-010 standby display shall be Y A Displays X NA P
+SSA
+independent.
+AVSYS-R-xxx
+AVSYS-R-xxx
+AVSYS-R-xxx
+AVSYS-R-456
+
+
+Matrix Coding:
+Safety – Y if requirement is safety related.
+Verification Methods: Inspect – Inspection; Analysis – Analysis (Modeling); Service – Service Experience; Test – Test (Demonstration)
+NA – not applicable
+ 71

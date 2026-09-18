@@ -1,0 +1,45 @@
+certification regulations which deal with aircraft lightning protection.
+reviews in some depth what is known about lightning effects on Chapter 6
+aircraft fuel systems and tells how to design protection against these effects. We
+give considerable attention to this subject and urge the designer to do likewise
+because of the serious consequences in the past of lightning effects on these
+7 deals with the protection of the aircraft from structural systems. Chapter
+damage resulting from lightning, with emphasis on the nonmetallic materials--
+the materials that may be more vulnerable than metal structures they are
+beginning to replace.
+The remainder of the book deals with indirect effects. Chapter 8
+introduces the reader to the basic mechanisms by which induced voltages occur
+9 in aircraft electrical circuits, and Chapters through treat these mechanisms 14
+15 and 16 then consider the impact of induced in greater detail. Chapters
+voltages upon solid state electronic devices and tell how these devices may be
+philosophy are protected. Here, concepts such as the transient control level
+presented. Concepts of this kind may form the basis for future specifications
+that define the roles to be played by both the aircraft designer and the
+17 we show how aircraft can electronics equipment designer. Finally, in Chapter
+tested to determine their actual susceptibility to indirect effects and how be
+tested to determine its vulnerability or prove that protection equipment can be
+design goals have been met.
+To some extent, each chapter stands by itself and can be utilized without
+knowledge of the others. Dependencies often exist, however, among the
+lightning effects on structural, electrical, and fuel systems; for the most
+thorough understanding of lightning effects on any one of these systems, the
+reader is urged to read the entire book.
+Part of the research upon which this book is based was conducted by
+ourselves, but a significant amount was conducted by researchers at other
+or incorporated that work frequently. Without laboratories. We have referred to
+it our present understanding of lightning effects--as well this book--would as
+not have been possible. Not all of the work conducted in this field could be
+referenced, of course, but we have carefully studied most of it. The work we
+reference is that which we consider to be definitive, and we have taken care to
+provide complete source details so that the reader can refer to them for
+additional information.
+Even though much has now been learned about lightning effects on
+aircraft and how to design protection, there are still some lightning effects which
+are not fully understood. Examples of these are the mechanisms by which (1)
+lightning currents diffuse into interior structural members and conducting parts
+(2) together with the extent to which this happens and the effects of
+electromagnetic radiation from the lightning arc upon aircraft electrical and
+electronic systems. We have tried to identify these areas as they are encountered,
+and we caution the reader to remain alert for developments in these areas in the
+future.
+While much of this book may appear oriented to the designer, there is
