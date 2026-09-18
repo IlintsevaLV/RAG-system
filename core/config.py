@@ -69,6 +69,17 @@ class Settings(BaseSettings):
     ocr_band_trigger_px: int = 2800
     ocr_band_height: int = 1600
 
+    # Special regions: formulas / tables / figures
+    enable_unimernet: bool = False
+    unimernet_model: str = "Wanderhub/UniMERNet"
+    formula_vlm_recovery: bool = True
+    table_enable_docling: bool = True
+    table_enable_ppstructure: bool = True
+    table_enable_img2table: bool = True
+    table_accept_threshold: float = 0.45
+    table_vlm_recovery: bool = True
+    figure_vlm_caption: bool = True
+
     embedding_model: str = "intfloat/multilingual-e5-small"
     rerank_enabled: bool = False
 

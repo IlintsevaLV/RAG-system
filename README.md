@@ -61,7 +61,23 @@ python -m ingestion.scan_garbage_text_layer data\raw --full --no-visual
 - `data/ir/garbage_text_layer_candidates.csv` — приоритетный список страниц
 - `data/ir/garbage_text_layer_report.json` — полный отчёт
 
-## OCR-модели без ModelScope (рабочий ПК)
+## Регионы: формулы / таблицы / рисунки
+
+```powershell
+python -m ingestion.run_regions data\raw\doc.pdf --pages 41
+
+# VLM recovery для плохих таблиц/формул
+python -m ingestion.run_regions data\raw\doc.pdf --pages 41 --enable-vlm
+
+# UniMERNet (когда установите пакет)
+python -m ingestion.run_regions data\raw\doc.pdf --pages 41 --enable-unimernet
+```
+
+Опционально: `pip install docling paddleocr img2table pylatexenc`  
+Результат: `data/ir/regions/<doc>_regions.json` (latex / markdown / caption + bbox).
+
+## Извлечение текста по классам A/B/C/D
+
 
 На рабочем ПК часто нет доступа к `modelscope.cn`. Модели кладём локально:
 

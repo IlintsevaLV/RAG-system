@@ -13,3 +13,10 @@ rapidocr>=3.5
 onnxruntime>=1.17
 wordfreq>=3.0
 
+# Optional (install on work PC as needed):
+# pylatexenc>=2.10
+# docling>=2.0
+# paddleocr>=2.7
+# img2table>=1.2
+# pytesseract
+

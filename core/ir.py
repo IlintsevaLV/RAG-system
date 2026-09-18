@@ -12,6 +12,7 @@ class BlockType(str, Enum):
     TEXT = "text"
     FORMULA = "formula"
     TABLE = "table"
+    FIGURE = "figure"  # generic image / photo / diagram (non-chart)
     CHART = "chart"
     DRAWING = "drawing"
 
