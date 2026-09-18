@@ -102,6 +102,7 @@ def main(argv: list[str] | None = None) -> int:
         max_side_len=settings.ocr_max_side_len,
         band_trigger_px=settings.ocr_band_trigger_px,
         band_height=settings.ocr_band_height,
+        model_dir=str(settings.ocr_model_dir),
     )
 
     for pdf in targets:

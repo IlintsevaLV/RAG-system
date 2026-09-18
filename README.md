@@ -61,7 +61,20 @@ python -m ingestion.scan_garbage_text_layer data\raw --full --no-visual
 - `data/ir/garbage_text_layer_candidates.csv` — приоритетный список страниц
 - `data/ir/garbage_text_layer_report.json` — полный отчёт
 
-## Извлечение текста по классам A/B/C/D
+## OCR-модели без ModelScope (рабочий ПК)
+
+На рабочем ПК часто нет доступа к `modelscope.cn`. Модели кладём локально:
+
+```powershell
+# На ПК с интернетом / где rapidocr уже скачал модели:
+python -m scripts.prepare_ocr_models --zip
+
+# Скопируйте папку data\models\ocr  (или ocr_models.zip) на рабочий ПК
+# в тот же путь относительно репозитория, затем:
+python -m ingestion.run_extract_pages data\raw --pages 1-5
+```
+
+В `.env`: `OCR_MODEL_DIR=./data/models/ocr`
 
 ```powershell
 # A/B: text layer + нормализация (+ OCR-проверка для B)

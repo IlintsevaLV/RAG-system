@@ -64,6 +64,7 @@ class Settings(BaseSettings):
     vlm_timeout_s: float = 180.0
 
     # RapidOCR
+    ocr_model_dir: Path = Path("./data/models/ocr")
     ocr_max_side_len: int = 4000
     ocr_band_trigger_px: int = 2800
     ocr_band_height: int = 1600

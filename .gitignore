@@ -17,6 +17,9 @@ data/ir/*.json
 data/ir/pages/**/*.json
 # keep plain text extracts optional; ignore bulky by default if needed
 data/models/
+!data/models/ocr/
+data/models/ocr/**
+!data/models/ocr/.gitkeep
 *.pdf
 *.PDF
 Нормативка/
