@@ -61,7 +61,20 @@ python -m ingestion.scan_garbage_text_layer data\raw --full --no-visual
 - `data/ir/garbage_text_layer_candidates.csv` — приоритетный список страниц
 - `data/ir/garbage_text_layer_report.json` — полный отчёт
 
-Колонка `priority`: `veto` (точно мусор) / `suspect` (подозрительно).
+## Извлечение текста по классам A/B/C/D
+
+```powershell
+# A/B: text layer + нормализация (+ OCR-проверка для B)
+# C/D: preprocess + VLM (или OCR fallback, если VLM выключен)
+python -m ingestion.run_extract_pages data\raw --pages 1-5
+
+# С VLM на рабочем ПК (llama-server должен слушать MODEL_HOST:PORT)
+# в .env: ENABLE_VLM=true
+python -m ingestion.run_extract_pages data\raw --pages 83,246 --enable-vlm
+```
+
+Результат: `data/ir/pages/<doc>_pages.json` и `data/ir/pages/<doc>/page_XXXX.txt`.
+Класс D = нечитаемая страница (как US Army p572) — в RAG как факт не кладём.
 
 ## Структура
 

@@ -90,8 +90,27 @@ def tokenize(text: str) -> list[str]:
     return _TOKEN_RE.findall(text)
 
 
+# S1000D / XML-ish / code identifiers (false OOV on structured docs)
+_STRUCTURED_ID = re.compile(
+    r"""(?x)
+    ^(
+        [a-z]+([A-Z][a-z0-9]+)+     # camelCase: descrWire, sbConcurrentSbInfo
+      | [A-Z]{2,}[A-Z0-9_\-]{2,}    # EXPON, SUMOLD, BOVERA
+      | <.?/?[A-Za-z][\w\-:.]*>?    # residual tag crumbs
+      | S1000D[R]?[\w\-]*
+    )$
+    """
+)
+
+
 def _is_technical(token: str) -> bool:
-    return bool(_TECHNICAL.match(token))
+    if _TECHNICAL.match(token):
+        return True
+    if _STRUCTURED_ID.match(token):
+        return True
+    # strip angle brackets if present
+    bare = token.strip("<>/")
+    return bool(bare != token and (_TECHNICAL.match(bare) or _STRUCTURED_ID.match(bare)))
 
 
 def _zipf(token: str, lang: str) -> float:

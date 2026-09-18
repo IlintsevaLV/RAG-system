@@ -13,6 +13,22 @@ class PageRoute(str, Enum):
     OCR = "ocr"
 
 
+class PageClass(str, Enum):
+    """Page handling class after TLQ + lexical analysis."""
+
+    A = "A"  # clean text layer
+    B = "B"  # usable layer with light damage / layout quirks
+    C = "C"  # garbage/missing layer → preprocess + VLM
+    D = "D"  # unreadable after VLM/OCR (set by quality gate)
+
+
+class ExtractStatus(str, Enum):
+    OK = "ok"
+    SUSPICIOUS = "suspicious"
+    FAILED = "failed"
+    NEEDS_VLM = "needs_vlm"
+
+
 class ImageQualityLevel(str, Enum):
     GOOD = "good"
     MEDIUM = "medium"
@@ -108,4 +124,39 @@ class DocumentSourceAnalysis(BaseModel):
     page_count: int
     tlq_threshold: float
     pages: list[PageSourceAnalysis]
+    summary: dict[str, Any] = Field(default_factory=dict)
+
+
+class LayoutHints(BaseModel):
+    n_columns: int = 1
+    likely_table: bool = False
+    unusual_layout: bool = False
+    notes: list[str] = Field(default_factory=list)
+    vlm_notes: str | None = None
+
+
+class PageTextExtract(BaseModel):
+    """RAG-ready page text after class A/B/C/D extraction."""
+
+    doc_id: str
+    page: int
+    page_class: PageClass
+    status: ExtractStatus
+    text: str = ""
+    text_source: str = ""  # layer | layer+ocr | vlm | ocr_fallback
+    layout: LayoutHints = Field(default_factory=LayoutHints)
+    tlq_score: float | None = None
+    lexical_quality: float | None = None
+    iqs_level: str | None = None
+    confidence: float | None = None
+    preview_path: str | None = None
+    notes: list[str] = Field(default_factory=list)
+    provenance: dict[str, Any] = Field(default_factory=dict)
+
+
+class DocumentTextExtract(BaseModel):
+    doc_id: str
+    source_path: str
+    page_count: int
+    pages: list[PageTextExtract]
     summary: dict[str, Any] = Field(default_factory=dict)

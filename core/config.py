@@ -52,6 +52,17 @@ class Settings(BaseSettings):
     lexical_veto_threshold: float = 0.75
     lexical_min_tokens: int = 25
 
+    # Page classes A/B/C/D extraction
+    class_b_lex_min: float = 0.62
+    class_b_dict_min: float = 0.58
+    ab_always_ocr_check: bool = False
+    ab_enable_vlm_check: bool = True  # used only if ENABLE_VLM=true
+    ab_ocr_agree_min: float = 0.45
+    ab_escalate_agree: float = 0.50  # B→C if layer vs OCR Jaccard below this
+    cd_ocr_fallback: bool = True  # if VLM off/fails, RapidOCR after preprocess
+    cd_fail_ocr_conf: float = 0.55
+    vlm_timeout_s: float = 180.0
+
     # RapidOCR
     ocr_max_side_len: int = 4000
     ocr_band_trigger_px: int = 2800

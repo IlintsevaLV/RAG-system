@@ -360,8 +360,8 @@ def analyze_page(
         width_pt=w,
         height_pt=h,
         tlq=tlq,
-        text_spans=spans if tlq.route == PageRoute.TEXT_LAYER else [],
-        extracted_text=text if tlq.route == PageRoute.TEXT_LAYER else text[:500],
+        text_spans=spans,
+        extracted_text=text,
     )
 
 

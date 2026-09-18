@@ -13,6 +13,9 @@ data/raw/**
 !data/raw/.gitkeep
 data/cache/
 data/ir/*.json
+!data/ir/pages/
+data/ir/pages/**/*.json
+# keep plain text extracts optional; ignore bulky by default if needed
 data/models/
 *.pdf
 *.PDF
