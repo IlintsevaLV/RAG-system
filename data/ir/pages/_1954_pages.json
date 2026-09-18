@@ -1,0 +1,97 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 83,
+      "page_class": "C",
+      "status": "ok",
+      "text": "СКБ \"Вулкан-Авиа\"\nз-высота несущего бинта над\nземлей\nТ- тяга несущего бинта при вли-\nянии земли\n-тяга несушего винта без\nвлияния земли\n2,0\n!\n1,5\n0,05\n0,1\n1,0\nZ/D\n0,4\n0,8\nIV.13. Онытные\nФиг.\nкривые,\nпоказывающие\nвлияние высоты несущего винта над поверхностью\nземли на его тягу при постоянной мощности.\n$\nо Летные испытания\nКривая, попученная\n1,4\nна ссновинии\nΦu2 -13\n1,2\n8\n102\n0,8 Z/D\n0,6\n0,4\nФиг. IV.14. Экспериментальная\nпро-\nверка кривых фиг. IV.13\nwww.vokb-la.spb.ru - Самолёт своими руками?!",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "medium",
+      "confidence": 0.8857728947368422,
+      "preview_path": "data\\cache\\extract\\_1954\\page_0083_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew",
+          "mild_denoise",
+          "contrast_normalization"
+        ],
+        "iqs_level": "medium",
+        "ocr_mean_confidence": 0.8857728947368422,
+        "ocr_lines": 38
+      }
+    },
+    {
+      "doc_id": "_1954",
+      "page": 246,
+      "page_class": "C",
+      "status": "ok",
+      "text": "СКВ \"Вулкан-Авиа\"\n*20. Pilüger, A., «Aerodynamics of Rotating-Wing Aircraft with Blade Pitch\nControl», NACA TM 929, 140.\n*21. Sissingh, G., «Contribution to the Aerodynamics of Rotating-Wing Air-\ncraft», NACA TM 921, 1939.\n22. Hohenemser, K., «Performance of Rotating-Wing Aircraft», NACA TM.\n23. Bailey, F. J.„ Jr., «A Study of the Torque Equilibrium of an Autogiro\nRotor», NACA Rep. 623, 1938.\n*24. Breguet, Louis, «The Gyroplane-Its Principles and Its Possibilities», NACA\nTM 816, 1937.\n***25. Wheatley, John B. and Clay, William C., «Full-Scale Wind-Tunnel and\nFlight Tests of a YG—1 Autogiro», NACA MR, Army Air Corps, August 26, 1937.\n26: Wheatley, John B., «An Analytical and Experimental Study of the Effect\nof Periodic Blade Twist on the Thrust, Torque, and Flapping Motion of an Auto-\ngiro Rotor», NACA Rep. 591, 1937.\n27. Wheatley, John B. and Bioletti, C., «Wind-Tunnel Tests of 10-Foot-Diameter\nAutogiro Rotors», NACA Rep. 552, 1936.\nTests\n***28. Wheatley, John B., «Control-Force and General Performance\nof Kellett YG-—1 Autogiro», NACA MR, Army Air Corps, March 27, 1936.\n29. Wheatley, John B. and Bioletti, Carlton, «Wind-Tunnel Tests of a 10-Foot-\nDiameter Gyroplane Rotor», NACA Rep. 536, 1935.\n30. Wheatiey, John B. and Windler, Ray, «Wind-Tunnel Tests of a Cyclogiro\nRotor», NACA TN 528, 1935.\n31. Wheatley, John_ B., The Influence of Wing Setting_on the Wing Load\nand Rotor Speed of a PCA—2 Autogiro as Determined in Flight», NACA Rep.\n523, 1935.\n**32. Schrenk, Martin, «Aerodynamic Principles of the Direct Lifting Propeller»,\nNACA TM 733, 1934.\n*33. Wheatley, John B., «The Aerodynamic Analysis of the Gyroplane Rotating-\nWing System», NACA TN 492, 1934.\n34. Wheatley, John_ B. and Hood,_ Manley, J., «Full-Scale Wind-Tunnel Tests\nof a PCA—2 Aütogiro Rotor», NACA Rep. 515, 1935.\n*35. Wheatley, John B., «An Aerodynamic Analysis of the Autogiro Rotor\nwith a Comparison between Calculated and Experimental Results», NACA Rep.\n487, 1934.\n*36. Strandgren, C. B., «The Theory of the Strandgren Cyclogiro», NACA\nTM 727, 1933.\n*37. Wheatley, John B., «Simplified Aerodynamic Analysis of the Cyclogiro\nRotating-Wing Systerr», NACA TN 467, 1933.\n*38. Wheatley, John B., «Wing Pressure Distributions and Rotor-Blade Motion\nof an Autogiro as Determined in Flight», NACA Rep. 475, 1933.\n39. Wheatley, John B., «Lift and Drag Characteristics and Gliding Performance\nof an Autogiro as Determined in Flight», NACA Rep. 434, 1932.\n*40. Munk, Max M., «Model Tests on the Economy and Effectiveness of\nHelicopter Propellers», NACA TN 221, 1925.\nIII. Движение лопастей несущего винта и срыв\n1. Gessow, Alfred, «Flight Investigation of Effects of Rotor Blade Twist on\ntions», NACA TN 1666, 1948.\n2. Gustafson, F. B. and Gessow, _Alfred,_«Analysis of Flight-Performance\nMeasurements on a Twisted, Plywood-Covered Helicopter Rotor in Various Flight\nConditions», NACA TN 1595, 1948.\n3. Migotsky, Eugene, «Full-Scale Investigation of the Blade Motion of the\nPV—2 Helicopter Rotor», NACA TN 1521, 1948.\n247\nwww.vokb-la.spb.ru - Самолёт своими руками?!",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.9676219642857143,
+      "preview_path": "data\\cache\\extract\\_1954\\page_0246_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "ocr_mean_confidence": 0.9676219642857143,
+        "ocr_lines": 56
+      }
+    }
+  ],
+  "summary": {
+    "pages": 2,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 2,
+    "class_D": 0,
+    "ok": 2,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

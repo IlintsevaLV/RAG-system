@@ -1,0 +1,16 @@
+{
+  "doc_id": "Руководство 23-29.605 по МОС образцов ВС",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\Руководство 23-29.605 по МОС образцов ВС.pdf",
+  "page_count": 24,
+  "pages": [],
+  "summary": {
+    "pages": 0,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 0,
+    "class_D": 0,
+    "ok": 0,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

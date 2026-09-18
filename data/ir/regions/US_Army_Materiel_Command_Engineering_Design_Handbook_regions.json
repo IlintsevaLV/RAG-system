@@ -1,0 +1,459 @@
+{
+  "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\US_Army_Materiel_Command_Engineering_Design_Handbook.pdf",
+  "page_count": 572,
+  "pages": [
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 246,
+      "summary": {
+        "page": 246,
+        "n_detections": 9,
+        "n_formulas": 7,
+        "n_tables": 2,
+        "n_figures": 0,
+        "table_ok": 2,
+        "formula_ok": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 146.0,
+            "y1": 108.45703887939453,
+            "x2": 167.93038940429688,
+            "y2": 131.13104248046875
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 243.0,
+            "y1": 218.2150421142578,
+            "x2": 301.94708251953125,
+            "y2": 241.32904052734375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.991891891891892,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 258.0,
+            "y1": 471.510009765625,
+            "x2": 502.9000244140625,
+            "y2": 607.8300170898438
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9800000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 140.0,
+            "y1": 373.1390075683594,
+            "x2": 606.3636474609375,
+            "y2": 443.4100036621094
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.98,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 260.0,
+            "y1": 619.239990234375,
+            "x2": 505.8084411621094,
+            "y2": 654.1290283203125
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9500000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 194.0,
+            "y1": 285.35699462890625,
+            "x2": 609.5,
+            "y2": 341.0500183105469
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.95,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 71.0,
+            "y1": 18.175003051757812,
+            "x2": 531.6500244140625,
+            "y2": 33.84500312805176
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.7420320027011578,
+          "method": "cv_line_grid",
+          "bbox": {
+            "x1": 145.07999999999998,
+            "y1": 450.35999999999996,
+            "x2": 525.6,
+            "y2": 654.12
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.65,
+          "method": "span_alignment",
+          "bbox": {
+            "x1": 69.0,
+            "y1": 16.175003051757812,
+            "x2": 611.5,
+            "y2": 687.5330200195312
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 146.0,
+            "y1": 108.45703887939453,
+            "x2": 167.93038940429688,
+            "y2": 131.13104248046875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "none",
+            "version": null,
+            "method": "none",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 243.0,
+            "y1": 218.2150421142578,
+            "x2": 301.94708251953125,
+            "y2": 241.32904052734375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=2",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "none",
+            "version": null,
+            "method": "none",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 258.0,
+            "y1": 471.510009765625,
+            "x2": 502.9000244140625,
+            "y2": 607.8300170898438
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=37",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "none",
+            "version": null,
+            "method": "none",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 140.0,
+            "y1": 373.1390075683594,
+            "x2": 606.3636474609375,
+            "y2": 443.4100036621094
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=5",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "none",
+            "version": null,
+            "method": "none",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "formula_04",
+          "type": "formula",
+          "bbox": {
+            "x1": 260.0,
+            "y1": 619.239990234375,
+            "x2": 505.8084411621094,
+            "y2": 654.1290283203125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=15",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "none",
+            "version": null,
+            "method": "none",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "formula_05",
+          "type": "formula",
+          "bbox": {
+            "x1": 194.0,
+            "y1": 285.35699462890625,
+            "x2": 609.5,
+            "y2": 341.0500183105469
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=6",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "none",
+            "version": null,
+            "method": "none",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "formula_06",
+          "type": "formula",
+          "bbox": {
+            "x1": 71.0,
+            "y1": 18.175003051757812,
+            "x2": 531.6500244140625,
+            "y2": 33.84500312805176
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=4",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "none",
+            "version": null,
+            "method": "none",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "table_07",
+          "type": "table",
+          "bbox": {
+            "x1": 145.07999999999998,
+            "y1": 450.35999999999996,
+            "x2": 525.6,
+            "y2": 654.12
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9904761904761905,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "docling_score=0.990",
+              "rows=7 cols=6 consistency=1.00"
+            ]
+          },
+          "content": {
+            "markdown": "| MATERIAL - ALLOY STEEL                                 | E. 10⁶psi - 29   | ALLOWABLE FA, psi - 100.000   | FA E - 0.0010   | DENSITY ρ. Ib/in³ - 0.28   | ρ 10⁶ in. - 103   |\n|--------------------------------------------------------|------------------|-------------------------------|-----------------|----------------------------|-------------------|\n| ALUMINUM                                               | 10               | 6.000 十                      | 0.0006          | 0.:0                       | 10G               |\n| \"E\"GLASS/EPOXY UNDIRECTIONAL BIDIRECTIONAL             | 6 3.5            | 8,700 + 4,200                 | 0.0014 0.0012   | 0.065 0.065                | 92 54             |\n| \"S\" GI.ASS/EPOXY UINDIRECTIONAL BIDIRECTIONAL          | 8 5              | 9,700 4,900 4                 | 0.0012 0.0010   | 0.074 0.074                | 108 67            |\n| BORON/EPOXY UNDIRECTIONAL BIDIRECTIONAL GRAPHITE/EPOXY | 36 21            | ±26,000 +13,000               | 0.0007 0.0006   | 0.074 0.074                | 486 284           |\n| UNDIRECTIONAL BID!RECTIONAL SPRUCE                     | 30 18*           | ±40,000* ±20,000*             | 0.0013 0.0011   | 0.053 0.053                | 565 340           |\n|                                                        | 1.4              | 2,000                         | 0.0014          | 0.016                      | 88                |",
+            "html": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<title>table_crop</title>\n<meta name=\"generator\" content=\"Docling HTML Serializer\"/>\n<style>\n    html {\n        background-color: #f5f5f5;\n        font-family: Arial, sans-serif;\n        line-height: 1.6;\n    }\n    body {\n        max-width: 800px;\n        margin: 0 auto;\n        padding: 2rem;\n        background-color: white;\n        box-shadow: 0 0 10px rgba(0,0,0,0.1);\n    }\n    h1, h2, h3, h4, h5, h6 {\n        color: #333;\n        margin-top: 1.5em;\n        margin-bottom: 0.5em;\n    }\n    h1 {\n        font-size: 2em;\n        border-bottom: 1px solid #eee;\n        padding-bottom: 0.3em;\n    }\n    table {\n        border-collapse: collapse;\n        margin: 1em 0;\n        width: 100%;\n    }\n    th, td {\n        border: 1px solid #ddd;\n        padding: 8px;\n        text-align: left;\n    }\n    th {\n        background-color: #f2f2f2;\n        font-weight: bold;\n    }\n    figure {\n        margin: 1.5em 0;\n        text-align: center;\n    }\n    figcaption {\n        color: #666;\n        font-style: italic;\n        margin-top: 0.5em;\n    }\n    img {\n        max-width: 100%;\n        height: auto;\n    }\n    pre {\n        background-color: #f6f8fa;\n        border-radius: 3px;\n        padding: 1em;\n        overflow: auto;\n    }\n    code {\n        font-family: monospace;\n        background-color: #f6f8fa;\n        padding: 0.2em 0.4em;\n        border-radius: 3px;\n    }\n    pre code {\n        background-color: transparent;\n        padding: 0;\n    }\n    .formula {\n        text-align: center;\n        padding: 0.5em;\n        margin: 1em 0;\n        background-color: #f9f9f9;\n    }\n    .formula-not-decoded {\n        text-align: center;\n        padding: 0.5em;\n        margin: 1em 0;\n        background: repeating-linear-gradient(\n            45deg,\n            #f0f0f0,\n            #f0f0f0 10px,\n            #f9f9f9 10px,\n            #f9f9f9 20px\n        );\n    }\n    .page-break {\n        page-break-after: always;\n        border-top: 1px dashed #ccc;\n        margin: 2em 0;\n    }\n    .key-value-region {\n        background-color: #f9f9f9;\n        padding: 1em;\n        border-radius: 4px;\n        margin: 1em 0;\n    }\n    .key-value-region dt {\n        font-weight: bold;\n    }\n    .key-value-region dd {\n        margin-left: 1em;\n        margin-bottom: 0.5em;\n    }\n    .form-container {\n        border: 1px solid #ddd;\n        padding: 1em;\n        border-radius: 4px;\n        margin: 1em 0;\n    }\n    .form-item {\n        margin-bottom: 0.5em;\n    }\n    .image-classification {\n        font-size: 0.9em;\n        color: #666;\n        margin-top: 0.5em;\n    }\n    details.docling-meta {\n        margin: 0.5em 0;\n        font-size: 0.9em;\n        text-align: left;\n    }\n    figure details.docling-meta {\n        text-align: left;\n    }\n    details.docling-meta > summary {\n        cursor: pointer;\n        color: #555;\n        font-style: italic;\n        padding: 2px 6px;\n    }\n    .docling-meta-field {\n        background-color: #f0f0f0;\n        border-left: 3px solid #ccc;\n        padding: 6px 10px;\n        margin: 4px 0 4px 1em;\n        border-radius: 3px;\n        text-align: left;\n    }\n    .docling-meta-field-label {\n        font-weight: bold;\n        color: #444;\n    }\n    pre.docling-meta-code {\n        background-color: #1e1e1e;\n        color: #d4d4d4;\n        border-radius: 4px;\n        padding: 10px 12px;\n        margin: 6px 0;\n        overflow-x: auto;\n        font-family: \"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, monospace;\n        font-size: 0.85em;\n        line-height: 1.45;\n        white-space: pre;\n        tab-size: 4;\n    }\n    pre.docling-meta-code code {\n        background: transparent;\n        border: none;\n        padding: 0;\n        color: inherit;\n        font-family: inherit;\n        font-size: inherit;\n        display: block;\n        white-space: pre;\n    }\n</style>\n</head>\n<body>\n<div class='page'>\n<table><tbody><tr><td>MATERIAL</td><th>E. 10⁶psi</th><th>ALLOWABLE FA, psi</th><th>FA E</th><th>DENSITY ρ. Ib/in³</th><th>ρ 10⁶ in.</th></tr><tr><td>ALLOY STEEL</td><th>29</th><th>100.000</th><th>0.0010</th><th>0.28</th><th>103</th></tr><tr><th>ALUMINUM</th><td>10</td><td>6.000 十</td><td>0.0006</td><td>0.:0</td><td>10G</td></tr><tr><th>&quot;E&quot;GLASS/EPOXY UNDIRECTIONAL BIDIRECTIONAL</th><td>6 3.5</td><td>8,700 + 4,200</td><td>0.0014 0.0012</td><td>0.065 0.065</td><td>92 54</td></tr><tr><th>&quot;S&quot; GI.ASS/EPOXY UINDIRECTIONAL BIDIRECTIONAL</th><td>8 5</td><td>9,700 4,900 4</td><td>0.0012 0.0010</td><td>0.074 0.074</td><td>108 67</td></tr><tr><th>BORON/EPOXY UNDIRECTIONAL BIDIRECTIONAL GRAPHITE/EPOXY</th><td>36 21</td><td>±26,000 +13,000</td><td>0.0007 0.0006</td><td>0.074 0.074</td><td>486 284</td></tr><tr><th>UNDIRECTIONAL BID!RECTIONAL SPRUCE</th><td>30 18*</td><td>±40,000* ±20,000*</td><td>0.0013 0.0011</td><td>0.053 0.053</td><td>565 340</td></tr><tr><td></td><td>1.4</td><td>2,000</td><td>0.0014</td><td>0.016</td><td>88</td></tr></tbody></table>\n</div>\n</body>\n</html>",
+            "n_rows": 7,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "docling",
+            "version": null,
+            "method": "docling",
+            "confidence": 0.9904761904761905,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 246,
+          "region_id": "table_08",
+          "type": "table",
+          "bbox": {
+            "x1": 69.0,
+            "y1": 16.175003051757812,
+            "x2": 611.5,
+            "y2": 687.5330200195312
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9925925925925926,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "peaks=12 short=575",
+              "docling_score=0.993",
+              "rows=9 cols=6 consistency=1.00"
+            ]
+          },
+          "content": {
+            "markdown": "the one that has the highest ratio of strength to modulus of elasticity. Any material with a high modulus of elasticity that does not have a proportionately liigh strength is undesirable.\n\nConsidering only ratio FA/E as the critcrion, Column 3 of Table 5-4 indicates steel is superior to aluminum, and Fiberglas or graphite is superior to either metal. Roron is not particularly attrachve. Wood (sprucs} ia highly fatigue-resistart, but also has disadvantages that preclude serious cohsideration for prescnt-gencration helicopters.\n\nTable 5-4 is a comparison of the ratios of material fatigue allowable (FA) to modulus of elasticity E for a sample of available rotor blade mnaterials. The comparison uses fatigue strength because this factor is of primary importanc in rotor blades. The values given are based on experience with actval structuires and arc less than the values obtained from laboratory specimen data; however, they are presented here for illustrative purposes only. Specific values of fatigue strength for metals, piastics, and sandwich structures are contained in MIL-HDBK-5, -17, and -23, respectively. Care must be exercised in using any given values for fatigue strength since the configuration of the specific component as well as the necessary manufacturing processes may adversely affect he material properties.\n\nUp te this point, the discussion of materials has deait with blade bcnding cnly. When more than one In a rotating field, the centrifugal force (CF) generated by cach blade element is proportional to the mass density of the specific material and the position of the clement along the blade radius, or span. When two continuous spanwise members, cach of a different material, are side-by-side in a conimon centrifugal field, cach will tend to strain an amount that -sp   s  s s  in versely proportional to its modules of elasticity E. In most cases, the two members are bonded together with an adhesive that can transfer load from one to the other by shear, causing them to strain equally. This being the casc, the material with the higher value of the ratio E/e will pick up load from the other material and be stressed higher than if it werc rotating by itself. Thus, it is desirabie that two or more materials. used in conibination, have fairly similar valuzs of E/ρ. Colunin 5 of Tahle 5-4 indicates that aluminum and stee! are highly compatible in this respest, and Fiberg!as in combinaiun with stcel or aluminum is acceptable. Boror and graphite are compatible with eaci other, but eithes shoull be used with caution ir combination with stœel, aluminum, or Fiberglas.\n\nCOMPARISON OF MATERIAL PROPERTIES TABLE 5-4.\n\n| MATERIAL                                                              | 1 E, 10psi   | 2 FATIGUE ALLOWABLE FA, psi   | 3 FA E        | 4 DENSITY ρ. Ib/in³   | 5 E ρ 10⁶ in.   |\n|-----------------------------------------------------------------------|--------------|-------------------------------|---------------|-----------------------|-----------------|\n| ALLOY STEEL                                                           | 29           | 100.000                       | 0.0010        | 0.28                  | 103             |\n| ALUMINUM                                                              | 10           | 6.000                         | 0.0006        | 0.:0                  | 10G             |\n| \"E\" GLASS/EPOXY UNDIRECTIONAL BIDIRECTIONAL                           | 6 3.5        | 8,700 4,200                   | 0.0014 0.0012 | 0.065 0.065           | 92 54           |\n| \"S\" GIASS/EPOXY UNDIRECTIONAL BIDIRECTIONAL BORON/EPOXY UNDIRECTIONAL | 8 5          | 9,700 4 4,900                 | 0.0012 0.0010 | 0.074 0.074           | 108 67          |\n| BIDIRECTIONAL                                                         | 36 21        | ±26,000 +13,000               | 0.0007 0.0006 | 0.074 0.074           | 486 284         |\n| GRAPHITE/EPOXY UNDIRECTIONAL BID!RECTIONAL                            | 30           | ±20,000*                      | 0.0011        | 0.053                 | 340             |\n|                                                                       | 18*          | ±40,000*                      | 0.0013        | 0.053                 | 565             |\n| SPRUCE                                                                | 1.4          | 2,000                         | 0.0014        | 0.016                 | 88              |\n\nmatcrial is used in a rotor biadc, other considerations are necessary since a rotor blade operates in a rotating fieid. In this condition, strcin compatibility determined by the ratio of modulus of elasticity E to mass density ρ becomes an important factor.",
+            "html": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<title>table_crop</title>\n<meta name=\"generator\" content=\"Docling HTML Serializer\"/>\n<style>\n    html {\n        background-color: #f5f5f5;\n        font-family: Arial, sans-serif;\n        line-height: 1.6;\n    }\n    body {\n        max-width: 800px;\n        margin: 0 auto;\n        padding: 2rem;\n        background-color: white;\n        box-shadow: 0 0 10px rgba(0,0,0,0.1);\n    }\n    h1, h2, h3, h4, h5, h6 {\n        color: #333;\n        margin-top: 1.5em;\n        margin-bottom: 0.5em;\n    }\n    h1 {\n        font-size: 2em;\n        border-bottom: 1px solid #eee;\n        padding-bottom: 0.3em;\n    }\n    table {\n        border-collapse: collapse;\n        margin: 1em 0;\n        width: 100%;\n    }\n    th, td {\n        border: 1px solid #ddd;\n        padding: 8px;\n        text-align: left;\n    }\n    th {\n        background-color: #f2f2f2;\n        font-weight: bold;\n    }\n    figure {\n        margin: 1.5em 0;\n        text-align: center;\n    }\n    figcaption {\n        color: #666;\n        font-style: italic;\n        margin-top: 0.5em;\n    }\n    img {\n        max-width: 100%;\n        height: auto;\n    }\n    pre {\n        background-color: #f6f8fa;\n        border-radius: 3px;\n        padding: 1em;\n        overflow: auto;\n    }\n    code {\n        font-family: monospace;\n        background-color: #f6f8fa;\n        padding: 0.2em 0.4em;\n        border-radius: 3px;\n    }\n    pre code {\n        background-color: transparent;\n        padding: 0;\n    }\n    .formula {\n        text-align: center;\n        padding: 0.5em;\n        margin: 1em 0;\n        background-color: #f9f9f9;\n    }\n    .formula-not-decoded {\n        text-align: center;\n        padding: 0.5em;\n        margin: 1em 0;\n        background: repeating-linear-gradient(\n            45deg,\n            #f0f0f0,\n            #f0f0f0 10px,\n            #f9f9f9 10px,\n            #f9f9f9 20px\n        );\n    }\n    .page-break {\n        page-break-after: always;\n        border-top: 1px dashed #ccc;\n        margin: 2em 0;\n    }\n    .key-value-region {\n        background-color: #f9f9f9;\n        padding: 1em;\n        border-radius: 4px;\n        margin: 1em 0;\n    }\n    .key-value-region dt {\n        font-weight: bold;\n    }\n    .key-value-region dd {\n        margin-left: 1em;\n        margin-bottom: 0.5em;\n    }\n    .form-container {\n        border: 1px solid #ddd;\n        padding: 1em;\n        border-radius: 4px;\n        margin: 1em 0;\n    }\n    .form-item {\n        margin-bottom: 0.5em;\n    }\n    .image-classification {\n        font-size: 0.9em;\n        color: #666;\n        margin-top: 0.5em;\n    }\n    details.docling-meta {\n        margin: 0.5em 0;\n        font-size: 0.9em;\n        text-align: left;\n    }\n    figure details.docling-meta {\n        text-align: left;\n    }\n    details.docling-meta > summary {\n        cursor: pointer;\n        color: #555;\n        font-style: italic;\n        padding: 2px 6px;\n    }\n    .docling-meta-field {\n        background-color: #f0f0f0;\n        border-left: 3px solid #ccc;\n        padding: 6px 10px;\n        margin: 4px 0 4px 1em;\n        border-radius: 3px;\n        text-align: left;\n    }\n    .docling-meta-field-label {\n        font-weight: bold;\n        color: #444;\n    }\n    pre.docling-meta-code {\n        background-color: #1e1e1e;\n        color: #d4d4d4;\n        border-radius: 4px;\n        padding: 10px 12px;\n        margin: 6px 0;\n        overflow-x: auto;\n        font-family: \"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, monospace;\n        font-size: 0.85em;\n        line-height: 1.45;\n        white-space: pre;\n        tab-size: 4;\n    }\n    pre.docling-meta-code code {\n        background: transparent;\n        border: none;\n        padding: 0;\n        color: inherit;\n        font-family: inherit;\n        font-size: inherit;\n        display: block;\n        white-space: pre;\n    }\n</style>\n</head>\n<body>\n<div class='page'>\n<p>the one that has the highest ratio of strength to modulus of elasticity. Any material with a high modulus of elasticity that does not have a proportionately liigh strength is undesirable.</p>\n<p>Considering only ratio FA/E as the critcrion, Column 3 of Table 5-4 indicates steel is superior to aluminum, and Fiberglas or graphite is superior to either metal. Roron is not particularly attrachve. Wood (sprucs} ia highly fatigue-resistart, but also has disadvantages that preclude serious cohsideration for prescnt-gencration helicopters.</p>\n<p>Table 5-4 is a comparison of the ratios of material fatigue allowable (FA) to modulus of elasticity E for a sample of available rotor blade mnaterials. The comparison uses fatigue strength because this factor is of primary importanc in rotor blades. The values given are based on experience with actval structuires and arc less than the values obtained from laboratory specimen data; however, they are presented here for illustrative purposes only. Specific values of fatigue strength for metals, piastics, and sandwich structures are contained in MIL-HDBK-5, -17, and -23, respectively. Care must be exercised in using any given values for fatigue strength since the configuration of the specific component as well as the necessary manufacturing processes may adversely affect he material properties.</p>\n<p>Up te this point, the discussion of materials has deait with blade bcnding cnly. When more than one In a rotating field, the centrifugal force (CF) generated by cach blade element is proportional to the mass density of the specific material and the position of the clement along the blade radius, or span. When two continuous spanwise members, cach of a different material, are side-by-side in a conimon centrifugal field, cach will tend to strain an amount that -sp   s  s s  in versely proportional to its modules of elasticity E. In most cases, the two members are bonded together with an adhesive that can transfer load from one to the other by shear, causing them to strain equally. This being the casc, the material with the higher value of the ratio E/e will pick up load from the other material and be stressed higher than if it werc rotating by itself. Thus, it is desirabie that two or more materials. used in conibination, have fairly similar valuzs of E/ρ. Colunin 5 of Tahle 5-4 indicates that aluminum and stee! are highly compatible in this respest, and Fiberg!as in combinaiun with stcel or aluminum is acceptable. Boror and graphite are compatible with eaci other, but eithes shoull be used with caution ir combination with stœel, aluminum, or Fiberglas.</p>\n<table><caption><div class=\"caption\">COMPARISON OF MATERIAL PROPERTIES TABLE 5-4.</div></caption><tbody><tr><td>MATERIAL</td><th>1 E, 10psi</th><th>2 FATIGUE ALLOWABLE FA, psi</th><th>3 FA E</th><th>4 DENSITY ρ. Ib/in³</th><th>5 E ρ 10⁶ in.</th></tr><tr><th>ALLOY STEEL</th><td>29</td><td>100.000</td><td>0.0010</td><td>0.28</td><td>103</td></tr><tr><th>ALUMINUM</th><td>10</td><td>6.000</td><td>0.0006</td><td>0.:0</td><td>10G</td></tr><tr><th>&quot;E&quot; GLASS/EPOXY UNDIRECTIONAL BIDIRECTIONAL</th><td>6 3.5</td><td>8,700 4,200</td><td>0.0014 0.0012</td><td>0.065 0.065</td><td>92 54</td></tr><tr><th>&quot;S&quot; GIASS/EPOXY UNDIRECTIONAL BIDIRECTIONAL BORON/EPOXY UNDIRECTIONAL</th><td>8 5</td><td>9,700 4 4,900</td><td>0.0012 0.0010</td><td>0.074 0.074</td><td>108 67</td></tr><tr><th>BIDIRECTIONAL</th><td>36 21</td><td>±26,000 +13,000</td><td>0.0007 0.0006</td><td>0.074 0.074</td><td>486 284</td></tr><tr><th>GRAPHITE/EPOXY UNDIRECTIONAL BID!RECTIONAL</th><td>30</td><td>±20,000*</td><td>0.0011</td><td>0.053</td><td>340</td></tr><tr><td></td><td>18*</td><td>±40,000*</td><td>0.0013</td><td>0.053</td><td>565</td></tr><tr><th>SPRUCE</th><td>1.4</td><td>2,000</td><td>0.0014</td><td>0.016</td><td>88</td></tr></tbody></table>\n<p>matcrial is used in a rotor biadc, other considerations are necessary since a rotor blade operates in a rotating fieid. In this condition, strcin compatibility determined by the ratio of modulus of elasticity E to mass density ρ becomes an important factor.</p>\n</div>\n</body>\n</html>",
+            "n_rows": 9,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "docling",
+            "version": null,
+            "method": "docling",
+            "confidence": 0.9925925925925926,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

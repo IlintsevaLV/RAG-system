@@ -1,0 +1,89 @@
+{
+  "doc_id": "РДК_молниезащита 89г",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РДК_молниезащита 89г.pdf",
+  "page_count": 503,
+  "pages": [
+    {
+      "doc_id": "РДК_молниезащита 89г",
+      "page": 83,
+      "page_class": "A",
+      "status": "ok",
+      "text": "fairly accurate. However, the sharp nose boom on the\nF-106 is less accurately modeled, so actual enhance-\nments on the F-106 are likely to be larger than the\nmodel predicts.\nHybrid lightning: third type A of strike to an aircraft\nis possible, which may be called a \"hybrid\" strike in\nthat it is a combination of a triggered and natural\nevent. A natural lightning leader channel might pass\nnear the aircraft, but not near enough for the distor-\ntion in the electric field produced by the aircraft to\nalter the channel course. The lightning leader, being\nhighly charged, creates in the space around it an in-\ntense electric field. The field at the aircraft might then\nbe large enough to cause a triggered streamer from the\naircraft. The streamer would then certainly propagate\nto the natural channel, becoming a branch of the nat-\nural leader. It is unclear whether a strike of this kind\nwould be more characteristic of a natural strike or a\ntriggered strike.\nA simple calculation can be done to get some idea\nof how near a natural leader must be to the aircraft\nto cause a hybrid strike. For simplicity, the natural\nchannel will be assumed to be vertical and have a uni-\nform charge density per unit length. Also, steady state\nconditions will be assumed, a valid assumption since\nthe lightning leader propagates so much slower than\nthe velocity of light that no retardation effects need\nbe considered. The electric field around an infinitely\nlong directed is radially length per unit A charge line of\nand given by:.1\nEr (3.1) =\nwhere\nx 10-TH/m 47r e0 =\nr radius = of the line of charge (in).\nthe air- for factor enhancement an assumes one If\nof nose the around typical is which 10, about craft of\nthe F-106B aircraft, the distance at which triggering\nwould occur is:\nrAa A (3.2)\n\"trg=2,reo(Eb/1O)(32\nvalue typical A field. breakdown air the is where Eb\nor distance kilometer 3 a over coulombs 5 is A for\n1.667 x 10' coulombs per meter. varies Eb with\n.and and sea level V/m at x 10' about 3 being altitude,\nabout 1.5 x V/m 10s at 27 000 feet . Substituting\nthese numbers into the above equations gives trigger-\ning distances of approximately 100 meters at sea level\ntwice that at 8000 m (27 000) feet altitude. This\n\nis a significantly greater distance than the distance at\nwhich the presence of the aircraft can directly alter\nthe course of a natural lightning channel and hence a\nhybrid flash would appear much more likely to contact\nstrike. would a natural an aircraft than\nThe region through which the passage of a natural\nlightning leader might be expected to initiate a leader\nfrom the aircraft can be called the capture cross sec-\ntion. detailed A study of the hybrid lightning process\n[3.57] has been done for the F-106. Fig. 3.30 shows\nthe capture cross section as a function of altitude. The\nparameters for this calculation were zero net charge on\nthe aircraft and a channel charge density of 1 x 10-\nC/in.\nThe capture cross section is also a function of air-\ncraft net static charge. A summary of this variation is\nshown in Table 3.6.' It is seen that the cross section is\non the order of square meters and increases with 104\nincreasing altitude and charge.\nThe capture cross section can be combined with\naircraft flight patterns and the flash rate density of a\nstorm to obtain the expected probability of a strike to\nthe aircraft. Calculations of this type have been done\nto try to enhance the probability of lightning attach-\nment to the F-106B research aircraft [3.71].\n000 ft 30 44\n001\n0\n-ma\n240 120\nmeter,\nFig. 3.30 Capture cross section vs altitude.\nTable 3.8\n Mean Capttsre Cross Section Area (xIO' mn 2 )\nmt ( Airci e tA on (pC) amd Charge Altitude vs\nQ Q - -000 -G00 -300 Q Q - 0 Altitude - -\nlevel Sea 0.455 0.471 0.510 0.379\n10 000 i 0.8\" 0.878 1.012 1.273\n20 000 1.801 1.726 2.247 3.263 ft\n65",
+      "text_source": "layer",
+      "layout": {
+        "n_columns": 2,
+        "likely_table": true,
+        "unusual_layout": false,
+        "notes": [
+          "two_column_split mid=307.2 left=373 right=289",
+          "table_like_span_density"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.9431237408248412,
+      "lexical_quality": 0.9765714285714284,
+      "iqs_level": null,
+      "confidence": 0.9765714285714284,
+      "preview_path": null,
+      "notes": [
+        "classified=A",
+        "technical_tokens=2",
+        "content_tokens_ge_5=280",
+        "ink_ratio=0.1979 text_cov=0.3635 ink_in_text=0.434",
+        "likely_table_flagged_for_later_stage",
+        "columns=2"
+      ],
+      "provenance": {
+        "tlq": 0.9431237408248412,
+        "lexical_quality": 0.9765714285714284,
+        "garbage_veto": false
+      }
+    },
+    {
+      "doc_id": "РДК_молниезащита 89г",
+      "page": 246,
+      "page_class": "A",
+      "status": "ok",
+      "text": "distribution time constants in a CFC aircraft are much\nfaster than in a metal aircraft. The phenomena of\ndistribution is discussed further in Cha.ter 11.\n8.5.3 Capacitively Generated Currents\nThe third type of coupling, Fig. 8.10, involves\nelectric fields passing directly through apertures, such\nas windows or canopies, to the interior of the aircraft.\nThe displacement current forced through a grounded\nobject, Fig. 8.10(c) is\n (8.4) A 2 x LE 8.85 ,= 10-\nwhere A is the area available to intercept displacement\ncurrent E is the intensity of the electric field. If the\ncurrent flows through an impedance it will, of course,\nproduce an electrically induced voltage. Capacitively\ninduced voltages and currents, which are discussed\n§9.8.3, are proportional to the rate of electric of change\nfield, frequently referred to as E or E dot.\n(a) tthat E~t\n.\nZino Eim\nEt E~zdecisions\n(b)\nBMesuem\n• , ,proaches\n(c)\nFig. 8.10 Aperture-type electric field coupling.\n(a) Extermal field pattens\n(b) Internal field patterns\n(c) Induced current\n\nIn metal aircraft, electric field coupling is entirely\nre- through apertures, since virtually any thickness of\nmetal provides extremely good shielding against elec-\ntric fields. With composite aircraft this may or may\nnot be the case.\n8.6 Approaches to Determining the\nResponse of Circuits\nThere are two basic methods of conducting a flow-\ndown analysis, that is, determining how much voltage\nand current might be induced on aircraft wiring by\nmeasurement. and analysis lightning; numerical\nNumerical analysis: Since an aircraft is a complex\nstructure it is difficult to determine by analytical\nmeans the voltages and currents that might be in-\nduced on aircraft wiring by lightning. Some techniques\nare available for such analyses and they are reviewed\nin in Chapters 10, 11 and 12. Most of them are based\non techniques derived from the field, and in NEMP\nfact most of the advanced numerical and mathemati-\ncal treatments of lightning interactions have their ori-\ngins in the analytical studies funded by efforts. NEMP\nAll of them require a considerable investment in com-\nputer resources and training of personnel. They are\nalso limited in the degree to which they can predict 0\nthe voltages and curients of actual aircraft wiring, as\nopposed to idealized and oversimplified geometries.\nNumerical analysis, though, has the prime virtue\none can predict the general responses of an air-\ncraft that has yet to be built. Also, using simplified\nand idealized geometries, one can predict the order of\nmagnitude of voltage and current on circuits too com-\nplex to analyze precisely. Frequently, an order of mag-\nnitude estimate of the voltages and current induced by\nlightning is enough to enable one to make intelligent\nregarding protective measures, In particular\nthis is true if the primary purpose of the analysis is to\ngive guidance for as to the levels at which to conduct\nlaboratory proof tests.\nThe other way of analysing the re- nts:\nsponse of an aircraft to lightning is to inject current\ninto the aircraft and actually measure the resulting\nvoltages and currents on wiring. Three basic ap.\nto such tests are as follows.\n1. Inject continuous wave alternating currents into\nthe aircraft and make frequency domain mea-\nsurements of the response, relating the measured\nresponse to the response to lightning through\nFourier analysts techniques.\n2. Inject high level (full threat level) pulse currents\ninto the aircraft and measure the response in the\n2,0",
+      "text_source": "layer",
+      "layout": {
+        "n_columns": 2,
+        "likely_table": true,
+        "unusual_layout": false,
+        "notes": [
+          "two_column_split mid=311.0 left=162 right=377",
+          "table_like_span_density"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.9448315492136181,
+      "lexical_quality": 0.9295094339622642,
+      "iqs_level": null,
+      "confidence": 0.9295094339622642,
+      "preview_path": null,
+      "notes": [
+        "classified=A",
+        "technical_tokens=4",
+        "content_tokens_ge_5=265",
+        "ink_ratio=0.2128 text_cov=0.3314 ink_in_text=0.456",
+        "likely_table_flagged_for_later_stage",
+        "columns=2"
+      ],
+      "provenance": {
+        "tlq": 0.9448315492136181,
+        "lexical_quality": 0.9295094339622642,
+        "garbage_veto": false
+      }
+    }
+  ],
+  "summary": {
+    "pages": 2,
+    "class_A": 2,
+    "class_B": 0,
+    "class_C": 0,
+    "class_D": 0,
+    "ok": 2,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

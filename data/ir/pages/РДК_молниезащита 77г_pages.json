@@ -1,0 +1,82 @@
+{
+  "doc_id": "РДК_молниезащита 77г",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РДК_молниезащита 77г.pdf",
+  "page_count": 564,
+  "pages": [
+    {
+      "doc_id": "РДК_молниезащита 77г",
+      "page": 83,
+      "page_class": "A",
+      "status": "ok",
+      "text": "REFERENCES\nL. P. Harrison, 3.1 Lightning Discharge to Aircraft and Related Meteorological\nTechnical Note 1001, National Advisory Committee for Conditions,\nAeronautics, Washington, D.C. (May 1946).\nJ. M. M. Newman and D. Robb, 3.2 Aircraft Protection from Atmospheric\nASD Technical Report 61-493, L and T Report 374, Electrical Hazards,\nLightning and Transients Research Institute, Minneapolis, Minnesota\n(December 196 1).\n\"Lightning Strike Survey Report for the Period of January 1965 through 3.3\nDecember of 1966,\" Federal Aviation Agency Report o f the Conference\nAppendix 11, on Fire Safety Measures for Aircraft Fuel Systems,\nDepartment of Transportation, Washington, D.C. (December 1967).\nB. I. Hourihan, 3.4 Data from the Airlines Lightning Strike Reporting Project,\nSummary Report GPR-75-004, High June 19 71 to November 1974,\nVoltage Laboratory, Electromagnetics Unit, Corporate Research and\nDevelopment, General Electric Company, Pittsfield, Massachusetts (March\n1975).\nR. B. Anderson and H. Kroninger, \"Lightning Phenomena in the 3.5\nLightning Strikes to Aircraft,\" Aerospace Environment: Part 11, Proceed-\nConference on Lightning and Static Electricity at Culham ings o f the 1975\nSession Fundamental Aspects I : Laboratory, England, 14-1 7 April 1975,\nand Test Criteria, the Royal Aeronautical Society of London (December\n1975).\nB. A. Plumer and L. Perry, \"An Analysis of Lightning Strikes in Airline J. 3.6\nOperation in the USA and Europe,\" Proceedings of the 1975 Confererzce\non Lightr~ing arzd Static Electricity at Cltlham Laboratory, England, 14-1 7\nSession Aircraft Applications, the Royal Aeronautical IV: 1975, April\nSociety of London (December 1975).\n0. K. Trunov, \"Conditions of Lightning Strikes in Air Transports and 3.7\nCertain General Lightning Protection Requirements,\" Proceedings o f the\nand Static Electricity at Culham Labora- 1975 Conference on Lightning\nSession Aircraft Applications, the IV: tory, England, 14-1 7 April 1975,\nRoyal Aeronautical Society of London (December 1975).\nNewman and Robb, pp. 97, 99. 3.8 Aircraft Protection,\nHourihan, p. 1. 3.9 Data from the Airlines, 1\n3.10 H. T. Harrison, UAL UAL Turbojet Experience with Electrical Discharges,\nMeteorological Circular No. 57, United Air Lines, Chicago, Illinois\n1, (January 1965), pp. 2748.\n3.1 1 H. Harrison, pp. 37, 39, 47,43, 30. T. UAL Turbojet Experience,\n2, 3.17, PLumer and Perry, \"An Analysis of Lightning Strikes,\" 10. pp.\n3.13 Plumer and Perry, \"An Analysis of Lightning Strikes,\" p. 10.\nL. 3.14 P. Harrison (1946) summarized H. T. Harrison in by UAL Turbojet\np. 4. Experience,\n3.1 H. T. Harrison, p. 10. 5 UAL Turbojet Experience,\n6 Hourihan, p. 3.1 Data from the Airlines, 1 1 .",
+      "text_source": "layer",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": true,
+        "unusual_layout": false,
+        "notes": [
+          "table_like_span_density"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.9407568994500024,
+      "lexical_quality": 0.92875,
+      "iqs_level": null,
+      "confidence": 0.92875,
+      "preview_path": null,
+      "notes": [
+        "classified=A",
+        "technical_tokens=7",
+        "content_tokens_ge_5=192",
+        "ink_ratio=0.1011 text_cov=0.2446 ink_in_text=0.403",
+        "likely_table_flagged_for_later_stage"
+      ],
+      "provenance": {
+        "tlq": 0.9407568994500024,
+        "lexical_quality": 0.92875,
+        "garbage_veto": false
+      }
+    },
+    {
+      "doc_id": "РДК_молниезащита 77г",
+      "page": 246,
+      "page_class": "A",
+      "status": "ok",
+      "text": "12 20 28 32 8 16 24 36\nNUMBER OF PLYS\nEstimated visible damage to unprotected boron composites. Figure 7.37\nto the lightning current action integral, even when this quantity is delivered over\n7.4, a period of up to one second, as it is in continuing currents. Table which is\nbased on these tests, compares the capability of boron and graphite composites\nto lightning currents with and without degradation of their mechanical conduct\nstrength properties.\nSince this table has been prepared from a variety of tests, the numbers in it\nmust be considered approximate. When results were compiled, a range of about\none order of magnitude of action integral was found to separate samples which\nexperienced no discernible loss of strength from those which lost 50% or more\nof their former tensile or shear strength. From Table it is evident that a 7.4\ncross-sectional area of about 16 crn2 of boron composite is necessary to conduct\na 2 severe stroke of 2 x lo6 A ~ - s ; yet only or cm2 of graphite composite 3\nwould be needed to conduct the same current.\nIn many cases it may not be practical or necessary to prevent localized\ndamage at the arc attachment point, but it is important to assure that the",
+      "text_source": "layer",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.9321331587282963,
+      "lexical_quality": 0.9790322580645161,
+      "iqs_level": null,
+      "confidence": 0.9790322580645161,
+      "preview_path": null,
+      "notes": [
+        "classified=A",
+        "technical_tokens=2",
+        "content_tokens_ge_5=93",
+        "ink_ratio=0.1657 text_cov=0.1211 ink_in_text=0.400"
+      ],
+      "provenance": {
+        "tlq": 0.9321331587282963,
+        "lexical_quality": 0.9790322580645161,
+        "garbage_veto": false
+      }
+    }
+  ],
+  "summary": {
+    "pages": 2,
+    "class_A": 2,
+    "class_B": 0,
+    "class_C": 0,
+    "class_D": 0,
+    "ok": 2,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

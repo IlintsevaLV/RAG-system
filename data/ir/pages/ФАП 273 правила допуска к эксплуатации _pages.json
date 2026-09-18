@@ -1,0 +1,16 @@
+{
+  "doc_id": "ФАП 273 правила допуска к эксплуатации ",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\ФАП 273 правила допуска к эксплуатации .pdf",
+  "page_count": 23,
+  "pages": [],
+  "summary": {
+    "pages": 0,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 0,
+    "class_D": 0,
+    "ok": 0,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

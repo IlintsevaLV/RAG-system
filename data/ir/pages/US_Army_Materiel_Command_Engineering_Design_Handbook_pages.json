@@ -1,0 +1,99 @@
+{
+  "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\US_Army_Materiel_Command_Engineering_Design_Handbook.pdf",
+  "page_count": 572,
+  "pages": [
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 83,
+      "page_class": "C",
+      "status": "ok",
+      "text": "“\nside the airframc and ate cxposcd on all sides. This\nplicaled shapes, may require morc complex anti-icing\narrangcment, an cxampk of whit is shown in Fig. 3-\nsubsysicms.\nTwin-engine helicopiers often employ the semi-\n3, cornmonly is used with a streamlined nacelie that\nprovides environmental protection and reduces aero-\nexposed configuraticn. This enabis a singke housing\ndynamic drag. The exiernally mountcd enginc ar-\nuni to enclose ali engines, and provides good a.cessi-\nrangemcnt provides the hest accessibility, provided\nDihnty to all cugines provided ihey are spaced suffici-\nadequaie service platforms or other convenient work\nently fas apari. Additionial accessibility can be ob-\narcas arc availabie.\nThe naccllks sometimes are auached directly to\nthis is done, thc designer must pay particuiar atter-\ntion to the seals on thr removabie sections. Laby-\nfuselage frames. Aces: to the cngines ucually is pro-\ntinth scals arc superior to otlier sealing methoos\nvided by removabk pancis. The enginc mounts may\nbecause ihey can ne separated repeatcdly: however,\nbe incorporated into the basic nacelle siructure. A\nthey do not seal as welt as otler methods.\nfca.urc of this typc of nacelke consiructioy is that\nInterchangeability berween cngine installaion\nmany cxterngl surfares may consist of hinged penels,\nconinoneris is desirable. and usually can be obtained\nwhich when open. capos the engine. If desised, the\npancls may be opened individuaiy for servicing any\nfor the exhaust ducts, cngine mounts, and cnginc con-\ntrol installations. Careful design will enabic many\nlocalized section of the engine. When the panels arc\ndetail parts to be used on opposite assembies with\nin tl:e closed and focked position, they can become\nloadsiaring structural members of the naceik. The\nconsiderable savings in initial and maintenance costs.\naiong with increasco aircraft availability.\npancis also mav be designed o serve as a work plat-\nform. This arrangcment tequires a minimum amoent\n3-2.1.3 Eapous Ieztellation\ncf fixed structure and meguls\nіn\nIn the expused installation, engines are located out-\nbility of the enginc.\ntigure 33. Exposd Engie iasallasion (Example?\n3-3",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.9465151861082961,
+      "lexical_quality": 0.5195798319327731,
+      "iqs_level": "good",
+      "confidence": 0.921508125,
+      "preview_path": "data\\cache\\extract\\US_Army_Materiel_Command_Engineering_Design_Handbook\\page_0083_cd.png",
+      "notes": [
+        "classified=C",
+        "garbage_veto lexical_quality=0.520 < 0.75 (n=119)",
+        "technical_tokens=1",
+        "content_tokens_ge_5=119",
+        "garbage_veto overridden route→ocr (lexical_quality=0.520, weighted_tlq=0.947)",
+        "ink_ratio=0.1561 text_cov=0.1503 ink_in_text=0.479",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.9465151861082961,
+        "lexical_quality": 0.5195798319327731,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "ocr_mean_confidence": 0.921508125,
+        "ocr_lines": 48
+      }
+    },
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 246,
+      "page_class": "C",
+      "status": "ok",
+      "text": "AMCP 706-202\nmatcria! is used in a rotor biade, other considerations\nthe one that has the highest ratio of strength to\nmodulus of elasticity. Any material with a high\nare necessary since a rotor blade operates in a rota-\nting ficid. In this condition, strcin compatibility\nmodulus of elasticity that docs noi have a propor-\ntionatcly iigh strength is undesirablc.\ndctermined by the ratio of modulus of elasticity E to\nTable 54 is a comparison of the ratios of material\nmass density p becomcs an important factor.\nIn a rotating field, the centrifugal force (CF)\nfatigue allowable (FA) to modulus of elasticity E for a\ngencrated ty cach blade elcment is proportional to\nsample of availablc rotor blade matcrials. The com-\nthe mass density of the specific materia! and the posi-\nparison uses fatiguc strength becausc this factor is of\nprimary importance in rotor blades. The values given\ntion of the clement along the biade radius, or span.\nWhen two continuouis spanwisc members, cach of a\narc based on expericnce with actval structires and\narc less than thc valucs obtained from laboratory\ndifferent material, are sidc-by-sidc in a conimon cen-\nspecimen data; however, they are presented here for\ntrifugal fieid, cach will tend to strain an amount that\nis proportional to its respecive mass density o and in-\nillustrative purposcs only. Srecific values of fatigue\nversely proportional to its modulus of elasticity E. In\nstrength for metals, piastics, and sandwich structures\nmost cases, the two members are bonded together\nare contained in MIL-HDBK-5, -17, and -23, respec-\ntively. Care must be exercised in using any given\nwith an adhesive that can transfer load from one to\nvalues for fatigue strength since the configuration of\nthe other by shear, causing them to strain equally.\nthe specific component as well as the necessary manu-\nThis being the casc, the material with the higher value\nof the ratio E/e will pick up load from the other\nfacturing processcs may adversely affect ihe material\nmaterial and be stressed higher than if it werc ro-\nproperties.\ntating by itseif. Thus, it is desirabie that two or more\nConsidering only ratio FA/E as the critcrion,\nmaterials, used in conbination, have fairly similar\nColumn 3 of Table 5-4 indicates steel is supcrior to\nvaluss of E/p. Colunin 5 of Table 5-4 incicates that\nalumincm, and Fibergias or graphite is superior to\naluminum and stee! are highly comnstible in this\ncither metal Roron is not particusarly attractive.\nrespeit, and Fiberglas in combinaiiun with stecel or\nWood (spruce } is Nighly fatiguc-resistart, but also has\ndisadvantages that preclude serious consideration for\ncluminum is scceptable. Boror and graphite a.'e com-\npatible with cacin other, but cithes shoull be used\npreseni-gentration helicopters.\nwith caution ir combingtion with steel, aluminum, or\nUp to this point, the discussion of matcrials has\ndrait with blac bending only. When more than onc\nFiberglas.\nTABLE 5-4. COMPARISON OF MATERIAL PROPERTIES\n2\n5\n3\n4\nE\nFATIGUE\nDENSITYp.\nMATERIAL\nALLOWABLE\nlb/in\n10°psi\n106 in.\nFA, psi\n29\n±0,000\n0.0010\n0.28\nALLOY STEEL\n103\n0.0\n10C\nALUMINUM\n10\n6,000\n\"E\" GLASS/EPOXY\n8.700\n0.0014\n6\n0.065\n92\nUNDIRECTONAL\n3.5\n+4.20C\n0.065\n54\n0.0012\nBIDIRECTIONAL\n\"S\" GIASS/EPOXY\n:9,700\n0.074\n103\n8\n0.0012\nUNDIRECTIONAL\n4.900\n67\n0.074\nBIDIRECTIONAL\n5\n0.0010\nBORON/EPOXY\n36\n26,000\nUNDIRECTIONAL\n0.0007\n486\n0.074\n21\n0.074\nBIDIRECTIONAL\n13.000\n0.0006\n284\nGRAPHITE/EPOXY\n±40.000\n0.053\n30\n0.0013\n565\nUNOIRECTIONAL\n18*\n±20.000\n0.053\nBID!RECTIONAL\n0.0011\n2,000\n0.016\nSPRUCE\n0.0014\n1.4\n88\n5-51",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.9484178751720143,
+      "lexical_quality": 0.8045833333333332,
+      "iqs_level": "good",
+      "confidence": 0.9556231690140845,
+      "preview_path": "data\\cache\\extract\\US_Army_Materiel_Command_Engineering_Design_Handbook\\page_0246_cd.png",
+      "notes": [
+        "classified=B",
+        "technical_tokens=26",
+        "content_tokens_ge_5=240",
+        "ink_ratio=0.2761 text_cov=0.3532 ink_in_text=0.504",
+        "ocr_agreement=0.469",
+        "escalate_B_to_C agreement=0.469<0.5",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.9484178751720143,
+        "lexical_quality": 0.8045833333333332,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "ocr_mean_confidence": 0.9556231690140845,
+        "ocr_lines": 142
+      }
+    }
+  ],
+  "summary": {
+    "pages": 2,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 2,
+    "class_D": 0,
+    "ok": 2,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}
