@@ -1,0 +1,1 @@
+# Place RapidOCR ONNX files here (not in git). Run: python -m scripts.prepare_ocr_models
