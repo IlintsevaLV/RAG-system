@@ -1,0 +1,51 @@
+{
+  "doc_id": "APR4754A application",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\APR4754A application.pdf",
+  "page_count": 230,
+  "pages": [
+    {
+      "doc_id": "APR4754A application",
+      "page": 83,
+      "page_class": "A",
+      "status": "ok",
+      "text": "Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date\nTable 19 Example Completed Verification Matrix\n Verification\n Method(s)\nAnalysis Service Inspect Safety FDAL Test\nVerification Verification Pass /\nAssociated Procedure Artifact Fail\nUnique ID Requirement Text Function Reference Reference (P/F)\nThe primary display system and the\nAvionic System\nAVSYS-R-010 standby display shall be Y A Displays X NA P\nSSA\nindependent.\nAVSYS-R-xxx\nAVSYS-R-xxx\nAVSYS-R-xxx\nAVSYS-R-456\n\n\nMatrix Coding:\nSafety – Y if requirement is safety related.\nVerification Methods: Inspect – Inspection; Analysis – Analysis (Modeling); Service – Service Experience; Test – Test (Demonstration)\nNA – not applicable\n 71",
+      "text_source": "layer",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": true,
+        "unusual_layout": false,
+        "notes": [
+          "table_like_span_density"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.8635196546388111,
+      "lexical_quality": 0.9348275862068965,
+      "iqs_level": null,
+      "confidence": 0.9348275862068965,
+      "preview_path": null,
+      "notes": [
+        "classified=A",
+        "technical_tokens=3",
+        "content_tokens_ge_5=58",
+        "ink_ratio=0.0742 text_cov=0.0945 ink_in_text=0.352",
+        "likely_table_flagged_for_later_stage"
+      ],
+      "provenance": {
+        "tlq": 0.8635196546388111,
+        "lexical_quality": 0.9348275862068965,
+        "garbage_veto": false
+      }
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "class_A": 1,
+    "class_B": 0,
+    "class_C": 0,
+    "class_D": 0,
+    "ok": 1,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

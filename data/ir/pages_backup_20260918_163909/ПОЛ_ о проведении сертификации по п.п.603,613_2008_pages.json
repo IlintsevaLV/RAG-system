@@ -1,0 +1,16 @@
+{
+  "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\ПОЛ_ о проведении сертификации по п.п.603,613_2008.pdf",
+  "page_count": 12,
+  "pages": [],
+  "summary": {
+    "pages": 0,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 0,
+    "class_D": 0,
+    "ok": 0,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

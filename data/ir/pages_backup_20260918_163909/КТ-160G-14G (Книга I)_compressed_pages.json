@@ -1,0 +1,56 @@
+{
+  "doc_id": "КТ-160G-14G (Книга I)_compressed",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\КТ-160G-14G (Книга I)_compressed.pdf",
+  "page_count": 142,
+  "pages": [
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 83,
+      "page_class": "C",
+      "status": "ok",
+      "text": "ОПЕРЕНИЕ И\nОБТЕКАТЕЛЬ\nКОНЦЕВОЙ\nХВОСТОВОЕ\nE и Еlили Zc\nE и El или Zc\nЕ или Zc\nЕ или Zc\n8-15\nZ\nZ\nT\nP\nP\nW\nW\nW\nN\nP\nP\nZ\nT\nE и Еlили Zc\nКРЫЛО И\nШАССИ\nВПИН\nЕ или Zc\nN\nP\nZ\nT\nE\nP\nЗОНЫ ВОЗДУШНОГО СYДНА\nДВИГАТЕЛЬ И\nКОРОБКА\nПЕРЕДАЧ\n№ или Т\nW\nW\nW\nW\nU\nP\nT\nP\nМОТОГОНДО\nПИЛОН\n∀I\nNии\nи\nD\nH\nT\nP\nP\nПРИБОРНЫЕ ДОСКИ,\nПУЛЬТЫ И СТОЙКИ\nОБОРУДОВАНИЯ\nВ и В1 или B2 и B12\nВ и ВI или В2 и B12\nВ или В2 или В3\nили В3 и B4\nили В3 и В4\nFuF1\nM\nM\nM\nR\nR\nФЮЗЕЛЯЖ\nNии\nNии\nCuC\nFuF1\nR\nZ\nR\nКАТЕГОРИЯ\nИСПЫТАНИ\nRилиU\nZииН\nZиши н\nS\nR\nR\nR\nR\nR\nСамолеты с поршневыми и\n1.Вертолеты (с поршневы-\n3.Многомоторные, более\nменее 5700 кг (12500 фун-\n6. Самолеты с турбовенти-\n2. Самолеты с турбореак-\nты, менее 5700 кг (12500\nляторным (винтовентиля-\nЛЕТАТЕЛЬНОГО\nвуковые,сверхзвуковы)\n5700 кг (12500 фунтов)\nАППРАТА\nвентиляторами\nдвигателями)\nфуНтов)\nTOB)\nМИ:",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.8651194339622641,
+      "preview_path": "data\\cache\\extract\\КТ-160G-14G (Книга I)_compressed\\page_0083_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "ocr_mean_confidence": 0.8651194339622641,
+        "ocr_lines": 106
+      }
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 1,
+    "class_D": 0,
+    "ok": 1,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}
