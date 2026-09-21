@@ -1,0 +1,421 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 8,
+        "n_formulas": 7,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 4
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 502.88,
+            "y1": 808.52,
+            "x2": 528.52,
+            "y2": 831.28
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 124.51999999999998,
+            "y1": 751.28,
+            "x2": 171.04,
+            "y2": 778.72
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8238095238095239,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 183.2,
+            "y1": 665.9599999999999,
+            "x2": 529.6,
+            "y2": 738.76
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7833333333333333,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 294.8,
+            "y1": 335.12,
+            "x2": 529.24,
+            "y2": 363.64
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7357142857142858,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 212.72,
+            "y1": 435.2,
+            "x2": 529.24,
+            "y2": 471.64
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.65,
+          "method": "span_alignment",
+          "bbox": {
+            "x1": 31.439999999999998,
+            "y1": 158.51999999999998,
+            "x2": 531.96,
+            "y2": 833.28
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.5714285714285714,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 466.88,
+            "y1": 518.0,
+            "x2": 527.8,
+            "y2": 546.52
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.5714285714285714,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 469.76,
+            "y1": 627.0799999999999,
+            "x2": 529.96,
+            "y2": 655.24
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 502.88,
+            "y1": 808.52,
+            "x2": 528.52,
+            "y2": 831.28
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "vlm_used",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "vlm",
+            "version": null,
+            "method": "vlm",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 124.51999999999998,
+            "y1": 751.28,
+            "x2": 171.04,
+            "y2": 778.72
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.55,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "vlm_used",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\gamma_y = 0.",
+            "latex": "\\gamma_y = 0.",
+            "text_fallback": "= 0.",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "vlm",
+            "version": null,
+            "method": "vlm",
+            "confidence": 0.55,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 183.2,
+            "y1": 665.9599999999999,
+            "x2": 529.6,
+            "y2": 738.76
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.55,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=6",
+              "vlm_used",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\alpha_r = \\frac{s - a}{16r} \\left( -1 + \\sqrt{1 + \\frac{32r^3}{s - a}} \\right); \\tag{III.15} \\] \\[ \\alpha_r = \\theta - \\beta_*; \\tag{III.16}",
+            "latex": "\\alpha_r = \\frac{s - a}{16r} \\left( -1 + \\sqrt{1 + \\frac{32r^3}{s - a}} \\right); \\tag{III.15} \\] \\[ \\alpha_r = \\theta - \\beta_*; \\tag{III.16}",
+            "text_fallback": "= (s - a)/(16r) ( -1 + sqrt(1 + (32r**3)/(s - a)) ); .15 \\] \\[ = - *; .16",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "vlm",
+            "version": null,
+            "method": "vlm",
+            "confidence": 0.55,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 294.8,
+            "y1": 335.12,
+            "x2": 529.24,
+            "y2": 363.64
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.55,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "vlm_used",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { a } { 2 } \\alpha _ { r } \\vec { r } ^ { 2 } . \\qquad ( \\mathrm { I I I . 1 1 } )",
+            "latex": "\\frac { a } { 2 } \\alpha _ { r } \\vec { r } ^ { 2 } . \\qquad ( \\mathrm { I I I . 1 1 } )",
+            "text_fallback": "a 2 r r ** 2 . ( I I I . 1 1 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "vlm",
+            "version": null,
+            "method": "vlm",
+            "confidence": 0.55,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "formula_04",
+          "type": "formula",
+          "bbox": {
+            "x1": 212.72,
+            "y1": 435.2,
+            "x2": 529.24,
+            "y2": 471.64
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.55,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "vlm_used",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac{d m_{\\kappa t}}{d r} = \\sigma_{r} \\frac{a}{2} \\beta_{\\kappa} \\alpha_{r} \\overline{r}^{3},",
+            "latex": "\\frac{d m_{\\kappa t}}{d r} = \\sigma_{r} \\frac{a}{2} \\beta_{\\kappa} \\alpha_{r} \\overline{r}^{3},",
+            "text_fallback": "m td r = (a)/(2) **3,",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "vlm",
+            "version": null,
+            "method": "vlm",
+            "confidence": 0.55,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "table_05",
+          "type": "table",
+          "bbox": {
+            "x1": 31.439999999999998,
+            "y1": 158.51999999999998,
+            "x2": 531.96,
+            "y2": 833.28
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.1,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.6,
+            "notes": [
+              "peaks=4 short=52",
+              "docling_score=0.100",
+              "ppstructure_score=0.000",
+              "img2table_score=0.000",
+              "vlm_fail:timed out",
+              "best_effort_below_threshold",
+              "no_pipe_rows"
+            ]
+          },
+          "content": {
+            "markdown": "3      I o o  o  or\n\n,  - , - r  o o .        - ,      . - -.        o\n\n<!-- formula-not-decoded -->\n\n.    , - - ,\n\n<!-- formula-not-decoded -->\n\n<!-- formula-not-decoded -->\n\n(σr, é:\n\n<!-- formula-not-decoded -->\n\n<!-- formula-not-decoded -->\n\n<!-- formula-not-decoded -->\n\n(. 1)    (. )  (. ), =.\n\n(. )  (. ) 1 ,",
+            "html": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\"/>\n<title>table_crop</title>\n<meta name=\"generator\" content=\"Docling HTML Serializer\"/>\n<style>\n    html {\n        background-color: #f5f5f5;\n        font-family: Arial, sans-serif;\n        line-height: 1.6;\n    }\n    body {\n        max-width: 800px;\n        margin: 0 auto;\n        padding: 2rem;\n        background-color: white;\n        box-shadow: 0 0 10px rgba(0,0,0,0.1);\n    }\n    h1, h2, h3, h4, h5, h6 {\n        color: #333;\n        margin-top: 1.5em;\n        margin-bottom: 0.5em;\n    }\n    h1 {\n        font-size: 2em;\n        border-bottom: 1px solid #eee;\n        padding-bottom: 0.3em;\n    }\n    table {\n        border-collapse: collapse;\n        margin: 1em 0;\n        width: 100%;\n    }\n    th, td {\n        border: 1px solid #ddd;\n        padding: 8px;\n        text-align: left;\n    }\n    th {\n        background-color: #f2f2f2;\n        font-weight: bold;\n    }\n    figure {\n        margin: 1.5em 0;\n        text-align: center;\n    }\n    figcaption {\n        color: #666;\n        font-style: italic;\n        margin-top: 0.5em;\n    }\n    img {\n        max-width: 100%;\n        height: auto;\n    }\n    pre {\n        background-color: #f6f8fa;\n        border-radius: 3px;\n        padding: 1em;\n        overflow: auto;\n    }\n    code {\n        font-family: monospace;\n        background-color: #f6f8fa;\n        padding: 0.2em 0.4em;\n        border-radius: 3px;\n    }\n    pre code {\n        background-color: transparent;\n        padding: 0;\n    }\n    .formula {\n        text-align: center;\n        padding: 0.5em;\n        margin: 1em 0;\n        background-color: #f9f9f9;\n    }\n    .formula-not-decoded {\n        text-align: center;\n        padding: 0.5em;\n        margin: 1em 0;\n        background: repeating-linear-gradient(\n            45deg,\n            #f0f0f0,\n            #f0f0f0 10px,\n            #f9f9f9 10px,\n            #f9f9f9 20px\n        );\n    }\n    .page-break {\n        page-break-after: always;\n        border-top: 1px dashed #ccc;\n        margin: 2em 0;\n    }\n    .key-value-region {\n        background-color: #f9f9f9;\n        padding: 1em;\n        border-radius: 4px;\n        margin: 1em 0;\n    }\n    .key-value-region dt {\n        font-weight: bold;\n    }\n    .key-value-region dd {\n        margin-left: 1em;\n        margin-bottom: 0.5em;\n    }\n    .form-container {\n        border: 1px solid #ddd;\n        padding: 1em;\n        border-radius: 4px;\n        margin: 1em 0;\n    }\n    .form-item {\n        margin-bottom: 0.5em;\n    }\n    .image-classification {\n        font-size: 0.9em;\n        color: #666;\n        margin-top: 0.5em;\n    }\n    details.docling-meta {\n        margin: 0.5em 0;\n        font-size: 0.9em;\n        text-align: left;\n    }\n    figure details.docling-meta {\n        text-align: left;\n    }\n    details.docling-meta > summary {\n        cursor: pointer;\n        color: #555;\n        font-style: italic;\n        padding: 2px 6px;\n    }\n    .docling-meta-field {\n        background-color: #f0f0f0;\n        border-left: 3px solid #ccc;\n        padding: 6px 10px;\n        margin: 4px 0 4px 1em;\n        border-radius: 3px;\n        text-align: left;\n    }\n    .docling-meta-field-label {\n        font-weight: bold;\n        color: #444;\n    }\n    pre.docling-meta-code {\n        background-color: #1e1e1e;\n        color: #d4d4d4;\n        border-radius: 4px;\n        padding: 10px 12px;\n        margin: 6px 0;\n        overflow-x: auto;\n        font-family: \"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, monospace;\n        font-size: 0.85em;\n        line-height: 1.45;\n        white-space: pre;\n        tab-size: 4;\n    }\n    pre.docling-meta-code code {\n        background: transparent;\n        border: none;\n        padding: 0;\n        color: inherit;\n        font-family: inherit;\n        font-size: inherit;\n        display: block;\n        white-space: pre;\n    }\n</style>\n</head>\n<body>\n<div class='page'>\n<p>3      I o o  o  or</p>\n<p>,  - , - r  o o .        - ,      . - -.        o</p>\n<div class=\"formula-not-decoded\">Formula not decoded</div>\n<p>.    , - - ,</p>\n<div class=\"formula-not-decoded\">Formula not decoded</div>\n<div class=\"formula-not-decoded\">Formula not decoded</div>\n<p>(σr, é:</p>\n<div class=\"formula-not-decoded\">Formula not decoded</div>\n<div class=\"formula-not-decoded\">Formula not decoded</div>\n<div class=\"formula-not-decoded\">Formula not decoded</div>\n<p>(. 1)    (. )  (. ), =.</p>\n<p>(. )  (. ) 1 ,</p>\n</div>\n</body>\n</html>",
+            "n_rows": 0,
+            "n_cols": 0,
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "docling",
+            "version": null,
+            "method": "docling",
+            "confidence": 0.1,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "formula_06",
+          "type": "formula",
+          "bbox": {
+            "x1": 466.88,
+            "y1": 518.0,
+            "x2": 527.8,
+            "y2": 546.52
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "vlm_used",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "vlm",
+            "version": null,
+            "method": "vlm",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 50,
+          "region_id": "formula_07",
+          "type": "formula",
+          "bbox": {
+            "x1": 469.76,
+            "y1": 627.0799999999999,
+            "x2": 529.96,
+            "y2": 655.24
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.0,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "vlm_used",
+              "empty"
+            ]
+          },
+          "content": {
+            "latex_raw": "",
+            "latex": "",
+            "text_fallback": "",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "vlm",
+            "version": null,
+            "method": "vlm",
+            "confidence": 0.0,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

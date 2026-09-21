@@ -1,56 +1,17 @@
-CKB "Вулкан-Авиа"
 Таблица 11.1
 на втулку
-Вертикальная сила на ГIШI
-Четыре
-Две лопасти
-Три лопасти
-или крутящий момент на
-лопасти
-втулке от одной лопасти
-F=F0
-Fo
-Fo
-Fo
-F—F sin
-0
-0
-0
-F=F cOs φ
-0
-0
-0
-2F sin 2
-F= F0 sn 2
-0
-2F cos 2
-F= F cos 2φ
-0
-0
-F=Fo sin 3 ψ
-3Fo sin 3
-0
-0
-3F cos 3
-F=F cos 3
-0
-0
-4F0 sin 4
-2F sn 4 φ
-F=Fo sin 4 φ
-4Fo cOs 4
-F=Fo cOs 4
-2F cOs 4 ψ
-0
-F=Fo sin 5 ψ
-0
-О
-F==Focos 5
-0
-0
-2F sin 6
-3F sin 6
-F=Fo sin 6
-0
+Вертикальная сила на ГIШI или крутящий момент на Две лопасти Три лопасти Четыре
+втулке от одной лопасти лопасти
+F=F0 Fo Fo Fo
+F—F sin 0 0 0
+F=F cOs φ 0 0 0
+F= F0 sn 2 2F sin 2 0
+F= F cos 2φ 2F cos 2 0 0
+F=Fo sin 3 ψ 0 3Fo sin 3 0
+F=F cos 3 0 3F cos 3 0
+F=Fo sin 4 φ 2F sn 4 φ 4F0 sin 4
+F=Fo cOs 4 2F cOs 4 ψ 0 4Fo cOs 4
+F=Fo sin 5 ψ О 0
+F==Focos 5 0 0
+F=Fo sin 6 2F sin 6 3F sin 6 0
 242
-www.vokb-la.spb.ru - Самолёт своими руками?!
