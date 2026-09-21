@@ -97,8 +97,45 @@ def fix_homoglyphs_in_token(token: str) -> str:
 
 _TOKEN = re.compile(r"\S+")
 
+# Spaced display headings: "Ж и р о д и н" / "Р е а к т и в н ы й"
+_SPACED_LETTERS = re.compile(
+    r"(?<![\wА-Яа-яЁё])"
+    r"(?:[A-Za-zА-Яа-яЁё]\s+){2,}[A-Za-zА-Яа-яЁё]"
+    r"(?![\wА-Яа-яЁё])"
+)
+
+_FOOTER_NOISE = re.compile(
+    r"(?im)^(?:www\.vokb-la\.spb\.ru.*|.*Самол[её]т своими руками.*)\s*$"
+)
+_HEADER_SKB = re.compile(
+    r'(?im)^(?:СК[БВ]|CK[BV])\s*[\"«]?Вулкан-Авиа[\"»]?\s*$'
+)
+
+
+def collapse_spaced_letters(text: str) -> str:
+    """Join letter-spaced display words common in mid-century Russian books."""
+
+    def _join(m: re.Match[str]) -> str:
+        return re.sub(r"\s+", "", m.group(0))
+
+    return _SPACED_LETTERS.sub(_join, text)
+
+
+def strip_scan_boilerplate(text: str) -> str:
+    """Drop repeating scan headers/footers (e.g. vokb-la watermark pages)."""
+    lines = []
+    for ln in text.splitlines():
+        if _FOOTER_NOISE.match(ln.strip()):
+            continue
+        if _HEADER_SKB.match(ln.strip()):
+            continue
+        lines.append(ln)
+    return "\n".join(lines).strip()
+
 
 def normalize_ocr_text(text: str) -> str:
     text = normalize_unicode(text)
+    text = collapse_spaced_letters(text)
+    text = strip_scan_boilerplate(text)
     text = normalize_whitespace(text)
     return _TOKEN.sub(lambda m: fix_homoglyphs_in_token(m.group(0)), text)

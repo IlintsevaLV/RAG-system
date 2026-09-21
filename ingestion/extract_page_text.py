@@ -422,6 +422,13 @@ def _extract_cd(
     text = normalize_ocr_text(ocr_res.text)
     provenance["ocr_mean_confidence"] = ocr_res.mean_confidence
     provenance["ocr_lines"] = ocr_res.line_count
+    provenance["ocr_columns"] = ocr_res.n_columns
+    provenance["short_fragment_ratio"] = round(ocr_res.short_fragment_ratio, 3)
+    if ocr_res.reading_order_notes:
+        notes.extend(ocr_res.reading_order_notes)
+    if ocr_res.formula_suspect:
+        notes.append("formula_suspect_page")
+        layout.notes.append("formula_dense_ocr_fragments")
 
     if ocr_res.line_count < 3 or ocr_res.mean_confidence < settings.cd_fail_ocr_conf:
         return PageTextExtract(
@@ -441,11 +448,16 @@ def _extract_cd(
             provenance=provenance,
         )
 
+    status = ExtractStatus.SUSPICIOUS if not settings.enable_vlm else ExtractStatus.OK
+    if ocr_res.formula_suspect:
+        status = ExtractStatus.SUSPICIOUS
+        notes.append("needs_formula_pipeline")
+
     return PageTextExtract(
         doc_id=analysis.doc_id,
         page=analysis.page,
         page_class=PageClass.C,
-        status=ExtractStatus.SUSPICIOUS if not settings.enable_vlm else ExtractStatus.OK,
+        status=status,
         text=text,
         text_source="ocr_fallback",
         layout=layout,

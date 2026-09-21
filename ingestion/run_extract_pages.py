@@ -21,6 +21,15 @@ from core.logger import get_logger, setup_logging
 from ingestion.extract_page_text import extract_pdf
 
 
+def _safe_print(msg: str) -> None:
+    """Avoid Windows cp1251 UnicodeEncodeError killing long batch runs."""
+    try:
+        print(msg)
+    except UnicodeEncodeError:
+        enc = getattr(sys.stdout, "encoding", None) or "utf-8"
+        print(msg.encode(enc, errors="replace").decode(enc, errors="replace"))
+
+
 def parse_pages(spec: str | None) -> list[int] | None:
     if not spec:
         return None
@@ -98,16 +107,16 @@ def main(argv: list[str] | None = None) -> int:
             (txt_dir / f"page_{p.page:04d}.txt").write_text(p.text, encoding="utf-8")
 
         log.info("extract_done", out=str(out_json), summary=result.summary)
-        print(f"\n=== {doc_id} === {result.summary}")
+        _safe_print(f"\n=== {doc_id} === {result.summary}")
         for p in result.pages:
             preview = (p.text[:100] + "…") if len(p.text) > 100 else p.text
-            print(
+            _safe_print(
                 f"  p{p.page:03d} class={p.page_class.value} status={p.status.value} "
                 f"src={p.text_source} cols={p.layout.n_columns} "
                 f"table={p.layout.likely_table} chars={len(p.text)}"
             )
             if preview:
-                print(f"       {preview!r}")
+                _safe_print(f"       {preview!r}")
 
     return 0
 

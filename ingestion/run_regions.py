@@ -21,6 +21,14 @@ from core.logger import get_logger, setup_logging
 from ingestion.process_regions import process_pdf_regions
 
 
+def _safe_print(msg: str) -> None:
+    try:
+        print(msg)
+    except UnicodeEncodeError:
+        enc = getattr(sys.stdout, "encoding", None) or "utf-8"
+        print(msg.encode(enc, errors="replace").decode(enc, errors="replace"))
+
+
 def parse_pages(spec: str | None) -> list[int] | None:
     if not spec:
         return None
@@ -74,10 +82,10 @@ def main(argv: list[str] | None = None) -> int:
         out_path = out_dir / f"{doc_id}_regions.json"
         out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info("regions_done", out=str(out_path))
-        print(f"\n=== {doc_id} === -> {out_path}")
+        _safe_print(f"\n=== {doc_id} === -> {out_path}")
         for pg in result["pages"]:
             s = pg["summary"]
-            print(
+            _safe_print(
                 f"  p{s['page']:03d} det={s['n_detections']} "
                 f"formula={s['n_formulas']}(ok={s['formula_ok']}) "
                 f"table={s['n_tables']}(ok={s['table_ok']}) "
@@ -92,7 +100,7 @@ def main(argv: list[str] | None = None) -> int:
                     preview = (content.get("markdown") or "").replace("\n", " ")[:80]
                 else:
                     preview = (content.get("caption") or content.get("crop_path") or "")[:80]
-                print(f"       [{ctype}] {b['region_id']} {preview!r}")
+                _safe_print(f"       [{ctype}] {b['region_id']} {preview!r}")
 
     return 0
 

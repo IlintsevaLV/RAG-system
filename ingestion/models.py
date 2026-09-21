@@ -103,6 +103,10 @@ class OCRPageResult(BaseModel):
     used_bands: bool = False
     image_size: tuple[int, int] | None = None  # width, height px
     dpi: int | None = None
+    n_columns: int = 1
+    formula_suspect: bool = False
+    short_fragment_ratio: float = 0.0
+    reading_order_notes: list[str] = Field(default_factory=list)
 
 
 class PageSourceAnalysis(BaseModel):

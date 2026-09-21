@@ -15,6 +15,7 @@ import numpy as np
 
 from core.text_norm import normalize_ocr_text
 from ingestion.models import OCRLine, OCRPageResult
+from ingestion.ocr_reading_order import rebuild_ocr_text
 from ingestion.preprocess import horizontal_bands
 
 # Expected offline files (PP-OCRv5 mobile + Cyrillic rec)
@@ -271,17 +272,22 @@ def recognize_page_image(
 
     confs = [ln.confidence for ln in lines]
     mean_conf = float(sum(confs) / len(confs)) if confs else 0.0
-    text = "\n".join(ln.text for ln in lines)
+    text, ordered, ro = rebuild_ocr_text(lines, float(w))
+    text = normalize_ocr_text(text)
     return OCRPageResult(
         doc_id=doc_id,
         page=page,
-        lines=lines,
+        lines=ordered or lines,
         text=text,
         mean_confidence=mean_conf,
-        line_count=len(lines),
+        line_count=len(ordered or lines),
         used_bands=bool(use_bands),
         image_size=(w, h),
         dpi=dpi,
+        n_columns=ro.n_columns,
+        formula_suspect=ro.formula_suspect,
+        short_fragment_ratio=ro.short_fragment_ratio,
+        reading_order_notes=list(ro.notes or []),
     )
 
 
