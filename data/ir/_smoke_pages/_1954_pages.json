@@ -1,0 +1,68 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\Admin\\Desktop\\rag_system\\вычитка\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 41,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "в уравнение (II.24), получим дифференциальное уравнение для\nкрутящего момента\ndMk - k - 1 2 (Kx− =x) a dr. (II. 27)\nПосле интегрирования по лопасти получим\nMk = 2 2 + aβ×x(x− xu (11. 28)\nПриравнивая полученное уравнение к выражению для коэффициен-\nkb та крутящего момента, данному в формуле (II. 11), и заменяя\nπR —о,получим\n2 (1I. 29)\nПодставляя уравнение (II.23) в уравнение (II.29), будем иметь\nод (1I. 30)\n4\nДля более удобного использования уравнения (II.30) заменим\nпараметрами, которые известны или легко определяются. Из\nуравнений (II. 6) и (II. і1) имеем\n= 2 T 2pπR2 4pπR2 CpπRp(ωR)2 2 =1 RV c (II.31)\nпо определению\nωR (1I. 32)\n) (\n2 1 −V c_. (1I. 33)\nПодставляя выражение (II. 33) в уравнение (II. 30), получим окон-\nmκ = 1 + (1I. 34)\n2 4\nкоэффициентатягн ипрофильного сопротивле-\n(\nвисении несущего винта, имеющего идеальную крутку лопастей,\nхорду постоянной величины, заполнение о и среднее профильное\nсопротивление 8. Первая часть уравнения представляет индуктив-\nные потери, вторая — потери от профильного сопротивления.\n42",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [
+          "formula_dense_ocr_fragments"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.8418358928571427,
+      "preview_path": "data\\cache\\extract\\_1954\\page_0041_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "vlm_disabled_or_unavailable",
+        "formula_suspect short_ratio=0.38",
+        "formula_suspect_page",
+        "needs_formula_pipeline",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "ocr_mean_confidence": 0.8418358928571427,
+        "ocr_lines": 56,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.375
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 1,
+    "class_D": 0,
+    "ok": 0,
+    "failed": 0,
+    "needs_vlm": 0
+  }
+}

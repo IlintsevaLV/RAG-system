@@ -156,6 +156,14 @@ class PageTextExtract(BaseModel):
     preview_path: str | None = None
     notes: list[str] = Field(default_factory=list)
     provenance: dict[str, Any] = Field(default_factory=dict)
+    # Explicit routing telemetry.  page_class=C means visual processing is
+    # required; these fields say what actually happened to the page.
+    needs_vlm: bool = False
+    vlm_attempted: bool = False
+    vlm_used: bool = False
+    vlm_quality: str | None = None  # good | suspicious | failed | unavailable
+    ocr_fallback_used: bool = False
+    elapsed_ms: int | None = None
 
 
 class DocumentTextExtract(BaseModel):

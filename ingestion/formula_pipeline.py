@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import re
+import sys
+from pathlib import Path
 from typing import Any
 
 import cv2
@@ -79,15 +81,50 @@ def validate_latex(latex: str) -> tuple[bool, list[str]]:
 class UniMERNetRecognizer:
     """Optional UniMERNet wrapper. Install separately when available."""
 
-    def __init__(self, model_name: str | None = None) -> None:
+    def __init__(
+        self,
+        model_name: str | None = None,
+        *,
+        config_path: str | None = None,
+    ) -> None:
         self.model_name = model_name
+        self.config_path = config_path or ""
         self._model = None
         self._available = False
         self._init_error: str | None = None
         self._try_load()
 
     def _try_load(self) -> None:
-        # Common package names vary; try a few entry points.
+        # The project package has changed its public API over time. Prefer
+        # the official ImageProcessor API when a local UniMERNet checkout is
+        # available, then try older convenience APIs.
+        try:
+            from PIL import Image  # noqa: F401
+            cfg = self.config_path or str(
+                Path(self.model_name or "").parent / "configs" / "demo.yaml"
+            )
+            if not Path(cfg).is_file():
+                raise FileNotFoundError(
+                    f"UniMERNet config not found: {cfg}. "
+                    "Set UNIMERNET_CONFIG_PATH to configs/demo.yaml."
+                )
+            repo_root = str(Path(cfg).resolve().parent.parent)
+            if repo_root not in sys.path:
+                sys.path.insert(0, repo_root)
+            try:
+                from unimernet.demo import ImageProcessor  # type: ignore
+            except ImportError:
+                # Official checkout exposes ImageProcessor from demo.py at
+                # repository root rather than from the package namespace.
+                from demo import ImageProcessor  # type: ignore
+
+            self._model = ImageProcessor(cfg)
+            self._available = True
+            self._api = "image_processor"
+            return
+        except Exception as exc:  # noqa: BLE001
+            self._init_error = str(exc)
+
         try:
             from unimernet import UniMERModel  # type: ignore
 
@@ -95,6 +132,7 @@ class UniMERNetRecognizer:
                 self.model_name or "Wanderhub/UniMERNet"
             )
             self._available = True
+            self._api = "model"
             return
         except Exception as exc:  # noqa: BLE001
             self._init_error = str(exc)
@@ -119,6 +157,11 @@ class UniMERNetRecognizer:
             raise RuntimeError(self._init_error or "UniMERNet unavailable")
         # API differs by package — keep a narrow adapter
         rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
+        if getattr(self, "_api", "") == "image_processor":
+            from PIL import Image
+
+            pred = self._model.process_single_image(Image.fromarray(rgb))
+            return str(pred or ""), 0.75
         if hasattr(self._model, "predict"):
             out = self._model.predict(rgb)
             if isinstance(out, dict):

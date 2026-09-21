@@ -48,7 +48,10 @@ def process_page_special_blocks(
     if vlm is None:
         vlm = _vlm(settings)
     if unimer is None and settings.enable_unimernet:
-        unimer = UniMERNetRecognizer(settings.unimernet_model)
+        unimer = UniMERNetRecognizer(
+            settings.unimernet_model,
+            config_path=settings.unimernet_config_path,
+        )
 
     blocks: list[RegionBlock] = []
     for i, det in enumerate(detections):
@@ -78,6 +81,7 @@ def process_page_special_blocks(
                     enable_docling=settings.table_enable_docling,
                     enable_ppstructure=settings.table_enable_ppstructure,
                     enable_img2table=settings.table_enable_img2table,
+                    enable_cell_ocr=settings.table_enable_cell_ocr,
                     accept_threshold=settings.table_accept_threshold,
                 )
             )
@@ -139,7 +143,14 @@ def process_pdf_regions(
     path = Path(path)
     doc_id = doc_id or path.stem
     vlm = _vlm(settings)
-    unimer = UniMERNetRecognizer(settings.unimernet_model) if settings.enable_unimernet else None
+    unimer = (
+        UniMERNetRecognizer(
+            settings.unimernet_model,
+            config_path=settings.unimernet_config_path,
+        )
+        if settings.enable_unimernet
+        else None
+    )
     doc = fitz.open(path)
     try:
         total = doc.page_count

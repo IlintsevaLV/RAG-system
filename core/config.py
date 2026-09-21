@@ -71,11 +71,13 @@ class Settings(BaseSettings):
 
     # Special regions: formulas / tables / figures
     enable_unimernet: bool = False
-    unimernet_model: str = "Wanderhub/UniMERNet"
+    unimernet_model: str = "./data/models/unimernet/unimernet_tiny"
+    unimernet_config_path: str = ""
     formula_vlm_recovery: bool = True
     table_enable_docling: bool = True
     table_enable_ppstructure: bool = True
     table_enable_img2table: bool = True
+    table_enable_cell_ocr: bool = True
     table_accept_threshold: float = 0.45
     table_vlm_recovery: bool = True
     figure_vlm_caption: bool = True

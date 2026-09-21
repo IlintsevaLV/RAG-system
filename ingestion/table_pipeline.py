@@ -48,6 +48,10 @@ def _md_quality(md: str) -> tuple[float, int, int, list[str]]:
         cells.extend(parts)
     nonempty = sum(1 for c in cells if c) / max(1, len(cells))
     score = 0.45 * consistency + 0.40 * nonempty + 0.15 * min(1.0, n_rows / 5.0)
+    long_cells = sum(1 for c in cells if len(c) > 180)
+    if long_cells and n_rows < 5:
+        score *= 0.35
+        notes.append("prose_like_cells")
     if n_cols < 2 or n_rows < 2:
         score *= 0.5
         notes.append("too_small")
@@ -184,6 +188,109 @@ def parse_table_img2table(image_bgr: np.ndarray) -> TableParseResult | None:
         )
 
 
+def parse_table_cells_ocr(
+    image_bgr: np.ndarray,
+    *,
+    dpi: int = 200,
+) -> TableParseResult | None:
+    """Recover a lined table by OCR-ing each detected grid cell.
+
+    This is deliberately deterministic and is used before VLM recovery.  It
+    prevents a vision model from inventing a complete row when only one cell
+    is unreadable.
+    """
+    try:
+        gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
+        h, w = gray.shape
+        bw = cv2.adaptiveThreshold(
+            gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 15, 10
+        )
+        hk = max(w // 35, 18)
+        vk = max(h // 35, 18)
+        horizontal = cv2.morphologyEx(
+            bw, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_RECT, (hk, 1))
+        )
+        vertical = cv2.morphologyEx(
+            bw, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_RECT, (1, vk))
+        )
+        x_energy = vertical.sum(axis=0) / 255.0
+        y_energy = horizontal.sum(axis=1) / 255.0
+
+        def _peaks(values: np.ndarray, minimum: float) -> list[int]:
+            ids = np.flatnonzero(values >= minimum).tolist()
+            groups: list[list[int]] = []
+            for idx in ids:
+                if not groups or idx - groups[-1][-1] > 5:
+                    groups.append([idx])
+                else:
+                    groups[-1].append(idx)
+            return [int(sum(g) / len(g)) for g in groups]
+
+        xs = _peaks(x_energy, max(3.0, h * 0.10))
+        ys = _peaks(y_energy, max(3.0, w * 0.10))
+        if len(xs) < 3 or len(ys) < 3 or len(xs) * len(ys) > 400:
+            return None
+
+        from ingestion.ocr_rapid import RapidOCRConfig, recognize_image
+
+        rows: list[list[str]] = []
+        nonempty = 0
+        meaningful = 0
+        for y0, y1 in zip(ys, ys[1:]):
+            row: list[str] = []
+            for x0, x1 in zip(xs, xs[1:]):
+                pad_x = max(2, int((x1 - x0) * 0.06))
+                pad_y = max(2, int((y1 - y0) * 0.10))
+                cell = image_bgr[
+                    min(h, y0 + pad_y) : max(0, y1 - pad_y),
+                    min(w, x0 + pad_x) : max(0, x1 - pad_x),
+                ]
+                text = ""
+                if cell.size:
+                    lines = recognize_image(
+                        cell,
+                        dpi=dpi,
+                        page=0,
+                        doc_id="table_cell",
+                        cfg=RapidOCRConfig(max_side_len=2000),
+                    )
+                    text = " ".join(ln.text.strip() for ln in lines).strip()
+                row.append(text.replace("|", r"\|"))
+                nonempty += bool(text)
+                meaningful += len(text) >= 2
+            rows.append(row)
+        if len(rows) < 2:
+            return None
+        width = max(len(r) for r in rows)
+        rows = [r + [""] * (width - len(r)) for r in rows]
+        md = "\n".join(
+            ["| " + " | ".join(rows[0]) + " |",
+             "| " + " | ".join(["---"] * width) + " |"]
+            + ["| " + " | ".join(r) + " |" for r in rows[1:]]
+        )
+        total_cells = max(1, len(rows) * width)
+        fill_ratio = meaningful / total_cells
+        # A grid with isolated one-character noise is not a usable table.
+        score = min(0.95, 0.15 + 0.85 * fill_ratio)
+        return TableParseResult(
+            markdown=md,
+            n_rows=len(rows),
+            n_cols=width,
+            method="cell_ocr",
+            confidence=score,
+            notes=[
+                f"grid={len(xs)}x{len(ys)}",
+                f"nonempty={nonempty}",
+                f"meaningful_ratio={fill_ratio:.3f}",
+            ],
+        )
+    except Exception as exc:  # noqa: BLE001
+        log.warning("cell_ocr_fail", error=str(exc))
+        return TableParseResult(
+            markdown="", method="cell_ocr", confidence=0.0, notes=[f"fail:{exc}"]
+        )
+
+
 def parse_table_vlm(image_bgr: np.ndarray, vlm: Any) -> TableParseResult:
     prompt = (
         "Extract the table from this image as GitHub-flavored Markdown only. "
@@ -270,6 +377,7 @@ def process_table_region(
     enable_docling: bool = True,
     enable_ppstructure: bool = True,
     enable_img2table: bool = True,
+    enable_cell_ocr: bool = True,
     accept_threshold: float = 0.45,
 ) -> RegionBlock:
     crop = crop_region_bgr(image_bgr, region, pad=10)
@@ -279,6 +387,14 @@ def process_table_region(
     tmp = cache_dir / "tables" / doc_id / f"p{page:04d}_{region_id}"
     tmp.mkdir(parents=True, exist_ok=True)
     cv2.imwrite(str(tmp / "crop.png"), crop)
+
+    if enable_cell_ocr:
+        r = parse_table_cells_ocr(crop)
+        if r:
+            attempts.append(r)
+            notes.append(f"cell_ocr_score={r.confidence:.3f}")
+            if r.confidence >= accept_threshold and r.markdown.strip():
+                return _to_block(doc_id, page, region_id, region, r, notes)
 
     if enable_docling:
         r = parse_table_docling(crop, tmp)

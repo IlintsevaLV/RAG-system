@@ -111,7 +111,7 @@ def detect_formula_regions_from_spans(
         )
         # skip huge "math" regions (likely misclassified text)
         area = (bbox.x2 - bbox.x1) * (bbox.y2 - bbox.y1)
-        if area > 0.35 * page_w * page_h:
+        if area > 0.25 * page_w * page_h:
             continue
         score = float(np.mean([sc for _, sc in cl]))
         out.append(
@@ -156,7 +156,7 @@ def detect_table_regions_cv(
     for cnt in contours:
         x, y, ww, hh = cv2.boundingRect(cnt)
         area = ww * hh
-        if area < 0.02 * page_area or area > 0.85 * page_area:
+        if area < 0.02 * page_area or area > 0.65 * page_area:
             continue
         if ww < w * 0.25 or hh < h * 0.05:
             continue
@@ -206,6 +206,12 @@ def detect_table_regions_from_spans(
         x2=min(page_w, max(xs1) + 6),
         y2=min(page_h, max(ys1) + 6),
     )
+    # Span alignment across most of a scanned page is usually body text,
+    # not a table. Keep only compact candidates; grid detection handles
+    # genuinely large ruled tables separately.
+    area = (bbox.x2 - bbox.x1) * (bbox.y2 - bbox.y1)
+    if area > 0.45 * page_w * page_h:
+        return []
     return [
         DetectedRegion(
             type=BlockType.TABLE,

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import time
 from pathlib import Path
 from typing import Any
 
@@ -157,6 +158,7 @@ def _extract_ab(
         "tlq": analysis.tlq.score,
         "lexical_quality": analysis.tlq.components.lexical_quality,
         "garbage_veto": analysis.tlq.garbage_veto,
+        "visual_agreement": analysis.tlq.components.visual_agreement,
     }
 
     # OCR cross-check for class B (and optional for A if enabled)
@@ -321,18 +323,34 @@ def _extract_cd(
     provenance: dict[str, Any] = {
         "tlq": analysis.tlq.score,
         "lexical_quality": analysis.tlq.components.lexical_quality,
+        "visual_agreement": analysis.tlq.components.visual_agreement,
         "preprocess_steps": prep.get("steps") or [],
         "iqs_level": iqs_level,
     }
     layout = LayoutHints()
+    needs_vlm = True
+    vlm_attempted = False
+    vlm_used = False
+    vlm_quality: str | None = "unavailable"
+    ocr_fallback_used = False
 
     # Primary: VLM
     if settings.enable_vlm and vlm is not None and prep.get("image_bgr") is not None:
+        vlm_attempted = True
+        vlm_quality = "failed"
+        vlm_started = time.perf_counter()
         try:
             raw = vlm.read_ndarray(prep["image_bgr"], VLM_PAGE_READ_PROMPT)
             raw = (raw or "").strip()
+            provenance["vlm_elapsed_ms"] = int(
+                (time.perf_counter() - vlm_started) * 1000
+            )
+            provenance["vlm_output_chars"] = len(raw)
             if raw.upper().startswith("UNREADABLE") or len(raw) < 40:
-                notes.append("vlm_unreadable")
+                notes.append(
+                    "vlm_rejected:unreadable_or_too_short"
+                    f"(chars={len(raw)})"
+                )
                 return PageTextExtract(
                     doc_id=analysis.doc_id,
                     page=analysis.page,
@@ -348,6 +366,11 @@ def _extract_cd(
                     preview_path=preview_path,
                     notes=notes + ["failed_unreadable_like_p572"],
                     provenance=provenance,
+                    needs_vlm=needs_vlm,
+                    vlm_attempted=vlm_attempted,
+                    vlm_used=False,
+                    vlm_quality="failed",
+                    ocr_fallback_used=False,
                 )
             text = normalize_ocr_text(raw)
             # crude column note from VLM length
@@ -368,9 +391,17 @@ def _extract_cd(
                 preview_path=preview_path,
                 notes=notes + ["vlm_extract_ok"],
                 provenance=provenance,
+                needs_vlm=needs_vlm,
+                vlm_attempted=vlm_attempted,
+                vlm_used=True,
+                vlm_quality="suspicious",
+                ocr_fallback_used=False,
             )
         except Exception as exc:  # noqa: BLE001
-            notes.append(f"vlm_failed:{exc}")
+            provenance["vlm_elapsed_ms"] = int(
+                (time.perf_counter() - vlm_started) * 1000
+            )
+            notes.append(f"vlm_rejected:request_failed:{exc}")
 
     if not settings.enable_vlm or vlm is None:
         notes.append("vlm_disabled_or_unavailable")
@@ -389,6 +420,11 @@ def _extract_cd(
                 preview_path=preview_path,
                 notes=notes,
                 provenance=provenance,
+                needs_vlm=needs_vlm,
+                vlm_attempted=vlm_attempted,
+                vlm_used=False,
+                vlm_quality=vlm_quality,
+                ocr_fallback_used=False,
             )
 
     # Fallback OCR when VLM off or failed
@@ -402,6 +438,11 @@ def _extract_cd(
             text_source="",
             notes=notes + ["no_image_for_ocr"],
             provenance=provenance,
+            needs_vlm=needs_vlm,
+            vlm_attempted=vlm_attempted,
+            vlm_used=False,
+            vlm_quality=vlm_quality,
+            ocr_fallback_used=False,
         )
 
     ocr_cfg = RapidOCRConfig(
@@ -420,6 +461,7 @@ def _extract_cd(
         bands=prep.get("bands"),
     )
     text = normalize_ocr_text(ocr_res.text)
+    ocr_fallback_used = True
     provenance["ocr_mean_confidence"] = ocr_res.mean_confidence
     provenance["ocr_lines"] = ocr_res.line_count
     provenance["ocr_columns"] = ocr_res.n_columns
@@ -446,9 +488,17 @@ def _extract_cd(
             preview_path=preview_path,
             notes=notes + ["ocr_fallback_failed_unreadable"],
             provenance=provenance,
+            needs_vlm=needs_vlm,
+            vlm_attempted=vlm_attempted,
+            vlm_used=False,
+            vlm_quality=vlm_quality,
+            ocr_fallback_used=ocr_fallback_used,
         )
 
-    status = ExtractStatus.SUSPICIOUS if not settings.enable_vlm else ExtractStatus.OK
+    # OCR fallback is never an accepted C-page result.  It is a usable
+    # emergency text for inspection/indexing, but must remain suspicious even
+    # when VLM was enabled (the VLM may have timed out or failed).
+    status = ExtractStatus.SUSPICIOUS
     if ocr_res.formula_suspect:
         status = ExtractStatus.SUSPICIOUS
         notes.append("needs_formula_pipeline")
@@ -468,6 +518,13 @@ def _extract_cd(
         preview_path=preview_path,
         notes=notes + ["ocr_fallback_used"],
         provenance=provenance,
+        needs_vlm=needs_vlm,
+        vlm_attempted=vlm_attempted,
+        vlm_used=False,
+        vlm_quality=(
+            "failed" if vlm_attempted else "unavailable"
+        ),
+        ocr_fallback_used=ocr_fallback_used,
     )
 
 
@@ -490,14 +547,28 @@ def extract_pdf(
         results: list[PageTextExtract] = []
         for pno in page_nums:
             log.info("extract_page_start", doc_id=doc_id, page=pno)
+            started = time.perf_counter()
+            result = extract_page(
+                doc,
+                doc_id=doc_id,
+                page_number=pno,
+                settings=settings,
+                vlm=vlm,
+            )
+            result.elapsed_ms = int((time.perf_counter() - started) * 1000)
             results.append(
-                extract_page(
-                    doc,
-                    doc_id=doc_id,
-                    page_number=pno,
-                    settings=settings,
-                    vlm=vlm,
-                )
+                result
+            )
+            log.info(
+                "extract_page_done",
+                doc_id=doc_id,
+                page=pno,
+                elapsed_ms=result.elapsed_ms,
+                page_class=result.page_class.value,
+                status=result.status.value,
+                text_source=result.text_source,
+                vlm_attempted=result.vlm_attempted,
+                vlm_used=result.vlm_used,
             )
         summary = {
             "pages": len(results),
@@ -506,8 +577,15 @@ def extract_pdf(
             "class_C": sum(1 for r in results if r.page_class == PageClass.C),
             "class_D": sum(1 for r in results if r.page_class == PageClass.D),
             "ok": sum(1 for r in results if r.status == ExtractStatus.OK),
+            "suspicious": sum(
+                1 for r in results if r.status == ExtractStatus.SUSPICIOUS
+            ),
             "failed": sum(1 for r in results if r.status == ExtractStatus.FAILED),
             "needs_vlm": sum(1 for r in results if r.status == ExtractStatus.NEEDS_VLM),
+            "vlm_candidates": sum(1 for r in results if r.needs_vlm),
+            "vlm_attempted": sum(1 for r in results if r.vlm_attempted),
+            "vlm_used": sum(1 for r in results if r.vlm_used),
+            "ocr_fallback_used": sum(1 for r in results if r.ocr_fallback_used),
         }
         return DocumentTextExtract(
             doc_id=doc_id,

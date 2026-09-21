@@ -57,13 +57,13 @@ Write-Log "Moved $moved incomplete JSON files"
 # --- 1) FULL text extract (all pages of all PDFs in data\raw) ---
 # No --pages = entire document. No --enable-vlm = OCR fallback for C/D.
 Write-Log "=== STEP 1: run_extract_pages (full corpus, no VLM, --resume) ==="
-python -m ingestion.run_extract_pages data\raw --resume 2>&1 | Tee-Object -FilePath $LogFile -Append
+python -m ingestion.run_extract_pages data\raw --resume 2>&1 | Tee-Object -FilePath $LogFile -Append -Encoding utf8
 $code1 = $LASTEXITCODE
 Write-Log "STEP 1 exit code: $code1"
 
 # --- 2) Full garbage text-layer scan ---
 Write-Log "=== STEP 2: scan_garbage_text_layer --full --no-visual ==="
-python -m ingestion.scan_garbage_text_layer data\raw --full --no-visual 2>&1 | Tee-Object -FilePath $LogFile -Append
+python -m ingestion.scan_garbage_text_layer data\raw --full --no-visual 2>&1 | Tee-Object -FilePath $LogFile -Append -Encoding utf8
 $code2 = $LASTEXITCODE
 Write-Log "STEP 2 exit code: $code2"
 
@@ -75,7 +75,7 @@ $regionJobs = @(
 foreach ($job in $regionJobs) {
     if (Test-Path $job.Pdf) {
         Write-Log "regions: $($job.Pdf) pages=$($job.Pages)"
-        python -m ingestion.run_regions $job.Pdf --pages $job.Pages 2>&1 | Tee-Object -FilePath $LogFile -Append
+        python -m ingestion.run_regions $job.Pdf --pages $job.Pages 2>&1 | Tee-Object -FilePath $LogFile -Append -Encoding utf8
         Write-Log "regions exit: $LASTEXITCODE"
     } else {
         Write-Log "SKIP missing PDF: $($job.Pdf)"

@@ -24,6 +24,15 @@ pip install -r requirements.txt
 python scripts/smoke_work_pc.py
 ```
 
+Если PowerShell блокирует `Activate.ps1`, активация не нужна:
+
+```powershell
+& .\.venv\Scripts\python.exe -m ingestion.run_extract_pages data\raw
+```
+
+Для длительных запусков это предпочтительный вариант на корпоративном
+Windows-ПК: не требуется менять `ExecutionPolicy`.
+
 ## Source analysis + preprocess + OCR (этап 3)
 
 ```powershell
@@ -76,6 +85,11 @@ python -m ingestion.run_regions data\raw\doc.pdf --pages 41 --enable-unimernet
 Опционально: `pip install docling paddleocr img2table pylatexenc`  
 Результат: `data/ir/regions/<doc>_regions.json` (latex / markdown / caption + bbox).
 
+Для сканов нормативки таблица обрабатывается в таком порядке:
+`cell_ocr` (сетка → OCR каждой ячейки) → Docling → PP-Structure → img2table
+→ VLM recovery.  VLM не является основным источником чисел в таблицах.
+Результат с низкой структурной оценкой помечается `suspicious`.
+
 ## Извлечение текста по классам A/B/C/D
 
 
@@ -103,7 +117,30 @@ python -m ingestion.run_extract_pages data\raw --pages 83,246 --enable-vlm
 ```
 
 Результат: `data/ir/pages/<doc>_pages.json` и `data/ir/pages/<doc>/page_XXXX.txt`.
+Для страниц класса C JSON содержит отдельные поля `needs_vlm`,
+`vlm_attempted`, `vlm_used`, `vlm_quality` и `ocr_fallback_used`.
 Класс D = нечитаемая страница (как US Army p572) — в RAG как факт не кладём.
+`needs_vlm` означает «страница требует визуального маршрута», а не
+«VLM уже обработал страницу». Для контроля смотрите одновременно
+`vlm_attempted`, `vlm_used`, `vlm_quality` и `text_source`.
+`ocr_fallback` всегда имеет `status=suspicious`, даже если VLM был включён:
+это запасной результат, требующий проверки.
+
+## Формулы (UniMERNet)
+
+UniMERNet требует отдельные веса и официальный конфигурационный файл:
+
+```powershell
+pip install -U "unimernet[full]"
+git clone https://github.com/opendatalab/UniMERNet.git data\models\unimernet_src
+git clone https://huggingface.co/wanderkid/unimernet_tiny data\models\unimernet\unimernet_tiny
+$env:UNIMERNET_CONFIG_PATH="data\models\unimernet_src\configs\demo.yaml"
+$env:ENABLE_UNIMERNET="true"
+python -m ingestion.run_regions data\raw\_1954.pdf --pages 41 --enable-unimernet --enable-vlm
+```
+
+Если `UNIMERNET_CONFIG_PATH` не задан, формульный блок остаётся
+`suspicious` и используется VLM fallback, если он включён.
 
 ## Структура
 
