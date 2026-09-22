@@ -1,0 +1,410 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 8,
+        "n_formulas": 8,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 8
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 51.8,
+            "y1": 813.1999999999999,
+            "x2": 76.36,
+            "y2": 836.3199999999999
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.95,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 137.48,
+            "y1": 183.56,
+            "x2": 524.1999999999999,
+            "y2": 217.48
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9249999999999999,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.16,
+            "y1": 514.76,
+            "x2": 524.1999999999999,
+            "y2": 606.64
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 469.03999999999996,
+            "y1": 290.47999999999996,
+            "x2": 524.1999999999999,
+            "y2": 319.0
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 469.4,
+            "y1": 355.28,
+            "x2": 523.48,
+            "y2": 384.15999999999997
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 217.4,
+            "y1": 662.0,
+            "x2": 523.84,
+            "y2": 692.3199999999999
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8611111111111112,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 131.35999999999999,
+            "y1": 444.56,
+            "x2": 522.76,
+            "y2": 494.32
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7833333333333333,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 313.88,
+            "y1": 111.19999999999999,
+            "x2": 523.48,
+            "y2": 154.84
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 51.8,
+            "y1": 813.1999999999999,
+            "x2": 76.36,
+            "y2": 836.3199999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "4 2",
+            "latex": "4 2",
+            "text_fallback": "4 2",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 137.48,
+            "y1": 183.56,
+            "x2": 524.1999999999999,
+            "y2": 217.48
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "M _ { \\mathrm { { e } } } \\! = \\! \\frac { \\kappa } { 4 } \\, \\rho \\omega ^ { 2 } R ^ { 4 } b \\left[ \\frac { \\widehat { \\mathfrak { d } } } { 2 } + a \\widehat { \\mathfrak { p } } _ { \\mathrm { { s k u } } } \\left( \\widehat { \\mathfrak { d } } _ { \\mathrm { { e n } } } \\! - \\! \\widehat { \\mathfrak { p } } _ { \\mathrm { * k u } } \\right) \\right] . \\qquad \\qquad ( \\mathrm { I I . } \\, 2 8 )",
+            "latex": "M _ { \\mathrm { { e } } } \\! = \\! \\frac { \\kappa } { 4 } \\, \\rho \\omega ^ { 2 } R ^ { 4 } b \\left[ \\frac { \\widehat { \\mathfrak { d } } } { 2 } + a \\widehat { \\mathfrak { p } } _ { \\mathrm { { s k u } } } \\left( \\widehat { \\mathfrak { d } } _ { \\mathrm { { e n } } } \\! - \\! \\widehat { \\mathfrak { p } } _ { \\mathrm { * k u } } \\right) \\right] . \\qquad \\qquad ( \\mathrm { I I . } \\, 2 8 )",
+            "text_fallback": "M e \\! = \\! 4 \\, ** 2 R ** 4 b [ d 2 + a p s k u ( d e n \\! - \\! p * k u ) ] . ( I I . \\, 2 8 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.16,
+            "y1": 514.76,
+            "x2": 524.1999999999999,
+            "y2": 606.64
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=4",
+              "unbalanced_braces",
+              "retry_upscale",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l r } { \\beta _ { \\mathrm { { s t u } } } \\! \\! } & { { } = \\! \\frac { \\sigma } { \\omega R } \\, . } & { \\ \\ \\ ( \\mathrm { I I } . \\, 3 2 ) } \\\\ { \\mathrm { { T o . n c r a n } \\! \\! } \\: \\mathrm { { T 9 . 1 8 8 8 \\! } \\! } \\: \\mathrm { { ~ v b 8 8 8 8 8 \\! } \\! } \\: \\mathrm { { ~ ( ~ I I . 3 1 ) ~ \\textbf { 8 } ( \\mathrm { { I I . 3 2 } } ) , ~ n o n y v u m } } } & { { } } \\\\ { \\beta _ { \\mathrm { { s t u } } } \\! \\! } & { { } = \\! \\frac { 1 } { 2 } \\, \\mathcal { V } \\overline { { c } } _ { \\tau } . } & { \\ \\ \\ ( \\mathrm { { I I . 3 3 } } ) } \\end{array}",
+            "latex": "\\begin{array} { r l r } { \\beta _ { \\mathrm { { s t u } } } \\! \\! } & { { } = \\! \\frac { \\sigma } { \\omega R } \\, . } & { \\ \\ \\ ( \\mathrm { I I } . \\, 3 2 ) } \\\\ { \\mathrm { { T o . n c r a n } \\! \\! } \\: \\mathrm { { T 9 . 1 8 8 8 \\! } \\! } \\: \\mathrm { { ~ v b 8 8 8 8 8 \\! } \\! } \\: \\mathrm { { ~ ( ~ I I . 3 1 ) ~ \\textbf { 8 } ( \\mathrm { { I I . 3 2 } } ) , ~ n o n y v u m } } } & { { } } \\\\ { \\beta _ { \\mathrm { { s t u } } } \\! \\! } & { { } = \\! \\frac { 1 } { 2 } \\, \\mathcal { V } \\overline { { c } } _ { \\tau } . } & { \\ \\ \\ ( \\mathrm { { I I . 3 3 } } ) } \\end{array}",
+            "text_fallback": "r l r s t u \\! \\! & = \\! R \\, . & \\ \\ \\ ( I I . \\, 3 2 ) \\\\ T o . n c r a n \\! \\! \\: T 9 . 1 8 8 8 \\! \\! \\: ~ v b 8 8 8 8 8 \\! \\! \\: ~ ( ~ I I . 3 1 ) ~ 8 ( I I . 3 2 ) , ~ n o n y v u m & \\\\ s t u \\! \\! & = \\! 1 2 \\, V c . & \\ \\ \\ ( I I . 3 3 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet_retry",
+            "version": null,
+            "method": "unimernet_retry",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 469.03999999999996,
+            "y1": 290.47999999999996,
+            "x2": 524.1999999999999,
+            "y2": 319.0
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "( \\left\\lbrace \\right\\rbrace , 2 9 )",
+            "latex": "( \\left\\lbrace \\right\\rbrace , 2 9 )",
+            "text_fallback": "( , 2 9 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_04",
+          "type": "formula",
+          "bbox": {
+            "x1": 469.4,
+            "y1": 355.28,
+            "x2": 523.48,
+            "y2": 384.15999999999997
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "( \\left\\Pi , 3 0 \\right)",
+            "latex": "( \\left\\Pi , 3 0 \\right)",
+            "text_fallback": "( , 3 0 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_05",
+          "type": "formula",
+          "bbox": {
+            "x1": 217.4,
+            "y1": 662.0,
+            "x2": 523.84,
+            "y2": 692.3199999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "m _ { \\mathrm { { e } } } \\! = \\! \\frac { 1 } { 2 } \\, c _ { \\mathrm { { r } } } ^ { \\frac { \\circ } { 2 } } \\! + \\! \\frac { \\circ \\hat { \\circ } } { 4 } \\, . \\qquad \\qquad \\qquad \\qquad \\qquad \\! \\left( \\mathrm { { I I } } . \\, 3 4 \\right)",
+            "latex": "m _ { \\mathrm { { e } } } \\! = \\! \\frac { 1 } { 2 } \\, c _ { \\mathrm { { r } } } ^ { \\frac { \\circ } { 2 } } \\! + \\! \\frac { \\circ \\hat { \\circ } } { 4 } \\, . \\qquad \\qquad \\qquad \\qquad \\qquad \\! \\left( \\mathrm { { I I } } . \\, 3 4 \\right)",
+            "text_fallback": "m e \\! = \\! 1 2 \\, c r ** 2 \\! + \\! 4 \\, . \\! ( I I . \\, 3 4 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_06",
+          "type": "formula",
+          "bbox": {
+            "x1": 131.35999999999999,
+            "y1": 444.56,
+            "x2": 522.76,
+            "y2": 494.32
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=6",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ } ^ { v } \\! = \\! \\big \\lfloor \\begin{array} { c c } { \\overbrace { \\phantom { \\frac { T } { 2 p \\pi R ^ { 2 } } } } ^ { T } \\! = \\! \\bigvee \\! \\begin{array} { c c } { \\frac { c _ { \\tau } \\pi \\varepsilon R ^ { \\prime } \\! _ { \\theta } \\, ( \\omega R ) ^ { 2 } } { 4 p \\pi R ^ { 2 } } \\! = \\! \\frac { 1 } { 2 } \\, \\mathrm { { \\, \\mathrm { e } } } R \\, V \\, \\overline { { { c } } } _ { \\tau } } & { \\qquad ( \\mathrm { { I I . 3 1 } } ) } \\end{array} }",
+            "latex": "{ } ^ { v } \\! = \\! \\big \\lfloor \\begin{array} { c c } { \\overbrace { \\phantom { \\frac { T } { 2 p \\pi R ^ { 2 } } } } ^ { T } \\! = \\! \\bigvee \\! \\begin{array} { c c } { \\frac { c _ { \\tau } \\pi \\varepsilon R ^ { \\prime } \\! _ { \\theta } \\, ( \\omega R ) ^ { 2 } } { 4 p \\pi R ^ { 2 } } \\! = \\! \\frac { 1 } { 2 } \\, \\mathrm { { \\, \\mathrm { e } } } R \\, V \\, \\overline { { { c } } } _ { \\tau } } & { \\qquad ( \\mathrm { { I I . 3 1 } } ) } \\end{array} }",
+            "text_fallback": "** v \\! = \\! c c T 2 p R ** 2 ** T \\! = \\! \\! c c c R ** \\! \\, ( R ) ** 2 4 p R ** 2 \\! = \\! 1 2 \\, \\, e R \\, V \\, c & ( I I . 3 1 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 41,
+          "region_id": "formula_07",
+          "type": "formula",
+          "bbox": {
+            "x1": 313.88,
+            "y1": 111.19999999999999,
+            "x2": 523.48,
+            "y2": 154.84
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { R ^ { 2 } } { r ^ { 2 } } \\, ( \\uptheta _ { \\mathrm { { \\scriptscriptstyle K U } } } \\! - \\! \\upbeta _ { \\mathrm { 3 \\scriptscriptstyle { K U } } } ) \\, a \\bigg ] \\, d r . \\, ^ { \\circ } \\quad \\quad ( \\mathrm { I I . \\, } 2 7 )",
+            "latex": "\\frac { R ^ { 2 } } { r ^ { 2 } } \\, ( \\uptheta _ { \\mathrm { { \\scriptscriptstyle K U } } } \\! - \\! \\upbeta _ { \\mathrm { 3 \\scriptscriptstyle { K U } } } ) \\, a \\bigg ] \\, d r . \\, ^ { \\circ } \\quad \\quad ( \\mathrm { I I . \\, } 2 7 )",
+            "text_fallback": "R ** 2 r ** 2 \\, ( K U \\! - \\! 3 K U ) \\, a ] \\, d r . \\, ** ( I I . \\, 2 7 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}
