@@ -47,3 +47,6 @@ data/cache/
 
 .venv-unimernet/
 
+
+data/ir/regions_*/
+
