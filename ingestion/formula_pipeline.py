@@ -79,7 +79,12 @@ def validate_latex(latex: str) -> tuple[bool, list[str]]:
 
 
 class UniMERNetRecognizer:
-    """Optional UniMERNet wrapper. Install separately when available."""
+    """UniMERNet wrapper for unimernet 0.2.3.
+
+    Uses the low-level API: Config → tasks.setup_task → task.build_model
+    → load_processor. Avoids demo.ImageProcessor because it opens a GUI
+    window (cv2.imshow) and blocks on cv2.waitKey(0).
+    """
 
     def __init__(
         self,
@@ -90,62 +95,49 @@ class UniMERNetRecognizer:
         self.model_name = model_name
         self.config_path = config_path or ""
         self._model = None
+        self._vis_processor = None
+        self._device = None
         self._available = False
         self._init_error: str | None = None
         self._try_load()
 
     def _try_load(self) -> None:
-        # The project package has changed its public API over time. Prefer
-        # the official ImageProcessor API when a local UniMERNet checkout is
-        # available, then try older convenience APIs.
         try:
-            from PIL import Image  # noqa: F401
-            cfg = self.config_path or str(
+            import argparse
+            import torch
+            from unimernet.common.config import Config
+            import unimernet.tasks as tasks
+            from unimernet.processors import load_processor
+            from pathlib import Path
+
+            cfg_path = self.config_path or str(
                 Path(self.model_name or "").parent / "configs" / "demo.yaml"
             )
-            if not Path(cfg).is_file():
+            if not Path(cfg_path).is_file():
                 raise FileNotFoundError(
-                    f"UniMERNet config not found: {cfg}. "
-                    "Set UNIMERNET_CONFIG_PATH to configs/demo.yaml."
+                    f"UniMERNet config not found: {cfg_path}. "
+                    "Set UNIMERNET_CONFIG_PATH."
                 )
-            repo_root = str(Path(cfg).resolve().parent.parent)
-            if repo_root not in sys.path:
-                sys.path.insert(0, repo_root)
-            try:
-                from unimernet.demo import ImageProcessor  # type: ignore
-            except ImportError:
-                # Official checkout exposes ImageProcessor from demo.py at
-                # repository root rather than from the package namespace.
-                from demo import ImageProcessor  # type: ignore
 
-            self._model = ImageProcessor(cfg)
-            self._available = True
-            self._api = "image_processor"
-            return
-        except Exception as exc:  # noqa: BLE001
-            self._init_error = str(exc)
+            args = argparse.Namespace(cfg_path=cfg_path, options=None)
+            cfg = Config(args)
 
-        try:
-            from unimernet import UniMERModel  # type: ignore
-
-            self._model = UniMERModel.from_pretrained(
-                self.model_name or "Wanderhub/UniMERNet"
+            task = tasks.setup_task(cfg)
+            self._device = torch.device(
+                "cuda" if torch.cuda.is_available() else "cpu"
             )
-            self._available = True
-            self._api = "model"
-            return
-        except Exception as exc:  # noqa: BLE001
-            self._init_error = str(exc)
-        try:
-            # transformers-based forks
-            from transformers import AutoProcessor, VisionEncoderDecoderModel  # noqa: F401
+            self._model = task.build_model(cfg).to(self._device)
+            self._model.eval()
 
+            self._vis_processor = load_processor(
+                "formula_image_eval",
+                cfg.config.datasets.formula_rec_eval.vis_processor.eval,
+            )
+
+            self._available = True
+            self._init_error = None
+        except Exception as exc:  # noqa: BLE001
             self._available = False
-            self._init_error = (
-                "UniMERNet package not found. Install when ready; "
-                "pipeline will use VLM/heuristic fallback."
-            )
-        except Exception as exc:  # noqa: BLE001
             self._init_error = str(exc)
 
     @property
@@ -155,23 +147,27 @@ class UniMERNetRecognizer:
     def recognize(self, image_bgr: np.ndarray) -> tuple[str, float]:
         if not self._available or self._model is None:
             raise RuntimeError(self._init_error or "UniMERNet unavailable")
-        # API differs by package — keep a narrow adapter
+
+        import torch
+        from PIL import Image
+
         rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
-        if getattr(self, "_api", "") == "image_processor":
-            from PIL import Image
+        pil = Image.fromarray(rgb)
 
-            pred = self._model.process_single_image(Image.fromarray(rgb))
-            return str(pred or ""), 0.75
-        if hasattr(self._model, "predict"):
-            out = self._model.predict(rgb)
-            if isinstance(out, dict):
-                return str(out.get("latex") or out.get("text") or ""), float(
-                    out.get("confidence") or 0.7
-                )
-            return str(out), 0.7
-        raise RuntimeError("UniMERNet model has no predict()")
+        # vis_processor returns a tensor; add batch dim, move to device
+        tensor = self._vis_processor(pil).unsqueeze(0).to(self._device)
 
+        with torch.no_grad():
+            output = self._model.generate({"image": tensor})
 
+        # output is a dict with "pred_str": list[str]
+        if isinstance(output, dict):
+            preds = output.get("pred_str") or []
+            latex = preds[0] if preds else ""
+        else:
+            latex = str(output)
+
+        return str(latex or ""), 0.85
 def recognize_formula_vlm(image_bgr: np.ndarray, vlm: Any) -> tuple[str, float]:
     prompt = (
         "Extract the mathematical formula from this image as LaTeX only. "
