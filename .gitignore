@@ -44,3 +44,6 @@ __pycache__/
 data/ir/logs/
 data/cache/
 
+
+.venv-unimernet/
+

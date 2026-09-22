@@ -9,6 +9,7 @@ from typing import Any
 
 import cv2
 import numpy as np
+import os
 
 from core.ir import BBox, BlockType, Provenance, QualitySignals, RegionBlock
 from core.logger import get_logger
@@ -96,12 +97,19 @@ def validate_latex(latex: str) -> tuple[bool, list[str]]:
 
 
 class UniMERNetRecognizer:
-    """UniMERNet wrapper for unimernet 0.2.3.
+    """UniMERNet wrapper via persistent subprocess in .venv-unimernet.
 
-    Uses the low-level API: Config → tasks.setup_task → task.build_model
-    → load_processor. Avoids demo.ImageProcessor because it opens a GUI
-    window (cv2.imshow) and blocks on cv2.waitKey(0).
+    Main venv does not have unimernet installed (it conflicts with Docling
+    via transformers version). So we spawn a long-running worker process
+    that loads the model once and answers requests over stdin/stdout.
+
+    The worker path is auto-detected:
+      - env UNIMERNET_WORKER_PYTHON, or
+      - .venv-unimernet/Scripts/python.exe (Windows)
+      - .venv-unimernet/bin/python (POSIX)
     """
+
+    _WORKER_SCRIPT = Path(__file__).resolve().parent.parent / "scripts" / "unimernet_worker.py"
 
     def __init__(
         self,
@@ -111,80 +119,137 @@ class UniMERNetRecognizer:
     ) -> None:
         self.model_name = model_name
         self.config_path = config_path or ""
-        self._model = None
-        self._vis_processor = None
-        self._device = None
+        self._proc = None
         self._available = False
         self._init_error: str | None = None
         self._try_load()
 
+    def _find_worker_python(self) -> Path | None:
+        env = os.environ.get("UNIMERNET_WORKER_PYTHON")
+        if env:
+            p = Path(env)
+            return p if p.is_file() else None
+        root = Path(__file__).resolve().parent.parent
+        candidates = [
+            root / ".venv-unimernet" / "Scripts" / "python.exe",
+            root / ".venv-unimernet" / "bin" / "python",
+        ]
+        for c in candidates:
+            if c.is_file():
+                return c
+        return None
+
     def _try_load(self) -> None:
+        import json
+        import subprocess
+
         try:
-            import argparse
-            import torch
-            from unimernet.common.config import Config
-            import unimernet.tasks as tasks
-            from unimernet.processors import load_processor
-            from pathlib import Path
+            if not self._WORKER_SCRIPT.is_file():
+                raise FileNotFoundError(...)
+            py = self._find_worker_python()
+            print(f"[UNIMERNET] py = {py}", flush=True)
 
-            cfg_path = self.config_path or str(
-                Path(self.model_name or "").parent / "configs" / "demo.yaml"
+            if py is None:
+                raise FileNotFoundError(...)
+            cfg = self.config_path or str(...)
+            print(f"[UNIMERNET] cfg = {cfg}", flush=True)
+            if not Path(cfg).is_file():
+                raise FileNotFoundError(...)
+
+            self._proc = subprocess.Popen(
+                [str(py), str(self._WORKER_SCRIPT), str(cfg)],
+                stdin=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                encoding="utf-8",
+                bufsize=1,
             )
-            if not Path(cfg_path).is_file():
-                raise FileNotFoundError(
-                    f"UniMERNet config not found: {cfg_path}. "
-                    "Set UNIMERNET_CONFIG_PATH."
-                )
-
-            args = argparse.Namespace(cfg_path=cfg_path, options=None)
-            cfg = Config(args)
-
-            task = tasks.setup_task(cfg)
-            self._device = torch.device(
-                "cuda" if torch.cuda.is_available() else "cpu"
-            )
-            self._model = task.build_model(cfg).to(self._device)
-            self._model.eval()
-
-            self._vis_processor = load_processor(
-                "formula_image_eval",
-                cfg.config.datasets.formula_rec_eval.vis_processor.eval,
-            )
+            print("[UNIMERNET] proc started, waiting for ready", flush=True)
+            # Worker's model may print init messages to stdout before JSON.
+            # Read lines until we find a valid JSON.
+            msg = None
+            for _ in range(200):
+                line = self._proc.stdout.readline()
+                print(f"[UNIMERNET] stdout line = {line!r}", flush=True)
+                if not line:
+                    err = self._proc.stderr.read() if self._proc.stderr else ""
+                    raise RuntimeError(f"Worker died on startup: {err[:500]}")
+                try:
+                    msg = json.loads(line)
+                    break
+                except json.JSONDecodeError:
+                    continue
+            if msg is None:
+                raise RuntimeError("No ready message from worker after 200 lines")
+            if not msg.get("ready"):
+                raise RuntimeError(f"Worker not ready: {msg.get('error', 'unknown')}")
 
             self._available = True
             self._init_error = None
         except Exception as exc:  # noqa: BLE001
             self._available = False
             self._init_error = str(exc)
-
+            import traceback
+            print(f"[UNIMERNET] _try_load failed: {exc}", flush=True)
+            print(f"[UNIMERNET] traceback:\n{traceback.format_exc()}", flush=True)
+            if self._proc is not None:
+                try:
+                    self._proc.terminate()
+                except Exception:  # noqa: BLE001
+                    pass
+                self._proc = None
     @property
     def available(self) -> bool:
-        return self._available
+        return self._available and self._proc is not None
 
     def recognize(self, image_bgr: np.ndarray) -> tuple[str, float]:
-        if not self._available or self._model is None:
+        if not self.available:
             raise RuntimeError(self._init_error or "UniMERNet unavailable")
 
-        import torch
-        from PIL import Image
+        import base64
+        import json
 
         rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
-        pil = Image.fromarray(rgb)
+        from PIL import Image
 
-        # vis_processor returns a tensor; add batch dim, move to device
-        tensor = self._vis_processor(pil).unsqueeze(0).to(self._device)
+        buf = __import__("io").BytesIO()
+        Image.fromarray(rgb).save(buf, format="PNG")
+        b64 = base64.b64encode(buf.getvalue()).decode("ascii")
 
-        with torch.no_grad():
-            output = self._model.generate({"image": tensor})
+        req = json.dumps({"image_b64": b64}, ensure_ascii=False)
+        try:
+            self._proc.stdin.write(req + "\n")
+            self._proc.stdin.flush()
 
-        # output is a dict with "pred_str": list[str]
-        if isinstance(output, dict):
-            preds = output.get("pred_str") or []
-            latex = preds[0] if preds else ""
-        else:
-            latex = str(output)
+            resp = None
+            for _ in range(200):
+                line = self._proc.stdout.readline()
+                if not line:
+                    raise RuntimeError("Worker died mid-request")
+                try:
+                    resp = json.loads(line)
+                    break
+                except json.JSONDecodeError:
+                    continue
+            if resp is None:
+                raise RuntimeError("No JSON response from worker")
+        except Exception as exc:  # noqa: BLE001
+            self._available = False
+            raise RuntimeError(f"Worker communication failed: {exc}") from exc
 
-        return str(latex or ""), 0.85
+        if "error" in resp:
+            raise RuntimeError(f"Worker error: {resp['error']}")
+        return str(resp.get("latex") or ""), float(resp.get("confidence") or 0.85)
+
+    def __del__(self) -> None:
+        if getattr(self, "_proc", None) is not None:
+            try:
+                self._proc.stdin.close()
+                self._proc.terminate()
+                self._proc.wait(timeout=5)
+            except Exception:  # noqa: BLE001
+                pass
 def recognize_formula_vlm(image_bgr: np.ndarray, vlm: Any) -> tuple[str, float]:
     prompt = (
         "Extract the mathematical formula from this image as LaTeX only. "
