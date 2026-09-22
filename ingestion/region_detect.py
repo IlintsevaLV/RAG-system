@@ -92,6 +92,114 @@ def _line_math_score(text: str) -> float:
     return 0.0
 
 
+def _is_formula_fragment(span: TextSpan) -> bool:
+    """Return whether a short OCR span can belong to a broken formula.
+
+    OCR commonly emits a numerator, denominator, Greek token, or single
+    variable as separate spans.  Do not treat ordinary words as fragments:
+    only short spans containing digits, Greek/math glyphs, or compact Latin
+    tokens qualify.
+    """
+    text = span.text.strip()
+    if not text or len(text) > 24:
+        return False
+    words = _WORD.findall(text)
+    if len(words) > 3:
+        return False
+    greek_or_math = sum(
+        ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff") for ch in text
+    )
+    digits = sum(ch.isdigit() for ch in text)
+    latin = sum("A" <= ch <= "Z" or "a" <= ch <= "z" for ch in text)
+    # A lone Cyrillic OCR token ("с", "где", ...) is not evidence by itself.
+    return bool(
+        greek_or_math
+        or digits
+        or (latin >= 1 and len(text) <= 8)
+        or _MATH_STRONG.search(text)
+    )
+
+
+def merge_formula_spans(
+    spans: list[TextSpan],
+    *,
+    y_tol: float = 40.0,
+    x_gap_tol: float = 80.0,
+) -> list[TextSpan]:
+    """Build synthetic spans for formulas fragmented by OCR.
+
+    This is intentionally additive: original spans remain untouched for
+    tables and reading order.  A connected cluster must contain at least two
+    formula signals and either a Greek/math glyph or both digits and Latin
+    symbols, which prevents ordinary prose columns from becoming formulas.
+    """
+    candidates = [sp for sp in spans if _is_formula_fragment(sp)]
+    if len(candidates) < 2:
+        return []
+    candidates.sort(key=lambda sp: (sp.bbox[1], sp.bbox[0]))
+
+    groups: list[list[TextSpan]] = []
+    for span in candidates:
+        x1, y1, x2, y2 = span.bbox
+        matched: list[int] = []
+        for i, group in enumerate(groups):
+            gx1 = min(s.bbox[0] for s in group)
+            gy1 = min(s.bbox[1] for s in group)
+            gx2 = max(s.bbox[2] for s in group)
+            gy2 = max(s.bbox[3] for s in group)
+            vertical_gap = max(0.0, max(gy1, y1) - min(gy2, y2))
+            horizontal_gap = max(0.0, max(gx1, x1) - min(gx2, x2))
+            if vertical_gap <= y_tol and horizontal_gap <= x_gap_tol:
+                matched.append(i)
+        if not matched:
+            groups.append([span])
+            continue
+        base = groups[matched[0]]
+        base.append(span)
+        for i in reversed(matched[1:]):
+            base.extend(groups.pop(i))
+
+    merged: list[TextSpan] = []
+    for group in groups:
+        if len(group) < 2:
+            continue
+        text = " ".join(
+            s.text.strip()
+            for s in sorted(group, key=lambda s: (_span_center(s)[1], s.bbox[0]))
+            if s.text.strip()
+        )
+        if not text:
+            continue
+        signal_count = sum(
+            ch.isdigit() or ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff")
+            for ch in text
+        )
+        has_greek_or_math = any(
+            ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff") for ch in text
+        )
+        has_digit_and_latin = any(ch.isdigit() for ch in text) and any(
+            "A" <= ch <= "Z" or "a" <= ch <= "z" for ch in text
+        )
+        if signal_count < 2 or not (
+            has_greek_or_math
+            or has_digit_and_latin
+            or (
+                len(group) >= 2
+                and any("\u0370" <= ch <= "\u03ff" for ch in text)
+                and any("A" <= ch <= "Z" or "a" <= ch <= "z" for ch in text)
+            )
+        ):
+            continue
+        bbox = (
+            min(s.bbox[0] for s in group),
+            min(s.bbox[1] for s in group),
+            max(s.bbox[2] for s in group),
+            max(s.bbox[3] for s in group),
+        )
+        merged.append(TextSpan(text=text, bbox=bbox, font_size=None))
+    return merged
+
+
 def detect_formula_regions_from_spans(
     spans: list[TextSpan],
     *,
@@ -101,8 +209,20 @@ def detect_formula_regions_from_spans(
 ) -> list[DetectedRegion]:
     """Merge contiguous math-like text spans into formula boxes."""
     scored: list[tuple[TextSpan, float]] = []
-    for sp in spans:
+    merged_spans = merge_formula_spans(spans)
+    formula_spans = list(spans) + merged_spans
+    merged_ids = {id(sp) for sp in merged_spans}
+    for sp in formula_spans:
         sc = _line_math_score(sp.text)
+        if id(sp) in merged_ids and sc < 0.55:
+            # Fragmented OCR may contain only variables, digits and Greek
+            # glyphs, with the "=" lost as a separate box.  The cluster
+            # checks above are the evidence in that case.
+            signal_ratio = sum(
+                ch.isdigit() or ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff")
+                for ch in sp.text
+            ) / max(1, sum(ch.isalpha() or ch.isdigit() for ch in sp.text))
+            sc = min(0.82, 0.56 + 0.25 * min(1.0, signal_ratio))
         if sc >= 0.55:
             scored.append((sp, sc))
     if not scored:
@@ -653,10 +773,30 @@ def detect_page_regions(
     if use_ocr_fallback and len(spans) < 5:
         spans = _ocr_pseudo_spans(rendered.image_bgr, dpi=dpi, doc_id=doc_id, page=page_number)
 
-    regions: list[DetectedRegion] = []
-    regions.extend(
-        detect_formula_regions_from_spans(spans, dpi=dpi, page_w=page_w, page_h=page_h)
+    formula_regions = detect_formula_regions_from_spans(
+        spans, dpi=dpi, page_w=page_w, page_h=page_h
     )
+    # A page may have a usable text layer while the image-only formula band is
+    # absent from it.  OCR just the upper part in that case; this keeps the
+    # recovery targeted and avoids replacing the page's normal text spans.
+    upper_formula = [
+        r for r in formula_regions if r.bbox_pt.y1 < 0.45 * page_h
+    ]
+    if not upper_formula and use_ocr_fallback and len(spans) >= 5:
+        ocr_top = _ocr_pseudo_spans(
+            rendered.image_bgr,
+            dpi=dpi,
+            doc_id=doc_id,
+            page=page_number,
+            y_range=(0.0, 0.45),
+        )
+        if ocr_top:
+            formula_regions = detect_formula_regions_from_spans(
+                spans + ocr_top, dpi=dpi, page_w=page_w, page_h=page_h
+            )
+
+    regions: list[DetectedRegion] = []
+    regions.extend(formula_regions)
     regions.extend(
         detect_table_regions_from_spans(spans, dpi=dpi, page_w=page_w, page_h=page_h)
     )
@@ -707,14 +847,24 @@ def _ocr_pseudo_spans(
     dpi: int,
     doc_id: str,
     page: int,
+    y_range: tuple[float, float] | None = None,
 ) -> list[TextSpan]:
     try:
         from ingestion.ocr_rapid import RapidOCRConfig, recognize_page_image
         from core.config import get_settings
 
         settings = get_settings()
+        source_h = image_bgr.shape[0]
+        y0_px = 0
+        y1_px = source_h
+        if y_range is not None:
+            y0_px = max(0, int(source_h * y_range[0]))
+            y1_px = min(source_h, int(source_h * y_range[1]))
+            if y1_px <= y0_px:
+                return []
+        crop = image_bgr[y0_px:y1_px]
         ocr = recognize_page_image(
-            image_bgr,
+            crop,
             dpi=dpi,
             page=page,
             doc_id=doc_id,
@@ -728,10 +878,16 @@ def _ocr_pseudo_spans(
         )
         spans: list[TextSpan] = []
         for ln in ocr.lines:
+            offset_pt = y0_px * 72.0 / float(dpi)
             spans.append(
                 TextSpan(
                     text=ln.text,
-                    bbox=ln.bbox_pt,
+                    bbox=(
+                        ln.bbox_pt[0],
+                        ln.bbox_pt[1] + offset_pt,
+                        ln.bbox_pt[2],
+                        ln.bbox_pt[3] + offset_pt,
+                    ),
                     font_size=None,
                 )
             )
