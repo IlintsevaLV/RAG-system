@@ -1,0 +1,224 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "_1954",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.6390905210510526,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 133.2,
+            "y1": 210.6,
+            "x2": 453.96,
+            "y2": 497.15999999999997
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "_1954",
+          "page": 11,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 133.2,
+            "y1": 210.6,
+            "x2": 453.96,
+            "y2": 497.15999999999997
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.6390905210510526,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\_1954\\p0011_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.6390905210510526,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "_1954",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.21550358181779644,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 158.4,
+            "y1": 462.96,
+            "x2": 484.2,
+            "y2": 693.36
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "_1954",
+          "page": 20,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 158.4,
+            "y1": 462.96,
+            "x2": 484.2,
+            "y2": 693.36
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.21550358181779644,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\_1954\\p0020_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.21550358181779644,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.685,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 309.92,
+            "y1": 436.64,
+            "x2": 506.2,
+            "y2": 456.88
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "_1954",
+          "page": 25,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 309.92,
+            "y1": 436.64,
+            "x2": 506.2,
+            "y2": 456.88
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\qquad \\qquad \\qquad \\quad \\cdots ^ { m m \\times n \\times { N \\times 4 . 4 . 4 } } \\, , } \\\\ & { a \\mathrm { -- } \\, \\Pi O T \\displaystyle { \\gamma \\mathrm { e } \\bar { \\mathrm { { C } } } \\mathrm { H } \\! \\cdot \\! 3 \\mathrm { X } } \\quad \\mathrm { M O H J H O C T \\bar { \\mathrm { : } } } \\, , \\quad \\bar { \\mathcal { O } } \\mathrm { - } \\, \\boldsymbol { \\mathrm { J H } \\mathrm { H } \\bar { \\mathrm { : } } } \\, \\boldsymbol { \\mathrm { q } } } \\\\ & { \\mathrm { M H H H W a } \\boldsymbol { \\mathrm { J H } \\mathrm { B H O \\ddot { \\bar { \\boldsymbol { H } } } } } \\quad \\mathrm { p a c h O \\bar { \\mathrm { J } } \\bar { \\mathrm { { Q } } } \\mathrm { \\bar { \\mathrm { ~ e M O H } \\bar { \\boldsymbol { ~ } } } } } \\boldsymbol { \\mathrm { 2 } } \\, \\boldsymbol { \\mathrm { e } } \\, \\mathrm { M O \\ddot { \\bar { \\boldsymbol { H } } } } \\quad \\quad \\mathrm { M O I I I } \\, . } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\qquad \\qquad \\qquad \\quad \\cdots ^ { m m \\times n \\times { N \\times 4 . 4 . 4 } } \\, , } \\\\ & { a \\mathrm { -- } \\, \\Pi O T \\displaystyle { \\gamma \\mathrm { e } \\bar { \\mathrm { { C } } } \\mathrm { H } \\! \\cdot \\! 3 \\mathrm { X } } \\quad \\mathrm { M O H J H O C T \\bar { \\mathrm { : } } } \\, , \\quad \\bar { \\mathcal { O } } \\mathrm { - } \\, \\boldsymbol { \\mathrm { J H } \\mathrm { H } \\bar { \\mathrm { : } } } \\, \\boldsymbol { \\mathrm { q } } } \\\\ & { \\mathrm { M H H H W a } \\boldsymbol { \\mathrm { J H } \\mathrm { B H O \\ddot { \\bar { \\boldsymbol { H } } } } } \\quad \\mathrm { p a c h O \\bar { \\mathrm { J } } \\bar { \\mathrm { { Q } } } \\mathrm { \\bar { \\mathrm { ~ e M O H } \\bar { \\boldsymbol { ~ } } } } } \\boldsymbol { \\mathrm { 2 } } \\, \\boldsymbol { \\mathrm { e } } \\, \\mathrm { M O \\ddot { \\bar { \\boldsymbol { H } } } } \\quad \\quad \\mathrm { M O I I I } \\, . } \\end{array}",
+            "text_fallback": "r l & ** m m n N 4 . 4 . 4 \\, , \\\\ & a -- \\, O T e C H \\! \\! 3 X M O H J H O C T : \\, , O - \\, J H H : \\, q \\\\ & M H H H W a J H B H O H p a c h O J Q ~ e M O H ~ 2 \\, e \\, M O H M O I I I \\, .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

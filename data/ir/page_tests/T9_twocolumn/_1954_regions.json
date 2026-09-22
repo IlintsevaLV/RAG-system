@@ -1,0 +1,93 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "_1954",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 55.919999999999995,
+            "y1": 225.12,
+            "x2": 531.24,
+            "y2": 358.44
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "_1954",
+          "page": 24,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 55.919999999999995,
+            "y1": 225.12,
+            "x2": 531.24,
+            "y2": 358.44
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7160493827160493,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=7",
+              "numeric_ratio=0.86",
+              "span_cells_score=0.716",
+              "rows=9 cols=9 consistency=1.00 meaningful=0.43",
+              "span_cols=9",
+              "span_rows=9"
+            ]
+          },
+          "content": {
+            "markdown": "| С ТОЧКИ |  |  | зрения веса, но дороги и пногда |  |  |  | $ΠΡΟΥ3ΒΟΔΑΤ ΜΗΟΓΟ μγΜα.$ |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Часто | применяется |  | комбинация |  |  | угловой и планетарной зубчатых |  |  |\n|  |  | гателя с несущим винтом, включаемую |  |  |  |  | летчиком или с помощью |  |\n|  | центробежных грузов |  | при | достижении |  | двигателем |  | определенных |\n|  | оборотов. Кроме |  | муфты сцепления, 1 |  |  | предусматривается еще |  | $Myφτa$ |\n|  | свободного хода, |  |  |  | обеспечивающая возможность свободного враще- |  |  |  |\n| ния несущего |  | BHHTa | noc.ne | остановки | двигателя. |  | $Β$ | $ΟΔΗΟΒHΗΤΟBLIX$ |\n|  | вертолетах хвостовой |  |  | винт связывается | с несущим |  | BHTOM | так, что |\n|  |  | в случае остановки двигателя несущий |  |  |  | винг продолжает |  | вращать |",
+            "html": "",
+            "n_rows": 9,
+            "n_cols": 9,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7160493827160493,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 2,
+        "n_formulas": 1,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 1
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 54.48,
+            "y1": 468.12,
+            "x2": 517.2,
+            "y2": 698.64
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8907142857142858,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 270.68,
+            "y1": 666.68,
+            "x2": 477.03999999999996,
+            "y2": 696.64
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "_1954",
+          "page": 3,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 54.48,
+            "y1": 468.12,
+            "x2": 517.2,
+            "y2": 698.64
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9305555555555557,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=8",
+              "cols=4",
+              "numeric_ratio=0.84",
+              "span_cells_score=0.931",
+              "rows=9 cols=4 consistency=1.00 meaningful=0.86",
+              "span_cols=4",
+              "span_rows=9"
+            ]
+          },
+          "content": {
+            "markdown": "| Crp. | $Cτροκα$ | Напечатано | Должно быть |\n| --- | --- | --- | --- |\n| 32 | 11 cpxy | теории | теореме |\n| 43 | 1 cBepxy | поставить | подставить |\n| 19 | 8 cBepxy | $(cM. φuΓ. 11.5)$ | $(CM $uΓ. 11.4)$ |\n|  |  |  | r2 ]B |\n| 57 | (III.21) |  | 2 |\n| 74 | $Φopmy.ta (IV.9)$ |  | bxn $ωR$ |\n| 81 | $ΦopΜy1α (IV.22)$ | $Δmk$ | $Δmkx$ |\n| 152 | 14 cepxy | $0=0κy --$ $θο$ | $01=0κ$ |",
+            "html": "",
+            "n_rows": 9,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9305555555555557,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "_1954",
+          "page": 3,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 270.68,
+            "y1": 666.68,
+            "x2": 477.03999999999996,
+            "y2": 696.64
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "pylatexenc_ok"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\scriptstyle \\theta _ { \\mathbf { i } } = \\theta _ { \\mathbf { K } { \\mathbf { y } } } \\, = \\, \\theta _ { 0 } . \\qquad \\qquad \\scriptstyle \\theta _ { 1 } \\, = \\, \\theta _ { \\mathbf { k } \\mathbf { H } } \\, -",
+            "latex": "\\scriptstyle \\theta _ { \\mathbf { i } } = \\theta _ { \\mathbf { K } { \\mathbf { y } } } \\, = \\, \\theta _ { 0 } . \\qquad \\qquad \\scriptstyle \\theta _ { 1 } \\, = \\, \\theta _ { \\mathbf { k } \\mathbf { H } } \\, -",
+            "text_fallback": "i = K y \\, = \\, 0 . 1 \\, = \\, k H \\, -",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

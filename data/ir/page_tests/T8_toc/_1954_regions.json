@@ -1,0 +1,52 @@
+{
+  "doc_id": "_1954",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\_1954.pdf",
+  "page_count": 254,
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "page": 252,
+      "summary": {
+        "page": 252,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "_1954",
+      "page": 253,
+      "summary": {
+        "page": 253,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "_1954",
+      "page": 254,
+      "summary": {
+        "page": 254,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}
