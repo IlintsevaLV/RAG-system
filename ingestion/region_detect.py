@@ -32,6 +32,20 @@ _TOC_TITLE = re.compile(
     r"(содержани[ея]|оглавлени[ея]|содержание|contents|table of contents)",
     re.IGNORECASE,
 )
+_FORMULA_STOPWORDS = {
+    "and",
+    "are",
+    "for",
+    "from",
+    "где",
+    "если",
+    "как",
+    "при",
+    "это",
+    "the",
+    "this",
+    "with",
+}
 _NUMERICISH = re.compile(r"\d")
 
 
@@ -104,7 +118,10 @@ def _is_formula_fragment(span: TextSpan) -> bool:
     if not text or len(text) > 24:
         return False
     words = _WORD.findall(text)
-    if len(words) > 3:
+    if len(words) > 3 or any(w.lower() in _FORMULA_STOPWORDS for w in words):
+        return False
+    latin_words = re.findall(r"[A-Za-z]+", text)
+    if any(len(word) > 3 for word in latin_words):
         return False
     greek_or_math = sum(
         ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff") for ch in text
@@ -177,34 +194,41 @@ def merge_formula_spans(
         )
         if not text:
             continue
-        # Count compact math tokens, not arbitrary punctuation.  Single
-        # Latin letters are variables in this context; ordinary words are
-        # excluded by _is_formula_fragment and the density gate below.
+        # Explicit math markers are the primary signal.  Digits and compact
+        # Latin variables contribute to density only; counting them as
+        # markers lets OCR garbage such as "0 . 0 7 2 \\sum" pass.
         latin_tokens = re.findall(r"[A-Za-z]+", text)
         compact_latin = bool(latin_tokens) and all(
             len(token) <= 2 for token in latin_tokens
         )
-        marker_count = sum(
+        explicit_markers = sum(
+            ch in "=^\\√" or ("\u0370" <= ch <= "\u03ff") for ch in text
+        )
+        density_symbols = sum(
             ch.isdigit()
             or ch in "=^\\√"
             or ("\u0370" <= ch <= "\u03ff")
-            or (
-                compact_latin
-                and ("A" <= ch <= "Z" or "a" <= ch <= "z")
-            )
+            or (compact_latin and ch.isascii() and ch.isalpha())
             for ch in text
         )
         nonspace = sum(not ch.isspace() for ch in text)
-        math_density = marker_count / max(1, nonspace)
-        explicit_marker = bool(
-            re.search(r"[=^\\√]|[\u0370-\u03ff]|\d", text)
+        math_density = density_symbols / max(1, nonspace)
+        greek_count = sum("\u0370" <= ch <= "\u03ff" for ch in text)
+        # A two-level fraction such as "kb" over "πR" has one Greek glyph,
+        # but its compact variable layout is still unambiguous.
+        fraction_like = (
+            len(group) >= 2
+            and greek_count >= 1
+            and compact_latin
+            and max(s.bbox[3] for s in group) - min(s.bbox[1] for s in group)
+            >= 1.5 * max(s.bbox[3] - s.bbox[1] for s in group)
         )
         # Fragment recovery must be substantially mathematical.  This is
         # deliberately stricter than the ordinary one-span heuristic.
         if (
-            marker_count < 3
+            explicit_markers < 3
+            and not fraction_like
             or math_density < 0.40
-            or not explicit_marker
             or len(group) < 2
         ):
             continue
@@ -238,6 +262,22 @@ def detect_formula_regions_from_spans(
     )
     for sp in spans:
         sc = _line_math_score(sp.text)
+        explicit_markers = sum(
+            ch in "=^\\√" or ("\u0370" <= ch <= "\u03ff")
+            for ch in sp.text
+        )
+        # A lone OCR command (or digits followed by one command) is not a
+        # formula.  Without this guard "\sum" from prose survives the
+        # ordinary one-span heuristic before fragment recovery is considered.
+        if (
+            sc >= 0.55
+            and explicit_markers < 2
+            and re.search(r"\\(?:frac|int|lim|prod|sqrt|sum)\b", sp.text)
+            and "=" not in sp.text
+            and "_" not in sp.text
+            and "^" not in sp.text
+        ):
+            sc = 0.0
         if sc >= 0.55:
             scored.append((sp, sc))
 
