@@ -56,6 +56,7 @@ _HOMOGLYPH_TO_LAT = str.maketrans(
 
 _CYR = re.compile(r"[\u0400-\u04FF]")
 _LAT = re.compile(r"[A-Za-z]")
+_GREEK = re.compile(r"[\u0370-\u03FF\u1F00-\u1FFF]")
 _WS = re.compile(r"[ \t]+")
 
 
@@ -83,9 +84,11 @@ def fix_homoglyphs_in_token(token: str) -> str:
     """Inside a mostly-Cyrillic token, pull Latin lookalikes to Cyrillic (and vice versa).
 
     Does NOT rewrite mixed technical codes like M12-6g wholesale — those need
-    structural validators later.
+    structural validators later. Greek letters are preserved as-is.
     """
     if len(token) < 2:
+        return token
+    if _GREEK.search(token):
         return token
     cyr_share, lat_share = _script_share(token)
     if cyr_share >= 0.6 and lat_share > 0:
@@ -138,4 +141,12 @@ def normalize_ocr_text(text: str) -> str:
     text = collapse_spaced_letters(text)
     text = strip_scan_boilerplate(text)
     text = normalize_whitespace(text)
-    return _TOKEN.sub(lambda m: fix_homoglyphs_in_token(m.group(0)), text)
+    text = _TOKEN.sub(lambda m: fix_homoglyphs_in_token(m.group(0)), text)
+    # Soft Greek recovery for formula-like OCR fragments (α/β/π/ω…).
+    try:
+        from ingestion.tech_symbols import recover_greek_math_tokens
+
+        text = recover_greek_math_tokens(text)
+    except Exception:
+        pass
+    return text

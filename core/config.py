@@ -68,6 +68,8 @@ class Settings(BaseSettings):
     ocr_max_side_len: int = 4000
     ocr_band_trigger_px: int = 2800
     ocr_band_height: int = 1600
+    ocr_enable_latin: bool = True  # Latin/English head when latin model present
+    ocr_enable_greek: bool = True  # Greek head for formulas/notations
 
     # Special regions: formulas / tables / figures
     enable_unimernet: bool = False

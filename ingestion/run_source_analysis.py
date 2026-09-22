@@ -103,6 +103,8 @@ def main(argv: list[str] | None = None) -> int:
         band_trigger_px=settings.ocr_band_trigger_px,
         band_height=settings.ocr_band_height,
         model_dir=str(settings.ocr_model_dir),
+        enable_latin=settings.ocr_enable_latin,
+        enable_greek=settings.ocr_enable_greek,
     )
 
     for pdf in targets:

@@ -37,25 +37,51 @@ def _md_quality(md: str) -> tuple[float, int, int, list[str]]:
     if not rows:
         return 0.1, 0, 0, ["no_pipe_rows"]
     cols = [ln.count("|") - (1 if ln.strip().startswith("|") else 0) for ln in rows]
-    # normalize col count
     n_cols = int(np.median(cols)) if cols else 0
     n_rows = len(rows)
     consistency = float(sum(1 for c in cols if abs(c - n_cols) <= 1) / max(1, len(cols)))
-    # nonempty cells estimate
-    cells = []
+    cells: list[str] = []
     for ln in rows:
         parts = [p.strip() for p in ln.strip("|").split("|")]
         cells.extend(parts)
     nonempty = sum(1 for c in cells if c) / max(1, len(cells))
-    score = 0.45 * consistency + 0.40 * nonempty + 0.15 * min(1.0, n_rows / 5.0)
+    meaningful = sum(1 for c in cells if any(ch.isalnum() for ch in c)) / max(1, len(cells))
+    score = (
+        0.35 * consistency
+        + 0.30 * nonempty
+        + 0.20 * meaningful
+        + 0.15 * min(1.0, n_rows / 5.0)
+    )
     long_cells = sum(1 for c in cells if len(c) > 180)
     if long_cells and n_rows < 5:
         score *= 0.35
         notes.append("prose_like_cells")
+    # TOC-like markdown: dotted leaders or trailing page numbers in most rows.
+    toc_hits = sum(
+        1
+        for c in cells
+        if "..." in c or "…" in c or re.search(r"\.\s*\.\s*\.", c)
+    )
+    page_num_hits = sum(1 for c in cells if re.fullmatch(r"\d{1,3}", c or ""))
+    if toc_hits >= max(2, n_rows // 2) or (
+        page_num_hits >= max(3, n_rows // 2) and n_cols <= 3
+    ):
+        score *= 0.15
+        notes.append("toc_like_markdown")
+    if meaningful < 0.25:
+        score *= 0.4
+        notes.append("low_meaningful_fill")
     if n_cols < 2 or n_rows < 2:
         score *= 0.5
         notes.append("too_small")
-    notes.append(f"rows={n_rows} cols={n_cols} consistency={consistency:.2f}")
+    # Extremely wide sparse grids from false line detection.
+    if n_cols >= 10 and meaningful < 0.35:
+        score *= 0.25
+        notes.append("sparse_wide_grid")
+    notes.append(
+        f"rows={n_rows} cols={n_cols} consistency={consistency:.2f} "
+        f"meaningful={meaningful:.2f}"
+    )
     return float(score), n_rows, n_cols, notes
 
 
@@ -188,16 +214,109 @@ def parse_table_img2table(image_bgr: np.ndarray) -> TableParseResult | None:
         )
 
 
+
+def _upsample_cell(cell: np.ndarray, min_side: int = 48) -> np.ndarray:
+    """Tiny table cells (sub/superscripts, Greek letters) need upsampling."""
+    if cell is None or cell.size == 0:
+        return cell
+    h, w = cell.shape[:2]
+    m = min(h, w)
+    if m <= 0 or m >= min_side:
+        return cell
+    scale = max(2.0, float(min_side) / float(m))
+    return cv2.resize(cell, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC)
+
+
+def _cell_visual_formula_score(cell: np.ndarray) -> float:
+    """Heuristic: compact ink with superscripts / stacked glyphs looks like math."""
+    if cell is None or cell.size == 0:
+        return 0.0
+    gray = cv2.cvtColor(cell, cv2.COLOR_BGR2GRAY) if cell.ndim == 3 else cell
+    h, w = gray.shape
+    if h < 8 or w < 8:
+        return 0.0
+    ink = gray < max(40, int(np.median(gray) - 20))
+    density = float(ink.mean())
+    if density < 0.01 or density > 0.55:
+        return 0.0
+    # vertical variance of ink -> stacked exponents / fractions
+    row_energy = ink.sum(axis=1)
+    active = np.flatnonzero(row_energy > 0)
+    if len(active) < 3:
+        return 0.0
+    span = (active[-1] - active[0] + 1) / max(1, h)
+    score = 0.0
+    if density < 0.28:
+        score += 0.35
+    if span > 0.55 and h / max(w, 1) > 0.55:
+        score += 0.35
+    edges = cv2.Canny(gray, 50, 150)
+    if edges.mean() > 8:
+        score += 0.2
+    return min(1.0, score)
+
+
+def _recognize_table_cell(
+    cell: np.ndarray,
+    *,
+    dpi: int,
+    unimer: Any | None = None,
+) -> tuple[str, dict[str, Any]]:
+    """OCR a cell; optionally recover in-cell formulas as LaTeX for Markdown."""
+    from ingestion.ocr_rapid import RapidOCRConfig, recognize_image
+    from ingestion.tech_symbols import (
+        has_greek,
+        looks_like_formula_text,
+        wrap_formula_for_markdown,
+    )
+
+    meta: dict[str, Any] = {"kind": "text", "latex": "", "text": ""}
+    if cell is None or cell.size == 0:
+        return "", meta
+
+    work = _upsample_cell(cell)
+    lines = recognize_image(
+        work,
+        dpi=dpi,
+        page=0,
+        doc_id="table_cell",
+        cfg=RapidOCRConfig(max_side_len=2000, enable_latin=True, enable_greek=True),
+    )
+    # Multi-line cells: keep spaces (not newlines) so Markdown stays one row.
+    text = " ".join(ln.text.strip() for ln in lines if ln.text.strip()).strip()
+    meta["text"] = text
+    visual = _cell_visual_formula_score(cell)
+    formula_like = looks_like_formula_text(text) or visual >= 0.55 or has_greek(text)
+
+    latex = ""
+    if formula_like and unimer is not None:
+        try:
+            latex = (unimer.recognize(work) or "").strip()
+        except Exception as exc:  # noqa: BLE001
+            meta["unimer_fail"] = str(exc)
+    if latex:
+        meta["kind"] = "formula"
+        meta["latex"] = latex
+        return wrap_formula_for_markdown(text, latex), meta
+    if formula_like and text:
+        meta["kind"] = "formula_text"
+        return wrap_formula_for_markdown(text, None), meta
+    return text.replace("|", r"\|"), meta
+
+
 def parse_table_cells_ocr(
     image_bgr: np.ndarray,
     *,
     dpi: int = 200,
+    unimer: Any | None = None,
 ) -> TableParseResult | None:
     """Recover a lined table by OCR-ing each detected grid cell.
 
-    This is deliberately deterministic and is used before VLM recovery.  It
-    prevents a vision model from inventing a complete row when only one cell
-    is unreadable.
+    Handles:
+    - tiny cells (upsample)
+    - multi-line cells (join)
+    - Greek letters via dual OCR
+    - formula-like cells -> optional UniMERNet LaTeX inside `$...$`
     """
     try:
         gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
@@ -231,34 +350,34 @@ def parse_table_cells_ocr(
         if len(xs) < 3 or len(ys) < 3 or len(xs) * len(ys) > 400:
             return None
 
-        from ingestion.ocr_rapid import RapidOCRConfig, recognize_image
-
         rows: list[list[str]] = []
+        cell_meta: list[list[dict[str, Any]]] = []
         nonempty = 0
         meaningful = 0
+        formula_cells = 0
         for y0, y1 in zip(ys, ys[1:]):
             row: list[str] = []
+            meta_row: list[dict[str, Any]] = []
             for x0, x1 in zip(xs, xs[1:]):
                 pad_x = max(2, int((x1 - x0) * 0.06))
                 pad_y = max(2, int((y1 - y0) * 0.10))
-                cell = image_bgr[
-                    min(h, y0 + pad_y) : max(0, y1 - pad_y),
-                    min(w, x0 + pad_x) : max(0, x1 - pad_x),
-                ]
-                text = ""
-                if cell.size:
-                    lines = recognize_image(
-                        cell,
-                        dpi=dpi,
-                        page=0,
-                        doc_id="table_cell",
-                        cfg=RapidOCRConfig(max_side_len=2000),
-                    )
-                    text = " ".join(ln.text.strip() for ln in lines).strip()
-                row.append(text.replace("|", r"\|"))
-                nonempty += bool(text)
-                meaningful += len(text) >= 2
+                y_a, y_b = min(h, y0 + pad_y), max(0, y1 - pad_y)
+                x_a, x_b = min(w, x0 + pad_x), max(0, x1 - pad_x)
+                if y_b <= y_a or x_b <= x_a:
+                    cell = image_bgr[0:0, 0:0]
+                else:
+                    cell = image_bgr[y_a:y_b, x_a:x_b]
+                text, meta = _recognize_table_cell(cell, dpi=dpi, unimer=unimer)
+                row.append(text)
+                meta_row.append(meta)
+                nonempty += bool(meta.get("text") or text)
+                meaningful += bool(meta.get("text")) and any(
+                    ch.isalnum() or ("\u0370" <= ch <= "\u03FF") for ch in meta.get("text", "")
+                )
+                if meta.get("kind", "").startswith("formula"):
+                    formula_cells += 1
             rows.append(row)
+            cell_meta.append(meta_row)
         if len(rows) < 2:
             return None
         width = max(len(r) for r in rows)
@@ -270,8 +389,23 @@ def parse_table_cells_ocr(
         )
         total_cells = max(1, len(rows) * width)
         fill_ratio = meaningful / total_cells
-        # A grid with isolated one-character noise is not a usable table.
         score = min(0.95, 0.15 + 0.85 * fill_ratio)
+        if formula_cells:
+            score = min(0.98, score + 0.05)
+        if fill_ratio < 0.22 or meaningful < max(4, int(0.2 * total_cells)):
+            return TableParseResult(
+                markdown="",
+                n_rows=len(rows),
+                n_cols=width,
+                method="cell_ocr",
+                confidence=min(score, 0.20),
+                notes=[
+                    f"grid={len(xs)}x{len(ys)}",
+                    f"nonempty={nonempty}",
+                    f"meaningful_ratio={fill_ratio:.3f}",
+                    "rejected_sparse_grid",
+                ],
+            )
         return TableParseResult(
             markdown=md,
             n_rows=len(rows),
@@ -282,6 +416,7 @@ def parse_table_cells_ocr(
                 f"grid={len(xs)}x{len(ys)}",
                 f"nonempty={nonempty}",
                 f"meaningful_ratio={fill_ratio:.3f}",
+                f"formula_cells={formula_cells}",
             ],
         )
     except Exception as exc:  # noqa: BLE001
@@ -291,10 +426,101 @@ def parse_table_cells_ocr(
         )
 
 
+def parse_table_from_spans(
+    spans: list[Any],
+    region: DetectedRegion,
+    *,
+    page_w: float,
+) -> TableParseResult | None:
+    """Rebuild Markdown from text/OCR spans inside an unruled table bbox."""
+    if not spans:
+        return None
+    pad = 4.0
+    box = region.bbox_pt
+    inside = []
+    for sp in spans:
+        bbox = getattr(sp, "bbox", None)
+        text = (getattr(sp, "text", "") or "").strip()
+        if bbox is None or not text:
+            continue
+        cx = 0.5 * (bbox[0] + bbox[2])
+        cy = 0.5 * (bbox[1] + bbox[3])
+        if box.x1 - pad <= cx <= box.x2 + pad and box.y1 - pad <= cy <= box.y2 + pad:
+            inside.append(sp)
+    if len(inside) < 6:
+        return None
+
+    # row cluster
+    items = sorted(inside, key=lambda s: (0.5 * (s.bbox[1] + s.bbox[3]), s.bbox[0]))
+    rows_sp: list[list[Any]] = []
+    for sp in items:
+        cy = 0.5 * (sp.bbox[1] + sp.bbox[3])
+        if not rows_sp or abs(0.5 * (rows_sp[-1][0].bbox[1] + rows_sp[-1][0].bbox[3]) - cy) > 10:
+            rows_sp.append([sp])
+        else:
+            rows_sp[-1].append(sp)
+    if len(rows_sp) < 2:
+        return None
+
+    xs = [0.5 * (sp.bbox[0] + sp.bbox[2]) for sp in inside]
+    import numpy as np
+
+    hist, edges = np.histogram(xs, bins=max(6, min(14, len(xs))))
+    thr = max(2.0, float(hist.max()) * 0.35)
+    peaks = [0.5 * (edges[i] + edges[i + 1]) for i, v in enumerate(hist) if v >= thr]
+    merged: list[float] = []
+    for p in peaks:
+        if not merged or abs(p - merged[-1]) > 16:
+            merged.append(float(p))
+        else:
+            merged[-1] = 0.5 * (merged[-1] + p)
+    if len(merged) < 2:
+        return None
+
+    grid: list[list[str]] = []
+    for row in rows_sp:
+        cells = [""] * len(merged)
+        for sp in sorted(row, key=lambda s: s.bbox[0]):
+            cx = 0.5 * (sp.bbox[0] + sp.bbox[2])
+            j = min(range(len(merged)), key=lambda k: abs(merged[k] - cx))
+            from ingestion.tech_symbols import looks_like_formula_text, wrap_formula_for_markdown
+            raw = sp.text.strip()
+            val = wrap_formula_for_markdown(raw) if looks_like_formula_text(raw) else raw.replace("|", r"\|")
+            cells[j] = (cells[j] + " " + val).strip() if cells[j] else val
+        grid.append(cells)
+
+    # drop empty trailing columns
+    while len(grid[0]) > 2 and all(not r[-1] for r in grid):
+        grid = [r[:-1] for r in grid]
+    width = len(grid[0])
+    if width < 2 or len(grid) < 2:
+        return None
+    nonempty = sum(1 for r in grid for c in r if c)
+    if nonempty / max(1, len(grid) * width) < 0.30:
+        return None
+
+    md = "\n".join(
+        ["| " + " | ".join(grid[0]) + " |",
+         "| " + " | ".join(["---"] * width) + " |"]
+        + ["| " + " | ".join(r) + " |" for r in grid[1:]]
+    )
+    score, nr, nc, notes = _md_quality(md)
+    return TableParseResult(
+        markdown=md,
+        n_rows=nr,
+        n_cols=nc,
+        method="span_cells",
+        confidence=max(score, 0.55),
+        notes=notes + [f"span_cols={width}", f"span_rows={len(grid)}"],
+    )
+
+
 def parse_table_vlm(image_bgr: np.ndarray, vlm: Any) -> TableParseResult:
     prompt = (
         "Extract the table from this image as GitHub-flavored Markdown only. "
         "Use | columns | and a header separator row. "
+        "Preserve Greek letters (α β γ θ λ μ π σ ω) exactly. "
+        "If a cell contains a formula, write it as $LaTeX$ inside the cell. "
         "Do not invent cells. If unreadable write UNREADABLE."
     )
     raw = (vlm.read_ndarray(image_bgr, prompt) or "").strip()
@@ -374,6 +600,9 @@ def process_table_region(
     region_id: str,
     cache_dir: Path,
     vlm: Any | None = None,
+    unimer: Any | None = None,
+    spans: list[Any] | None = None,
+    page_w: float | None = None,
     enable_docling: bool = True,
     enable_ppstructure: bool = True,
     enable_img2table: bool = True,
@@ -388,8 +617,17 @@ def process_table_region(
     tmp.mkdir(parents=True, exist_ok=True)
     cv2.imwrite(str(tmp / "crop.png"), crop)
 
+    # Unruled / lightly ruled tables: rebuild Markdown from aligned spans first.
+    if spans and page_w:
+        r = parse_table_from_spans(spans, region, page_w=page_w)
+        if r:
+            attempts.append(r)
+            notes.append(f"span_cells_score={r.confidence:.3f}")
+            if r.confidence >= accept_threshold and r.markdown.strip():
+                return _to_block(doc_id, page, region_id, region, r, notes)
+
     if enable_cell_ocr:
-        r = parse_table_cells_ocr(crop)
+        r = parse_table_cells_ocr(crop, unimer=unimer)
         if r:
             attempts.append(r)
             notes.append(f"cell_ocr_score={r.confidence:.3f}")
@@ -430,9 +668,14 @@ def process_table_region(
         except Exception as exc:  # noqa: BLE001
             notes.append(f"vlm_fail:{exc}")
 
-    # best effort among attempts
-    best = max(attempts, key=lambda a: a.confidence) if attempts else None
-    if best and best.markdown.strip():
+    # Prefer an explicit failure over garbage markdown that pollutes RAG.
+    usable = [
+        a
+        for a in attempts
+        if a.markdown.strip() and a.confidence >= max(0.28, accept_threshold * 0.55)
+    ]
+    best = max(usable, key=lambda a: a.confidence) if usable else None
+    if best:
         notes.append("best_effort_below_threshold")
         return _to_block(doc_id, page, region_id, region, best, notes, suspicious=True)
 
@@ -445,7 +688,11 @@ def process_table_region(
         quality=QualitySignals(
             structural_ok=False, suspicion=1.0, notes=notes + ["all_backends_failed"]
         ),
-        content={"markdown": "", "status": "failed", "attempts": [a.method for a in attempts]},
+        content={
+            "markdown": "",
+            "status": "failed",
+            "attempts": [a.method for a in attempts],
+        },
         provenance=Provenance(method="none"),
     )
 

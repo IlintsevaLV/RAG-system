@@ -39,12 +39,13 @@ def process_page_special_blocks(
     vlm: LlamaVisionClient | None = None,
 ) -> dict[str, Any]:
     settings = settings or get_settings()
-    image_bgr, detections, _seed_blocks = detect_page_regions(
+    image_bgr, detections, _seed_blocks, page_spans = detect_page_regions(
         doc,
         page_number,
         doc_id=doc_id,
         dpi=settings.render_dpi,
     )
+    page_w = float(doc[page_number - 1].rect.width)
     if vlm is None:
         vlm = _vlm(settings)
     if unimer is None and settings.enable_unimernet:
@@ -78,6 +79,9 @@ def process_page_special_blocks(
                     region_id=rid,
                     cache_dir=settings.cache_dir,
                     vlm=vlm if settings.table_vlm_recovery else None,
+                    unimer=unimer,
+                    spans=page_spans,
+                    page_w=page_w,
                     enable_docling=settings.table_enable_docling,
                     enable_ppstructure=settings.table_enable_ppstructure,
                     enable_img2table=settings.table_enable_img2table,

@@ -1,7 +1,13 @@
-"""RapidOCR wrapper (PP-OCRv5 Cyrillic) for pages routed to OCR.
+"""RapidOCR multi-head wrapper: Cyrillic + Latin + Greek.
 
-Models are loaded from OCR_MODEL_DIR (default data/models/ocr) to avoid
-ModelScope downloads on locked-down work PCs.
+Models load from OCR_MODEL_DIR (default data/models/ocr) for offline work PCs.
+
+- Primary: cyrillic — long Russian normative text
+- Optional: latin — long English / Latin-script text
+- Optional: el (Greek) — α β γ θ λ μ π σ ω in formulas and notations
+
+When secondary ONNX files are present, each page/crop is recognized by the
+enabled heads and overlapping boxes are merged by script affinity.
 """
 
 from __future__ import annotations
@@ -17,13 +23,22 @@ from core.text_norm import normalize_ocr_text
 from ingestion.models import OCRLine, OCRPageResult
 from ingestion.ocr_reading_order import rebuild_ocr_text
 from ingestion.preprocess import horizontal_bands
+from ingestion.tech_symbols import choose_ocr_candidate
 
-# Expected offline files (PP-OCRv5 mobile + Cyrillic rec)
 REQUIRED_MODELS = (
     "ch_PP-OCRv5_det_mobile.onnx",
     "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
     "cyrillic_PP-OCRv5_rec_mobile.onnx",
 )
+OPTIONAL_LATIN_MODEL = "latin_PP-OCRv5_rec_mobile.onnx"
+OPTIONAL_GREEK_MODEL = "el_PP-OCRv5_rec_mobile.onnx"
+ALL_KNOWN_MODELS = REQUIRED_MODELS + (OPTIONAL_LATIN_MODEL, OPTIONAL_GREEK_MODEL)
+
+_LANG_REC = {
+    "cyrillic": "CYRILLIC",
+    "latin": "LATIN",
+    "el": "EL",
+}
 
 
 @dataclass
@@ -35,6 +50,8 @@ class RapidOCRConfig:
     band_overlap: float = 0.12
     lang: str = "cyrillic"
     model_dir: str | None = None
+    enable_latin: bool = True
+    enable_greek: bool = True
 
 
 def default_model_dir() -> Path:
@@ -51,49 +68,68 @@ def resolve_model_dir(model_dir: str | Path | None = None) -> Path:
 
 
 def check_local_models(model_dir: Path) -> list[str]:
-    missing = [name for name in REQUIRED_MODELS if not (model_dir / name).is_file()]
-    return missing
+    return [name for name in REQUIRED_MODELS if not (model_dir / name).is_file()]
+
+
+def latin_model_available(model_dir: str | Path | None = None) -> bool:
+    return (resolve_model_dir(model_dir) / OPTIONAL_LATIN_MODEL).is_file()
+
+
+def greek_model_available(model_dir: str | Path | None = None) -> bool:
+    return (resolve_model_dir(model_dir) / OPTIONAL_GREEK_MODEL).is_file()
+
+
+def _build_engine_for_lang(
+    cfg: RapidOCRConfig,
+    *,
+    lang: str,
+    rec_model_name: str,
+) -> tuple[Any, str]:
+    model_dir = resolve_model_dir(cfg.model_dir)
+    missing_core = check_local_models(model_dir)
+    rec_path = model_dir / rec_model_name
+    if missing_core or not rec_path.is_file():
+        raise FileNotFoundError(
+            f"OCR models incomplete for lang={lang}: missing_core={missing_core} "
+            f"rec={rec_model_name} exists={rec_path.is_file()}"
+        )
+
+    from rapidocr import EngineType, LangDet, LangRec, ModelType, OCRVersion, RapidOCR
+
+    lang_enum = getattr(LangRec, _LANG_REC[lang])
+    params: dict[str, Any] = {
+        "Det.engine_type": EngineType.ONNXRUNTIME,
+        "Det.lang_type": LangDet.CH,
+        "Det.model_type": ModelType.MOBILE,
+        "Det.ocr_version": OCRVersion.PPOCRV5,
+        "Cls.engine_type": EngineType.ONNXRUNTIME,
+        "Rec.engine_type": EngineType.ONNXRUNTIME,
+        "Rec.lang_type": lang_enum,
+        "Rec.model_type": ModelType.MOBILE,
+        "Rec.ocr_version": OCRVersion.PPOCRV5,
+        "Global.max_side_len": cfg.max_side_len,
+        "Global.model_root_dir": str(model_dir.resolve()),
+        "Det.model_path": str((model_dir / REQUIRED_MODELS[0]).resolve()),
+        "Cls.model_path": str((model_dir / REQUIRED_MODELS[1]).resolve()),
+        "Rec.model_path": str(rec_path.resolve()),
+    }
+    if cfg.use_gpu:
+        params["EngineConfig.onnxruntime.use_cuda"] = True
+    engine = RapidOCR(params=params)
+    return engine, f"rapidocr:{lang}"
 
 
 def _try_build_engine(cfg: RapidOCRConfig) -> tuple[Any, str]:
-    """Build RapidOCR from local ONNX files; do not rely on ModelScope."""
     model_dir = resolve_model_dir(cfg.model_dir)
     missing = check_local_models(model_dir)
-
     last_err: Exception | None = None
     try:
-        from rapidocr import EngineType, LangDet, LangRec, ModelType, OCRVersion, RapidOCR
-
-        params: dict[str, Any] = {
-            "Det.engine_type": EngineType.ONNXRUNTIME,
-            "Det.lang_type": LangDet.CH,
-            "Det.model_type": ModelType.MOBILE,
-            "Det.ocr_version": OCRVersion.PPOCRV5,
-            "Cls.engine_type": EngineType.ONNXRUNTIME,
-            "Rec.engine_type": EngineType.ONNXRUNTIME,
-            "Rec.lang_type": LangRec.CYRILLIC,
-            "Rec.model_type": ModelType.MOBILE,
-            "Rec.ocr_version": OCRVersion.PPOCRV5,
-            "Global.max_side_len": cfg.max_side_len,
-            "Global.model_root_dir": str(model_dir.resolve()),
-        }
-        if not missing:
-            params.update(
-                {
-                    "Det.model_path": str((model_dir / REQUIRED_MODELS[0]).resolve()),
-                    "Cls.model_path": str((model_dir / REQUIRED_MODELS[1]).resolve()),
-                    "Rec.model_path": str((model_dir / REQUIRED_MODELS[2]).resolve()),
-                }
-            )
-        if cfg.use_gpu:
-            params["EngineConfig.onnxruntime.use_cuda"] = True
-
-        engine = RapidOCR(params=params)
-        return engine, "rapidocr"
+        return _build_engine_for_lang(
+            cfg, lang="cyrillic", rec_model_name=REQUIRED_MODELS[2]
+        )
     except Exception as exc:  # noqa: BLE001
         last_err = exc
 
-    # Legacy package (optional)
     try:
         from rapidocr_onnxruntime import RapidOCR as LegacyRapidOCR
 
@@ -111,10 +147,10 @@ def _try_build_engine(cfg: RapidOCRConfig) -> tuple[Any, str]:
         f"RapidOCR models missing or download blocked (ModelScope).\n"
         f"  model_dir: {model_dir.resolve()}\n"
         f"  missing: {missing or '(files present but engine failed)'}\n"
-        f"  Fix on a PC with internet, then copy folder to work PC:\n"
-        f"    python -m scripts.prepare_ocr_models\n"
-        f"  Or set OCR_MODEL_DIR to a folder with:\n"
-        f"    {', '.join(REQUIRED_MODELS)}\n"
+        f"  Fix: python -m scripts.prepare_ocr_models\n"
+        f"  Required: {', '.join(REQUIRED_MODELS)}\n"
+        f"  Optional Latin: {OPTIONAL_LATIN_MODEL}\n"
+        f"  Optional Greek: {OPTIONAL_GREEK_MODEL}\n"
         f"  Last error: {last_err}"
     )
     raise RuntimeError(hint) from last_err
@@ -135,6 +171,44 @@ def get_ocr_engine(
     )
 
 
+@lru_cache(maxsize=4)
+def get_latin_ocr_engine(
+    use_gpu: bool = False,
+    max_side_len: int = 4000,
+    model_dir: str = "",
+) -> tuple[Any, str] | None:
+    cfg = RapidOCRConfig(
+        use_gpu=use_gpu, max_side_len=max_side_len, model_dir=model_dir or None
+    )
+    if not latin_model_available(cfg.model_dir):
+        return None
+    try:
+        return _build_engine_for_lang(
+            cfg, lang="latin", rec_model_name=OPTIONAL_LATIN_MODEL
+        )
+    except Exception:
+        return None
+
+
+@lru_cache(maxsize=4)
+def get_greek_ocr_engine(
+    use_gpu: bool = False,
+    max_side_len: int = 4000,
+    model_dir: str = "",
+) -> tuple[Any, str] | None:
+    cfg = RapidOCRConfig(
+        use_gpu=use_gpu, max_side_len=max_side_len, model_dir=model_dir or None
+    )
+    if not greek_model_available(cfg.model_dir):
+        return None
+    try:
+        return _build_engine_for_lang(
+            cfg, lang="el", rec_model_name=OPTIONAL_GREEK_MODEL
+        )
+    except Exception:
+        return None
+
+
 def _quad_to_xyxy(box: Any) -> tuple[float, float, float, float]:
     pts = np.asarray(box, dtype=np.float32).reshape(-1, 2)
     xs, ys = pts[:, 0], pts[:, 1]
@@ -142,10 +216,8 @@ def _quad_to_xyxy(box: Any) -> tuple[float, float, float, float]:
 
 
 def _parse_rapidocr_output(result: Any) -> list[tuple[Any, str, float]]:
-    """Normalize various RapidOCR return shapes to (box, text, score)."""
     if result is None:
         return []
-
     boxes = getattr(result, "boxes", None)
     txts = getattr(result, "txts", None)
     scores = getattr(result, "scores", None)
@@ -178,8 +250,85 @@ def _parse_rapidocr_output(result: Any) -> list[tuple[Any, str, float]]:
 
 
 def _run_engine(engine: Any, image_bgr: np.ndarray) -> list[tuple[Any, str, float]]:
-    result = engine(image_bgr)
-    return _parse_rapidocr_output(result)
+    return _parse_rapidocr_output(engine(image_bgr))
+
+
+def _iou_xyxy(
+    a: tuple[float, float, float, float], b: tuple[float, float, float, float]
+) -> float:
+    ax1, ay1, ax2, ay2 = a
+    bx1, by1, bx2, by2 = b
+    ix1, iy1 = max(ax1, bx1), max(ay1, by1)
+    ix2, iy2 = min(ax2, bx2), min(ay2, by2)
+    iw, ih = max(0.0, ix2 - ix1), max(0.0, iy2 - iy1)
+    inter = iw * ih
+    if inter <= 0:
+        return 0.0
+    aa = max(0.0, ax2 - ax1) * max(0.0, ay2 - ay1)
+    bb = max(0.0, bx2 - bx1) * max(0.0, by2 - by1)
+    return inter / (aa + bb - inter + 1e-9)
+
+
+def _merge_multi_head_rows(
+    heads: dict[str, list[tuple[Any, str, float]]],
+) -> list[tuple[Any, str, float]]:
+    """Merge overlapping detections from cyrillic/latin/el heads."""
+    primary = heads.get("cyrillic") or next(iter(heads.values()), [])
+    others = {k: v for k, v in heads.items() if k != "cyrillic" and v}
+    if not others:
+        return primary
+
+    other_xy: dict[str, list[tuple[tuple[float, float, float, float], str, float, Any]]] = {}
+    for lang, rows in others.items():
+        other_xy[lang] = [(_quad_to_xyxy(b), t, s, b) for b, t, s in rows]
+
+    used: dict[str, set[int]] = {lang: set() for lang in other_xy}
+    merged: list[tuple[Any, str, float]] = []
+
+    for box, text, score in primary:
+        xy = _quad_to_xyxy(box)
+        cands: list[tuple[str, float, str]] = [(text, score, "cyrillic")]
+        picked_idxs: list[tuple[str, int]] = []
+        for lang, items in other_xy.items():
+            best_i, best_iou = -1, 0.0
+            for i, (oxy, _ot, _os, _ob) in enumerate(items):
+                if i in used[lang]:
+                    continue
+                iou = _iou_xyxy(xy, oxy)
+                if iou > best_iou:
+                    best_iou, best_i = iou, i
+            if best_i >= 0 and best_iou >= 0.35:
+                _oxy, ot, os, _ob = items[best_i]
+                cands.append((ot, os, lang))
+                picked_idxs.append((lang, best_i))
+        best_text, best_score, best_lang = choose_ocr_candidate(cands)
+        for lang, idx in picked_idxs:
+            used[lang].add(idx)
+        # Keep primary box geometry; text/score from winner.
+        merged.append((box, best_text, best_score))
+
+    # Unmatched secondary lines (English-only paragraphs, lone Greek letters).
+    from ingestion.tech_symbols import has_greek, looks_like_formula_text, script_shares
+
+    for lang, items in other_xy.items():
+        for i, (_oxy, text, score, box) in enumerate(items):
+            if i in used[lang]:
+                continue
+            if lang == "latin":
+                _c, lat, _g = script_shares(text)
+                if score < 0.50 or lat < 0.55 or len(text.strip()) < 4:
+                    continue
+            elif lang == "el":
+                if score < 0.55 or not has_greek(text):
+                    continue
+                if len(text.strip()) <= 2 and not looks_like_formula_text(text):
+                    # Drop stray single Greek lookalikes outside formulas.
+                    continue
+            else:
+                if score < 0.45:
+                    continue
+            merged.append((box, text, score))
+    return merged
 
 
 def px_bbox_to_pdf_points(
@@ -208,7 +357,40 @@ def recognize_image(
         max_side_len=cfg.max_side_len,
         model_dir=model_dir,
     )
-    rows = _run_engine(engine, image_bgr)
+    heads: dict[str, list[tuple[Any, str, float]]] = {
+        "cyrillic": _run_engine(engine, image_bgr),
+    }
+    tags = ["cyrillic"]
+
+    if cfg.enable_latin:
+        latin = get_latin_ocr_engine(
+            use_gpu=cfg.use_gpu,
+            max_side_len=cfg.max_side_len,
+            model_dir=model_dir,
+        )
+        if latin is not None:
+            try:
+                heads["latin"] = _run_engine(latin[0], image_bgr)
+                tags.append("latin")
+            except Exception:
+                pass
+
+    if cfg.enable_greek:
+        greek = get_greek_ocr_engine(
+            use_gpu=cfg.use_gpu,
+            max_side_len=cfg.max_side_len,
+            model_dir=model_dir,
+        )
+        if greek is not None:
+            try:
+                heads["el"] = _run_engine(greek[0], image_bgr)
+                tags.append("el")
+            except Exception:
+                pass
+
+    rows = _merge_multi_head_rows(heads) if len(heads) > 1 else heads["cyrillic"]
+    engine_name = "rapidocr:" + "+".join(tags)
+
     lines: list[OCRLine] = []
     for box, text, score in rows:
         text_n = normalize_ocr_text(text)
@@ -222,14 +404,13 @@ def recognize_image(
         lines.append(
             OCRLine(
                 text=text_n,
-                text_raw=text,
+                text_raw=str(text),
+                confidence=float(score),
                 bbox_px=bbox_px,
                 bbox_pt=bbox_pt,
-                confidence=score,
                 engine=engine_name,
             )
         )
-    lines.sort(key=lambda ln: (ln.bbox_px[1], ln.bbox_px[0]))
     return lines
 
 
