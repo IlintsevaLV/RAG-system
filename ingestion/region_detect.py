@@ -32,7 +32,13 @@ _TOC_TITLE = re.compile(
     r"(содержани[ея]|оглавлени[ея]|содержание|contents|table of contents)",
     re.IGNORECASE,
 )
-_NUMERICISH = re.compile(r"^[\d\s.,;:%±+\-–—/()×xх°'\"A-Za-zА-Яа-я]{1,18}$")
+_NUMERICISH = re.compile(r"\d")
+
+
+def _is_numericish(text: str) -> bool:
+    """Numeric/formula cell, not an arbitrary word matching a broad charset."""
+    t = text.strip()
+    return bool(t and _NUMERICISH.search(t))
 
 REGION_PRIORITY = {
     BlockType.FIGURE: 3,
@@ -369,7 +375,7 @@ def detect_table_regions_from_spans(
             if not t:
                 continue
             short = len(t) <= 18 or width <= 0.18 * page_w
-            numeric = bool(_NUMERICISH.match(t))
+            numeric = _is_numericish(t)
             if short or numeric:
                 cells.append(sp)
         if len(cells) >= 3:
@@ -417,9 +423,7 @@ def detect_table_regions_from_spans(
                 ys0.append(sp.bbox[1])
                 ys1.append(sp.bbox[3])
                 total_cells += 1
-                if _NUMERICISH.match(sp.text.strip()) or any(
-                    ch.isdigit() for ch in sp.text
-                ):
+                if _is_numericish(sp.text):
                     numeric_cells += 1
         peaks = _column_x_peaks(xs, min_peaks=3)
         if len(peaks) < 3:
@@ -450,6 +454,20 @@ def detect_table_regions_from_spans(
             continue
 
         numeric_ratio = numeric_cells / max(1, total_cells)
+        nonempty_ratio = total_cells and len(
+            [sp for row in band for sp in row if sp.text.strip()]
+        ) / total_cells
+        # A real unruled table has stable repeated columns and a reasonably
+        # filled grid. Formula fragments and prose columns do not.
+        if nonempty_ratio < 0.50:
+            continue
+        if len(peaks) < 3 or len(band) < 3:
+            continue
+        # Span-based tables without a numeric backbone are usually prose
+        # fragments or formula paragraphs. Text-only typo tables are handled
+        # by the ruled-grid detector, not this heuristic.
+        if numeric_ratio < 0.30:
+            continue
         score = min(
             0.95,
             0.40
@@ -468,6 +486,7 @@ def detect_table_regions_from_spans(
                     f"rows={len(band)}",
                     f"cols={len(peaks)}",
                     f"numeric_ratio={numeric_ratio:.2f}",
+                    f"nonempty_ratio={nonempty_ratio:.2f}",
                 ],
             )
         )
@@ -556,6 +575,32 @@ def _iou_pt(a: BBox, b: BBox) -> float:
     return inter / (aa + bb - inter + 1e-9)
 
 
+def _is_formula_figure_conflict(
+    figure: DetectedRegion,
+    formula: DetectedRegion,
+    *,
+    page_area: float,
+) -> bool:
+    """Reject a small ink blob when it is actually a formula crop."""
+    f_area = max(
+        0.0,
+        (figure.bbox_pt.x2 - figure.bbox_pt.x1)
+        * (figure.bbox_pt.y2 - figure.bbox_pt.y1),
+    )
+    contained = (
+        formula.bbox_pt.x1 >= figure.bbox_pt.x1
+        and formula.bbox_pt.y1 >= figure.bbox_pt.y1
+        and formula.bbox_pt.x2 <= figure.bbox_pt.x2
+        and formula.bbox_pt.y2 <= figure.bbox_pt.y2
+    )
+    return (
+        formula.method == "span_math_heuristic"
+        and formula.score >= 0.70
+        and contained
+        and f_area < 0.15 * page_area
+    )
+
+
 def merge_regions(regions: list[DetectedRegion], iou_thr: float = 0.4) -> list[DetectedRegion]:
     """NMS with object priority: figure/table > formula > residual text."""
     kept: list[DetectedRegion] = []
@@ -570,6 +615,18 @@ def merge_regions(regions: list[DetectedRegion], iou_thr: float = 0.4) -> list[D
                 k.type != r.type
                 and REGION_PRIORITY.get(k.type, 0) > REGION_PRIORITY.get(r.type, 0)
                 and iou >= 0.20
+            ):
+                drop = True
+                break
+            # A formula fully inside a table is table content, even when the
+            # table is much larger and IoU is therefore below 0.20.
+            if (
+                k.type == BlockType.TABLE
+                and r.type == BlockType.FORMULA
+                and r.bbox_pt.x1 >= k.bbox_pt.x1
+                and r.bbox_pt.y1 >= k.bbox_pt.y1
+                and r.bbox_pt.x2 <= k.bbox_pt.x2
+                and r.bbox_pt.y2 <= k.bbox_pt.y2
             ):
                 drop = True
                 break
@@ -613,6 +670,17 @@ def detect_page_regions(
             rendered.image_bgr, spans, dpi=dpi, page_w=page_w
         )
     )
+    page_area_pt = page_w * page_h
+    formulas = [r for r in regions if r.type == BlockType.FORMULA]
+    regions = [
+        r
+        for r in regions
+        if r.type != BlockType.FIGURE
+        or not any(
+            _is_formula_figure_conflict(r, f, page_area=page_area_pt)
+            for f in formulas
+        )
+    ]
     regions = merge_regions(regions)
 
     blocks: list[RegionBlock] = []

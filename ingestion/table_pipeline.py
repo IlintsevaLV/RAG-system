@@ -275,18 +275,78 @@ def _recognize_table_cell(
         return "", meta
 
     work = _upsample_cell(cell)
-    lines = recognize_image(
+    # Start with the Cyrillic head. Running the Greek head on every ordinary
+    # Russian cell produces visually plausible but incorrect Greek garbage.
+    base_lines = recognize_image(
         work,
         dpi=dpi,
         page=0,
         doc_id="table_cell",
-        cfg=RapidOCRConfig(max_side_len=2000, enable_latin=True, enable_greek=True),
+        cfg=RapidOCRConfig(max_side_len=2000, enable_latin=False, enable_greek=False),
     )
     # Multi-line cells: keep spaces (not newlines) so Markdown stays one row.
-    text = " ".join(ln.text.strip() for ln in lines if ln.text.strip()).strip()
+    text = " ".join(ln.text.strip() for ln in base_lines if ln.text.strip()).strip()
     meta["text"] = text
     visual = _cell_visual_formula_score(cell)
-    formula_like = looks_like_formula_text(text) or visual >= 0.55 or has_greek(text)
+    from ingestion.tech_symbols import script_shares, choose_ocr_candidate
+
+    base_has_cyr = any("\u0400" <= ch <= "\u04ff" for ch in text)
+    base_conf = (
+        sum(ln.confidence for ln in base_lines) / len(base_lines)
+        if base_lines
+        else 0.0
+    )
+    _, base_lat, _ = script_shares(text)
+    # Secondary heads are reserved for math-like cells and clear English /
+    # Latin-script cells. Ordinary Cyrillic prose stays on the Cyrillic head.
+    formula_like = (
+        looks_like_formula_text(text)
+        or has_greek(text)
+        or (visual >= 0.55 and not base_has_cyr)
+    )
+    needs_secondary = formula_like or (base_lat >= 0.55 and len(text) >= 8)
+    if needs_secondary:
+        all_lines = recognize_image(
+            work,
+            dpi=dpi,
+            page=0,
+            doc_id="table_cell",
+            cfg=RapidOCRConfig(max_side_len=2000, enable_latin=True, enable_greek=True),
+        )
+        all_text = " ".join(
+            ln.text.strip() for ln in all_lines if ln.text.strip()
+        ).strip()
+        all_conf = (
+            sum(ln.confidence for ln in all_lines) / len(all_lines)
+            if all_lines
+            else 0.0
+        )
+        chosen, chosen_conf, chosen_lang = choose_ocr_candidate(
+            [
+                (text, base_conf, "cyrillic"),
+                (all_text, all_conf, "latin+greek"),
+            ]
+        )
+        # Never replace a Cyrillic prose reading with a Greek-looking
+        # hallucination unless the Cyrillic result itself is math-like.
+        if not (
+            has_greek(chosen)
+            and any("\u0400" <= ch <= "\u04ff" for ch in text)
+            and not looks_like_formula_text(text)
+        ):
+            text = chosen
+            base_conf = chosen_conf
+        meta["ocr_heads"] = "cyrillic+latin+greek"
+        meta["selected_head"] = chosen_lang
+    else:
+        meta["ocr_heads"] = "cyrillic"
+        meta["selected_head"] = "cyrillic"
+    meta["text"] = text
+    formula_like = (
+        looks_like_formula_text(text)
+        or has_greek(text)
+        or (visual >= 0.55 and not any("\u0400" <= ch <= "\u04ff" for ch in text))
+    )
 
     latex = ""
     if formula_like and unimer is not None:
@@ -483,9 +543,26 @@ def parse_table_from_spans(
         for sp in sorted(row, key=lambda s: s.bbox[0]):
             cx = 0.5 * (sp.bbox[0] + sp.bbox[2])
             j = min(range(len(merged)), key=lambda k: abs(merged[k] - cx))
-            from ingestion.tech_symbols import looks_like_formula_text, wrap_formula_for_markdown
+            from ingestion.tech_symbols import (
+                has_greek,
+                looks_like_formula_text,
+                wrap_formula_for_markdown,
+            )
             raw = sp.text.strip()
-            val = wrap_formula_for_markdown(raw) if looks_like_formula_text(raw) else raw.replace("|", r"\|")
+            # Greek-only OCR output from the EL head is unsafe when there is
+            # no equation marker. Preserve recall as UNREADABLE instead of
+            # indexing a plausible-looking hallucination.
+            greek_text = has_greek(raw) and not any(
+                ch in raw for ch in "=^_\\/+-−×÷∑∫√"
+            )
+            if greek_text and not any("\u0400" <= ch <= "\u04ff" for ch in raw):
+                val = "UNREADABLE"
+            else:
+                val = (
+                    wrap_formula_for_markdown(raw)
+                    if looks_like_formula_text(raw)
+                    else raw.replace("|", r"\|")
+                )
             cells[j] = (cells[j] + " " + val).strip() if cells[j] else val
         grid.append(cells)
 
