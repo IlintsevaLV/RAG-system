@@ -17,6 +17,13 @@ from ingestion.region_detect import DetectedRegion, crop_region_bgr
 log = get_logger("formula")
 
 _LATEX_FORBIDDEN = re.compile(r"[^\x09\x0a\x0d\x20-\x7e\u00a0-\u024f\\\{\}\^_]")
+_LATEX_MATH_SIGNAL = re.compile(
+    r"(=|\\frac|\\sqrt|\\sum|\\int|\\prod|\\lim|[_^]|"
+    r"[<>≤≥≈≠±∑∫√]|"
+    r"[A-Za-z0-9]\s*[+*/]\s*[A-Za-z0-9]|"
+    r"[A-Za-z0-9]\s+-\s+[A-Za-z0-9])"
+)
+_LATEX_WORD = re.compile(r"[A-Za-zА-Яа-яЁё]{4,}")
 
 
 def normalize_latex(raw: str) -> str:
@@ -61,6 +68,16 @@ def validate_latex(latex: str) -> tuple[bool, list[str]]:
                 return False, ["unbalanced_braces"]
     if bal != 0:
         return False, ["unbalanced_braces"]
+    # UniMERNet returns syntactically valid LaTeX for many non-formula crops.
+    # Reject prose/reference-like output before it enters the IR as a formula.
+    words = _LATEX_WORD.findall(latex)
+    has_signal = bool(_LATEX_MATH_SIGNAL.search(latex))
+    if not has_signal and len(words) >= 2:
+        return False, ["no_math_signal", "prose_like"]
+    if len(words) >= 5 and not any(
+        token in latex for token in ("\\frac", "\\sqrt", "\\sum", "\\int", "^", "_")
+    ):
+        return False, ["prose_like"]
     # try pylatexenc if available
     try:
         from pylatexenc.latexwalker import LatexWalker

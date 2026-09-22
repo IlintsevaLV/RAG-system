@@ -17,8 +17,20 @@ from ingestion.source_analysis import _extract_spans
 _MATH_CHARS = set("=+-×÷·±≠≈≤≥<>∑∫∏√∞∂∇αβγδθλμπσφω^_{}\\/|()[]")
 _MATH_TOKEN = re.compile(
     r"(\\frac|\\sum|\\int|\\sqrt|\\left|\\right|\\mathrm|\\text|"
-    r"[Σ∑∫√∞±≤≥≠≈]|[=^_]|\d+[a-zA-Zа-яА-Я]|[a-zA-Z]\d)"
+    r"[Σ∑∫√∞±≤≥≠≈]|[=^_]|"
+    r"[A-Za-zА-Яа-яЁё]\s*[\^_]\s*[A-Za-zА-Яа-яЁё0-9])"
 )
+_MATH_STRONG = re.compile(
+    r"(=|\\frac|\\sum|\\int|\\sqrt|[Σ∑∫√∞±≤≥≠≈]|"
+    r"[A-Za-zА-Яа-яЁё]\s*[\^_]\s*[A-Za-zА-Яа-яЁё0-9])"
+)
+_WORD = re.compile(r"[A-Za-zА-Яа-яЁё]{2,}")
+
+REGION_PRIORITY = {
+    BlockType.FIGURE: 3,
+    BlockType.TABLE: 3,
+    BlockType.FORMULA: 2,
+}
 
 
 @dataclass
@@ -48,19 +60,20 @@ def _px_to_pt(x1: int, y1: int, x2: int, y2: int, dpi: int) -> BBox:
 
 def _line_math_score(text: str) -> float:
     t = text.strip()
-    if len(t) < 2:
+    if len(t) < 2 or len(t) > 240:
         return 0.0
-    if _MATH_TOKEN.search(t):
-        return 0.9
+    words = _WORD.findall(t)
     letters = sum(ch.isalpha() for ch in t)
     mathish = sum(ch in _MATH_CHARS or ch.isdigit() for ch in t)
     if letters + mathish == 0:
         return 0.0
     ratio = mathish / (letters + mathish)
-    # short equation-like lines
-    if len(t) <= 80 and ratio >= 0.35 and ("=" in t or "^" in t or "_" in t):
-        return min(1.0, 0.5 + ratio)
-    if ratio >= 0.55 and letters < 12:
+    strong = bool(_MATH_STRONG.search(t))
+    if not strong and (len(words) >= 3 or len(t) > 40):
+        return 0.0
+    if strong and ratio >= 0.20:
+        return min(1.0, 0.55 + ratio * 0.45)
+    if _MATH_TOKEN.search(t) and ratio >= 0.55 and len(words) <= 3:
         return min(1.0, ratio)
     return 0.0
 
@@ -109,6 +122,8 @@ def detect_formula_regions_from_spans(
             x2=min(page_w, max(xs1) + pad),
             y2=min(page_h, max(ys1) + pad),
         )
+        if min(ys0) < 60.0 or max(ys1) > page_h - 60.0:
+            continue
         # skip huge "math" regions (likely misclassified text)
         area = (bbox.x2 - bbox.x1) * (bbox.y2 - bbox.y1)
         if area > 0.25 * page_w * page_h:
@@ -265,6 +280,20 @@ def detect_figure_regions(
         if ww / max(hh, 1) > 8 or hh / max(ww, 1) > 8:
             continue
         bbox_pt = _px_to_pt(x, y, x + ww, y + hh, dpi)
+        notes: list[str] = []
+        roi = gray[y : y + hh, x : x + ww]
+        if roi.size:
+            edges = cv2.Canny(roi, 50, 150)
+            horizontal = cv2.morphologyEx(
+                edges, cv2.MORPH_OPEN,
+                cv2.getStructuringElement(cv2.MORPH_RECT, (max(12, ww // 8), 1)),
+            )
+            vertical = cv2.morphologyEx(
+                edges, cv2.MORPH_OPEN,
+                cv2.getStructuringElement(cv2.MORPH_RECT, (1, max(12, hh // 8))),
+            )
+            if horizontal.mean() > 1.0 and vertical.mean() > 1.0:
+                notes.append("chart_candidate")
         out.append(
             DetectedRegion(
                 type=BlockType.FIGURE,
@@ -272,6 +301,7 @@ def detect_figure_regions(
                 bbox_px=(x, y, x + ww, y + hh),
                 score=min(1.0, area / (0.15 * page_area)),
                 method="nontext_ink_cc",
+                notes=notes,
             )
         )
     # keep top-N by area
@@ -292,17 +322,25 @@ def _iou_pt(a: BBox, b: BBox) -> float:
 
 
 def merge_regions(regions: list[DetectedRegion], iou_thr: float = 0.4) -> list[DetectedRegion]:
-    """NMS-like merge within the same type."""
+    """NMS with object priority: figure/table > formula > residual text."""
     kept: list[DetectedRegion] = []
-    for r in sorted(regions, key=lambda x: -x.score):
+    for r in sorted(regions, key=lambda x: (-REGION_PRIORITY.get(x.type, 0), -x.score)):
         drop = False
         for k in kept:
-            if k.type == r.type and _iou_pt(k.bbox_pt, r.bbox_pt) >= iou_thr:
+            iou = _iou_pt(k.bbox_pt, r.bbox_pt)
+            if k.type == r.type and iou >= iou_thr:
+                drop = True
+                break
+            if (
+                k.type != r.type
+                and REGION_PRIORITY.get(k.type, 0) > REGION_PRIORITY.get(r.type, 0)
+                and iou >= 0.20
+            ):
                 drop = True
                 break
         if not drop:
             kept.append(r)
-    return kept
+    return sorted(kept, key=lambda x: (x.bbox_pt.y1, x.bbox_pt.x1))
 
 
 def detect_page_regions(

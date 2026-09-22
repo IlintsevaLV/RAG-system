@@ -123,6 +123,8 @@ python -m ingestion.run_extract_pages data\raw --pages 83,246 --enable-vlm
 `needs_vlm` означает «страница требует визуального маршрута», а не
 «VLM уже обработал страницу». Для контроля смотрите одновременно
 `vlm_attempted`, `vlm_used`, `vlm_quality` и `text_source`.
+В summary `needs_vlm` — число визуальных кандидатов, а
+`needs_vlm_pending` — кандидаты без успешного VLM-результата.
 `ocr_fallback` всегда имеет `status=suspicious`, даже если VLM был включён:
 это запасной результат, требующий проверки.
 
@@ -141,6 +143,55 @@ python -m ingestion.run_regions data\raw\_1954.pdf --pages 41 --enable-unimernet
 
 Если `UNIMERNET_CONFIG_PATH` не задан, формульный блок остаётся
 `suspicious` и используется VLM fallback, если он включён.
+
+## Текущий полный pipeline страницы
+
+Одна исходная PDF-страница не отправляется сразу в одну модель. Сначала
+сохраняется её provenance (документ, номер страницы, размеры и bbox), затем
+страница проходит независимые текстовый и визуальный маршруты:
+
+```text
+PDF page
+  │
+  ├─ render (обычно 200–300 dpi) ──┐
+  │                                │
+  ├─ text layer extraction         │
+  │    └─ TLQ: объём, слова,       │
+  │       garbage, visual agreement│
+  │                                │
+  └─ page classification A/B/C/D   │
+       │                           │
+       ├─ A: нормальный text layer ─┴─ normalize → page text
+       ├─ B: text layer + OCR check ─── choose better source → page text
+       ├─ C: preprocess → VLM (если доступен)
+       │             └─ reject/timeout → RapidOCR + reading order
+       └─ D: OCR/VLM recovery, либо suspicious (не использовать как факт)
+
+  Отдельно от выбора источника текста, на render:
+       1. таблицы (grid/column alignment, затем cell_ocr → Docling →
+          PP-Structure → img2table → VLM recovery)
+       2. рисунки/графики (non-text connected components; chart_candidate)
+       3. формулы (строгие math-like spans + visual crop)
+       4. остаточный текст
+
+  Приоритет пересечений: рисунок/таблица → формула → текст.
+  Каждый принятый объект получает type, bbox, method, score, notes,
+  provenance и quality/status. Формула дополнительно проходит
+  UniMERNet → normalize/validate LaTeX → VLM fallback.
+```
+
+Важно: анализ text layer выполняется до выбора A/B/C/D, а OCR не заменяет
+его автоматически на каждой странице. OCR является проверочным источником
+для B и fallback/recovery для C/D. VLM используется только при наличии
+включённого локального `llama-server`; его поля `needs_vlm`,
+`vlm_attempted`, `vlm_used` и `vlm_quality` показывают фактический маршрут.
+
+Детекторы регионов работают до распознавания содержимого. Поэтому формула
+не должна конкурировать с таблицей или рисунком: визуальные объекты имеют
+более высокий приоритет и подавляют пересекающиеся formula-candidates.
+Синтаксически корректный LaTeX сам по себе не считается доказательством
+формулы: результат также должен содержать математический сигнал и не быть
+похожим на библиографию или обычную прозу.
 
 ## Структура
 

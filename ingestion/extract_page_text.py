@@ -581,7 +581,12 @@ def extract_pdf(
                 1 for r in results if r.status == ExtractStatus.SUSPICIOUS
             ),
             "failed": sum(1 for r in results if r.status == ExtractStatus.FAILED),
-            "needs_vlm": sum(1 for r in results if r.status == ExtractStatus.NEEDS_VLM),
+            # Backward-compatible public meaning: number of pages routed to
+            # visual processing.  Pending work is reported separately.
+            "needs_vlm": sum(1 for r in results if r.needs_vlm),
+            "needs_vlm_pending": sum(
+                1 for r in results if r.needs_vlm and not r.vlm_used
+            ),
             "vlm_candidates": sum(1 for r in results if r.needs_vlm),
             "vlm_attempted": sum(1 for r in results if r.vlm_attempted),
             "vlm_used": sum(1 for r in results if r.vlm_used),
