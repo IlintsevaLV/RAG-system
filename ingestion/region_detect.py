@@ -149,7 +149,14 @@ def merge_formula_spans(
             gy2 = max(s.bbox[3] for s in group)
             vertical_gap = max(0.0, max(gy1, y1) - min(gy2, y2))
             horizontal_gap = max(0.0, max(gx1, x1) - min(gx2, x2))
-            if vertical_gap <= y_tol and horizontal_gap <= x_gap_tol:
+            merged_height = max(gy2, y2) - min(gy1, y1)
+            # Do not bridge two separate equations or an equation and the
+            # following prose line through a transitive chain of spans.
+            if (
+                vertical_gap <= y_tol
+                and horizontal_gap <= x_gap_tol
+                and merged_height <= 100.0
+            ):
                 matched.append(i)
         if not matched:
             groups.append([span])
@@ -170,24 +177,35 @@ def merge_formula_spans(
         )
         if not text:
             continue
-        signal_count = sum(
-            ch.isdigit() or ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff")
+        # Count compact math tokens, not arbitrary punctuation.  Single
+        # Latin letters are variables in this context; ordinary words are
+        # excluded by _is_formula_fragment and the density gate below.
+        latin_tokens = re.findall(r"[A-Za-z]+", text)
+        compact_latin = bool(latin_tokens) and all(
+            len(token) <= 2 for token in latin_tokens
+        )
+        marker_count = sum(
+            ch.isdigit()
+            or ch in "=^\\√"
+            or ("\u0370" <= ch <= "\u03ff")
+            or (
+                compact_latin
+                and ("A" <= ch <= "Z" or "a" <= ch <= "z")
+            )
             for ch in text
         )
-        has_greek_or_math = any(
-            ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff") for ch in text
+        nonspace = sum(not ch.isspace() for ch in text)
+        math_density = marker_count / max(1, nonspace)
+        explicit_marker = bool(
+            re.search(r"[=^\\√]|[\u0370-\u03ff]|\d", text)
         )
-        has_digit_and_latin = any(ch.isdigit() for ch in text) and any(
-            "A" <= ch <= "Z" or "a" <= ch <= "z" for ch in text
-        )
-        if signal_count < 2 or not (
-            has_greek_or_math
-            or has_digit_and_latin
-            or (
-                len(group) >= 2
-                and any("\u0370" <= ch <= "\u03ff" for ch in text)
-                and any("A" <= ch <= "Z" or "a" <= ch <= "z" for ch in text)
-            )
+        # Fragment recovery must be substantially mathematical.  This is
+        # deliberately stricter than the ordinary one-span heuristic.
+        if (
+            marker_count < 3
+            or math_density < 0.40
+            or not explicit_marker
+            or len(group) < 2
         ):
             continue
         bbox = (
@@ -209,12 +227,39 @@ def detect_formula_regions_from_spans(
 ) -> list[DetectedRegion]:
     """Merge contiguous math-like text spans into formula boxes."""
     scored: list[tuple[TextSpan, float]] = []
-    merged_spans = merge_formula_spans(spans)
-    formula_spans = list(spans) + merged_spans
-    merged_ids = {id(sp) for sp in merged_spans}
-    for sp in formula_spans:
+    rows = _cluster_span_rows(spans, y_tol=10.0)
+    page_is_toc_like = _is_toc_like_text([s.text for s in spans])
+    page_is_two_column = _is_two_column_prose(rows, page_w=page_w)
+    page_is_bibliography = _is_bibliography_like_text([s.text for s in spans])
+    merged_spans = (
+        []
+        if page_is_toc_like or page_is_two_column or page_is_bibliography
+        else merge_formula_spans(spans)
+    )
+    for sp in spans:
         sc = _line_math_score(sp.text)
-        if id(sp) in merged_ids and sc < 0.55:
+        if sc >= 0.55:
+            scored.append((sp, sc))
+
+    def _span_iou(a: TextSpan, b: TextSpan) -> float:
+        ax1, ay1, ax2, ay2 = a.bbox
+        bx1, by1, bx2, by2 = b.bbox
+        ix1, iy1 = max(ax1, bx1), max(ay1, by1)
+        ix2, iy2 = min(ax2, bx2), min(ay2, by2)
+        inter = max(0.0, ix2 - ix1) * max(0.0, iy2 - iy1)
+        if inter <= 0:
+            return 0.0
+        aa = max(0.0, ax2 - ax1) * max(0.0, ay2 - ay1)
+        bb = max(0.0, bx2 - bx1) * max(0.0, by2 - by1)
+        return inter / max(1e-9, aa + bb - inter)
+
+    for sp in merged_spans:
+        # Keep an already detected formula instead of allowing a broad
+        # synthetic cluster to absorb it (regression seen on page 37).
+        if any(_span_iou(sp, original) >= 0.10 for original, _ in scored):
+            continue
+        sc = _line_math_score(sp.text)
+        if sc < 0.55:
             # Fragmented OCR may contain only variables, digits and Greek
             # glyphs, with the "=" lost as a separate box.  The cluster
             # checks above are the evidence in that case.
@@ -349,6 +394,22 @@ def _is_two_column_prose(
     med_len = float(np.median(lens))
     # Prose columns are wide and wordy; true tables have short/narrow cells.
     return med_w > 0.22 * page_w and med_len >= 28
+
+
+def _is_bibliography_like_text(texts: list[str]) -> bool:
+    """Guard reference pages from fragment-based formula recovery."""
+    joined = " ".join(t.strip() for t in texts if t.strip())
+    if not joined:
+        return False
+    if re.search(
+        r"\b(литература|библиограф|references|список\s+использованных)\b",
+        joined,
+        re.IGNORECASE,
+    ):
+        return True
+    years = len(re.findall(r"\b(?:18|19|20)\d{2}\b", joined))
+    citation_separators = len(re.findall(r"//|№|с\.\s*\d|pp?\.\s*\d", joined))
+    return len(texts) >= 20 and years >= 3 and citation_separators >= 2
 
 
 def _column_x_peaks(xs: list[float], *, min_peaks: int = 3) -> list[float]:
@@ -782,7 +843,18 @@ def detect_page_regions(
     upper_formula = [
         r for r in formula_regions if r.bbox_pt.y1 < 0.45 * page_h
     ]
-    if not upper_formula and use_ocr_fallback and len(spans) >= 5:
+    rows = _cluster_span_rows(spans, y_tol=10.0)
+    page_is_toc_like = _is_toc_like_text([s.text for s in spans])
+    page_is_two_column = _is_two_column_prose(rows, page_w=page_w)
+    page_is_bibliography = _is_bibliography_like_text([s.text for s in spans])
+    if (
+        not upper_formula
+        and use_ocr_fallback
+        and len(spans) >= 5
+        and not page_is_toc_like
+        and not page_is_two_column
+        and not page_is_bibliography
+    ):
         ocr_top = _ocr_pseudo_spans(
             rendered.image_bgr,
             dpi=dpi,
