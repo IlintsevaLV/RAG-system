@@ -165,21 +165,18 @@ python -m ingestion.run_extract_pages data\raw --pages 83,246 --enable-vlm
 `ocr_fallback` всегда имеет `status=suspicious`, даже если VLM был включён:
 это запасной результат, требующий проверки.
 
-## Формулы (UniMERNet)
+## Формулы (UniMERNet через subprocess)
 
-UniMERNet требует отдельные веса и официальный конфигурационный файл:
+UniMERNet требует `transformers 4.42.4`, что конфликтует с Docling
+(который хочет `transformers 5.x`). Поэтому используется **отдельный venv**
+`.venv-unimernet`, а основной процесс вызывает его через subprocess.
 
-```powershell
-pip install -U "unimernet[full]"
-git clone https://github.com/opendatalab/UniMERNet.git data\models\unimernet_src
-git clone https://huggingface.co/wanderkid/unimernet_tiny data\models\unimernet\unimernet_tiny
-$env:UNIMERNET_CONFIG_PATH="data\models\unimernet_src\configs\demo.yaml"
-$env:ENABLE_UNIMERNET="true"
-python -m ingestion.run_regions data\raw\_1954.pdf --pages 41 --enable-unimernet --enable-vlm
-```
+### Установка
 
-Если `UNIMERNET_CONFIG_PATH` не задан, формульный блок остаётся
-`suspicious` и используется VLM fallback, если он включён.
+1. Создать отдельный venv:
+   ```powershell
+   python -m venv .venv-unimernet
+   .\.venv-unimernet\Scripts\python.exe -m pip install -r requirements-unimernet.lock
 
 ## Текущий полный pipeline страницы
 
