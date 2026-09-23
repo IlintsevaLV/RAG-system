@@ -12,6 +12,7 @@ from core.ir import BlockType, RegionBlock
 from core.logger import get_logger
 from core.vlm_client import LlamaVisionClient
 from ingestion.formula_pipeline import UniMERNetRecognizer, process_formula_region
+from ingestion.models import ExtractStatus
 from ingestion.region_detect import DetectedRegion, detect_page_regions
 from ingestion.table_pipeline import process_figure_region, process_table_region
 
@@ -54,6 +55,8 @@ def process_page_special_blocks(
             config_path=settings.unimernet_config_path,
         )
 
+    page_figures = [d.bbox_pt for d in detections if d.type == BlockType.FIGURE]
+    page_tables = [d.bbox_pt for d in detections if d.type == BlockType.TABLE]
     blocks: list[RegionBlock] = []
     for i, det in enumerate(detections):
         rid = f"{det.type.value}_{i:02d}"
@@ -67,6 +70,9 @@ def process_page_special_blocks(
                     region_id=rid,
                     unimer=unimer,
                     vlm=vlm if settings.formula_vlm_recovery else None,
+                    page_figures=page_figures,
+                    page_tables=page_tables,
+                    dpi=settings.render_dpi,
                 )
             )
         elif det.type == BlockType.TABLE:
@@ -117,6 +123,12 @@ def process_page_special_blocks(
             1
             for b in blocks
             if b.type == BlockType.FORMULA and b.content.get("status") == "ok"
+        ),
+        "formula_suspicious_semantic": sum(
+            1
+            for b in blocks
+            if b.type == BlockType.FORMULA
+            and b.content.get("status") == ExtractStatus.SUSPICIOUS_SEMANTIC.value
         ),
     }
     return {

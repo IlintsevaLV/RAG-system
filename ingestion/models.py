@@ -25,6 +25,8 @@ class PageClass(str, Enum):
 class ExtractStatus(str, Enum):
     OK = "ok"
     SUSPICIOUS = "suspicious"
+    # valid LaTeX that is not a formula (prose, caption, table value, cut-off crop)
+    SUSPICIOUS_SEMANTIC = "suspicious_semantic"
     FAILED = "failed"
     NEEDS_VLM = "needs_vlm"
 

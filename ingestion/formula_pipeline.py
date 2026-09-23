@@ -13,6 +13,7 @@ import os
 
 from core.ir import BBox, BlockType, Provenance, QualitySignals, RegionBlock
 from core.logger import get_logger
+from ingestion.models import ExtractStatus
 from ingestion.region_detect import DetectedRegion, crop_region_bgr
 
 log = get_logger("formula")
@@ -94,6 +95,189 @@ def validate_latex(latex: str) -> tuple[bool, list[str]]:
         return len(latex) >= 3, notes + ["heuristic_weak"]
     except Exception as exc:  # noqa: BLE001
         return False, [f"pylatexenc_fail:{exc}"]
+
+
+_SEM_MATH_MARKERS = re.compile(
+    r"[=+\-*/^_<>≤≥≠≈]|\\(?:frac|sqrt|int|sum|prod|lim|partial|infty|alpha|beta|gamma|"
+    r"theta|lambda|mu|pi|sigma|omega|kappa|rho|hbar|phi|Delta)(?![a-zA-Z])"
+)
+_SEM_RUSSIAN_WORDS = re.compile(r"[А-Яа-яЁё]{3,}\s+[А-Яа-яЁё]{3,}")
+_SEM_PURE_NUMBERS = re.compile(r"[0-9.,=×xX;:%]+")
+_SEM_FORMULA_NUMBER = re.compile(r"\(?[IVX]+\.\d+\)?|\(\d+\.\d+\)")
+_SEM_LETTER_RUN = re.compile(r"[^\W\d_]{4,}")
+_SEM_MATH_WORDS = frozenset(
+    {"const", "grad", "arcsin", "arccos", "arctg", "arctan", "sinh", "cosh", "tanh", "sign"}
+)
+# OCR text of the source spans: Cyrillic words or Greek-lookalike garbage of them.
+_SEM_SOURCE_PROSE = re.compile(r"[А-Яа-яЁё]{4,}|[^\W\d_]{5,}")
+_SEM_SPACING_CMD = re.compile(r"\\(?:[,;:!]|q?quad(?![a-zA-Z]))|~")
+_SEM_RELATION = re.compile(r"=|\\approx|\\le(?:q)?(?![a-zA-Z])|\\ge(?:q)?(?![a-zA-Z])|[<>≤≥≈]")
+_SEM_TRAILING_RELATION = re.compile(r"(?:=|\\approx|<|>)\s*[-+.,:;]?\s*$")
+_SEM_VALUE_SEPARATORS = re.compile(r"\\(?:qquad|quad|mid|vert)(?![a-zA-Z])|\\\\|[|;&]")
+_SEM_VALUE_STRUCTURE = re.compile(r"\\(?:frac|sqrt|int|sum|prod|lim|partial)(?![a-zA-Z])")
+_SEM_FRAC_WITH_RELATION = re.compile(r"\\frac\s*\{([^{}]*=[^{}]*)\}\s*\{[^{}]*\}")
+_SEM_VALUE_ASSIGNMENT = re.compile(
+    r"[A-Za-zА-Яа-яЁёΑ-Ωα-ω]'?(?:_[A-Za-zА-Яа-яЁёΑ-Ωα-ω0-9]{0,3})?"
+    r"=[-−]?\d+(?:[.,]\d+)*(?:[A-Za-zА-Яа-яЁё]{1,3}\.?)?"
+)
+_SEM_VALUE_LEFTOVER = re.compile(r"[\s()\[\].,:;^'`|]*")
+_SEM_TINY_W_PX = 20
+_SEM_TINY_H_PX = 8
+_SEM_TABLE_SHARE = 0.7
+_SEM_FIGURE_SHARE = 0.3
+_SEM_FIGURE_GAP_PT = 30.0
+
+
+def _latex_plain(latex: str) -> str:
+    """Latex without environments, commands, spacing and braces (for value checks)."""
+    s = re.sub(r"\\(?:begin|end)\{[^{}]*\}(?:\{[^{}]*\})?", " ", latex)
+    s = _SEM_SPACING_CMD.sub(" ", s)
+    s = re.sub(r"\\\\|\\ ", " ", s)
+    s = re.sub(r"\\[a-zA-Z]+", " ", s)
+    s = re.sub(r"[{}&]", " ", s)
+    return re.sub(r"\s+", "", s)
+
+
+def _latex_letter_runs(latex: str) -> list[str]:
+    """Letter runs as they read in the source: UniMERNet spells text as `a b c` or `a \\ b`."""
+    s = re.sub(r"\\(?:begin|end)\{[^{}]*\}(?:\{[^{}]*\})?", "|", latex)
+    s = s.replace("\\\\", "|")
+    s = s.replace("\\ ", "")
+    s = re.sub(r"\\[a-zA-Z]+", "|", s)
+    s = re.sub(r"\\.", "|", s)
+    s = s.replace("~", "|")
+    s = re.sub(r"\s+", "", s)
+    return [m for m in _SEM_LETTER_RUN.findall(s) if m.lower() not in _SEM_MATH_WORDS]
+
+
+def _latex_group(s: str, i: int) -> tuple[str, int]:
+    """Argument starting at s[i] (a {...} group or a single token) and the index after it."""
+    while i < len(s) and s[i].isspace():
+        i += 1
+    if i >= len(s):
+        return "", i
+    if s[i] != "{":
+        m = re.match(r"\\[a-zA-Z]+|.", s[i:])
+        tok = m.group(0) if m else ""
+        return tok, i + len(tok)
+    depth = 0
+    for j in range(i, len(s)):
+        if s[j] == "{":
+            depth += 1
+        elif s[j] == "}":
+            depth -= 1
+            if depth == 0:
+                return s[i + 1 : j], j + 1
+    return s[i + 1 :], len(s)
+
+
+def _has_degenerate_fraction(latex: str) -> bool:
+    for m in re.finditer(r"\\frac(?![a-zA-Z])", latex):
+        num, i = _latex_group(latex, m.end())
+        den, _ = _latex_group(latex, i)
+        for part in (num, den):
+            if not re.search(r"[A-Za-z0-9]", part):
+                return True
+    return False
+
+
+def _is_truncated(latex: str) -> bool:
+    s = re.sub(r"\\(?:begin|end)\{[^{}]*\}(?:\{[^{}]*\})?", " ", latex)
+    s = _SEM_SPACING_CMD.sub(" ", s)
+    s = re.sub(r"[{}]", " ", s)
+    return bool(_SEM_TRAILING_RELATION.search(s)) or _has_degenerate_fraction(latex)
+
+
+def _is_numeric_value(latex: str) -> bool:
+    """`m_к = 0,00052 | m_к = 0,00088`, `(N = 200000, C = 1225 кг)`: values, not formulas."""
+    s = _SEM_FRAC_WITH_RELATION.sub(r" \1 ", latex)
+    if _SEM_VALUE_STRUCTURE.search(s):
+        return False
+    s = _SEM_VALUE_SEPARATORS.sub(";", s)
+    plain = _latex_plain(s)
+    found = False
+    for piece in plain.split(";"):
+        rest, n = _SEM_VALUE_ASSIGNMENT.subn("", piece)
+        found = found or n > 0
+        if not _SEM_VALUE_LEFTOVER.fullmatch(rest):
+            return False
+    return found
+
+
+def _source_text(notes: list[str]) -> str:
+    return " | ".join(n[len("text=") :] for n in notes if n.startswith("text="))
+
+
+def _share_inside(inner: BBox, outer: BBox) -> float:
+    w = max(0.0, min(inner.x2, outer.x2) - max(inner.x1, outer.x1))
+    h = max(0.0, min(inner.y2, outer.y2) - max(inner.y1, outer.y1))
+    area = max(1e-6, (inner.x2 - inner.x1) * (inner.y2 - inner.y1))
+    return w * h / area
+
+
+def _is_near_figure(bbox: BBox, figure: BBox) -> bool:
+    """Caption or label: overlaps the figure or sits right below it."""
+    if _share_inside(bbox, figure) >= _SEM_FIGURE_SHARE:
+        return True
+    x_overlap = max(0.0, min(bbox.x2, figure.x2) - max(bbox.x1, figure.x1))
+    if x_overlap < _SEM_FIGURE_SHARE * max(1e-6, bbox.x2 - bbox.x1):
+        return False
+    return figure.y1 <= bbox.y1 <= figure.y2 + _SEM_FIGURE_GAP_PT
+
+
+def is_real_formula_semantic(
+    latex: str,
+    *,
+    bbox_pt: BBox | None = None,
+    page_figures: list[BBox] | None = None,
+    page_tables: list[BBox] | None = None,
+    source_text: str = "",
+    raw_crop_wh: tuple[int, int] | None = None,
+) -> tuple[bool, str]:
+    """Semantic check after `validate_latex`: UniMERNet returns valid LaTeX for prose,
+    captions and table cells, so syntax alone does not make a formula.
+
+    Returns (is_formula, reason); reason is empty when the formula passes.
+    """
+    if raw_crop_wh is not None:
+        w, h = raw_crop_wh
+        if w < _SEM_TINY_W_PX or h < _SEM_TINY_H_PX:
+            return False, "tiny_crop"
+
+    plain = _latex_plain(latex)
+    has_markers = bool(_SEM_MATH_MARKERS.search(latex))
+    if _SEM_FORMULA_NUMBER.fullmatch(plain):
+        return False, "formula_number"
+
+    if bbox_pt is not None:
+        has_relation = bool(_SEM_RELATION.search(latex))
+        if not has_relation and any(_is_near_figure(bbox_pt, f) for f in page_figures or []):
+            return False, "figure_caption"
+        in_table = any(
+            _share_inside(bbox_pt, t) >= _SEM_TABLE_SHARE for t in page_tables or []
+        )
+        if in_table and (
+            not has_markers or _SEM_PURE_NUMBERS.fullmatch(plain) or _is_numeric_value(latex)
+        ):
+            return False, "table_value"
+
+    if plain and _SEM_PURE_NUMBERS.fullmatch(plain):
+        return False, "pure_numbers"
+    if _is_numeric_value(latex):
+        return False, "numeric_value"
+    if _is_truncated(latex):
+        return False, "truncated"
+    if _SEM_RUSSIAN_WORDS.search(latex):
+        return False, "russian_words"
+    if _latex_letter_runs(latex):
+        return False, "long_letter_run"
+    if any(
+        m.lower() not in _SEM_MATH_WORDS for m in _SEM_SOURCE_PROSE.findall(source_text or "")
+    ):
+        return False, "prose_source_text"
+    if not has_markers:
+        return False, "no_math_markers"
+    return True, ""
 
 
 class UniMERNetRecognizer:
@@ -271,6 +455,9 @@ def process_formula_region(
     unimer: UniMERNetRecognizer | None = None,
     vlm: Any | None = None,
     highres_scale: float = 1.5,
+    page_figures: list[BBox] | None = None,
+    page_tables: list[BBox] | None = None,
+    dpi: int = 200,
 ) -> RegionBlock:
     crop = crop_region_bgr(image_bgr, region, pad=12)
     if crop.size == 0 or min(crop.shape[:2]) < 10:
@@ -285,6 +472,7 @@ def process_formula_region(
             provenance=Provenance(method="none"),
         )
 
+    preview_h, preview_w = crop.shape[:2]
     # high-res upsample for tiny formulas
     if min(crop.shape[:2]) < 128:
         crop = cv2.resize(
@@ -335,6 +523,28 @@ def process_formula_region(
         except Exception as exc:  # noqa: BLE001
             notes.append(f"retry_fail:{exc}")
 
+    status = "ok" if ok and latex_norm else "suspicious"
+    suspicion = 0.0 if ok else 0.7
+    notes.append(f"preview_wh={preview_w}x{preview_h}")
+    if status == "ok":
+        scale = dpi / 72.0
+        bbox = region.bbox_pt
+        sem_ok, sem_reason = is_real_formula_semantic(
+            latex_norm,
+            bbox_pt=bbox,
+            page_figures=page_figures,
+            page_tables=page_tables,
+            source_text=_source_text(region.notes),
+            raw_crop_wh=(
+                int(round((bbox.x2 - bbox.x1) * scale)),
+                int(round((bbox.y2 - bbox.y1) * scale)),
+            ),
+        )
+        if not sem_ok:
+            status = ExtractStatus.SUSPICIOUS_SEMANTIC.value
+            suspicion = 0.6
+            notes.append(f"semantic_reason={sem_reason}")
+
     text_fb = latex_to_text_fallback(latex_norm) if latex_norm else ""
     return RegionBlock(
         doc_id=doc_id,
@@ -346,14 +556,14 @@ def process_formula_region(
         quality=QualitySignals(
             confidence=conf,
             structural_ok=ok,
-            suspicion=0.0 if ok else 0.7,
+            suspicion=suspicion,
             notes=notes,
         ),
         content={
             "latex_raw": latex_raw,
             "latex": latex_norm,
             "text_fallback": text_fb,
-            "status": "ok" if ok and latex_norm else "suspicious",
+            "status": status,
         },
         provenance=Provenance(model=method, method=method, confidence=conf),
     )
