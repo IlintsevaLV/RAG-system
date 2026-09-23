@@ -273,7 +273,7 @@ def process_formula_region(
     highres_scale: float = 1.5,
 ) -> RegionBlock:
     crop = crop_region_bgr(image_bgr, region, pad=12)
-    if crop.size == 0:
+    if crop.size == 0 or min(crop.shape[:2]) < 10:
         return RegionBlock(
             doc_id=doc_id,
             page=page,

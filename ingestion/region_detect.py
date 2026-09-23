@@ -32,20 +32,39 @@ _TOC_TITLE = re.compile(
     r"(содержани[ея]|оглавлени[ея]|содержание|contents|table of contents)",
     re.IGNORECASE,
 )
-_FORMULA_STOPWORDS = {
-    "and",
-    "are",
-    "for",
-    "from",
-    "где",
-    "если",
-    "как",
-    "при",
-    "это",
-    "the",
-    "this",
-    "with",
+# Strict markers for recovering OCR-fragmented formulas.  Digits, brackets
+# and plain letters are deliberately absent: "(42)" or "88 89 90" must not
+# count as math.
+_FORMULA_MARKERS = set("=+−-×÷^_√∫∑∏∂∇∞±≤≥≠≈")
+# Greek, extended Greek and letterlike symbols (ℏ).
+_MATH_SYMBOL_RE = re.compile(r"[\u0370-\u03FF\u1F00-\u1FFF\u2100-\u214F]")
+_LATEX_CMD_RE = re.compile(r"\\[a-zA-Z]+")
+_SLASH_FRACTION_RE = re.compile(r"(?<=[\w)])/(?=[\w(])")
+# "=" is a relation between two sides; a stacked fraction is a division bar
+# that OCR cannot emit.  Both carry more evidence than a single operator; a
+# bar confirmed on the image is as strong as an explicit \frac.
+_RELATION_WEIGHT = 2
+_STACKED_FRACTION_WEIGHT = 2
+_BAR_FRACTION_WEIGHT = 3
+_VARIABLE_RE = re.compile(r"[A-Za-z\u0370-\u03FF\u1F00-\u1FFF\u2100-\u214F]")
+_WORD_RUN_RE = re.compile(r"[^\W\d_]{4,}")
+# Latin/Greek glyphs the OCR heads substitute for Cyrillic letters.
+_CYR_LOOKALIKES = {
+    "a": "а", "A": "А", "B": "В", "b": "в", "c": "с", "C": "С", "e": "е",
+    "E": "Е", "H": "Н", "k": "к", "K": "К", "m": "м", "M": "М", "o": "о",
+    "O": "О", "p": "р", "P": "Р", "T": "Т", "t": "т", "x": "х", "X": "Х",
+    "y": "у", "α": "а", "Α": "А", "Β": "В", "ε": "е", "Ε": "Е", "Η": "Н",
+    "ι": "и", "κ": "к", "Κ": "К", "μ": "м", "Μ": "М", "ο": "о", "Ο": "О",
+    "Π": "П", "π": "п", "ρ": "р", "Ρ": "Р", "τ": "т", "Τ": "Т", "χ": "х",
+    "Χ": "Х", "γ": "у",
 }
+_FORMULA_STOPWORDS_RE = re.compile(
+    r"\b(и|в|на|с|для|при|от|до|или|но|как|что|это|же|бы|не|по|из|к|о|об|"
+    r"за|над|под|про|через|между|где|если|тогда|and|the|for|with|from)\b",
+    re.IGNORECASE,
+)
+_CYR_WORD_RE = re.compile(r"[А-Яа-яЁё]{2,}")
+_LONG_WORD_RE = re.compile(r"[А-Яа-яЁёA-Za-z]{11,}")
 _NUMERICISH = re.compile(r"\d")
 
 
@@ -106,140 +125,445 @@ def _line_math_score(text: str) -> float:
     return 0.0
 
 
-def _is_formula_fragment(span: TextSpan) -> bool:
-    """Return whether a short OCR span can belong to a broken formula.
+def count_formula_markers(text: str) -> int:
+    """Strict math-marker count used to validate merged OCR fragments."""
+    count = 0
+    for ch in text:
+        if ch == "=":
+            count += _RELATION_WEIGHT
+        elif ch in _FORMULA_MARKERS:
+            count += 1
+    count += len(_MATH_SYMBOL_RE.findall(text))
+    count += len(_LATEX_CMD_RE.findall(text))
+    count += len(_SLASH_FRACTION_RE.findall(text))
+    return count
 
-    OCR commonly emits a numerator, denominator, Greek token, or single
-    variable as separate spans.  Do not treat ordinary words as fragments:
-    only short spans containing digits, Greek/math glyphs, or compact Latin
-    tokens qualify.
+
+def _has_operator_evidence(text: str) -> bool:
+    return bool(
+        any(ch in _FORMULA_MARKERS for ch in text)
+        or _LATEX_CMD_RE.search(text)
+        or _SLASH_FRACTION_RE.search(text)
+    )
+
+
+def is_real_formula(text: str, *, layout_markers: int = 0) -> bool:
+    """Return whether merged fragment text is a formula rather than prose/OCR noise.
+
+    ``layout_markers`` is structural evidence from geometry and pixels
+    (stacked fractions, fraction bars) that OCR cannot put into the text.
+    """
+    text = text.strip()
+    if len(text) < 4:
+        return False
+    if not _VARIABLE_RE.search(text):
+        # Axis ticks and page numbers: "0 -8 -12", "88 89 90".
+        return False
+
+    markers = count_formula_markers(text) + layout_markers
+    if markers < 3:
+        return False
+    # Greek letters alone are not enough: the Greek OCR head turns Cyrillic
+    # prose into Greek lookalikes.  Require an operator or a fraction.
+    if not _has_operator_evidence(text) and layout_markers == 0:
+        return False
+
+    non_space = [ch for ch in text if not ch.isspace()]
+    if not non_space or markers / len(non_space) < 0.30:
+        return False
+
+    # Single-letter stopwords ("с", "в") are also OCR'd variables (c_N);
+    # they only indicate prose next to another Cyrillic word.
+    for match in _FORMULA_STOPWORDS_RE.finditer(text):
+        if len(match.group(0)) > 1 or _CYR_WORD_RE.search(text):
+            return False
+
+    if _LONG_WORD_RE.search(text):
+        return False
+    # Formula tokens are short variables; four or more consecutive letters in
+    # any script is a word misread by OCR ("Myφτa", "Bepτoπera").
+    if _WORD_RUN_RE.search(text):
+        return False
+    if any(len(_MATH_SYMBOL_RE.findall(t)) >= 3 for t in text.split()):
+        return False
+
+    # OCR noise: "b H i c l U M t e", "\mathrm { c h e C r 2 ~ E }".
+    tokens = text.split()
+    single_letters = sum(
+        1 for t in tokens if len(t.strip("\\{}")) == 1 and t.strip("\\{}").isalpha()
+    )
+    if len(tokens) >= 4 and single_letters / len(tokens) > 0.5:
+        return False
+    return True
+
+
+def _is_lookalike_stopword(token: str) -> bool:
+    """Latin/Greek OCR of a Cyrillic stopword: "kak" -> "как", "Πpι" -> "при"."""
+    if len(token) < 2 or not token.isalpha():
+        return False
+    if any(ch not in _CYR_LOOKALIKES for ch in token):
+        return False
+    cyr = "".join(_CYR_LOOKALIKES[ch] for ch in token)
+    return bool(_FORMULA_STOPWORDS_RE.fullmatch(cyr))
+
+
+def _is_lhs_fragment(text: str) -> bool:
+    """Left-hand side cut off by OCR: "χ =", "M=" (the rest is a fraction)."""
+    return bool(re.fullmatch(r"[^\s=]{1,4}\s*=", text.strip()))
+
+
+def _is_formula_fragment(span: TextSpan) -> bool:
+    """Return whether a short OCR span can be a piece of a broken formula.
+
+    Numerators, denominators, Greek tokens and compact variables qualify;
+    words (Cyrillic words, 4+ letter runs, lookalike stopwords) do not, so
+    prose lines cannot chain fragments together.
     """
     text = span.text.strip()
     if not text or len(text) > 24:
         return False
-    words = _WORD.findall(text)
-    if len(words) > 3 or any(w.lower() in _FORMULA_STOPWORDS for w in words):
+    if _CYR_WORD_RE.search(text) or _WORD_RUN_RE.search(text):
         return False
-    latin_words = re.findall(r"[A-Za-z]+", text)
-    if any(len(word) > 3 for word in latin_words):
+    if any(_is_lookalike_stopword(t.strip(".,;:()")) for t in text.split()):
         return False
-    greek_or_math = sum(
-        ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff") for ch in text
-    )
-    digits = sum(ch.isdigit() for ch in text)
-    latin = sum("A" <= ch <= "Z" or "a" <= ch <= "z" for ch in text)
-    # A lone Cyrillic OCR token ("с", "где", ...) is not evidence by itself.
+    if _line_math_score(text) >= 0.55 and not _is_lhs_fragment(text):
+        # Complete one-span formulas are handled by the single-span heuristic.
+        return False
     return bool(
-        greek_or_math
-        or digits
-        or (latin >= 1 and len(text) <= 8)
-        or _MATH_STRONG.search(text)
+        _MATH_SYMBOL_RE.search(text)
+        or any(ch.isdigit() or ch in _FORMULA_MARKERS for ch in text)
+        or re.search(r"[A-Za-z]", text)
+    )
+
+
+def _y_overlap(a: TextSpan, b: TextSpan) -> bool:
+    return min(a.bbox[3], b.bbox[3]) > max(a.bbox[1], b.bbox[1])
+
+
+def _can_merge_fragments(
+    a: TextSpan, b: TextSpan, *, page_w: float, page_h: float
+) -> bool:
+    ax1, ay1, ax2, ay2 = a.bbox
+    bx1, by1, bx2, by2 = b.bbox
+    y_gap = max(0.0, max(ay1, by1) - min(ay2, by2))
+    if y_gap > 0.04 * page_h:
+        return False
+    x_gap = max(0.0, max(ax1, bx1) - min(ax2, bx2))
+    if x_gap > 0.15 * page_w:
+        return False
+    if (ay2 < by1 or by2 < ay1) and y_gap > 0.02 * page_h:
+        return False
+    return True
+
+
+def _is_stacked_pair(top: TextSpan, bot: TextSpan) -> float | None:
+    """Return the vertical gap if ``top`` sits directly above ``bot``."""
+    tx1, ty1, tx2, ty2 = top.bbox
+    bx1, by1, bx2, by2 = bot.bbox
+    th, bh = max(1.0, ty2 - ty1), max(1.0, by2 - by1)
+    if (ty1 + ty2) / 2 >= (by1 + by2) / 2:
+        return None
+    gap = by1 - ty2
+    if gap < -0.4 * min(th, bh) or gap > 0.8 * max(th, bh):
+        return None
+    overlap = min(tx2, bx2) - max(tx1, bx1)
+    if overlap < 0.5 * min(tx2 - tx1, bx2 - bx1):
+        return None
+    return gap
+
+
+def _has_fraction_bar(
+    image_bgr: np.ndarray, top: TextSpan, bot: TextSpan, *, dpi: int
+) -> bool:
+    """Look for a short horizontal ink line between numerator and denominator.
+
+    The line must cover most of the narrower part and must not run far past
+    both parts: a long line is a table rule or underline, not a fraction bar.
+    """
+    s = dpi / 72.0
+    img_h, img_w = image_bgr.shape[:2]
+    ux1 = min(top.bbox[0], bot.bbox[0])
+    ux2 = max(top.bbox[2], bot.bbox[2])
+    union_w = max(1.0, ux2 - ux1)
+    narrow_w = max(1.0, min(top.bbox[2] - top.bbox[0], bot.bbox[2] - bot.bbox[0]))
+    th = top.bbox[3] - top.bbox[1]
+    bh = bot.bbox[3] - bot.bbox[1]
+    y1 = min(top.bbox[3] - 0.25 * th, bot.bbox[1])
+    y2 = max(bot.bbox[1] + 0.25 * bh, top.bbox[3])
+    px1 = int(max(0.0, (ux1 - union_w) * s))
+    px2 = int(min(float(img_w), (ux2 + union_w) * s))
+    py1 = int(max(0.0, y1 * s))
+    py2 = int(min(float(img_h), y2 * s))
+    if px2 - px1 < 4 or py2 - py1 < 1:
+        return False
+    roi = image_bgr[py1:py2, px1:px2]
+    gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY) if roi.ndim == 3 else roi
+    ink = gray < min(150.0, float(np.median(gray)) * 0.65)
+    core_x1 = int(ux1 * s) - px1
+    core_x2 = int(ux2 * s) - px1
+    slack = int(0.5 * union_w * s)
+    min_run = max(6, int(0.7 * narrow_w * s))
+    for row in ink:
+        padded = np.concatenate(([False], row, [False]))
+        edges = np.flatnonzero(padded[1:] != padded[:-1])
+        runs: list[list[int]] = []
+        for start, stop in zip(edges[::2], edges[1::2]):
+            # Scan noise breaks lines into pieces; rejoin tiny gaps so a
+            # grid line is measured at its real length.
+            if runs and start - runs[-1][1] <= 3:
+                runs[-1][1] = stop
+            else:
+                runs.append([start, stop])
+        for start, stop in runs:
+            if stop - start < min_run or stop <= core_x1 or start >= core_x2:
+                continue
+            if start >= core_x1 - slack and stop <= core_x2 + slack:
+                return True
+    return False
+
+
+def _fraction_edges(
+    fragments: list[TextSpan],
+    *,
+    image_bgr: np.ndarray | None,
+    dpi: int,
+) -> dict[tuple[int, int], bool]:
+    """Numerator->denominator pairs; value tells whether a bar was seen.
+
+    Pairs are accepted greedily by gap, and a span may not be both a
+    denominator and a numerator: that chain is two formulas (or a table
+    column) stacked on top of each other, not one fraction.
+    """
+    cands: list[tuple[float, int, int]] = []
+    for i, top in enumerate(fragments):
+        for j, bot in enumerate(fragments):
+            if i != j:
+                gap = _is_stacked_pair(top, bot)
+                if gap is not None:
+                    cands.append((gap, i, j))
+    tops: set[int] = set()
+    bottoms: set[int] = set()
+    edges: dict[tuple[int, int], bool] = {}
+    for _gap, i, j in sorted(cands):
+        if i in tops or j in bottoms or i in bottoms or j in tops:
+            continue
+        bar = (
+            image_bgr is not None
+            and _has_fraction_bar(image_bgr, fragments[i], fragments[j], dpi=dpi)
+        )
+        if image_bgr is not None and not bar:
+            continue
+        tops.add(i)
+        bottoms.add(j)
+        edges[(i, j)] = bar
+    return edges
+
+
+def _build_merge_groups(
+    fragments: list[TextSpan],
+    edges: dict[tuple[int, int], bool],
+    *,
+    page_w: float,
+    page_h: float,
+) -> list[list[int]]:
+    """Group fragments on the same line, or linked through a fraction."""
+    parent = list(range(len(fragments)))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    for i in range(len(fragments)):
+        for j in range(i + 1, len(fragments)):
+            a, b = fragments[i], fragments[j]
+            if not _can_merge_fragments(a, b, page_w=page_w, page_h=page_h):
+                continue
+            if _y_overlap(a, b) or (i, j) in edges or (j, i) in edges:
+                parent[find(i)] = find(j)
+    groups: dict[int, list[int]] = {}
+    for i in range(len(fragments)):
+        groups.setdefault(find(i), []).append(i)
+    return list(groups.values())
+
+
+def _layout_markers(
+    group: list[int],
+    fragments: list[TextSpan],
+    edges: dict[tuple[int, int], bool],
+) -> int:
+    """Marker weight contributed by fractions inside a group.
+
+    A pixel-confirmed bar over/under a variable counts like a ``\\frac``.
+    Without an image, stacking counts only between two variable parts.
+    A digit fraction (1/2) counts only next to such a fraction.
+    """
+    members = set(group)
+    strong = 0
+    digit = 0
+    for (i, j), bar in edges.items():
+        if i not in members or j not in members:
+            continue
+        top_var = bool(_VARIABLE_RE.search(fragments[i].text))
+        bot_var = bool(_VARIABLE_RE.search(fragments[j].text))
+        if bar and (top_var or bot_var):
+            strong += _BAR_FRACTION_WEIGHT
+        elif top_var and bot_var:
+            strong += _STACKED_FRACTION_WEIGHT
+        else:
+            digit += _STACKED_FRACTION_WEIGHT
+    return strong + (digit if strong else 0)
+
+
+def _is_text_heavy_page(spans: list[TextSpan]) -> bool:
+    total_text = "".join(s.text for s in spans)
+    # Plain hyphens are mostly word hyphenation in prose.
+    total_math = sum(1 for ch in total_text if ch in _FORMULA_MARKERS and ch != "-")
+    total_math += len(_MATH_SYMBOL_RE.findall(total_text))
+    return len(total_text) > 2000 and total_math < 5
+
+
+def _body_spans(spans: list[TextSpan], *, page_h: float) -> list[TextSpan]:
+    return [
+        s
+        for s in spans
+        if s.text.strip() and 40.0 < _span_center(s)[1] < page_h - 40.0
+    ]
+
+
+def _formula_merge_blocked(
+    spans: list[TextSpan], *, page_w: float, page_h: float
+) -> bool:
+    """Pages where fragment recovery must not run at all."""
+    body = _body_spans(spans, page_h=page_h)
+    texts = [s.text for s in body]
+    return (
+        _is_toc_like_text(texts)
+        or _is_bibliography_like_text(texts)
+        or _is_two_column_prose(_cluster_span_rows(body), page_w=page_w)
+        or _is_text_heavy_page(body)
     )
 
 
 def merge_formula_spans(
     spans: list[TextSpan],
     *,
-    y_tol: float = 40.0,
-    x_gap_tol: float = 80.0,
+    page_w: float,
+    page_h: float,
+    image_bgr: np.ndarray | None = None,
+    dpi: int = 200,
 ) -> list[TextSpan]:
-    """Build synthetic spans for formulas fragmented by OCR.
+    """Merge OCR fragments of the same formula into new synthetic spans.
 
-    This is intentionally additive: original spans remain untouched for
-    tables and reading order.  A connected cluster must contain at least two
-    formula signals and either a Greek/math glyph or both digits and Latin
-    symbols, which prevents ordinary prose columns from becoming formulas.
+    Returns only the merged spans; the input spans are not modified.  Spans
+    that are formulas on their own are left to the single-span heuristic.
+    With ``image_bgr`` a stacked pair only links as a fraction when a
+    fraction bar is visible between the parts.
     """
-    candidates = [sp for sp in spans if _is_formula_fragment(sp)]
-    if len(candidates) < 2:
+    if page_w <= 0 or page_h <= 0:
         return []
-    candidates.sort(key=lambda sp: (sp.bbox[1], sp.bbox[0]))
+    if _formula_merge_blocked(spans, page_w=page_w, page_h=page_h):
+        return []
+    fragments = [
+        s for s in _body_spans(spans, page_h=page_h) if _is_formula_fragment(s)
+    ]
+    if len(fragments) < 2:
+        return []
 
-    groups: list[list[TextSpan]] = []
-    for span in candidates:
-        x1, y1, x2, y2 = span.bbox
-        matched: list[int] = []
-        for i, group in enumerate(groups):
-            gx1 = min(s.bbox[0] for s in group)
-            gy1 = min(s.bbox[1] for s in group)
-            gx2 = max(s.bbox[2] for s in group)
-            gy2 = max(s.bbox[3] for s in group)
-            vertical_gap = max(0.0, max(gy1, y1) - min(gy2, y2))
-            horizontal_gap = max(0.0, max(gx1, x1) - min(gx2, x2))
-            merged_height = max(gy2, y2) - min(gy1, y1)
-            # Do not bridge two separate equations or an equation and the
-            # following prose line through a transitive chain of spans.
-            if (
-                vertical_gap <= y_tol
-                and horizontal_gap <= x_gap_tol
-                and merged_height <= 100.0
-            ):
-                matched.append(i)
-        if not matched:
-            groups.append([span])
-            continue
-        base = groups[matched[0]]
-        base.append(span)
-        for i in reversed(matched[1:]):
-            base.extend(groups.pop(i))
-
+    edges = _fraction_edges(fragments, image_bgr=image_bgr, dpi=dpi)
     merged: list[TextSpan] = []
-    for group in groups:
+    for group in _build_merge_groups(fragments, edges, page_w=page_w, page_h=page_h):
         if len(group) < 2:
+            continue
+        parts = [fragments[i] for i in group]
+        x1 = min(s.bbox[0] for s in parts)
+        y1 = min(s.bbox[1] for s in parts)
+        x2 = max(s.bbox[2] for s in parts)
+        y2 = max(s.bbox[3] for s in parts)
+        if x2 - x1 > 0.30 * page_w or y2 - y1 > 0.15 * page_h:
             continue
         text = " ".join(
             s.text.strip()
-            for s in sorted(group, key=lambda s: (_span_center(s)[1], s.bbox[0]))
-            if s.text.strip()
+            for s in sorted(parts, key=lambda s: (_span_center(s)[1], s.bbox[0]))
         )
-        if not text:
+        layout = _layout_markers(group, fragments, edges)
+        if not is_real_formula(text, layout_markers=layout):
             continue
-        # Explicit math markers are the primary signal.  Digits and compact
-        # Latin variables contribute to density only; counting them as
-        # markers lets OCR garbage such as "0 . 0 7 2 \\sum" pass.
-        latin_tokens = re.findall(r"[A-Za-z]+", text)
-        compact_latin = bool(latin_tokens) and all(
-            len(token) <= 2 for token in latin_tokens
-        )
-        explicit_markers = sum(
-            ch in "=^\\√" or ("\u0370" <= ch <= "\u03ff") for ch in text
-        )
-        density_symbols = sum(
-            ch.isdigit()
-            or ch in "=^\\√"
-            or ("\u0370" <= ch <= "\u03ff")
-            or (compact_latin and ch.isascii() and ch.isalpha())
-            for ch in text
-        )
-        nonspace = sum(not ch.isspace() for ch in text)
-        math_density = density_symbols / max(1, nonspace)
-        greek_count = sum("\u0370" <= ch <= "\u03ff" for ch in text)
-        # A two-level fraction such as "kb" over "πR" has one Greek glyph,
-        # but its compact variable layout is still unambiguous.
-        fraction_like = (
-            len(group) >= 2
-            and greek_count >= 1
-            and compact_latin
-            and max(s.bbox[3] for s in group) - min(s.bbox[1] for s in group)
-            >= 1.5 * max(s.bbox[3] - s.bbox[1] for s in group)
-        )
-        # Fragment recovery must be substantially mathematical.  This is
-        # deliberately stricter than the ordinary one-span heuristic.
-        if (
-            explicit_markers < 3
-            and not fraction_like
-            or math_density < 0.40
-            or len(group) < 2
-        ):
+        if _is_toc_like_text([text]):
             continue
-        bbox = (
-            min(s.bbox[0] for s in group),
-            min(s.bbox[1] for s in group),
-            max(s.bbox[2] for s in group),
-            max(s.bbox[3] for s in group),
-        )
-        merged.append(TextSpan(text=text, bbox=bbox, font_size=None))
+        merged.append(TextSpan(text=text, bbox=(x1, y1, x2, y2), font_size=None))
     return merged
+
+
+def _merged_formula_score(span: TextSpan) -> float:
+    """Confidence for a merged span that already passed ``is_real_formula``."""
+    non_space = sum(not ch.isspace() for ch in span.text) or 1
+    ratio = count_formula_markers(span.text) / non_space
+    return min(0.85, 0.60 + 0.25 * min(1.0, ratio))
+
+
+def _formula_crop_ok(region: DetectedRegion, *, img_w: int, img_h: int) -> bool:
+    """Reject crops that are empty or too thin for OpenCV/UniMERNet."""
+    if region.bbox_px is None:
+        return False
+    x1, y1, x2, y2 = region.bbox_px
+    x1, y1 = max(0, x1), max(0, y1)
+    x2, y2 = min(img_w, x2), min(img_h, y2)
+    if x2 - x1 < 10 or y2 - y1 < 10:
+        return False
+    if region.method == "span_fragment_merge" and (
+        y2 - y1 > 0.15 * img_h or x2 - x1 > 0.30 * img_w
+    ):
+        return False
+    return True
+
+
+def _bbox_overlaps(a: BBox, b: BBox, *, min_share: float = 0.2) -> bool:
+    """Intersection covers at least ``min_share`` of the smaller box.
+
+    Touching padded boxes of two stacked formulas must not count.
+    """
+    iw = min(a.x2, b.x2) - max(a.x1, b.x1)
+    ih = min(a.y2, b.y2) - max(a.y1, b.y1)
+    if iw <= 0 or ih <= 0:
+        return False
+    area_a = (a.x2 - a.x1) * (a.y2 - a.y1)
+    area_b = (b.x2 - b.x1) * (b.y2 - b.y1)
+    return iw * ih >= min_share * max(1e-9, min(area_a, area_b))
+
+
+def merged_formula_regions(
+    merged: list[TextSpan],
+    *,
+    existing: list[DetectedRegion],
+    dpi: int,
+    page_w: float,
+    page_h: float,
+) -> list[DetectedRegion]:
+    """Turn merged fragment spans into formula regions not covered by ``existing``."""
+    out: list[DetectedRegion] = []
+    pad = 4.0
+    for sp in merged:
+        bbox = BBox(
+            x1=max(0.0, sp.bbox[0] - pad),
+            y1=max(0.0, sp.bbox[1] - pad),
+            x2=min(page_w, sp.bbox[2] + pad),
+            y2=min(page_h, sp.bbox[3] + pad),
+        )
+        if any(_bbox_overlaps(bbox, r.bbox_pt) for r in [*existing, *out]):
+            continue
+        out.append(
+            DetectedRegion(
+                type=BlockType.FORMULA,
+                bbox_pt=bbox,
+                bbox_px=_pt_to_px(bbox, dpi),
+                score=_merged_formula_score(sp),
+                method="span_fragment_merge",
+                notes=["merged_fragments", f"text={sp.text}"],
+            )
+        )
+    return out
 
 
 def detect_formula_regions_from_spans(
@@ -248,116 +572,80 @@ def detect_formula_regions_from_spans(
     dpi: int,
     page_w: float,
     page_h: float,
+    image_bgr: np.ndarray | None = None,
 ) -> list[DetectedRegion]:
-    """Merge contiguous math-like text spans into formula boxes."""
+    """Merge contiguous math-like text spans into formula boxes.
+
+    ``image_bgr`` (the page render at ``dpi``) lets fragment recovery verify
+    fraction bars; without it only text evidence is used.
+    """
     scored: list[tuple[TextSpan, float]] = []
-    rows = _cluster_span_rows(spans, y_tol=10.0)
-    page_is_toc_like = _is_toc_like_text([s.text for s in spans])
-    page_is_two_column = _is_two_column_prose(rows, page_w=page_w)
-    page_is_bibliography = _is_bibliography_like_text([s.text for s in spans])
-    merged_spans = (
-        []
-        if page_is_toc_like or page_is_two_column or page_is_bibliography
-        else merge_formula_spans(spans)
-    )
     for sp in spans:
         sc = _line_math_score(sp.text)
-        explicit_markers = sum(
-            ch in "=^\\√" or ("\u0370" <= ch <= "\u03ff")
-            for ch in sp.text
-        )
-        # A lone OCR command (or digits followed by one command) is not a
-        # formula.  Without this guard "\sum" from prose survives the
-        # ordinary one-span heuristic before fragment recovery is considered.
-        if (
-            sc >= 0.55
-            and explicit_markers < 2
-            and re.search(r"\\(?:frac|int|lim|prod|sqrt|sum)\b", sp.text)
-            and "=" not in sp.text
-            and "_" not in sp.text
-            and "^" not in sp.text
-        ):
-            sc = 0.0
         if sc >= 0.55:
             scored.append((sp, sc))
-
-    def _span_iou(a: TextSpan, b: TextSpan) -> float:
-        ax1, ay1, ax2, ay2 = a.bbox
-        bx1, by1, bx2, by2 = b.bbox
-        ix1, iy1 = max(ax1, bx1), max(ay1, by1)
-        ix2, iy2 = min(ax2, bx2), min(ay2, by2)
-        inter = max(0.0, ix2 - ix1) * max(0.0, iy2 - iy1)
-        if inter <= 0:
-            return 0.0
-        aa = max(0.0, ax2 - ax1) * max(0.0, ay2 - ay1)
-        bb = max(0.0, bx2 - bx1) * max(0.0, by2 - by1)
-        return inter / max(1e-9, aa + bb - inter)
-
-    for sp in merged_spans:
-        # Keep an already detected formula instead of allowing a broad
-        # synthetic cluster to absorb it (regression seen on page 37).
-        if any(_span_iou(sp, original) >= 0.10 for original, _ in scored):
-            continue
-        sc = _line_math_score(sp.text)
-        if sc < 0.55:
-            # Fragmented OCR may contain only variables, digits and Greek
-            # glyphs, with the "=" lost as a separate box.  The cluster
-            # checks above are the evidence in that case.
-            signal_ratio = sum(
-                ch.isdigit() or ch in _MATH_CHARS or ("\u0370" <= ch <= "\u03ff")
-                for ch in sp.text
-            ) / max(1, sum(ch.isalpha() or ch.isdigit() for ch in sp.text))
-            sc = min(0.82, 0.56 + 0.25 * min(1.0, signal_ratio))
-        if sc >= 0.55:
-            scored.append((sp, sc))
-    if not scored:
-        return []
-
-    # cluster by vertical proximity
-    scored.sort(key=lambda x: x[0].bbox[1])
-    clusters: list[list[tuple[TextSpan, float]]] = []
-    cur: list[tuple[TextSpan, float]] = []
-    last_y2 = -1e9
-    for sp, sc in scored:
-        y1 = sp.bbox[1]
-        if cur and y1 - last_y2 > 18:
-            clusters.append(cur)
-            cur = []
-        cur.append((sp, sc))
-        last_y2 = sp.bbox[3]
-    if cur:
-        clusters.append(cur)
 
     out: list[DetectedRegion] = []
-    for cl in clusters:
-        xs0 = [s.bbox[0] for s, _ in cl]
-        ys0 = [s.bbox[1] for s, _ in cl]
-        xs1 = [s.bbox[2] for s, _ in cl]
-        ys1 = [s.bbox[3] for s, _ in cl]
-        pad = 4.0
-        bbox = BBox(
-            x1=max(0.0, min(xs0) - pad),
-            y1=max(0.0, min(ys0) - pad),
-            x2=min(page_w, max(xs1) + pad),
-            y2=min(page_h, max(ys1) + pad),
-        )
-        if min(ys0) < 60.0 or max(ys1) > page_h - 60.0:
-            continue
-        # skip huge "math" regions (likely misclassified text)
-        area = (bbox.x2 - bbox.x1) * (bbox.y2 - bbox.y1)
-        if area > 0.25 * page_w * page_h:
-            continue
-        score = float(np.mean([sc for _, sc in cl]))
-        out.append(
-            DetectedRegion(
-                type=BlockType.FORMULA,
-                bbox_pt=bbox,
-                bbox_px=_pt_to_px(bbox, dpi),
-                score=score,
-                method="span_math_heuristic",
-                notes=[f"n_spans={len(cl)}"],
+    if scored:
+        # cluster by vertical proximity
+        scored.sort(key=lambda x: x[0].bbox[1])
+        clusters: list[list[tuple[TextSpan, float]]] = []
+        cur: list[tuple[TextSpan, float]] = []
+        last_y2 = -1e9
+        for sp, sc in scored:
+            y1 = sp.bbox[1]
+            if cur and y1 - last_y2 > 18:
+                clusters.append(cur)
+                cur = []
+            cur.append((sp, sc))
+            last_y2 = sp.bbox[3]
+        if cur:
+            clusters.append(cur)
+
+        for cl in clusters:
+            xs0 = [s.bbox[0] for s, _ in cl]
+            ys0 = [s.bbox[1] for s, _ in cl]
+            xs1 = [s.bbox[2] for s, _ in cl]
+            ys1 = [s.bbox[3] for s, _ in cl]
+            pad = 4.0
+            bbox = BBox(
+                x1=max(0.0, min(xs0) - pad),
+                y1=max(0.0, min(ys0) - pad),
+                x2=min(page_w, max(xs1) + pad),
+                y2=min(page_h, max(ys1) + pad),
             )
+            if min(ys0) < 60.0 or max(ys1) > page_h - 60.0:
+                continue
+            # skip huge "math" regions (likely misclassified text)
+            area = (bbox.x2 - bbox.x1) * (bbox.y2 - bbox.y1)
+            if area > 0.25 * page_w * page_h:
+                continue
+            score = float(np.mean([sc for _, sc in cl]))
+            out.append(
+                DetectedRegion(
+                    type=BlockType.FORMULA,
+                    bbox_pt=bbox,
+                    bbox_px=_pt_to_px(bbox, dpi),
+                    score=score,
+                    method="span_math_heuristic",
+                    notes=[
+                        f"n_spans={len(cl)}",
+                        "text=" + " | ".join(s.text.strip() for s, _ in cl),
+                    ],
+                )
+            )
+
+    out.extend(
+        merged_formula_regions(
+            merge_formula_spans(
+                spans, page_w=page_w, page_h=page_h, image_bgr=image_bgr, dpi=dpi
+            ),
+            existing=out,
+            dpi=dpi,
+            page_w=page_w,
+            page_h=page_h,
         )
+    )
     return out
 
 
@@ -869,31 +1157,24 @@ def detect_page_regions(
     page = doc[page_number - 1]
     page_w, page_h = float(page.rect.width), float(page.rect.height)
     _, spans = _extract_spans(page)
+    spans_from_layer = True
 
     # Scanned pages often have empty text layer — build pseudo-spans via OCR
     if use_ocr_fallback and len(spans) < 5:
         spans = _ocr_pseudo_spans(rendered.image_bgr, dpi=dpi, doc_id=doc_id, page=page_number)
+        spans_from_layer = False
 
     formula_regions = detect_formula_regions_from_spans(
-        spans, dpi=dpi, page_w=page_w, page_h=page_h
+        spans, dpi=dpi, page_w=page_w, page_h=page_h, image_bgr=rendered.image_bgr
     )
-    # A page may have a usable text layer while the image-only formula band is
-    # absent from it.  OCR just the upper part in that case; this keeps the
-    # recovery targeted and avoids replacing the page's normal text spans.
-    upper_formula = [
-        r for r in formula_regions if r.bbox_pt.y1 < 0.45 * page_h
-    ]
-    rows = _cluster_span_rows(spans, y_tol=10.0)
-    page_is_toc_like = _is_toc_like_text([s.text for s in spans])
-    page_is_two_column = _is_two_column_prose(rows, page_w=page_w)
-    page_is_bibliography = _is_bibliography_like_text([s.text for s in spans])
+    # A text layer can miss an image-only formula band.  OCR the upper part and
+    # add only validated merged fragments, never raw OCR lines: raw lines would
+    # re-feed prose into the single-span heuristic.
     if (
-        not upper_formula
+        spans_from_layer
         and use_ocr_fallback
-        and len(spans) >= 5
-        and not page_is_toc_like
-        and not page_is_two_column
-        and not page_is_bibliography
+        and not any(r.bbox_pt.y1 < 0.45 * page_h for r in formula_regions)
+        and not _formula_merge_blocked(spans, page_w=page_w, page_h=page_h)
     ):
         ocr_top = _ocr_pseudo_spans(
             rendered.image_bgr,
@@ -903,9 +1184,26 @@ def detect_page_regions(
             y_range=(0.0, 0.45),
         )
         if ocr_top:
-            formula_regions = detect_formula_regions_from_spans(
-                spans + ocr_top, dpi=dpi, page_w=page_w, page_h=page_h
+            formula_regions.extend(
+                merged_formula_regions(
+                    merge_formula_spans(
+                        ocr_top,
+                        page_w=page_w,
+                        page_h=page_h,
+                        image_bgr=rendered.image_bgr,
+                        dpi=dpi,
+                    ),
+                    existing=formula_regions,
+                    dpi=dpi,
+                    page_w=page_w,
+                    page_h=page_h,
+                )
             )
+
+    img_h, img_w = rendered.image_bgr.shape[:2]
+    formula_regions = [
+        r for r in formula_regions if _formula_crop_ok(r, img_w=img_w, img_h=img_h)
+    ]
 
     regions: list[DetectedRegion] = []
     regions.extend(formula_regions)
@@ -932,6 +1230,15 @@ def detect_page_regions(
             _is_formula_figure_conflict(r, f, page_area=page_area_pt)
             for f in formulas
         )
+    ]
+    # Recovered fragments inside a table or figure are cell text or axis
+    # labels; ruled lines there imitate fraction bars.
+    objects = [r for r in regions if r.type in (BlockType.TABLE, BlockType.FIGURE)]
+    regions = [
+        r
+        for r in regions
+        if r.method != "span_fragment_merge"
+        or not any(_bbox_overlaps(r.bbox_pt, o.bbox_pt, min_share=0.05) for o in objects)
     ]
     regions = merge_regions(regions)
 
