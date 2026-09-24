@@ -1,0 +1,42 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T09:04:10.025918Z [info     ] regions_page                   doc_id=НЛГ-27 page=40
+2026-09-24T09:04:10.127781Z [info     ] regions_page                   doc_id=НЛГ-27 page=60
+2026-09-24T09:04:10.207923Z [info     ] regions_page                   doc_id=НЛГ-27 page=90
+[INFO] 2026-09-24 12:04:10,470 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:10,545 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:04:10,610 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:10,610 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:04:10,680 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:10,681 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:04:15,992 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:15,992 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:04:16,073 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:16,074 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:04:16,152 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:16,152 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:04:22,206 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:22,206 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:04:22,305 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:22,305 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:04:22,412 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:22,412 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobile.onnx
+2026-09-24T09:04:33.129337Z [info     ] regions_done                   out=data\ir\wide_smoke_20260924_120148\nlg27\НЛГ-27_regions.json
+
+=== НЛГ-27 === -> data\ir\wide_smoke_20260924_120148\nlg27\НЛГ-27_regions.json
+  p040 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p060 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p090 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\cal { A } } \\, = \\, 0 , 7 5 \\left[ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H } _ { 1'
+       [formula] formula_01 '\\operatorname* { \\sqrt { H _ { 2 } } } _ { \\boldsymbol { \\alpha } \\in \\mathcal {'
+       [formula] formula_02 '{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } }'

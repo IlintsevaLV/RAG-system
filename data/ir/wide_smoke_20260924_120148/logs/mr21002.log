@@ -1,0 +1,39 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T09:04:42.614394Z [info     ] regions_page                   doc_id='МР-21.002 Процедура квалификации комплектующих изделий' page=10
+[INFO] 2026-09-24 12:04:42,927 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:43,017 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:04:43,087 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:43,087 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:04:43,156 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:43,156 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:04:46,459 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:46,459 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:04:46,542 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:46,543 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:04:46,630 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:46,631 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:04:51,174 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:51,174 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:04:51,259 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:51,260 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:04:51,343 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:04:51,343 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobile.onnx
+2026-09-24T09:04:54.895833Z [info     ] regions_page                   doc_id='МР-21.002 Процедура квалификации комплектующих изделий' page=30
+2026-09-24T09:04:54.984889Z [info     ] regions_page                   doc_id='МР-21.002 Процедура квалификации комплектующих изделий' page=50
+2026-09-24T09:05:02.750043Z [info     ] regions_done                   out='data\\ir\\wide_smoke_20260924_120148\\mr21002\\МР-21.002 Процедура квалификации комплектующих изделий_regions.json'
+
+=== МР-21.002 Процедура квалификации комплектующих изделий === -> data\ir\wide_smoke_20260924_120148\mr21002\МР-21.002 Процедура квалификации комплектующих изделий_regions.json
+  p010 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p030 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p050 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0

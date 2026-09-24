@@ -1,0 +1,393 @@
+{
+  "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\US_Army_Materiel_Command_Engineering_Design_Handbook.pdf",
+  "page_count": 572,
+  "pages": [
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.27545494464507714,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 318.96,
+            "x2": 603.0,
+            "y2": 721.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 20,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 318.96,
+            "x2": 603.0,
+            "y2": 721.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.27545494464507714,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0020_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.27545494464507714,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 80,
+      "summary": {
+        "page": 80,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 150,
+      "summary": {
+        "page": 150,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 250,
+      "summary": {
+        "page": 250,
+        "n_detections": 4,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.29670830080666144,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 603.0,
+            "y2": 759.6
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8500000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 213.0,
+            "y1": 338.9840087890625,
+            "x2": 273.2375793457031,
+            "y2": 359.5489807128906
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.23668574898083095,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 160.56,
+            "y1": 390.96,
+            "x2": 532.8,
+            "y2": 626.04
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 446.0,
+            "y1": 641.6959838867188,
+            "x2": 473.063232421875,
+            "y2": 664.9309692382812
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 250,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 603.0,
+            "y2": 759.6
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.29670830080666144,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0250_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.29670830080666144,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 250,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 213.0,
+            "y1": 338.9840087890625,
+            "x2": 273.2375793457031,
+            "y2": 359.5489807128906
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=2",
+              "text=I=e | _\"-!1.",
+              "pylatexenc_ok",
+              "preview_wh=191x81",
+              "semantic_reason=figure_caption"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { \\Delta \\psi ~ p r o v i d e ~ s u f f i c } } \\\\ { \\mathrm { \\Xi _ { i i } ^ { \\mathrm { s } } \\chi _ { o u t } ^ { \\mathrm { s } } \\tilde { \\Sigma } _ { p o t } ^ { \\mathrm { s } } , \\mathcal { \\hat { A } } - i \\chi _ { o u t } ^ { \\mathrm { l } } } } \\\\ { \\mathrm { \\Gamma } _ { \\mathrm { { o r a n t } } } ^ { \\mathrm { { o u t } } } \\; \\; \\mathrm { i n \\; t u r m } \\; \\; \\mathrm { \\Gamma _ { w i l } } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { \\Delta \\psi ~ p r o v i d e ~ s u f f i c } } \\\\ { \\mathrm { \\Xi _ { i i } ^ { \\mathrm { s } } \\chi _ { o u t } ^ { \\mathrm { s } } \\tilde { \\Sigma } _ { p o t } ^ { \\mathrm { s } } , \\mathcal { \\hat { A } } - i \\chi _ { o u t } ^ { \\mathrm { l } } } } \\\\ { \\mathrm { \\Gamma } _ { \\mathrm { { o r a n t } } } ^ { \\mathrm { { o u t } } } \\; \\; \\mathrm { i n \\; t u r m } \\; \\; \\mathrm { \\Gamma _ { w i l } } } \\end{array}",
+            "text_fallback": "l ~ p r o v i d e ~ s u f f i c \\\\ i i ** s o u t ** s p o t ** s , A - i o u t ** l \\\\ o r a n t ** o u t \\; \\; i n \\; t u r m \\; \\; w i l",
+            "status": "caption_or_header",
+            "text": "I=e | _\"-!1."
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 250,
+          "region_id": "figure_02",
+          "type": "figure",
+          "bbox": {
+            "x1": 160.56,
+            "y1": 390.96,
+            "x2": 532.8,
+            "y2": 626.04
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.23668574898083095,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0250_figure_02.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.23668574898083095,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 250,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 446.0,
+            "y1": 641.6959838867188,
+            "x2": 473.063232421875,
+            "y2": 664.9309692382812
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=4-_3",
+              "pylatexenc_ok",
+              "preview_wh=100x89"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\cdot v \\in 1 . 5 , 1 C _ { 1 } \\uparrow",
+            "latex": "\\cdot v \\in 1 . 5 , 1 C _ { 1 } \\uparrow",
+            "text_fallback": "v 1 . 5 , 1 C 1",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+      "page": 350,
+      "summary": {
+        "page": 350,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.2585830453693675,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 333.71999999999997,
+            "x2": 603.0,
+            "y2": 736.92
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "US_Army_Materiel_Command_Engineering_Design_Handbook",
+          "page": 350,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 333.71999999999997,
+            "x2": 603.0,
+            "y2": 736.92
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.2585830453693675,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0350_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.2585830453693675,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

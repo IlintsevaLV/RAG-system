@@ -1,0 +1,357 @@
+{
+  "doc_id": "РДК_молниезащита 89г",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РДК_молниезащита 89г.pdf",
+  "page_count": 503,
+  "pages": [
+    {
+      "doc_id": "РДК_молниезащита 89г",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 3,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.20527552715258396,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 606.9599999999999,
+            "y2": 784.4399999999999
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9333333333333333,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 209.0,
+            "y1": 147.48995971679688,
+            "x2": 293.848388671875,
+            "y2": 191.60296630859375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.5714285714285714,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 152.0,
+            "y1": 273.67596435546875,
+            "x2": 185.8300018310547,
+            "y2": 289.9859619140625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 100,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 606.9599999999999,
+            "y2": 784.4399999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.20527552715258396,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\РДК_молниезащита 89г\\p0100_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.20527552715258396,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 100,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 209.0,
+            "y1": 147.48995971679688,
+            "x2": 293.848388671875,
+            "y2": 191.60296630859375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=5",
+              "text=______ | ___ | __ | __ | __I",
+              "pylatexenc_ok",
+              "preview_wh=260x147"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\cdots - \\frac { 1 } { 1 }",
+            "latex": "\\cdots - \\frac { 1 } { 1 }",
+            "text_fallback": "- 1 1",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 100,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 152.0,
+            "y1": 273.67596435546875,
+            "x2": 185.8300018310547,
+            "y2": 289.9859619140625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=CAP____",
+              "pylatexenc_ok",
+              "preview_wh=118x69"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\lim \\limits _ { x \\rightarrow \\infty } \\frac { x } { 1 } = 1",
+            "latex": "\\lim \\limits _ { x \\rightarrow \\infty } \\frac { x } { 1 } = 1",
+            "text_fallback": "x arrow x 1 = 1",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РДК_молниезащита 89г",
+      "page": 250,
+      "summary": {
+        "page": 250,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7071428571428571,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 229.0,
+            "y1": 156.96299743652344,
+            "x2": 283.3959045410156,
+            "y2": 177.60897827148438
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 206.0,
+            "y1": 284.7399597167969,
+            "x2": 257.583984375,
+            "y2": 303.7319641113281
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 266.0,
+            "y1": 379.4629821777344,
+            "x2": 288.5,
+            "y2": 399.4689636230469
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 250,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 229.0,
+            "y1": 156.96299743652344,
+            "x2": 283.3959045410156,
+            "y2": 177.60897827148438
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=-- ,R 7-,",
+              "pylatexenc_ok",
+              "preview_wh=175x81"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { 0 . 4 8 } { 7 } + \\frac { ( 6 ) } { 7 }",
+            "latex": "\\frac { 0 . 4 8 } { 7 } + \\frac { ( 6 ) } { 7 }",
+            "text_fallback": "0 . 4 8 7 + ( 6 ) 7",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 250,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 206.0,
+            "y1": 284.7399597167969,
+            "x2": 257.583984375,
+            "y2": 303.7319641113281
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=__o___(Eoe",
+              "pylatexenc_ok",
+              "preview_wh=167x77",
+              "semantic_reason=pure_numbers"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { 1 } { 1 } =",
+            "latex": "\\frac { 1 } { 1 } =",
+            "text_fallback": "1 1 =",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 250,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 266.0,
+            "y1": 379.4629821777344,
+            "x2": 288.5,
+            "y2": 399.4689636230469
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text== 0",
+              "pylatexenc_ok",
+              "preview_wh=87x79"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\tau = \\infty } } \\\\ { { \\tau = 0 } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\tau = \\infty } } \\\\ { { \\tau = 0 } } \\end{array}",
+            "text_fallback": "c = \\\\ = 0",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РДК_молниезащита 89г",
+      "page": 400,
+      "summary": {
+        "page": 400,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

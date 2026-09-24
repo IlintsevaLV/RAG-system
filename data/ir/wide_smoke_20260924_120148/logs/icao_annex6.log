@@ -1,0 +1,41 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T09:02:58.764826Z [info     ] regions_page                   doc_id='ИКАО Приложени 6. Эксплуатация воздушных судов' page=100
+2026-09-24T09:02:58.870904Z [info     ] regions_page                   doc_id='ИКАО Приложени 6. Эксплуатация воздушных судов' page=200
+[INFO] 2026-09-24 12:02:59,124 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:59,202 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:02:59,274 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:59,274 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:02:59,334 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:59,335 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:03:02,525 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:03:02,525 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:03:02,596 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:03:02,596 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:03:02,686 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:03:02,687 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:03:07,244 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:03:07,244 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:03:07,326 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:03:07,326 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:03:07,399 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:03:07,399 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobile.onnx
+2026-09-24T09:03:12.960077Z [info     ] regions_page                   doc_id='ИКАО Приложени 6. Эксплуатация воздушных судов' page=300
+2026-09-24T09:03:29.024358Z [info     ] regions_done                   out='data\\ir\\wide_smoke_20260924_120148\\icao_annex6\\ИКАО Приложени 6. Эксплуатация воздушных судов_regions.json'
+
+=== ИКАО Приложени 6. Эксплуатация воздушных судов === -> data\ir\wide_smoke_20260924_120148\icao_annex6\ИКАО Приложени 6. Эксплуатация воздушных судов_regions.json
+  p100 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p200 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '-'
+  p300 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '-'

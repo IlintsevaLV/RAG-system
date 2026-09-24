@@ -1,0 +1,377 @@
+{
+  "doc_id": "Р 4754А по разработке ВС ГА и систем",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\Р 4754А по разработке ВС ГА и систем.pdf",
+  "page_count": 171,
+  "pages": [
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 6,
+        "n_formulas": 6,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.399871826171875,
+            "y1": 87.54830169677734,
+            "x2": 78.27813720703125,
+            "y2": 129.34031677246094
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39995574951172,
+            "y1": 128.94833374023438,
+            "x2": 78.39818572998047,
+            "y2": 170.74034118652344
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39404296875,
+            "y1": 398.2283020019531,
+            "x2": 78.39813232421875,
+            "y2": 440.1402893066406
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.399986267089844,
+            "y1": 460.3883056640625,
+            "x2": 78.3982162475586,
+            "y2": 502.1802978515625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.40007019042969,
+            "y1": 501.7882995605469,
+            "x2": 78.27833557128906,
+            "y2": 543.580322265625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39453125,
+            "y1": 626.228271484375,
+            "x2": 78.39862060546875,
+            "y2": 668.020263671875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.399871826171875,
+            "y1": 87.54830169677734,
+            "x2": 78.27813720703125,
+            "y2": 129.34031677246094
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=f. g.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { f . ~ F ~ } } \\\\ { \\mathrm { g . ~ I } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { f . ~ F ~ } } \\\\ { \\mathrm { g . ~ I } } \\end{array}",
+            "text_fallback": "l f . ~ F ~ \\\\ g . ~ I",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39995574951172,
+            "y1": 128.94833374023438,
+            "x2": 78.39818572998047,
+            "y2": 170.74034118652344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=h. i.",
+              "pylatexenc_ok",
+              "preview_wh=71x140",
+              "semantic_reason=no_math_markers"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathbf { \\bar { h . ~ } } (",
+            "latex": "\\mathbf { \\bar { h . ~ } } (",
+            "text_fallback": "h . ~ (",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39404296875,
+            "y1": 398.2283020019531,
+            "x2": 78.39813232421875,
+            "y2": 440.1402893066406
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ . ~ I ~ } } ^ { \\mathrm { ~ a ~ . ~ 1 ~ } }",
+            "latex": "_ { \\mathrm { ~ b ~ . ~ I ~ } } ^ { \\mathrm { ~ a ~ . ~ 1 ~ } }",
+            "text_fallback": "~ b ~ . ~ I ~ ** ~ a ~ . ~ 1 ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.399986267089844,
+            "y1": 460.3883056640625,
+            "x2": 78.3982162475586,
+            "y2": 502.1802978515625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { d . ~ y ~ } } \\\\ { \\mathrm { e . ~ I } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { d . ~ y ~ } } \\\\ { \\mathrm { e . ~ I } } \\end{array}",
+            "text_fallback": "l d . ~ y ~ \\\\ e . ~ I",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_04",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.40007019042969,
+            "y1": 501.7882995605469,
+            "x2": 78.27833557128906,
+            "y2": 543.580322265625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=f. g.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { f . ~ } \\, ( \\, } \\\\ { \\mathrm { g . ~ F } \\, } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { f . ~ } \\, ( \\, } \\\\ { \\mathrm { g . ~ F } \\, } \\end{array}",
+            "text_fallback": "l f . ~ \\, ( \\, \\\\ g . ~ F \\,",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_05",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39453125,
+            "y1": 626.228271484375,
+            "x2": 78.39862060546875,
+            "y2": 668.020263671875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { a . ~ C } } } \\\\ { { \\mathrm { b . ~ N } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { a . ~ C } } } \\\\ { { \\mathrm { b . ~ N } } } \\end{array}",
+            "text_fallback": "c a . ~ C \\\\ b . ~ N",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 150,
+      "summary": {
+        "page": 150,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

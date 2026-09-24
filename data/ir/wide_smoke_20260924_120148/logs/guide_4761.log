@@ -1,0 +1,40 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T09:02:17.190273Z [info     ] regions_page                   doc_id='Руководство 4761 по методам оценки безопасности БО' page=50
+[INFO] 2026-09-24 12:02:17,472 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:17,553 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:02:17,639 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:17,639 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:02:17,716 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:17,717 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:02:23,199 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:23,199 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:02:23,298 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:23,299 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:02:23,391 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:23,391 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_mobile.onnx
+[INFO] 2026-09-24 12:02:28,324 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:28,324 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobile.onnx
+[INFO] 2026-09-24 12:02:28,416 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:28,416 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 12:02:28,553 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:02:28,553 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobile.onnx
+2026-09-24T09:02:36.175253Z [info     ] regions_page                   doc_id='Руководство 4761 по методам оценки безопасности БО' page=120
+2026-09-24T09:02:36.255289Z [info     ] regions_page                   doc_id='Руководство 4761 по методам оценки безопасности БО' page=200
+2026-09-24T09:02:36.337782Z [info     ] regions_done                   out='data\\ir\\wide_smoke_20260924_120148\\guide_4761\\Руководство 4761 по методам оценки безопасности БО_regions.json'
+
+=== Руководство 4761 по методам оценки безопасности БО === -> data\ir\wide_smoke_20260924_120148\guide_4761\Руководство 4761 по методам оценки безопасности БО_regions.json
+  p050 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { \\Delta } _ { \\mathrm { t r = 5 q a c } } ^ { \\La'
+  p120 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p200 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0

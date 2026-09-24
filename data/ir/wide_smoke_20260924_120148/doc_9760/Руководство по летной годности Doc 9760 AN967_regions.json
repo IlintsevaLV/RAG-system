@@ -1,0 +1,58 @@
+{
+  "doc_id": "Руководство по летной годности Doc 9760 AN967",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\Руководство по летной годности Doc 9760 AN967.pdf",
+  "page_count": 420,
+  "pages": [
+    {
+      "doc_id": "Руководство по летной годности Doc 9760 AN967",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство по летной годности Doc 9760 AN967",
+      "page": 200,
+      "summary": {
+        "page": 200,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство по летной годности Doc 9760 AN967",
+      "page": 300,
+      "summary": {
+        "page": 300,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

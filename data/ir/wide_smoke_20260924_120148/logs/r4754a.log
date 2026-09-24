@@ -1,0 +1,27 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T09:01:57.653155Z [info     ] regions_page                   doc_id='Р 4754А по разработке ВС ГА и систем' page=30
+2026-09-24T09:01:57.721693Z [info     ] regions_page                   doc_id='Р 4754А по разработке ВС ГА и систем' page=100
+2026-09-24T09:02:08.469213Z [info     ] regions_page                   doc_id='Р 4754А по разработке ВС ГА и систем' page=150
+2026-09-24T09:02:08.533253Z [info     ] regions_done                   out='data\\ir\\wide_smoke_20260924_120148\\r4754a\\Р 4754А по разработке ВС ГА и систем_regions.json'
+
+=== Р 4754А по разработке ВС ГА и систем === -> data\ir\wide_smoke_20260924_120148\r4754a\Р 4754А по разработке ВС ГА и систем_regions.json
+  p030 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p100 det=6 formula=6(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { f . ~ F ~ } } \\\\ { \\mathrm { g . ~ I } } \\end{ar'
+       [formula] formula_01 '\\mathbf { \\bar { h . ~ } } ('
+       [formula] formula_02 '_ { \\mathrm { ~ b ~ . ~ I ~ } } ^ { \\mathrm { ~ a ~ . ~ 1 ~ } }'
+       [formula] formula_03 '\\begin{array} { l } { \\mathrm { d . ~ y ~ } } \\\\ { \\mathrm { e . ~ I } } \\end{ar'
+       [formula] formula_04 '\\begin{array} { l } { \\mathrm { f . ~ } \\, ( \\, } \\\\ { \\mathrm { g . ~ F } \\, } '
+       [formula] formula_05 '\\begin{array} { c } { { \\mathrm { a . ~ C } } } \\\\ { { \\mathrm { b . ~ N } } } \\'
+  p150 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0

@@ -1,0 +1,21 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T09:06:15.318002Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=1
+2026-09-24T09:06:15.412051Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=10
+2026-09-24T09:06:15.488076Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=20
+2026-09-24T09:06:15.562189Z [info     ] regions_done                   out='data\\ir\\wide_smoke_20260924_120148\\rm178b_ref\\РМ-178B оценка соответствия ПО бортовой аппаратуры_regions.json'
+
+=== РМ-178B оценка соответствия ПО бортовой аппаратуры === -> data\ir\wide_smoke_20260924_120148\rm178b_ref\РМ-178B оценка соответствия ПО бортовой аппаратуры_regions.json
+  p001 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p010 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p020 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0

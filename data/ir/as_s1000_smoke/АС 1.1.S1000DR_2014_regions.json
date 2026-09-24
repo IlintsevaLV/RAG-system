@@ -1,0 +1,161 @@
+{
+  "doc_id": "АС 1.1.S1000DR_2014",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\АС 1.1.S1000DR_2014.pdf",
+  "page_count": 4046,
+  "pages": [
+    {
+      "doc_id": "АС 1.1.S1000DR_2014",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "АС 1.1.S1000DR_2014",
+      "page": 500,
+      "summary": {
+        "page": 500,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "АС 1.1.S1000DR_2014",
+      "page": 1000,
+      "summary": {
+        "page": 1000,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "АС 1.1.S1000DR_2014",
+      "page": 2000,
+      "summary": {
+        "page": 2000,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 126.68,
+            "y1": 332.96,
+            "x2": 170.68,
+            "y2": 375.52
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "АС 1.1.S1000DR_2014",
+          "page": 2000,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 126.68,
+            "y1": 332.96,
+            "x2": 170.68,
+            "y2": 375.52
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=S \"um/ \"um2\"",
+              "pylatexenc_ok",
+              "preview_wh=147x143"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\tan / \\mathrm { \\vec { s } } ^ { \\prime } } \\\\ { \\tan \\! \\2 ^ { \\prime } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\tan / \\mathrm { \\vec { s } } ^ { \\prime } } \\\\ { \\tan \\! \\2 ^ { \\prime } } \\end{array}",
+            "text_fallback": "l / s ** \\\\ \\! \\2 **",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "АС 1.1.S1000DR_2014",
+      "page": 3000,
+      "summary": {
+        "page": 3000,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "АС 1.1.S1000DR_2014",
+      "page": 4000,
+      "summary": {
+        "page": 4000,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "doc_id": "НЛГ-27",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\НЛГ-27.pdf",
+  "page_count": 124,
+  "pages": [
+    {
+      "doc_id": "НЛГ-27",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 60,
+      "summary": {
+        "page": 60,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 90,
+      "summary": {
+        "page": 90,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 3,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 378.510009765625,
+            "y1": 396.5298156738281,
+            "x2": 514.6044616699219,
+            "y2": 417.86083984375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.775,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 336.2699890136719,
+            "y1": 463.62982177734375,
+            "x2": 360.01446533203125,
+            "y2": 483.2808532714844
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 109.05999755859375,
+            "y1": 668.0198364257812,
+            "x2": 245.15447998046875,
+            "y2": 689.350830078125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 90,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 378.510009765625,
+            "y1": 396.5298156738281,
+            "x2": 514.6044616699219,
+            "y2": 417.86083984375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Д = 0,75 [4.12(√H | + √H",
+              "pylatexenc_ok",
+              "preview_wh=402x83"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\left[ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H } _ { 1 } } + \\sqrt { \\mathrm { H } _ { 2 } } \\big ) \\right.",
+            "latex": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\left[ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H } _ { 1 } } + \\sqrt { \\mathrm { H } _ { 2 } } \\big ) \\right.",
+            "text_fallback": "A \\, = \\, 0 , 7 5 [ 4 . 1 2 ( H 1 + H 2 ) .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 90,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 336.2699890136719,
+            "y1": 463.62982177734375,
+            "x2": 360.01446533203125,
+            "y2": 483.2808532714844
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=√H",
+              "pylatexenc_ok",
+              "preview_wh=90x79"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\operatorname* { \\sqrt { H _ { 2 } } } _ { \\boldsymbol { \\alpha } \\in \\mathcal { I } ^ { \\epsilon } }",
+            "latex": "\\operatorname* { \\sqrt { H _ { 2 } } } _ { \\boldsymbol { \\alpha } \\in \\mathcal { I } ^ { \\epsilon } }",
+            "text_fallback": "* H 2 I **",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 90,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 109.05999755859375,
+            "y1": 668.0198364257812,
+            "x2": 245.15447998046875,
+            "y2": 689.350830078125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Д = 0,75 [4.12(√H | + √H",
+              "pylatexenc_ok",
+              "preview_wh=402x83"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "latex": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "text_fallback": "A \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 ( H 1 + H 2 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

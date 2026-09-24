@@ -1,0 +1,168 @@
+{
+  "doc_id": "ИКАО Приложени 6. Эксплуатация воздушных судов",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\ИКАО Приложени 6. Эксплуатация воздушных судов.pdf",
+  "page_count": 304,
+  "pages": [
+    {
+      "doc_id": "ИКАО Приложени 6. Эксплуатация воздушных судов",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ИКАО Приложени 6. Эксплуатация воздушных судов",
+      "page": 200,
+      "summary": {
+        "page": 200,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 249.50021362304688,
+            "y1": 424.65191650390625,
+            "x2": 362.5300598144531,
+            "y2": 443.7440490722656
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ИКАО Приложени 6. Эксплуатация воздушных судов",
+          "page": 200,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 249.50021362304688,
+            "y1": 424.65191650390625,
+            "x2": 362.5300598144531,
+            "y2": 443.7440490722656
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=_____________________",
+              "empty",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=338x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "-",
+            "latex": "-",
+            "text_fallback": "-",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ИКАО Приложени 6. Эксплуатация воздушных судов",
+      "page": 300,
+      "summary": {
+        "page": 300,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 249.50247192382812,
+            "y1": 576.4448852539062,
+            "x2": 365.0037536621094,
+            "y2": 595.543212890625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ИКАО Приложени 6. Эксплуатация воздушных судов",
+          "page": 300,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 249.50247192382812,
+            "y1": 576.4448852539062,
+            "x2": 365.0037536621094,
+            "y2": 595.543212890625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=_____________________",
+              "empty",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=344x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "-",
+            "latex": "-",
+            "text_fallback": "-",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}
