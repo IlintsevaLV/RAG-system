@@ -24,7 +24,11 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from core.ir import BBox
-from ingestion.formula_pipeline import _source_text, is_real_formula_semantic
+from ingestion.formula_pipeline import (
+    _source_text,
+    is_real_formula_semantic,
+    normalize_and_validate,
+)
 
 
 def _bb(x1: float, y1: float, x2: float, y2: float) -> BBox:
@@ -43,9 +47,11 @@ UNIT_CASES: list[tuple[str, str, dict, str]] = [
     ("T3 p36 q = G/N", r"q \! = \! \frac { G } { N } \! = \! \frac { 1 7 0 0 } { 1 7 0 } \! = \! 1 0", {}, ""),
     ("T4 p47 dT (III.2)", r"d \bar { T } { = } ( 2 \pi r \, d r \, _ { \theta } V _ { 1 } ) \, 2 v { = } 4 \pi \theta V _ { 1 } v r \, d r . \ ( \mathrm { I I I . } \, 2 )", {}, ""),
     ("const allowed", r"C = \mathrm { c o n s t }", {}, ""),
-    ("T3 p34 TyIIdTe array", r"\begin{array} { l } { { \mathrm { T y I I d T e . i l b H z d . ~ c K o p o c T b ~ } \ V } } \end{array}", {}, "long_letter_run"),
+    ("T3 p34 TyIIdTe array", r"\begin{array} { l } { { \mathrm { T y I I d T e . i l b H z d . ~ c K o p o c T b ~ } \ V } } \end{array}", {}, "caption_or_header"),
     ("T3 p44 npu N = 200", r"\vert n p u \ N = 2 0 0", {}, "long_letter_run"),
-    ("T5 p25 caption under figure", r"\begin{array} { r l } & { \qquad \qquad \qquad \quad \cdots ^ { m m \times n } } \end{array}", {"bbox_pt": _bb(150, 405, 450, 425), "page_figures": [FIGURE]}, "figure_caption"),
+    ("KT 160G heading", r"\mathbf{K H H T A \ I . \ O 6 m u e \Pi 0 . n o x e n H X}", {}, "caption_or_header"),
+    ("sqrt phi next to figure", r"\sqrt { \varphi + 5 }", {"bbox_pt": _bb(150, 405, 180, 420), "page_figures": [FIGURE]}, ""),
+    ("T5 p25 caption under figure", r"\begin{array} { r l } & { \qquad \qquad \qquad \quad \cdots ^ { m m \times n } } \end{array}", {"bbox_pt": _bb(150, 405, 450, 425), "page_figures": [FIGURE], "source_text": "а — потребная мощность"}, "figure_caption"),
     ("T6 6 = 0,06 in table", r"6 = 0 , 0 6", {"bbox_pt": _bb(200, 600, 260, 615), "page_tables": [TABLE]}, "table_value"),
     ("T6 m_k = 0,00052 in table", r"m _ { \mathrm { K } } { = } 0 , 0 0 0 5 2", {"bbox_pt": _bb(200, 600, 300, 615), "page_tables": [TABLE]}, "table_value"),
     ("formula number (I.7)", r"( \mathrm { I } . 7 )", {}, "formula_number"),
@@ -95,6 +101,25 @@ def run_unit_cases() -> int:
     return failed
 
 
+REPAIR_CASES: list[tuple[str, str, bool]] = [
+    (r"\eta = \frac{I}{N}", False),
+    (r"T = c_{\pi} \pi R^{2} \frac{\ell}{2} \left(\mathrm{{o} R\right)^{2}", True),
+    (r"\begin{array}{c} { T = c _ { \pi } }", True),
+]
+
+
+def run_repair_cases() -> int:
+    failed = 0
+    for latex, expect_repair in REPAIR_CASES:
+        fixed, ok, notes = normalize_and_validate(latex)
+        repaired = "braces_repaired" in notes or "spacing_collapsed" in notes
+        mark = "PASS" if repaired == expect_repair and (ok or not expect_repair) else "FAIL"
+        failed += mark == "FAIL"
+        print(f"  {mark}  repair {latex[:50]!r:52s} notes={notes} ok={ok}")
+    print(f"repair cases: {len(REPAIR_CASES) - failed}/{len(REPAIR_CASES)} passed")
+    return failed
+
+
 def _page_boxes(page: dict, kind: str) -> list[BBox]:
     return [BBox(**b["bbox"]) for b in page["blocks"] if b["type"] == kind]
 
@@ -129,7 +154,9 @@ def replay_ir(pattern: str, dpi: int) -> None:
                             int(round((bbox.y2 - bbox.y1) * scale)),
                         ),
                     )
-                    new = "ok" if ok else "suspicious_semantic"
+                    new = "ok" if ok else (
+                        "caption_or_header" if reason in ("caption_or_header", "figure_caption") else "suspicious_semantic"
+                    )
                 counts[new] += 1
                 key = (page["page"], round(bbox.x1), round(bbox.y1))
                 label = LABELS.get(key, "?")
@@ -163,7 +190,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--ir", default="data/ir/page_tests/*_final/_1954_regions.json")
     parser.add_argument("--dpi", type=int, default=200)
     args = parser.parse_args(argv)
-    failed = run_unit_cases()
+    failed = run_unit_cases() + run_repair_cases()
     replay_ir(args.ir, args.dpi)
     return 1 if failed else 0
 

@@ -211,12 +211,135 @@ def prefer_latin_ocr_candidate(
     return False
 
 
+# Greek letters that carry information. Uppercase Α Β Γ Ε Ζ Η Ι Κ Μ Ν Ο Π Ρ Τ Υ Φ Χ and
+# omicron look like Latin/Cyrillic letters: the Greek head emits them for Russian text.
+_DISTINCTIVE_GREEK = set("αβγδεζηθικλμνξπρσςτυφχψωΔΘΛΞΣΨΩ")
+_GREEK_RUN_RE = re.compile(r"[\u0370-\u03FF\u1F00-\u1FFF]+")
+_LETTER_WORD_RE = re.compile(r"[^\W\d_]+")
+_CYR_WORD_RE = re.compile(r"[\u0400-\u04FF]{3,}")
+# In running (non-formula) text Greek letters come alone or in pairs (α, ωR);
+# a longer run means the Greek head misread Cyrillic.
+MAX_GREEK_RUN_IN_TEXT = 2
+_MIXED_WORD_MIN_LEN = 4
+
+_SKELETON = str.maketrans(
+    {
+        **dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюя", "a6brdeex3uuknmhonpcmyfxu4wwbbbeor")),
+        **dict(zip("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ", "a6brdeex3uuknmhonpctyfxu4wwbbbeor")),
+        **dict(zip("αβγδεζηθικλμνξοπρσςτυφχψω", "abydezhoiknmvxonpccmyfxyw")),
+        **dict(zip("ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ", "abrdezhoiknmnxonpctyfxyw")),
+    }
+)
+# Lone Cyrillic letters that are not Russian words or abbreviations (п., ч, г, м…):
+# the Cyrillic head's reading of ω and φ.
+_CYR_FOR_GREEK = frozenset("шф")
+_MATH_CONTEXT_RE = re.compile(r"[=<>±+×·^_]")
+# Latin-head spellings of Cyrillic letters: Ы -> bI/LI, Л -> JI/J, Ю -> IO.
+_LATIN_DIGRAPHS = (("li", "b"), ("bi", "b"), ("bl", "b"), ("ji", "n"), ("j", "n"), ("io", "o"))
+
+
+def max_greek_run(text: str) -> int:
+    return max((len(m) for m in _GREEK_RUN_RE.findall(text or "")), default=0)
+
+
+def has_distinctive_greek(text: str) -> bool:
+    return any(ch in _DISTINCTIVE_GREEK for ch in text or "")
+
+
+_LOWER_NON_GREEK_RUN_RE = re.compile(r"[a-zа-яё]{3,}")
+
+
+def has_mixed_script_word(text: str, min_len: int = _MIXED_WORD_MIN_LEN) -> bool:
+    """`Kaτeropus`: Greek inside a Latin/Cyrillic word. Formula tokens such as `CNπR`
+    have no lowercase Latin/Cyrillic run and are not counted."""
+    for word in _LETTER_WORD_RE.findall(text or ""):
+        if len(word) < min_len:
+            continue
+        cyr, lat, gre = script_shares(word)
+        if gre > 0 and (cyr > 0 or lat > 0) and _LOWER_NON_GREEK_RUN_RE.search(word):
+            return True
+    return False
+
+
+def is_garbled_greek(text: str) -> bool:
+    """Greek-head reading that is really misread Cyrillic/Latin text."""
+    if not has_greek(text):
+        return False
+    return (
+        max_greek_run(text) > MAX_GREEK_RUN_IN_TEXT
+        or has_mixed_script_word(text)
+        or not has_distinctive_greek(text)
+    )
+
+
+def lookalike_skeleton(text: str) -> str:
+    """Common form of Cyrillic/Greek/Latin lookalikes: `температуру` == `memnepamypy`."""
+    s = (text or "").translate(_SKELETON).lower()
+    for src, dst in _LATIN_DIGRAPHS:
+        s = s.replace(src, dst)
+    return "".join(ch for ch in s if ch.isalnum())
+
+
+def is_lookalike_reading(a: str, b: str, threshold: float = 0.6) -> bool:
+    """True when two head readings are the same glyphs in different scripts."""
+    from difflib import SequenceMatcher
+
+    sa, sb = lookalike_skeleton(a), lookalike_skeleton(b)
+    if len(sa) < 2 or len(sb) < 2:
+        return sa == sb and bool(sa)
+    return SequenceMatcher(None, sa, sb, autojunk=False).ratio() >= threshold
+
+
+def is_russian_reading(text: str, conf: float) -> bool:
+    cyr, _lat, _gre = script_shares(text)
+    return conf >= 0.5 and cyr >= 0.5 and bool(_CYR_WORD_RE.search(text or ""))
+
+
+def splice_greek_tokens(base: str, greek: str) -> str:
+    """Put isolated Greek symbols from the Greek head into a Cyrillic-head line.
+
+    Only 1–2 letter Greek tokens (`α`, `ωR`, `λ1`) replace short base tokens. Russian
+    words (`для`, `до`) are never replaced; lone Cyrillic letters (`и`, `п.`, `ч`) only
+    next to an operator (`при а = 5°`), except `ш`/`ф` which are not words.
+    """
+    b_toks, g_toks = base.split(), greek.split()
+    if not b_toks or len(b_toks) != len(g_toks):
+        return base
+    out: list[str] = []
+    for i, (bt, gt) in enumerate(zip(b_toks, g_toks)):
+        letters = _LETTER_WORD_RE.findall(gt)
+        n_letters = sum(len(w) for w in letters)
+        take = (
+            bt != gt
+            and has_distinctive_greek(gt)
+            and max_greek_run(gt) <= MAX_GREEK_RUN_IN_TEXT
+            and n_letters <= 3
+            and sum(ch.isalpha() for ch in bt) <= 3
+            and not has_mixed_script_word(gt)
+            # a Latin letter read by the Cyrillic head is a real Latin variable
+            and (script_shares(bt)[0] > 0 or not any(ch.isalpha() for ch in bt))
+        )
+        if take:
+            core = bt.strip(".,;:()-—")
+            cyr_letters = [ch for ch in core if "\u0400" <= ch <= "\u04ff"]
+            letters_bt = [ch for ch in core if ch.isalpha()]
+            if len(cyr_letters) >= 2 and len(cyr_letters) == len(letters_bt):
+                take = False
+            elif len(letters_bt) == 1 and cyr_letters and cyr_letters[0].lower() not in _CYR_FOR_GREEK:
+                neighbours = " ".join(b_toks[max(0, i - 1) : i + 2])
+                take = bool(_MATH_CONTEXT_RE.search(neighbours)) and "." not in bt
+        out.append(gt if take else bt)
+    return " ".join(out)
+
+
 def choose_ocr_candidate(
     candidates: list[tuple[str, float, str]],
 ) -> tuple[str, float, str]:
     """Pick best (text, score, lang) among overlapping multi-head readings.
 
-    Priority by content:
+    A Russian reading of the Cyrillic head is kept against lookalike readings of the
+    Latin/Greek heads (`memnepamypy`, `ΟΒΟΡΥΔΟΒΑΗΚΑ`); isolated Greek symbols are spliced
+    into it. Otherwise, by content:
     1. Greek / formula symbols
     2. Long Latin/English prose
     3. Cyrillic Russian prose
@@ -224,6 +347,34 @@ def choose_ocr_candidate(
     """
     if not candidates:
         return "", 0.0, "none"
+    base = next(
+        ((t, c, lang) for t, c, lang in candidates if lang == "cyrillic" and t), None
+    )
+    if base is not None and is_russian_reading(base[0], base[1]):
+        base_len = len(base[0].replace(" ", ""))
+        rest = [
+            (t, c, lang)
+            for t, c, lang in candidates
+            if t
+            and lang != "cyrillic"
+            # a much shorter reading lost letters (`Крылов А.Н.` -> `K A.H.`)
+            and len(t.replace(" ", "")) >= 0.8 * base_len
+            and not is_lookalike_reading(base[0], t)
+            and not (lang == "el" and is_garbled_greek(t))
+        ]
+        greek = next((t for t, _c, lang in candidates if lang == "el" and t), "")
+        base_text = splice_greek_tokens(base[0], greek) if greek else base[0]
+        if not rest:
+            return base_text, base[1], "cyrillic"
+        candidates = [(base_text, base[1], "cyrillic"), *rest]
+    elif base is not None and script_shares(base[0])[0] >= 0.5:
+        # `П.4.6.1` vs Latin `N.4.6.1`: same glyphs, the Cyrillic head knows the script
+        candidates = [
+            (t, c, lang)
+            for t, c, lang in candidates
+            if lang != "latin" or not is_lookalike_reading(base[0], t)
+        ]
+
     scored: list[tuple[float, str, float, str]] = []
     for text, conf, lang in candidates:
         if not text:
@@ -231,13 +382,15 @@ def choose_ocr_candidate(
         cyr, lat, gre = script_shares(text)
         bonus = 0.0
         longest = max((len(c[0]) for c in candidates if c[0]), default=0)
-        if lang == "el" and (gre > 0.05 or looks_like_formula_text(text)):
+        if lang == "el" and is_garbled_greek(text):
+            bonus -= 0.60
+        elif lang == "el" and (gre > 0.05 or looks_like_formula_text(text)):
             bonus += 0.18 + 0.25 * gre
             # Lone Greek letter must not steal a Cyrillic/Latin prose box.
             if len(text) <= 3 and longest >= 8:
                 bonus -= 0.40
             has_cyr_alt = any(
-                script_shares(t)[0] >= 0.5 for t, _s, _l in candidates if t and t != text
+                is_russian_reading(t, s) for t, s, _l in candidates if t and t != text
             )
             if len(text) <= 2 and has_cyr_alt:
                 bonus -= 0.55

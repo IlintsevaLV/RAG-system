@@ -41,6 +41,51 @@ def normalize_latex(raw: str) -> str:
     return s
 
 
+_DEGENERATE_SPACING = re.compile(r"(\\[,;:! ]|\\q?quad(?![a-zA-Z])|~)(?:\s*\1){3,}")
+_STRUCTURAL_BRACE = re.compile(r"(?<!\\)[{}]")
+_ENV_RE = re.compile(r"\\(begin|end)\{([a-zA-Z*]+)\}")
+
+
+def repair_latex(latex: str) -> tuple[str, list[str]]:
+    """Fix UniMERNet output cut by max_seq_len: collapse degenerate `\\! \\! \\! …`
+    tails, drop unmatched `}`, close open `{` and `\\begin{...}` environments.
+
+    Returns the fixed LaTeX and notes (`spacing_collapsed`, `braces_repaired`)."""
+    notes: list[str] = []
+    s = _DEGENERATE_SPACING.sub(r"\1", latex)
+    if s != latex:
+        notes.append("spacing_collapsed")
+        s = re.sub(r"\s+", " ", s).strip()
+    out: list[str] = []
+    depth = 0
+    pos = 0
+    for m in _STRUCTURAL_BRACE.finditer(s):
+        out.append(s[pos : m.start()])
+        if m.group(0) == "{":
+            depth += 1
+            out.append("{")
+        elif depth > 0:
+            depth -= 1
+            out.append("}")
+        pos = m.end()
+    out.append(s[pos:])
+    fixed = "".join(out).rstrip()
+    if depth:
+        fixed += " " + " ".join("}" * depth)
+    open_envs: list[str] = []
+    for kind, name in _ENV_RE.findall(fixed):
+        if kind == "begin":
+            open_envs.append(name)
+        elif open_envs and open_envs[-1] == name:
+            open_envs.pop()
+    for name in reversed(open_envs):
+        fixed += f" \\end{{{name}}}"
+    fixed = re.sub(r"\s+", " ", fixed).strip()
+    if fixed != s.strip():
+        notes.append("braces_repaired")
+    return fixed, notes
+
+
 def latex_to_text_fallback(latex: str) -> str:
     """Rough readable string for embeddings (not perfect math)."""
     t = latex
@@ -59,12 +104,12 @@ def validate_latex(latex: str) -> tuple[bool, list[str]]:
     notes: list[str] = []
     if not latex or len(latex) < 2:
         return False, ["empty"]
-    # balanced braces
+    # balanced braces (escaped \{ \} are delimiters, not groups)
     bal = 0
-    for ch in latex:
-        if ch == "{":
+    for m in _STRUCTURAL_BRACE.finditer(latex):
+        if m.group(0) == "{":
             bal += 1
-        elif ch == "}":
+        else:
             bal -= 1
             if bal < 0:
                 return False, ["unbalanced_braces"]
@@ -97,6 +142,16 @@ def validate_latex(latex: str) -> tuple[bool, list[str]]:
         return False, [f"pylatexenc_fail:{exc}"]
 
 
+def normalize_and_validate(latex_raw: str) -> tuple[str, bool, list[str]]:
+    """normalize_latex -> repair_latex -> validate_latex."""
+    latex_norm = normalize_latex(latex_raw)
+    notes: list[str] = []
+    if latex_norm:
+        latex_norm, notes = repair_latex(latex_norm)
+    ok, vnotes = validate_latex(latex_norm)
+    return latex_norm, ok, notes + vnotes
+
+
 _SEM_MATH_MARKERS = re.compile(
     r"[=+\-*/^_<>≤≥≠≈]|\\(?:frac|sqrt|int|sum|prod|lim|partial|infty|alpha|beta|gamma|"
     r"theta|lambda|mu|pi|sigma|omega|kappa|rho|hbar|phi|Delta)(?![a-zA-Z])"
@@ -125,7 +180,15 @@ _SEM_TINY_W_PX = 20
 _SEM_TINY_H_PX = 8
 _SEM_TABLE_SHARE = 0.7
 _SEM_FIGURE_SHARE = 0.3
-_SEM_FIGURE_GAP_PT = 30.0
+_SEM_FIGURE_GAP_PT = 15.0
+_SEM_TEXT_CMD = re.compile(
+    r"\\(?:mathrm|mathbf|mathit|mathtt|mathsf|mathcal|mathscr|text|textbf|textit|"
+    r"textrm|operatorname)(?![a-zA-Z])"
+)
+# Operators that make a text-looking region a formula (issue 011, problem B).
+_SEM_HEADER_MATH = re.compile(r"[=+^_]|\\(?:frac|sum|int|sqrt|prod)(?![a-zA-Z])")
+# Text regions: kept in JSON as captions/headers, not indexed as formulas.
+_CAPTION_REASONS = frozenset({"caption_or_header", "figure_caption"})
 
 
 def _latex_plain(latex: str) -> str:
@@ -216,13 +279,38 @@ def _share_inside(inner: BBox, outer: BBox) -> float:
 
 
 def _is_near_figure(bbox: BBox, figure: BBox) -> bool:
-    """Caption or label: overlaps the figure or sits right below it."""
+    """Overlaps the figure or sits right below it."""
     if _share_inside(bbox, figure) >= _SEM_FIGURE_SHARE:
         return True
     x_overlap = max(0.0, min(bbox.x2, figure.x2) - max(bbox.x1, figure.x1))
     if x_overlap < _SEM_FIGURE_SHARE * max(1e-6, bbox.x2 - bbox.x1):
         return False
-    return figure.y1 <= bbox.y1 <= figure.y2 + _SEM_FIGURE_GAP_PT
+    return figure.y2 - 2.0 <= bbox.y1 <= figure.y2 + _SEM_FIGURE_GAP_PT
+
+
+def _strip_text_commands(latex: str) -> str:
+    """Latex without `\\mathrm{...}`-like text groups, environments and spacing."""
+    s = re.sub(r"\\(?:begin|end)\{[^{}]*\}(?:\{[^{}]*\})?", " ", latex)
+    out: list[str] = []
+    i = 0
+    for m in _SEM_TEXT_CMD.finditer(s):
+        if m.start() < i:
+            continue
+        out.append(s[i : m.start()])
+        _arg, i = _latex_group(s, m.end())
+    out.append(s[i:])
+    return "".join(out)
+
+
+def _has_text_content(latex: str, source_text: str) -> bool:
+    return bool(
+        _SEM_RUSSIAN_WORDS.search(latex)
+        or _latex_letter_runs(latex)
+        or any(
+            m.lower() not in _SEM_MATH_WORDS
+            for m in _SEM_SOURCE_PROSE.findall(source_text or "")
+        )
+    )
 
 
 def is_real_formula_semantic(
@@ -250,8 +338,9 @@ def is_real_formula_semantic(
         return False, "formula_number"
 
     if bbox_pt is not None:
-        has_relation = bool(_SEM_RELATION.search(latex))
-        if not has_relation and any(_is_near_figure(bbox_pt, f) for f in page_figures or []):
+        if any(_is_near_figure(bbox_pt, f) for f in page_figures or []) and _has_text_content(
+            latex, source_text
+        ):
             return False, "figure_caption"
         in_table = any(
             _share_inside(bbox_pt, t) >= _SEM_TABLE_SHARE for t in page_tables or []
@@ -267,14 +356,20 @@ def is_real_formula_semantic(
         return False, "numeric_value"
     if _is_truncated(latex):
         return False, "truncated"
+    text_reason = ""
     if _SEM_RUSSIAN_WORDS.search(latex):
-        return False, "russian_words"
-    if _latex_letter_runs(latex):
-        return False, "long_letter_run"
-    if any(
+        text_reason = "russian_words"
+    elif _latex_letter_runs(latex):
+        text_reason = "long_letter_run"
+    elif any(
         m.lower() not in _SEM_MATH_WORDS for m in _SEM_SOURCE_PROSE.findall(source_text or "")
     ):
-        return False, "prose_source_text"
+        text_reason = "prose_source_text"
+    if text_reason:
+        # Headings and captions: all letters are inside \mathrm{...}, no operators outside.
+        if not _SEM_HEADER_MATH.search(_strip_text_commands(latex)):
+            return False, "caption_or_header"
+        return False, text_reason
     if not has_markers:
         return False, "no_math_markers"
     return True, ""
@@ -504,8 +599,7 @@ def process_formula_region(
         except Exception as exc:  # noqa: BLE001
             notes.append(f"vlm_fail:{exc}")
 
-    latex_norm = normalize_latex(latex_raw)
-    ok, vnotes = validate_latex(latex_norm)
+    latex_norm, ok, vnotes = normalize_and_validate(latex_raw)
     notes.extend(vnotes)
 
     # one retry with stronger upscale if invalid
@@ -513,8 +607,7 @@ def process_formula_region(
         try:
             crop2 = cv2.resize(crop, None, fx=1.8, fy=1.8, interpolation=cv2.INTER_CUBIC)
             latex_raw2, conf2 = unimer.recognize(crop2)
-            latex_norm2 = normalize_latex(latex_raw2)
-            ok2, vnotes2 = validate_latex(latex_norm2)
+            latex_norm2, ok2, vnotes2 = normalize_and_validate(latex_raw2)
             notes.append("retry_upscale")
             notes.extend(vnotes2)
             if ok2:
@@ -541,11 +634,24 @@ def process_formula_region(
             ),
         )
         if not sem_ok:
-            status = ExtractStatus.SUSPICIOUS_SEMANTIC.value
+            status = (
+                ExtractStatus.CAPTION_OR_HEADER.value
+                if sem_reason in _CAPTION_REASONS
+                else ExtractStatus.SUSPICIOUS_SEMANTIC.value
+            )
             suspicion = 0.6
             notes.append(f"semantic_reason={sem_reason}")
 
     text_fb = latex_to_text_fallback(latex_norm) if latex_norm else ""
+    content: dict[str, Any] = {
+        "latex_raw": latex_raw,
+        "latex": latex_norm,
+        "text_fallback": text_fb,
+        "status": status,
+    }
+    if status == ExtractStatus.CAPTION_OR_HEADER.value:
+        # UniMERNet LaTeX of text is garbage; the OCR text of the spans is the content.
+        content["text"] = _source_text(region.notes)
     return RegionBlock(
         doc_id=doc_id,
         page=page,
@@ -559,11 +665,6 @@ def process_formula_region(
             suspicion=suspicion,
             notes=notes,
         ),
-        content={
-            "latex_raw": latex_raw,
-            "latex": latex_norm,
-            "text_fallback": text_fb,
-            "status": status,
-        },
+        content=content,
         provenance=Provenance(model=method, method=method, confidence=conf),
     )

@@ -27,6 +27,8 @@ class ExtractStatus(str, Enum):
     SUSPICIOUS = "suspicious"
     # valid LaTeX that is not a formula (prose, caption, table value, cut-off crop)
     SUSPICIOUS_SEMANTIC = "suspicious_semantic"
+    # text region (heading, figure caption) detected as a formula: kept as text
+    CAPTION_OR_HEADER = "caption_or_header"
     FAILED = "failed"
     NEEDS_VLM = "needs_vlm"
 

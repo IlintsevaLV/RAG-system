@@ -308,7 +308,12 @@ def _merge_multi_head_rows(
         merged.append((box, best_text, best_score))
 
     # Unmatched secondary lines (English-only paragraphs, lone Greek letters).
-    from ingestion.tech_symbols import has_greek, looks_like_formula_text, script_shares
+    from ingestion.tech_symbols import (
+        has_greek,
+        is_garbled_greek,
+        looks_like_formula_text,
+        script_shares,
+    )
 
     for lang, items in other_xy.items():
         for i, (_oxy, text, score, box) in enumerate(items):
@@ -319,7 +324,7 @@ def _merge_multi_head_rows(
                 if score < 0.50 or lat < 0.55 or len(text.strip()) < 4:
                     continue
             elif lang == "el":
-                if score < 0.55 or not has_greek(text):
+                if score < 0.55 or not has_greek(text) or is_garbled_greek(text):
                     continue
                 if len(text.strip()) <= 2 and not looks_like_formula_text(text):
                     # Drop stray single Greek lookalikes outside formulas.

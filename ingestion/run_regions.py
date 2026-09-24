@@ -88,7 +88,8 @@ def main(argv: list[str] | None = None) -> int:
             _safe_print(
                 f"  p{s['page']:03d} det={s['n_detections']} "
                 f"formula={s['n_formulas']}(ok={s['formula_ok']}, "
-                f"sem={s.get('formula_suspicious_semantic', 0)}) "
+                f"sem={s.get('formula_suspicious_semantic', 0)}, "
+                f"caption={s.get('formula_caption_or_header', 0)}) "
                 f"table={s['n_tables']}(ok={s['table_ok']}) "
                 f"figure={s['n_figures']}"
             )

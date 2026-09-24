@@ -130,6 +130,12 @@ def process_page_special_blocks(
             if b.type == BlockType.FORMULA
             and b.content.get("status") == ExtractStatus.SUSPICIOUS_SEMANTIC.value
         ),
+        "formula_caption_or_header": sum(
+            1
+            for b in blocks
+            if b.type == BlockType.FORMULA
+            and b.content.get("status") == ExtractStatus.CAPTION_OR_HEADER.value
+        ),
     }
     return {
         "doc_id": doc_id,
