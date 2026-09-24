@@ -1,0 +1,148 @@
+{
+  "doc_id": "КТ-160G-14G (Книга I)_compressed",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\КТ-160G-14G (Книга I)_compressed.pdf",
+  "page_count": 142,
+  "pages": [
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.685,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 111.19999999999999,
+            "y1": 147.92,
+            "x2": 254.2,
+            "y2": 170.32
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7607142857142858,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 109.75999999999999,
+            "y1": 506.47999999999996,
+            "x2": 436.35999999999996,
+            "y2": 572.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 55,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 111.19999999999999,
+            "y1": 147.92,
+            "x2": 254.2,
+            "y2": 170.32
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=температуру до (38±2)°Σ",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=422x87",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { \\bf \\Theta _ { \\mathrm { { T } } \\mathrm { { e y c h } \\mathrm { { H e } \\ c u ^ { \\mathrm { { c } } } \\Pi _ { \\mathrm { { H O C J I } } \\mathrm { { e } } \\Pi _ { \\mathrm { { Z } } \\mathrm { { H S } } \\mathrm { { H V I } } \\mathrm { { e } } \\Gamma _ { 0 } } } } } } } \\\\ { { \\mathrm { { T e M I F e p a T y p y } \\ } _ { \\mathrm { { A O } } } \\mathbf { \\Theta } ( 3 8 \\pm 2 ) ^ { \\mathrm { { o } } } \\mathbf { C } _ { \\mathrm { { \\ H } } \\mathrm { { J } } } } } \\\\ { { \\mathbf { \\Theta } _ { \\mathrm { { M O } } \\mathbf { \\hat { x } } \\mathrm { { H } } \\mathrm { { O } } \\mathbf { \\Theta } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { G } } \\mathrm { { T } } \\mathrm { { e e } } \\mathbf { \\Theta } } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { R I C O K V W } } } } } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\bf \\Theta _ { \\mathrm { { T } } \\mathrm { { e y c h } \\mathrm { { H e } \\ c u ^ { \\mathrm { { c } } } \\Pi _ { \\mathrm { { H O C J I } } \\mathrm { { e } } \\Pi _ { \\mathrm { { Z } } \\mathrm { { H S } } \\mathrm { { H V I } } \\mathrm { { e } } \\Gamma _ { 0 } } } } } } } \\\\ { { \\mathrm { { T e M I F e p a T y p y } \\ } _ { \\mathrm { { A O } } } \\mathbf { \\Theta } ( 3 8 \\pm 2 ) ^ { \\mathrm { { o } } } \\mathbf { C } _ { \\mathrm { { \\ H } } \\mathrm { { J } } } } } \\\\ { { \\mathbf { \\Theta } _ { \\mathrm { { M O } } \\mathbf { \\hat { x } } \\mathrm { { H } } \\mathrm { { O } } \\mathbf { \\Theta } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { G } } \\mathrm { { T } } \\mathrm { { e e } } \\mathbf { \\Theta } } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { R I C O K V W } } } } } } \\end{array} }",
+            "text_fallback": "l T e y c h H e \\ c u ** c H O C J I e Z H S H V I e 0 \\\\ T e M I F e p a T y p y \\ A O ( 3 8 2 ) ** o C \\ H J \\\\ M O x H O G T e e R I C O K V W",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 55,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 109.75999999999999,
+            "y1": 506.47999999999996,
+            "x2": 436.35999999999996,
+            "y2": 572.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=3",
+              "text=относительной влажности (85±4)%. | (65±2)°Σ η относительную влажность (95±4)%. | (65±2)°C",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=932x209",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { \\Lambda \\cup u O u U H s H B a T B b ~ \\mathrm { \\Lambda _ { H C H E D E H o e } ~ o p O p y / } o B o B a H H e ~ \\mathrm { \\Lambda _ { T M T e M P B a } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\Lambda _ { O T R O C H F e T R b U o i g H } ~ B a \\mathrm { \\Lambda _ { H O C T A } } } ( 8 5 \\mathbb { \\Lambda } ^ { 2 } . 4 ) \\mathbb { V } _ { o . } } } \\\\ { \\mathrm { \\mathrm { \\textbf { B } _ { T e q e H n e } ~ 2 - \\mathrm { \\Lambda _ { - \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } T o l n e } } } p o T } } } } ~ n e p u o n a \\mathbb { \\Lambda } ^ { 2 } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . } } \\\\ { \\mathrm { \\big ( 6 5 \\pm 2 \\big ) ^ { \\mathrm { \\mathrm { \\Lambda } _ { T } } \\in \\mathrm { \\Lambda _ { H T R O T e T D m } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\mathrm { \\Lambda } } H i _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\Lambda } } O _ { } } } } } } } } } } } \\mathrm { \\Lambda _ { \\mathrm { ( 9 \\mp \\pm 4 ) } } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Lambda } } } { \\mathrm { \\mathrm { \\Lambda } } } _ { \\mathrm { { T e M n e p p y } \\mathrm { \\textbf { \\textbf { B } } _ { \\mathrm { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\mathrm { \\normalfont { K a M e p e } } } \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Omega } } { \\mathrm { } } { \\mathrm { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Omega } } } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\mathrm { \\Lambda } } } } } } \\mathrm { { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\mathrm { \\Omega } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } } } } } { \\mathrm",
+            "latex": "\\begin{array} { l } { \\mathrm { \\Lambda \\cup u O u U H s H B a T B b ~ \\mathrm { \\Lambda _ { H C H E D E H o e } ~ o p O p y / } o B o B a H H e ~ \\mathrm { \\Lambda _ { T M T e M P B a } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\Lambda _ { O T R O C H F e T R b U o i g H } ~ B a \\mathrm { \\Lambda _ { H O C T A } } } ( 8 5 \\mathbb { \\Lambda } ^ { 2 } . 4 ) \\mathbb { V } _ { o . } } } \\\\ { \\mathrm { \\mathrm { \\textbf { B } _ { T e q e H n e } ~ 2 - \\mathrm { \\Lambda _ { - \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } T o l n e } } } p o T } } } } ~ n e p u o n a \\mathbb { \\Lambda } ^ { 2 } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . } } \\\\ { \\mathrm { \\big ( 6 5 \\pm 2 \\big ) ^ { \\mathrm { \\mathrm { \\Lambda } _ { T } } \\in \\mathrm { \\Lambda _ { H T R O T e T D m } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\mathrm { \\Lambda } } H i _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\Lambda } } O _ { } } } } } } } } } } } \\mathrm { \\Lambda _ { \\mathrm { ( 9 \\mp \\pm 4 ) } } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Lambda } } } { \\mathrm { \\mathrm { \\Lambda } } } _ { \\mathrm { { T e M n e p p y } \\mathrm { \\textbf { \\textbf { B } } _ { \\mathrm { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\mathrm { \\normalfont { K a M e p e } } } \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Omega } } { \\mathrm { } } { \\mathrm { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Omega } } } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\mathrm { \\Lambda } } } } } } \\mathrm { { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\mathrm { \\Omega } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } } } } } { \\mathrm } } } } } } } } } } \\end{array}",
+            "text_fallback": "l u O u U H s H B a T B b ~ H C H E D E H o e ~ o p O p y / o B o B a H H e ~ T M T e M P B a \\\\ O T R O C H F e T R b U o i g H ~ B a H O C T A ( 8 5 ** 2 . 4 ) V o . \\\\ B T e q e H n e ~ 2 - - T o l n e p o T ~ n e p u o n a ** 2 . . . . . . \\\\ ( 6 5 2 ) ** T H T R O T e T D m H i O ( 9 4 ) \\\\ T e M n e p p y B K a M e p e \\\\ \\\\",
+            "status": "caption_or_header",
+            "text": "относительной влажности (85±4)%. | (65±2)°Σ η относительную влажность (95±4)%. | (65±2)°C"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 96,
+      "summary": {
+        "page": 96,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

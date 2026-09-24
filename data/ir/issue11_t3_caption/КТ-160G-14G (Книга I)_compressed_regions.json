@@ -1,0 +1,219 @@
+{
+  "doc_id": "КТ-160G-14G (Книга I)_compressed",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\КТ-160G-14G (Книга I)_compressed.pdf",
+  "page_count": 142,
+  "pages": [
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6749999999999999,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 227.12,
+            "y1": 131.35999999999999,
+            "x2": 320.8,
+            "y2": 155.2
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 4,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 227.12,
+            "y1": 131.35999999999999,
+            "x2": 320.8,
+            "y2": 155.2
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=KT 160Γ/14Γ",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=285x91",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { \\mathrm { K T } \\ \\ 1 6 0 \\mathrm { G } / 1 4 \\mathrm { G } } \\\\ { \\mathrm { e r r u t u } _ { \\bf \\Pi } \\ \\ \\mathrm { e n } _ { \\bf G } \\mathrm { , } \\mathrm { w e i f } \\mathrm { c } \\mathrm { , } \\mathrm { } \\",
+            "latex": "\\begin{array} { c } { \\mathrm { K T } \\ \\ 1 6 0 \\mathrm { G } / 1 4 \\mathrm { G } } \\\\ { \\mathrm { e r r u t u } _ { \\bf \\Pi } \\ \\ \\mathrm { e n } _ { \\bf G } \\mathrm { , } \\mathrm { w e i f } \\mathrm { c } \\mathrm { , } \\mathrm { } \\ } \\end{array}",
+            "text_fallback": "c K T \\ \\ 1 6 0 G / 1 4 G \\\\ e r r u t u \\ \\ e n G , w e i f c , \\",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6464285714285715,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 151.16,
+            "y1": 418.28,
+            "x2": 270.4,
+            "y2": 444.28
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 46,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 151.16,
+            "y1": 418.28,
+            "x2": 270.4,
+            "y2": 444.28
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=минимум 10 Σ/мин.",
+              "pylatexenc_ok",
+              "preview_wh=356x97",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { H J I H \\ B H y T p H \\ B C : } } \\\\ & { \\mathrm { M H H H M y M \\ 1 0 \\ ^ { 0 } C / _ { M H H . } } } \\\\ & { \\mathrm { D I T \\pmb { \\bar { g } } o p v a v a s a n u g \\ \\_ v c } } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\mathrm { H J I H \\ B H y T p H \\ B C : } } \\\\ & { \\mathrm { M H H H M y M \\ 1 0 \\ ^ { 0 } C / _ { M H H . } } } \\\\ & { \\mathrm { D I T \\pmb { \\bar { g } } o p v a v a s a n u g \\ \\_ v c } } \\end{array}",
+            "text_fallback": "r l & H J I H \\ B H y T p H \\ B C : \\\\ & M H H H M y M \\ 1 0 \\ ** 0 C / M H H . \\\\ & D I T g o p v a v a s a n u g \\ \\ v c",
+            "status": "caption_or_header",
+            "text": "минимум 10 Σ/мин."
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 82,
+      "summary": {
+        "page": 82,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8744222689075629,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 61.16,
+            "y1": 226.04,
+            "x2": 516.28,
+            "y2": 284.08
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 82,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.16,
+            "y1": 226.04,
+            "x2": 516.28,
+            "y2": 284.08
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=12",
+              "text=Испытание 1: φ = 11 Гц | φ2 = 19,9 | φ3 = 35,5 | φ4 = 63,9 | Испытание 2: φ = 13,4 Гц | φ2 = 24 | φ3 = 43,4 | φ4 = 77,8 | Испытание 3: φ = 16,3 Гц | φ2 = 29,2 | φ3 = 52,5 | φ4 = 94,9",
+              "pylatexenc_ok",
+              "preview_wh=1289x186",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\begin{array} { r l r l r l r l } & { { \\mathrm { H e r r r r a n n e ~ l : ~ f _ { 1 } = 1 1 ~ r u } } } & & { \\qquad } & & { \\ f _ { 2 } = 1 9 , 9 } & & { \\qquad } & { \\ f _ { 3 } = 3 5 , 5 } & { \\qquad \\qquad } & { \\ f _ { 4 } = 6 3 , 9 } \\\\ & { { \\mathrm { H e r r r r a n n e ~ 2 : ~ f _ { 1 } = 1 3 , 4 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 4 } & & { \\qquad } & { \\ f _ { 3 } = 4 3 , 4 } & & { \\qquad } & { \\ f _ { 4 } = 7 7 , 8 } \\\\ & { { \\mathrm { H e r n a r r a n n e ~ 3 : ~ f _ { 1 } = 1 6 , 3 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 9 , 2 } & & { \\qquad } & { \\ f _ { 3 } = 5 2 , 5 } & & { \\qquad } & { \\ f _ { 4 } = 9 4 , 9 } \\end{array} }",
+            "latex": "{ \\begin{array} { r l r l r l r l } & { { \\mathrm { H e r r r r a n n e ~ l : ~ f _ { 1 } = 1 1 ~ r u } } } & & { \\qquad } & & { \\ f _ { 2 } = 1 9 , 9 } & & { \\qquad } & { \\ f _ { 3 } = 3 5 , 5 } & { \\qquad \\qquad } & { \\ f _ { 4 } = 6 3 , 9 } \\\\ & { { \\mathrm { H e r r r r a n n e ~ 2 : ~ f _ { 1 } = 1 3 , 4 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 4 } & & { \\qquad } & { \\ f _ { 3 } = 4 3 , 4 } & & { \\qquad } & { \\ f _ { 4 } = 7 7 , 8 } \\\\ & { { \\mathrm { H e r n a r r a n n e ~ 3 : ~ f _ { 1 } = 1 6 , 3 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 9 , 2 } & & { \\qquad } & { \\ f _ { 3 } = 5 2 , 5 } & & { \\qquad } & { \\ f _ { 4 } = 9 4 , 9 } \\end{array} }",
+            "text_fallback": "r l r l r l r l & H e r r r r a n n e ~ l : ~ f 1 = 1 1 ~ r u & & & & \\ f 2 = 1 9 , 9 & & & \\ f 3 = 3 5 , 5 & & \\ f 4 = 6 3 , 9 \\\\ & H e r r r r a n n e ~ 2 : ~ f 1 = 1 3 , 4 ~ r u & & & \\ f 2 = 2 4 & & & \\ f 3 = 4 3 , 4 & & & \\ f 4 = 7 7 , 8 \\\\ & H e r n a r r a n n e ~ 3 : ~ f 1 = 1 6 , 3 ~ r u & & & \\ f 2 = 2 9 , 2 & & & \\ f 3 = 5 2 , 5 & & & \\ f 4 = 9 4 , 9",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}
