@@ -70,6 +70,9 @@ FIGURE_CAPTION_RE = re.compile(
     r"(?:Фиг\.|Fig\.|Рис\.|Figure)\s*[IVXLCDM\d]+(?:\.\d+)*",
     re.IGNORECASE,
 )
+_CAPTION_MARKER_RE = re.compile(r"(?:Фиг\.|Fig\.|Рис\.|Figure)", re.IGNORECASE)
+_CAPTION_JOIN_GAP_PT = 12.0
+_CAPTION_Y_SLOP_PT = 3.0
 _FIGURE_METHOD_PRIO = {
     "pdf_image": 3,
     "caption_anchor": 2,
@@ -1063,15 +1066,14 @@ def tighten_bbox_to_ink(
     dpi: int,
     *,
     pad_pt: float = 6.0,
-    density: float = 0.02,
+    relative: float = 0.1,
 ) -> BBox:
     """Shrink a loose box to the densest ink block inside it.
 
-    A row or column counts only when at least ``density`` of its pixels are ink.
-    A single dark pixel, a hairline rule, or a column-header speck no longer
-    pins the box to the window edge. The kept band is the longest dense run
-    (small internal gaps are bridged), so a caption line above a photo does
-    not stretch the photo box.
+    A row or column counts when its ink fraction is at least ``relative`` of
+    the densest row/column in the window. Light photo edges stay inside the
+    box; a hairline or speck is far below the peak and is dropped. The kept
+    band is the longest dense run (small internal gaps are bridged).
     """
     if image_bgr is None or image_bgr.size == 0:
         return bbox_pt
@@ -1090,8 +1092,10 @@ def tighten_bbox_to_ink(
     if int(ink.sum()) < 40:
         return bbox_pt
     row_frac = ink.mean(axis=1)
+    row_peak = float(row_frac.max()) if row_frac.size else 0.0
+    row_thr = max(1e-4, relative * row_peak)
     gap = max(2, int(18 * dpi / 72.0))
-    row_run = _longest_dense_run(row_frac >= density, gap=gap)
+    row_run = _longest_dense_run(row_frac >= row_thr, gap=gap)
     if row_run is None:
         return bbox_pt
     r0, r1 = row_run
@@ -1099,7 +1103,9 @@ def tighten_bbox_to_ink(
     if band.size == 0:
         return bbox_pt
     col_frac = band.mean(axis=0)
-    col_run = _longest_dense_run(col_frac >= density, gap=gap)
+    col_peak = float(col_frac.max()) if col_frac.size else 0.0
+    col_thr = max(1e-4, relative * col_peak)
+    col_run = _longest_dense_run(col_frac >= col_thr, gap=gap)
     if col_run is None:
         return bbox_pt
     c0, c1 = col_run
@@ -1176,49 +1182,81 @@ def _is_body_blocker(span: TextSpan, page_w: float) -> bool:
     return letters >= 15 or (x2 - x1) >= 0.40 * page_w
 
 
-def caption_line_groups(spans: list[TextSpan]) -> list[tuple[str, tuple[float, float, float, float], list[TextSpan]]]:
-    """Join spans of one visual line so ``Fig.`` + ``1.10`` still matches.
+def normalize_caption_text(text: str) -> str:
+    return re.sub(r"\s+", " ", text or "").strip()
 
-    Spans far apart on the same baseline stay separate (two side-by-side captions).
+
+def _y_overlaps(a: tuple[float, float, float, float], b: tuple[float, float, float, float]) -> bool:
+    return min(a[3], b[3]) + _CAPTION_Y_SLOP_PT > max(a[1], b[1])
+
+
+def _x_adjoins(left: tuple[float, float, float, float], right: tuple[float, float, float, float]) -> bool:
+    gap = right[0] - left[2]
+    return -2.0 <= gap <= _CAPTION_JOIN_GAP_PT
+
+
+def caption_line_groups(spans: list[TextSpan]) -> list[tuple[str, tuple[float, float, float, float], list[TextSpan]]]:
+    """Join every span after a Fig./Фиг./Рис. marker on the same baseline.
+
+    PyMuPDF often splits ``Fig. 1.9 Positive corona.`` into four spans with
+    trailing spaces. Pairwise ``Fig.``+``1.10`` is not enough: keep walking
+    right while y overlaps and x adjoins.
     """
-    rows: list[list[TextSpan]] = []
-    for sp in sorted(spans, key=lambda s: (_span_xyxy(s)[1], _span_xyxy(s)[0])):
-        _x1, y1, _x2, y2 = _span_xyxy(sp)
-        cy = 0.5 * (y1 + y2)
-        placed = False
-        for row in rows:
-            ry1, ry2 = _span_xyxy(row[0])[1], _span_xyxy(row[0])[3]
-            if abs(cy - 0.5 * (ry1 + ry2)) <= 4.0:
-                row.append(sp)
-                placed = True
-                break
-        if not placed:
-            rows.append([sp])
+    ordered = sorted(spans, key=lambda s: (_span_xyxy(s)[1], _span_xyxy(s)[0]))
+    used: set[int] = set()
     groups: list[tuple[str, tuple[float, float, float, float], list[TextSpan]]] = []
-    for row in rows:
-        row.sort(key=lambda s: _span_xyxy(s)[0])
-        chunk: list[TextSpan] = []
-        for sp in row:
-            if not chunk:
-                chunk = [sp]
-                continue
-            gap = _span_xyxy(sp)[0] - _span_xyxy(chunk[-1])[2]
-            if gap > 36.0:
-                groups.append(_caption_group(chunk))
-                chunk = [sp]
-            else:
-                chunk.append(sp)
-        if chunk:
-            groups.append(_caption_group(chunk))
+    for i, seed in enumerate(ordered):
+        if i in used:
+            continue
+        if not _CAPTION_MARKER_RE.search(normalize_caption_text(seed.text)):
+            continue
+        chunk = [seed]
+        used.add(i)
+        while True:
+            last = _span_xyxy(chunk[-1])
+            nxt = None
+            for j, other in enumerate(ordered):
+                if j in used:
+                    continue
+                box = _span_xyxy(other)
+                if _y_overlaps(last, box) and _x_adjoins(last, box):
+                    nxt = j
+                    break
+            if nxt is None:
+                break
+            chunk.append(ordered[nxt])
+            used.add(nxt)
+        groups.append(_caption_group(chunk))
     return groups
 
 
 def _caption_group(
     chunk: list[TextSpan],
 ) -> tuple[str, tuple[float, float, float, float], list[TextSpan]]:
-    text = " ".join((sp.text or "").strip() for sp in chunk if (sp.text or "").strip())
+    raw = " ".join(sp.text or "" for sp in chunk)
+    text = normalize_caption_text(raw)
     xs1, ys1, xs2, ys2 = zip(*(_span_xyxy(sp) for sp in chunk))
     return text, (min(xs1), min(ys1), max(xs2), max(ys2)), chunk
+
+
+def join_caption_spans(spans: list[TextSpan]) -> list[TextSpan]:
+    """Replace a caption cluster with one span; leave other spans unchanged."""
+    groups = caption_line_groups(spans)
+    used = {id(sp) for _text, _box, chunk in groups for sp in chunk}
+    out = [
+        TextSpan(text=text, bbox=box, font_size=chunk[0].font_size)
+        for text, box, chunk in groups
+    ]
+    out.extend(sp for sp in spans if id(sp) not in used)
+    return out
+
+
+def _body_x_bounds(spans: list[TextSpan], page_w: float) -> tuple[float, float]:
+    if not spans:
+        return 8.0, page_w - 8.0
+    xs1 = [_span_xyxy(sp)[0] for sp in spans]
+    xs2 = [_span_xyxy(sp)[2] for sp in spans]
+    return max(4.0, min(xs1) - 4.0), min(page_w - 4.0, max(xs2) + 4.0)
 
 
 def _neighbor_x_bounds(
@@ -1236,6 +1274,19 @@ def _neighbor_x_bounds(
         elif ocx > cx + 20:
             right = min(right, 0.5 * (ocx + cx))
     return left, right
+
+
+def _caption_figure_gap(
+    cap: tuple[float, float, float, float],
+    fig: BBox,
+) -> float:
+    """Vertical gap between a caption line and a candidate figure box."""
+    _cx1, cy1, _cx2, cy2 = cap
+    if fig.y2 <= cy1:
+        return cy1 - fig.y2
+    if fig.y1 >= cy2:
+        return fig.y1 - cy2
+    return 0.0
 
 
 def detect_caption_figure_regions(
@@ -1257,16 +1308,22 @@ def detect_caption_figure_regions(
     if not captions:
         return []
     caption_ids = {id(sp) for _text, _box, chunk in captions for sp in chunk}
-    out: list[DetectedRegion] = []
+    body_x1, body_x2 = _body_x_bounds(spans, page_w)
+    picked: list[tuple[bool, float, float, BBox, str]] = []
     for text, cap, _chunk in captions:
         cx1, cy1, cx2, cy2 = cap
-        left, right = _neighbor_x_bounds(cap, [g[1] for g in captions if g[1] != cap], page_w)
-        width = max(cx2 - cx1, min(0.38 * page_w, right - left))
-        cx = 0.5 * (cx1 + cx2)
-        x1 = max(left, min(cx1, cx - width / 2.0))
-        x2 = min(right, max(cx2, cx + width / 2.0))
+        same_row = [
+            g[1]
+            for g in captions
+            if g[1] != cap
+            and _CAPTION_MARKER_RE.match(g[0])
+            and abs(0.5 * (g[1][1] + g[1][3]) - 0.5 * (cy1 + cy2)) < 20.0
+        ]
+        left, right = _neighbor_x_bounds(cap, same_row, page_w)
+        x1 = max(body_x1, left)
+        x2 = min(body_x2, right)
         if x2 - x1 < 40:
-            x1, x2 = max(8.0, cx1 - 20), min(page_w - 8.0, cx2 + 20)
+            x1, x2 = body_x1, body_x2
 
         blockers_above = [
             _span_xyxy(sp)[3]
@@ -1296,7 +1353,7 @@ def detect_caption_figure_regions(
             x2=x2,
             y2=min(next_top - 6.0, cy2 + min(0.40 * page_h, 280.0), page_h - 8.0),
         )
-        scored: list[tuple[float, BBox]] = []
+        scored: list[tuple[float, float, BBox]] = []
         for window in (above, below):
             if window.y2 - window.y1 < 50 or window.x2 - window.x1 < 40:
                 continue
@@ -1307,11 +1364,18 @@ def detect_caption_figure_regions(
             area_before = max(window.x2 - window.x1, 1.0) * max(window.y2 - window.y1, 1.0)
             area_after = max(tight.x2 - tight.x1, 0.0) * max(tight.y2 - tight.y1, 0.0)
             shrink = (area_before - area_after) / area_before
-            scored.append((shrink, tight))
+            scored.append((_caption_figure_gap(cap, tight), shrink, tight))
         if not scored:
             continue
-        scored.sort(key=lambda item: item[0], reverse=True)
-        chosen = scored[0][1]
+        scored.sort(key=lambda item: (item[0], -item[1]))
+        y_gap, shrink, chosen = scored[0]
+        lead = bool(_CAPTION_MARKER_RE.match(text))
+        picked.append((not lead, y_gap, -shrink, chosen, text))
+    picked.sort()
+    out: list[DetectedRegion] = []
+    for _lead, _gap, _shrink, chosen, text in picked:
+        if any(_iou_pt(chosen, k.bbox_pt) >= 0.35 for k in out):
+            continue
         out.append(
             DetectedRegion(
                 type=BlockType.FIGURE,
@@ -1684,7 +1748,7 @@ def _ocr_pseudo_spans(
                     font_size=None,
                 )
             )
-        return spans
+        return join_caption_spans(spans)
     except Exception:
         return []
 

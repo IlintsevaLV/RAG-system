@@ -18,9 +18,12 @@ from ingestion.models import TextSpan
 from ingestion.region_detect import (
     FIGURE_CAPTION_RE,
     DetectedRegion,
+    caption_line_groups,
     detect_caption_figure_regions,
     is_valid_figure_bbox,
+    join_caption_spans,
     merge_figure_candidates,
+    normalize_caption_text,
     tighten_bbox_to_ink,
 )
 from core.ir import BlockType
@@ -108,21 +111,40 @@ def test_units() -> int:
         print(f"  FAIL  hairline pinned y1={tight_noise.y1}")
         failed += 1
 
-    # _1954-like: paragraph ends just above the photo, caption below it.
+    # _1954 p9: narrow "Фиг. I.1." caption, wide body, light photo edges,
+    # and an inline "(фиг. I.1)" that must not steal the box.
     page = np.full((842, 595, 3), 245, dtype=np.uint8)
     page[398:571, 82:504] = 30
+    page[398:410, 82:504] = 90
     page[186, 90:200] = 0
     spans_p9 = [
-        TextSpan(text="Предыдущий абзац про вертолёт Белл и его схему управления.", bbox=(70, 360, 520, 378), font_size=10),
-        TextSpan(text="Фиг. I.1. Одновинтовой вертолет Белл Н-13.", bbox=(82, 580, 420, 596), font_size=10),
+        TextSpan(
+            text="Текст абзаца, где упоминается вертолёт (фиг. I.1) в середине строки.",
+            bbox=(70, 300, 530, 318),
+            font_size=10,
+        ),
+        TextSpan(
+            text="Предыдущий абзац про вертолёт Белл и его схему управления.",
+            bbox=(70, 360, 520, 378),
+            font_size=10,
+        ),
+        TextSpan(text="Фиг. I.1.", bbox=(220, 580, 300, 596), font_size=10),
     ]
     found_p9 = detect_caption_figure_regions(spans_p9, page, dpi=72, page_w=595, page_h=842)
     gold = BBox(x1=82, y1=398, x2=504, y2=571)
-    if len(found_p9) == 1 and _iou(found_p9[0].bbox_pt, gold) >= 0.6:
-        print(f"  PASS  p9-like IoU={_iou(found_p9[0].bbox_pt, gold):.2f}")
+    iou_p9 = _iou(found_p9[0].bbox_pt, gold) if found_p9 else 0.0
+    box = found_p9[0].bbox_pt if found_p9 else None
+    near = (
+        box is not None
+        and abs(box.x1 - 82) <= 15
+        and abs(box.y1 - 398) <= 20
+        and abs(box.x2 - 504) <= 15
+        and abs(box.y2 - 571) <= 10
+    )
+    if len(found_p9) == 1 and iou_p9 >= 0.75 and near:
+        print(f"  PASS  p9-like IoU={iou_p9:.2f} box={box}")
     else:
-        box = found_p9[0].bbox_pt if found_p9 else None
-        print(f"  FAIL  p9-like n={len(found_p9)} box={box}")
+        print(f"  FAIL  p9-like n={len(found_p9)} IoU={iou_p9:.2f} box={box}")
         failed += 1
 
     # Split caption spans still match (rdk "Fig." + "1.10").
@@ -137,6 +159,40 @@ def test_units() -> int:
         print("  PASS  split Fig. 1.10 caption")
     else:
         print(f"  FAIL  split caption {found_split}")
+        failed += 1
+
+    # rdk89 p25: four PyMuPDF spans with trailing spaces, one baseline.
+    rdk_spans = [
+        TextSpan(text="Fig. ", bbox=(252.0, 264.0, 270.0, 277.3), font_size=9),
+        TextSpan(text="1.9 ", bbox=(273.0, 264.0, 286.5, 277.3), font_size=9),
+        TextSpan(text="Positive ", bbox=(290.0, 264.1, 324.4, 277.4), font_size=9),
+        TextSpan(text="corona.", bbox=(325.0, 264.1, 354.1, 277.4), font_size=9),
+    ]
+    groups = caption_line_groups(rdk_spans)
+    ok_join = (
+        len(groups) == 1
+        and groups[0][0] == "Fig. 1.9 Positive corona."
+        and FIGURE_CAPTION_RE.search(groups[0][0])
+        and abs(groups[0][1][0] - 252.0) < 0.1
+        and abs(groups[0][1][1] - 264.0) < 0.1
+        and abs(groups[0][1][2] - 354.1) < 0.1
+        and abs(groups[0][1][3] - 277.4) < 0.1
+    )
+    if ok_join:
+        print("  PASS  rdk p25 four-span join")
+    else:
+        print(f"  FAIL  rdk p25 join {groups}")
+        failed += 1
+    if normalize_caption_text("Fig.  1.9   Positive ") == "Fig. 1.9 Positive":
+        print("  PASS  caption space normalize")
+    else:
+        print("  FAIL  caption space normalize")
+        failed += 1
+    joined = join_caption_spans(rdk_spans)
+    if len(joined) == 1 and joined[0].text.startswith("Fig. 1.9"):
+        print("  PASS  OCR-style join_caption_spans")
+    else:
+        print(f"  FAIL  join_caption_spans {joined}")
         failed += 1
 
     # Figure sits under the caption: below must be allowed to win.
