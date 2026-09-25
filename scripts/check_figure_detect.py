@@ -97,6 +97,60 @@ def test_units() -> int:
     else:
         print(f"  FAIL  merge {[(m.method) for m in merged]}")
         failed += 1
+
+    # A hairline at the top of the window must not pin the box.
+    noisy = img.copy()
+    noisy[12, 100:180] = 0
+    tight_noise = tighten_bbox_to_ink(noisy, loose, dpi=72)
+    if tight_noise.y1 > 60:
+        print("  PASS  density ignores hairline")
+    else:
+        print(f"  FAIL  hairline pinned y1={tight_noise.y1}")
+        failed += 1
+
+    # _1954-like: paragraph ends just above the photo, caption below it.
+    page = np.full((842, 595, 3), 245, dtype=np.uint8)
+    page[398:571, 82:504] = 30
+    page[186, 90:200] = 0
+    spans_p9 = [
+        TextSpan(text="Предыдущий абзац про вертолёт Белл и его схему управления.", bbox=(70, 360, 520, 378), font_size=10),
+        TextSpan(text="Фиг. I.1. Одновинтовой вертолет Белл Н-13.", bbox=(82, 580, 420, 596), font_size=10),
+    ]
+    found_p9 = detect_caption_figure_regions(spans_p9, page, dpi=72, page_w=595, page_h=842)
+    gold = BBox(x1=82, y1=398, x2=504, y2=571)
+    if len(found_p9) == 1 and _iou(found_p9[0].bbox_pt, gold) >= 0.6:
+        print(f"  PASS  p9-like IoU={_iou(found_p9[0].bbox_pt, gold):.2f}")
+    else:
+        box = found_p9[0].bbox_pt if found_p9 else None
+        print(f"  FAIL  p9-like n={len(found_p9)} box={box}")
+        failed += 1
+
+    # Split caption spans still match (rdk "Fig." + "1.10").
+    page26 = np.full((842, 595, 3), 245, dtype=np.uint8)
+    page26[570:720, 340:565] = 25
+    spans_split = [
+        TextSpan(text="Fig.", bbox=(340, 725, 370, 740), font_size=9),
+        TextSpan(text="1.10 Waveshapes for testing.", bbox=(374, 725, 560, 740), font_size=9),
+    ]
+    found_split = detect_caption_figure_regions(spans_split, page26, dpi=72, page_w=595, page_h=842)
+    if len(found_split) == 1 and found_split[0].bbox_pt.y1 > 500:
+        print("  PASS  split Fig. 1.10 caption")
+    else:
+        print(f"  FAIL  split caption {found_split}")
+        failed += 1
+
+    # Figure sits under the caption: below must be allowed to win.
+    page_below = np.full((400, 300, 3), 245, dtype=np.uint8)
+    page_below[80:220, 40:260] = 20
+    spans_below = [
+        TextSpan(text="Фиг. I.4. Схема под подписью рисунка.", bbox=(40, 20, 250, 36), font_size=10),
+    ]
+    found_below = detect_caption_figure_regions(spans_below, page_below, dpi=72, page_w=300, page_h=400)
+    if len(found_below) == 1 and found_below[0].bbox_pt.y1 > 50:
+        print("  PASS  below window can win")
+    else:
+        print(f"  FAIL  below window {found_below}")
+        failed += 1
     return failed
 
 
@@ -166,7 +220,7 @@ def main() -> int:
     parser.add_argument("--dpi", type=int, default=200)
     args = parser.parse_args()
     failed = test_units()
-    print(f"unit: {5 - failed}/5")
+    print(f"unit failures: {failed}")
     gold = Path(args.gold)
     if gold.is_file():
         iou_thr = float(json.loads(gold.read_text(encoding="utf-8")).get("iou_hit", 0.5))

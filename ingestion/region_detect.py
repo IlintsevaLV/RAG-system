@@ -1034,14 +1034,45 @@ def is_valid_figure_bbox(
     return True, ""
 
 
+def _longest_dense_run(dense: np.ndarray, *, gap: int) -> tuple[int, int] | None:
+    """Longest True-run, bridging holes shorter than ``gap`` pixels."""
+    if dense.size == 0 or not dense.any():
+        return None
+    if gap > 0:
+        closed = dense.copy()
+        idx = np.where(dense)[0]
+        for a, b in zip(idx[:-1], idx[1:]):
+            if 0 < b - a <= gap:
+                closed[a:b] = True
+        dense = closed
+    best: tuple[int, int] | None = None
+    start: int | None = None
+    for i, flag in enumerate(dense.tolist() + [False]):
+        if flag and start is None:
+            start = i
+        elif not flag and start is not None:
+            if best is None or (i - start) > (best[1] - best[0]):
+                best = (start, i)
+            start = None
+    return best
+
+
 def tighten_bbox_to_ink(
     image_bgr: np.ndarray,
     bbox_pt: BBox,
     dpi: int,
     *,
     pad_pt: float = 6.0,
+    density: float = 0.02,
 ) -> BBox:
-    """Shrink a loose box to the ink bounding box inside it."""
+    """Shrink a loose box to the densest ink block inside it.
+
+    A row or column counts only when at least ``density`` of its pixels are ink.
+    A single dark pixel, a hairline rule, or a column-header speck no longer
+    pins the box to the window edge. The kept band is the longest dense run
+    (small internal gaps are bridged), so a caption line above a photo does
+    not stretch the photo box.
+    """
     if image_bgr is None or image_bgr.size == 0:
         return bbox_pt
     h, w = image_bgr.shape[:2]
@@ -1051,20 +1082,33 @@ def tighten_bbox_to_ink(
     if x2 - x1 < 12 or y2 - y1 < 12:
         return bbox_pt
     gray = cv2.cvtColor(image_bgr[y1:y2, x1:x2], cv2.COLOR_BGR2GRAY)
-    thr = max(int(np.median(gray)) - 12, 1)
+    # Threshold from the paper background, not the median: a window that is
+    # already mostly the figure has a dark median and would otherwise match nothing.
+    background = float(np.percentile(gray, 85))
+    thr = min(background - 8.0, max(background - 30.0, 40.0))
     ink = gray < thr
-    ys, xs = np.where(ink)
-    if xs.size < 40:
+    if int(ink.sum()) < 40:
         return bbox_pt
+    row_frac = ink.mean(axis=1)
+    gap = max(2, int(18 * dpi / 72.0))
+    row_run = _longest_dense_run(row_frac >= density, gap=gap)
+    if row_run is None:
+        return bbox_pt
+    r0, r1 = row_run
+    band = ink[r0:r1]
+    if band.size == 0:
+        return bbox_pt
+    col_frac = band.mean(axis=0)
+    col_run = _longest_dense_run(col_frac >= density, gap=gap)
+    if col_run is None:
+        return bbox_pt
+    c0, c1 = col_run
     pad = max(1, int(pad_pt * dpi / 72.0))
-    nx1 = max(0, x1 + int(xs.min()) - pad)
-    ny1 = max(0, y1 + int(ys.min()) - pad)
-    nx2 = min(w, x1 + int(xs.max()) + 1 + pad)
-    ny2 = min(h, y1 + int(ys.max()) + 1 + pad)
-    tightened = _px_to_pt(nx1, ny1, nx2, ny2, dpi)
-    if (tightened.x2 - tightened.x1) < 40 or (tightened.y2 - tightened.y1) < 40:
-        return bbox_pt
-    return tightened
+    nx1 = max(0, x1 + c0 - pad)
+    ny1 = max(0, y1 + r0 - pad)
+    nx2 = min(w, x1 + c1 + pad)
+    ny2 = min(h, y1 + r1 + pad)
+    return _px_to_pt(nx1, ny1, nx2, ny2, dpi)
 
 
 def detect_pdf_image_regions(
@@ -1119,6 +1163,81 @@ def detect_pdf_image_regions(
     return out
 
 
+def _span_xyxy(span: TextSpan) -> tuple[float, float, float, float]:
+    box = span.bbox
+    return float(box[0]), float(box[1]), float(box[2]), float(box[3])
+
+
+def _is_body_blocker(span: TextSpan, page_w: float) -> bool:
+    """Wide or long text that ends a paragraph, not an axis tick inside a figure."""
+    text = (span.text or "").strip()
+    letters = sum(ch.isalpha() for ch in text)
+    x1, _y1, x2, _y2 = _span_xyxy(span)
+    return letters >= 15 or (x2 - x1) >= 0.40 * page_w
+
+
+def caption_line_groups(spans: list[TextSpan]) -> list[tuple[str, tuple[float, float, float, float], list[TextSpan]]]:
+    """Join spans of one visual line so ``Fig.`` + ``1.10`` still matches.
+
+    Spans far apart on the same baseline stay separate (two side-by-side captions).
+    """
+    rows: list[list[TextSpan]] = []
+    for sp in sorted(spans, key=lambda s: (_span_xyxy(s)[1], _span_xyxy(s)[0])):
+        _x1, y1, _x2, y2 = _span_xyxy(sp)
+        cy = 0.5 * (y1 + y2)
+        placed = False
+        for row in rows:
+            ry1, ry2 = _span_xyxy(row[0])[1], _span_xyxy(row[0])[3]
+            if abs(cy - 0.5 * (ry1 + ry2)) <= 4.0:
+                row.append(sp)
+                placed = True
+                break
+        if not placed:
+            rows.append([sp])
+    groups: list[tuple[str, tuple[float, float, float, float], list[TextSpan]]] = []
+    for row in rows:
+        row.sort(key=lambda s: _span_xyxy(s)[0])
+        chunk: list[TextSpan] = []
+        for sp in row:
+            if not chunk:
+                chunk = [sp]
+                continue
+            gap = _span_xyxy(sp)[0] - _span_xyxy(chunk[-1])[2]
+            if gap > 36.0:
+                groups.append(_caption_group(chunk))
+                chunk = [sp]
+            else:
+                chunk.append(sp)
+        if chunk:
+            groups.append(_caption_group(chunk))
+    return groups
+
+
+def _caption_group(
+    chunk: list[TextSpan],
+) -> tuple[str, tuple[float, float, float, float], list[TextSpan]]:
+    text = " ".join((sp.text or "").strip() for sp in chunk if (sp.text or "").strip())
+    xs1, ys1, xs2, ys2 = zip(*(_span_xyxy(sp) for sp in chunk))
+    return text, (min(xs1), min(ys1), max(xs2), max(ys2)), chunk
+
+
+def _neighbor_x_bounds(
+    cap_box: tuple[float, float, float, float],
+    others: list[tuple[float, float, float, float]],
+    page_w: float,
+) -> tuple[float, float]:
+    cx1, _cy1, cx2, _cy2 = cap_box
+    cx = 0.5 * (cx1 + cx2)
+    left, right = 8.0, page_w - 8.0
+    for ox1, _oy1, ox2, _oy2 in others:
+        ocx = 0.5 * (ox1 + ox2)
+        if ocx < cx - 20:
+            left = max(left, 0.5 * (ocx + cx))
+        elif ocx > cx + 20:
+            right = min(right, 0.5 * (ocx + cx))
+    return left, right
+
+
 def detect_caption_figure_regions(
     spans: list[TextSpan],
     image_bgr: np.ndarray,
@@ -1127,21 +1246,47 @@ def detect_caption_figure_regions(
     page_w: float,
     page_h: float,
 ) -> list[DetectedRegion]:
-    """Box above/below a Фиг./Fig./Рис. caption, then tighten to ink."""
+    """Box above/below a Фиг./Fig./Рис. caption, then tighten to dense ink.
+
+    The search window stops at the nearest body-text line, so it does not eat
+    the previous paragraph. Above and below are both scored; the one that
+    shrinks onto a dense block wins, not whichever was tried first.
+    """
+    groups = caption_line_groups(spans)
+    captions = [g for g in groups if FIGURE_CAPTION_RE.search(g[0])]
+    if not captions:
+        return []
+    caption_ids = {id(sp) for _text, _box, chunk in captions for sp in chunk}
     out: list[DetectedRegion] = []
-    for sp in spans:
-        text = (sp.text or "").strip()
-        if not text or not FIGURE_CAPTION_RE.search(text):
-            continue
-        cap = sp.bbox
-        cx1, cy1, cx2, cy2 = float(cap[0]), float(cap[1]), float(cap[2]), float(cap[3])
-        width = max(cx2 - cx1, 0.38 * page_w)
+    for text, cap, _chunk in captions:
+        cx1, cy1, cx2, cy2 = cap
+        left, right = _neighbor_x_bounds(cap, [g[1] for g in captions if g[1] != cap], page_w)
+        width = max(cx2 - cx1, min(0.38 * page_w, right - left))
         cx = 0.5 * (cx1 + cx2)
-        x1 = max(8.0, min(cx1, cx - width / 2.0))
-        x2 = min(page_w - 8.0, max(cx2, cx + width / 2.0))
+        x1 = max(left, min(cx1, cx - width / 2.0))
+        x2 = min(right, max(cx2, cx + width / 2.0))
+        if x2 - x1 < 40:
+            x1, x2 = max(8.0, cx1 - 20), min(page_w - 8.0, cx2 + 20)
+
+        blockers_above = [
+            _span_xyxy(sp)[3]
+            for sp in spans
+            if id(sp) not in caption_ids
+            and _span_xyxy(sp)[3] < cy1 - 1.0
+            and _is_body_blocker(sp, page_w)
+        ]
+        blockers_below = [
+            _span_xyxy(sp)[1]
+            for sp in spans
+            if id(sp) not in caption_ids
+            and _span_xyxy(sp)[1] > cy2 + 1.0
+            and _is_body_blocker(sp, page_w)
+        ]
+        prev_bottom = max(blockers_above) if blockers_above else 8.0
+        next_top = min(blockers_below) if blockers_below else page_h - 8.0
         above = BBox(
             x1=x1,
-            y1=max(8.0, cy1 - min(0.52 * page_h, 400.0)),
+            y1=max(prev_bottom + 6.0, cy1 - min(0.52 * page_h, 400.0), 8.0),
             x2=x2,
             y2=max(cy1 - 3.0, 12.0),
         )
@@ -1149,26 +1294,24 @@ def detect_caption_figure_regions(
             x1=x1,
             y1=min(page_h - 12.0, cy2 + 3.0),
             x2=x2,
-            y2=min(page_h - 8.0, cy2 + min(0.40 * page_h, 280.0)),
+            y2=min(next_top - 6.0, cy2 + min(0.40 * page_h, 280.0), page_h - 8.0),
         )
-        chosen: BBox | None = None
+        scored: list[tuple[float, BBox]] = []
         for window in (above, below):
-            if window.y2 - window.y1 < 50:
+            if window.y2 - window.y1 < 50 or window.x2 - window.x1 < 40:
                 continue
             tight = tighten_bbox_to_ink(image_bgr, window, dpi)
             ok, _reason = is_valid_figure_bbox(tight, page_w=page_w, page_h=page_h)
             if not ok:
                 continue
-            # Prefer the window that actually shrank onto ink (not the empty pad).
-            shrink = (window.x2 - window.x1) * (window.y2 - window.y1) - (
-                tight.x2 - tight.x1
-            ) * (tight.y2 - tight.y1)
-            if chosen is None or shrink > 0:
-                chosen = tight
-                if shrink > 0:
-                    break
-        if chosen is None:
+            area_before = max(window.x2 - window.x1, 1.0) * max(window.y2 - window.y1, 1.0)
+            area_after = max(tight.x2 - tight.x1, 0.0) * max(tight.y2 - tight.y1, 0.0)
+            shrink = (area_before - area_after) / area_before
+            scored.append((shrink, tight))
+        if not scored:
             continue
+        scored.sort(key=lambda item: item[0], reverse=True)
+        chosen = scored[0][1]
         out.append(
             DetectedRegion(
                 type=BlockType.FIGURE,
@@ -1436,11 +1579,14 @@ def detect_page_regions(
             page_h=page_h,
         )
     )
-    figure_regions.extend(
-        detect_figure_regions(
-            rendered.image_bgr, spans, dpi=dpi, page_w=page_w, page_h=page_h
+    # Ink blobs merge graphics with text on scans. Use them only when no
+    # caption anchored a figure; otherwise they show up as extra false boxes.
+    if not any(r.method == "caption_anchor" for r in figure_regions):
+        figure_regions.extend(
+            detect_figure_regions(
+                rendered.image_bgr, spans, dpi=dpi, page_w=page_w, page_h=page_h
+            )
         )
-    )
     regions.extend(merge_figure_candidates(figure_regions))
     page_area_pt = page_w * page_h
     formulas = [r for r in regions if r.type == BlockType.FORMULA]
