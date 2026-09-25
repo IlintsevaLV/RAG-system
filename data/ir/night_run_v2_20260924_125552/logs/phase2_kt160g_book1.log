@@ -1,0 +1,391 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T10:53:25.219717Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=1
+python.exe : [INFO] 2026-09-24 13:53:25,635 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+строка:22 знак:9
++         & $PythonMain @cmdArgs 2>&1 | Out-File -FilePath $log -Encodi ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-09-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-09-24 13:53:26,467 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:53:26,545 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:26,545 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:53:26,612 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:26,612 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_re
+c_mobile.onnx
+[INFO] 2026-09-24 13:53:30,993 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:30,993 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:53:31,076 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:31,076 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:53:31,216 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:31,216 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_m
+obile.onnx
+[INFO] 2026-09-24 13:53:35,677 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:35,677 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:53:35,772 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:35,772 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:53:35,902 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:53:35,903 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobi
+le.onnx
+2026-09-24T10:53:40.376038Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=2
+2026-09-24T10:53:52.518708Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=3
+2026-09-24T10:54:06.531259Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=4
+2026-09-24T10:54:22.307254Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=5
+2026-09-24T10:54:34.025842Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=6
+2026-09-24T10:54:46.738765Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=7
+2026-09-24T10:55:01.310776Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=8
+2026-09-24T10:55:13.894267Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=9
+2026-09-24T10:55:27.187241Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=10
+2026-09-24T10:55:37.850600Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=11
+2026-09-24T10:55:48.238398Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=12
+2026-09-24T10:55:59.145975Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=13
+2026-09-24T10:56:22.697421Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=14
+2026-09-24T10:56:49.061529Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=15
+2026-09-24T10:57:16.189401Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=16
+2026-09-24T10:57:41.568618Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=17
+2026-09-24T10:58:02.142887Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=18
+2026-09-24T10:58:11.522230Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=19
+2026-09-24T10:58:33.480391Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=20
+2026-09-24T10:58:54.728884Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=21
+2026-09-24T10:59:17.639351Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=22
+2026-09-24T10:59:39.104532Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=23
+2026-09-24T10:59:57.417597Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=24
+2026-09-24T11:00:06.901938Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=25
+2026-09-24T11:00:28.260242Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=26
+2026-09-24T11:00:47.332315Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=27
+2026-09-24T11:01:03.245955Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=28
+2026-09-24T11:01:27.894451Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=29
+2026-09-24T11:01:55.453846Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=30
+2026-09-24T11:02:20.358380Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=31
+2026-09-24T11:02:44.714840Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=32
+2026-09-24T11:03:11.124387Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=33
+2026-09-24T11:03:29.849263Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=34
+2026-09-24T11:03:57.523855Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=35
+2026-09-24T11:04:06.705285Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=36
+2026-09-24T11:04:26.460641Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=37
+2026-09-24T11:04:39.940128Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=38
+2026-09-24T11:04:49.578900Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=39
+2026-09-24T11:05:03.403754Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=40
+2026-09-24T11:05:13.706864Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=41
+2026-09-24T11:05:24.079432Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=42
+2026-09-24T11:05:33.854238Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=43
+2026-09-24T11:05:45.780986Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=44
+2026-09-24T11:05:57.188145Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=45
+2026-09-24T11:06:06.277996Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=46
+2026-09-24T11:06:30.249923Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=47
+2026-09-24T11:06:52.916447Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=48
+2026-09-24T11:07:08.726180Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=49
+2026-09-24T11:07:17.963460Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=50
+2026-09-24T11:07:39.979929Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=51
+2026-09-24T11:08:01.054842Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=52
+2026-09-24T11:08:13.231314Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=53
+2026-09-24T11:08:23.428446Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=54
+2026-09-24T11:08:44.565452Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=55
+Ignoring parse error (tolerant parsing mode): Unexpected closing environment: 'array' @(1,809)
+2026-09-24T11:09:48.514984Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=56
+2026-09-24T11:10:15.814547Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=57
+2026-09-24T11:10:47.025187Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=58
+2026-09-24T11:11:16.254612Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=59
+2026-09-24T11:11:40.774815Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=60
+2026-09-24T11:11:50.921230Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=61
+2026-09-24T11:12:15.148558Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=62
+2026-09-24T11:12:40.076076Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=63
+2026-09-24T11:13:07.568437Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=64
+2026-09-24T11:13:25.245163Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=65
+2026-09-24T11:13:34.676524Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=66
+2026-09-24T11:13:51.608650Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=67
+2026-09-24T11:14:08.875682Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=68
+2026-09-24T11:14:18.495048Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=69
+2026-09-24T11:14:40.944375Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=70
+2026-09-24T11:15:04.444375Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=71
+2026-09-24T11:15:19.195604Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=72
+2026-09-24T11:15:43.019157Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=73
+2026-09-24T11:16:06.062014Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=74
+2026-09-24T11:16:24.646825Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=75
+2026-09-24T11:17:26.779597Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=76
+2026-09-24T11:17:51.972396Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=77
+2026-09-24T11:18:17.109523Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=78
+2026-09-24T11:18:41.049019Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=79
+2026-09-24T11:18:54.589604Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=80
+2026-09-24T11:19:16.804218Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=81
+2026-09-24T11:19:41.695972Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=82
+2026-09-24T11:20:13.780087Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=83
+2026-09-24T11:20:31.817375Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=84
+2026-09-24T11:20:43.621522Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=85
+2026-09-24T11:20:59.197632Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=86
+Ignoring parse error (tolerant parsing mode): Unexpected mismatching closing brace: '}' @(1,615)
+Ignoring parse error (tolerant parsing mode): End of input while parsing arguments of macro "frac" @(1,0)
+Open LaTeX blocks:
+            @(1,0)  arguments of macro "frac"
+
+Ignoring parse error (tolerant parsing mode): Unexpected mismatching closing brace: '}' @(1,615)
+2026-09-24T11:21:18.817510Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=87
+2026-09-24T11:21:31.505092Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=88
+2026-09-24T11:21:41.997567Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=89
+2026-09-24T11:22:05.325402Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=90
+2026-09-24T11:22:17.610564Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=91
+2026-09-24T11:22:30.774310Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=92
+2026-09-24T11:22:42.099112Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=93
+2026-09-24T11:22:53.917400Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=94
+2026-09-24T11:23:03.698022Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=95
+2026-09-24T11:23:23.864929Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=96
+2026-09-24T11:23:44.532973Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=97
+2026-09-24T11:24:10.596181Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=98
+2026-09-24T11:24:34.715748Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=99
+2026-09-24T11:24:57.409670Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=100
+2026-09-24T11:25:17.593747Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=101
+2026-09-24T11:25:30.583371Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=102
+2026-09-24T11:25:44.238596Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=103
+2026-09-24T11:25:52.194206Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=104
+2026-09-24T11:26:02.075915Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=105
+2026-09-24T11:26:11.829376Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=106
+2026-09-24T11:26:32.982704Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=107
+2026-09-24T11:26:59.411478Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=108
+2026-09-24T11:27:08.420099Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=109
+2026-09-24T11:27:20.031512Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=110
+2026-09-24T11:27:28.684830Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=111
+2026-09-24T11:27:38.520461Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=112
+2026-09-24T11:28:00.508229Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=113
+2026-09-24T11:28:26.025618Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=114
+2026-09-24T11:28:40.272877Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=115
+2026-09-24T11:28:59.162251Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=116
+2026-09-24T11:29:08.306044Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=117
+2026-09-24T11:29:29.069771Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=118
+2026-09-24T11:29:55.189957Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=119
+2026-09-24T11:30:14.965950Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=120
+2026-09-24T11:30:24.070225Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=121
+2026-09-24T11:30:44.615715Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=122
+2026-09-24T11:31:05.789535Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=123
+2026-09-24T11:31:26.489587Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=124
+Ignoring parse error (tolerant parsing mode): Unexpected closing environment: 'array' @(1,709)
+2026-09-24T11:32:05.144189Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=125
+2026-09-24T11:32:25.608151Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=126
+2026-09-24T11:32:47.499421Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=127
+2026-09-24T11:32:58.355712Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=128
+2026-09-24T11:33:07.276272Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=129
+2026-09-24T11:33:25.166151Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=130
+2026-09-24T11:33:53.602885Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=131
+2026-09-24T11:34:16.330361Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=132
+2026-09-24T11:34:38.756421Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=133
+2026-09-24T11:35:00.921781Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=134
+2026-09-24T11:35:09.772151Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=135
+2026-09-24T11:35:18.619159Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=136
+2026-09-24T11:35:28.613957Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=137
+2026-09-24T11:35:50.367301Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=138
+2026-09-24T11:36:14.407877Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=139
+2026-09-24T11:36:36.043329Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=140
+2026-09-24T11:36:51.020062Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=141
+2026-09-24T11:37:05.400642Z [info     ] regions_page                   doc_id='КТ-160G-14G (Книга I)_compressed' page=142
+2026-09-24T11:37:21.760941Z [info     ] regions_done                   out='data\\ir\\night_run_v2_20260924_125552\\phase2\\kt160g_book1\\КТ-160G-14G (Книга I)_compressed_regions.json'
+
+=== КТ-160G-14G (Книга I)_compressed === -> data\ir\night_run_v2_20260924_125552\phase2\kt160g_book1\КТ-160G-14G (Книга I)_compressed_regions.json
+  p001 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p002 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p003 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p004 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\mathrm { K T } \\ \\ 1 6 0 \\mathrm { G } / 1 4 \\mathrm { G '
+  p005 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p006 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p007 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p008 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p009 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p010 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p011 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p012 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p013 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p014 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p015 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p016 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p017 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p018 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p019 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p020 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p021 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p022 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p023 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p024 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p025 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p026 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p027 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p028 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p029 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\pi \\mathrm { H H e } \\ 4 . 1 . \\ 3 \\mathrm { T a } } \\\\ {'
+  p030 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p031 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p032 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p033 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p034 det=3 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0034_figure_00.png'
+       [formula] formula_01 '\\sqrt { \\frac { \\varphi } { 1 } }'
+       [formula] formula_02 '\\sqrt { \\frac { \\varphi } { \\phi } }'
+  p035 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| Высота |  | Абсолютное давление |  | | --- | --- | --- | --- | |  | $кΠа$ | Má'
+  p036 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\left[ { \\begin{array} { r } { { \\frac { \\tilde { x } } { x } } } \\\\ { { \\frac {'
+  p037 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p038 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p039 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p040 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p041 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p042 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p043 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p044 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p045 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p046 det=1 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\mathrm { H J I H \\ B H y T p H \\ B C : } } \\\\ & { \\ma'
+  p047 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p048 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p049 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p050 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p051 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p052 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p053 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p054 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p055 det=2 formula=2(ok=0, sem=1, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { { \\bf \\Theta _ { \\mathrm { { T } } \\mathrm { { e y c h } \\'
+       [formula] formula_01 '\\begin{array} { l } { \\mathrm { \\Lambda \\cup u O u U H s H B a T B b ~ \\mathrm {'
+  p056 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { { \\mathrm { \\Delta \\ C T a O H T H H M 3 H D O B a T b } \\'
+       [formula] formula_01 '\\dot { \\textbf { \\textsf { e } } } ( 5 5 \\pm 2 ) ^ { \\circ } \\mathbf { C } \\text'
+  p057 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { \\lefteqn { \\frac { 5 0 ^ { \\circ } \\mathrm { C } } { 2 9'
+       [formula] formula_01 '\\begin{array} { l r } { \\! \\Pi ^ { \\mathrm { e p } \\mu _ { 0 } } \\pi \\circ \\math'
+  p058 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { \\lefteqn { \\frac { 6 5 ^ { \\circ } \\mathrm { C } } { 2 9'
+       [formula] formula_01 '\\begin{array} { l } { { \\mathrm { I I e p H o } \\, \\mathrm { { \\bf { \\cal R } } '
+  p059 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\geq \\! 9 5 { \\pm } 4 \\%'
+       [formula] formula_01 '\\begin{array} { l } { { \\mathrm { T e p } { \\boldsymbol { \\kappa } } \\mathrm { o'
+  p060 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p061 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p062 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p063 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p064 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  | (5) |  | Направление нагрузки |  | (направление по осям ВС) |  | | --- | --'
+  p065 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p066 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'T _ { 1 } = 3 D _ { 1 } O r T 2 = 6 D'
+  p067 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { \\mathbf { \\mathrm { y _ { c k o p e n n e \\; ( G ) } } }'
+  p068 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p069 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p070 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p071 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p072 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p073 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p074 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p075 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\mathrm { \\Delta \\ u n p u R a \\ n o n o c r { \\ o n }'
+       [formula] formula_01 '\\mathop { \\mathrm { R = -- } } _ { \\begin{array} { c } { { \\mathrm { 4 \\tau r } '
+  p076 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p077 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p078 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p079 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p080 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p081 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p082 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l r l r l r l } & { { \\mathrm { H e r r r r a n n e ~ l : ~ '
+  p083 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0083_figure_00.png'
+  p084 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  |  |  | оборудова- |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | '
+  p085 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| тательных час- |  |  | Уровни испытаний на синусоидальную вибрацию An (g-PK) 2'
+       [table] table_01 '| тательных час- |  | | --- | --- | | ToT, (1)) G | H I | | 3 <fn< 10 0,05 x fn '
+  p086 det=3 formula=1(ok=0, sem=1, caption=0) table=1(ok=1) figure=1
+       [formula] formula_00 '\\frac { \\left[ \\begin{array} { l l } { \\mathrm { K p } \\mathtt { M B a r } } & {'
+       [figure] figure_01 'data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0086_figure_01.png'
+       [table] table_02 '|  | 10 28 | 31 40 | Испытательные уровни для характерных частот в точках измене'
+  p087 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '2 A = 0 . 2 6 \\cdot \\min'
+       [formula] formula_01 '2 { \\mathrm { A } } { = } 1 \\, { \\mathrm { n m } } \\,'
+       [formula] formula_02 '2 A = 2 . 6 \\pi'
+  p088 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p089 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = } \\\\ '
+  p090 det=2 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=1
+       [figure] figure_00 'data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0090_figure_00.png'
+       [table] table_01 '|  | 10 |  |  | Испытательные уровни для характерных частот в точках изменения ч'
+  p091 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdots'
+  p092 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p093 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| ИСПЫТАНИЕ | ИСПЫТАТЕЛЬНАЯ | Wo | GRMS | | --- | --- | --- | --- | |  | КРИВАЯ '
+  p094 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p095 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p096 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p097 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathrm { ( M e r p H e c K a \\" { \\bf G } ) } \\in \\mathrm { \\" { \\boldmath ~ \\G'
+       [formula] formula_01 '\\mathrm { ( a r r \\" { n } \\check { n } c x \\" { n } e \\ n e p b r I ) } = 1 5 0'
+  p098 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p099 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p100 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p101 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p102 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\rho } { \\textrm { s } } = \\rho _ { E } ^ { j }'
+  p103 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0103_figure_00.png'
+  p104 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0104_figure_00.png'
+  p105 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p106 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p107 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| тепловой |  | стабилизации (минимум 3 часа). В |  | течение того же времени в '
+  p108 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p109 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p110 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p111 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p112 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p113 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p114 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p115 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p116 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p117 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p118 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\mathbf { M O X e T \\; \\; B O 3 } \\underline { { { H } }'
+  p119 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p120 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p121 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p122 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p123 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p124 det=2 formula=2(ok=0, sem=1, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\mathrm { { I I p O M B I T B I \\bar { H } ~ \\; o c a '
+       [formula] formula_01 '\\begin{array} { c } { ^ { \\mathrm { ~ m ~ } ~ \\mathbf { c y c u e n s a n } } } '
+  p125 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p126 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p127 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p128 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p129 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p130 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\scriptstyle { \\mathrm { ~ \\forall , e \\in ~ \\cup , \\sigma'
+  p131 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p132 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p133 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p134 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p135 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p136 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p137 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p138 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p139 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p140 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p141 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathtt { R H } \\cong \\mathcal { G } \\mathbb { S } \\% } \\\\'
+  p142 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\mathtt { R A } : \\! s \\, S \\! S ; \\! } } \\\\ { { , \\dots'

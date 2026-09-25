@@ -1,0 +1,280 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T11:37:35.156946Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=1
+python.exe : [INFO] 2026-09-24 14:37:35,434 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+строка:22 знак:9
++         & $PythonMain @cmdArgs 2>&1 | Out-File -FilePath $log -Encodi ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-09-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-09-24 14:37:35,514 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 14:37:35,588 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:35,588 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 14:37:35,662 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:35,662 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_re
+c_mobile.onnx
+[INFO] 2026-09-24 14:37:38,672 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:38,672 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 14:37:38,814 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:38,815 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 14:37:38,925 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:38,926 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_m
+obile.onnx
+[INFO] 2026-09-24 14:37:42,102 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:42,102 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 14:37:42,222 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:42,222 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 14:37:42,330 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 14:37:42,331 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobi
+le.onnx
+2026-09-24T11:37:46.051295Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=2
+2026-09-24T11:37:52.382093Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=3
+2026-09-24T11:38:02.553760Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=4
+[WARNING] 2026-09-24 14:38:04,197 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 14:38:05,828 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 14:38:07,543 [RapidOCR] main.py:132: The text detection result is empty
+2026-09-24T11:38:07.604539Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=5
+2026-09-24T11:38:19.979887Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=6
+2026-09-24T11:38:39.522883Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=7
+2026-09-24T11:38:59.926679Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=8
+2026-09-24T11:39:16.950486Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=9
+2026-09-24T11:39:36.041224Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=10
+2026-09-24T11:39:48.413711Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=11
+2026-09-24T11:40:15.714310Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=12
+2026-09-24T11:40:46.548562Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=13
+2026-09-24T11:41:16.042965Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=14
+2026-09-24T11:41:30.950640Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=15
+2026-09-24T11:41:42.773075Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=16
+2026-09-24T11:42:10.050239Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=17
+2026-09-24T11:42:25.792864Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=18
+2026-09-24T11:42:51.944135Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=19
+2026-09-24T11:43:17.023439Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=20
+2026-09-24T11:43:36.627154Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=21
+2026-09-24T11:44:00.039255Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=22
+2026-09-24T11:44:26.432471Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=23
+2026-09-24T11:44:55.494698Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=24
+2026-09-24T11:45:24.029057Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=25
+2026-09-24T11:45:50.358448Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=26
+2026-09-24T11:46:17.135245Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=27
+2026-09-24T11:46:42.518646Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=28
+2026-09-24T11:47:11.437726Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=29
+2026-09-24T11:47:32.179045Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=30
+2026-09-24T11:47:57.290712Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=31
+2026-09-24T11:48:21.606956Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=32
+2026-09-24T11:48:49.354206Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=33
+2026-09-24T11:49:17.131346Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=34
+2026-09-24T11:49:38.923358Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=35
+2026-09-24T11:50:01.349242Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=36
+2026-09-24T11:50:27.013614Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=37
+2026-09-24T11:50:53.325692Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=38
+2026-09-24T11:51:19.540864Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=39
+2026-09-24T11:51:43.208769Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=40
+2026-09-24T11:52:06.012555Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=41
+2026-09-24T11:52:29.831821Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=42
+2026-09-24T11:52:56.726891Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=43
+2026-09-24T11:53:23.568924Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=44
+2026-09-24T11:53:50.064991Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=45
+2026-09-24T11:54:14.327131Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=46
+2026-09-24T11:54:30.634113Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=47
+2026-09-24T11:54:55.871984Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=48
+2026-09-24T11:55:22.532056Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=49
+2026-09-24T11:55:46.118770Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=50
+2026-09-24T11:56:11.383375Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=51
+2026-09-24T11:56:38.896198Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=52
+2026-09-24T11:57:06.337339Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=53
+2026-09-24T11:57:30.724327Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=54
+2026-09-24T11:57:57.004639Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=55
+2026-09-24T11:58:22.168691Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=56
+2026-09-24T11:58:44.395616Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=57
+2026-09-24T11:59:02.953403Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=58
+2026-09-24T11:59:20.370149Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=59
+2026-09-24T11:59:34.933942Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=60
+2026-09-24T11:59:59.565538Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=61
+2026-09-24T12:00:24.318547Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=62
+2026-09-24T12:00:47.344769Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=63
+2026-09-24T12:00:59.960246Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=64
+2026-09-24T12:01:26.034297Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=65
+2026-09-24T12:01:53.288733Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=66
+2026-09-24T12:02:17.210309Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=67
+2026-09-24T12:02:40.082482Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=68
+2026-09-24T12:03:06.042370Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=69
+2026-09-24T12:03:29.713977Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=70
+2026-09-24T12:03:55.156548Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=71
+2026-09-24T12:04:16.809346Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=72
+2026-09-24T12:04:41.394389Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=73
+2026-09-24T12:05:04.219131Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=74
+2026-09-24T12:05:30.309557Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=75
+2026-09-24T12:05:56.124283Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=76
+2026-09-24T12:06:22.490640Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=77
+2026-09-24T12:06:46.991546Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=78
+2026-09-24T12:07:10.634463Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=79
+2026-09-24T12:07:35.041709Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=80
+2026-09-24T12:07:57.747006Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=81
+2026-09-24T12:08:22.168102Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=82
+2026-09-24T12:08:48.500564Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=83
+2026-09-24T12:09:11.513381Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=84
+2026-09-24T12:09:37.760184Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=85
+2026-09-24T12:09:59.728162Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=86
+2026-09-24T12:10:25.484131Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=87
+2026-09-24T12:10:34.505517Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=88
+2026-09-24T12:10:49.470947Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=89
+Ignoring parse error (tolerant parsing mode): End of input while parsing arguments of macro "frac" @(1,0)
+Open LaTeX blocks:
+            @(1,0)  arguments of macro "frac"
+
+2026-09-24T12:11:12.781067Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=90
+2026-09-24T12:11:28.018797Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=91
+2026-09-24T12:11:41.880567Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=92
+2026-09-24T12:11:56.974748Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=93
+2026-09-24T12:12:12.265250Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=94
+2026-09-24T12:12:27.743814Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=95
+2026-09-24T12:12:41.597480Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=96
+2026-09-24T12:12:55.078212Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=97
+2026-09-24T12:13:07.893782Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=98
+2026-09-24T12:13:19.713851Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=99
+2026-09-24T12:13:34.414492Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=100
+2026-09-24T12:14:00.527600Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=101
+2026-09-24T12:14:28.419508Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=102
+2026-09-24T12:14:53.412709Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=103
+2026-09-24T12:15:25.814645Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=104
+2026-09-24T12:15:53.557830Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=105
+2026-09-24T12:16:21.492020Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=106
+2026-09-24T12:16:50.235110Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=107
+2026-09-24T12:17:19.651332Z [info     ] regions_page                   doc_id='КТ-178С Требования к ПО бортовой аппаратуры' page=108
+2026-09-24T12:17:47.523377Z [info     ] regions_done                   out='data\\ir\\night_run_v2_20260924_125552\\phase2\\kt178c\\КТ-178С Требования к ПО бортовой аппаратуры_regions.json'
+
+=== КТ-178С Требования к ПО бортовой аппаратуры === -> data\ir\night_run_v2_20260924_125552\phase2\kt178c\КТ-178С Требования к ПО бортовой аппаратуры_regions.json
+  p001 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p002 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p003 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p004 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p005 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p006 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p007 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p008 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p009 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p010 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p011 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p012 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p013 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p014 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p015 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p016 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p017 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p018 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p019 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p020 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p021 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p022 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p023 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p024 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p025 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p026 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p027 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p028 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p029 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'v :'
+       [formula] formula_01 '\\cdot \\frac { r - 1 } { r - 1 }'
+  p030 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p031 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p032 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p033 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p034 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p035 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p036 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p037 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p038 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p039 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p040 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p041 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p042 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p043 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p044 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p045 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p046 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p047 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p048 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p049 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p050 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p051 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p052 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p053 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p054 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p055 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p056 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p057 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p058 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p059 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p060 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p061 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p062 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p063 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p064 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p065 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p066 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p067 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p068 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p069 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p070 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p071 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p072 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p073 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p074 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p075 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p076 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p077 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p078 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p079 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p080 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  |  | Критерии |  | | --- | --- | --- | --- | | Уровень ПО |  |  |  | |  | 1 |'
+  p081 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p082 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p083 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p084 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p085 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p086 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p087 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p088 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p089 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\sqrt { n \\times \\vert \\textbf { A } \\vert ^ { \\frac { \\gamma \\vert \\log'
+  p090 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| безопасности системы |  |  | | --- | --- | --- | | 3 Разработана | 5.2.1,a 5.2'
+       [table] table_01 '| требования низкого |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | 5 '
+  p091 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p092 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p093 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p094 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p095 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  |  |  | Mepo- Применимо |  |  |  | Категория | | --- | --- | --- | --- | --- '
+  p096 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p097 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p098 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p099 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { j \\times k \\times 1 } { k \\times 2 }'
+       [formula] formula_01 '\\frac { \\sin } { \\pi }'
+  p100 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p101 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p102 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p103 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p104 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p105 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p106 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p107 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p108 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0

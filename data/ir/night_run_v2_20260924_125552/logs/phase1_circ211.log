@@ -1,0 +1,395 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T10:01:06.364730Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=1
+python.exe : [INFO] 2026-09-24 13:01:06,635 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+строка:22 знак:9
++         & $PythonMain @cmdArgs 2>&1 | Out-File -FilePath $log -Encodi ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-09-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-09-24 13:01:06,715 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:01:06,776 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:06,776 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:01:06,851 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:06,854 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_re
+c_mobile.onnx
+[INFO] 2026-09-24 13:01:10,047 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:10,047 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:01:10,131 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:10,131 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:01:10,243 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:10,253 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_m
+obile.onnx
+[INFO] 2026-09-24 13:01:12,866 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:12,867 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:01:12,965 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:12,965 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:01:13,034 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:01:13,035 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobi
+le.onnx
+2026-09-24T10:01:15.663502Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=2
+2026-09-24T10:01:21.460041Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=3
+2026-09-24T10:01:29.965605Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=4
+2026-09-24T10:01:30.047448Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=5
+2026-09-24T10:01:30.130267Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=6
+2026-09-24T10:01:30.215291Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=7
+2026-09-24T10:01:30.299324Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=8
+2026-09-24T10:01:30.367364Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=9
+2026-09-24T10:01:48.037812Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=10
+2026-09-24T10:01:50.830852Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=11
+2026-09-24T10:01:50.920045Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=12
+2026-09-24T10:01:51.005271Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=13
+2026-09-24T10:01:51.080908Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=14
+2026-09-24T10:01:51.152106Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=15
+2026-09-24T10:01:51.221116Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=16
+2026-09-24T10:01:51.295887Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=17
+2026-09-24T10:01:51.373084Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=18
+2026-09-24T10:01:51.448155Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=19
+2026-09-24T10:02:06.763236Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=20
+2026-09-24T10:02:06.852304Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=21
+2026-09-24T10:02:06.938373Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=22
+2026-09-24T10:02:07.021420Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=23
+2026-09-24T10:02:07.109459Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=24
+2026-09-24T10:02:12.738897Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=25
+2026-09-24T10:02:19.605324Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=26
+2026-09-24T10:02:25.575485Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=27
+2026-09-24T10:02:33.802370Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=28
+2026-09-24T10:02:40.693817Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=29
+2026-09-24T10:02:47.313736Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=30
+2026-09-24T10:02:53.312832Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=31
+2026-09-24T10:03:00.059093Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=32
+2026-09-24T10:03:06.995923Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=33
+2026-09-24T10:03:13.564395Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=34
+2026-09-24T10:03:20.526201Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=35
+2026-09-24T10:03:27.541589Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=36
+2026-09-24T10:03:33.888995Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=37
+2026-09-24T10:03:40.531655Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=38
+2026-09-24T10:03:40.617710Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=39
+2026-09-24T10:03:40.702357Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=40
+2026-09-24T10:03:47.571124Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=41
+2026-09-24T10:04:05.437639Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=42
+2026-09-24T10:04:15.370996Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=43
+2026-09-24T10:04:24.691058Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=44
+2026-09-24T10:04:33.828493Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=45
+2026-09-24T10:04:34.522631Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=46
+2026-09-24T10:04:34.602767Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=47
+2026-09-24T10:04:43.255431Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=48
+2026-09-24T10:04:49.004250Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=49
+2026-09-24T10:05:03.420855Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=50
+2026-09-24T10:05:19.493351Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=51
+2026-09-24T10:05:38.645878Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=52
+2026-09-24T10:05:38.732982Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=53
+2026-09-24T10:05:43.970076Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=54
+2026-09-24T10:05:50.735612Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=55
+2026-09-24T10:05:58.336122Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=56
+2026-09-24T10:06:13.972320Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=57
+2026-09-24T10:06:20.319769Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=58
+2026-09-24T10:06:27.775741Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=59
+2026-09-24T10:06:35.439145Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=60
+2026-09-24T10:06:47.076926Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=61
+2026-09-24T10:07:07.885429Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=62
+2026-09-24T10:07:22.180834Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=63
+2026-09-24T10:07:22.284688Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=64
+2026-09-24T10:07:28.533056Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=65
+2026-09-24T10:07:43.071461Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=66
+2026-09-24T10:07:53.517958Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=67
+2026-09-24T10:08:03.807010Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=68
+2026-09-24T10:08:11.320289Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=69
+2026-09-24T10:08:17.910916Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=70
+2026-09-24T10:08:17.996972Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=71
+2026-09-24T10:08:18.076011Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=72
+2026-09-24T10:08:23.632210Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=73
+2026-09-24T10:08:37.385251Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=74
+2026-09-24T10:08:50.197196Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=75
+2026-09-24T10:09:01.959380Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=76
+2026-09-24T10:09:14.382203Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=77
+2026-09-24T10:09:14.474247Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=78
+2026-09-24T10:09:14.552260Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=79
+2026-09-24T10:09:14.631287Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=80
+2026-09-24T10:09:14.714089Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=81
+2026-09-24T10:09:14.790132Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=82
+2026-09-24T10:09:14.858268Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=83
+2026-09-24T10:09:14.924285Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=84
+2026-09-24T10:09:18.557398Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=85
+2026-09-24T10:10:56.576771Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=86
+2026-09-24T10:11:12.051013Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=87
+2026-09-24T10:11:17.433189Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=88
+2026-09-24T10:11:25.752070Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=89
+2026-09-24T10:11:36.649718Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=90
+2026-09-24T10:11:46.784385Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=91
+2026-09-24T10:11:57.729765Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=92
+2026-09-24T10:12:08.301165Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=93
+2026-09-24T10:12:19.569151Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=94
+2026-09-24T10:12:28.478581Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=95
+2026-09-24T10:12:37.427312Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=96
+2026-09-24T10:12:48.011091Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=97
+2026-09-24T10:13:00.223899Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=98
+2026-09-24T10:13:07.734108Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=99
+2026-09-24T10:13:21.315552Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=100
+2026-09-24T10:13:33.198482Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=101
+2026-09-24T10:13:41.632802Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=102
+2026-09-24T10:13:52.069822Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=103
+2026-09-24T10:14:04.445886Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=104
+2026-09-24T10:14:13.743029Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=105
+2026-09-24T10:15:24.234682Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=106
+2026-09-24T10:15:32.711031Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=107
+2026-09-24T10:15:45.582197Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=108
+2026-09-24T10:15:51.141544Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=109
+2026-09-24T10:16:03.934531Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=110
+2026-09-24T10:16:16.658405Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=111
+2026-09-24T10:16:30.212314Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=112
+2026-09-24T10:16:42.305139Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=113
+2026-09-24T10:16:52.639886Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=114
+2026-09-24T10:16:52.724929Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=115
+2026-09-24T10:16:57.970017Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=116
+2026-09-24T10:17:08.518823Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=117
+2026-09-24T10:17:16.755880Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=118
+2026-09-24T10:17:21.509345Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=119
+2026-09-24T10:17:21.595876Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=120
+2026-09-24T10:17:34.666779Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=121
+2026-09-24T10:17:40.122982Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=122
+2026-09-24T10:17:40.196814Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=123
+2026-09-24T10:17:40.279271Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=124
+2026-09-24T10:17:40.361994Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=125
+2026-09-24T10:17:54.965279Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=126
+2026-09-24T10:17:56.582186Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=127
+2026-09-24T10:18:09.534255Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=128
+2026-09-24T10:18:20.106489Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=129
+2026-09-24T10:18:20.979314Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=130
+2026-09-24T10:18:22.231397Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=131
+2026-09-24T10:18:24.127260Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=132
+2026-09-24T10:18:36.742574Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=133
+2026-09-24T10:18:45.631298Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=134
+2026-09-24T10:18:45.725842Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=135
+2026-09-24T10:18:45.810911Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=136
+2026-09-24T10:18:45.888980Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=137
+2026-09-24T10:18:52.309272Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=138
+2026-09-24T10:18:58.255572Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=139
+2026-09-24T10:18:58.332594Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=140
+2026-09-24T10:18:58.415666Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=141
+2026-09-24T10:18:58.494750Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=142
+2026-09-24T10:18:58.579850Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=143
+2026-09-24T10:18:58.661506Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=144
+2026-09-24T10:18:58.733712Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=145
+2026-09-24T10:19:06.981279Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=146
+2026-09-24T10:19:07.046306Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=147
+2026-09-24T10:19:12.915090Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=148
+2026-09-24T10:19:19.117153Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=149
+2026-09-24T10:19:26.890076Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=150
+2026-09-24T10:19:29.300208Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=151
+2026-09-24T10:19:37.356374Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=152
+2026-09-24T10:19:37.445423Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=153
+2026-09-24T10:19:37.533493Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=154
+2026-09-24T10:19:37.614539Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=155
+2026-09-24T10:19:46.315534Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=156
+2026-09-24T10:19:59.491463Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=157
+2026-09-24T10:20:12.625058Z [info     ] regions_page                   doc_id='Циркуляр 21.1_2006г' page=158
+2026-09-24T10:20:14.472041Z [info     ] regions_done                   out='data\\ir\\night_run_v2_20260924_125552\\phase1\\circ211\\Циркуляр 21.1_2006г_regions.json'
+
+=== Циркуляр 21.1_2006г === -> data\ir\night_run_v2_20260924_125552\phase1\circ211\Циркуляр 21.1_2006г_regions.json
+  p001 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p002 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p003 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p004 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p005 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p006 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p007 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p008 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p009 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\overline { { 1 . 0 . = 7 3 6 \\ \\mathsf { B } } } .'
+       [formula] formula_01 '\\frac { - 1 } { - 6 0 0 6 }'
+  p010 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\boxed { C } = \\boxed { \\Gamma ( \\mathsf { K } ) }'
+       [formula] formula_01 '\\cdot \\mathsf { M } = 9 , \\! 8 \\; \\mathsf { H }'
+  p011 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p012 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p013 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p014 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p015 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p016 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p017 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p018 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p019 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p020 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p021 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p022 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p023 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p024 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p025 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p026 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p027 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p028 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p029 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p030 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p031 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p032 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p033 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p034 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p035 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p036 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p037 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p038 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p039 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p040 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p041 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p042 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p043 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p044 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p045 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { H a N o } ='
+  p046 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p047 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p048 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p049 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p050 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p051 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { - } & { \\frac { - } { 6 } } \\\\ { \\widehat { \\Xi } } & { '
+  p052 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p053 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p054 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p055 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p056 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\overline { + n } \\overline { } \\overline { { + n } }'
+  p057 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p058 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p059 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p060 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p061 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| Наименование изделия | Сертификат типа | Количество экземпляров, | | --- | ---'
+  p062 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p063 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p064 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p065 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p066 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p067 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p068 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p069 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p070 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p071 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p072 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p073 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- ^ { 2 0 } \\_ { \\qquad } ^ { \\mathrm { ~ r . ~ } }'
+  p074 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p075 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p076 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p077 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p078 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p079 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p080 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p081 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p082 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p083 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p084 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { 1 \\ \\mathrm { O O p a 3 e l \\ A ! \\ \\Sigma } ^ { n \\ n \\ n'
+  p085 det=4 formula=4(ok=4, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt { \\phantom { \\frac { b } { \\phantom { \\frac { 1 } { \\mu _ { 1 } } } } \\pha'
+       [formula] formula_01 '\\langle \\mathsf { T } \\underbrace { \\overbrace { \\phantom { \\sum _ { k = 1 } ^ {'
+       [formula] formula_02 'R \\underbrace { \\phantom { \\left( i \\coth w \\right) } \\left( \\mathcal { W } ^ { '
+       [formula] formula_03 '\\begin{array} { r l } & { \\mid \\boldsymbol { V } ( \\mid \\boldsymbol { \\mathsf { '
+  p086 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathrm { ~ \\mathsf { ~ N o ~ } ~ } \\mathsf { \\Pi } _ { \\Pi } \\mathsf { N o } \\m'
+  p087 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p088 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p089 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p090 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p091 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p092 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p093 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p094 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p095 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p096 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 2 \\mathbf { 0 } } { \\mathbf { \\cdot } \\mathbf { a } ) } -'
+       [formula] formula_01 '\\frac { 2 0 } { ( 3 ) }'
+  p097 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p098 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p099 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p100 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p101 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p102 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- ^ { 2 0 } \\substack { - \\! \\! \\! \\longrightarrow \\! \\Gamma \\! } .'
+  p103 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p104 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p105 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\stackrel { \\scriptscriptstyle { \\mathrm { R e o } } \\! } { \\longrightarrow } \\!'
+       [formula] formula_01 '\\begin{array} { r } { \\underline { { \\mathbf { \\Pi } } } ^ { n \\mathrm { c b } ,'
+  p106 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p107 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p108 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p109 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p110 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p111 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p112 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p113 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p114 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p115 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p116 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\alpha \\sideset { } { _ { \\rightarrow } } \\gg - \\frac { ( b ) } { \\Delta } \\side'
+  p117 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p118 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p119 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p120 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p121 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p122 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p123 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p124 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p125 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p126 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathsf { \\Sigma } _ { 1 \\mathsf { a } _ { - } \\mathsf { \\Sigma } } ^ { \\mathsf '
+  p127 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p128 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p129 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 9 \\bot 9 \\bot 1 9 0 \\bot 1 9 . 1 0 1'
+  p130 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\Sigma } _ { 1 0 } ^ { \\mathsf { e v p m u n \\; \\mathbf { D } } , \\; \\'
+  p131 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { \\Psi } _ { 1 8 } ^ { 1 1 6 } \\xrightarrow { \\mat'
+  p132 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p133 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p134 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p135 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p136 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p137 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p138 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p139 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p140 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p141 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p142 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p143 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p144 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p145 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p146 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p147 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p148 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p149 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p150 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r } { \\textsf { e N o 5 k } \\bar { \\mathsf { A } } \\Pi \\textsf'
+  p151 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p152 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p153 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p154 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p155 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p156 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p157 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 ') : N o _ { } C \\Gamma _ { } K W _ { } x x - x x - P t'
+       [formula] formula_01 '\\mid { \\frac { \\mathsf { N o } \\, \\mathsf { C C B } { \\cdot } \\mathsf { B C T x '
+  p158 det=3 formula=3(ok=2, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 ') : N o \\ O n K W \\times x - x x - P b'
+       [formula] formula_01 '\\because N o P - A \\Pi x x - x x'
+       [formula] formula_02 '\\because N o \\sqcup \\limits _ { \\cdot } A P e , H O N'

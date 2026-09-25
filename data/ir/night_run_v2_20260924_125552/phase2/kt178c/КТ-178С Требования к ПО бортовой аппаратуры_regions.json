@@ -1,0 +1,2328 @@
+{
+  "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\КТ-178С Требования к ПО бортовой аппаратуры.pdf",
+  "page_count": 108,
+  "pages": [
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.725,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 194.35999999999999,
+            "y1": 172.04,
+            "x2": 280.84,
+            "y2": 193.0
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.725,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 230.72,
+            "y1": 195.44,
+            "x2": 270.03999999999996,
+            "y2": 239.44
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 29,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 194.35999999999999,
+            "y1": 172.04,
+            "x2": 280.84,
+            "y2": 193.0
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=T-F-K-M _",
+              "pylatexenc_ok",
+              "preview_wh=265x83",
+              "semantic_reason=no_math_markers"
+            ]
+          },
+          "content": {
+            "latex_raw": "v :",
+            "latex": "v :",
+            "text_fallback": "v :",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 29,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 230.72,
+            "y1": 195.44,
+            "x2": 270.03999999999996,
+            "y2": 239.44
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=-1 T-K-",
+              "pylatexenc_ok",
+              "preview_wh=134x147"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\cdot \\frac { r - 1 } { r - 1 }",
+            "latex": "\\cdot \\frac { r - 1 } { r - 1 }",
+            "text_fallback": "r - 1 r - 1",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 51,
+      "summary": {
+        "page": 51,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 52,
+      "summary": {
+        "page": 52,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 53,
+      "summary": {
+        "page": 53,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 54,
+      "summary": {
+        "page": 54,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 56,
+      "summary": {
+        "page": 56,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 57,
+      "summary": {
+        "page": 57,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 58,
+      "summary": {
+        "page": 58,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 59,
+      "summary": {
+        "page": 59,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 60,
+      "summary": {
+        "page": 60,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 61,
+      "summary": {
+        "page": 61,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 62,
+      "summary": {
+        "page": 62,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 63,
+      "summary": {
+        "page": 63,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 64,
+      "summary": {
+        "page": 64,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 65,
+      "summary": {
+        "page": 65,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 66,
+      "summary": {
+        "page": 66,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 67,
+      "summary": {
+        "page": 67,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 68,
+      "summary": {
+        "page": 68,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 69,
+      "summary": {
+        "page": 69,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 70,
+      "summary": {
+        "page": 70,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 71,
+      "summary": {
+        "page": 71,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 72,
+      "summary": {
+        "page": 72,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 73,
+      "summary": {
+        "page": 73,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 74,
+      "summary": {
+        "page": 74,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 75,
+      "summary": {
+        "page": 75,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 76,
+      "summary": {
+        "page": 76,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 77,
+      "summary": {
+        "page": 77,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 78,
+      "summary": {
+        "page": 78,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 79,
+      "summary": {
+        "page": 79,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 80,
+      "summary": {
+        "page": 80,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 90.11999999999999,
+            "y1": 296.76,
+            "x2": 402.0,
+            "y2": 417.47999999999996
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 80,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 90.11999999999999,
+            "y1": 296.76,
+            "x2": 402.0,
+            "y2": 417.47999999999996
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.875,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=4",
+              "numeric_ratio=0.74",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.875",
+              "rows=7 cols=4 consistency=1.00 meaningful=0.75",
+              "span_cols=4",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "|  |  | Критерии |  |\n| --- | --- | --- | --- |\n| Уровень ПО |  |  |  |\n|  | 1 | 2 | 3 |\n| A | $TQL-1$ | $TQL-4$ | $TQL-5$ |\n| B | $TQL-2$ | $TQL-4$ | $TQL-5$ |\n| с | $TQL-3$ | $TQL-5$ | $TQL-5$ |\n| D | $TQL-4$ | $TQL-5$ | $TQL-5$ |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.875,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 81,
+      "summary": {
+        "page": 81,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 82,
+      "summary": {
+        "page": 82,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 83,
+      "summary": {
+        "page": 83,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 84,
+      "summary": {
+        "page": 84,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 85,
+      "summary": {
+        "page": 85,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 86,
+      "summary": {
+        "page": 86,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 87,
+      "summary": {
+        "page": 87,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 88,
+      "summary": {
+        "page": 88,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 89,
+      "summary": {
+        "page": 89,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 404.24,
+            "y1": 143.96,
+            "x2": 503.68,
+            "y2": 181.12
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 89,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 404.24,
+            "y1": 143.96,
+            "x2": 503.68,
+            "y2": 181.12
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=B A D 11.1 ① ① ①",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=301x128",
+              "semantic_reason=truncated"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { \\sqrt { n \\times \\vert \\textbf { A } \\vert ^ { \\frac { \\gamma \\vert \\log \\vert \\textbf { A } \\vert \\cdot \\mathbf { C } \\vert } { \\left( \\begin{array} { l } { \\mathbf { D } } \\end{array} \\right) } } } { \\left\\vert \\begin{array} { l } { \\! \\! \\left( \\! \\left( \\hat { \\mathbf { \\Omega } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) } \\end{array} \\right\\vert }",
+            "latex": "\\frac { \\sqrt { n \\times \\vert \\textbf { A } \\vert ^ { \\frac { \\gamma \\vert \\log \\vert \\textbf { A } \\vert \\cdot \\mathbf { C } \\vert } { \\left( \\begin{array} { l } { \\mathbf { D } } \\end{array} \\right) } } } { \\left\\vert \\begin{array} { l } { \\! \\! \\left( \\! \\left( \\hat { \\mathbf { \\Omega } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) \\! \\! \\left( \\hat { \\mathbf { D } } \\right) } \\end{array} \\right\\vert } }",
+            "text_fallback": "n A ** A C ( l D ) l \\! \\! ( \\! ( ) \\! \\! ( D ) \\! \\! ( D ) \\! \\! ( D ) \\! \\! ( D )",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 90,
+      "summary": {
+        "page": 90,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 2,
+        "n_figures": 0,
+        "table_ok": 2,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 57.0,
+            "y1": 320.88,
+            "x2": 502.44,
+            "y2": 448.8
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 55.919999999999995,
+            "y1": 473.52,
+            "x2": 503.88,
+            "y2": 664.4399999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 90,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 57.0,
+            "y1": 320.88,
+            "x2": 502.44,
+            "y2": 448.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8181818181818182,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=6",
+              "numeric_ratio=0.48",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.818",
+              "rows=11 cols=3 consistency=1.00 meaningful=0.64",
+              "span_cols=3",
+              "span_rows=11"
+            ]
+          },
+          "content": {
+            "markdown": "| безопасности системы |  |  |\n| --- | --- | --- |\n| 3 Разработана | 5.2.1,a 5.2.2,a | Описание 11.10 ① ① ② |\n| архитектура ПО | 5.2.2,d | проекта ПО |\n|  | 5.2.2,a 5.2.2.e |  |\n|  | 5.2.2,f | Описание 11.10 ① |\n|  | 5.2.2,g | проекта ПО |\n| 4 Разработаны | 5.2.1,a 5.2.3,a |  |\n| уровня требования низкого | 5.2.3,b |  |\n|  | 5.2.4,b 5.2.4,a | Данные |\n|  | 5.2.4.c | трассировки 11.21 ① ① ① |\n|  | 5.5,b |  |",
+            "html": "",
+            "n_rows": 11,
+            "n_cols": 3,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8181818181818182,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 90,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 55.919999999999995,
+            "y1": 473.52,
+            "x2": 503.88,
+            "y2": 664.4399999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7738095238095238,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=10",
+              "cols=5",
+              "numeric_ratio=0.43",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.774",
+              "rows=14 cols=6 consistency=1.00 meaningful=0.55",
+              "span_cols=6",
+              "span_rows=14"
+            ]
+          },
+          "content": {
+            "markdown": "| требования низкого |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| 5 переданы в процессы уровня определены и | 5.2.1,b 5.2.2,b | Описание | 11.10 | ① | ① |\n| системы, включая | 5.2.2,c | проекта ПО |  |  |  |\n| процесс оценки безопасности системы |  |  |  |  |  |\n|  | 5.3.2,a 5.3.2,b | Исходный код | 11.11 |  | ① |\n| 6 Разработан | 5.3.1,a 5.3.2,c |  |  |  |  |\n| Исходный код | 5.3.2,d | Данные | 11.21 | ① | ① |\n|  | 5.5,c | трассировки |  |  |  |\n| Исполняемый | 5.4.2,a | Исполняемый |  |  |  |\n| объектный код и Файлы компонентов | 5.4.2,b | объектный код | 11.12 | ① |  |\n| параметрических | 5.4.1,a 5.4.2,c 5.4.2,d |  |  |  |  |\n| данных (если есть) | 5.4.2,e | Файл компонента | 11.22 | ① ① | ① ① |\n| созданы и загружены | 5.4.2,f | параметрических |  |  |  |\n| в целевой вычислитель |  | данных |  |  |  |",
+            "html": "",
+            "n_rows": 14,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7738095238095238,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 91,
+      "summary": {
+        "page": 91,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 92,
+      "summary": {
+        "page": 92,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 93,
+      "summary": {
+        "page": 93,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 94,
+      "summary": {
+        "page": 94,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 95,
+      "summary": {
+        "page": 95,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 57.36,
+            "y1": 106.67999999999999,
+            "x2": 504.96,
+            "y2": 516.8399999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 95,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 57.36,
+            "y1": 106.67999999999999,
+            "x2": 504.96,
+            "y2": 516.8399999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7583732057416268,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=17",
+              "cols=9",
+              "numeric_ratio=0.34",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.758",
+              "rows=26 cols=8 consistency=1.00 meaningful=0.52",
+              "span_cols=8",
+              "span_rows=26"
+            ]
+          },
+          "content": {
+            "markdown": "|  |  |  | Mepo- Применимо |  |  |  | Категория |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Цель |  | приятие к уровню ПО | Выходные данные |  |  | контроля для уровня ПО |\n| No | Описание цели | Пункт | Пункт A B | с D Наименование | Пункт | A B | с D |\n|  | Тестовые процедуры | 6.4.5,b | 6.4.5 | верификации ПО Результать | 11.14 | ② ② | ② |\n|  | правильны |  |  |  |  |  |  |\n| 2 | Результаты тестов | 6.4.5,c | 6.4.5 | Результаты | 11.14 | ② ② | ② |\n|  | правильны, расхождения объяснены; |  |  | верификации ПО |  |  |  |\n| 3 | тестами требований Достигнуто покрытие | 6.4.4,a | 6.4.4.1 | Результаты | 11.14 | ② ② | ② ② |\n|  | высокого уровня |  |  | верификации ПО |  |  |  |\n| 4 | Достигнуто покрытие тестами требований | 6.4.4,b | 6.4.4.1 | Результаты | 11.14 | ② ② | ② |\n|  | низкого уровня |  |  | верификации ПО |  |  |  |\n|  | Достигнуто покрытие |  | 6.4.4.2,a |  |  |  |  |\n| 5 | тестами структуры ПО - | 6.4.4,c | 6.4.4.2,b 6.4.4.2,d | Результать | 11.14 | ② |  |\n| $MC/DC$ |  |  | 6.4.4.3 | верификации ПО |  |  |  |\n|  | Достигнуто покрытие |  | 6.4.4.2,a 6.4.4.2,b |  |  |  |  |\n| 6 | тестами структуры По -6.4.4,с |  | 6.4.4.2,d | верификации ПО Результаты | 11.14 | ② ② |  |\n|  | покрытие решений |  | 6.4.4.3 |  |  |  |  |\n|  | Достигнуто покрытие |  | 6.4.4.2,a 6.4.4.2,b | Результаты |  |  |  |\n|  | тестами структуры ПО – | 6.4.4,c | 6.4.4.2,d | верификации ПО | 11.14 | ② ② | ② |\n|  | локрытие операторов |  | 6.4.4.3 |  |  |  |  |\n|  | тестами структуры ПО - Достигнуто покрытие |  | 6.4.4.2,c | Результаты |  |  |  |\n| 8 | связность по | 6.4.4,d | 6.4.4.2,d | верификации ПО | 11.14 | ② ② | ② |\n|  | управлению и данным |  | 6.4.4.3 |  |  |  |  |\n|  | верификация Проведена |  |  |  |  |  |  |\n| 9 | дополнительного кода, | 6.4.4,c\\| 6.4.4.2.b |  | верификации ПО Результаты | 11.14 | ② |  |\n|  | на исходный код не трассируемого |  |  |  |  |  |  |",
+            "html": "",
+            "n_rows": 26,
+            "n_cols": 8,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7583732057416268,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 96,
+      "summary": {
+        "page": 96,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 97,
+      "summary": {
+        "page": 97,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 98,
+      "summary": {
+        "page": 98,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 99,
+      "summary": {
+        "page": 99,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 429.8,
+            "y1": 179.95999999999998,
+            "x2": 461.2,
+            "y2": 224.67999999999998
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 57.559999999999995,
+            "y1": 581.36,
+            "x2": 91.47999999999999,
+            "y2": 622.48
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 99,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 429.8,
+            "y1": 179.95999999999998,
+            "x2": 461.2,
+            "y2": 224.67999999999998
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=KK1 KK2",
+              "pylatexenc_ok",
+              "preview_wh=112x149"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { j \\times k \\times 1 } { k \\times 2 }",
+            "latex": "\\frac { j \\times k \\times 1 } { k \\times 2 }",
+            "text_fallback": "j k 1 k 2",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+          "page": 99,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 57.559999999999995,
+            "y1": 581.36,
+            "x2": 91.47999999999999,
+            "y2": 622.48
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=SW TQL",
+              "pylatexenc_ok",
+              "preview_wh=119x139"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { \\sin } { \\pi }",
+            "latex": "\\frac { \\sin } { \\pi }",
+            "text_fallback": "",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 101,
+      "summary": {
+        "page": 101,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 102,
+      "summary": {
+        "page": 102,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 103,
+      "summary": {
+        "page": 103,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 104,
+      "summary": {
+        "page": 104,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 105,
+      "summary": {
+        "page": 105,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 106,
+      "summary": {
+        "page": 106,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 107,
+      "summary": {
+        "page": 107,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-178С Требования к ПО бортовой аппаратуры",
+      "page": 108,
+      "summary": {
+        "page": 108,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

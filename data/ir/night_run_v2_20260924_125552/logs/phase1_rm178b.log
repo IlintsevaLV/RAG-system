@@ -1,0 +1,129 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T09:56:02.708267Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=1
+2026-09-24T09:56:02.846375Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=2
+2026-09-24T09:56:02.961233Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=3
+2026-09-24T09:56:03.074318Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=4
+python.exe : [INFO] 2026-09-24 12:56:03,563 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+строка:22 знак:9
++         & $PythonMain @cmdArgs 2>&1 | Out-File -FilePath $log -Encodi ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-09-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-09-24 12:56:03,694 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 12:56:03,930 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:03,930 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 12:56:04,099 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:04,099 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_re
+c_mobile.onnx
+[INFO] 2026-09-24 12:56:13,448 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:13,448 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 12:56:13,918 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:13,924 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 12:56:14,544 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:14,545 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_m
+obile.onnx
+[INFO] 2026-09-24 12:56:28,919 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:28,923 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 12:56:29,360 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:29,361 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 12:56:30,012 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 12:56:30,012 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobi
+le.onnx
+2026-09-24T09:56:40.333244Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=5
+2026-09-24T09:56:54.098175Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=6
+2026-09-24T09:57:08.250583Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=7
+2026-09-24T09:57:19.927315Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=8
+2026-09-24T09:57:28.564779Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=9
+2026-09-24T09:57:28.650323Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=10
+2026-09-24T09:57:28.731396Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=11
+2026-09-24T09:57:45.242569Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=12
+2026-09-24T09:57:45.320620Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=13
+2026-09-24T09:57:45.399699Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=14
+2026-09-24T09:57:45.478731Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=15
+2026-09-24T09:57:45.548413Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=16
+2026-09-24T09:57:45.613664Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=17
+2026-09-24T09:57:45.679670Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=18
+2026-09-24T09:58:01.424811Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=19
+2026-09-24T09:58:14.202611Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=20
+2026-09-24T09:58:14.279717Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=21
+2026-09-24T09:58:14.358893Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=22
+2026-09-24T09:58:27.527802Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=23
+2026-09-24T09:58:42.245943Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=24
+2026-09-24T09:58:47.685923Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=25
+2026-09-24T09:59:05.531076Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=26
+2026-09-24T09:59:05.614794Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=27
+2026-09-24T09:59:05.695912Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=28
+2026-09-24T09:59:05.769958Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=29
+2026-09-24T09:59:33.370334Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=30
+2026-09-24T09:59:46.166080Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=31
+2026-09-24T09:59:46.251138Z [info     ] regions_page                   doc_id='РМ-178B оценка соответствия ПО бортовой аппаратуры' page=32
+2026-09-24T09:59:51.007698Z [info     ] regions_done                   out='data\\ir\\night_run_v2_20260924_125552\\phase1\\rm178b\\РМ-178B оценка соответствия ПО бортовой аппаратуры_regions.json'
+
+=== РМ-178B оценка соответствия ПО бортовой аппаратуры === -> data\ir\night_run_v2_20260924_125552\phase1\rm178b\РМ-178B оценка соответствия ПО бортовой аппаратуры_regions.json
+  p001 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p002 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p003 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p004 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p005 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p006 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p007 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p008 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p009 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p010 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p011 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\left| \\frac { \\mathsf { N o } } { \\mathsf { n / n } } \\right|'
+  p012 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p013 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p014 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p015 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p016 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p017 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p018 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { \\frac { n / n } { 1 + n ^ { 2 } } }'
+  p019 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { \\frac { n / n } { 1 + n c } }'
+  p020 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p021 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p022 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { \\frac { n / n } { 2 0 } }'
+  p023 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { \\frac { n / n } { 2 0 0 0 } }'
+  p024 det=3 formula=3(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 6 . 3 . 2 b } { A - 4 \\times 1 0 ^ { 2 } }'
+       [formula] formula_01 '\\frac { 6 . 3 . 2 c } { A - 4 \\times 1 0 3 }'
+       [formula] formula_02 '\\begin{array} { c } { { \\sim \\cdots \\rightarrow \\rightarrow } } \\\\ { { 6 . 3 . 2'
+  p025 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { \\frac { n / n } { n _ { A } s \\cdot } }'
+       [formula] formula_01 '\\frac { \\left| \\mathsf { I y t r } _ { } \\right| \\mathsf { O u e n t s a } } { \\'
+  p026 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p027 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p028 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p029 det=4 formula=4(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { \\frac { n / n } { n \\Delta + 1 } }'
+       [formula] formula_01 '\\left| \\begin{array} { l } { 6 . 4 . 4 . 2 8 } \\\\ { 6 . 4 . 4 . 2 6 } \\\\ { \\math'
+       [formula] formula_02 '\\left| \\begin{array} { l } { 6 . 4 . 4 . 2 8 } \\\\ { 6 . 4 . 4 . 2 6 } \\\\ { \\math'
+       [formula] formula_03 '\\left| \\begin{array} { c } { \\sim \\cdots \\ W = \\prime } \\\\ { \\ \\ 6 . 4 . 4 . 2 c'
+  p030 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { N o } { \\frac { n / n } { \\lambda \\rho } }'
+  p031 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p032 det=2 formula=2(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\sim \\cdots } \\\\ { 9 . 2 \\exists } \\\\ { 9 . 2 \\ltimes \\rul'
+       [formula] formula_01 '\\begin{array} { c } { 9 . 2 6 } \\\\ { 9 . 2 \\mathrm { c } } \\end{array}'

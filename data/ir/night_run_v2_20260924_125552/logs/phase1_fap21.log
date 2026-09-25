@@ -1,0 +1,223 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T10:00:00.170537Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=1
+2026-09-24T10:00:02.175773Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=2
+python.exe : [INFO] 2026-09-24 13:00:02,499 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+строка:22 знак:9
++         & $PythonMain @cmdArgs 2>&1 | Out-File -FilePath $log -Encodi ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-09-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-09-24 13:00:02,578 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:00:02,640 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:02,641 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:00:02,704 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:02,705 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_re
+c_mobile.onnx
+[INFO] 2026-09-24 13:00:05,671 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:05,671 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:00:05,793 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:05,793 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:00:05,949 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:05,949 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_m
+obile.onnx
+[INFO] 2026-09-24 13:00:09,856 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:09,856 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:00:09,941 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:09,941 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:00:10,042 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:00:10,042 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobi
+le.onnx
+2026-09-24T10:00:13.212468Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=3
+2026-09-24T10:00:13.330523Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=4
+2026-09-24T10:00:13.424575Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=5
+2026-09-24T10:00:13.530638Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=6
+2026-09-24T10:00:13.603177Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=7
+2026-09-24T10:00:13.694317Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=8
+2026-09-24T10:00:13.757239Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=9
+2026-09-24T10:00:13.841348Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=10
+2026-09-24T10:00:13.926385Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=11
+2026-09-24T10:00:14.011554Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=12
+2026-09-24T10:00:14.098572Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=13
+2026-09-24T10:00:14.181669Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=14
+2026-09-24T10:00:14.266584Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=15
+2026-09-24T10:00:14.351621Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=16
+2026-09-24T10:00:14.437326Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=17
+2026-09-24T10:00:14.524528Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=18
+2026-09-24T10:00:14.607531Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=19
+2026-09-24T10:00:14.675670Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=20
+2026-09-24T10:00:14.763436Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=21
+2026-09-24T10:00:14.827582Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=22
+2026-09-24T10:00:14.915635Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=23
+2026-09-24T10:00:14.999376Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=24
+2026-09-24T10:00:15.083548Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=25
+2026-09-24T10:00:15.173718Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=26
+2026-09-24T10:00:15.259662Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=27
+2026-09-24T10:00:15.336762Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=28
+2026-09-24T10:00:15.420666Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=29
+2026-09-24T10:00:15.495396Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=30
+2026-09-24T10:00:15.579924Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=31
+2026-09-24T10:00:15.638635Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=32
+2026-09-24T10:00:15.720569Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=33
+2026-09-24T10:00:15.810726Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=34
+2026-09-24T10:00:15.896933Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=35
+2026-09-24T10:00:15.986182Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=36
+2026-09-24T10:00:16.070716Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=37
+2026-09-24T10:00:16.156741Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=38
+2026-09-24T10:00:16.243506Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=39
+2026-09-24T10:00:16.328628Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=40
+2026-09-24T10:00:16.413685Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=41
+2026-09-24T10:00:16.499520Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=42
+2026-09-24T10:00:16.583057Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=43
+2026-09-24T10:00:16.670966Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=44
+2026-09-24T10:00:16.731689Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=45
+2026-09-24T10:00:16.817723Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=46
+2026-09-24T10:00:16.902674Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=47
+2026-09-24T10:00:16.987991Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=48
+2026-09-24T10:00:17.075610Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=49
+2026-09-24T10:00:17.158838Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=50
+2026-09-24T10:00:17.241641Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=51
+2026-09-24T10:00:17.325888Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=52
+2026-09-24T10:00:17.413824Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=53
+2026-09-24T10:00:17.496090Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=54
+2026-09-24T10:00:17.579592Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=55
+2026-09-24T10:00:17.659596Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=56
+2026-09-24T10:00:17.744639Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=57
+2026-09-24T10:00:17.801908Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=58
+2026-09-24T10:00:17.887331Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=59
+2026-09-24T10:00:17.946858Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=60
+2026-09-24T10:00:18.036684Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=61
+2026-09-24T10:00:18.122583Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=62
+2026-09-24T10:00:18.206616Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=63
+2026-09-24T10:00:18.291957Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=64
+2026-09-24T10:00:18.377964Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=65
+2026-09-24T10:00:18.461716Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=66
+2026-09-24T10:00:18.520849Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=67
+2026-09-24T10:00:18.604020Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=68
+2026-09-24T10:00:18.685873Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=69
+2026-09-24T10:00:18.771699Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=70
+2026-09-24T10:00:18.857726Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=71
+2026-09-24T10:00:18.944801Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=72
+2026-09-24T10:00:19.025913Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=73
+2026-09-24T10:00:19.108945Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=74
+2026-09-24T10:00:19.192177Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=75
+2026-09-24T10:00:30.352912Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=76
+2026-09-24T10:00:38.307382Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=77
+2026-09-24T10:00:38.897649Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=78
+2026-09-24T10:00:45.390965Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=79
+2026-09-24T10:00:48.069309Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=80
+2026-09-24T10:00:48.192362Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=81
+2026-09-24T10:00:48.296962Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=82
+2026-09-24T10:00:48.379197Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=83
+2026-09-24T10:00:48.453179Z [info     ] regions_page                   doc_id='ФАП-21 сертификация АТ' page=84
+2026-09-24T10:00:57.818896Z [info     ] regions_done                   out='data\\ir\\night_run_v2_20260924_125552\\phase1\\fap21\\ФАП-21 сертификация АТ_regions.json'
+
+=== ФАП-21 сертификация АТ === -> data\ir\night_run_v2_20260924_125552\phase1\fap21\ФАП-21 сертификация АТ_regions.json
+  p001 det=3 formula=1(ok=1, sem=0, caption=0) table=2(ok=2) figure=0
+       [formula] formula_00 '\\underline { { \\underline { { \\mathbf { \\Pi } } } } } _ { \\mathbf { \\underline {'
+       [table] table_01 '|  | В соответствии со статьями |  |  |  | Воздушного кодекса Российской Федерац'
+       [table] table_02 '|  |  |  | правилах» (Собрание законодательства Российской Федерации, |  |  |  |'
+  p002 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p003 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p004 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p005 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p006 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p007 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p008 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p009 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p010 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p011 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p012 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p013 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p014 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p015 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p016 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p017 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p018 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p019 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p020 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p021 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p022 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '|  | (а) К | АТ применяются требования Главы 1 Приложепия 16, том |  |  | 1, час'
+       [table] table_01 '|  |  |  |  | (1) для предотвращения предумышленного выброса топлива в атмосферу'
+  p023 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p024 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p025 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p026 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p027 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p028 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p029 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p030 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p031 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p032 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p033 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p034 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p035 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p036 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p037 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p038 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p039 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p040 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p041 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p042 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p043 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p044 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p045 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p046 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p047 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p048 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p049 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p050 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p051 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p052 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p053 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p054 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p055 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p056 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p057 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p058 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p059 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p060 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p061 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p062 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p063 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p064 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p065 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p066 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p067 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p068 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p069 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p070 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p071 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p072 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p073 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p074 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p075 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p076 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p077 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= = 2 0'
+  p078 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p079 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\stackrel { \\wedge \\, \\ll \\, \\, \\gg \\, \\, \\scriptstyle { \\, \\scriptstyle { \\, 2 '
+  p080 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p081 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p082 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p083 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p084 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0

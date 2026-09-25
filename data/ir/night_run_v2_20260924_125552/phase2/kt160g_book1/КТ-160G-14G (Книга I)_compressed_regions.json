@@ -1,0 +1,5103 @@
+{
+  "doc_id": "КТ-160G-14G (Книга I)_compressed",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\КТ-160G-14G (Книга I)_compressed.pdf",
+  "page_count": 142,
+  "pages": [
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6749999999999999,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 227.12,
+            "y1": 131.35999999999999,
+            "x2": 320.8,
+            "y2": 155.2
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 4,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 227.12,
+            "y1": 131.35999999999999,
+            "x2": 320.8,
+            "y2": 155.2
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=KT 160Γ/14Γ",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=285x91",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { \\mathrm { K T } \\ \\ 1 6 0 \\mathrm { G } / 1 4 \\mathrm { G } } \\\\ { \\mathrm { e r r u t u } _ { \\bf \\Pi } \\ \\ \\mathrm { e n } _ { \\bf G } \\mathrm { , } \\mathrm { w e i f } \\mathrm { c } \\mathrm { , } \\mathrm { } \\",
+            "latex": "\\begin{array} { c } { \\mathrm { K T } \\ \\ 1 6 0 \\mathrm { G } / 1 4 \\mathrm { G } } \\\\ { \\mathrm { e r r u t u } _ { \\bf \\Pi } \\ \\ \\mathrm { e n } _ { \\bf G } \\mathrm { , } \\mathrm { w e i f } \\mathrm { c } \\mathrm { , } \\mathrm { } \\ } \\end{array}",
+            "text_fallback": "c K T \\ \\ 1 6 0 G / 1 4 G \\\\ e r r u t u \\ \\ e n G , w e i f c , \\",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 217.76,
+            "y1": 132.07999999999998,
+            "x2": 279.03999999999996,
+            "y2": 158.79999999999998
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 29,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 217.76,
+            "y1": 132.07999999999998,
+            "x2": 279.03999999999996,
+            "y2": 158.79999999999998
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=2°Σ/мин,",
+              "pylatexenc_ok",
+              "preview_wh=195x99",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { \\pi \\mathrm { H H e } \\ 4 . 1 . \\ 3 \\mathrm { T a } } \\\\ { 2 ^ { \\circ } \\mathrm { C / } \\mathrm { M H H , } } \\\\ { \\pi \\mathrm { o m a x } \\ \\ \\mathrm { 3 H a w e r } } \\end{array}",
+            "latex": "\\begin{array} { c } { \\pi \\mathrm { H H e } \\ 4 . 1 . \\ 3 \\mathrm { T a } } \\\\ { 2 ^ { \\circ } \\mathrm { C / } \\mathrm { M H H , } } \\\\ { \\pi \\mathrm { o m a x } \\ \\ \\mathrm { 3 H a w e r } } \\end{array}",
+            "text_fallback": "c H H e \\ 4 . 1 . \\ 3 T a \\\\ 2 ** C / M H H , \\\\ o m a x \\ \\ 3 H a w e r",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 3,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.33066908429481334,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 85.32,
+            "y1": 14.76,
+            "x2": 473.76,
+            "y2": 820.0799999999999
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8500000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 148.64,
+            "y1": 122.72,
+            "x2": 168.88,
+            "y2": 149.79999999999998
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8500000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 150.07999999999998,
+            "y1": 299.47999999999996,
+            "x2": 170.32,
+            "y2": 325.84
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 34,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 85.32,
+            "y1": 14.76,
+            "x2": 473.76,
+            "y2": 820.0799999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.33066908429481334,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0034_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.33066908429481334,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 34,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 148.64,
+            "y1": 122.72,
+            "x2": 168.88,
+            "y2": 149.79999999999998
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=5Σ+",
+              "pylatexenc_ok",
+              "preview_wh=81x100",
+              "semantic_reason=pure_numbers"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\sqrt { \\frac { \\varphi } { 1 } }",
+            "latex": "\\sqrt { \\frac { \\varphi } { 1 } }",
+            "text_fallback": "1",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 34,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 150.07999999999998,
+            "y1": 299.47999999999996,
+            "x2": 170.32,
+            "y2": 325.84
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=5Σ+",
+              "pylatexenc_ok",
+              "preview_wh=81x98"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\sqrt { \\frac { \\varphi } { \\phi } }",
+            "latex": "\\sqrt { \\frac { \\varphi } { \\phi } }",
+            "text_fallback": "",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 141.23999999999998,
+            "y1": 122.16,
+            "x2": 548.52,
+            "y2": 305.88
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 35,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 141.23999999999998,
+            "y1": 122.16,
+            "x2": 548.52,
+            "y2": 305.88
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.96875,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=11",
+              "cols=4",
+              "numeric_ratio=0.93",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.969",
+              "rows=12 cols=4 consistency=1.00 meaningful=0.94",
+              "span_cols=4",
+              "span_rows=12"
+            ]
+          },
+          "content": {
+            "markdown": "| Высота |  | Абсолютное давление |  |\n| --- | --- | --- | --- |\n|  | $кΠа$ | Máap | MM. pT. CT. |\n| $-4.572Μ$ | 169,73 | 1697,3 | 1273,0 |\n| $-457Μ$ | 106,94 | 1069,4 | 802,1 |\n| 0 M | 101,32 | 1013,2 | 760,0 |\n| $+2.438Μ$ | 75,26 | 752,6 | 564,4 |\n| $+4.572Μ$ | 57,18 | 571,8 | 429,0 |\n| $+7.620Μ$ | 37,60 | 376,0 | 282,0 |\n| $+10.668Μ$ | 23,84 | 238,4 | 178,8 |\n| $+15.240Μ$ | 11,60 | 116,0 | 87,0 |\n| $+16.764Μ$ | 9,12 | 91,2 | 68,3 |\n| $+21.336Μ$ | 4,44 | 44,4 | 33,3 |",
+            "html": "",
+            "n_rows": 12,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.96875,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 460.4,
+            "y1": 309.92,
+            "x2": 489.28,
+            "y2": 519.52
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 36,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 460.4,
+            "y1": 309.92,
+            "x2": 489.28,
+            "y2": 519.52
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=-15/+55 со скоростью не более 2+1°Σ/мин",
+              "pylatexenc_ok",
+              "preview_wh=105x607",
+              "semantic_reason=prose_source_text"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\left[ { \\begin{array} { r } { { \\frac { \\tilde { x } } { x } } } \\\\ { { \\frac { \\tilde { y } } { x } } } \\\\ { { \\frac { \\tilde { z } } { x } } } \\\\ { { \\frac { \\tilde { x } } { y } } } \\\\ { { \\frac { \\tilde { x } } { z } } } \\\\ { { \\frac { \\tilde { x } } { y } } } \\\\ { { \\frac { \\tilde { y } } { z } } } \\\\ { { \\frac { \\tilde { y } } { z } } } \\\\ { { \\frac { \\tilde { z } } { y } } } \\\\ { { \\frac { \\tilde { z } } { z } } } \\\\ { { \\frac { \\tilde { z } } { z } } } \\end{array} } \\right]",
+            "latex": "\\left[ { \\begin{array} { r } { { \\frac { \\tilde { x } } { x } } } \\\\ { { \\frac { \\tilde { y } } { x } } } \\\\ { { \\frac { \\tilde { z } } { x } } } \\\\ { { \\frac { \\tilde { x } } { y } } } \\\\ { { \\frac { \\tilde { x } } { z } } } \\\\ { { \\frac { \\tilde { x } } { y } } } \\\\ { { \\frac { \\tilde { y } } { z } } } \\\\ { { \\frac { \\tilde { y } } { z } } } \\\\ { { \\frac { \\tilde { z } } { y } } } \\\\ { { \\frac { \\tilde { z } } { z } } } \\\\ { { \\frac { \\tilde { z } } { z } } } \\end{array} } \\right]",
+            "text_fallback": "[ r x x \\\\ y x \\\\ z x \\\\ x y \\\\ x z \\\\ x y \\\\ y z \\\\ y z \\\\ z y \\\\ z z \\\\ z z ]",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6464285714285715,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 151.16,
+            "y1": 418.28,
+            "x2": 270.4,
+            "y2": 444.28
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 46,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 151.16,
+            "y1": 418.28,
+            "x2": 270.4,
+            "y2": 444.28
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=минимум 10 Σ/мин.",
+              "pylatexenc_ok",
+              "preview_wh=356x97",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { H J I H \\ B H y T p H \\ B C : } } \\\\ & { \\mathrm { M H H H M y M \\ 1 0 \\ ^ { 0 } C / _ { M H H . } } } \\\\ & { \\mathrm { D I T \\pmb { \\bar { g } } o p v a v a s a n u g \\ \\_ v c } } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\mathrm { H J I H \\ B H y T p H \\ B C : } } \\\\ & { \\mathrm { M H H H M y M \\ 1 0 \\ ^ { 0 } C / _ { M H H . } } } \\\\ & { \\mathrm { D I T \\pmb { \\bar { g } } o p v a v a s a n u g \\ \\_ v c } } \\end{array}",
+            "text_fallback": "r l & H J I H \\ B H y T p H \\ B C : \\\\ & M H H H M y M \\ 1 0 \\ ** 0 C / M H H . \\\\ & D I T g o p v a v a s a n u g \\ \\ v c",
+            "status": "caption_or_header",
+            "text": "минимум 10 Σ/мин."
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 51,
+      "summary": {
+        "page": 51,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 52,
+      "summary": {
+        "page": 52,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 53,
+      "summary": {
+        "page": 53,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 54,
+      "summary": {
+        "page": 54,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.685,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 111.19999999999999,
+            "y1": 147.92,
+            "x2": 254.2,
+            "y2": 170.32
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7607142857142858,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 109.75999999999999,
+            "y1": 506.47999999999996,
+            "x2": 436.35999999999996,
+            "y2": 572.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 55,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 111.19999999999999,
+            "y1": 147.92,
+            "x2": 254.2,
+            "y2": 170.32
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=температуру до (38±2)°Σ",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=422x87",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { \\bf \\Theta _ { \\mathrm { { T } } \\mathrm { { e y c h } \\mathrm { { H e } \\ c u ^ { \\mathrm { { c } } } \\Pi _ { \\mathrm { { H O C J I } } \\mathrm { { e } } \\Pi _ { \\mathrm { { Z } } \\mathrm { { H S } } \\mathrm { { H V I } } \\mathrm { { e } } \\Gamma _ { 0 } } } } } } } \\\\ { { \\mathrm { { T e M I F e p a T y p y } \\ } _ { \\mathrm { { A O } } } \\mathbf { \\Theta } ( 3 8 \\pm 2 ) ^ { \\mathrm { { o } } } \\mathbf { C } _ { \\mathrm { { \\ H } } \\mathrm { { J } } } } } \\\\ { { \\mathbf { \\Theta } _ { \\mathrm { { M O } } \\mathbf { \\hat { x } } \\mathrm { { H } } \\mathrm { { O } } \\mathbf { \\Theta } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { G } } \\mathrm { { T } } \\mathrm { { e e } } \\mathbf { \\Theta } } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { R I C O K V W } } } } } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\bf \\Theta _ { \\mathrm { { T } } \\mathrm { { e y c h } \\mathrm { { H e } \\ c u ^ { \\mathrm { { c } } } \\Pi _ { \\mathrm { { H O C J I } } \\mathrm { { e } } \\Pi _ { \\mathrm { { Z } } \\mathrm { { H S } } \\mathrm { { H V I } } \\mathrm { { e } } \\Gamma _ { 0 } } } } } } } \\\\ { { \\mathrm { { T e M I F e p a T y p y } \\ } _ { \\mathrm { { A O } } } \\mathbf { \\Theta } ( 3 8 \\pm 2 ) ^ { \\mathrm { { o } } } \\mathbf { C } _ { \\mathrm { { \\ H } } \\mathrm { { J } } } } } \\\\ { { \\mathbf { \\Theta } _ { \\mathrm { { M O } } \\mathbf { \\hat { x } } \\mathrm { { H } } \\mathrm { { O } } \\mathbf { \\Theta } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { G } } \\mathrm { { T } } \\mathrm { { e e } } \\mathbf { \\Theta } } \\cdot \\mathbf { \\tilde { \\Omega } } _ { \\mathrm { { R I C O K V W } } } } } } \\end{array} }",
+            "text_fallback": "l T e y c h H e \\ c u ** c H O C J I e Z H S H V I e 0 \\\\ T e M I F e p a T y p y \\ A O ( 3 8 2 ) ** o C \\ H J \\\\ M O x H O G T e e R I C O K V W",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 55,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 109.75999999999999,
+            "y1": 506.47999999999996,
+            "x2": 436.35999999999996,
+            "y2": 572.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=3",
+              "text=относительной влажности (85±4)%. | (65±2)°Σ η относительную влажность (95±4)%. | (65±2)°C",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=932x209",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { \\Lambda \\cup u O u U H s H B a T B b ~ \\mathrm { \\Lambda _ { H C H E D E H o e } ~ o p O p y / } o B o B a H H e ~ \\mathrm { \\Lambda _ { T M T e M P B a } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\Lambda _ { O T R O C H F e T R b U o i g H } ~ B a \\mathrm { \\Lambda _ { H O C T A } } } ( 8 5 \\mathbb { \\Lambda } ^ { 2 } . 4 ) \\mathbb { V } _ { o . } } } \\\\ { \\mathrm { \\mathrm { \\textbf { B } _ { T e q e H n e } ~ 2 - \\mathrm { \\Lambda _ { - \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } T o l n e } } } p o T } } } } ~ n e p u o n a \\mathbb { \\Lambda } ^ { 2 } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . } } \\\\ { \\mathrm { \\big ( 6 5 \\pm 2 \\big ) ^ { \\mathrm { \\mathrm { \\Lambda } _ { T } } \\in \\mathrm { \\Lambda _ { H T R O T e T D m } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\mathrm { \\Lambda } } H i _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\Lambda } } O _ { } } } } } } } } } } } \\mathrm { \\Lambda _ { \\mathrm { ( 9 \\mp \\pm 4 ) } } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Lambda } } } { \\mathrm { \\mathrm { \\Lambda } } } _ { \\mathrm { { T e M n e p p y } \\mathrm { \\textbf { \\textbf { B } } _ { \\mathrm { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\mathrm { \\normalfont { K a M e p e } } } \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Omega } } { \\mathrm { } } { \\mathrm { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Omega } } } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\mathrm { \\Lambda } } } } } } \\mathrm { { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\mathrm { \\Omega } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } } } } } { \\mathrm",
+            "latex": "\\begin{array} { l } { \\mathrm { \\Lambda \\cup u O u U H s H B a T B b ~ \\mathrm { \\Lambda _ { H C H E D E H o e } ~ o p O p y / } o B o B a H H e ~ \\mathrm { \\Lambda _ { T M T e M P B a } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\Lambda _ { O T R O C H F e T R b U o i g H } ~ B a \\mathrm { \\Lambda _ { H O C T A } } } ( 8 5 \\mathbb { \\Lambda } ^ { 2 } . 4 ) \\mathbb { V } _ { o . } } } \\\\ { \\mathrm { \\mathrm { \\textbf { B } _ { T e q e H n e } ~ 2 - \\mathrm { \\Lambda _ { - \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } T o l n e } } } p o T } } } } ~ n e p u o n a \\mathbb { \\Lambda } ^ { 2 } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . \\mathrm { \\Lambda } . } } \\\\ { \\mathrm { \\big ( 6 5 \\pm 2 \\big ) ^ { \\mathrm { \\mathrm { \\Lambda } _ { T } } \\in \\mathrm { \\Lambda _ { H T R O T e T D m } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\mathrm { \\Lambda } } H i _ { \\mathrm { \\mathrm { \\Lambda } _ { \\mathrm { \\Lambda } } O _ { } } } } } } } } } } } \\mathrm { \\Lambda _ { \\mathrm { ( 9 \\mp \\pm 4 ) } } \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Lambda } } } { \\mathrm { \\mathrm { \\Lambda } } } _ { \\mathrm { { T e M n e p p y } \\mathrm { \\textbf { \\textbf { B } } _ { \\mathrm { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\mathrm { \\normalfont { K a M e p e } } } \\mathrm { \\Lambda _ { \\mathrm { \\Lambda } } } } } } \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Lambda } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\Pi } { \\mathrm { \\Omega } } { \\mathrm { } } { \\mathrm { \\mathrm { \\Pi } } { \\mathrm { \\mathrm { \\Omega } } } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\mathrm { \\Lambda } } } } } } \\mathrm { { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } { \\mathrm { \\Lambda } } } } \\mathrm { { \\mathrm { \\Lambda } } } _ { \\mathrm { \\mathrm { \\Lambda } } } } \\\\ { \\mathrm { \\mathrm { \\mathrm { \\mathrm { \\Omega } } { \\mathrm { \\mathrm { \\mathrm { \\Lambda } } } } } { \\mathrm } } } } } } } } } } \\end{array}",
+            "text_fallback": "l u O u U H s H B a T B b ~ H C H E D E H o e ~ o p O p y / o B o B a H H e ~ T M T e M P B a \\\\ O T R O C H F e T R b U o i g H ~ B a H O C T A ( 8 5 ** 2 . 4 ) V o . \\\\ B T e q e H n e ~ 2 - - T o l n e p o T ~ n e p u o n a ** 2 . . . . . . \\\\ ( 6 5 2 ) ** T H T R O T e T D m H i O ( 9 4 ) \\\\ T e M n e p p y B K a M e p e \\\\ \\\\",
+            "status": "caption_or_header",
+            "text": "относительной влажности (85±4)%. | (65±2)°Σ η относительную влажность (95±4)%. | (65±2)°C"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 56,
+      "summary": {
+        "page": 56,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 2,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6464285714285715,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 112.28,
+            "y1": 188.95999999999998,
+            "x2": 307.84,
+            "y2": 212.79999999999998
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6785714285714286,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 378.68,
+            "y1": 232.16,
+            "x2": 536.0799999999999,
+            "y2": 258.52
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 56,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 112.28,
+            "y1": 188.95999999999998,
+            "x2": 307.84,
+            "y2": 212.79999999999998
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=относительной влажности (85±4)%.",
+              "pylatexenc_ok",
+              "preview_wh=568x91",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { \\mathrm { \\Delta \\ C T a O H T H H M 3 H D O B a T b } \\; \\; \\; H C T H D T b I B a e M O e \\; \\; \\; 0 0 } } \\\\ { { \\mathrm { \\bf O T H O C H T e J I b H O \\breve { H } \\; \\; B T a M O C T H } \\; ( 8 5 \\pm 4 ) ^ { 0 } \\% . } } \\\\ { { \\mathrm { \\bf ~ B \\ T e v e H H e \\; \\; 2 . - u a c o s o r o \\; \\; n e m a n o n a \\rightarrow 1 0 \\; \\; } } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\mathrm { \\Delta \\ C T a O H T H H M 3 H D O B a T b } \\; \\; \\; H C T H D T b I B a e M O e \\; \\; \\; 0 0 } } \\\\ { { \\mathrm { \\bf O T H O C H T e J I b H O \\breve { H } \\; \\; B T a M O C T H } \\; ( 8 5 \\pm 4 ) ^ { 0 } \\% . } } \\\\ { { \\mathrm { \\bf ~ B \\ T e v e H H e \\; \\; 2 . - u a c o s o r o \\; \\; n e m a n o n a \\rightarrow 1 0 \\; \\; } } } \\end{array}",
+            "text_fallback": "l \\ C T a O H T H H M 3 H D O B a T b \\; \\; \\; H C T H D T b I B a e M O e \\; \\; \\; 0 0 \\\\ O T H O C H T e J I b H O H \\; \\; B T a M O C T H \\; ( 8 5 4 ) ** 0 \\% . \\\\ ~ B \\ T e v e H H e \\; \\; 2 . - u a c o s o r o \\; \\; n e m a n o n a arrow 1 0 \\; \\;",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 56,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 378.68,
+            "y1": 232.16,
+            "x2": 536.0799999999999,
+            "y2": 258.52
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=(55±2)°C η относительную",
+              "pylatexenc_ok",
+              "preview_wh=462x98",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\dot { \\textbf { \\textsf { e } } } ( 5 5 \\pm 2 ) ^ { \\circ } \\mathbf { C } \\textbf { \\textsf { H } } _ { \\mathrm { O T H O C H T } } \\mathbf { e } \\mathrm { . \\pi } \\mathrm { \\\" I b H y p } \\mathbf { O }",
+            "latex": "\\dot { \\textbf { \\textsf { e } } } ( 5 5 \\pm 2 ) ^ { \\circ } \\mathbf { C } \\textbf { \\textsf { H } } _ { \\mathrm { O T H O C H T } } \\mathbf { e } \\mathrm { . \\pi } \\mathrm { \\\" I b H y p } \\mathbf { O }",
+            "text_fallback": "e ( 5 5 2 ) ** C H O T H O C H T e . \\\" I b H y p O",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 57,
+      "summary": {
+        "page": 57,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 186.44,
+            "y1": 204.44,
+            "x2": 234.04,
+            "y2": 225.04
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6666666666666667,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 196.16,
+            "y1": 398.47999999999996,
+            "x2": 371.91999999999996,
+            "y2": 421.96
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 57,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 186.44,
+            "y1": 204.44,
+            "x2": 234.04,
+            "y2": 225.04
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=>95±4%",
+              "pylatexenc_ok",
+              "preview_wh=157x82"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } { \\lefteqn { \\frac { 5 0 ^ { \\circ } \\mathrm { C } } { 2 9 5 \\pm 4 ^ { \\circ } \\! / \\circ } } } \\end{array}",
+            "latex": "\\begin{array} { r l } { \\lefteqn { \\frac { 5 0 ^ { \\circ } \\mathrm { C } } { 2 9 5 \\pm 4 ^ { \\circ } \\! / \\circ } } } \\end{array}",
+            "text_fallback": "r l eqn 5 0 ** C 2 9 5 4 ** \\! /",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 57,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 196.16,
+            "y1": 398.47999999999996,
+            "x2": 371.91999999999996,
+            "y2": 421.96
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=Период σ Τ0 до Τ1 равен 2 ч ± 10 мин.",
+              "spacing_collapsed",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "spacing_collapsed",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=513x90",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l r } { \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\Pi ^ { \\mathrm { e p } \\mu _ { 0 } } \\pi \\circ \\mathrm { T } 0 \\; \\pi \\mathrm { o } \\; \\mathrm { T } 1 \\; \\mathrm { p a s e n } \\; 2 \\; \\mathrm { u } \\pm 1 0 \\; \\mathrm { M H H } . } } \\\\ { \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\Pi ^ { \\mathrm { e p } \\mu _ { 0 } } \\pi \\circ \\mathrm { T } 1 \\; \\mathrm { \\pi } \\mathrm { \\pi } \\mathrm { T } 2 \\; \\mathrm { p a s e n } \\; 6 \\; \\mathrm { u } \\; \\mathrm { M H H M } \\mathrm { V } \\mathrm { M } . } } \\end{array}",
+            "latex": "\\begin{array} { l r } { \\! \\Pi ^ { \\mathrm { e p } \\mu _ { 0 } } \\pi \\circ \\mathrm { T } 0 \\; \\pi \\mathrm { o } \\; \\mathrm { T } 1 \\; \\mathrm { p a s e n } \\; 2 \\; \\mathrm { u } \\pm 1 0 \\; \\mathrm { M H H } . } \\\\ { \\! \\Pi ^ { \\mathrm { e p } \\mu _ { 0 } } \\pi \\circ \\mathrm { T } 1 \\; \\mathrm { \\pi } \\mathrm { \\pi } \\mathrm { T } 2 \\; \\mathrm { p a s e n } \\; 6 \\; \\mathrm { u } \\; \\mathrm { M H H M } \\mathrm { V } \\mathrm { M } . } \\end{array}",
+            "text_fallback": "l r \\! ** e p 0 T 0 \\; o \\; T 1 \\; p a s e n \\; 2 \\; u 1 0 \\; M H H . \\\\ \\! ** e p 0 T 1 \\; T 2 \\; p a s e n \\; 6 \\; u \\; M H H M V M .",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet_retry",
+            "version": null,
+            "method": "unimernet_retry",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 58,
+      "summary": {
+        "page": 58,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 180.32,
+            "y1": 149.72,
+            "x2": 227.56,
+            "y2": 170.32
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6666666666666667,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 192.2,
+            "y1": 383.71999999999997,
+            "x2": 367.96,
+            "y2": 407.56
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 58,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 180.32,
+            "y1": 149.72,
+            "x2": 227.56,
+            "y2": 170.32
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=>95±4%",
+              "pylatexenc_ok",
+              "preview_wh=156x82"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } { \\lefteqn { \\frac { 6 5 ^ { \\circ } \\mathrm { C } } { 2 9 5 \\pm 4 ^ { \\circ } \\! \\gamma _ { 0 } } } } \\end{array}",
+            "latex": "\\begin{array} { r l } { \\lefteqn { \\frac { 6 5 ^ { \\circ } \\mathrm { C } } { 2 9 5 \\pm 4 ^ { \\circ } \\! \\gamma _ { 0 } } } } \\end{array}",
+            "text_fallback": "r l eqn 6 5 ** C 2 9 5 4 ** \\! 0",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 58,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 192.2,
+            "y1": 383.71999999999997,
+            "x2": 367.96,
+            "y2": 407.56
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=Период σ Τ0 до Τ1 равен 2 ψ ± 10 мин.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=513x91"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { \\mathrm { I I e p H o } \\, \\mathrm { { \\bf { \\cal R } } \\subset \\mathrm { T 0 } ~ \\! \\! \\! \\pi 0 ~ \\mathrm { T 1 } ~ p a 8 e \\mathrm { \\bf { \\cal R } } ~ 2 ~ \\! \\! \\pi \\mathrm { \\bf { \\cal { q } } } \\pm 1 0 ~ \\mathrm { M } \\mathrm { \\bf { \\cal { H H H } } . } } } } \\\\ { { \\mathrm { \\Pi \\Pi } \\mathrm { { \\bf { \\cal { I e p H o } } \\it { \\cal { \\cal { H } } } \\subset \\mathrm { T 1 } ~ \\! \\! \\! \\pi \\mathrm { \\bf { \\cal { I } 0 } } ~ \\mathrm { \\bf { \\cal { T 2 } } } ~ p a 8 e \\mathrm { \\bf { \\cal { H } } } ~ 6 ~ \\! \\! \\pi \\mathrm { \\bf { \\cal { u } } } ~ M H H M V M . } } } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\mathrm { I I e p H o } \\, \\mathrm { { \\bf { \\cal R } } \\subset \\mathrm { T 0 } ~ \\! \\! \\! \\pi 0 ~ \\mathrm { T 1 } ~ p a 8 e \\mathrm { \\bf { \\cal R } } ~ 2 ~ \\! \\! \\pi \\mathrm { \\bf { \\cal { q } } } \\pm 1 0 ~ \\mathrm { M } \\mathrm { \\bf { \\cal { H H H } } . } } } } \\\\ { { \\mathrm { \\Pi \\Pi } \\mathrm { { \\bf { \\cal { I e p H o } } \\it { \\cal { \\cal { H } } } \\subset \\mathrm { T 1 } ~ \\! \\! \\! \\pi \\mathrm { \\bf { \\cal { I } 0 } } ~ \\mathrm { \\bf { \\cal { T 2 } } } ~ p a 8 e \\mathrm { \\bf { \\cal { H } } } ~ 6 ~ \\! \\! \\pi \\mathrm { \\bf { \\cal { u } } } ~ M H H M V M . } } } } \\end{array}",
+            "text_fallback": "l I I e p H o \\, R T 0 ~ \\! \\! \\! 0 ~ T 1 ~ p a 8 e R ~ 2 ~ \\! \\! q 1 0 ~ M H H H . \\\\ I e p H o H T 1 ~ \\! \\! \\! I 0 ~ T 2 ~ p a 8 e H ~ 6 ~ \\! \\! u ~ M H H M V M .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 59,
+      "summary": {
+        "page": 59,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 197.23999999999998,
+            "y1": 156.56,
+            "x2": 244.48,
+            "y2": 176.79999999999998
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6666666666666667,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 192.56,
+            "y1": 395.96,
+            "x2": 369.76,
+            "y2": 420.88
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 59,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 197.23999999999998,
+            "y1": 156.56,
+            "x2": 244.48,
+            "y2": 176.79999999999998
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=≥95±4%",
+              "pylatexenc_ok",
+              "preview_wh=156x81",
+              "semantic_reason=no_math_markers"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\geq \\! 9 5 { \\pm } 4 \\%",
+            "latex": "\\geq \\! 9 5 { \\pm } 4 \\%",
+            "text_fallback": "\\! 9 5 4 \\%",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 59,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 192.56,
+            "y1": 395.96,
+            "x2": 369.76,
+            "y2": 420.88
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=Период σ Τ0 до Τ1 равен 2 ψ ± 10 мин.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "braces_repaired",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=517x94"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { \\mathrm { T e p } { \\boldsymbol { \\kappa } } \\mathrm { o } { \\boldsymbol { \\pi } } \\mathrm { ~ c ~ T 0 ~ } { \\boldsymbol { \\pi } } \\mathrm { o } { \\mathrm { ~ T 1 ~ p a s e { \\boldsymbol { \\kappa } } ~ 2 ~ } } \\mathbf { q } \\pm 1 0 \\mathrm { ~ } { \\boldsymbol { \\mathrm { M H H } } } . } } \\\\ { { \\mathrm { T e p } { \\boldsymbol { \\kappa } } \\mathrm { o } { \\boldsymbol { \\pi } } \\mathrm { \\ c } \\mathrm { T 1 ~ } { \\boldsymbol { \\pi } } \\mathrm { o } \\mathrm { ~ T 2 ~ p a s e { \\boldsymbol { \\kappa } } \\mathrm { \\in \\mathbf { u } ~ w H H M M } } . } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\mathrm { T e p } { \\boldsymbol { \\kappa } } \\mathrm { o } { \\boldsymbol { \\pi } } \\mathrm { ~ c ~ T 0 ~ } { \\boldsymbol { \\pi } } \\mathrm { o } { \\mathrm { ~ T 1 ~ p a s e { \\boldsymbol { \\kappa } } ~ 2 ~ } } \\mathbf { q } \\pm 1 0 \\mathrm { ~ } { \\boldsymbol { \\mathrm { M H H } } } . } } \\\\ { { \\mathrm { T e p } { \\boldsymbol { \\kappa } } \\mathrm { o } { \\boldsymbol { \\pi } } \\mathrm { \\ c } \\mathrm { T 1 ~ } { \\boldsymbol { \\pi } } \\mathrm { o } \\mathrm { ~ T 2 ~ p a s e { \\boldsymbol { \\kappa } } \\mathrm { \\in \\mathbf { u } ~ w H H M M } } . } } \\end{array}",
+            "text_fallback": "l T e p o ~ c ~ T 0 ~ o ~ T 1 ~ p a s e ~ 2 ~ q 1 0 ~ M H H . \\\\ T e p o \\ c T 1 ~ o ~ T 2 ~ p a s e u ~ w H H M M .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 60,
+      "summary": {
+        "page": 60,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 61,
+      "summary": {
+        "page": 61,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 62,
+      "summary": {
+        "page": 62,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 63,
+      "summary": {
+        "page": 63,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 64,
+      "summary": {
+        "page": 64,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 52.32,
+            "y1": 271.2,
+            "x2": 548.16,
+            "y2": 485.88
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 64,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 52.32,
+            "y1": 271.2,
+            "x2": 548.16,
+            "y2": 485.88
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8809523809523809,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=12",
+              "cols=7",
+              "numeric_ratio=0.71",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.881",
+              "rows=15 cols=7 consistency=1.00 meaningful=0.76",
+              "span_cols=7",
+              "span_rows=15"
+            ]
+          },
+          "content": {
+            "markdown": "|  | (5) |  | Направление нагрузки |  | (направление по осям ВС) |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  | Вверх | Вниз | Вперед | Назад | Вбок |\n| 1.Вертолеты (1) | F | 4.0 |  |  |  | (4) |\n|  |  |  | 20.0 | 16.0 | Her | 8.0 |\n|  | R | 20.0 | 20.0 | 20.0 | 20.0 | 20.0 |\n| 2. Транспортные ЛА с | F | 3.0 | 6.0 | 9.0 | 1.5 | 4.0 |\n| неподвижным крылом | R | 9.0 | 9.0 | 9.0 | 9.0 | 9.0 |\n| (2) |  |  |  |  |  |  |\n| 3. Нетранспортные ЛА с | F | 3.0 | Het | 18.0 | Her | 4.5 |\n| неподвижным крылом | R | 18.0 | 18 | 18.0 | 18.0 | 18.0 |\n| (3) |  |  |  |  |  |  |\n| $4. Все ЛА σ неподвиж-$ | F | 3.0 | 6.0 | 18.0 | 1.5 | 4.5 |\n| ным крылом | R | 18.0 | 18 | 18.0 | 18.0 | 18.0 |\n| 5. Вертолеты и все ЛА с | F | 4.0 | 20.0 | 18.0 | 1.5 | 8.0 |\n| неподвижным крылом | R | 20.0 | 20.0 | 20.0 | 20.0 | 20.0 |",
+            "html": "",
+            "n_rows": 15,
+            "n_cols": 7,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8809523809523809,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 65,
+      "summary": {
+        "page": 65,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 66,
+      "summary": {
+        "page": 66,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.775,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 238.28,
+            "y1": 298.4,
+            "x2": 333.03999999999996,
+            "y2": 320.44
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 66,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 238.28,
+            "y1": 298.4,
+            "x2": 333.03999999999996,
+            "y2": 320.44
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=Τ1=3Δ, or Τ2=6Δ",
+              "pylatexenc_ok",
+              "preview_wh=288x86"
+            ]
+          },
+          "content": {
+            "latex_raw": "T _ { 1 } = 3 D _ { 1 } O r T 2 = 6 D",
+            "latex": "T _ { 1 } = 3 D _ { 1 } O r T 2 = 6 D",
+            "text_fallback": "T 1 = 3 D 1 O r T 2 = 6 D",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 67,
+      "summary": {
+        "page": 67,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7639230769230769,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.519999999999996,
+            "y1": 551.48,
+            "x2": 363.64,
+            "y2": 581.0799999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 67,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.519999999999996,
+            "y1": 551.48,
+            "x2": 363.64,
+            "y2": 581.0799999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=2",
+              "text=Ускорение (Γ) = | = (11.18) ξ(10-4) ξ (R) ξ (RPM)2",
+              "pylatexenc_ok",
+              "preview_wh=889x107",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } { \\mathbf { \\mathrm { y _ { c k o p e n n e \\; ( G ) } } } = } & { { } \\displaystyle \\frac { \\mathsf { R \\; \\omega } _ { \\mathbf { 0 } } ^ { 2 } } { 9 . 8 \\, \\uparrow } = ( 1 1 . 1 8 ) \\, \\mathbf { x } ( 1 0 ^ { - 4 } ) \\, \\mathbf { x } \\; ( \\mathsf { R } ) \\, \\mathbf { x } \\; ( \\mathsf { R P M } ) ^ { 2 } } \\end{array}",
+            "latex": "\\begin{array} { r l } { \\mathbf { \\mathrm { y _ { c k o p e n n e \\; ( G ) } } } = } & { { } \\displaystyle \\frac { \\mathsf { R \\; \\omega } _ { \\mathbf { 0 } } ^ { 2 } } { 9 . 8 \\, \\uparrow } = ( 1 1 . 1 8 ) \\, \\mathbf { x } ( 1 0 ^ { - 4 } ) \\, \\mathbf { x } \\; ( \\mathsf { R } ) \\, \\mathbf { x } \\; ( \\mathsf { R P M } ) ^ { 2 } } \\end{array}",
+            "text_fallback": "r l y c k o p e n n e \\; ( G ) = & R \\; 0 ** 2 9 . 8 \\, = ( 1 1 . 1 8 ) \\, x ( 1 0 ** - 4 ) \\, x \\; ( R ) \\, x \\; ( R P M ) ** 2",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 68,
+      "summary": {
+        "page": 68,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 69,
+      "summary": {
+        "page": 69,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 70,
+      "summary": {
+        "page": 70,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 71,
+      "summary": {
+        "page": 71,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 72,
+      "summary": {
+        "page": 72,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 73,
+      "summary": {
+        "page": 73,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 74,
+      "summary": {
+        "page": 74,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 75,
+      "summary": {
+        "page": 75,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6918918918918919,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 161.96,
+            "y1": 464.0,
+            "x2": 439.96,
+            "y2": 502.96
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.65,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 160.88,
+            "y1": 628.88,
+            "x2": 531.04,
+            "y2": 657.04
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 75,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 161.96,
+            "y1": 464.0,
+            "x2": 439.96,
+            "y2": 502.96
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=2",
+              "text=Β = 10 Гц (не более) β диапазоне от 10 до 200 Гц. | Β = 50 Гц (не более) β диапазоне от 200 до 2000 Гц.",
+              "braces_repaired",
+              "prose_like",
+              "retry_upscale",
+              "braces_repaired",
+              "prose_like",
+              "preview_wh=797x133"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { \\Delta \\ u n p u R a \\ n o n o c r { \\ o n } \\ o n \\ o n \\ r p a } } \\\\ & { \\mathrm { \\Delta \\mathbf { B } = 1 0 \\ o \\ r u \\ ( \\mathrm { { R e } \\ } \\bar { \\mathrm { 6 } } \\mathrm { { o n e e } ) \\, { \\mathbf { B } } \\mathrm { \\ } \\pi H \\mathrm { { a n a 3 } \\mathrm { { o n e } \\ o r } \\ } 1 0 \\, \\mathrm { { \\scriptstyle { \\cal { H } 0 } } \\, \\mathrm { { \\scriptstyle { \\cal { H } o } } \\ 2 0 0 \\, \\Gamma \\mathrm { { \\scriptstyle { I I } } . } } } } } } \\\\ & { \\mathrm { \\Delta \\mathbf { B } = 5 0 \\ o \\ r { \\scriptstyle \\mathrm { { \\cal { H } } \\in \\ \\bar { \\mathrm { 6 } } \\, 0 \\mathrm { { \\scriptstyle { 0 } } \\, \\mathrm { { e e } } } } } \\ \\mathrm { { \\scriptstyle { \\cal { B } } \\ \\pi H \\mathrm { { a n 3 } \\, { o H e } \\ } \\mathrm { { o r } \\ } 2 0 0 \\, \\mathrm { { \\scriptstyle { \\cal { H } o } } \\, 2 0 0 0 \\, \\Gamma \\mathrm { { \\scriptstyle { I I } } . } } } } } } \\\\ & { \\mathrm { \\phantom { \\mathrm { \\Delta \\ a } } } { \\mathrm { B p e } \\mathrm { \\ a n \\ } \\mathrm { { v e p e n } \\mathrm { { \\scriptstyle { H } H \\mathrm { e } \\, \\mathrm { { H } \\bar { \\mathrm { { H } } \\bar { \\mathrm { { H } } \\bar { \\mathrm { { \\scriptstyle { \\cal { H } } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { 7 } } \\bar { \\mathrm { { \\scriptstyle { 1 0 } } } \\bar { \\mathrm { { \\scriptstyle { 1 } } \\bar { \\cal { 1 } } } } } } } } } } } } } } } } } = 2 \\tau = 1 \\ \\mathrm { c \\ s u } \\mathrm { { \\scriptstyle \\mathrm { { \\cal { H } \\, \\mathrm { { u } \\ r u } \\mathrm { { \\scriptstyle { \\cal { u } } \\mathrm { { \\cal { u } } \\ r u } \\mathrm { \\ r u } \\mathrm { { \\scriptstyle { \\cal { v } \\ r u } \\mathrm { \\scriptstyle { { \\cal { 1 } } } } } } } } } } } } } \\ } } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\mathrm { \\Delta \\ u n p u R a \\ n o n o c r { \\ o n } \\ o n \\ o n \\ r p a } } \\\\ & { \\mathrm { \\Delta \\mathbf { B } = 1 0 \\ o \\ r u \\ ( \\mathrm { { R e } \\ } \\bar { \\mathrm { 6 } } \\mathrm { { o n e e } ) \\, { \\mathbf { B } } \\mathrm { \\ } \\pi H \\mathrm { { a n a 3 } \\mathrm { { o n e } \\ o r } \\ } 1 0 \\, \\mathrm { { \\scriptstyle { \\cal { H } 0 } } \\, \\mathrm { { \\scriptstyle { \\cal { H } o } } \\ 2 0 0 \\, \\Gamma \\mathrm { { \\scriptstyle { I I } } . } } } } } } \\\\ & { \\mathrm { \\Delta \\mathbf { B } = 5 0 \\ o \\ r { \\scriptstyle \\mathrm { { \\cal { H } } \\in \\ \\bar { \\mathrm { 6 } } \\, 0 \\mathrm { { \\scriptstyle { 0 } } \\, \\mathrm { { e e } } } } } \\ \\mathrm { { \\scriptstyle { \\cal { B } } \\ \\pi H \\mathrm { { a n 3 } \\, { o H e } \\ } \\mathrm { { o r } \\ } 2 0 0 \\, \\mathrm { { \\scriptstyle { \\cal { H } o } } \\, 2 0 0 0 \\, \\Gamma \\mathrm { { \\scriptstyle { I I } } . } } } } } } \\\\ & { \\mathrm { \\phantom { \\mathrm { \\Delta \\ a } } } { \\mathrm { B p e } \\mathrm { \\ a n \\ } \\mathrm { { v e p e n } \\mathrm { { \\scriptstyle { H } H \\mathrm { e } \\, \\mathrm { { H } \\bar { \\mathrm { { H } } \\bar { \\mathrm { { H } } \\bar { \\mathrm { { \\scriptstyle { \\cal { H } } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { 7 } } \\bar { \\mathrm { { \\scriptstyle { 1 0 } } } \\bar { \\mathrm { { \\scriptstyle { 1 } } \\bar { \\cal { 1 } } } } } } } } } } } } } } } } } = 2 \\tau = 1 \\ \\mathrm { c \\ s u } \\mathrm { { \\scriptstyle \\mathrm { { \\cal { H } \\, \\mathrm { { u } \\ r u } \\mathrm { { \\scriptstyle { \\cal { u } } \\mathrm { { \\cal { u } } \\ r u } \\mathrm { \\ r u } \\mathrm { { \\scriptstyle { \\cal { v } \\ r u } \\mathrm { \\scriptstyle { { \\cal { 1 } } } } } } } } } } } } \\ \\end{array}",
+            "text_fallback": "r l & \\ u n p u R a \\ n o n o c r \\ o n \\ o n \\ o n \\ r p a \\\\ & B = 1 0 \\ o \\ r u \\ ( R e \\ 6 o n e e ) \\, B \\ H a n a 3 o n e \\ o r \\ 1 0 \\, H 0 \\, H o \\ 2 0 0 \\, I I . \\\\ & B = 5 0 \\ o \\ r H \\ 6 \\, 0 0 \\, e e \\ B \\ H a n 3 \\, o H e \\ o r \\ 2 0 0 \\, H o \\, 2 0 0 0 \\, I I . \\\\ & \\ a B p e \\ a n \\ v e p e n H H e \\, H H H H H 7 1 0 1 1 = 2 = 1 \\ c \\ s u H \\, u \\ r u u u \\ r u \\ r u v \\ r u 1 \\",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 75,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 160.88,
+            "y1": 628.88,
+            "x2": 531.04,
+            "y2": 657.04
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=R = .--- или ----- Гц/σ максимум, β зависимости от того, что меньше.",
+              "pylatexenc_ok",
+              "preview_wh=1053x103",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathop { \\mathrm { R = -- } } _ { \\begin{array} { c } { { \\mathrm { 4 \\tau r } } } \\\\ { { \\mathrm { - -- } \\, \\mathrm { H } \\mathrm { \\cal I \\! H } } } \\\\ { { \\mathrm { 4 \\tau } } } \\end{array} } ^ { \\ ( \\mathrm { P I c )  Z } } \\mathop { \\mathrm { T u / c \\ u a k c H M y M , ~ B \\ 3 a B H c H M O C T H \\ O T \\ T O T 0 , ~ \\mathrm { q } \\mathrm { T o \\ u e H z m e . } } }",
+            "latex": "\\mathop { \\mathrm { R = -- } } _ { \\begin{array} { c } { { \\mathrm { 4 \\tau r } } } \\\\ { { \\mathrm { - -- } \\, \\mathrm { H } \\mathrm { \\cal I \\! H } } } \\\\ { { \\mathrm { 4 \\tau } } } \\end{array} } ^ { \\ ( \\mathrm { P I c ) Z } } \\mathop { \\mathrm { T u / c \\ u a k c H M y M , ~ B \\ 3 a B H c H M O C T H \\ O T \\ T O T 0 , ~ \\mathrm { q } \\mathrm { T o \\ u e H z m e . } } }",
+            "text_fallback": "R = -- c 4 r \\\\ - -- \\, H I \\! H \\\\ 4 ** \\ ( P I c ) Z T u / c \\ u a k c H M y M , ~ B \\ 3 a B H c H M O C T H \\ O T \\ T O T 0 , ~ q T o \\ u e H z m e .",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 76,
+      "summary": {
+        "page": 76,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 77,
+      "summary": {
+        "page": 77,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 78,
+      "summary": {
+        "page": 78,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 79,
+      "summary": {
+        "page": 79,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 80,
+      "summary": {
+        "page": 80,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 81,
+      "summary": {
+        "page": 81,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 82,
+      "summary": {
+        "page": 82,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8744222689075629,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 61.16,
+            "y1": 226.04,
+            "x2": 516.28,
+            "y2": 284.08
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 82,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.16,
+            "y1": 226.04,
+            "x2": 516.28,
+            "y2": 284.08
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=12",
+              "text=Испытание 1: φ = 11 Гц | φ2 = 19,9 | φ3 = 35,5 | φ4 = 63,9 | Испытание 2: φ = 13,4 Гц | φ2 = 24 | φ3 = 43,4 | φ4 = 77,8 | Испытание 3: φ = 16,3 Гц | φ2 = 29,2 | φ3 = 52,5 | φ4 = 94,9",
+              "pylatexenc_ok",
+              "preview_wh=1289x186",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\begin{array} { r l r l r l r l } & { { \\mathrm { H e r r r r a n n e ~ l : ~ f _ { 1 } = 1 1 ~ r u } } } & & { \\qquad } & & { \\ f _ { 2 } = 1 9 , 9 } & & { \\qquad } & { \\ f _ { 3 } = 3 5 , 5 } & { \\qquad \\qquad } & { \\ f _ { 4 } = 6 3 , 9 } \\\\ & { { \\mathrm { H e r r r r a n n e ~ 2 : ~ f _ { 1 } = 1 3 , 4 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 4 } & & { \\qquad } & { \\ f _ { 3 } = 4 3 , 4 } & & { \\qquad } & { \\ f _ { 4 } = 7 7 , 8 } \\\\ & { { \\mathrm { H e r n a r r a n n e ~ 3 : ~ f _ { 1 } = 1 6 , 3 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 9 , 2 } & & { \\qquad } & { \\ f _ { 3 } = 5 2 , 5 } & & { \\qquad } & { \\ f _ { 4 } = 9 4 , 9 } \\end{array} }",
+            "latex": "{ \\begin{array} { r l r l r l r l } & { { \\mathrm { H e r r r r a n n e ~ l : ~ f _ { 1 } = 1 1 ~ r u } } } & & { \\qquad } & & { \\ f _ { 2 } = 1 9 , 9 } & & { \\qquad } & { \\ f _ { 3 } = 3 5 , 5 } & { \\qquad \\qquad } & { \\ f _ { 4 } = 6 3 , 9 } \\\\ & { { \\mathrm { H e r r r r a n n e ~ 2 : ~ f _ { 1 } = 1 3 , 4 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 4 } & & { \\qquad } & { \\ f _ { 3 } = 4 3 , 4 } & & { \\qquad } & { \\ f _ { 4 } = 7 7 , 8 } \\\\ & { { \\mathrm { H e r n a r r a n n e ~ 3 : ~ f _ { 1 } = 1 6 , 3 ~ r u } } } & & { \\qquad } & { \\ f _ { 2 } = 2 9 , 2 } & & { \\qquad } & { \\ f _ { 3 } = 5 2 , 5 } & & { \\qquad } & { \\ f _ { 4 } = 9 4 , 9 } \\end{array} }",
+            "text_fallback": "r l r l r l r l & H e r r r r a n n e ~ l : ~ f 1 = 1 1 ~ r u & & & & \\ f 2 = 1 9 , 9 & & & \\ f 3 = 3 5 , 5 & & \\ f 4 = 6 3 , 9 \\\\ & H e r r r r a n n e ~ 2 : ~ f 1 = 1 3 , 4 ~ r u & & & \\ f 2 = 2 4 & & & \\ f 3 = 4 3 , 4 & & & \\ f 4 = 7 7 , 8 \\\\ & H e r n a r r a n n e ~ 3 : ~ f 1 = 1 6 , 3 ~ r u & & & \\ f 2 = 2 9 , 2 & & & \\ f 3 = 5 2 , 5 & & & \\ f 4 = 9 4 , 9",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 83,
+      "summary": {
+        "page": 83,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.24568039574830078,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 55.8,
+            "y1": 29.16,
+            "x2": 480.59999999999997,
+            "y2": 802.0799999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 83,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 55.8,
+            "y1": 29.16,
+            "x2": 480.59999999999997,
+            "y2": 802.0799999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.24568039574830078,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0083_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.24568039574830078,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 84,
+      "summary": {
+        "page": 84,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 54.839999999999996,
+            "y1": 256.8,
+            "x2": 548.52,
+            "y2": 344.03999999999996
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 84,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 54.839999999999996,
+            "y1": 256.8,
+            "x2": 548.52,
+            "y2": 344.03999999999996
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7321428571428571,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=6",
+              "cols=7",
+              "numeric_ratio=0.44",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.732",
+              "rows=7 cols=8 consistency=1.00 meaningful=0.46",
+              "span_cols=8",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "|  |  |  | оборудова- |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| fi | NMxFM |  | НИЯ |  |  |  |  |\n|  |  | NMxFM | NMxFM |  | NMxFM | NMxFM | NMxFM |\n| f2 | 2xNMxFM | 2xNMxFM | 2xNMxFM |  | 2xNMxFM | 2xNMxFM |  |\n| f3 |  | NTxFT |  | FE |  |  | 2xNMxFM |\n| f4 |  | 2xNTxFT |  |  |  | FE | NTxFT |\n|  |  |  |  | FG |  | FG | 2xNTxFT |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 8,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7321428571428571,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 85,
+      "summary": {
+        "page": 85,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 2,
+        "n_figures": 0,
+        "table_ok": 2,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 59.519999999999996,
+            "y1": 161.4,
+            "x2": 416.03999999999996,
+            "y2": 314.52
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 53.4,
+            "y1": 455.15999999999997,
+            "x2": 416.4,
+            "y2": 609.0
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 85,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 59.519999999999996,
+            "y1": 161.4,
+            "x2": 416.03999999999996,
+            "y2": 314.52
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9107142857142857,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=4",
+              "numeric_ratio=0.85",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.911",
+              "rows=7 cols=4 consistency=1.00 meaningful=0.82",
+              "span_cols=4",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "| тательных час- |  |  | Уровни испытаний на синусоидальную вибрацию An (g-PK) 2) |\n| --- | --- | --- | --- |\n| To, (1)) | G | H | I |\n| 3 <fn< 10 | 0,04 x fn | 0,05 x fn | 0,08 x fn |\n| 10 <fn< 20 | 0,04 x fn | 0,05 x fn | 0,08 x fn |\n| 20 <fn< 40 | 0,04 x fn | 0,05 x fn | 0,08 x fn |\n| 40 <fn< 200 | 1,6 | 2,5 | 0,08 x fn |\n| 200 <fn<2000 |  |  |  |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9107142857142857,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 85,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 53.4,
+            "y1": 455.15999999999997,
+            "x2": 416.4,
+            "y2": 609.0
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9285714285714285,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=6",
+              "numeric_ratio=0.85",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.929",
+              "rows=7 cols=2 consistency=1.00 meaningful=0.86",
+              "span_cols=2",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "| тательных час- |  |\n| --- | --- |\n| ToT, (1)) G | H I |\n| 3 <fn< 10 0,05 x fn | 0,07 x fn 0,1 x fn |\n| 10 <fn< 20 $(0,2 ξ fn)-1,5$ | $(0,28 ξ fn)-2,1$ $(0,3 ξ fn)-2$ |\n| 20 <fn< 40 2,5 | 3,5 4,00 |\n| 40 <fn< 200 2,5 | 3,5 (0,1 x fn) |\n| 200 <fn< 2000 |  |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 2,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9285714285714285,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 86,
+      "summary": {
+        "page": 86,
+        "n_detections": 3,
+        "n_formulas": 1,
+        "n_tables": 1,
+        "n_figures": 1,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 218.12,
+            "y1": 51.44,
+            "x2": 315.76,
+            "y2": 145.12
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.5737198945088428,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 145.44,
+            "y1": 166.32,
+            "x2": 519.12,
+            "y2": 545.04
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 71.75999999999999,
+            "y1": 581.88,
+            "x2": 533.4,
+            "y2": 684.9599999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 86,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 218.12,
+            "y1": 51.44,
+            "x2": 315.76,
+            "y2": 145.12
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=G RMS B2 0.74 B 1.48 B3 1.56 C 4.12 D 8.92 E 7.94",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=296x285",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { \\left[ \\begin{array} { l l } { \\mathrm { K p } \\mathtt { M B a r } } & { \\right] \\mathtt { G } _ { \\mathtt { R M S } } } \\\\ { \\mathtt { B } } & { \\left[ \\begin{array} { l l } { \\mathtt { D } _ { 2 } } & { \\right] \\mathtt { O } _ { \\mathtt { N M S } } } \\\\ { \\mathtt { D } } & { 1 . 4 8 } \\\\ { \\mathtt { B } _ { 3 } } & { 1 . 5 6 } \\\\ { \\mathtt { C } } & { 1 . 1 6 } \\\\ { \\mathtt { D } } & { \\mathtt { A } _ { 3 } \\mathtt { D } _ { 2 } } \\end{array} \\right] } { \\left[ \\begin{array} { l } { \\mathtt { X p } \\\\ { \\mathtt { C } } } \\\\ { \\mathtt { D } } \\\\ { \\mathtt { E } } \\end{array} \\right] \\mathtt { M } }",
+            "latex": "\\frac { \\left[ \\begin{array} { l l } { \\mathrm { K p } \\mathtt { M B a r } } & { \\right] \\mathtt { G } _ { \\mathtt { R M S } } } \\\\ { \\mathtt { B } } & { \\left[ \\begin{array} { l l } { \\mathtt { D } _ { 2 } } & { \\right] \\mathtt { O } _ { \\mathtt { N M S } } } \\\\ { \\mathtt { D } } & { 1 . 4 8 } \\\\ { \\mathtt { B } _ { 3 } } & { 1 . 5 6 } \\\\ { \\mathtt { C } } & { 1 . 1 6 } \\\\ { \\mathtt { D } } & { \\mathtt { A } _ { 3 } \\mathtt { D } _ { 2 } } \\end{array} \\right] } { \\left[ \\begin{array} { l } { \\mathtt { X p } \\\\ { \\mathtt { C } } } \\\\ { \\mathtt { D } } \\\\ { \\mathtt { E } } \\end{array} \\right] \\mathtt { M } } } \\end{array}",
+            "text_fallback": "[ l l K p M B a r & ] G R M S \\\\ B & [ l l D 2 & ] O N M S \\\\ D & 1 . 4 8 \\\\ B 3 & 1 . 5 6 \\\\ C & 1 . 1 6 \\\\ D & A 3 D 2 ] [ l X p \\\\ C \\\\ D \\\\ E ] M",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 86,
+          "region_id": "figure_01",
+          "type": "figure",
+          "bbox": {
+            "x1": 145.44,
+            "y1": 166.32,
+            "x2": 519.12,
+            "y2": 545.04
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.5737198945088428,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0086_figure_01.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.5737198945088428,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 86,
+          "region_id": "table_02",
+          "type": "table",
+          "bbox": {
+            "x1": 71.75999999999999,
+            "y1": 581.88,
+            "x2": 533.4,
+            "y2": 684.9599999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.875,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=8",
+              "cols=7",
+              "numeric_ratio=0.92",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.875",
+              "rows=8 cols=7 consistency=1.00 meaningful=0.75",
+              "span_cols=7",
+              "span_rows=8"
+            ]
+          },
+          "content": {
+            "markdown": "|  | 10 28 | 31 40 | Испытательные уровни для характерных частот в точках изменения частот на испытательных кривых |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| B2 | 0.003 |  | 51.7 | 100 200 | 250 500 | 2000 |\n| B | 0.012 | 0.003 |  | 0.0005 | 0.0005 | 0.000032 |\n| B3 | 0.020 | 0.012 |  | 0.002 | 0.002 | 0.00013 |\n| C |  | 0.020 |  | 0.002 | 0.002 | 0.00013 |\n|  | 0.012 | 0.012 | 0.020 |  | 0.020 | 0.00126 |\n| D | 0.020 0.020 | 0.040 |  |  | 0.040 0.080 | 0.020 |\n| E | 0.020 0.020 | 0.040 |  | 0.040 0.080 | 0.080 | 0.00505 |",
+            "html": "",
+            "n_rows": 8,
+            "n_cols": 7,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.875,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 87,
+      "summary": {
+        "page": 87,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 3,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8500000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 345.56,
+            "y1": 125.6,
+            "x2": 410.8,
+            "y2": 149.07999999999998
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7428571428571429,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 230.35999999999999,
+            "y1": 174.2,
+            "x2": 283.36,
+            "y2": 197.68
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8500000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 131.0,
+            "y1": 264.56,
+            "x2": 183.28,
+            "y2": 288.4
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 87,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 345.56,
+            "y1": 125.6,
+            "x2": 410.8,
+            "y2": 149.07999999999998
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=2Α=0,26 MD1",
+              "pylatexenc_ok",
+              "preview_wh=206x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "2 A = 0 . 2 6 \\cdot \\min",
+            "latex": "2 A = 0 . 2 6 \\cdot \\min",
+            "text_fallback": "2 A = 0 . 2 6",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 87,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 230.35999999999999,
+            "y1": 174.2,
+            "x2": 283.36,
+            "y2": 197.68
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=2Α=1 NDI",
+              "pylatexenc_ok",
+              "preview_wh=172x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "2 { \\mathrm { A } } { = } 1 \\, { \\mathrm { n m } } \\,",
+            "latex": "2 { \\mathrm { A } } { = } 1 \\, { \\mathrm { n m } } \\,",
+            "text_fallback": "2 A = 1 \\, n m \\,",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 87,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 131.0,
+            "y1": 264.56,
+            "x2": 183.28,
+            "y2": 288.4
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=2Α=2,6Μ",
+              "pylatexenc_ok",
+              "preview_wh=170x91"
+            ]
+          },
+          "content": {
+            "latex_raw": "2 A = 2 . 6 \\pi",
+            "latex": "2 A = 2 . 6 \\pi",
+            "text_fallback": "2 A = 2 . 6",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 88,
+      "summary": {
+        "page": 88,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 89,
+      "summary": {
+        "page": 89,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7300000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 38.839999999999996,
+            "y1": 133.16,
+            "x2": 64.12,
+            "y2": 313.24
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 89,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 38.839999999999996,
+            "y1": 133.16,
+            "x2": 64.12,
+            "y2": 313.24
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=(IS = Ξ",
+              "pylatexenc_ok",
+              "preview_wh=95x525"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 4 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\end{array}",
+            "latex": "\\begin{array} { r l } { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 4 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\\\ { \\frac { \\widetilde { \\lambda } } { 2 } } & { { } = 0 } \\end{array}",
+            "text_fallback": "r l 2 & = \\\\ 2 & = 0 \\\\ 4 & = 0 \\\\ 2 & = 0 \\\\ 2 & = 0 \\\\ 2 & = 0 \\\\ 2 & = 0 \\\\ 2 & = 0 \\\\ 2 & = 0 \\\\ 2 & = 0 \\\\ 2 & = 0",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 90,
+      "summary": {
+        "page": 90,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 1,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.5203605730560149,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 151.92,
+            "y1": 164.51999999999998,
+            "x2": 510.84,
+            "y2": 497.52
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 72.84,
+            "y1": 554.52,
+            "x2": 551.4,
+            "y2": 652.1999999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 90,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 151.92,
+            "y1": 164.51999999999998,
+            "x2": 510.84,
+            "y2": 497.52
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.5203605730560149,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0090_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.5203605730560149,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 90,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 72.84,
+            "y1": 554.52,
+            "x2": 551.4,
+            "y2": 652.1999999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8515625,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=7",
+              "cols=8",
+              "numeric_ratio=1.00",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.852",
+              "rows=8 cols=8 consistency=1.00 meaningful=0.70",
+              "span_cols=8",
+              "span_rows=8"
+            ]
+          },
+          "content": {
+            "markdown": "|  | 10 |  |  | Испытательные уровни для характерных частот в точках изменения частот на испытательных кривых |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  | 28 | 31 40 | 51.7 | 100 200 | 250 500 | 2000 |\n| B12 | 0.012 |  | 0.012 |  | 0.002 | 0.002 | 0.00013 |\n| B1 | 0.024 | 0.024 |  |  | 0.004 | 0.004 | 0.00020 |\n| B4 | 0.040 | 0.040 |  |  | 0.004 | 0.004 | 0.00026 |\n| C1 | 0.024 |  | 0.024 | 0.040 |  | 0.040 | 0.0026 |\n| D1 | 0.040 | 0.040 | 0.080 |  |  | 0.080 0.160 | 0.040 |\n| E1 | 0.040 | 0.040 | 0.080 |  | 0.080 0.160 | 0.160 | 0.011 |",
+            "html": "",
+            "n_rows": 8,
+            "n_cols": 8,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8515625,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 91,
+      "summary": {
+        "page": 91,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8982142857142857,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 197.23999999999998,
+            "y1": 187.51999999999998,
+            "x2": 425.91999999999996,
+            "y2": 223.6
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 91,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 197.23999999999998,
+            "y1": 187.51999999999998,
+            "x2": 425.91999999999996,
+            "y2": 223.6
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=2",
+              "text=±2.5 γ- | ±12 γ-K",
+              "pylatexenc_ok",
+              "preview_wh=660x125",
+              "semantic_reason=no_math_markers"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\cdots",
+            "latex": "\\cdots",
+            "text_fallback": "",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 92,
+      "summary": {
+        "page": 92,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 93,
+      "summary": {
+        "page": 93,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 74.64,
+            "y1": 59.16,
+            "x2": 438.71999999999997,
+            "y2": 129.48
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 93,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 74.64,
+            "y1": 59.16,
+            "x2": 438.71999999999997,
+            "y2": 129.48
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.87625,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=3",
+              "cols=4",
+              "numeric_ratio=0.45",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.876",
+              "rows=4 cols=4 consistency=1.00 meaningful=0.81",
+              "span_cols=4",
+              "span_rows=4"
+            ]
+          },
+          "content": {
+            "markdown": "| ИСПЫТАНИЕ | ИСПЫТАТЕЛЬНАЯ | Wo | GRMS |\n| --- | --- | --- | --- |\n|  | КРИВАЯ |  |  |\n| Стандартная вибрация | F | 0,05 | 3,37 |\n| Жесткая вибрация | F1 | 0,10 | 4,76 |",
+            "html": "",
+            "n_rows": 4,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.87625,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 94,
+      "summary": {
+        "page": 94,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 95,
+      "summary": {
+        "page": 95,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 96,
+      "summary": {
+        "page": 96,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 97,
+      "summary": {
+        "page": 97,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 2,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7107142857142857,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 59.0,
+            "y1": 249.07999999999998,
+            "x2": 254.56,
+            "y2": 276.88
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7065217391304348,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 59.72,
+            "y1": 306.32,
+            "x2": 230.07999999999998,
+            "y2": 331.96
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 97,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 59.0,
+            "y1": 249.07999999999998,
+            "x2": 254.56,
+            "y2": 276.88
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=(метрическая единица) = 4.27 × 10 -",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=568x102",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathrm { ( M e r p H e c K a \\\" { \\bf G } ) } \\in \\mathrm { \\\" { \\boldmath ~ \\Gamma ~ } } \\! \\! \\! \\! \\mathrm { e m H \\\" { \\bf H } H \\\" { \\bf H } H \\! \\! \\cdot \\! \\! \\Gamma } \\! \\! \\! = 4 . 2 7 \\times 1 0 ^ { - 4 }",
+            "latex": "\\mathrm { ( M e r p H e c K a \\\" { \\bf G } ) } \\in \\mathrm { \\\" { \\boldmath ~ \\Gamma ~ } } \\! \\mathrm { e m H \\\" { \\bf H } H \\\" { \\bf H } H \\! \\! \\cdot \\! \\! \\Gamma } \\! \\! \\! = 4 . 2 7 \\times 1 0 ^ { - 4 }",
+            "text_fallback": "( M e r p H e c K a \\\" G ) \\\" ~ ~ \\! e m H \\\" H H \\\" H H \\! \\! \\! \\! \\! \\! \\! = 4 . 2 7 1 0 ** - 4",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 97,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 59.72,
+            "y1": 306.32,
+            "x2": 230.07999999999998,
+            "y2": 331.96
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=(английские меры) = 150,41 Ξ",
+              "pylatexenc_ok",
+              "preview_wh=498x96",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathrm { ( a r r \\\" { n } \\check { n } c x \\\" { n } e \\ n e p b r I ) } = 1 5 0 , \\4 1 \\mathrm { ~ X ~ } -",
+            "latex": "\\mathrm { ( a r r \\\" { n } \\check { n } c x \\\" { n } e \\ n e p b r I ) } = 1 5 0 , \\4 1 \\mathrm { ~ X ~ } -",
+            "text_fallback": "( a r r \\\" n n c x \\\" n e \\ n e p b r I ) = 1 5 0 , \\4 1 ~ X ~ -",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 98,
+      "summary": {
+        "page": 98,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 99,
+      "summary": {
+        "page": 99,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 101,
+      "summary": {
+        "page": 101,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 102,
+      "summary": {
+        "page": 102,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 122.36,
+            "y1": 181.4,
+            "x2": 202.72,
+            "y2": 220.0
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 102,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 122.36,
+            "y1": 181.4,
+            "x2": 202.72,
+            "y2": 220.0
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=P B E",
+              "pylatexenc_ok",
+              "preview_wh=248x132"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { \\rho } { \\textrm { s } } = \\rho _ { E } ^ { j }",
+            "latex": "\\frac { \\rho } { \\textrm { s } } = \\rho _ { E } ^ { j }",
+            "text_fallback": "s = E ** j",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 103,
+      "summary": {
+        "page": 103,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.31481550155367705,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 115.56,
+            "y1": 72.0,
+            "x2": 444.24,
+            "y2": 523.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 103,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 115.56,
+            "y1": 72.0,
+            "x2": 444.24,
+            "y2": 523.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.31481550155367705,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0103_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.31481550155367705,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 104,
+      "summary": {
+        "page": 104,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.6228521701817274,
+          "method": "nontext_ink_cc",
+          "bbox": {
+            "x1": 104.39999999999999,
+            "y1": 176.4,
+            "x2": 423.71999999999997,
+            "y2": 616.68
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 104,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 104.39999999999999,
+            "y1": 176.4,
+            "x2": 423.71999999999997,
+            "y2": 616.68
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.6228521701817274,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "",
+            "crop_path": "data\\cache\\figures\\КТ-160G-14G (Книга I)_compressed\\p0104_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "crop_only",
+            "confidence": 0.6228521701817274,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 105,
+      "summary": {
+        "page": 105,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 106,
+      "summary": {
+        "page": 106,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 107,
+      "summary": {
+        "page": 107,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 32.879999999999995,
+            "y1": 60.599999999999994,
+            "x2": 565.0799999999999,
+            "y2": 146.04
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 107,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 32.879999999999995,
+            "y1": 60.599999999999994,
+            "x2": 565.0799999999999,
+            "y2": 146.04
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7916666666666667,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=6",
+              "numeric_ratio=0.33",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.792",
+              "rows=6 cols=6 consistency=1.00 meaningful=0.58",
+              "span_cols=6",
+              "span_rows=6"
+            ]
+          },
+          "content": {
+            "markdown": "| тепловой |  | стабилизации (минимум 3 часа). В |  | течение того же времени в камере 2 | температура |\n| --- | --- | --- | --- | --- | --- |\n| должна |  | стабилизироваться на уровне | 40 °C, | а относительная влажность на уровне 8 | 85%. После |\n| трехчасовой | стабилизации | перенести |  | оборудование в камеру 2 в пределах пятиминутного |  |\n|  |  |  | интервала. Смонтировать в камере 2 оборудование со всеми подключенными соединителями и |  |  |\n| всей | арматурой, включая |  | вентиляцию, в соответствии | инструкцией | изготовителя c |\n|  |  |  | максимальной задержкой 5 мин. Включить оборудование и обеспечить его функционирование |  | B |",
+            "html": "",
+            "n_rows": 6,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7916666666666667,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 108,
+      "summary": {
+        "page": 108,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 109,
+      "summary": {
+        "page": 109,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 110,
+      "summary": {
+        "page": 110,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 111,
+      "summary": {
+        "page": 111,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 112,
+      "summary": {
+        "page": 112,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 113,
+      "summary": {
+        "page": 113,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 114,
+      "summary": {
+        "page": 114,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 115,
+      "summary": {
+        "page": 115,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 116,
+      "summary": {
+        "page": 116,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 117,
+      "summary": {
+        "page": 117,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 118,
+      "summary": {
+        "page": 118,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.9181818181818182,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 48.919999999999995,
+            "y1": 71.96,
+            "x2": 135.4,
+            "y2": 99.75999999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 118,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 48.919999999999995,
+            "y1": 71.96,
+            "x2": 135.4,
+            "y2": 99.75999999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=(1,1±0,3) ρ/Μ3 .",
+              "pylatexenc_ok",
+              "preview_wh=265x102",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathbf { M O X e T \\; \\; B O 3 } \\underline { { { H } } } \\mathbf { e } \\mathbf { \\breve { H } } \\mathbf { C } \\mathbf { T } , } } \\\\ { { \\mathbf { ( } 1 , 1 { \\pm } 0 , 3 ) \\; \\Gamma / \\mathbf { M } ^ { 3 } \\ . } } \\\\ { { \\mathbf { ( 4 ) } \\; \\; \\Pi \\mathbf { e c o K \\; \\; B } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathbf { M O X e T \\; \\; B O 3 } \\underline { { { H } } } \\mathbf { e } \\mathbf { \\breve { H } } \\mathbf { C } \\mathbf { T } , } } \\\\ { { \\mathbf { ( } 1 , 1 { \\pm } 0 , 3 ) \\; \\Gamma / \\mathbf { M } ^ { 3 } \\ . } } \\\\ { { \\mathbf { ( 4 ) } \\; \\; \\Pi \\mathbf { e c o K \\; \\; B } } } \\end{array}",
+            "text_fallback": "c M O X e T \\; \\; B O 3 H e H C T , \\\\ ( 1 , 1 0 , 3 ) \\; / M ** 3 \\ . \\\\ ( 4 ) \\; \\; e c o K \\; \\; B",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 119,
+      "summary": {
+        "page": 119,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 120,
+      "summary": {
+        "page": 120,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 121,
+      "summary": {
+        "page": 121,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 122,
+      "summary": {
+        "page": 122,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 123,
+      "summary": {
+        "page": 123,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 124,
+      "summary": {
+        "page": 124,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6645454545454546,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 68.0,
+            "y1": 237.56,
+            "x2": 442.84,
+            "y2": 264.64
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 163.04,
+            "y1": 400.64,
+            "x2": 218.56,
+            "y2": 422.32
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 124,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 68.0,
+            "y1": 237.56,
+            "x2": 442.84,
+            "y2": 264.64
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=чтобы полученная споровая суспензия содержала 1000000 ± 200000",
+              "spacing_collapsed",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=1066x100",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { { I I p O M B I T B I \\bar { H } ~ \\; o c a \\; \\! A O G \\; \\; p a 3 6 \\; \\! \\mathrm { { B H B I O T } \\; \\; C T e p u T b H s H s I \\; \\; p a c T B O p o M \\; \\; M H H e p a I n E I \\; \\; } } } } \\\\ & { \\mathrm { { \\; q T o G \\; \\! \\mathrm { { B H } \\; \\; n o 2 0 \\; \\mathrm { { B H a } \\; \\; c h o p o B a 2 6 \\; \\; c y c I n e H 3 H 8 \\; \\; c o n e p i x a I n a \\; \\; 1 0 0 0 0 0 0 \\; \\; \\! \\Delta ^ { 2 } \\; \\! \\; 2 0 0 0 0 0 \\; \\; c I I \\; \\; } } } } \\\\ & { \\mathrm { { \\; o n p e \\; \\! \\; \\! A e \\; \\! \\mathrm { { n o r } \\; \\; \\; \\; c u e T n o \\; \\; \\; \\; K a n e p o \\; \\! \\mathrm { { B 4 } \\; \\; \\; \\; \\; I I o s \\; \\mathrm { { T o p a r o r } \\; \\; \\; 3 T V \\; \\; \\; \\; o n e p a I n H s \\; \\; \\; \\; \\; \\; } } } } } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\mathrm { { I I p O M B I T B I \\bar { H } ~ \\; o c a \\; \\! A O G \\; \\; p a 3 6 \\; \\! \\mathrm { { B H B I O T } \\; \\; C T e p u T b H s H s I \\; \\; p a c T B O p o M \\; \\; M H H e p a I n E I \\; \\; } } } } \\\\ & { \\mathrm { { \\; q T o G \\; \\! \\mathrm { { B H } \\; \\; n o 2 0 \\; \\mathrm { { B H a } \\; \\; c h o p o B a 2 6 \\; \\; c y c I n e H 3 H 8 \\; \\; c o n e p i x a I n a \\; \\; 1 0 0 0 0 0 0 \\; \\; \\! \\Delta ^ { 2 } \\; \\! \\; 2 0 0 0 0 0 \\; \\; c I I \\; \\; } } } } \\\\ & { \\mathrm { { \\; o n p e \\; \\! \\; \\! A e \\; \\! \\mathrm { { n o r } \\; c u e T n o \\; K a n e p o \\; \\! \\mathrm { { B 4 } \\; I I o s \\; \\mathrm { { T o p a r o r } \\; \\; \\; 3 T V \\; o n e p a I n H s \\; } } } } } \\end{array} } }",
+            "text_fallback": "r l & I I p O M B I T B I H ~ \\; o c a \\; \\! A O G \\; \\; p a 3 6 \\; \\! B H B I O T \\; \\; C T e p u T b H s H s I \\; \\; p a c T B O p o M \\; \\; M H H e p a I n E I \\; \\; \\\\ & \\; q T o G \\; \\! B H \\; \\; n o 2 0 \\; B H a \\; \\; c h o p o B a 2 6 \\; \\; c y c I n e H 3 H 8 \\; \\; c o n e p i x a I n a \\; \\; 1 0 0 0 0 0 0 \\; \\; \\! ** 2 \\; \\! \\; 2 0 0 0 0 0 \\; \\; c I I \\; \\; \\\\ & \\; o n p e \\; \\! \\; \\! A e \\; \\! n o r \\; c u e T n o \\; K a n e p o \\; \\! B 4 \\; I I o s \\; T o p a r o r \\; \\; \\; 3 T V \\; o n e p a I n H s \\;",
+            "status": "caption_or_header",
+            "text": "чтобы полученная споровая суспензия содержала 1000000 ± 200000"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 124,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 163.04,
+            "y1": 400.64,
+            "x2": 218.56,
+            "y2": 422.32
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=± 3000",
+              "pylatexenc_ok",
+              "preview_wh=179x85",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { ^ { \\mathrm { ~ m ~ } ~ \\mathbf { c y c u e n s a n } } } \\\\ { 0 0 \\pm \\, 3 0 0 0 \\, \\, \\mathbf { c } . } \\\\ { \\mathbf { a } \\, \\, 3 0 \\, \\mathbf { r m } . } \\end{array}",
+            "latex": "\\begin{array} { c } { ^ { \\mathrm { ~ m ~ } ~ \\mathbf { c y c u e n s a n } } } \\\\ { 0 0 \\pm \\, 3 0 0 0 \\, \\, \\mathbf { c } . } \\\\ { \\mathbf { a } \\, \\, 3 0 \\, \\mathbf { r m } . } \\end{array}",
+            "text_fallback": "c ** ~ m ~ ~ c y c u e n s a n \\\\ 0 0 \\, 3 0 0 0 \\, \\, c . \\\\ a \\, \\, 3 0 \\, r m .",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 125,
+      "summary": {
+        "page": 125,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 126,
+      "summary": {
+        "page": 126,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 127,
+      "summary": {
+        "page": 127,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 128,
+      "summary": {
+        "page": 128,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 129,
+      "summary": {
+        "page": 129,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 130,
+      "summary": {
+        "page": 130,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 192.92,
+            "y1": 565.16,
+            "x2": 237.64,
+            "y2": 587.56
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 130,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 192.92,
+            "y1": 565.16,
+            "x2": 237.64,
+            "y2": 587.56
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=(±1%)",
+              "pylatexenc_ok",
+              "preview_wh=149x87",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\scriptstyle { \\mathrm { ~ \\forall , e \\in ~ \\cup , \\sigma / 0 ~ } } } \\\\ { \\displaystyle { \\check { \\boldsymbol { H } } } \\, \\, \\left( \\pm 1 \\% \\right) \\, \\, \\boldsymbol { \\mathrm { p } } } \\\\ { \\displaystyle { \\mathrm { \\Pi } } _ { \\mathrm { { D O B 3 H H G T } } } \\, \\, \\times \\, \\boldsymbol { \\mathrm { \\Pi } } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\scriptstyle { \\mathrm { ~ \\forall , e \\in ~ \\cup , \\sigma / 0 ~ } } } \\\\ { \\displaystyle { \\check { \\boldsymbol { H } } } \\, \\, \\left( \\pm 1 \\% \\right) \\, \\, \\boldsymbol { \\mathrm { p } } } \\\\ { \\displaystyle { \\mathrm { \\Pi } } _ { \\mathrm { { D O B 3 H H G T } } } \\, \\, \\times \\, \\boldsymbol { \\mathrm { \\Pi } } } \\end{array}",
+            "text_fallback": "l ~ , e ~ , / 0 ~ \\\\ H \\, \\, ( 1 \\% ) \\, \\, p \\\\ D O B 3 H H G T \\, \\, \\,",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 131,
+      "summary": {
+        "page": 131,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 132,
+      "summary": {
+        "page": 132,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 133,
+      "summary": {
+        "page": 133,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 134,
+      "summary": {
+        "page": 134,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 135,
+      "summary": {
+        "page": 135,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 136,
+      "summary": {
+        "page": 136,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 137,
+      "summary": {
+        "page": 137,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 138,
+      "summary": {
+        "page": 138,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 139,
+      "summary": {
+        "page": 139,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 140,
+      "summary": {
+        "page": 140,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 141,
+      "summary": {
+        "page": 141,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8200000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 216.32,
+            "y1": 164.12,
+            "x2": 261.4,
+            "y2": 183.28
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 141,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 216.32,
+            "y1": 164.12,
+            "x2": 261.4,
+            "y2": 183.28
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=EH ≥ 95%",
+              "pylatexenc_ok",
+              "preview_wh=150x78"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathtt { R H } \\cong \\mathcal { G } \\mathbb { S } \\% } \\\\ { \\mathfrak { N } ^ { \\ast } \\bar { \\mathfrak { C } } ^ { \\ast } } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathtt { R H } \\cong \\mathcal { G } \\mathbb { S } \\% } \\\\ { \\mathfrak { N } ^ { \\ast } \\bar { \\mathfrak { C } } ^ { \\ast } } \\end{array}",
+            "text_fallback": "r R H G S \\% \\\\ N ** C **",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "КТ-160G-14G (Книга I)_compressed",
+      "page": 142,
+      "summary": {
+        "page": 142,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8714285714285714,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 237.92,
+            "y1": 102.56,
+            "x2": 286.24,
+            "y2": 124.24
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "КТ-160G-14G (Книга I)_compressed",
+          "page": 142,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 237.92,
+            "y1": 102.56,
+            "x2": 286.24,
+            "y2": 124.24
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=RH = 95>4",
+              "prose_like",
+              "retry_upscale",
+              "prose_like",
+              "preview_wh=159x85"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathtt { R A } : \\! s \\, S \\! S ; \\! } } \\\\ { { , \\dots \\! = \\! \\dots \\! } } \\end{array} , \\dots",
+            "latex": "\\begin{array} { c } { { \\mathtt { R A } : \\! s \\, S \\! S ; \\! } } \\\\ { { , \\dots \\! = \\! \\dots \\! } } \\end{array} , \\dots",
+            "text_fallback": "c R A : \\! s \\, S \\! S ; \\! \\\\ , \\! = \\! \\! ,",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1542 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T10:20:23.383021Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=1
+python.exe : [INFO] 2026-09-24 13:20:24,309 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+строка:22 знак:9
++         & $PythonMain @cmdArgs 2>&1 | Out-File -FilePath $log -Encodi ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-09-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-09-24 13:20:24,457 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:20:24,528 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:24,528 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:20:24,606 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:24,606 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_re
+c_mobile.onnx
+[INFO] 2026-09-24 13:20:27,179 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:27,179 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:20:27,269 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:27,269 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:20:27,351 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:27,352 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_m
+obile.onnx
+[INFO] 2026-09-24 13:20:30,088 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:30,088 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 13:20:30,159 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:30,161 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 13:20:30,226 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 13:20:30,226 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobi
+le.onnx
+2026-09-24T10:20:32.921366Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=2
+2026-09-24T10:20:38.149478Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=3
+2026-09-24T10:20:41.698273Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=4
+2026-09-24T10:20:41.819353Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=5
+2026-09-24T10:20:41.920303Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=6
+2026-09-24T10:20:42.003641Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=7
+2026-09-24T10:20:42.086527Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=8
+2026-09-24T10:20:42.166233Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=9
+2026-09-24T10:20:42.296981Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=10
+2026-09-24T10:20:42.434237Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=11
+2026-09-24T10:20:42.514234Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=12
+2026-09-24T10:20:42.597312Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=13
+2026-09-24T10:20:42.680288Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=14
+2026-09-24T10:20:42.755396Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=15
+2026-09-24T10:20:42.852230Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=16
+2026-09-24T10:20:42.972061Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=17
+2026-09-24T10:20:57.947500Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=18
+2026-09-24T10:21:13.521663Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=19
+2026-09-24T10:21:18.082611Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=20
+2026-09-24T10:21:18.197845Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=21
+2026-09-24T10:21:35.622710Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=22
+2026-09-24T10:21:48.828004Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=23
+2026-09-24T10:21:48.948057Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=24
+2026-09-24T10:21:56.468700Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=25
+2026-09-24T10:21:56.653296Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=26
+2026-09-24T10:21:57.648455Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=27
+2026-09-24T10:21:58.128495Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=28
+2026-09-24T10:21:58.248352Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=29
+2026-09-24T10:21:58.349545Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=30
+2026-09-24T10:21:58.439481Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=31
+2026-09-24T10:21:58.521657Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=32
+2026-09-24T10:21:58.606409Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=33
+2026-09-24T10:22:16.703850Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=34
+2026-09-24T10:22:20.305634Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=35
+2026-09-24T10:22:20.983956Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=36
+2026-09-24T10:22:26.407192Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=37
+2026-09-24T10:22:26.528331Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=38
+2026-09-24T10:22:26.639662Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=39
+2026-09-24T10:22:26.773453Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=40
+2026-09-24T10:22:35.660873Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=41
+2026-09-24T10:22:45.115690Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=42
+2026-09-24T10:22:45.225548Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=43
+2026-09-24T10:22:45.330919Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=44
+2026-09-24T10:22:47.338672Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=45
+2026-09-24T10:22:47.450730Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=46
+2026-09-24T10:22:47.555781Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=47
+2026-09-24T10:22:47.648152Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=48
+2026-09-24T10:22:47.740905Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=49
+2026-09-24T10:23:00.916904Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=50
+2026-09-24T10:23:01.052550Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=51
+2026-09-24T10:23:01.189612Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=52
+2026-09-24T10:23:02.574072Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=53
+2026-09-24T10:23:16.203686Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=54
+2026-09-24T10:23:16.332746Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=55
+2026-09-24T10:23:17.053014Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=56
+2026-09-24T10:23:17.426937Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=57
+2026-09-24T10:23:18.197236Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=58
+2026-09-24T10:23:18.296784Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=59
+2026-09-24T10:23:18.409857Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=60
+2026-09-24T10:23:18.503966Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=61
+2026-09-24T10:24:01.141446Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=62
+2026-09-24T10:24:13.230843Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=63
+2026-09-24T10:24:25.611676Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=64
+2026-09-24T10:24:25.738886Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=65
+2026-09-24T10:24:25.840786Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=66
+2026-09-24T10:24:25.981524Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=67
+2026-09-24T10:24:26.070706Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=68
+2026-09-24T10:24:28.501013Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=69
+2026-09-24T10:24:43.017596Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=70
+2026-09-24T10:24:43.122662Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=71
+2026-09-24T10:24:43.245111Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=72
+2026-09-24T10:24:43.362732Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=73
+2026-09-24T10:24:43.451771Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=74
+2026-09-24T10:24:43.546793Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=75
+2026-09-24T10:24:43.642940Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=76
+2026-09-24T10:24:52.475650Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=77
+2026-09-24T10:24:52.588307Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=78
+2026-09-24T10:24:52.714368Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=79
+2026-09-24T10:25:04.875277Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=80
+2026-09-24T10:25:13.258135Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=81
+2026-09-24T10:25:16.541081Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=82
+2026-09-24T10:25:16.677139Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=83
+2026-09-24T10:25:19.528587Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=84
+2026-09-24T10:25:19.652649Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=85
+2026-09-24T10:25:19.761261Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=86
+2026-09-24T10:25:19.847610Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=87
+2026-09-24T10:25:19.938129Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=88
+2026-09-24T10:25:20.027615Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=89
+2026-09-24T10:25:20.121470Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=90
+2026-09-24T10:25:20.214009Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=91
+2026-09-24T10:25:32.226444Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=92
+2026-09-24T10:25:32.335558Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=93
+2026-09-24T10:25:37.200673Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=94
+2026-09-24T10:25:37.335246Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=95
+2026-09-24T10:25:38.047665Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=96
+2026-09-24T10:25:38.142723Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=97
+2026-09-24T10:25:38.256399Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=98
+2026-09-24T10:25:38.348751Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=99
+2026-09-24T10:25:42.335913Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=100
+2026-09-24T10:25:44.257090Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=101
+2026-09-24T10:25:44.372161Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=102
+2026-09-24T10:25:44.481276Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=103
+2026-09-24T10:25:51.514679Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=104
+2026-09-24T10:25:51.630739Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=105
+2026-09-24T10:25:51.733795Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=106
+2026-09-24T10:25:51.883616Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=107
+2026-09-24T10:25:51.973544Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=108
+2026-09-24T10:25:52.116700Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=109
+2026-09-24T10:25:53.117474Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=110
+2026-09-24T10:25:53.260776Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=111
+2026-09-24T10:25:53.381914Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=112
+2026-09-24T10:25:54.009739Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=113
+2026-09-24T10:25:54.815867Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=114
+2026-09-24T10:25:54.946859Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=115
+2026-09-24T10:25:55.131739Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=116
+2026-09-24T10:25:58.587862Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=117
+2026-09-24T10:26:00.558743Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=118
+2026-09-24T10:26:33.602840Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=119
+2026-09-24T10:26:34.232316Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=120
+2026-09-24T10:26:34.345585Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=121
+2026-09-24T10:26:34.513485Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=122
+2026-09-24T10:26:34.651332Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=123
+2026-09-24T10:26:40.601991Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=124
+2026-09-24T10:26:40.738627Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=125
+2026-09-24T10:26:40.870842Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=126
+2026-09-24T10:26:53.851923Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=127
+2026-09-24T10:26:53.967891Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=128
+2026-09-24T10:26:54.450647Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=129
+2026-09-24T10:26:54.582756Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=130
+2026-09-24T10:26:54.713791Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=131
+2026-09-24T10:26:54.804845Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=132
+2026-09-24T10:26:54.903125Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=133
+2026-09-24T10:26:54.999666Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=134
+2026-09-24T10:27:06.281553Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=135
+2026-09-24T10:27:06.473710Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=136
+2026-09-24T10:27:12.858087Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=137
+2026-09-24T10:27:12.971154Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=138
+Ignoring parse error (tolerant parsing mode): Unexpected closing environment: 'array' @(1,460)
+2026-09-24T10:27:21.686396Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=139
+2026-09-24T10:27:21.808848Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=140
+2026-09-24T10:27:21.949662Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=141
+2026-09-24T10:27:36.267749Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=142
+2026-09-24T10:27:36.527902Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=143
+2026-09-24T10:27:36.643937Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=144
+2026-09-24T10:27:36.795601Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=145
+2026-09-24T10:27:42.939151Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=146
+2026-09-24T10:27:48.240346Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=147
+2026-09-24T10:27:51.124604Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=148
+2026-09-24T10:27:51.304206Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=149
+2026-09-24T10:27:51.395035Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=150
+2026-09-24T10:27:56.350959Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=151
+2026-09-24T10:28:01.969527Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=152
+2026-09-24T10:28:02.098285Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=153
+2026-09-24T10:28:02.219312Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=154
+2026-09-24T10:28:02.333398Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=155
+2026-09-24T10:28:02.438509Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=156
+2026-09-24T10:28:02.532400Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=157
+2026-09-24T10:28:02.670415Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=158
+2026-09-24T10:28:03.051619Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=159
+2026-09-24T10:28:03.232630Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=160
+2026-09-24T10:28:11.090925Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=161
+2026-09-24T10:28:11.971132Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=162
+2026-09-24T10:28:25.094987Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=163
+2026-09-24T10:28:25.615977Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=164
+2026-09-24T10:28:26.504845Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=165
+2026-09-24T10:28:37.345505Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=166
+2026-09-24T10:28:37.473949Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=167
+2026-09-24T10:28:37.583993Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=168
+2026-09-24T10:28:45.364272Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=169
+2026-09-24T10:28:49.952870Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=170
+2026-09-24T10:28:50.133469Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=171
+2026-09-24T10:28:50.248550Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=172
+2026-09-24T10:28:50.361123Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=173
+2026-09-24T10:28:50.453667Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=174
+2026-09-24T10:28:50.816746Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=175
+2026-09-24T10:28:50.924798Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=176
+2026-09-24T10:28:51.042845Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=177
+2026-09-24T10:28:52.701743Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=178
+2026-09-24T10:29:00.854175Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=179
+2026-09-24T10:29:42.805046Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=180
+2026-09-24T10:29:47.841698Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=181
+2026-09-24T10:30:00.742548Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=182
+2026-09-24T10:30:00.850625Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=183
+2026-09-24T10:30:00.957194Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=184
+2026-09-24T10:30:01.049411Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=185
+2026-09-24T10:30:01.136171Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=186
+2026-09-24T10:30:01.217576Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=187
+2026-09-24T10:30:01.305268Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=188
+2026-09-24T10:30:01.394587Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=189
+2026-09-24T10:30:01.930387Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=190
+2026-09-24T10:30:02.033524Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=191
+2026-09-24T10:30:02.413282Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=192
+2026-09-24T10:30:02.546837Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=193
+2026-09-24T10:30:02.678386Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=194
+2026-09-24T10:30:02.774400Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=195
+2026-09-24T10:30:02.866516Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=196
+2026-09-24T10:30:02.955664Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=197
+2026-09-24T10:30:03.041645Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=198
+2026-09-24T10:30:03.137315Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=199
+2026-09-24T10:30:03.230620Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=200
+2026-09-24T10:30:13.592531Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=201
+2026-09-24T10:30:13.713590Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=202
+2026-09-24T10:30:16.816510Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=203
+2026-09-24T10:30:16.988695Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=204
+2026-09-24T10:30:17.086514Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=205
+2026-09-24T10:30:17.182638Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=206
+2026-09-24T10:30:17.271696Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=207
+2026-09-24T10:30:17.382567Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=208
+2026-09-24T10:30:17.481329Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=209
+2026-09-24T10:30:17.574726Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=210
+2026-09-24T10:30:29.558323Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=211
+2026-09-24T10:30:29.664397Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=212
+2026-09-24T10:30:29.784141Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=213
+2026-09-24T10:30:29.906563Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=214
+2026-09-24T10:30:30.064352Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=215
+2026-09-24T10:30:30.163412Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=216
+2026-09-24T10:30:30.303461Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=217
+2026-09-24T10:30:30.395553Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=218
+2026-09-24T10:30:30.553204Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=219
+2026-09-24T10:30:36.555641Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=220
+2026-09-24T10:30:36.663822Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=221
+2026-09-24T10:30:43.196279Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=222
+2026-09-24T10:30:49.560681Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=223
+2026-09-24T10:30:49.664732Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=224
+2026-09-24T10:30:50.223915Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=225
+2026-09-24T10:30:50.332967Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=226
+2026-09-24T10:30:50.449027Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=227
+2026-09-24T10:30:50.549659Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=228
+2026-09-24T10:31:06.436849Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=229
+2026-09-24T10:31:12.805392Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=230
+2026-09-24T10:31:12.921495Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=231
+2026-09-24T10:31:13.056017Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=232
+2026-09-24T10:31:13.178206Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=233
+2026-09-24T10:31:13.278111Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=234
+2026-09-24T10:31:13.374154Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=235
+2026-09-24T10:31:13.469108Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=236
+2026-09-24T10:31:13.556477Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=237
+2026-09-24T10:31:13.649261Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=238
+2026-09-24T10:31:13.727033Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=239
+2026-09-24T10:31:13.819791Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=240
+2026-09-24T10:31:13.911422Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=241
+2026-09-24T10:31:14.006115Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=242
+2026-09-24T10:31:16.834355Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=243
+2026-09-24T10:31:16.970423Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=244
+2026-09-24T10:31:17.365406Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=245
+2026-09-24T10:31:18.203548Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=246
+2026-09-24T10:31:18.946748Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=247
+2026-09-24T10:31:19.059804Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=248
+2026-09-24T10:31:22.060684Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=249
+2026-09-24T10:31:22.159771Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=250
+2026-09-24T10:31:24.622830Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=251
+2026-09-24T10:31:24.732570Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=252
+2026-09-24T10:31:24.830822Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=253
+2026-09-24T10:31:29.629226Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=254
+2026-09-24T10:31:29.733756Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=255
+2026-09-24T10:31:30.521474Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=256
+2026-09-24T10:31:30.651560Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=257
+2026-09-24T10:31:30.758148Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=258
+2026-09-24T10:31:31.094311Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=259
+2026-09-24T10:31:40.756306Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=260
+2026-09-24T10:31:44.639313Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=261
+2026-09-24T10:31:55.667927Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=262
+2026-09-24T10:32:37.702921Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=263
+2026-09-24T10:32:41.061944Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=264
+2026-09-24T10:33:22.815933Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=265
+2026-09-24T10:33:26.110859Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=266
+2026-09-24T10:33:26.842823Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=267
+2026-09-24T10:33:27.877015Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=268
+2026-09-24T10:33:27.993852Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=269
+2026-09-24T10:33:29.429086Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=270
+2026-09-24T10:33:39.286002Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=271
+2026-09-24T10:33:51.632192Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=272
+2026-09-24T10:33:53.433445Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=273
+2026-09-24T10:33:54.827556Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=274
+2026-09-24T10:33:57.572071Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=275
+2026-09-24T10:33:58.408303Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=276
+2026-09-24T10:33:58.566764Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=277
+2026-09-24T10:34:00.156268Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=278
+2026-09-24T10:34:01.499090Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=279
+2026-09-24T10:34:21.635797Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=280
+2026-09-24T10:34:35.926642Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=281
+2026-09-24T10:34:40.759256Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=282
+2026-09-24T10:34:52.127377Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=283
+2026-09-24T10:34:52.309407Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=284
+2026-09-24T10:35:24.509011Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=285
+2026-09-24T10:35:42.517042Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=286
+2026-09-24T10:35:51.909280Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=287
+2026-09-24T10:35:59.877062Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=288
+2026-09-24T10:36:07.646291Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=289
+2026-09-24T10:36:07.758909Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=290
+[WARNING] 2026-09-24 13:36:08,514 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 13:36:09,391 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 13:36:10,947 [RapidOCR] main.py:132: The text detection result is empty
+2026-09-24T10:36:11.007319Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=291
+2026-09-24T10:36:24.918215Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=292
+2026-09-24T10:36:39.985318Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=293
+2026-09-24T10:37:28.440345Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=294
+2026-09-24T10:37:47.265839Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=295
+2026-09-24T10:37:59.288380Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=296
+2026-09-24T10:38:11.418870Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=297
+2026-09-24T10:38:12.045096Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=298
+2026-09-24T10:38:23.952989Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=299
+2026-09-24T10:38:28.427251Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=300
+2026-09-24T10:38:29.193587Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=301
+2026-09-24T10:38:42.253297Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=302
+2026-09-24T10:39:12.066118Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=303
+2026-09-24T10:39:25.208324Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=304
+2026-09-24T10:39:25.345892Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=305
+2026-09-24T10:39:25.462023Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=306
+2026-09-24T10:39:25.587153Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=307
+2026-09-24T10:39:26.889140Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=308
+2026-09-24T10:39:27.008513Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=309
+2026-09-24T10:39:32.189990Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=310
+2026-09-24T10:39:37.958593Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=311
+2026-09-24T10:39:41.086928Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=312
+2026-09-24T10:39:41.207870Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=313
+2026-09-24T10:39:47.731835Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=314
+2026-09-24T10:39:58.542856Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=315
+2026-09-24T10:39:59.258992Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=316
+2026-09-24T10:39:59.631041Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=317
+2026-09-24T10:40:04.891310Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=318
+2026-09-24T10:40:24.336768Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=319
+2026-09-24T10:40:24.559828Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=320
+2026-09-24T10:40:24.693676Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=321
+2026-09-24T10:40:24.797813Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=322
+2026-09-24T10:40:24.885519Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=323
+2026-09-24T10:40:25.011939Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=324
+2026-09-24T10:40:25.109522Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=325
+2026-09-24T10:40:34.966347Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=326
+2026-09-24T10:40:35.083909Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=327
+2026-09-24T10:40:39.376579Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=328
+2026-09-24T10:40:47.599896Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=329
+2026-09-24T10:40:52.030696Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=330
+2026-09-24T10:41:16.384991Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=331
+2026-09-24T10:41:19.772006Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=332
+2026-09-24T10:41:21.017287Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=333
+2026-09-24T10:41:30.864707Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=334
+2026-09-24T10:41:30.998764Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=335
+2026-09-24T10:41:46.036816Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=336
+2026-09-24T10:41:47.610850Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=337
+2026-09-24T10:41:49.481092Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=338
+2026-09-24T10:41:50.058126Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=339
+2026-09-24T10:42:00.318889Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=340
+2026-09-24T10:42:05.242000Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=341
+2026-09-24T10:42:12.796617Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=342
+2026-09-24T10:42:17.136392Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=343
+2026-09-24T10:42:34.488705Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=344
+2026-09-24T10:43:10.089948Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=345
+2026-09-24T10:43:10.206017Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=346
+2026-09-24T10:43:22.637972Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=347
+2026-09-24T10:43:29.898335Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=348
+2026-09-24T10:43:30.025932Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=349
+2026-09-24T10:43:37.557751Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=350
+2026-09-24T10:43:37.737784Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=351
+2026-09-24T10:43:39.279723Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=352
+2026-09-24T10:43:41.619053Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=353
+2026-09-24T10:43:43.718172Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=354
+2026-09-24T10:43:49.042336Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=355
+2026-09-24T10:44:11.537691Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=356
+2026-09-24T10:45:13.834591Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=357
+2026-09-24T10:45:14.373563Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=358
+2026-09-24T10:45:27.278255Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=359
+2026-09-24T10:45:27.406392Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=360
+2026-09-24T10:45:28.036636Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=361
+2026-09-24T10:45:53.773209Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=362
+2026-09-24T10:46:06.827960Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=363
+2026-09-24T10:46:06.945005Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=364
+2026-09-24T10:46:07.048048Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=365
+2026-09-24T10:46:17.653733Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=366
+2026-09-24T10:46:17.772783Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=367
+2026-09-24T10:46:17.892363Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=368
+2026-09-24T10:46:18.012424Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=369
+2026-09-24T10:46:18.117497Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=370
+2026-09-24T10:46:18.257605Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=371
+2026-09-24T10:46:33.955351Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=372
+2026-09-24T10:46:39.559672Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=373
+2026-09-24T10:46:53.417550Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=374
+2026-09-24T10:46:53.534648Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=375
+2026-09-24T10:46:53.637805Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=376
+2026-09-24T10:46:53.734823Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=377
+2026-09-24T10:46:53.820250Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=378
+2026-09-24T10:46:53.927810Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=379
+2026-09-24T10:46:54.016814Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=380
+2026-09-24T10:46:54.102773Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=381
+2026-09-24T10:46:54.186815Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=382
+2026-09-24T10:46:54.944680Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=383
+2026-09-24T10:46:55.048723Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=384
+2026-09-24T10:46:55.146788Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=385
+2026-09-24T10:46:55.418829Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=386
+2026-09-24T10:46:55.623794Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=387
+2026-09-24T10:46:55.735024Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=388
+2026-09-24T10:46:55.836637Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=389
+2026-09-24T10:46:56.209755Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=390
+2026-09-24T10:47:03.986368Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=391
+2026-09-24T10:47:04.432830Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=392
+2026-09-24T10:47:13.187953Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=393
+2026-09-24T10:47:28.595633Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=394
+2026-09-24T10:47:29.524081Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=395
+2026-09-24T10:47:29.619648Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=396
+2026-09-24T10:47:36.567439Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=397
+2026-09-24T10:47:39.506577Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=398
+2026-09-24T10:47:39.637611Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=399
+2026-09-24T10:47:44.342605Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=400
+2026-09-24T10:47:44.449659Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=401
+2026-09-24T10:47:56.249406Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=402
+2026-09-24T10:47:56.372575Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=403
+2026-09-24T10:48:07.768305Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=404
+2026-09-24T10:48:08.608185Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=405
+2026-09-24T10:48:09.095189Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=406
+2026-09-24T10:48:09.212159Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=407
+2026-09-24T10:48:09.344274Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=408
+2026-09-24T10:48:16.823557Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=409
+2026-09-24T10:48:16.928625Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=410
+2026-09-24T10:48:28.077158Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=411
+2026-09-24T10:48:35.596759Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=412
+2026-09-24T10:48:35.749870Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=413
+2026-09-24T10:48:35.887443Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=414
+2026-09-24T10:48:36.615700Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=415
+2026-09-24T10:48:44.105113Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=416
+2026-09-24T10:48:48.058654Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=417
+2026-09-24T10:48:48.755885Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=418
+2026-09-24T10:48:51.152340Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=419
+2026-09-24T10:49:07.563588Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=420
+2026-09-24T10:49:08.186904Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=421
+2026-09-24T10:49:08.293950Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=422
+2026-09-24T10:49:10.053110Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=423
+2026-09-24T10:49:10.183176Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=424
+2026-09-24T10:49:10.282775Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=425
+2026-09-24T10:49:12.254199Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=426
+2026-09-24T10:49:12.376754Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=427
+2026-09-24T10:49:22.360642Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=428
+2026-09-24T10:49:23.351502Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=429
+2026-09-24T10:49:28.361776Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=430
+2026-09-24T10:49:37.915569Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=431
+2026-09-24T10:49:50.525621Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=432
+2026-09-24T10:49:52.573658Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=433
+2026-09-24T10:50:05.205152Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=434
+2026-09-24T10:50:05.886303Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=435
+2026-09-24T10:50:06.013392Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=436
+2026-09-24T10:50:06.119461Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=437
+2026-09-24T10:50:06.210108Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=438
+2026-09-24T10:50:06.298456Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=439
+2026-09-24T10:50:07.672191Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=440
+2026-09-24T10:50:07.788283Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=441
+2026-09-24T10:50:07.894340Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=442
+2026-09-24T10:50:07.989440Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=443
+2026-09-24T10:50:08.088257Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=444
+2026-09-24T10:50:08.179502Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=445
+2026-09-24T10:50:08.276262Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=446
+2026-09-24T10:50:08.365234Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=447
+2026-09-24T10:50:09.404699Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=448
+2026-09-24T10:50:09.511333Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=449
+2026-09-24T10:50:12.303396Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=450
+2026-09-24T10:50:12.410597Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=451
+2026-09-24T10:50:12.522643Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=452
+2026-09-24T10:50:12.659786Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=453
+2026-09-24T10:50:12.750356Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=454
+2026-09-24T10:50:12.842503Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=455
+2026-09-24T10:50:12.939858Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=456
+2026-09-24T10:50:24.663995Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=457
+2026-09-24T10:50:24.801068Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=458
+2026-09-24T10:50:24.907356Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=459
+2026-09-24T10:50:25.001071Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=460
+2026-09-24T10:50:25.557328Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=461
+2026-09-24T10:50:29.312623Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=462
+2026-09-24T10:50:29.437651Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=463
+2026-09-24T10:50:29.550576Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=464
+2026-09-24T10:50:29.632565Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=465
+2026-09-24T10:50:29.717655Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=466
+2026-09-24T10:50:29.803771Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=467
+2026-09-24T10:50:29.902537Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=468
+2026-09-24T10:50:30.860875Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=469
+2026-09-24T10:50:36.724180Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=470
+2026-09-24T10:50:42.675081Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=471
+2026-09-24T10:50:54.483307Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=472
+2026-09-24T10:51:07.145944Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=473
+2026-09-24T10:51:12.863197Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=474
+2026-09-24T10:51:21.179986Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=475
+2026-09-24T10:51:21.308535Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=476
+2026-09-24T10:51:24.098804Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=477
+2026-09-24T10:51:39.310596Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=478
+2026-09-24T10:51:39.415639Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=479
+2026-09-24T10:51:45.310146Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=480
+2026-09-24T10:51:46.655283Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=481
+2026-09-24T10:51:58.392780Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=482
+2026-09-24T10:51:58.504827Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=483
+2026-09-24T10:52:29.425785Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=484
+2026-09-24T10:52:29.548882Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=485
+2026-09-24T10:52:29.644825Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=486
+2026-09-24T10:52:29.738707Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=487
+2026-09-24T10:52:29.823886Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=488
+2026-09-24T10:52:46.099866Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=489
+2026-09-24T10:52:46.198441Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=490
+2026-09-24T10:52:46.299507Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=491
+2026-09-24T10:52:46.387606Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=492
+2026-09-24T10:53:01.597824Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=493
+2026-09-24T10:53:02.497790Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=494
+Ignoring parse error (tolerant parsing mode): Unexpected closing environment: 'array' @(1,555)
+2026-09-24T10:53:14.969431Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=495
+2026-09-24T10:53:15.073014Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=496
+2026-09-24T10:53:15.173223Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=497
+2026-09-24T10:53:15.263356Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=498
+2026-09-24T10:53:15.352705Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=499
+2026-09-24T10:53:15.441346Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=500
+2026-09-24T10:53:15.777443Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=501
+2026-09-24T10:53:15.883387Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=502
+2026-09-24T10:53:16.042596Z [info     ] regions_page                   doc_id='РДК_молниезащита 89г' page=503
+2026-09-24T10:53:16.162126Z [info     ] regions_done                   out='data\\ir\\night_run_v2_20260924_125552\\phase1\\rdk89\\РДК_молниезащита 89г_regions.json'
+
+=== РДК_молниезащита 89г === -> data\ir\night_run_v2_20260924_125552\phase1\rdk89\РДК_молниезащита 89г_regions.json
+  p001 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0001_figure_00.png'
+  p002 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p003 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathsf { R e p M \\; I o } } \\\\ { \\mathsf { A t t n } . \\;'
+  p004 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p005 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| ACRONYMS |  | and |  | ABBREVIATIONS | xiv | | --- | --- | --- | --- | --- | -'
+       [table] table_01 '| Chapter | 2 |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | THE'
+  p006 det=3 formula=0(ok=0, sem=0, caption=0) table=3(ok=3) figure=0
+       [table] table_00 '| Chapter | 3 |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | AIR'
+       [table] table_01 '| CHAPTER | 4 |  |  | | --- | --- | --- | --- | | LIGHTNING | EFFECTS | ON AIRCR'
+       [table] table_02 '| Chapter | 5 |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | THE'
+  p007 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| 5.3 Other |  | Aircraft | Lightning |  | Protection | 93 | | --- | --- | --- |'
+       [table] table_01 '| Chapter | 6 |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | DIR'
+  p008 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| CHAPTER | 8 |  | TO | INDIRECT |  | | --- | --- | --- | --- | --- | --- | |  |'
+  p009 det=3 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0009_figure_00.png'
+       [table] table_01 '| 8.6 | Approaches | to | Determining |  | the | Response | of | Circuits | 230 '
+       [table] table_02 '| Chapter | 9 |  |  |  |  | | --- | --- | --- | --- | --- | --- | |  | ELEMENTAR'
+  p010 det=3 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0010_figure_00.png'
+       [table] table_01 '| Chapter | 10 |  |  |  |  | | --- | --- | --- | --- | --- | --- | | THE | EXTER'
+       [table] table_02 '| Chapter | 11 |  |  |  |  | | --- | --- | --- | --- | --- | --- | | THE | INTER'
+  p011 det=3 formula=0(ok=0, sem=0, caption=0) table=3(ok=3) figure=0
+       [table] table_00 '| 11.5.1 | Redistribution |  | on a | Rectangular | Box | 324 | | --- | --- | --'
+       [table] table_01 '| Chapter | 12 |  |  |  | | --- | --- | --- | --- | --- | | THE | INTERNAL |  | '
+       [table] table_02 '| Chapter | 13 |  |  |  | | --- | --- | --- | --- | --- | |  | EXPERIMENTAL |  |'
+  p012 det=3 formula=0(ok=0, sem=0, caption=0) table=3(ok=3) figure=0
+       [table] table_00 '| Chapter | 14 |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | RE'
+       [table] table_01 '| SHIELDING |  |  |  |  | 397 | | --- | --- | --- | --- | --- | --- | | 15.1 | I'
+       [table] table_02 '| Chapter | 16 |  |  |  |  | | --- | --- | --- | --- | --- | --- | | DESIGN | TO'
+  p013 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| Chapter 17 |  |  |  | | --- | --- | --- | --- | | CIRCUIT | DESIGN |  | 437 | '
+       [table] table_01 '| Chapter | 18 |  |  |  |  | | --- | --- | --- | --- | --- | --- | | TEST |  | T'
+  p014 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 18.3.5 |  | Source | Impedance of | Generators | 473 | | --- | --- | --- | ---'
+  p015 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p016 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p017 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p018 det=3 formula=3(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\mathrm { A C } } \\\\ & { \\mathrm { A E H } } \\\\ & { \\m'
+       [formula] formula_01 '\\begin{array} { l } { \\mathbf { B } \\mathbf { I \\! L } } \\\\ { \\, } \\\\ { \\mathbf '
+       [formula] formula_02 '\\begin{array} { l } { \\mathbf { E } \\mathbf { F } \\mathbf { I } \\hat { \\mathbf {'
+  p019 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } { \\mathsf { S A E } } & { { } \\quad } & { \\mathsf { S o '
+  p020 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p021 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '5 0 0 - 1'
+  p022 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p023 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p024 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p025 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0025_figure_00.png'
+  p026 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0026_figure_00.png'
+       [formula] formula_01 '\\bar { \\mathfrak { s } } = E _ { 0 } ( e ^ { - \\alpha t }'
+  p027 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'I = \\mathrm { j }'
+  p028 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p029 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p030 det=3 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=3
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0030_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0030_figure_01.png'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0030_figure_02.png'
+  p031 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p032 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p033 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt [ 3 ] { \\sqrt { \\prod ^ { - 1 } \\prod ^ { - 1 } \\prod ^ { - 1 } } }'
+  p034 det=4 formula=2(ok=1, sem=0, caption=0) table=2(ok=2) figure=0
+       [formula] formula_00 '\\underset { \\Sigma } { \\overset { \\mathrm { v o l f } \\, \\mathrm { a g e } } { \\'
+       [formula] formula_01 '\\cos \\sum _ { F } ^ { \\prime } \\qquad \\stackrel { \\cos w } { \\sqrt [ 3 ] { 3 } }'
+       [table] table_02 '| 20 l a L 2 | A a Ll 5 | Ail 10 I | 20 I A I | 1 I Ill | 2 - - - |  |  | | --- '
+       [table] table_03 "|  | to o |  |  | 20 50 | 10 | 1 | 10' 2 | 5 002 |  | 2 | H A0j | | --- | --- | "
+  p035 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\tan \\alpha } { \\tan \\alpha }'
+  p036 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\displaystyle e _ { a } = A + ( B + \\frac { C } { i } ) x '
+       [formula] formula_01 '\\mathsf { \\Omega } _ { \\mathsf { \\Omega } } ^ { \\circ } \\mathsf { a } = \\mathsf '
+  p037 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p038 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p039 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0039_figure_00.png'
+  p040 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\lim \\limits _ { x \\rightarrow \\infty } \\frac { 1 \\sin x } { \\cos x }'
+  p041 det=3 formula=3(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\overline { { \\; \\; + \\; + + + + + \\; + \\; \\; } } \\quad \\mathrm { \\it p o s i n '
+       [formula] formula_01 '\\begin{array} { c } { { \\vdots } } \\\\ { { \\vdots } } \\\\ { { \\vdots } } \\\\ { { \\v'
+       [formula] formula_02 '\\frac { \\frac { 1 } { 4 } + \\frac { 1 } { 4 } } { \\frac { 1 } { 4 } + \\frac { 1 '
+  p042 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0042_figure_00.png'
+  p043 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0043_figure_00.png'
+  p044 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= \\frac { 4 9 } { 4 6 } 1 2 . 2 3 6 \\cdot 1 0 ^ { 2 }'
+       [formula] formula_01 '\\begin{array} { r } { \\bar { I } = q v . } \\\\ { . \\quad . } \\end{array}'
+  p045 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p046 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| kA200 0 10 1% | 15 20 25Su | O 0 | 1020 350 | 2C | 062171 |  | TZ |  | •4 .. I'
+  p047 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p048 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p049 det=2 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0049_figure_00.png'
+       [table] table_01 '| hA |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | 40 20a | '
+  p050 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p051 det=3 formula=0(ok=0, sem=0, caption=0) table=3(ok=3) figure=0
+       [table] table_00 '| 0.01 | 1 | 10 | 50 | 90 99 99.99 | 0.01 | 1 10 | percent | 50 exceeding | 90 9'
+       [table] table_01 '| 500- sub equen | 500 200 - - sequet | | --- | --- | | 200- | 100 50 - | | 100 '
+       [table] table_02 '| 2- |  |  | .2-6 |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- '
+  p052 det=4 formula=2(ok=0, sem=2, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| U) 40 - $-\\-$ | 1 ° 1 0 | - - - - - | | --- | --- | --- | | 20 | -f | i r d t '
+       [table] table_01 '| .05 .02 |  |  |  |  | .0 M0 |  |  |  |  | | --- | --- | --- | --- | --- | --- '
+       [formula] formula_02 '1 0 0 \\forall'
+       [formula] formula_03 '\\frac { \\frac { \\pi } { 4 } } { 2 } \\cdot o \\vert \\frac { } { E }'
+  p053 det=3 formula=1(ok=1, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 "| 100-' , | ............. |  |  |  |  | 1000-: |  |  |  |  |  | | --- | --- | --"
+       [formula] formula_01 '\\sum \\limits _ { 1 0 0 = 1 } ^ { B } F _ { 1 } ( x )'
+       [table] table_02 '| 0.01 | 1- "" 2 | 10 | 50 | 90 98 | 99.99 | 10-!. 0.01 | 2 10 | 50 | 90 | 98 | '
+  p054 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| 1 8- - , | . . . | . . . | . .1000- | -,. |  | . . . | | --- | --- | --- | ---'
+       [table] table_01 '|  | 0.01 | 2 10 | 50 | 90 98 99.99 | 0.01 | 2 10 | 50 | 90 98 99.99 | | --- | -'
+  p055 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\therefore \\vert ^ { 3 } p ^ { 2 } \\vert'
+  p056 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0056_figure_00.png'
+       [formula] formula_01 '\\pi'
+  p057 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= o ^ { j } 2 _ { \\mu } ^ { \\dagger }'
+  p058 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p059 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p060 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p061 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l } { \\tan \\alpha \\tan \\alpha \\tan \\alpha } & { \\leq \\, + \\,'
+       [formula] formula_01 '\\begin{array} { r l r } & { } & { { \\frac { 1 } { 9 } } \\cdot 1 0 \\cdot \\mathrm '
+  p062 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { ( 4 . 2 0 4 \\times 1 0 0 \\times 1 ) } { 1 0 4 0 0 0 1 1 1 \\times 1 0 0 1'
+  p063 det=2 formula=1(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 600 | 7 .X |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | ---'
+       [formula] formula_01 '\\begin{array} { r } { 1 . \\ \\mathrm { V i s u a l \\ s i g h t i n g \\ o f \\ t h '
+  p064 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0064_figure_00.png'
+  p065 det=3 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=3
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0065_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0065_figure_01.png'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0065_figure_02.png'
+  p066 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0066_figure_00.png'
+  p067 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p068 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\vert \\overrightarrow { u _ { 1 } } \\vert \\cdot \\vert \\overrightarrow { '
+  p069 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\equiv'
+       [formula] formula_01 '\\equiv'
+  p070 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0070_figure_00.png'
+  p071 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p072 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p073 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p074 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p075 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p076 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p077 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p078 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p079 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\frac { \\frac { 1 } { 2 } } { \\frac { 1 } { 2 } + \\frac { 1 } { 2 } + \\f'
+  p080 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\pm ( \\pm ) ('
+       [formula] formula_01 '\\begin{array} { l } { \\mathrm { p e a k } \\ D \\mathrm { - } \\mathrm { d o t } \\ '
+  p081 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathrm { t h e \\ a i r c y } } \\\\ { \\ldots = 0 . 5 \\ Q } '
+  p082 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p083 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathrm { \\boldmath ~ \\Psi ~ } \\mathrm { r i } _ { 8 } = \\frac { \\Lambda } { 2 \\'
+  p084 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p085 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p086 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p087 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p088 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p089 det=3 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=3
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0089_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0089_figure_01.png'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0089_figure_02.png'
+  p090 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p091 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0091_figure_00.png'
+  p092 det=3 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=3
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0092_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0092_figure_01.png'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0092_figure_02.png'
+  p093 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0093_figure_00.png'
+  p094 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0094_figure_00.png'
+  p095 det=3 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=2
+       [formula] formula_00 '1'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0095_figure_01.png'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0095_figure_02.png'
+  p096 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0096_figure_00.png'
+  p097 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p098 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p099 det=5 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=5
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0099_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0099_figure_01.png'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0099_figure_02.png'
+       [figure] figure_03 'data\\cache\\figures\\РДК_молниезащита 89г\\p0099_figure_03.png'
+       [figure] figure_04 'data\\cache\\figures\\РДК_молниезащита 89г\\p0099_figure_04.png'
+  p100 det=3 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0100_figure_00.png'
+       [formula] formula_01 '\\cdots - \\frac { 1 } { 1 }'
+       [formula] formula_02 '\\lim \\limits _ { x \\rightarrow \\infty } \\frac { x } { 1 } = 1'
+  p101 det=2 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=2
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0101_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0101_figure_01.png'
+  p102 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p103 det=4 formula=3(ok=2, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0103_figure_00.png'
+       [formula] formula_01 '\\stackrel { \\mathrm { L i g t . } } { \\implies }'
+       [formula] formula_02 'R = S'
+       [formula] formula_03 '\\begin{array} { r l } & { e _ { w } = i _ { a } R _ { a } ~ i _ { a } = { \\bf \\n'
+  p104 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p105 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p106 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0106_figure_00.png'
+  p107 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p108 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0108_figure_00.png'
+  p109 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 8 0 0 4 } { 1 0 0 0 0 } = 1 0 0 0 0 .'
+  p110 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p111 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p112 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'l ^ { p ^ { \\prime } }'
+  p113 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'I = \\int _ { 0 } ^ { \\dag }'
+  p114 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p115 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0115_figure_00.png'
+  p116 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { I _ { 0 } = 2 1 \\S } \\\\ { \\alpha = 1 1 \\ S } \\\\ { \\beta = '
+  p117 det=3 formula=2(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '\\begin{array} { r } { I _ { 0 } = 1 1 } \\\\ { \\alpha = 7 0 } \\\\ { \\beta = 2 0 } \\'
+       [table] table_01 '|  | Action |  |  | tntegral | | --- | --- | --- | --- | --- | |  | D2. 20200 9 '
+       [formula] formula_02 'L'
+  p118 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { { I _ { 0 } = 1 0 8 4 0 8 \\mathrm { ~ A ~ } } } \\\\ { { \\ \\'
+       [formula] formula_01 '\\begin{array} { l } { \\iota _ { 0 } = 1 0 \\upsilon \\, \\iota \\mathrm { Z } \\mathr'
+  p119 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'H'
+  p120 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p121 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0121_figure_00.png'
+  p122 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0122_figure_00.png'
+  p123 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 200 | kA - | 2 X 10 Ala |  |  | | --- | --- | --- | --- | --- | | 2 kA | - 10 '
+  p124 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p125 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p126 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p127 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p128 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p129 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p130 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p131 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p132 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p133 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p134 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0134_figure_00.png'
+  p135 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0135_figure_00.png'
+  p136 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0136_figure_00.png'
+  p137 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p138 det=3 formula=2(ok=1, sem=1, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '{ \\small \\begin{array} { l } { I = \\operatorname { A m p e r e s } } \\\\ { I = \\o'
+       [formula] formula_01 '\\begin{array} { c c c } { \\Delta { T } = k [ \\mathbf { 1 } + \\lambda \\Delta { T '
+       [table] table_02 '|  |  | Physical and | Electrical Properties | of Common | Metals |  | | --- | -'
+  p139 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p140 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p141 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p142 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0142_figure_00.png'
+  p143 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p144 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0144_figure_00.png'
+  p145 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p146 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0146_figure_00.png'
+  p147 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l l } { \\displaystyle { \\mathrm { e s h a p e } } \\, " } \\\\ { \\d'
+  p148 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0148_figure_00.png'
+  p149 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0149_figure_00.png'
+  p150 det=2 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=2
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0150_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0150_figure_01.png'
+  p151 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0151_figure_00.png'
+  p152 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p153 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0153_figure_00.png'
+  p154 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p155 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0155_figure_00.png'
+  p156 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p157 det=2 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=2
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0157_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0157_figure_01.png'
+  p158 det=2 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0158_figure_00.png'
+       [formula] formula_01 '\\downarrow'
+  p159 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0159_figure_00.png'
+  p160 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p161 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0161_figure_00.png'
+       [formula] formula_01 'v = \\pm \\frac { g _ { t } } { d t }'
+  p162 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p163 det=2 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0163_figure_00.png'
+       [formula] formula_01 '\\therefore'
+  p164 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0164_figure_00.png'
+       [formula] formula_01 '\\boxed { \\infty }'
+  p165 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p166 det=2 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=2
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0166_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0166_figure_01.png'
+  p167 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p168 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\left\\{ \\begin{array} { l l } { \\dot { a } \\dot { a } - a \\dot { a } } \\\\ { \\dot'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0168_figure_01.png'
+  p169 det=3 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=3
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0169_figure_00.png'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0169_figure_01.png'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0169_figure_02.png'
+  p170 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p171 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p172 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p173 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p174 det=2 formula=1(ok=0, sem=1, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '\\nsupseteq'
+       [table] table_01 '| 0 1 | 3 4 | 1674910 | 111. 20 A\\|4 | 40 40 s0100 M XIO°O | | --- | --- | --- |'
+  p175 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p176 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p177 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\Phi } _ { 1 } = 0 . 7 \\left[ { \\frac { R _ { p } ( R _ { o } ) } { R '
+  p178 det=3 formula=3(ok=0, sem=3, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r l } & { \\mathrm { ~ } } & { \\mathrm { ~ \\ a n d ~ a ~ t a '
+       [formula] formula_01 '\\perp'
+       [formula] formula_02 '\\rightharpoondown'
+  p179 det=4 formula=4(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '|'
+       [formula] formula_01 '\\begin{array} { c } { { V = \\mathrm { c h } } } \\\\ { { C = \\mathrm { g e } } } \\'
+       [formula] formula_02 '\\stackrel { \\cdot } { \\partial \\cdot }'
+       [formula] formula_03 '~'
+  p180 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l l l } { \\begin{array} { r l } { \\quad \\mathbf { r o u n c ~ \\o'
+       [formula] formula_01 'R = 2 \\pi { \\sqrt { \\frac { L } { C } } }'
+       [formula] formula_02 '\\sum \\limits _ { 2 , 0 \\geq 2 } ^ { - R } 2 . 0 \\ p'
+  p181 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 5 |  |  |  |  |  |  | Solid - no | crowbarring | | --- | --- | --- | --- | ---'
+       [formula] formula_01 '\\begin{array} { l } { - 5 0 \\ k A \\cdot \\overbrace { 6 } ^ { } } \\\\ { \\ \\ ( \\mat'
+  p182 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p183 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p184 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p185 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p186 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p187 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p188 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p189 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '+'
+  p190 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p191 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\nleftarrow'
+  p192 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p193 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0193_figure_00.png'
+  p194 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p195 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p196 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p197 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p198 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p199 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p200 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 0.0001 | TIME 0.001 | TO | 2400 PaVin; F | 0.01 HOT SPOT | 0.1i | THRESHOLD | '
+  p201 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  | Zone | 2B Test | Results for Ignition | Thresholds |  |  | | --- | --- | --'
+  p202 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { i = 1 } ^ { v }'
+       [formula] formula_01 '\\begin{array} { l } { \\boxed { \\cdots } } \\\\ { \\leq 2 \\max } \\\\ { \\leq 5 \\max } '
+  p203 det=2 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0203_figure_00.png'
+       [table] table_01 '| Surface | Type | 15.5 | $m/s$ | 58 | $m/s$ | 103 | $m/s$ |  | | --- | --- | --'
+  p204 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p205 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0205_figure_00.png'
+  p206 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p207 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p208 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p209 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0209_figure_00.png'
+  p210 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p211 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p212 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p213 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p214 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0214_figure_00.png'
+  p215 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p216 det=4 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=2
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0216_figure_00.png'
+       [table] table_01 '| Sm 12W | Altitude | m nnof Pressure HS | | --- | --- | --- | | ON | 0 | 760.00'
+       [figure] figure_02 'data\\cache\\figures\\РДК_молниезащита 89г\\p0216_figure_02.png'
+       [table] table_03 '| 10 2 3 4 | $671I0 | 2 | 344671000 | 3 | 3 4 | 567 10000 | | --- | --- | --- | '
+  p217 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p218 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0218_figure_00.png'
+  p219 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\nVDash'
+  p220 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p221 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p222 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cos \\theta = \\sqrt { \\frac { 2 0 0 0 } { 8 - 8 } }'
+  p223 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p224 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 } { 4 9 }'
+  p225 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p226 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  | A B1 | $=$ $=$ 0.15 < | 0.15 MIN | | --- | --- | --- | --- | | <B3 | B2 B3 '
+  p227 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p228 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p229 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p230 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p231 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p232 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p233 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p234 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p235 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0235_figure_00.png'
+  p236 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p237 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p238 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p239 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p240 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p241 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p242 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { M O } { \\sqrt { \\frac { 6 4 8 N \\Delta T A C H M } { 2 0 8 N \\Delta T C '
+       [formula] formula_01 '\\sqsubset'
+  p243 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p244 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdots'
+  p245 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0245_figure_00.png'
+       [formula] formula_01 'I _ { o c } = { \\frac { 1 } { L } }'
+  p246 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\varepsilon } _ { 1 6 } = \\ 8 . 8'
+  p247 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p248 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\underline { { \\mathbf { \\Pi } } } _ { 3 } ^ { 3 } \\mathbf'
+  p249 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p250 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 0 . 4 8 } { 7 } + \\frac { ( 6 ) } { 7 }'
+       [formula] formula_01 '\\frac { 1 } { 1 } ='
+       [formula] formula_02 '\\begin{array} { c } { { \\tau = \\infty } } \\\\ { { \\tau = 0 } } \\end{array}'
+  p251 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p252 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p253 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\frac { 1 } { \\cos \\theta } } { \\frac { \\sin \\theta } { \\cos \\theta } }'
+       [formula] formula_01 '\\begin{array} { c } { \\displaystyle { \\mathrm { s z o w ~ w a v } } } \\\\ { \\disp'
+  p254 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p255 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\bf t } = { \\bf 4 } \\mu { \\bf 8 }'
+  p256 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p257 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p258 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\J'
+  p259 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p260 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p261 det=4 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { { \\mathrm { \\boldmath ~ \\Gamma ~ } \\, } _ { c = \\mathrm { '
+       [formula] formula_01 '\\begin{array} { l } { \\tau = \\tau } \\\\ { \\dots } \\end{array}'
+       [formula] formula_02 '{ \\begin{array} { r l } { \\epsilon _ { 0 } = } & { \\mathbf { p } \\mathbf { \\cdot'
+       [formula] formula_03 '1 = a _ { 1 }'
+  p262 det=12 formula=12(ok=8, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'j = - j'
+       [formula] formula_01 '\\begin{array} { c } { { \\sqrt { j } = ( 1 + j ) / \\sqrt { 2 } } } \\\\ { { 1 / \\sq'
+       [formula] formula_02 '\\begin{array} { r } { \\mathbf { h } ~ r = \\vee } \\\\ { \\phi = \\mathbf { t } \\sigm'
+       [formula] formula_03 '\\begin{array} { c } { { \\displaystyle \\ C _ { \\bf \\Psi } \\frac 1 2 \\! \\left\\{ \\f'
+       [formula] formula_04 '\\begin{array} { r } { { \\overline { { \\mathbf { \\Phi } } } } = \\log \\tilde { \\ma'
+       [formula] formula_05 'Y _ { 1 } \\{ x \\} = \\frac { 2 } { \\pi }'
+       [formula] formula_06 '\\begin{array} { r l } & { \\overline { { \\pi } } \\left\\{ \\ln ( x ) - \\ln ( 2 ) + '
+       [formula] formula_07 '\\begin{array} { r } { + \\, \\frac { x ^ { * } } { 6 D ( 2 ) } [ \\Phi ( } \\\\ { \\ph'
+       [formula] formula_08 '\\begin{array} { l } { { \\displaystyle ) = 1 + \\frac { x ^ { 2 } } { D ( 1 ) } \\ '
+       [formula] formula_09 '\\begin{array} { r } { \\mathbf { \\dot { \\phi } } ) = \\cos ( \\mathbf { \\phi } ) } '
+       [formula] formula_10 '\\begin{array} { l } { { \\mathrm { \\boldmath ~ \\omega ~ } ^ { \\mathrm { \\! \\! \\! '
+       [formula] formula_11 ') = \\left\\{ \\begin{array} { r l } \\end{array} \\right.'
+  p263 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l } & { \\mu _ { 0 } = { 4 \\pi } \\times 1 0 ^ { - 7 } \\ { \\ma'
+       [formula] formula_01 '\\eta _ { 0 } = \\Bigg \\lbrack'
+       [formula] formula_02 '\\cdot'
+  p264 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\delta = \\bigg \\{ \\! . \\bigg .'
+       [formula] formula_01 '\\begin{array} { c c c c } { { } } & { { } } & { { \\mathrm { ~ \\begin{array} { c '
+       [formula] formula_02 'k = \\left\\{ \\omega \\mu ( \\epsilon'
+  p265 det=4 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'b = 1 8'
+       [formula] formula_01 '\\mathsf { P } _ { \\therefore } = \\mathsf { \\Gamma } _ { \\cdot } ^ { \\cdots }'
+       [formula] formula_02 '\\bar { \\mathsf { K } } = \\left[ n r R ^ { ( n - 1 ) } \\right] ^ { 1 / n }'
+       [formula] formula_03 ') = \\left\\{ ( r _ { 1 } r _ { 2 } ) \\right.'
+  p266 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\pmb \\i } = { \\pmb E }'
+  p267 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\ b ^ { E } \\! _ { B } } { \\sqrt { \\phantom { b } } }'
+  p268 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p269 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\times 1 0 ^ { - 7 } \\div 2'
+       [formula] formula_01 '\\bar { \\chi } = \\frac { \\bar { I } \\bar { l } } { A }'
+  p270 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\Phi _ { 1 } } = \\mathbf { \\bar { 2 } }'
+       [formula] formula_01 'L _ { 1 2 } = 2'
+       [formula] formula_02 '\\begin{array} { l c r } { { \\underline { { { - \\ln } } } \\displaystyle \\left\\{ \\'
+  p271 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p272 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\pmb { \\underline { { \\mathcal { X } } } } \\pmb { \\ Z }'
+  p273 det=3 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0273_figure_00.png'
+       [formula] formula_01 '\\therefore'
+       [formula] formula_02 '\\mathbf { \\Phi } _ { 1 } = \\pmb { 2 } \\times \\mathbf { 1 0 }'
+  p274 det=4 formula=3(ok=1, sem=2, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 'e = - N \\frac { d \\phi } { d t } . \\eqno ( 9 . 8 6 ) ,'
+       [formula] formula_01 '\\begin{array} { r } { \\mathrm { \\bf \\Pi } ^ { \\mathrm { a ~ c i r c u l } } } \\\\'
+       [formula] formula_02 '\\angle'
+       [table] table_03 '| L, $=$ 2. 9a | $4a+n$ | cm dimensions | (0.84) | o | | --- | --- | --- | --- |'
+  p275 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\underline { { 0 } } \\underline { { 1 } } _ { m }'
+  p276 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 10-9 | 90 | h | Vr. | (.8 | | --- | --- | --- | --- | --- | | $9[1/r$ $1/(r-$ '
+  p277 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\triangle = \\triangle } \\\\ { E _ { 0 } = \\triangle \\alpha '
+  p278 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'z _ { i e } = \\frac { \\gamma } { 2 \\pi b \\sigma } \\cdot \\frac { \\iota } { \\tilde'
+  p279 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathrm { r e } \\overline { { \\mathrm { t u } } } \\mathrm '
+       [formula] formula_01 'Z _ { i } = \\frac { \\gamma } { 2 \\pi a \\sigma } \\cdot \\frac { K _ { 0 } ( \\gamma'
+  p280 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l l c c l } { { } } & { { Z _ { g } = \\displaystyle \\frac { - j '
+       [formula] formula_01 '\\pmb { \\mathscr { p } } = ( :'
+       [formula] formula_02 '\\begin{array} { c c } { { \\begin{array} { r l } { { \\displaystyle L = \\frac { \\m'
+  p281 det=4 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'i = \\frac { \\gamma _ { m } } { \\sigma } \\cos'
+       [formula] formula_01 '\\begin{array} { r } { \\mathrm { \\Omega ^ { 1 } \\Delta ^ { 1 0 } } \\mu \\mathrm { '
+       [formula] formula_02 '0 = E _ { 1 } ('
+       [formula] formula_03 '\\pmb { \\mathscr { s } } _ { \\pmb { \\imath } } ='
+  p282 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'E = \\frac { E } { \\epsilon ^ { - \\beta ( t - t _ { 0 } ) } + \\epsilon ^ { + \\alp'
+  p283 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 "| 1180 1190 FOR | 1-2 | $P(I)=P(I-l)+1/I$ TO 21 'calculate the P factors | | ---"
+       [table] table_01 '| 1360 1370 | $KO-0:K2-0$ | $11-V(1)/2*I3-V(2)/2$ |  |  | | --- | --- | --- | --'
+  p284 det=2 formula=2(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\mathbf { T } 0 \\mathbf { = } \\bar { \\mathbf { I } } \\'
+       [formula] formula_01 '\\begin{array} { l } { \\mathtt { F 3 \\left( \\mathtt { 1 } \\right) = U \\left( \\mat'
+  p285 det=2 formula=2(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { { } } & { { } { \\mathrm { H } } 0 { \\equiv } { \\mathrm {'
+       [formula] formula_01 '\\stackrel { \\Delta } { \\lambda } \\stackrel { \\left( \\bar { \\Psi } / \\bar { \\cal '
+  p286 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 "| 10350 10360 | RETURN |  | 'returns | u(1) | - u(5) |  | | --- | --- | --- | --"
+  p287 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 "| 10910 | ' |  |  |  | | --- | --- | --- | --- | --- | | 10920 10930 | U(1) ' | "
+       [table] table_01 '| 1000 1020 | INPUT TOVERT "tl - | $T2/Tl$ and t2";T1,T2 | | --- | --- | --- | |'
+  p288 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| 1620 1640 | DELY BOVNEW - - | SUM BOVERA - - SUMOLD $DELX*SUM/DELY$ | | --- | '
+       [table] table_01 '| Calculation | of Bessel and Hankel | Functions | | --- | --- | --- | |  | for '
+  p289 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p290 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p291 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathscr { H } = \\frac { I } { 2 \\pi r }'
+  p292 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\Phi } _ { n } = H _ { n }'
+       [formula] formula_01 '\\begin{array} { r } { { \\cal H } _ { \\mathrm { a v g } } = I / { \\cal P } } \\\\ {'
+  p293 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } & { \\gamma \\ \\mathrm { o r \\ \\scriptstyle { m a g n e t '
+  p294 det=4 formula=4(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { b = \\mathrm { w } , } \\\\ { d = \\mathrm { d } \\mathrm { e }'
+       [formula] formula_01 '\\delta = \\sqrt { \\frac { 2 \\rho } { \\mu \\omega } } , \\qquad \\qquad \\qquad ( 1 0 '
+       [formula] formula_02 '\\scriptstyle { \\sqrt { \\cos _ { \\frac { 1 } { 2 } } } } \\left\\vert - { \\frac { \\'
+       [formula] formula_03 '\\begin{array} { r l r } { 4 0 0 0 ~ \\mathrm { H z } } & { { } ~ \\mathrm { 8 . 6 '
+  p295 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p296 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p297 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'k = 1 0'
+  p298 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p299 det=4 formula=4(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\omega } _ { \\mathrm { w s } , \\, \\mathbf { w h i } }'
+       [formula] formula_01 ')'
+       [formula] formula_02 '\\mid i \\mid = \\mid M \\mid ^ { - 1 } \\ \\, \\, \\,'
+       [formula] formula_03 '\\begin{array} { c } { \\mathbf { \\sigma } _ { 1 } = ( m _ { 1 1 } } \\\\ { \\mathbf '
+  p300 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0300_figure_00.png'
+       [formula] formula_01 '\\sum \\limits _ { i = 1 } ^ { 3 } i'
+  p301 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { i = 1 } ^ { \\infty } [ \\gamma ] = \\gamma \\gamma _ { i }'
+       [formula] formula_01 '\\sum \\limits _ { n = 1 } ^ { \\infty } \\sum \\limits _ { m = 1 } ^ { n + 1 } \\sum '
+       [formula] formula_02 '- \\lambda'
+  p302 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } { \\overbrace { \\int \\! \\! \\! \\prod _ { i = 1 } \\! \\! \\! '
+  p303 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p304 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p305 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p306 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p307 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\stackrel { \\mathsf { m e n } } { \\sim }'
+  p308 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p309 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p310 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p311 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\dot { \\mathbf { \\nabla } } \\cdot \\left( n _ { - } v _ { -'
+  p312 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p313 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 } { \\cdot 7 6 \\times 8 } - \\frac { 0 } { 1 0 } ='
+  p314 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 ', ['
+  p315 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- 2 . 8 5 \\frac { L } { 0 . }'
+  p316 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\bot'
+  p317 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p318 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } & { } & { \\! I _ { 1 } \\frac { 2 Z _ { 2 } } { Z _ { 1 }'
+  p319 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0319_figure_00.png'
+  p320 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p321 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p322 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p323 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p324 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p325 det=5 formula=5(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\vert s o \\vert'
+       [formula] formula_01 '\\begin{array} { r l } & { \\rho = \\mathrm { r e s i s t i v i t y } } \\\\ & { \\ell'
+       [formula] formula_02 '\\begin{array} { c } { \\ell = 2 } \\\\ { r = 1 5 } \\\\ { \\phantom { 1 } \\: \\: } \\end'
+       [formula] formula_03 '= { \\frac { I } { 2 \\pi r } }'
+       [formula] formula_04 '= \\frac { d \\phi } { d t } = \\mu _ { \\pmb { \\mathscr { o } } }'
+  p326 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p327 det=4 formula=4(ok=4, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'Z _ { \\mathsf { s } } ( \\omega ) = \\frac { j k _ { m } } { \\sigma } \\coth ( j k '
+       [formula] formula_01 '( 1 - \\frac { x ^ { 3 } } { n ^ { 2 } }'
+       [formula] formula_02 '= \\frac { 1 } { \\sigma d } + j _ { 1 }'
+       [formula] formula_03 '\\operatorname { \\vec { \\gamma } } _ { t } ( \\omega ) = { \\frac { 2 } { \\sigma \\e'
+  p328 det=3 formula=3(ok=0, sem=3, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l r l } & { = { \\frac { 1 } { \\sigma d } } \\cdot \\qquad } & '
+       [formula] formula_01 '\\cdot = \\frac { 1 } { \\omega _ { 1 } } ='
+       [formula] formula_02 '\\begin{array} { r } { \\begin{array} { c } { \\pi ^ { 4 } t } \\\\ { \\mathrm { h e ~'
+  p329 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\pmb { J _ { \\pmb { \\mathscr { s } } } } = \\pmb { \\sigma } .'
+       [formula] formula_01 '\\smash { \\sigma \\ensuremath { I _ { \\mathrm { 1 - 2 } } } \\! \\left( \\! \\! \\int \\'
+  p330 det=4 formula=4(ok=2, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'L _ { i } = \\frac { \\mu } { 2 \\pi } \\log \\hfill \\log \\hfill \\log \\hfill \\log \\hf'
+       [formula] formula_01 'L _ { i } = \\frac { \\mu l d } { 2 \\pi r } . \\eqno ( 1 1 . 3 0 )'
+       [formula] formula_02 'x = 0'
+       [formula] formula_03 '\\begin{array} { r l } { \\mathrm { ~ \\gamma ~ \\gamma ~ \\gamma ~ \\gamma ~ \\gamma ~'
+  p331 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\sqrt [ 3 ] { 4 0 0 0 0 0 } } { \\sqrt [ 3 ] { 5 } } \\cdots 7 1 \\cos \\sqr'
+       [formula] formula_01 '{ \\mathfrak { I } } = { \\frac { L } { 2 \\pi r } } .'
+       [formula] formula_02 'I _ { i } = \\frac { 1 } { L _ { i } } \\int E'
+  p332 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { E _ { r } ( \\sigma _ { \\downarrow } } \\\\ { 1 0 \\uparrow } '
+  p333 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\tan } { \\frac { \\alpha } { 1 0 0 A } }'
+       [formula] formula_01 '\\begin{array} { r } { \\cos ( - \\frac { 2 x } { 3 } ) = \\frac { 1 } { 2 } \\times '
+       [formula] formula_02 '\\downdownarrows'
+  p334 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p335 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathrm { = } \\mathrm { , } \\mathrm { --- }'
+  p336 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= - 2 ^ { 0 } + \\frac { 1 ^ { n } } { 1 ^ { n } }'
+       [formula] formula_01 'V'
+  p337 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\frac { \\hbar } { t } } = { \\bar { K } }'
+       [formula] formula_01 'd \\sum \\limits _ { 0 } ^ { \\infty } d \\sum \\limits _ { 0 } ^ { \\infty }'
+  p338 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= \\sum _ { k = 1 } A'
+  p339 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt { }'
+  p340 det=5 formula=5(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 ') < \\Rightarrow'
+       [formula] formula_01 '\\mathbf { \\xi } : ] = \\frac { \\mathbf { \\xi } ^ { 2 } } { \\sigma d }'
+       [formula] formula_02 ') < = >'
+       [formula] formula_03 '\\begin{array} { c } { \\operatorname { f h e } \\mathrm { \\ t i n } } \\\\ { \\mathrm'
+       [formula] formula_04 '2 \\sum _ { n = 1 } ( -'
+  p341 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  |  |  | Fig. 11.33 | Magnetic | field patterns. | | --- | --- | --- | --- | -'
+  p342 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0342_figure_00.png'
+  p343 det=4 formula=4(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- a - 1 6 \\pm 2 1'
+       [formula] formula_01 '\\begin{array} { c } { \\begin{array} { r c } { \\dot { \\mathbf { z } } = 1 0 } \\\\ '
+       [formula] formula_02 '\\begin{array} { r } { \\mathrm { t } : 2 0 0 \\mathrm { ~ k A ~ p ~ } } \\\\ { 1 0 \\'
+       [formula] formula_03 '\\begin{array} { l } { \\mathrm { f ~ t i m e ~ a t e p s } } \\\\ { \\mathrm { t i m'
+  p344 det=3 formula=3(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l } & { \\mathbf { p } \\otimes \\mathbf { i n } \\mathbf { \\hat'
+       [formula] formula_01 '\\begin{array} { r l } { \\overrightarrow { a } \\overrightarrow { 2 m } } & { { } '
+       [formula] formula_02 '\\frac { 3 } { 1 + 3 + 4 + 4 + 5 + 6 + 6 + } = 1 0 0 ( c m )'
+  p345 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p346 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'R = \\frac { 2 \\rho h } { 0 . 5 }'
+       [formula] formula_01 '\\begin{array} { r l } & { \\textbf { l . s . } \\frac { 0 . 4 \\times 1 0 ^ { 4 } \\'
+       [formula] formula_02 '\\begin{array} { r l } & { \\quad \\mathbf { \\Delta t } = \\frac { 0 . 4 \\times 1 0 '
+  p347 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { y } { 2 } - \\frac { 1 } { 2 } = - \\frac { 1 } { 2 }'
+  p348 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p349 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p350 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0350_figure_00.png'
+  p351 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'x = \\frac { \\pi } { 1 0 } - 1'
+       [formula] formula_01 '\\alpha _ { m y } = \\frac { \\pi } { 1 3 }'
+  p352 det=4 formula=4(ok=4, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'l ^ { x }'
+       [formula] formula_01 'I = e ^ { - }'
+       [formula] formula_02 '= \\frac { 1 } { 4 \\pi \\epsilon _ { 0 } } \\nabla \\times'
+       [formula] formula_03 'i = \\frac { \\mathrm { i } } { 4 \\pi }'
+  p353 det=5 formula=3(ok=1, sem=2, caption=0) table=1(ok=1) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0353_figure_00.png'
+       [formula] formula_01 'F \\max'
+       [formula] formula_02 '\\simeq'
+       [formula] formula_03 '\\begin{array} { l } { \\ell _ { 1 } = 1 . 1 2 8 w } \\\\ { \\ell _ { 2 } = 1 . 1 2 8'
+       [table] table_04 "| Shape |  | a%'zz | srXn ., 1 | | --- | --- | --- | --- | | Circle |  | 1 d 3 |"
+  p354 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p355 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\_ F 1 \\bigg ( j \\frac { k _ { 0 } } { r } + \\frac { 1'
+       [formula] formula_01 '\\begin{array} { l c r } { { F 1 ~ { = } \\ \\displaystyle \\frac { M _ { s } } { 4 '
+  p356 det=4 formula=4(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= 2 F ^ { 2 } \\biggl ( j \\frac { k _ { 0 } } { r } + \\frac { \\biggl \\{ \\biggr . '
+       [formula] formula_01 '\\begin{array} { l c r } { { \\begin{array} { l c } { { \\, } } } } \\end{array} \\en'
+       [formula] formula_02 '\\pmb { \\prime } = \\pmb { \\eta } _ { 0 } \\pmb { \\bar { \\ell } }'
+       [formula] formula_03 'E _ { \\varepsilon \\varepsilon } = \\frac { P } { 4 \\pi }'
+  p357 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 . \\dot { }'
+  p358 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { E } { E } \\frac { \\rho _ { ( 3 ) } } { \\rho _ { ( 4 ) } }'
+  p359 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  | C. | -A | i | i(12.61) |  |  |  |  | f |  |  | | --- | --- | --- | --- | --'
+  p360 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'a = \\frac { 2 } { - }'
+  p361 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c c c } { { \\mathrm { ~ \\ m ~ n s : ~ } } } & { { } } & { { } } '
+       [formula] formula_01 '\\begin{array} { r } { \\dot { \\mathbf { \\theta } } \\mathbf { b } = \\dot { \\mathbf'
+  p362 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\boldsymbol { r } _ { \\bullet } = \\boldsymbol { H } \\times'
+  p363 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p364 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p365 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p366 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p367 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p368 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p369 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p370 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0370_figure_00.png'
+  p371 det=3 formula=2(ok=0, sem=1, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '\\begin{array} { l l } { \\cdot } & { \\ddots } \\\\ { \\cdot } & { \\ddots } \\\\ { \\cdo'
+       [formula] formula_01 '\\longleftarrow'
+       [table] table_02 '| -100 0 50 | ls | -5000 (e) 0 50 | | --- | --- | --- | | (d) Fig. 13.4 Lumped |'
+  p372 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p373 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { \\mathbf { \\Sigma } } & { = \\underbrace { \\mathbf { z } 0'
+       [table] table_01 '| 0 0 |  |  |  | 2 | 0 | 2 | | --- | --- | --- | --- | --- | --- | --- | |  |  |'
+  p374 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p375 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p376 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p377 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p378 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p379 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p380 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p381 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p382 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\equiv \\frac { 3 0 0 0 } { 1 0 0 0 }'
+  p383 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p384 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p385 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p386 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p387 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p388 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p389 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\tau'
+  p390 det=4 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'I _ { s c } = \\frac { 1 } { \\tilde { L } _ { w } }'
+       [formula] formula_01 '\\begin{array} { r } { I = \\tt a r } \\\\ { L = \\tt s e } \\\\ { \\tt y _ { \\tt r } } '
+       [formula] formula_02 '\\begin{array} { r } { \\begin{array} { c } { \\begin{array} { r c l } { \\mathbf { '
+       [formula] formula_03 '\\frac { \\varphi } { t } = \\mu _ { \\circ }'
+  p391 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt { r }'
+  p392 det=4 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'I _ { s c } = \\frac { 1 } { L }'
+       [formula] formula_01 '\\begin{array} { r } { { \\bf \\nabla } f _ { s c } = { \\bf a } x } \\\\ { { \\bf \\nab'
+       [formula] formula_02 '\\begin{array} { c } { { \\begin{array} { r c l } { { \\mathbf { { \\mathcal { L } }'
+       [formula] formula_03 '\\begin{array} { r } { \\mu _ { o } = 4 \\lambda } \\\\ { \\phi = ~ \\mathfrak { t } } '
+  p393 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\stackrel { \\triangledown + \\vartriangle } { \\underset { \\mathbf { \\triangledown'
+  p394 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum'
+       [formula] formula_01 '\\sqrt { A = 0 . 0 2 8 5 m }'
+  p395 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p396 det=3 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } { \\mathrm { ~ \\boldmath ~ \\sigma ~ } } & { { } \\; = \\fra'
+       [formula] formula_01 'K = \\frac { h } { d } \\cdot \\frac { 2 \\pi } { \\ln ( 4 h / d ) } ( 1 4 . 2 2 )'
+       [formula] formula_02 '\\sum \\limits _ { i = 1 } ^ { \\cos T } \\frac { \\cos \\arctan } { a _ { i } }'
+  p397 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\displaystyle \\textsl { E } \\left( \\mathsf { s o o o v / m'
+       [formula] formula_01 '\\cdot'
+  p398 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p399 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\scriptstyle \\mathbf { \\begin{array} { c } { \\dagger } \\\\ { \\mathbf { a } = \\mat'
+       [formula] formula_01 '\\sum \\limits _ { \\geq } ^ { a }'
+       [formula] formula_02 '\\sum \\limits _ { i = 1 } ^ { \\infty } u s \\sum \\limits _ { i = 1 } ^ { \\infty } '
+  p400 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p401 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p402 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p403 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { l } { \\frac { \\lambda } { \\lambda } }'
+       [formula] formula_01 '\\mathbf { \\bar { \\Sigma } } = \\mathbf { \\bar { \\Sigma } } \\mathbf { \\bar { 8 } }'
+  p404 det=3 formula=1(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '|  | too- 1,o0 V |  | 5 100 | 2oo | 00 As | | --- | --- | --- | --- | --- | --- '
+       [formula] formula_01 '\\Vert \\cdot \\Vert'
+       [table] table_02 '|  |  |  | $a0.07--$ | 0.16 V. | (ous |  |  | | --- | --- | --- | --- | --- | --'
+  p405 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\tt - c'
+  p406 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p407 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| t | 0.21AzH |  | ,1420 0A | 1 |  | t21 | | --- | --- | --- | --- | --- | --- |'
+  p408 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p409 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| -150 | -60 |  |  |  |  | | --- | --- | --- | --- | --- | --- | | ( ) 0 | 5 us '
+  p410 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p411 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p412 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p413 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p414 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0414_figure_00.png'
+       [formula] formula_01 'm m = \\frac { 1 } { 2 }'
+  p415 det=3 formula=3(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } { \\cdot \\cdot \\cdot \\cdot \\; } & { { } \\cdot } & { \\cdot'
+       [formula] formula_01 '\\frac { 1 } { \\sqrt { \\cdots } } = 0 = \\frac { 0 } { \\sqrt [ 3 ] { \\cdots } } = '
+       [formula] formula_02 '\\begin{array} { l } { { E ^ { \\prime } = \\displaystyle \\frac { d \\phi } { d t } '
+  p416 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\ddagger'
+       [formula] formula_01 '\\begin{array} { r l } { \\mathbf { \\Pi } } & { \\left| 5 . 8 ( \\mathbf { b } ) \\ri'
+  p417 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 8 0 0 } { \\cdot }'
+  p418 det=3 formula=3(ok=1, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= ='
+       [formula] formula_01 '= \\pm \\pm \\sqrt { \\frac { 1 } { \\cos } }'
+       [formula] formula_02 '\\delta = \\frac { \\pi } { 5 0 } \\sqrt { \\frac { 1 } { \\sigma f _ { \\mathrm { k H '
+  p419 det=3 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { r } { \\underbrace { \\mathsf { n u m a n c } } _ { = = - } } \\end'
+       [figure] figure_01 'data\\cache\\figures\\РДК_молниезащита 89г\\p0419_figure_01.png'
+       [formula] formula_02 '\\rightharpoondown'
+  p420 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathfrak { e } { \\mathfrak { = } }'
+  p421 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p422 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { 0 \\leq 0 } \\\\ { \\ldots = - \\hat { S } _ { j _ { \\pi } ^ { '
+  p423 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p424 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p425 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\sqrt [ 3 ] { 4 9 + 1 7 } } { 4 } = \\frac { 1 } { 7 }'
+       [formula] formula_01 'm = 2 1 1 0 0 0 \\div \\frac { 2 1 } { 0 } \\cdot 1'
+  p426 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p427 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p428 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\bf \\overline { { \\cdot E _ { I } = \\widetilde { \\Gamma } } }'
+  p429 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p430 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  | ee9 *t |  | s |  | 9..c 9 | a.1e. | st1; om | ~ | | --- | --- | --- | --- |'
+  p431 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p432 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { i = 1 } ^ { 8 } \\sum \\limits _ { j = 1 } ^ { 4 } \\sum \\limits _'
+  p433 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\equiv \\mathrm { ~ \\" ~ } \\sim \\mathrm { ~ \\" ~ } \\simeq \\mathrm { ~ \\" ~ } \\sim'
+  p434 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '3 5 0 0 6 0 - 1 4 - 7 5 N'
+  p435 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p436 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p437 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p438 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p439 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\frac { 1 0 0 \\pi } { 1 0 0 \\pi } } { \\frac { 1 0 0 \\pi } { 1 0 0 \\pi } '
+  p440 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p441 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p442 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p443 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p444 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p445 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p446 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p447 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\smash { \\mathbf { \\ddot { 1 } } = \\mathbf { \\frac { 5 0 } { 5 0 } } }'
+  p448 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p449 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { ( E _ { 0 } = 1 , f = } \\\\ { ( \\mathbf { a } ) \\, \\, Q = \\'
+  p450 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p451 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p452 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0452_figure_00.png'
+  p453 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p454 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p455 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p456 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\longleftarrow'
+  p457 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p458 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p459 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p460 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= 2 2 c m ^ { 2 } /'
+  p461 det=3 formula=3(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\left| \\begin{array} { c } { { M o d e l } } \\\\ { { N u m b e r } } \\end{array} '
+       [formula] formula_01 '\\frac { 7 0 } { 7 0 } 1 6 0'
+       [formula] formula_02 '\\left. \\sum _ { 2 0 0 } ^ { 2 0 0 } \\; \\right| \\; \\vdots'
+  p462 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p463 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p464 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p465 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p466 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p467 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p468 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\bf \\dot { \\psi } _ { \\mu } = \\dot { T } \\dot { V } t'
+  p469 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { \\cos \\phi } & { { } \\ 、 \\ 、 \\; } \\end{array}'
+  p470 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 0.001 | 0.01 |  | 0.1 |  | 1 10 100 | | --- | --- | --- | --- | --- | --- | | '
+  p471 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { k } { \\frac { 6 2 5 } { 1 0 } } \\frac { v _ { B D } } { 2 m }'
+       [formula] formula_01 '\\begin{array} { r } { \\mathbf { d } \\mathbf { \\ a m b i e n } } \\\\ { \\mathbf { \\'
+  p472 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p473 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\tau _ { p } = - ^ { 1 \\cdot }'
+  p474 det=2 formula=1(ok=0, sem=1, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| 0. | IV -MAX |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | O1'
+       [formula] formula_01 '\\leftarrow \\ L'
+  p475 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p476 det=4 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt [ n ] { 1 } \\times \\frac { 5 } { 3 } \\sqrt [ n ] { 3 0 0 } \\sqrt { n _ { 2'
+       [formula] formula_01 'v = g _ { t } ^ { \\prime }'
+       [formula] formula_02 '\\overline { 1 1 N 5 4 0 7 }'
+       [formula] formula_03 '- 2 5 y \\vert'
+  p477 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\left| \\begin{array} { l } { 6 3 0 6 3 } \\\\ { 7 1 4 9 6 0 '
+  p478 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p479 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p480 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\underline { { \\cdots } } \\cup'
+  p481 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\boxed { \\boxed { \\boxed { \\boxed { \\boxed { \\boxplus \\ Q \\ X } } } } }'
+  p482 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p483 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'E = E _ { 0 } \\left( \\epsilon ^ { - \\alpha t } \\right) \\sin ( 2 \\pi f t )'
+       [formula] formula_01 '\\begin{array} { r l r } { \\mathbf { n } \\mathbf { n o t } \\quad } & { } & { \\ove'
+  p484 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p485 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p486 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p487 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p488 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { { \\mathrm { e x p o n e n t u a t ~ w a v e ~ o e n n e q '
+  p489 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p490 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p491 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p492 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\underset { \\bullet } { \\operatorname { a } } } \\; ( { \\underset { \\bot } { \\o'
+       [formula] formula_01 '\\begin{array} { r l } & { \\frac { t ^ { \\prime } } { 1 + t ^ { \\prime } } \\stack'
+  p493 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\frac { \\gamma } { \\bullet } } = { \\mathrm { ~ \\} } }'
+  p494 det=3 formula=3(ok=1, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { n = \\mathrm { t u r n s \\ p e r \\ u } } \\\\ { \\mathbf { \\rh'
+       [formula] formula_01 '\\begin{array} { r } { \\mathsf { e } = \\mathtt { M } \\ \\frac { \\mathtt { d } \\mat'
+       [formula] formula_02 '\\begin{array} { r c l l } { { \\frac { 1 } { \\cdots } } } & { { } } & { { } } & {'
+  p495 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p496 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p497 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p498 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p499 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p500 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\dashv'
+  p501 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p502 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\РДК_молниезащита 89г\\p0502_figure_00.png'
+  p503 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0

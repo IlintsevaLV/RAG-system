@@ -1,0 +1,1764 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[UNIMERNET] py = C:\Users\l.ilyintseva\Desktop\RAG-system\.venv-unimernet\Scripts\python.exe
+[UNIMERNET] cfg = .\data\models\unimernet\unimernet_tiny.yaml
+[UNIMERNET] proc started, waiting for ready
+[UNIMERNET] stdout line = 'CustomVisionEncoderDecoderModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetModel init\n'
+[UNIMERNET] stdout line = 'VariableUnimerNetPatchEmbeddings init\n'
+[UNIMERNET] stdout line = 'CustomMBartForCausalLM init\n'
+[UNIMERNET] stdout line = 'CustomMBartDecoder init\n'
+[UNIMERNET] stdout line = '{"ready": true}\n'
+2026-09-24T12:17:56.698565Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=1
+python.exe : [INFO] 2026-09-24 15:17:57,032 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+строка:22 знак:9
++         & $PythonMain @cmdArgs 2>&1 | Out-File -FilePath $log -Encodi ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-09-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-09-24 15:17:57,112 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 15:17:57,182 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:17:57,182 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 15:17:57,254 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:17:57,254 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\cyrillic_PP-OCRv5_re
+c_mobile.onnx
+[INFO] 2026-09-24 15:17:59,615 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:17:59,615 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 15:17:59,717 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:17:59,718 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 15:17:59,839 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:17:59,839 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\latin_PP-OCRv5_rec_m
+obile.onnx
+[INFO] 2026-09-24 15:18:03,187 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:18:03,188 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_PP-OCRv5_det_mobi
+le.onnx
+[INFO] 2026-09-24 15:18:03,297 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:18:03,298 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\ch_ppocr_mobile_v2.0
+_cls_mobile.onnx
+[INFO] 2026-09-24 15:18:03,433 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 15:18:03,433 [RapidOCR] main.py:63: Using C:\Users\l.ilyintseva\Desktop\RAG-system\data\models\ocr\el_PP-OCRv5_rec_mobi
+le.onnx
+2026-09-24T12:18:06.194533Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=2
+2026-09-24T12:18:11.218014Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=3
+2026-09-24T12:18:11.416614Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=4
+2026-09-24T12:18:11.507696Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=5
+2026-09-24T12:18:11.600250Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=6
+2026-09-24T12:18:12.319342Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=7
+2026-09-24T12:18:12.413969Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=8
+2026-09-24T12:18:12.543229Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=9
+2026-09-24T12:18:13.182482Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=10
+2026-09-24T12:18:13.595243Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=11
+2026-09-24T12:18:13.698267Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=12
+2026-09-24T12:18:15.098066Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=13
+2026-09-24T12:18:15.702846Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=14
+2026-09-24T12:18:15.812809Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=15
+2026-09-24T12:18:21.380734Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=16
+2026-09-24T12:18:22.791411Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=17
+2026-09-24T12:18:23.614753Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=18
+2026-09-24T12:18:23.743808Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=19
+2026-09-24T12:18:23.877620Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=20
+2026-09-24T12:18:23.984551Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=21
+2026-09-24T12:18:24.072794Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=22
+2026-09-24T12:18:24.191792Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=23
+2026-09-24T12:18:24.306151Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=24
+2026-09-24T12:18:24.380904Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=25
+2026-09-24T12:18:24.481809Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=26
+2026-09-24T12:18:24.597840Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=27
+2026-09-24T12:18:33.554996Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=28
+2026-09-24T12:18:33.652045Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=29
+2026-09-24T12:18:33.784116Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=30
+2026-09-24T12:18:34.934050Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=31
+2026-09-24T12:18:35.048097Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=32
+2026-09-24T12:18:36.491363Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=33
+2026-09-24T12:18:36.635918Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=34
+2026-09-24T12:18:56.850311Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=35
+2026-09-24T12:18:56.981884Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=36
+2026-09-24T12:18:57.101701Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=37
+2026-09-24T12:19:09.627213Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=38
+2026-09-24T12:19:23.161986Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=39
+2026-09-24T12:19:23.311059Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=40
+2026-09-24T12:19:23.425130Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=41
+2026-09-24T12:19:24.182797Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=42
+2026-09-24T12:19:24.296884Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=43
+2026-09-24T12:19:24.418093Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=44
+2026-09-24T12:19:41.810668Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=45
+2026-09-24T12:19:42.230575Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=46
+2026-09-24T12:19:42.339632Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=47
+2026-09-24T12:19:47.513196Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=48
+2026-09-24T12:19:55.385210Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=49
+2026-09-24T12:19:55.554171Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=50
+2026-09-24T12:19:55.657220Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=51
+2026-09-24T12:19:55.743934Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=52
+2026-09-24T12:19:55.873192Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=53
+2026-09-24T12:20:17.755951Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=54
+2026-09-24T12:20:19.834907Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=55
+2026-09-24T12:20:24.937448Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=56
+2026-09-24T12:20:25.060581Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=57
+2026-09-24T12:20:29.470697Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=58
+2026-09-24T12:20:30.361198Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=59
+2026-09-24T12:20:35.186620Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=60
+2026-09-24T12:20:50.028172Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=61
+2026-09-24T12:20:54.846419Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=62
+2026-09-24T12:20:55.655556Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=63
+2026-09-24T12:20:55.797171Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=64
+2026-09-24T12:21:00.748680Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=65
+2026-09-24T12:21:02.689475Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=66
+2026-09-24T12:21:10.890926Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=67
+2026-09-24T12:21:11.033850Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=68
+2026-09-24T12:21:20.482115Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=69
+2026-09-24T12:21:23.038437Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=70
+2026-09-24T12:21:23.144481Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=71
+2026-09-24T12:21:23.253521Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=72
+2026-09-24T12:21:23.348526Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=73
+2026-09-24T12:21:23.464631Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=74
+2026-09-24T12:21:23.557259Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=75
+2026-09-24T12:21:30.611759Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=76
+2026-09-24T12:21:38.188138Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=77
+2026-09-24T12:21:44.560386Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=78
+2026-09-24T12:22:31.650916Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=79
+2026-09-24T12:22:32.235863Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=80
+2026-09-24T12:22:32.323906Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=81
+2026-09-24T12:22:32.427966Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=82
+2026-09-24T12:22:36.419049Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=83
+2026-09-24T12:22:51.075911Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=84
+2026-09-24T12:22:51.207640Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=85
+2026-09-24T12:22:51.328710Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=86
+2026-09-24T12:22:52.736033Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=87
+2026-09-24T12:22:52.854582Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=88
+2026-09-24T12:22:52.963631Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=89
+2026-09-24T12:22:58.536339Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=90
+2026-09-24T12:22:59.566851Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=91
+2026-09-24T12:22:59.701005Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=92
+2026-09-24T12:23:07.455199Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=93
+2026-09-24T12:23:07.574250Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=94
+2026-09-24T12:23:07.691303Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=95
+2026-09-24T12:23:09.635655Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=96
+2026-09-24T12:23:09.736681Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=97
+2026-09-24T12:23:20.368944Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=98
+2026-09-24T12:23:20.474995Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=99
+2026-09-24T12:23:22.361981Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=100
+2026-09-24T12:23:22.468046Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=101
+2026-09-24T12:23:22.607099Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=102
+2026-09-24T12:23:22.717915Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=103
+2026-09-24T12:23:34.624906Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=104
+2026-09-24T12:23:35.399362Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=105
+2026-09-24T12:23:35.536444Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=106
+2026-09-24T12:23:40.060784Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=107
+2026-09-24T12:23:40.675263Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=108
+2026-09-24T12:23:40.802430Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=109
+2026-09-24T12:23:57.001341Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=110
+2026-09-24T12:24:18.760846Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=111
+2026-09-24T12:24:29.334985Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=112
+2026-09-24T12:24:30.084451Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=113
+2026-09-24T12:24:30.280296Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=114
+2026-09-24T12:24:30.380307Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=115
+2026-09-24T12:24:45.889868Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=116
+2026-09-24T12:24:53.503354Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=117
+2026-09-24T12:24:53.876358Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=118
+2026-09-24T12:24:54.813277Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=119
+2026-09-24T12:24:54.971808Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=120
+2026-09-24T12:24:55.073452Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=121
+2026-09-24T12:24:55.186284Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=122
+2026-09-24T12:25:09.877280Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=123
+2026-09-24T12:25:09.976323Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=124
+2026-09-24T12:25:10.092955Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=125
+2026-09-24T12:25:10.281552Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=126
+2026-09-24T12:25:10.904917Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=127
+2026-09-24T12:25:27.010499Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=128
+2026-09-24T12:25:27.886660Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=129
+2026-09-24T12:25:28.010819Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=130
+2026-09-24T12:25:28.117492Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=131
+2026-09-24T12:25:28.252364Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=132
+2026-09-24T12:25:28.342588Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=133
+2026-09-24T12:25:28.427780Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=134
+2026-09-24T12:25:28.515349Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=135
+2026-09-24T12:25:29.287692Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=136
+2026-09-24T12:25:29.393738Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=137
+2026-09-24T12:25:29.514404Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=138
+2026-09-24T12:25:32.937663Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=139
+2026-09-24T12:25:43.034927Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=140
+2026-09-24T12:25:53.959857Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=141
+2026-09-24T12:25:54.087477Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=142
+2026-09-24T12:25:54.210535Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=143
+2026-09-24T12:26:04.425700Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=144
+2026-09-24T12:26:09.796280Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=145
+2026-09-24T12:26:09.920834Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=146
+2026-09-24T12:26:18.118495Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=147
+2026-09-24T12:26:18.856806Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=148
+2026-09-24T12:26:19.441380Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=149
+2026-09-24T12:26:19.547429Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=150
+2026-09-24T12:26:19.648467Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=151
+2026-09-24T12:26:53.023637Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=152
+2026-09-24T12:26:53.208759Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=153
+2026-09-24T12:27:05.771102Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=154
+2026-09-24T12:27:05.889324Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=155
+2026-09-24T12:27:05.991387Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=156
+2026-09-24T12:27:06.090070Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=157
+2026-09-24T12:27:06.215488Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=158
+2026-09-24T12:27:23.669835Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=159
+2026-09-24T12:27:24.357003Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=160
+2026-09-24T12:27:28.483028Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=161
+2026-09-24T12:27:28.609119Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=162
+2026-09-24T12:27:29.713937Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=163
+2026-09-24T12:27:29.844997Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=164
+2026-09-24T12:27:29.944028Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=165
+2026-09-24T12:27:30.035900Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=166
+2026-09-24T12:27:30.168045Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=167
+2026-09-24T12:28:26.831909Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=168
+2026-09-24T12:28:37.298671Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=169
+2026-09-24T12:28:37.410312Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=170
+2026-09-24T12:28:38.595660Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=171
+2026-09-24T12:28:38.755240Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=172
+2026-09-24T12:28:39.805455Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=173
+2026-09-24T12:28:44.915339Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=174
+2026-09-24T12:30:04.037718Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=175
+2026-09-24T12:30:04.241852Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=176
+2026-09-24T12:30:19.696334Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=177
+2026-09-24T12:30:19.802385Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=178
+2026-09-24T12:30:19.908417Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=179
+2026-09-24T12:30:28.225870Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=180
+2026-09-24T12:30:28.379667Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=181
+2026-09-24T12:30:38.095848Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=182
+2026-09-24T12:30:38.212888Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=183
+2026-09-24T12:30:38.322931Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=184
+2026-09-24T12:30:38.417900Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=185
+2026-09-24T12:30:48.980283Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=186
+2026-09-24T12:30:53.913216Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=187
+2026-09-24T12:30:54.048839Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=188
+2026-09-24T12:30:54.190083Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=189
+2026-09-24T12:31:06.466923Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=190
+2026-09-24T12:31:06.628999Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=191
+2026-09-24T12:31:09.094956Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=192
+2026-09-24T12:31:09.249895Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=193
+2026-09-24T12:31:11.912313Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=194
+2026-09-24T12:31:12.079890Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=195
+2026-09-24T12:31:23.867665Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=196
+2026-09-24T12:31:24.152844Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=197
+2026-09-24T12:31:31.248963Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=198
+2026-09-24T12:31:31.380674Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=199
+2026-09-24T12:31:36.208730Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=200
+2026-09-24T12:31:36.341886Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=201
+2026-09-24T12:31:54.496798Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=202
+2026-09-24T12:31:54.605869Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=203
+2026-09-24T12:32:00.444473Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=204
+2026-09-24T12:32:00.574031Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=205
+2026-09-24T12:32:00.694592Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=206
+2026-09-24T12:32:05.367678Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=207
+2026-09-24T12:32:08.893130Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=208
+2026-09-24T12:32:13.453953Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=209
+2026-09-24T12:32:18.949615Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=210
+2026-09-24T12:32:23.728429Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=211
+2026-09-24T12:32:23.994326Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=212
+2026-09-24T12:32:24.112497Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=213
+2026-09-24T12:32:25.905680Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=214
+2026-09-24T12:32:26.032921Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=215
+2026-09-24T12:32:26.996881Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=216
+2026-09-24T12:32:27.154968Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=217
+2026-09-24T12:32:29.642921Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=218
+2026-09-24T12:32:29.750097Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=219
+2026-09-24T12:32:49.009616Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=220
+2026-09-24T12:33:07.119283Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=221
+2026-09-24T12:33:34.758079Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=222
+2026-09-24T12:33:35.441079Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=223
+2026-09-24T12:33:35.595168Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=224
+2026-09-24T12:33:37.376211Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=225
+2026-09-24T12:33:37.507247Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=226
+2026-09-24T12:33:37.660095Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=227
+2026-09-24T12:33:37.776286Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=228
+2026-09-24T12:33:45.777705Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=229
+2026-09-24T12:33:45.891759Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=230
+2026-09-24T12:33:46.053393Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=231
+2026-09-24T12:33:46.169519Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=232
+2026-09-24T12:33:56.037657Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=233
+2026-09-24T12:33:56.149071Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=234
+2026-09-24T12:33:56.260795Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=235
+2026-09-24T12:33:59.004110Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=236
+2026-09-24T12:33:59.122830Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=237
+2026-09-24T12:33:59.274037Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=238
+2026-09-24T12:33:59.779029Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=239
+2026-09-24T12:33:59.892069Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=240
+2026-09-24T12:34:07.407360Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=241
+2026-09-24T12:34:32.815446Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=242
+2026-09-24T12:34:45.200039Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=243
+2026-09-24T12:34:45.941673Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=244
+2026-09-24T12:34:46.043843Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=245
+2026-09-24T12:34:48.357591Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=246
+2026-09-24T12:35:05.749462Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=247
+2026-09-24T12:35:08.298454Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=248
+2026-09-24T12:35:08.419507Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=249
+2026-09-24T12:35:08.537621Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=250
+2026-09-24T12:35:14.339934Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=251
+2026-09-24T12:35:14.465985Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=252
+2026-09-24T12:35:14.575028Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=253
+2026-09-24T12:35:21.543812Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=254
+2026-09-24T12:35:31.491611Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=255
+2026-09-24T12:35:32.453929Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=256
+2026-09-24T12:35:33.070606Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=257
+2026-09-24T12:35:37.186476Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=258
+2026-09-24T12:35:37.309535Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=259
+2026-09-24T12:35:37.665440Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=260
+2026-09-24T12:36:07.931650Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=261
+2026-09-24T12:36:08.061722Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=262
+2026-09-24T12:36:23.482377Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=263
+2026-09-24T12:36:27.870351Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=264
+2026-09-24T12:36:33.134254Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=265
+2026-09-24T12:36:33.254379Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=266
+2026-09-24T12:37:21.581415Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=267
+2026-09-24T12:37:21.686501Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=268
+2026-09-24T12:37:22.281144Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=269
+2026-09-24T12:37:29.376593Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=270
+2026-09-24T12:37:32.110636Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=271
+2026-09-24T12:37:32.209668Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=272
+2026-09-24T12:37:32.612507Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=273
+2026-09-24T12:37:32.713559Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=274
+2026-09-24T12:37:35.253561Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=275
+2026-09-24T12:37:36.228686Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=276
+2026-09-24T12:37:41.923113Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=277
+2026-09-24T12:37:58.320701Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=278
+2026-09-24T12:38:00.307587Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=279
+2026-09-24T12:38:00.440637Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=280
+2026-09-24T12:38:00.540546Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=281
+2026-09-24T12:38:02.570660Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=282
+2026-09-24T12:38:10.693142Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=283
+2026-09-24T12:38:18.652314Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=284
+2026-09-24T12:38:18.780449Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=285
+2026-09-24T12:38:28.451910Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=286
+2026-09-24T12:38:28.615700Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=287
+2026-09-24T12:38:28.709772Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=288
+2026-09-24T12:38:52.015585Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=289
+2026-09-24T12:38:52.121053Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=290
+2026-09-24T12:38:52.274576Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=291
+2026-09-24T12:38:56.144749Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=292
+2026-09-24T12:39:11.009316Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=293
+2026-09-24T12:39:11.128880Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=294
+2026-09-24T12:39:11.239211Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=295
+2026-09-24T12:39:23.416585Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=296
+2026-09-24T12:39:31.784067Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=297
+2026-09-24T12:39:34.829030Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=298
+2026-09-24T12:39:34.938096Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=299
+2026-09-24T12:39:39.289678Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=300
+2026-09-24T12:39:39.386888Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=301
+2026-09-24T12:39:39.515974Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=302
+2026-09-24T12:39:39.637055Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=303
+2026-09-24T12:39:40.341444Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=304
+2026-09-24T12:39:40.451009Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=305
+2026-09-24T12:39:40.583116Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=306
+2026-09-24T12:39:40.671900Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=307
+2026-09-24T12:39:40.791164Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=308
+2026-09-24T12:39:40.877185Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=309
+2026-09-24T12:39:40.962011Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=310
+2026-09-24T12:39:41.052339Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=311
+2026-09-24T12:39:41.169234Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=312
+2026-09-24T12:39:41.254239Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=313
+2026-09-24T12:39:42.650289Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=314
+2026-09-24T12:39:42.876999Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=315
+2026-09-24T12:39:42.979297Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=316
+2026-09-24T12:39:53.664652Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=317
+2026-09-24T12:39:57.738650Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=318
+2026-09-24T12:39:57.961589Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=319
+2026-09-24T12:39:58.136735Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=320
+2026-09-24T12:39:58.269322Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=321
+2026-09-24T12:40:02.571959Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=322
+2026-09-24T12:40:03.243312Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=323
+2026-09-24T12:40:03.506218Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=324
+2026-09-24T12:40:04.218709Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=325
+2026-09-24T12:40:04.323079Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=326
+2026-09-24T12:40:20.212738Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=327
+2026-09-24T12:40:20.329435Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=328
+2026-09-24T12:40:21.094573Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=329
+2026-09-24T12:40:21.252635Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=330
+2026-09-24T12:40:22.622458Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=331
+2026-09-24T12:40:25.942520Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=332
+2026-09-24T12:40:26.064157Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=333
+2026-09-24T12:40:26.169763Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=334
+2026-09-24T12:40:26.297460Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=335
+2026-09-24T12:40:26.770003Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=336
+2026-09-24T12:40:26.879835Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=337
+2026-09-24T12:40:40.081446Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=338
+2026-09-24T12:40:40.252111Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=339
+2026-09-24T12:40:40.368153Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=340
+2026-09-24T12:40:40.517182Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=341
+2026-09-24T12:40:44.703261Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=342
+2026-09-24T12:40:44.799486Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=343
+2026-09-24T12:40:44.987723Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=344
+2026-09-24T12:40:45.122272Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=345
+2026-09-24T12:40:46.237613Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=346
+2026-09-24T12:40:55.050720Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=347
+2026-09-24T12:40:57.672879Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=348
+2026-09-24T12:40:57.776929Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=349
+2026-09-24T12:40:57.887970Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=350
+2026-09-24T12:40:58.016849Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=351
+2026-09-24T12:41:01.298266Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=352
+2026-09-24T12:41:01.412852Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=353
+2026-09-24T12:41:01.565901Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=354
+2026-09-24T12:41:01.657998Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=355
+2026-09-24T12:41:01.738930Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=356
+2026-09-24T12:41:13.022612Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=357
+2026-09-24T12:41:34.579055Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=358
+2026-09-24T12:41:34.699107Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=359
+2026-09-24T12:41:34.803171Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=360
+2026-09-24T12:41:44.511491Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=361
+2026-09-24T12:41:44.642960Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=362
+2026-09-24T12:41:44.753540Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=363
+2026-09-24T12:41:44.839566Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=364
+2026-09-24T12:41:44.925243Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=365
+2026-09-24T12:41:45.012326Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=366
+2026-09-24T12:41:45.625512Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=367
+2026-09-24T12:41:45.726265Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=368
+2026-09-24T12:41:45.824331Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=369
+2026-09-24T12:41:52.087722Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=370
+2026-09-24T12:41:52.658621Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=371
+2026-09-24T12:41:52.778664Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=372
+2026-09-24T12:41:53.132646Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=373
+2026-09-24T12:41:53.231615Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=374
+2026-09-24T12:41:54.634910Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=375
+2026-09-24T12:41:56.982805Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=376
+2026-09-24T12:42:00.566162Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=377
+2026-09-24T12:42:01.275067Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=378
+2026-09-24T12:42:10.580494Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=379
+2026-09-24T12:42:19.972717Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=380
+2026-09-24T12:42:24.039582Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=381
+2026-09-24T12:42:27.118945Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=382
+2026-09-24T12:42:27.213680Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=383
+2026-09-24T12:42:38.703677Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=384
+2026-09-24T12:42:38.818233Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=385
+2026-09-24T12:42:38.929328Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=386
+2026-09-24T12:42:39.025223Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=387
+2026-09-24T12:42:41.517369Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=388
+2026-09-24T12:42:41.637182Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=389
+2026-09-24T12:42:41.735301Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=390
+2026-09-24T12:42:42.630157Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=391
+2026-09-24T12:43:57.644164Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=392
+2026-09-24T12:44:12.929523Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=393
+2026-09-24T12:44:13.041579Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=394
+2026-09-24T12:44:13.154568Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=395
+2026-09-24T12:44:13.235581Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=396
+2026-09-24T12:44:13.971793Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=397
+2026-09-24T12:44:14.099414Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=398
+2026-09-24T12:44:14.208463Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=399
+2026-09-24T12:44:14.299534Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=400
+2026-09-24T12:44:14.385655Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=401
+2026-09-24T12:44:14.475354Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=402
+2026-09-24T12:44:14.566551Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=403
+2026-09-24T12:44:14.679620Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=404
+2026-09-24T12:44:14.766665Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=405
+2026-09-24T12:44:16.936903Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=406
+2026-09-24T12:44:17.055469Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=407
+2026-09-24T12:44:22.148893Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=408
+2026-09-24T12:44:22.258514Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=409
+2026-09-24T12:44:26.666903Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=410
+2026-09-24T12:44:26.807060Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=411
+2026-09-24T12:44:45.685552Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=412
+2026-09-24T12:44:45.807642Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=413
+2026-09-24T12:44:45.907763Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=414
+2026-09-24T12:44:46.863856Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=415
+2026-09-24T12:44:46.973517Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=416
+2026-09-24T12:44:58.006046Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=417
+2026-09-24T12:44:58.122102Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=418
+2026-09-24T12:44:58.224161Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=419
+2026-09-24T12:45:00.944239Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=420
+2026-09-24T12:45:01.059280Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=421
+2026-09-24T12:45:01.825153Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=422
+2026-09-24T12:45:04.213143Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=423
+2026-09-24T12:45:04.936292Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=424
+2026-09-24T12:45:12.806635Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=425
+2026-09-24T12:45:12.920688Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=426
+2026-09-24T12:45:16.335863Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=427
+2026-09-24T12:45:24.912192Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=428
+2026-09-24T12:45:25.039758Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=429
+2026-09-24T12:46:32.885355Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=430
+2026-09-24T12:46:32.993404Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=431
+2026-09-24T12:46:33.098445Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=432
+2026-09-24T12:47:07.424604Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=433
+2026-09-24T12:47:11.813990Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=434
+2026-09-24T12:47:14.282469Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=435
+2026-09-24T12:47:14.412613Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=436
+2026-09-24T12:47:15.792166Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=437
+2026-09-24T12:47:29.947136Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=438
+2026-09-24T12:47:30.067178Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=439
+2026-09-24T12:47:30.182236Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=440
+2026-09-24T12:47:43.783596Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=441
+2026-09-24T12:47:43.891633Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=442
+2026-09-24T12:47:43.996678Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=443
+2026-09-24T12:47:44.089779Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=444
+2026-09-24T12:47:45.603912Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=445
+2026-09-24T12:47:45.702966Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=446
+2026-09-24T12:47:57.412020Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=447
+2026-09-24T12:47:57.520045Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=448
+2026-09-24T12:47:57.627093Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=449
+2026-09-24T12:47:57.732236Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=450
+2026-09-24T12:47:57.826991Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=451
+2026-09-24T12:48:00.280262Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=452
+2026-09-24T12:48:00.400309Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=453
+2026-09-24T12:48:38.568629Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=454
+2026-09-24T12:48:40.499765Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=455
+2026-09-24T12:48:40.624346Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=456
+2026-09-24T12:48:40.728453Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=457
+2026-09-24T12:48:45.780021Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=458
+2026-09-24T12:49:03.261316Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=459
+2026-09-24T12:49:04.218395Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=460
+2026-09-24T12:49:04.744470Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=461
+2026-09-24T12:50:11.801780Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=462
+2026-09-24T12:50:23.587230Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=463
+2026-09-24T12:50:29.528903Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=464
+2026-09-24T12:50:57.305005Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=465
+2026-09-24T12:51:11.241796Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=466
+2026-09-24T12:51:14.689620Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=467
+2026-09-24T12:51:15.750811Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=468
+2026-09-24T12:51:15.879873Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=469
+2026-09-24T12:51:15.984938Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=470
+2026-09-24T12:51:16.496837Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=471
+2026-09-24T12:51:23.802008Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=472
+2026-09-24T12:51:40.998335Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=473
+2026-09-24T12:51:56.256954Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=474
+2026-09-24T12:51:56.375001Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=475
+2026-09-24T12:51:56.496030Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=476
+2026-09-24T12:52:04.003459Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=477
+2026-09-24T12:52:19.646599Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=478
+2026-09-24T12:52:20.513077Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=479
+2026-09-24T12:52:22.398959Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=480
+2026-09-24T12:52:22.532158Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=481
+2026-09-24T12:52:23.097795Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=482
+2026-09-24T12:52:23.211836Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=483
+2026-09-24T12:52:23.314976Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=484
+2026-09-24T12:52:28.360356Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=485
+2026-09-24T12:52:28.472200Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=486
+2026-09-24T12:52:28.586422Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=487
+2026-09-24T12:52:28.676939Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=488
+2026-09-24T12:52:35.284092Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=489
+2026-09-24T12:52:35.414493Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=490
+2026-09-24T12:52:35.925418Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=491
+2026-09-24T12:52:36.028441Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=492
+2026-09-24T12:52:36.138456Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=493
+2026-09-24T12:52:39.849543Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=494
+2026-09-24T12:52:46.759799Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=495
+2026-09-24T12:52:53.100875Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=496
+2026-09-24T12:53:06.886600Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=497
+2026-09-24T12:53:11.209915Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=498
+2026-09-24T12:53:28.710180Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=499
+2026-09-24T12:53:28.829059Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=500
+2026-09-24T12:53:28.940328Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=501
+2026-09-24T12:53:32.727662Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=502
+2026-09-24T12:53:32.847346Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=503
+2026-09-24T12:53:33.958089Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=504
+2026-09-24T12:53:34.059568Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=505
+2026-09-24T12:53:34.920791Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=506
+2026-09-24T12:53:35.030370Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=507
+2026-09-24T12:53:35.681397Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=508
+2026-09-24T12:53:45.596799Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=509
+2026-09-24T12:53:48.038818Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=510
+2026-09-24T12:53:48.551818Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=511
+2026-09-24T12:53:51.049903Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=512
+2026-09-24T12:53:51.824099Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=513
+2026-09-24T12:53:52.319099Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=514
+2026-09-24T12:53:58.355179Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=515
+2026-09-24T12:53:58.470931Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=516
+2026-09-24T12:54:02.156416Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=517
+2026-09-24T12:54:02.258476Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=518
+2026-09-24T12:54:02.368079Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=519
+2026-09-24T12:54:02.934341Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=520
+2026-09-24T12:54:03.035472Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=521
+2026-09-24T12:54:03.142222Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=522
+2026-09-24T12:54:06.494678Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=523
+2026-09-24T12:54:06.590744Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=524
+2026-09-24T12:54:09.916464Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=525
+2026-09-24T12:54:10.036518Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=526
+2026-09-24T12:54:13.602653Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=527
+2026-09-24T12:54:26.256115Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=528
+2026-09-24T12:54:27.138219Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=529
+2026-09-24T12:54:37.432199Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=530
+2026-09-24T12:54:38.266440Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=531
+2026-09-24T12:54:51.048585Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=532
+2026-09-24T12:54:51.760847Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=533
+2026-09-24T12:54:51.866901Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=534
+2026-09-24T12:54:51.976952Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=535
+2026-09-24T12:54:59.253077Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=536
+2026-09-24T12:54:59.342104Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=537
+2026-09-24T12:54:59.443146Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=538
+2026-09-24T12:55:02.134373Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=539
+2026-09-24T12:55:10.067692Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=540
+2026-09-24T12:55:11.335641Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=541
+2026-09-24T12:55:12.471623Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=542
+2026-09-24T12:55:13.359486Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=543
+2026-09-24T12:55:13.472539Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=544
+2026-09-24T12:55:13.586591Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=545
+2026-09-24T12:55:13.671651Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=546
+2026-09-24T12:55:16.862658Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=547
+2026-09-24T12:55:26.426980Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=548
+2026-09-24T12:55:35.875072Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=549
+2026-09-24T12:55:41.600656Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=550
+2026-09-24T12:55:52.590149Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=551
+2026-09-24T12:56:09.351443Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=552
+2026-09-24T12:56:10.909670Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=553
+2026-09-24T12:56:22.404548Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=554
+2026-09-24T12:56:22.508958Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=555
+2026-09-24T12:56:24.545883Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=556
+2026-09-24T12:56:25.095371Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=557
+2026-09-24T12:56:27.365147Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=558
+2026-09-24T12:56:41.399265Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=559
+2026-09-24T12:57:01.526413Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=560
+2026-09-24T12:57:06.038225Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=561
+2026-09-24T12:57:10.148505Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=562
+2026-09-24T12:57:10.254554Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=563
+2026-09-24T12:57:15.379587Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=564
+2026-09-24T12:57:15.473619Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=565
+2026-09-24T12:57:15.585563Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=566
+2026-09-24T12:57:27.841271Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=567
+2026-09-24T12:58:01.506306Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=568
+2026-09-24T12:58:32.001767Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=569
+2026-09-24T12:58:32.128908Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=570
+2026-09-24T12:58:43.884680Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=571
+2026-09-24T12:58:46.739735Z [info     ] regions_page                   doc_id=US_Army_Materiel_Command_Engineering_Design_Handbook page=572
+2026-09-24T12:59:15.145413Z [info     ] regions_done                   out=data\ir\night_run_v2_20260924_125552\phase3\usarmy\US_Army_Materiel_Command_Engineering_Design_Handbook_regions.json
+
+=== US_Army_Materiel_Command_Engineering_Design_Handbook === -> data\ir\night_run_v2_20260924_125552\phase3\usarmy\US_Army_Materiel_Command_Engineering_Design_Handbook_regions.json
+  p001 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p002 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0002_fi'
+  p003 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0003_fi'
+  p004 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p005 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p006 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\_'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0006_fi'
+  p007 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p008 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0008_fi'
+  p009 det=1 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdots -'
+  p010 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- 4 1'
+  p011 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p012 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { A M \\sin P } { \\sin \\angle }'
+       [formula] formula_01 '\\frac { 1 } { 2 } x = \\frac { 1 } { 2 }'
+  p013 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0013_fi'
+       [formula] formula_01 '6 - 4 . 1 . 2'
+  p014 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p015 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\therefore \\Delta V _ { 2 } = \\frac { 2 \\sqrt { 3 } \\t'
+  p016 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '8 . 7'
+       [formula] formula_01 '1 . 2 5 \\times 1 0 ^ { - 3 } k g = 1 . 2 5 6 g / m ^ { 3 }'
+  p017 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { g = 1 5 } ^ { a _ { i } }'
+  p018 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p019 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0019_fi'
+  p020 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0020_fi'
+  p021 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 "|  |  |  |  | TABLE OF | ('ONTFNTS | (('ouilnued) |  | | --- | --- | --- | --- |"
+  p022 det=2 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0022_fi'
+       [table] table_01 '|  |  |  | CHAPTER | 14 |  | | --- | --- | --- | --- | --- | --- | |  | ARMOR. |'
+  p023 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0023_fi'
+  p024 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p025 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 "|  |  |  |  | TABLEl- | ('ONTENI NS C(ontinued) |  | | --- | --- | --- | --- | -"
+       [table] table_01 '|  |  | Retaining | Rings | ........ ................................. | b- | | '
+  p026 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0026_fi'
+  p027 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 '| 17-3.2 | MACHINING |  |  | OPERATIONS ...................................... |'
+       [table] table_01 '| 17-5.2 |  | HEATTFREATMtENT |  | METALLURGY ....... | .......... .. .. 17-17 |'
+  p028 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p029 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0029_fi'
+  p030 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 3 } { 5 } \\div \\frac { 3 } { 2 5 } = \\frac { 3 } { 2 5 }'
+  p031 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p032 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdots + 1 + 1 + 1 + \\cdots + 1 + 1'
+  p033 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0033_fi'
+  p034 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0034_fi'
+  p035 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0035_fi'
+  p036 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p037 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 7 - \\frac { 7 } { 1 7 - \\frac { 1 } { 2 } x }'
+  p038 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0038_fi'
+  p039 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0039_fi'
+  p040 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p041 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 7 0 6 \\cdot 2 0 2 } { 1 }'
+  p042 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p043 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p044 det=3 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0044_fi'
+       [formula] formula_01 '\\underbrace { \\phantom { \\left( i \\kappa \\mathfrak { p } \\right) } } _ { 0 \\math'
+       [formula] formula_02 '\\frac { 4 4 } { 6 6 } -'
+  p045 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 . 1'
+  p046 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p047 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\scriptstyle { \\mathrm { i n t s t r i e n t } } } \\\\ { \\s'
+  p048 det=3 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { r } { \\dot { \\mathbf { a } } \\mathbf { i } \\mathbf { a } \\mathbf'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0048_fi'
+       [formula] formula_02 '\\overline { { \\Delta \\tau _ { \\mathsf { H } \\Omega } \\Delta \\mathsf { n } } } _ '
+  p049 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0049_fi'
+  p050 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p051 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p052 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0052_fi'
+  p053 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\left\\{ \\begin{array} { l l } { \\mathbf { \\dot { x } } ^ {'
+  p054 det=3 formula=3(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 0 1 0 1 0 0 } { - \\infty } 1 \\frac { 5 0 0 \\times 1 } { - \\infty }'
+       [formula] formula_01 'L'
+       [formula] formula_02 '\\dot { }'
+  p055 det=5 formula=5(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '-'
+       [formula] formula_01 '- \\frac { 1 } { 2 }'
+       [formula] formula_02 '\\sqrt { F - }'
+       [formula] formula_03 '\\times 1 0 ^ { 1 5 }'
+       [formula] formula_04 '\\begin{array} { r } { \\mathrm { , n u r o l b e c } } \\\\ { \\mathrm { , s ~ a r t'
+  p056 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p057 det=1 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { r e s s i t { 1 } , \\dot { \\Omega } ^ { \\mathrm '
+  p058 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 2 } { 6 . 3 } - \\frac { 1 } { 1 }'
+  p059 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } { \\, , } & { { } } & { \\stackrel { \\mathbf { c } \\cdot \\'
+  p060 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  |  | COI4EN. F IBER | I IENSIL PL NG-l, E | 060511 | MODULE, STRENCOI1, CFoLE'
+  p061 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p062 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\longrightarrow'
+       [formula] formula_01 '1 1'
+  p063 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0063_fi'
+  p064 det=4 formula=3(ok=2, sem=0, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '\\sum \\limits _ { i = 1 } ^ { \\infty } 2 0 0 0 \\sqrt { \\frac { 1 } { 2 } } + \\fra'
+       [formula] formula_01 'a ^ { 2 0 0 } + \\frac { 1 } { 1 } + \\frac { 1 } { 1 }'
+       [formula] formula_02 '\\stackrel { \\leftrightarrow } { \\underset { \\cong } { \\simeq } } 2 0 0 0 \\, { \\u'
+       [table] table_03 "| S150o | -0 |  | - |  |  |  | ''- | | --- | --- | --- | --- | --- | --- | --- |"
+  p065 det=3 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\frac { \\cdots } { F O A M - M }'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0065_fi'
+       [formula] formula_02 '1 \\cdots + 9'
+  p066 det=6 formula=6(ok=5, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\vert \\cos u \\in \\sin \\sin \\vert } { \\sqrt { \\cos u \\tan \\theta } }'
+       [formula] formula_01 '\\frac { 3 5 0 0 - 1 7 0 0 } { 2 0 0 0 - 3 0 0 0 } = \\frac { 1 0 0 0 0 0 0 0 } { '
+       [formula] formula_02 '\\overbrace { \\phantom { \\left. \\sum _ { k = 1 } ^ { 3 } \\partial _ { k } \\tilde '
+       [formula] formula_03 '\\frac { \\frac { 1 3 0 0 . 2 5 0 0 } { 4 0 0 0 - 5 0 0 0 } } { \\frac { 2 0 0 . 3 '
+       [formula] formula_04 '\\frac { 1 8 \\times 1 0 2 1 c } { 4 0 2 1 c }'
+       [formula] formula_05 '\\frac { A N \\Delta A M D E } { D E }'
+  p067 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0067_fi'
+  p068 det=5 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\frac { 3 \\div \\frac { 1 } { 8 } \\div \\frac { 1 } { 8 } } { 3 2 3 4 } = \\frac { '
+       [formula] formula_01 '\\frac { ( 5 0 0 0 0 \\div 5 0 \\leq 5 ) ^ { 2 } \\leq 5 0 \\approx 5 0 0 } { 1 }'
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0068_fi'
+       [formula] formula_03 '--- - \\cdot'
+       [formula] formula_04 '\\begin{array} { r l } { \\left. \\begin{array} { c } { \\alpha } \\\\ { \\left. \\begin'
+  p069 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\sqrt { 2 \\times 1 } } { \\sqrt { 2 + \\sqrt { 2 + \\sqrt { 2 + \\sqrt { 2 +'
+  p070 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p071 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p072 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p073 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p074 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p075 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0075_fi'
+       [formula] formula_01 '{ \\begin{array} { r l } & { { \\mathrm { o d u t i o n ~ r e g e n } } } \\\\ & { {'
+  p076 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\tan \\in \\dot { \\mathbf { d i f f } } \\dot { \\mathbf { u s'
+       [formula] formula_01 '\\begin{array} { l } { \\textsf { n d i o x i d e } , } \\\\ { \\textsf { s a n d e s'
+  p077 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { a s c e \\; f a c \\; } } \\\\ { \\mathrm { f \\; u x '
+       [formula] formula_01 '= \\frac { 1 } { 2 } ( \\frac { 1 } { 2 } + \\frac { 1 } { 2 } + \\frac { 1 } { 2 } '
+  p078 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\mathrm { \\boldmath ~ \\Lambda ~ } } } \\\\ { { \\mathrm { \\'
+       [formula] formula_01 '\\begin{array} { r } { \\mathbf { i } _ { \\mathrm { t s } } b _ { \\mathrm { T } } '
+  p079 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 0 } { m } +'
+  p080 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p081 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p082 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0082_fi'
+  p083 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p084 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p085 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p086 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mid \\nu _ { \\cdot \\cdot } \\leq 0 .'
+       [formula] formula_01 '\\frac { A _ { m } } { A _ { i } } ='
+  p087 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p088 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p089 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\mathbf { h o x - d o } } \\\\ { \\mathbf { a } \\mathbf { h }'
+  p090 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\sin \\theta } { \\cos \\theta } = \\frac { \\sin \\theta } { \\sin \\theta }'
+  p091 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p092 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p093 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p094 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p095 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\Delta B C E = O F \\Delta E C E = O E \\Delta E D \\sim \\Delta E D C E = \\Delta E '
+  p096 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p097 det=4 formula=3(ok=2, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\left. \\begin{array} { l } { x } \\\\ { 0 } \\\\ { \\frac { x } { 2 } \\leq 0 } \\\\ { \\'
+       [formula] formula_01 '0 . 6 5 + 1 + 1 + 1 + 1'
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0097_fi'
+       [formula] formula_03 '0 . 2 5'
+  p098 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p099 det=1 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\mathsf { n v u s \\_ g o v e t } } \\\\ { \\mathsf { ( \\pm 0 '
+  p100 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p101 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0101_fi'
+  p102 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0102_fi'
+  p103 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { r l } & { a } \\\\ & { A _ { i } } \\\\ & { B _ { \\mathrm { l o } } '
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0103_fi'
+  p104 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdot ^ { \\frac { 1 } { i } }'
+  p105 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p106 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\overline { { \\mathbf { \\Gamma } } } ^ { \\mathrm { ~ m i r'
+       [formula] formula_01 '\\mathrm { . }'
+  p107 det=2 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0107_fi'
+       [formula] formula_01 '\\frac { 5 } { 8 } 1'
+  p108 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p109 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\lim \\limits _ { x \\rightarrow \\infty } x \\rightarrow \\infty + 2'
+  p110 det=3 formula=2(ok=1, sem=0, caption=1) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { r l } & { \\overleftarrow { \\mathbf { e } } \\ \\mathbf { t h e \\ t'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0110_fi'
+       [formula] formula_02 '\\begin{array} { r l } { \\dot { \\mathbf { \\phi } } _ { T } } & { { } = \\mathbf { '
+  p111 det=4 formula=1(ok=0, sem=1, caption=0) table=2(ok=2) figure=1
+       [table] table_00 '| -~ | $-0CR$ | CR | 1.03 | 1.74 | | --- | --- | --- | --- | --- | | 0.1d1 a |  '
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0111_fi'
+       [formula] formula_02 '0 . 0 4 \\vert'
+       [table] table_03 '|  | 0 | 4 |  | 8 | 12 | | --- | --- | --- | --- | --- | --- | | -12 -8 -4 |  | '
+  p112 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 0 . 0 3 4 } { 0 . 0 } x'
+  p113 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0113_fi'
+  p114 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p115 det=4 formula=3(ok=0, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { ~ s ~ a ~ n e t ~ M T S F ~ v a l u e ~ d o ~ } '
+       [formula] formula_01 '\\begin{array} { r l } & { \\mathrm { l o w e r ~ f a i l u r e ~ r a t e } \\rangl'
+       [formula] formula_02 '\\begin{array} { r } { \\widetilde \\mathbf { u } \\equiv \\widetilde \\mathbf { 0 } }'
+       [figure] figure_03 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0115_fi'
+  p116 det=3 formula=2(ok=1, sem=1, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| - -- 0 | GEAR | BOXES | SURVEYED | -. 173 | | --- | --- | --- | --- | --- | | '
+       [formula] formula_01 '3 5 0 \\sqrt [ 6 ] { \\frac { 6 } { 2 } }'
+       [formula] formula_02 '\\begin{array} { r } { \\mathrm { ~ \\small ~ \\mathscr ~ { ~ s ~ } ~ d . 1 0 . ~ N '
+  p117 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 ='
+  p118 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0118_fi'
+       [formula] formula_01 '\\sum \\limits _ { i = 1 } ^ { N } f _ { i } \\cdot \\ldots'
+  p119 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0119_fi'
+  p120 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p121 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0121_fi'
+  p122 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0122_fi'
+  p123 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p124 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p125 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0125_fi'
+  p126 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdots'
+       [formula] formula_01 '\\leftarrow'
+  p127 det=3 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0127_fi'
+       [formula] formula_01 '- \\sqrt { - }'
+       [formula] formula_02 '\\cdots ! - 1 1 - 1'
+  p128 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\Delta E V E L \\Delta E A R S ( R ) } { \\Delta F E A S }'
+  p129 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p130 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p131 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0131_fi'
+  p132 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p133 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p134 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p135 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 } { 2 } = \\frac { 1 } { 2 }'
+  p136 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p137 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p138 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } { K _ { o } } & { { } = } & { \\mathsf { o v e r i c } } '
+  p139 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathrm { ~ m e a s ~ o r ~ t n c ~ t r o } } \\\\ { \\textbf'
+  p140 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p141 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p142 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p143 det=5 formula=5(ok=1, sem=3, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathsf { C } \\cdot \\mathsf { C } , } \\\\ { \\mathsf { N } \\'
+       [formula] formula_01 '\\begin{array} { r l } { \\pm } & { { } \\quad \\, = \\, \\, \\cdots \\, . } \\\\ { \\pm } '
+       [formula] formula_02 '\\sqcap \\ |'
+       [formula] formula_03 '\\dot { \\lceil }'
+       [formula] formula_04 '\\lnapprox'
+  p144 det=3 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { l } { \\scriptstyle { \\mathrm { o s t t a i n } } _ { \\scriptstyl'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0144_fi'
+       [formula] formula_02 '- \\frac { 1 } { 1 5 0 0 }'
+  p145 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p146 det=5 formula=4(ok=2, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { r } { \\nu _ { \\pi } \\ T _ { c } \\ \\ \\mathrm { f a l l } } \\\\ { \\'
+       [formula] formula_01 '\\underset { \\mathbf { p e e d } \\ \\mathbf { t o } } { \\mathbf { y } } \\ \\underse'
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0146_fi'
+       [formula] formula_03 '- -'
+       [formula] formula_04 '\\overbrace { - \\infty } ^ { \\phantom { - } \\Phi }'
+  p147 det=3 formula=1(ok=1, sem=0, caption=0) table=2(ok=2) figure=0
+       [formula] formula_00 '\\frac { F C _ { 1 } } { \\Delta }'
+       [table] table_01 '| --- | r~l $/Rc$ | L*s w t•S 50 | TO | vUAin U3 in., | CORE 62D655 - - | R, R, '
+       [table] table_02 '| 0.20 | 0.20 | 0.040 | 000 | 0.Ot0 0.070 0.050 0.090 | | --- | --- | --- | --- '
+  p148 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '1 + 2 + 4'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0148_fi'
+  p149 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p150 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p151 det=3 formula=3(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\rightharpoondown'
+       [formula] formula_01 '\\begin{array} { r } { \\begin{array} { c c } { \\mathrm { i n g } \\, \\, \\, \\mathrm'
+       [formula] formula_02 '\\begin{array} { l } { \\scriptstyle { \\mathrm { i n m e t r g } } } \\\\ { \\scripts'
+  p152 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0152_fi'
+  p153 det=3 formula=1(ok=0, sem=0, caption=0) table=1(ok=1) figure=1
+       [table] table_00 '| 0.607 -1 2 | 140 140 | mm mm | 00 0D | BRG ORG. | IN 0.045 BARE | in. ALUMINUM'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0153_fi'
+       [formula] formula_02 '\\begin{array} { c } { { \\dot { s } { \\dot { s } } { \\dot { s } } { \\dot { p } } '
+  p154 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p155 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p156 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p157 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0157_fi'
+  p158 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\twoheadrightarrow'
+       [formula] formula_01 '- \\bar { \\mathbf { q } } \\cdots'
+  p159 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { i = 1 } ^ { 4 }'
+  p160 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\scriptstyle { \\mathrm { d i a m e t e r , } } } \\\\ { \\scr'
+  p161 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p162 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\longleftarrow'
+       [formula] formula_01 '\\frac { 1 } { \\frac { 1 } { 1 + h } }'
+  p163 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p164 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p165 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p166 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0166_fi'
+  p167 det=4 formula=4(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- a _ { 1 } ) ( c ^ { 2 } + d ^ { 2 } ) \\times \\sqrt { \\frac { 3 6 5 } { 1 1 \\cd'
+       [formula] formula_01 '\\begin{array} { l } { { { \\mathrm { \\boldmath ~ \\Lambda ~ u s e n s i s ~ \\pi ~ '
+       [formula] formula_02 '\\lim \\limits _ { i \\rightarrow \\infty } + \\frac { } { 1 1 }'
+       [formula] formula_03 '\\sqrt [ 1 ] { \\frac { c } { ( d ) ^ { 2 } - } }'
+  p168 det=3 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '{ \\begin{array} { r l } & { \\mathbf { M } \\mathbf { a } \\mathbf { a } \\mathbf { '
+       [formula] formula_01 '\\begin{array} { r } { \\dot { \\pi } \\Psi \\dot { \\Phi } \\dot { \\mathbf { \\Psi } } '
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0168_fi'
+  p169 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p170 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\pmb { \\mathcal { L } } \\pmb { \\mathcal { L } } 1'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0170_fi'
+  p171 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0171_fi'
+  p172 det=3 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\sin 6 0 ^ { \\circ }'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0172_fi'
+       [formula] formula_02 '\\rule { 5 ex } { 0.2 ex }'
+  p173 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0173_fi'
+       [formula] formula_01 '\\begin{array} { c } { \\cos \\alpha \\in \\mathrm { m i n } } \\\\ { \\sin \\alpha \\math'
+  p174 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } & { } & { \\zeta _ { 0 } ^ { \\prime } \\zeta _ { 0 } ^ { \\'
+       [formula] formula_01 '\\begin{array} { r l } & { \\quad \\dot { \\epsilon } \\dot { \\leftrightarrow } \\dot '
+  p175 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0175_fi'
+  p176 det=2 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0176_fi'
+       [formula] formula_01 '\\csc'
+  p177 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p178 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p179 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= ='
+       [formula] formula_01 '\\begin{array} { l } { { \\begin{array} { r l } { \\mathbf { { t h } } \\otimes \\mat'
+  p180 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0180_fi'
+  p181 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '0 . - \\frac { 1 } { 1 } \\cdots \\frac { 1 } { 1 } - 0 . 1 + 0 . 1 1 + 1 1 + 1 1 +'
+       [formula] formula_01 '--'
+       [formula] formula_02 '\\sum \\limits _ { k = 1 } ^ { \\infty } \\sqrt { \\frac { - a - 1 } { 1 } } - \\cdots'
+  p182 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p183 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p184 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p185 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathrm { \\boldmath ~ \\sigma ~ } ^ { \\prime } = \\bar { \\bf'
+       [formula] formula_01 '\\begin{array} { l } { \\mathrm { \\bf \\Phi } ^ { \\mathrm { e g t a r l i o } } } \\'
+  p186 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p187 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p188 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p189 det=2 formula=2(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l r } & { \\mathbf { o r o u n e r } \\quad } & { \\mathbf { m u '
+       [formula] formula_01 '\\begin{array} { l l } { \\approx \\, [ ( 4 5 . 5 ) 1 \\, } \\\\ { \\ a \\, \\, 0 . 0 1 3'
+  p190 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0190_fi'
+  p191 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\arctan \\ln } \\\\ { \\left. \\begin{array} { l } { \\mathrm { '
+  p192 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0192_fi'
+  p193 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { ( u n v e s ~ d e s ) } \\\\ { e ~ ~ s o u s ~ p } \\\\ { | e '
+  p194 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0194_fi'
+  p195 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p196 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0196_fi'
+  p197 det=3 formula=3(ok=1, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= \\det ^ { \\_ { 1 } } { \\mathfrak { p } } _ { \\mathfrak { c } } \\mathfrak { h }'
+       [formula] formula_01 '\\begin{array} { c } { { \\mathbf { c } \\mathbf { t } \\mathbf { c } \\mathbf { r } '
+       [formula] formula_02 '\\begin{array} { r } { \\mathrm { \\dot { r e p e l l e r ~ b } } } \\\\ { \\mathrm { '
+  p198 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p199 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { \\dot { \\Tilde { \\mathbf { \\Psi } } } } & { { } = \\begin{'
+  p200 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p201 det=3 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=2
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0201_fi'
+       [formula] formula_01 '\\begin{array} { r } { \\pi _ { \\perp \\ge \\pm } \\approx \\pm \\mathrm { m m } , \\; \\'
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0201_fi'
+  p202 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p203 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p204 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p205 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p206 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p207 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathsf { h e l i c o p } } \\\\ { \\mathsf { n t } \\; \\maths'
+  p208 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0208_fi'
+  p209 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p210 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0210_fi'
+  p211 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0211_fi'
+  p212 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p213 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { - \\cdots = - } \\\\ { - \\frac { 1 } { 2 } + \\cdots = - } \\\\ '
+  p214 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p215 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '\\mathfrak { i } \\mathfrak { e } \\mathfrak { o } _ { \\bigcap } ^ { \\backprime }'
+       [table] table_01 '|  |  |  | C., |  |  |  | r1UtYIAL urtKIA | ~I U | M1nGE -u | | --- | --- | --- '
+  p216 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0216_fi'
+  p217 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathsf { w o - b l a d e t } } \\\\ { \\mathsf { \\varphi } }'
+  p218 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p219 det=6 formula=5(ok=2, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { c } { { m e r c } } \\\\ { { \\mathrm { r e s } } } \\\\ { { \\mathrm '
+       [formula] formula_01 '\\begin{array} { l } { \\operatorname { i n g } \\operatorname { o f } t } \\\\ { - \\'
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0219_fi'
+       [formula] formula_03 '\\begin{array} { r } { \\begin{array} { r l r } & { } & { \\mathrm { ~ \\, ~ \\, ~ } '
+       [formula] formula_04 '\\vdash'
+       [formula] formula_05 '\\frac { 6 0 + 1 0 + 8 5 } { 1 } x = 1 0'
+  p220 det=4 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { O L ( 5 \\times 1 . 4 \\times 1 . 1 } { 1 7 1 / 1 / 1 . 1 1 / 1 . 2 7 }'
+       [formula] formula_01 '\\underset { \\uparrow \\uparrow } { \\sum } \\underset { \\uparrow } { \\downarrow }'
+       [formula] formula_02 '\\sum \\limits _ { i = 1 } ^ { \\infty } o _ { 8 } ='
+       [formula] formula_03 '\\sum \\limits _ { i = 1 } ^ { n } o . 2 1'
+  p221 det=7 formula=7(ok=3, sem=3, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c c } { { } } & { { \\cdot \\star \\mathrm { e v e r } \\ \\left( { \\'
+       [formula] formula_01 '\\cdots'
+       [formula] formula_02 '\\begin{array} { r l r } { \\cdot } & { { } \\quad } & { \\frac { \\left\\vert \\begin{'
+       [formula] formula_03 '\\frac { \\mathsf { L i T F L } \\mathsf { I N F I } } { \\mathsf { G i G H I } \\mat'
+       [formula] formula_04 '\\frac { M \\times \\Delta E A } { 1 . 5 N \\times \\frac { C O \\Delta F A \\cdot M G '
+       [formula] formula_05 '\\begin{array} { l } { \\underbrace { \\mathbf { m } \\mathbf { i } \\cdot \\mathbf { '
+       [formula] formula_06 '\\overbrace { \\phantom { \\sum _ { k = 1 } ^ { \\mathsf { A P P R E C } } \\left| \\m'
+  p222 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0222_fi'
+       [formula] formula_01 '{ _ { \\kappa } } ^ { j }'
+  p223 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0223_fi'
+  p224 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\frac { 9 \\sqrt { 5 } , 1 , 1 . 7 } { \\mathrm { T h e } ^ '
+  p225 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p226 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0226_fi'
+  p227 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p228 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p229 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p230 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0230_fi'
+  p231 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p232 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { A O ^ { 2 } \\downarrow } { 2 2 2 } \\downarrow ='
+  p233 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p234 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p235 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { x ^ { 2 } \\div - - - 1 } { 1 } - \\frac { - 1 } { 2 } = \\frac { - 2 x \\di'
+       [formula] formula_01 '\\cdots'
+  p236 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p237 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0237_fi'
+  p238 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0238_fi'
+       [formula] formula_01 '\\sum ^ { j }'
+  p239 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p240 det=2 formula=2(ok=1, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\frac { a b \\dagger \\phi } { c \\mathbf { a } } \\mathbf { i'
+       [formula] formula_01 '\\begin{array} { c } { { \\mathrm { [ t ~ a l s o ~ p r e ~ } } } \\\\ { { \\mathrm {'
+  p241 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { o f } \\ \\ \\ \\mathrm { t e m p e r a t u r e } \\ '
+  p242 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0242_fi'
+  p243 det=4 formula=2(ok=1, sem=1, caption=0) table=1(ok=1) figure=1
+       [table] table_00 '|  | TABLE | 5-2. | EXAMPLE OF | NOMINAL | WEIGHT AND | CG | LOCATIONS |  | | --'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0243_fi'
+       [formula] formula_02 '\\-- --'
+       [formula] formula_03 '\\cdots'
+  p244 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p245 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { { \\bf \\sigma ^ { 1 } \\Sigma E q . \\Sigma ^ { 5 - } } } \\\\ '
+  p246 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 } { 1 } = \\frac { 1 . 3 6 . 0 0 1 } { 6 . 0 0 0 } = \\frac { 0 . 0 0 1 '
+       [formula] formula_01 '\\frac { \\pm \\pm 0 . 0 0 0 ^ { \\circ } } { \\pm 2 . 0 0 0 }'
+  p247 det=3 formula=3(ok=1, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'mathbf { \\Psi } _ { 1 } = \\sqrt { 1 3 9 0 + 4 7 2 0 } = \\sqrt { 6 1 1 0 }'
+       [formula] formula_01 'i \\cdots 7'
+       [formula] formula_02 '\\overline { 5 3 5 + 3 7 2 0 } = \\sqrt { 5 4 1 5 }'
+  p248 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p249 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p250 det=4 formula=2(ok=1, sem=0, caption=1) table=0(ok=0) figure=2
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0250_fi'
+       [formula] formula_01 '\\begin{array} { l } { \\mathrm { \\Delta \\psi ~ p r o v i d e ~ s u f f i c } } \\\\'
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0250_fi'
+       [formula] formula_03 '\\cdot v \\in 1 . 5 , 1 C _ { 1 } \\uparrow'
+  p251 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p252 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p253 det=3 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { r } { \\begin{array} { r c l } { \\mathrm { ~ v ~ r u w w ~ r ~ u '
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0253_fi'
+       [formula] formula_02 '1 9 = 4'
+  p254 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { - 4 } ^ { 8 } j'
+       [formula] formula_01 '\\left\\lceil \\frac { 1 } { 2 } \\right\\rceil = \\left\\lceil \\frac { 1 } { \\mathsf {'
+  p255 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { i = 1 } ^ { n } i _ { i } ^ { n }'
+  p256 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0256_fi'
+  p257 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\cdots = } } \\\\ { { \\mathrm { c h a n } } } \\\\ { { \\bar '
+  p258 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p259 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\vdash'
+  p260 det=2 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0260_fi'
+       [formula] formula_01 '\\begin{array} { r l r } { \\Omega \\nabla ^ { \\mathrm { B C } } \\, \\mathrm { B C }'
+  p261 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p262 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\overline { { \\mathbf { \\tau } } } } _ { -- \\overline { { \\mathbf { \\x'
+       [formula] formula_01 't ^ { i } \\sqrt { 2 } v m'
+  p263 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r } { \\tan \\operatorname { s u l l } \\, \\operatorname { m o } '
+  p264 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0264_fi'
+  p265 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p266 det=3 formula=3(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\cos \\alpha \\dot { \\mathbf { u } } \\dot { \\mathbf { u } } '
+       [formula] formula_01 '\\rightharpoonup'
+       [formula] formula_02 '\\begin{array} { r } { \\mathrm { o n ~ b e a w e a i n a c k ~ a n d ~ s i s f o '
+  p267 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p268 det=1 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '1 . T h e v e t o r e , \\}'
+  p269 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { \\phi } _ { \\mathrm { i f } \\times \\pm \\frac { 1 '
+  p270 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\cdots } \\\\ { \\cdots } \\\\ { \\cdots } \\\\ { \\cdots } \\end{ar'
+  p271 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p272 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\rightharpoonup'
+  p273 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p274 det=5 formula=4(ok=3, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '( 1 - \\frac { 0 . 7 5 5 } { 4 } )'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0274_fi'
+       [formula] formula_02 '\\frac { 1 . 1 C ^ { 1 } } { 9 } = 0 . 1 4'
+       [formula] formula_03 '\\cdot - s f'
+       [formula] formula_04 '\\frac { 1 } { 0 . 4 }'
+  p275 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\lim \\limits _ { x \\rightarrow - 8 0 0 } \\frac { 1 } { 6 } x \\geq 0'
+  p276 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\dashv'
+       [formula] formula_01 '\\begin{array} { r } { \\dot { \\mathrm { c o s s - b e r a n s } } = } \\\\ { \\dot {'
+  p277 det=4 formula=4(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\arctan } \\\\ { \\in \\operatorname { l o s s - f l } } \\\\ { '
+       [formula] formula_01 '1 \\cdots'
+       [formula] formula_02 '\\begin{array} { l } { \\mathbf { 0 } \\mathbf { F } \\; \\mathbf { T } \\mathbb { A }'
+       [formula] formula_03 '\\left\\{ \\begin{array} { l l } { \\mathsf { S r t a o v \\; S r a r } _ { \\mathsf {'
+  p278 det=3 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\lim \\limits _ { x \\rightarrow \\infty } \\tan x'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0278_fi'
+       [formula] formula_02 '\\begin{array} { r l } { \\therefore } & { { } ^ { \\ddots } } \\\\ { \\cot \\tan 3 . 8'
+  p279 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p280 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p281 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { \\epsilon } _ { 0 , 1 , 1 } \\tilde { \\mathbf { v '
+  p282 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\pmb { \\stackrel { \\pmb { \\pmb { \\pmb { \\varepsilon } } } } { \\partial'
+  p283 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\mathrm { Z } _ { \\mathrm { t } } \\; \\; \\tt a = q \\epsil'
+  p284 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p285 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'f _ { 1 0 }'
+       [formula] formula_01 '\\begin{array} { l } { u _ { 1 } ( \\mathbf { h } ) \\mathrm { ~ a ~ r ~ } } \\\\ { \\'
+  p286 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0286_fi'
+  p287 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p288 det=3 formula=3(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\cdots - \\operatorname { r c L E } \\, \\mathbf { \\cup } \\operatorname { s'
+       [formula] formula_01 '\\begin{array} { r l } & { \\mathrm { a i r f r a m e } \\, \\, } \\\\ & { \\mathrm { ~'
+       [formula] formula_02 '\\begin{array} { c } { \\dot { \\mathrm { \\ r e s p o n s e } } } \\\\ { \\dot { \\math'
+  p289 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p290 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0290_fi'
+  p291 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0291_fi'
+       [formula] formula_01 '\\begin{array} { r } { \\mathrm { \\bf g u s t s ~ o r ~ \\tilde { s u d } } } \\\\ { '
+  p292 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p293 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p294 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p295 det=3 formula=3(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\bigg \\{ \\begin{array} { r l } \\end{array} \\bigg \\} \\Bigg \\vert _ { \\mathbf { \\t'
+       [formula] formula_01 '\\begin{array} { c } { { \\mathrm { i o n s h i p s . ~ M L - H . 8 5 ( , 1 ~ s e '
+       [formula] formula_02 '\\frac { m p v _ { i } \\cdot \\theta } { \\frac { p } { \\left( \\frac { 0 } { i } \\r'
+  p296 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p297 det=3 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { s . \\, r s o \\, r o } } \\\\ { \\mathtt { A C N A T'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0297_fi'
+       [formula] formula_02 '\\because \\frac { \\cos } { 1 }'
+  p298 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p299 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0299_fi'
+  p300 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p301 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p302 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p303 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathsf { \\Phi } _ { \\ddots } ^ { \\rangle }'
+  p304 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p305 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p306 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p307 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0307_fi'
+  p308 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p309 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p310 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p311 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0311_fi'
+  p312 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p313 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\underset { 1 \\in R } { \\mathsf { m i c s } }'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0313_fi'
+  p314 det=2 formula=0(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [table] table_00 "|  |  | 1! 0 .NI | N. | 1 | OA | l | ATARS 'CTR0CALR UIR9C[NIS Xt 6 | P(R IN |  "
+       [table] table_01 '| T OIAL | I |  |  |  |  |  |  |  |  |  | 0 | 0 | | --- | --- | --- | --- | --- '
+  p315 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| - ~ - ~ ~ | ~ ~ ~ ~ 12A 12 | 8 .PS Il | 962 | I I | 15 jtgY~M5G93 0.j> .6 | 6.'
+  p316 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p317 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0317_fi'
+  p318 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p319 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0319_fi'
+  p320 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p321 det=3 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=3
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0321_fi'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0321_fi'
+       [figure] figure_02 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0321_fi'
+  p322 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0322_fi'
+  p323 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0323_fi'
+  p324 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\Longrightarrow'
+  p325 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p326 det=2 formula=2(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathsf { r o n c a r a c u r } } \\\\ { \\mathsf { f } \\in \\'
+       [formula] formula_01 'L'
+  p327 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  |  |  |  |  |  |  |  |  |  | •- -.f ioq | | --- | --- | --- | --- | --- | ---'
+  p328 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 } { \\frac { 1 } { 1 } }'
+  p329 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0329_fi'
+  p330 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\frac { 2 \\cos - 2 \\alpha 2 } { \\cos \\alpha } } \\\\ { \\; \\;'
+  p331 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { \\mu } _ { \\mathrm { L C C A U C I } } } \\\\ { \\ma'
+  p332 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p333 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p334 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0334_fi'
+  p335 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt { 1 3 }'
+  p336 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p337 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p338 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0338_fi'
+  p339 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p340 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0340_fi'
+  p341 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { u b e s } . \\ \\mathrm { F r i } } \\\\ { \\mathbf {'
+  p342 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p343 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0343_fi'
+  p344 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0344_fi'
+  p345 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\lim \\limits _ { s \\rightarrow + \\infty } \\sin \\limits _ { s } ^ { + \\infty . c '
+  p346 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { i d a s \\, \\, s y m e n } } \\\\ { \\mathrm { e \\, '
+       [formula] formula_01 '\\;'
+  p347 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathbf { \\dot { \\theta } } ^ { \\mathrm { f e r e n c e } '
+  p348 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p349 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p350 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0350_fi'
+  p351 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { h a t ~ a v i o n i c } } \\\\ { \\mathrm { w ~ s p'
+  p352 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p353 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0353_fi'
+  p354 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p355 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p356 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p357 det=3 formula=3(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '^ { 8 . 9 - } _ { 1 0 5 5 }'
+       [formula] formula_01 '\\begin{array} { r l r } & { \\mathrm { l e c k o u t \\quad } } & { \\mathrm { p o '
+       [formula] formula_02 '\\cdots - \\frac { 2 ^ { n } } { 2 ^ { n - 1 } } - \\frac { n ^ { 2 } } { 2 }'
+  p358 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p359 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p360 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\operatorname { L } { \\cdot \\operatorname { H } { - } \\ope'
+  p361 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p362 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p363 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p364 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p365 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p366 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '-'
+  p367 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  |  | 1111 ýIhTA |  | E |  |  | | --- | --- | --- | --- | --- | --- | --- | | '
+  p368 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p369 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p370 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 \\parallel 1 4'
+  p371 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p372 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdot'
+  p373 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p374 det=3 formula=2(ok=2, sem=0, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 'p = \\tan \\alpha = \\frac { \\sqrt { 3 } } { 3 }'
+       [formula] formula_01 '\\frac { i } { v _ { x } }'
+       [table] table_02 '| 0 4 2 | 3 | 10¶2 14 1¶6 | | --- | --- | --- | | $__$ SUCTION | LINE | IDJGTN, '
+  p375 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\tan ( \\tan ( \\frac { 3 \\pi } { 4 } ) ) = } \\\\ { \\cot ( \\t'
+  p376 det=3 formula=3(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'i'
+       [formula] formula_01 '\\boxed { H \\boxed { 7 } H \\boxed { - H } \\boxed { \\frac { 8 } { 6 } } \\boxed { \\'
+       [formula] formula_02 '\\lim \\limits _ { n \\rightarrow \\infty } L _ { n }'
+  p377 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- j ^ { s _ { 1 } s _ { 2 } }'
+  p378 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '|  | 0fT 20 | 41 | 63 G | 80 10U | | --- | --- | --- | --- | --- | | ~~ | li | T'
+  p379 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\operatorname* { m a x } _ { i = 1 } } \\\\ { \\operatorname*'
+       [formula] formula_01 'E = E = E'
+  p380 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'P F ='
+       [formula] formula_01 '\\begin{array} { r } { m = \\pm \\pi \\times 1 0 ^ { \\circ } . } \\\\ { \\pm \\pm \\pm \\p'
+  p381 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathtt { U R N } \\leftarrow \\equiv \\equiv \\equiv } \\\\ { \\'
+  p382 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p383 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= \\frac { 1 } { 7 }'
+  p384 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p385 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p386 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p387 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '-'
+       [formula] formula_01 '{ \\begin{array} { l } { \\mathbf { b e a r i n } } \\\\ { \\mathbf { i t e \\ t h } \\'
+  p388 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p389 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p390 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\therefore \\max \\geq \\Delta a'
+  p391 det=4 formula=4(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '='
+       [formula] formula_01 '\\mathsf { \\Delta \\! }'
+       [formula] formula_02 '\\frac { L } { 1 0 1 + 0 . 4 5 m ^ { 2 } }'
+       [formula] formula_03 '^ { \\mathfrak { o } } \\hookrightarrow'
+  p392 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\ Z } = { \\beta } = { \\gamma } = { \\gamma }'
+  p393 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p394 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p395 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p396 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 7 0 6 \\cdot 2 0 2 } { 1 0 }'
+  p397 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p398 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p399 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p400 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p401 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p402 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p403 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p404 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p405 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\operatorname * { m i n } \\tan ( \\tan ( \\arctan ) ) } \\\\ {'
+  p406 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p407 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0407_fi'
+  p408 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p409 det=1 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [figure] figure_00 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0409_fi'
+  p410 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p411 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\tan \\cot \\, \\tan \\alpha , } \\\\ { \\tan \\alpha \\tan \\alpha '
+  p412 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p413 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p414 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\mathbf { \\tau } _ { \\mathrm { . . } } ^ { \\mathrm { L i S } }'
+  p415 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p416 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { x 1 0 ^ { \\circ } } { x 1 0 ^ { 6 } }'
+  p417 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p418 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p419 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\mathbf { e i e m e n t s } } \\\\ { \\mathbf { i e } \\; \\; \\'
+  p420 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p421 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 7 1 0 0 0 } { 1 0 0 0 }'
+  p422 det=2 formula=1(ok=0, sem=1, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\mathbf { \\sigma } _ { \\mathrm { w h i l e ~ t r } } } \\\\ '
+       [table] table_01 '|  | 0 | i* |  | ~~~~~~2t, |  |  |  | ()Ac.AlNT1 INseeM | IN-W |  | HSG IlR | | '
+  p423 det=2 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 'l - \\frac { N } { 2 4 } +'
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0423_fi'
+  p424 det=2 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=1
+       [formula] formula_00 '\\begin{array} { r l r } & { \\mathsf { o i n d s . ~ T h e ~ o t h e r ~ c a t e '
+       [figure] figure_01 'data\\cache\\figures\\US_Army_Materiel_Command_Engineering_Design_Handbook\\p0424_fi'
+  p425 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p426 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathrm { f o r ~ } \\mathsf { w h } } \\\\ { \\mathsf { z c r'
+  p427 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p428 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p429 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\dotsm \\dotsm \\lvert \\lvert \\lvert \\lvert \\lvert \\lvert \\lvert \\lvert \\lvert \\lv'
+  p430 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p431 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p432 det=3 formula=3(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\dot { \\bf \\Phi } ( \\bf { h } \\! \\! \\Theta _ { 0 } ) \\! } '
+       [formula] formula_01 '\\begin{array} { l } { \\scriptstyle \\mathrm { { a r y } \\, e m e r g } } \\\\ { \\sc'
+       [formula] formula_02 '\\therefore \\sin A'
+  p433 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathsf { e } \\; \\mathsf { p i s t o n . } } \\\\ { \\mathsf '
+  p434 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\Delta a v e u b d } \\\\ { \\Delta a v e o v } \\\\ { \\mathbf '
+  p435 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p436 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\stackrel { 1 2 - 1 . 5 . 3 } { \\kappa _ { \\mathrm { r e c'
+  p437 det=1 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '- t - 1'
+  p438 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p439 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p440 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'x = 1'
+  p441 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p442 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p443 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p444 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { 1 3 . 1 . 1 . 2 . 2 . } \\\\ { \\pi _ { \\mathrm { h e l e c h'
+  p445 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p446 det=3 formula=3(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\cos \\arctan \\arctan } \\\\ { \\tan \\downarrow } \\\\ { \\tan \\d'
+       [formula] formula_01 '\\frac { 1 0 0 0 0 } { 1 0 0 0 0 0 }'
+       [formula] formula_02 '\\scriptstyle { \\mathrm { [ s ~ a ~ r = y ~ e = t i s ~ s ~ } }'
+  p447 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p448 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p449 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p450 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p451 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\dot { \\tan } \\dot { \\ A } \\cot } \\\\ { \\dot { \\geq } \\cdot'
+  p452 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p453 det=4 formula=3(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 "| 0 0 00o0 o o | o00 0 | I | I i | | --- | --- | --- | --- | | $S/$ I I I | ' 10"
+       [formula] formula_01 '\\stackrel { \\cdot \\infty \\cdot t } { 1 5 - 2 0 t }'
+       [formula] formula_02 '\\begin{array} { r l } & { \\left| \\begin{array} { l } { 0 . 1 0 \\, \\right| \\, 2 0'
+       [formula] formula_03 '\\begin{array} { r l } & { \\mathsf { L } \\mathsf { \\Delta B } } \\\\ & { \\mathsf { '
+  p454 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\boxed { 7 0 6 - 2 0 0 }'
+       [formula] formula_01 '\\lim \\limits _ { \\max \\rightarrow } \\frac { 1 } { 2 } \\times \\limits _ { \\cos \\t'
+  p455 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p456 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p457 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p458 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\cos \\theta } \\\\ { \\varphi \\sin \\theta } \\\\ { \\sin \\theta '
+       [formula] formula_01 '\\frac { \\cos \\alpha } { \\cos \\alpha } = \\frac { \\sin \\alpha } { \\sin \\alpha }'
+  p459 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt { \\frac { R ( \\Delta s _ { z } ) } { \\cdots } }'
+  p460 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 3 4 . 2 3'
+  p461 det=4 formula=4(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathsf { a \\, m a n h } } \\\\ { \\mathsf { a \\, p l a c e s'
+       [formula] formula_01 '\\begin{array} { r l r } { \\mathrm { l a d c o m ~ F o u r ~ p o i n t ~ s c a l '
+       [formula] formula_02 '= 0 . 0 0 5 0 \\cdot D . 5 0 \\cdot D .'
+       [formula] formula_03 '\\begin{array} { r } { \\mathrm { \\ c o n d ~ \\theta _ { 0 } ~ d ~ t o ~ e q ~ t o'
+  p462 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p463 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\sin \\alpha \\sin \\alpha \\sin \\beta } { \\cos \\alpha \\cos \\alpha }'
+       [formula] formula_01 '\\begin{array} { c } { \\mathrm { { \\textsl { e v e n c e n t 1 } } } } \\\\ { \\math'
+  p464 det=4 formula=4(ok=0, sem=3, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l } & { { \\mathrm { e v e n e n s ~ e v e n n e e } } } \\\\ &'
+       [formula] formula_01 '\\begin{array} { c } { \\ F \\circ \\alpha } \\\\ { \\mathrm { t o c o i l ~ } \\mathfra'
+       [formula] formula_02 '\\frac { 1 \\times 1 0 \\times 1 } { 1 \\times 1 5 \\times 1 0 \\times 1 } = \\frac { 1'
+       [formula] formula_03 '\\begin{array} { r } { \\underbrace { \\mathbf { a } \\mathbf { a } \\mathbf { u } \\m'
+  p465 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sin \\beta = \\frac { F } { B D } = \\frac { 1 } { 2 }'
+  p466 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\dot { \\omega } = \\operatorname * { m a x } _ { 1 } } \\\\ {'
+  p467 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 2 0 0 0 0 } { 5 0 0 0 0 } = 1 0 0 0 0'
+  p468 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p469 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p470 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 4 2 . 2 . 1 2'
+  p471 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { a - 2 b } { a - 1 } = 1'
+       [formula] formula_01 '\\begin{array} { r } { \\mathbf { i } \\mathbf { b } \\mathbf { e } \\ \\mathbf { l } '
+  p472 det=6 formula=6(ok=3, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\Delta _ { 2 3 } = \\Delta _ { 2 3 } = \\frac { \\sqrt { 2 } + \\sqrt { 2 } } { 2 } '
+       [formula] formula_01 '\\sum \\limits _ { i = 0 } ^ { \\infty } m'
+       [formula] formula_02 'x _ { p h o n } = \\frac { 1 } { 2 }'
+       [formula] formula_03 '\\begin{array} { l } { \\mathbf { n . ~ e x d ~ c o a t r o l ~ w ~ } } \\\\ { \\math'
+       [formula] formula_04 '\\frac { \\cos \\sin } { \\cos \\theta }'
+       [formula] formula_05 '\\begin{array} { r l r } & { } & { \\hbar v \\, \\mathrm { i n s g } \\quad \\mathrm {'
+  p473 det=4 formula=4(ok=2, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\angle A B C } { \\angle A C B } = 1 8 0 ^ { \\circ }'
+       [formula] formula_01 '\\frac { a _ { n } - \\alpha } { n - \\alpha }'
+       [formula] formula_02 '\\begin{array} { r l } { \\sec \\alpha \\sec \\alpha \\cot \\cot \\alpha \\sec \\alpha \\se'
+       [formula] formula_03 '\\begin{array} { l } { { \\Delta \\bar { \\bf H } \\underbrace { \\bar { \\bf \\Delta } '
+  p474 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p475 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p476 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p477 det=3 formula=3(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\mathrm { a r e a ~ o f ~ t h e ~ o g e n o n o n ~ t '
+       [formula] formula_01 '\\Delta A D O \\cong \\Delta F C D'
+       [formula] formula_02 '\\begin{array} { l } { \\mathrm { i b y ~ a r e ~ e ~ } } \\\\ { \\mathrm { i e ~ a r'
+  p478 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sum \\limits _ { i = 1 } ^ { 8 + 5 } i = 1'
+  p479 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= \\frac { o m \\times 0 . 4 m } { \\frac { o m n } { A N n + m o m } }'
+       [formula] formula_01 '\\lim \\limits _ { x \\rightarrow c \\infty / \\min } 1 1 \\mapsto 1 1 \\cdots'
+  p480 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p481 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '-'
+  p482 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p483 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p484 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\Delta A E B \\cong \\Delta B D E ( S A S )'
+  p485 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p486 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p487 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p488 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathbf { a } ( \\mathbf { t e r y } ~ \\mathbf { f } ) = } '
+  p489 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p490 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'i _ { - 1 }'
+  p491 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p492 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p493 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathsf { v e t s \\; a r c \\; g i } } \\\\ { \\mathrm { i c \\'
+  p494 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { R \\dot { \\bf e } \\dot { u } \\dot { u } } \\\\ { \\dot { \\bf d'
+  p495 det=3 formula=3(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathbf { c a l \\ r o l b a r } } \\\\ { \\mathbf { n \\ s i n'
+       [formula] formula_01 '\\left( { \\frac { \\dot { C } } { P } } \\right) ^ { c }'
+       [formula] formula_02 '\\begin{array} { r l } { L _ { 1 0 } } & { = \\, \\mathbf { B } } \\\\ { L _ { 1 0 } '
+  p496 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [formula] formula_00 '- i'
+       [table] table_01 '|  |  | TEALBEARINGS |  | BLEARIG | $.0_$ |  |  |  | I | | --- | --- | --- | ---'
+  p497 det=4 formula=4(ok=2, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 } { \\cdots } +'
+       [formula] formula_01 '\\leftarrow'
+       [formula] formula_02 '\\frac { 6 } { 1 0 } = \\frac { 3 } { 1 8 }'
+       [formula] formula_03 '\\frac { \\Lambda \\, \\mathrm { F i t } } { \\mathrm { F i t } } \\ = \\ \\frac { h _ {'
+  p498 det=2 formula=2(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } { N \\mathrm { b e a c } } \\\\ { M _ { 3 } } & { = \\mathrm {'
+       [formula] formula_01 '\\ g \\equiv \\operatorname* { l i m } _ { a }'
+  p499 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p500 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p501 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\displaystyle \\operatorname* { m a x } \\operatorname* { m '
+  p502 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p503 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\biggr . \\biggr . \\biggr . \\biggr . \\Biggr . \\Biggr .'
+  p504 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p505 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '^ { 8 , \\frac { 8 0 0 k } { 1 0 0 0 } }'
+  p506 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p507 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\cdots l'
+       [formula] formula_01 '\\bot'
+  p508 det=3 formula=3(ok=3, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\frac { M 1 L - C - 1 0 5 4 4 } { M : L - C - 1 2 5 2 0 '
+       [formula] formula_01 '\\frac { M i L - C - 2 2 5 3 9 } { M i _ { 2 } - C - 2 2 9 9 2 }'
+       [formula] formula_02 '\\frac { M 1 L - C - 2 7 5 9 9 } { M 1 L - C - 2 7 6 9 9 }'
+  p509 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathbf { w i f . \\bar { u } g . \\bar { \\xi } } } \\\\ { \\ma'
+  p510 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| SPECIFICATIONS | TYPE | CLASS | STANDARDS |  | WIRE | | --- | --- | --- | --- '
+       [formula] formula_01 '\\operatorname* { i n c }'
+  p511 det=5 formula=5(ok=2, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '+'
+       [formula] formula_01 'i ^ { 2 }'
+       [formula] formula_02 '\\therefore E B \\bot'
+       [formula] formula_03 'N : 1 1 L - S - 8 : 1 9'
+       [formula] formula_04 '\\bot'
+  p512 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sin 3 5 ^ { \\circ } = 1 0 ^ { \\circ }'
+  p513 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '1 5 6 . 2 2'
+  p514 det=5 formula=5(ok=3, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'w _ { i } ^ { \\mathrm { v } } \\, w _ { \\mathrm { J e m e c o i s o } } \\, v _ { '
+       [formula] formula_01 '\\dot { \\pmb { \\mathscr { S } } } ^ { * }'
+       [formula] formula_02 '\\left. { \\begin{array} { l } { \\left| } \\\\ { \\operatorname { g } } \\end{array} }'
+       [formula] formula_03 '\\angle A C N = 1 2 0 ^ { \\circ }'
+       [formula] formula_04 '{ \\left| \\begin{array} { l } { M _ { 2 } + 3 0 0 1 } \\\\ { M _ { 3 } z + 3 8 5 } '
+  p515 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p516 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\scriptstyle { \\mathrm { e r c o m e } } } \\\\ { \\scriptsty'
+  p517 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p518 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p519 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { A B D E N D } { 2 }'
+  p520 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p521 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p522 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { t d ~ t h e ~ s t ~ } } \\\\ { \\mathrm { ~ s ~ a f'
+  p523 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p524 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\textrm { e v o } } } \\\\ { { \\textrm { g } \\! - \\! \\text'
+  p525 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p526 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l } & { { \\mathrm { s i r e d ~ c } } } \\\\ & { { \\mathrm { s'
+  p527 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 0 1 1 6 } { \\frac { 1 1 6 1 0 1 1 4 } { 1 4 1 0 1 2 } }'
+  p528 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\therefore 1 = -'
+       [formula] formula_01 '= 3 7 0 5'
+  p529 det=2 formula=2(ok=2, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '- l'
+       [formula] formula_01 '\\frac { 1 5 - 6 1 } { x }'
+  p530 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { \\cdots } { \\cos \\arcsin \\in \\pi }'
+  p531 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 0 } { 1 0 } \\sin \\theta _ { 2 } \\in [ 4 \\pi N \\cdot A R \\times 4 5 \\ti'
+  p532 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sqrt { \\frac { 1 } { s } h - 3 }'
+  p533 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p534 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p535 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\mathrm { a r e ~ u s e d ~ t o ~ z e . u r e } \\ , } \\\\ {'
+  p536 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p537 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p538 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { { \\ d , \\ d e t e m } } \\\\ { { \\ d i b o n } } \\\\ { { \\ d '
+  p539 det=3 formula=3(ok=1, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\lim \\limits _ { x \\rightarrow \\infty } \\tan x _ { 1 } ^ { 3 }'
+       [formula] formula_01 '\\begin{array} { r l } & { \\mathrm { e a t i n e } _ { \\phi } = \\mathrm { e a t s'
+       [formula] formula_02 '\\begin{array} { r } { \\mathbf { n } = \\mathbf { l u } , \\mathbf { b } \\mathbf { '
+  p540 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 1 0 0 k m } { \\frac { 3 0 0 0 } { m } + \\frac { 1 0 0 } { n } }'
+  p541 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 "|  | TAMES | 174. | RKVMrnNTAJW |  | FE? |  | IDTEAl | TEMPERATURESC' |  | | ---"
+       [formula] formula_01 '\\frac { 1 5 5 1 4 1 } { 1 9 1 0 } 1 7 7 5 - 7 9 9 1'
+  p542 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\scriptstyle \\operatorname { D E S I G N } _ { \\mathbf { A C A T Z } }'
+  p543 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p544 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 "|  | TABLE | 17-6. | THE |  | EFFECT' OF SHOT | PEENING ON THE | | --- | --- | -"
+  p545 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p546 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathbf { a } = \\mathbf { 0 } \\mathbf { i } , \\, \\mathbf {'
+  p547 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p548 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p549 det=2 formula=2(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '-'
+       [formula] formula_01 '\\begin{array} { r } { \\mathbf { \\Sigma } _ { \\mathrm { { t s } } } = ( \\mathbf {'
+  p550 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p551 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { c } { \\mathbf { A . 2 . 3 . 2 } \\quad \\mathrm { B r o c t i v e '
+       [formula] formula_01 '\\begin{array} { c } { { d i m o n = 0 . 8 m o } } \\\\ { { \\mathrm { t e n m o n \\'
+  p552 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\textbf { \\omega } _ { 1 , 2 0 0 }'
+  p553 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '= 3 0 . 4 0 7 5 0 0 1 0 0 1'
+  p554 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p555 det=1 formula=1(ok=1, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '. \\infty \\times \\pmb { \\chi } _ { { \\pmb i } ^ { * } }'
+  p556 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\sin 3 3 2 3'
+  p557 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| Caps, ums | of, 16.4 | CAXUaM to | $u=twml$ mpa | $dbusajs,^$ S7 | | --- | ---'
+       [formula] formula_01 '\\begin{array} { c } { \\cos \\omega = \\frac { \\sin \\alpha } { \\sin \\alpha \\cos \\al'
+  p558 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\operatorname* { l i m i n } _ { k } ^ { 3 } i } \\\\ & '
+  p559 det=3 formula=3(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r l } & { \\mathrm { F e r o u s s ~ n o w n i n } } \\\\ & { \\quad'
+       [formula] formula_01 '\\begin{array} { c } { { 1 7 - 3 } } \\\\ { { \\dot { N } \\dot { \\omega } = ( \\mathb'
+       [formula] formula_02 '\\begin{array} { l } { \\mathrm { c o r o d } } \\\\ { \\mathrm { a d c o t o m s . ~'
+  p560 det=1 formula=1(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\operatorname* { m i n y } \\, \\mathrm { c o n s t d e r a '
+  p561 det=2 formula=2(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { r } { \\operatorname* { p i n t l e - m o u n t e } } \\\\ { \\opera'
+       [formula] formula_01 '\\pm 2 5'
+  p562 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p563 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\frac { 8 \\cdot 2 0 2 } { 1 0 0 2 }'
+       [formula] formula_01 '\\begin{array} { r l } & { \\mathrm { I y s } _ { \\mathrm { r s } } ^ { \\mathrm { '
+  p564 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p565 det=0 formula=0(ok=0, sem=0, caption=0) table=0(ok=0) figure=0
+  p566 det=3 formula=1(ok=0, sem=0, caption=0) table=2(ok=2) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\dot { ~ } \\mathrm { c a s c e n s s ~ o f } , \\; \\dot { \\'
+       [table] table_01 '| 49 1~ | RVoWor | wl Iea |  | | --- | --- | --- | --- | | $AIPU. 3-19$ | ewkifm'
+       [table] table_02 '| msAsile- | 14.8 6yt | 13 |  |  | at.i 6- | 1.6-22 | 2 |  | | --- | --- | --- |'
+  p567 det=2 formula=2(ok=0, sem=2, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '{ \\begin{array} { r l } & { \\mathbf { z } \\leq 2 \\pi } \\\\ & { \\mathbf { z } \\in '
+       [formula] formula_01 '\\begin{array} { r l } & { \\mathrm { ~ \\widehat { ~ u s c t . ~ } ~ } \\dot { \\xi '
+  p568 det=2 formula=1(ok=1, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| $4-I$ | ~I~S11 Iuip |  |  | Sirvwaih |  | 11-2 | | --- | --- | --- | --- | ---'
+       [formula] formula_01 '\\begin{array} { r l } & { \\gamma _ { \\mathrm { v } } ^ { \\mathrm { ~ \\! ~ \\! ~ +'
+  p569 det=1 formula=0(ok=0, sem=0, caption=0) table=1(ok=1) figure=0
+       [table] table_00 '| TONS |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | ---'
+  p570 det=1 formula=1(ok=0, sem=1, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 '\\widetilde { \\mathrm { \\textbf { e s y z i c m } } } _ { i } \\neq \\widetilde { \\'
+  p571 det=1 formula=1(ok=0, sem=0, caption=1) table=0(ok=0) figure=0
+       [formula] formula_00 '\\begin{array} { l } { \\mathrm { ( T ~ L . ~ \\, K I R i d A N } } \\\\ { \\mathrm { '
+  p572 det=6 formula=6(ok=3, sem=3, caption=0) table=0(ok=0) figure=0
+       [formula] formula_00 'M 1 A B \\therefore A'
+       [formula] formula_01 '\\begin{array} { r l } & { \\mathrm { \\ i } \\ k m \\tilde { \\mu } _ { 1 } = \\tilde '
+       [formula] formula_02 '\\frac { 3 } { 2 } = \\frac { 3 } { 2 } = \\frac { 3 } { 2 }'
+       [formula] formula_03 '\\frac { 1 0 0 0 - 0 0 0 + 1 0 } { 1 0 0 0 0 0 0 } = 1 0 0 0 0'
+       [formula] formula_04 '\\begin{array} { r } { \\cos \\bar { \\tau } = \\frac { \\sqrt { 2 m \\cos ^ { 2 } + 2 '
+       [formula] formula_05 '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . '
