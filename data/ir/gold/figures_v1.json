@@ -1,7 +1,7 @@
 {
   "version": 1,
   "iou_hit": 0.5,
-  "note": "Draft from T5/issue18. needs_review=true until confirmed on the PDF.",
+  "note": "Reviewed 2026-09-25 on rendered pages. needs_review=false on all 12 pages.",
   "pages": [
     {
       "doc_id": "_1954",
@@ -9,30 +9,39 @@
       "page": 1,
       "page_w": 595,
       "page_h": 842,
-      "needs_review": true,
-      "note": "title — expect 0 figures",
+      "needs_review": false,
+      "note": "title page; only small logo in corner — not a figure",
       "figures": []
     },
     {
       "doc_id": "_1954",
       "source": "data/raw/_1954.pdf",
       "page": 9,
-      "needs_review": true,
-      "note": "T5 listed; detector previously found 0",
-      "figures": []
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "scanned page; photo of Bell H-13 in middle",
+      "figures": [
+        {
+          "bbox": {"x1": 82, "y1": 398, "x2": 504, "y2": 571},
+          "caption": "Фиг. I.1. Одновинтовой вертолет Белл Н-13.",
+          "kind": "photo"
+        }
+      ]
     },
     {
       "doc_id": "_1954",
       "source": "data/raw/_1954.pdf",
       "page": 11,
-      "needs_review": true,
-      "note": "T5 v6 proposal — confirm Фиг. I.1 crop",
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "photo of Bendix coaxial helicopter; caption Фиг. I.3",
       "figures": [
         {
           "bbox": {"x1": 133.2, "y1": 210.6, "x2": 453.96, "y2": 497.16},
-          "caption": "Фиг. I.1",
-          "kind": "photo",
-          "source": "t5_v6_detector"
+          "caption": "Фиг. I.3. Соосный вертолет Бендикс.",
+          "kind": "photo"
         }
       ]
     },
@@ -40,20 +49,41 @@
       "doc_id": "_1954",
       "source": "data/raw/_1954.pdf",
       "page": 15,
-      "needs_review": true,
-      "figures": []
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "fig. I.9 — 5 schemes (a/b/c/d/e) + caption, treated as one composite figure",
+      "figures": [
+        {
+          "bbox": {"x1": 60, "y1": 210, "x2": 540, "y2": 450},
+          "caption": "Фиг. I.9. Способы продольного управления.",
+          "kind": "scheme"
+        }
+      ]
     },
     {
       "doc_id": "_1954",
       "source": "data/raw/_1954.pdf",
       "page": 20,
-      "needs_review": true,
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "3 figures: I.14 (scheme), I.15 (scheme), I.16 (photo)",
       "figures": [
         {
-          "bbox": {"x1": 158.4, "y1": 462.96, "x2": 484.2, "y2": 693.36},
-          "caption": "",
-          "kind": "scheme",
-          "source": "t5_v6_detector"
+          "bbox": {"x1": 165, "y1": 130, "x2": 430, "y2": 350},
+          "caption": "Фиг. I.14. Момент, создаваемый смещением вектора тяги.",
+          "kind": "scheme"
+        },
+        {
+          "bbox": {"x1": 145, "y1": 375, "x2": 460, "y2": 535},
+          "caption": "Фиг. I.15. Лопасть с сервоуправлением.",
+          "kind": "scheme"
+        },
+        {
+          "bbox": {"x1": 155, "y1": 570, "x2": 500, "y2": 830},
+          "caption": "Фиг. I.16. Несущая система с серворотором.",
+          "kind": "photo"
         }
       ]
     },
@@ -61,14 +91,20 @@
       "doc_id": "_1954",
       "source": "data/raw/_1954.pdf",
       "page": 25,
-      "needs_review": true,
-      "note": "figure exists; old run classified the caption as a formula",
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "2 separate charts: I.18 and I.19",
       "figures": [
         {
-          "bbox": {"x1": 80, "y1": 120, "x2": 520, "y2": 430},
-          "caption": "Фиг. I.18 / I.19",
-          "kind": "chart",
-          "source": "issue17_guess_needs_fix"
+          "bbox": {"x1": 75, "y1": 210, "x2": 300, "y2": 430},
+          "caption": "Фиг. I.18. Составные части потерь мощности.",
+          "kind": "chart"
+        },
+        {
+          "bbox": {"x1": 310, "y1": 210, "x2": 525, "y2": 430},
+          "caption": "Фиг. I.19. Кривая потребной мощности.",
+          "kind": "chart"
         }
       ]
     },
@@ -76,44 +112,90 @@
       "doc_id": "rdk89",
       "source": "data/raw/РДК_молниезащита 89г.pdf",
       "page": 1,
-      "needs_review": true,
-      "note": "issue18 full-page false figure — gold is empty",
-      "figures": []
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "title page; cover photo of FAA Technical Center building",
+      "figures": [
+        {
+          "bbox": {"x1": 155, "y1": 610, "x2": 555, "y2": 700},
+          "caption": "FAA Technical Center",
+          "kind": "photo"
+        }
+      ]
     },
     {
       "doc_id": "rdk89",
       "source": "data/raw/РДК_молниезащита 89г.pdf",
       "page": 9,
-      "needs_review": true,
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "TOC (Chapters 10, 11)",
       "figures": []
     },
     {
       "doc_id": "rdk89",
       "source": "data/raw/РДК_молниезащита 89г.pdf",
       "page": 10,
-      "needs_review": true,
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "TOC (Chapters 8, 9)",
       "figures": []
     },
     {
       "doc_id": "rdk89",
       "source": "data/raw/РДК_молниезащита 89г.pdf",
       "page": 25,
-      "needs_review": true,
-      "figures": []
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "Fig. 1.9 Positive corona — diagram with caption",
+      "figures": [
+        {
+          "bbox": {"x1": 60, "y1": 80, "x2": 540, "y2": 320},
+          "caption": "Fig. 1.9 Positive corona.",
+          "kind": "scheme"
+        }
+      ]
     },
     {
       "doc_id": "rdk89",
       "source": "data/raw/РДК_молниезащита 89г.pdf",
       "page": 26,
-      "needs_review": true,
-      "figures": []
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "Fig. 1.10 — two sub-charts (a/b)",
+      "figures": [
+        {
+          "bbox": {"x1": 340, "y1": 570, "x2": 565, "y2": 720},
+          "caption": "Fig. 1.10(a) Double exponential wave.",
+          "kind": "chart"
+        },
+        {
+          "bbox": {"x1": 340, "y1": 730, "x2": 565, "y2": 810},
+          "caption": "Fig. 1.10(b) Suppressed oscillatory wave.",
+          "kind": "chart"
+        }
+      ]
     },
     {
       "doc_id": "rdk89",
       "source": "data/raw/РДК_молниезащита 89г.pdf",
       "page": 39,
-      "needs_review": true,
-      "figures": []
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": false,
+      "note": "Fig. 2.1 composite (3 panels a/b/c) with shared caption",
+      "figures": [
+        {
+          "bbox": {"x1": 90, "y1": 100, "x2": 400, "y2": 530},
+          "caption": "Fig. 2.1 Generalized nature of negative cloud-to-ground lightning.",
+          "kind": "scheme"
+        }
+      ]
     }
   ]
 }
