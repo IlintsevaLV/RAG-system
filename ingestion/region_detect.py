@@ -67,11 +67,11 @@ _CYR_WORD_RE = re.compile(r"[А-Яа-яЁё]{2,}")
 _LONG_WORD_RE = re.compile(r"[А-Яа-яЁёA-Za-z]{11,}")
 _NUMERICISH = re.compile(r"\d")
 FIGURE_CAPTION_RE = re.compile(
-    r"(?:Фиг\.|Fig\.|Рис\.|Figure)\s*[IVXLCDM\d]+(?:\.\d+)*",
+    r"^\s*(?:Фиг\.|Fig\.|Рис\.|Figure)\s*[IVXLCDM\d]+(?:\.\d+)*",
     re.IGNORECASE,
 )
-_CAPTION_MARKER_RE = re.compile(r"(?:Фиг\.|Fig\.|Рис\.|Figure)", re.IGNORECASE)
-_CAPTION_JOIN_GAP_PT = 12.0
+_CAPTION_MARKER_RE = re.compile(r"^\s*(?:Фиг\.|Fig\.|Рис\.|Figure)", re.IGNORECASE)
+_CAPTION_JOIN_GAP_PT = 18.0
 _CAPTION_Y_SLOP_PT = 3.0
 _FIGURE_METHOD_PRIO = {
     "pdf_image": 3,
@@ -1190,17 +1190,13 @@ def _y_overlaps(a: tuple[float, float, float, float], b: tuple[float, float, flo
     return min(a[3], b[3]) + _CAPTION_Y_SLOP_PT > max(a[1], b[1])
 
 
-def _x_adjoins(left: tuple[float, float, float, float], right: tuple[float, float, float, float]) -> bool:
-    gap = right[0] - left[2]
-    return -2.0 <= gap <= _CAPTION_JOIN_GAP_PT
-
-
 def caption_line_groups(spans: list[TextSpan]) -> list[tuple[str, tuple[float, float, float, float], list[TextSpan]]]:
     """Join every span after a Fig./Фиг./Рис. marker on the same baseline.
 
     PyMuPDF often splits ``Fig. 1.9 Positive corona.`` into four spans with
     trailing spaces. Pairwise ``Fig.``+``1.10`` is not enough: keep walking
-    right while y overlaps and x adjoins.
+    right while y overlaps and x adjoins. Only spans that *start* with the
+    marker seed a group — inline ``(фиг. I.1)`` in a paragraph does not.
     """
     ordered = sorted(spans, key=lambda s: (_span_xyxy(s)[1], _span_xyxy(s)[0]))
     used: set[int] = set()
@@ -1208,22 +1204,27 @@ def caption_line_groups(spans: list[TextSpan]) -> list[tuple[str, tuple[float, f
     for i, seed in enumerate(ordered):
         if i in used:
             continue
-        if not _CAPTION_MARKER_RE.search(normalize_caption_text(seed.text)):
+        seed_text = normalize_caption_text(seed.text)
+        if not _CAPTION_MARKER_RE.match(seed_text):
             continue
         chunk = [seed]
         used.add(i)
         while True:
             last = _span_xyxy(chunk[-1])
-            nxt = None
+            candidates: list[tuple[float, int]] = []
             for j, other in enumerate(ordered):
                 if j in used:
                     continue
                 box = _span_xyxy(other)
-                if _y_overlaps(last, box) and _x_adjoins(last, box):
-                    nxt = j
-                    break
-            if nxt is None:
+                if not _y_overlaps(last, box):
+                    continue
+                gap = box[0] - last[2]
+                if -2.0 <= gap <= _CAPTION_JOIN_GAP_PT:
+                    candidates.append((gap, j))
+            if not candidates:
                 break
+            candidates.sort()
+            nxt = candidates[0][1]
             chunk.append(ordered[nxt])
             used.add(nxt)
         groups.append(_caption_group(chunk))
@@ -1304,7 +1305,7 @@ def detect_caption_figure_regions(
     shrinks onto a dense block wins, not whichever was tried first.
     """
     groups = caption_line_groups(spans)
-    captions = [g for g in groups if FIGURE_CAPTION_RE.search(g[0])]
+    captions = [g for g in groups if FIGURE_CAPTION_RE.match(g[0])]
     if not captions:
         return []
     caption_ids = {id(sp) for _text, _box, chunk in captions for sp in chunk}
@@ -1572,6 +1573,10 @@ def detect_page_regions(
     if use_ocr_fallback and len(spans) < 5:
         spans = _ocr_pseudo_spans(rendered.image_bgr, dpi=dpi, doc_id=doc_id, page=page_number)
         spans_from_layer = False
+    else:
+        # Text-layer captions are often 3–4 spans (Fig. / 1.9 / Positive / …).
+        # OCR path already joins inside _ocr_pseudo_spans.
+        spans = join_caption_spans(spans)
 
     formula_regions = detect_formula_regions_from_spans(
         spans, dpi=dpi, page_w=page_w, page_h=page_h, image_bgr=rendered.image_bgr

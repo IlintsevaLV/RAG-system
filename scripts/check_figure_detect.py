@@ -62,10 +62,16 @@ def test_units() -> int:
         print(f"  FAIL  full-page ok={ok} {reason}")
         failed += 1
 
-    if FIGURE_CAPTION_RE.search("Фиг. I.1. Одновинтовой"):
+    if FIGURE_CAPTION_RE.match("Фиг. I.1. Одновинтовой"):
         print("  PASS  caption regex")
     else:
         print("  FAIL  caption regex")
+        failed += 1
+    inline = "вым винтом (фиг. I.1). Преимуществами данного типа является"
+    if not FIGURE_CAPTION_RE.search(inline) and not FIGURE_CAPTION_RE.match(inline):
+        print("  PASS  reject inline (фиг. I.1)")
+    else:
+        print("  FAIL  inline caption matched")
         failed += 1
 
     spans = [
@@ -172,7 +178,7 @@ def test_units() -> int:
     ok_join = (
         len(groups) == 1
         and groups[0][0] == "Fig. 1.9 Positive corona."
-        and FIGURE_CAPTION_RE.search(groups[0][0])
+        and FIGURE_CAPTION_RE.match(groups[0][0])
         and abs(groups[0][1][0] - 252.0) < 0.1
         and abs(groups[0][1][1] - 264.0) < 0.1
         and abs(groups[0][1][2] - 354.1) < 0.1
@@ -183,16 +189,38 @@ def test_units() -> int:
     else:
         print(f"  FAIL  rdk p25 join {groups}")
         failed += 1
+    # Mimic the work-PC diagnostic: caps on raw spans vs after join.
+    raw_caps = sum(1 for sp in rdk_spans if FIGURE_CAPTION_RE.match(normalize_caption_text(sp.text)))
+    joined = join_caption_spans(rdk_spans)
+    joined_caps = sum(1 for sp in joined if FIGURE_CAPTION_RE.match(normalize_caption_text(sp.text)))
+    if raw_caps == 0 and joined_caps == 1:
+        print("  PASS  caps 0→1 after join_caption_spans (layer path)")
+    else:
+        print(f"  FAIL  caps raw={raw_caps} joined={joined_caps}")
+        failed += 1
     if normalize_caption_text("Fig.  1.9   Positive ") == "Fig. 1.9 Positive":
         print("  PASS  caption space normalize")
     else:
         print("  FAIL  caption space normalize")
         failed += 1
-    joined = join_caption_spans(rdk_spans)
     if len(joined) == 1 and joined[0].text.startswith("Fig. 1.9"):
         print("  PASS  OCR-style join_caption_spans")
     else:
         print(f"  FAIL  join_caption_spans {joined}")
+        failed += 1
+
+    # Inline paragraph with (фиг. I.1) must not become a caption group.
+    para = [
+        TextSpan(
+            text="вым винтом (фиг. I.1). Преимуществами данного типа является",
+            bbox=(49.9, 612.0, 554.4, 635.0),
+            font_size=10,
+        )
+    ]
+    if not caption_line_groups(para):
+        print("  PASS  no caption group from paragraph")
+    else:
+        print(f"  FAIL  paragraph seeded caption {caption_line_groups(para)}")
         failed += 1
 
     # Figure sits under the caption: below must be allowed to win.
@@ -269,12 +297,59 @@ def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float) -> 
     return 0
 
 
+def debug_captions(pdf: Path, page: int) -> None:
+    """Five-line dump: Fig seeds before/after join on the text layer."""
+    import fitz
+
+    from ingestion.region_detect import (
+        FIGURE_CAPTION_RE,
+        join_caption_spans,
+        normalize_caption_text,
+    )
+    from ingestion.source_analysis import _extract_spans
+
+    doc = fitz.open(str(pdf))
+    pg = doc[page - 1]
+    _text, spans = _extract_spans(pg)
+    fig_seeds = [
+        sp
+        for sp in spans
+        if normalize_caption_text(sp.text).lower().startswith(("fig", "фиг", "рис", "figure"))
+    ]
+    print(f"page={page} layer_spans={len(spans)} fig_seeds={len(fig_seeds)}")
+    for i, sp in enumerate(fig_seeds[:12]):
+        t = sp.text
+        print(
+            f"  [{i}] text={t!r} bbox={tuple(round(x, 1) for x in sp.bbox)} "
+            f"re={bool(FIGURE_CAPTION_RE.match(normalize_caption_text(t)))}"
+        )
+    print("--- after join_caption_spans ---")
+    joined = join_caption_spans(spans)
+    caps = [
+        sp
+        for sp in joined
+        if FIGURE_CAPTION_RE.match(normalize_caption_text(sp.text))
+    ]
+    print(f"joined_spans={len(joined)} caps={len(caps)}")
+    for sp in caps[:8]:
+        print(f"  CAP text={sp.text!r} bbox={tuple(round(x, 1) for x in sp.bbox)}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--gold", default="data/ir/gold/figures_v1.json")
     parser.add_argument("--pdf", default="")
     parser.add_argument("--dpi", type=int, default=200)
+    parser.add_argument(
+        "--debug-captions",
+        type=int,
+        default=0,
+        help="1-based page: dump Fig spans before/after join (needs --pdf)",
+    )
     args = parser.parse_args()
+    if args.debug_captions and args.pdf:
+        debug_captions(Path(args.pdf), args.debug_captions)
+        return 0
     failed = test_units()
     print(f"unit failures: {failed}")
     gold = Path(args.gold)

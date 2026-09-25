@@ -816,6 +816,10 @@ def _to_block(
 
 
 _FIGURE_CAPTION_RE = FIGURE_CAPTION_RE
+_FIGURE_NUMBER_IN_TEXT_RE = re.compile(
+    r"(?:Фиг\.|Fig\.|Рис\.|Figure)\s*[IVXLCDM\d]+(?:\.\d+)*",
+    re.IGNORECASE,
+)
 
 
 def _span_bbox(span: Any) -> BBox | None:
@@ -841,7 +845,7 @@ def find_nearby_figure_caption(spans: list[Any] | None, fig_bb: BBox) -> str:
         return ""
     for sp in spans:
         text = str(getattr(sp, "text", "") or "").strip()
-        if not text or not _FIGURE_CAPTION_RE.search(text):
+        if not text or not _FIGURE_CAPTION_RE.match(text):
             continue
         bb = _span_bbox(sp)
         if bb is not None and _bbox_near_figure(bb, fig_bb):
@@ -907,7 +911,7 @@ def process_figure_region(
         caption = figure_number
         method = "span_caption"
     if not figure_number and caption:
-        found = _FIGURE_CAPTION_RE.search(caption)
+        found = _FIGURE_NUMBER_IN_TEXT_RE.search(caption)
         if found:
             figure_number = found.group(0)
 
