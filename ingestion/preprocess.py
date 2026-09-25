@@ -342,7 +342,21 @@ def process_page_image(
     }
 
 
-def save_preview(image_bgr: np.ndarray, path: str | Path) -> None:
+def imwrite_unicode(path: str | Path, image_bgr: np.ndarray) -> bool:
+    """Write an image through Python I/O so Windows Cyrillic paths work.
+
+    ``cv2.imwrite`` uses C ``fopen`` and silently returns False on Unicode paths.
+    """
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    cv2.imwrite(str(path), image_bgr)
+    suffix = path.suffix if path.suffix else ".png"
+    ok, buf = cv2.imencode(suffix, image_bgr)
+    if not ok:
+        return False
+    path.write_bytes(buf.tobytes())
+    return path.is_file()
+
+
+def save_preview(image_bgr: np.ndarray, path: str | Path) -> None:
+    if not imwrite_unicode(path, image_bgr):
+        raise OSError(f"failed to write preview: {path}")

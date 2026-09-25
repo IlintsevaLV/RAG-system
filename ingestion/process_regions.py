@@ -105,6 +105,8 @@ def process_page_special_blocks(
                     region_id=rid,
                     cache_dir=settings.cache_dir,
                     vlm=vlm if settings.figure_vlm_caption else None,
+                    page_spans=page_spans,
+                    dpi=settings.render_dpi,
                 )
             )
 

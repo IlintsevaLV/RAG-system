@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "iou_hit": 0.5,
+  "note": "Draft from T5/issue18. needs_review=true until confirmed on the PDF.",
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 1,
+      "page_w": 595,
+      "page_h": 842,
+      "needs_review": true,
+      "note": "title — expect 0 figures",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 9,
+      "needs_review": true,
+      "note": "T5 listed; detector previously found 0",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 11,
+      "needs_review": true,
+      "note": "T5 v6 proposal — confirm Фиг. I.1 crop",
+      "figures": [
+        {
+          "bbox": {"x1": 133.2, "y1": 210.6, "x2": 453.96, "y2": 497.16},
+          "caption": "Фиг. I.1",
+          "kind": "photo",
+          "source": "t5_v6_detector"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 15,
+      "needs_review": true,
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 20,
+      "needs_review": true,
+      "figures": [
+        {
+          "bbox": {"x1": 158.4, "y1": 462.96, "x2": 484.2, "y2": 693.36},
+          "caption": "",
+          "kind": "scheme",
+          "source": "t5_v6_detector"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 25,
+      "needs_review": true,
+      "note": "figure exists; old run classified the caption as a formula",
+      "figures": [
+        {
+          "bbox": {"x1": 80, "y1": 120, "x2": 520, "y2": 430},
+          "caption": "Фиг. I.18 / I.19",
+          "kind": "chart",
+          "source": "issue17_guess_needs_fix"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 1,
+      "needs_review": true,
+      "note": "issue18 full-page false figure — gold is empty",
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 9,
+      "needs_review": true,
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 10,
+      "needs_review": true,
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 25,
+      "needs_review": true,
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 26,
+      "needs_review": true,
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 39,
+      "needs_review": true,
+      "figures": []
+    }
+  ]
+}

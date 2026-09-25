@@ -10,9 +10,10 @@ from typing import Any
 import cv2
 import numpy as np
 
-from core.ir import BlockType, Provenance, QualitySignals, RegionBlock
+from core.ir import BBox, BlockType, Provenance, QualitySignals, RegionBlock
 from core.logger import get_logger
-from ingestion.region_detect import DetectedRegion, crop_region_bgr
+from ingestion.preprocess import imwrite_unicode
+from ingestion.region_detect import FIGURE_CAPTION_RE, DetectedRegion, crop_region_bgr
 
 log = get_logger("table")
 
@@ -94,7 +95,9 @@ def parse_table_docling(image_bgr: np.ndarray, tmp_dir: Path) -> TableParseResul
     try:
         tmp_dir.mkdir(parents=True, exist_ok=True)
         img_path = tmp_dir / "table_crop.png"
-        cv2.imwrite(str(img_path), image_bgr)
+        if not imwrite_unicode(img_path, image_bgr):
+            log.warning("table_crop_encode_failed", path=str(img_path))
+            return None
         conv = DocumentConverter()
         result = conv.convert(str(img_path))
         doc = result.document
@@ -692,7 +695,8 @@ def process_table_region(
 
     tmp = cache_dir / "tables" / doc_id / f"p{page:04d}_{region_id}"
     tmp.mkdir(parents=True, exist_ok=True)
-    cv2.imwrite(str(tmp / "crop.png"), crop)
+    if not imwrite_unicode(tmp / "crop.png", crop):
+        log.warning("table_crop_not_saved", path=str(tmp / "crop.png"))
 
     # Unruled / lightly ruled tables: rebuild Markdown from aligned spans first.
     if spans and page_w:
@@ -811,6 +815,48 @@ def _to_block(
     )
 
 
+_FIGURE_CAPTION_RE = FIGURE_CAPTION_RE
+
+
+def _span_bbox(span: Any) -> BBox | None:
+    bb = getattr(span, "bbox", None)
+    if isinstance(bb, BBox):
+        return bb
+    if isinstance(bb, (tuple, list)) and len(bb) >= 4:
+        return BBox(x1=float(bb[0]), y1=float(bb[1]), x2=float(bb[2]), y2=float(bb[3]))
+    return None
+
+
+def _bbox_near_figure(span_bb: BBox, fig_bb: BBox, *, y_gap: float = 80.0) -> bool:
+    overlap = min(span_bb.x2, fig_bb.x2) - max(span_bb.x1, fig_bb.x1)
+    if overlap < 0:
+        return False
+    below = fig_bb.y2 - 5.0 <= span_bb.y1 <= fig_bb.y2 + y_gap
+    above = span_bb.y2 <= fig_bb.y1 + 5.0 and fig_bb.y1 - span_bb.y2 <= y_gap
+    return below or above
+
+
+def find_nearby_figure_caption(spans: list[Any] | None, fig_bb: BBox) -> str:
+    if not spans:
+        return ""
+    for sp in spans:
+        text = str(getattr(sp, "text", "") or "").strip()
+        if not text or not _FIGURE_CAPTION_RE.search(text):
+            continue
+        bb = _span_bbox(sp)
+        if bb is not None and _bbox_near_figure(bb, fig_bb):
+            return text[:120]
+    return ""
+
+
+def _ocr_figure_caption(crop: np.ndarray, *, dpi: int, page: int) -> str:
+    from ingestion.ocr_rapid import recognize_image
+
+    lines = recognize_image(crop, dpi=dpi, page=page, doc_id="figure")
+    caption = " ".join(ln.text.strip() for ln in lines if ln.text.strip())
+    return caption[:500]
+
+
 def process_figure_region(
     image_bgr: np.ndarray,
     region: DetectedRegion,
@@ -820,13 +866,21 @@ def process_figure_region(
     region_id: str,
     cache_dir: Path,
     vlm: Any | None = None,
+    page_spans: list[Any] | None = None,
+    dpi: int = 200,
 ) -> RegionBlock:
-    """Minimal figure handling: save crop + optional VLM caption."""
+    """Save crop (Unicode-safe) and fill caption via VLM, nearby spans, or OCR."""
     crop = crop_region_bgr(image_bgr, region, pad=6)
     out_dir = cache_dir / "figures" / doc_id
     out_dir.mkdir(parents=True, exist_ok=True)
     crop_path = out_dir / f"p{page:04d}_{region_id}.png"
-    cv2.imwrite(str(crop_path), crop)
+    crop_saved = imwrite_unicode(crop_path, crop)
+    if not crop_saved:
+        log.warning("figure_crop_not_saved", path=str(crop_path))
+        crop_path_str = ""
+    else:
+        crop_path_str = str(crop_path)
+
     caption = ""
     method = "crop_only"
     if vlm is not None:
@@ -836,10 +890,27 @@ def process_figure_region(
                 "Describe this figure in one short Russian or English sentence. "
                 "If it is a chart, mention axes topic. No markdown.",
             ).strip()
-            method = "vlm_caption"
+            if caption:
+                method = "vlm_caption"
         except Exception as exc:  # noqa: BLE001
             caption = ""
-            method = f"crop_only:{exc}"
+            method = f"vlm_failed:{exc}"
+
+    figure_number = find_nearby_figure_caption(page_spans, region.bbox_pt)
+    if not caption:
+        try:
+            caption = _ocr_figure_caption(crop, dpi=dpi, page=page)
+            method = "ocr_caption" if caption else "crop_only"
+        except Exception as exc:  # noqa: BLE001
+            method = f"ocr_failed:{exc}"
+    if not caption and figure_number:
+        caption = figure_number
+        method = "span_caption"
+    if not figure_number and caption:
+        found = _FIGURE_CAPTION_RE.search(caption)
+        if found:
+            figure_number = found.group(0)
+
     return RegionBlock(
         doc_id=doc_id,
         page=page,
@@ -847,6 +918,12 @@ def process_figure_region(
         type=BlockType.FIGURE,
         bbox=region.bbox_pt,
         quality=QualitySignals(confidence=region.score),
-        content={"caption": caption, "crop_path": str(crop_path), "status": "ok"},
+        content={
+            "caption": caption,
+            "caption_source": method,
+            "figure_number": figure_number,
+            "crop_path": crop_path_str,
+            "status": "ok" if crop_saved else "crop_missing",
+        },
         provenance=Provenance(method=method, confidence=region.score),
     )

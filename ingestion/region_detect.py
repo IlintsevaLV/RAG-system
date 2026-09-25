@@ -66,6 +66,15 @@ _FORMULA_STOPWORDS_RE = re.compile(
 _CYR_WORD_RE = re.compile(r"[А-Яа-яЁё]{2,}")
 _LONG_WORD_RE = re.compile(r"[А-Яа-яЁёA-Za-z]{11,}")
 _NUMERICISH = re.compile(r"\d")
+FIGURE_CAPTION_RE = re.compile(
+    r"(?:Фиг\.|Fig\.|Рис\.|Figure)\s*[IVXLCDM\d]+(?:\.\d+)*",
+    re.IGNORECASE,
+)
+_FIGURE_METHOD_PRIO = {
+    "pdf_image": 3,
+    "caption_anchor": 2,
+    "nontext_ink_cc": 1,
+}
 
 
 def _is_numericish(text: str) -> bool:
@@ -1002,12 +1011,200 @@ def detect_table_regions_from_spans(
     return out
 
 
+def is_valid_figure_bbox(
+    bbox: BBox,
+    *,
+    page_w: float,
+    page_h: float,
+) -> tuple[bool, str]:
+    """Reject full-page scans and slivers that ink-CC treats as a figure."""
+    w = bbox.x2 - bbox.x1
+    h = bbox.y2 - bbox.y1
+    page_area = max(page_w * page_h, 1.0)
+    bbox_area = max(w, 0.0) * max(h, 0.0)
+    if bbox_area > 0.6 * page_area:
+        return False, "too_large"
+    if w > 0.9 * page_w and h > 0.9 * page_h:
+        return False, "full_page"
+    if w < 50 or h < 50:
+        return False, "too_small"
+    ratio = w / max(h, 1.0)
+    if ratio < 0.15 or ratio > 7:
+        return False, "bad_aspect"
+    return True, ""
+
+
+def tighten_bbox_to_ink(
+    image_bgr: np.ndarray,
+    bbox_pt: BBox,
+    dpi: int,
+    *,
+    pad_pt: float = 6.0,
+) -> BBox:
+    """Shrink a loose box to the ink bounding box inside it."""
+    if image_bgr is None or image_bgr.size == 0:
+        return bbox_pt
+    h, w = image_bgr.shape[:2]
+    x1, y1, x2, y2 = _pt_to_px(bbox_pt, dpi)
+    x1, y1 = max(0, x1), max(0, y1)
+    x2, y2 = min(w, x2), min(h, y2)
+    if x2 - x1 < 12 or y2 - y1 < 12:
+        return bbox_pt
+    gray = cv2.cvtColor(image_bgr[y1:y2, x1:x2], cv2.COLOR_BGR2GRAY)
+    thr = max(int(np.median(gray)) - 12, 1)
+    ink = gray < thr
+    ys, xs = np.where(ink)
+    if xs.size < 40:
+        return bbox_pt
+    pad = max(1, int(pad_pt * dpi / 72.0))
+    nx1 = max(0, x1 + int(xs.min()) - pad)
+    ny1 = max(0, y1 + int(ys.min()) - pad)
+    nx2 = min(w, x1 + int(xs.max()) + 1 + pad)
+    ny2 = min(h, y1 + int(ys.max()) + 1 + pad)
+    tightened = _px_to_pt(nx1, ny1, nx2, ny2, dpi)
+    if (tightened.x2 - tightened.x1) < 40 or (tightened.y2 - tightened.y1) < 40:
+        return bbox_pt
+    return tightened
+
+
+def detect_pdf_image_regions(
+    page: fitz.Page,
+    *,
+    dpi: int,
+    page_w: float,
+    page_h: float,
+    image_bgr: np.ndarray | None = None,
+) -> list[DetectedRegion]:
+    """Embedded PDF images (XObject). Full-page scans are rejected."""
+    infos: list[dict] = []
+    try:
+        infos = list(page.get_image_info(xrefs=True) or [])
+    except Exception:
+        infos = []
+    if not infos:
+        for img in page.get_images(full=True) or []:
+            xref = img[0]
+            try:
+                rects = page.get_image_rects(xref)
+            except Exception:
+                continue
+            for rect in rects or []:
+                infos.append({"bbox": (rect.x0, rect.y0, rect.x1, rect.y1)})
+
+    out: list[DetectedRegion] = []
+    for info in infos:
+        raw = info.get("bbox")
+        if not raw or len(raw) < 4:
+            continue
+        x0, y0, x1, y1 = (float(raw[0]), float(raw[1]), float(raw[2]), float(raw[3]))
+        # page.rect is top-left; some MuPDF bboxes still use PDF bottom-left
+        if y0 > page_h * 0.5 and y1 > page_h * 0.85 and y0 > y1:
+            y0, y1 = page_h - y0, page_h - y1
+        bbox = BBox(x1=min(x0, x1), y1=min(y0, y1), x2=max(x0, x1), y2=max(y0, y1))
+        if image_bgr is not None:
+            bbox = tighten_bbox_to_ink(image_bgr, bbox, dpi)
+        ok, _reason = is_valid_figure_bbox(bbox, page_w=page_w, page_h=page_h)
+        if not ok:
+            continue
+        out.append(
+            DetectedRegion(
+                type=BlockType.FIGURE,
+                bbox_pt=bbox,
+                bbox_px=_pt_to_px(bbox, dpi),
+                score=0.80,
+                method="pdf_image",
+                notes=["embedded_xobject"],
+            )
+        )
+    return out
+
+
+def detect_caption_figure_regions(
+    spans: list[TextSpan],
+    image_bgr: np.ndarray,
+    *,
+    dpi: int,
+    page_w: float,
+    page_h: float,
+) -> list[DetectedRegion]:
+    """Box above/below a Фиг./Fig./Рис. caption, then tighten to ink."""
+    out: list[DetectedRegion] = []
+    for sp in spans:
+        text = (sp.text or "").strip()
+        if not text or not FIGURE_CAPTION_RE.search(text):
+            continue
+        cap = sp.bbox
+        cx1, cy1, cx2, cy2 = float(cap[0]), float(cap[1]), float(cap[2]), float(cap[3])
+        width = max(cx2 - cx1, 0.38 * page_w)
+        cx = 0.5 * (cx1 + cx2)
+        x1 = max(8.0, min(cx1, cx - width / 2.0))
+        x2 = min(page_w - 8.0, max(cx2, cx + width / 2.0))
+        above = BBox(
+            x1=x1,
+            y1=max(8.0, cy1 - min(0.52 * page_h, 400.0)),
+            x2=x2,
+            y2=max(cy1 - 3.0, 12.0),
+        )
+        below = BBox(
+            x1=x1,
+            y1=min(page_h - 12.0, cy2 + 3.0),
+            x2=x2,
+            y2=min(page_h - 8.0, cy2 + min(0.40 * page_h, 280.0)),
+        )
+        chosen: BBox | None = None
+        for window in (above, below):
+            if window.y2 - window.y1 < 50:
+                continue
+            tight = tighten_bbox_to_ink(image_bgr, window, dpi)
+            ok, _reason = is_valid_figure_bbox(tight, page_w=page_w, page_h=page_h)
+            if not ok:
+                continue
+            # Prefer the window that actually shrank onto ink (not the empty pad).
+            shrink = (window.x2 - window.x1) * (window.y2 - window.y1) - (
+                tight.x2 - tight.x1
+            ) * (tight.y2 - tight.y1)
+            if chosen is None or shrink > 0:
+                chosen = tight
+                if shrink > 0:
+                    break
+        if chosen is None:
+            continue
+        out.append(
+            DetectedRegion(
+                type=BlockType.FIGURE,
+                bbox_pt=chosen,
+                bbox_px=_pt_to_px(chosen, dpi),
+                score=0.74,
+                method="caption_anchor",
+                notes=[f"caption={text[:80]}"],
+            )
+        )
+    return out
+
+
+def merge_figure_candidates(regions: list[DetectedRegion]) -> list[DetectedRegion]:
+    """Keep the better source when two figure boxes overlap."""
+    kept: list[DetectedRegion] = []
+    for r in sorted(
+        regions,
+        key=lambda x: (
+            -_FIGURE_METHOD_PRIO.get(x.method, 0),
+            -x.score,
+        ),
+    ):
+        if any(_iou_pt(r.bbox_pt, k.bbox_pt) >= 0.35 for k in kept):
+            continue
+        kept.append(r)
+    return kept
+
+
 def detect_figure_regions(
     image_bgr: np.ndarray,
     text_mask_spans: list[TextSpan],
     *,
     dpi: int,
     page_w: float,
+    page_h: float | None = None,
 ) -> list[DetectedRegion]:
     """Large ink regions with little overlapping text → figure candidates."""
     gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
@@ -1043,7 +1240,12 @@ def detect_figure_regions(
         if ww / max(hh, 1) > 8 or hh / max(ww, 1) > 8:
             continue
         bbox_pt = _px_to_pt(x, y, x + ww, y + hh, dpi)
-        notes: list[str] = []
+        page_h_pt = page_h if page_h and page_h > 0 else page_w * h / max(w, 1)
+        bbox_pt = tighten_bbox_to_ink(image_bgr, bbox_pt, dpi)
+        ok, reason = is_valid_figure_bbox(bbox_pt, page_w=page_w, page_h=page_h_pt)
+        if not ok:
+            continue
+        notes: list[str] = [reason] if reason else []
         roi = gray[y : y + hh, x : x + ww]
         if roi.size:
             edges = cv2.Canny(roi, 50, 150)
@@ -1061,7 +1263,7 @@ def detect_figure_regions(
             DetectedRegion(
                 type=BlockType.FIGURE,
                 bbox_pt=bbox_pt,
-                bbox_px=(x, y, x + ww, y + hh),
+                bbox_px=_pt_to_px(bbox_pt, dpi),
                 score=min(1.0, area / (0.15 * page_area)),
                 method="nontext_ink_cc",
                 notes=notes,
@@ -1069,7 +1271,7 @@ def detect_figure_regions(
         )
     # keep top-N by area
     out.sort(key=lambda r: (r.bbox_px[2] - r.bbox_px[0]) * (r.bbox_px[3] - r.bbox_px[1]), reverse=True)
-    return out[:5]
+    return out[:8]
 
 
 def _iou_pt(a: BBox, b: BBox) -> float:
@@ -1215,11 +1417,31 @@ def detect_page_regions(
             rendered.image_bgr, dpi=dpi, page_w=page_w, page_h=page_h
         )
     )
-    regions.extend(
-        detect_figure_regions(
-            rendered.image_bgr, spans, dpi=dpi, page_w=page_w
+    figure_regions: list[DetectedRegion] = []
+    figure_regions.extend(
+        detect_pdf_image_regions(
+            page,
+            dpi=dpi,
+            page_w=page_w,
+            page_h=page_h,
+            image_bgr=rendered.image_bgr,
         )
     )
+    figure_regions.extend(
+        detect_caption_figure_regions(
+            spans,
+            rendered.image_bgr,
+            dpi=dpi,
+            page_w=page_w,
+            page_h=page_h,
+        )
+    )
+    figure_regions.extend(
+        detect_figure_regions(
+            rendered.image_bgr, spans, dpi=dpi, page_w=page_w, page_h=page_h
+        )
+    )
+    regions.extend(merge_figure_candidates(figure_regions))
     page_area_pt = page_w * page_h
     formulas = [r for r in regions if r.type == BlockType.FORMULA]
     regions = [
@@ -1241,6 +1463,12 @@ def detect_page_regions(
         or not any(_bbox_overlaps(r.bbox_pt, o.bbox_pt, min_share=0.05) for o in objects)
     ]
     regions = merge_regions(regions)
+    regions = [
+        r
+        for r in regions
+        if r.type != BlockType.FIGURE
+        or is_valid_figure_bbox(r.bbox_pt, page_w=page_w, page_h=page_h)[0]
+    ]
 
     blocks: list[RegionBlock] = []
     for i, r in enumerate(regions):
