@@ -13,9 +13,15 @@ PDF и объявить золото» нельзя: детектор сам с�
 1. Я предлагаю страницы (уже в JSON) и грубые bbox из старых прогонов.
 2. Вы на рабочем ПК открываете страницу, правите рамку (или ставите `figures: []`).
 3. Снимаете `needs_review`.
-4. Гоняете `python scripts/check_figure_detect.py --pdf data/raw/_1954.pdf`.
+4. Гоняете обе версии на одном golden и сравниваете P/R/IoU:
 
-30–50 страниц достаточно. Не размечайте весь rdk89.
+```powershell
+python scripts\check_figure_detect.py --detector heuristic --pdf "data/raw/_1954.pdf"
+python scripts\check_figure_detect.py --detector docling --pdf "data/raw/_1954.pdf"
+```
+
+По умолчанию пайплайн использует Docling layout (класс Picture). Эвристики caption/ink оставлены только как `--detector heuristic`, чтобы сравнение было на тех же страницах. Расширять набор до 40–50 страниц нужно глазами на рабочем ПК: боксы из детектора в золото не копировать.
+
 
 ## Что должно быть в одной записи
 

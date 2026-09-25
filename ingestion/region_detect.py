@@ -74,6 +74,7 @@ _CAPTION_MARKER_RE = re.compile(r"^\s*(?:Фиг\.|Fig\.|Рис\.|Figure)", re.IG
 _CAPTION_JOIN_GAP_PT = 18.0
 _CAPTION_Y_SLOP_PT = 3.0
 _FIGURE_METHOD_PRIO = {
+    "docling_layout": 4,
     "pdf_image": 3,
     "caption_anchor": 2,
     "nontext_ink_cc": 1,
@@ -1390,6 +1391,83 @@ def detect_caption_figure_regions(
     return out
 
 
+def _spans_in_box(spans: list[TextSpan], box: BBox) -> str:
+    parts: list[str] = []
+    for sp in spans:
+        x1, y1, x2, y2 = _span_xyxy(sp)
+        span = BBox(x1=x1, y1=y1, x2=x2, y2=y2)
+        if _iou_pt(span, box) <= 0 and not (
+            span.x1 >= box.x1 - 2 and span.x2 <= box.x2 + 2 and span.y1 >= box.y1 - 2 and span.y2 <= box.y2 + 2
+        ):
+            # also accept a span that sits mostly inside the caption box
+            inter_y = min(span.y2, box.y2) - max(span.y1, box.y1)
+            inter_x = min(span.x2, box.x2) - max(span.x1, box.x1)
+            if inter_y <= 0 or inter_x <= 0:
+                continue
+        text = (sp.text or "").strip()
+        if text:
+            parts.append(text)
+    return " ".join(parts)[:200]
+
+
+def figures_from_docling_layout(
+    image_bgr: np.ndarray,
+    spans: list[TextSpan],
+    *,
+    dpi: int,
+    page_w: float,
+    page_h: float,
+    pdf_images: list[DetectedRegion],
+) -> list[DetectedRegion]:
+    """Docling Picture boxes, captions linked by geometry, PDF images only if they overlap."""
+    from ingestion.layout_figures import docling_layout_hits
+
+    hits = docling_layout_hits(image_bgr, page_w=page_w, page_h=page_h)
+    pictures = [h for h in hits if h.label == "picture"]
+    captions = [h for h in hits if h.label == "caption"]
+    out: list[DetectedRegion] = []
+    for pic in pictures:
+        ok, _reason = is_valid_figure_bbox(pic.bbox_pt, page_w=page_w, page_h=page_h)
+        if not ok:
+            continue
+        cap = None
+        best_gap = 1e9
+        for cand in captions:
+            gap = _caption_figure_gap(
+                (cand.bbox_pt.x1, cand.bbox_pt.y1, cand.bbox_pt.x2, cand.bbox_pt.y2),
+                pic.bbox_pt,
+            )
+            x_overlap = min(cand.bbox_pt.x2, pic.bbox_pt.x2) - max(cand.bbox_pt.x1, pic.bbox_pt.x1)
+            if x_overlap <= 0 or gap > 80:
+                continue
+            if gap < best_gap:
+                best_gap = gap
+                cap = cand
+        notes = ["docling_picture"]
+        if cap is not None:
+            text = cap.text or _spans_in_box(spans, cap.bbox_pt)
+            if text:
+                notes.append(f"caption={text[:80]}")
+        out.append(
+            DetectedRegion(
+                type=BlockType.FIGURE,
+                bbox_pt=pic.bbox_pt,
+                bbox_px=_pt_to_px(pic.bbox_pt, dpi),
+                score=pic.score,
+                method="docling_layout",
+                notes=notes,
+            )
+        )
+    if not out:
+        return []
+    kept_pdf = [
+        img
+        for img in pdf_images
+        if any(_iou_pt(img.bbox_pt, pic.bbox_pt) >= 0.05 for pic in out)
+    ]
+    return out + kept_pdf
+
+
 def merge_figure_candidates(regions: list[DetectedRegion]) -> list[DetectedRegion]:
     """Keep the better source when two figure boxes overlap."""
     kept: list[DetectedRegion] = []
@@ -1561,6 +1639,7 @@ def detect_page_regions(
     doc_id: str,
     dpi: int = 200,
     use_ocr_fallback: bool = True,
+    figure_detector: str = "docling",
 ) -> tuple[np.ndarray, list[DetectedRegion], list[RegionBlock], list[TextSpan]]:
     """Detect formula/table/figure regions; return render, detections, IR blocks, spans."""
     rendered = render_page(doc, page_number, dpi=dpi)
@@ -1630,30 +1709,39 @@ def detect_page_regions(
         )
     )
     figure_regions: list[DetectedRegion] = []
-    figure_regions.extend(
-        detect_pdf_image_regions(
-            page,
-            dpi=dpi,
-            page_w=page_w,
-            page_h=page_h,
-            image_bgr=rendered.image_bgr,
-        )
+    pdf_images = detect_pdf_image_regions(
+        page,
+        dpi=dpi,
+        page_w=page_w,
+        page_h=page_h,
+        image_bgr=rendered.image_bgr,
     )
-    figure_regions.extend(
-        detect_caption_figure_regions(
-            spans,
-            rendered.image_bgr,
-            dpi=dpi,
-            page_w=page_w,
-            page_h=page_h,
-        )
-    )
-    # Ink blobs merge graphics with text on scans. Use them only when no
-    # caption anchored a figure; otherwise they show up as extra false boxes.
-    if not any(r.method == "caption_anchor" for r in figure_regions):
+    if figure_detector == "heuristic":
+        figure_regions.extend(pdf_images)
         figure_regions.extend(
-            detect_figure_regions(
-                rendered.image_bgr, spans, dpi=dpi, page_w=page_w, page_h=page_h
+            detect_caption_figure_regions(
+                spans,
+                rendered.image_bgr,
+                dpi=dpi,
+                page_w=page_w,
+                page_h=page_h,
+            )
+        )
+        if not any(r.method == "caption_anchor" for r in figure_regions):
+            figure_regions.extend(
+                detect_figure_regions(
+                    rendered.image_bgr, spans, dpi=dpi, page_w=page_w, page_h=page_h
+                )
+            )
+    else:
+        figure_regions.extend(
+            figures_from_docling_layout(
+                rendered.image_bgr,
+                spans,
+                dpi=dpi,
+                page_w=page_w,
+                page_h=page_h,
+                pdf_images=pdf_images,
             )
         )
     regions.extend(merge_figure_candidates(figure_regions))

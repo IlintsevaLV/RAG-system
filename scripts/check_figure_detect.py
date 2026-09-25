@@ -107,6 +107,23 @@ def test_units() -> int:
         print(f"  FAIL  merge {[(m.method) for m in merged]}")
         failed += 1
 
+    from ingestion.layout_figures import docling_layout_hits
+    from ingestion.region_detect import figures_from_docling_layout
+
+    if docling_layout_hits(img, page_w=300, page_h=400) == []:
+        print("  PASS  docling missing → no hits")
+    else:
+        print("  FAIL  unexpected docling hits")
+        failed += 1
+    pdf_only = figures_from_docling_layout(
+        img, [], dpi=72, page_w=300, page_h=400, pdf_images=[b]
+    )
+    if pdf_only == []:
+        print("  PASS  pdf image dropped without a Docling picture")
+    else:
+        print(f"  FAIL  pdf leaked {pdf_only}")
+        failed += 1
+
     # A hairline at the top of the window must not pin the box.
     noisy = img.copy()
     noisy[12, 100:180] = 0
@@ -238,11 +255,11 @@ def test_units() -> int:
     return failed
 
 
-def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float) -> int:
+def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float, detector: str) -> int:
     gold = json.loads(gold_path.read_text(encoding="utf-8"))
     pages = gold.get("pages") or []
     n_review = sum(1 for p in pages if p.get("needs_review"))
-    print(f"gold pages={len(pages)} needs_review={n_review}")
+    print(f"detector={detector} gold pages={len(pages)} needs_review={n_review}")
     if pdf is None or not pdf.is_file():
         print("  skip IoU replay (no --pdf). Confirm boxes, then re-run with the file.")
         return 0
@@ -262,7 +279,7 @@ def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float) -> 
                 continue
         page_no = int(item["page"])
         _img, dets, _blocks, _spans = detect_page_regions(
-            doc, page_no, doc_id=doc_id, dpi=dpi
+            doc, page_no, doc_id=doc_id, dpi=dpi, figure_detector=detector
         )
         pred = [d.bbox_pt for d in dets if d.type == BlockType.FIGURE]
         gold_bb = [
@@ -341,6 +358,12 @@ def main() -> int:
     parser.add_argument("--pdf", default="")
     parser.add_argument("--dpi", type=int, default=200)
     parser.add_argument(
+        "--detector",
+        choices=("docling", "heuristic"),
+        default="docling",
+        help="docling layout (default) or the previous caption/ink heuristics",
+    )
+    parser.add_argument(
         "--debug-captions",
         type=int,
         default=0,
@@ -355,7 +378,7 @@ def main() -> int:
     gold = Path(args.gold)
     if gold.is_file():
         iou_thr = float(json.loads(gold.read_text(encoding="utf-8")).get("iou_hit", 0.5))
-        replay_gold(gold, Path(args.pdf) if args.pdf else None, args.dpi, iou_thr)
+        replay_gold(gold, Path(args.pdf) if args.pdf else None, args.dpi, iou_thr, args.detector)
     return 1 if failed else 0
 
 
