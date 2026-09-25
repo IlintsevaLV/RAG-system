@@ -1,0 +1,728 @@
+{
+  "version": 2,
+  "iou_hit": 0.5,
+  "note": "Extended golden set for figure detector. v1 remains regression baseline.",
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 1,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "title page; only small logo in corner",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 2,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "preface/abstract; text only",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 3,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "preface (text)",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 4,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "preface (end)",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 5,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "symbols/abbreviations",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 6,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "symbols + formulas",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 7,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "symbols + formulas",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 8,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "symbols + errata table",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 9,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 61.4,
+            "y1": 377.8,
+            "x2": 542.4,
+            "y2": 557.8
+          },
+          "caption": "Фиг. I.1. Одновинтовой вертолет Белл Н-13.",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 10,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 77.8,
+            "y1": 179.5,
+            "x2": 497.3,
+            "y2": 451.7
+          },
+          "caption": "Фиг. I.2. Вертолет с прямоточными РД фирмы Мак Донал.",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 11,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 132.0,
+            "y1": 183.8,
+            "x2": 455.5,
+            "y2": 498.2
+          },
+          "caption": "Фиг. I.3. Соосный вертолет Бендикс.",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 12,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 107.0,
+            "y1": 226.1,
+            "x2": 471.8,
+            "y2": 456.5
+          },
+          "caption": "Фиг. I.4. Вертолет поперечной схемы Мак Донал XHJD-1",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 13,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 99.8,
+            "y1": 56.2,
+            "x2": 492.0,
+            "y2": 288.0
+          },
+          "caption": "Фиг. I.5. Вертолет продольной схемы Пясецкий HJP-1.",
+          "kind": "photo"
+        },
+        {
+          "bbox": {
+            "x1": 285.1,
+            "y1": 496.3,
+            "x2": 535.7,
+            "y2": 693.1
+          },
+          "caption": "Фиг. I.6. Система осей.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 14,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 50.4,
+            "y1": 154.6,
+            "x2": 541.0,
+            "y2": 287.5
+          },
+          "caption": "Фиг. I.7. Способы путевого управления.",
+          "kind": "scheme"
+        },
+        {
+          "bbox": {
+            "x1": 153.1,
+            "y1": 502.1,
+            "x2": 432.0,
+            "y2": 596.6
+          },
+          "caption": "Фиг. I.8. Способы поперечного управления.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 15,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 59.5,
+            "y1": 175.2,
+            "x2": 531.4,
+            "y2": 415.7
+          },
+          "caption": "Фиг. I.9. Способы продольного управления.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 16,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 92.6,
+            "y1": 149.8,
+            "x2": 485.3,
+            "y2": 469.4
+          },
+          "caption": "Фиг. I.10. Система управления обычного вертолета.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 17,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 91.2,
+            "y1": 393.1,
+            "x2": 495.8,
+            "y2": 711.8
+          },
+          "caption": "Фиг. I.11. Трехлопастный несущий винт с шарнирным креплением лопастей.",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 18,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 99.4,
+            "y1": 91.7,
+            "x2": 502.6,
+            "y2": 385.9
+          },
+          "caption": "Фиг. I.12. Двухлопастный несущий винт на кардане.",
+          "kind": "photo"
+        },
+        {
+          "bbox": {
+            "x1": 138.7,
+            "y1": 490.1,
+            "x2": 455.0,
+            "y2": 707.5
+          },
+          "caption": "Фиг. I.13. Двухлопастный несущий винт с жестким креплением лопастей.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 19,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text + cross-refs to figures",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 20,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 216.0,
+            "y1": 80.2,
+            "x2": 422.4,
+            "y2": 225.6
+          },
+          "caption": "Фиг. I.14. Момент, создаваемый смещением вектора тяги.",
+          "kind": "scheme"
+        },
+        {
+          "bbox": {
+            "x1": 117.1,
+            "y1": 282.2,
+            "x2": 518.9,
+            "y2": 369.1
+          },
+          "caption": "Фиг. I.15. Лопасть с сервоуправлением.",
+          "kind": "scheme"
+        },
+        {
+          "bbox": {
+            "x1": 160.8,
+            "y1": 421.0,
+            "x2": 484.8,
+            "y2": 689.8
+          },
+          "caption": "Фиг. I.16. Несущая система с серворотором.",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 21,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 249.1,
+            "y1": 391.2,
+            "x2": 538.1,
+            "y2": 561.1
+          },
+          "caption": "Фиг. I.17. Формы лопастей в плане.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 22,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 23,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 24,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 25,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 87.4,
+            "y1": 199.2,
+            "x2": 282.2,
+            "y2": 402.2
+          },
+          "caption": "Фиг. I.18. Составные части потерь мощности.",
+          "kind": "chart"
+        },
+        {
+          "bbox": {
+            "x1": 312.0,
+            "y1": 199.7,
+            "x2": 499.2,
+            "y2": 398.9
+          },
+          "caption": "Фиг. I.19. Кривая потребной мощности.",
+          "kind": "chart"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 26,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 27,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 28,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 29,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 1,
+      "page_w": 691.2,
+      "page_h": 794.16,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 220.3,
+            "y1": 534.7,
+            "x2": 618.2,
+            "y2": 648.5
+          },
+          "caption": "FAA Technical Center",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 5,
+      "page_w": 622.08,
+      "page_h": 794.16,
+      "needs_review": false,
+      "note": "TOC",
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 15,
+      "page_w": 606.72,
+      "page_h": 786.48,
+      "needs_review": false,
+      "note": "text",
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 20,
+      "page_w": 606.72,
+      "page_h": 785.52,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 325.0,
+            "y1": 325.9,
+            "x2": 538.1,
+            "y2": 632.6
+          },
+          "caption": "Fig. 1.1 Current-voltage relations in pre-spark regions.",
+          "kind": "chart"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 25,
+      "page_w": 606.72,
+      "page_h": 786.48,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 126.7,
+            "y1": 54.7,
+            "x2": 506.4,
+            "y2": 239.0
+          },
+          "caption": "Fig. 1.9 Positive corona.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 26,
+      "page_w": 629.76,
+      "page_h": 802.8,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 340.8,
+            "y1": 398.4,
+            "x2": 542.4,
+            "y2": 635.0
+          },
+          "caption": "Fig. 1.10 Waveshapes for testing.",
+          "kind": "chart"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 30,
+      "page_w": 614.4,
+      "page_h": 787.68,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 73.9,
+            "y1": 266.9,
+            "x2": 299.5,
+            "y2": 416.2
+          },
+          "caption": "Fig. 1.16 Initial corona.",
+          "kind": "photo"
+        },
+        {
+          "bbox": {
+            "x1": 314.4,
+            "y1": 92.2,
+            "x2": 537.1,
+            "y2": 242.4
+          },
+          "caption": "Fig. 1.17 Growth of a streamer.",
+          "kind": "photo"
+        },
+        {
+          "bbox": {
+            "x1": 316.8,
+            "y1": 311.5,
+            "x2": 540.0,
+            "y2": 403.2
+          },
+          "caption": "Fig. 1.18 Completed breakdown.",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 39,
+      "page_w": 614.4,
+      "page_h": 789.84,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 97.4,
+            "y1": 68.6,
+            "x2": 304.8,
+            "y2": 364.3
+          },
+          "caption": "Fig. 2.1 Generalized nature of negative cloud-to-ground lightning.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 50,
+      "page_w": 606.72,
+      "page_h": 787.68,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 335.5,
+            "y1": 212.2,
+            "x2": 531.4,
+            "y2": 322.6
+          },
+          "caption": "Fig. 2.21 Definition of waveform parameters.",
+          "kind": "chart"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 75,
+      "page_w": 614.4,
+      "page_h": 792.96,
+      "needs_review": false,
+      "note": "text + Table 3.5 (not a figure)",
+      "figures": []
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 100,
+      "page_w": 606.72,
+      "page_h": 784.32,
+      "needs_review": false,
+      "note": "",
+      "figures": [
+        {
+          "bbox": {
+            "x1": 105.6,
+            "y1": 60.5,
+            "x2": 522.7,
+            "y2": 416.6
+          },
+          "caption": "Fig. 4.17 Plastic wing tips and associated electric circuits and locations of lightning effects.",
+          "kind": "scheme"
+        }
+      ]
+    },
+    {
+      "doc_id": "rdk89",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 120,
+      "page_w": 622.08,
+      "page_h": 789.36,
+      "needs_review": false,
+      "note": "text + Table 5.3 (not a figure)",
+      "figures": []
+    }
+  ]
+}
