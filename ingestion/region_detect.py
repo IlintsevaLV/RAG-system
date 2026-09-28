@@ -167,6 +167,8 @@ def is_real_formula(text: str, *, layout_markers: int = 0) -> bool:
     (stacked fractions, fraction bars) that OCR cannot put into the text.
     """
     text = text.strip()
+    if _is_rule_line(text):
+        return False
     if len(text) < 4:
         return False
     if not _VARIABLE_RE.search(text):
@@ -218,6 +220,17 @@ def _is_lookalike_stopword(token: str) -> bool:
         return False
     cyr = "".join(_CYR_LOOKALIKES[ch] for ch in token)
     return bool(_FORMULA_STOPWORDS_RE.fullmatch(cyr))
+
+
+def _is_rule_line(text: str) -> bool:
+    """A drawn rule, not a formula: ``_____``, ``----``, ``====``."""
+    compact = re.sub(r"\s+", "", text or "")
+    return bool(compact) and all(ch in "_-=.·—−" for ch in compact)
+
+
+def _has_formula_signal(text: str) -> bool:
+    """An operator, fraction or Greek letter. Letter-only glue (``f. g.``) is not a formula."""
+    return bool(re.search(r"[=+\-−×÷/^_∫∑√]|[\u0370-\u03FF\u1F00-\u1FFF]", text or ""))
 
 
 def _is_lhs_fragment(text: str) -> bool:
@@ -500,6 +513,8 @@ def merge_formula_spans(
             s.text.strip()
             for s in sorted(parts, key=lambda s: (_span_center(s)[1], s.bbox[0]))
         )
+        if _is_rule_line(text) or not _has_formula_signal(text):
+            continue
         layout = _layout_markers(group, fragments, edges)
         if not is_real_formula(text, layout_markers=layout):
             continue
@@ -579,6 +594,78 @@ def merged_formula_regions(
     return out
 
 
+def _extend_formula_bbox_right(
+    bbox: BBox,
+    spans: list[TextSpan],
+    *,
+    page_w: float,
+) -> BBox:
+    """Pull in a fragment sitting just to the right of a cut formula."""
+    x2 = bbox.x2
+    used: set[int] = set()
+    grew = True
+    while grew:
+        grew = False
+        for i, sp in enumerate(spans):
+            if i in used:
+                continue
+            sx1, sy1, sx2, sy2 = sp.bbox
+            if sy2 < bbox.y1 - 2 or sy1 > bbox.y2 + 2:
+                continue
+            if x2 - 2 <= sx1 <= x2 + 40:
+                x2 = max(x2, sx2 + 4.0)
+                used.add(i)
+                grew = True
+    return BBox(x1=bbox.x1, y1=bbox.y1, x2=min(page_w, x2), y2=bbox.y2)
+
+
+def is_corner_logo(bbox: BBox, *, page_w: float, page_h: float) -> bool:
+    """Small mark in a page corner (FAA logo), not a figure."""
+    w, h = bbox.x2 - bbox.x1, bbox.y2 - bbox.y1
+    if w >= 100 or h >= 100 or w < 8 or h < 8:
+        return False
+    near_x = bbox.x1 < 72 or bbox.x2 > page_w - 72
+    near_y = bbox.y1 < 72 or bbox.y2 > page_h - 72
+    return near_x and near_y
+
+
+def _x_overlap_ratio(a: BBox, b: BBox) -> float:
+    inter = min(a.x2, b.x2) - max(a.x1, b.x1)
+    if inter <= 0:
+        return 0.0
+    return inter / max(1.0, min(a.x2 - a.x1, b.x2 - b.x1))
+
+
+def merge_picture_panels(boxes: list[BBox]) -> list[BBox]:
+    """Join stacked panels of one figure (x overlap > 50%, vertical gap < 30 pt)."""
+    items = list(boxes)
+    changed = True
+    while changed and len(items) > 1:
+        changed = False
+        used = [False] * len(items)
+        nxt: list[BBox] = []
+        for i, cur in enumerate(items):
+            if used[i]:
+                continue
+            for j in range(i + 1, len(items)):
+                if used[j]:
+                    continue
+                other = items[j]
+                y_gap = max(0.0, max(cur.y1, other.y1) - min(cur.y2, other.y2))
+                if _x_overlap_ratio(cur, other) > 0.5 and y_gap < 30:
+                    cur = BBox(
+                        x1=min(cur.x1, other.x1),
+                        y1=min(cur.y1, other.y1),
+                        x2=max(cur.x2, other.x2),
+                        y2=max(cur.y2, other.y2),
+                    )
+                    used[j] = True
+                    changed = True
+            nxt.append(cur)
+        items = nxt
+    return items
+
+
 def detect_formula_regions_from_spans(
     spans: list[TextSpan],
     *,
@@ -594,6 +681,8 @@ def detect_formula_regions_from_spans(
     """
     scored: list[tuple[TextSpan, float]] = []
     for sp in spans:
+        if _is_rule_line(sp.text):
+            continue
         sc = _line_math_score(sp.text)
         if sc >= 0.55:
             scored.append((sp, sc))
@@ -621,11 +710,15 @@ def detect_formula_regions_from_spans(
             xs1 = [s.bbox[2] for s, _ in cl]
             ys1 = [s.bbox[3] for s, _ in cl]
             pad = 4.0
-            bbox = BBox(
-                x1=max(0.0, min(xs0) - pad),
-                y1=max(0.0, min(ys0) - pad),
-                x2=min(page_w, max(xs1) + pad),
-                y2=min(page_h, max(ys1) + pad),
+            bbox = _extend_formula_bbox_right(
+                BBox(
+                    x1=max(0.0, min(xs0) - pad),
+                    y1=max(0.0, min(ys0) - pad),
+                    x2=min(page_w, max(xs1) + pad),
+                    y2=min(page_h, max(ys1) + pad),
+                ),
+                spans,
+                page_w=page_w,
             )
             if min(ys0) < 60.0 or max(ys1) > page_h - 60.0:
                 continue
@@ -1425,19 +1518,30 @@ def figures_from_docling_layout(
     hits = docling_layout_hits(image_bgr, page_w=page_w, page_h=page_h)
     pictures = [h for h in hits if h.label == "picture"]
     captions = [h for h in hits if h.label == "caption"]
-    out: list[DetectedRegion] = []
+    kept_pics = []
     for pic in pictures:
         ok, _reason = is_valid_figure_bbox(pic.bbox_pt, page_w=page_w, page_h=page_h)
+        if not ok or is_corner_logo(pic.bbox_pt, page_w=page_w, page_h=page_h):
+            continue
+        kept_pics.append(pic)
+    merged_boxes = merge_picture_panels([p.bbox_pt for p in kept_pics])
+    out: list[DetectedRegion] = []
+    for box in merged_boxes:
+        ok, _reason = is_valid_figure_bbox(box, page_w=page_w, page_h=page_h)
         if not ok:
             continue
+        pic_score = 0.7
+        for src in kept_pics:
+            if _iou_pt(src.bbox_pt, box) > 0.2:
+                pic_score = max(pic_score, src.score)
         cap = None
         best_gap = 1e9
         for cand in captions:
             gap = _caption_figure_gap(
                 (cand.bbox_pt.x1, cand.bbox_pt.y1, cand.bbox_pt.x2, cand.bbox_pt.y2),
-                pic.bbox_pt,
+                box,
             )
-            x_overlap = min(cand.bbox_pt.x2, pic.bbox_pt.x2) - max(cand.bbox_pt.x1, pic.bbox_pt.x1)
+            x_overlap = min(cand.bbox_pt.x2, box.x2) - max(cand.bbox_pt.x1, box.x1)
             if x_overlap <= 0 or gap > 80:
                 continue
             if gap < best_gap:
@@ -1446,14 +1550,14 @@ def figures_from_docling_layout(
         notes = ["docling_picture"]
         if cap is not None:
             text = cap.text or _spans_in_box(spans, cap.bbox_pt)
-            if text:
-                notes.append(f"caption={text[:80]}")
+            if text and (len(text) <= 180 or _CAPTION_MARKER_RE.match(text)):
+                notes.append(f"caption={text[:300]}")
         out.append(
             DetectedRegion(
                 type=BlockType.FIGURE,
-                bbox_pt=pic.bbox_pt,
-                bbox_px=_pt_to_px(pic.bbox_pt, dpi),
-                score=pic.score,
+                bbox_pt=box,
+                bbox_px=_pt_to_px(box, dpi),
+                score=pic_score,
                 method="docling_layout",
                 notes=notes,
             )
@@ -1463,7 +1567,7 @@ def figures_from_docling_layout(
     kept_pdf = [
         img
         for img in pdf_images
-        if any(_iou_pt(img.bbox_pt, pic.bbox_pt) >= 0.05 for pic in out)
+        if any(_iou_pt(img.bbox_pt, fig.bbox_pt) >= 0.05 for fig in out)
     ]
     return out + kept_pdf
 

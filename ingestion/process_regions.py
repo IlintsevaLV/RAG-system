@@ -5,6 +5,8 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+import gc
+
 import fitz
 
 from core.config import Settings, get_settings
@@ -126,6 +128,11 @@ def process_page_special_blocks(
             for b in blocks
             if b.type == BlockType.FORMULA and b.content.get("status") == "ok"
         ),
+        "formula_suspicious": sum(
+            1
+            for b in blocks
+            if b.type == BlockType.FORMULA and b.content.get("status") == "suspicious"
+        ),
         "formula_suspicious_semantic": sum(
             1
             for b in blocks
@@ -165,7 +172,7 @@ def process_pdf_regions(
 ) -> dict[str, Any]:
     settings = settings or get_settings()
     path = Path(path)
-    doc_id = doc_id or path.stem
+    doc_id = (doc_id or path.stem).strip().rstrip(".")
     vlm = _vlm(settings)
     unimer = (
         UniMERNetRecognizer(
@@ -193,6 +200,8 @@ def process_pdf_regions(
                     vlm=vlm,
                 )
             )
+            if len(pages_out) % 25 == 0:
+                gc.collect()
         return {
             "doc_id": doc_id,
             "source_path": str(path.resolve()),

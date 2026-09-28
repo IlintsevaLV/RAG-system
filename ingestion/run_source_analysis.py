@@ -108,7 +108,7 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     for pdf in targets:
-        doc_id = args.doc_id or pdf.stem
+        doc_id = (args.doc_id or pdf.stem).strip().rstrip(".")
         out_json = out_dir / f"{doc_id}_source.json"
         if args.resume and out_json.exists():
             log.info("skip_resume", doc_id=doc_id, path=str(out_json))

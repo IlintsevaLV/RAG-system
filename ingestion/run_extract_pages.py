@@ -21,6 +21,15 @@ from core.logger import get_logger, setup_logging
 from ingestion.extract_page_text import extract_pdf
 
 
+def _force_utf8_stdio() -> None:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure") and (getattr(stream, "encoding", "") or "").lower() != "utf-8":
+            try:
+                stream.reconfigure(encoding="utf-8", errors="replace")
+            except Exception:
+                pass
+
+
 def _safe_print(msg: str) -> None:
     """Avoid Windows cp1251 UnicodeEncodeError killing long batch runs."""
     try:
@@ -53,6 +62,7 @@ def iter_pdfs(path: Path) -> list[Path]:
 
 
 def main(argv: list[str] | None = None) -> int:
+    _force_utf8_stdio()
     settings = get_settings()
     setup_logging(settings.log_level)
     log = get_logger("run_extract")
@@ -89,7 +99,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     for pdf in targets:
-        doc_id = args.doc_id or pdf.stem
+        doc_id = (args.doc_id or pdf.stem).strip().rstrip(".")
         out_json = out_dir / f"{doc_id}_pages.json"
         if args.resume and out_json.exists():
             log.info("skip_resume", path=str(out_json))

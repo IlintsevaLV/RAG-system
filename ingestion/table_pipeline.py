@@ -858,7 +858,7 @@ def _ocr_figure_caption(crop: np.ndarray, *, dpi: int, page: int) -> str:
 
     lines = recognize_image(crop, dpi=dpi, page=page, doc_id="figure")
     caption = " ".join(ln.text.strip() for ln in lines if ln.text.strip())
-    return caption[:500]
+    return caption[:300]
 
 
 def process_figure_region(

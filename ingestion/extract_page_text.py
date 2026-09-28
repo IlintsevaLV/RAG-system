@@ -541,7 +541,7 @@ def extract_pdf(
 ) -> DocumentTextExtract:
     settings = settings or get_settings()
     path = Path(path)
-    doc_id = doc_id or path.stem
+    doc_id = (doc_id or path.stem).strip().rstrip(".")
     vlm = _get_vlm(settings)
     doc = fitz.open(path)
     try:

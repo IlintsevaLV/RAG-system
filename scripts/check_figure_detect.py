@@ -20,6 +20,7 @@ from ingestion.region_detect import (
     DetectedRegion,
     caption_line_groups,
     detect_caption_figure_regions,
+    is_real_formula,
     is_valid_figure_bbox,
     join_caption_spans,
     merge_figure_candidates,
@@ -107,21 +108,27 @@ def test_units() -> int:
         print(f"  FAIL  merge {[(m.method) for m in merged]}")
         failed += 1
 
-    from ingestion.layout_figures import docling_layout_hits
-    from ingestion.region_detect import figures_from_docling_layout
+    from ingestion.region_detect import is_corner_logo, merge_picture_panels
 
-    if docling_layout_hits(img, page_w=300, page_h=400) == []:
-        print("  PASS  docling missing → no hits")
+    logo = BBox(x1=20, y1=20, x2=70, y2=70)
+    if is_corner_logo(logo, page_w=595, page_h=842) and not is_corner_logo(
+        BBox(x1=80, y1=120, x2=400, y2=400), page_w=595, page_h=842
+    ):
+        print("  PASS  corner logo filter")
     else:
-        print("  FAIL  unexpected docling hits")
+        print("  FAIL  corner logo filter")
         failed += 1
-    pdf_only = figures_from_docling_layout(
-        img, [], dpi=72, page_w=300, page_h=400, pdf_images=[b]
+    panels = merge_picture_panels(
+        [
+            BBox(x1=90, y1=100, x2=400, y2=220),
+            BBox(x1=90, y1=235, x2=400, y2=360),
+            BBox(x1=90, y1=375, x2=400, y2=500),
+        ]
     )
-    if pdf_only == []:
-        print("  PASS  pdf image dropped without a Docling picture")
+    if len(panels) == 1 and panels[0].y2 > 490:
+        print("  PASS  merge stacked panels")
     else:
-        print(f"  FAIL  pdf leaked {pdf_only}")
+        print(f"  FAIL  merge panels {panels}")
         failed += 1
 
     # A hairline at the top of the window must not pin the box.
@@ -251,6 +258,11 @@ def test_units() -> int:
         print("  PASS  below window can win")
     else:
         print(f"  FAIL  below window {found_below}")
+        failed += 1
+    if not is_real_formula("f. g. a. b.") and not is_real_formula("_____"):
+        print("  PASS  reject letter glue and rules")
+    else:
+        print("  FAIL  formula guards")
         failed += 1
     return failed
 

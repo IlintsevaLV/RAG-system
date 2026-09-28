@@ -8,9 +8,12 @@ Examples:
 from __future__ import annotations
 
 import argparse
+import gc
 import json
 import sys
 from pathlib import Path
+
+import fitz
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -21,12 +24,35 @@ from core.logger import get_logger, setup_logging
 from ingestion.process_regions import process_pdf_regions
 
 
+def _force_utf8_stdio() -> None:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure") and (getattr(stream, "encoding", "") or "").lower() != "utf-8":
+            try:
+                stream.reconfigure(encoding="utf-8", errors="replace")
+            except Exception:
+                pass
+
+
 def _safe_print(msg: str) -> None:
     try:
         print(msg)
     except UnicodeEncodeError:
         enc = getattr(sys.stdout, "encoding", None) or "utf-8"
         print(msg.encode(enc, errors="replace").decode(enc, errors="replace"))
+
+
+def _load_regions(path: Path) -> dict | None:
+    if not path.is_file():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return None
+
+
+def _write_regions(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def parse_pages(spec: str | None) -> list[int] | None:
@@ -50,6 +76,7 @@ def iter_pdfs(path: Path) -> list[Path]:
 
 
 def main(argv: list[str] | None = None) -> int:
+    _force_utf8_stdio()
     settings = get_settings()
     setup_logging(settings.log_level)
     log = get_logger("run_regions")
@@ -61,6 +88,22 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out-dir", default=None)
     parser.add_argument("--enable-vlm", action="store_true")
     parser.add_argument("--enable-unimernet", action="store_true")
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Skip a PDF whose regions JSON already covers every page",
+    )
+    parser.add_argument(
+        "--merge",
+        action="store_true",
+        help="Keep pages already stored in the regions JSON and fill the rest",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=200,
+        help="Save regions JSON after this many pages (limits RAM on long PDFs)",
+    )
     args = parser.parse_args(argv)
 
     if args.enable_vlm:
@@ -76,19 +119,57 @@ def main(argv: list[str] | None = None) -> int:
         log.error("no_pdfs", path=args.path)
         return 1
 
+    batch_size = max(1, args.batch_size)
     for pdf in targets:
-        doc_id = args.doc_id or pdf.stem
-        result = process_pdf_regions(pdf, doc_id=doc_id, pages=pages, settings=settings)
+        doc_id = (args.doc_id or pdf.stem).strip().rstrip(".")
         out_path = out_dir / f"{doc_id}_regions.json"
-        out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        existing = _load_regions(out_path) if (args.resume or args.merge) else None
+        with fitz.open(pdf) as opened:
+            total = opened.page_count
+        wanted = pages or list(range(1, total + 1))
+        wanted = [p for p in wanted if 1 <= p <= total]
+        have = {int(p["page"]) for p in (existing or {}).get("pages", [])}
+        if args.resume and not args.merge and have and set(wanted) <= have:
+            log.info("skip_resume", path=str(out_path))
+            _safe_print(f"\n=== {doc_id} === resume skip {out_path}")
+            continue
+        if args.merge:
+            wanted = [p for p in wanted if p not in have]
+            if not wanted:
+                log.info("skip_merge_complete", path=str(out_path))
+                _safe_print(f"\n=== {doc_id} === merge complete {out_path}")
+                continue
+        acc = existing if args.merge and existing else {
+            "doc_id": doc_id,
+            "source_path": str(pdf.resolve()),
+            "page_count": total,
+            "pages": [],
+        }
+        by_page = {int(p["page"]): p for p in acc.get("pages", [])}
+        for start in range(0, len(wanted), batch_size):
+            chunk = wanted[start : start + batch_size]
+            part = process_pdf_regions(pdf, doc_id=doc_id, pages=chunk, settings=settings)
+            for page in part["pages"]:
+                by_page[int(page["page"])] = page
+            acc["doc_id"] = doc_id
+            acc["source_path"] = str(pdf.resolve())
+            acc["page_count"] = total
+            acc["pages"] = [by_page[k] for k in sorted(by_page)]
+            _write_regions(out_path, acc)
+            gc.collect()
+            log.info("regions_batch", out=str(out_path), pages=f"{chunk[0]}-{chunk[-1]}")
+        result = acc
         log.info("regions_done", out=str(out_path))
         _safe_print(f"\n=== {doc_id} === -> {out_path}")
         for pg in result["pages"]:
+            if pages and int(pg["page"]) not in pages:
+                continue
             s = pg["summary"]
             _safe_print(
                 f"  p{s['page']:03d} det={s['n_detections']} "
                 f"formula={s['n_formulas']}(ok={s['formula_ok']}, "
                 f"sem={s.get('formula_suspicious_semantic', 0)}, "
+                f"susp={s.get('formula_suspicious', 0)}, "
                 f"caption={s.get('formula_caption_or_header', 0)}) "
                 f"table={s['n_tables']}(ok={s['table_ok']}) "
                 f"figure={s['n_figures']}"

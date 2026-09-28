@@ -376,7 +376,7 @@ def analyze_pdf(
     lexical_min_tokens: int = 25,
 ) -> DocumentSourceAnalysis:
     path = Path(path)
-    doc_id = doc_id or path.stem
+    doc_id = (doc_id or path.stem).strip().rstrip(".")
     doc = fitz.open(path)
     try:
         total = doc.page_count
