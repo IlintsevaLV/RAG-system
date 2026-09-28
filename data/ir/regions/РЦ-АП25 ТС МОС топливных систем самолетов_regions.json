@@ -1,0 +1,626 @@
+{
+  "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РЦ-АП25 ТС МОС топливных систем самолетов.pdf",
+  "page_count": 30,
+  "pages": [
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 70.88,
+            "y1": 88.52,
+            "x2": 97.96,
+            "y2": 123.16
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+          "page": 2,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 70.88,
+            "y1": 88.52,
+            "x2": 97.96,
+            "y2": 123.16
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=No π/π",
+              "pylatexenc_ok",
+              "preview_wh=100x121"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { n / n }",
+            "latex": "\\frac { N o } { n / n }",
+            "text_fallback": "N o n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.8566666666666667,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 57.365211486816406,
+            "y1": 559.7644653320312,
+            "x2": 397.9461975097656,
+            "y2": 612.4945068359375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП25 ТС МОС топливных систем самолетов",
+          "page": 30,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 57.365211486816406,
+            "y1": 559.7644653320312,
+            "x2": 397.9461975097656,
+            "y2": 612.4945068359375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8116666666666666,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=3",
+              "cols=3",
+              "numeric_ratio=0.33",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.812",
+              "rows=4 cols=3 consistency=1.00 meaningful=0.33",
+              "span_cols=3",
+              "span_rows=4"
+            ]
+          },
+          "content": {
+            "markdown": "| 25.1585 | + |  |\n| --- | --- | --- |\n| D25F.8.8.3.1.11 | + | + |\n| D25F.8.8.3.1.20 | + | + |\n| D25F.8.8.6.1 | + | + |",
+            "html": "",
+            "n_rows": 4,
+            "n_cols": 3,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8116666666666666,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

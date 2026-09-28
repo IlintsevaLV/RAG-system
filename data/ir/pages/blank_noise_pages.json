@@ -1,0 +1,73 @@
+{
+  "doc_id": "blank_noise",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\synthetic\\blank_noise.pdf",
+  "page_count": 1,
+  "pages": [
+    {
+      "doc_id": "blank_noise",
+      "page": 1,
+      "page_class": "D",
+      "status": "failed",
+      "text": "",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "medium",
+      "confidence": 0.0,
+      "preview_path": "data\\cache\\extract\\blank_noise\\page_0001_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_failed_unreadable"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew",
+          "mild_denoise",
+          "contrast_normalization"
+        ],
+        "iqs_level": "medium",
+        "ocr_mean_confidence": 0.0,
+        "ocr_lines": 0,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.0
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 12690
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "class_A": 0,
+    "class_B": 0,
+    "class_C": 0,
+    "class_D": 1,
+    "ok": 0,
+    "suspicious": 0,
+    "failed": 1,
+    "needs_vlm": 1,
+    "needs_vlm_pending": 1,
+    "vlm_candidates": 1,
+    "vlm_attempted": 0,
+    "vlm_used": 0,
+    "ocr_fallback_used": 1
+  }
+}

@@ -1,0 +1,1504 @@
+{
+  "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254.pdf",
+  "page_count": 55,
+  "pages": [
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 3,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.8530164957046509,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 31.84413060663111,
+            "y1": 47.77823806247328,
+            "x2": 86.70501759754696,
+            "y2": 226.2543272594959
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 519.4399999999999,
+            "x2": 12.28,
+            "y2": 538.6
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.954756498336792,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 329.4505161440019,
+            "y1": 739.1050053107631,
+            "x2": 517.0198157853382,
+            "y2": 813.5231203990087
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 1,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 31.84413060663111,
+            "y1": 47.77823806247328,
+            "x2": 86.70501759754696,
+            "y2": 226.2543272594959
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8530164957046509,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "1102-012 SYLO * i, KR",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254\\p0001_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.8530164957046509,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 1,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 0.0,
+            "y1": 519.4399999999999,
+            "x2": 12.28,
+            "y2": 538.6
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=__",
+              "empty",
+              "retry_upscale",
+              "empty",
+              "preview_wh=46x78"
+            ]
+          },
+          "content": {
+            "latex_raw": "(",
+            "latex": "(",
+            "text_fallback": "(",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 1,
+          "region_id": "figure_02",
+          "type": "figure",
+          "bbox": {
+            "x1": 329.4505161440019,
+            "y1": 739.1050053107631,
+            "x2": 517.0198157853382,
+            "y2": 813.5231203990087
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.954756498336792,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "HUφ HTA ьзоеет —",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254\\p0001_figure_02.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.954756498336792,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.85,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 52.519999999999996,
+            "y1": 68.0,
+            "x2": 80.32,
+            "y2": 100.84
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 22,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.519999999999996,
+            "y1": 68.0,
+            "x2": 80.32,
+            "y2": 100.84
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=σΝ π/π",
+              "pylatexenc_ok",
+              "preview_wh=102x116"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { N o } { n / n } }",
+            "latex": "\\frac { N o } { \\frac { N o } { n / n } }",
+            "text_fallback": "N o N o n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 47.839999999999996,
+            "y1": 68.36,
+            "x2": 75.28,
+            "y2": 101.2
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 36,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 47.839999999999996,
+            "y1": 68.36,
+            "x2": 75.28,
+            "y2": 101.2
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=No π/π",
+              "pylatexenc_ok",
+              "preview_wh=101x116"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\sin }",
+            "latex": "\\frac { N o } { \\sin }",
+            "text_fallback": "N o",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 47.12,
+            "y1": 65.84,
+            "x2": 74.56,
+            "y2": 99.03999999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 40,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 47.12,
+            "y1": 65.84,
+            "x2": 74.56,
+            "y2": 99.03999999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=No ν/ν",
+              "pylatexenc_ok",
+              "preview_wh=101x117"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { N o } { n / n } }",
+            "latex": "\\frac { N o } { \\frac { N o } { n / n } }",
+            "text_fallback": "N o N o n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 47.839999999999996,
+            "y1": 64.75999999999999,
+            "x2": 75.28,
+            "y2": 98.67999999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 42,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 47.839999999999996,
+            "y1": 64.75999999999999,
+            "x2": 75.28,
+            "y2": 98.67999999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ne π/π",
+              "pylatexenc_ok",
+              "preview_wh=101x119"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\sin }",
+            "latex": "\\frac { N o } { \\sin }",
+            "text_fallback": "N o",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 78.08,
+            "y1": 65.84,
+            "x2": 105.16,
+            "y2": 99.03999999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 45,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 78.08,
+            "y1": 65.84,
+            "x2": 105.16,
+            "y2": 99.03999999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=No ν/ν",
+              "pylatexenc_ok",
+              "preview_wh=100x117"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { N o } { n ^ { \\prime } n } }",
+            "latex": "\\frac { N o } { \\frac { N o } { n ^ { \\prime } n } }",
+            "text_fallback": "N o N o n ** n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 48.559999999999995,
+            "y1": 65.48,
+            "x2": 76.72,
+            "y2": 100.11999999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 46,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 48.559999999999995,
+            "y1": 65.48,
+            "x2": 76.72,
+            "y2": 100.11999999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng ν/ν",
+              "pylatexenc_ok",
+              "preview_wh=103x121"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N a } { \\sin }",
+            "latex": "\\frac { N a } { \\sin }",
+            "text_fallback": "N a",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 79.52,
+            "y1": 64.03999999999999,
+            "x2": 107.32,
+            "y2": 97.24
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 47,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 79.52,
+            "y1": 64.03999999999999,
+            "x2": 107.32,
+            "y2": 97.24
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng π/π",
+              "pylatexenc_ok",
+              "preview_wh=102x117"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { N o } { n ^ { \\prime } n } }",
+            "latex": "\\frac { N o } { \\frac { N o } { n ^ { \\prime } n } }",
+            "text_fallback": "N o N o n ** n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 51,
+      "summary": {
+        "page": 51,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 52,
+      "summary": {
+        "page": 52,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 53,
+      "summary": {
+        "page": 53,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 74.84,
+            "y1": 62.959999999999994,
+            "x2": 102.28,
+            "y2": 96.88
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+          "page": 53,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 74.84,
+            "y1": 62.959999999999994,
+            "x2": 102.28,
+            "y2": 96.88
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng ν/ν",
+              "pylatexenc_ok",
+              "preview_wh=101x119"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { N o } { n / n } }",
+            "latex": "\\frac { N o } { \\frac { N o } { n / n } }",
+            "text_fallback": "N o N o n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 54,
+      "summary": {
+        "page": 54,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-254 оценка соответствия бортовой аппаратуцры требованиям КТ-254",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

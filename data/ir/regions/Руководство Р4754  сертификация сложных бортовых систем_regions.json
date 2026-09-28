@@ -1,0 +1,2700 @@
+{
+  "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\Руководство Р4754  сертификация сложных бортовых систем.pdf",
+  "page_count": 103,
+  "pages": [
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9889662861824036,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 71.2693848468575,
+            "y1": 206.46304578320397,
+            "x2": 568.2642343732276,
+            "y2": 563.7091384372328
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 9,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 71.2693848468575,
+            "y1": 206.46304578320397,
+            "x2": 568.2642343732276,
+            "y2": 563.7091384372328
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9889662861824036,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Процесс оценки безопасности Руководство и методы (ARP4761/Π4761) Самолётные Функция, отказ и ( Системная функции информация по документация безопасности Функциональная Процессы проектирования система системы (ARP4754/Π4754) Системное Функции и требования Реализация проектирование Жизненный Жизненный цикл цикл разработки аппаратуры аппаратуры (Δ0-254/KT-254) Жизненный цикл Жизненный разработки ΟΛ цикл ПО (DO-178Β/KT-178Β)",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Руководство Р4754  сертификация сложных бортовых систем\\p0009_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9889662861824036,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9904791712760925,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 85.89501664195721,
+            "y1": 264.2267665072046,
+            "x2": 548.2883703989904,
+            "y2": 738.7424737050422
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 16,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 85.89501664195721,
+            "y1": 264.2267665072046,
+            "x2": 548.2883703989904,
+            "y2": 738.7424737050422
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9904791712760925,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Процессы поддержки Координация сертификации Функция ВС х Функция ВС 2 Функция ВС 1 Оценка безопасности Валидация требований Система і Система2 Система1 Верификация реализации КИн КИ2 Управление КИ1 конфигурацией Процесс гарантии X4 XL4 ΟΛ Разработка КИ Проектирование системы Функция ВС",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Руководство Р4754  сертификация сложных бортовых систем\\p0016_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9904791712760925,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9873030781745911,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 84.79387319095193,
+            "y1": 76.63401262757104,
+            "x2": 557.1052952816611,
+            "y2": 531.5042035191321
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 17,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 84.79387319095193,
+            "y1": 76.63401262757104,
+            "x2": 557.1052952816611,
+            "y2": 531.5042035191321
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9873030781745911,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Функциональные Функции требования Отказные состояния, самолета самолета последствия,классификация, характеристики безопасности Распределение функций по Функции системам Отказные состояния, системы последствия,классификация, характеристики безопасности Обеспечение Проектирование безопасности Требования к а рх ите кт уры архитектуре системы Apx-pa системы Разработка ТЗна ТТ на изделие изделия,на аппаратные и программные части Изготовление изделий, входящих в Реализ. система систему Реальная Резуль",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Руководство Р4754  сертификация сложных бортовых систем\\p0017_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9873030781745911,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9891588091850281,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 85.66919556402539,
+            "y1": 71.37058652410552,
+            "x2": 531.6873163406732,
+            "y2": 577.165344890645
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 39,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 85.66919556402539,
+            "y1": 71.37058652410552,
+            "x2": 531.6873163406732,
+            "y2": 577.165344890645
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9891588091850281,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Анализ 6.1 Требования к Фукции функциональных BC опасностей (FНА) BC BC ( Отказные состояния, их последствия и Функциональнбе классификация, требования к безопасности взаимодействие Распределение Анализ функциональных функций ВС по Функции опасностей (FHA) системам систем системы Функциональ ные отказы и Отказные состояния, их последствия и последствия классификация, требования к безопасности Проектирование архитектуры Архитектурные Предварительный CCAs анализ 6.2 требования системы () Требовани",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Руководство Р4754  сертификация сложных бортовых систем\\p0039_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9891588091850281,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9813931584358215,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 76.95011275072784,
+            "y1": 83.9222601425347,
+            "x2": 516.2376504426138,
+            "y2": 436.1019241704855
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 48,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 76.95011275072784,
+            "y1": 83.9222601425347,
+            "x2": 516.2376504426138,
+            "y2": 436.1019241704855
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9813931584358215,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Требования Уровень гарантийности проектирования, План Процесс Планы проектирования, Требования и описания валидации 7.7 разработки Требования к разработке Проверка Итоговый Допущения (начальная) Матрица полноты и (конечная) Матрица отчёт по 7.7 корректности 7.7 валидации 7.3, 7.4 7.7 Определение проектирования/ уровня разработки валидации 7.6 Требования заказчика, сертификационные требования и промышленные Валидация стандарты допущений 7.5 Данные процесса проектирования Процесс валидации",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Руководство Р4754  сертификация сложных бортовых систем\\p0048_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9813931584358215,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 51,
+      "summary": {
+        "page": 51,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 52,
+      "summary": {
+        "page": 52,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.94783782958984,
+            "y1": 146.57859802246094,
+            "x2": 85.54003143310547,
+            "y2": 186.04373168945312
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.95510864257812,
+            "y1": 259.12933349609375,
+            "x2": 85.54045104980469,
+            "y2": 298.5944519042969
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.94953155517578,
+            "y1": 452.1945495605469,
+            "x2": 85.5417251586914,
+            "y2": 491.65966796875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 52,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.94783782958984,
+            "y1": 146.57859802246094,
+            "x2": 85.54003143310547,
+            "y2": 186.04373168945312
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x133"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "text_fallback": "r a . \\\\ b . \\\\ \\ g .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 52,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.95510864257812,
+            "y1": 259.12933349609375,
+            "x2": 85.54045104980469,
+            "y2": 298.5944519042969
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=h. i.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x134"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { g } . } \\\\ { \\mathbf { h } . } \\\\ { \\mathbf { i } . } \\\\ { \\mathbf { i } . } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { g } . } \\\\ { \\mathbf { h } . } \\\\ { \\mathbf { i } . } \\\\ { \\mathbf { i } . } \\end{array}",
+            "text_fallback": "l g . \\\\ h . \\\\ i . \\\\ i .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 52,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.94953155517578,
+            "y1": 452.1945495605469,
+            "x2": 85.5417251586914,
+            "y2": 491.65966796875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x133"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "text_fallback": "r a . \\\\ b . \\\\ \\ g .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 53,
+      "summary": {
+        "page": 53,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 54,
+      "summary": {
+        "page": 54,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 56,
+      "summary": {
+        "page": 56,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 57,
+      "summary": {
+        "page": 57,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.94788360595703,
+            "y1": 674.0546875,
+            "x2": 85.54007720947266,
+            "y2": 713.519775390625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 57,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.94788360595703,
+            "y1": 674.0546875,
+            "x2": 85.54007720947266,
+            "y2": 713.519775390625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x133"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { 1 1 1 } } \\\\ { \\mathbf { 2 } . } \\\\ { \\mathbf { 1 } } \\\\ { \\mathbf { 2 } . } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { 1 1 1 } } \\\\ { \\mathbf { 2 } . } \\\\ { \\mathbf { 1 } } \\\\ { \\mathbf { 2 } . } \\end{array}",
+            "text_fallback": "l 1 1 1 \\\\ 2 . \\\\ 1 \\\\ 2 .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 58,
+      "summary": {
+        "page": 58,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 59,
+      "summary": {
+        "page": 59,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.9478759765625,
+            "y1": 386.7986145019531,
+            "x2": 85.54006958007812,
+            "y2": 426.26373291015625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 59,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.9478759765625,
+            "y1": 386.7986145019531,
+            "x2": 85.54006958007812,
+            "y2": 426.26373291015625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x134"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "text_fallback": "r a . \\\\ b . \\\\ \\ g .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 60,
+      "summary": {
+        "page": 60,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9856347441673279,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 105.58665308459051,
+            "y1": 182.13415394261537,
+            "x2": 519.25290421003,
+            "y2": 482.956343815132
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 60,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 105.58665308459051,
+            "y1": 182.13415394261537,
+            "x2": 519.25290421003,
+            "y2": 482.956343815132
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9856347441673279,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Процесс План разработки Реализация verifikacii 8.5.1 Проверки, экспертиза, анализы, Итоговый Матрица Матрица (Начальная) испытания и (Конечная) отчёт по 8.5.3 опыт 8.5.3 верификации эксплуатации 8.5.4 8.4 Требования к разработке и Уровень гарантии Данные проектирования Процесс проектирования Процесс верификации",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Руководство Р4754  сертификация сложных бортовых систем\\p0060_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9856347441673279,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 61,
+      "summary": {
+        "page": 61,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.94898223876953,
+            "y1": 371.80010986328125,
+            "x2": 85.54117584228516,
+            "y2": 411.2652282714844
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 61,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.94898223876953,
+            "y1": 371.80010986328125,
+            "x2": 85.54117584228516,
+            "y2": 411.2652282714844
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x134"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { n } \\mathbf { c } \\mathbf { 1 } . } \\\\ { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { . } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { n } \\mathbf { c } \\mathbf { 1 } . } \\\\ { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { . } \\end{array}",
+            "text_fallback": "l n c 1 . \\\\ a . \\\\ b . \\\\ .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 62,
+      "summary": {
+        "page": 62,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 63,
+      "summary": {
+        "page": 63,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.94857788085938,
+            "y1": 147.65867614746094,
+            "x2": 85.540771484375,
+            "y2": 187.12380981445312
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 63,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.94857788085938,
+            "y1": 147.65867614746094,
+            "x2": 85.540771484375,
+            "y2": 187.12380981445312
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x133"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\\\ { \\hat { \\mathbf { \\ g } } . } \\end{array}",
+            "text_fallback": "r a . \\\\ b . \\\\ \\ g .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 64,
+      "summary": {
+        "page": 64,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 65,
+      "summary": {
+        "page": 65,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 66,
+      "summary": {
+        "page": 66,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 67,
+      "summary": {
+        "page": 67,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 68,
+      "summary": {
+        "page": 68,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 69,
+      "summary": {
+        "page": 69,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.94784545898438,
+            "y1": 642.9777221679688,
+            "x2": 85.5400390625,
+            "y2": 682.5632934570312
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 69,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.94784545898438,
+            "y1": 642.9777221679688,
+            "x2": 85.5400390625,
+            "y2": 682.5632934570312
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x134"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { a } . } \\\\ { \\mathbf { b } . } \\end{array}",
+            "text_fallback": "r a . \\\\ b .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 70,
+      "summary": {
+        "page": 70,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 71,
+      "summary": {
+        "page": 71,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 72,
+      "summary": {
+        "page": 72,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 73,
+      "summary": {
+        "page": 73,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 74,
+      "summary": {
+        "page": 74,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 75,
+      "summary": {
+        "page": 75,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 76,
+      "summary": {
+        "page": 76,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 77,
+      "summary": {
+        "page": 77,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 78,
+      "summary": {
+        "page": 78,
+        "n_detections": 4,
+        "n_formulas": 4,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.9472427368164,
+            "y1": 435.0344543457031,
+            "x2": 85.53943634033203,
+            "y2": 474.50006103515625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.95451354980469,
+            "y1": 547.585205078125,
+            "x2": 85.53985595703125,
+            "y2": 587.05029296875
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.95474243164062,
+            "y1": 595.8214721679688,
+            "x2": 85.54008483886719,
+            "y2": 635.2865600585938
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.95492553710938,
+            "y1": 627.9786376953125,
+            "x2": 89.26231384277344,
+            "y2": 667.563720703125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 78,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.9472427368164,
+            "y1": 435.0344543457031,
+            "x2": 85.53943634033203,
+            "y2": 474.50006103515625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=76x134"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { { a } } } \\\\ { \\mathbf { { a } } . } \\\\ { \\mathbf { { b } } . } \\\\ { \\mathbf { { \\sigma } } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { { a } } } \\\\ { \\mathbf { { a } } . } \\\\ { \\mathbf { { b } } . } \\\\ { \\mathbf { { \\sigma } } } \\end{array}",
+            "text_fallback": "l a \\\\ a . \\\\ b . \\\\",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 78,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.95451354980469,
+            "y1": 547.585205078125,
+            "x2": 85.53985595703125,
+            "y2": 587.05029296875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=h. i.",
+              "pylatexenc_ok",
+              "preview_wh=76x133"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\Xi ^ { . } } \\\\ { \\mathrm { h . } } \\\\ { \\mathrm { i . } } \\\\ { \\mathrm { i } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\Xi ^ { . } } \\\\ { \\mathrm { h . } } \\\\ { \\mathrm { i . } } \\\\ { \\mathrm { i } } \\end{array}",
+            "text_fallback": "l ** . \\\\ h . \\\\ i . \\\\ i",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 78,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.95474243164062,
+            "y1": 595.8214721679688,
+            "x2": 85.54008483886719,
+            "y2": 635.2865600585938
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=k. l.",
+              "pylatexenc_ok",
+              "preview_wh=76x133"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { J . } } } \\\\ { { \\mathrm { k . } } } \\\\ { { \\mathrm { l . } } } \\\\ { { \\mathrm { \\ell ^ { 2 } } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { J . } } } \\\\ { { \\mathrm { k . } } } \\\\ { { \\mathrm { l . } } } \\\\ { { \\mathrm { \\ell ^ { 2 } } } } \\end{array}",
+            "text_fallback": "c J . \\\\ k . \\\\ l . \\\\ ** 2",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+          "page": 78,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.95492553710938,
+            "y1": 627.9786376953125,
+            "x2": 89.26231384277344,
+            "y2": 667.563720703125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=m. n.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=86x134"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { i } . } \\\\ { \\mathbf { m } . } \\\\ { \\mathbf { n } . } \\\\ { \\mathbf { n } . } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { i } . } \\\\ { \\mathbf { m } . } \\\\ { \\mathbf { n } . } \\\\ { \\mathbf { n } . } \\end{array}",
+            "text_fallback": "l i . \\\\ m . \\\\ n . \\\\ n .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 79,
+      "summary": {
+        "page": 79,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 80,
+      "summary": {
+        "page": 80,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 81,
+      "summary": {
+        "page": 81,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 82,
+      "summary": {
+        "page": 82,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 83,
+      "summary": {
+        "page": 83,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 84,
+      "summary": {
+        "page": 84,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 85,
+      "summary": {
+        "page": 85,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 86,
+      "summary": {
+        "page": 86,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 87,
+      "summary": {
+        "page": 87,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 88,
+      "summary": {
+        "page": 88,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 89,
+      "summary": {
+        "page": 89,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 90,
+      "summary": {
+        "page": 90,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 91,
+      "summary": {
+        "page": 91,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 92,
+      "summary": {
+        "page": 92,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 93,
+      "summary": {
+        "page": 93,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 94,
+      "summary": {
+        "page": 94,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 95,
+      "summary": {
+        "page": 95,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 96,
+      "summary": {
+        "page": 96,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 97,
+      "summary": {
+        "page": 97,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 98,
+      "summary": {
+        "page": 98,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 99,
+      "summary": {
+        "page": 99,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 101,
+      "summary": {
+        "page": 101,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 102,
+      "summary": {
+        "page": 102,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Руководство Р4754  сертификация сложных бортовых систем",
+      "page": 103,
+      "summary": {
+        "page": 103,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,2364 @@
+{
+  "doc_id": "НЛГ 33 Двигатели",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\НЛГ 33 Двигатели.pdf",
+  "page_count": 82,
+  "pages": [
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7875,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 291.56,
+            "y1": 148.28,
+            "x2": 318.64,
+            "y2": 182.2
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 3,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 291.56,
+            "y1": 148.28,
+            "x2": 318.64,
+            "y2": 182.2
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=N π/π",
+              "pylatexenc_ok",
+              "preview_wh=100x119"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\boxed { \\begin{array} { r l } { \\mathbf { \\mathbb { N } _ { 0 } } } \\\\ { \\mathbf { \\mathbb { n } } / \\mathbf { \\mathbb { n } } } \\end{array} }",
+            "latex": "\\boxed { \\begin{array} { r l } { \\mathbf { \\mathbb { N } _ { 0 } } } \\\\ { \\mathbf { \\mathbb { n } } / \\mathbf { \\mathbb { n } } } \\end{array} }",
+            "text_fallback": "r l N 0 \\\\ n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.9015384615384616,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 50.784000396728516,
+            "y1": 605.86328125,
+            "x2": 402.1000061035156,
+            "y2": 699.9246215820312
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 10,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 50.784000396728516,
+            "y1": 605.86328125,
+            "x2": 402.1000061035156,
+            "y2": 699.9246215820312
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8571428571428572,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=3",
+              "numeric_ratio=0.31",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.857",
+              "rows=7 cols=3 consistency=1.00 meaningful=0.71",
+              "span_cols=3",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "| среды для: |  |  |\n| --- | --- | --- |\n| (i) запуска; |  | (2) |\n|  |  | чая присадки, когда применяются. |\n| (ii) | работы на земле; и | (3) |\n| (iii) | работы в полете. | (4) Температуре: |\n| (4) | [Зарезервирован] | (i) |\n| (5) | Описание основных и всех резервных |  |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 3,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8571428571428572,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.8566666666666667,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 79.10399627685547,
+            "y1": 297.8933410644531,
+            "x2": 463.05999755859375,
+            "y2": 400.0146179199219
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 11,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 79.10399627685547,
+            "y1": 297.8933410644531,
+            "x2": 463.05999755859375,
+            "y2": 400.0146179199219
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7857142857142857,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=3",
+              "cols=3",
+              "numeric_ratio=0.33",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.786",
+              "rows=7 cols=5 consistency=1.00 meaningful=0.57",
+              "span_cols=5",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "| (i) |  | установленной максимальной продолжи- | (8) | Ресурсу компонента. |\n| --- | --- | --- | --- | --- |\n|  | тельной мощности или тяги (форсированной); |  | (9) | Фильтрации топлива. |\n| (ii) |  | установленной максимальной продолжи- | (10) | Фильтрации масла. |\n|  | тельной мощности или тяги (нефорсирован- |  |  |  |\n| ной); |  |  | (11) | Отбору воздуха и отбору мощности. |\n| (iii) |  | установленной взлетной мощности или | (12) | [Зарезервирован]. |\n| тяги (форсированной); |  |  |  |  |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7857142857142857,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7545454545454546,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 365.6700134277344,
+            "y1": 550.5032958984375,
+            "x2": 456.3800048828125,
+            "y2": 570.724609375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 34,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 365.6700134277344,
+            "y1": 550.5032958984375,
+            "x2": 456.3800048828125,
+            "y2": 570.724609375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=R = 12,2 F л/мин,",
+              "prose_like",
+              "retry_upscale",
+              "prose_like",
+              "preview_wh=276x80"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathrm { R } = 1 2 { , } 2 \\ \\mathrm { F } \\ \\mathrm { \\\" { \\Pi } { \\mathrm { \" { I ! } { / u } } } \\mathrm { H } H H } ,",
+            "latex": "\\mathrm { R } = 1 2 { , } 2 \\ \\mathrm { F } \\ \\mathrm { \\\" { \\Pi } { \\mathrm { \" { I ! } { / u } } } \\mathrm { H } H H } ,",
+            "text_fallback": "R = 1 2 , 2 \\ F \\ \\\" \" I ! / u H H H ,",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 64.94400024414062,
+            "y1": 300.7386474609375,
+            "x2": 560.3202514648438,
+            "y2": 572.060302734375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 43,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 64.94400024414062,
+            "y1": 300.7386474609375,
+            "x2": 560.3202514648438,
+            "y2": 572.060302734375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8376623376623377,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=19",
+              "cols=8",
+              "numeric_ratio=0.32",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.838",
+              "rows=22 cols=7 consistency=1.00 meaningful=0.68",
+              "span_cols=7",
+              "span_rows=22"
+            ]
+          },
+          "content": {
+            "markdown": "|  |  |  | тельной). 1. Условия | $От -18$ Жид- | 15 - 25 | Испытанием |\n| --- | --- | --- | --- | --- | --- | --- |\n| 3. Ожидание | Только турбо- | Пере- От 20 Необходимо | изморози | $до -9 °C$ кость 3 | микрон | двигателя |\n| в усло- | реактивный и | межа- до 30 | показать повто- | $0,3г/м$ |  |  |\n| виях го- лоледа | турбо- вентилятор- | ющий- ся мик- ряющуюся | установившуюся 2. Условия гололеда | $От -7$ Жид- | 15 - 25 | Испытанием |\n| (только | ный: | цикл: рон | работу в течение | $до -1 °C$ кость | микрон | двигателя |\n| турбореа- | $от -12$ | Пер- 9 минут (или |  | $0,3г/м$ 3 |  |  |\n| ктивный, | $до -8 °C.$ | вый | $45 минут макси-$ $3. Условия смерзше-$ гося снега | до 0 °C $От -3$ Лед – $0,9 г/м$ 3 | 100 микрон | Испытани- ем, расчетом |\n| турбо- вентиля- | Только турбо- | 1,7 мально). |  |  | (мини- | или комби- |\n| торный и | винто-вой: | $г/м$ 3 (1 |  |  | мум) | нацией того |\n| турбо- | $от -17 до -12$ | мин.) |  |  |  | и другого |\n| винто- | °C. | Затем |  |  |  |  |\n| вой). |  | 0,3 3 | $4. Условия обле-$ денения при | $до -1 °C$ $От -9$ Жид- | 100 микрон | Испытани- ем, расчетом |\n|  |  | $г/м$ мин.) (6 | больших каплях | кость 3 | (мини- | или комби- |\n|  |  |  | (только турборе- | $0,3г/м$ | мум) | нацией того |\n| 4. Ожидание | Только турбо- | 0,25 3 От 20 Необходимо | активный, турбо- |  |  | и другого |\n| в | реактивный и турбо- | $г/м$ до 30 ряющуюся | показать повто- вентиляторный и |  |  |  |\n| условиях изморози | вентилятор- | мик- рон | установившуюся турбовинтовой ). |  |  |  |\n| (только | $ный: от -23 до$ $-18 °C.$ | 9 минут (или | работу в течение | (е*) Демонстрировать испытанием, расчетом |  |  |\n| турборе активный, |  |  | $45 минут макси-$ | или комбинацией того и другого приемлемую |  |  |\n| турбо- | Только турбо- винто-вой: от | мально). |  | работу турбореактивного, турбовентиляторного |  |  |\n| вентиля- торный и | $-17 до$ |  |  | и турбовинтового двигателей в условиях сме- |  |  |\n| турбо- | $-12°C.$ |  |  | шанной фазы и условиях обледенения при кри- |  |  |",
+            "html": "",
+            "n_rows": 22,
+            "n_cols": 7,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8376623376623377,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 51,
+      "summary": {
+        "page": 51,
+        "n_detections": 3,
+        "n_formulas": 0,
+        "n_tables": 3,
+        "n_figures": 0,
+        "table_ok": 3,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 64.94400024414062,
+            "y1": 56.043365478515625,
+            "x2": 552.0900268554688,
+            "y2": 300.03460693359375
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 64.94400024414062,
+            "y1": 338.0956115722656,
+            "x2": 552.3179321289062,
+            "y2": 497.0946350097656
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 83.66400146484375,
+            "y1": 631.6655883789062,
+            "x2": 562.115478515625,
+            "y2": 774.2313232421875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 51,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 64.94400024414062,
+            "y1": 56.043365478515625,
+            "x2": 552.0900268554688,
+            "y2": 300.03460693359375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8705882352941176,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=14",
+              "cols=7",
+              "numeric_ratio=0.63",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.871",
+              "rows=17 cols=5 consistency=1.00 meaningful=0.74",
+              "span_cols=5",
+              "span_rows=17"
+            ]
+          },
+          "content": {
+            "markdown": "| (ix) | указанная продолжительность – это | 1,00  A<1,35 | 4 | 0,70 |\n| --- | --- | --- | --- | --- |\n|  | наработка при определенных условиях с измене- | 1,35  A<1,70 | 1 | 1,15 |\n|  | нием   мощности   или   тяги   между    каждым |  | + 3 | 0,70 |\n| из условий менее чем за 10 с. |  | Продолжение таблицы 2 |  |  |\n| (8) | Для вертолетных двигателей должна ис- | Площадь А |  |  |\n|  | пользоваться следующая программа испытаний: | наименьшего сечения | Колич. | Масса |\n| (i) | имитация столкновения со стаей, длящаяся | во входном канале | птиц | птицы, |\n|  | приблизительно 1 с от момента попадания пер- | двигателя, м 2 |  | кг |\n| вой птицы до последней; |  | 1,70  A < 2,10 | 1 | 1,15 |\n| (ii) | работа двигателя на 75 % тяги или |  | + 4 | 0,70 |\n|  | мощности согласно п. (а)(1)  данного параграфа | 2,10  A < 2,50 | 1 | 1,15 |\n| в течение 3 мин; |  |  | + 5 | 0,70 |\n| (iii) | работа двигателя на режиме ПМГ в | 2,50  A < 3,90 | 1 | 1,15 |\n| течение 90 с при снижении; |  |  | + 6 | 0,70 |\n| (iv) | работа двигателя на 75 % тяги или | 3,90  A < 4,50 | 3 | 1,15 |\n|  | мощности согласно п. (а)(1)  данного параграфа | 4,50  A | 4 | 1,15 |\n| в течение 30 с; |  |  |  | Таблица 3 |",
+            "html": "",
+            "n_rows": 17,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8705882352941176,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 51,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 64.94400024414062,
+            "y1": 338.0956115722656,
+            "x2": 552.3179321289062,
+            "y2": 497.0946350097656
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.835,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=8",
+              "cols=5",
+              "numeric_ratio=0.45",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.835",
+              "rows=12 cols=5 consistency=1.00 meaningful=0.65",
+              "span_cols=5",
+              "span_rows=12"
+            ]
+          },
+          "content": {
+            "markdown": "| (vi) | указанная продолжительность – это | Площадь А |  | Масса |\n| --- | --- | --- | --- | --- |\n|  |  | наименьшего сечения | Колич. | птицы, |\n|  | наработка при определенных условиях с измене- | во входном канале | птиц | кг |\n|  | нием мощности между каждым из условий | двигателя, м 2 |  |  |\n| менее чем за 10 с. |  | 1,35 > A | Ни одной | – |\n| (9) | Не требуется  соответствие  требованиям |  |  |  |\n|  | к попаданию средних птиц для двигателей, пред- | 1,35 A< 2,90 | 1 | 1,15 |\n| назначенных | для многодвигательного | 2,90  A< 3,90 | 2 | 1,15 |\n|  | вертолета, если это указано в соответствующей |  |  |  |\n| документации Сертификата типа. |  | 3,90  A | 1 | 1,15 |\n| (10) Если | какие-либо эксплуатационные |  | + 6 | 0,70 |\n|  | ограничения двигателя превышены в течение | (d) Крупная стайная птица. |  | Испытания дви- |",
+            "html": "",
+            "n_rows": 12,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.835,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 51,
+          "region_id": "table_02",
+          "type": "table",
+          "bbox": {
+            "x1": 83.66400146484375,
+            "y1": 631.6655883789062,
+            "x2": 562.115478515625,
+            "y2": 774.2313232421875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.926,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=8",
+              "cols=4",
+              "numeric_ratio=0.60",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.926",
+              "rows=10 cols=5 consistency=1.00 meaningful=0.84",
+              "span_cols=5",
+              "span_rows=10"
+            ]
+          },
+          "content": {
+            "markdown": "| Площадь А |  |  | Масса | вращения ротора I ступени (или ступеней), |\n| --- | --- | --- | --- | --- |\n| наименьшего сечения |  | Колич. | птицы, | подвергаемой воздействию, при которой в |\n| во входном канале | 2 | птиц | кг | условиях стандартного дня двигатель должен |\n| двигателя, м |  |  |  | вырабатывать 90 % максимальной установлен- |\n| 0,0 5 > A |  | Ни одной | – | ной взлетной мощности или тяги в статических |\n| 0,05  | A<0,10 | 1 | 0,35 | условиях на уровне моря. |\n| 0,10  | A<0,20 | 1 | 0,45 (3) | Птица должна быть нацелена на первую |\n| 0,20  | A<0,40 | 2 | 0,45 подвергаемую | воздействию вращающуюся |\n| 0,40  | A<0,60 | 2 | 0,70 | ступень (или ступени), в точку, расположенную |\n| 0,60  | A<1,00 | 3 | 0,70 | на уровне, составляющем не менее чем 50 % |",
+            "html": "",
+            "n_rows": 10,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.926,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 52,
+      "summary": {
+        "page": 52,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 36.599998474121094,
+            "y1": 541.42333984375,
+            "x2": 533.292724609375,
+            "y2": 733.4956665039062
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 52,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 36.599998474121094,
+            "y1": 541.42333984375,
+            "x2": 533.292724609375,
+            "y2": 733.4956665039062
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7833333333333333,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=9",
+              "cols=7",
+              "numeric_ratio=0.42",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.783",
+              "rows=13 cols=6 consistency=1.00 meaningful=0.55",
+              "span_cols=6",
+              "span_rows=13"
+            ]
+          },
+          "content": {
+            "markdown": "| (v) | затем следует 2 мин с мощностью или |  |  |  | Таблица 4 |\n| --- | --- | --- | --- | --- | --- |\n|  | тягой, уменьшенной по сравнению с установлен- |  |  | Масса и количество крупных стайных птиц |  |\n|  | ной  в  п.  (d)(5)(iv)  данного  параграфа   на   5– |  |  |  |  |\n|  | 10 % от максимальной установленной взлет- ной |  | Площадь А |  | Масса |\n| мощности или тяги; |  |  | наименьшего сечения | Колич. | птицы, |\n| (vi) | затем следует как минимум 1 мин на |  | во входном канале | птиц | кг |\n| ЗМГ и | выключение двигателя. | Указанные | двигателя, м 2 |  |  |\n| продолжительности | являются промежутками |  | A< 2,50 | Нет | – |\n|  | времени при заданных условиях испытания. |  |  |  |  |\n|  | Перемещение РУД между условиями испыта- | 2,50 | A< 3,50 | 1 | 1,85 |\n|  | ния должно  проводиться  за  10  с  или  менее, | 3,50  | A< 3,90 | 1 | 2,10 |\n|  | за исключением того, что время перемещения | 3,90 |  A | 1 | 2,50 |\n|  | РУД в п. (d)(5)(ii) данного параграфа не ограни- |  |  |  |  |",
+            "html": "",
+            "n_rows": 13,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7833333333333333,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 53,
+      "summary": {
+        "page": 53,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 54,
+      "summary": {
+        "page": 54,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 56,
+      "summary": {
+        "page": 56,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 57,
+      "summary": {
+        "page": 57,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 58,
+      "summary": {
+        "page": 58,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 59,
+      "summary": {
+        "page": 59,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 60,
+      "summary": {
+        "page": 60,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 61,
+      "summary": {
+        "page": 61,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 62,
+      "summary": {
+        "page": 62,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 63,
+      "summary": {
+        "page": 63,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 64,
+      "summary": {
+        "page": 64,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 65,
+      "summary": {
+        "page": 65,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 66,
+      "summary": {
+        "page": 66,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 67,
+      "summary": {
+        "page": 67,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 68,
+      "summary": {
+        "page": 68,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 69,
+      "summary": {
+        "page": 69,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 70,
+      "summary": {
+        "page": 70,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 71,
+      "summary": {
+        "page": 71,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 72,
+      "summary": {
+        "page": 72,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9811772108078003,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 73.55090809707443,
+            "y1": 290.8640182889399,
+            "x2": 495.7501414250751,
+            "y2": 550.0419729515885
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.8,
+          "method": "pdf_image",
+          "bbox": {
+            "x1": 232.2,
+            "y1": 386.28,
+            "x2": 409.32,
+            "y2": 511.2
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 72,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 73.55090809707443,
+            "y1": 290.8640182889399,
+            "x2": 495.7501414250751,
+            "y2": 550.0419729515885
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9811772108078003,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "25 и ж инж 20 15 дожДь (Ω/J) процентное содержание воды в воздухе по массе 4% 10 3% 2% 5 -1% 5000 10000 15000 Высота (м)",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\НЛГ 33 Двигатели\\p0072_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9811772108078003,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 72,
+          "region_id": "figure_01",
+          "type": "figure",
+          "bbox": {
+            "x1": 232.2,
+            "y1": 386.28,
+            "x2": 409.32,
+            "y2": 511.2
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "дождь процен воды в 4% 3% 2% рпад 1%",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\НЛГ 33 Двигатели\\p0072_figure_01.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.8,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 73,
+      "summary": {
+        "page": 73,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 2,
+        "n_figures": 0,
+        "table_ok": 2,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 88.34400177001953,
+            "y1": 121.4462890625,
+            "x2": 536.72998046875,
+            "y2": 245.20135498046875
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 88.34400177001953,
+            "y1": 298.2533264160156,
+            "x2": 562.4400024414062,
+            "y2": 585.9313354492188
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 73,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 88.34400177001953,
+            "y1": 121.4462890625,
+            "x2": 536.72998046875,
+            "y2": 245.20135498046875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9999999999999999,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=7",
+              "cols=4",
+              "numeric_ratio=0.86",
+              "nonempty_ratio=1.00",
+              "span_cells_score=1.000",
+              "rows=7 cols=4 consistency=1.00 meaningful=1.00",
+              "span_cols=4",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "| Высота, м | $СВД, г воды/м$ 3 воздуха | Диаметр капель дождя, мм | СВД, % |\n| --- | --- | --- | --- |\n| 0 | 20,0 | 0 – 0,49 | 0 |\n| 6100 | 20,0 | 0,50 – 0,99 | 2,25 |\n| 8000 | 15,2 | 1,00 – 1,49 | 8,75 |\n| 10000 | 10,8 | 1,50 – 1,99 | 16,25 |\n| 12000 | 7,7 | 2,00 – 2,49 | 19,00 |\n| 14000 | 5,2 | 2,50 – 2,99 | 17,75 |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9999999999999999,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 73,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 88.34400177001953,
+            "y1": 298.2533264160156,
+            "x2": 562.4400024414062,
+            "y2": 585.9313354492188
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9013157894736843,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=11",
+              "cols=4",
+              "numeric_ratio=0.86",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.901",
+              "rows=19 cols=4 consistency=1.00 meaningful=0.80",
+              "span_cols=4",
+              "span_rows=19"
+            ]
+          },
+          "content": {
+            "markdown": "|  |  | 4,50 – 4,99 | 3,00 |\n| --- | --- | --- | --- |\n|  | Таблица В2 | 5,00 – 5,49 | 2,00 |\n|  | Стандартные атмосферные концентрации | 5,50 – 5,99 | 1,25 |\n|  | воды при граде, принятые при сертификации | 6,00 – 6,49 | 0,50 |\n| Высота, м | $СВГ, г воды/м$ 3 воздуха | 6,50 – 7,00 | 0,25 |\n| 0 | 6,0 | Всего | 100,00 |\n| 2230 | 8,9 |  |  |\n| 2600 | 9,4 | Медианный диаметр капель дождя – 2,66 мм. |  |\n| 3050 | 9,9 |  | Таблица В4 |\n| 3750 | 10,0 | Стандартное атмосферное распределение |  |\n| 4500 | 10,0 | по размеру града, принятое при сертификации |  |\n| 4850 | 8,9 | Диаметр града, мм | СВГ, % |\n| 5400 | 7,8 |  |  |\n| 5900 | 6,6 | 0 – 0,49 | 0 |\n| 6500 | 5,6 | 5,0 – 9,9 | 17,00 |\n| 7400 | 4,4 | 10,0 – 14,9 | 25,00 |\n| 8800 | 3,3 | 15,0 – 19,9 | 22,50 |\n| 14000 | 0,2 | 20,0 – 24,9 | 16,00 |\n|  |  | 25,0 – 29,9 | 9,75 |",
+            "html": "",
+            "n_rows": 19,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9013157894736843,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 74,
+      "summary": {
+        "page": 74,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 75,
+      "summary": {
+        "page": 75,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9534523487091064,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 109.85943910308475,
+            "y1": 253.22916575537957,
+            "x2": 552.9633499418366,
+            "y2": 549.843867488008
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 75,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 109.85943910308475,
+            "y1": 253.22916575537957,
+            "x2": 552.9633499418366,
+            "y2": 549.843867488008
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9534523487091064,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Высота-футы 0 5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 0 .10 .20 -30 Приложение D 40 -50 -60 -70",
+            "caption_source": "ocr_caption",
+            "figure_number": "Рис. D1 - Область обледенения при кристаллах льда",
+            "crop_path": "data\\cache\\figures\\НЛГ 33 Двигатели\\p0075_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9534523487091064,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 76,
+      "summary": {
+        "page": 76,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 1,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9769806861877441,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 62.76312712769325,
+            "y1": 146.47888533785533,
+            "x2": 489.9422963594292,
+            "y2": 396.4172943431682
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.9257142857142858,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 39.36000061035156,
+            "y1": 629.265625,
+            "x2": 264.0199890136719,
+            "y2": 717.4713134765625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 76,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 62.76312712769325,
+            "y1": 146.47888533785533,
+            "x2": 489.9422963594292,
+            "y2": 396.4172943431682
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9769806861877441,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "-60 C - 50 C -40C 30C -20C -10C 0C Выше границы Приложения D Ниже границы Приложения D 6 0C -10 C -20 C 5 -30 C -40 C -50 C HICB – ρ/Μ³ 4 -60 C 3 2 1 0 0 5 10 15 20 25 30 35 40 45 50 Высота - β 1000 футов",
+            "caption_source": "ocr_caption",
+            "figure_number": "Рис. D2 – Полное содержание воды",
+            "crop_path": "data\\cache\\figures\\НЛГ 33 Двигатели\\p0076_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9769806861877441,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 76,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 39.36000061035156,
+            "y1": 629.265625,
+            "x2": 264.0199890136719,
+            "y2": 717.4713134765625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9666666666666666,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=3",
+              "numeric_ratio=0.43",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.967",
+              "rows=5 cols=3 consistency=1.00 meaningful=0.93",
+              "span_cols=3",
+              "span_rows=5"
+            ]
+          },
+          "content": {
+            "markdown": "| Диапазон | Длина горизонталь- | ПСВ, |\n| --- | --- | --- |\n| температуры, O | ного облака, | $г/м$ 3 |\n| С | морские мили |  |\n| $От 0 до –20$ | $≤ 50$ | $≤ 1,0$ |\n| $От 0 до –20$ | Неограниченная | $≤ 0,50$ |",
+            "html": "",
+            "n_rows": 5,
+            "n_cols": 3,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9666666666666666,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 77,
+      "summary": {
+        "page": 77,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9161824584007263,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 81.24793691615774,
+            "y1": 155.59927328345663,
+            "x2": 543.8985361395421,
+            "y2": 437.2079915209407
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 77,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 81.24793691615774,
+            "y1": 155.59927328345663,
+            "x2": 543.8985361395421,
+            "y2": 437.2079915209407
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9161824584007263,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "1.2 1.1 1 0.9 80 0.7 0.6 1 10 100 1000 Горизонтальная протяженность – морские мили",
+            "caption_source": "ocr_caption",
+            "figure_number": "Рис. D3 – Влияние протяженности воздействия на ПСВ",
+            "crop_path": "data\\cache\\figures\\НЛГ 33 Двигатели\\p0077_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9161824584007263,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 78,
+      "summary": {
+        "page": 78,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 79,
+      "summary": {
+        "page": 79,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 80,
+      "summary": {
+        "page": 80,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 50.784000396728516,
+            "y1": 162.62332153320312,
+            "x2": 536.2603759765625,
+            "y2": 303.27459716796875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ 33 Двигатели",
+          "page": 80,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 50.784000396728516,
+            "y1": 162.62332153320312,
+            "x2": 536.2603759765625,
+            "y2": 303.27459716796875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.6898989898989899,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=8",
+              "numeric_ratio=0.38",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.690",
+              "rows=11 cols=9 consistency=1.00 meaningful=0.37",
+              "span_cols=9",
+              "span_rows=11"
+            ]
+          },
+          "content": {
+            "markdown": "| D33.1.31. Давление на входе |  | – полное дав- |  |  | D33.1.39. Огненепроницаемый материал |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | ление в соответствующей точке системы вса- |  | или компонент |  |  |  | – материал или компонент, |  |\n| сывания поршневого двигателя. |  |  |  |  | способный выдерживать, как сталь или лучше, |  |  |  |\n|  |  |  |  | пламя с температурой (1100 |  |  80) |  | С как мини- |\n| D33.1.32. Ресурс | – максимально допустимая |  |  |  | мум в течение 15 мин при выполнении своих |  |  |  |\n|  | наработка основной детали двигателя от начала | функций. |  |  |  |  |  |  |\n| эксплуатации снятия с эксплуатации. |  |  | D33.1.40. |  | Огнестойкий |  | материал | или |\n| D33.1.33. [Зарезервирован] |  |  | компонент |  |  | – материал или компонент, способ- |  |  |\n| D33.1.34. [Зарезервирован] |  | ный |  | выдерживать | пламя | с |  | температурой |\n|  | D33.1.35. Типовой полетный цикл (ТПЦ) | (1100 |  80)  |  |  | С как минимум в течение 5  мин |  |  |\n| двигателя | – указанное в ОУЭ изменение по |  |  | при выполнении своих функций. |  |  |  |  |",
+            "html": "",
+            "n_rows": 11,
+            "n_cols": 9,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.6898989898989899,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 81,
+      "summary": {
+        "page": 81,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ 33 Двигатели",
+      "page": 82,
+      "summary": {
+        "page": 82,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

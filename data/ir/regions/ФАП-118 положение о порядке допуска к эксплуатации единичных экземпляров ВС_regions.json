@@ -1,0 +1,1249 @@
+{
+  "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС.pdf",
+  "page_count": 20,
+  "pages": [
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.9411764705882353,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 532.6932983398438,
+            "x2": 462.71600341796875,
+            "y2": 550.8624877929688
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 11,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 532.6932983398438,
+            "x2": 462.71600341796875,
+            "y2": 550.8624877929688
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=«__» __________ 200_ г.",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=1163x75"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\cdots ^ { \\gg } \\; - \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; 2 0 0 _ { - } \\; \\; \\mathrm { r } \\, .",
+            "latex": "\\cdots ^ { \\gg } \\; - \\; 2 0 0 _ { - } \\; \\; \\mathrm { r } \\, .",
+            "text_fallback": "** \\; - \\; 2 0 0 - \\; \\; r \\, .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 623.4132690429688,
+            "x2": 360.6860046386719,
+            "y2": 641.5824584960938
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9375,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 657.4032592773438,
+            "x2": 330.6860046386719,
+            "y2": 675.5724487304688
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 12,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 623.4132690429688,
+            "x2": 360.6860046386719,
+            "y2": 641.5824584960938
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=___________/___________________/",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=879x75",
+              "semantic_reason=truncated"
+            ]
+          },
+          "content": {
+            "latex_raw": "- \\frac { \\vert \\prime \\vert } { \\vert \\eta _ { n } \\eta _ { n } \\eta _ { n } \\tau _ { \\mathrm { ~mathsf { E } ~ } } \\vert } - \\frac { \\Bigg \\langle \\frac { \\mathsf { I } _ { M \\mathsf { W } \\mathsf { T } \\mathsf { H } \\mathsf { W } \\mathsf { H } \\mathsf { W } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\Bigg \\rangle }",
+            "latex": "- \\frac { \\vert \\prime \\vert } { \\vert \\eta _ { n } \\eta _ { n } \\eta _ { n } \\tau _ { \\mathrm { ~mathsf { E } ~ } } \\vert } - \\frac { \\Bigg \\langle \\frac { \\mathsf { I } _ { M \\mathsf { W } \\mathsf { T } \\mathsf { H } \\mathsf { W } \\mathsf { H } \\mathsf { W } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\mathsf { H } \\Bigg \\rangle } } }",
+            "text_fallback": "- n n n ~mathsf E ~ - I M W T H W H W H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 12,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 657.4032592773438,
+            "x2": 330.6860046386719,
+            "y2": 675.5724487304688
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=«__» _________ 200_ г.",
+              "pylatexenc_ok",
+              "preview_wh=796x74"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\alpha \\rightarrow \\sum \\cdots = 2 0 0 \\_ { \\textrm { } } \\textrm { r } .",
+            "latex": "\\alpha \\rightarrow \\sum \\cdots = 2 0 0 \\_ { \\textrm { } } \\textrm { r } .",
+            "text_fallback": "arrow = 2 0 0 \\ r .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 147.5633087158203,
+            "x2": 240.66600036621094,
+            "y2": 165.7324676513672
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 181.52333068847656,
+            "x2": 462.71600341796875,
+            "y2": 199.69248962402344
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9375,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 238.1632843017578,
+            "x2": 222.66600036621094,
+            "y2": 256.3324432373047
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 13,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 147.5633087158203,
+            "x2": 240.66600036621094,
+            "y2": 165.7324676513672
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=_____________/______________/",
+              "spacing_collapsed",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "spacing_collapsed",
+              "braces_repaired",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=546x75"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathrm { P y K O B O } \\underline { { \\Pi } } \\pi \\mathbb { P } \\in \\Pi \\mathbf { b } \\quad \\mathrm { r p y } \\Pi \\Pi \\mathbf { b } \\mathbf { I } \\quad 9 \\mathrm { K C } \\Pi \\Theta \\mathrm { P } \\boldsymbol { \\Pi } \\supset 0 } \\\\ { \\left/ \\underline { { \\Pi } } \\right. \\qquad \\qquad \\qquad \\qquad \\left. \\begin{array} { r } { \\mathbf { \\Pi } } \\\\ { \\mathbf { \\Pi } } \\end{array} \\right/ } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathrm { P y K O B O } \\underline { { \\Pi } } \\pi \\mathbb { P } \\in \\Pi \\mathbf { b } \\quad \\mathrm { r p y } \\Pi \\Pi \\mathbf { b } \\mathbf { I } \\quad 9 \\mathrm { K C } \\Pi \\Theta \\mathrm { P } \\boldsymbol { \\Pi } \\supset 0 } \\\\ { \\left/ \\underline { { \\Pi } } \\right. \\qquad \\left. \\begin{array} { r } { \\mathbf { \\Pi } } \\\\ { \\mathbf { \\Pi } } \\end{array} \\right/ } \\end{array}",
+            "text_fallback": "r P y K O B O P b r p y b I 9 K C P 0 \\\\ / . . r \\\\ /",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 13,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 181.52333068847656,
+            "x2": 462.71600341796875,
+            "y2": 199.69248962402344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=_______________________",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=1163x74"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } { \\underbrace { \\mathrm { e } _ { \\longrightarrow \\, \\longrightarrow \\, } } _ { \\substack { \\mathrm { \\boldmath ~ \\alpha ~ } } } \\; \\underbrace { 2 0 ! \\mathrm { \\boldmath ~ 1 ~ } } _ { \\substack { \\mathrm { \\boldmath ~ \\beta ~ } } } \\; = \\; \\mathrm { \\boldmath ~ \\alpha ~ } } & { { } \\qquad \\qquad \\underbrace { \\mathrm { \\boldmath ~ \\beta ~ } } _ { \\substack { \\mathrm { \\boldmath ~ \\beta ~ } } } \\substack { \\mathrm { \\boldmath ~ \\beta ~ } } \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad } \\\\ { \\mathrm { e } ^ { \\mathrm { \\boldmath ~ 2 a ~ } _ { \\mathrm { \\bf 2 } , \\mathrm { b } , \\mathrm { b } , \\mathrm { c } , \\mathrm { a } } } \\; \\underbrace { \\mathrm { \\boldmath ~ \\pi ~ } _ { \\mathrm { \\boldmath ~ \\alpha ~ } } \\mathrm { \\boldmath ~ \\pi ~ } _ { \\mathrm { \\boldmath ~ \\alpha ~ } } \\mathrm { \\boldmath ~ \\pi ~ } _ { \\mathrm { \\boldmath ~ b } , \\mathrm { c } , \\mathrm { b } , \\mathrm { c } , \\mathrm { s } } } _ { \\substack { \\mathrm { \\boldmath ~ \\alpha ~ } } } \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad } \\end{array}",
+            "latex": "\\begin{array} { r l } { \\underbrace { \\mathrm { e } _ { \\longrightarrow \\, \\longrightarrow \\, } } _ { \\substack { \\mathrm { \\boldmath ~ \\alpha ~ } } } \\; \\underbrace { 2 0 ! \\mathrm { \\boldmath ~ 1 ~ } } _ { \\substack { \\mathrm { \\boldmath ~ \\beta ~ } } } \\; = \\; \\mathrm { \\boldmath ~ \\alpha ~ } } & { { } \\qquad \\qquad \\underbrace { \\mathrm { \\boldmath ~ \\beta ~ } } _ { \\substack { \\mathrm { \\boldmath ~ \\beta ~ } } } \\substack { \\mathrm { \\boldmath ~ \\beta ~ } } \\qquad } \\\\ { \\mathrm { e } ^ { \\mathrm { \\boldmath ~ 2 a ~ } _ { \\mathrm { \\bf 2 } , \\mathrm { b } , \\mathrm { b } , \\mathrm { c } , \\mathrm { a } } } \\; \\underbrace { \\mathrm { \\boldmath ~ \\pi ~ } _ { \\mathrm { \\boldmath ~ \\alpha ~ } } \\mathrm { \\boldmath ~ \\pi ~ } _ { \\mathrm { \\boldmath ~ \\alpha ~ } } \\mathrm { \\boldmath ~ \\pi ~ } _ { \\mathrm { \\boldmath ~ b } , \\mathrm { c } , \\mathrm { b } , \\mathrm { c } , \\mathrm { s } } } _ { \\substack { \\mathrm { \\boldmath ~ \\alpha ~ } } } \\qquad } \\end{array}",
+            "text_fallback": "r l e \\, \\, ~ ~ \\; 2 0 ! ~ 1 ~ ~ ~ \\; = \\; ~ ~ & ~ ~ ~ ~ ~ ~ \\\\ e ** ~ 2 a ~ 2 , b , b , c , a \\; ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ b , c , b , c , s ~ ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 13,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 238.1632843017578,
+            "x2": 222.66600036621094,
+            "y2": 256.3324432373047
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=«__» _________ 200_ г.",
+              "spacing_collapsed",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=496x75"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\alpha \\rightarrow \\sum \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; 2 0 \\, 0 \\substack { - \\! \\! \\! \\! \\! \\! \\! \\! \\longrightarrow \\, \\mathrm { \\tiny ~ \\! ~ \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\!",
+            "latex": "\\alpha \\rightarrow \\sum \\; 2 0 \\, 0 \\substack { - \\! \\longrightarrow \\, \\mathrm { \\tiny ~ \\! ~ \\! } }",
+            "text_fallback": "arrow \\; 2 0 \\, 0 - \\! \\, ~ \\! ~ \\!",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.95,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 215.48329162597656,
+            "x2": 342.6860046386719,
+            "y2": 233.65245056152344
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9444444444444444,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 351.4732971191406,
+            "x2": 462.71600341796875,
+            "y2": 369.6424560546875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 14,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 215.48329162597656,
+            "x2": 342.6860046386719,
+            "y2": 233.65245056152344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=«__» _____________ 200_ г.",
+              "pylatexenc_ok",
+              "preview_wh=829x75"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\cdots \\rightarrow \\cdots = - 2 0 0 - r .",
+            "latex": "\\cdots \\rightarrow \\cdots = - 2 0 0 - r .",
+            "text_fallback": "arrow = - 2 0 0 - r .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 14,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 351.4732971191406,
+            "x2": 462.71600341796875,
+            "y2": 369.6424560546875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=«__» ___________ 200_ г.",
+              "spacing_collapsed",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=1163x74",
+              "semantic_reason=truncated"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbb { H } \\cdot \\Pi \\cdot \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\times \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\times \\quad \\frac { \\nu _ { 1 } \\! \\! \\! \\! \\! \\! \\! \\to \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! ",
+            "latex": "\\begin{array} { r } { \\mathbb { H } \\cdot \\Pi \\cdot \\qquad \\times \\qquad \\times \\quad \\frac { \\nu _ { 1 } \\! \\to \\! } } \\end{array}",
+            "text_fallback": "r H 1 \\! \\!",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 4,
+        "n_formulas": 4,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 147.5633087158203,
+            "x2": 324.6860046386719,
+            "y2": 165.7324676513672
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9827586206896552,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 362.7532958984375,
+            "x2": 462.71600341796875,
+            "y2": 403.6024475097656
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9655172413793104,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 442.07330322265625,
+            "x2": 462.71600341796875,
+            "y2": 460.2424621582031
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.9827586206896552,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 476.05328369140625,
+            "x2": 462.71600341796875,
+            "y2": 516.9024658203125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 15,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 147.5633087158203,
+            "x2": 324.6860046386719,
+            "y2": 165.7324676513672
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=№ ____________________",
+              "pylatexenc_ok",
+              "preview_wh=779x75"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathbb { N } ^ { \\mathfrak { o } } \\underbrace { \\mathrm { ~ \\boldmath ~ \\mathscr ~ { ~ \\scriptstyle ~ \\mathscr ~ { ~ \\scriptstyle } ~ } ~ } } \\longrightarrow \\mathbb { \\mathrm { ~ \\overbrace ~ { ~ \\mathscr ~ { ~ \\scriptstyle ~ \\mathscr ~ { ~ \\scriptstyle ~ c ~ } ~ } ~ } ~ } }",
+            "latex": "\\mathbb { N } ^ { \\mathfrak { o } } \\underbrace { \\mathrm { ~ \\boldmath ~ \\mathscr ~ { ~ \\scriptstyle ~ \\mathscr ~ { ~ \\scriptstyle } ~ } ~ } } \\longrightarrow \\mathbb { \\mathrm { ~ \\overbrace ~ { ~ \\mathscr ~ { ~ \\scriptstyle ~ \\mathscr ~ { ~ \\scriptstyle ~ c ~ } ~ } ~ } ~ } }",
+            "text_fallback": "N ** o ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ c ~ ~ ~ ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 15,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 362.7532958984375,
+            "x2": 462.71600341796875,
+            "y2": 403.6024475097656
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=2",
+              "text=___________________________________ | «__» ______________________ 200_ г.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=1163x138"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { \\displaystyle \\begin{array} { l l l l } { { \\displaystyle \\mathrm { P ykappa o B o n } \\, m \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { T } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } } \\end{array} } } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\displaystyle \\begin{array} { l l l l } { { \\displaystyle \\mathrm { P ykappa o B o n } \\, m \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { T } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } \\scriptstyle { \\mathbb { H } } } \\end{array} } } } \\end{array}",
+            "text_fallback": "l l l l l P ykappa o B o n \\, m H T H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 15,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 442.07330322265625,
+            "x2": 462.71600341796875,
+            "y2": 460.2424621582031
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=«__» ______________________ 200_ г.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=1163x75"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\omega \\rightarrow \\, \\, { \\underline { { \\longrightarrow } } } \\, \\, \\, \\, { \\underline { { \\longrightarrow } } } \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, 2 0 0 \\, \\, \\, \\, \\, \\, { \\bf r } \\, \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ T ~ } } \\, \\, \\, \\, \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ T ~ } } \\, \\, \\, \\, \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ Q ~ } } \\, \\, \\, \\, \\Sigma \\, \\, \\, \\, \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ T ~ } } \\, \\, \\, \\, \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ Q ~ } } \\, \\, \\, \\, \\Sigma \\, \\, . \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, ^ { 2 ~ \\, 0 } \\, \\, \\, \\, \\,",
+            "latex": "\\omega \\rightarrow \\, \\, { \\underline { { \\longrightarrow } } } \\, { \\underline { { \\longrightarrow } } } \\, 2 0 0 \\, { \\bf r } \\, \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ T ~ } } \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ T ~ } } \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ Q ~ } } \\, \\Sigma \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ T ~ } } \\, \\mathrm { \\boldmath ~ \\scriptstyle { ~ Q ~ } } \\, \\Sigma \\, \\, . \\, ^ { 2 ~ \\, 0 } \\,",
+            "text_fallback": "arrow \\, \\, \\, \\, 2 0 0 \\, r \\, \\, ~ ~ T ~ \\, ~ ~ T ~ \\, ~ ~ Q ~ \\, \\, ~ ~ T ~ \\, ~ ~ Q ~ \\, \\, \\, . \\, ** 2 ~ \\, 0 \\,",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet_retry",
+            "version": null,
+            "method": "unimernet_retry",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 15,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 476.05328369140625,
+            "x2": 462.71600341796875,
+            "y2": 516.9024658203125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=2",
+              "text=___________________________________ | «__» ______________________ 200_ г.",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=1163x137",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { \\displaystyle { \\bf \\Xi } ^ { \\mathrm { S K C I l e p \\cdot \\phantom { - } \\cdot \\textsc { { T e r u m K } - H C I b I T a T e } \\textsc { T e f l e } } } } } \\\\ { { \\displaystyle { \\dots \\; \\; \\; \\; \\ge \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; } } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\displaystyle { \\bf \\Xi } ^ { \\mathrm { S K C I l e p \\cdot \\phantom { - } \\cdot \\textsc { { T e r u m K } - H C I b I T a T e } \\textsc { T e f l e } } } } } \\\\ { { \\displaystyle { \\dots \\; \\ge \\; } } } \\end{array}",
+            "text_fallback": "l ** S K C I l e p - T e r u m K - H C I b I T a T e T e f l e \\\\ \\; \\;",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 226.88331604003906,
+            "x2": 300.666015625,
+            "y2": 245.05247497558594
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 16,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 226.88331604003906,
+            "x2": 300.666015625,
+            "y2": 245.05247497558594
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=№ ___________",
+              "pylatexenc_ok",
+              "preview_wh=713x74",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { O B I I I E , T O ~ \\, \\, \\, H A ^ { \\prime } 3 H A ^ { \\boldsymbol { q } } E H } \\mathrm { H } A } } \\\\ { { \\mathbb { N } ^ { \\mathfrak { g } } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { O B I I I E , T O ~ \\, \\, \\, H A ^ { \\prime } 3 H A ^ { \\boldsymbol { q } } E H } \\mathrm { H } A } } \\\\ { { \\mathbb { N } ^ { \\mathfrak { g } } } } \\end{array}",
+            "text_fallback": "c O B I I I E , T O ~ \\, \\, \\, H A ** 3 H A ** q E H H A \\\\ N ** g",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6003344481605352,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 226.88331604003906,
+            "x2": 270.666015625,
+            "y2": 313.0024719238281
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 17,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 226.88331604003906,
+            "x2": 270.666015625,
+            "y2": 313.0024719238281
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=6",
+              "text=- встречный, м/с _____________ | - попутный, м/с ______________ | - под 90 град., м/с __________ | - встречный, м/с _____________ | - попутный, м/с ______________ | - под 90 град., м/с __________",
+              "braces_repaired",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "prose_like",
+              "preview_wh=629x263"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\begin{array} { r l } { - } & { \\mathbf { R } \\odot \\mathbf { B } \\odot \\mathbf { J } \\mathbf { e } \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\odot \\mathbf { C } \\mathbf { \\Psi } \\sim } \\\\ { - } & { \\mathbf { B } \\odot \\mathbf { T } \\nabla \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { B } \\mathbf { E } \\mathbf { H } \\mathbf { \\widetilde { \\mathcal { H } } } , \\ \\ \\ \\mathbf { M } / \\mathbf { C } \\ } \\\\ { - } & { \\mathbf { T } \\mathbf { O } \\mathbf { T } \\nabla \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { \\mathcal { T } } \\mathbf { H } \\mathbf { \\widetilde { \\mathcal { H } } } , \\ \\ \\ \\mathbf { M } / \\mathbf { C } \\mathbf { \\Psi } } \\\\ { - } & { \\mathbf { R } \\mathbf { O } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathcal { I } } \\mathbf { O } \\ \\ \\ \\mathbf { T } \\mathbf { B } \\mathbf { \\widetilde { \\mathcal { H } } } \\cdot \\mathbf { \\Psi } \\mathbf { \\overline { { \\mathbf { \\phi } } } } \\mathbf { \\overline { { \\mathbf { M } / \\mathbf { C } \\mathbf { \\Psi } } } } \\\\ { - } & { \\mathbf { R } \\mathbf { G } \\ \\mathbf { T } \\mathbf { B } \\mathbf { C } \\mathbf { C } \\mathbf { 2 } \\mathbf { I } \\mathbf { E } \\mathbf { K } \\mathbf { S } . } \\\\ { - } & { \\mathbf { R } \\mathbf { C } \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { \\mathrm { P e } } \\mathbf { \\Psi } \\mathbf { \\Xi } \\mathbf { \\mathrm { t h } } \\mathbf { \\widetilde { \\mathcal { H } } } , \\ \\ \\mathbf { M } / \\mathbf { C } \\ \\ } \\\\ { - } & { \\mathbf { T } \\mathbf { O } \\mathbf { T } \\mathbf { J } \\mathbf { \\Psi } \\mathbf { \\mathcal { T } } \\mathbf { H } \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { \\mathrm { E } } \\mathbf { \\Psi } \\mathbf { M } / \\mathbf { C } \\ \\ \\overline { { \\mathbf { \\Psi } } } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\Psi } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\Psi } \\mathbf { \\Psi } } \\\\ { - } & { \\mathbf { T } \\mathbf { O } \\mathbf { \\Lambda } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathrm { S } } \\mathbf { T } \\mathbf { \\Psi } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\Psi } \\mathbf { \\mathrm { 2 } } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } } \\\\ { - } & { \\mathbf { R } \\mathbf { \\Psi } \\mathbf { \\mathcal { R } } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathrm { 2 } } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathrm { 2 } } \\mathbf { \\Psi } \\mathbf { \\Psi } ",
+            "latex": "{ \\begin{array} { r l } { - } & { \\mathbf { R } \\odot \\mathbf { B } \\odot \\mathbf { J } \\mathbf { e } \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\odot \\mathbf { C } \\mathbf { \\Psi } \\sim } \\\\ { - } & { \\mathbf { B } \\odot \\mathbf { T } \\nabla \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { B } \\mathbf { E } \\mathbf { H } \\mathbf { \\widetilde { \\mathcal { H } } } , \\ \\ \\ \\mathbf { M } / \\mathbf { C } \\ } \\\\ { - } & { \\mathbf { T } \\mathbf { O } \\mathbf { T } \\nabla \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { \\mathcal { T } } \\mathbf { H } \\mathbf { \\widetilde { \\mathcal { H } } } , \\ \\ \\ \\mathbf { M } / \\mathbf { C } \\mathbf { \\Psi } } \\\\ { - } & { \\mathbf { R } \\mathbf { O } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathcal { I } } \\mathbf { O } \\ \\ \\ \\mathbf { T } \\mathbf { B } \\mathbf { \\widetilde { \\mathcal { H } } } \\cdot \\mathbf { \\Psi } \\mathbf { \\overline { { \\mathbf { \\phi } } } } \\mathbf { \\overline { { \\mathbf { M } / \\mathbf { C } \\mathbf { \\Psi } } } } \\\\ { - } & { \\mathbf { R } \\mathbf { G } \\ \\mathbf { T } \\mathbf { B } \\mathbf { C } \\mathbf { C } \\mathbf { 2 } \\mathbf { I } \\mathbf { E } \\mathbf { K } \\mathbf { S } . } \\\\ { - } & { \\mathbf { R } \\mathbf { C } \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { \\mathrm { P e } } \\mathbf { \\Psi } \\mathbf { \\Xi } \\mathbf { \\mathrm { t h } } \\mathbf { \\widetilde { \\mathcal { H } } } , \\ \\ \\mathbf { M } / \\mathbf { C } \\ \\ } \\\\ { - } & { \\mathbf { T } \\mathbf { O } \\mathbf { T } \\mathbf { J } \\mathbf { \\Psi } \\mathbf { \\mathcal { T } } \\mathbf { H } \\mathbf { \\widetilde { \\mathbf { \\phi } } } \\mathbf { \\mathrm { E } } \\mathbf { \\Psi } \\mathbf { M } / \\mathbf { C } \\ \\ \\overline { { \\mathbf { \\Psi } } } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\Psi } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\Psi } \\mathbf { \\Psi } } \\\\ { - } & { \\mathbf { T } \\mathbf { O } \\mathbf { \\Lambda } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathrm { S } } \\mathbf { T } \\mathbf { \\Psi } \\mathbf { \\overline { { \\mathbf { \\Psi } } } } \\mathbf { \\Psi } \\mathbf { \\mathrm { 2 } } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } } \\\\ { - } & { \\mathbf { R } \\mathbf { \\Psi } \\mathbf { \\mathcal { R } } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathrm { 2 } } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\Psi } \\mathbf { \\mathrm { 2 } } \\mathbf { \\Psi } \\mathbf { \\Psi } } } } \\end{array}",
+            "text_fallback": "r l - & R B J e C \\\\ - & B T B E H H , \\ \\ \\ M / C \\ \\\\ - & T O T T H H , \\ \\ \\ M / C \\\\ - & R O I O \\ \\ \\ T B H M / C \\\\ - & R G \\ T B C C 2 I E K S . \\\\ - & R C P e t h H , \\ \\ M / C \\ \\ \\\\ - & T O T J T H E M / C \\ \\ \\\\ - & T O S T 2 \\\\ - & R R 2 2",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 51.44,
+            "y1": 105.8,
+            "x2": 83.92,
+            "y2": 139.35999999999999
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 18,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 51.44,
+            "y1": 105.8,
+            "x2": 83.92,
+            "y2": 139.35999999999999
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Nº Π/π",
+              "pylatexenc_ok",
+              "preview_wh=115x118"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\boxed { \\begin{array} { r l } { \\mathbb { N } _ { - } ^ { \\mathfrak { o } } } \\\\ { \\boxed { \\Pi \\left/ \\Pi \\right. } } \\end{array} }",
+            "latex": "\\boxed { \\begin{array} { r l } { \\mathbb { N } _ { - } ^ { \\mathfrak { o } } } \\\\ { \\boxed { \\Pi \\left/ \\Pi \\right. } } \\end{array} }",
+            "text_fallback": "r l N - ** o \\\\ / .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 306.11328125,
+            "x2": 348.6860046386719,
+            "y2": 324.2824401855469
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 19,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 306.11328125,
+            "x2": 348.6860046386719,
+            "y2": 324.2824401855469
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=________________________________",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=846x74"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\overbrace { \\langle \\textrm { n } \\gamma \\times \\mathbf { r } \\mathbf { w } \\mathbf { \\times } \\mathbf { r } \\rangle \\cap \\cap \\cap \\Gamma } ^ { \\mathcal { \\prime } \\setminus \\mathcal { \\prime } } \\overbrace { \\phantom { \\langle \\mathbf { r } \\mathbf { x } \\mathbf { x } \\mathbf { r } \\mathbf { q } \\cdot \\mathbf { r } \\mathbf { \\times } \\mathbf { r } \\rangle } ^ { \\mathcal { \\prime } \\setminus \\mathcal { \\prime } } \\mathbf { n } \\mathbf { M } \\mathbf { M } \\cap \\Pi \\Omega \\cap \\Gamma } ^ { \\mathcal { \\prime } \\setminus \\mathcal { \\prime } } \\end{array}",
+            "latex": "\\begin{array} { r } { \\overbrace { \\langle \\textrm { n } \\gamma \\times \\mathbf { r } \\mathbf { w } \\mathbf { \\times } \\mathbf { r } \\rangle \\cap \\cap \\cap \\Gamma } ^ { \\mathcal { \\prime } \\setminus \\mathcal { \\prime } } \\overbrace { \\phantom { \\langle \\mathbf { r } \\mathbf { x } \\mathbf { x } \\mathbf { r } \\mathbf { q } \\cdot \\mathbf { r } \\mathbf { \\times } \\mathbf { r } \\rangle } ^ { \\mathcal { \\prime } \\setminus \\mathcal { \\prime } } \\mathbf { n } \\mathbf { M } \\mathbf { M } \\cap \\Pi \\Omega \\cap \\Gamma } ^ { \\mathcal { \\prime } \\setminus \\mathcal { \\prime } } \\end{array} }",
+            "text_fallback": "r n r w r ** r x x r q r r ** n M M **",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.9473684210526315,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 386.9932861328125,
+            "x2": 462.71600341796875,
+            "y2": 405.1624450683594
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ФАП-118 положение о порядке допуска к эксплуатации единичных экземпляров ВС",
+          "page": 20,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.63999938964844,
+            "y1": 386.9932861328125,
+            "x2": 462.71600341796875,
+            "y2": 405.1624450683594
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=«__» ____________ 200_ г.",
+              "pylatexenc_ok",
+              "preview_wh=1163x75"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\cdots ^ { x } \\rightarrow - 2 0 0 - 5 .",
+            "latex": "\\cdots ^ { x } \\rightarrow - 2 0 0 - 5 .",
+            "text_fallback": "** x arrow - 2 0 0 - 5 .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

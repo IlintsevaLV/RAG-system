@@ -1,0 +1,723 @@
+{
+  "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\ПОЛ_ о проведении сертификации по п.п.603,613_2008.pdf",
+  "page_count": 12,
+  "pages": [
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 289.76,
+            "y1": 132.07999999999998,
+            "x2": 313.24,
+            "y2": 164.2
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 6,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 289.76,
+            "y1": 132.07999999999998,
+            "x2": 313.24,
+            "y2": 164.2
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=Σο 2",
+              "pylatexenc_ok",
+              "preview_wh=90x114"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\left| \\tilde { \\vec { \\mathbf { g } } } \\right| _ { \\tilde { \\mathbf { \\rho } } \\mathbf { \\tilde { \\rho } } _ { \\mathbf { \\tilde { \\rho } } } }",
+            "latex": "\\left| \\tilde { \\vec { \\mathbf { g } } } \\right| _ { \\tilde { \\mathbf { \\rho } } \\mathbf { \\tilde { \\rho } } _ { \\mathbf { \\tilde { \\rho } } } }",
+            "text_fallback": "| g |",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 3,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.7744084000587463,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 205.5036666796403,
+            "y1": 14.717044688433141,
+            "x2": 476.0311810037364,
+            "y2": 804.980205925676
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 234.67999999999998,
+            "y1": 189.68,
+            "x2": 260.32,
+            "y2": 226.84
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.5355287194252014,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 87.36559583138728,
+            "y1": 570.9831483473172,
+            "x2": 154.9676984704059,
+            "y2": 777.8217109592107
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 7,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 205.5036666796403,
+            "y1": 14.717044688433141,
+            "x2": 476.0311810037364,
+            "y2": 804.980205925676
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7744084000587463,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "E.cx E 00.2cK KT/MM σ0..2 В базис 0 Σο.2 6 A базис 8 базиса базиса Значение по ТУ Σο..2 Kr/MM² 6 6 Направ ление 4 Полуфабрикат ост, гост. ту 3 Материал Ocpeça El HV BI:1!",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\p0007_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.7744084000587463,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 7,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 234.67999999999998,
+            "y1": 189.68,
+            "x2": 260.32,
+            "y2": 226.84
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=Σο.2",
+              "pylatexenc_ok",
+              "preview_wh=96x128"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\left| \\begin{array} { l } { \\phantom { | } _ { \\stackrel { . } { \\sum } } \\bigg | \\frac { 1 } { \\Xi } } \\\\ { \\phantom { | } _ { \\stackrel { . } { \\sum } } \\bigg | \\frac { 1 } { \\Xi } } \\end{array} \\right| \\stackrel { \\leftrightarrow } { \\Xi }",
+            "latex": "\\left| \\begin{array} { l } { \\phantom { | } _ { \\stackrel { . } { \\sum } } \\bigg | \\frac { 1 } { \\Xi } } \\\\ { \\phantom { | } _ { \\stackrel { . } { \\sum } } \\bigg | \\frac { 1 } { \\Xi } } \\end{array} \\right| \\stackrel { \\leftrightarrow } { \\Xi }",
+            "text_fallback": "| l | . | 1 \\\\ | . | 1 | rightarrow",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 7,
+          "region_id": "figure_02",
+          "type": "figure",
+          "bbox": {
+            "x1": 87.36559583138728,
+            "y1": 570.9831483473172,
+            "x2": 154.9676984704059,
+            "y2": 777.8217109592107
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.5355287194252014,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "От СЦ Материал Согласовано",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\p0007_figure_02.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.5355287194252014,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 2,
+        "n_formulas": 1,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 81.47999999999999,
+            "y1": 160.32,
+            "x2": 551.4,
+            "y2": 256.56
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.68125,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 84.2,
+            "y1": 660.56,
+            "x2": 245.56,
+            "y2": 683.68
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 8,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 81.47999999999999,
+            "y1": 160.32,
+            "x2": 551.4,
+            "y2": 256.56
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.746969696969697,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=10",
+              "numeric_ratio=0.34",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.747",
+              "rows=6 cols=11 consistency=1.00 meaningful=0.48",
+              "span_cols=11",
+              "span_rows=6"
+            ]
+          },
+          "content": {
+            "markdown": "|  | Марка сплава, | $Тип π/φ,$ | OCT, | Направле | Образ |  |  | Параметры уравнения |  | Приме |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| $ν/ρ$ | $Τ/O$ | габариты | рОСТ | ние | ец |  |  | $Νσ = 1 0β$ |  | чание |\n|  |  |  |  | вырезки |  | B | m |  | N при | (ссыл |\n|  |  |  |  | образца |  |  |  |  |  | ) |\n|  |  |  |  |  |  |  |  |  | $O=const*$ |  |\n| 1 | 2 | 3 | 4 | S | 6 | 7 | 8 |  | 9 | 10 |",
+            "html": "",
+            "n_rows": 6,
+            "n_cols": 11,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.746969696969697,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 8,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 84.2,
+            "y1": 660.56,
+            "x2": 245.56,
+            "y2": 683.68
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=для АL-сплавов - O=16 кг/мм²",
+              "pylatexenc_ok",
+              "preview_wh=473x89",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\ast \\ _ { \\Delta I 1 5 } \\ _ { \\mathrm { A l \\_ c u l l 1 8 0 8 - { \\bf O } } } = 1 6 \\ \\kappa \\mathrm { r / \\ensuremath { M m ^ { 2 } } }",
+            "latex": "\\ast \\ _ { \\Delta I 1 5 } \\ _ { \\mathrm { A l \\_ c u l l 1 8 0 8 - { \\bf O } } } = 1 6 \\ \\kappa \\mathrm { r / \\ensuremath { M m ^ { 2 } } }",
+            "text_fallback": "\\ I 1 5 \\ A l \\ c u l l 1 8 0 8 - O = 1 6 \\ r / M m ** 2",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 2,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.801988422870636,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 196.7898047995452,
+            "y1": 52.319611065405056,
+            "x2": 508.1082288953993,
+            "y2": 788.2780892191508
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8500000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 218.84,
+            "y1": 340.15999999999997,
+            "x2": 243.04,
+            "y2": 392.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 9,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 196.7898047995452,
+            "y1": 52.319611065405056,
+            "x2": 508.1082288953993,
+            "y2": 788.2780892191508
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.801988422870636,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "(ссылк ПРИМ. HVWdOφ ММ/ЩИКЛ Коллиприст ΔΚ=100 CPTy 9 8 -идит ид[) не образца Β. MM), α 6 вырезк Hanp. габариты сплава.Τ/0 Марки Hdil Ξ Ξ",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\p0009_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.801988422870636,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 9,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 218.84,
+            "y1": 340.15999999999997,
+            "x2": 243.04,
+            "y2": 392.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=ΔK=100",
+              "spacing_collapsed",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=92x171"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\frac { 1 } { \\sum _ { i = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { } \\sum 3 \\sum _ { s = 1 } ^ { } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { } \\sum 3 \\sum _ { s = } ^ { 3 } \\sum \\sum _ { s = } 3 \\sum \\sum _ { s = } ^ { 3 } \\sum \\sum _ { s = } 3 \\sum \\sum _ { s = } ^ { } 3 \\sum \\sum \\sum _ { s } \\sum \\sum \\sum _ { s } \\in \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
+            "latex": "\\begin{array} { c } { { \\frac { 1 } { \\sum _ { i = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { } \\sum 3 \\sum _ { s = 1 } ^ { } \\sum _ { s = 1 } ^ { 3 } \\sum _ { s = 1 } ^ { } \\sum 3 \\sum _ { s = } ^ { 3 } \\sum \\sum _ { s = } 3 \\sum \\sum _ { s = } ^ { 3 } \\sum \\sum _ { s = } 3 \\sum \\sum _ { s = } ^ { } 3 \\sum \\sum \\sum _ { s } \\sum \\sum \\sum _ { s } \\in \\ \\ } } } \\end{array}",
+            "text_fallback": "c 1 i = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** 3 s = 1 ** s = 1 ** 3 s = 1 ** 3 s = ** 3 s = 3 s = ** 3 s = 3 s = ** 3 s s \\ \\",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.88,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 75.2,
+            "y1": 573.0799999999999,
+            "x2": 160.96,
+            "y2": 596.92
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6884615384615385,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 75.56,
+            "y1": 610.16,
+            "x2": 175.72,
+            "y2": 633.28
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 11,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 75.2,
+            "y1": 573.0799999999999,
+            "x2": 160.96,
+            "y2": 596.92
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=6α3eN=104.N=105",
+              "pylatexenc_ok",
+              "preview_wh=263x91"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\boxed { \\begin{array} { l } { \\mathrm { M a J } \\mathrm { { U } } \\mathrm { { U } } \\mathrm { { U } } \\mathrm { { K } } \\mathrm { { J } } \\mathrm { { U } } \\mathrm { { B } } \\mathrm { { a } } \\mathrm { { \\times } } \\mathrm { { M } } \\mathrm { { \\times } } \\mathrm { { T } } \\mathrm { { a } } } \\\\ { \\mathrm { 6 } \\mathrm { { a } } \\mathrm { { 3 } } \\mathrm { { e N } } { = } \\mathrm { { 1 } } \\, { { 0 } ^ { \\ast } } \\mathrm { { . } } \\mathrm { { N } } { = } \\mathrm { { 1 } } \\, { { 0 } ^ { 5 } } } \\end{array} }",
+            "latex": "\\boxed { \\begin{array} { l } { \\mathrm { M a J } \\mathrm { { U } } \\mathrm { { U } } \\mathrm { { U } } \\mathrm { { K } } \\mathrm { { J } } \\mathrm { { U } } \\mathrm { { B } } \\mathrm { { a } } \\mathrm { { \\times } } \\mathrm { { M } } \\mathrm { { \\times } } \\mathrm { { T } } \\mathrm { { a } } } \\\\ { \\mathrm { 6 } \\mathrm { { a } } \\mathrm { { 3 } } \\mathrm { { e N } } { = } \\mathrm { { 1 } } \\, { { 0 } ^ { \\ast } } \\mathrm { { . } } \\mathrm { { N } } { = } \\mathrm { { 1 } } \\, { { 0 } ^ { 5 } } } \\end{array} }",
+            "text_fallback": "l M a J U U U K J U B a M T a \\\\ 6 a 3 e N = 1 \\, 0 ** . N = 1 \\, 0 ** 5",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+          "page": 11,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 75.56,
+            "y1": 610.16,
+            "x2": 175.72,
+            "y2": 633.28
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=при ΔК=30 MaVм )",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=303x89",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\boxed { \\begin{array} { l c l } { \\mathbf { \\{ \\mathscr { s o p o c r b } { \\ p o c r a \\ v p e u t t } \\} } } \\\\ { \\mathbf { \\{ \\ p p h \\ \\Delta \\Delta K ^ { = 3 } 0 \\ M \\Gamma \\{ a \\vee _ { M } \\ \\} } } } \\end{array} }",
+            "latex": "\\boxed { \\begin{array} { l c l } { \\mathbf { \\{ \\mathscr { s o p o c r b } { \\ p o c r a \\ v p e u t t } \\} } } \\\\ { \\mathbf { \\{ \\ p p h \\ \\Delta \\Delta K ^ { = 3 } 0 \\ M \\Gamma \\{ a \\vee _ { M } \\ \\} } } } \\end{array}",
+            "text_fallback": "l c l \\ s o p o c r b \\ p o c r a \\ v p e u t t \\ \\\\ \\ \\ p p h \\ K ** = 3 0 \\ M \\ a M \\ \\",
+            "status": "caption_or_header",
+            "text": "при ΔК=30 MaVм )"
+          },
+          "provenance": {
+            "model": "unimernet_retry",
+            "version": null,
+            "method": "unimernet_retry",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

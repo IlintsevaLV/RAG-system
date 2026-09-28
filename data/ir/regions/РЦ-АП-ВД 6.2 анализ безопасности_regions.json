@@ -1,0 +1,667 @@
+{
+  "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РЦ-АП-ВД 6.2 анализ безопасности.pdf",
+  "page_count": 12,
+  "pages": [
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 70.88,
+            "y1": 88.52,
+            "x2": 97.6,
+            "y2": 123.16
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 2,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 70.88,
+            "y1": 88.52,
+            "x2": 97.6,
+            "y2": 123.16
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=No ν/ν",
+              "pylatexenc_ok",
+              "preview_wh=99x121"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { n / n }",
+            "latex": "\\frac { N o } { n / n }",
+            "text_fallback": "N o n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.678125,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 307.76,
+            "y1": 98.96,
+            "x2": 426.64,
+            "y2": 184.0
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 5,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 307.76,
+            "y1": 98.96,
+            "x2": 426.64,
+            "y2": 184.0
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=10-5 10-3 10-3-10-5 B 10-5-10-9 B 10-5-10-7 - B 10-7-10-9",
+              "pylatexenc_ok",
+              "preview_wh=355x261"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\begin{array} { r l } & { - \\ 6 0 n \\mathbf { e } \\ 1 0 ^ { \\circ } \\mathbf { \\bar { \\circ } } } \\\\ & { - \\ 6 0 n \\mathbf { e } \\ 1 0 ^ { \\circ } \\mathbf { \\bar { \\circ } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\vert } \\ \\mathbf { \\nabla } \\mathbf { \\bar { \\sigma } } ^ { 5 } \\mathbf { - } \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\sigma } } ^ { 7 } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } ^ { 6 } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } } \\\\ & { - \\ \\ \\mathbf { M } \\mathbf { e } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } } \\end{array} }",
+            "latex": "{ \\begin{array} { r l } & { - \\ 6 0 n \\mathbf { e } \\ 1 0 ^ { \\circ } \\mathbf { \\bar { \\circ } } } \\\\ & { - \\ 6 0 n \\mathbf { e } \\ 1 0 ^ { \\circ } \\mathbf { \\bar { \\circ } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\bar { \\alpha } } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\vert } \\ \\mathbf { \\nabla } \\mathbf { \\bar { \\sigma } } ^ { 5 } \\mathbf { - } \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\bar { \\sigma } } ^ { 7 } } \\\\ & { - \\ \\mathbf { B } \\ \\mu \\mathbf { \\vert } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\mathrm { \\vert } } \\mathbf { \\nabla } \\mathbf { \\Phi } ^ { 6 } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } } \\\\ & { - \\ \\ \\mathbf { M } \\mathbf { e } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } \\mathbf { \\cdot } \\mathbf { \\nabla } \\mathbf { \\Phi } } \\end{array} }",
+            "text_fallback": "r l & - \\ 6 0 n e \\ 1 0 ** \\\\ & - \\ 6 0 n e \\ 1 0 ** \\\\ & - \\ B \\ \\\\ & - \\ B \\ \\\\ & - \\ B \\ \\\\ & - \\ B \\ \\\\ & - \\ B \\ \\ ** 5 - ** 7 \\\\ & - \\ B \\ ** 6 \\\\ & - \\ \\ M e",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 359.8297119140625,
+            "y1": 536.5249633789062,
+            "x2": 419.5346984863281,
+            "y2": 567.5849609375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 6,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 359.8297119140625,
+            "y1": 536.5249633789062,
+            "x2": 419.5346984863281,
+            "y2": 567.5849609375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text== 0,5 10 | = 10",
+              "pylatexenc_ok",
+              "preview_wh=190x110"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\phantom { : } \\mathsf { q } _ { \\mathrm { n n } } = 0 , 5 ~ 1 0 ^ { - 1 } ; } \\\\ { \\phantom { : } \\mathsf { m } = 1 0 ^ { - 1 } . } \\\\ { \\phantom { : } \\mathsf { o } _ { \\bf { \\Lambda } } \\mathsf { a } \\otimes \\mathsf { m } \\breve { \\mathsf { M } } \\mathsf { H } \\mathsf { M } \\mathsf { N } \\mathsf { M } \\, \\mathsf { n } , \\mathsf { u } , } \\end{array}",
+            "latex": "\\begin{array} { l } { \\phantom { : } \\mathsf { q } _ { \\mathrm { n n } } = 0 , 5 ~ 1 0 ^ { - 1 } ; } \\\\ { \\phantom { : } \\mathsf { m } = 1 0 ^ { - 1 } . } \\\\ { \\phantom { : } \\mathsf { o } _ { \\bf { \\Lambda } } \\mathsf { a } \\otimes \\mathsf { m } \\breve { \\mathsf { M } } \\mathsf { H } \\mathsf { M } \\mathsf { N } \\mathsf { M } \\, \\mathsf { n } , \\mathsf { u } , } \\end{array}",
+            "text_fallback": "l : q n n = 0 , 5 ~ 1 0 ** - 1 ; \\\\ : m = 1 0 ** - 1 . \\\\ : o a m M H M N M \\, n , u ,",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.5165315270423889,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 118.22649291696796,
+            "y1": 58.32402430644857,
+            "x2": 193.4221162236393,
+            "y2": 125.4810872430626
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.5147134065628052,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 99.58457434458654,
+            "y1": 161.20616010948856,
+            "x2": 221.4185692798132,
+            "y2": 493.4190498994629
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 9,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 118.22649291696796,
+            "y1": 58.32402430644857,
+            "x2": 193.4221162236393,
+            "y2": 125.4810872430626
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.5165315270423889,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "TEKCT TEKCT",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\РЦ-АП-ВД 6.2 анализ безопасности\\p0009_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.5165315270423889,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 9,
+          "region_id": "figure_01",
+          "type": "figure",
+          "bbox": {
+            "x1": 99.58457434458654,
+            "y1": 161.20616010948856,
+            "x2": 221.4185692798132,
+            "y2": 493.4190498994629
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.5147134065628052,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Логический символ TEKCT TEKCT ИСКЛЮЧИТ. і ПЕРВОЕ СОБЫТИЕ, і",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\РЦ-АП-ВД 6.2 анализ безопасности\\p0009_figure_01.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.5147134065628052,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 4,
+        "n_formulas": 4,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 273.74505615234375,
+            "y1": 76.0130844116211,
+            "x2": 296.7530517578125,
+            "y2": 95.07308197021484
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7545454545454546,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 67.86585998535156,
+            "y1": 117.68209075927734,
+            "x2": 141.7118682861328,
+            "y2": 136.74209594726562
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8071428571428572,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 67.8648681640625,
+            "y1": 189.0200958251953,
+            "x2": 212.8878936767578,
+            "y2": 208.08010864257812
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8285714285714286,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 124.84892272949219,
+            "y1": 236.3581085205078,
+            "x2": 267.08197021484375,
+            "y2": 255.41812133789062
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 10,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 273.74505615234375,
+            "y1": 76.0130844116211,
+            "x2": 296.7530517578125,
+            "y2": 95.07308197021484
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=) =",
+              "prose_like",
+              "retry_upscale",
+              "prose_like",
+              "preview_wh=88x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { { 3 } \\Theta \\mathsf { P O S T 1 } } \\\\ { \\cdot \\mathsf { B } ) = \\mathsf { P 1 } } \\\\ { \\mathsf { a } ~ \\mathsf { c } ~ \\mathsf { a } \\mathsf { e n } } \\end{array}",
+            "latex": "\\begin{array} { r } { { 3 } \\Theta \\mathsf { P O S T 1 } } \\\\ { \\cdot \\mathsf { B } ) = \\mathsf { P 1 } } \\\\ { \\mathsf { a } ~ \\mathsf { c } ~ \\mathsf { a } \\mathsf { e n } } \\end{array}",
+            "text_fallback": "r 3 P O S T 1 \\\\ B ) = P 1 \\\\ a ~ c ~ a e n",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 10,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 67.86585998535156,
+            "y1": 117.68209075927734,
+            "x2": 141.7118682861328,
+            "y2": 136.74209594726562
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=P(ABC) = P(A)",
+              "pylatexenc_ok",
+              "preview_wh=229x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "P ( A B C ) = P ( A ) \\cdot P",
+            "latex": "P ( A B C ) = P ( A ) \\cdot P",
+            "text_fallback": "P ( A B C ) = P ( A ) P",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 10,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 67.8648681640625,
+            "y1": 189.0200958251953,
+            "x2": 212.8878936767578,
+            "y2": 208.08010864257812
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=P(A + B) = P(A) + P(B) – (P(A)",
+              "prose_like",
+              "retry_upscale",
+              "prose_like",
+              "preview_wh=427x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathsf { P } ( \\mathsf { A } + \\mathsf { B } ) = \\mathsf { P } ( \\mathsf { A } ) + \\mathsf { P } ( \\mathsf { B } ) - ( \\mathsf { P } ( \\mathsf { A } ) \\cdot \\mathsf { P }",
+            "latex": "\\mathsf { P } ( \\mathsf { A } + \\mathsf { B } ) = \\mathsf { P } ( \\mathsf { A } ) + \\mathsf { P } ( \\mathsf { B } ) - ( \\mathsf { P } ( \\mathsf { A } ) \\cdot \\mathsf { P }",
+            "text_fallback": "P ( A + B ) = P ( A ) + P ( B ) - ( P ( A ) P",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+          "page": 10,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 124.84892272949219,
+            "y1": 236.3581085205078,
+            "x2": 267.08197021484375,
+            "y2": 255.41812133789062
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=) = P(A) + P(B) + P(C) – [P(A)",
+              "pylatexenc_ok",
+              "preview_wh=419x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathbf { C } ) = \\mathsf { P } ( \\mathsf { A } ) + \\mathsf { P } ( \\mathsf { B } ) + \\mathsf { P } ( \\mathsf { C } ) - [ \\mathsf { P } ( \\mathsf { A } ) \\cdot \\mathsf { P } ^ { \\mathsf { C } } ]",
+            "latex": "\\mathbf { C } ) = \\mathsf { P } ( \\mathsf { A } ) + \\mathsf { P } ( \\mathsf { B } ) + \\mathsf { P } ( \\mathsf { C } ) - [ \\mathsf { P } ( \\mathsf { A } ) \\cdot \\mathsf { P } ^ { \\mathsf { C } } ]",
+            "text_fallback": "C ) = P ( A ) + P ( B ) + P ( C ) - [ P ( A ) P ** C ]",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

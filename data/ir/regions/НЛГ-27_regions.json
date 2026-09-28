@@ -1,0 +1,3749 @@
+{
+  "doc_id": "НЛГ-27",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\НЛГ-27.pdf",
+  "page_count": 124,
+  "pages": [
+    {
+      "doc_id": "НЛГ-27",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9286065101623535,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 238.79997953700558,
+            "y1": 530.3774552885515,
+            "x2": 400.88496288354844,
+            "y2": 611.2584762410152
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 1,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 238.79997953700558,
+            "y1": 530.3774552885515,
+            "x2": 400.88496288354844,
+            "y2": 611.2584762410152
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9286065101623535,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "} L. ci:)",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\НЛГ-27\\p0001_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9286065101623535,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 83.02400207519531,
+            "y1": 485.1933288574219,
+            "x2": 115.24575805664062,
+            "y2": 505.41461181640625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 20,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 83.02400207519531,
+            "y1": 485.1933288574219,
+            "x2": 115.24575805664062,
+            "y2": 505.41461181640625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=±25°",
+              "pylatexenc_ok",
+              "preview_wh=114x80"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { 1 } \\mathbf { 8 } , \\mathbf { 8 0 3 } \\mathbf { \\ p a } \\mathbf { \\sigma } } \\\\ { \\mathbf { 1 } ) { \\pm } 2 5 ^ { \\circ } } \\\\ { \\mathbf { 2 } \\mathbf { \\kappa } _ { \\mathbf { F M } } / \\mathbf { \\pi } _ { \\mathbf { H } } \\mathbf { \\Lambda } _ { \\mathbf { M C } } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { 1 } \\mathbf { 8 } , \\mathbf { 8 0 3 } \\mathbf { \\ p a } \\mathbf { \\sigma } } \\\\ { \\mathbf { 1 } ) { \\pm } 2 5 ^ { \\circ } } \\\\ { \\mathbf { 2 } \\mathbf { \\kappa } _ { \\mathbf { F M } } / \\mathbf { \\pi } _ { \\mathbf { H } } \\mathbf { \\Lambda } _ { \\mathbf { M C } } } \\end{array}",
+            "text_fallback": "l 1 8 , 8 0 3 \\ p a \\\\ 1 ) 2 5 ** \\\\ 2 F M / H M C",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.775,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 414.5400085449219,
+            "y1": 131.539794921875,
+            "x2": 443.17999267578125,
+            "y2": 158.99085998535156
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 22,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 414.5400085449219,
+            "y1": 131.539794921875,
+            "x2": 443.17999267578125,
+            "y2": 158.99085998535156
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=𝜇=",
+              "pylatexenc_ok",
+              "preview_wh=104x100"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mu = { \\frac { V } { \\rho } }",
+            "latex": "\\mu = { \\frac { V } { \\rho } }",
+            "text_fallback": "= V",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 37.52000045776367,
+            "y1": 700.6319580078125,
+            "x2": 94.56399536132812,
+            "y2": 721.1239624023438
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 31,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 37.52000045776367,
+            "y1": 700.6319580078125,
+            "x2": 94.56399536132812,
+            "y2": 721.1239624023438
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=𝐻𝐼𝐶 = (𝑡",
+              "pylatexenc_ok",
+              "preview_wh=182x81"
+            ]
+          },
+          "content": {
+            "latex_raw": "H I C \\mathbf { \\varepsilon } = ( t _ { 2 }",
+            "latex": "H I C \\mathbf { \\varepsilon } = ( t _ { 2 }",
+            "text_fallback": "H I C = ( t 2",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6812500000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 332.30999755859375,
+            "y1": 659.7119750976562,
+            "x2": 474.9560241699219,
+            "y2": 679.7239990234375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 308.7900085449219,
+            "y1": 715.2998046875,
+            "x2": 354.557861328125,
+            "y2": 734.350830078125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 41,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 332.30999755859375,
+            "y1": 659.7119750976562,
+            "x2": 474.9560241699219,
+            "y2": 679.7239990234375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=We = W | n = n",
+              "pylatexenc_ok",
+              "preview_wh=420x80"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathsf { W e } \\ = \\mathsf { W } \\frac { \\mathrm { h } + ( 1 \\, \\mathrm { L } ) \\mathrm { d } } { \\mathrm { h } + \\mathrm { d } } ; \\quad \\mathrm { n } = \\mathrm { n } _ { \\mathrm { j } } \\, . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathsf { W e } \\ = \\mathsf { W } \\frac { \\mathrm { h } + ( 1 \\, \\mathrm { L } ) \\mathrm { d } } { \\mathrm { h } + \\mathrm { d } } ; \\quad \\mathrm { n } = \\mathrm { n } _ { \\mathrm { j } } \\, . } \\end{array}",
+            "text_fallback": "r W e \\ = W h + ( 1 \\, L ) d h + d ; n = n j \\, .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 41,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 308.7900085449219,
+            "y1": 715.2998046875,
+            "x2": 354.557861328125,
+            "y2": 734.350830078125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=𝑊 = W",
+              "pylatexenc_ok",
+              "preview_wh=151x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { { \\boldsymbol { \\mathsf { W } } } = { \\boldsymbol { \\mathsf { W } } } _ { M } } \\\\ { { \\boldsymbol { \\mathsf { \\Pi } } } _ { \\Pi } { \\mathsf { m } } { \\mathsf { n } } } \\end{array}",
+            "latex": "\\begin{array} { r } { { \\boldsymbol { \\mathsf { W } } } = { \\boldsymbol { \\mathsf { W } } } _ { M } } \\\\ { { \\boldsymbol { \\mathsf { \\Pi } } } _ { \\Pi } { \\mathsf { m } } { \\mathsf { n } } } \\end{array}",
+            "text_fallback": "r W = W M \\\\ m n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 2,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 67.66400146484375,
+            "y1": 121.099853515625,
+            "x2": 113.43183898925781,
+            "y2": 140.15089416503906
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7000000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 67.66400146484375,
+            "y1": 209.89984130859375,
+            "x2": 113.43183898925781,
+            "y2": 228.9508819580078
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 42,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 67.66400146484375,
+            "y1": 121.099853515625,
+            "x2": 113.43183898925781,
+            "y2": 140.15089416503906
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=𝑊 = W",
+              "pylatexenc_ok",
+              "preview_wh=152x77",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\boldsymbol { W } = \\boldsymbol { W _ { N } } } \\\\ { \\boldsymbol { \\ e x c o \\breve { y } } } \\end{array}",
+            "latex": "\\begin{array} { r } { \\boldsymbol { W } = \\boldsymbol { W _ { N } } } \\\\ { \\boldsymbol { \\ e x c o \\breve { y } } } \\end{array}",
+            "text_fallback": "r W = W N \\\\ \\ e x c o y",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 42,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 67.66400146484375,
+            "y1": 209.89984130859375,
+            "x2": 113.43183898925781,
+            "y2": 228.9508819580078
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=𝑊 = W",
+              "pylatexenc_ok",
+              "preview_wh=152x76",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { { w } } \\mathrm { { \\Theta } } } } \\\\ { { W \\ = W _ { T } \\ } } \\\\ { { \\mathrm { { r o v m } } \\mathrm { { \\Theta } } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { { w } } \\mathrm { { \\Theta } } } } \\\\ { { W \\ = W _ { T } \\ } } \\\\ { { \\mathrm { { r o v m } } \\mathrm { { \\Theta } } } } \\end{array}",
+            "text_fallback": "c w \\\\ W \\ = W T \\ \\\\ r o v m",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 51,
+      "summary": {
+        "page": 51,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 52,
+      "summary": {
+        "page": 52,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 53,
+      "summary": {
+        "page": 53,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 54,
+      "summary": {
+        "page": 54,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 56,
+      "summary": {
+        "page": 56,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 57,
+      "summary": {
+        "page": 57,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 58,
+      "summary": {
+        "page": 58,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 59,
+      "summary": {
+        "page": 59,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 60,
+      "summary": {
+        "page": 60,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 61,
+      "summary": {
+        "page": 61,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 62,
+      "summary": {
+        "page": 62,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 63,
+      "summary": {
+        "page": 63,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 64,
+      "summary": {
+        "page": 64,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 65,
+      "summary": {
+        "page": 65,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 66,
+      "summary": {
+        "page": 66,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 67,
+      "summary": {
+        "page": 67,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 68,
+      "summary": {
+        "page": 68,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 69,
+      "summary": {
+        "page": 69,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 70,
+      "summary": {
+        "page": 70,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 71,
+      "summary": {
+        "page": 71,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 72,
+      "summary": {
+        "page": 72,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 73,
+      "summary": {
+        "page": 73,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 74,
+      "summary": {
+        "page": 74,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 75,
+      "summary": {
+        "page": 75,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 76,
+      "summary": {
+        "page": 76,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 77,
+      "summary": {
+        "page": 77,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 78,
+      "summary": {
+        "page": 78,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 79,
+      "summary": {
+        "page": 79,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 80,
+      "summary": {
+        "page": 80,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 2,
+        "n_figures": 0,
+        "table_ok": 2,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 56.06399917602539,
+            "y1": 80.18563842773438,
+            "x2": 547.8900146484375,
+            "y2": 207.85137939453125
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 196.00999450683594,
+            "y1": 653.623291015625,
+            "x2": 573.0469970703125,
+            "y2": 774.9273681640625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 80,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 56.06399917602539,
+            "y1": 80.18563842773438,
+            "x2": 547.8900146484375,
+            "y2": 207.85137939453125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.87,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=8",
+              "cols=3",
+              "numeric_ratio=0.40",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.870",
+              "rows=10 cols=5 consistency=1.00 meaningful=0.74",
+              "span_cols=5",
+              "span_rows=10"
+            ]
+          },
+          "content": {
+            "markdown": "| Двугранный | Угол вправо или | Сила | Белый задний в пределах дву- | 5 1 |\n| --- | --- | --- | --- | --- |\n| угол | влево от продольной | света, | гранного угла Л |  |\n| (включающий | оси, измеряемый | кд | Белый задний в пределах дву- | 5 1 |\n| в себя огонь) | вперед, град. |  | гранного угла П |  |\n| Л, П | 0-10 | 40 |  |  |\n| (передний |  |  | Где: |  |\n| красный | 10-20 | 30 | (a) | Зона А включает все направления в при- |\n| и зеленый) | 20-110 | 5 |  | мыкающем двугранном угле, плоскости которого |\n| X (задний | 110-180 | 20 |  | проходят через источник света и пересекают |\n| белый) |  |  |  | обычную граничную плоскость огней под углами |",
+            "html": "",
+            "n_rows": 10,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.87,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 80,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 196.00999450683594,
+            "y1": 653.623291015625,
+            "x2": 573.0469970703125,
+            "y2": 774.9273681640625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7555555555555555,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=3",
+              "numeric_ratio=0.73",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.756",
+              "rows=9 cols=5 consistency=1.00 meaningful=0.51",
+              "span_cols=5",
+              "span_rows=9"
+            ]
+          },
+          "content": {
+            "markdown": "| света, кд |  |  | новлен так, чтобы он мог: |  |\n| --- | --- | --- | --- | --- |\n| Зона А | Зона В | (1) |  | Излучать белый свет, видимый по меньшей |\n| 10 | 1 |  |  | мере на расстоянии 2 морских миль при ясной по- |\n|  |  |  | годе ночью; и |  |\n| 10 | 1 | (2) |  | Излучать максимально возможный непре- |\n|  |  |  |  | рывный световой поток при нахождении ВЛА на |\n| 5 | 1 | воде. |  |  |\n|  |  | (b) |  | Допускается использование огней, подве- |\n| 5 | 1 |  | шенных снаружи. |  |",
+            "html": "",
+            "n_rows": 9,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7555555555555555,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 81,
+      "summary": {
+        "page": 81,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.775,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 376.8299865722656,
+            "y1": 97.74292755126953,
+            "x2": 398.1044006347656,
+            "y2": 114.27144622802734
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.775,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 311.42999267578125,
+            "y1": 136.75680541992188,
+            "x2": 332.1188049316406,
+            "y2": 152.80484008789062
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 81,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 376.8299865722656,
+            "y1": 97.74292755126953,
+            "x2": 398.1044006347656,
+            "y2": 114.27144622802734
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=𝐶=",
+              "pylatexenc_ok",
+              "preview_wh=83x70",
+              "semantic_reason=numeric_value"
+            ]
+          },
+          "content": {
+            "latex_raw": "I _ { C = \\, \\overline { { { 0 } } } }",
+            "latex": "I _ { C = \\, \\overline { { { 0 } } } }",
+            "text_fallback": "I C = \\, 0",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 81,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 311.42999267578125,
+            "y1": 136.75680541992188,
+            "x2": 332.1188049316406,
+            "y2": 152.80484008789062
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=𝐶=",
+              "pylatexenc_ok",
+              "preview_wh=81x69"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { { I _ { C = } \\ - } } \\\\ { { I ( t ) \\ . } } \\end{array}",
+            "latex": "\\begin{array} { l } { { I _ { C = } \\ - } } \\\\ { { I ( t ) \\ . } } \\end{array}",
+            "text_fallback": "l I C = \\ - \\\\ I ( t ) \\ .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 82,
+      "summary": {
+        "page": 82,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 83,
+      "summary": {
+        "page": 83,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 84,
+      "summary": {
+        "page": 84,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 85,
+      "summary": {
+        "page": 85,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 86,
+      "summary": {
+        "page": 86,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 87,
+      "summary": {
+        "page": 87,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 88,
+      "summary": {
+        "page": 88,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 89,
+      "summary": {
+        "page": 89,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.672972972972973,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 293.7900085449219,
+            "y1": 94.30331420898438,
+            "x2": 544.4365234375,
+            "y2": 127.1246337890625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 24.31999969482422,
+            "y1": 564.9932861328125,
+            "x2": 59.31999969482422,
+            "y2": 585.214599609375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 89,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 293.7900085449219,
+            "y1": 94.30331420898438,
+            "x2": 544.4365234375,
+            "y2": 127.1246337890625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=2",
+              "text=ваться в зоне: над дальним МРМ - 600±200 м, над | ближним (средним) МРМ - (300±100) м, при угле",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=720x116",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { ~ \\small ~ \\Pi ~ \\Pi ~ \\mathrm { I U H H H H M ~ \\mathrm { ~ K y p C a ~ } ~ H ~ } ~ r m e c a / L b I ~ \\lambda ~ H O J M 3 ~ \\mathrm { ~ O 0 e c r a e u s d } ~ } } \\\\ { \\mathrm { ~ \\small ~ \\mathtt { B d T b C S ~ B } ~ 3 0 H e : ~ H a \\pi ~ \\mathrm { ~ \\small ~ \\Pi ~ \\mathrm { ~ \\small ~ \\mathrm { ~ H D I B H M ~ \\mathrm { ~ \\AA ~ } ~ } ~ } ~ } ~ } \\mathrm { ~ \\small ~ \\Pi ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\hat { ~ } { ~ 6 } } 0 ~ } ~ } \\mathrm { ~ \\lambda ~ 6 0 ~ } } \\\\ { \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ ( \\lambda ) ~ } ~ } ~ } ~ } } \\\\ { \\mathrm { ~ \\small ~ ~ \\Pi ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\pi } ~ } ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\pi } ~ } ~ } \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\pi } ~ } \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ } } } } } } } } \\mathrm { ~ \\lambda ~ \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } } { ~ \\hat { ~ } } { ~ \\hat { ~ } } { ~ \\hat { ~ } } { ~ } } } } } } } } \\\\ { \\mathrm { ~ \\small ~ ~ \\Pi ~ \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ ~ \\hat { ~ } } _ { \\hat { ~ ~ } { ~ \\pi } _ { ~ ~ \\hat { ~ } } } } } } } } } } \\mathrm { ~ \\lambda ~ \\mathrm { ~ \\hat { ~ } { ~ } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ ~ \\hat ",
+            "latex": "\\begin{array} { l } { \\mathrm { ~ \\small ~ \\Pi ~ \\Pi ~ \\mathrm { I U H H H H M ~ \\mathrm { ~ K y p C a ~ } ~ H ~ } ~ r m e c a / L b I ~ \\lambda ~ H O J M 3 ~ \\mathrm { ~ O 0 e c r a e u s d } ~ } } \\\\ { \\mathrm { ~ \\small ~ \\mathtt { B d T b C S ~ B } ~ 3 0 H e : ~ H a \\pi ~ \\mathrm { ~ \\small ~ \\Pi ~ \\mathrm { ~ \\small ~ \\mathrm { ~ H D I B H M ~ \\mathrm { ~ \\AA ~ } ~ } ~ } ~ } ~ } \\mathrm { ~ \\small ~ \\Pi ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\hat { ~ } { ~ 6 } } 0 ~ } ~ } \\mathrm { ~ \\lambda ~ 6 0 ~ } } \\\\ { \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } ~ ( \\lambda ) ~ } ~ } ~ } ~ } } \\\\ { \\mathrm { ~ \\small ~ ~ \\Pi ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\pi } ~ } ~ \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\pi } ~ } ~ } \\mathrm { ~ \\small ~ \\hat { ~ } { ~ \\pi } ~ } \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ \\hat } { ~ } { ~ } } } } } } } } \\mathrm { ~ \\lambda ~ \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\hat { ~ } } { ~ \\hat { ~ } } { ~ \\hat { ~ } } { ~ \\hat { ~ } } { ~ } } } } } } } \\\\ { \\mathrm { ~ \\small ~ ~ \\Pi ~ \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ ~ \\hat { ~ } { ~ \\pi } } _ { \\mathrm { ~ ~ \\hat { ~ } } _ { \\hat { ~ ~ } { ~ \\pi } _ { ~ ~ \\hat { ~ } } } } } } } } } } \\mathrm { ~ \\lambda ~ \\mathrm { ~ \\hat { ~ } { ~ } } _ { \\mathrm { ~ \\hat { ~ } { ~ \\pi } ~ } _ { \\mathrm { ~ ~ \\hat } } } } } \\end{array}",
+            "text_fallback": "l ~ ~ ~ ~ I U H H H H M ~ ~ K y p C a ~ ~ H ~ ~ r m e c a / L b I ~ ~ H O J M 3 ~ ~ O 0 e c r a e u s d ~ \\\\ ~ ~ B d T b C S ~ B ~ 3 0 H e : ~ H a ~ ~ ~ ~ ~ ~ ~ H D I B H M ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 6 0 ~ ~ ~ ~ 6 0 ~ \\\\ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ( ) ~ ~ ~ ~ \\\\ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \\\\ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 89,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 24.31999969482422,
+            "y1": 564.9932861328125,
+            "x2": 59.31999969482422,
+            "y2": 585.214599609375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=±90°.",
+              "pylatexenc_ok",
+              "preview_wh=121x80"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { \\mathrm { H } 0 H \\ \\, \\Pi \\Pi } \\\\ { \\pm 9 0 ^ { \\circ } . } \\\\ { \\mathrm { ~ \\textit ~ { ~ \\, ~ } ~ } _ { 8 } \\uparrow 3 \\mathrm { ~ . ~ } } \\end{array}",
+            "latex": "\\begin{array} { c } { \\mathrm { H } 0 H \\ \\, \\Pi \\Pi } \\\\ { \\pm 9 0 ^ { \\circ } . } \\\\ { \\mathrm { ~ \\textit ~ { ~ \\, ~ } ~ } _ { 8 } \\uparrow 3 \\mathrm { ~ . ~ } } \\end{array}",
+            "text_fallback": "c H 0 H \\ \\, \\\\ 9 0 ** . \\\\ ~ ~ ~ \\, ~ ~ 8 3 ~ . ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 90,
+      "summary": {
+        "page": 90,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 3,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 378.510009765625,
+            "y1": 396.5298156738281,
+            "x2": 514.6044616699219,
+            "y2": 417.86083984375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.775,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 336.2699890136719,
+            "y1": 463.62982177734375,
+            "x2": 360.01446533203125,
+            "y2": 483.2808532714844
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 109.05999755859375,
+            "y1": 668.0198364257812,
+            "x2": 245.15447998046875,
+            "y2": 689.350830078125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 90,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 378.510009765625,
+            "y1": 396.5298156738281,
+            "x2": 514.6044616699219,
+            "y2": 417.86083984375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Д = 0,75 [4.12(√H | + √H",
+              "pylatexenc_ok",
+              "preview_wh=402x83"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\left[ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H } _ { 1 } } + \\sqrt { \\mathrm { H } _ { 2 } } \\big ) \\right.",
+            "latex": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\left[ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H } _ { 1 } } + \\sqrt { \\mathrm { H } _ { 2 } } \\big ) \\right.",
+            "text_fallback": "A \\, = \\, 0 , 7 5 [ 4 . 1 2 ( H 1 + H 2 ) .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 90,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 336.2699890136719,
+            "y1": 463.62982177734375,
+            "x2": 360.01446533203125,
+            "y2": 483.2808532714844
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=√H",
+              "pylatexenc_ok",
+              "preview_wh=90x79"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\operatorname* { \\sqrt { H _ { 2 } } } _ { \\boldsymbol { \\alpha } \\in \\mathcal { I } ^ { \\epsilon } }",
+            "latex": "\\operatorname* { \\sqrt { H _ { 2 } } } _ { \\boldsymbol { \\alpha } \\in \\mathcal { I } ^ { \\epsilon } }",
+            "text_fallback": "* H 2 I **",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 90,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 109.05999755859375,
+            "y1": 668.0198364257812,
+            "x2": 245.15447998046875,
+            "y2": 689.350830078125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Д = 0,75 [4.12(√H | + √H",
+              "pylatexenc_ok",
+              "preview_wh=402x83"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "latex": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "text_fallback": "A \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 ( H 1 + H 2 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 91,
+      "summary": {
+        "page": 91,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 72.7040023803711,
+            "y1": 84.97979736328125,
+            "x2": 208.79449462890625,
+            "y2": 106.31086730957031
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 72.7040023803711,
+            "y1": 525.309814453125,
+            "x2": 208.79449462890625,
+            "y2": 546.6408081054688
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 91,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 72.7040023803711,
+            "y1": 84.97979736328125,
+            "x2": 208.79449462890625,
+            "y2": 106.31086730957031
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Д = 0,75 [4.12(√H | + √H",
+              "pylatexenc_ok",
+              "preview_wh=402x83"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "latex": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "text_fallback": "A \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 ( H 1 + H 2 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 91,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 72.7040023803711,
+            "y1": 525.309814453125,
+            "x2": 208.79449462890625,
+            "y2": 546.6408081054688
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Д = 0,75 [4.12(√H | + √H",
+              "pylatexenc_ok",
+              "preview_wh=402x83"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "latex": "{ \\cal { A } } \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "text_fallback": "A \\, = \\, 0 , 7 5 \\: [ 4 . 1 2 ( H 1 + H 2 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 92,
+      "summary": {
+        "page": 92,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 395.30999755859375,
+            "y1": 412.0933532714844,
+            "x2": 475.7962646484375,
+            "y2": 432.31463623046875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 92,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 395.30999755859375,
+            "y1": 412.0933532714844,
+            "x2": 475.7962646484375,
+            "y2": 432.31463623046875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=≥ 1,37Д, где Н",
+              "pylatexenc_ok",
+              "preview_wh=247x80",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { \\Pi } ( \\mathcal { A } ) \\mathrm { ~ O b I J 0 ~ } \\, \\mathrm { H e ~ M e H e e } } \\\\ { \\mathbf { \\widetilde { \\Pi } } _ { \\mathrm { d a } } \\geq 1 \\, , 3 7 \\underline { { \\mathcal { A } } } , \\, \\mathrm { r } \\underline { { \\Pi } } \\mathrm { e } \\, \\, \\mathrm { H } _ { \\mathrm { a } } \\, . } \\\\ { \\mathbf { \\Pi } _ { \\mathrm { { \\bf { o u r r e } } } } \\mathbf { \\tilde { \\Pi } } _ { \\mathrm { { \\bf { o u r r e } } } } \\mathbf { \\Pi } _ { \\mathrm { { \\bf { n d e r r e } } } } \\mathbf { \\Pi } _ { \\bf { r a } } } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { \\Pi } ( \\mathcal { A } ) \\mathrm { ~ O b I J 0 ~ } \\, \\mathrm { H e ~ M e H e e } } \\\\ { \\mathbf { \\widetilde { \\Pi } } _ { \\mathrm { d a } } \\geq 1 \\, , 3 7 \\underline { { \\mathcal { A } } } , \\, \\mathrm { r } \\underline { { \\Pi } } \\mathrm { e } \\, \\, \\mathrm { H } _ { \\mathrm { a } } \\, . } \\\\ { \\mathbf { \\Pi } _ { \\mathrm { { \\bf { o u r r e } } } } \\mathbf { \\tilde { \\Pi } } _ { \\mathrm { { \\bf { o u r r e } } } } \\mathbf { \\Pi } _ { \\mathrm { { \\bf { n d e r r e } } } } \\mathbf { \\Pi } _ { \\bf { r a } } } \\end{array}",
+            "text_fallback": "r ( A ) ~ O b I J 0 ~ \\, H e ~ M e H e e \\\\ d a 1 \\, , 3 7 A , \\, r e \\, \\, H a \\, . \\\\ o u r r e o u r r e n d e r r e r a",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 93,
+      "summary": {
+        "page": 93,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 94,
+      "summary": {
+        "page": 94,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6495376955903273,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 66.8239974975586,
+            "y1": 107.74331665039062,
+            "x2": 301.5500183105469,
+            "y2": 179.32464599609375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6896551724137931,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 76.54399871826172,
+            "y1": 210.58334350585938,
+            "x2": 268.0500183105469,
+            "y2": 257.68463134765625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6948275862068967,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 76.54399871826172,
+            "y1": 363.37335205078125,
+            "x2": 271.4100036621094,
+            "y2": 397.0346374511719
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 94,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.8239974975586,
+            "y1": 107.74331665039062,
+            "x2": 301.5500183105469,
+            "y2": 179.32464599609375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=3",
+              "text=(837,5±4) МГц, поляризация поля горизонталь- | (1030±3) МГц, поляризация поля вертикальная; | (740±3) МГц, поляризация поля горизонталь-",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=676x223",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { ~ \\overline { { ~ ~ \\partial ~ } } ~ } ^ { \\mathrm { ~ - ~ B ~ I D H e M H O M ~ p e \\overline { { ~ } } \\chi \\mathrm { M M e } ; } } } \\\\ & { \\mathrm { ~ \\overline { { ~ ( 8 3 7 , 5 \\pm 4 ) ~ M } \\Gamma \\mathrm { { I I } } , ~ n o \\mathrm { { n } \\bar { n } \\mathrm { { p } \\mathrm { { n } 3 4 \\mathrm { I U H } \\bar { ~ } \\scriptstyle { \\Pi 0 . \\mathrm { { n } 0 \\bar { } } \\mathrm { { \\cal { H } } \\cdot \\mathrm { { \\scriptstyle { \\Pi 0 } } \\mathrm { { p } \\mathrm { { n } 3 \\scriptstyle { o u } \\mathrm { T a . } } } } } } } } } } } } \\\\ & { \\mathrm { { a n ; } } } \\\\ & { \\mathrm { { ( 1 0 3 0 \\pm 3 ) ~ M \\Gamma \\mathrm { { I I } } , ~ n o \\mathrm { { n } \\mathrm { { n } \\bar { p } \\mathrm { { n } 3 4 \\mathrm { I I } } \\scriptstyle { \\cal { H } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { \\cal { H } } { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } \\mathrm { { \\cal { } } } \\mathrm { { \\cal { \\cal { H } } \\mathrm { { \\cal { } } } \\mathrm { { \\cal { \\cal { } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } \\\\ & { \\mathrm { { ~ \\mathrm { { ( \\bar { \\mu } \\mathrm { { 0 } \\mathrm { { \\it { n } \\mathrm { { \\it { s } 4 \\mathrm { \\ l } { \\ l } \\mathrm { { \\cal { s } \\ l } \\mathrm { { \\cal { H } \\mathrm { { \\cal { l } } \\mathrm { { \\cal { H } } \\mathrm { { \\ r } } } } } } } } } } } } } } } \\ } \\ \\ \\mathrm { { { p e n \\mathrm { { n \\\" { \\cal { H } \\mathrm { { \\cal { H } \\mathrm { { \\cal { s } } \\mathrm { \\ r u } \\mathrm { { \\cal { H } \\cal { } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { s } } } } } } } } } } } } } } } } } ",
+            "latex": "\\begin{array} { r l } & { \\mathrm { ~ \\overline { { ~ ~ \\partial ~ } } ~ } ^ { \\mathrm { ~ - ~ B ~ I D H e M H O M ~ p e \\overline { { ~ } } \\chi \\mathrm { M M e } ; } } } \\\\ & { \\mathrm { ~ \\overline { { ~ ( 8 3 7 , 5 \\pm 4 ) ~ M } \\Gamma \\mathrm { { I I } } , ~ n o \\mathrm { { n } \\bar { n } \\mathrm { { p } \\mathrm { { n } 3 4 \\mathrm { I U H } \\bar { ~ } \\scriptstyle { \\Pi 0 . \\mathrm { { n } 0 \\bar { } } \\mathrm { { \\cal { H } } \\cdot \\mathrm { { \\scriptstyle { \\Pi 0 } } \\mathrm { { p } \\mathrm { { n } 3 \\scriptstyle { o u } \\mathrm { T a . } } } } } } } } } } } } \\\\ & { \\mathrm { { a n ; } } } \\\\ & { \\mathrm { { ( 1 0 3 0 \\pm 3 ) ~ M \\Gamma \\mathrm { { I I } } , ~ n o \\mathrm { { n } \\mathrm { { n } \\bar { p } \\mathrm { { n } 3 4 \\mathrm { I I } } \\scriptstyle { \\cal { H } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { \\cal { H } } { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } } \\mathrm { { \\cal { \\cal { H } } \\mathrm { { \\cal { } } } \\mathrm { { \\cal { \\cal { H } } \\mathrm { { \\cal { } } } \\mathrm { { \\cal { \\cal { } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } \\\\ & { \\mathrm { { ~ \\mathrm { { ( \\bar { \\mu } \\mathrm { { 0 } \\mathrm { { \\it { n } \\mathrm { { \\it { s } 4 \\mathrm { \\ l } { \\ l } \\mathrm { { \\cal { s } \\ l } \\mathrm { { \\cal { H } \\mathrm { { \\cal { l } } \\mathrm { { \\cal { H } } \\mathrm { { \\ r } } } } } } } } } } } } } } } \\ } \\ \\ \\mathrm { { { p e n \\mathrm { { n \\\" { \\cal { H } \\mathrm { { \\cal { H } \\mathrm { { \\cal { s } } \\mathrm { \\ r u } \\mathrm { { \\cal { H } \\cal { } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { H } } \\mathrm { { \\cal { s } } } } } } } } } } } } } } } } } } } } \\end{array}",
+            "text_fallback": "r l & ~ ~ ~ ~ ~ ** ~ - ~ B ~ I D H e M H O M ~ p e ~ M M e ; \\\\ & ~ ~ ( 8 3 7 , 5 4 ) ~ M I I , ~ n o n n p n 3 4 I U H ~ 0 . n 0 H 0 p n 3 o u T a . \\\\ & a n ; \\\\ & ( 1 0 3 0 3 ) ~ M I I , ~ n o n n p n 3 4 I I H H H H H H H H H H H H H H H H H H H H H H H H H H H H \\\\ & ~ ( 0 n s 4 \\ l \\ l s \\ l H l H \\ r \\ \\ \\ p e n n \\\" H H s \\ r u H H H s",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 94,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 76.54399871826172,
+            "y1": 210.58334350585938,
+            "x2": 268.0500183105469,
+            "y2": 257.68463134765625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=3",
+              "text=в диапазоне (837,5±4) МГц не более 5; | в диапазоне (1030±3) МГц не более 2; | в диапазоне (740±3) МГц не более 2,5.",
+              "spacing_collapsed",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=556x155",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { 2 K e H H W ~ A \\Psi \\; \\mathcal { W } \\; \\mathcal { N } ~ \\mathcal { A } O I K e H ~ O b I T b : } } \\\\ & { \\mathrm { ~ - \\texttt { B } \\mathcal { \\bar { M } } H a m a 3 o H e ~ } ( 8 3 7 , 5 \\pm 4 ) \\mathrm { ~ M \\Gamma { \\bar { \\Pi } } H ~ H e ~ } \\bar { 6 } \\mathrm { O J c e } \\; 5 ; } \\\\ & { \\mathrm { ~ - \\texttt { B } \\mathcal { \\bar { M } } H a m a 3 o H e ~ } ( 1 0 3 0 \\pm 3 ) \\mathrm { ~ M \\Gamma { \\bar { \\Pi } } H ~ H e ~ } \\bar { 6 } \\mathrm { O J c e } \\; 2 ; } \\\\ & { \\mathrm { ~ - \\texttt { B } \\mathcal { \\bar { M } } H a m a 3 o H e ~ } ( 7 4 0 \\pm 3 ) \\mathrm { ~ M \\Gamma { \\bar { \\Pi } } H ~ H e ~ } \\bar { 6 } \\mathrm { O J c e } \\; 2 , 5 . } \\\\ & { \\mathrm { ~ \\texttt { S } \\mathfrak { 3 } { \\bar { \\Delta } } = 7 \\texttt { 3 } \\Phi _ { \\mathrm { 2 O U a } } \\; \\; \\; \\; \\; w a m a n a c r u \\; \\; \\; \\; \\Delta \\Phi \\mathbf { V } \\; \\; \\; \\; \\mathrm { ~ m e n v e } \\; \\; \\; } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\mathrm { 2 K e H H W ~ A \\Psi \\; \\mathcal { W } \\; \\mathcal { N } ~ \\mathcal { A } O I K e H ~ O b I T b : } } \\\\ & { \\mathrm { ~ - \\texttt { B } \\mathcal { \\bar { M } } H a m a 3 o H e ~ } ( 8 3 7 , 5 \\pm 4 ) \\mathrm { ~ M \\Gamma { \\bar { \\Pi } } H ~ H e ~ } \\bar { 6 } \\mathrm { O J c e } \\; 5 ; } \\\\ & { \\mathrm { ~ - \\texttt { B } \\mathcal { \\bar { M } } H a m a 3 o H e ~ } ( 1 0 3 0 \\pm 3 ) \\mathrm { ~ M \\Gamma { \\bar { \\Pi } } H ~ H e ~ } \\bar { 6 } \\mathrm { O J c e } \\; 2 ; } \\\\ & { \\mathrm { ~ - \\texttt { B } \\mathcal { \\bar { M } } H a m a 3 o H e ~ } ( 7 4 0 \\pm 3 ) \\mathrm { ~ M \\Gamma { \\bar { \\Pi } } H ~ H e ~ } \\bar { 6 } \\mathrm { O J c e } \\; 2 , 5 . } \\\\ & { \\mathrm { ~ \\texttt { S } \\mathfrak { 3 } { \\bar { \\Delta } } = 7 \\texttt { 3 } \\Phi _ { \\mathrm { 2 O U a } } \\; w a m a n a c r u \\; \\Delta \\Phi \\mathbf { V } \\; \\mathrm { ~ m e n v e } \\; \\; \\; } \\end{array} }",
+            "text_fallback": "r l & 2 K e H H W ~ A \\; W \\; N ~ A O I K e H ~ O b I T b : \\\\ & ~ - B M H a m a 3 o H e ~ ( 8 3 7 , 5 4 ) ~ M H ~ H e ~ 6 O J c e \\; 5 ; \\\\ & ~ - B M H a m a 3 o H e ~ ( 1 0 3 0 3 ) ~ M H ~ H e ~ 6 O J c e \\; 2 ; \\\\ & ~ - B M H a m a 3 o H e ~ ( 7 4 0 3 ) ~ M H ~ H e ~ 6 O J c e \\; 2 , 5 . \\\\ & ~ S 3 = 7 3 2 O U a \\; w a m a n a c r u \\; V \\; ~ m e n v e \\; \\; \\;",
+            "status": "caption_or_header",
+            "text": "в диапазоне (837,5±4) МГц не более 5; | в диапазоне (1030±3) МГц не более 2; | в диапазоне (740±3) МГц не более 2,5."
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 94,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 76.54399871826172,
+            "y1": 363.37335205078125,
+            "x2": 271.4100036621094,
+            "y2": 397.0346374511719
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=2",
+              "text=в приемном режиме - (1030±3) МГц; | в передающем режиме - (1090±3) МГц.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=565x117"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { 1 \\; c o c r a s . n n r u s . } } \\\\ & { \\mathrm { - \\textbf { B } \\\" { n p H e M H O M } \\; p e \\mathcal { K } \\scriptscriptstyle { H M C } - \\left( 1 0 3 0 \\pm 3 \\right) M \\Gamma \\mathrm { I I } ; } } \\\\ & { \\mathrm { - \\textbf { B } \\\" { n e p e } \\it { H a t o m U e M } \\; p e \\mathcal { K } \\scriptscriptstyle { H M C } - \\left( 1 0 9 0 \\pm 3 \\right) M \\Gamma \\mathrm { I I } . } } \\\\ & { \\mathrm { - \\textbf { H } \\\" { n e r n u s a r u m \\alpha } \\ r a n \\alpha - \\mathbf { B } \\; e n \\mathrm { r r u c a } \\; n \\mathbf { t } . \\mathbf { u } . \\mathbf { o } . } } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\mathrm { 1 \\; c o c r a s . n n r u s . } } \\\\ & { \\mathrm { - \\textbf { B } \\\" { n p H e M H O M } \\; p e \\mathcal { K } \\scriptscriptstyle { H M C } - \\left( 1 0 3 0 \\pm 3 \\right) M \\Gamma \\mathrm { I I } ; } } \\\\ & { \\mathrm { - \\textbf { B } \\\" { n e p e } \\it { H a t o m U e M } \\; p e \\mathcal { K } \\scriptscriptstyle { H M C } - \\left( 1 0 9 0 \\pm 3 \\right) M \\Gamma \\mathrm { I I } . } } \\\\ & { \\mathrm { - \\textbf { H } \\\" { n e r n u s a r u m \\alpha } \\ r a n \\alpha - \\mathbf { B } \\; e n \\mathrm { r r u c a } \\; n \\mathbf { t } . \\mathbf { u } . \\mathbf { o } . } } \\end{array}",
+            "text_fallback": "r l & 1 \\; c o c r a s . n n r u s . \\\\ & - B \\\" n p H e M H O M \\; p e K H M C - ( 1 0 3 0 3 ) M I I ; \\\\ & - B \\\" n e p e H a t o m U e M \\; p e K H M C - ( 1 0 9 0 3 ) M I I . \\\\ & - H \\\" n e r n u s a r u m \\ r a n - B \\; e n r r u c a \\; n t . u . o .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 95,
+      "summary": {
+        "page": 95,
+        "n_detections": 2,
+        "n_formulas": 1,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 22.31999969482422,
+            "y1": 79.16481018066406,
+            "x2": 546.5196533203125,
+            "y2": 220.80462646484375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 139.8535919189453,
+            "y1": 436.23333740234375,
+            "x2": 197.03680419921875,
+            "y2": 456.4546203613281
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 95,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 22.31999969482422,
+            "y1": 79.16481018066406,
+            "x2": 546.5196533203125,
+            "y2": 220.80462646484375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8036363636363636,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=7",
+              "cols=5",
+              "numeric_ratio=0.42",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.804",
+              "rows=11 cols=5 consistency=1.00 meaningful=0.56",
+              "span_cols=5",
+              "span_rows=11"
+            ]
+          },
+          "content": {
+            "markdown": "| 8.3.5.12. | Требования к АФУ доплеровских | − | в приемном режиме 905,1 - 966,9 | МГц; |\n| --- | --- | --- | --- | --- |\n|  | измерителей путевой скорости и угла | − | в передающем режиме 772,0 - 808,0 | МГц. |\n| сноса |  |  | Поляризация поля - горизонтальная. |  |\n|  |  | 8.3.5.17.2. | Коэффициент стоячей волны по |  |\n| 8.3.5.12.1. Диапазон | рабочих частот | АФУ | напряжению на входе АФУ должен быть: |  |\n| $должен составлять (13325±75) МГц.$ |  | − | в приемном режиме - не более 5; |  |\n| 8.3.5.12.2. | Для обеспечения работы доплеров- | − | в передающем режиме - не более 2,5. |  |\n| ского измерителя путевой скорости и угла сноса в |  | 8.3.5.17.3. | Неравномерность | распределения |\n| соответствии с требованиями пункта 8.3.4.6 АФУ |  |  | горизонтальной составляющей поля в горизон- |  |\n| должно размещаться в нижней части фюзеляжа |  |  | $тальной плоскости в переднем секторе ±90$ | ° отно- |\n| таким образом, чтобы: |  |  | сительно продольной оси ВЛА должна быть не |  |",
+            "html": "",
+            "n_rows": 11,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8036363636363636,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 95,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 139.8535919189453,
+            "y1": 436.23333740234375,
+            "x2": 197.03680419921875,
+            "y2": 456.4546203613281
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=(9345±30)",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=183x80"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\overset { \\mathrm { H } } { \\underset { ( 9 3 4 5 \\pm 3 0 ) } { \\mathrm { p a o o u n g } } }",
+            "latex": "\\overset { \\mathrm { H } } { \\underset { ( 9 3 4 5 \\pm 3 0 ) } { \\mathrm { p a o o u n g } } }",
+            "text_fallback": "H ( 9 3 4 5 3 0 ) p a o o u n g",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 96,
+      "summary": {
+        "page": 96,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6875,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 52.66400146484375,
+            "y1": 634.9832763671875,
+            "x2": 300.7288513183594,
+            "y2": 655.20458984375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 101.0199966430664,
+            "y1": 729.9358520507812,
+            "x2": 237.11447143554688,
+            "y2": 751.266845703125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 96,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.66400146484375,
+            "y1": 634.9832763671875,
+            "x2": 300.7288513183594,
+            "y2": 655.20458984375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=зи на курсовых углах 0±30° и 180±30° при гори-",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=713x81",
+              "semantic_reason=caption_or_header"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { 8 . 4 . 4 . 1 . 3 . \\ \\ \\ \\ \\mathcal { A } \\mathrm { a J I b H o c T b \\ \\ } \\mathrm { \\it B B V C T O p O H H e H \\ p a \\ n d \\ s p a c e \\ p a r a t o r \\ \\ } } \\\\ { 3 { \\cal H } \\ \\mathrm { H 8 \\ \\, H 8 V p C o B b I X \\ \\ y r J T a X \\ \\ 0 . 5 3 0 ^ { \\circ } \\ \\cal H } \\ \\mathrm { 1 8 0 3 . 3 0 ^ { \\circ } \\ \\ n p H \\ r o p H - } } \\\\ { \\mathrm { 2 o w r r a \\ v e n \\ r u o u \\ m o w e w e w a v a r \\ \\ } \\mathrm { R \\ m a \\ m a \\ v e n w a \\ \\ } \\tilde { G u } \\mathrm { G u r r e \\ \\ t r e \\ \\ u o \\ s a \\ \\ } } \\end{array}",
+            "latex": "\\begin{array} { r } { 8 . 4 . 4 . 1 . 3 . \\ \\mathcal { A } \\mathrm { a J I b H o c T b \\ \\ } \\mathrm { \\it B B V C T O p O H H e H \\ p a \\ n d \\ s p a c e \\ p a r a t o r \\ \\ } } \\\\ { 3 { \\cal H } \\ \\mathrm { H 8 \\ \\, H 8 V p C o B b I X \\ \\ y r J T a X \\ \\ 0 . 5 3 0 ^ { \\circ } \\ \\cal H } \\ \\mathrm { 1 8 0 3 . 3 0 ^ { \\circ } \\ \\ n p H \\ r o p H - } } \\\\ { \\mathrm { 2 o w r r a \\ v e n \\ r u o u \\ m o w e w e w a v a r \\ \\ } \\mathrm { R \\ m a \\ m a \\ v e n w a \\ \\ } \\tilde { G u } \\mathrm { G u r r e \\ \\ t r e \\ \\ u o \\ s a \\ \\ } } \\end{array}",
+            "text_fallback": "r 8 . 4 . 4 . 1 . 3 . \\ A a J I b H o c T b \\ \\ B B V C T O p O H H e H \\ p a \\ n d \\ s p a c e \\ p a r a t o r \\ \\ \\\\ 3 H \\ H 8 \\ \\, H 8 V p C o B b I X \\ \\ y r J T a X \\ \\ 0 . 5 3 0 ** \\ H \\ 1 8 0 3 . 3 0 ** \\ \\ n p H \\ r o p H - \\\\ 2 o w r r a \\ v e n \\ r u o u \\ m o w e w e w a v a r \\ \\ R \\ m a \\ m a \\ v e n w a \\ \\ G u G u r r e \\ \\ t r e \\ \\ u o \\ s a \\ \\",
+            "status": "caption_or_header",
+            "text": "зи на курсовых углах 0±30° и 180±30° при гори-"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 96,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 101.0199966430664,
+            "y1": 729.9358520507812,
+            "x2": 237.11447143554688,
+            "y2": 751.266845703125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Д = 0,75 [4.12(√H | + √H",
+              "pylatexenc_ok",
+              "preview_wh=402x83"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathbb { A } \\, = \\, 0 , 7 5 \\, \\big [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "latex": "\\mathbb { A } \\, = \\, 0 , 7 5 \\, \\big [ 4 . 1 2 \\big ( \\sqrt { \\mathrm { H _ { 1 } } } + \\sqrt { \\mathrm { H _ { 2 } } } \\big )",
+            "text_fallback": "A \\, = \\, 0 , 7 5 \\, [ 4 . 1 2 ( H 1 + H 2 )",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 97,
+      "summary": {
+        "page": 97,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 98,
+      "summary": {
+        "page": 98,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 99,
+      "summary": {
+        "page": 99,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8875000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 493.8599853515625,
+            "y1": 81.58334350585938,
+            "x2": 537.3800048828125,
+            "y2": 101.80462646484375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 100,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 493.8599853515625,
+            "y1": 81.58334350585938,
+            "x2": 537.3800048828125,
+            "y2": 101.80462646484375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=≥ 15 с.",
+              "pylatexenc_ok",
+              "preview_wh=145x80"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\displaystyle \\Gamma _ { \\mathrm { p } } \\geq 1 5 ~ \\mathrm { c . } } \\\\ { \\displaystyle \\phantom { \\sum _ { \\substack { \\mathbf { R } \\in \\, \\mathbf { T } \\in \\, \\mathbf { C } } } } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\displaystyle \\Gamma _ { \\mathrm { p } } \\geq 1 5 ~ \\mathrm { c . } } \\\\ { \\displaystyle \\phantom { \\sum _ { \\substack { \\mathbf { R } \\in \\, \\mathbf { T } \\in \\, \\mathbf { C } } } } } \\end{array}",
+            "text_fallback": "l p 1 5 ~ c . \\\\ R \\, T \\, C",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 101,
+      "summary": {
+        "page": 101,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 102,
+      "summary": {
+        "page": 102,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 103,
+      "summary": {
+        "page": 103,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 104,
+      "summary": {
+        "page": 104,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 105,
+      "summary": {
+        "page": 105,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 106,
+      "summary": {
+        "page": 106,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 107,
+      "summary": {
+        "page": 107,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 108,
+      "summary": {
+        "page": 108,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 109,
+      "summary": {
+        "page": 109,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 110,
+      "summary": {
+        "page": 110,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 111,
+      "summary": {
+        "page": 111,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 112,
+      "summary": {
+        "page": 112,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 113,
+      "summary": {
+        "page": 113,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 114,
+      "summary": {
+        "page": 114,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 115,
+      "summary": {
+        "page": 115,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 116,
+      "summary": {
+        "page": 116,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 117,
+      "summary": {
+        "page": 117,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 118,
+      "summary": {
+        "page": 118,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 2,
+        "n_figures": 0,
+        "table_ok": 2,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 50.66400146484375,
+            "y1": 134.18331909179688,
+            "x2": 574.8788452148438,
+            "y2": 446.55462646484375
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 64.7040023803711,
+            "y1": 472.3933410644531,
+            "x2": 574.9004516601562,
+            "y2": 744.6913452148438
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 118,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 50.66400146484375,
+            "y1": 134.18331909179688,
+            "x2": 574.8788452148438,
+            "y2": 446.55462646484375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8114285714285714,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=21",
+              "cols=6",
+              "numeric_ratio=0.72",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.811",
+              "rows=25 cols=7 consistency=1.00 meaningful=0.62",
+              "span_cols=7",
+              "span_rows=25"
+            ]
+          },
+          "content": {
+            "markdown": "|  | Это Приложение определяет уровни воздей- |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | ствия и испытательные уровни HIRF для электри- |  | (с) | Уровень воздействия | III | приведён в Таб- |\n|  | ческих и электронных систем, указанных в пара- |  | лице III: |  |  |  |\n|  | графе 27.1317 НЛГ 27. Уровни выражены в сред- |  | Таблица | III - | Уровень воздействия | III |\n|  | неквадратичных единицах, измеренных для пика |  | HIRF |  |  |  |\n| цикла модуляции. |  |  |  | Частота | Напряженность поля |  |\n| (а) Уровень воздействия I |  | приведён в Таб- |  |  | $(В/м)$ |  |\n| лице I: |  |  |  |  | Пиковое | Среднее |\n| Таблица I - Уровень воздействия |  | I HIRF |  | $10 кГц - 100 кГц$ | 150 | 150 |\n| Частота |  | Напряженность поля |  | $100 кГц - 400 МГц$ | 200 | 200 |\n|  |  | $(В/м)$ |  | $400 МГц - 700 МГц$ | 730 | 200 |\n|  | Пиковое | Среднее |  | $700 МГц - 1 ГГц$ | 1400 | 240 |\n| $10 кГц-2 МГц$ | 50 | 50 |  | $1 ГГЦ-2 ГГц$ | 5000 | 250 |\n| $2 МГц - 30 МГц$ | 100 | 100 |  | $2 ГГц-4 ГГц$ | 6000 | 490 |\n| $30 МГц-100 МГц$ | 50 | 50 |  | $4 ГГц - 6 ГГц$ | 7200 | 400 |\n| $100 МГц - 400 МГц$ | 100 | 100 |  | $6 ГГц-8 ГГц$ | 1100 | 170 |\n| $400 МГЦ - 700 МГц$ | 700 | 50 |  | $8 ГГц - 12 ГГц$ | 5000 | 330 |\n| $700 МГц - 1 ГГц$ | 700 | 100 |  | $12 ГГц-18 ГГц$ | 2000 | 330 |\n| $1 ГГц-2 ГГц$ | 2000 | 200 |  | $18 ГГц-40 ГГц$ | 1000 | 420 |\n| $2 ГГц-6 ГГц$ | 3000 | 200 |  |  | В этой таблице пиковые значения уровней даны |  |\n| $6 ГГц-8 ГГц$ | 1000 | 200 |  | для границ частотных диапазонов. |  |  |\n| $8 ГГц - 12 ГГц$ | 3000 | 300 |  |  |  |  |\n| $12 ГГц-18 ГГц$ | 2000 | 200 | (d) | Испытательный уровень 1 |  | воздействия |\n| $18 ГГц-40 ГГц$ | 600 | 200 | HIRF |  |  |  |\n|  | В этой таблице пиковые значения уровней да- |  | (1) |  | В диапазоне от 10 кГц до 400 МГц для |  |",
+            "html": "",
+            "n_rows": 25,
+            "n_cols": 7,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8114285714285714,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "НЛГ-27",
+          "page": 118,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 64.7040023803711,
+            "y1": 472.3933410644531,
+            "x2": 574.9004516601562,
+            "y2": 744.6913452148438
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9375000000000001,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=17",
+              "cols=4",
+              "numeric_ratio=0.82",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.938",
+              "rows=22 cols=4 consistency=1.00 meaningful=0.88",
+              "span_cols=4",
+              "span_rows=22"
+            ]
+          },
+          "content": {
+            "markdown": "|  |  |  | проводам с синусоидальной помехой используйте |\n| --- | --- | --- | --- |\n| ( b ) Уровень воздействия | II | приведён в Таб- | квадратичную модуляцию с частотой 1 кГц и глу- |\n| лице II: |  |  | биной более 90%. Значения тока при испытаниях |\n| Таблица II - | Уровень воздействия | II HIRF | на восприимчивость по проводам должны начи- |\n| Частота |  | Напряженность поля | наться как минимум с 0,6 мА на 10 кГц, увеличи- |\n|  |  | $(В/м)$ | ваясь на 20 дБ на декаду до минимум 30 мА на 500 |\n|  | Пиковое | Среднее кГц. |  |\n| $10 кГц-500 кГц$ | 20 | 20 (2) | В диапазоне от 500 кГц до 40 МГц при ис- |\n| $500 кГц - 2 МГц$ | 30 | 30 | пытаниях на восприимчивость по проводам зна- |\n| $2 МГц - 30 МГц$ | 100 | 100 | чение тока должно быть по крайней мере 30 мА. |\n| $30 МГц-100 МГц$ | 10 | 10 (3) | В диапазоне от 40 МГц до 400 МГц испы- |\n| $100 МГЦ-200 МГц$ | 30 | 10 | тания на восприимчивость по проводам следует |\n| $200 МГц-400 ГГц$ | 10 | 10 | проводить при значении тока, начиная как мини- |\n| $400 МГц - 1 ГГц$ | 700 | 40 | мум с 30 мА на 40 МГц, уменьшая на 20 дБ на де- |\n| $1 ГГц-2 ГГц$ | 1300 | 160 | каду до минимума 3 мА на 400 МГц. |\n| $2 ГГц-4 ГГц$ | 3000 | 120 (4) | В диапазоне от 100 МГц до 400 МГц для |\n| $4 ГГц-6 ГГц$ | 3000 | 160 | проведения испытаний на восприимчивость по |\n| $6 ГГц-8 ГГц$ | 400 | 170 | полю с максимальным уровнем синусоидальной |\n| $8 ГГц - 12 ГГц$ | 1230 | 230 | $помехи как минимум 20 В/м используйте квадра-$ |\n| $12 ГГц-18 ГГц$ | 730 | 190 | тичную модуляцию с частотой 1 кГц и глубиной |\n| $18 ГГц-40 ГГц$ | 600 | 150 | более 90%. |\n|  | В этой таблице пиковые значения уровней да- | (5) | В диапазоне от 400 МГц до 8 ГГц для про- |",
+            "html": "",
+            "n_rows": 22,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9375000000000001,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 119,
+      "summary": {
+        "page": 119,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 120,
+      "summary": {
+        "page": 120,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 121,
+      "summary": {
+        "page": 121,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 122,
+      "summary": {
+        "page": 122,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 123,
+      "summary": {
+        "page": 123,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "НЛГ-27",
+      "page": 124,
+      "summary": {
+        "page": 124,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.8239974975586,
+            "y1": 119.62332153320312,
+            "x2": 100.86399841308594,
+            "y2": 152.44464111328125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "НЛГ-27",
+          "page": 124,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.8239974975586,
+            "y1": 119.62332153320312,
+            "x2": 100.86399841308594,
+            "y2": 152.44464111328125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=ILS VOR",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=119x115"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { H } \\mathbf { K } \\mathbf { F } } \\\\ { \\mathbf { I } \\mathbf { L } \\boldsymbol { S } } \\\\ { \\mathbf { V } \\mathrm { O } \\mathbf { R } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { H } \\mathbf { K } \\mathbf { F } } \\\\ { \\mathbf { I } \\mathbf { L } \\boldsymbol { S } } \\\\ { \\mathbf { V } \\mathrm { O } \\mathbf { R } } \\end{array}",
+            "text_fallback": "l H K F \\\\ I L S \\\\ V O R",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

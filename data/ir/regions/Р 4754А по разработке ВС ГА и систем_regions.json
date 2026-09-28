@@ -1,0 +1,5706 @@
+{
+  "doc_id": "Р 4754А по разработке ВС ГА и систем",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\Р 4754А по разработке ВС ГА и систем.pdf",
+  "page_count": 171,
+  "pages": [
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9781553149223328,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 66.9149843505564,
+            "y1": 170.68793256938227,
+            "x2": 539.5364318958427,
+            "y2": 552.3598338465957
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 11,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 66.9149843505564,
+            "y1": 170.68793256938227,
+            "x2": 539.5364318958427,
+            "y2": 552.3598338465957
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9781553149223328,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "o Оценка безопасности ВС при безопасности коммерческой эксплуатации (Π-4761) (ARP-5150 /5151) Информация о Информация о↑ Предусмотренная функция ВС функциональности, проекте т системы Работающая система Процессы разработки ВС и систем Эксплуатация (Π-4754) Руководство по разработке интегрированной модульной авионики (Π-297) Жизненный цикл разработки Жизненный цикл разработки аппаратуры ПО (KT-254) (KT-178) ЭТАП РАЗРАБОТКИ VVT V",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0011_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9781553149223328,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.7575727105140686,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 83.607538765544,
+            "y1": 83.73857501630557,
+            "x2": 785.1038943091331,
+            "y2": 336.16555566435784
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 29,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 83.607538765544,
+            "y1": 83.73857501630557,
+            "x2": 785.1038943091331,
+            "y2": 336.16555566435784
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7575727105140686,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Идентифицировать,какие Идентифицировать Идентифицировать, нужны элементы плана и Идентифицировать критерии перехода для Идентифицировать как будут Идентифицировать как они будут фазы разработки, каждой из фаз связи и зависимости применимые стандарты обрабатываться задокументированы относящиеся к разработки и между элементами процессов и отклонения от (в отдельных планах или элементу плана интегральных планирования отраслевые стандарты планов все в одном) процессов 1 1 Планы Рассмотрение планов н",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0029_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.7575727105140686,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9827681183815002,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 46.796817121834586,
+            "y1": 286.3605734183779,
+            "x2": 553.0154594333692,
+            "y2": 553.5051700613243
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 31,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 46.796817121834586,
+            "y1": 286.3605734183779,
+            "x2": 553.0154594333692,
+            "y2": 553.5051700613243
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9827681183815002,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Производство / Концепция Разработка Эксплуатация Данные производства, Функция Архитектура Проект Реализация испытаний и эксплуатации РИСУНОК З ЖЦ РАЗРАБОТКИ",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0031_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9827681183815002,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9678177833557129,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 66.39892695550482,
+            "y1": 88.33535076125203,
+            "x2": 762.3736460059052,
+            "y2": 353.7942425496493
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 33,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 66.39892695550482,
+            "y1": 88.33535076125203,
+            "x2": 762.3736460059052,
+            "y2": 353.7942425496493
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9678177833557129,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Интегральные процессы 5.1 Оценка безопасности 5.2 Назначение уровня гарантии разработки 5.3 Формирование требований Планирование 5.4 Валидация требований 5.6 Управление конфигурацией 3.0 5.7 Гарантия процесса 5.8 Координация с регулирующим и сертифицирующим органом Процесс разработки 5.5 Верификация реализации ВС или системы Распределение Распределение Разработка Концепция Разработка системных Реализация функции ВС функций ВС по архитектуры требований по системы Данные и системам системы элемент",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0033_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9678177833557129,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 8,
+        "n_formulas": 8,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07405090332031,
+            "y1": 206.34811401367188,
+            "x2": 98.07814025878906,
+            "y2": 248.26011657714844
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07952117919922,
+            "y1": 268.5081481933594,
+            "x2": 98.07775115966797,
+            "y2": 310.3001403808594
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07962799072266,
+            "y1": 309.9081726074219,
+            "x2": 97.9578628540039,
+            "y2": 351.70013427734375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07965087890625,
+            "y1": 351.30816650390625,
+            "x2": 98.077880859375,
+            "y2": 393.1001281738281
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07974243164062,
+            "y1": 434.108154296875,
+            "x2": 101.44003295898438,
+            "y2": 475.900146484375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07402801513672,
+            "y1": 548.828125,
+            "x2": 98.07811737060547,
+            "y2": 590.7401733398438
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07999420166016,
+            "y1": 610.9880981445312,
+            "x2": 98.0782241821289,
+            "y2": 652.7800903320312
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 81.07430267333984,
+            "y1": 705.0680541992188,
+            "x2": 98.0783920288086,
+            "y2": 746.860107421875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07405090332031,
+            "y1": 206.34811401367188,
+            "x2": 98.07814025878906,
+            "y2": 248.26011657714844
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { a . } } } \\\\ { { \\mathrm { b . } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { a . } } } \\\\ { { \\mathrm { b . } } } \\end{array}",
+            "text_fallback": "c a . \\\\ b .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07952117919922,
+            "y1": 268.5081481933594,
+            "x2": 98.07775115966797,
+            "y2": 310.3001403808594
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { d } . } \\\\ { \\mathbf { e } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { d } . } \\\\ { \\mathbf { e } . } \\end{array}",
+            "text_fallback": "r d . \\\\ e .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07962799072266,
+            "y1": 309.9081726074219,
+            "x2": 97.9578628540039,
+            "y2": 351.70013427734375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=f. g.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { f . } } } \\\\ { { \\mathrm { g . } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { f . } } } \\\\ { { \\mathrm { g . } } } \\end{array}",
+            "text_fallback": "c f . \\\\ g .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07965087890625,
+            "y1": 351.30816650390625,
+            "x2": 98.077880859375,
+            "y2": 393.1001281738281
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=h. i.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathbf { \\bar { h } } . } \\\\ { \\mathbf { \\bar { h } } . } \\\\ { \\mathbf { \\bar { i } } . } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathbf { \\bar { h } } . } \\\\ { \\mathbf { \\bar { h } } . } \\\\ { \\mathbf { \\bar { i } } . } \\end{array}",
+            "text_fallback": "l h . \\\\ h . \\\\ i .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_04",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07974243164062,
+            "y1": 434.108154296875,
+            "x2": 101.44003295898438,
+            "y2": 475.900146484375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=l. m.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=80x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { l . } } } \\\\ { { \\mathrm { \\Delta } } } \\\\ { { \\mathrm { m . } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { l . } } } \\\\ { { \\mathrm { \\Delta } } } \\\\ { { \\mathrm { m . } } } \\end{array}",
+            "text_fallback": "c l . \\\\ \\\\ m .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_05",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07402801513672,
+            "y1": 548.828125,
+            "x2": 98.07811737060547,
+            "y2": 590.7401733398438
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { a . } } } \\\\ { { \\mathrm { b . } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { a . } } } \\\\ { { \\mathrm { b . } } } \\end{array}",
+            "text_fallback": "c a . \\\\ b .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_06",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07999420166016,
+            "y1": 610.9880981445312,
+            "x2": 98.0782241821289,
+            "y2": 652.7800903320312
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { d } . } \\\\ { \\mathbf { e } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { d } . } \\\\ { \\mathbf { e } . } \\end{array}",
+            "text_fallback": "r d . \\\\ e .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 41,
+          "region_id": "formula_07",
+          "type": "formula",
+          "bbox": {
+            "x1": 81.07430267333984,
+            "y1": 705.0680541992188,
+            "x2": 98.0783920288086,
+            "y2": 746.860107421875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { \\bar { a } } . } \\\\ { \\mathbf { \\bar { b } } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { \\bar { a } } . } \\\\ { \\mathbf { \\bar { b } } . } \\end{array}",
+            "text_fallback": "r a . \\\\ b .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9859523773193359,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 66.7185147949514,
+            "y1": 64.35071676253457,
+            "x2": 528.3872473521154,
+            "y2": 568.0579796930111
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 42,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 66.7185147949514,
+            "y1": 64.35071676253457,
+            "x2": 528.3872473521154,
+            "y2": 568.0579796930111
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9859523773193359,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Интегральные процессы Назначение DAL Функция ВС z Координация сертификации Функция ВС 2 Функция ВС 1 Оценка безопасности Формирование Система у требований Система 2 Система 1 Валидация требований Верификация реализации Подсистема х Управление Подсистема 2 конфигурацией Подсистема 1 процесса ЖЦ аппаратуры ЖЦпо Разработка подсистемы Разработка системы Разработка функции ВС",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0042_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9859523773193359,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 51,
+      "summary": {
+        "page": 51,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 52,
+      "summary": {
+        "page": 52,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 53,
+      "summary": {
+        "page": 53,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 54,
+      "summary": {
+        "page": 54,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 52.759559631347656,
+            "y1": 46.14828109741211,
+            "x2": 69.75824737548828,
+            "y2": 87.94029235839844
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 54,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 52.759559631347656,
+            "y1": 46.14828109741211,
+            "x2": 69.75824737548828,
+            "y2": 87.94029235839844
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r } { \\mathbf { d } . } \\\\ { \\mathbf { e } . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathbf { d } . } \\\\ { \\mathbf { e } . } \\end{array}",
+            "text_fallback": "r d . \\\\ e .",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 55,
+      "summary": {
+        "page": 55,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 56,
+      "summary": {
+        "page": 56,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 57,
+      "summary": {
+        "page": 57,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 58,
+      "summary": {
+        "page": 58,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 59,
+      "summary": {
+        "page": 59,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 60,
+      "summary": {
+        "page": 60,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 61,
+      "summary": {
+        "page": 61,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9831095337867737,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 67.80004479419226,
+            "y1": 375.84011899533056,
+            "x2": 501.4951453234885,
+            "y2": 558.9678402395522
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 61,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 67.80004479419226,
+            "y1": 375.84011899533056,
+            "x2": 501.4951453234885,
+            "y2": 558.9678402395522
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9831095337867737,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "FHA (BC, система) г — — — PASA/PSSA Утверждение или изменение Функции архитектуры Эксплуатационные Производные требования требования − безопасности Предлагаемая Процесс назначения FDAL архитектура è IDAL FDAL, IDAL •Функции Аппаратура OII •",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0061_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9831095337867737,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 62,
+      "summary": {
+        "page": 62,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 63,
+      "summary": {
+        "page": 63,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 64,
+      "summary": {
+        "page": 64,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 65,
+      "summary": {
+        "page": 65,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 66,
+      "summary": {
+        "page": 66,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 67,
+      "summary": {
+        "page": 67,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 68,
+      "summary": {
+        "page": 68,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 35.63998031616211,
+            "y1": 97.58429718017578,
+            "x2": 495.89874267578125,
+            "y2": 185.93670654296875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 68,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 35.63998031616211,
+            "y1": 97.58429718017578,
+            "x2": 495.89874267578125,
+            "y2": 185.93670654296875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7291666666666666,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=6",
+              "numeric_ratio=0.36",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.729",
+              "rows=8 cols=6 consistency=1.00 meaningful=0.46",
+              "span_cols=6",
+              "span_rows=8"
+            ]
+          },
+          "content": {
+            "markdown": "| КЛАССИФИКАЦИЯ |  |  | УРОВЕНЬ ГАРАНТИИ РАЗРАБОТКИ | (DAL) |  |\n| --- | --- | --- | --- | --- | --- |\n| ОТКАЗНОГО |  |  | (П РИМЕЧАНИЯ | 2 И 4) |  |\n| ВЕРХНЕГО СОСТОЯНИЯ УРОВНЯ | ГРУППЫ |  |  | ГРУППЫ ФУНКЦИОНАЛЬНЫХ ОТКАЗОВ С НЕСКОЛЬКИМИ ЭЛЕМЕНТАМИ ГРУППЫ |  |\n|  | ФУНКЦИОНАЛЬНЫХ |  |  |  |  |\n|  | ОТКАЗОВ С | В АРИАНТ | 1 |  | В АРИАНТ 2 |\n|  | ЕДИНСТВЕННЫМ | (П РИМЕЧАНИЕ | 3) |  |  |\n|  | ЭЛЕМЕНТОМ ГРУППЫ |  |  |  |  |\n| Столбец 1 | Столбец 2 | Столбец 3 |  |  | Столбец 4 |",
+            "html": "",
+            "n_rows": 8,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7291666666666666,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 69,
+      "summary": {
+        "page": 69,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 70,
+      "summary": {
+        "page": 70,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 1,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9890491962432861,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 103.09484944513763,
+            "y1": 200.0794354683826,
+            "x2": 505.26628866963,
+            "y2": 499.781940983727
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 108.71995544433594,
+            "y1": 414.8312072753906,
+            "x2": 502.7663879394531,
+            "y2": 489.6151428222656
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 70,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 103.09484944513763,
+            "y1": 200.0794354683826,
+            "x2": 505.26628866963,
+            "y2": 499.781940983727
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9890491962432861,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Отказное состояние, вызванное функциональными отказами F1 и F2 FC2 Функциональный Функциональный отказ F1 отказ F2 F1 F2 Ошибка в Ошибка в Ошибка в Ошибка в разработке разработке разработке разработке Функции 1 Элемента 1 Элемента 3 Функции 2 F1_ERROR I1 _ERROR I3_ERROR F2_ERROR",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0070_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9890491962432861,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 70,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 108.71995544433594,
+            "y1": 414.8312072753906,
+            "x2": 502.7663879394531,
+            "y2": 489.6151428222656
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9699999999999999,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=4",
+              "numeric_ratio=0.50",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.970",
+              "rows=4 cols=4 consistency=1.00 meaningful=1.00",
+              "span_cols=4",
+              "span_rows=4"
+            ]
+          },
+          "content": {
+            "markdown": "| Ошибка в | Ошибка в | Ошибка в | Ошибка в |\n| --- | --- | --- | --- |\n| разработке | разработке | разработке | разработке |\n| Функции 1 | Элемента 1 | Элемента 3 | Функции 2 |\n| $F1_ERROR$ | $I1_ERROR$ | $I3_ERROR$ | $F2_ERROR$ |",
+            "html": "",
+            "n_rows": 4,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.9699999999999999,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 71,
+      "summary": {
+        "page": 71,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 72,
+      "summary": {
+        "page": 72,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 73,
+      "summary": {
+        "page": 73,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 74,
+      "summary": {
+        "page": 74,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 1,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9826238751411438,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 101.61784832649207,
+            "y1": 51.946681394083676,
+            "x2": 488.38582393694696,
+            "y2": 460.01969418438034
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 107.27995300292969,
+            "y1": 251.75125122070312,
+            "x2": 485.7263488769531,
+            "y2": 397.2152099609375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 74,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 101.61784832649207,
+            "y1": 51.946681394083676,
+            "x2": 488.38582393694696,
+            "y2": 460.01969418438034
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9826238751411438,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Отказное состояние, отказами F1 и F2 FC2 Функциональный Функциональный отказF1 отказ F2 F1 F2 Ошибка в Аномальное поведение на Аномальное поведение на Ошибка в разработке уровне элемента вызывает уровне элемента вызывает разработке Функции 1 Функциональный Отказ F1 Функциональный Отказ F2 Функции 2 F1_ERROR F1_ITEM F2_ITEM F2_ERROR Ошибка в Ошибка в Ошибка в Ошибка в разработке разработке разработке разработке Элемента 1 Элемента 2 Элемента 2 Элемента 3 I1_ERROR I3_ERROR I2_ERROR",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0074_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9826238751411438,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 74,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 107.27995300292969,
+            "y1": 251.75125122070312,
+            "x2": 485.7263488769531,
+            "y2": 397.2152099609375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.75,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=7",
+              "cols=8",
+              "numeric_ratio=0.43",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.750",
+              "rows=7 cols=8 consistency=1.00 meaningful=0.50",
+              "span_cols=8",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "| Ошибка в |  | Аномальное поведение на |  |  | Аномальное поведение на |  | Ошибка в |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| разработке |  | уровне элемента вызывает |  |  | уровне элемента вызывает |  | разработке |\n| Функции 1 |  | Функциональный Отказ F1 |  |  | Функциональный Отказ F2 |  | Функции 2 |\n| $F1_ERROR$ |  | $F1_ITEM$ |  |  | $F2_ITEM$ |  | $F2_ERROR$ |\n|  | Ошибка в |  | Ошибка в | Ошибка в |  | Ошибка в |  |\n|  | разработке |  | разработке | разработке |  | разработке |  |\n|  | Элемента 1 |  | Элемента 2 | Элемента 2 |  | Элемента 3 |  |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 8,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.75,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 75,
+      "summary": {
+        "page": 75,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 76,
+      "summary": {
+        "page": 76,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 77,
+      "summary": {
+        "page": 77,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 78,
+      "summary": {
+        "page": 78,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9801251888275146,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 65.25585439950858,
+            "y1": 76.7305723714645,
+            "x2": 544.3720073203787,
+            "y2": 337.0650347725557
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 78,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 65.25585439950858,
+            "y1": 76.7305723714645,
+            "x2": 544.3720073203787,
+            "y2": 337.0650347725557
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9801251888275146,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Уровень гарантии разработки функции защиты A B 10-3 10-4 10-5 10-6 10-7 10-8 10-9 Вероятность внешнего события Опасный отказ на верхнем уровне",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0078_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9801251888275146,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 79,
+      "summary": {
+        "page": 79,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 80,
+      "summary": {
+        "page": 80,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 81,
+      "summary": {
+        "page": 81,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 82,
+      "summary": {
+        "page": 82,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 83,
+      "summary": {
+        "page": 83,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 84,
+      "summary": {
+        "page": 84,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 85,
+      "summary": {
+        "page": 85,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 86,
+      "summary": {
+        "page": 86,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 87,
+      "summary": {
+        "page": 87,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 1,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.980147123336792,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 82.27358583241467,
+            "y1": 75.8102803974388,
+            "x2": 552.0825819325894,
+            "y2": 433.9511669692243
+          }
+        },
+        {
+          "type": "table",
+          "score": 0.9366666666666666,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 269.1598815917969,
+            "y1": 188.27125549316406,
+            "x2": 557.4884643554688,
+            "y2": 241.21527099609375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 87,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 82.27358583241467,
+            "y1": 75.8102803974388,
+            "x2": 552.0825819325894,
+            "y2": 433.9511669692243
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.980147123336792,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "План валидации 5.4.7.1 Процесс проектирования Матрица Проверки Матрица Заключение (исходная) правильности и (итоговая) о валидации полнотЫ 5.4.7.2 5.4.3, 5.4.4 5.4.7.2 5.4.7.3 — Строгость Допущения валидации 5.4.5 Знания, основанные на опыте Требования Заказчика, сертификационные требования,отраслевые стандарты АННЫЕ ПРОЦЕССА РАЗРАБОТКИ ПРОЦЕСС ВАЛИДАЦИИ",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0087_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.980147123336792,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 87,
+          "region_id": "table_01",
+          "type": "table",
+          "bbox": {
+            "x1": 269.1598815917969,
+            "y1": 188.27125549316406,
+            "x2": 557.4884643554688,
+            "y2": 241.21527099609375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.87625,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=3",
+              "cols=4",
+              "numeric_ratio=0.33",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.876",
+              "rows=4 cols=4 consistency=1.00 meaningful=0.81",
+              "span_cols=4",
+              "span_rows=4"
+            ]
+          },
+          "content": {
+            "markdown": "| Матрица | Проверки | Матрица | Заключение |\n| --- | --- | --- | --- |\n| (исходная) | правильности и | (итоговая) | о валидации |\n|  | полноты |  |  |\n| 5.4.7.2 | 5.4.3, 5.4.4 | 5.4.7.2 | 5.4.7.3 |",
+            "html": "",
+            "n_rows": 4,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.87625,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 88,
+      "summary": {
+        "page": 88,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 89,
+      "summary": {
+        "page": 89,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 90,
+      "summary": {
+        "page": 90,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 91,
+      "summary": {
+        "page": 91,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 92,
+      "summary": {
+        "page": 92,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 93,
+      "summary": {
+        "page": 93,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 94,
+      "summary": {
+        "page": 94,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 95,
+      "summary": {
+        "page": 95,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 96,
+      "summary": {
+        "page": 96,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 97,
+      "summary": {
+        "page": 97,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 98,
+      "summary": {
+        "page": 98,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 99,
+      "summary": {
+        "page": 99,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.393707275390625,
+            "y1": 672.6680908203125,
+            "x2": 78.39779663085938,
+            "y2": 714.5801391601562
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 99,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.393707275390625,
+            "y1": 672.6680908203125,
+            "x2": 78.39779663085938,
+            "y2": 714.5801391601562
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathbf { a . ~ I } } } \\\\ { { \\mathbf { b . ~ } \\underline { { \\boldsymbol { \\jmath } } } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathbf { a . ~ I } } } \\\\ { { \\mathbf { b . ~ } \\underline { { \\boldsymbol { \\jmath } } } } } \\end{array}",
+            "text_fallback": "c a . ~ I \\\\ b . ~",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 100,
+      "summary": {
+        "page": 100,
+        "n_detections": 6,
+        "n_formulas": 6,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.399871826171875,
+            "y1": 87.54830169677734,
+            "x2": 78.27813720703125,
+            "y2": 129.34031677246094
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39995574951172,
+            "y1": 128.94833374023438,
+            "x2": 78.39818572998047,
+            "y2": 170.74034118652344
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39404296875,
+            "y1": 398.2283020019531,
+            "x2": 78.39813232421875,
+            "y2": 440.1402893066406
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.399986267089844,
+            "y1": 460.3883056640625,
+            "x2": 78.3982162475586,
+            "y2": 502.1802978515625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.40007019042969,
+            "y1": 501.7882995605469,
+            "x2": 78.27833557128906,
+            "y2": 543.580322265625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39453125,
+            "y1": 626.228271484375,
+            "x2": 78.39862060546875,
+            "y2": 668.020263671875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.399871826171875,
+            "y1": 87.54830169677734,
+            "x2": 78.27813720703125,
+            "y2": 129.34031677246094
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=f. g.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { f . ~ F ~ } } \\\\ { \\mathrm { g . ~ I } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { f . ~ F ~ } } \\\\ { \\mathrm { g . ~ I } } \\end{array}",
+            "text_fallback": "l f . ~ F ~ \\\\ g . ~ I",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39995574951172,
+            "y1": 128.94833374023438,
+            "x2": 78.39818572998047,
+            "y2": 170.74034118652344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=h. i.",
+              "pylatexenc_ok",
+              "preview_wh=71x140",
+              "semantic_reason=no_math_markers"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathbf { \\bar { h . ~ } } (",
+            "latex": "\\mathbf { \\bar { h . ~ } } (",
+            "text_fallback": "h . ~ (",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39404296875,
+            "y1": 398.2283020019531,
+            "x2": 78.39813232421875,
+            "y2": 440.1402893066406
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ . ~ I ~ } } ^ { \\mathrm { ~ a ~ . ~ 1 ~ } }",
+            "latex": "_ { \\mathrm { ~ b ~ . ~ I ~ } } ^ { \\mathrm { ~ a ~ . ~ 1 ~ } }",
+            "text_fallback": "~ b ~ . ~ I ~ ** ~ a ~ . ~ 1 ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.399986267089844,
+            "y1": 460.3883056640625,
+            "x2": 78.3982162475586,
+            "y2": 502.1802978515625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { d . ~ y ~ } } \\\\ { \\mathrm { e . ~ I } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { d . ~ y ~ } } \\\\ { \\mathrm { e . ~ I } } \\end{array}",
+            "text_fallback": "l d . ~ y ~ \\\\ e . ~ I",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_04",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.40007019042969,
+            "y1": 501.7882995605469,
+            "x2": 78.27833557128906,
+            "y2": 543.580322265625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=f. g.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { f . ~ } \\, ( \\, } \\\\ { \\mathrm { g . ~ F } \\, } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { f . ~ } \\, ( \\, } \\\\ { \\mathrm { g . ~ F } \\, } \\end{array}",
+            "text_fallback": "l f . ~ \\, ( \\, \\\\ g . ~ F \\,",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 100,
+          "region_id": "formula_05",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39453125,
+            "y1": 626.228271484375,
+            "x2": 78.39862060546875,
+            "y2": 668.020263671875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { a . ~ C } } } \\\\ { { \\mathrm { b . ~ N } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { a . ~ C } } } \\\\ { { \\mathrm { b . ~ N } } } \\end{array}",
+            "text_fallback": "c a . ~ C \\\\ b . ~ N",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 101,
+      "summary": {
+        "page": 101,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.394500732421875,
+            "y1": 197.22824096679688,
+            "x2": 78.39859008789062,
+            "y2": 239.14024353027344
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 101,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.394500732421875,
+            "y1": 197.22824096679688,
+            "x2": 78.39859008789062,
+            "y2": 239.14024353027344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x141"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ I ~ } } ^ { \\mathrm { ~ a ~ } , \\mathrm { ~ I ~ } }",
+            "latex": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ I ~ } } ^ { \\mathrm { ~ a ~ } , \\mathrm { ~ I ~ } }",
+            "text_fallback": "~ b ~ , ~ I ~ ** ~ a ~ , ~ I ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 102,
+      "summary": {
+        "page": 102,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9878398776054382,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 49.56519734405129,
+            "y1": 215.21422917112014,
+            "x2": 538.1472876168566,
+            "y2": 521.9868919760715
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 102,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 49.56519734405129,
+            "y1": 215.21422917112014,
+            "x2": 538.1472876168566,
+            "y2": 521.9868919760715
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9878398776054382,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Процесс План верификации проектирования Реализация 5.5.4 Методы Матрица верификации Матрица Заключение о (исходная) 5.5.5 (итоговая) верификации 5.5.6.3 5.5.6.3 5.5.6.4 Требования к проекту и уровень гарантии разработки Данные Отклонения 5.5.2 ПРОЦЕСС РАЗРАБОТКИ ПРОЦЕСС ВЕРИФИКАЦИИ",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0102_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9878398776054382,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 103,
+      "summary": {
+        "page": 103,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39508056640625,
+            "y1": 617.46826171875,
+            "x2": 78.399169921875,
+            "y2": 659.3802490234375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 103,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39508056640625,
+            "y1": 617.46826171875,
+            "x2": 78.399169921875,
+            "y2": 659.3802490234375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ } , \\textit { b } } ^ { \\mathrm { ~ a ~ k ~ } }",
+            "latex": "_ { \\mathrm { ~ b ~ } , \\textit { b } } ^ { \\mathrm { ~ a ~ k ~ } }",
+            "text_fallback": "~ b ~ , b ** ~ a ~ k ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 104,
+      "summary": {
+        "page": 104,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 105,
+      "summary": {
+        "page": 105,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.399879455566406,
+            "y1": 368.5882873535156,
+            "x2": 78.39810943603516,
+            "y2": 410.3802795410156
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39410400390625,
+            "y1": 452.46826171875,
+            "x2": 78.398193359375,
+            "y2": 494.3802490234375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.399444580078125,
+            "y1": 535.2682495117188,
+            "x2": 78.39767456054688,
+            "y2": 577.1802978515625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 105,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.399879455566406,
+            "y1": 368.5882873535156,
+            "x2": 78.39810943603516,
+            "y2": 410.3802795410156
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { d . ~ } 1 } \\\\ { \\mathrm { ~ e . ~ c ~ } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { d . ~ } 1 } \\\\ { \\mathrm { ~ e . ~ c ~ } } \\end{array}",
+            "text_fallback": "l d . ~ 1 \\\\ ~ e . ~ c ~",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 105,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39410400390625,
+            "y1": 452.46826171875,
+            "x2": 78.398193359375,
+            "y2": 494.3802490234375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x141"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ . ~ F ~ } } ^ { \\mathrm { ~ a ~ . ~ F ~ } }",
+            "latex": "_ { \\mathrm { ~ b ~ . ~ F ~ } } ^ { \\mathrm { ~ a ~ . ~ F ~ } }",
+            "text_fallback": "~ b ~ . ~ F ~ ** ~ a ~ . ~ F ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 105,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.399444580078125,
+            "y1": 535.2682495117188,
+            "x2": 78.39767456054688,
+            "y2": 577.1802978515625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x141"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { d . ~ F ~ } } \\\\ { \\mathrm { e . ~ F } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { d . ~ F ~ } } \\\\ { \\mathrm { e . ~ F } } \\end{array}",
+            "text_fallback": "l d . ~ F ~ \\\\ e . ~ F",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 106,
+      "summary": {
+        "page": 106,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 107,
+      "summary": {
+        "page": 107,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 108,
+      "summary": {
+        "page": 108,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 109,
+      "summary": {
+        "page": 109,
+        "n_detections": 4,
+        "n_formulas": 4,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.394439697265625,
+            "y1": 77.8282699584961,
+            "x2": 78.39852905273438,
+            "y2": 119.74028015136719
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.40038299560547,
+            "y1": 139.98831176757812,
+            "x2": 78.39861297607422,
+            "y2": 181.9003143310547
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.394439697265625,
+            "y1": 459.908203125,
+            "x2": 78.39852905273438,
+            "y2": 501.8201904296875
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39459228515625,
+            "y1": 663.1881103515625,
+            "x2": 78.398681640625,
+            "y2": 705.1001586914062
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 109,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.394439697265625,
+            "y1": 77.8282699584961,
+            "x2": 78.39852905273438,
+            "y2": 119.74028015136719
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { a . ~ C } } } \\\\ { { \\mathrm { b . ~ y } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { a . ~ C } } } \\\\ { { \\mathrm { b . ~ y } } } \\end{array}",
+            "text_fallback": "c a . ~ C \\\\ b . ~ y",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 109,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.40038299560547,
+            "y1": 139.98831176757812,
+            "x2": 78.39861297607422,
+            "y2": 181.9003143310547
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x141"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { d . ~ C ~ } } \\\\ { \\mathrm { ~ e . ~ I ~ } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { d . ~ C ~ } } \\\\ { \\mathrm { ~ e . ~ I ~ } } \\end{array}",
+            "text_fallback": "l d . ~ C ~ \\\\ ~ e . ~ I ~",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 109,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.394439697265625,
+            "y1": 459.908203125,
+            "x2": 78.39852905273438,
+            "y2": 501.8201904296875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { a . ~ } \\mathord { \\left/ { \\vphantom { \\mathrm { a . ~ } \\mathrm { a . ~ } } } \\right. \\kern - \\nulldelimiterspace } } } \\\\ { { \\mathrm { b . ~ H . ~ } \\mathord { \\left/ { \\vphantom { \\mathrm { b . ~ H . ~ } \\mathrm { b . ~ } } } \\right. \\kern - \\nulldelimiterspace } } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { a . ~ } \\mathord { \\left/ { \\vphantom { \\mathrm { a . ~ } \\mathrm { a . ~ } } } \\right. \\kern - \\nulldelimiterspace } } } \\\\ { { \\mathrm { b . ~ H . ~ } \\mathord { \\left/ { \\vphantom { \\mathrm { b . ~ H . ~ } \\mathrm { b . ~ } } } \\right. \\kern - \\nulldelimiterspace } } } \\end{array}",
+            "text_fallback": "c a . ~ / a . ~ a . ~ . - \\\\ b . ~ H . ~ / b . ~ H . ~ b . ~ . -",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 109,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39459228515625,
+            "y1": 663.1881103515625,
+            "x2": 78.398681640625,
+            "y2": 705.1001586914062
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ Y ~ } } ^ { \\mathrm { ~ a ~ } , \\mathrm { ~ F ~ } }",
+            "latex": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ Y ~ } } ^ { \\mathrm { ~ a ~ } , \\mathrm { ~ F ~ } }",
+            "text_fallback": "~ b ~ , ~ Y ~ ** ~ a ~ , ~ F ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 110,
+      "summary": {
+        "page": 110,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 111,
+      "summary": {
+        "page": 111,
+        "n_detections": 3,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9669294357299805,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 41.03312063707558,
+            "y1": 72.17439599463245,
+            "x2": 570.920239567973,
+            "y2": 454.4046289020749
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.39361572265625,
+            "y1": 550.26806640625,
+            "x2": 78.397705078125,
+            "y2": 592.1801147460938
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.399559020996094,
+            "y1": 612.4281005859375,
+            "x2": 78.39778900146484,
+            "y2": 654.2200927734375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 111,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 41.03312063707558,
+            "y1": 72.17439599463245,
+            "x2": 570.920239567973,
+            "y2": 454.4046289020749
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9669294357299805,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Новые проекты План управления конфигурацией Производные 5.6.2.1 проекты Установление базовых версий Регистрация проблем и управление изменениями 5.6.2.4 Хранение и воспроизведение 5.6.2.2/5.6.2.3 Промежуточные Регистрация проблем и управление конфигурации изменениями Хранение 5.6.2.5 Итоговая конфигурация (на момент окончания разработки)",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0111_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9669294357299805,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 111,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.39361572265625,
+            "y1": 550.26806640625,
+            "x2": 78.397705078125,
+            "y2": 592.1801147460938
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ I ~ } } ^ { \\mathrm { ~ a ~ J ~ } }",
+            "latex": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ I ~ } } ^ { \\mathrm { ~ a ~ J ~ } }",
+            "text_fallback": "~ b ~ , ~ I ~ ** ~ a ~ J ~",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 111,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.399559020996094,
+            "y1": 612.4281005859375,
+            "x2": 78.39778900146484,
+            "y2": 654.2200927734375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=d. e.",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\mathrm { d . ~ y ~ } } \\\\ { \\mathrm { e . ~ } \\mathrm { ) } } \\end{array}",
+            "latex": "\\begin{array} { l } { \\mathrm { d . ~ y ~ } } \\\\ { \\mathrm { e . ~ } \\mathrm { ) } } \\end{array}",
+            "text_fallback": "l d . ~ y ~ \\\\ e . ~ )",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 112,
+      "summary": {
+        "page": 112,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 113,
+      "summary": {
+        "page": 113,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 114,
+      "summary": {
+        "page": 114,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 79.67996215820312,
+            "y1": 168.75485229492188,
+            "x2": 503.9347839355469,
+            "y2": 347.0552062988281
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 114,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 79.67996215820312,
+            "y1": 168.75485229492188,
+            "x2": 503.9347839355469,
+            "y2": 347.0552062988281
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8625,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=6",
+              "cols=3",
+              "numeric_ratio=0.39",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.863",
+              "rows=8 cols=5 consistency=1.00 meaningful=0.72",
+              "span_cols=5",
+              "span_rows=8"
+            ]
+          },
+          "content": {
+            "markdown": "|  | Мероприятие процесса УК | Раздел | КК1 | КК2 |\n| --- | --- | --- | --- | --- |\n| Идентификация конфигурации |  | 5.6.2.2 | X | X |\n| Установление базовой конфигурации |  | 5.6.2.3 | X |  |\n| Регистрация проблем |  | 5.6.2.4 a | X |  |\n|  | Управление изменениями – гарантия целостности | 5.6.2.4d | X | X |\n|  | Управление изменениями – Прослеживаемость | 5.6.2.4b,c | X |  |\n| Составление указателя конфигурации |  | 5.8.4.2 | X | X |\n| Хранение и воспроизведение |  | 5.6.2.5 | X | X |",
+            "html": "",
+            "n_rows": 8,
+            "n_cols": 5,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8625,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 115,
+      "summary": {
+        "page": 115,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 116,
+      "summary": {
+        "page": 116,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 117,
+      "summary": {
+        "page": 117,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 61.3946533203125,
+            "y1": 405.9082946777344,
+            "x2": 78.39874267578125,
+            "y2": 447.82025146484375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 117,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 61.3946533203125,
+            "y1": 405.9082946777344,
+            "x2": 78.39874267578125,
+            "y2": 447.82025146484375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=a. b.",
+              "pylatexenc_ok",
+              "preview_wh=71x140"
+            ]
+          },
+          "content": {
+            "latex_raw": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ K ~ } } ^ { \\mathrm { ~ a ~ } 3 }",
+            "latex": "_ { \\mathrm { ~ b ~ } , \\mathrm { ~ K ~ } } ^ { \\mathrm { ~ a ~ } 3 }",
+            "text_fallback": "~ b ~ , ~ K ~ ** ~ a ~ 3",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 118,
+      "summary": {
+        "page": 118,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 119,
+      "summary": {
+        "page": 119,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 120,
+      "summary": {
+        "page": 120,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 121,
+      "summary": {
+        "page": 121,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 122,
+      "summary": {
+        "page": 122,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 123,
+      "summary": {
+        "page": 123,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 124,
+      "summary": {
+        "page": 124,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 125,
+      "summary": {
+        "page": 125,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 126,
+      "summary": {
+        "page": 126,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 127,
+      "summary": {
+        "page": 127,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 128,
+      "summary": {
+        "page": 128,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 129,
+      "summary": {
+        "page": 129,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 130,
+      "summary": {
+        "page": 130,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 131,
+      "summary": {
+        "page": 131,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 132,
+      "summary": {
+        "page": 132,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 133,
+      "summary": {
+        "page": 133,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 134,
+      "summary": {
+        "page": 134,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 135,
+      "summary": {
+        "page": 135,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 136,
+      "summary": {
+        "page": 136,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 93.9509506225586,
+            "y1": 248.5204315185547,
+            "x2": 440.7748107910156,
+            "y2": 365.8496398925781
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 136,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 93.9509506225586,
+            "y1": 248.5204315185547,
+            "x2": 440.7748107910156,
+            "y2": 365.8496398925781
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.89,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=10",
+              "numeric_ratio=0.85",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.890",
+              "rows=5 cols=10 consistency=1.00 meaningful=0.78",
+              "span_cols=10",
+              "span_rows=5"
+            ]
+          },
+          "content": {
+            "markdown": "|  | E | 1 |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | D | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |\n| Системная категория контроля в зависимости от DAL (см.5.6.2.6) | С | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |\n|  | B | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |\n|  | A | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |",
+            "html": "",
+            "n_rows": 5,
+            "n_cols": 10,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.89,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 137,
+      "summary": {
+        "page": 137,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 61.910972595214844,
+            "y1": 247.18980407714844,
+            "x2": 460.2148132324219,
+            "y2": 356.37103271484375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 137,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 61.910972595214844,
+            "y1": 247.18980407714844,
+            "x2": 460.2148132324219,
+            "y2": 356.37103271484375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8777777777777778,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=9",
+              "numeric_ratio=0.83",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.878",
+              "rows=5 cols=9 consistency=1.00 meaningful=0.76",
+              "span_cols=9",
+              "span_rows=5"
+            ]
+          },
+          "content": {
+            "markdown": "|  | E |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | D | 2 | 2 | 2 | 2 | 2 | 2 | 2 |\n| Системная категория контроля, определяемая DAL (см.5.6.2.6) | С | 1 | 1 | 1 | 1 | 2 | 1 | 2 |\n|  | B | 1 | 1 | 1 | 1 | 1 | 1 | 2 |\n|  | A | 1 | 1 | 1 | 1 | 1 | 1 | 2 |",
+            "html": "",
+            "n_rows": 5,
+            "n_cols": 9,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8777777777777778,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 138,
+      "summary": {
+        "page": 138,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 54.71097946166992,
+            "y1": 253.789794921875,
+            "x2": 476.8948059082031,
+            "y2": 362.9717712402344
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 138,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 54.71097946166992,
+            "y1": 253.789794921875,
+            "x2": 476.8948059082031,
+            "y2": 362.9717712402344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8636363636363636,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=11",
+              "numeric_ratio=0.85",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.864",
+              "rows=5 cols=11 consistency=1.00 meaningful=0.73",
+              "span_cols=11",
+              "span_rows=5"
+            ]
+          },
+          "content": {
+            "markdown": "|  | E | 1 |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | D | 1 | 1 | 2 |  |  |  | 1 | 2 | 2 |\n| Системная категория контроля, определяемая DAL (см.5.6.2.6) | С | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |\n|  | B | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |\n|  | A | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |",
+            "html": "",
+            "n_rows": 5,
+            "n_cols": 11,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8636363636363636,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 139,
+      "summary": {
+        "page": 139,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 140,
+      "summary": {
+        "page": 140,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 68.63096618652344,
+            "y1": 253.79022216796875,
+            "x2": 351.6148376464844,
+            "y2": 362.9717712402344
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 140,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 68.63096618652344,
+            "y1": 253.79022216796875,
+            "x2": 351.6148376464844,
+            "y2": 362.9717712402344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8714285714285714,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=7",
+              "numeric_ratio=0.78",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.871",
+              "rows=5 cols=7 consistency=1.00 meaningful=0.74",
+              "span_cols=7",
+              "span_rows=5"
+            ]
+          },
+          "content": {
+            "markdown": "|  | E |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | D | 2 | 2 | 2 | 2 | 2 |\n| Системная категория контроля, определяемая DAL (см.5.6.2.6) | С | 2 | 2 | 2 | 2 | 2 |\n|  | B | 2 | 2 | 2 | 2 | 2 |\n|  | A | 2 | 2 | 2 | 2 | 2 |",
+            "html": "",
+            "n_rows": 5,
+            "n_cols": 7,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8714285714285714,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 141,
+      "summary": {
+        "page": 141,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 63.470970153808594,
+            "y1": 253.789794921875,
+            "x2": 492.2547912597656,
+            "y2": 362.9717712402344
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 141,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 63.470970153808594,
+            "y1": 253.789794921875,
+            "x2": 492.2547912597656,
+            "y2": 362.9717712402344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8833333333333333,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=12",
+              "numeric_ratio=0.87",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.883",
+              "rows=5 cols=12 consistency=1.00 meaningful=0.77",
+              "span_cols=12",
+              "span_rows=5"
+            ]
+          },
+          "content": {
+            "markdown": "|  | E |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | D | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |\n| Системная категория контроля, определяемая DAL (см.5.6.2.6) | С | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |\n|  | B | 1 | 1 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 |\n|  | A | 1 | 1 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 |",
+            "html": "",
+            "n_rows": 5,
+            "n_cols": 12,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8833333333333333,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 142,
+      "summary": {
+        "page": 142,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 143,
+      "summary": {
+        "page": 143,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 68.63096618652344,
+            "y1": 253.79022216796875,
+            "x2": 331.93487548828125,
+            "y2": 362.9717712402344
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 143,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 68.63096618652344,
+            "y1": 253.79022216796875,
+            "x2": 331.93487548828125,
+            "y2": 362.9717712402344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8666666666666666,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=4",
+              "cols=6",
+              "numeric_ratio=0.74",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.867",
+              "rows=5 cols=6 consistency=1.00 meaningful=0.73",
+              "span_cols=6",
+              "span_rows=5"
+            ]
+          },
+          "content": {
+            "markdown": "|  | E |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | D | 2 | 2 | 2 | 2 |\n| Системная категория контроля, определяемая DAL (см.5.6.2.6) | С | 2 | 2 | 2 | 2 |\n|  | B | 2 | 1 | 2 | 2 |\n|  | A | 2 | 1 | 2 | 2 |",
+            "html": "",
+            "n_rows": 5,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8666666666666666,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 144,
+      "summary": {
+        "page": 144,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 145,
+      "summary": {
+        "page": 145,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 146,
+      "summary": {
+        "page": 146,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 147,
+      "summary": {
+        "page": 147,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 148,
+      "summary": {
+        "page": 148,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 149,
+      "summary": {
+        "page": 149,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 150,
+      "summary": {
+        "page": 150,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 151,
+      "summary": {
+        "page": 151,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 152,
+      "summary": {
+        "page": 152,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 153,
+      "summary": {
+        "page": 153,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 154,
+      "summary": {
+        "page": 154,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 155,
+      "summary": {
+        "page": 155,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 156,
+      "summary": {
+        "page": 156,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 157,
+      "summary": {
+        "page": 157,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 158,
+      "summary": {
+        "page": 158,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 159,
+      "summary": {
+        "page": 159,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 160,
+      "summary": {
+        "page": 160,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 161,
+      "summary": {
+        "page": 161,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 162,
+      "summary": {
+        "page": 162,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 163,
+      "summary": {
+        "page": 163,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 164,
+      "summary": {
+        "page": 164,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 165,
+      "summary": {
+        "page": 165,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 166,
+      "summary": {
+        "page": 166,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9813858866691589,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 176.80912163210002,
+            "y1": 71.43952245822366,
+            "x2": 496.38209255839286,
+            "y2": 521.7747340860811
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 166,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 176.80912163210002,
+            "y1": 71.43952245822366,
+            "x2": 496.38209255839286,
+            "y2": 521.7747340860811
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9813858866691589,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "a. Выбрать FC из FHA b. Назначить FDAL верхнего уровня по Табл. 2 с. Идентифицировать FFS d. Выбрать FFS е. Содержит ли FFS несколько элементов группы? HeT да f. Правомерна ли заявленная функциональная HeT независимость? да h. Назначить FDAL элементам g. Назначить FDAL элементу FFS в соответствии с опциями 1 группы FFS в соответствии с или 2 Табл. 3 колонкоЙ 2 Табл. 3 i. Все ли FFS для ј. Все ли FC из FHA данного FС были были оценены? HeT a оценены? HeT a к. Убедиться, что назначение FDAL удовле",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0166_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9813858866691589,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 167,
+      "summary": {
+        "page": 167,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9889534711837769,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 198.49691973696025,
+            "y1": 72.34655456412496,
+            "x2": 477.06000298640254,
+            "y2": 537.4134247491583
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "Р 4754А по разработке ВС ГА и систем",
+          "page": 167,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 198.49691973696025,
+            "y1": 72.34655456412496,
+            "x2": 477.06000298640254,
+            "y2": 537.4134247491583
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9889534711837769,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Назначение IDAL 1. Выбрать FC из FHA m. Выделить все FFS, связанные с элементами или объединённые элементы и функции n. Выбрать FFS 0. Содержит ли FFS несколько элементов группы? HeT да . Действительна ли заявленная независимость ли заявленная HeT функциональная независимость? да q. Назначить IDAL элементам группы FFS в соответствии с опциями 1 или 2 Табл. 3 и дополнительными аспектами из раздела 5.2.3.4 r. Назначить IDAL элементу FFS в соответствии с колонкой 2 Табл. 3 s. Все ли FFS для данного",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\Р 4754А по разработке ВС ГА и систем\\p0167_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9889534711837769,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 168,
+      "summary": {
+        "page": 168,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 169,
+      "summary": {
+        "page": 169,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 170,
+      "summary": {
+        "page": 170,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "Р 4754А по разработке ВС ГА и систем",
+      "page": 171,
+      "summary": {
+        "page": 171,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

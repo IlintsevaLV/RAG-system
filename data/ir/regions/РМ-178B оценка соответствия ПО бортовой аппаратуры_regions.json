@@ -1,0 +1,1442 @@
+{
+  "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РМ-178B оценка соответствия ПО бортовой аппаратуры.pdf",
+  "page_count": 32,
+  "pages": [
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 56.839999999999996,
+            "y1": 52.519999999999996,
+            "x2": 85.0,
+            "y2": 86.08
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 11,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 56.839999999999996,
+            "y1": 52.519999999999996,
+            "x2": 85.0,
+            "y2": 86.08
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng π/π",
+              "pylatexenc_ok",
+              "preview_wh=103x118"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\left| \\frac { \\mathsf { N o } } { \\mathsf { n / n } } \\right|",
+            "latex": "\\left| \\frac { \\mathsf { N o } } { \\mathsf { n / n } } \\right|",
+            "text_fallback": "| N o n / n |",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.7875,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.92,
+            "y1": 53.599999999999994,
+            "x2": 94.36,
+            "y2": 86.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 18,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.92,
+            "y1": 53.599999999999994,
+            "x2": 94.36,
+            "y2": 86.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=N ν/ν",
+              "pylatexenc_ok",
+              "preview_wh=101x117"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { n / n } { 1 + n ^ { 2 } } }",
+            "latex": "\\frac { N o } { \\frac { n / n } { 1 + n ^ { 2 } } }",
+            "text_fallback": "N o n / n 1 + n ** 2",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.879999999999995,
+            "x2": 94.72,
+            "y2": 86.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 19,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.879999999999995,
+            "x2": 94.72,
+            "y2": 86.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng ν/ν",
+              "pylatexenc_ok",
+              "preview_wh=103x119"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { n / n } { 1 + n c } }",
+            "latex": "\\frac { N o } { \\frac { n / n } { 1 + n c } }",
+            "text_fallback": "N o n / n 1 + n c",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.519999999999996,
+            "x2": 94.36,
+            "y2": 87.16
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 22,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.519999999999996,
+            "x2": 94.36,
+            "y2": 87.16
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=No π/π",
+              "pylatexenc_ok",
+              "preview_wh=102x121"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { n / n } { 2 0 } }",
+            "latex": "\\frac { N o } { \\frac { n / n } { 2 0 } }",
+            "text_fallback": "N o n / n 2 0",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.92,
+            "y1": 52.879999999999995,
+            "x2": 94.36,
+            "y2": 87.16
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 23,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.92,
+            "y1": 52.879999999999995,
+            "x2": 94.36,
+            "y2": 87.16
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng π/π",
+              "pylatexenc_ok",
+              "preview_wh=101x120"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { n / n } { 2 0 0 0 } }",
+            "latex": "\\frac { N o } { \\frac { n / n } { 2 0 0 0 } }",
+            "text_fallback": "N o n / n 2 0 0 0",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.65,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 477.8895263671875,
+            "y1": 133.01710510253906,
+            "x2": 518.7735595703125,
+            "y2": 164.07711791992188
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.65,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 478.1705322265625,
+            "y1": 183.8521270751953,
+            "x2": 518.7725219726562,
+            "y2": 214.91213989257812
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.65,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 479.2774658203125,
+            "y1": 273.5201110839844,
+            "x2": 521.5504760742188,
+            "y2": 304.5801086425781
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 24,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 477.8895263671875,
+            "y1": 133.01710510253906,
+            "x2": 518.7735595703125,
+            "y2": 164.07711791992188
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=6.3.2b -4 № 2",
+              "pylatexenc_ok",
+              "preview_wh=138x110"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { 6 . 3 . 2 b } { A - 4 \\times 1 0 ^ { 2 } }",
+            "latex": "\\frac { 6 . 3 . 2 b } { A - 4 \\times 1 0 ^ { 2 } }",
+            "text_fallback": "6 . 3 . 2 b A - 4 1 0 ** 2",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 24,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 478.1705322265625,
+            "y1": 183.8521270751953,
+            "x2": 518.7725219726562,
+            "y2": 214.91213989257812
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=6.3.2c -4 № 3",
+              "pylatexenc_ok",
+              "preview_wh=137x110"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { 6 . 3 . 2 c } { A - 4 \\times 1 0 3 }",
+            "latex": "\\frac { 6 . 3 . 2 c } { A - 4 \\times 1 0 3 }",
+            "text_fallback": "6 . 3 . 2 c A - 4 1 0 3",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 24,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 479.2774658203125,
+            "y1": 273.5201110839844,
+            "x2": 521.5504760742188,
+            "y2": 304.5801086425781
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=6.3.2t -4 № 5",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=141x111"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\sim \\cdots \\rightarrow \\rightarrow } } \\\\ { { 6 . 3 . 2 \\dag } } \\\\ { { \\bigwedge \\! \\! \\sim \\! \\! 4 \\! \\! \\mod 5 } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\sim \\cdots \\rightarrow \\rightarrow } } \\\\ { { 6 . 3 . 2 \\dag } } \\\\ { { \\bigwedge \\! \\! \\sim \\! \\! 4 \\! \\! \\mod 5 } } \\end{array}",
+            "text_fallback": "c arrow arrow \\\\ 6 . 3 . 2 \\\\ \\! \\! \\! \\! 4 \\! \\! 5",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.92,
+            "y1": 52.879999999999995,
+            "x2": 93.28,
+            "y2": 86.44
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.7041666666666666,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 470.84,
+            "y1": 64.03999999999999,
+            "x2": 560.1999999999999,
+            "y2": 87.88
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 25,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.92,
+            "y1": 52.879999999999995,
+            "x2": 93.28,
+            "y2": 86.44
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng π/π",
+              "pylatexenc_ok",
+              "preview_wh=98x118"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { n / n } { n _ { A } s \\cdot } }",
+            "latex": "\\frac { N o } { \\frac { n / n } { n _ { A } s \\cdot } }",
+            "text_fallback": "N o n / n n A s",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 25,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 470.84,
+            "y1": 64.03999999999999,
+            "x2": 560.1999999999999,
+            "y2": 87.88
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "merged_fragments",
+              "text=KT-178Β (ι/Μ)",
+              "pylatexenc_ok",
+              "preview_wh=273x91",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { \\left| \\mathsf { I y t r } _ { } \\right| \\mathsf { O u e n t s a } } { \\in \\mathsf { 1 7 8 8 } } \\left| \\mathsf { I } _ { } \\right| \\left( \\sqrt { \\ I \\ } _ { } \\right) ^ { }",
+            "latex": "\\frac { \\left| \\mathsf { I y t r } _ { } \\right| \\mathsf { O u e n t s a } } { \\in \\mathsf { 1 7 8 8 } } \\left| \\mathsf { I } _ { } \\right| \\left( \\sqrt { \\ I \\ } _ { } \\right) ^ { }",
+            "text_fallback": "| I y t r | O u e n t s a 1 7 8 8 | I | ( \\ I \\ ) **",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 4,
+        "n_formulas": 4,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.879999999999995,
+            "x2": 94.0,
+            "y2": 86.8
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6416666666666666,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 473.7167663574219,
+            "y1": 657.3048706054688,
+            "x2": 518.768798828125,
+            "y2": 688.46484375
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6416666666666666,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 473.7159118652344,
+            "y1": 696.4398803710938,
+            "x2": 518.7679443359375,
+            "y2": 727.599853515625
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6416666666666666,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 473.9950256347656,
+            "y1": 723.474853515625,
+            "x2": 518.7660522460938,
+            "y2": 754.6348266601562
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 29,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.879999999999995,
+            "x2": 94.0,
+            "y2": 86.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng π/π",
+              "pylatexenc_ok",
+              "preview_wh=101x119"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { n / n } { n \\Delta + 1 } }",
+            "latex": "\\frac { N o } { \\frac { n / n } { n \\Delta + 1 } }",
+            "text_fallback": "N o n / n n + 1",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 29,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 473.7167663574219,
+            "y1": 657.3048706054688,
+            "x2": 518.768798828125,
+            "y2": 688.46484375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=6.4.4.2b -7 № 6",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=150x111"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\left| \\begin{array} { l } { 6 . 4 . 4 . 2 8 } \\\\ { 6 . 4 . 4 . 2 6 } \\\\ { \\mathsf { A } { - } 7 \\mathrm { ~ M } \\mathsf { o } \\ 6 } \\\\ { \\mathsf { A } { + } \\ \\mathsf { A } { + } \\mathsf { o } . 2 6 } \\end{array} \\right|",
+            "latex": "\\left| \\begin{array} { l } { 6 . 4 . 4 . 2 8 } \\\\ { 6 . 4 . 4 . 2 6 } \\\\ { \\mathsf { A } { - } 7 \\mathrm { ~ M } \\mathsf { o } \\ 6 } \\\\ { \\mathsf { A } { + } \\ \\mathsf { A } { + } \\mathsf { o } . 2 6 } \\end{array} \\right|",
+            "text_fallback": "| l 6 . 4 . 4 . 2 8 \\\\ 6 . 4 . 4 . 2 6 \\\\ A - 7 ~ M o \\ 6 \\\\ A + \\ A + o . 2 6 |",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 29,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 473.7159118652344,
+            "y1": 696.4398803710938,
+            "x2": 518.7679443359375,
+            "y2": 727.599853515625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=6.4.4.2b -7 № 7",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=150x111"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\left| \\begin{array} { l } { 6 . 4 . 4 . 2 8 } \\\\ { 6 . 4 . 4 . 2 6 } \\\\ { \\mathsf { A } { - } 7 \\mathrm { ~ M } \\mathsf { o } \\ 7 } \\\\ { \\mathsf { c } \\ A \\ A \\ m { + } \\ \\mathsf { C } \\, . } \\end{array} \\right|",
+            "latex": "\\left| \\begin{array} { l } { 6 . 4 . 4 . 2 8 } \\\\ { 6 . 4 . 4 . 2 6 } \\\\ { \\mathsf { A } { - } 7 \\mathrm { ~ M } \\mathsf { o } \\ 7 } \\\\ { \\mathsf { c } \\ A \\ A \\ m { + } \\ \\mathsf { C } \\, . } \\end{array} \\right|",
+            "text_fallback": "| l 6 . 4 . 4 . 2 8 \\\\ 6 . 4 . 4 . 2 6 \\\\ A - 7 ~ M o \\ 7 \\\\ c \\ A \\ A \\ m + \\ C \\, . |",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 29,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 473.9950256347656,
+            "y1": 723.474853515625,
+            "x2": 518.7660522460938,
+            "y2": 754.6348266601562
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=6.4.4.2c -7 № 8",
+              "pylatexenc_ok",
+              "preview_wh=149x111"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\left| \\begin{array} { c } { \\sim \\cdots \\ W = \\prime } \\\\ { \\ \\ 6 . 4 . 4 . 2 c } \\\\ { \\ \\ \\ A { - } 7 \\ W _ { 2 } 8 } \\\\ { \\ \\ \\cdot { } ^ { \\prime } \\ W _ { 3 } } \\end{array} \\right|",
+            "latex": "\\left| \\begin{array} { c } { \\sim \\cdots \\ W = \\prime } \\\\ { \\ \\ 6 . 4 . 4 . 2 c } \\\\ { \\ \\ \\ A { - } 7 \\ W _ { 2 } 8 } \\\\ { \\ \\ \\cdot { } ^ { \\prime } \\ W _ { 3 } } \\end{array} \\right|",
+            "text_fallback": "| c \\ W = \\\\ \\ \\ 6 . 4 . 4 . 2 c \\\\ \\ \\ \\ A - 7 \\ W 2 8 \\\\ \\ \\ ** \\ W 3 |",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.879999999999995,
+            "x2": 94.0,
+            "y2": 86.8
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 30,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 66.56,
+            "y1": 52.879999999999995,
+            "x2": 94.0,
+            "y2": 86.8
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=Ng π/π",
+              "pylatexenc_ok",
+              "preview_wh=101x119"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { \\frac { n / n } { \\lambda \\rho } }",
+            "latex": "\\frac { N o } { \\frac { n / n } { \\lambda \\rho } }",
+            "text_fallback": "N o n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 481.5541687011719,
+            "y1": 198.28712463378906,
+            "x2": 509.0082092285156,
+            "y2": 232.18112182617188
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 481.5511474609375,
+            "y1": 239.9561309814453,
+            "x2": 509.00518798828125,
+            "y2": 271.0161437988281
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 32,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 481.5541687011719,
+            "y1": 198.28712463378906,
+            "x2": 509.0082092285156,
+            "y2": 232.18112182617188
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=9.2 9.2a",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=100x118"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { \\sim \\cdots } \\\\ { 9 . 2 \\exists } \\\\ { 9 . 2 \\ltimes \\rule { 0.5 pt } { 0 ex } } \\end{array}",
+            "latex": "\\begin{array} { c } { \\sim \\cdots } \\\\ { 9 . 2 \\exists } \\\\ { 9 . 2 \\ltimes \\rule { 0.5 pt } { 0 ex } } \\end{array}",
+            "text_fallback": "c \\\\ 9 . 2 \\\\ 9 . 2 0.5 pt 0 ex",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РМ-178B оценка соответствия ПО бортовой аппаратуры",
+          "page": 32,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 481.5511474609375,
+            "y1": 239.9561309814453,
+            "x2": 509.00518798828125,
+            "y2": 271.0161437988281
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "merged_fragments",
+              "text=9.2b 9.2",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=100x110"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { 9 . 2 6 } \\\\ { 9 . 2 \\mathrm { c } } \\end{array}",
+            "latex": "\\begin{array} { c } { 9 . 2 6 } \\\\ { 9 . 2 \\mathrm { c } } \\end{array}",
+            "text_fallback": "c 9 . 2 6 \\\\ 9 . 2 c",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    }
+  ]
+}

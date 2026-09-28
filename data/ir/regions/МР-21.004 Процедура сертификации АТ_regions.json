@@ -1,0 +1,1346 @@
+{
+  "doc_id": "МР-21.004 Процедура сертификации АТ",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\МР-21.004 Процедура сертификации АТ.pdf",
+  "page_count": 44,
+  "pages": [
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.6408395767211914,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 55.362128496025804,
+            "y1": 598.8365175296935,
+            "x2": 557.683889362499,
+            "y2": 694.430037793261
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 9,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 55.362128496025804,
+            "y1": 598.8365175296935,
+            "x2": 557.683889362499,
+            "y2": 694.430037793261
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.6408395767211914,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "ЭТАП \"1\" ЭТАП \"2\" ЭТАП \"3\" ЭТАП \"4\" Подача Заявки Сертификационн Планирование Рассмотрение Одобрительного на получение CP (квалификационн ые результатов СР, документа Этап макета ые) работы Выдача Регистрация Экспертиза СБ и Экспертиза Одобрительного Заявки ПСР документации документа",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0009_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.6408395767211914,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9075207114219666,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 99.82495584274449,
+            "y1": 204.08450887548764,
+            "x2": 534.5970715974506,
+            "y2": 474.9327943173164
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.8463609218597412,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 86.0361884567713,
+            "y1": 601.9123235590797,
+            "x2": 190.64795796970705,
+            "y2": 656.1727146182931
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 10,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 99.82495584274449,
+            "y1": 204.08450887548764,
+            "x2": 534.5970715974506,
+            "y2": 474.9327943173164
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9075207114219666,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Заявитель подает Заявку Информирование 1.2 B Росавиацию Заявителя Рассмотрение Заявки УСАТ Росавиации 1.3 на соответствие критериям. Не соответствует Соответствует 1.4 Регистрация Заявки. Дело проекта: Создание Дела проекта. -Заявка Информирование Заявителя и АР 1.5 Передача Заявки в АР для организации СР Дело проекта: - письмо Переход на этап 2.2",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0010_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9075207114219666,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 10,
+          "region_id": "figure_01",
+          "type": "figure",
+          "bbox": {
+            "x1": 86.0361884567713,
+            "y1": 601.9123235590797,
+            "x2": 190.64795796970705,
+            "y2": 656.1727146182931
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8463609218597412,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "- -",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0010_figure_01.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.8463609218597412,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9771093726158142,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 117.46888970146017,
+            "y1": 279.57984817981105,
+            "x2": 556.2251890059031,
+            "y2": 644.338276824364
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.8,
+          "method": "pdf_image",
+          "bbox": {
+            "x1": 426.96,
+            "y1": 501.84,
+            "x2": 560.16,
+            "y2": 580.68
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 14,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 117.46888970146017,
+            "y1": 279.57984817981105,
+            "x2": 556.2251890059031,
+            "y2": 644.338276824364
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9771093726158142,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Переход из пункта 1.5 МР 2.2 Рассмотрение АР материалов Заявки. Формирование состава рабочей группы. Ознакомительная. Ознакомительная встреча (или макет) встреча (или макет) Информирование не требуется требуется Заявителя, АР, CL о составе макетной Проведение КОМИССИИ ознакомительной встречи с Заявителем Дело проекта: или этапа макета. - состав МK - протоколы макета Информирование о составе РГ Заявителя, Рассмотрение Росавиацией результатов AP и CL (при 2.3 экспертизы, выполненной АР. необходимо",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0014_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9771093726158142,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 14,
+          "region_id": "figure_01",
+          "type": "figure",
+          "bbox": {
+            "x1": 426.96,
+            "y1": 501.84,
+            "x2": 560.16,
+            "y2": 580.68
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Информирование о составе РГ Заявителя, АР и CL (при необходимости, в случае их участия в работах)",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0014_figure_01.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.8,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 36.71989822387695,
+            "y1": 413.317138671875,
+            "x2": 544.9935302734375,
+            "y2": 662.510498046875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 16,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 36.71989822387695,
+            "y1": 413.317138671875,
+            "x2": 544.9935302734375,
+            "y2": 662.510498046875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7888888888888889,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=11",
+              "cols=9",
+              "numeric_ratio=0.42",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.789",
+              "rows=15 cols=6 consistency=1.00 meaningful=0.58",
+              "span_cols=6",
+              "span_rows=15"
+            ]
+          },
+          "content": {
+            "markdown": "|  |  |  |  | Сертификация |  |\n| --- | --- | --- | --- | --- | --- |\n|  | СТ | ОГИ, ОВИ | ДСТ | зарубежных | СГКИ |\n|  |  |  |  | СТ, ДСТ, ОГИ, |  |\n|  |  |  |  | ОВИ | $(TSO/ETSO)$ |\n|  | (1) Спецификация АТ, 21.15 | (1) техническое описание 21.93 (b)(3) | (1) Сертификационный 21.113В(d) | (1) сопроводительное п.21.502(b) | (1) Спецификация КИ; п.21.602(b)(3) |\n| ВС и БАС в трех | $(2) Для ВС и БАС – вид$ | (2) перечень требований к летной годности и | базис модификации (2) программа | письмо уполномоченного органа государства | (2) проект Квалификационного |\n| ВВ, оборудования | проекциях, для АД, ВД, | охране окружающей среды | сертификационных работ | разработчика; (2) копия | базиса; (3) проект программы |\n| БАС – чертеж общего | управления и контроля | (3) программа сертификационных | (3) копия Соглашения или Обоснования | первоначального СТ с КДСТ; 7 | квалификационных работ. |\n| вида. (3) проект |  | работ | (21.113B(b)) | (3) описание типовой конструкции образца; 8 |  |\n| Сертификационного |  |  | (4*) техническое | (4) СБ образца ; 9 |  |\n| базиса |  |  | описание главного изменения | (5) эксплуатационная документация |  |\n|  | 21.20А |  | (21.112B(b)(1)) |  |  |\n| (4) проект СБ | (5) проект Программы |  |  |  | $Для TSO/ETSO и ОГИ к$ СГКИ прорабатываются |\n| сертификационных работ |  |  |  |  | аналогичные указанным в п.21.602(b)(3) |\n| кат. Б. | (6) перечень КИ кат. А и |  |  |  | документы |",
+            "html": "",
+            "n_rows": 15,
+            "n_cols": 6,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.7888888888888889,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 3,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 1
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.6709703803062439,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 70.64706556593657,
+            "y1": 190.71871560738094,
+            "x2": 551.9566076593693,
+            "y2": 538.8170592400598
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.8,
+          "method": "pdf_image",
+          "bbox": {
+            "x1": 417.59999999999997,
+            "y1": 246.6,
+            "x2": 550.8,
+            "y2": 343.44
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.6625000000000001,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 129.44000244140625,
+            "y1": 282.9793701171875,
+            "x2": 239.32888793945312,
+            "y2": 300.93939208984375
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 20,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 70.64706556593657,
+            "y1": 190.71871560738094,
+            "x2": 551.9566076593693,
+            "y2": 538.8170592400598
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.6709703803062439,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Переход из пункта 2.3 МР Участие в сертификационных работах и экспертиза Дело проекта: доказательной документации. - протоколы совещаний 3.2 - информация о выявленных секция_1 секция_2 секция_N проблемах и несоответствиях - копии утвержденных ПСР (если были изменены) - копии утвержденных Все работы в рамках программ СИ и программ РГ выполнены квалификационных испытаний 3.3 Рассмотрение результатов сертификационных работ Соответствие установлено АР готовит и направляет в Росавиацию Заключение о 3",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0020_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.6709703803062439,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 20,
+          "region_id": "figure_01",
+          "type": "figure",
+          "bbox": {
+            "x1": 417.59999999999997,
+            "y1": 246.6,
+            "x2": 550.8,
+            "y2": 343.44
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "проекта: - протоколы совещаний - информация о і выявленных проблемах и несоответствиях - копии утвержденных ПСР 1 . (если были изменены) - копии утвержденных программ си и программ квалификационных испытаний L",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0020_figure_01.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.8,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 20,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 129.44000244140625,
+            "y1": 282.9793701171875,
+            "x2": 239.32888793945312,
+            "y2": 300.93939208984375
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=2",
+              "text=секция_1 | секция_2",
+              "pylatexenc_ok",
+              "preview_wh=329x73",
+              "semantic_reason=figure_caption"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\boxed { \\mathrm { c e r t u n s \\_ 1 } } \\boxed { \\mathrm { c e r t u n s \\_ 2 } }",
+            "latex": "\\boxed { \\mathrm { c e r t u n s \\_ 1 } } \\boxed { \\mathrm { c e r t u n s \\_ 2 } }",
+            "text_fallback": "c e r t u n s \\ 1 c e r t u n s \\ 2",
+            "status": "caption_or_header",
+            "text": "секция_1 | секция_2"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 50.76019287109375,
+            "y1": 680.2733764648438,
+            "x2": 544.6331787109375,
+            "y2": 783.591064453125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 25,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 50.76019287109375,
+            "y1": 680.2733764648438,
+            "x2": 544.6331787109375,
+            "y2": 783.591064453125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7312500000000001,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=5",
+              "cols=7",
+              "numeric_ratio=0.35",
+              "nonempty_ratio=1.00",
+              "cell_ocr_score=0.731",
+              "grid=5x3",
+              "nonempty=5",
+              "meaningful_ratio=0.625",
+              "formula_cells=1"
+            ]
+          },
+          "content": {
+            "markdown": "| эижеаыинхэї омпоненты 1 класса; )Сертификационный базис омпонентов 1 класса, гочненный результатам |  |  |  |\n| --- | --- | --- | --- |\n| 21 с 21 ведомление и ед дставление | 21. (f) ’ведомление и iбе. 151 ав ле ние | $21 .114 (f) /ведомление и прел лставпеі ние$ | аявление о :оответствии (SoC рр lican hori |",
+            "html": "",
+            "n_rows": 2,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "cell_ocr",
+            "version": null,
+            "method": "cell_ocr",
+            "confidence": 0.7312500000000001,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 2,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 2,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.7476058006286621,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 95.19762024184247,
+            "y1": 189.6446553034984,
+            "x2": 562.7534421169606,
+            "y2": 552.1924541028151
+          }
+        },
+        {
+          "type": "figure",
+          "score": 0.8,
+          "method": "pdf_image",
+          "bbox": {
+            "x1": 401.76,
+            "y1": 304.2,
+            "x2": 563.4,
+            "y2": 360.0
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 28,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 95.19762024184247,
+            "y1": 189.6446553034984,
+            "x2": 562.7534421169606,
+            "y2": 552.1924541028151
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.7476058006286621,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Переход из пункта 3.4 МР Возврат документов Информирование Заявителя, АР Рассмотрение Росавиацией 4.2 достаточности выполненных сертификационных работ. не соответствует соответствует Дело проекта. - копии доказательных документов Одобрение документации Заявителя копии других утвержденныхі Росавиацией документов Заключение АР Приостановка работ Проверка наличия сертификата Информирование Заявителя Разработчика не соответствует соответствует Подготовка И выдача одобрительного Направление одобренны",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0028_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.7476058006286621,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.004 Процедура сертификации АТ",
+          "page": 28,
+          "region_id": "figure_01",
+          "type": "figure",
+          "bbox": {
+            "x1": 401.76,
+            "y1": 304.2,
+            "x2": 563.4,
+            "y2": 360.0
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "1 1 1 ρ · + = . = . . - . * \" - 4 L . - Росавиацией - I – копий Заключение копий доказательных Дело проекта. других документов AP _____________________ документов утвержденных: 1 1 1 .",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.004 Процедура сертификации АТ\\p0028_figure_01.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.8,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.004 Процедура сертификации АТ",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

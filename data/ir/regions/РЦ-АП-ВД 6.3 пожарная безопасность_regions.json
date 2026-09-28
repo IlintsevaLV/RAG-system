@@ -1,0 +1,452 @@
+{
+  "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\РЦ-АП-ВД 6.3 пожарная безопасность.pdf",
+  "page_count": 14,
+  "pages": [
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.75,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 70.88,
+            "y1": 86.0,
+            "x2": 97.96,
+            "y2": 121.0
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+          "page": 2,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 70.88,
+            "y1": 86.0,
+            "x2": 97.96,
+            "y2": 121.0
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "merged_fragments",
+              "text=No ν/π",
+              "pylatexenc_ok",
+              "preview_wh=100x122"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { N o } { n / n }",
+            "latex": "\\frac { N o } { n / n }",
+            "text_fallback": "N o n / n",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 496.3026123046875,
+            "y1": 486.8481140136719,
+            "x2": 557.1907348632812,
+            "y2": 505.9081115722656
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+          "page": 6,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 496.3026123046875,
+            "y1": 486.8481140136719,
+            "x2": 557.1907348632812,
+            "y2": 505.9081115722656
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=(1100±80) °",
+              "pylatexenc_ok",
+              "preview_wh=193x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\sin { ( 1 1 0 0 \\pm 8 0 ) } \\, ^ { \\circ } \\mathsf { C }",
+            "latex": "\\sin { ( 1 1 0 0 \\pm 8 0 ) } \\, ^ { \\circ } \\mathsf { C }",
+            "text_fallback": "( 1 1 0 0 8 0 ) \\, ** C",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 2,
+        "n_formulas": 2,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 371.56298828125,
+            "y1": 244.01307678222656,
+            "x2": 434.58807373046875,
+            "y2": 263.0730895996094
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.775,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 96.18905639648438,
+            "y1": 448.0130920410156,
+            "x2": 135.6510467529297,
+            "y2": 467.0730895996094
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+          "page": 10,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 371.56298828125,
+            "y1": 244.01307678222656,
+            "x2": 434.58807373046875,
+            "y2": 263.0730895996094
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=(1100±80) °",
+              "pylatexenc_ok",
+              "preview_wh=199x77",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "' ^ { \\textsf { B H e K O T O p b l X C } }",
+            "latex": "' ^ { \\textsf { B H e K O T O p b l X C } }",
+            "text_fallback": "' ** B H e K O T O p b l X C",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+          "page": 10,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 96.18905639648438,
+            "y1": 448.0130920410156,
+            "x2": 135.6510467529297,
+            "y2": 467.0730895996094
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=: L/S =",
+              "pylatexenc_ok",
+              "preview_wh=133x77"
+            ]
+          },
+          "content": {
+            "latex_raw": "1 0 : \\ L / S = 1",
+            "latex": "1 0 : \\ L / S = 1",
+            "text_fallback": "1 0 : \\ L / S = 1",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "РЦ-АП-ВД 6.3 пожарная безопасность",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,1750 @@
+{
+  "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+  "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\МР-21.002 Процедура квалификации комплектующих изделий.pdf",
+  "page_count": 50,
+  "pages": [
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 1,
+      "summary": {
+        "page": 1,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.5337499380111694,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 237.66578613281249,
+            "y1": 157.1989297338064,
+            "x2": 488.11636230468747,
+            "y2": 216.87198357989794
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 1,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 237.66578613281249,
+            "y1": 157.1989297338064,
+            "x2": 488.11636230468747,
+            "y2": 216.87198357989794
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.5337499380111694,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "A.A. I Новгородов",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.002 Процедура квалификации комплектующих изделий\\p0001_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.5337499380111694,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 2,
+      "summary": {
+        "page": 2,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 3,
+      "summary": {
+        "page": 3,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 4,
+      "summary": {
+        "page": 4,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 5,
+      "summary": {
+        "page": 5,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 6,
+      "summary": {
+        "page": 6,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 7,
+      "summary": {
+        "page": 7,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 8,
+      "summary": {
+        "page": 8,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 9,
+      "summary": {
+        "page": 9,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 10,
+      "summary": {
+        "page": 10,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 1,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "figure",
+          "score": 0.9785045385360718,
+          "method": "docling_layout",
+          "bbox": {
+            "x1": 76.30022090625079,
+            "y1": 205.22213928666332,
+            "x2": 546.510031007879,
+            "y2": 487.46178592804876
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 10,
+          "region_id": "figure_00",
+          "type": "figure",
+          "bbox": {
+            "x1": 76.30022090625079,
+            "y1": 205.22213928666332,
+            "x2": 546.510031007879,
+            "y2": 487.46178592804876
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.9785045385360718,
+            "coverage": null,
+            "structural_ok": null,
+            "suspicion": null,
+            "notes": []
+          },
+          "content": {
+            "caption": "Компоненты III класса Классификация Категория А КатегорияБ Раздел 1.2 Квалификация Импортируемые КИ Отечественные КИ Раздел 1.3 Квалификация Вновь Квалификация Раздел 7 разрабатываемые Раздел 1.3, 2, 3, 5, 6 Квалификация Модифицируемые Раздел 8 Квалификация РРКИ Раздел 5 Вспомогательный Квалификация двигатель Раздел 9",
+            "caption_source": "ocr_caption",
+            "figure_number": "",
+            "crop_path": "data\\cache\\figures\\МР-21.002 Процедура квалификации комплектующих изделий\\p0010_figure_00.png",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": null,
+            "version": null,
+            "method": "ocr_caption",
+            "confidence": 0.9785045385360718,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 11,
+      "summary": {
+        "page": 11,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 12,
+      "summary": {
+        "page": 12,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 13,
+      "summary": {
+        "page": 13,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 14,
+      "summary": {
+        "page": 14,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 15,
+      "summary": {
+        "page": 15,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 16,
+      "summary": {
+        "page": 16,
+        "n_detections": 1,
+        "n_formulas": 0,
+        "n_tables": 1,
+        "n_figures": 0,
+        "table_ok": 1,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "table",
+          "score": 0.95,
+          "method": "span_cell_grid",
+          "bbox": {
+            "x1": 64.7040023803711,
+            "y1": 437.0299987792969,
+            "x2": 511.2760009765625,
+            "y2": 518.1099853515625
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 16,
+          "region_id": "table_00",
+          "type": "table",
+          "bbox": {
+            "x1": 64.7040023803711,
+            "y1": 437.0299987792969,
+            "x2": 511.2760009765625,
+            "y2": 518.1099853515625
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.8214285714285714,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "rows=3",
+              "cols=4",
+              "numeric_ratio=0.42",
+              "nonempty_ratio=1.00",
+              "span_cells_score=0.821",
+              "rows=7 cols=4 consistency=1.00 meaningful=0.64",
+              "span_cols=4",
+              "span_rows=7"
+            ]
+          },
+          "content": {
+            "markdown": "|  | пункт | Категория по |  |\n| --- | --- | --- | --- |\n| Характеристика | квалификац | квалификационным | Значение характеристики |\n| ВВФ | ионных | требованиям по | ВВФ |\n|  | требований | ВВФ |  |\n|  | по ВВФ |  |  |\n| 1 2 | 3 | 4 | 5 |\n| 1. |  |  |  |",
+            "html": "",
+            "n_rows": 7,
+            "n_cols": 4,
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "span_cells",
+            "version": null,
+            "method": "span_cells",
+            "confidence": 0.8214285714285714,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 17,
+      "summary": {
+        "page": 17,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 18,
+      "summary": {
+        "page": 18,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 19,
+      "summary": {
+        "page": 19,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 20,
+      "summary": {
+        "page": 20,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 21,
+      "summary": {
+        "page": 21,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 22,
+      "summary": {
+        "page": 22,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 23,
+      "summary": {
+        "page": 23,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 24,
+      "summary": {
+        "page": 24,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 25,
+      "summary": {
+        "page": 25,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 26,
+      "summary": {
+        "page": 26,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 27,
+      "summary": {
+        "page": 27,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 28,
+      "summary": {
+        "page": 28,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 29,
+      "summary": {
+        "page": 29,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 30,
+      "summary": {
+        "page": 30,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 31,
+      "summary": {
+        "page": 31,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 32,
+      "summary": {
+        "page": 32,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 33,
+      "summary": {
+        "page": 33,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 34,
+      "summary": {
+        "page": 34,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 35,
+      "summary": {
+        "page": 35,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 36,
+      "summary": {
+        "page": 36,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 37,
+      "summary": {
+        "page": 37,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 38,
+      "summary": {
+        "page": 38,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 39,
+      "summary": {
+        "page": 39,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 40,
+      "summary": {
+        "page": 40,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 41,
+      "summary": {
+        "page": 41,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 1,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8275862068965517,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 393.3699951171875,
+            "y1": 298.1500244140625,
+            "x2": 606.0979614257812,
+            "y2": 319.5299987792969
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 41,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 393.3699951171875,
+            "y1": 298.1500244140625,
+            "x2": 606.0979614257812,
+            "y2": 319.5299987792969
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=___________тип АТ_____________",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=615x83",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l r l } & { \\overbrace { \\phantom { \\sum _ { k = 1 } ^ { 3 } \\sum _ { i = 1 } ^ { 3 } \\sum _ { p = 1 } ^ { P _ { k } ^ { ( i ) } } \\left( \\mathrm { d } _ { \\rho } \\tilde { H } - \\tilde { H } _ { k } ^ { ( i ) } \\right) \\tilde { E } _ { k } \\left( \\mathrm { d } _ { \\rho } \\tilde { H } _ { k } ^ { ( i ) } \\right) } ^ { \\overbrace { m \\, U _ { \\mathrm { E } } \\left( \\mathrm { d } _ { \\rho } \\tilde { H } _ { k } ^ { ( i ) } \\right) - \\tilde { E } _ { k } ^ { ( i ) } \\right) } ^ { \\; \\; \\, ( i ) } } } \\end{array}",
+            "latex": "\\begin{array} { r l r l } & { \\overbrace { \\phantom { \\sum _ { k = 1 } ^ { 3 } \\sum _ { i = 1 } ^ { 3 } \\sum _ { p = 1 } ^ { P _ { k } ^ { ( i ) } } \\left( \\mathrm { d } _ { \\rho } \\tilde { H } - \\tilde { H } _ { k } ^ { ( i ) } \\right) \\tilde { E } _ { k } \\left( \\mathrm { d } _ { \\rho } \\tilde { H } _ { k } ^ { ( i ) } \\right) } ^ { \\overbrace { m \\, U _ { \\mathrm { E } } \\left( \\mathrm { d } _ { \\rho } \\tilde { H } _ { k } ^ { ( i ) } \\right) - \\tilde { E } _ { k } ^ { ( i ) } \\right) } ^ { \\; \\; \\, ( i ) } } } \\end{array} }",
+            "text_fallback": "r l r l & k = 1 ** 3 i = 1 ** 3 p = 1 ** P k ** ( i ) ( d H - H k ** ( i ) ) E k ( d H k ** ( i ) ) ** m \\, U E ( d H k ** ( i ) ) - E k ** ( i ) ) ** \\; \\; \\, ( i )",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 42,
+      "summary": {
+        "page": 42,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 43,
+      "summary": {
+        "page": 43,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 44,
+      "summary": {
+        "page": 44,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.9473684210526315,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 355.7099914550781,
+            "y1": 301.5837707519531,
+            "x2": 528.443115234375,
+            "y2": 325.2383728027344
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 44,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 355.7099914550781,
+            "y1": 301.5837707519531,
+            "x2": 528.443115234375,
+            "y2": 325.2383728027344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=______________ 20 __ г.",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=503x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\--- \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\",
+            "latex": "\\--- \\! \\",
+            "text_fallback": "\\--- \\! \\",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 45,
+      "summary": {
+        "page": 45,
+        "n_detections": 1,
+        "n_formulas": 1,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 261.010009765625,
+            "y1": 158.75375366210938,
+            "x2": 382.0130920410156,
+            "y2": 182.40835571289062
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 45,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 261.010009765625,
+            "y1": 158.75375366210938,
+            "x2": 382.0130920410156,
+            "y2": 182.40835571289062
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=_____________",
+              "braces_repaired",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=360x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\end{array} \\downarrow 0 \\begin{array} { l } { \\begin{array} { r l r l } \\end{array} } & { = \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots } \\end{array}",
+            "latex": "\\begin{array} { l } { \\end{array} \\downarrow 0 \\begin{array} { l } { \\begin{array} { r l r l } \\end{array} } & { = \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots \\cdots } \\end{array} }",
+            "text_fallback": "l 0 l r l r l & =",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 46,
+      "summary": {
+        "page": 46,
+        "n_detections": 3,
+        "n_formulas": 3,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 2,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 150.82000732421875,
+            "y1": 323.7837829589844,
+            "x2": 462.443115234375,
+            "y2": 347.4383850097656
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 318.3900146484375,
+            "y1": 376.94378662109375,
+            "x2": 373.0130920410156,
+            "y2": 400.598388671875
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 147.10000610351562,
+            "y1": 488.0837707519531,
+            "x2": 485.8431091308594,
+            "y2": 511.7383728027344
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 46,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 150.82000732421875,
+            "y1": 323.7837829589844,
+            "x2": 462.443115234375,
+            "y2": 347.4383850097656
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=______________________________________",
+              "spacing_collapsed",
+              "braces_repaired",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "pylatexenc_ok",
+              "preview_wh=890x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "--- --- --- --- --- --- --- --- --- --- --- --- --- \\ .",
+            "latex": "--- --- --- --- --- --- --- --- --- --- --- --- --- \\ .",
+            "text_fallback": "--- --- --- --- --- --- --- --- --- --- --- --- --- \\ .",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet_retry",
+            "version": null,
+            "method": "unimernet_retry",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 46,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 318.3900146484375,
+            "y1": 376.94378662109375,
+            "x2": 373.0130920410156,
+            "y2": 400.598388671875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=_____",
+              "pylatexenc_ok",
+              "preview_wh=176x89"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\mathbf { \\delta } \\mathbb { P } \\_",
+            "latex": "\\mathbf { \\delta } \\mathbb { P } \\_",
+            "text_fallback": "P \\",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 46,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 147.10000610351562,
+            "y1": 488.0837707519531,
+            "x2": 485.8431091308594,
+            "y2": 511.7383728027344
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=2",
+              "text=____________________ | __________________",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=965x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l r l r l } { \\mathbf { \\underline { { \\delta } } } } & { { } } & { } & { { } } & { { } } & { { } } & { { } } & { { } } \\\\ & { } & { { } } & { { } } & { { } } & { { } } & { { } } & { { } } \\\\ & { } & { { } } & { { } } & { { } } & { { } } & { { } } & { { } } \\end{array} \\begin{array} { r l } { \\mathbf { \\underline { { \\delta \\tau } } } } & { { \\mathbf { \\underline { { \\delta } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } \\\\ { { \\mathbf { \\underline { { \\delta \\tau } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } \\end{array}",
+            "latex": "\\begin{array} { r l r l r l } { \\mathbf { \\underline { { \\delta } } } } & { { } } & { } & { { } } & { { } } & { { } } & { { } } & { { } } \\\\ & { } & { { } } & { { } } & { { } } & { { } } & { { } } & { { } } \\\\ & { } & { { } } & { { } } & { { } } & { { } } & { { } } & { { } } \\end{array} \\begin{array} { r l } { \\mathbf { \\underline { { \\delta \\tau } } } } & { { \\mathbf { \\underline { { \\delta } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } \\\\ { { \\mathbf { \\underline { { \\delta \\tau } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } & { { \\mathbf { \\underline { { \\delta \\tau } } } } } \\end{array}",
+            "text_fallback": "r l r l r l & & & & & & & \\\\ & & & & & & & \\\\ & & & & & & & r l & & \\\\ & & &",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 47,
+      "summary": {
+        "page": 47,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 48,
+      "summary": {
+        "page": 48,
+        "n_detections": 4,
+        "n_formulas": 4,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 1,
+        "formula_suspicious_semantic": 2,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 0.8636363636363636,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 558.510009765625,
+            "y1": 135.11380004882812,
+            "x2": 769.4031372070312,
+            "y2": 158.76840209960938
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 572.3099975585938,
+            "y1": 172.19378662109375,
+            "x2": 759.443115234375,
+            "y2": 195.848388671875
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.68,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 305.5299987792969,
+            "y1": 209.18380737304688,
+            "x2": 540.4131469726562,
+            "y2": 232.83840942382812
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 614.0700073242188,
+            "y1": 454.2738037109375,
+            "x2": 766.1202392578125,
+            "y2": 477.92840576171875
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 48,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 558.510009765625,
+            "y1": 135.11380004882812,
+            "x2": 769.4031372070312,
+            "y2": 158.76840209960938
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=___________________  Ф.И.О.",
+              "pylatexenc_ok",
+              "preview_wh=610x90",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { r l } & { \\frac { \\rho _ { \\mathsf { W M S W } } ( \\mathsf { W P W } ) \\cdot \\mathsf { W W W } \\cdot \\mathsf { W W W } \\cdot \\mathsf { P y } \\cdot \\mathsf { W W W } } { \\Phi . W . O } \\, , } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\frac { \\rho _ { \\mathsf { W M S W } } ( \\mathsf { W P W } ) \\cdot \\mathsf { W W W } \\cdot \\mathsf { W W W } \\cdot \\mathsf { P y } \\cdot \\mathsf { W W W } } { \\Phi . W . O } \\, , } \\end{array}",
+            "text_fallback": "r l & W M S W ( W P W ) W W W W W W P y W W W . W . O \\, ,",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 48,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 572.3099975585938,
+            "y1": 172.19378662109375,
+            "x2": 759.443115234375,
+            "y2": 195.848388671875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=1",
+              "text=«__» _____________ 20__",
+              "pylatexenc_ok",
+              "preview_wh=544x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "x \\rightarrow - 2 0",
+            "latex": "x \\rightarrow - 2 0",
+            "text_fallback": "x arrow - 2 0",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 48,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 305.5299987792969,
+            "y1": 209.18380737304688,
+            "x2": 540.4131469726562,
+            "y2": 232.83840942382812
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=Перечень № _________________",
+              "pylatexenc_ok",
+              "preview_wh=677x89",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\sqcap \\! \\mathsf { e p e v e v e n t b o } \\, \\mathsf { N o } _ { \\qquad }",
+            "latex": "\\sqcap \\! \\mathsf { e p e v e v e n t b o } \\, \\mathsf { N o } _ { \\qquad }",
+            "text_fallback": "\\! e p e v e v e n t b o \\, N o",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 48,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 614.0700073242188,
+            "y1": 454.2738037109375,
+            "x2": 766.1202392578125,
+            "y2": 477.92840576171875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": false,
+            "suspicion": 0.7,
+            "notes": [
+              "n_spans=1",
+              "text=__________________",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=447x90"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\overline { { \\Delta u \\cap } }",
+            "latex": "\\overline { { \\Delta u \\cap } }",
+            "text_fallback": "u",
+            "status": "suspicious"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 49,
+      "summary": {
+        "page": 49,
+        "n_detections": 4,
+        "n_formulas": 4,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 4,
+        "formula_caption_or_header": 0
+      },
+      "detections": [
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 64.63999938964844,
+            "y1": 132.95379638671875,
+            "x2": 767.3631591796875,
+            "y2": 221.07839965820312
+          }
+        },
+        {
+          "type": "formula",
+          "score": 1.0,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 401.2900085449219,
+            "y1": 250.58380126953125,
+            "x2": 588.2931518554688,
+            "y2": 274.2384033203125
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8571428571428571,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 525.989990234375,
+            "y1": 451.2738037109375,
+            "x2": 725.2431640625,
+            "y2": 474.92840576171875
+          }
+        },
+        {
+          "type": "formula",
+          "score": 0.8571428571428571,
+          "method": "span_math_heuristic",
+          "bbox": {
+            "x1": 525.989990234375,
+            "y1": 499.6297912597656,
+            "x2": 725.2431640625,
+            "y2": 523.284423828125
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 49,
+          "region_id": "formula_00",
+          "type": "formula",
+          "bbox": {
+            "x1": 64.63999938964844,
+            "y1": 132.95379638671875,
+            "x2": 767.3631591796875,
+            "y2": 221.07839965820312
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=4",
+              "text=___________________ | ___________________ | «__» _____________ 20__ | «__» _____________ 20__",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=1976x269",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "{ \\frac { \\mathsf { H i s s t e r h o b a l i n t e r s i o r } } { \\mathsf { n o c a l s o r i z a t i o n } } } + \\mathsf { O u l l e } ^ { \\mathsf { r a n c e } } \\mathsf { T a n d e } ^ { \\mathsf { r a n c e } } \\mathsf { T a n d e } ^ { \\mathsf { n o c a l i n t e r s i o n } } \\mathsf { \\Phi } ^ { \\mathsf { o b l i c a l } } \\mathsf { O u l l e } ^ { \\mathsf { n o c a l i n t e r s i o n } } }",
+            "latex": "{ \\frac { \\mathsf { H i s s t e r h o b a l i n t e r s i o r } } { \\mathsf { n o c a l s o r i z a t i o n } } } + \\mathsf { O u l l e } ^ { \\mathsf { r a n c e } } \\mathsf { T a n d e } ^ { \\mathsf { r a n c e } } \\mathsf { T a n d e } ^ { \\mathsf { n o c a l i n t e r s i o n } } \\mathsf { \\Phi } ^ { \\mathsf { o b l i c a l } } \\mathsf { O u l l e } ^ { \\mathsf { n o c a l i n t e r s i o n } }",
+            "text_fallback": "H i s s t e r h o b a l i n t e r s i o r n o c a l s o r i z a t i o n + O u l l e ** r a n c e T a n d e ** r a n c e T a n d e ** n o c a l i n t e r s i o n ** o b l i c a l O u l l e ** n o c a l i n t e r s i o n",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 49,
+          "region_id": "formula_01",
+          "type": "formula",
+          "bbox": {
+            "x1": 401.2900085449219,
+            "y1": 250.58380126953125,
+            "x2": 588.2931518554688,
+            "y2": 274.2384033203125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=______________________",
+              "braces_repaired",
+              "pylatexenc_ok",
+              "preview_wh=544x89",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { l } { \\end{array} \\mapsto \\overbrace { \\mathscr { C } \\ \\rightleftharpoons \\atop { \\scriptstyle \\left\\vert \\mathbb { D } _ { \\mathrm { ~ o ~ } } \\right\\vert \\sim \\cdots \\sim \\mathrm { e ^ { i . 5 \\cdot m a x } \\cdots \\nabla ^ { 2 } } \\right\\vert \\sim \\nu ^ { \\prime } } ^ { \\mathrm { m u l i n t i o n s } \\ \\nu _ { 1 } \\cdots \\nu _ { \\mathrm { m u l i n t } } } .",
+            "latex": "\\begin{array} { l } { \\end{array} \\mapsto \\overbrace { \\mathscr { C } \\ \\rightleftharpoons \\atop { \\scriptstyle \\left\\vert \\mathbb { D } _ { \\mathrm { ~ o ~ } } \\right\\vert \\sim \\cdots \\sim \\mathrm { e ^ { i . 5 \\cdot m a x } \\cdots \\nabla ^ { 2 } } \\right\\vert \\sim \\nu ^ { \\prime } } ^ { \\mathrm { m u l i n t i o n s } \\ \\nu _ { 1 } \\cdots \\nu _ { \\mathrm { m u l i n t } } } . } }",
+            "text_fallback": "l C \\ leftharpoons D ~ o ~ e ** i . 5 m a x ** 2 ** ** m u l i n t i o n s \\ 1 m u l i n t .",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 49,
+          "region_id": "formula_02",
+          "type": "formula",
+          "bbox": {
+            "x1": 525.989990234375,
+            "y1": 451.2738037109375,
+            "x2": 725.2431640625,
+            "y2": 474.92840576171875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=__________________ Ф.И.О.",
+              "pylatexenc_ok",
+              "preview_wh=577x90",
+              "semantic_reason=truncated"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { } { \\phantom { \\left( \\mathsf { n o a n n e s } \\right) } \\left( \\mathsf { n o a n n e s } \\right) } \\, \\Phi . W . \\mathsf { O } .",
+            "latex": "\\frac { } { \\phantom { \\left( \\mathsf { n o a n n e s } \\right) } \\left( \\mathsf { n o a n n e s } \\right) } \\, \\Phi . W . \\mathsf { O } .",
+            "text_fallback": "( n o a n n e s ) ( n o a n n e s ) \\, . W . O .",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+          "page": 49,
+          "region_id": "formula_03",
+          "type": "formula",
+          "bbox": {
+            "x1": 525.989990234375,
+            "y1": 499.6297912597656,
+            "x2": 725.2431640625,
+            "y2": 523.284423828125
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=1",
+              "text=__________________ Ф.И.О.",
+              "pylatexenc_ok",
+              "preview_wh=577x90",
+              "semantic_reason=truncated"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\frac { } { \\phantom { \\left( \\mathsf { n o a n n e s } \\right) } \\left( \\mathsf { n o a n n e s } \\right) } \\, \\Phi . W . \\mathsf { O } .",
+            "latex": "\\frac { } { \\phantom { \\left( \\mathsf { n o a n n e s } \\right) } \\left( \\mathsf { n o a n n e s } \\right) } \\, \\Phi . W . \\mathsf { O } .",
+            "text_fallback": "( n o a n n e s ) ( n o a n n e s ) \\, . W . O .",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "МР-21.002 Процедура квалификации комплектующих изделий",
+      "page": 50,
+      "summary": {
+        "page": 50,
+        "n_detections": 0,
+        "n_formulas": 0,
+        "n_tables": 0,
+        "n_figures": 0,
+        "table_ok": 0,
+        "formula_ok": 0,
+        "formula_suspicious_semantic": 0,
+        "formula_caption_or_header": 0
+      },
+      "detections": [],
+      "blocks": []
+    }
+  ]
+}
