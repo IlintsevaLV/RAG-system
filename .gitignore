@@ -53,3 +53,6 @@ data/ir/regions_*/
 
 .venv-unimernet/
 
+data/ir/gold/renders_v2/
+data/ir/gold/renders/
+
