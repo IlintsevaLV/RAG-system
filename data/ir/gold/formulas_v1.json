@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "iou_hit": 0.5,
+  "note": "Formula golden set. Reviewed 2026-09-28. Pages aligned with regions indices.",
+  "pages": [
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 7,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "matches regions p7",
+      "formulas": [
+        {
+          "bbox": {
+            "x1": 114.7,
+            "y1": 500.2,
+            "x2": 183.8,
+            "y2": 539.0
+          },
+          "latex": "\\sigma = \\frac{k b_{0,7}}{\\pi R}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 63.8,
+            "y1": 540.0,
+            "x2": 187.7,
+            "y2": 575.1
+          },
+          "latex": "\\mu = \\frac{V \\cos\\alpha}{\\omega R} \\approx \\frac{V}{\\omega R}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 84.0,
+            "y1": 576.5,
+            "x2": 185.3,
+            "y2": 609.6
+          },
+          "latex": "\\lambda = \\frac{V \\sin\\alpha + v}{\\omega R}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 52.8,
+            "y1": 612.5,
+            "x2": 187.2,
+            "y2": 652.3
+          },
+          "latex": "c_\\tau = \\frac{T}{\\frac{1}{2}\\rho\\pi R^2 (\\omega R)^2}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 53.8,
+            "y1": 663.4,
+            "x2": 189.6,
+            "y2": 709.5
+          },
+          "latex": "m_\\kappa = \\frac{M_\\kappa}{\\frac{1}{2}\\rho\\pi R^2 (\\omega R)^2 \\cdot R}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 135.4,
+            "y1": 713.3,
+            "x2": 184.3,
+            "y2": 744.9
+          },
+          "latex": "p = \\frac{G}{F}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 135.8,
+            "y1": 744.9,
+            "x2": 186.2,
+            "y2": 780.5
+          },
+          "latex": "q = \\frac{G}{N}",
+          "kind": "display",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 32,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "was p33 in book; matches regions p32",
+      "formulas": [
+        {
+          "bbox": {
+            "x1": 212.2,
+            "y1": 704.2,
+            "x2": 349.9,
+            "y2": 731.0
+          },
+          "latex": "T (V + aV) = \\Delta KE.",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 207.4,
+            "y1": 789.6,
+            "x2": 363.4,
+            "y2": 817.5
+          },
+          "latex": "T = [\\rho F (V + aV)] bV.",
+          "kind": "display",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 33,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "was p34 in book; matches regions p33",
+      "formulas": [
+        {
+          "bbox": {
+            "x1": 148.8,
+            "y1": 134.4,
+            "x2": 425.3,
+            "y2": 161.8
+          },
+          "latex": "\\Delta KE = \\frac{1}{2} \\rho F (V + aV) [(V + bV)^2 - V^2]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 106.1,
+            "y1": 190.6,
+            "x2": 467.0,
+            "y2": 226.1
+          },
+          "latex": "[\\rho F V (1+a) bV][V (1+a)] = \\frac{1}{2} \\rho F V^2 (1+a)(b^2 + 2b)",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 254.9,
+            "y1": 251.0,
+            "x2": 306.2,
+            "y2": 273.6
+          },
+          "latex": "b = 2a",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 240.0,
+            "y1": 527.5,
+            "x2": 345.6,
+            "y2": 552.0
+          },
+          "latex": "T = (\\rho \\pi R^2 v) 2v",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 230.4,
+            "y1": 570.7,
+            "x2": 340.3,
+            "y2": 616.3
+          },
+          "latex": "v = \\sqrt{\\frac{T}{2\\rho\\pi R^2}}",
+          "kind": "display",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 34,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "was p35 in book; matches regions p34",
+      "formulas": [
+        {
+          "bbox": {
+            "x1": 181.0,
+            "y1": 496.8,
+            "x2": 397.0,
+            "y2": 541.0
+          },
+          "latex": "\\eta = \\frac{P_{useful}}{P_{total}} = \\frac{TV}{75N}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 68.6,
+            "y1": 706.6,
+            "x2": 496.8,
+            "y2": 775.7
+          },
+          "latex": "M = \\frac{P_{min}}{P_{actual}} = \\frac{Tv}{75N}",
+          "kind": "display",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "doc_id": "_1954",
+      "source": "data/raw/_1954.pdf",
+      "page": 50,
+      "page_w": 595.2,
+      "page_h": 841.92,
+      "needs_review": false,
+      "note": "was p51 in book; matches regions p50",
+      "formulas": [
+        {
+          "bbox": {
+            "x1": 214.1,
+            "y1": 328.3,
+            "x2": 334.1,
+            "y2": 366.7
+          },
+          "latex": "\\frac{d c_r}{d r} = \\sigma_r \\frac{a}{2} \\alpha_r r^2",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 213.6,
+            "y1": 434.4,
+            "x2": 357.1,
+            "y2": 480.5
+          },
+          "latex": "\\frac{d m_{\\kappa i}}{d r} = \\sigma_r \\frac{a}{2} \\beta_* \\alpha_r r^3",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 210.2,
+            "y1": 503.5,
+            "x2": 340.3,
+            "y2": 553.4
+          },
+          "latex": "\\frac{d m_{\\kappa p}}{d r} = \\frac{\\sigma_r}{2} c_{xp} r^3",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 240.0,
+            "y1": 617.2,
+            "x2": 314.4,
+            "y2": 659.0
+          },
+          "latex": "\\sigma_r = \\frac{k b}{\\pi R}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 145.4,
+            "y1": 657.6,
+            "x2": 391.2,
+            "y2": 713.2
+          },
+          "latex": "\\beta_* = \\frac{\\sigma_r - a}{16 r} \\left( -1 + \\sqrt{1 + \\frac{32 r^3}{\\sigma_r a}} \\right)",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 233.7,
+            "y1": 710.9,
+            "x2": 324.9,
+            "y2": 738.2
+          },
+          "latex": "\\alpha_r = \\theta - \\beta_*",
+          "kind": "display",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "doc_id": "РДК_молниезащита 89г",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 262,
+      "page_w": 606.72,
+      "page_h": 786.48,
+      "needs_review": false,
+      "note": "was p262 in book; matches regions p262",
+      "formulas": [
+        {
+          "bbox": {
+            "x1": 158.0,
+            "y1": 94.6,
+            "x2": 207.3,
+            "y2": 112.3
+          },
+          "latex": "j = \\sqrt{-1}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 148.3,
+            "y1": 109.9,
+            "x2": 198.3,
+            "y2": 126.2
+          },
+          "latex": "1/j = -j",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 152.6,
+            "y1": 126.2,
+            "x2": 231.8,
+            "y2": 140.6
+          },
+          "latex": "\\sqrt{j} = (1+j)/\\sqrt{2}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 143.0,
+            "y1": 139.7,
+            "x2": 232.8,
+            "y2": 156.0
+          },
+          "latex": "1/\\sqrt{j} = (1-j)/\\sqrt{2}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 147.3,
+            "y1": 156.0,
+            "x2": 209.8,
+            "y2": 170.4
+          },
+          "latex": "\\sqrt{2j} = 1+j",
+          "kind": "display",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "doc_id": "РДК_молниезащита 89г",
+      "source": "data/raw/РДК_молниезащита 89г.pdf",
+      "page": 274,
+      "page_w": 606.72,
+      "page_h": 786.48,
+      "needs_review": false,
+      "note": "was p274 in book; matches regions p274",
+      "formulas": [
+        {
+          "bbox": {
+            "x1": 106.1,
+            "y1": 107.1,
+            "x2": 286.1,
+            "y2": 183.8
+          },
+          "latex": "L = 0.004 [...] rectangle of round wire",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 109.0,
+            "y1": 262.1,
+            "x2": 260.2,
+            "y2": 292.3
+          },
+          "latex": "L = 0.006s [\\ln \\frac{s}{\\rho} - 1.40456 + \\frac{\\mu}{4}]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 109.9,
+            "y1": 321.1,
+            "x2": 258.2,
+            "y2": 347.5
+          },
+          "latex": "L = 0.008s [\\ln \\frac{s}{\\rho} - 0.77401 + \\frac{\\mu}{4}]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 108.0,
+            "y1": 371.1,
+            "x2": 254.4,
+            "y2": 401.3
+          },
+          "latex": "L = 0.010s [\\ln \\frac{s}{\\rho} - 0.40914 + \\frac{\\mu}{4}]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 106.1,
+            "y1": 430.1,
+            "x2": 256.3,
+            "y2": 457.9
+          },
+          "latex": "L = 0.012s [\\ln \\frac{s}{\\rho} - 0.15152 + \\frac{\\mu}{4}]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 107.0,
+            "y1": 486.7,
+            "x2": 257.3,
+            "y2": 509.3
+          },
+          "latex": "L = 0.016s [\\ln \\frac{s}{\\rho} + 0.21198 + \\frac{\\mu}{4}]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 132.5,
+            "y1": 540.0,
+            "x2": 256.3,
+            "y2": 564.5
+          },
+          "latex": "L = 0.004\\pi r [\\ln \\frac{8r}{a} - 1.75]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 133.9,
+            "y1": 584.2,
+            "x2": 257.3,
+            "y2": 615.8
+          },
+          "latex": "L = 0.004\\pi r [\\ln \\frac{8r}{b} - 0.50]",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 124.3,
+            "y1": 634.6,
+            "x2": 261.6,
+            "y2": 658.1
+          },
+          "latex": "L = \\frac{2.54 a^2 n^2}{9a + 10b} \\text{ cm}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 124.3,
+            "y1": 666.2,
+            "x2": 263.5,
+            "y2": 698.4
+          },
+          "latex": "L = \\frac{a^2 n^2}{9a + 10b} \\text{ inch}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 401.3,
+            "y1": 172.8,
+            "x2": 466.1,
+            "y2": 204.5
+          },
+          "latex": "e = -N \\frac{d\\phi}{dt}",
+          "kind": "display",
+          "status": "ok"
+        },
+        {
+          "bbox": {
+            "x1": 374.4,
+            "y1": 295.2,
+            "x2": 501.1,
+            "y2": 326.9
+          },
+          "latex": "I = \\frac{1}{L} \\int e \\, dt = -\\frac{N\\mu H A}{L}",
+          "kind": "display",
+          "status": "ok"
+        }
+      ]
+    }
+  ]
+}
