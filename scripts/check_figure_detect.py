@@ -367,13 +367,15 @@ def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float, det
 
     doc = fitz.open(str(pdf))
     doc_id = pdf.stem
+    stem_aliases = {doc_id, pdf.stem.replace(" ", "_"), "rdk89" if "РДК" in doc_id or "rdk" in doc_id.lower() else ""}
+    stem_aliases.discard("")
     tp = fp = fn = 0
     ious: list[float] = []
     for item in pages:
-        if item.get("doc_id") not in {doc_id, pdf.stem.replace(" ", "_")}:
-            # allow _1954 vs file stem
-            if item.get("source") and Path(item["source"]).stem != pdf.stem:
-                continue
+        item_doc = item.get("doc_id") or ""
+        src_stem = Path(item["source"]).stem if item.get("source") else ""
+        if item_doc not in stem_aliases and src_stem != pdf.stem:
+            continue
         page_no = int(item["page"])
         _img, dets, _blocks, _spans = detect_page_regions(
             doc, page_no, doc_id=doc_id, dpi=dpi, figure_detector=detector
@@ -384,6 +386,7 @@ def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float, det
             for g in item.get("figures") or []
         ]
         used = set()
+        page_best: list[float] = []
         for g in gold_bb:
             best_i, best = -1, 0.0
             for i, p in enumerate(pred):
@@ -392,6 +395,7 @@ def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float, det
                 v = _iou(g, p)
                 if v > best:
                     best, best_i = v, i
+            page_best.append(best)
             if best >= iou_thr and best_i >= 0:
                 tp += 1
                 used.add(best_i)
@@ -400,9 +404,10 @@ def replay_gold(gold_path: Path, pdf: Path | None, dpi: int, iou_thr: float, det
                 fn += 1
                 ious.append(best)
         fp += max(0, len(pred) - len(used))
+        best_s = ",".join(f"{v:.2f}" for v in page_best) if page_best else "-"
         print(
             f"  p{page_no:04d} gold={len(gold_bb)} pred={len(pred)} "
-            f"matched={len(used)}"
+            f"matched={len(used)} best_iou=[{best_s}]"
         )
     prec = tp / max(tp + fp, 1)
     rec = tp / max(tp + fn, 1)

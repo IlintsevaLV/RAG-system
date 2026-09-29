@@ -138,6 +138,15 @@ def main(argv: list[str] | None = None) -> int:
         help="Keep pages already stored in the regions JSON and fill the rest",
     )
     parser.add_argument(
+        "--reprocess",
+        action="store_true",
+        help=(
+            "With --pages, always recompute those pages. "
+            "With --merge, other pages in the JSON are kept; without --merge "
+            "the JSON is rewritten with only the requested pages"
+        ),
+    )
+    parser.add_argument(
         "--batch-size",
         "--max-pages-per-batch",
         type=int,
@@ -179,23 +188,34 @@ def main(argv: list[str] | None = None) -> int:
             _safe_print(f"\n=== {doc_id} === unchanged, skip")
             continue
         out_path = out_dir / f"{doc_id}_regions.json"
-        existing = _load_regions(out_path) if (args.resume or args.merge) else None
+        existing = (
+            _load_regions(out_path)
+            if (args.resume or args.merge or args.reprocess)
+            else None
+        )
         with fitz.open(pdf) as opened:
             total = opened.page_count
         wanted = pages or list(range(1, total + 1))
         wanted = [p for p in wanted if 1 <= p <= total]
         have = {int(p["page"]) for p in (existing or {}).get("pages", [])}
-        if args.resume and not args.merge and have and set(wanted) <= have:
+        if (
+            args.resume
+            and not args.merge
+            and not args.reprocess
+            and have
+            and set(wanted) <= have
+        ):
             log.info("skip_resume", path=str(out_path))
             _safe_print(f"\n=== {doc_id} === resume skip {out_path}")
             continue
-        if args.merge:
+        if args.merge and not args.reprocess:
             wanted = [p for p in wanted if p not in have]
             if not wanted:
                 log.info("skip_merge_complete", path=str(out_path))
                 _safe_print(f"\n=== {doc_id} === merge complete {out_path}")
                 continue
-        acc = existing if args.merge and existing else {
+        keep_existing = (args.merge or args.reprocess) and existing
+        acc = existing if keep_existing else {
             "doc_id": doc_id,
             "source_path": str(pdf.resolve()),
             "page_count": total,
