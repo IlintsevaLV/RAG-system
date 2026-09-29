@@ -283,11 +283,34 @@ def _y_overlap(a: TextSpan, b: TextSpan) -> bool:
     return min(a.bbox[3], b.bbox[3]) > max(a.bbox[1], b.bbox[1])
 
 
+def _is_display_equation(text: str) -> bool:
+    """A finished equation on its own row (``j = -j``), not a cut ``η =``."""
+    t = (text or "").strip()
+    if not t or _is_lhs_fragment(t):
+        return False
+    return "=" in t
+
+
+def _separate_display_rows(a: TextSpan, b: TextSpan) -> bool:
+    """Two finished equations stacked ~15 pt apart are two regions.
+
+    A fraction under one ``L =`` does not have a second ``=``, so it can
+    still join the line above. rdk89 p262 is a stack of complete equations.
+    """
+    if not _is_display_equation(a.text or "") or not _is_display_equation(b.text or ""):
+        return False
+    acy = 0.5 * (a.bbox[1] + a.bbox[3])
+    bcy = 0.5 * (b.bbox[1] + b.bbox[3])
+    return abs(acy - bcy) > 9.0
+
+
 def _can_merge_fragments(
     a: TextSpan, b: TextSpan, *, page_w: float, page_h: float
 ) -> bool:
     ax1, ay1, ax2, ay2 = a.bbox
     bx1, by1, bx2, by2 = b.bbox
+    if _separate_display_rows(a, b):
+        return False
     y_gap = max(0.0, max(ay1, by1) - min(ay2, by2))
     if y_gap > 0.04 * page_h:
         return False
@@ -633,6 +656,42 @@ def merged_formula_regions(
     return out
 
 
+def _page_column_gutter(spans: list[TextSpan], *, page_w: float) -> float | None:
+    """Mid-page gap between two text columns, or None on a single column.
+
+    ``_1954`` p34 is one column (page width 595 pt). A fraction 30–100 pt to
+    the right of ``η =`` is the same formula, not a gutter. rdk89 p274 has a
+    real gap of about 90 pt between the formula column and the prose column.
+    """
+    if page_w <= 0:
+        return None
+    xs: list[float] = []
+    for sp in spans:
+        t = (sp.text or "").strip()
+        if not t or _is_eqno(t):
+            continue
+        xs.append(0.5 * (sp.bbox[0] + sp.bbox[2]))
+    if len(xs) < 8:
+        return None
+    xs.sort()
+    best_gap = 0.0
+    best_mid: float | None = None
+    for left, right in zip(xs, xs[1:]):
+        gap = right - left
+        mid = 0.5 * (left + right)
+        # Word gaps inside one column stay under ~40 pt. A two-column gutter
+        # on rdk89 is about 90 pt, so 70 pt does not fire on a text line.
+        if gap < 70.0 or not (0.28 * page_w <= mid <= 0.72 * page_w):
+            continue
+        n_left = sum(1 for x in xs if x < mid)
+        n_right = len(xs) - n_left
+        if n_left < 3 or n_right < 3 or gap <= best_gap:
+            continue
+        best_gap = gap
+        best_mid = mid
+    return best_mid
+
+
 def _formula_column_x_cap(
     spans: list[TextSpan],
     seed: BBox,
@@ -641,43 +700,18 @@ def _formula_column_x_cap(
 ) -> float:
     """Rightmost x a formula may grow to without crossing a column gutter.
 
-    Full-width single-column formulas (seed already wide, or starting in the
-    right half) are not capped. On a two-column page the gutter is the gap
-    between the seed's column and the next span cluster to the right.
+    No gutter on the page means no cap (single-column display equations).
+    A seed already in the right column may grow to the page edge.
     """
     if page_w <= 0:
         return 1e9
-    seed_w = seed.x2 - seed.x1
-    # Display equations that already span most of a single column / page.
-    if seed_w > 0.50 * page_w or seed.x1 > 0.42 * page_w:
+    gutter = _page_column_gutter(spans, page_w=page_w)
+    if gutter is None:
         return page_w
-    band: list[TextSpan] = []
-    for sp in spans:
-        if not (sp.text or "").strip():
-            continue
-        if sp.bbox[3] < seed.y1 - 50 or sp.bbox[1] > seed.y2 + 50:
-            continue
-        band.append(sp)
-    col_right = seed.x2
-    right_lefts: list[float] = []
-    for sp in band:
-        if _is_eqno(sp.text or ""):
-            # Gutter label between columns — never widen the seed column.
-            continue
-        sx1, _, sx2, _ = sp.bbox
-        if sx1 <= seed.x2 + 26.0:
-            col_right = max(col_right, min(sx2, seed.x1 + 0.50 * page_w))
-        elif sx1 >= seed.x2 + 28.0:
-            right_lefts.append(sx1)
-    if not right_lefts:
-        # No second column in this band: keep a soft cap so a left-seeded
-        # formula cannot swallow a full text line (_1954 p7).
-        return min(page_w, max(col_right + 12.0, seed.x1 + 0.50 * page_w))
-    gutter = min(right_lefts)
-    if gutter - col_right < 28.0:
-        return min(page_w, max(col_right + 12.0, seed.x1 + 0.50 * page_w))
-    # Stop in the gutter, before the next column's first span.
-    return min(page_w, gutter - 4.0)
+    seed_cx = 0.5 * (seed.x1 + seed.x2)
+    if seed_cx >= gutter:
+        return page_w
+    return max(seed.x2, gutter - 4.0)
 
 
 def _extend_formula_bbox_right(
@@ -928,6 +962,8 @@ def detect_formula_regions_from_spans(
             by1, by2 = b.bbox[1], b.bbox[3]
             y_gap = max(0.0, max(ay1, by1) - min(ay2, by2))
             if y_gap > 18:
+                return False
+            if _separate_display_rows(a, b):
                 return False
             if _is_eqno(a.text or "") or _is_eqno(b.text or ""):
                 return False

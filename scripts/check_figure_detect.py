@@ -197,11 +197,16 @@ def test_units() -> int:
     from ingestion.region_detect import _extend_formula_bbox_right, _formula_column_x_cap
 
     gutter_spans = [
+        TextSpan(text="L", bbox=(110, 250, 125, 264), font_size=None),
+        TextSpan(text="=", bbox=(128, 250, 140, 264), font_size=None),
+        TextSpan(text="0.004a", bbox=(144, 250, 190, 264), font_size=None),
         TextSpan(text="L", bbox=(110, 270, 125, 284), font_size=None),
         TextSpan(text="=", bbox=(128, 270, 140, 284), font_size=None),
         TextSpan(text="0.006a", bbox=(144, 270, 180, 284), font_size=None),
         TextSpan(text="(9.78)", bbox=(280, 270, 310, 284), font_size=None),
-        TextSpan(text="voltage", bbox=(340, 270, 420, 284), font_size=None),
+        TextSpan(text="open", bbox=(360, 250, 400, 264), font_size=None),
+        TextSpan(text="circuit", bbox=(405, 250, 460, 264), font_size=None),
+        TextSpan(text="voltage", bbox=(360, 270, 420, 284), font_size=None),
         TextSpan(text="is", bbox=(425, 270, 440, 284), font_size=None),
     ]
     seed = BBox(x1=106, y1=266, x2=184, y2=288)
@@ -226,6 +231,42 @@ def test_units() -> int:
         print(f"  PASS  wide formula keeps page cap {wide_cap:.0f}")
     else:
         print(f"  FAIL  wide formula cap {wide_cap}")
+        failed += 1
+
+    # Single column: a fraction to the right of "eta =" is the same formula.
+    single = [
+        TextSpan(text="eta", bbox=(181, 500, 210, 520), font_size=None),
+        TextSpan(text="=", bbox=(214, 500, 230, 520), font_size=None),
+        TextSpan(text="P/N", bbox=(250, 500, 397, 530), font_size=None),
+        TextSpan(text="where", bbox=(80, 560, 130, 574), font_size=None),
+        TextSpan(text="the", bbox=(140, 560, 170, 574), font_size=None),
+        TextSpan(text="power", bbox=(180, 560, 230, 574), font_size=None),
+        TextSpan(text="is", bbox=(240, 560, 260, 574), font_size=None),
+        TextSpan(text="useful", bbox=(270, 560, 330, 574), font_size=None),
+        TextSpan(text="output", bbox=(340, 560, 410, 574), font_size=None),
+    ]
+    single_seed = BBox(x1=181, y1=496, x2=230, y2=524)
+    single_cap = _formula_column_x_cap(single, single_seed, page_w=595.2)
+    if single_cap >= 590:
+        print(f"  PASS  single column no gutter cap={single_cap:.0f}")
+    else:
+        print(f"  FAIL  single column cap {single_cap}")
+        failed += 1
+
+    stacked = detect_formula_regions_from_spans(
+        [
+            TextSpan(text="j = -j", bbox=(148, 110, 198, 126), font_size=None),
+            TextSpan(text="sqrt(j) = (1+j)/sqrt(2)", bbox=(153, 126, 232, 141), font_size=None),
+            TextSpan(text="1/sqrt(j) = (1-j)/sqrt(2)", bbox=(143, 140, 233, 156), font_size=None),
+        ],
+        dpi=72,
+        page_w=606.0,
+        page_h=786.0,
+    )
+    if len(stacked) == 3:
+        print(f"  PASS  stacked equations stay separate ({len(stacked)})")
+    else:
+        print(f"  FAIL  stacked equations {[(s.bbox_pt, s.notes) for s in stacked]}")
         failed += 1
 
     if wide and wide[0].bbox[2] - wide[0].bbox[0] > 180:
