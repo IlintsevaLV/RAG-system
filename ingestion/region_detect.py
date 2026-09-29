@@ -67,6 +67,7 @@ _FORMULA_STOPWORDS_RE = re.compile(
 _CYR_WORD_RE = re.compile(r"[А-Яа-яЁё]{2,}")
 _LONG_WORD_RE = re.compile(r"[А-Яа-яЁёA-Za-z]{11,}")
 _NUMERICISH = re.compile(r"\d")
+_EQNO_RE = re.compile(r"^\(\d{1,2}\.\d{1,3}\)$")
 FIGURE_CAPTION_RE = re.compile(
     r"^\s*(?:Фиг\.|Fig\.|Рис\.|Figure)\s*[IVXLCDM\d]+(?:\.\d+)*",
     re.IGNORECASE,
@@ -242,6 +243,11 @@ def _is_prose_piece(text: str) -> bool:
     if _WORD_RUN_RE.search(raw) or _CYR_WORD_RE.search(raw):
         return True
     return bool(_FORMULA_STOPWORDS_RE.search(raw))
+
+
+def _is_eqno(text: str) -> bool:
+    """Equation number in the gutter: ``(9.78)``. Must not bridge columns."""
+    return bool(_EQNO_RE.match((text or "").strip()))
 
 
 def _is_lhs_fragment(text: str) -> bool:
@@ -592,16 +598,25 @@ def merged_formula_regions(
     dpi: int,
     page_w: float,
     page_h: float,
+    spans: list[TextSpan] | None = None,
 ) -> list[DetectedRegion]:
     """Turn merged fragment spans into formula regions not covered by ``existing``."""
     out: list[DetectedRegion] = []
     pad = 4.0
+    ref_spans = spans or merged
     for sp in merged:
-        bbox = BBox(
+        seed = BBox(
             x1=max(0.0, sp.bbox[0] - pad),
             y1=max(0.0, sp.bbox[1] - pad),
             x2=min(page_w, sp.bbox[2] + pad),
             y2=min(page_h, sp.bbox[3] + pad),
+        )
+        x_cap = _formula_column_x_cap(ref_spans, seed, page_w=page_w)
+        bbox = BBox(
+            x1=seed.x1,
+            y1=seed.y1,
+            x2=min(seed.x2, x_cap),
+            y2=seed.y2,
         )
         if any(_bbox_overlaps(bbox, r.bbox_pt) for r in [*existing, *out]):
             continue
@@ -618,14 +633,67 @@ def merged_formula_regions(
     return out
 
 
+def _formula_column_x_cap(
+    spans: list[TextSpan],
+    seed: BBox,
+    *,
+    page_w: float,
+) -> float:
+    """Rightmost x a formula may grow to without crossing a column gutter.
+
+    Full-width single-column formulas (seed already wide, or starting in the
+    right half) are not capped. On a two-column page the gutter is the gap
+    between the seed's column and the next span cluster to the right.
+    """
+    if page_w <= 0:
+        return 1e9
+    seed_w = seed.x2 - seed.x1
+    # Display equations that already span most of a single column / page.
+    if seed_w > 0.50 * page_w or seed.x1 > 0.42 * page_w:
+        return page_w
+    band: list[TextSpan] = []
+    for sp in spans:
+        if not (sp.text or "").strip():
+            continue
+        if sp.bbox[3] < seed.y1 - 50 or sp.bbox[1] > seed.y2 + 50:
+            continue
+        band.append(sp)
+    col_right = seed.x2
+    right_lefts: list[float] = []
+    for sp in band:
+        if _is_eqno(sp.text or ""):
+            # Gutter label between columns — never widen the seed column.
+            continue
+        sx1, _, sx2, _ = sp.bbox
+        if sx1 <= seed.x2 + 26.0:
+            col_right = max(col_right, min(sx2, seed.x1 + 0.50 * page_w))
+        elif sx1 >= seed.x2 + 28.0:
+            right_lefts.append(sx1)
+    if not right_lefts:
+        # No second column in this band: keep a soft cap so a left-seeded
+        # formula cannot swallow a full text line (_1954 p7).
+        return min(page_w, max(col_right + 12.0, seed.x1 + 0.50 * page_w))
+    gutter = min(right_lefts)
+    if gutter - col_right < 28.0:
+        return min(page_w, max(col_right + 12.0, seed.x1 + 0.50 * page_w))
+    # Stop in the gutter, before the next column's first span.
+    return min(page_w, gutter - 4.0)
+
+
 def _extend_formula_bbox_right(
     bbox: BBox,
     spans: list[TextSpan],
     *,
     page_w: float,
-    max_gap: float = 160.0,
+    max_gap: float = 36.0,
+    x_cap: float | None = None,
 ) -> BBox:
-    """Pull in a math fragment to the right. Prose words are not pulled in."""
+    """Pull in a math fragment to the right. Prose words are not pulled in.
+
+    ``max_gap`` stays inside one column (~36 pt). Fractions 100–170 pt away
+    are recovered by ``_extend_formula_bbox_ink``, which also respects ``x_cap``.
+    """
+    limit = page_w if x_cap is None else min(page_w, x_cap)
     x2 = bbox.x2
     used: set[int] = set()
     grew = True
@@ -635,16 +703,20 @@ def _extend_formula_bbox_right(
             if i in used:
                 continue
             text = (sp.text or "").strip()
+            if _is_eqno(text):
+                continue
             if (_WORD.search(text) or _CYR_WORD_RE.search(text)) and not _has_formula_signal(text):
                 continue
             sx1, sy1, sx2, sy2 = sp.bbox
             if sy2 < bbox.y1 - 8 or sy1 > bbox.y2 + 8:
                 continue
+            if sx1 > limit:
+                continue
             if x2 - 2 <= sx1 <= x2 + max_gap:
-                x2 = max(x2, sx2 + 4.0)
+                x2 = max(x2, min(sx2 + 4.0, limit))
                 used.add(i)
                 grew = True
-    return BBox(x1=bbox.x1, y1=bbox.y1, x2=min(page_w, x2), y2=bbox.y2)
+    return BBox(x1=bbox.x1, y1=bbox.y1, x2=min(limit, x2), y2=bbox.y2)
 
 
 def _extend_formula_bbox_ink(
@@ -656,22 +728,24 @@ def _extend_formula_bbox_ink(
     page_h: float,
     reach_pt: float = 220.0,
     gap_pt: float = 18.0,
+    x_cap: float | None = None,
 ) -> BBox:
     """Grow a cut formula to the ink of a fraction sitting 100–170 pt to the right.
 
     A single text line is short inside a tall search band, so body words stay
     out. A stacked fraction fills the band and is kept. A white gap of ~18 pt
-    stops the scan.
+    stops the scan. ``x_cap`` blocks growth across a two-column gutter.
     """
     if image_bgr is None or image_bgr.size == 0:
         return bbox
+    limit = page_w if x_cap is None else min(page_w, x_cap)
     h, w = image_bgr.shape[:2]
     gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
     background = float(np.percentile(gray, 90))
     ink = gray < min(background - 8.0, max(background - 30.0, 40.0))
     y1 = max(0.0, bbox.y1 - 18.0)
     y2 = min(page_h, bbox.y2 + 18.0)
-    x_limit = min(page_w, bbox.x2 + reach_pt)
+    x_limit = min(limit, bbox.x2 + reach_pt)
     px1, py1, px2, py2 = _pt_to_px(BBox(x1=bbox.x1, y1=y1, x2=x_limit, y2=y2), dpi)
     px1, py1 = max(0, px1), max(0, py1)
     px2, py2 = min(w, px2), min(h, py2)
@@ -697,7 +771,7 @@ def _extend_formula_bbox_ink(
                 break
     if last <= origin_px + 4:
         return bbox
-    x2 = min(page_w, bbox.x1 + (last + 1) * 72.0 / dpi + 4.0)
+    x2 = min(limit, bbox.x1 + (last + 1) * 72.0 / dpi + 4.0)
     grown = BBox(x1=bbox.x1, y1=bbox.y1, x2=x2, y2=bbox.y2)
     gx1, gy1, gx2, gy2 = _pt_to_px(grown, dpi)
     gx1, gy1 = max(0, gx1), max(0, gy1)
@@ -791,6 +865,7 @@ def _column_formula_lines(
             gap = sp.bbox[0] - prev.bbox[2]
             if (
                 gap > 26.0
+                or _is_eqno(sp.text or "")
                 or _is_prose_piece(sp.text or "")
                 or _is_prose_piece(prev.text or "")
             ):
@@ -854,6 +929,8 @@ def detect_formula_regions_from_spans(
             y_gap = max(0.0, max(ay1, by1) - min(ay2, by2))
             if y_gap > 18:
                 return False
+            if _is_eqno(a.text or "") or _is_eqno(b.text or ""):
+                return False
             if _is_prose_piece(a.text or "") or _is_prose_piece(b.text or ""):
                 return False
             x_gap = max(0.0, max(a.bbox[0], b.bbox[0]) - min(a.bbox[2], b.bbox[2]))
@@ -874,18 +951,35 @@ def detect_formula_regions_from_spans(
             xs1 = [s.bbox[2] for s, _ in cl]
             ys1 = [s.bbox[3] for s, _ in cl]
             pad = 4.0
+            seed = BBox(
+                x1=max(0.0, min(xs0) - pad),
+                y1=max(0.0, min(ys0) - pad),
+                x2=min(page_w, max(xs1) + pad),
+                y2=min(page_h, max(ys1) + pad),
+            )
+            x_cap = _formula_column_x_cap(spans, seed, page_w=page_w)
+            seed = BBox(
+                x1=seed.x1,
+                y1=seed.y1,
+                x2=min(seed.x2, x_cap),
+                y2=seed.y2,
+            )
             bbox = _extend_formula_bbox_right(
-                BBox(
-                    x1=max(0.0, min(xs0) - pad),
-                    y1=max(0.0, min(ys0) - pad),
-                    x2=min(page_w, max(xs1) + pad),
-                    y2=min(page_h, max(ys1) + pad),
-                ),
-                spans,
-                page_w=page_w,
+                seed, spans, page_w=page_w, x_cap=x_cap
             )
             bbox = _extend_formula_bbox_ink(
-                bbox, image_bgr, dpi, page_w=page_w, page_h=page_h
+                bbox,
+                image_bgr,
+                dpi,
+                page_w=page_w,
+                page_h=page_h,
+                x_cap=x_cap,
+            )
+            bbox = BBox(
+                x1=bbox.x1,
+                y1=bbox.y1,
+                x2=min(bbox.x2, x_cap),
+                y2=bbox.y2,
             )
             if min(ys0) < 60.0 or max(ys1) > page_h - 60.0:
                 continue
@@ -917,6 +1011,7 @@ def detect_formula_regions_from_spans(
             dpi=dpi,
             page_w=page_w,
             page_h=page_h,
+            spans=spans,
         )
     )
     return out
@@ -1978,6 +2073,7 @@ def detect_page_regions(
                     dpi=dpi,
                     page_w=page_w,
                     page_h=page_h,
+                    spans=ocr_band,
                 )
             )
 

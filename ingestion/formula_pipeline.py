@@ -630,14 +630,23 @@ def process_formula_region(
         and region.bbox_px is not None
     ):
         try:
+            page_w_pt = float(image_bgr.shape[1]) * 72.0 / dpi
+            page_h_pt = float(image_bgr.shape[0]) * 72.0 / dpi
+            seed = region.bbox_pt
+            wider_cap = (
+                page_w_pt * 0.55
+                if seed.x1 < 0.40 * page_w_pt and (seed.x2 - seed.x1) < 0.45 * page_w_pt
+                else None
+            )
             grown = _extend_formula_bbox_ink(
-                region.bbox_pt,
+                seed,
                 image_bgr,
                 dpi,
-                page_w=float(image_bgr.shape[1]) * 72.0 / dpi,
-                page_h=float(image_bgr.shape[0]) * 72.0 / dpi,
+                page_w=page_w_pt,
+                page_h=page_h_pt,
                 reach_pt=280.0,
                 gap_pt=36.0,
+                x_cap=wider_cap,
             )
             if grown.x2 > region.bbox_pt.x2 + 20:
                 wider = DetectedRegion(

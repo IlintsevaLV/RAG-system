@@ -1,11 +1,12 @@
 """Метрики formula detector: сравнение golden с data/ir/regions/*.json.
 
 Загружает golden формул и готовые regions (посчитанные run_regions),
-считает P/R/IoU по bbox'ам.
+считает P/R/IoU по bbox'ам. Сводка печатается общая и по каждому doc_id.
 """
 import argparse
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -28,12 +29,10 @@ def iou(a, b):
 
 def find_regions_file(doc_id: str, regions_dir: Path):
     """Найти regions-файл по doc_id (имя может отличаться от doc_id)."""
-    # прямое совпадение
     candidates = list(regions_dir.glob("*.json"))
     for c in candidates:
         if c.stem.startswith(doc_id):
             return c
-    # fuzzy: по первому слову doc_id
     first = doc_id.split()[0]
     for c in candidates:
         if first in c.stem:
@@ -45,7 +44,6 @@ def load_regions_for_doc(doc_id: str, regions_dir: Path, source_path: str | None
     """Загрузить regions-файл, соответствующий doc_id."""
     path = find_regions_file(doc_id, regions_dir)
     if path is None and source_path:
-        # fallback: по имени PDF
         stem = Path(source_path).stem
         for c in regions_dir.glob("*.json"):
             if stem in c.stem or c.stem in stem:
@@ -77,6 +75,16 @@ def get_regions_formulas(regions_data, page_no):
     return out
 
 
+def _print_summary(label: str, tp: int, fp: int, fn: int, iou_sum: float, matched: int) -> None:
+    prec = tp / (tp + fp) if (tp + fp) else 0.0
+    rec = tp / (tp + fn) if (tp + fn) else 0.0
+    mean_iou = iou_sum / matched if matched else 0.0
+    print(
+        f"{label}: P={prec:.2f} R={rec:.2f} mean_best_iou={mean_iou:.2f} "
+        f"tp={tp} fp={fp} fn={fn}"
+    )
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--gold", default="data/ir/gold/formulas_v1.json")
@@ -104,9 +112,12 @@ def main():
     tp = fp = fn = 0
     iou_sum = 0.0
     matched_count = 0
+    by_doc: dict[str, dict[str, float]] = defaultdict(
+        lambda: {"tp": 0, "fp": 0, "fn": 0, "iou_sum": 0.0, "matched": 0}
+    )
 
     for p in pages:
-        doc_id = p.get("doc_id")
+        doc_id = p.get("doc_id") or "?"
         page_no = p.get("page")
         gold_formulas = p.get("formulas", [])
         source = p.get("source")
@@ -118,9 +129,10 @@ def main():
 
         pred = get_regions_formulas(regions_data, page_no)
 
-        # матчинг: для каждой golden ищем лучший pred (жадно, без повторов)
         matched_gold = set()
         matched_pred = set()
+        page_iou_sum = 0.0
+        page_matched = 0
         for gi, g in enumerate(gold_formulas):
             best_iou = 0.0
             best_pi = -1
@@ -134,8 +146,8 @@ def main():
             if best_iou >= args.iou_hit:
                 matched_gold.add(gi)
                 matched_pred.add(best_pi)
-                iou_sum += best_iou
-                matched_count += 1
+                page_iou_sum += best_iou
+                page_matched += 1
 
         page_tp = len(matched_gold)
         page_fp = len(pred) - len(matched_pred)
@@ -143,18 +155,34 @@ def main():
         tp += page_tp
         fp += page_fp
         fn += page_fn
+        iou_sum += page_iou_sum
+        matched_count += page_matched
 
-        print(f"  {doc_id[:30]:32s} p{page_no:4d}  gold={len(gold_formulas)} "
-              f"pred={len(pred)} matched={page_tp}  "
-              f"tp={page_tp} fp={page_fp} fn={page_fn}")
+        d = by_doc[doc_id]
+        d["tp"] += page_tp
+        d["fp"] += page_fp
+        d["fn"] += page_fn
+        d["iou_sum"] += page_iou_sum
+        d["matched"] += page_matched
 
-    prec = tp / (tp + fp) if (tp + fp) else 0.0
-    rec = tp / (tp + fn) if (tp + fn) else 0.0
-    mean_iou = iou_sum / matched_count if matched_count else 0.0
+        print(
+            f"  {doc_id[:30]:32s} p{page_no:4d}  gold={len(gold_formulas)} "
+            f"pred={len(pred)} matched={page_tp}  "
+            f"tp={page_tp} fp={page_fp} fn={page_fn}"
+        )
 
     print()
-    print(f"IoU>=0.5: P={prec:.2f} R={rec:.2f} mean_best_iou={mean_iou:.2f} "
-          f"tp={tp} fp={fp} fn={fn}")
+    _print_summary("ALL IoU>=0.5", tp, fp, fn, iou_sum, matched_count)
+    for doc_id in sorted(by_doc):
+        d = by_doc[doc_id]
+        _print_summary(
+            f"  {doc_id}",
+            int(d["tp"]),
+            int(d["fp"]),
+            int(d["fn"]),
+            d["iou_sum"],
+            int(d["matched"]),
+        )
 
 
 if __name__ == "__main__":

@@ -194,6 +194,40 @@ def test_units() -> int:
         print(f"  FAIL  column formula {two_col}")
         failed += 1
 
+    from ingestion.region_detect import _extend_formula_bbox_right, _formula_column_x_cap
+
+    gutter_spans = [
+        TextSpan(text="L", bbox=(110, 270, 125, 284), font_size=None),
+        TextSpan(text="=", bbox=(128, 270, 140, 284), font_size=None),
+        TextSpan(text="0.006a", bbox=(144, 270, 180, 284), font_size=None),
+        TextSpan(text="(9.78)", bbox=(280, 270, 310, 284), font_size=None),
+        TextSpan(text="voltage", bbox=(340, 270, 420, 284), font_size=None),
+        TextSpan(text="is", bbox=(425, 270, 440, 284), font_size=None),
+    ]
+    seed = BBox(x1=106, y1=266, x2=184, y2=288)
+    cap = _formula_column_x_cap(gutter_spans, seed, page_w=606.0)
+    extended = _extend_formula_bbox_right(
+        seed, gutter_spans, page_w=606.0, x_cap=cap
+    )
+    if cap <= 340 and extended.x2 < 250:
+        print(f"  PASS  column x-cap blocks gutter cap={cap:.0f} x2={extended.x2:.0f}")
+    else:
+        print(f"  FAIL  column x-cap cap={cap} ext={extended}")
+        failed += 1
+
+    # Full-width single-column formula must keep a high cap.
+    wide_seed = BBox(x1=80, y1=200, x2=420, y2=230)
+    wide_cap = _formula_column_x_cap(
+        [TextSpan(text="T(V+aV)=dKE", bbox=(80, 200, 420, 230), font_size=None)],
+        wide_seed,
+        page_w=595.0,
+    )
+    if wide_cap >= 590:
+        print(f"  PASS  wide formula keeps page cap {wide_cap:.0f}")
+    else:
+        print(f"  FAIL  wide formula cap {wide_cap}")
+        failed += 1
+
     if wide and wide[0].bbox[2] - wide[0].bbox[0] > 180:
         print(f"  PASS  wide inductance merge {wide[0].bbox}")
     else:
