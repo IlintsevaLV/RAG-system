@@ -547,6 +547,15 @@ def _formula_crop_ok(region: DetectedRegion, *, img_w: int, img_h: int) -> bool:
     return True
 
 
+def _share_of_a_inside_b(a: BBox, b: BBox) -> float:
+    iw = min(a.x2, b.x2) - max(a.x1, b.x1)
+    ih = min(a.y2, b.y2) - max(a.y1, b.y1)
+    if iw <= 0 or ih <= 0:
+        return 0.0
+    area = max(1e-9, (a.x2 - a.x1) * (a.y2 - a.y1))
+    return iw * ih / area
+
+
 def _bbox_overlaps(a: BBox, b: BBox, *, min_share: float = 0.2) -> bool:
     """Intersection covers at least ``min_share`` of the smaller box.
 
@@ -599,8 +608,9 @@ def _extend_formula_bbox_right(
     spans: list[TextSpan],
     *,
     page_w: float,
+    max_gap: float = 160.0,
 ) -> BBox:
-    """Pull in a fragment sitting just to the right of a cut formula."""
+    """Pull in a math fragment to the right. Prose words are not pulled in."""
     x2 = bbox.x2
     used: set[int] = set()
     grew = True
@@ -609,24 +619,100 @@ def _extend_formula_bbox_right(
         for i, sp in enumerate(spans):
             if i in used:
                 continue
-            sx1, sy1, sx2, sy2 = sp.bbox
-            if sy2 < bbox.y1 - 2 or sy1 > bbox.y2 + 2:
+            text = (sp.text or "").strip()
+            if _CYR_WORD_RE.search(text) or (_WORD_RUN_RE.search(text) and not _has_formula_signal(text)):
                 continue
-            if x2 - 2 <= sx1 <= x2 + 40:
+            sx1, sy1, sx2, sy2 = sp.bbox
+            if sy2 < bbox.y1 - 8 or sy1 > bbox.y2 + 8:
+                continue
+            if x2 - 2 <= sx1 <= x2 + max_gap:
                 x2 = max(x2, sx2 + 4.0)
                 used.add(i)
                 grew = True
     return BBox(x1=bbox.x1, y1=bbox.y1, x2=min(page_w, x2), y2=bbox.y2)
 
 
+def _extend_formula_bbox_ink(
+    bbox: BBox,
+    image_bgr: np.ndarray | None,
+    dpi: int,
+    *,
+    page_w: float,
+    page_h: float,
+) -> BBox:
+    """Grow a cut formula to the ink of a fraction sitting 100–170 pt to the right.
+
+    A single text line is short inside a tall search band, so body words stay
+    out. A stacked fraction fills the band and is kept. A white gap of ~18 pt
+    stops the scan.
+    """
+    if image_bgr is None or image_bgr.size == 0:
+        return bbox
+    h, w = image_bgr.shape[:2]
+    gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
+    background = float(np.percentile(gray, 90))
+    ink = gray < min(background - 8.0, max(background - 30.0, 40.0))
+    y1 = max(0.0, bbox.y1 - 18.0)
+    y2 = min(page_h, bbox.y2 + 18.0)
+    x_limit = min(page_w, bbox.x2 + 220.0)
+    px1, py1, px2, py2 = _pt_to_px(BBox(x1=bbox.x1, y1=y1, x2=x_limit, y2=y2), dpi)
+    px1, py1 = max(0, px1), max(0, py1)
+    px2, py2 = min(w, px2), min(h, py2)
+    if px2 - px1 < 8 or py2 - py1 < 8:
+        return bbox
+    band = ink[py1:py2, px1:px2]
+    col = band.mean(axis=0)
+    if col.size == 0 or float(col.max()) < 0.02:
+        return bbox
+    # Tall ink only: a 10 pt word in a ~40 pt band stays under this.
+    thr = max(0.28, 0.45 * float(col.max()))
+    gap_px = max(2, int(18 * dpi / 72.0))
+    origin_px = max(0, min(col.size - 1, int((bbox.x2 - bbox.x1) * dpi / 72.0)))
+    last = origin_px
+    hole = 0
+    for i in range(origin_px, col.size):
+        if col[i] >= thr:
+            last = i
+            hole = 0
+        else:
+            hole += 1
+            if hole > gap_px and i > origin_px + gap_px:
+                break
+    if last <= origin_px + 4:
+        return bbox
+    x2 = min(page_w, bbox.x1 + (last + 1) * 72.0 / dpi + 4.0)
+    grown = BBox(x1=bbox.x1, y1=bbox.y1, x2=x2, y2=bbox.y2)
+    gx1, gy1, gx2, gy2 = _pt_to_px(grown, dpi)
+    gx1, gy1 = max(0, gx1), max(0, gy1)
+    gx2, gy2 = min(w, gx2), min(h, max(gy1 + 1, gy2 + int(36 * dpi / 72.0)))
+    # Include numerator/denominator above and below the equals sign.
+    search = ink[max(0, gy1 - int(20 * dpi / 72.0)) : min(h, gy2 + int(20 * dpi / 72.0)), gx1:gx2]
+    if search.size == 0:
+        return grown
+    row = search.mean(axis=1)
+    row_thr = max(0.02, 0.15 * float(row.max()) if row.size else 0.02)
+    dense = np.where(row >= row_thr)[0]
+    if dense.size == 0:
+        return grown
+    top = max(0, gy1 - int(20 * dpi / 72.0)) + int(dense.min())
+    bot = max(0, gy1 - int(20 * dpi / 72.0)) + int(dense.max()) + 1
+    return _px_to_pt(gx1, top, min(w, gx1 + (last + 1)), bot, dpi)
+
+
 def is_corner_logo(bbox: BBox, *, page_w: float, page_h: float) -> bool:
     """Small mark in a page corner (FAA logo), not a figure."""
     w, h = bbox.x2 - bbox.x1, bbox.y2 - bbox.y1
-    if w >= 100 or h >= 100 or w < 8 or h < 8:
+    if w < 8 or h < 8:
         return False
     near_x = bbox.x1 < 72 or bbox.x2 > page_w - 72
-    near_y = bbox.y1 < 72 or bbox.y2 > page_h - 72
-    return near_x and near_y
+    near_y = bbox.y1 < 90 or bbox.y2 > page_h - 90
+    if w < 100 and h < 100 and near_x and near_y:
+        return True
+    aspect = w / max(h, 1.0)
+    cy = 0.5 * (bbox.y1 + bbox.y2)
+    in_band = cy < 0.28 * page_h or cy > 0.78 * page_h
+    near_side = bbox.x1 < 0.22 * page_w or bbox.x2 > 0.78 * page_w
+    return w < 150 and h < 150 and 0.65 <= aspect <= 1.55 and in_band and near_side
 
 
 def _x_overlap_ratio(a: BBox, b: BBox) -> float:
@@ -719,6 +805,9 @@ def detect_formula_regions_from_spans(
                 ),
                 spans,
                 page_w=page_w,
+            )
+            bbox = _extend_formula_bbox_ink(
+                bbox, image_bgr, dpi, page_w=page_w, page_h=page_h
             )
             if min(ys0) < 60.0 or max(ys1) > page_h - 60.0:
                 continue
@@ -1870,6 +1959,13 @@ def detect_page_regions(
         or not any(_bbox_overlaps(r.bbox_pt, o.bbox_pt, min_share=0.05) for o in objects)
     ]
     regions = merge_regions(regions)
+    hosts = [r.bbox_pt for r in regions if r.type in (BlockType.TABLE, BlockType.FIGURE)]
+    regions = [
+        r
+        for r in regions
+        if r.type != BlockType.FORMULA
+        or not any(_share_of_a_inside_b(r.bbox_pt, host) >= 0.5 for host in hosts)
+    ]
     regions = [
         r
         for r in regions

@@ -111,6 +111,8 @@ python -m ingestion.run_regions data\raw\doc.pdf --pages 41 --enable-vlm
 python -m ingestion.run_regions data\raw\doc.pdf --pages 41 --enable-unimernet
 ```
 
+На рабочем ПК UniMERNet включается через `.env` (см. `.env.example`): `ENABLE_UNIMERNET=true` и `UNIMERNET_CONFIG_PATH` на yaml модели. Без этого формулы в IR остаются пустыми. Флаг `--enable-unimernet` включает то же на один запуск.
+
 Опционально: `pip install docling paddleocr img2table pylatexenc`  
 Результат: `data/ir/regions/<doc>_regions.json` (latex / markdown / caption + bbox).
 

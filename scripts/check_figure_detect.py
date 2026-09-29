@@ -130,6 +130,28 @@ def test_units() -> int:
     else:
         print(f"  FAIL  merge panels {panels}")
         failed += 1
+    wide_logo = BBox(x1=30, y1=40, x2=150, y2=160)
+    center_chart = BBox(x1=180, y1=80, x2=320, y2=220)
+    if is_corner_logo(wide_logo, page_w=595, page_h=842) and not is_corner_logo(
+        center_chart, page_w=595, page_h=842
+    ):
+        print("  PASS  square mark in the top band")
+    else:
+        print("  FAIL  square mark filter")
+        failed += 1
+
+    from ingestion.region_detect import _extend_formula_bbox_ink
+
+    page_img = np.full((400, 500, 3), 245, dtype=np.uint8)
+    page_img[80:200, 40:70] = 20
+    page_img[90:190, 78:280] = 25
+    short = BBox(x1=40, y1=120, x2=70, y2=140)
+    grown = _extend_formula_bbox_ink(short, page_img, 72, page_w=500, page_h=400)
+    if grown.x2 > 200 and grown.y1 <= 110 and grown.y2 >= 170:
+        print(f"  PASS  ink extends cut fraction {grown}")
+    else:
+        print(f"  FAIL  ink extend {grown}")
+        failed += 1
 
     # A hairline at the top of the window must not pin the box.
     noisy = img.copy()

@@ -200,8 +200,7 @@ def process_pdf_regions(
                     vlm=vlm,
                 )
             )
-            if len(pages_out) % 25 == 0:
-                gc.collect()
+            gc.collect()
         return {
             "doc_id": doc_id,
             "source_path": str(path.resolve()),

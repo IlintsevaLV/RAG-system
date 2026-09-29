@@ -20,7 +20,7 @@ log = get_logger("formula")
 
 _LATEX_FORBIDDEN = re.compile(r"[^\x09\x0a\x0d\x20-\x7e\u00a0-\u024f\\\{\}\^_]")
 _LATEX_MATH_SIGNAL = re.compile(
-    r"(=|\\frac|\\sqrt|\\sum|\\int|\\prod|\\lim|[_^]|"
+    r"(=|\\frac|\\sqrt|\\sum|\\int|\\prod|\\lim|\\ln|\\log|[_^]|"
     r"[<>≤≥≈≠±∑∫√]|"
     r"[A-Za-z0-9]\s*[+*/]\s*[A-Za-z0-9]|"
     r"[A-Za-z0-9]\s+-\s+[A-Za-z0-9])"
@@ -424,16 +424,23 @@ class UniMERNetRecognizer:
 
         try:
             if not self._WORKER_SCRIPT.is_file():
-                raise FileNotFoundError(...)
+                raise FileNotFoundError(
+                    f"UniMERNet worker script missing: {self._WORKER_SCRIPT}"
+                )
             py = self._find_worker_python()
             print(f"[UNIMERNET] py = {py}", flush=True)
 
             if py is None:
-                raise FileNotFoundError(...)
-            cfg = self.config_path or str(...)
+                raise FileNotFoundError(
+                    "UniMERNet worker python not found "
+                    "(.venv-unimernet or UNIMERNET_WORKER_PYTHON)"
+                )
+            cfg = self.config_path
             print(f"[UNIMERNET] cfg = {cfg}", flush=True)
-            if not Path(cfg).is_file():
-                raise FileNotFoundError(...)
+            if not cfg or not Path(cfg).is_file():
+                raise FileNotFoundError(
+                    f"UniMERNet config missing (UNIMERNET_CONFIG_PATH): {cfg or '(empty)'}"
+                )
 
             self._proc = subprocess.Popen(
                 [str(py), str(self._WORKER_SCRIPT), str(cfg)],
