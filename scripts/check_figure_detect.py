@@ -173,6 +173,27 @@ def test_units() -> int:
         page_w=606.72,
         page_h=786.48,
     )
+    from ingestion.region_detect import detect_formula_regions_from_spans
+
+    two_col = detect_formula_regions_from_spans(
+        [
+            TextSpan(text="L", bbox=(110, 270, 125, 284), font_size=None),
+            TextSpan(text="=", bbox=(128, 270, 140, 284), font_size=None),
+            TextSpan(text="0.006a", bbox=(144, 270, 180, 284), font_size=None),
+            TextSpan(text="the", bbox=(190, 270, 214, 284), font_size=None),
+            TextSpan(text="voltage", bbox=(370, 270, 420, 284), font_size=None),
+            TextSpan(text="is", bbox=(425, 270, 440, 284), font_size=None),
+        ],
+        dpi=72,
+        page_w=606.0,
+        page_h=786.0,
+    )
+    if len(two_col) == 1 and two_col[0].bbox_pt.x2 < 200:
+        print(f"  PASS  column formula stays left {two_col[0].bbox_pt}")
+    else:
+        print(f"  FAIL  column formula {two_col}")
+        failed += 1
+
     if wide and wide[0].bbox[2] - wide[0].bbox[0] > 180:
         print(f"  PASS  wide inductance merge {wide[0].bbox}")
     else:

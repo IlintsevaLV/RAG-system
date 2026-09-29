@@ -60,7 +60,8 @@ _CYR_LOOKALIKES = {
 }
 _FORMULA_STOPWORDS_RE = re.compile(
     r"\b(и|в|на|с|для|при|от|до|или|но|как|что|это|же|бы|не|по|из|к|о|об|"
-    r"за|над|под|про|через|между|где|если|тогда|and|the|for|with|from)\b",
+    r"за|над|под|про|через|между|где|если|тогда|"
+    r"and|the|for|with|from|is|of|to|be|as|at|or|an|by|it|on)\b",
     re.IGNORECASE,
 )
 _CYR_WORD_RE = re.compile(r"[А-Яа-яЁё]{2,}")
@@ -233,6 +234,16 @@ def _has_formula_signal(text: str) -> bool:
     return bool(re.search(r"[=+\-−×÷/^_∫∑√]|[\u0370-\u03FF\u1F00-\u1FFF]", text or ""))
 
 
+def _is_prose_piece(text: str) -> bool:
+    """A word or stopword with no operator. It must not extend a formula."""
+    raw = text or ""
+    if _has_formula_signal(raw):
+        return False
+    if _WORD_RUN_RE.search(raw) or _CYR_WORD_RE.search(raw):
+        return True
+    return bool(_FORMULA_STOPWORDS_RE.search(raw))
+
+
 def _is_lhs_fragment(text: str) -> bool:
     """Left-hand side cut off by OCR: "χ =", "M=" (the rest is a fraction)."""
     return bool(re.fullmatch(r"[^\s=]{1,4}\s*=", text.strip()))
@@ -275,8 +286,9 @@ def _can_merge_fragments(
     if y_gap > 0.04 * page_h:
         return False
     x_gap = max(0.0, max(ax1, bx1) - min(ax2, bx2))
-    # A stacked fraction often starts 100–170 pt to the right of "L =".
-    if x_gap > min(180.0, 0.30 * page_w):
+    # Keep fragments of one formula. A wider gap is the gutter of a two-column
+    # page (rdk89 p274: formula on the left, prose on the right, ~90 pt apart).
+    if x_gap > 26.0:
         return False
     if (ay2 < by1 or by2 < ay1) and y_gap > 0.02 * page_h:
         return False
@@ -623,7 +635,7 @@ def _extend_formula_bbox_right(
             if i in used:
                 continue
             text = (sp.text or "").strip()
-            if _CYR_WORD_RE.search(text) or (_WORD_RUN_RE.search(text) and not _has_formula_signal(text)):
+            if (_WORD.search(text) or _CYR_WORD_RE.search(text)) and not _has_formula_signal(text):
                 continue
             sx1, sy1, sx2, sy2 = sp.bbox
             if sy2 < bbox.y1 - 8 or sy1 > bbox.y2 + 8:
@@ -757,6 +769,50 @@ def merge_picture_panels(boxes: list[BBox]) -> list[BBox]:
     return items
 
 
+def _column_formula_lines(
+    spans: list[TextSpan],
+    *,
+    page_w: float,
+    page_h: float,
+) -> list[TextSpan]:
+    """Join short pieces of one formula that sit on one row inside one column.
+
+    Display equations on rdk89 p274 are split into ``L``, ``=``, ``0.006a``.
+    Each piece is too small to score, and a y-only cluster also picks up the
+    prose column. A gap above 26 pt starts a new column.
+    """
+    body = _body_spans(spans, page_h=page_h)
+    out: list[TextSpan] = []
+    for row in _cluster_span_rows(body, y_tol=7.0):
+        row = sorted(row, key=lambda s: s.bbox[0])
+        groups: list[list[TextSpan]] = [[row[0]]]
+        for sp in row[1:]:
+            prev = groups[-1][-1]
+            gap = sp.bbox[0] - prev.bbox[2]
+            if (
+                gap > 26.0
+                or _is_prose_piece(sp.text or "")
+                or _is_prose_piece(prev.text or "")
+            ):
+                groups.append([sp])
+            else:
+                groups[-1].append(sp)
+        for group in groups:
+            text = " ".join(s.text.strip() for s in group if s.text.strip())
+            if _line_math_score(text) < 0.55 or _is_rule_line(text):
+                continue
+            if len(_LONG_WORD_RE.findall(text)) >= 2:
+                continue
+            x1 = min(s.bbox[0] for s in group)
+            y1 = min(s.bbox[1] for s in group)
+            x2 = max(s.bbox[2] for s in group)
+            y2 = max(s.bbox[3] for s in group)
+            if x2 - x1 > 0.72 * page_w or x2 - x1 < 12:
+                continue
+            out.append(TextSpan(text=text, bbox=(x1, y1, x2, y2), font_size=None))
+    return out
+
+
 def detect_formula_regions_from_spans(
     spans: list[TextSpan],
     *,
@@ -777,23 +833,40 @@ def detect_formula_regions_from_spans(
         sc = _line_math_score(sp.text)
         if sc >= 0.55:
             scored.append((sp, sc))
+    for sp in _column_formula_lines(spans, page_w=page_w, page_h=page_h):
+        scored.append((sp, _line_math_score(sp.text)))
 
     out: list[DetectedRegion] = []
     if scored:
-        # cluster by vertical proximity
-        scored.sort(key=lambda x: x[0].bbox[1])
-        clusters: list[list[tuple[TextSpan, float]]] = []
-        cur: list[tuple[TextSpan, float]] = []
-        last_y2 = -1e9
-        for sp, sc in scored:
-            y1 = sp.bbox[1]
-            if cur and y1 - last_y2 > 18:
-                clusters.append(cur)
-                cur = []
-            cur.append((sp, sc))
-            last_y2 = sp.bbox[3]
-        if cur:
-            clusters.append(cur)
+        # Same column and a small y-gap. A y-only chain glues the formula
+        # column to the prose column on a two-column page.
+        parent = list(range(len(scored)))
+
+        def find(i: int) -> int:
+            while parent[i] != i:
+                parent[i] = parent[parent[i]]
+                i = parent[i]
+            return i
+
+        def near(a: TextSpan, b: TextSpan) -> bool:
+            ay1, ay2 = a.bbox[1], a.bbox[3]
+            by1, by2 = b.bbox[1], b.bbox[3]
+            y_gap = max(0.0, max(ay1, by1) - min(ay2, by2))
+            if y_gap > 18:
+                return False
+            if _is_prose_piece(a.text or "") or _is_prose_piece(b.text or ""):
+                return False
+            x_gap = max(0.0, max(a.bbox[0], b.bbox[0]) - min(a.bbox[2], b.bbox[2]))
+            return x_gap <= 26
+
+        for i, (sa, _) in enumerate(scored):
+            for j in range(i + 1, len(scored)):
+                if near(sa, scored[j][0]):
+                    parent[find(i)] = find(j)
+        buckets: dict[int, list[tuple[TextSpan, float]]] = {}
+        for i, item in enumerate(scored):
+            buckets.setdefault(find(i), []).append(item)
+        clusters = list(buckets.values())
 
         for cl in clusters:
             xs0 = [s.bbox[0] for s, _ in cl]
