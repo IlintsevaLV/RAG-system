@@ -8,6 +8,7 @@ Examples:
 from __future__ import annotations
 
 import argparse
+import ctypes
 import gc
 import json
 import sys
@@ -55,6 +56,44 @@ def _write_regions(path: Path, payload: dict) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _available_ram_bytes() -> int | None:
+    """Free physical RAM. Used to shrink a batch before a long PDF runs out of memory."""
+    if sys.platform != "win32":
+        return None
+    class _Mem(ctypes.Structure):
+        _fields_ = [
+            ("dwLength", ctypes.c_ulong),
+            ("dwMemoryLoad", ctypes.c_ulong),
+            ("ullTotalPhys", ctypes.c_ulonglong),
+            ("ullAvailPhys", ctypes.c_ulonglong),
+            ("ullTotalPageFile", ctypes.c_ulonglong),
+            ("ullAvailPageFile", ctypes.c_ulonglong),
+            ("ullTotalVirtual", ctypes.c_ulonglong),
+            ("ullAvailVirtual", ctypes.c_ulonglong),
+            ("ullAvailExtendedVirtual", ctypes.c_ulonglong),
+        ]
+
+    stat = _Mem()
+    stat.dwLength = ctypes.sizeof(stat)
+    if not ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(stat)):
+        return None
+    return int(stat.ullAvailPhys)
+
+
+def _pdf_fingerprint(path: Path) -> dict:
+    st = path.stat()
+    return {"mtime_ns": st.st_mtime_ns, "size": st.st_size}
+
+
+def _load_hashes(path: Path) -> dict:
+    if not path.is_file():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
 def parse_pages(spec: str | None) -> list[int] | None:
     if not spec:
         return None
@@ -100,9 +139,16 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "--batch-size",
+        "--max-pages-per-batch",
         type=int,
         default=200,
+        dest="batch_size",
         help="Save regions JSON after this many pages (limits RAM on long PDFs)",
+    )
+    parser.add_argument(
+        "--skip-unchanged",
+        action="store_true",
+        help="Skip a PDF whose mtime and size match data/cache/pdf_hashes.json",
     )
     args = parser.parse_args(argv)
 
@@ -120,8 +166,18 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     batch_size = max(1, args.batch_size)
+    free = _available_ram_bytes()
+    if free is not None and free < 1 << 30:
+        batch_size = 1
+        log.warning("low_ram_batch", free_mb=free // (1 << 20), batch_size=1)
+    hash_path = Path(settings.cache_dir) / "pdf_hashes.json"
+    hashes = _load_hashes(hash_path) if args.skip_unchanged else {}
     for pdf in targets:
         doc_id = (args.doc_id or pdf.stem).strip().rstrip(".")
+        fingerprint = _pdf_fingerprint(pdf)
+        if args.skip_unchanged and hashes.get(doc_id) == fingerprint:
+            _safe_print(f"\n=== {doc_id} === unchanged, skip")
+            continue
         out_path = out_dir / f"{doc_id}_regions.json"
         existing = _load_regions(out_path) if (args.resume or args.merge) else None
         with fitz.open(pdf) as opened:
@@ -158,6 +214,13 @@ def main(argv: list[str] | None = None) -> int:
             _write_regions(out_path, acc)
             gc.collect()
             log.info("regions_batch", out=str(out_path), pages=f"{chunk[0]}-{chunk[-1]}")
+        if args.skip_unchanged:
+            hashes[doc_id] = fingerprint
+            hash_path.parent.mkdir(parents=True, exist_ok=True)
+            hash_path.write_text(
+                json.dumps(hashes, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
         result = acc
         log.info("regions_done", out=str(out_path))
         _safe_print(f"\n=== {doc_id} === -> {out_path}")

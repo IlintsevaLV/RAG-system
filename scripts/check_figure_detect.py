@@ -153,6 +153,48 @@ def test_units() -> int:
         print(f"  FAIL  ink extend {grown}")
         failed += 1
 
+    from ingestion.formula_pipeline import _latex_looks_cut
+    from ingestion.region_detect import _figure_covers_toc, merge_formula_spans
+
+    if _latex_looks_cut(r"\eta =") and not _latex_looks_cut(r"\eta = \frac{a}{b}"):
+        print("  PASS  cut latex")
+    else:
+        print("  FAIL  cut latex")
+        failed += 1
+
+    wide = merge_formula_spans(
+        [
+            TextSpan(text="L", bbox=(100, 260, 120, 276), font_size=None),
+            TextSpan(text="=", bbox=(130, 260, 145, 276), font_size=None),
+            TextSpan(text="μ", bbox=(160, 260, 180, 276), font_size=None),
+            TextSpan(text="+", bbox=(200, 260, 215, 276), font_size=None),
+            TextSpan(text="0.006", bbox=(230, 262, 320, 278), font_size=None),
+        ],
+        page_w=606.72,
+        page_h=786.48,
+    )
+    if wide and wide[0].bbox[2] - wide[0].bbox[0] > 180:
+        print(f"  PASS  wide inductance merge {wide[0].bbox}")
+    else:
+        print(f"  FAIL  wide inductance merge {wide}")
+        failed += 1
+
+    toc_box = BBox(x1=70, y1=80, x2=500, y2=400)
+    toc_spans = [
+        TextSpan(text="Contents", bbox=(80, 90, 180, 104), font_size=None),
+        TextSpan(text="Introduction .... 1", bbox=(80, 120, 400, 134), font_size=None),
+        TextSpan(text="Scope .......... 4", bbox=(80, 150, 400, 164), font_size=None),
+        TextSpan(text="Formulas ....... 9", bbox=(80, 180, 400, 194), font_size=None),
+    ]
+    chart_spans = [
+        TextSpan(text="L = 12", bbox=(200, 200, 280, 214), font_size=None),
+    ]
+    if _figure_covers_toc(toc_box, toc_spans) and not _figure_covers_toc(toc_box, chart_spans):
+        print("  PASS  TOC picture rejected")
+    else:
+        print("  FAIL  TOC picture filter")
+        failed += 1
+
     # A hairline at the top of the window must not pin the box.
     noisy = img.copy()
     noisy[12, 100:180] = 0

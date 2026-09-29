@@ -275,7 +275,8 @@ def _can_merge_fragments(
     if y_gap > 0.04 * page_h:
         return False
     x_gap = max(0.0, max(ax1, bx1) - min(ax2, bx2))
-    if x_gap > 0.15 * page_w:
+    # A stacked fraction often starts 100–170 pt to the right of "L =".
+    if x_gap > min(180.0, 0.30 * page_w):
         return False
     if (ay2 < by1 or by2 < ay1) and y_gap > 0.02 * page_h:
         return False
@@ -507,7 +508,9 @@ def merge_formula_spans(
         y1 = min(s.bbox[1] for s in parts)
         x2 = max(s.bbox[2] for s in parts)
         y2 = max(s.bbox[3] for s in parts)
-        if x2 - x1 > 0.30 * page_w or y2 - y1 > 0.15 * page_h:
+        # Display equations on rdk89 p274 are ~180 pt wide (0.30 of that page).
+        # A full text line is wider still and is rejected by the formula signal.
+        if x2 - x1 > 0.72 * page_w or y2 - y1 > 0.22 * page_h:
             continue
         text = " ".join(
             s.text.strip()
@@ -541,7 +544,7 @@ def _formula_crop_ok(region: DetectedRegion, *, img_w: int, img_h: int) -> bool:
     if x2 - x1 < 10 or y2 - y1 < 10:
         return False
     if region.method == "span_fragment_merge" and (
-        y2 - y1 > 0.15 * img_h or x2 - x1 > 0.30 * img_w
+        y2 - y1 > 0.22 * img_h or x2 - x1 > 0.72 * img_w
     ):
         return False
     return True
@@ -639,6 +642,8 @@ def _extend_formula_bbox_ink(
     *,
     page_w: float,
     page_h: float,
+    reach_pt: float = 220.0,
+    gap_pt: float = 18.0,
 ) -> BBox:
     """Grow a cut formula to the ink of a fraction sitting 100–170 pt to the right.
 
@@ -654,7 +659,7 @@ def _extend_formula_bbox_ink(
     ink = gray < min(background - 8.0, max(background - 30.0, 40.0))
     y1 = max(0.0, bbox.y1 - 18.0)
     y2 = min(page_h, bbox.y2 + 18.0)
-    x_limit = min(page_w, bbox.x2 + 220.0)
+    x_limit = min(page_w, bbox.x2 + reach_pt)
     px1, py1, px2, py2 = _pt_to_px(BBox(x1=bbox.x1, y1=y1, x2=x_limit, y2=y2), dpi)
     px1, py1 = max(0, px1), max(0, py1)
     px2, py2 = min(w, px2), min(h, py2)
@@ -666,7 +671,7 @@ def _extend_formula_bbox_ink(
         return bbox
     # Tall ink only: a 10 pt word in a ~40 pt band stays under this.
     thr = max(0.28, 0.45 * float(col.max()))
-    gap_px = max(2, int(18 * dpi / 72.0))
+    gap_px = max(2, int(gap_pt * dpi / 72.0))
     origin_px = max(0, min(col.size - 1, int((bbox.x2 - bbox.x1) * dpi / 72.0)))
     last = origin_px
     hole = 0
@@ -861,6 +866,16 @@ def _cluster_span_rows(
         else:
             rows[-1].append(sp)
     return rows
+
+
+def _figure_covers_toc(box: BBox, spans: list[TextSpan]) -> bool:
+    """A picture box filled with contents lines is a TOC, not a figure."""
+    inside: list[str] = []
+    for sp in spans:
+        cx, cy = _span_center(sp)
+        if box.x1 <= cx <= box.x2 and box.y1 <= cy <= box.y2 and sp.text.strip():
+            inside.append(sp.text)
+    return len(inside) >= 4 and _is_toc_like_text(inside)
 
 
 def _is_toc_like_text(texts: list[str]) -> bool:
@@ -1612,6 +1627,8 @@ def figures_from_docling_layout(
         ok, _reason = is_valid_figure_bbox(pic.bbox_pt, page_w=page_w, page_h=page_h)
         if not ok or is_corner_logo(pic.bbox_pt, page_w=page_w, page_h=page_h):
             continue
+        if _figure_covers_toc(pic.bbox_pt, spans):
+            continue
         kept_pics.append(pic)
     merged_boxes = merge_picture_panels([p.bbox_pt for p in kept_pics])
     out: list[DetectedRegion] = []
@@ -1853,27 +1870,32 @@ def detect_page_regions(
     formula_regions = detect_formula_regions_from_spans(
         spans, dpi=dpi, page_w=page_w, page_h=page_h, image_bgr=rendered.image_bgr
     )
-    # A text layer can miss an image-only formula band.  OCR the upper part and
-    # add only validated merged fragments, never raw OCR lines: raw lines would
-    # re-feed prose into the single-span heuristic.
+    # A text layer can miss an image-only formula (math italic on rdk89 p274).
+    # OCR only a half that has no formula yet, and keep merged fragments only.
     if (
         spans_from_layer
         and use_ocr_fallback
-        and not any(r.bbox_pt.y1 < 0.45 * page_h for r in formula_regions)
         and not _formula_merge_blocked(spans, page_w=page_w, page_h=page_h)
     ):
-        ocr_top = _ocr_pseudo_spans(
-            rendered.image_bgr,
-            dpi=dpi,
-            doc_id=doc_id,
-            page=page_number,
-            y_range=(0.0, 0.45),
-        )
-        if ocr_top:
+        bands: list[tuple[float, float]] = []
+        if not any(r.bbox_pt.y1 < 0.45 * page_h for r in formula_regions):
+            bands.append((0.0, 0.45))
+        if not any(r.bbox_pt.y1 >= 0.45 * page_h for r in formula_regions):
+            bands.append((0.45, 1.0))
+        for y0, y1 in bands:
+            ocr_band = _ocr_pseudo_spans(
+                rendered.image_bgr,
+                dpi=dpi,
+                doc_id=doc_id,
+                page=page_number,
+                y_range=(y0, y1),
+            )
+            if not ocr_band:
+                continue
             formula_regions.extend(
                 merged_formula_regions(
                     merge_formula_spans(
-                        ocr_top,
+                        ocr_band,
                         page_w=page_w,
                         page_h=page_h,
                         image_bgr=rendered.image_bgr,

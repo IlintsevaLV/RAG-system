@@ -14,7 +14,12 @@ import os
 from core.ir import BBox, BlockType, Provenance, QualitySignals, RegionBlock
 from core.logger import get_logger
 from ingestion.models import ExtractStatus
-from ingestion.region_detect import DetectedRegion, crop_region_bgr
+from ingestion.region_detect import (
+    DetectedRegion,
+    _extend_formula_bbox_ink,
+    _pt_to_px,
+    crop_region_bgr,
+)
 
 log = get_logger("formula")
 
@@ -26,6 +31,14 @@ _LATEX_MATH_SIGNAL = re.compile(
     r"[A-Za-z0-9]\s+-\s+[A-Za-z0-9])"
 )
 _LATEX_WORD = re.compile(r"[A-Za-zА-Яа-яЁё]{4,}")
+
+
+def _latex_looks_cut(latex: str) -> bool:
+    """True when recognition stopped on the left side of a fraction."""
+    s = (latex or "").strip().rstrip("$").rstrip()
+    if len(s) < 2:
+        return False
+    return s[-1] in "-=/"
 
 
 def normalize_latex(raw: str) -> str:
@@ -608,6 +621,44 @@ def process_formula_region(
 
     latex_norm, ok, vnotes = normalize_and_validate(latex_raw)
     notes.extend(vnotes)
+
+    # A crop that ends on "=", "-" or "/" is the left half of a fraction.
+    if (
+        unimer
+        and unimer.available
+        and _latex_looks_cut(latex_norm or latex_raw)
+        and region.bbox_px is not None
+    ):
+        try:
+            grown = _extend_formula_bbox_ink(
+                region.bbox_pt,
+                image_bgr,
+                dpi,
+                page_w=float(image_bgr.shape[1]) * 72.0 / dpi,
+                page_h=float(image_bgr.shape[0]) * 72.0 / dpi,
+                reach_pt=280.0,
+                gap_pt=36.0,
+            )
+            if grown.x2 > region.bbox_pt.x2 + 20:
+                wider = DetectedRegion(
+                    type=region.type,
+                    bbox_pt=grown,
+                    bbox_px=_pt_to_px(grown, dpi),
+                    score=region.score,
+                    method=region.method,
+                    notes=list(region.notes),
+                )
+                crop_w = crop_region_bgr(image_bgr, wider, pad=12)
+                latex_raw2, conf2 = unimer.recognize(crop_w)
+                latex_norm2, ok2, vnotes2 = normalize_and_validate(latex_raw2)
+                notes.append("retry_wider_bbox")
+                notes.extend(vnotes2)
+                if ok2 and not _latex_looks_cut(latex_norm2):
+                    latex_raw, latex_norm, conf, ok = latex_raw2, latex_norm2, conf2, True
+                    method = "unimernet_wider"
+                    region = wider
+        except Exception as exc:  # noqa: BLE001
+            notes.append(f"retry_wider_fail:{exc}")
 
     # one retry with stronger upscale if invalid
     if not ok and unimer and unimer.available:

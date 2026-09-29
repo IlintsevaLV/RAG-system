@@ -159,7 +159,10 @@ def _extract_ab(
         "lexical_quality": analysis.tlq.components.lexical_quality,
         "garbage_veto": analysis.tlq.garbage_veto,
         "visual_agreement": analysis.tlq.components.visual_agreement,
+        "low_confidence": bool(analysis.tlq.garbage_veto),
     }
+    if analysis.tlq.garbage_veto:
+        notes.append("low_confidence")
 
     # OCR cross-check for class B (and optional for A if enabled)
     need_ocr = page_class == PageClass.B or settings.ab_always_ocr_check
@@ -328,7 +331,10 @@ def _extract_cd(
         "visual_agreement": analysis.tlq.components.visual_agreement,
         "preprocess_steps": prep.get("steps") or [],
         "iqs_level": iqs_level,
+        "low_confidence": True,
+        "garbage_veto": analysis.tlq.garbage_veto,
     }
+    notes.append("low_confidence")
     layout = LayoutHints()
     needs_vlm = True
     vlm_attempted = False
