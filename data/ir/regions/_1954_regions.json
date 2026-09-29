@@ -224,9 +224,9 @@
         "n_tables": 0,
         "n_figures": 0,
         "table_ok": 0,
-        "formula_ok": 4,
+        "formula_ok": 3,
         "formula_suspicious": 0,
-        "formula_suspicious_semantic": 2,
+        "formula_suspicious_semantic": 3,
         "formula_caption_or_header": 0
       },
       "detections": [
@@ -248,7 +248,7 @@
           "bbox": {
             "x1": 59.72,
             "y1": 549.68,
-            "x2": 446.08,
+            "x2": 357.32000610351565,
             "y2": 571.72
           }
         },
@@ -259,7 +259,7 @@
           "bbox": {
             "x1": 80.6,
             "y1": 582.4399999999999,
-            "x2": 190.48,
+            "x2": 186.16,
             "y2": 603.76
           }
         },
@@ -270,7 +270,7 @@
           "bbox": {
             "x1": 57.919999999999995,
             "y1": 619.16,
-            "x2": 429.52,
+            "x2": 355.52000610351564,
             "y2": 639.76
           }
         },
@@ -281,7 +281,7 @@
           "bbox": {
             "x1": 133.16,
             "y1": 721.76,
-            "x2": 535.0,
+            "x2": 442.7600061035156,
             "y2": 745.24
           }
         },
@@ -345,7 +345,7 @@
           "bbox": {
             "x1": 59.72,
             "y1": 549.68,
-            "x2": 446.08,
+            "x2": 357.32000610351565,
             "y2": 571.72
           },
           "tiles": [],
@@ -358,15 +358,16 @@
             "notes": [
               "n_spans=2",
               "text=µ= | µ=",
+              "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=1098x86",
+              "preview_wh=851x86",
               "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "{ \\nu } \\mathrm { = } \\frac { { \\cal { V } } \\, { \\cos \\alpha } } { \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } ^ { \\mathrm { \\it { \\omega } } } } \\approx \\frac { { \\cal { V } } } { \\mathrm { \\omega } { \\omega } R } \\mathrm { \\mathrm { - \\ x a p a K { \\bf { r e p u c r } { n } } { \\cal { K } } \\mathrm { \\ i } } \\mathrm { \\ p e x { \\boldsymbol { \\kappa } } { \\mathrm { \\ p a i n a { \\bf { \\tau } } { \\ p a } } \\mathrm { \\ i } } { \\nabla \\mathrm { \\ t } } { \\cal { \\ell } } \\mathrm { \\ c o { \\bf { \\tau } } } { \\mathrm { \\tiny { \\ r a n } } } } }",
-            "latex": "{ \\nu } \\mathrm { = } \\frac { { \\cal { V } } \\, { \\cos \\alpha } } { \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } ^ { \\mathrm { \\it { \\omega } } } } \\approx \\frac { { \\cal { V } } } { \\mathrm { \\omega } { \\omega } R } \\mathrm { \\mathrm { - \\ x a p a K { \\bf { r e p u c r } { n } } { \\cal { K } } \\mathrm { \\ i } } \\mathrm { \\ p e x { \\boldsymbol { \\kappa } } { \\mathrm { \\ p a i n a { \\bf { \\tau } } { \\ p a } } \\mathrm { \\ i } } { \\nabla \\mathrm { \\ t } } { \\cal { \\ell } } \\mathrm { \\ c o { \\bf { \\tau } } } { \\mathrm { \\tiny { \\ r a n } } } } }",
-            "text_fallback": "= V \\, ** V R - \\ x a p a K r e p u c r n K \\ i \\ p e x \\ p a i n a \\ p a \\ i \\ t \\ c o \\ r a n",
+            "latex_raw": "{ \\scriptstyle * \\rightleftarrows = { \\frac { V \\cos \\alpha } { \\omega R } } \\displaystyle \\approx { \\frac { V } { \\omega R } } - \\operatorname { x a p a r r e p u c r n } \\operatorname { r a \\ p e x } \\operatorname { R H M a } \\textrm { P }",
+            "latex": "{ \\scriptstyle * \\rightleftarrows = { \\frac { V \\cos \\alpha } { \\omega R } } \\displaystyle \\approx { \\frac { V } { \\omega R } } - \\operatorname { x a p a r r e p u c r n } \\operatorname { r a \\ p e x } \\operatorname { R H M a } \\textrm { P } }",
+            "text_fallback": "* leftarrows = V R V R - x a p a r r e p u c r n r a \\ p e x R H M a P",
             "status": "suspicious_semantic"
           },
           "provenance": {
@@ -385,7 +386,7 @@
           "bbox": {
             "x1": 80.6,
             "y1": 582.4399999999999,
-            "x2": 190.48,
+            "x2": 186.16,
             "y2": 603.76
           },
           "tiles": [],
@@ -399,13 +400,13 @@
               "n_spans=2",
               "text=λ= | λ=",
               "pylatexenc_ok",
-              "preview_wh=330x84"
+              "preview_wh=318x84"
             ]
           },
           "content": {
-            "latex_raw": "\\lambda \\, { = } \\, \\frac { V \\sin \\alpha + v } { \\omega R } \\, -",
-            "latex": "\\lambda \\, { = } \\, \\frac { V \\sin \\alpha + v } { \\omega R } \\, -",
-            "text_fallback": "\\, = \\, V + v R \\, -",
+            "latex_raw": "\\lambda \\, { = } \\, \\frac { V \\sin \\alpha + v } { \\upomega R } \\, .",
+            "latex": "\\lambda \\, { = } \\, \\frac { V \\sin \\alpha + v } { \\upomega R } \\, .",
+            "text_fallback": "\\, = \\, V + v R \\, .",
             "status": "ok"
           },
           "provenance": {
@@ -424,7 +425,7 @@
           "bbox": {
             "x1": 57.919999999999995,
             "y1": 619.16,
-            "x2": 429.52,
+            "x2": 355.52000610351564,
             "y2": 639.76
           },
           "tiles": [],
@@ -440,14 +441,14 @@
               "spacing_collapsed",
               "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=1057x82",
+              "preview_wh=851x82",
               "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "\\epsilon _ { \\tt T } \\! = \\! \\frac { I } { \\mathrm { ~ 1 ~ \\: ~ \\: ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\operatorname { p o } , ~ \\! ~ \\! ~ \\! ~ \\! ~ m o ~ } } - \\mathrm { \\~ \\kappa ~ } \\mathrm { K O } 3 \\Dot { \\Phi } \\mathrm { H U H e H } \\mathrm { ~ \\ k \\: \\pi _ { \\tt H T H } ~ \\; \\mathrm { H e ~ C y I I i l e } \\mathrm { \\, ~ \\! ~ \\! ~ \\! ~ B H H \\bar { \\tau } \\mathrm { ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! \\! ~ \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\!",
-            "latex": "\\epsilon _ { \\tt T } \\! = \\! \\frac { I } { \\mathrm { ~ 1 ~ \\: ~ \\: ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\operatorname { p o } , ~ \\! ~ \\! ~ \\! ~ \\! ~ m o ~ } } - \\mathrm { \\~ \\kappa ~ } \\mathrm { K O } 3 \\Dot { \\Phi } \\mathrm { H U H e H } \\mathrm { ~ \\ k \\: \\pi _ { \\tt H T H } ~ \\; \\mathrm { H e ~ C y I I i l e } \\mathrm { \\, ~ \\! ~ \\! ~ \\! ~ B H H \\bar { \\tau } \\mathrm { ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! ~ \\! ~ \\! } } }",
-            "text_fallback": "T \\! = \\! I ~ 1 ~ \\: ~ \\: ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ p o , ~ \\! ~ \\! ~ \\! ~ \\! ~ m o ~ - \\~ ~ K O 3 H U H e H ~ \\ k \\: H T H ~ \\; H e ~ C y I I i l e \\, ~ \\! ~ \\! ~ \\! ~ B H H ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! ~ \\! ~ \\!",
+            "latex_raw": "\\epsilon _ { \\tt { T } } \\! = \\! \\frac { I } { \\mathrm { ~ 1 ~ \\, ~ \\, ~ \\Omega _ { \\mathrm { { r } , \\Lambda ^ { \\prime } ~ \\, \\Pi _ { \\mathrm { { r } , \\Lambda ^ { \\prime } } } } } ~ } } - \\kappa \\mathrm { o } 3 \\Phi \\Phi \\Phi \\mathrm { H \\tt { H u l t h e n t } \\, \\, \\, \\, \\mathrm { { \\bf { r } } \\, \\mathrm { { \\bf { q } } \\mathrm { r } \\, \\, \\, \\mathrm { { \\bf { H } } \\, \\, \\, \\ u e c y \\, \\mathrm { { \\bf { U } } \\} } } } }",
+            "latex": "\\epsilon _ { \\tt { T } } \\! = \\! \\frac { I } { \\mathrm { ~ 1 ~ \\, ~ \\, ~ \\Omega _ { \\mathrm { { r } , \\Lambda ^ { \\prime } ~ \\, \\Pi _ { \\mathrm { { r } , \\Lambda ^ { \\prime } } } } } ~ } } - \\kappa \\mathrm { o } 3 \\Phi \\Phi \\Phi \\mathrm { H \\tt { H u l t h e n t } \\, \\mathrm { { \\bf { r } } \\, \\mathrm { { \\bf { q } } \\mathrm { r } \\, \\, \\, \\mathrm { { \\bf { H } } \\, \\, \\, \\ u e c y \\, \\mathrm { { \\bf { U } } \\} } } } } }",
+            "text_fallback": "T \\! = \\! I ~ 1 ~ \\, ~ \\, ~ r , ** ~ \\, r , ** ~ - o 3 H H u l t h e n t \\, r \\, q r \\, \\, \\, H \\, \\, \\, \\ u e c y \\, U \\",
             "status": "suspicious_semantic"
           },
           "provenance": {
@@ -466,7 +467,7 @@
           "bbox": {
             "x1": 133.16,
             "y1": 721.76,
-            "x2": 535.0,
+            "x2": 442.7600061035156,
             "y2": 745.24
           },
           "tiles": [],
@@ -475,20 +476,20 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.0,
+            "suspicion": 0.6,
             "notes": [
               "n_spans=1",
               "text=π =",
-              "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=1141x90"
+              "preview_wh=884x90",
+              "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "p = { \\frac { G } { F } } - \\mathrm { y } { \\mathrm { ~ \\scriptstyle { \\cal { H } } e . n b { \\scriptstyle { \\cal { H } } } { \\cal { a } } { \\cal { R } } ~ { \\scriptstyle { \\cal { H } } } { \\cal { T } } { \\cal { Y } } ^ { 3 { \\cal { K } } { \\scriptstyle { \\cal { A } } } } ~ { \\scriptstyle { \\cal { H } } { \\cal { \\bar { a } } } ~ \\, \\, \\cal { H } } { \\cal { H } } C { \\scriptstyle { \\cal { K } } } ~ { \\scriptstyle { \\cal { H } } C { \\scriptstyle { \\cal { Y } } } \\, \\mathrm { \\scriptstyle { \\cal { H } } I } } { \\scriptstyle { \\cal { \\cal { E } } } { \\cal { H } } { \\cal { T } } { \\scriptstyle { \\cal { Q } } } ~ { \\scriptstyle { \\cal { \\cal { \\cal { H } } } } { \\cal { T } } } { \\scriptstyle { \\cal { \\bar { a } } } ~ { \\cal { \\cal { \\cal { \\cal { H } } } } } ^ { 2 } } { \\scriptstyle { \\cal { \\cal { K } } } } ^ { \\prime } { \\scriptstyle { \\cal { \\cal { H } } } ^ { 2 } } . }",
-            "latex": "p = { \\frac { G } { F } } - \\mathrm { y } { \\mathrm { ~ \\scriptstyle { \\cal { H } } e . n b { \\scriptstyle { \\cal { H } } } { \\cal { a } } { \\cal { R } } ~ { \\scriptstyle { \\cal { H } } } { \\cal { T } } { \\cal { Y } } ^ { 3 { \\cal { K } } { \\scriptstyle { \\cal { A } } } } ~ { \\scriptstyle { \\cal { H } } { \\cal { \\bar { a } } } ~ \\, \\, \\cal { H } } { \\cal { H } } C { \\scriptstyle { \\cal { K } } } ~ { \\scriptstyle { \\cal { H } } C { \\scriptstyle { \\cal { Y } } } \\, \\mathrm { \\scriptstyle { \\cal { H } } I } } { \\scriptstyle { \\cal { \\cal { E } } } { \\cal { H } } { \\cal { T } } { \\scriptstyle { \\cal { Q } } } ~ { \\scriptstyle { \\cal { \\cal { \\cal { H } } } } { \\cal { T } } } { \\scriptstyle { \\cal { \\bar { a } } } ~ { \\cal { \\cal { \\cal { \\cal { H } } } } } ^ { 2 } } { \\scriptstyle { \\cal { \\cal { K } } } } ^ { \\prime } { \\scriptstyle { \\cal { \\cal { H } } } ^ { 2 } } . } } }",
-            "text_fallback": "p = G F - y ~ H e . n b H a R ~ H T Y ** 3 K A ~ H a ~ \\, \\, H H C K ~ H C Y \\, H I E H T Q ~ H T a ~ H ** 2 K ** H ** 2 .",
-            "status": "ok"
+            "latex_raw": "p = { \\frac { G } { F } } - { \\mathrm { y } } { \\mathrm { n e q b H a n ~ u a r p y 3 K a ~ { \\bf ~ H } } } a \\mathrm { ~ \\ } { \\pi } \\mathrm { H C K ~ ~ H e C y } \\mathrm { ~ H } \\mathrm { { \\bf f } } \\mathrm { { \\bf ~ \\cal { e } } } \\mathrm { { \\cal { r } } } \\mathrm { { \\cal { O } } } \\mathrm { ~ \\ } { \\kappa }",
+            "latex": "p = { \\frac { G } { F } } - { \\mathrm { y } } { \\mathrm { n e q b H a n ~ u a r p y 3 K a ~ { \\bf ~ H } } } a \\mathrm { ~ \\ } { \\pi } \\mathrm { H C K ~ ~ H e C y } \\mathrm { ~ H } \\mathrm { { \\bf f } } \\mathrm { { \\bf ~ \\cal { e } } } \\mathrm { { \\cal { r } } } \\mathrm { { \\cal { O } } } \\mathrm { ~ \\ } { \\kappa }",
+            "text_fallback": "p = G F - y n e q b H a n ~ u a r p y 3 K a ~ ~ H a ~ \\ H C K ~ ~ H e C y ~ H f ~ e r O ~ \\",
+            "status": "suspicious_semantic"
           },
           "provenance": {
             "model": "unimernet",
@@ -2230,7 +2231,7 @@
           "bbox": {
             "x1": 232.51999999999998,
             "y1": 587.48,
-            "x2": 320.8,
+            "x2": 337.0,
             "y2": 606.28
           }
         }
@@ -2402,7 +2403,7 @@
           "bbox": {
             "x1": 232.51999999999998,
             "y1": 587.48,
-            "x2": 320.8,
+            "x2": 337.0,
             "y2": 606.28
           },
           "tiles": [],
@@ -2416,13 +2417,13 @@
               "n_spans=2",
               "text=== 0 | == 0",
               "pylatexenc_ok",
-              "preview_wh=270x77"
+              "preview_wh=315x77"
             ]
           },
           "content": {
-            "latex_raw": "v = v ^ { \\frac { T } { 2 0 \\pi R } }",
-            "latex": "v = v ^ { \\frac { T } { 2 0 \\pi R } }",
-            "text_fallback": "v = v ** T 2 0 R",
+            "latex_raw": "v = \\frac { r } { V } \\frac { r } { 2 \\circ \\equiv R ^ { \\prime } } .",
+            "latex": "v = \\frac { r } { V } \\frac { r } { 2 \\circ \\equiv R ^ { \\prime } } .",
+            "text_fallback": "v = r V r 2 R ** .",
             "status": "ok"
           },
           "provenance": {
@@ -2458,7 +2459,7 @@
           "bbox": {
             "x1": 180.32,
             "y1": 509.0,
-            "x2": 389.2,
+            "x2": 217.48,
             "y2": 532.84
           }
         },
@@ -2483,7 +2484,7 @@
           "bbox": {
             "x1": 180.32,
             "y1": 509.0,
-            "x2": 389.2,
+            "x2": 217.48,
             "y2": 532.84
           },
           "tiles": [],
@@ -2496,16 +2497,15 @@
             "notes": [
               "n_spans=2",
               "text=η = | η =",
-              "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=605x91",
-              "semantic_reason=long_letter_run"
+              "preview_wh=128x91",
+              "semantic_reason=truncated"
             ]
           },
           "content": {
-            "latex_raw": "\\eta = \\frac { \\mathrm { { R o . r e 3 } } \\mathrm { { R a } } \\ \\mathrm { { \\ v o u t i o c } } \\, \\mathrm { { t b } } } { \\mathrm { { o } } \\mathrm { { \\hat { \\theta } } } \\mathrm { { I I } } \\mathrm { { \\{ 4 8 \\, \\ M O H M O C T b } } } } { \\mathrm { { = } } \\, \\frac { I \\, V } { 7 5 \\Lambda ^ { \\prime } } } .",
-            "latex": "\\eta = \\frac { \\mathrm { { R o . r e 3 } } \\mathrm { { R a } } \\ \\mathrm { { \\ v o u t i o c } } \\, \\mathrm { { t b } } } { \\mathrm { { o } } \\mathrm { { \\hat { \\theta } } } \\mathrm { { I I } } \\mathrm { { \\{ 4 8 \\, \\ M O H M O C T b } } } { \\mathrm { { = } } \\, \\frac { I \\, V } { 7 5 \\Lambda ^ { \\prime } } } .",
-            "text_fallback": "= R o . r e 3 R a \\ \\ v o u t i o c \\, t b o I I \\ 4 8 \\, \\ M O H M O C T b = \\, I \\, V 7 5 ** .",
+            "latex_raw": "\\begin{array} { r } { \\eta \\! = \\! \\frac { \\mathrm { ~ I ~ } } { } } \\end{array}",
+            "latex": "\\begin{array} { r } { \\eta \\! = \\! \\frac { \\mathrm { ~ I ~ } } { } } \\end{array}",
+            "text_fallback": "r \\! = \\! ~ I ~",
             "status": "suspicious_semantic"
           },
           "provenance": {

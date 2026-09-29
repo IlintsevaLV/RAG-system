@@ -26203,14 +26203,14 @@
       "page": 262,
       "summary": {
         "page": 262,
-        "n_detections": 12,
-        "n_formulas": 12,
+        "n_detections": 13,
+        "n_formulas": 13,
         "n_tables": 0,
         "n_figures": 0,
         "table_ok": 0,
-        "formula_ok": 7,
-        "formula_suspicious": 0,
-        "formula_suspicious_semantic": 5,
+        "formula_ok": 8,
+        "formula_suspicious": 1,
+        "formula_suspicious_semantic": 4,
         "formula_caption_or_header": 0
       },
       "detections": [
@@ -26254,7 +26254,7 @@
           "bbox": {
             "x1": 133.0,
             "y1": 182.32395935058594,
-            "x2": 478.27197265625,
+            "x2": 255.66319274902344,
             "y2": 259.31297302246094
           }
         },
@@ -26271,12 +26271,23 @@
         },
         {
           "type": "formula",
+          "score": 0.65,
+          "method": "span_fragment_merge",
+          "bbox": {
+            "x1": 380.0,
+            "y1": 251.12997436523438,
+            "x2": 473.2635498046875,
+            "y2": 304.7699890136719
+          }
+        },
+        {
+          "type": "formula",
           "score": 0.723125,
           "method": "span_math_heuristic",
           "bbox": {
             "x1": 120.0,
             "y1": 270.42401123046875,
-            "x2": 542.6271362304688,
+            "x2": 267.6632080078125,
             "y2": 317.469970703125
           }
         },
@@ -26287,7 +26298,7 @@
           "bbox": {
             "x1": 329.0,
             "y1": 307.3299865722656,
-            "x2": 542.6271362304688,
+            "x2": 494.33099365234375,
             "y2": 329.9599914550781
           }
         },
@@ -26309,7 +26320,7 @@
           "bbox": {
             "x1": 88.0,
             "y1": 373.97698974609375,
-            "x2": 548.8260498046875,
+            "x2": 275.9540100097656,
             "y2": 413.9999694824219
           }
         },
@@ -26320,7 +26331,7 @@
           "bbox": {
             "x1": 86.0,
             "y1": 433.42999267578125,
-            "x2": 541.435546875,
+            "x2": 271.8299865722656,
             "y2": 558.699951171875
           }
         },
@@ -26331,7 +26342,7 @@
           "bbox": {
             "x1": 359.0,
             "y1": 477.7829895019531,
-            "x2": 541.435546875,
+            "x2": 542.0499877929688,
             "y2": 498.38897705078125
           }
         },
@@ -26474,7 +26485,7 @@
           "bbox": {
             "x1": 133.0,
             "y1": 182.32395935058594,
-            "x2": 478.27197265625,
+            "x2": 255.66319274902344,
             "y2": 259.31297302246094
           },
           "tiles": [],
@@ -26488,14 +26499,14 @@
               "n_spans=6",
               "text=48= | (x + jy) = r(cos 4, + j sin 0) | ed = cos 0 + sin | x + jy = | r = IX2+y 1 2j;(X) | 48= ta- (v/a')J",
               "pylatexenc_ok",
-              "preview_wh=983x238",
+              "preview_wh=365x238",
               "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "\\begin{array} { r l r l } & { } & { \\quad _ { 1 / \\sqrt { 2 } j } = ( 1 - j ) / 2 \\qquad } & { D ( 3 ) = 2 ^ { i } \\cdot 4 ^ { i } \\cdot 6 ^ { i } \\mathrm { ~ e t } \\mathrm { ~ . } } \\\\ & { } & { \\quad ( x + j y ) = r ( \\cos \\phi + j \\sin \\phi ) } \\\\ & { } & { \\quad \\quad \\quad e ^ { j \\phi } = \\cos \\phi + j \\sin \\phi \\qquad } & { \\mathrm { ~ F u n c t i o n s ~ o f ~ t h e ~ s e c o n d ~ k i n d , ~ o r d e c t i o n } } \\\\ & { } & { \\quad \\quad \\quad \\mathrm { ~ o t e ~ } x + j y = r e ^ { j \\phi } \\qquad } & { \\mathrm { ~ o t h e ~ } } \\\\ & { } & { \\quad \\quad \\sinh r = \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\\\ & { } & { \\quad \\quad \\phi = \\tan ^ { - 1 } ( y / \\pi ) \\qquad } & { \\mathrm { ~ . } } \\end{array}",
-            "latex": "\\begin{array} { r l r l } & { } & { \\quad _ { 1 / \\sqrt { 2 } j } = ( 1 - j ) / 2 \\qquad } & { D ( 3 ) = 2 ^ { i } \\cdot 4 ^ { i } \\cdot 6 ^ { i } \\mathrm { ~ e t } \\mathrm { ~ . } } \\\\ & { } & { \\quad ( x + j y ) = r ( \\cos \\phi + j \\sin \\phi ) } \\\\ & { } & { \\quad \\quad \\quad e ^ { j \\phi } = \\cos \\phi + j \\sin \\phi \\qquad } & { \\mathrm { ~ F u n c t i o n s ~ o f ~ t h e ~ s e c o n d ~ k i n d , ~ o r d e c t i o n } } \\\\ & { } & { \\quad \\quad \\quad \\mathrm { ~ o t e ~ } x + j y = r e ^ { j \\phi } \\qquad } & { \\mathrm { ~ o t h e ~ } } \\\\ & { } & { \\quad \\quad \\sinh r = \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\\\ & { } & { \\quad \\quad \\phi = \\tan ^ { - 1 } ( y / \\pi ) \\qquad } & { \\mathrm { ~ . } } \\end{array}",
-            "text_fallback": "r l r l & & 1 / 2 j = ( 1 - j ) / 2 & D ( 3 ) = 2 ** i 4 ** i 6 ** i ~ e t ~ . \\\\ & & ( x + j y ) = r ( + j ) \\\\ & & e ** j = + j & ~ F u n c t i o n s ~ o f ~ t h e ~ s e c o n d ~ k i n d , ~ o r d e c t i o n \\\\ & & ~ o t e ~ x + j y = r e ** j & ~ o t h e ~ \\\\ & & r = x ** 2 + y ** 2 \\\\ & & = ** - 1 ( y / ) & ~ .",
+            "latex_raw": "\\begin{array} { c } { { 1 / \\sqrt { 2 } j = ( 1 - j ) / 2 } } \\\\ { { ( \\varepsilon + j y ) = r ( \\cos \\phi + j \\sin \\phi ) } } \\\\ { { e ^ { j \\phi } = \\cos \\phi + j \\sin \\phi } } \\\\ { { \\ n e a \\ x + j y = r e ^ { j \\phi } . } } \\\\ { { \\mathrm { w i t h } \\ r = \\sqrt { \\varepsilon ^ { 2 } + y ^ { 2 } } } } \\\\ { { \\phi = \\tan ^ { - 1 } ( y / \\pi ) } } \\\\ { { \\varepsilon { } . } } \\end{array}",
+            "latex": "\\begin{array} { c } { { 1 / \\sqrt { 2 } j = ( 1 - j ) / 2 } } \\\\ { { ( \\varepsilon + j y ) = r ( \\cos \\phi + j \\sin \\phi ) } } \\\\ { { e ^ { j \\phi } = \\cos \\phi + j \\sin \\phi } } \\\\ { { \\ n e a \\ x + j y = r e ^ { j \\phi } . } } \\\\ { { \\mathrm { w i t h } \\ r = \\sqrt { \\varepsilon ^ { 2 } + y ^ { 2 } } } } \\\\ { { \\phi = \\tan ^ { - 1 } ( y / \\pi ) } } \\\\ { { \\varepsilon { } . } } \\end{array}",
+            "text_fallback": "c 1 / 2 j = ( 1 - j ) / 2 \\\\ ( + j y ) = r ( + j ) \\\\ e ** j = + j \\\\ \\ n e a \\ x + j y = r e ** j . \\\\ w i t h \\ r = ** 2 + y ** 2 \\\\ = ** - 1 ( y / ) \\\\ .",
             "status": "suspicious_semantic"
           },
           "provenance": {
@@ -26551,32 +26562,38 @@
           "region_id": "formula_05",
           "type": "formula",
           "bbox": {
-            "x1": 120.0,
-            "y1": 270.42401123046875,
-            "x2": 542.6271362304688,
-            "y2": 317.469970703125
+            "x1": 380.0,
+            "y1": 251.12997436523438,
+            "x2": 473.2635498046875,
+            "y2": 304.7699890136719
           },
           "tiles": [],
           "source": "raster",
           "quality": {
             "confidence": 0.85,
             "coverage": null,
-            "structural_ok": true,
-            "suspicion": 0.0,
+            "structural_ok": false,
+            "suspicion": 0.7,
             "notes": [
-              "n_spans=4",
-              "text==log | log(-- + ,v) =log r+jq i | e-j# = | = e-O(cos -jsin 0)",
+              "merged_fragments",
+              "text=+-ut -D1 r ID(l) + (D(3) X6 ...-",
               "spacing_collapsed",
               "braces_repaired",
-              "pylatexenc_ok",
-              "preview_wh=1198x154"
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "spacing_collapsed",
+              "braces_repaired",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=283x173"
             ]
           },
           "content": {
-            "latex_raw": "\\begin{array} { c c } { { e ^ { \\kappa \\cos \\varphi } = e ^ { \\kappa } ( \\cos \\phi + j \\sin \\varphi ) } } & { { + \\displaystyle \\ \\overline { { { \\pi } } } \\left\\{ \\overline { { { D ( 1 ) } } } ^ { \\mathrm { \\bf { v } ( 1 ) } } - \\overline { { { D ( 2 ) } } } ^ { \\mathrm { \\bf { v } ( 2 ) } } \\right\\} ^ { \\mathrm { \\bf { v } ( 2 ) } } } } \\\\ { { \\displaystyle \\log ( z + j y ) = \\log r + j \\phi } } & { { + \\displaystyle \\frac { z ^ { \\mathrm { s } } } { D ( 3 ) } \\Phi ( 3 ) - \\cdots \\biggr \\} ^ { \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\!",
-            "latex": "\\begin{array} { c c } { { e ^ { \\kappa \\cos \\varphi } = e ^ { \\kappa } ( \\cos \\phi + j \\sin \\varphi ) } } & { { + \\displaystyle \\ \\overline { { { \\pi } } } \\left\\{ \\overline { { { D ( 1 ) } } } ^ { \\mathrm { \\bf { v } ( 1 ) } } - \\overline { { { D ( 2 ) } } } ^ { \\mathrm { \\bf { v } ( 2 ) } } \\right\\} ^ { \\mathrm { \\bf { v } ( 2 ) } } } } \\\\ { { \\displaystyle \\log ( z + j y ) = \\log r + j \\phi } } & { { + \\displaystyle \\frac { z ^ { \\mathrm { s } } } { D ( 3 ) } \\Phi ( 3 ) - \\cdots \\biggr \\} ^ { \\! } } } \\end{array}",
-            "text_fallback": "c c e ** = e ** ( + j ) & + \\ \\ D ( 1 ) ** v ( 1 ) - D ( 2 ) ** v ( 2 ) \\ ** v ( 2 ) \\\\ ( z + j y ) = r + j & + z ** s D ( 3 ) ( 3 ) - \\ ** \\!",
-            "status": "ok"
+            "latex_raw": "\\begin{array} { r } { \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\",
+            "latex": "\\begin{array} { r } { \\! \\ } \\end{array}",
+            "text_fallback": "r \\! \\",
+            "status": "suspicious"
           },
           "provenance": {
             "model": "unimernet",
@@ -26592,10 +26609,10 @@
           "region_id": "formula_06",
           "type": "formula",
           "bbox": {
-            "x1": 329.0,
-            "y1": 307.3299865722656,
-            "x2": 542.6271362304688,
-            "y2": 329.9599914550781
+            "x1": 120.0,
+            "y1": 270.42401123046875,
+            "x2": 267.6632080078125,
+            "y2": 317.469970703125
           },
           "tiles": [],
           "source": "raster",
@@ -26605,16 +26622,16 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=2",
-              "text=Yd(x)= | Yd(x)= 2 i(a') -",
+              "n_spans=4",
+              "text==log | log(-- + ,v) =log r+jq i | e-j# = | = e-O(cos -jsin 0)",
               "pylatexenc_ok",
-              "preview_wh=618x87"
+              "preview_wh=434x154"
             ]
           },
           "content": {
-            "latex_raw": "Y _ { 1 } ( x ) = \\frac { 2 } { \\pi } \\biggl \\{ \\ln ( x ) - \\ln ( 2 ) + \\gamma \\biggr \\} J _ { 1 } ( x ) - \\frac { 1 } { \\pi } \\cdot \\frac { 2 } { x } \\; \\; \\; .",
-            "latex": "Y _ { 1 } ( x ) = \\frac { 2 } { \\pi } \\biggl \\{ \\ln ( x ) - \\ln ( 2 ) + \\gamma \\biggr \\} J _ { 1 } ( x ) - \\frac { 1 } { \\pi } \\cdot \\frac { 2 } { x } \\; \\; \\; .",
-            "text_fallback": "Y 1 ( x ) = 2 \\ ( x ) - ( 2 ) + \\ J 1 ( x ) - 1 2 x \\; \\; \\; .",
+            "latex_raw": "\\begin{array} { c } { { e ^ { \\mathrm { \\boldmath ~ c ~ } \\cdot \\mathrm { \\boldmath ~ \\omega ~ } } e ^ { \\mathrm { \\boldmath ~ \\omega ~ } } = e ^ { \\mathrm { \\boldmath ~ \\omega ~ } } ( \\cos \\phi + \\jmath \\sin \\phi ) } } \\\\ { { \\log ( x + j y ) = \\log r + j \\phi } } \\\\ { { e ^ { - j \\phi } = \\cos \\phi - j \\sin \\phi } } \\\\ { { e ^ { - ( 1 + j ) \\phi } = e ^ { - \\phi } ( \\cos \\phi - j \\sin \\phi ) } } \\end{array}",
+            "latex": "\\begin{array} { c } { { e ^ { \\mathrm { \\boldmath ~ c ~ } \\cdot \\mathrm { \\boldmath ~ \\omega ~ } } e ^ { \\mathrm { \\boldmath ~ \\omega ~ } } = e ^ { \\mathrm { \\boldmath ~ \\omega ~ } } ( \\cos \\phi + \\jmath \\sin \\phi ) } } \\\\ { { \\log ( x + j y ) = \\log r + j \\phi } } \\\\ { { e ^ { - j \\phi } = \\cos \\phi - j \\sin \\phi } } \\\\ { { e ^ { - ( 1 + j ) \\phi } = e ^ { - \\phi } ( \\cos \\phi - j \\sin \\phi ) } } \\end{array}",
+            "text_fallback": "c e ** ~ c ~ ~ ~ e ** ~ ~ = e ** ~ ~ ( + ) \\\\ ( x + j y ) = r + j \\\\ e ** - j = - j \\\\ e ** - ( 1 + j ) = e ** - ( - j )",
             "status": "ok"
           },
           "provenance": {
@@ -26629,6 +26646,45 @@
           "doc_id": "РДК_молниезащита 89г",
           "page": 262,
           "region_id": "formula_07",
+          "type": "formula",
+          "bbox": {
+            "x1": 329.0,
+            "y1": 307.3299865722656,
+            "x2": 494.33099365234375,
+            "y2": 329.9599914550781
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.0,
+            "notes": [
+              "n_spans=2",
+              "text=Yd(x)= | Yd(x)= 2 i(a') -",
+              "pylatexenc_ok",
+              "preview_wh=484x87"
+            ]
+          },
+          "content": {
+            "latex_raw": "Y _ { 1 } ( x ) = { \\frac { 2 } { \\pi } } \\! \\left\\{ \\ln ( x ) - \\ln ( 2 ) + \\gamma \\right\\} \\! J _ { 1 } ( x ) \\, -",
+            "latex": "Y _ { 1 } ( x ) = { \\frac { 2 } { \\pi } } \\! \\left\\{ \\ln ( x ) - \\ln ( 2 ) + \\gamma \\right\\} \\! J _ { 1 } ( x ) \\, -",
+            "text_fallback": "Y 1 ( x ) = 2 \\! \\ ( x ) - ( 2 ) + \\ \\! J 1 ( x ) \\, -",
+            "status": "ok"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 262,
+          "region_id": "formula_08",
           "type": "formula",
           "bbox": {
             "x1": 362.0,
@@ -26668,12 +26724,12 @@
         {
           "doc_id": "РДК_молниезащита 89г",
           "page": 262,
-          "region_id": "formula_08",
+          "region_id": "formula_09",
           "type": "formula",
           "bbox": {
             "x1": 88.0,
             "y1": 373.97698974609375,
-            "x2": 548.8260498046875,
+            "x2": 275.9540100097656,
             "y2": 413.9999694824219
           },
           "tiles": [],
@@ -26682,62 +26738,19 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.6,
+            "suspicion": 0.0,
             "notes": [
               "n_spans=2",
               "text=sinh-'(z) = In(z+Vx | 1(z) = In (z + V/P\"--1) x > 1",
-              "spacing_collapsed",
               "pylatexenc_ok",
-              "preview_wh=1304x135",
-              "semantic_reason=long_letter_run"
+              "preview_wh=546x135"
             ]
           },
           "content": {
-            "latex_raw": "\\begin{array} { r l r l r l r l } & { \\sinh ^ { - 1 } ( { \\boldsymbol x } ) = \\ln \\bigl ( { \\boldsymbol x } + \\sqrt { { \\boldsymbol x } ^ { 2 } + 1 } \\bigr ) } & { - \\infty < { \\boldsymbol z } < \\infty } & & { } & & { + \\frac { \\mathrm { c } } { 6 D ( 2 ) } \\bigl [ \\Phi ( 2 ) + \\Phi ( 3 ) \\bigr ] - \\cdots \\bigr \\} } & & { ( 3 . 5 ) } \\\\ & { \\cosh ^ { - 1 } ( { \\boldsymbol x } ) = \\ln \\left( { \\boldsymbol x } + \\sqrt { { \\boldsymbol z } ^ { 2 } - 1 } \\right) } & { { \\boldsymbol z } \\geq 1 } & & { \\mathrm { w h e r e } } & & { } & { \\gamma = 0 . 5 7 7 2 2 \\, \\operatorname { E u l e r } ^ { \\ast } \\mathrm { c o u r t a t t } } & & { \\mathrm { ( 9 . 6 ) } } \\\\ & { } & & { \\qquad \\qquad \\qquad \\qquad + \\downarrow _ { - \\infty } } & & { \\Phi ( { \\boldsymbol p } ) = 1 + 1 / 2 + 1 / 3 + \\cdots \\operatorname { \\ensuremath { \\operatorname { T } } } / { \\boldsymbol p } } & & { ( 9 . 7 ) } \\end{array}",
-            "latex": "\\begin{array} { r l r l r l r l } & { \\sinh ^ { - 1 } ( { \\boldsymbol x } ) = \\ln \\bigl ( { \\boldsymbol x } + \\sqrt { { \\boldsymbol x } ^ { 2 } + 1 } \\bigr ) } & { - \\infty < { \\boldsymbol z } < \\infty } & & { } & & { + \\frac { \\mathrm { c } } { 6 D ( 2 ) } \\bigl [ \\Phi ( 2 ) + \\Phi ( 3 ) \\bigr ] - \\cdots \\bigr \\} } & & { ( 3 . 5 ) } \\\\ & { \\cosh ^ { - 1 } ( { \\boldsymbol x } ) = \\ln \\left( { \\boldsymbol x } + \\sqrt { { \\boldsymbol z } ^ { 2 } - 1 } \\right) } & { { \\boldsymbol z } \\geq 1 } & & { \\mathrm { w h e r e } } & & { } & { \\gamma = 0 . 5 7 7 2 2 \\, \\operatorname { E u l e r } ^ { \\ast } \\mathrm { c o u r t a t t } } & & { \\mathrm { ( 9 . 6 ) } } \\\\ & { } & & { \\qquad + \\downarrow _ { - \\infty } } & & { \\Phi ( { \\boldsymbol p } ) = 1 + 1 / 2 + 1 / 3 + \\cdots \\operatorname { \\ensuremath { \\operatorname { T } } } / { \\boldsymbol p } } & & { ( 9 . 7 ) } \\end{array}",
-            "text_fallback": "r l r l r l r l & ** - 1 ( x ) = ( x + x ** 2 + 1 ) & - < z < & & & & + c 6 D ( 2 ) [ ( 2 ) + ( 3 ) ] - \\ & & ( 3 . 5 ) \\\\ & ** - 1 ( x ) = ( x + z ** 2 - 1 ) & z 1 & & w h e r e & & & = 0 . 5 7 7 2 2 \\, E u l e r ** c o u r t a t t & & ( 9 . 6 ) \\\\ & & & + - & & ( p ) = 1 + 1 / 2 + 1 / 3 + T / p & & ( 9 . 7 )",
-            "status": "suspicious_semantic"
-          },
-          "provenance": {
-            "model": "unimernet",
-            "version": null,
-            "method": "unimernet",
-            "confidence": 0.85,
-            "extra": {}
-          }
-        },
-        {
-          "doc_id": "РДК_молниезащита 89г",
-          "page": 262,
-          "region_id": "formula_09",
-          "type": "formula",
-          "bbox": {
-            "x1": 86.0,
-            "y1": 433.42999267578125,
-            "x2": 541.435546875,
-            "y2": 558.699951171875
-          },
-          "tiles": [],
-          "source": "raster",
-          "quality": {
-            "confidence": 0.85,
-            "coverage": null,
-            "structural_ok": true,
-            "suspicion": 0.6,
-            "notes": [
-              "n_spans=9",
-              "text==j | coth-1(z) = 1 In('-- -) x > | sin(jz) = j | cos(jx) = | tan(ja) =j | = -j | = j sin(a) | = cos(z) | = j tan(x)",
-              "spacing_collapsed",
-              "pylatexenc_ok",
-              "preview_wh=1289x372",
-              "semantic_reason=long_letter_run"
-            ]
-          },
-          "content": {
-            "latex_raw": "{ \\begin{array} { r l r } { \\cosh ^ { - 1 } ( x ) = { \\frac { 2 } { 2 } } \\operatorname { I n } ( { \\frac { 1 } { 2 } } + x ^ { 2 } ) \\; \\; x > 1 \\; \\sigma \\pi \\; \\sigma < - 1 \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; } & { { \\mathrm { s a n d ~ o v a t i o n ~ o f ~ t h e ~ s t a t e ~ u r s ~ a t a t e ~ u r s ~ i n t h o ~ v e r s ~ a c t s } } } \\\\ { \\operatorname { e n t } ( \\tilde { x } ) = { \\frac { 1 } { 2 } } \\operatorname { I n } ( { \\frac { 1 } { 2 } } + x ^ { 2 } ) \\; \\; x > 1 \\; \\sigma \\pi \\; \\sigma < - 1 \\; \\; \\; \\; \\; \\; \\; \\; \\; } & { { \\mathrm { a n d ~ } } } \\\\ { \\operatorname { e n t } ( \\tilde { y } z ) = \\tilde { z } \\sinh ( z ) } \\\\ { \\operatorname { e n t } ( \\tilde { z } ) = \\cosh ( x ) } \\\\ { \\operatorname { t a n } ( \\tilde { y } z ) = \\sinh ( y ) } \\\\ { \\operatorname { t a n } ( \\tilde { z } z ) = \\tilde { z } \\sinh ( z ) } \\\\ { \\operatorname { e n t } ( \\tilde { y } z ) = - \\tilde { z } \\cosh ( x ) } \\\\ { \\operatorname { t a n h } ( \\tilde { z } ) = \\tilde { z } \\operatorname { s e n } ( z ) } \\\\ { \\operatorname { e n t } ( \\tilde { z } ) = \\cos ( \\tilde { z } ) } & { { \\mathrm { t a n d ~ o f ~ t h e ~ e t i o n s ~ o f ~ t h e ~ s e r o h d ~ k i n d , ~ o r d e r s } } } \\\\ { \\operatorname { t a n h } ( \\tilde { z } ) = z \\operatorname { t a n h } ( \\tilde { z } ) } \\\\ { \\operatorname { t a n h } ( \\tilde { z } ) = \\tilde { z } \\operatorname { t a n h } ( \\tilde { z } ) } \\end{array} }",
-            "latex": "{ \\begin{array} { r l r } { \\cosh ^ { - 1 } ( x ) = { \\frac { 2 } { 2 } } \\operatorname { I n } ( { \\frac { 1 } { 2 } } + x ^ { 2 } ) \\; \\; x > 1 \\; \\sigma \\pi \\; \\sigma < - 1 \\; } & { { \\mathrm { s a n d ~ o v a t i o n ~ o f ~ t h e ~ s t a t e ~ u r s ~ a t a t e ~ u r s ~ i n t h o ~ v e r s ~ a c t s } } } \\\\ { \\operatorname { e n t } ( \\tilde { x } ) = { \\frac { 1 } { 2 } } \\operatorname { I n } ( { \\frac { 1 } { 2 } } + x ^ { 2 } ) \\; \\; x > 1 \\; \\sigma \\pi \\; \\sigma < - 1 \\; } & { { \\mathrm { a n d ~ } } } \\\\ { \\operatorname { e n t } ( \\tilde { y } z ) = \\tilde { z } \\sinh ( z ) } \\\\ { \\operatorname { e n t } ( \\tilde { z } ) = \\cosh ( x ) } \\\\ { \\operatorname { t a n } ( \\tilde { y } z ) = \\sinh ( y ) } \\\\ { \\operatorname { t a n } ( \\tilde { z } z ) = \\tilde { z } \\sinh ( z ) } \\\\ { \\operatorname { e n t } ( \\tilde { y } z ) = - \\tilde { z } \\cosh ( x ) } \\\\ { \\operatorname { t a n h } ( \\tilde { z } ) = \\tilde { z } \\operatorname { s e n } ( z ) } \\\\ { \\operatorname { e n t } ( \\tilde { z } ) = \\cos ( \\tilde { z } ) } & { { \\mathrm { t a n d ~ o f ~ t h e ~ e t i o n s ~ o f ~ t h e ~ s e r o h d ~ k i n d , ~ o r d e r s } } } \\\\ { \\operatorname { t a n h } ( \\tilde { z } ) = z \\operatorname { t a n h } ( \\tilde { z } ) } \\\\ { \\operatorname { t a n h } ( \\tilde { z } ) = \\tilde { z } \\operatorname { t a n h } ( \\tilde { z } ) } \\end{array} }",
-            "text_fallback": "r l r ** - 1 ( x ) = 2 2 I n ( 1 2 + x ** 2 ) \\; \\; x > 1 \\; \\; < - 1 \\; & s a n d ~ o v a t i o n ~ o f ~ t h e ~ s t a t e ~ u r s ~ a t a t e ~ u r s ~ i n t h o ~ v e r s ~ a c t s \\\\ e n t ( x ) = 1 2 I n ( 1 2 + x ** 2 ) \\; \\; x > 1 \\; \\; < - 1 \\; & a n d ~ \\\\ e n t ( y z ) = z ( z ) \\\\ e n t ( z ) = ( x ) \\\\ t a n ( y z ) = ( y ) \\\\ t a n ( z z ) = z ( z ) \\\\ e n t ( y z ) = - z ( x ) \\\\ t a n h ( z ) = z s e n ( z ) \\\\ e n t ( z ) = ( z ) & t a n d ~ o f ~ t h e ~ e t i o n s ~ o f ~ t h e ~ s e r o h d ~ k i n d , ~ o r d e r s \\\\ t a n h ( z ) = z t a n h ( z ) \\\\ t a n h ( z ) = z t a n h ( z )",
-            "status": "suspicious_semantic"
+            "latex_raw": "{ \\begin{array} { r l } & { \\operatorname { s i n h } ^ { - 1 } ( x ) = \\ln ( x + { \\sqrt { x ^ { 2 } + 1 } } ) \\quad - \\infty < x < \\infty } \\\\ & { \\cosh ^ { - 1 } ( x ) = \\ln \\left( x + { \\sqrt { x ^ { 2 } - 1 } } \\right) \\; \\; x \\geq 1 } \\\\ & { \\qquad \\qquad , \\qquad 1 + \\cdots } \\end{array} }",
+            "latex": "{ \\begin{array} { r l } & { \\operatorname { s i n h } ^ { - 1 } ( x ) = \\ln ( x + { \\sqrt { x ^ { 2 } + 1 } } ) \\quad - \\infty < x < \\infty } \\\\ & { \\cosh ^ { - 1 } ( x ) = \\ln \\left( x + { \\sqrt { x ^ { 2 } - 1 } } \\right) \\; \\; x \\geq 1 } \\\\ & { \\qquad \\qquad , \\qquad 1 + \\cdots } \\end{array} }",
+            "text_fallback": "r l & s i n h ** - 1 ( x ) = ( x + x ** 2 + 1 ) - < x < \\\\ & ** - 1 ( x ) = ( x + x ** 2 - 1 ) \\; \\; x 1 \\\\ & , 1 +",
+            "status": "ok"
           },
           "provenance": {
             "model": "unimernet",
@@ -26753,9 +26766,49 @@
           "region_id": "formula_10",
           "type": "formula",
           "bbox": {
+            "x1": 86.0,
+            "y1": 433.42999267578125,
+            "x2": 271.8299865722656,
+            "y2": 558.699951171875
+          },
+          "tiles": [],
+          "source": "raster",
+          "quality": {
+            "confidence": 0.85,
+            "coverage": null,
+            "structural_ok": true,
+            "suspicion": 0.6,
+            "notes": [
+              "n_spans=9",
+              "text==j | coth-1(z) = 1 In('-- -) x > | sin(jz) = j | cos(jx) = | tan(ja) =j | = -j | = j sin(a) | = cos(z) | = j tan(x)",
+              "pylatexenc_ok",
+              "preview_wh=541x372",
+              "semantic_reason=long_letter_run"
+            ]
+          },
+          "content": {
+            "latex_raw": "\\begin{array} { c } { { \\mathrm { e a t h } ^ { - 1 } ( s ) = \\displaystyle \\frac { 1 } { 2 } \\ln { \\left( \\frac { 1 } { s } + z \\right) } } } \\\\ { { \\mathrm { s i n } ( j s ) = \\displaystyle \\frac { 1 } { 2 } \\ln { \\left( \\frac { 1 } { s } + z \\right) } } } \\\\ { { \\mathrm { e a t } ( j s ) = j \\ \\mathrm { d e a h } ( s ) } } \\\\ { { \\mathrm { r e a t } ( j s ) = \\mathrm { c o h } ( s ) } } \\\\ { { \\mathrm { t a n d } ( j s ) = j \\ \\mathrm { d e a h } ( s ) } } \\\\ { { \\mathrm { e x t } ( j s ) = - \\cdot \\cdot \\mathrm { c o h } ( s ) } } \\\\ { { \\mathrm { e x t h } ( j s ) = j \\ \\mathrm { d e t } ( s ) } } \\\\ { { \\mathrm { e x t h } ( j s ) = \\mathrm { c o h } ( s ) } } \\\\ { { \\mathrm { t a n h } ( j s ) = j \\ \\mathrm { t a n h } ( s ) } } \\\\ { { \\mathrm { t a n h } ( j s ) = j \\mathrm { t a n h } ( s ) . } } \\end{array}",
+            "latex": "\\begin{array} { c } { { \\mathrm { e a t h } ^ { - 1 } ( s ) = \\displaystyle \\frac { 1 } { 2 } \\ln { \\left( \\frac { 1 } { s } + z \\right) } } } \\\\ { { \\mathrm { s i n } ( j s ) = \\displaystyle \\frac { 1 } { 2 } \\ln { \\left( \\frac { 1 } { s } + z \\right) } } } \\\\ { { \\mathrm { e a t } ( j s ) = j \\ \\mathrm { d e a h } ( s ) } } \\\\ { { \\mathrm { r e a t } ( j s ) = \\mathrm { c o h } ( s ) } } \\\\ { { \\mathrm { t a n d } ( j s ) = j \\ \\mathrm { d e a h } ( s ) } } \\\\ { { \\mathrm { e x t } ( j s ) = - \\cdot \\cdot \\mathrm { c o h } ( s ) } } \\\\ { { \\mathrm { e x t h } ( j s ) = j \\ \\mathrm { d e t } ( s ) } } \\\\ { { \\mathrm { e x t h } ( j s ) = \\mathrm { c o h } ( s ) } } \\\\ { { \\mathrm { t a n h } ( j s ) = j \\ \\mathrm { t a n h } ( s ) } } \\\\ { { \\mathrm { t a n h } ( j s ) = j \\mathrm { t a n h } ( s ) . } } \\end{array}",
+            "text_fallback": "c e a t h ** - 1 ( s ) = 1 2 ( 1 s + z ) \\\\ s i n ( j s ) = 1 2 ( 1 s + z ) \\\\ e a t ( j s ) = j \\ d e a h ( s ) \\\\ r e a t ( j s ) = c o h ( s ) \\\\ t a n d ( j s ) = j \\ d e a h ( s ) \\\\ e x t ( j s ) = - c o h ( s ) \\\\ e x t h ( j s ) = j \\ d e t ( s ) \\\\ e x t h ( j s ) = c o h ( s ) \\\\ t a n h ( j s ) = j \\ t a n h ( s ) \\\\ t a n h ( j s ) = j t a n h ( s ) .",
+            "status": "suspicious_semantic"
+          },
+          "provenance": {
+            "model": "unimernet",
+            "version": null,
+            "method": "unimernet",
+            "confidence": 0.85,
+            "extra": {}
+          }
+        },
+        {
+          "doc_id": "РДК_молниезащита 89г",
+          "page": 262,
+          "region_id": "formula_11",
+          "type": "formula",
+          "bbox": {
             "x1": 359.0,
             "y1": 477.7829895019531,
-            "x2": 541.435546875,
+            "x2": 542.0499877929688,
             "y2": 498.38897705078125
           },
           "tiles": [],
@@ -26769,7 +26822,7 @@
               "n_spans=1",
               "text== + a",
               "pylatexenc_ok",
-              "preview_wh=530x81"
+              "preview_wh=532x81"
             ]
           },
           "content": {
@@ -26789,7 +26842,7 @@
         {
           "doc_id": "РДК_молниезащита 89г",
           "page": 262,
-          "region_id": "formula_11",
+          "region_id": "formula_12",
           "type": "formula",
           "bbox": {
             "x1": 336.0,
@@ -29019,14 +29072,14 @@
       "page": 274,
       "summary": {
         "page": 274,
-        "n_detections": 10,
-        "n_formulas": 9,
+        "n_detections": 9,
+        "n_formulas": 8,
         "n_tables": 0,
         "n_figures": 1,
         "table_ok": 0,
-        "formula_ok": 2,
+        "formula_ok": 7,
         "formula_suspicious": 0,
-        "formula_suspicious_semantic": 7,
+        "formula_suspicious_semantic": 1,
         "formula_caption_or_header": 0
       },
       "detections": [
@@ -29048,19 +29101,8 @@
           "bbox": {
             "x1": 274.0,
             "y1": 184.38998413085938,
-            "x2": 550.2271118164062,
+            "x2": 367.400390625,
             "y2": 206.32998657226562
-          }
-        },
-        {
-          "type": "formula",
-          "score": 0.7375,
-          "method": "span_math_heuristic",
-          "bbox": {
-            "x1": 407.88,
-            "y1": 188.64,
-            "x2": 547.1999999999999,
-            "y2": 279.0
           }
         },
         {
@@ -29068,10 +29110,10 @@
           "score": 0.775,
           "method": "span_math_heuristic",
           "bbox": {
-            "x1": 349.0,
-            "y1": 203.18997192382812,
-            "x2": 550.2271118164062,
-            "y2": 224.52996826171875
+            "x1": 348.84,
+            "y1": 190.07999999999998,
+            "x2": 547.92,
+            "y2": 279.0
           }
         },
         {
@@ -29081,7 +29123,7 @@
           "bbox": {
             "x1": 113.0,
             "y1": 265.7899475097656,
-            "x2": 552.4689331054688,
+            "x2": 256.47239685058594,
             "y2": 287.62994384765625
           }
         },
@@ -29092,7 +29134,7 @@
           "bbox": {
             "x1": 384.0,
             "y1": 287.083984375,
-            "x2": 552.4689331054688,
+            "x2": 482.8385009765625,
             "y2": 311.4709777832031
           }
         },
@@ -29101,10 +29143,10 @@
           "score": 0.9100000000000001,
           "method": "span_math_heuristic",
           "bbox": {
-            "x1": 111.96,
-            "y1": 302.76,
-            "x2": 486.35999999999996,
-            "y2": 392.03999999999996
+            "x1": 112.0,
+            "y1": 315.2369689941406,
+            "x2": 252.48599243164062,
+            "y2": 338.22998046875
           }
         },
         {
@@ -29114,7 +29156,7 @@
           "bbox": {
             "x1": 112.0,
             "y1": 431.136962890625,
-            "x2": 552.143798828125,
+            "x2": 261.3900146484375,
             "y2": 454.02996826171875
           }
         },
@@ -29136,7 +29178,7 @@
           "bbox": {
             "x1": 131.0,
             "y1": 637.5799560546875,
-            "x2": 313.3270263671875,
+            "x2": 214.04840087890625,
             "y2": 662.2299194335938
           }
         }
@@ -29190,7 +29232,7 @@
           "bbox": {
             "x1": 274.0,
             "y1": 184.38998413085938,
-            "x2": 550.2271118164062,
+            "x2": 367.400390625,
             "y2": 206.32998657226562
           },
           "tiles": [],
@@ -29204,13 +29246,13 @@
               "n_spans=1",
               "text=u = 1.",
               "pylatexenc_ok",
-              "preview_wh=791x85"
+              "preview_wh=283x85"
             ]
           },
           "content": {
-            "latex_raw": "\\iota , \\, \\mu = 1 . \\eqno ( 3 . 6 )",
-            "latex": "\\iota , \\, \\mu = 1 . \\eqno ( 3 . 6 )",
-            "text_fallback": ", \\, = 1 . ( 3 . 6 )",
+            "latex_raw": "\\mathbf { \\beta } _ { 3 } , \\; \\pmb { \\mu } = 1 .",
+            "latex": "\\mathbf { \\beta } _ { 3 } , \\; \\pmb { \\mu } = 1 .",
+            "text_fallback": "3 , \\; = 1 .",
             "status": "ok"
           },
           "provenance": {
@@ -29227,9 +29269,9 @@
           "region_id": "formula_02",
           "type": "formula",
           "bbox": {
-            "x1": 407.88,
-            "y1": 188.64,
-            "x2": 547.1999999999999,
+            "x1": 348.84,
+            "y1": 190.07999999999998,
+            "x2": 547.92,
             "y2": 279.0
           },
           "tiles": [],
@@ -29238,20 +29280,21 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.6,
+            "suspicion": 0.0,
             "notes": [
-              "n_spans=2",
-              "text=e = -N | 0 = pHA, H",
+              "n_spans=1",
+              "text=N =",
+              "spacing_collapsed",
+              "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=410x275",
-              "semantic_reason=long_letter_run"
+              "preview_wh=577x272"
             ]
           },
           "content": {
-            "latex_raw": "\\begin{array} { r } { \\begin{array} { c c } { \\epsilon = - N \\frac { \\alpha \\sigma } { d t } . } & { ( 9 . 8 6 ) } \\\\ & { . . . } \\\\ { \\tau \\mathrm { ~ o f ~ t u r n s ~ a n d ~ \\phi \\phi = \\mu H ~ } A , ~ H ~ b e i n g } \\\\ { \\mathrm { ~ a n d ~ } A ~ \\mathrm { ~ b e i n g ~ t h e ~ } \\log \\mathrm { ~ b r e a . ~ } ~ \\mathrm { T h e } } \\\\ { \\tau \\mathrm { o s s ~ t h e ~ } g \\mathrm { a p ~ a n d ~ h a s ~ a ~ w a v e s h a p e } } \\\\ { . . } \\\\ { \\mathrm { ~ d e r i v a t i v e ~ o f ~ t h e ~ a i n s t . } } \\\\ { \\tau \\mathrm { o s t ~ t h ~ t h e ~ i n o p ~ i s ~ a n d ~ r i c u i t e d } } \\\\ { \\mathrm { ~ e s s e d ~ o n ~ t h e ~ i n p e d a n c e ~ o f ~ t h e ~ l o o p } } \\end{array} } \\end{array}",
-            "latex": "\\begin{array} { r } { \\begin{array} { c c } { \\epsilon = - N \\frac { \\alpha \\sigma } { d t } . } & { ( 9 . 8 6 ) } \\\\ & { . . . } \\\\ { \\tau \\mathrm { ~ o f ~ t u r n s ~ a n d ~ \\phi \\phi = \\mu H ~ } A , ~ H ~ b e i n g } \\\\ { \\mathrm { ~ a n d ~ } A ~ \\mathrm { ~ b e i n g ~ t h e ~ } \\log \\mathrm { ~ b r e a . ~ } ~ \\mathrm { T h e } } \\\\ { \\tau \\mathrm { o s s ~ t h e ~ } g \\mathrm { a p ~ a n d ~ h a s ~ a ~ w a v e s h a p e } } \\\\ { . . } \\\\ { \\mathrm { ~ d e r i v a t i v e ~ o f ~ t h e ~ a i n s t . } } \\\\ { \\tau \\mathrm { o s t ~ t h ~ t h e ~ i n o p ~ i s ~ a n d ~ r i c u i t e d } } \\\\ { \\mathrm { ~ e s s e d ~ o n ~ t h e ~ i n p e d a n c e ~ o f ~ t h e ~ l o o p } } \\end{array} } \\end{array}",
-            "text_fallback": "r c c = - N d t . & ( 9 . 8 6 ) \\\\ & . . . \\\\ ~ o f ~ t u r n s ~ a n d ~ = H ~ A , ~ H ~ b e i n g \\\\ ~ a n d ~ A ~ ~ b e i n g ~ t h e ~ ~ b r e a . ~ ~ T h e \\\\ o s s ~ t h e ~ g a p ~ a n d ~ h a s ~ a ~ w a v e s h a p e \\\\ . . \\\\ ~ d e r i v a t i v e ~ o f ~ t h e ~ a i n s t . \\\\ o s t ~ t h ~ t h e ~ i n o p ~ i s ~ a n d ~ r i c u i t e d \\\\ ~ e s s e d ~ o n ~ t h e ~ i n p e d a n c e ~ o f ~ t h e ~ l o o p",
-            "status": "suspicious_semantic"
+            "latex_raw": "\\begin{array} { c } { { e = - N \\frac { \\mathrm { { e } } \\, \\psi } { { d t } } . \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
+            "latex": "\\begin{array} { c } { { e = - N \\frac { \\mathrm { { e } } \\, \\psi } { { d t } } . \\ \\ } } \\end{array}",
+            "text_fallback": "c e = - N e \\, d t . \\ \\",
+            "status": "ok"
           },
           "provenance": {
             "model": "unimernet",
@@ -29267,10 +29310,10 @@
           "region_id": "formula_03",
           "type": "formula",
           "bbox": {
-            "x1": 349.0,
-            "y1": 203.18997192382812,
-            "x2": 550.2271118164062,
-            "y2": 224.52996826171875
+            "x1": 113.0,
+            "y1": 265.7899475097656,
+            "x2": 256.47239685058594,
+            "y2": 287.62994384765625
           },
           "tiles": [],
           "source": "raster",
@@ -29278,20 +29321,19 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.6,
+            "suspicion": 0.0,
             "notes": [
               "n_spans=1",
-              "text=N =",
+              "text=L = 0.006a In - 1.40456 +",
               "pylatexenc_ok",
-              "preview_wh=583x83",
-              "semantic_reason=long_letter_run"
+              "preview_wh=423x84"
             ]
           },
           "content": {
-            "latex_raw": "\\begin{array} { c } { { \\mathrm { ~ \\boldmath ~ \\Psi ~ } ^ { \\mathrm { { e t } } } } } \\\\ { { \\mathrm { ~ \\bf ~ e ~ } { N } = \\mathrm { n u m b e r ~ o f ~ t u r n s ~ a n d ~ } { \\phi } = \\mu { \\cal H } A , \\; { H } \\mathrm { ~ b e i n g ~ } } } \\\\ { { \\mathrm { ~ \\bf ~ \\hat { \\mu } { s e l d } ~ i n t e n s i t v ~ \\hat { \\ e n d } ~ \\nabla _ { { A } } \\hat { \\ e i n e } ~ t h e ~ l o o p ~ a r e a ~ } { \\hat { \\ e n e } } } } \\end{array}",
-            "latex": "\\begin{array} { c } { { \\mathrm { ~ \\boldmath ~ \\Psi ~ } ^ { \\mathrm { { e t } } } } } \\\\ { { \\mathrm { ~ \\bf ~ e ~ } { N } = \\mathrm { n u m b e r ~ o f ~ t u r n s ~ a n d ~ } { \\phi } = \\mu { \\cal H } A , \\; { H } \\mathrm { ~ b e i n g ~ } } } \\\\ { { \\mathrm { ~ \\bf ~ \\hat { \\mu } { s e l d } ~ i n t e n s i t v ~ \\hat { \\ e n d } ~ \\nabla _ { { A } } \\hat { \\ e i n e } ~ t h e ~ l o o p ~ a r e a ~ } { \\hat { \\ e n e } } } } \\end{array}",
-            "text_fallback": "c ~ ~ ~ ** e t \\\\ ~ ~ e ~ N = n u m b e r ~ o f ~ t u r n s ~ a n d ~ = H A , \\; H ~ b e i n g ~ \\\\ ~ ~ s e l d ~ i n t e n s i t v ~ \\ e n d ~ A \\ e i n e ~ t h e ~ l o o p ~ a r e a ~ \\ e n e",
-            "status": "suspicious_semantic"
+            "latex_raw": "{ L = 0 . 0 0 6 s \\left[ \\ln { \\frac { s } { \\rho } } - 1 . 4 0 4 8 \\dot { 8 } + \\frac { \\mu } { 4 } \\right] }",
+            "latex": "{ L = 0 . 0 0 6 s \\left[ \\ln { \\frac { s } { \\rho } } - 1 . 4 0 4 8 \\dot { 8 } + \\frac { \\mu } { 4 } \\right] }",
+            "text_fallback": "L = 0 . 0 0 6 s [ s - 1 . 4 0 4 8 8 + 4 ]",
+            "status": "ok"
           },
           "provenance": {
             "model": "unimernet",
@@ -29307,10 +29349,10 @@
           "region_id": "formula_04",
           "type": "formula",
           "bbox": {
-            "x1": 113.0,
-            "y1": 265.7899475097656,
-            "x2": 552.4689331054688,
-            "y2": 287.62994384765625
+            "x1": 384.0,
+            "y1": 287.083984375,
+            "x2": 482.8385009765625,
+            "y2": 311.4709777832031
           },
           "tiles": [],
           "source": "raster",
@@ -29320,17 +29362,17 @@
             "structural_ok": true,
             "suspicion": 0.6,
             "notes": [
-              "n_spans=1",
-              "text=L = 0.006a In - 1.40456 +",
+              "n_spans=2",
+              "text=1= | 1= I edt =NpHAL",
               "pylatexenc_ok",
-              "preview_wh=1245x84",
+              "preview_wh=299x92",
               "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "{ \\begin{array} { r l r } { L = 0 . 0 0 6 9 \\left[ \\ln { \\frac { 9 } { \\rho } } - 1 . 4 0 4 8 6 + { \\frac { \\mu } { 4 } } \\right] } & { \\qquad { \\mathrm { ( 9 . 7 7 ) } } } & { \\qquad { \\mathrm { t h e ~ v e l t a g e ~ i s ~ i m p r e s e d ~ o n ~ t h e ~ l a s ~ i n p e d a n c e ~ o f ~ t h e ~ l i e d t e d } } } \\\\ { L = 0 . 0 0 6 8 \\times 1 0 ^ { - 1 2 } } & { \\qquad { \\mathrm { ( 8 . 7 6 ) } } } & { \\qquad { \\mathrm { t h e ~ v e l t a g e ~ i s ~ i m p r e s e d ~ o n ~ t h e ~ i m p e d a n c e ~ o f ~ t h e ~ l o o p } } } \\\\ & { \\qquad { \\mathrm { s . a d ~ i n d u c e s ~ a ~ c i r c e l a t i n g ~ e u r r e m t . } } } \\end{array} }",
-            "latex": "{ \\begin{array} { r l r } { L = 0 . 0 0 6 9 \\left[ \\ln { \\frac { 9 } { \\rho } } - 1 . 4 0 4 8 6 + { \\frac { \\mu } { 4 } } \\right] } & { \\qquad { \\mathrm { ( 9 . 7 7 ) } } } & { \\qquad { \\mathrm { t h e ~ v e l t a g e ~ i s ~ i m p r e s e d ~ o n ~ t h e ~ l a s ~ i n p e d a n c e ~ o f ~ t h e ~ l i e d t e d } } } \\\\ { L = 0 . 0 0 6 8 \\times 1 0 ^ { - 1 2 } } & { \\qquad { \\mathrm { ( 8 . 7 6 ) } } } & { \\qquad { \\mathrm { t h e ~ v e l t a g e ~ i s ~ i m p r e s e d ~ o n ~ t h e ~ i m p e d a n c e ~ o f ~ t h e ~ l o o p } } } \\\\ & { \\qquad { \\mathrm { s . a d ~ i n d u c e s ~ a ~ c i r c e l a t i n g ~ e u r r e m t . } } } \\end{array} }",
-            "text_fallback": "r l r L = 0 . 0 0 6 9 [ 9 - 1 . 4 0 4 8 6 + 4 ] & ( 9 . 7 7 ) & t h e ~ v e l t a g e ~ i s ~ i m p r e s e d ~ o n ~ t h e ~ l a s ~ i n p e d a n c e ~ o f ~ t h e ~ l i e d t e d \\\\ L = 0 . 0 0 6 8 1 0 ** - 1 2 & ( 8 . 7 6 ) & t h e ~ v e l t a g e ~ i s ~ i m p r e s e d ~ o n ~ t h e ~ i m p e d a n c e ~ o f ~ t h e ~ l o o p \\\\ & s . a d ~ i n d u c e s ~ a ~ c i r c e l a t i n g ~ e u r r e m t .",
+            "latex_raw": "\\begin{array} { l } { { \\mathrm { \\boldmath ~ \\lambda ~ } ^ { \\mathrm { 3 \\ c i r c u l a t i n g \\ c u r r e n t : } } } } \\\\ { { \\mathrm { \\boldmath ~ \\Gamma ~ } } } \\\\ { { \\displaystyle \\tau = \\frac { 1 } { \\alpha } \\ \\int _ { e d t } \\mathbf { \\Phi } = - \\frac { N \\mu H A } { \\alpha } \\, \\mathbf { \\cal { A } } } } \\end{array}",
+            "latex": "\\begin{array} { l } { { \\mathrm { \\boldmath ~ \\lambda ~ } ^ { \\mathrm { 3 \\ c i r c u l a t i n g \\ c u r r e n t : } } } } \\\\ { { \\mathrm { \\boldmath ~ \\Gamma ~ } } } \\\\ { { \\displaystyle \\tau = \\frac { 1 } { \\alpha } \\ \\int _ { e d t } \\mathbf { \\Phi } = - \\frac { N \\mu H A } { \\alpha } \\, \\mathbf { \\cal { A } } } } \\end{array}",
+            "text_fallback": "l ~ ~ ** 3 \\ c i r c u l a t i n g \\ c u r r e n t : \\\\ ~ ~ \\\\ = 1 \\ e d t = - N H A \\, A",
             "status": "suspicious_semantic"
           },
           "provenance": {
@@ -29347,10 +29389,10 @@
           "region_id": "formula_05",
           "type": "formula",
           "bbox": {
-            "x1": 384.0,
-            "y1": 287.083984375,
-            "x2": 552.4689331054688,
-            "y2": 311.4709777832031
+            "x1": 112.0,
+            "y1": 315.2369689941406,
+            "x2": 252.48599243164062,
+            "y2": 338.22998046875
           },
           "tiles": [],
           "source": "raster",
@@ -29358,20 +29400,19 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.6,
+            "suspicion": 0.0,
             "notes": [
-              "n_spans=2",
-              "text=1= | 1= I edt =NpHAL",
+              "n_spans=1",
+              "text=L = 0.008a [In - - 0.77401+8",
               "pylatexenc_ok",
-              "preview_wh=492x92",
-              "semantic_reason=truncated"
+              "preview_wh=414x88"
             ]
           },
           "content": {
-            "latex_raw": "{ \\begin{array} { l l l l } { { \\mathrm { ? ~ c i r c u l a t i n g ~ c u r r e n t : } } } & { { } } & { { } } & { { } } \\\\ { { } } & { { } } & { { } } & { { } } & { { } } \\\\ { { I = { \\frac { 1 } { - } } } } & { { \\int _ { \\mathrm { \\it e d t } } { \\it e } = { - \\frac { N \\mu K H A } { - } } } } & { { } } & { { } } & { { \\quad ( 9 . 8 7 ) } } \\end{array} }",
-            "latex": "{ \\begin{array} { l l l l } { { \\mathrm { ? ~ c i r c u l a t i n g ~ c u r r e n t : } } } & { { } } & { { } } & { { } } \\\\ { { } } & { { } } & { { } } & { { } } & { { } } \\\\ { { I = { \\frac { 1 } { - } } } } & { { \\int _ { \\mathrm { \\it e d t } } { \\it e } = { - \\frac { N \\mu K H A } { - } } } } & { { } } & { { } } & { { \\quad ( 9 . 8 7 ) } } \\end{array} }",
-            "text_fallback": "l l l l ? ~ c i r c u l a t i n g ~ c u r r e n t : & & & \\\\ & & & & \\\\ I = 1 - & e d t e = - N K H A - & & & ( 9 . 8 7 )",
-            "status": "suspicious_semantic"
+            "latex_raw": "{ L = 0 . 0 0 8 s \\left\\lceil \\ln { \\frac { s } { a } } - 0 . 7 7 4 0 1 + { \\frac { \\mu } { a } } \\right\\rceil }",
+            "latex": "{ L = 0 . 0 0 8 s \\left\\lceil \\ln { \\frac { s } { a } } - 0 . 7 7 4 0 1 + { \\frac { \\mu } { a } } \\right\\rceil }",
+            "text_fallback": "L = 0 . 0 0 8 s s a - 0 . 7 7 4 0 1 + a",
+            "status": "ok"
           },
           "provenance": {
             "model": "unimernet",
@@ -29387,49 +29428,9 @@
           "region_id": "formula_06",
           "type": "formula",
           "bbox": {
-            "x1": 111.96,
-            "y1": 302.76,
-            "x2": 486.35999999999996,
-            "y2": 392.03999999999996
-          },
-          "tiles": [],
-          "source": "raster",
-          "quality": {
-            "confidence": 0.85,
-            "coverage": null,
-            "structural_ok": true,
-            "suspicion": 0.6,
-            "notes": [
-              "n_spans=1",
-              "text=L = 0.008a [In - - 0.77401+8",
-              "pylatexenc_ok",
-              "preview_wh=1063x271",
-              "semantic_reason=long_letter_run"
-            ]
-          },
-          "content": {
-            "latex_raw": "\\begin{array} { r l r } { \\mathrm { ( q u a r e s ) } } \\\\ { L = 0 . 0 0 8 s \\Bigg [ \\mathrm { l n } \\, \\frac { \\partial } { \\partial } - 0 . 7 7 4 0 1 + \\frac { \\mu } { 4 } \\Bigg ] \\quad } & { } & { \\mathrm { ( P . ~ Z ~ ) } \\, \\Bigg / \\, \\mathrm { e d t } = - \\frac { N \\mu H _ { A } } { L } \\, . } \\\\ { L = 0 . 0 0 8 s \\Bigg [ \\mathrm { l n } \\, \\frac { \\partial } { \\partial } - 0 . 7 7 4 0 1 + \\frac { \\mu } { 4 } \\Bigg ] \\quad } & { } & { \\mathrm { ( B . ~ T R e ~ w h e r e ~ b a p e ~ o f ~ t h e ~ c o r r e n t ~ t e r m ) } } \\\\ & { } & { \\mathrm { o f ~ t h e ~ i n e i d e n t i a n t ~ m a p e a t e f ~ t a l u a l u e n t i e n t ~ a n d ~ t h e t w i t h t h ~ i n p l i c a t i o n } } \\\\ { \\mathrm { ~ e t r e s i t t ~ v o l t a g e . ~ T h e ~ p o t h t ~ i n p l i c a t i o n } } & { } & { \\mathrm { i n d u c e d ~ c o r r e n t s ~ p o t h e t w i t h ~ i n p l e o ~ l o n g e r } } \\\\ & { } & { \\mathrm { i n d u c e d ~ c u r a t i o n ~ g e n e r a l i v ~ l a r g e ~ l o o n g e a l ~ p a r e d ~ c o r r e n t s } } \\\\ { L = 0 . 0 1 0 s \\Bigg [ \\mathrm { l n } \\, \\frac { \\partial } { \\partial } - 0 . 4 0 0 1 4 + \\frac { \\mu } { 4 } \\Bigg ] \\quad } & { } & { \\mathrm { ( 9 . 7 8 ) } \\quad \\quad \\mathrm { ~ t h e ~ a . ~ t h a n d ~ o m a s e l i c a l i v a l i n g ~ i n d u c e d ~ } . } \\end{array}",
-            "latex": "\\begin{array} { r l r } { \\mathrm { ( q u a r e s ) } } \\\\ { L = 0 . 0 0 8 s \\Bigg [ \\mathrm { l n } \\, \\frac { \\partial } { \\partial } - 0 . 7 7 4 0 1 + \\frac { \\mu } { 4 } \\Bigg ] \\quad } & { } & { \\mathrm { ( P . ~ Z ~ ) } \\, \\Bigg / \\, \\mathrm { e d t } = - \\frac { N \\mu H _ { A } } { L } \\, . } \\\\ { L = 0 . 0 0 8 s \\Bigg [ \\mathrm { l n } \\, \\frac { \\partial } { \\partial } - 0 . 7 7 4 0 1 + \\frac { \\mu } { 4 } \\Bigg ] \\quad } & { } & { \\mathrm { ( B . ~ T R e ~ w h e r e ~ b a p e ~ o f ~ t h e ~ c o r r e n t ~ t e r m ) } } \\\\ & { } & { \\mathrm { o f ~ t h e ~ i n e i d e n t i a n t ~ m a p e a t e f ~ t a l u a l u e n t i e n t ~ a n d ~ t h e t w i t h t h ~ i n p l i c a t i o n } } \\\\ { \\mathrm { ~ e t r e s i t t ~ v o l t a g e . ~ T h e ~ p o t h t ~ i n p l i c a t i o n } } & { } & { \\mathrm { i n d u c e d ~ c o r r e n t s ~ p o t h e t w i t h ~ i n p l e o ~ l o n g e r } } \\\\ & { } & { \\mathrm { i n d u c e d ~ c u r a t i o n ~ g e n e r a l i v ~ l a r g e ~ l o o n g e a l ~ p a r e d ~ c o r r e n t s } } \\\\ { L = 0 . 0 1 0 s \\Bigg [ \\mathrm { l n } \\, \\frac { \\partial } { \\partial } - 0 . 4 0 0 1 4 + \\frac { \\mu } { 4 } \\Bigg ] \\quad } & { } & { \\mathrm { ( 9 . 7 8 ) } \\quad \\quad \\mathrm { ~ t h e ~ a . ~ t h a n d ~ o m a s e l i c a l i v a l i n g ~ i n d u c e d ~ } . } \\end{array}",
-            "text_fallback": "r l r ( q u a r e s ) \\\\ L = 0 . 0 0 8 s [ l n \\, - 0 . 7 7 4 0 1 + 4 ] & & ( P . ~ Z ~ ) \\, / \\, e d t = - N H A L \\, . \\\\ L = 0 . 0 0 8 s [ l n \\, - 0 . 7 7 4 0 1 + 4 ] & & ( B . ~ T R e ~ w h e r e ~ b a p e ~ o f ~ t h e ~ c o r r e n t ~ t e r m ) \\\\ & & o f ~ t h e ~ i n e i d e n t i a n t ~ m a p e a t e f ~ t a l u a l u e n t i e n t ~ a n d ~ t h e t w i t h t h ~ i n p l i c a t i o n \\\\ ~ e t r e s i t t ~ v o l t a g e . ~ T h e ~ p o t h t ~ i n p l i c a t i o n & & i n d u c e d ~ c o r r e n t s ~ p o t h e t w i t h ~ i n p l e o ~ l o n g e r \\\\ & & i n d u c e d ~ c u r a t i o n ~ g e n e r a l i v ~ l a r g e ~ l o o n g e a l ~ p a r e d ~ c o r r e n t s \\\\ L = 0 . 0 1 0 s [ l n \\, - 0 . 4 0 0 1 4 + 4 ] & & ( 9 . 7 8 ) ~ t h e ~ a . ~ t h a n d ~ o m a s e l i c a l i v a l i n g ~ i n d u c e d ~ .",
-            "status": "suspicious_semantic"
-          },
-          "provenance": {
-            "model": "unimernet",
-            "version": null,
-            "method": "unimernet",
-            "confidence": 0.85,
-            "extra": {}
-          }
-        },
-        {
-          "doc_id": "РДК_молниезащита 89г",
-          "page": 274,
-          "region_id": "formula_07",
-          "type": "formula",
-          "bbox": {
             "x1": 112.0,
             "y1": 431.136962890625,
-            "x2": 552.143798828125,
+            "x2": 261.3900146484375,
             "y2": 454.02996826171875
           },
           "tiles": [],
@@ -29438,22 +29439,19 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.6,
+            "suspicion": 0.0,
             "notes": [
               "n_spans=1",
               "text=L = 0.012a In ± - 0.15152 +",
-              "spacing_collapsed",
-              "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=1246x88",
-              "semantic_reason=long_letter_run"
+              "preview_wh=439x88"
             ]
           },
           "content": {
-            "latex_raw": "L = 0 . 0 1 2 a \\left[ \\ln { \\frac { a } { \\rho } } - 0 . 1 8 1 8 2 + { \\frac { \\mu } { 4 } } \\right] { \\phantom { ( \\ln { \\frac { a } { \\rho } } + 0 . 1 2 8 2 + { \\frac { \\mu } { 4 } } ) ^ { 2 } } } \\qquad } & { { ( 9 . 8 0 ) } } & { { ( 1 5 \\; \\mathrm { a \\ t m ~ a r g e n t i c ~ f e l d ~ o f ~ i t s ~ o w n , ~ o n e ~ t h a t ~ i s ~ o f ~ } \\; \\mathrm { e q u a l } ) } } \\\\ { { \\mathrm { } } } & { { ( 9 . 8 0 ) } } & { { ( 8 . 0 0 ) } } & { { ~ ~ ~ \\mathrm { a m p l i t u d e ~ a n d ~ o p p o s i t e } ~ p o l u c t i v ~ t o ~ t h e ~ i t h e i d e n t ~ f a t i o n , ~ f o r d u c t i o n } } \\\\ { { \\mathrm { } } } & { { ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ } } } & { { ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ } } & { { ( 3 . 8 ~ \\mathrm { a \\ t s o ~ u s e s e s , ~ a n ~ c o n s t r o ~ e i t e d ~ w i l l ~ \\mathrm { ~ n o t } ~ s e r m e t r a t e } ) } } \\end{array}",
-            "latex": "L = 0 . 0 1 2 a \\left[ \\ln { \\frac { a } { \\rho } } - 0 . 1 8 1 8 2 + { \\frac { \\mu } { 4 } } \\right] { \\phantom { ( \\ln { \\frac { a } { \\rho } } + 0 . 1 2 8 2 + { \\frac { \\mu } { 4 } } ) ^ { 2 } } } \\qquad & { { ( 9 . 8 0 ) } } & { { ( 1 5 \\; \\mathrm { a \\ t m ~ a r g e n t i c ~ f e l d ~ o f ~ i t s ~ o w n , ~ o n e ~ t h a t ~ i s ~ o f ~ } \\; \\mathrm { e q u a l } ) } } \\\\ { { \\mathrm { } } } & { { ( 9 . 8 0 ) } } & { { ( 8 . 0 0 ) } } & { { ~ ~ ~ \\mathrm { a m p l i t u d e ~ a n d ~ o p p o s i t e } ~ p o l u c t i v ~ t o ~ t h e ~ i t h e i d e n t ~ f a t i o n , ~ f o r d u c t i o n } } \\\\ { { \\mathrm { } } } & { { ~ } } & { { ~ } } & { { ( 3 . 8 ~ \\mathrm { a \\ t s o ~ u s e s e s , ~ a n ~ c o n s t r o ~ e i t e d ~ w i l l ~ \\mathrm { ~ n o t } ~ s e r m e t r a t e } ) } } \\end{array}",
-            "text_fallback": "L = 0 . 0 1 2 a [ a - 0 . 1 8 1 8 2 + 4 ] ( a + 0 . 1 2 8 2 + 4 ) ** 2 & ( 9 . 8 0 ) & ( 1 5 \\; a \\ t m ~ a r g e n t i c ~ f e l d ~ o f ~ i t s ~ o w n , ~ o n e ~ t h a t ~ i s ~ o f ~ \\; e q u a l ) \\\\ & ( 9 . 8 0 ) & ( 8 . 0 0 ) & ~ ~ ~ a m p l i t u d e ~ a n d ~ o p p o s i t e ~ p o l u c t i v ~ t o ~ t h e ~ i t h e i d e n t ~ f a t i o n , ~ f o r d u c t i o n \\\\ & ~ & ~ & ( 3 . 8 ~ a \\ t s o ~ u s e s e s , ~ a n ~ c o n s t r o ~ e i t e d ~ w i l l ~ ~ n o t ~ s e r m e t r a t e )",
-            "status": "suspicious_semantic"
+            "latex_raw": "L = 0 . 0 1 2 s \\left[ \\ln { \\frac { s } { \\rho } } - 0 . 1 8 1 8 2 + { \\frac { \\mu } { 4 } } \\right]",
+            "latex": "L = 0 . 0 1 2 s \\left[ \\ln { \\frac { s } { \\rho } } - 0 . 1 8 1 8 2 + { \\frac { \\mu } { 4 } } \\right]",
+            "text_fallback": "L = 0 . 0 1 2 s [ s - 0 . 1 8 1 8 2 + 4 ]",
+            "status": "ok"
           },
           "provenance": {
             "model": "unimernet",
@@ -29466,7 +29464,7 @@
         {
           "doc_id": "РДК_молниезащита 89г",
           "page": 274,
-          "region_id": "figure_08",
+          "region_id": "figure_07",
           "type": "figure",
           "bbox": {
             "x1": 332.41839944049286,
@@ -29487,7 +29485,7 @@
             "caption": "Voo",
             "caption_source": "ocr_caption",
             "figure_number": "Fig. 9.20, the current will the loop penetrate",
-            "crop_path": "data\\cache\\figures\\РДК_молниезащита 89г\\p0274_figure_08.png",
+            "crop_path": "data\\cache\\figures\\РДК_молниезащита 89г\\p0274_figure_07.png",
             "status": "ok"
           },
           "provenance": {
@@ -29501,12 +29499,12 @@
         {
           "doc_id": "РДК_молниезащита 89г",
           "page": 274,
-          "region_id": "formula_09",
+          "region_id": "formula_08",
           "type": "formula",
           "bbox": {
             "x1": 131.0,
             "y1": 637.5799560546875,
-            "x2": 313.3270263671875,
+            "x2": 214.04840087890625,
             "y2": 662.2299194335938
           },
           "tiles": [],
@@ -29515,20 +29513,19 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.6,
+            "suspicion": 0.0,
             "notes": [
               "n_spans=1",
               "text=L, = 9 2. 9a 4a+n + 106 cm",
               "pylatexenc_ok",
-              "preview_wh=531x92",
-              "semantic_reason=long_letter_run"
+              "preview_wh=255x92"
             ]
           },
           "content": {
-            "latex_raw": "L = { \\frac { 2 . 8 4 \\alpha ^ { 3 } n ^ { 2 } } { 8 \\alpha + 1 0 b } } { \\mathrm { ~ c m ~ d i n e a s i o n } } \\qquad \\left( 0 . 8 4 \\right)",
-            "latex": "L = { \\frac { 2 . 8 4 \\alpha ^ { 3 } n ^ { 2 } } { 8 \\alpha + 1 0 b } } { \\mathrm { ~ c m ~ d i n e a s i o n } } \\qquad \\left( 0 . 8 4 \\right)",
-            "text_fallback": "L = 2 . 8 4 ** 3 n ** 2 8 + 1 0 b ~ c m ~ d i n e a s i o n ( 0 . 8 4 )",
-            "status": "suspicious_semantic"
+            "latex_raw": "L = { \\frac { 2 . 8 4 \\alpha ^ { 3 } n ^ { 2 } } { 8 a + 1 0 b } } { \\mathrm { ~ c m ~ d i } }",
+            "latex": "L = { \\frac { 2 . 8 4 \\alpha ^ { 3 } n ^ { 2 } } { 8 a + 1 0 b } } { \\mathrm { ~ c m ~ d i } }",
+            "text_fallback": "L = 2 . 8 4 ** 3 n ** 2 8 a + 1 0 b ~ c m ~ d i",
+            "status": "ok"
           },
           "provenance": {
             "model": "unimernet",
