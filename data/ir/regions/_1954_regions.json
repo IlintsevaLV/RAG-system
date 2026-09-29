@@ -224,9 +224,9 @@
         "n_tables": 0,
         "n_figures": 0,
         "table_ok": 0,
-        "formula_ok": 6,
+        "formula_ok": 4,
         "formula_suspicious": 0,
-        "formula_suspicious_semantic": 0,
+        "formula_suspicious_semantic": 2,
         "formula_caption_or_header": 0
       },
       "detections": [
@@ -248,7 +248,7 @@
           "bbox": {
             "x1": 59.72,
             "y1": 549.68,
-            "x2": 188.68,
+            "x2": 446.08,
             "y2": 571.72
           }
         },
@@ -270,7 +270,7 @@
           "bbox": {
             "x1": 57.919999999999995,
             "y1": 619.16,
-            "x2": 151.6,
+            "x2": 429.52,
             "y2": 639.76
           }
         },
@@ -281,7 +281,7 @@
           "bbox": {
             "x1": 133.16,
             "y1": 721.76,
-            "x2": 188.32,
+            "x2": 535.0,
             "y2": 745.24
           }
         },
@@ -345,7 +345,7 @@
           "bbox": {
             "x1": 59.72,
             "y1": 549.68,
-            "x2": 188.68,
+            "x2": 446.08,
             "y2": 571.72
           },
           "tiles": [],
@@ -354,19 +354,20 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.0,
+            "suspicion": 0.6,
             "notes": [
-              "n_spans=1",
-              "text=µ=",
+              "n_spans=2",
+              "text=µ= | µ=",
               "pylatexenc_ok",
-              "preview_wh=383x86"
+              "preview_wh=1098x86",
+              "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "{ \\mathfrak { p } } \\! = \\! \\frac { V \\cos { \\alpha } } { \\mathfrak { o } R } \\! \\approx \\! \\frac { V } { \\mathfrak { o } R } \\, -",
-            "latex": "{ \\mathfrak { p } } \\! = \\! \\frac { V \\cos { \\alpha } } { \\mathfrak { o } R } \\! \\approx \\! \\frac { V } { \\mathfrak { o } R } \\, -",
-            "text_fallback": "p \\! = \\! V o R \\! \\! V o R \\, -",
-            "status": "ok"
+            "latex_raw": "{ \\nu } \\mathrm { = } \\frac { { \\cal { V } } \\, { \\cos \\alpha } } { \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } ^ { \\mathrm { \\it { \\omega } } } } \\approx \\frac { { \\cal { V } } } { \\mathrm { \\omega } { \\omega } R } \\mathrm { \\mathrm { - \\ x a p a K { \\bf { r e p u c r } { n } } { \\cal { K } } \\mathrm { \\ i } } \\mathrm { \\ p e x { \\boldsymbol { \\kappa } } { \\mathrm { \\ p a i n a { \\bf { \\tau } } { \\ p a } } \\mathrm { \\ i } } { \\nabla \\mathrm { \\ t } } { \\cal { \\ell } } \\mathrm { \\ c o { \\bf { \\tau } } } { \\mathrm { \\tiny { \\ r a n } } } } }",
+            "latex": "{ \\nu } \\mathrm { = } \\frac { { \\cal { V } } \\, { \\cos \\alpha } } { \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } \\mathrm { \\it { \\omega } } ^ { \\mathrm { \\it { \\omega } } } } \\approx \\frac { { \\cal { V } } } { \\mathrm { \\omega } { \\omega } R } \\mathrm { \\mathrm { - \\ x a p a K { \\bf { r e p u c r } { n } } { \\cal { K } } \\mathrm { \\ i } } \\mathrm { \\ p e x { \\boldsymbol { \\kappa } } { \\mathrm { \\ p a i n a { \\bf { \\tau } } { \\ p a } } \\mathrm { \\ i } } { \\nabla \\mathrm { \\ t } } { \\cal { \\ell } } \\mathrm { \\ c o { \\bf { \\tau } } } { \\mathrm { \\tiny { \\ r a n } } } } }",
+            "text_fallback": "= V \\, ** V R - \\ x a p a K r e p u c r n K \\ i \\ p e x \\ p a i n a \\ p a \\ i \\ t \\ c o \\ r a n",
+            "status": "suspicious_semantic"
           },
           "provenance": {
             "model": "unimernet",
@@ -395,8 +396,8 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=λ=",
+              "n_spans=2",
+              "text=λ= | λ=",
               "pylatexenc_ok",
               "preview_wh=330x84"
             ]
@@ -423,7 +424,7 @@
           "bbox": {
             "x1": 57.919999999999995,
             "y1": 619.16,
-            "x2": 151.6,
+            "x2": 429.52,
             "y2": 639.76
           },
           "tiles": [],
@@ -432,21 +433,22 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.0,
+            "suspicion": 0.6,
             "notes": [
-              "n_spans=1",
-              "text=€τ =",
+              "n_spans=2",
+              "text=€τ = | €τ =",
               "spacing_collapsed",
               "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=285x82"
+              "preview_wh=1057x82",
+              "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "e _ { T } \\! = \\! \\frac { \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! I } { \\mathrm { \\Large \\! \\! \\! \\! \\! \\! \\! \\! 1 } \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\!",
-            "latex": "e _ { T } \\! = \\! \\frac { \\! I } { \\mathrm { \\Large \\! 1 } \\! }",
-            "text_fallback": "e T \\! = \\! \\! I \\! 1 \\!",
-            "status": "ok"
+            "latex_raw": "\\epsilon _ { \\tt T } \\! = \\! \\frac { I } { \\mathrm { ~ 1 ~ \\: ~ \\: ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\operatorname { p o } , ~ \\! ~ \\! ~ \\! ~ \\! ~ m o ~ } } - \\mathrm { \\~ \\kappa ~ } \\mathrm { K O } 3 \\Dot { \\Phi } \\mathrm { H U H e H } \\mathrm { ~ \\ k \\: \\pi _ { \\tt H T H } ~ \\; \\mathrm { H e ~ C y I I i l e } \\mathrm { \\, ~ \\! ~ \\! ~ \\! ~ B H H \\bar { \\tau } \\mathrm { ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! \\! ~ \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\!",
+            "latex": "\\epsilon _ { \\tt T } \\! = \\! \\frac { I } { \\mathrm { ~ 1 ~ \\: ~ \\: ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\operatorname { p o } , ~ \\! ~ \\! ~ \\! ~ \\! ~ m o ~ } } - \\mathrm { \\~ \\kappa ~ } \\mathrm { K O } 3 \\Dot { \\Phi } \\mathrm { H U H e H } \\mathrm { ~ \\ k \\: \\pi _ { \\tt H T H } ~ \\; \\mathrm { H e ~ C y I I i l e } \\mathrm { \\, ~ \\! ~ \\! ~ \\! ~ B H H \\bar { \\tau } \\mathrm { ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! ~ \\! ~ \\! } } }",
+            "text_fallback": "T \\! = \\! I ~ 1 ~ \\: ~ \\: ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ p o , ~ \\! ~ \\! ~ \\! ~ \\! ~ m o ~ - \\~ ~ K O 3 H U H e H ~ \\ k \\: H T H ~ \\; H e ~ C y I I i l e \\, ~ \\! ~ \\! ~ \\! ~ B H H ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! ~ \\! \\! \\! ~ \\! \\! \\! ~ \\! ~ \\!",
+            "status": "suspicious_semantic"
           },
           "provenance": {
             "model": "unimernet",
@@ -464,7 +466,7 @@
           "bbox": {
             "x1": 133.16,
             "y1": 721.76,
-            "x2": 188.32,
+            "x2": 535.0,
             "y2": 745.24
           },
           "tiles": [],
@@ -477,14 +479,15 @@
             "notes": [
               "n_spans=1",
               "text=π =",
+              "braces_repaired",
               "pylatexenc_ok",
-              "preview_wh=178x90"
+              "preview_wh=1141x90"
             ]
           },
           "content": {
-            "latex_raw": "p \\, { = } \\, \\frac { G } { F } \\; .",
-            "latex": "p \\, { = } \\, \\frac { G } { F } \\; .",
-            "text_fallback": "p \\, = \\, G F \\; .",
+            "latex_raw": "p = { \\frac { G } { F } } - \\mathrm { y } { \\mathrm { ~ \\scriptstyle { \\cal { H } } e . n b { \\scriptstyle { \\cal { H } } } { \\cal { a } } { \\cal { R } } ~ { \\scriptstyle { \\cal { H } } } { \\cal { T } } { \\cal { Y } } ^ { 3 { \\cal { K } } { \\scriptstyle { \\cal { A } } } } ~ { \\scriptstyle { \\cal { H } } { \\cal { \\bar { a } } } ~ \\, \\, \\cal { H } } { \\cal { H } } C { \\scriptstyle { \\cal { K } } } ~ { \\scriptstyle { \\cal { H } } C { \\scriptstyle { \\cal { Y } } } \\, \\mathrm { \\scriptstyle { \\cal { H } } I } } { \\scriptstyle { \\cal { \\cal { E } } } { \\cal { H } } { \\cal { T } } { \\scriptstyle { \\cal { Q } } } ~ { \\scriptstyle { \\cal { \\cal { \\cal { H } } } } { \\cal { T } } } { \\scriptstyle { \\cal { \\bar { a } } } ~ { \\cal { \\cal { \\cal { \\cal { H } } } } } ^ { 2 } } { \\scriptstyle { \\cal { \\cal { K } } } } ^ { \\prime } { \\scriptstyle { \\cal { \\cal { H } } } ^ { 2 } } . }",
+            "latex": "p = { \\frac { G } { F } } - \\mathrm { y } { \\mathrm { ~ \\scriptstyle { \\cal { H } } e . n b { \\scriptstyle { \\cal { H } } } { \\cal { a } } { \\cal { R } } ~ { \\scriptstyle { \\cal { H } } } { \\cal { T } } { \\cal { Y } } ^ { 3 { \\cal { K } } { \\scriptstyle { \\cal { A } } } } ~ { \\scriptstyle { \\cal { H } } { \\cal { \\bar { a } } } ~ \\, \\, \\cal { H } } { \\cal { H } } C { \\scriptstyle { \\cal { K } } } ~ { \\scriptstyle { \\cal { H } } C { \\scriptstyle { \\cal { Y } } } \\, \\mathrm { \\scriptstyle { \\cal { H } } I } } { \\scriptstyle { \\cal { \\cal { E } } } { \\cal { H } } { \\cal { T } } { \\scriptstyle { \\cal { Q } } } ~ { \\scriptstyle { \\cal { \\cal { \\cal { H } } } } { \\cal { T } } } { \\scriptstyle { \\cal { \\bar { a } } } ~ { \\cal { \\cal { \\cal { \\cal { H } } } } } ^ { 2 } } { \\scriptstyle { \\cal { \\cal { K } } } } ^ { \\prime } { \\scriptstyle { \\cal { \\cal { H } } } ^ { 2 } } . } } }",
+            "text_fallback": "p = G F - y ~ H e . n b H a R ~ H T Y ** 3 K A ~ H a ~ \\, \\, H H C K ~ H C Y \\, H I E H T Q ~ H T a ~ H ** 2 K ** H ** 2 .",
             "status": "ok"
           },
           "provenance": {
@@ -2043,7 +2046,7 @@
           "bbox": {
             "x1": 211.28,
             "y1": 706.64,
-            "x2": 538.6,
+            "x2": 354.28,
             "y2": 735.16
           }
         }
@@ -2127,7 +2130,7 @@
           "bbox": {
             "x1": 211.28,
             "y1": 706.64,
-            "x2": 538.6,
+            "x2": 354.28,
             "y2": 735.16
           },
           "tiles": [],
@@ -2138,16 +2141,16 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=Τ (V + aV= ΔKE.",
+              "n_spans=2",
+              "text=Τ (V + aV= ΔKE. | Τ (V + aV= ΔKE.",
               "pylatexenc_ok",
-              "preview_wh=934x104"
+              "preview_wh=422x104"
             ]
           },
           "content": {
-            "latex_raw": "T ( V + a V ) \\! = \\Delta K E . \\eqno ( \\mathrm { I I . \\ } 1 )",
-            "latex": "T ( V + a V ) \\! = \\Delta K E . \\eqno ( \\mathrm { I I . \\ } 1 )",
-            "text_fallback": "T ( V + a V ) \\! = K E . ( I I . \\ 1 )",
+            "latex_raw": "T ( V + a V ) \\mathop = \\Delta K E .",
+            "latex": "T ( V + a V ) \\mathop = \\Delta K E .",
+            "text_fallback": "T ( V + a V ) = K E .",
             "status": "ok"
           },
           "provenance": {
@@ -2170,30 +2173,30 @@
         "n_tables": 0,
         "n_figures": 0,
         "table_ok": 0,
-        "formula_ok": 3,
+        "formula_ok": 4,
         "formula_suspicious": 0,
-        "formula_suspicious_semantic": 2,
+        "formula_suspicious_semantic": 1,
         "formula_caption_or_header": 0
       },
       "detections": [
         {
           "type": "formula",
-          "score": 0.6625000000000001,
+          "score": 0.69625,
           "method": "span_math_heuristic",
           "bbox": {
             "x1": 147.56,
-            "y1": 138.56,
-            "x2": 526.36,
+            "y1": 135.32,
+            "x2": 426.28,
             "y2": 164.56
           }
         },
         {
           "type": "formula",
-          "score": 0.8434782608695652,
+          "score": 0.8484833164812943,
           "method": "span_math_heuristic",
           "bbox": {
             "x1": 106.52,
-            "y1": 197.6,
+            "y1": 195.44,
             "x2": 469.84,
             "y2": 226.84
           }
@@ -2216,7 +2219,7 @@
           "bbox": {
             "x1": 239.35999999999999,
             "y1": 530.24,
-            "x2": 528.88,
+            "x2": 344.91999999999996,
             "y2": 557.3199999999999
           }
         },
@@ -2240,8 +2243,8 @@
           "type": "formula",
           "bbox": {
             "x1": 147.56,
-            "y1": 138.56,
-            "x2": 526.36,
+            "y1": 135.32,
+            "x2": 426.28,
             "y2": 164.56
           },
           "tiles": [],
@@ -2252,16 +2255,17 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=ΔKE=",
+              "n_spans=2",
+              "text=ΔKE= | ΔKE= 1",
+              "spacing_collapsed",
               "pylatexenc_ok",
-              "preview_wh=1077x97"
+              "preview_wh=799x106"
             ]
           },
           "content": {
-            "latex_raw": "\\scriptstyle \\Delta K E = { \\frac { 1 } { 2 } } \\, p F \\, ( V \\, + \\, a V ) \\, \\, [ ( V \\, + \\, b \\, V ) ^ { 2 } \\, - \\, V ^ { 2 } ] \\, . \\qquad \\qquad ( \\Pi . \\, 3 )",
-            "latex": "\\scriptstyle \\Delta K E = { \\frac { 1 } { 2 } } \\, p F \\, ( V \\, + \\, a V ) \\, \\, [ ( V \\, + \\, b \\, V ) ^ { 2 } \\, - \\, V ^ { 2 } ] \\, . \\qquad \\qquad ( \\Pi . \\, 3 )",
-            "text_fallback": "K E = 1 2 \\, p F \\, ( V \\, + \\, a V ) \\, \\, [ ( V \\, + \\, b \\, V ) ** 2 \\, - \\, V ** 2 ] \\, . ( . \\, 3 )",
+            "latex_raw": "\\Delta K E \\! = \\! \\frac { 1 } { 2 } \\, \\flat \\! \\! \\! \\! / \\, F \\left( V + a V \\right) \\, \\left[ ( V + b \\, V ) ^ { 2 } \\! - V ^ { 2 } \\right] \\! .",
+            "latex": "\\Delta K E \\! = \\! \\frac { 1 } { 2 } \\, \\flat \\! / \\, F \\left( V + a V \\right) \\, \\left[ ( V + b \\, V ) ^ { 2 } \\! - V ^ { 2 } \\right] \\! .",
+            "text_fallback": "K E \\! = \\! 1 2 \\, \\! / \\, F ( V + a V ) \\, [ ( V + b \\, V ) ** 2 \\! - V ** 2 ] \\! .",
             "status": "ok"
           },
           "provenance": {
@@ -2279,7 +2283,7 @@
           "type": "formula",
           "bbox": {
             "x1": 106.52,
-            "y1": 197.6,
+            "y1": 195.44,
             "x2": 469.84,
             "y2": 226.84
           },
@@ -2291,16 +2295,16 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=[pFV (1 + α) bV] [V (1 + α)] =",
+              "n_spans=2",
+              "text=[pFV (1 + α) bV] [V (1 + α)] = | [pFV (1 + α) bV] [V (1 + α)] = 1 ρF V3 (1 + α)(β² + 2β).",
               "pylatexenc_ok",
-              "preview_wh=1034x106"
+              "preview_wh=1034x112"
             ]
           },
           "content": {
-            "latex_raw": "\\left[ o F V \\left( 1 + a \\right) b V \\right] \\left[ V \\left( 1 + a \\right) \\right] \\! = \\! { \\textstyle { \\frac { 1 } { 2 } } } \\, _ { ! } F V ^ { 3 } \\left( 1 + a \\right) ( b ^ { 2 } + 2 b ) .",
-            "latex": "\\left[ o F V \\left( 1 + a \\right) b V \\right] \\left[ V \\left( 1 + a \\right) \\right] \\! = \\! { \\textstyle { \\frac { 1 } { 2 } } } \\, _ { ! } F V ^ { 3 } \\left( 1 + a \\right) ( b ^ { 2 } + 2 b ) .",
-            "text_fallback": "[ o F V ( 1 + a ) b V ] [ V ( 1 + a ) ] \\! = \\! 1 2 \\, ! F V ** 3 ( 1 + a ) ( b ** 2 + 2 b ) .",
+            "latex_raw": "\\begin{array} { r } { \\stackrel { \\cdot \\cdot } { [ \\scriptscriptstyle { l } F V \\left( 1 \\! + \\! a \\right) b V ] } \\left[ V \\left( 1 \\! + \\! a \\right) \\right] \\! = \\! \\frac { 1 } \\frac { 1 } { 2 } \\, \\d _ { v } \\bar { F } \\, V ^ { 3 } \\left( 1 \\! + \\! a \\right) ( b ^ { 2 } \\! + \\! 2 b ) . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\stackrel { \\cdot \\cdot } { [ \\scriptscriptstyle { l } F V \\left( 1 \\! + \\! a \\right) b V ] } \\left[ V \\left( 1 \\! + \\! a \\right) \\right] \\! = \\! \\frac { 1 } \\frac { 1 } { 2 } \\, \\d _ { v } \\bar { F } \\, V ^ { 3 } \\left( 1 \\! + \\! a \\right) ( b ^ { 2 } \\! + \\! 2 b ) . } \\end{array}",
+            "text_fallback": "r [ l F V ( 1 \\! + \\! a ) b V ] [ V ( 1 \\! + \\! a ) ] \\! = \\! 1 1 2 \\, v F \\, V ** 3 ( 1 \\! + \\! a ) ( b ** 2 \\! + \\! 2 b ) .",
             "status": "ok"
           },
           "provenance": {
@@ -2330,8 +2334,8 @@
             "structural_ok": true,
             "suspicion": 0.6,
             "notes": [
-              "n_spans=1",
-              "text=β=2α.",
+              "n_spans=2",
+              "text=β=2α. | β=2α.",
               "pylatexenc_ok",
               "preview_wh=178x103",
               "semantic_reason=numeric_value"
@@ -2359,7 +2363,7 @@
           "bbox": {
             "x1": 239.35999999999999,
             "y1": 530.24,
-            "x2": 528.88,
+            "x2": 344.91999999999996,
             "y2": 557.3199999999999
           },
           "tiles": [],
@@ -2368,20 +2372,19 @@
             "confidence": 0.85,
             "coverage": null,
             "structural_ok": true,
-            "suspicion": 0.6,
+            "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=Τ =(ρπR2χ)2υ.",
+              "n_spans=2",
+              "text=Τ =(ρπR2χ)2υ. | Τ =(ρπR2χ)2υ.",
               "pylatexenc_ok",
-              "preview_wh=829x100",
-              "semantic_reason=long_letter_run"
+              "preview_wh=318x100"
             ]
           },
           "content": {
-            "latex_raw": "\\begin{array} { c c l } { { } } & { { \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( M a v , M a x , M ) } } } } { = } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( d i c E 2 7 ) } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( d i c E 1 4 1 5 ) } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ~ \\scriptsize { ( F u c o n s t r u m a ) } ~ } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( F u c o n s t r u m a ) } } } } { \\textstyle \\sum } } } & { { } } \\\\ { { } } & { { } } & { { \\quad \\quad ( I [ . 5 ] ) \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( L ) } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( R ) } } } } { \\textstyle \\sum } } } \\end{array}",
-            "latex": "\\begin{array} { c c l } { { } } & { { \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( M a v , M a x , M ) } } } } { = } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( d i c E 2 7 ) } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( d i c E 1 4 1 5 ) } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ~ \\scriptsize { ( F u c o n s t r u m a ) } ~ } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( F u c o n s t r u m a ) } } } } { \\textstyle \\sum } } } & { { } } \\\\ { { } } & { { } } & { { \\quad \\quad ( I [ . 5 ] ) \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( L ) } } } } { \\textstyle \\sum } \\stackrel { \\scriptscriptstyle { \\mathrm { \\scriptsize { ( R ) } } } } { \\textstyle \\sum } } } \\end{array}",
-            "text_fallback": "c c l & ( M a v , M a x , M ) = ( d i c E 2 7 ) ( d i c E 1 4 1 5 ) ~ ( F u c o n s t r u m a ) ~ ( F u c o n s t r u m a ) & \\\\ & & ( I [ . 5 ] ) ( L ) ( R )",
-            "status": "suspicious_semantic"
+            "latex_raw": "x = ( 0 \\pi k ^ { 2 } v ) \\, 2 v \\, .",
+            "latex": "x = ( 0 \\pi k ^ { 2 } v ) \\, 2 v \\, .",
+            "text_fallback": "x = ( 0 k ** 2 v ) \\, 2 v \\, .",
+            "status": "ok"
           },
           "provenance": {
             "model": "unimernet",
@@ -2410,8 +2413,8 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=== 0",
+              "n_spans=2",
+              "text=== 0 | == 0",
               "pylatexenc_ok",
               "preview_wh=270x77"
             ]
@@ -2491,8 +2494,8 @@
             "structural_ok": true,
             "suspicion": 0.6,
             "notes": [
-              "n_spans=1",
-              "text=η =",
+              "n_spans=2",
+              "text=η = | η =",
               "braces_repaired",
               "pylatexenc_ok",
               "preview_wh=605x91",
@@ -2532,8 +2535,8 @@
             "structural_ok": true,
             "suspicion": 0.6,
             "notes": [
-              "n_spans=1",
-              "text=Μ=",
+              "n_spans=2",
+              "text=Μ= | Μ=",
               "pylatexenc_ok",
               "preview_wh=146x93",
               "semantic_reason=truncated"
@@ -6050,8 +6053,9 @@
         "n_tables": 0,
         "n_figures": 0,
         "table_ok": 0,
-        "formula_ok": 7,
-        "formula_suspicious_semantic": 0,
+        "formula_ok": 6,
+        "formula_suspicious": 1,
+        "formula_suspicious_semantic": 1,
         "formula_caption_or_header": 0
       },
       "detections": [
@@ -6090,12 +6094,12 @@
         },
         {
           "type": "formula",
-          "score": 0.625,
+          "score": 0.6357142857142857,
           "method": "span_fragment_merge",
           "bbox": {
             "x1": 211.28,
             "y1": 503.24,
-            "x2": 319.0,
+            "x2": 286.59999999999997,
             "y2": 554.4399999999999
           }
         },
@@ -6104,21 +6108,21 @@
           "score": 0.6666666666666666,
           "method": "span_math_heuristic",
           "bbox": {
-            "x1": 33.44,
-            "y1": 571.28,
-            "x2": 113.08,
-            "y2": 600.16
+            "x1": 33.12,
+            "y1": 563.04,
+            "x2": 134.28,
+            "y2": 621.0
           }
         },
         {
           "type": "formula",
-          "score": 0.6,
+          "score": 0.6833333333333333,
           "method": "span_fragment_merge",
           "bbox": {
-            "x1": 278.24,
-            "y1": 620.6,
-            "x2": 308.92,
-            "y2": 662.4399999999999
+            "x1": 183.2,
+            "y1": 665.9599999999999,
+            "x2": 373.0,
+            "y2": 709.24
           }
         },
         {
@@ -6128,19 +6132,19 @@
           "bbox": {
             "x1": 238.64,
             "y1": 710.24,
-            "x2": 325.47999999999996,
+            "x2": 367.59999999999997,
             "y2": 739.48
           }
         },
         {
           "type": "formula",
-          "score": 1.0,
+          "score": 0.925,
           "method": "span_math_heuristic",
           "bbox": {
-            "x1": 124.51999999999998,
-            "y1": 751.28,
-            "x2": 171.04,
-            "y2": 778.72
+            "x1": 108.72,
+            "y1": 742.68,
+            "x2": 195.12,
+            "y2": 800.28
           }
         }
       ],
@@ -6203,8 +6207,8 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=α_ρ2",
+              "n_spans=2",
+              "text=α_ρ2 | α_ρ2",
               "pylatexenc_ok",
               "preview_wh=134x103"
             ]
@@ -6270,7 +6274,7 @@
           "bbox": {
             "x1": 211.28,
             "y1": 503.24,
-            "x2": 319.0,
+            "x2": 286.59999999999997,
             "y2": 554.4399999999999
           },
           "tiles": [],
@@ -6282,15 +6286,15 @@
             "suspicion": 0.0,
             "notes": [
               "merged_fragments",
-              "text=σ dmy p xp dr 2",
+              "text=σ dmy p dr",
               "pylatexenc_ok",
-              "preview_wh=324x167"
+              "preview_wh=234x167"
             ]
           },
           "content": {
-            "latex_raw": "\\frac { d m _ { \\mathrm { { K } } \\, p } } { d \\overline { { { r } } } } \\! = \\! \\frac { \\sigma _ { _ Z } } { \\scriptscriptstyle 2 } \\, c _ { \\mathrm { r } p } r ^ { \\zeta }",
-            "latex": "\\frac { d m _ { \\mathrm { { K } } \\, p } } { d \\overline { { { r } } } } \\! = \\! \\frac { \\sigma _ { _ Z } } { \\scriptscriptstyle 2 } \\, c _ { \\mathrm { r } p } r ^ { \\zeta }",
-            "text_fallback": "d m K \\, p d r \\! = \\! Z 2 \\, c r p r **",
+            "latex_raw": "\\frac { d m _ { \\mathrm { { K } } \\, p } } { d \\bar { r } } { = } \\frac { \\sigma _ { _ { \\! } } } { 2 }",
+            "latex": "\\frac { d m _ { \\mathrm { { K } } \\, p } } { d \\bar { r } } { = } \\frac { \\sigma _ { _ { \\! } } } { 2 }",
+            "text_fallback": "d m K \\, p d r = \\! 2",
             "status": "ok"
           },
           "provenance": {
@@ -6307,31 +6311,35 @@
           "region_id": "formula_04",
           "type": "formula",
           "bbox": {
-            "x1": 33.44,
-            "y1": 571.28,
-            "x2": 113.08,
-            "y2": 600.16
+            "x1": 33.12,
+            "y1": 563.04,
+            "x2": 134.28,
+            "y2": 621.0
           },
           "tiles": [],
           "source": "raster",
           "quality": {
             "confidence": 0.85,
             "coverage": null,
-            "structural_ok": true,
-            "suspicion": 0.0,
+            "structural_ok": false,
+            "suspicion": 0.7,
             "notes": [
-              "n_spans=1",
-              "text=β α_)",
-              "spacing_collapsed",
-              "pylatexenc_ok",
-              "preview_wh=246x105"
+              "n_spans=2",
+              "text=β α_) | β α_)",
+              "braces_repaired",
+              "no_math_signal",
+              "prose_like",
+              "retry_upscale",
+              "no_math_signal",
+              "prose_like",
+              "preview_wh=306x186"
             ]
           },
           "content": {
-            "latex_raw": "\\begin{array} { r } { \\textrm { \\, \\ensuremath { \\beta } } _ { \\mathrm { { s } } } \\quad \\textrm { H } \\quad \\alpha _ { \\mathrm { r } } ) \\quad \\textrm { \\, \\ensuremath { \\mathrm { r } } } } \\\\ { \\textrm { \\, \\ensuremath { \\beta } } _ { \\mathrm { { s } } } \\quad \\textrm { H } \\quad \\alpha _ { \\mathrm { r } } ) \\quad \\textrm { \\, \\ensuremath { \\mathrm { i } } } } \\\\ { \\textrm { \\, \\ensuremath { \\mathrm { H } } \\, \\, \\mathrm { \\! a } } \\! \\! \\cap \\! \\! \\! \\Omega \\cap \\! \\! \\! H \\! \\! \\! \\mathrm { H S } \\! \\! \\! \\! . } \\end{array}",
-            "latex": "\\begin{array} { r } { \\textrm { \\, \\ensuremath { \\beta } } _ { \\mathrm { { s } } } \\quad \\textrm { H } \\quad \\alpha _ { \\mathrm { r } } ) \\quad \\textrm { \\, \\ensuremath { \\mathrm { r } } } } \\\\ { \\textrm { \\, \\ensuremath { \\beta } } _ { \\mathrm { { s } } } \\quad \\textrm { H } \\quad \\alpha _ { \\mathrm { r } } ) \\quad \\textrm { \\, \\ensuremath { \\mathrm { i } } } } \\\\ { \\textrm { \\, \\ensuremath { \\mathrm { H } } \\, \\, \\mathrm { \\! a } } \\! \\! \\cap \\! \\! \\! \\Omega \\cap \\! \\! \\! H \\! \\! \\! \\mathrm { H S } \\! . } \\end{array}",
-            "text_fallback": "r \\, s H r ) \\, r \\\\ \\, s H r ) \\, i \\\\ \\, H \\, \\, \\! a \\! \\! \\! \\! \\! \\! \\! \\! H \\! \\! \\! H S \\! .",
-            "status": "ok"
+            "latex_raw": "\\begin{array} { r } { \\mathrm { T p } \\mathtt { H \\Sigma \\texttt { H e H 3 B } } } \\\\ { \\small \\{ \\texttt { S \\\" { H } \\texttt { G } } } \\mathtt { M } \\mathrm { O r } } \\\\ { \\mathtt { H \\ } \\mathtt { d } \\mathrm { 3 P } \\mathrm { O } \\mathtt { \\mathcal { H } } \\mathtt { H } \\mathrm { H } \\mathtt { H } \\mathtt { M } \\mathtt { H } } \\\\ { \\mathrm { C O T H } \\mathtt { H } \\mathrm { O I I I } \\mathtt { H } \\tilde { \\Pi } \\} . } \\end{array}",
+            "latex": "\\begin{array} { r } { \\mathrm { T p } \\mathtt { H \\Sigma \\texttt { H e H 3 B } } } \\\\ { \\small \\{ \\texttt { S \\\" { H } \\texttt { G } } } \\mathtt { M } \\mathrm { O r } \\\\ { \\mathtt { H \\ } \\mathtt { d } \\mathrm { 3 P } \\mathrm { O } \\mathtt { \\mathcal { H } } \\mathtt { H } \\mathrm { H } \\mathtt { H } \\mathtt { M } \\mathtt { H } } \\\\ { \\mathrm { C O T H } \\mathtt { H } \\mathrm { O I I I } \\mathtt { H } \\tilde { \\Pi } \\} . } \\end{array}",
+            "text_fallback": "r T p H H e H 3 B \\\\ \\ S \\\" H G M O r \\\\ H \\ d 3 P O H H H H M H \\\\ C O T H H O I I I H \\ .",
+            "status": "suspicious"
           },
           "provenance": {
             "model": "unimernet",
@@ -6347,10 +6355,10 @@
           "region_id": "formula_05",
           "type": "formula",
           "bbox": {
-            "x1": 278.24,
-            "y1": 620.6,
-            "x2": 308.92,
-            "y2": 662.4399999999999
+            "x1": 183.2,
+            "y1": 665.9599999999999,
+            "x2": 373.0,
+            "y2": 709.24
           },
           "tiles": [],
           "source": "raster",
@@ -6361,15 +6369,15 @@
             "suspicion": 0.0,
             "notes": [
               "merged_fragments",
-              "text=kb TR",
+              "text=32r3. r 1+ 1+1- σ-α 16r",
               "pylatexenc_ok",
-              "preview_wh=110x141"
+              "preview_wh=552x145"
             ]
           },
           "content": {
-            "latex_raw": "= { \\frac { k b } { \\tau R } } \\, ;",
-            "latex": "= { \\frac { k b } { \\tau R } } \\, ;",
-            "text_fallback": "= k b R \\, ;",
+            "latex_raw": "= \\frac { \\widehat { \\tau } ^ { a } } { 1 6 r } \\Big ( - 1 + \\Big ) ^ { \\widehat { ( ~ 1 + \\frac { 3 \\mathcal { L } r _ { \\mathrm { { p } } } ^ { 3 } . } { \\sigma _ { r } a } ) } }",
+            "latex": "= \\frac { \\widehat { \\tau } ^ { a } } { 1 6 r } \\Big ( - 1 + \\Big ) ^ { \\widehat { ( ~ 1 + \\frac { 3 \\mathcal { L } r _ { \\mathrm { { p } } } ^ { 3 } . } { \\sigma _ { r } a } ) } }",
+            "text_fallback": "= ** a 1 6 r ( - 1 + ) ** ( ~ 1 + 3 L r p ** 3 . r a )",
             "status": "ok"
           },
           "provenance": {
@@ -6388,7 +6396,7 @@
           "bbox": {
             "x1": 238.64,
             "y1": 710.24,
-            "x2": 325.47999999999996,
+            "x2": 367.59999999999997,
             "y2": 739.48
           },
           "tiles": [],
@@ -6399,10 +6407,10 @@
             "structural_ok": true,
             "suspicion": 0.0,
             "notes": [
-              "n_spans=1",
-              "text=·*γ —θ=ξ",
+              "n_spans=2",
+              "text=·*γ —θ=ξ | ·*γ —θ=ξ",
               "pylatexenc_ok",
-              "preview_wh=266x106"
+              "preview_wh=383x106"
             ]
           },
           "content": {
@@ -6425,32 +6433,32 @@
           "region_id": "formula_07",
           "type": "formula",
           "bbox": {
-            "x1": 124.51999999999998,
-            "y1": 751.28,
-            "x2": 171.04,
-            "y2": 778.72
+            "x1": 108.72,
+            "y1": 742.68,
+            "x2": 195.12,
+            "y2": 800.28
           },
           "tiles": [],
           "source": "raster",
           "quality": {
             "confidence": 0.85,
             "coverage": null,
-            "structural_ok": false,
-            "suspicion": 0.7,
+            "structural_ok": true,
+            "suspicion": 0.6,
             "notes": [
-              "n_spans=1",
-              "text=, = 0.",
-              "prose_like",
-              "retry_upscale",
-              "prose_like",
-              "preview_wh=154x101"
+              "n_spans=2",
+              "text=, = 0. | V , = 0.",
+              "spacing_collapsed",
+              "pylatexenc_ok",
+              "preview_wh=264x184",
+              "semantic_reason=long_letter_run"
             ]
           },
           "content": {
-            "latex_raw": "\\scriptstyle { \\begin{array} { l } { { \\mathrm { i n e ~ } } \\, \\tan . } \\\\ { \\, \\gamma = 0 . } \\\\ { { \\mathrm { a } } \\, \\Gamma \\, \\mathrm { b } \\, \\gamma \\, \\gamma } \\end{array} }",
-            "latex": "\\scriptstyle { \\begin{array} { l } { { \\mathrm { i n e ~ } } \\, \\tan . } \\\\ { \\, \\gamma = 0 . } \\\\ { { \\mathrm { a } } \\, \\Gamma \\, \\mathrm { b } \\, \\gamma \\, \\gamma } \\end{array} }",
-            "text_fallback": "l i n e ~ \\, . \\\\ \\, = 0 . \\\\ a \\, \\, b \\, \\,",
-            "status": "suspicious"
+            "latex_raw": "\\begin{array} { r l } & { \\mathrm { i e n n e \\ ( I I I . \\ 1 5 ) } } \\\\ & { \\mathrm { i } \\quad V _ { y } \\! = \\! 0 . } \\\\ & { \\mathrm { 3 y n c b \\ ~ y p a s H e } } \\\\ & { \\mathrm { i H C T H K \\ \\ \\ \\ } \\! \\! \\! \\! \\mathrm { p a } \\! \\left\\{ \\mathrm { a } \\right\\} \\! \\! \\left. \\right\\mathrm { H } } \\end{array}",
+            "latex": "\\begin{array} { r l } & { \\mathrm { i e n n e \\ ( I I I . \\ 1 5 ) } } \\\\ & { \\mathrm { i } \\quad V _ { y } \\! = \\! 0 . } \\\\ & { \\mathrm { 3 y n c b \\ ~ y p a s H e } } \\\\ & { \\mathrm { i H C T H K \\ } \\! \\mathrm { p a } \\! \\left\\{ \\mathrm { a } \\right\\} \\! \\! \\left. \\right\\mathrm { H } } \\end{array}",
+            "text_fallback": "r l & i e n n e \\ ( I I I . \\ 1 5 ) \\\\ & i V y \\! = \\! 0 . \\\\ & 3 y n c b \\ ~ y p a s H e \\\\ & i H C T H K \\ \\! p a \\! \\ a \\ \\! \\! . H",
+            "status": "suspicious_semantic"
           },
           "provenance": {
             "model": "unimernet",
