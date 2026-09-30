@@ -59,6 +59,94 @@ _LAT = re.compile(r"[A-Za-z]")
 _GREEK = re.compile(r"[\u0370-\u03FF\u1F00-\u1FFF]")
 _WS = re.compile(r"[ \t]+")
 
+# PDF text layers (LaTeX → PDF) often emit Greek letters that only look like Latin.
+# Real formula letters (β λ π ω …) are not in this map.
+_GREEK_LOOKALIKE_TO_LAT = {
+    "Α": "A",
+    "Β": "B",
+    "Ε": "E",
+    "Ζ": "Z",
+    "Η": "H",
+    "Ι": "I",
+    "Κ": "K",
+    "Μ": "M",
+    "Ν": "N",
+    "Ο": "O",
+    "Ρ": "P",
+    "Τ": "T",
+    "Υ": "Y",
+    "Χ": "X",
+    "α": "a",
+    "γ": "g",
+    "ε": "e",
+    "κ": "k",
+    "μ": "m",
+    "ν": "v",
+    "ο": "o",
+    "ρ": "p",
+    "σ": "s",
+    "ς": "s",
+    "τ": "t",
+    "υ": "y",
+    "χ": "x",
+    "Γ": "G",
+}
+_LOOKALIKE_CHARS = set(_GREEK_LOOKALIKE_TO_LAT)
+_TRANSPARENT = set(" \t\n\r\u00a0.,;:!?\"'«»“”„()[]{}…·-/\\'’`´")
+_ABBREV_PUNCT = set(".,")
+
+
+def _lookalike_side(chars: list[str], index: int, step: int) -> str:
+    """Walk away from a lookalike. Spaces, digits and punctuation are transparent."""
+    j = index + step
+    n = len(chars)
+    while 0 <= j < n:
+        ch = chars[j]
+        if ch in _LOOKALIKE_CHARS or ch.isspace() or ch.isdigit() or ch in _TRANSPARENT:
+            j += step
+            continue
+        if ("A" <= ch <= "Z") or ("a" <= ch <= "z"):
+            return "latin"
+        return "block"
+    return "edge"
+
+
+def _in_abbrev_cluster(chars: list[str], index: int) -> bool:
+    """ε.γ. is an abbreviation, not a formula: two lookalikes joined by dots."""
+    lo = index
+    while lo > 0 and (chars[lo - 1] in _LOOKALIKE_CHARS or chars[lo - 1] in _ABBREV_PUNCT):
+        lo -= 1
+    hi = index
+    n = len(chars)
+    while hi + 1 < n and (chars[hi + 1] in _LOOKALIKE_CHARS or chars[hi + 1] in _ABBREV_PUNCT):
+        hi += 1
+    return sum(1 for k in range(lo, hi + 1) if chars[k] in _LOOKALIKE_CHARS) >= 2
+
+
+def latinize_greek_lookalikes(text: str) -> str:
+    """Replace Greek letters that only mimic Latin, and leave formula Greek in place.
+
+    A lookalike is rewritten when a Latin letter is reachable through spaces, digits
+    and punctuation, and neither side hits a math sign, Cyrillic, or a real Greek
+    letter. ``σ = μ + λ`` stays Greek. ``ARP4754Α`` and ``ε.γ.`` become Latin.
+    """
+    if not text or not any(ch in _LOOKALIKE_CHARS for ch in text):
+        return text
+    chars = list(text)
+    out: list[str] = []
+    for i, ch in enumerate(chars):
+        if ch not in _LOOKALIKE_CHARS:
+            out.append(ch)
+            continue
+        left = _lookalike_side(chars, i, -1)
+        right = _lookalike_side(chars, i, 1)
+        latin_context = left != "block" and right != "block" and (left == "latin" or right == "latin")
+        if latin_context or _in_abbrev_cluster(chars, i):
+            out.append(_GREEK_LOOKALIKE_TO_LAT[ch])
+        else:
+            out.append(ch)
+    return "".join(out)
+
 
 def normalize_whitespace(text: str) -> str:
     text = text.replace("\u00a0", " ")

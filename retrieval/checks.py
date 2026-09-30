@@ -6,7 +6,8 @@ import json
 import tempfile
 from pathlib import Path
 
-from retrieval.clauses import chunk_document, heading_num, join_hyphens
+from core.text_norm import latinize_greek_lookalikes
+from retrieval.clauses import AdmittedPage, chunk_document, heading_num, join_hyphens
 from retrieval.engine import (
     BuildReport,
     SearchIndex,
@@ -14,6 +15,7 @@ from retrieval.engine import (
     build_chunks,
     load_index,
     search,
+    tokenize,
     write_index,
 )
 
@@ -39,6 +41,25 @@ def run_checks() -> int:
         _fail("numbered item with title on the next line was missed")
     if heading_num("Глава 4 Приложение 6. Эксплуатация воздушных судов", None) != "4":
         _fail("chapter heading was not a clause")
+
+    alpha = "ARP4754\u0391"
+    sigma = "NASA\u2019\u03c3 STI"
+    eg = "\u03b5.\u03b3."
+    if latinize_greek_lookalikes(f"any {alpha} requirement") != "any ARP4754A requirement":
+        _fail("Greek alpha inside ARP4754A was kept")
+    if latinize_greek_lookalikes("\u03b1 key part") != "a key part":
+        _fail("Greek alpha in a Latin phrase was kept")
+    if latinize_greek_lookalikes(sigma) != "NASA\u2019s STI":
+        _fail(f"sigma in NASA was kept: {latinize_greek_lookalikes(sigma)!r}")
+    if latinize_greek_lookalikes(f"see {eg} above") != "see e.g. above":
+        _fail("epsilon.gamma abbreviation was kept")
+    formula = "\u03c3 = \u03bc + \u03bb"
+    if latinize_greek_lookalikes(formula) != formula:
+        _fail(f"formula was latinized: {latinize_greek_lookalikes(formula)!r}")
+    if latinize_greek_lookalikes("\u03b1") != "\u03b1":
+        _fail("isolated formula variable was latinized")
+    if tokenize(alpha) != ["arp4754a"]:
+        _fail(f"identifier token split: {tokenize(alpha)}")
 
     nlg = (
         "84\n"
@@ -159,6 +180,39 @@ def run_checks() -> int:
         again = search(loaded, "гидравлические системы", top_k=1)
         if not again or again[0].chunk.clause_id != "27.1435":
             _fail("reloaded index missed the clause")
+
+    admitted_arp = [
+        AdmittedPage(
+            doc_id="APR4754A application",
+            source_file="APR4754A application.pdf",
+            page=167,
+            page_class="A",
+            text=(
+                "24 Please describe any ARP4754\u0391 requirement validation issues encountered "
+                "during the review of this system."
+            ),
+        ),
+        AdmittedPage(
+            doc_id="APR4754A application",
+            source_file="APR4754A application.pdf",
+            page=193,
+            page_class="A",
+            text=(
+                "52 Please discuss in general terms any current or future ARP4754\u0391 applications "
+                "that the applicant expects to file."
+            ),
+        ),
+    ]
+    arp_chunks = chunk_document(admitted_arp)
+    if any("\u0391" in c.text or "\u03b1" in c.text for c in arp_chunks):
+        _fail("indexed chunk still contains Greek alpha")
+    arp_index = SearchIndex.from_chunks(arp_chunks)
+    arp_hits = search(arp_index, "ARP4754A requirement validation issues encountered", top_k=1)
+    if not arp_hits or arp_hits[0].chunk.clause_id != "24" or arp_hits[0].chunk.page_start != 167:
+        _fail(f"Latin ARP4754A query missed the Greek-layer chunk: {[(h.chunk.clause_id, h.chunk.page_start) for h in arp_hits]}")
+    other = search(arp_index, "future ARP4754A applications", top_k=1)
+    if not other or other[0].chunk.page_start != 193:
+        _fail("second questionnaire item was not separated by its identifier")
 
     print("check: ok")
     return 0

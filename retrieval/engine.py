@@ -11,9 +11,16 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
+from core.text_norm import latinize_greek_lookalikes
 from retrieval.clauses import AdmittedPage, TextChunk, chunk_document, is_toc_page
 
-_TOKEN = re.compile(r"\d+(?:\.\d+)+|[a-zа-яё]{2,}", re.IGNORECASE)
+# Dotted clause numbers stay whole. Letter+digit codes (ARP4754A) stay whole too:
+# a trailing Greek lookalike used to be cut off, so every such question collapsed to "arp".
+# A bare number (24, 52) is kept so questionnaire items do not tie with each other.
+_TOKEN = re.compile(
+    r"\d+(?:\.\d+)+|[a-zа-яё][a-zа-яё0-9]*[a-zа-яё0-9]|\d{2,4}",
+    re.IGNORECASE,
+)
 _CLAUSE_IN_QUERY = re.compile(r"\d+(?:\.\d+)+")
 _STOP = frozenset(
     """
@@ -61,7 +68,7 @@ class BuildReport:
 
 
 def tokenize(text: str) -> list[str]:
-    folded = text.lower().replace("ё", "е")
+    folded = latinize_greek_lookalikes(text).lower().replace("ё", "е")
     return [tok for tok in _TOKEN.findall(folded) if tok not in _STOP]
 
 
