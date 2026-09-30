@@ -14,6 +14,7 @@ onnxruntime>=1.17
 wordfreq>=3.0
 
 # Optional (install on work PC as needed):
+# sentence-transformers>=3.0
 # pylatexenc>=2.10
 # docling>=2.0
 # paddleocr>=2.7
