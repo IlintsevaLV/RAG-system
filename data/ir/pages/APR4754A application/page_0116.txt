@@ -1,0 +1,43 @@
+Project Specific Certification Plan APSCP300 5/28/2015 Title Doc No. Date
+Gear Up/Down, Flaps Up/Dwn
+Discrete Input/
+Visual Warn Ouput
+Monitor Output
+ARINC 429
+Radio Altitude, GS Dev, Baro Alt
+Analog Input/ Audio Output
+Output
+AGPWS Inhibit
+ESS #2 IMA #2 AGPWS CB
++28vdc
+Figure 19 Preliminary SAAB-EII 300 AGPWS Wiring Updates
+IMA-100 Avionic System 
+Table 28 summarizes the IMA functional areas impacted by the change and the most o
+severe failure condition classifications for that function.
+Table 28 SAAB-EII 300 IMA Impact Summary
+Change FC
+IMA Function Y/N Impact Description Class.
+Autopilot/Autoflight No planned new or changed autopilot
+N I
+(ATA22) functions.
+No planned new or changed communication
+Communications (ATA23) N I
+functions.
+Activation of provisioned AGPWS alerts and
+Displays (ATA31) Y I*
+warnings.
+Navigation/Flight Activation of provisioned AGPWS software
+Y III
+Management (ATA34) function.
+No planned new or changed maintenance
+Maintenance (ATA45) N II
+functions.
+Modification of IMA communication network to
+add AGPWS communications. Activation of
+Platform Y I
+provisioned spare digital (ARINC429), discrete
+and analog interfaces to/from AGPWS
+Sensors N No planned new or changed Sensor function. III
+*Note: Legacy Displays IMA function implementation is partitioned to support multiple software
+function criticalities.
+ 104

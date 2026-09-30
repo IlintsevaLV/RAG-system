@@ -1,0 +1,39 @@
+5 ARP4754Α Application Guidance, Policy or Practice Issues
+Summary
+The study sought also to identify issues regarding current guidance, policy and practice of
+ARP4754Α development and assurance of computer-based aircraft systems. The case study
+application insights and the author’σ previous lessons learned experiences in applying
+ARP4754Α were used to identify and summarize these issues.
+Issues with the current guidance, policies and practices were also solicited from Industry
+through α questionnaire and discussion roundtable as detailed in Appendix Β. The following
+issues summarize the major concerns regarding the on-going invocation of ARP4754Α.
+ARP4754Α Application Criteria
+The primary issue identified by the industry responses was the certification authorities’
+inconsistent understanding and application of ARP4754Α as part of the overall certification
+process, both within α single authority as well as between the various regulatory authorities
+worldwide. The certification authorities represented α divergence of opinion across projects on
+the depth and extent of ARP development process application as well as the acceptable
+evidence for showing objective satisfaction.
+Industry participants were inconsistent on what would help mitigate these inconsistencies. Some
+respondents wanted α detailed checklist applied, similar to the DO-178 Job Aid, to create α level
+playing field. Other wanted acceptance of their existing processes as they are shown to satisfy
+the ARP objectives.
+The level of certification authority involvement in the ARP development process, the
+inconsistency and alignment of ARP application and the ARP interpretation that “recommended”
+really means “required” were all highlighted as project obstacles. Finally, the late resolution of
+acceptable ARP4754Α “compliance” evidence impacted timely project development.
+FDAL/IDAL Assignment
+All respondents of the questionnaire indicated α difficulty in applying the assurance level
+assignment process. Α review of the examples provided in the questionnaire responses
+indicates that there remain problems differentiating between failure and error mitigation
+techniques. Confusion and misunderstandings were encountered during assignment
+interpretation. (It should be noted that only 25% of the respondents indicated that they had
+received training on the ARP). There were α number of examples of issues associated with
+assigning assurance level when the functional failure set included non-complex Items.
+No special tools were used to aid in the assurance assignment level process. Error trees, fault
+trees and common mode analysis were used by some to visualize the development process
+architecture.
+Α number of respondents would like to see α “how to”, step by step detailed explanation for
+FDAL and IDAL assignment.
+ARP Application General
+ 6

@@ -1,0 +1,23 @@
+23 Please describe your experience with the adequacy of system design tools in the
+ARP4754A development process.
+ R1 Skip
+ R2 Skip
+ R3 Skip
+ R4 DOORS is used as a standard for the validation and verification process. What is required
+is unambiguous defined process and therefore the verification and validation plan must be
+in place.
+ R5 NA
+ R6 NA
+ R7 As per Q22, available tools (e.g. Team Center, IBM DOORS) correspond closely to the
+expectation and application of ARP4754A development process. Inadequacy or possibly
+misuse results from expectations beyond process application, implementation and
+reasonable management effort.
+ R8 None
+ R9 Not sure what the question means by “system design tools”. Assuming the restrict sense of
+“design” provided in sections 4.1.6 and 4.4, and Simulink as one example of such tools,
+they have been widely used in supporting requirements validation through the usage of
+modeling and simulation cases as part of validation evidences.
+ R10 DOORS is the tool typically used. In some ways this tool is deficient and can be improved
+significantly.
+ R11 DOORS, Synergy, PDM, integrated development tools, verification tools.
+ 154

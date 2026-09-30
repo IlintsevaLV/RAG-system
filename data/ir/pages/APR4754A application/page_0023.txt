@@ -1,0 +1,14 @@
+STUDY ARCHITECTURE 2
+This architecture scenario captures the development of an airplane and an existing IMA avionic
+system implementation update on a legacy airplane for the introduction of airborne ground
+proximity warning equipment (AGPWS) certificated to Technical Standard Order 92c (TSO-92c).
+The IMA system architecture, with the same function set, as that postulated in the baseline
+architecture scenario is used. Both airplane and avionic system changes are contemplated and
+developed.
+In this scenario, revision artifacts are developed for updates to multiple existing functions due to
+the addition of the AGPWS TSO equipment.
+Artifact examples of the following airplane level ARP4754A objectives are developed:
+ Airplane Project Specific Certification Plan.
+Artifact examples of the following system level ARP4754A objectives are developed:
+ Avionic System Development Plan.
+ 11

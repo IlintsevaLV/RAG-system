@@ -1,0 +1,20 @@
+40 Please describe any issues or difficulties in selecting between ARP4754Α Option 1 or 2 in
+Table 3 for FDAL or IDAL assignments that were encountered.
+ R1 Skip
+ R2 Skip
+ R3 For α combination of failures of mechanical items and electronic items leading to cat.
+failures: Can credit be taken of the mechanical item being DAL Α, thus reducing the DAL of
+the electronic item to C?
+ R4 None
+ R5 NA
+ R6 No comment
+ R7 Skip
+ R8 When deciding the sufficiency of functional independence and item development
+independence. The intent and relationship with DAL assignment process of Common Mode
+Analysis should be updated to support this crucial part of ARP.
+ R9 Functional independence is always α difficult discussion, especially the same system or
+supplier team is used. The independence attributes are not clear variable/criteria and may
+vary from authorities and people mindset.
+ R10 Don'τ know.
+ R11 Skip
+ 169

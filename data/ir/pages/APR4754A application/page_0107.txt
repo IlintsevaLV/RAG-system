@@ -1,0 +1,38 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Α.2 ASDP200 5.3 Requirements Verification:
+Verification of requirements and specific assumptions is the process of ensuring that the 
+completed system has successfully implemented the requirements.
+Verification is α structured process for ensuring implementation complies with the set of captured 
+requirements.
+Verification activities will be tracked using α matrix containing the requirements and their 
+verification status.
+Verification activities accomplished and the revised IMA100V1 verification matrix will be included in 
+the new Avionics System Validation and Verification Summary Report.
+Deviations from the verification process will be captured and reported in the Summary Report. 
+Α.2 ASDP200 5.3.1 Requirements Verification Methods & Process:
+Requirements will be verified using structured process accomplishing objectives of ARP4754Α. 
+Requirements will be verified using combination of methods: 
+Methods of verification include: 
+Test, o
+Analysis (Modeling), o
+Service Experience or, o
+Inspection (engineering review). o
+It is anticipated that the bulk of the avionic systems requirements will be verified through test. 
+Artifacts will be generated as demonstration of the verification process for all requirements. 
+Verification artifacts will be managed appropriate for the function development assurance level. 
+Changed or New requirements supporting functions with FDAL Α will be verified with 
+independence.
+Changed or New requirements supporting functions with FDAL Β & C will be verified with 
+independence as α process goal but may be verified by requirement originators as necessary.
+Changed or New verification test procedures supporting FDAL Α will be managed using change 
+management control category 1.
+All unchanged functions and their requirements will be re-verified through execution of legacy 
+verification methodologies so as to ensure unchanged and revised capabilities provide all intended
+functionality.
+The IMA100 Ξ.Y baseline verification matrix will be updated for completed verification activities 
+and status.
+This matrix tracks the verification status of each requirement and captures the verification 
+method(σ) used to establish the verification result and artifact references capturing the verification
+evidence.
+An example verification Matrix shown in Table 26. 
+ 95

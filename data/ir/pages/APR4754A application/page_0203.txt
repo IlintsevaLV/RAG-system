@@ -1,0 +1,15 @@
+Planning
+Configuration Management Plan Sw Development Plan DO-178C SW Development Plan DO-178Β Sw Verification Plan DO-178C Software CM Plan DO-178Β Sw Verification Plan DO-178Β Software CM Plan DO-178C Software QA Plan DO-178C Objectives Software QA Plan DO-178Β
+Process Assurance Plan Hw Development Plan
+Hw Verification Plan Hw Validation Plan Hardware CM Plan Development Plan Hardware PA Plan Certification Plan Verification Plan PSAC DO-178C Validation Plan PSAC DO-178Β
+Assurance
+PHAC
+Level
+ARRRRRRRRRRRRRRRRRRRRRRBRRRRRRRRRRRRRRRRRRRRRRCRRRRRRRRRRRRRRRRRRRRRDRRRRRRRAARRRRRRRRRRERA
+Legend
+System Objective – ARP4754Α Software Objective – DO178C
+Software Objective – DO178Β Hardware Objective – DO254
+CM Level 1 CM Level 2
+R - RI – R Α – Recommended ω/ Independence As negotiated
+Figure 27 Planning Objectives Comparison Summary
+ 191

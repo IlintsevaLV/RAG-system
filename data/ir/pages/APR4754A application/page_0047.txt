@@ -1,0 +1,26 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Table 4 Avionics Function Means of Compliance (MoC) Matrix
+1 2 3 4 5
+Regulation Regulation Text Compliance Approach MoC Compliance Artifacts
+
+
+(2) The occurrence of any other AC20-174 Development of Civil Aircraft
+failure conditions which would reduce and Systems
+the capability of the airplane or the
+ability of the crew to cope with ARP4754Α – Guidelines for Development
+adverse operating conditions is of Civil Aircraft and Systems
+improbable.
+AC/AMJ25.1309 System Design and
+Analysis, RTCA Draft Arsenal revised 2002
+(χ) Warning information must be provided Warnings will be provided to the crew for 1 1 SAAB-EII 100 Airplane Flight Manual
+to alert the crew to unsafe system unsafe operating conditions and to enable SAAB-EII 100 Avionics System
+operating conditions, and to enable corrective actions. The warning system will Description
+them to take appropriate corrective be designed to minimize crew errors to
+action. Systems, controls, and mitigate creating additional hazards. 2 Inspection 2 Avionics Certification Summary
+associated monitoring and warning Warnings for specific airplane and system
+means must be designed to minimize failure conditions will be evaluated through 3 Test 3 Avionics Certification Lab Test Report
+crew errors which could create simulation as well as ground and airborne
+additional hazards test. 4 Test 4 Flight Test Certification Report
+
+5 Test 5 Ground Test Certification Report
+ 35

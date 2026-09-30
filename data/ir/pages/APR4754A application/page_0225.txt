@@ -1,0 +1,32 @@
+D 3.2 Hazardous Failure Condition FFS
+Figure 36 presents the FTA showing the single and multiple member FFS that may be used to satisfy a
+hazardous Failure Condition.
+The single member FFS objectives that support a Level B assignment are summarized under the leftmost
+branch.
+Option 1: Option 1 provides a single level B in combination with additional members at any level but not
+lower than Level D (objectives shown). In this option, there is significant difference between the
+Level B and Level D processes but the single level B alone would be sufficient to address the
+safety needed for the hazardous failure condition. The addition of the independent
+development process supporting the same functional failure set provides a measure of error
+mitigation properties since both the level B and level D must contain the same error to result in
+the failure condition.
+Option 2: Option 2 establishes two independent level C processes to support the hazardous FC. In this
+case, the small difference from the single Level B process is the lack of independence in-line for
+safety and requirement validation of Level C process. In this case, the independence is
+achieved by having two independent level C processes accomplishing independent and
+different safety and requirement verifications. The independent Level C processes are therefore
+equivalent to the single Level B process.
+D 3.3 Major Failure Condition FFS
+Figure 37 presents the FTA showing the single and multiple member FFS that may be used to satisfy a
+major Failure Condition.
+The characteristics and analysis presented for the catastrophic and hazard failure conditions also apply to
+major.
+The single level C process, or a level C process in combination with any other assurance level (option 1)
+or two level D processes provide equivalent error mitigation.
+D 3.4 Equivalence Analysis Summary
+As discussed and visually compared herein, both of the ARP4754A Table 3 options provide equivalent
+error mitigation capabilities through almost identical objectives. Option 1 provides an unquantifiable level
+of development rigor “goodness” over the single member FFS by having an independent development
+path. Option 2 lacks in-line independence assurance objective characteristics but still accomplishes the
+overall error mitigation goals through the multiple (independent) member FFS paths.
+ 213

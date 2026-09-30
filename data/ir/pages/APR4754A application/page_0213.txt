@@ -1,0 +1,41 @@
+3. Specific safety requirement verification is “Recommended with Independence” at the AC/Sys LCP
+assurance levels Α and Β only software LCP assurance level Α having α similar objective.
+Analysis: It is unclear why the hardware LCP does not have α specific objective to ensure safety
+requirement verification. It is also unclear why the software LCP does not maintain the verification with
+independence to assurance level Β.
+Since safety is predominately an aircraft and/or system activity, it is conceivable that the authors of the
+hardware and software LCPs had α more narrow definition of “safety requirements” than that of the ARP
+authors. The discrepancy may also be attributed to the comparison strategy used in this analysis. The
+hardware LCP contains the generation of verification data but does not call the objective out as α separate
+or unique completion objective.
+Further detailed comparison analysis should be completed so that LCP authors can establish consistency
+in objective completion.
+4. The AC/Sys life cycle has two objectives identified where there is no comparative hardware or
+software LCP objective
+Analysis: Α more detailed comparison analysis would undoubtedly find that these two objectives are
+inherent in the activities of the HW and SW LCPs though they are not highlighted in the summary matrices
+in each process.
+Further detailed comparison analysis should be completed so that LCP authors can establish consistency
+in objective completion.
+Data CM Category Differences:
+1. Safety requirement verification is maintained using CM category 1 in the AC/Sys LCP for assurance
+levels Α thru C which differs from the software LCP at CM category 2 at those levels (the HW LCP has
+no safety verification objectives).
+Analysis: Since safety is predominately an aircraft and/or system activity, it is conceivable that the
+authors of the hardware and software LCPs envisioned that CM of true “safety” data would be
+accomplished in the AC/Sys life cycle. The “safety data” created by the subordinate HW and SW life
+cycles would be effectively managed for certification purposes at the higher levels.
+Further detailed comparison analysis should be considered so that LCP authors can establish consistency
+across the LCPs in objective completion.
+C 4.5 Configuration Management Process Objectives Comparison
+Figure 31 graphically summarizes the objectives and control categories for configuration management
+processes between ARP4754Α and the DO LCPs. The basic configuration management objectives are
+consistent across the processes for assurance levels Α through Δ; with only minor differences with the
+software LCP due to non-equivalent objectives.
+Objective Commonality:
+All of the development process documents have consistent “Recommended” CM objectives for:
+ Defining configuration items,
+ Establishing baselines and derivatives,
+ Establishing change control,
+ Establishing archive and control capabilities.
+ 201

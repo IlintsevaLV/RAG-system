@@ -1,0 +1,41 @@
+B.2 2 Roundtable Discussion Notes
+Facilitator Introduction:
+This is an informal System Development Process discussion with SAE S18 Committee Members
+to enhance the SAAB-EII NASA ARP4754A study project with additional industrial experience
+inputs through round table discussions. The discussion commentary, with only aircraft, system,
+equipment or regulatory identification nomenclature will be attempted. The assembled SAE S18
+participants should provide their individual opinions and experiences on lessons learned. The
+inputs should fulfill the guidance and process materials on the white spaces without pointing the
+problems on recommended practice.
+Discussion Area 1: Lessons learned in applying ARP4754A: Are there any difficulties in DAL
+assignments or satisfying the objectives? Is there any difficulty to assign the DAL? Are they all
+level A or B? Any FDAL lower than B?
+AC A: I have not seen many DAL assignments at level B. Most of the assignments fall into
+category A or C.
+SYS B: I actually have seen many assignments at level B. Functional Decomposition is the key. It
+is dependent on how the functionality is assigned to FDALs and allocated to IDALs. The problem is
+derived requirements. When you derive requirement at the system level, how to allocate to item
+level and assign DALs. A good allocation make the program management have less DAL
+assignment arguments.
+AC A: This is based on the requirement flow down. I agree that in the SW level or box level
+assignment that was passed down to avionic suppliers. However, in the system level we always do
+one level better, so it will result in a hazardous assignment increasing to be catastrophic [level A].
+EQ A: There is a great sense of impact and argument of ARP4754A since the management knows
+it will directly impact the DAL assignments; however, it seems to be getting easier to deal with DAL
+assignment argument recently.
+I believe Section 5.2 of ARP4754A is written in such a way that it is clearer than the original
+ARP4754 for DAL allocation. People are assuming ARP4754A is the same as ARP4754, but we
+have enough to go back to them and say: “No your DAL location breakdown happens once” and it
+is very clear once you show them the recommended practice. They will go back and say: “Oh! We
+missed that”.
+AC B: We try to make it as objective as possible. Something that is fundamentally a subject of
+process.
+EQ A: There are a couple people want to further reduce down, but once we show them Section 5.2
+of ARP4754A then the arguments are done.
+Sys B: The only issue I have seen is that we have 18 level “As” and I want to do one to level D. We
+cannot do that anymore based on the written in the table.
+AC A: Let me tell you another experience. When you go back and go to item level, and people say,
+I have so much more work to do. We set down and talk about what Validation means and the
+activity we just done is called owner engineering course of action. We realized that the validation
+was done in the past, and the only thing that was not done is to take credit. I ask them to take
+ 180

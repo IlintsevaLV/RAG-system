@@ -1,0 +1,33 @@
+Option 1
+Level C Level A Level A
+Objectives Objectives Objectives
+F2 F1
+V&V V&V 2 2 RRR Planning Planning Planning
+RII 1 1 Safety - FHA Safety - FHA Safety - FHA RRDD 1 1 Reqts Cap Reqts Cap Reqts Cap RRRRII 2 2 Reqts Valid Reqts Valid Reqts Valid RRRII 2 2 Reqts Verif Reqts Verif Reqts Verif RRRII 1 1 Safety Proc Safety Proc Safety Proc RRRRR 2 2 CM CM CM
+RRR 1 1 Cert Coord Cert Coord Cert Coord
+I I 2 2 PA PA PA RRR
+F1 at Level A alone satisfies
+objectives
+
+Catastrophic Legend
+Failure R - Recommended
+I Condition R - With Independence
+D R – With Derived Reqt Identification
+V&V R – With Valid. & Verif. Planning
+1 – CM per SCC1
+2 – CM per SCC2
+Independence satisfied Option 2
+between F1 & F2
+Level B Level B
+Objectives Objectives
+F1 F2
+V&V V&V V&V 2 2 2 R R Planning Planning
+I I 1 1 1 Safety - FHA Safety - FHA RRDDD 1 1 1 Reqts Cap Reqts Cap RRII 2 2 2 Reqts Valid Reqts Valid RRRR 2 2 2 Reqts Verif Reqts Verif
+I I 1 1 1 Safety Proc Safety Proc RRRR 2 2 2 CM CM
+R R 1 1 1 Cert Coord Cert Coord
+III 2 2 2 PA PA R R
+Objectives identical to Level A
+except for verification with
+independence.
+Figure 34 Option 1-2 Comparison for Catastrophic FC
+211

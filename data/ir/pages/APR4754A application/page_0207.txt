@@ -1,0 +1,38 @@
+Objective Differences:
+1. As highlighted in Table 37, there are three objectives which are “Recommended” by the
+hardware/software LCPs but are “As Negotiated” for the AC/Sys LCP for the Level Δ assurance level.
+These “As Negotiated” objectives include:
+ Defining derived requirements,
+ Defining architecture, and
+ Performing system integrations.
+Analysis: As α consequence of this difference, it is conceivable that the system level “As Negotiated”
+objectives would be de-facto considered as “Recommended” in order to have consistency with the HW
+and SW LCPs on the same project.
+Data CM Category Differences:
+1. The Development Process CM objectives for performing integration in AC/SYS LCP differ from the
+other LCPs for assurance levels Α-Δ. AC/SYS system integration data is managed per CM category 2
+while in the other LCPs, the data is managed per CM category 1.
+Analysis: As α consequence of this difference, it is conceivable for the AC/SYS LCP assurance levels Α
+through Δ CM category may need to be escalated to use CM category 1 in order to have consistent
+development processes across α project containing all of LCPs.
+2. The CM category for development of system/software or hardware architecture data across the LCPs
+is inconsistent across assurance levels C and Δ. ARP4754Α and DO-178Β are category 2 for both
+levels while DO-254 maintains level 1 across all levels. DO-178C controls the SW architecture data,
+for assurance level C, at CM category 1 and at category 2 for level Δ.
+Analysis: It is unclear why the architecture data, which is identified to be captured in all life cycles by the
+Design Description, needs the category 1 level of CM management and attention for Levels C and Δ as
+prescribed in DO178C and DO254. This difference could be due to α nomenclature or an objectives
+mapping issue. The SW “Design Description” is actually α low level requirements document where the
+system level design description is as titled, α system description narrative.
+3. At assurance level C, the DO-178Β objective to define low level requirements managed by CM
+category 2 was inconsistent with the ARP4754Α and the other life cycle assignments of CM category
+1. This difference is mitigated on forward projects using DO-178C.
+4. The derived requirement output data CM management across the LCPs for level Δ is mixed. System
+derived requirements are maintained at category 2 while the DO LCPs maintain this data is maintained
+using CM category 1.
+Analysis: It is unclear why the software and hardware derived requirements data is so rigorously
+maintained for Level Δ. As α consequence of this difference, it is conceivable that AC/SYS LCP CM
+category may need to be escalated to use CM category 1 in order to have consistent development
+processes across α project containing all of LCPs.
+The LCP authors should establish consistency and revise the LCPs accordingly.
+ 195

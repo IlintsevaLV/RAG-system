@@ -1,0 +1,83 @@
+Avionics Certification Plan CP100 Title Doc No.
+1 2 3
+Failure Condition
+Function FC # (Hazard Description)
+Loss of navigation information
+34.01
+display
+Loss of navigation guidance
+34.02 information (flight
+management)
+Erroneous display of
+navigational or positional
+34.03
+information to both pilots
+simultaneously.
+Erroneous display of radio
+Situational
+34.04 altitude data to both pilots
+Awareness:
+simultaneously.
+Navigation
+(4.1.3)
+34.05 Erroneous Lateral Navigation
+Loss of Lateral Navigation –
+34.06
+High altitude flight
+Loss of Lateral Navigation –
+34.07
+Low altitude flight
+Loss of or erroneous Vertical
+34.08
+Navigation
+
+2/18/2015 Date
+Table 2 SAAB-EII 100 Avionics FHA Summary
+4 5 6
+Flight Effect of Failure Condition on
+Phase Aircraft/Crew Classification
+Significant increase in crew workload.
+Crew must rely upon communication
+Flight with air traffic control and backup Major
+heading display information to
+establish position.
+Significant increase in crew workload.
+Crew must manage flight plan
+Flight Major
+through manual operation of
+navigation resources.
+Excessive crew workload. Crew must
+Take off, identify positional error using other
+Hazardous
+Approach navigation sources or
+communications cross-checks.
+Crew makes hard landing due to
+misjudged or missing flare maneuver.
+Approach,
+Crew may recognize discrepancy with
+Go Hazardous
+barometric altitude and/or glideslope
+Around
+presentation. Excessive crew
+workload.
+Significant increase in crew workload.
+Crew must identify positional error
+Flight Major
+using other navigation sources or
+communications cross-checks.
+Significant increase in crew workload.
+Crew must manage flight plan
+Flight Major
+through manual operation of
+navigation resources.
+Approach, Excessive crew workload. Crew must
+Landing, identify positional error using other
+Hazardous
+Go navigation sources or
+Around communications cross-checks.
+Significant increase in crew workload.
+Crew must manage flight plan
+Flight Major
+through manual operation of
+navigation resources.
+25

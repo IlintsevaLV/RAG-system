@@ -1,0 +1,37 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Table 4 Avionics Function Means of Compliance (MoC) Matrix
+1 2 3 4 5
+Regulation Regulation Text Compliance Approach MoC Compliance Artifacts
+25.1309 Equipment, systems and installations
+(α) The equipment, systems, and The Avionics system operation will be 1 1 SAAB-EII 100 Airplane Flight Manual
+installations whose functioning is described in an Airplane Flight Manual, SAAB-EII 100 Avionics System
+required by this subchapter, must be System Description Document and Description
+designed to ensure that they perform demonstrated to be appropriate for its
+their intended functions under any intended function through inspection, 2 Inspection 2 Avionics Certification Summary
+foreseeable operating condition. analysis and test.
+ 3 Test 3 Avionics IMA Qualification Test Reports
+AC20-115Β – Airborne Software Assurance
+ 4 Inspection 4 Avionics IMA PHACs
+AC-152 – DO-254, Design Assurance
+Guidance for Airborne Electronic Hardware 5 Inspection, 5 Avionics IMA CEH deliverables
+ Analysis
+AC20-145 Guidance for Integrated Modular
+Avionics (IMA) that Implement TSO-C153 6 Inspection 6 Avionics IMA PSACs
+Authorized Hardware Elements.
+ 7 Inspection, 7 Avionics IMA software deliverables
+AC20-148 – Reusable Software Analysis
+components
+ 8 Inspection 8 Avionics equipment assembly drawings
+AC20-170C1 – Integrated Modular Avionics
+Development, Verification, Integration and
+Approval using DO-297 & TSO C153.
+(β) The airplane systems and associated The Avionics Safety Analysis will show 1 1 SAAB-EII 100 Avionics System
+components, considered separately and through analysis that the occurrence of any Description
+in relation to other systems, must be failure conditions which would prevent safe
+designed so that – flight and landing are extremely improbable 2 Inspection 2 Avionics Certification Summary
+(1) The occurrence of any failure and that other failure conditions which
+condition which would prevent the reduce the capability of the airplane or 3 Analysis 3 SAAB-EII 100 Airplane Safety Analysis
+continued safe flight and landing of crew to cope with adverse operating (ASA) - Avionics
+the airplane is extremely improbable, conditions are improbable.
+and
+ 34

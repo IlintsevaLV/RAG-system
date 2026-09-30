@@ -1,0 +1,21 @@
+41 Briefly describe any Table 3, Note 1 issues encountered during the assignment of FDAL or
+IDAL on the project.
+ R1 For FDAL Α single member function (software was assigned IDAL Α too), we wanted from
+applicant to show evidence that SW architecture is robust enough to deal with errors. We
+also required software fault tree analysis to support the evidences.
+ R2 Skip
+ R3 None
+ R4 None
+ R5 NA
+ R6 No comment
+ R7 Skip
+ R8 Note 1 does not give α clear idea for what is required extra in this type of situation, because
+if we have FDAL Α system, the development rigor required in ARP demands maximum
+independent process in terms of validation and verification.
+ R9 The current authorities criteria/vision has been more restricted than the method proposed in
+the ARP4754Α. The authorities still discuss in α case by case despite the process. The
+previous version of ARP4754 with the potential acceptable examples were more likely to be
+useful for aircraft development.
+ R10 Don'τ know.
+ R11 Skip
+ 170

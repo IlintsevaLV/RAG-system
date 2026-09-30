@@ -1,0 +1,65 @@
+Avionics Certification Plan CP100 Title Doc No.
+Table 3 Applicable Regulations & Certification Plan Cross Reference
+Regulation
+25.1543 Instrument markings – general
+25.1545 Airspeed limitation information
+25.1549 Powerplant and auxiliary power unit instruments
+25.1551 Oil quantity indication
+25.1553 Fuel quantity indication
+25.1555 Control markings
+25.1563 Airspeed placard
+SUBPART H – ELECTRICAL WIRING INTERCONNECTION
+SYSTEMS (EWIS)
+25.1705 Systems and functions: EWIS
+25.1707 System separation: EWIS
+25.1709 System safety: EWIS
+25.1729 Instructions for Continued Airworthiness: EWIS
+Editor Note: In this example excerpt only the means of compliance for 25.1301 & 25.1309 (yellow highlight
+in Table 3 ) have been developed. See Table 4 .
+Compliance Methods
+
+4. The following means of compliance (MoC) summaries are used:
+Inspection (may be on or off airplane, review), o
+Test (laboratory, ground, flight or equipment qualification), o
+Analysis (safety, simulation, numerical calculation). o
+Table 4 Content Description: 
+o
+Column 2 – Regulation text. o
+o
+material used to support compliance.
+o
+numbers match with compliance artifacts identified in Column 5.
+o
+analyses, inspections) which contain evidence of rule compliance.
+
+satisfy the objectives in ARP4754Α.
+See the SAAB-EII 100 Avionics Development Plan 
+function and system development life cycle process.
+
+application.
+
+2/18/2015 Date
+Applicable Cert Plan
+Avionics Others
+CP100
+CP100
+CP100
+CP100
+CP100
+CP100
+CP100
+
+CP100
+CP100
+CP100
+CP100
+Compliance to the regulations will be shown by analysis, inspection and test as identified in Table
+Column 1 – Regulation number and sub-paragraph identification (as applicable).
+Column 3 – Compliance approach description, discussion of industry standards, advisory
+Column 4 – Sequentially numbered list of the means of compliance. The sequential
+Column 5 – Sequentially numbered list of compliance artifacts (ε.γ. documents, reports,
+Development process at the airplane and system levels for the avionic system functionality will
+for the details of the planned airplane level
+Note that Company “Α” will be using similarity to satisfy ARP4754Α development objectives at the
+system level for the evolution of their existing IMA avionic system to the SAAB-EII 100 airplane
+31

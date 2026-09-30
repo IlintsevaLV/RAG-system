@@ -1,0 +1,25 @@
+Airplane Certification Plan CP010 2/18/2015 Title Doc No. Date
+Α.1 CP010 1 System Description:
+New airplane type development, aka SAAB-EII 100. 
+Certificated under 14CFR Part 25 as Transport Category airplane. 
+Conventional aluminum construction. 
+Two underwing mounted XYZ high thrust turbofan engines 
+Conventional mechanical flight control system (ATA 27) certificated using conventional techniques 
+defined in advisory material.
+Advanced avionics flight deck featuring LCD “glass” displays & IMA mechanization. 
+Α.1 CP010 2 Certification Planning:
+This plan provides an overview of the certification activities for the SAAB-EII 100 to show 
+compliance with the certification regulations.
+Certification will be accomplished by α series of aircraft function/system certification plans as 
+shown in Figure 1. The following airplane function plans will be generated:
+Avionics Certification Plan (CP100), o
+ Includes FMS, Displays, Crew Alerting, Radios & Autopilot 
+Flight Control Certification Plan (CP200), o
+Electrical Power Certification Plan (CP300), o
+Hydraulics Certification Plan (CP400), o
+Environmental Control Certification Plan (CP500), o
+Water, Waste Certification Plan (CP600), o
+Thrust Management Certification Plan (CP700), o
+etc. o
+
+ 14

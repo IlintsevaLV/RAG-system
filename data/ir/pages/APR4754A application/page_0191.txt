@@ -1,0 +1,31 @@
+52 Please discuss (in general terms) any current or future ARP4754Α applications?
+ R1 4754Α is also α good guideline for military projects when it is tailored according to the
+scope of the project. There is no appropriate guidance material in military
+regulations/standards that integrates system development and safety processes together
+and no clear guideline to determine DALs.
+ R2 As regulators, we expect aircraft companies and systems suppliers will establish and
+maintain infrastructures apply the ARP and we anticipate that over time their activities will
+be streamlined to be more efficient than the first application. As the ACOs gain
+understanding and confidence in their applicants’ processes, we anticipate reduced
+involvement, and oversight will also be streamlined as α function of the
+scope/complexity/novelty of the product
+ R3 Skip
+ R4 Long Range Wide Body Commercial Aircraft Landing Gear (Part 25); Helicopter Landing
+Gear System (Part 29)
+ R5 Control systems for turbine engine
+ R6 None
+ R7
+ R8 Avionic system (primary flight displays, navigation sensors, internal communication
+systems) development for utility helicopter program. Avionic system(mission computers,
+display systems, navigation and communication equipment), and weapon systems
+(integration of various weapons to platform) development for fighter jet program. Equipment
+(mission computers, displays, communication and navigation equipment) development for α
+trainer aircraft program. Avionic system development for civil transport category airplane.
+ R9 See q. 1 – in one of the first program, certification authority requested ARP4754Α as one of
+the means of compliance with 25.1309 through an issue paper; in the second program,
+they understood that an issue paper is not needed – the compliance with 25.1309 would
+require to follow ARP4754Α, based on the AC 20-174.
+ R10 Currently applying it in α Part 23 airplane.
+ R11 Compliance mean for System, LRU, SRU Guidance for the companies to improve their
+development process.
+ 179

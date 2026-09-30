@@ -1,0 +1,54 @@
+SAAB-EII 100 PASA SE100PASA Title Doc No.
+Table 10 PASA CMA-2
+Left engine parameter displays shall be independent of right engine parameter displays 5.
+CONCEPT & DESIGN: DESIGN ARCHITECTURE
+Common Mode Sources Common Modes Failure /Errors
+External Sources Electrical Power Distribution failure
+ Data Source (input) Failure
+
+CONCEPT & DESIGN: TECHNOLOGY, MATERIAL, EQUIPMENT TYPE
+Redundant, Similar Hardware Hardware development errors
+ Common components fail (type, usage,
+etc.)
+Verification tools
+Redundant, Similar Software Common software development errors
+Common software development tools
+Verification tools
+
+CONCEPT & DESIGN: SPECIFICATIONS
+Same specification Specification for display of left and right
+engine parameter information causes
+failure condition of interest due to error in
+common requirement(σ).
+
+
+4/24/2015 Date
+ Analysis / Discussion
+Redundant primary and standby displays will
+each be electrically powered from circuit
+breaker protected independent power
+sources.
+The left and right engine data sources and
+interface paths will be independent.
+Primary engine display hardware will be
+developed to assurance level commensurate
+with functional hazard.
+Primary engine display software will be
+developed to assurance level commensurate
+with functional hazard.
+Avionics Development Plan indicates that
+avionic function requirements will be captured
+and managed as independent elements.
+Error mitigation is acceptably established
+between functions. However, functionality
+within α specific functional area (ε.γ. Displays
+ATA31) may have common requirements,
+common development processing and
+potential for common requirement
+misinterpretation.
+Α functional development independence
+attribute is not demonstrated for this
+independence requirement. FDAL will be
+assigned based on most severe failure
+condition – Level Α.
+52

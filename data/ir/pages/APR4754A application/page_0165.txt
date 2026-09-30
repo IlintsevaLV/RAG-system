@@ -1,0 +1,36 @@
+22 Please describe any ARP4754Α requirements capture/ management issues encountered.
+ R1 4754 tells us what kind of requirement can be captured and what methods can be used to
+validate them. But I think this phase mostly depend on the knowledge of each party
+(customer, manufacturer, etc) at the time of requirement review. We had to face incomplete
+and ambiguous requirements required by customers.
+ R2 Skip
+ R3 Skip
+ R4 Not configured customer documentation ε.γ. specification plus α set of Change Requests,
+not formally validated on parent level. Missing requirements links, missing equipment
+allocation, incorrect means of validation/verification, duplication of verification tasks ε.γ. at
+equipment and system level the verification of the same functionality.
+ R5 Nacelle, TRU requirements capture and flowdown by engine manufacturer
+ R6 NA
+ R7 1) Linguistic difficulties and conflicts aside, requirements capture is rarely satisfying to an
+organization or an engineer during the course of the development. Different insights and
+realizings will always come down the way, sometimes leading most drastic action such as
+complete rework. This might be related to the general approach, the layout of information
+capture, the acceptability of α wording across diverse disciplines.
+2) Tool available for requirements capture/management not always satisfying every
+requirement and process within one organization or outside the organization. Misuse or
+mishandling of the tool and the ARP4754Α process to comply with one aspect, ε.γ.
+document layout containing information deemed necessary to assess certifiability need to
+be produced although multiple relations on α single level are not to be managed.
+ R8 It was difficult to capture and manage system requirements in α consistent manner without
+α requirement standard employed like in DO178 and DO254 but ARP doesn’τ call out for
+such type of standardization. Hence different type of requirements, in different granularities
+and different composition makes harder to evaluate them.
+ R9 The most relevant issue is related to engineers capturing as “requirements” information that
+may not represent indeed α “requirement” (like α design standard or assumptions) and
+having difficulties in validating it. This situation sometimes leaded to α requirements
+database bigger than the product actually needs.
+ R10 Suppliers don’τ all work following the same processes and requirements capture and
+management worked well with some and not so well with others.
+ R11 We have DOORS for requirement management, but it is not clear for us how to connected
+the requirement management with the development process.
+ 153

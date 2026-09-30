@@ -1,0 +1,39 @@
+Table of Figures
+Figure 1 SAAB-EII-100 Certification Plan Hierarchy ..................................................................15
+Figure 2 Airplane Function Diagram ..........................................................................................16
+Figure 3 SAAB-EII 100 Avionics Architecture ............................................................................20
+Figure 4 Average Flight Profile ..................................................................................................21
+Figure 5 Avionic System Development Requirement Activities ..................................................39
+Figure 6 Airplane Avionic Function Development Life Cycle - Initial ..........................................41
+Figure 7 Airplane Avionic Function Development –Life Cycle - Post PASA ...............................42
+Figure 8 Generalized Avionics System Development Life Cycle ...............................................61
+Figure 9 System Requirements Activity Plan .............................................................................65
+Figure 10 Baseline X.Y Evolution on SAAB-EII 100 ..................................................................66
+Figure 11 Baseline Requirements and Tracing..........................................................................67
+Figure 12 SAAB-EII 200 Avionics Architecture ..........................................................................76
+Figure 13 SAAB-EII 200 Avionics Modification Plan ..................................................................78
+Figure 14 SAAB-EII 200 Avionics System Change Implementation Development Plan .............86
+Figure 15 SAAB-EII 200 System Requirements Activity Plan ....................................................90
+Figure 16 Baseline X.Y Evolution on SAAB-EII 200 ..................................................................91
+Figure 17 SAAB-EII 200 Baseline Requirements and Tracing ...................................................92
+Figure 18 SAAB-EII 300 Modification ...................................................................................... 102
+Figure 19 Preliminary SAAB-EII 300 AGPWS Wiring Updates ................................................ 104
+Figure 20 SAAB-EII 300 Avionics System Change Implementation Development Plan ........... 111
+Figure 21 SAAB-EII 300 System Requirements Activity Plan .................................................. 114
+Figure 22 Baseline X.Y Evolution on SAAB-EII 300 ................................................................ 116
+Figure 23 SAAB-EII 300 Baseline Requirements and Tracing ................................................. 116
+Figure 24 ARP4754A Certification Support Summary ............................................................. 187
+Figure 25 Development Processes Historical Timeline ............................................................ 188
+Figure 26 ARP4754A Objective Areas & CM Categories by Assurance Level ......................... 189
+Figure 27 Planning Objectives Comparison Summary ............................................................ 191
+Figure 28 Development Process Objectives Comparison Summary ........................................ 194
+Figure 29 Validation Objectives Comparison Summary ........................................................... 197
+Figure 30 Verification Objectives Comparison Summary ......................................................... 200
+Figure 31 Configuration Management Objectives Comparison Summary................................ 203
+Figure 32 Process Assurance Objectives Comparison Summary ............................................ 205
+Figure 33 Part 23-25 Development Assurance Assignment Comparison ................................ 209
+Figure 34 Option 1-2 Comparison for Catastrophic FC ............................................................ 211
+Figure 35 Option 2 Error Mitigation Equivalence to Single Member ......................................... 212
+Figure 36 Option 1-2 Comparison for Hazardous FC .............................................................. 215
+Figure 37 Option 1-2 Comparison for Major FC ....................................................................... 217
+ v

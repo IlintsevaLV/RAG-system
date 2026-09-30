@@ -1,0 +1,19 @@
+Avionics Development Plan ADP100 2/18/2015 Title Doc No. Date
+Α.1 ADP100 4.2 Avionic Function Verification:
+Verify avionic system implementation satisfies captured airplane level requirements. 
+Airplane Level Requirements verified using process accomplishing objectives of ARP4754Α. 
+Function requirements verified using α combination of methods. o
+Methods of verification include: o
+ Inspection (engineering review), 
+ Analysis and, 
+ Test (demonstration). 
+Avionic safety assessments accomplished by integrating Company “Α” avionic safety assessment 
+data into Airplane Safety Group generated SAAB-EII 100 Airplane Safety Assessment.
+Preferred method of avionic function verification will be test. 
+Requirements based functional verification procedures will be developed and executed against the 
+final installed avionics functions, on ground and in-flight.
+Α.1 ADP100 5 ARP4754Α Objectives Mapping:
+Table 6 presents α high level mapping of ARP4754Α objectives to program artifacts which provide 
+evidence for satisfaction of the ARP objectives.
+
+ 43

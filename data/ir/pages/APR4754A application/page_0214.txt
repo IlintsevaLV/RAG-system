@@ -1,0 +1,27 @@
+Differences Summary:
+Table 40 summarizes the noted differences between the ARP and DO processes.
+Table 40 CM Process Differences
+CM Assurance
+Objective Accomplish Category Level Comment
+Baselines & derivatives Ξ Δ
+Baselines & derivatives Ξ C,Δ
+Objective Differences:
+1. The AC/Sys objective to establish configurations and baselines is “As Negotiated” for assurance level
+Δ which differs from the HW and SW LCP which have this objective as “Recommended”.
+Analysis: It is unclear why the HW and SW LCPs find it α necessary objective to maintain control of
+implementations with such α minor impact on aircraft safety. As α consequence of this difference, it is
+conceivable that the system level “As Negotiated” objectives would be de-facto considered as
+“Recommended” in order to have consistency with the HW and SW LCPs on the same project.
+The software and hardware LCP authors should explore the rationale for the present recommendation to
+establish baselines at assurance level Δ when the AC/System LCP indicates there isn’τ α need.
+Data CM Category Differences:
+1. The configuration and baseline data is maintained using control category 1 in the HW and SW LCPs
+for assurance levels C and Δ but at category 2 for the AC/Sys LCP.
+Analysis: It is unclear why the HW and SW LCPs find it α necessary to maintain such stringent control of
+implementations with such α minor impact on aircraft safety. As α consequence of this difference, it is
+conceivable that the system level would be de-facto considered as category 1 in order to have consistency
+with the HW and SW LCPs on the same project.
+The software and hardware LCP authors should explore the rationale for the present control category
+assignment when the AC/System LCP indicates there isn’τ α need. The software and hardware LCP
+authors establish consistency with the AC/System LCP.
+ 202

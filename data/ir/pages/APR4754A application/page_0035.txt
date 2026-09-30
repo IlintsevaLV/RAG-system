@@ -1,0 +1,93 @@
+Avionics Certification Plan CP100 Title Doc No.
+1 2 3
+Failure Condition
+Function FC # (Hazard Description)
+Erroneous standby airspeed
+display combined with
+31.07
+airspeed miscompare on
+primary displays
+Erroneous airspeed displayed
+31.08
+to both pilots simultaneously.
+Erroneous airspeed display
+31.09
+information to one pilot
+Erroneous airspeed displayed
+31.10
+on standby instrument
+Loss of all altitude display
+31.11 information including standby
+altitude
+Erroneous standby altitude
+display combined with
+31.12
+altitude miscompare on
+primary displays
+Loss of primary altitude data
+31.13
+to both pilots
+Erroneous altitude display
+31.14
+information to one pilot
+Erroneous altitude displayed
+31.15
+on standby instrument
+Loss of all heading display
+31.16 information including standby
+heading
+
+2/18/2015 Date
+Table 2 SAAB-EII 100 Avionics FHA Summary
+4 5 6
+Flight Effect of Failure Condition on
+Phase Aircraft/Crew Classification
+Crew is unable to determine correct
+airplane airspeed using flight deck
+Flight Catastrophic
+instruments resulting in loss of
+airplane.
+Excessive crew workload. Crew must
+All use cross-check with standby airspeed Hazardous
+instrument to recognize condition.
+Significant increase in crew workload.
+Crew must use cross-side display and
+Flight Major
+standby airspeed instrument to
+recognize condition.
+Significant increase in crew workload.
+Crew must use cross check with
+All Major
+primary displays to recognize
+condition.
+Crew is unable to determine correct
+airplane altitude using flight deck
+Flight Catastrophic
+instruments resulting in loss of
+airplane.
+Crew is unable to determine correct
+airplane altitude using flight deck
+Flight Catastrophic
+instruments resulting in loss of
+airplane.
+Significant increase in crew workload.
+Crew must rely on standby
+Flight Major
+instrument for altitude reference
+information.
+Significant increase in crew workload.
+Crew must use cross-side display and
+Flight Major
+standby altitude instrument to
+recognize condition.
+Significant increase in crew workload.
+Crew must use cross check with
+All Major
+primary displays to recognize
+condition.
+Crew is unable to determine correct
+airplane heading using flight deck
+Flight Catastrophic
+instruments resulting in loss of
+airplane.
+23

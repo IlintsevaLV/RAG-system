@@ -1,0 +1,17 @@
+FFS Multiple Member Opt 2 – F1 FFS Multiple Member Opt 2 – F2 FFS Single Member
+Reqts Reqts Reqts
+Reqts Capt
+Validation Validation Validation
+Reqts Capt Reqts Capt
+& &
+Verification Verification
+Reqts
+Verification
+Requirement/development errors mitigated through: Requirement/development errors
+ mitigated through:
+1. different requirement sets &
+2. independent validation of different requirement sets & 1. independent of validation &
+3. independent verification of each different requirement set 2. independent verification
+4. configuration & process rigor 3. configuration & process rigor
+Figure 35 Option 2 Error Mitigation Equivalence to Single Member
+ 212

@@ -1,0 +1,31 @@
+36 Please describe the context of any architectural mitigation strategies successfully used in
+the assignment of Item Development Assurance Levels (IDALs).
+ R1 Skip
+ R2 Skip
+ R3 On Control Computers: Partitioning, Multiple Version Dissimilar SW, Safety Monitoring.
+ R4 None
+ R5 NA
+ R6 No comment
+ R7 Skip
+ R8 Different items having same output data.
+ R9 Low level dissimilarity (SW, AEH, HW - processors, Α/Δ converters, sensors...) in some
+critical functions, hardwire solutions, relay logics, implementation of monitors in α different
+system or α specific dissimilar monitor for α specific failure mode and service experience
+for similar non-novel solutions with α significant accumulated field experience were used as
+mitigation strategies.
+ R10 Same as 35.
+ R11 Skip
+37 What, if any, tools have you used to assign FDALs?
+ R1 FTA
+ R2 Skip
+ R3 Fault Tree Analysis, Event Trees
+ R4 None
+ R5 FHA
+ R6 No comment
+ R7 Requirements database, same used for requirements capture and management
+ R8 None
+ R9 Error trees, PASA activities.
+ R10 Don'τ know.
+ R11 Skip
+
+ 167

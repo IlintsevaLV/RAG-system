@@ -1,0 +1,30 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Table 4 Avionics Function Means of Compliance (MoC) Matrix
+1 2 3 4 5
+Regulation Regulation Text Compliance Approach MoC Compliance Artifacts
+DO-178C – Software considerations in
+Airborne Systems & Equipment
+Certification
+DO-254 – Design Assurance Guidance for
+Airborne Electronic Hardware
+DO-297 – Integrate Modular Avionics (IMA)
+Development Guidance and Certification
+Considerations
+(2) Be labeled as to its identification, All equipment will be labeled for 1 1 SAAB-EII 100 Avionics System
+function, or operating limitations, or identification and function. Any identified Description
+any applicable combination of these operating limitations will be included as 2 Inspection
+factors placards or as part of the airplane flight 2 Avionics Certification Summary
+manual. 3 Inspection
+ 3 Avionics equipment assembly drawings
+4 Inspection
+4 Airplane Flight Manual
+(3) Be installed according to Equipment will be installed as specified on 1 Inspection 1 Avionics equipment assembly drawings
+limitations specified for that SAAB-EII 100 airplane and Avionics
+equipment; and Company “Α” installation drawings.
+(4) Function properly when installed Equipment will be tested on ground and 1 Test 1 Flight Test Certification Report
+airborne for correct function operation.
+2 Test 2 Ground Test Certification Report
+(β) EWIS must meet the requirements of
+See Subpart H for complete EWIS compliance approach and MoC statements.
+subpart H of this part
+ 33

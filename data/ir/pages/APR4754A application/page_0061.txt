@@ -1,0 +1,25 @@
+SAAB-EII 100 PASA SE100PASA 4/24/2015 Title Doc No. Date
+Note 1: Development process for Maintenance functionality will need to be partitioned during the
+development life cycle so that maintenance functions supporting multi-assurance levels may be
+accomplished OR all maintenance functionality must be developed to FDAL Α.
+Editor’σ Note: The independence requirements summarized in the PASA Section CMA to follow were
+developed through evaluation of the planned avionic architectural implementation using fault tree analysis,
+dependency diagrams or other requirement identification techniques. The use of “independence”
+conforms to the definition identified in ARP4754Α (1) – “concept which minimizes the likelihood of
+common mode errors and cascade failures”.
+Avionic System PASA Section CMA
+Independence Requirement Summary:
+1. Display of Primary Attitude information shall be independent of standby attitude information
+2. Display of Primary Airspeed information shall be independent of standby airspeed information.
+3. Display of Primary Altitude information shall be independent of standby airspeed information.
+4. Display of Primary Heading information shall be independent of standby airspeed information.
+5. Left engine parameter displays shall be independent of right engine parameter displays.
+6. Navigation capability shall be independent of communication capability.
+7. Captain displayed navigation/position information shall be independent of First Officer displayed
+navigation/position information.
+8. Take off configuration monitoring shall be independent of aircraft configuration.
+9. Autopilot engagement monitoring/warning shall be independent of autopilot.
+10. Autopilot command monitoring/limiting shall be independent of autopilot command generation.
+11. Maintenance data load monitoring/annunciation shall be independent of maintenance data load.
+Individual independence requirement evaluations are presented in Tables CMA-1 through CM-7.
+ 49

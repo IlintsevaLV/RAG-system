@@ -1,0 +1,81 @@
+Avionics Certification Plan CP100 Title Doc No.
+1 2 3
+Failure Condition
+Function FC # (Hazard Description)
+Loss of stabilized heading
+31.17 display information to both
+pilots
+Erroneous heading display
+31.18 information to both pilots
+simultaneously
+Loss of primary engine
+31.19 parameters display for both
+engines
+Loss of primary engine
+31.20 parameter display from α
+single engine
+Erroneous primary engine
+31.21 parameter displays for both
+engines
+Erroneous primary engine
+31.22 parameter displays from α
+single engine
+Loss of all navigation and
+23.01 communication information
+(non-restorable)
+Situational
+Awareness:
+23.02 Loss of all communications
+Communications
+(4.1.2)
+Erroneous datalink
+23.03
+communication information
+
+2/18/2015 Date
+Table 2 SAAB-EII 100 Avionics FHA Summary
+4 5 6
+Flight Effect of Failure Condition on
+Phase Aircraft/Crew Classification
+Significant increase in crew workload.
+Flight Crew must rely on compass for Major
+heading reference information.
+Significant increase in crew workload.
+Crew must recognize condition and
+Flight Major
+rely on compass for heading
+reference information.
+Crew is unable to optimally control
+engine operation and must rely upon
+FADEC operation or displayed
+Flight Hazardous
+secondary engine parameters and
+independent airplane monitoring.
+Excessive crew workload.
+Significant increase in crew workload.
+Flight Crew must rely on FADEC operation Major
+and throttle lever position.
+Excessive crew workload. Crew must
+control engines based on throttle
+Take off Hazardous
+lever position and rely on nominal
+FADEC control operation.
+Significant increase in crew workload.
+Crew must control engine based on
+Flight Major
+throttle lever position and rely on
+nominal FADEC control operation.
+Flight crew unable to navigate and
+Flight communicate resulting in resulting in Catastrophic
+loss of airplane.
+Loss of all voice and data
+communications from the airplane.
+Flight Significant increase in crew workload. Major
+Crew must rely upon alternative
+navigation communication resources.
+Significant increase in crew workload.
+Taxi, Crew verifies received datalink
+Major
+Flight information via voice
+communications.
+24

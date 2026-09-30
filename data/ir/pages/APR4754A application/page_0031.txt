@@ -1,0 +1,31 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Α.1 CP100 1 System Description:
+The avionic system integrates the following airplane level functions into α single system implementation:
+Provide Stability & Control 
+Automatic Flight Control & Guidance, o
+Provide Operational Awareness 
+Situational Awareness: Primary Flight Display, Communication, Navigation, o
+Awareness of Emergency o
+Configuration o
+Provide Loading, Maintenance, Ground Handling & Occupant Accommodation 
+Maintenance. o
+The Company “Α” Advanced Flight Deck integrates the following functions into α single avionic system
+implementation:
+Integrated Modular Avionics (IMA – ATA 42) (see Figure 3) from Company “Α” 
+Company “Α” IMA implementation certificated on other aircraft. o
+IMA includes the following functions: o
+ Autopilot/Autoflight (ATA 22), 
+ Communications (ATA23), 
+ Displays (ATA31), 
+ Navigation/Flight Management (ATA34), and 
+ Maintenance (ATA 45). 
+Α.1 CP100 2 Certification Support Planning:
+Certification will be accomplished by α series of airplane function certification plans. 
+The Avionics Certification Plan (this document) defines the regulations and compliance 
+methodology for the included avionic functions. This Avionics Certification Plan interacts with the
+following aircraft level function/system plans:
+Flight Control Certification Plan (CP200), o
+Thrust Management Certification Plan (CP700), o
+Electrical Power Certification Plan (CP300), o
+etc. o
+ 19

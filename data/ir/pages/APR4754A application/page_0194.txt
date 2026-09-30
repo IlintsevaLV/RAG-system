@@ -1,0 +1,34 @@
+only need to explain your concepts. There can be issues while dealing with purely mechanical
+flight control system or ice protection system specialist that are not familiar with DAL assignments.
+AC A: Question on satisfying objectives while we wrote the ARP 4754A material. The regulator
+looked at appendix A and told me that I gave him a prescriptive checklist, which he can go around
+to ask for evidences on the checklists. There was a regulator challenge stuff on ARP4761 CMA
+stuff and told me that things are missing. I explained to them that this is a guideline, but the
+regulator told me that we need to follow ARP 4761 appendix.
+AC B: Tell him to go back and read page one. There are also many places in the documents telling
+you that is not true. They chose to interpret that way then they are blinding themselves how the
+ARP works.
+AC A: The result was that it went into debate and I had to go back and propose a deviation for
+compliance. I have to re-adjust to show the deviation is still compliant to ARP 4761.
+AC B: You are then non-compliant to a non-compliance document.
+Facilitator: In DO we use compliant, but we should use satisfying the objectives in ARP because it is only
+a guideline and there is no rule there.
+AC B: Shall and must do not exist in the ARP guideline.
+It is possible that the regulatory authority to use the appendix as a prescriptive checklist and
+enforce the company to be compliant while the goal is supposed to be only on satisfying the
+objectives. The incorrect usage on the recommended practice may result of providing additional
+deviation in order to show the compliance.
+EQ B: I had an experience that we were forced to do a DAL A in Software. The FDAL becomes a
+level A while we do not want to mess with it, so we will just do them all. This is a gray area while
+we are mandated from the bottom.
+Facilitator: One thing that we learned by comparing ARP and DO is that if the DO is assigned as level A
+then it also migrated to systems to the same level. Even though ARP4754A level is not A, but be get stuck
+with it by the lower level bottom up. It turns out that it’s OK while the objectives for A and B in ARP4754A
+are the same.
+AC A: While dealing with the engine supplier, FADEC were B on two of them. The suppler had
+identical FADEC channel with no independence and they thought they can have B on them per
+using the table in ARP4754A.
+In order to show compliance to DO and satisfy the objectives of ARP, the recommended practice
+of FDAL may end up required even if it is not. There are cases the lower level A forces ARP to
+comply while most likely there is a bottom up impact.
+ 182

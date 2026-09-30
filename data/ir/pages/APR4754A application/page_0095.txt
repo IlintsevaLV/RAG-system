@@ -1,0 +1,41 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Α.2 ASDP200 1 Introduction:
+This Plan describes the system development process for modifications planned for the IMA hosted 
+functionality installed on the SAAB-EII 200 airplane.
+Plan addresses engineering life cycle evolution from ARP4754 to ARP4754Α including function 
+design, requirements generation, analysis, requirements validation, function verification for re-used
+functionality and modified functionality.
+Plan includes the identification and assignment of the appropriate Functional Development 
+Assurance Level (FDAL) rigor to be performed for changed or new systems functions as well as
+Item Development Assurance (IDAL) assignment for airborne software development of new
+functionality.
+Plan fulfills the intent of ARP4754Α objectives planning for: 
+Development (section 4), o
+Requirements Management (section 5.3), o
+Validation (section 5.4), o
+Verification (section 5.5). o
+Α.2 ASDP200 2 Avionics System Description:
+The Company “Α” IMA100 Avionics Flight Deck integrates multiple avionic functions into α single
+Integrated Modular Avionic (IMA) system implementation:
+The Integrated Modular Avionics (IMA – ATA 42) includes the following functions: 
+Baseline IMA includes the following system functions: o
+ Autopilot/autoflight (ATA 22), 
+ Communications (ATA23), 
+ Displays (ATA31), 
+ Navigation/Flight Management (ATA34), and 
+ Maintenance (ATA 45). 
+Α.2 ASDP200 3 Avionics System Development Overview:
+The legacy Company “Α” IMA100 avionics system was developed in accordance with ARP4754, 
+DO-178Β, DO-254 & DO-297.
+The avionics ARP4754 system development process will be evolved and structured to ensure 
+satisfaction of ARP4754Α objectives commensurate with α developed function development
+assurance level (FDAL) for revised and new functions.
+FDAL/IDAL will be assigned directly based on the most sever aircraft-level failure condition 
+supported by the modified and new functionality.
+This plan responds to the following ARP4754Α planning objectives: 
+Requirements Management, o
+Requirements Validation, o
+Requirement Verification, o
+Configuration Management, o
+Process Assurance. o
+ 83

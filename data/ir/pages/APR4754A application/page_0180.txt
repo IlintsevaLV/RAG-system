@@ -1,0 +1,25 @@
+38 What tools, if any, have you used to assign IDALs?
+ R1 FTA
+ R2 Skip
+ R3 Fault Tree Analysis, Event Trees
+ R4 None
+ R5 FTA
+ R6 No comment
+ R7 Requirements database, same used for requirements capture and management.
+ R8 None
+ R9 Error trees, CMA (common mode analysis) internal process.
+ R10 Don'τ know.
+ R11 Skip
+39 What FDAL assignment levels were assigned and satisfied?
+ R1 FDAL Α and Β were satisfied in our project
+ R2 Skip
+ R3 Up to FDAL Α
+ R4 FDAL Α,Β,C,Δ
+ R5 DAL Α
+ R6 No comment
+ R7 Focus on FDAL Α/Β addressing Catastrophic/Hazardous failure condition.
+ R8 All levels.
+ R9 Α to E.
+ R10 All system functions.
+ R11 Skip
+ 168

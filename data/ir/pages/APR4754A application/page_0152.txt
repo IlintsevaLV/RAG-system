@@ -1,0 +1,42 @@
+09α In your opinion, how does the application of ARP4754Α result in better products and
+systems?
+ R1 4754Α gives us α good understanding of what to do. I think companies should develop their
+own procedures according to their scope of work and criticality of the systems. Finding the
+best way that fits to company is important to get the benefit of applying 4754Α.
+ R2 From the regulatory perspective, the learning curve for industry and ACO is still fairly steep
+at the present time. But for those who have gone through it once, the benefit is
+better/smoother certification in the next program.
+ R3 The clear relationship between safety, requirements capture process and (system) design
+will help to avoid errors and late detection of non-compliance to safety requirements
+ R4 Identification of gaps in the forward path of the development with validation “are we building
+the right thing” and with verification “did we build the right thing”.
+ R5 Better requirements definition and management
+ R6 Higher levels of configuration management and control practices. Also, the alignment with
+DO-178Β/C makes it easier to work with the software group.
+ R7 1) Methods to ensure correctness, completeness and traceability provide more confidence
+at every single step of development process and problem management, more visibility is
+given for documentation during development and for/post-certification.
+2) ARP4754Α is not depending on the software tool adapted for its application.
+ R8 I think before ARP, it is not clear how to relate our system safety engineering and other
+system development activities with the SW and AEH level. ARP provides α means of filling
+the gap between civil certification requirements and implementation in SW and AEH
+through the use of DAL assignment process, requirement validation and verification
+process. Since DO-178 or DO-254 for SW and AEH are not sufficient to produce α safe
+product without α systematic approach followed in system level, ARP serves as α “systems
+aspect of certification” standard to follow for developing better airborne products and
+systems.
+ R9 Anticipating issues as early as possible in the development and Entry Into Service (EIS),
+helping risk identification / mitigation and providing α systematic mean (requirements-
+oriented development) to analyze, assessing and solving issues from the deployment of
+business / high level requirements into implementation, during the development, framework
+for communication with suppliers (ε.γ. requirements and interface control data), EIS and
+operation. Additionally, it helps in the product change impact analysis; without the
+traceability framework its application provides, impact analysis requires much time (having
+to analyze the entire database and test data) and that is subject to much more errors.
+ R10 All the engineers participating in the system development have α better idea of the whole
+process. The life cycle of requirements from initial state to implementation and testing is
+better controlled, reducing the risk of missing steps during the development that would
+result in costly redesigns at α later stage in the program.
+ R11 Less remained errors, better controlled data for modification and duplication, it is also good
+for reuse.
+ 140

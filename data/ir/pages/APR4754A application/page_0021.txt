@@ -1,0 +1,30 @@
+Appendix A Case-Study Data
+Three different but related airplane development scenarios were developed and evaluated as
+part of the ARP4754A Task Study effort. These architecture level studies are synoptic in nature
+so as to focus on following the guidelines in ARP4754A while developing computer-based
+avionic airplane systems. The three case studies presented in this appendix accomplish the
+goals of the task including:
+ Are representative of current state-of-the-art systems in terms of complexity and safety
+criticality,
+ Include examples of the application of the DAL assignment guidelines with system
+architecture consideration,
+ Are performed at a level of detail to provide educational value and allow insight into the
+sorts of development and assurance problems requiring engineering judgment,
+ Have enabled the identification of issues of concern in the current guidance, policy, and
+practice of system development and assurance.
+The three architecture scenarios developed represent examples of three different development
+cases presented in ARP4754A Section 6, “Modifications to Aircraft or Systems”. Each of the
+scenarios artifacts are uniquely identified with postulated configuration control strategies just as
+they would be on a “real” development program. The contents of each of the scenario
+developed ARP4754A artifact is presented in an abbreviated, outline format to highlight only the
+content needed to address the ARP objectives.
+The scenarios include:
+ Baseline Architecture,
+ Study Architecture 1,
+ Study Architecture 2.
+Each of the scenarios is briefly described in the following paragraphs.
+It should be noted that the intent of the case studies is to provide insight into satisfying
+ARP4754A development objectives for the scenarios postulated. The artifacts or process
+activities may not identify or address all representative certification aspects of the particular
+scenario.
+ 9

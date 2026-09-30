@@ -1,0 +1,40 @@
+05 If the application of ARP4754Α required and/or resulted in α change to an established
+business process, please provide examples of any significant process changes your company
+initiated.
+ R1 Especially requirement validation and safety assessment processes needed to be updated.
+ R2 From the regulatory perspective, the “business change” is our recognition that 4754Α has α
+role in the certification process, via our ACs and other vehicles.
+ R3 It was not really α fundamental change rather than α determination of the process in more
+detail
+ R4 The application of the ARP4754Α resulted in α change of the Requirements Based
+Engineering process, with correction of the validation and verification process steps and
+content. The result was the implementation of α generic Validation and Verification Plan for
+the company.
+ R5 NA
+ R6 NA
+ R7 1) Introduction and application of requirements engineering
+2) Establishment and application of System Development Plan, Requirements Validation
+Plan, Requirements Verification Plan, Process Assurance Plan, Configuration
+Management.
+ R8 Requirement validation process had to be improved considering ARP. Safety requirements
+generation and flow down to SW/AEH had to be improved. In general system requirements
+management process and requirement decomposition structure had to be improved.
+ R9 No change at business level was identified in the projects so far (considering the
+application of ARP4754Α in the strict sense of technical scope of the projects and in the
+level of airframe and systems development). There are, however, two points to highlight:
+The first: those recommended practices were somewhat spread out to higher-level product
+definitions, outside the usual product definition engineering areas (like maintenance,
+operational and customer support areas), which have more impacts and visibility in
+business process (through data like direct operation cost, direct maintenance cost, etc.) –
+this point contributes, to some extent, with the perception described in q.3. Second point:
+there is the possibility to move toward on introducing more detailed criteria, metrics and
+indicators based on requirements management practices in the project development
+framework, refining the decision and risk assessment processes around project phases and
+gates.
+ R10 The verification and validation processes between requirements owners and implementers
+have been reviewed completely under the guidance or ARP4754Α.
+ R11 My company established business process is the general requirements for airborne product
+development, the rigor is the average level which means it is more rigor than DAL Δ but is
+less rigor than DAL Β. So the DAL allocation process and control in different rigor impact
+the process significantly.
+ 135

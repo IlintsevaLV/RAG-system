@@ -1,0 +1,38 @@
+Avionic System Development Plan ASDP300 Title Doc No.
+
+
+Safety FDAL
+Unique ID Requirement Text
+The primary display system and the
+AVSYS-R-010 standby display shall be Y Α Displays
+independent.
+AVSYS-R-xxx N C AGPWS
+AVSYS-R-xxx N Α Platform
+AVSYS-R-xxx N -
+AVSYS-R-456
+
+
+Matrix Coding:
+Safety – Y if requirement is safety related.
+Verification Methods: Inspect – Inspection; Analysis – Analysis (Modeling); Service – Service Experience; Test – Test
+(Demonstration)
+NA – not applicable
+
+5/28/2015 Date
+Table 33 Example Completed Verification Matrix
+Verification
+Method(σ)
+Analysis Pas Service Inspect
+Verification σ /
+Test
+Associated Procedure Verification Fail
+Function Reference Artifact Reference (Π/F)
+Avionic System
+ Ξ NA Π
+SSA V2
+XXX AGPWS1275 VVTest1275 V2 PXX Platform101 VVTest1476 V2 Π
+Autopilot Ξ Ξ AP37 VVTest37 Π
+
+
+
+120

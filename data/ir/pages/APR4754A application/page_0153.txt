@@ -1,0 +1,27 @@
+09b In your opinion, how does the application of ARP4754A adversely impact products and
+systems?
+ R1 Documentation effort as output of 4754A may lead some delay in project. Common
+understanding is important. I don’t think both authority and applicant personnel are in same
+understanding level.
+ R2 From the regulatory perspective, there should not be adverse impact to the safety of
+products and systems.
+ R3 Skip
+ R4 I see no adverse impact on products and systems
+ R5 Increase cost via Engineering hours
+ R6 No – it contains good engineering practices.
+ R7 Extensive application of ARP4754A as per the document for whole System and its
+Equipment often impacts cost and schedule.
+ R8 None
+ R9 One possible adverse impact is the pitfall of believing that setting down the processes, with
+checklists, activities workflow, etc., one could execute that without an engineering judgment
+and technical background with regarding the content being evaluated. For instance, a
+requirement captured by a beginner engineer, validated by another beginner engineer may
+not be of good quality, even though we have a checklist approved in a plan, fulfilled with
+independence and assured by another person that has no good knowledge on that
+technology area. The risk here is to believe that the processes can replace people
+knowledge about the artifacts being worked out under those process.
+ R10 Cost and effort is increased, mainly in the initial stages of the development process.
+Generally the initial investment pays off during the whole program. However, in some cases
+it is difficult to see the benefit.
+ R11 The cost.
+ 141

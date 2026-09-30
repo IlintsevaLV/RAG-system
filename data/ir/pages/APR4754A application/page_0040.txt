@@ -1,0 +1,78 @@
+Avionics Certification Plan CP100 Title Doc No.
+1 2 3
+Failure Condition
+Function FC # (Hazard Description)
+Loss of flight director
+22.07 Provide Stability
+commands, guidance cues.
+& Control:
+Crew Control Erroneous flight director
+Guidance (2.5) 22.08 commands, displays and
+annunciations
+Incorrect data loaded into
+Maintenance (7) 45.01 avionics platform without
+detection
+Erroneous automatic thrust
+33.01 control performance
+prediction/thrust targets
+Erroneous takeoff data
+33.02
+provided to FADECs
+Provide Control
+of Energy:
+Loss of ability to automatically
+33.03
+control thrust
+Control Thrust
+(3.1)
+Erroneous automatic thrust
+33.04
+control commands
+Erroneous automatic thrust
+33.05
+control (retard)
+
+2/18/2015 Date
+Table 2 SAAB-EII 100 Avionics FHA Summary
+4 5 6
+Flight Effect of Failure Condition on
+Phase Aircraft/Crew Classification
+Approach,
+Landing, Crew may need to abort an
+Major
+Go instrument approach.
+Around
+Approach, Crew follows erroneous commands
+Landing, until discrepancy detected through
+Major
+Go cross-checks with other flight deck
+Around visual cues.
+Possible incorrect functional
+operation of multiple avionic
+All functions leading to incorrect crew Catastrophic
+airplane operation resulting in loss of
+airplane.
+Potential inadequate takeoff thrust
+control settings. Crew manually
+Take-off Major
+adjusts engine performance during
+takeoff roll.
+Potential inadequate takeoff thrust
+control settings. Crew must cross
+Take off Hazardous
+check displayed engine data against
+settings provided to FADEC.
+Crew must manage energy through
+Flight Minor
+manual means.
+Crew recognizes throttle reduction
+through aural and flight path
+Flight Major
+deviation and takes over control of
+engines manually.
+Crew recognizes throttle reduction
+through aural and flight path
+Take off Major
+deviation and takes over control of
+engines manually.
+28

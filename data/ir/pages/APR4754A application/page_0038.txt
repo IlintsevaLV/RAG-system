@@ -1,0 +1,69 @@
+Avionics Certification Plan CP100 Title Doc No.
+1 2 3
+Failure Condition
+Function FC # (Hazard Description)
+Loss of aural annunciation of
+31.23 caution or warning for
+identified conditions
+Loss of visual display of Situational
+31.24 caution or warning identified Awareness:
+conditions
+Emergency
+Awareness (4.2) Erroneous display of caution
+31.25
+or warning conditions
+Loss of landing gear aural
+31.26
+warning
+Loss of take-off configuration
+warning combined with
+31.27
+erroneous aircraft
+configuration
+Situational
+Awareness: Erroneous display of aircraft
+31.28
+ configuration
+Configuration
+(4.3)
+Loss of take-off configuration
+31.29
+warning
+
+2/18/2015 Date
+Table 2 SAAB-EII 100 Avionics FHA Summary
+4 5 6
+Flight Effect of Failure Condition on
+Phase Aircraft/Crew Classification
+Crew must rely upon visual
+Taxi, annunciations or other flight deck
+Major
+Flight effects of caution and warning
+conditions.
+Crew must rely upon aural
+Taxi, annunciations or other flight deck
+Major
+Flight effects of caution and warning
+conditions.
+Crew must rely upon cross-check of
+Taxi,
+other flight deck information to Major
+Flight
+identify erroneous/nuisance warning.
+Crew must rely upon redundant
+Landing,
+landing gear hand position and Major
+Flight
+landing gear position indicators.
+Airplane is not in correct
+Take Off configuration for take-off resulting in Catastrophic
+loss of airplane.
+Airplane is not in correct
+Take Off configuration for take-off resulting in Catastrophic
+loss of airplane.
+Crew not notified if aircraft is not
+appropriately configured for takeoff.
+Take Off Configuration warning is auxiliary Major
+feature to supplement normal crew
+procedure.
+26

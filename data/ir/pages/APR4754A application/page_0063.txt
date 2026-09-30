@@ -1,0 +1,65 @@
+SAAB-EII 100 PASA SE100PASA Title Doc No.
+Table 9 PASA CMA-1
+1.
+2.
+3.
+4.
+CONCEPT & DESIGN: DESIGN ARCHITECTURE
+Common Mode Sources Common Modes Failure /Errors
+External Sources Electrical Power Distribution failure
+ Data Source (input) Failure
+
+CONCEPT & DESIGN: TECHNOLOGY, MATERIAL, EQUIPMENT TYPE
+Redundant, Similar Hardware Hardware development errors
+ Common components fail (type, usage,
+etc.)
+Verification tools
+Redundant, Similar Software Common software development errors
+Common software development tools
+Verification tools
+
+CONCEPT & DESIGN: SPECIFICATIONS
+Same specification Specification for display of flight deck
+information (attitude, airspeed, altitude,
+heading) causes failure condition of
+interest due to error in common
+requirement.
+
+4/24/2015 Date
+Display of Primary Attitude information shall be independent of standby attitude information.
+Display of Primary Airspeed information shall be independent of standby airspeed information.
+Display of Primary Altitude information shall be independent of standby altitude information.
+Display of Primary Heading information shall be independent of standby heading information.
+ Analysis / Discussion
+Redundant primary and standby displays will
+each be electrically powered from circuit
+breaker protected independent power
+sources.
+Redundant sensors are used to provide
+information to primary displays. Standby
+instrument contains independent sensors for
+local display.
+Primary and standby displays of attitude,
+airspeed, altitude and heading will be
+implemented using different technologies by
+different manufacturers.
+Primary and standby displays of attitude,
+airspeed, altitude and heading will be
+implemented using different software
+languages by different manufacturers using
+different toolsets.
+Avionics Development Plan indicates that
+avionic function requirements will be captured
+and managed as independent elements. Error
+mitigation is acceptably established between
+functions. However, functionality within α
+specific functional area (ε.γ. Displays ATA31)
+may have common requirements, common
+development processing and potential for
+common requirement misinterpretation.
+Α functional development independence
+attribute is not demonstrated for these
+independence requirements. FDAL will be
+assigned based on most severe failure
+condition – Level Α.
+51

@@ -1,0 +1,30 @@
+18 Please identify any area(s) of ARP4754A that you have had the most difficulty in applying
+(i.e. Planning, Requirements (management, validation, verification), Configuration Management,
+Process Assurance or Safety Assessment)?
+ R1 Each process has its own methodology and tool to apply. I think the biggest problem we
+had is communication and timely information flow between and within the processes.
+ R2 Skip
+ R3 FDAL-determination: it is not fully clear, down to what level this should be performed
+Validation: It was understood, that for requirements with FDAL A or B two means of
+verification should be applied. This is in some cases not feasible or impossible
+ R4 Safety Assessment (FDAL assignment); Verification process philosophy
+ R5 Config Management
+ R6 NA
+ R7 1) Challenging if not problematic involvement of Verification entities, i.e. Verification
+Engineers, during the development process starting during first validation reviews. The
+difficulties encountered partly reside in their theoretically “passive” role during development,
+in order for the independence policy to be ensured.
+2) Minor mismatch between currently valid items baseline (e.g. document or design build
+standard) and the items actually being investigated or used for further activities.
+ R8 Requirement validation was the most difficult area since engineers are used to define and
+perform verification work rather than validation of the requirements they are developing.
+Hence it was difficult to manage and complete validation work.
+ R9 Planning, Verification and Process Assurance. Regarding safety assessment, the scope of
+the ARP4754A and the relationship with the certification process (final full review versus
+early involvement accepting the process).
+ R10 Process Assurance and Safety Assessment integration with system requirements.
+ R11 I think the Process Assurance is the most difficult part, we know the basic idea, but we do
+not know how to guide the QA to do the work effectively. The same for other activities,
+though we know what we expected to do, we are lack of experience on how to write good
+engineering documents, etc.
+ 149

@@ -1,0 +1,37 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Table 22 ARP4754 Objectives & Configuration Evolution Summary
+Legacy 4754Α
+CM CC CM CC
+4754 Objective / Evidence Category 4754Α Objective / Evidence Category
+Requirements changes captured -
+Requirements captured (FMS
+NA FMS System Requirements SC1
+System Requirements Document)
+Document
+Requirements Validation - FMS Requirements Validation – FMS per
+NA SC2
+(validation matrix, summary) assigned FDAL
+
+Requirements captured – “ABC”
+NA NA SC1
+Function Requirements Document
+Requirements Validation – “ABC”
+NA NA SC2
+per assigned FDAL
+Requirements changes captured -
+Requirements captured (Display
+NA Display System Requirements SC1
+System Requirements Document)
+Document
+Requirements Validation –
+Requirements Validation – Display
+Display (validation matrix, NA SC2
+per assigned FDAL
+summary)
+Verify IMA function requirements Modify existing IMA function Test
+NA SC1
+(Test Procedures) Procedures per assigned FDAL
+Verify IMA function requirement Verify changed and unchanged IMA
+implementation (verification NA function requirement implementation SC2
+matrix, summary) (verification matrix, summary)
+ 85

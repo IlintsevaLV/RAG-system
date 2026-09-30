@@ -1,0 +1,64 @@
+REPORT DOCUMENTATION PAGE
+The public reporting burden for this collection of information is estimated to average 1 hour per response, including the time for reviewing instructions, searching existing data sources,
+gathering and maintaining the data needed, and completing and reviewing the collection of information. Send comments regarding this burden estimate or any other aspect of this
+collection of information, including suggestions for reducing this burden, to Department of Defense, Washington Headquarters Services, Directorate for Information Operations and
+Reports (0704-0188), 1215 Jefferson Davis Highway, Suite 1204, Arlington, VA 22202-4302. Respondents should be aware that notwithstanding any other provision of law, no person
+shall be subject to any penalty for failing to comply with α collection of information if it does not display α currently valid OMB control number.
+PLEASE DO NOT RETURN YOUR FORM TO THE ABOVE ADDRESS.
+1. REPORT DATE (DD-MM-YYYY) 2. REPORT TYPE
+01- 11 - 2015 Contractor Report
+4. TITLE AND SUBTITLE
+Application of SAE ARP4754Α to Flight Critical Systems
+6. AUTHOR(Σ)
+Peterson, Eric Μ.
+7. PERFORMING ORGANIZATION NAME(Σ) AND ADDRESS(ES)
+NASA Langley Research Center
+Hampton, Virginia 23681-2199
+9. SPONSORING/MONITORING AGENCY NAME(Σ) AND ADDRESS(ES)
+National Aeronautics and Space Administration
+Washington, DC 20546-0001
+12. DISTRIBUTION/AVAILABILITY STATEMENT
+Unclassified
+Subject Category 62
+Availability: NASA STI Program (757) 864-9658
+13. SUPPLEMENTARY NOTES
+Phase II Final Report
+Langley Technical Monitor: Wilfredo Torres-Pomales
+14. ABSTRACT
+This report documents applications of ARP4754Α to the development of modern computer-based (ι.ε., digital electronics,
+software and network-based) aircraft systems. This study is to offer insight and provide educational value relative to the
+relative to development assurance for complex and safety-critical computer-based aircraft systems.
+15. SUBJECT TERMS
+Avionics; Certification; Guidelines; Life-cycle; Safety
+17. LIMITATION OF 16. SECURITY CLASSIFICATION OF:
+ABSTRACT
+α. REPORT β. ABSTRACT χ. THIS PAGE
+UUU UU
+
+Form Approved
+OMB No. 0704-0188
+3. DATES COVERED (From - To)
+5α. CONTRACT NUMBER
+NNL13AA04Β
+5β. GRANT NUMBER
+5χ. PROGRAM ELEMENT NUMBER
+5δ. PROJECT NUMBER
+5ε. TASK NUMBER
+NNL14AB74Τ
+5φ. WORK UNIT NUMBER
+999182.02.50.07.02
+8. PERFORMING ORGANIZATION
+REPORT NUMBER
+10. SPONSOR/MONITOR'Σ ACRONYM(Σ)
+NASA
+11. SPONSOR/MONITOR'Σ REPORT
+NUMBER(Σ)
+NASA/CR-2015-218982
+guidelines in ARP4754Α and provide an assessment of the current state-of-the-practice within industry and regulatory bodies
+18. NUMBER 19α. NAME OF RESPONSIBLE PERSON
+OF STI Help Desk (email: help@sti.nasa.gov)
+PAGES
+19β. TELEPHONE NUMBER (Include area code)
+230 (757) 864-9658
+Standard Form 298 (Rev. 8-98)
+Prescribed by ANSI Std. Z39.18

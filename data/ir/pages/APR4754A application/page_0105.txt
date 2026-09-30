@@ -1,0 +1,26 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Α.2 ASDP200 5.2.1 Requirements Validation Methods & Process:
+Requirements will be validated using structured process accomplishing objectives of ARP4754Α. 
+Requirements will be validated using combination of methods. 
+Methods of validation include: 
+Traceability, o
+Analysis (Modeling), o
+Test, o
+Similarity or, o
+Inspection (engineering review). o
+The bulk of the avionic systems requirements will be validated through similarity to the certificated 
+baseline, “Ξ.Y”.
+Artifacts will be generated as demonstration of the validation process for all changed or new 
+requirements.
+Artifacts generated based on validation method used. May include requirement inspections, o
+analysis reports, test procedures or similarity (reuse) analysis.
+Validation of requirements will be accomplished with independence commensurate with the 
+assigned FDAL.
+Requirements and validation status will be summarized in α validation matrix. 
+This matrix tracks the validation status of each requirement or assumption and captures the 
+validation methods used to establish the validation result and artifact references capturing the
+evidence.
+The requirements validation process is invoked as part of the change management process for 
+changed or addition of new requirements.
+An example of validation matrix content shown in Table 25. 
+ 93

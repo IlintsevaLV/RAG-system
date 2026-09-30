@@ -1,0 +1,25 @@
+15 What, if any, concerns do you have with the current regulatory policies governing
+development and assurance?
+ R1 Skip
+ R2 Skip
+ R3 Skip
+ R4 None
+ R5 Need more experience on Assurance
+ R6 NA
+ R7 Regulatory policies or boundaries, especially data to be provided for certification
+submission, need to be defined latest by PDR. Any communication or new insights and
+perceptions beyond this milestone impacts product design,
+ R8 None
+ R9 Not clear what question means by “policies”… Considering, for instance, the FAA AC 20-
+174 / ARP4754(), there is no concern so far, because, it seems to us, they are somewhat
+“new” (considering an airplane development cycle) and were not exercised sufficiently so
+far (like the ones regarding integrated modular architectures, the FA AC 20-170 and DO-
+297, for instance). However, based on similar question in other technologies (software and
+AEH, for instance), the concerns are not directly related to the policies themselves, but to
+some lack of alignment of agencies personal (both internally to each agency, and between
+agencies) about the understanding of their application and how to follow them: depending
+on the person the applicant faces in the room, or the one that reviews the data the
+applicant sent out, what has being done can be acceptable or not.
+ R10 None
+ R11 Skip
+ 146

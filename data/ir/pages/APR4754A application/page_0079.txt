@@ -1,0 +1,32 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+SAAB-EII 100 Avionics
+Function Requirements
+(OEM)
+Airplane Requirements Level
+Company Α Avionic System
+Trace Requirements Level
+Top Level Avionics
+System Requirements
+Specification
+Trace
+Avionics Function 1 Avionics Function 2 Avionics Function 3 Avionics Function ν Avionics Platform
+Requirements Requirements Requirements Requirements Requirements
+Specification Specification Specification Specification Specification
+Figure 11 Baseline Requirements and Tracing
+Α.1 SDP100 5.2 Requirements Validation:
+The validation of requirements and specific assumptions ensures that the specified requirements 
+are sufficiently correct and complete so that the developed product will provide the intended
+functionality.
+Validation is α structured process for ensuring the correctness and completeness of the set o
+of captured requirements.
+The validation process also includes capture and evaluation of assumptions made during o
+the requirement capture process to ensure:
+ Assumptions have been explicitly stated, 
+ Assumptions are appropriately disseminated and, 
+ Assumptions are justified by supporting data. 
+Validation activities will be tracked using α matrix containing the requirements and their validation 
+status.
+Validation activities accomplished and the completed validation matrix will be included in the 
+Avionics System Validation and Verification Summary Report.
+Deviations from the validation process will be captured and reported in the Summary Report. 
+ 67

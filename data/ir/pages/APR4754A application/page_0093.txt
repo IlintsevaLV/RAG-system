@@ -1,0 +1,13 @@
+Project Specific Certification Plan PSCP200 7/03/2015 Title Doc No. Date
+Α.2 PSCP200 5 Compliance Methods:
+Compliance to the regulations will be shown by analysis, inspection and test. 
+Summary for 14CFR 25.1309, Systems, equipment and installations: 
+IMA avionic system development process per AC20-174 using ARP4754Α at assigned o
+FDAL
+Airborne electronic hardware development per AC20-152 using DO-254 at assigned IDALs o
+Airborne software development per AC20-115C using DO-178Β at assigned IDALs o
+Safety assessments(FHA, PSSA, SSA) per ARP4761 o
+IMA development per AC-148 and AC-170. 
+See Company “Α ” Avionics System Development Plan for details of modification process. 
+----- End of PSCP200 Project Specific Certification Plan excerpt -----
+ 81

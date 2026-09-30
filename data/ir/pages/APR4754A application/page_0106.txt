@@ -1,0 +1,42 @@
+Avionic System Development Plan ASDP200 Title Doc No.
+
+Safety
+Text
+Unique ID (Requirement or Assumption) Source
+The primary display system and the
+AVSYS-R-010 standby display shall be Y Derived
+independent.
+AVSYS-R-xxx N Derived
+AVSYS-R-xxx
+AVSYS-R-xxx
+AVSYS-R-456 N Derived
+
+
+Matrix Coding:
+Safety – Y if requirement is safety related.
+Requirement Sources: Parent Reqt ID, Derived, Assumption
+Validation Methods: Inspect – Inspection; Analysis – Analysis (Modeling); Σ – Similarity; Test – Test; Trace -Traceability;
+Reqt Valid – Y if requirement has completed validation effort and artifact has found requirement valid.
+CN = Change Notice
+ECM = Engineering Communication Memo
+Insp = Inspection
+Reqt = Requirement
+
+7/03/2015 Date
+Table 25 Example Completed Validation Matrix
+Validation
+Method
+Reqt
+Similarity
+Analysis Vali
+Inspect
+δ Trace
+Test
+Requirement Validation Artifact (Y/N
+Reference )
+XXXX Insp-104 YXX Insp-517 Y
+N Assumption Ξ ECM-SAABEII-CompA-25 Y
+N AVACFT-R-1490 XXX CN-1465 YXX CN-5137 Y
+
+
+94

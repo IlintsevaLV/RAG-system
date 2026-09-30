@@ -1,0 +1,26 @@
+Derived high/low level Reqts defined DO-178Β Derived high/low level Reqts defined DO-178C Software architecture is developed DO-178C Software architecture is developed DO-178Β Development High-level SW Reqts developed DO-178C High-level SW Reqts developed DO-178Β Obj code integrated in target DO-178C Obj code integrated in target DO-178Β Α/C & system integrations performed Low level reqts are defined DO-178Β Process Low level reqts are defined DO-178C Α/C Functions allocated to systems
+System Reqts allocated to items
+Objectives System Architecture defined System derived Reqts defined Α/C Level Reqts defined
+Hardware design data System Reqts defined
+Hardware Reqts Hardware Reqts Hardware Reqts
+Hardware Reqts
+Assurance
+Level
+ARRRRRRRRRRRRRRRRRRRRRRBRRRRRRRRRRRRRRRRRRRRRRCRRRRRRRRRRRRRRRRRRRRRRDRRRRRRA RRR RARRRRRRARRRE
+Legend
+System Objective – ARP4754Α Software Objective – DO178C
+Software Objective – DO178Β Hardware Objective – DO254
+CM Level 1 CM Level 2
+R - RI – R Α – Recommended ω/ Independence As negotiated
+Figure 28 Development Process Objectives Comparison Summary
+Table 37 Development Process Differences
+CM Assurance
+Objective Accomplish Category Level Comment
+Perform integrations Ξ Α-Δ
+Perform integrations Ξ Δ
+Architecture defined Ξ C DO178C/DO254
+System Reqts / LL Reqts defined Ξ C DO178Β
+1 1 Derived Reqts defined XXD Differs by HL/LL
+ Architecture defined XXD
+2 3 2 3 Allocate Reqts to Items / LL Reqts XXD DO178C / DO254
+ 194

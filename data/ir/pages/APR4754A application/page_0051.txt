@@ -1,0 +1,37 @@
+Avionics Development Plan ADP100 2/18/2015 Title Doc No. Date
+Α.1 ADP100 1 Introduction:
+This Plan describes the airplane level development process for avionics functions to be installed 
+on the SAAB-EII 100 airplane.
+Plan addresses engineering life cycle including function design, requirements generation, analysis, 
+requirements validation, function verification.
+Plan includes the identification and assignment of the appropriate Functional Development 
+Assurance Level (FDAL) rigor to be performed at the airplane level as well as the flow down
+system tiers.
+Α.1 ADP100 2 Avionics Development Overview:
+The avionics development process will ensure support of the certification process outlined in 
+CP100.
+The avionics development process is structured to ensure satisfaction of ARP4754Α objectives 
+commensurate with the rigor of the assigned development assurance level (FDAL).
+The avionics development process is based on re-use of an integrated modular avionic 
+implementation certificated on another airplane.
+The SAAB-EII 100 avionics development process will generate the necessary project artifacts for 
+the airplane functionality to support the existing Company “Α” Advanced Flight Deck functions as
+well as generating the documentation needed to define unique SAAB-EII 100 airplane
+characteristics (ε.γ. interfaces, functional properties, installations).
+Figure 5 presents α high level summary of the Avionics development activities. It should be noted 
+that the non-linear aspects of the development activities (feedback paths) are not shown.
+Production/
+Concept Development
+Operation
+Airplane
+Production, test
+Avionic System Avionic
+Avionics Function & operation
+Development (By Function
+Development data
+Company “Α” Verification
+Company “Α”
+Existing Functions &
+Characteristics
+Figure 5 Avionic System Development Requirement Activities
+ 39

@@ -1,0 +1,37 @@
+07 Please describe any benefits you discovered in applying ARP4754Α.
+ R1 It provides companies α structure way to develop their processes. Giving α systematic path
+to follow in design and development.
+ R2 From the regulatory perspective, the benefits are better understanding of applicants’
+development process which in turn helps us provide better guidance to applicants toward
+showing compliance
+ R3 Clear relationship between safety, requirements capture process and (system) design
+ R4 Guideline for development process development and predecessor to RTCA DO 178 and
+254
+ R5 More rigorous requirements traceability
+ R6 NA
+ R7 1) Possibility and opportunity to apply α single development process for complete System
+2) Compatibility with other standards or guidelines already established in the Company,
+such as DO254ξ,DO178ξ, ARP47613) Compatibility with Company Business Process,
+though adjustment might be necessary 4) Wider acceptance among development and
+verification engineering.
+ R8 ARP is α key tool when applied logically and in an organized manner because it is α
+detailed guideline which provides α bridge between the civil certification requirements and
+SW development (DO 178)/AEH development (DO-254). Since all our existing programs
+requires SW developed according to DO 178 and in recent programs DO 254 is also
+required, the appliance of system level development processes according to ARP is very
+crucial. ARP gives α detailed guideline starting from deriving system functions to
+implementation. While doing this, the focus is system level development (for our usage)
+and system safety assessment but the relations with other levels like aircraft level, item
+level, SW level, HW level are very well established. The flow of information between these
+layers and the borders of each layer has been drawn to clarify top-down approach that has
+been adapted. Hence it is good to know when adapting company processes to ARP, which
+pieces of information is related with systems engineering or SW engineering or HW
+engineering and what should we expect from aircraft level.
+ R9 The ones that highlight are: # is to set up α framework to perform α requirements-oriented
+development, which provides means to correlates program/development phases/events
+with key processes activities that allow us to set up and to measure product quality and
+maturity expectations.
+ R10 Structured and controlled V&V activities throughout the development process
+ R11 The work is well ordered and well controlled. Though we have taken more time for the
+design, less iterations are required for the verification process, etc.
+ 137

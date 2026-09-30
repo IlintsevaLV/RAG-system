@@ -1,0 +1,33 @@
+Objective Commonality:
+The verification of requirements is α consistent objective across all of the LCPs. Each of the life cycles
+has assurance level Α thru C objectives “Recommended” for:
+ Ensuring verification test procedures are correct,
+ Verifying intended function,
+ Verifying implementation meets requirements, and
+ Safety requirements are verified.
+Differences Summary:
+Table 39 summarizes the noted differences between the ARP and DO processes.
+Table 39 Verification Objectives Process Differences
+CM Assurance
+Objective Accomplish Category Level Comment
+With independence for
+Test Procedures Correct Ξ Β
+DO254
+Test Procedures Correct Ξ Δ DO178/DO254
+With independence for
+Verify intended function Ξ Β
+DO178
+Safety requirements XXA-C DO178/DO254
+Verification evidence Ξ DO178/DO254
+Safety impact identified Ξ DO178/DO254
+Objective Differences:
+1. The DO254 LCP “Recommends” ensuring hardware test procedures are correct at assurance Level Β
+with independence which is inconsistent with the AC/Sys and software LCPs recommendations. The
+hardware also “Recommends” test procedure correctness at assurance level Δ where the software
+LCP has no similar objective and the AC/Sys LCP has “As Negotiated”.
+Analysis: It is unclear why the hardware test procedure verification is accomplished with independence
+at assurance level Β. As α consequence of this difference, it is conceivable that AC/System process
+activities may need to be adapted to implement independence in order to have consistent development
+processes across α project containing both LCPs.
+The hardware LCP authors should establish consistency with the AC/System and software LCPs.
+ 199

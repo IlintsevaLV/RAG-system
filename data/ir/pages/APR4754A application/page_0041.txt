@@ -1,0 +1,19 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Α.1 CP100 4 Safety Objectives and Assurance Levels:
+Safety objectives will be established using ARP4761 safety activities. 
+Development assurance per ARP4754Α, commensurate with assigned functional development 
+assurance levels, will ensure structured development mitigation of errors.
+Airplane safety activities managed in accordance with the airplane safety program plan. 
+Α.1 CP100 5 Novel or Unique Design Features:
+Avionic system will be implemented using state-of-the-art IMA platform technology. 
+Α.1 CP100 6 Certification Basis:
+The avionics functions for the SAAB-EII 100 airplane will be certificated to 14CFR Part 25; 
+Current amendments, o
+Current advisory material. o
+Table 3 Applicable Regulations & Certification Plan Cross Reference identifies the regulations 
+applicable to the avionics system functions including non-system specific regulations.
+Α letter (ε.γ. “(α)”) included with the Applicable Certification Plan document number identifies α 
+specific regulation sub-paragraph for which compliance is planned for demonstration in that
+certification plan.
+
+ 29

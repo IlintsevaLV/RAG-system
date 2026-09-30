@@ -1,0 +1,50 @@
+SAAB-EII 100 PASA SE100PASA 4/24/2015 Title Doc No. Date
+Avionic System PASA Section FDAL Assignment
+Avionics Functionality – Table PASA-1 Columns 1 and 2 summarize failure conditions and 
+classifications from SE100AVFHA .
+Table PASA-2 Column 3 identifies assigned FDAL based only on single failure condition 
+classifications.
+Table PASA-1 Column 4 highlights where the PASA-CMA has identified that independence 
+characteristics exist such that the FDAL assignment may take credit for architectural error
+mitigation. The assignment is based on the Failure Condition Classification and the existence of
+functional independence. Functional independence is established if the development exhibits
+different functions with different requirements.
+Table PASA-1 Column 5 identifies assigned FDAL based on an evaluation of the independence 
+characteristics associated with the development process need to support each Avionic Function.
+The assigned FDAL is based on most severe failure condition being supported. In this case,
+multiple catastrophic FCs will be implemented resulting in the common hardware and software
+functionality requiring FDAL Α assurance.
+Table 7 PASA-1 Avionic Functions FDAL Assignment
+1 2 3 4 5
+Functional
+Independent
+FC Attribute Assigned
+Avionic Function FC ID Numbers Classification FC FDAL (Y/N) FDAL
+Autopilot/Autoflight (ATA22) N Α
+22.02, 22.03, 22.04 Catastrophic Α
+22.01 Hazardous Β
+22.05, 22.06, 22.07, 22.08 Major C
+Communications (ATA23) N Α
+23.01 Catastrophic Α
+23.02, 23.03 Major C
+Displays (ATA31) N Α
+31.01, 31.02, 31.05, 31.07, 31.11,
+Catastrophic Α
+31.12, 31.16, 31.27, 31.28
+31.03, 31.08,31.19, 31.21 Hazardous Β
+31.04, 31.06, 31.09, 31.10, 31.13,
+31.14, 31.15, 31.17, 31.18, 31.20,
+Major C
+31.22, 31.23, 31.24, 31.25, 31.26,
+31.29
+Navigation/Flight Management N
+ Β
+(ATA34)
+34.03,31.04, 31.07 Hazardous Β
+34.01, 34.02, 31.05, 31.06, 34.08 Major C
+1 1 Maintenance (ATA45) N Α & Δ
+45.01 Catastrophic Α
+45.xx Minor Δ
+2 Platform N Α
+Multiple FC IDs
+ 48

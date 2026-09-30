@@ -1,0 +1,21 @@
+Project Specific Certification Plan PSCP200 7/03/2015 Title Doc No. Date
+Α.2 PSCP200 1 Plan Purpose:
+This project specific certification plan (PSCP) defines the certification activities planned as part of α 
+modification to the IMA avionics platform on the SAAB-EII 200 airplane.
+The plan will highlight the specific modifications planned for the Company “Α” IMA avionics system, 
+the implementation strategy for the modification and the safety aspects of the planned changes.
+Α.2 PSCP200 2 Project Background:
+Legacy airplane certificated under 14CFR Part 25 Transport Category airplane 
+Legacy airplane certificated per conventional development processes o
+Editor Note: Conventional development processes denotes that no ARP4754Α process artifacts were
+created.
+Company “Α” provided Integrated Modular Avionics (IMA – ATA 42) using the architecture 
+presented in Figure 12.
+IMA developed to ARP4754, DO-178Β, DO-254 & DO-297 
+IMA includes the following functions: 
+Autopilot/autoflight (ATA 22), o
+Communications (ATA23), o
+Displays (ATA31), o
+Navigation/Flight Management (ATA34) and, o
+Maintenance (ATA 45). o
+ 75

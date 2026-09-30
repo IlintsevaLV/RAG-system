@@ -1,0 +1,94 @@
+Avionics Certification Plan CP100 Title Doc No.
+Take Off Roll 1 (before decision speed Taxi-Out (Start Up; Engine Start; Roll)
+Initial Climb (no configuration
+Take Off Roll 2 (after decision
+Take Off After Rotation
+Gear Up; Clean Up
+) change) 1 speed V Cruise Climb
+) 1 V
+
+
+
+
+
+
+
+ Γ1 Τ1Α Τ1Β Τ2 F1, F2Α, F3 F1 F4
+
+ Ground Time Airborne (= In-Flight Time)
+
+
+
+ Taxi Out Take Off Climb Cruise
+
+min 10 1 20 45
+
+General: Γ (Ground) -- Γ1 (Taxi) -- Γ2 (Reverse Thrust) -- Τ (Take Off) -- F (Airborne) -- F1 (Climb) -- F6 (Approach) -- Λ (Landing)
+Figure 4 Average Flight Profile
+Table 1 SAAB-EII 100 Flight Phase Descriptions
+Γ - Ground
+Γ1 Taxi (General)
+Γ2 Reverse Thrust (General)
+Γ3 Braking (Roll Out)
+Τ - Take Off
+Τ1 Take Off (General)
+speed and rotate
+Τ1Α Take Off Roll before V 1
+Τ1Β Take Off Roll after V , before V Airplane on ground after V 1 R
+Τ2 Take Off after Rotation
+(§25.111 (β)).
+F - Flight
+F1 Climb (General)
+F2Α Landing Gear Up Gear retraction
+F2Β Landing Gear Down Gear extension
+F3 Clean Up Flap retraction, Climb configuration
+F4 Cruise Level flight at selected altitude(σ)
+F5 Descent
+F6 Approach (General) Landing configuration, gear down
+GA – Go Around
+GA1 Go Around
+Λ - Landing
+Λ1 Landing Flare
+Λ2 Ground Roll
+
+2/18/2015 Date
+Landing Flare (Before Touch Down -> Ground Roll (After Touch Down ->
+Transition to Thrust Reverser Stow
+Transition to Reverse Thrust
+Deceleration & Descent
+Braking (Roll Out) In Reverse Thrust
+Gear Down Approach
+WoffW) WonW) Taxi-In
+
+
+
+
+
+
+
+F5 F6 Λ1 Λ2 Λ2, Γ2 Λ2, Γ3 Γ1 F6,F2Β
+
+ Ground Time
+
+Average Flight Duration
+
+Taxi Descent Approach & Landing
+In
+
+18 6 5 min
+
+Pushback, ground taxi, takeoff runway align
+Weight on Wheels, high speed, reverse thrust & braking
+Weight on Wheels, low speed, reverse thrust stow & braking
+Airplane aligned for Take Off, acceleration on ground through decision speed, rotation
+Airplane on ground prior to decision speed V 1
+but before rotation speed V 1 R
+Nose gear off the ground (@ rotation speed V ). Τ2 is the Phase between lift-off and the R
+initiation of gear retraction. This time should be not less than 3 seconds and may be longer
+than 3 seconds if, on α particular airplane type, α longer delay is found to be appropriate
+Airborne flight after rotation, climb, capture altitude for cruise flight
+Deceleration, Descent to approach until flare transition
+Airborne flight transition from approach to clean up.
+Airplane transition approach - flare, Weight off Wheels
+Airplane after Touch Down, Weight on Wheels, Thrust Reverse, active braking to taxi speed
+21

@@ -1,0 +1,31 @@
+Differences Summary:
+Table 36 summarizes the noted differences between the ARP and DO processes.
+Table 36 Planning Process Differences
+CM Assurance
+Objective Accomplish Category Level Comment
+Α-Δ DO178Β/C
+Validation Plan Ξ
+Δ DO254
+Verification Plan Ξ Δ
+Development Plan Ξ Α-Β DO178
+Verification Plan Ξ Α-Β DO178
+Configuration Management Plan Ξ Α-Β DO178/DO254
+Process Assurance Plan Ξ Α-Β DO178
+Objective Differences:
+1. As highlighted in Table 36, the software LCP does not identify the need to accomplish α validation plan
+for any assurance level. And AC/Sys validation planning is “As Negotiated” for assurance level Δ
+without α corresponding objective in the DO life cycles.
+Analysis: Α more detailed review of the software LCP finds that the corresponding objectives to those
+identified in AC/SYS LCP for validation planning can be found under the Verification Planning activities.
+So even though planning for α specific set of planning data is not called out, the objectives are to be
+accomplished. The “As Negotiated” identification for AC/SYS LCP versus no entries for the DO LCPs is
+not α real difference since accomplishment is as negotiated on all projects. The analysis conclusion is that
+the objectives for validation planning are consistent across the LCPs for assurance levels Α-Δ.
+2. The AC/Sys LCP Verification Planning objectives are noted as “As Negotiated” for assurance level Δ
+while “Recommended” for the DO LCPs.
+Analysis: As α consequence of this difference, it is conceivable for the AC/SYS LCP assurance level Δ,
+verification planning objectives may need to be accomplished in order to have consistent development
+processes across α project containing all of LCPs.
+The AC/Sys LCP authors should consider revising ARP4754Α Verification Planning to “Recommended”
+for assurance level Δ for process consistency.
+ 192

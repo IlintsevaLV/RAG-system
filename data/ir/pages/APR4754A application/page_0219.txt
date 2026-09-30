@@ -1,0 +1,17 @@
+Analysis 4: After the analysis under DO297, it is conceivable that DO297 objectives justifying assumptions
+and providing validation substantiation may have already been covered as the of V&V record. However,
+the V&V record of the two objectives are only listed in Section 4.7.6.2 for reuse of module and application.
+It is recommended for DO297 to have the same objectives under the other V&V sections.
+5. It is not always clear to compare Verification Objectives between ARP4754A and DO297 while DO297
+is mixing Validation and Verification under objectives. In ARP4754A, the Verification Objectives are
+controlled by CM category 2 unless related to procedure or safety, where in DO297, V&V Objectives
+are managed per CM category 2 unless related to planning or safety analysis.
+Analysis 5: This discrepancy is resulted as different terminology in each guideline document. The overall
+objectives are still consistent if the terminologies are considered to be equivalent. It is suggested to have
+DO297 distinguish the objectives of Validation and Verification independently.
+6. The ARP4754A and DO297 Process Assurance Objectives for developing and maintaining plans,
+differ in terms of control category of the data. ARP4754A data is managed per CM category 2 and in
+DO297 the data is managed per CM category 1.
+Analysis 6: As a result of this discrepancy, it is conceivable that DO297 objectives of developing and
+maintaining plans may reconsider to be controlled by CM category 2 to align with ARP4754 objectives.
+ 207

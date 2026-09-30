@@ -1,0 +1,29 @@
+Appendix C Objectives Correlation Study
+C 1 Introduction
+During the project kick-off meeting, additional questions were identified for project study. This appendix
+responds to establishing a justification for the ARP4754A aircraft and system level process objectives and
+guidelines question. The study herein approaches this question with two considerations;
+1. How are ARP4754A guidelines used for regulatory compliance support? And,
+2. How do the guideline objectives in ARP4754A compare to the other industry development
+life cycle objectives?
+C 2 ARP4754A Support of Regulatory Compliance
+The authors of the 2002 Arsenal Draft proposed 14CFR Part 25.1309 rule and advisory circular noted a
+concern regarding the ability to adequately address the safety assessment of “highly” integrated systems.
+They noted that traditional design and analysis techniques may be inadequate for complex systems due to
+non-deterministic risks and inadequate safety coverage. To address these concerns the Authors noted
+that a systematic use of assurance techniques increases the confidence that errors are adequately
+identified and corrected. These “assurance techniques” should consider:
+ Development assurance using a combination of process assurance & verification coverage
+criteria,
+ Structured analysis,
+ Airplane-level assessment techniques, and
+ Inter & Intra system interactions.
+The application of these “assurance methods” would help ensure errors, which may cause failures, are
+mitigated to an extent practical.
+AC20-174, Development of Civil Aircraft and Systems, recognizes that ARP4754A establishes an
+acceptable method for instituting a development assurance process to support compliance to
+§25.1309. Figure 24 presents the overall summary then for showing compliance to the regulation using a
+combination of safety assessments of the final implementation and development process satisfying the
+objectives of ARP4754A and the other “DO” life cycle processes.
+
+ 186

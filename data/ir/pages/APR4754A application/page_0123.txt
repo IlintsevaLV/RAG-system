@@ -1,0 +1,28 @@
+Avionic System Development Plan ASDP300 5/28/2015 Title Doc No. Date
+Legacy (Certificated) Airplane Architecture 2 Study
+Airplane Life Cycle
+Conventional Installation and Design
+Appraisals
+ARP4754 Artifacts ARP4754Α Artifacts
+Changes
+IMA System Artifacts (ATA42)
+System Life Cycle
+IMA System Artifacts (ATA42)
+ATA22 ATA31 ATA45
+Artifacts Artifacts Artifacts
+ATA22 ATA45
+Artifacts Artifacts
+ATA23 ATA34 ATA31 ATA34
+Artifacts Artifacts Change Change ATA23
+Artifacts Artifacts Artifacts
+Item Life Cycle
+Changed DO- Changed DO- DO-178 SW Life DO-254 HW Life 178 SW Life 254 HW Life Cycle Artifacts Cycle Artifacts Unchanged DO- Unchanged DO- Cycle Artifacts Cycle Artifacts
+178 SW Life 254 HW Life
+Cycle Artifacts Cycle Artifacts
+Figure 20 SAAB-EII 300 Avionics System Change Implementation Development Plan
+Α.3 ASDP300 3.1 Reuse Analysis Plan:
+Table 30 presents the top level SAAB-EII 300 Avionics Development plan and strategy for reuse of 
+baseline avionic system functionality.
+Table 31 presents the planned program strategy nomenclature descriptions. 
+
+ 111

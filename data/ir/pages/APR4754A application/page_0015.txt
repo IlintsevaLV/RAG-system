@@ -1,0 +1,16 @@
+3 Case Study Scenario Development Summary
+Three case studies on the development and assurance of computer-based aircraft systems (i.e.,
+avionics) at the architecture level following the guidelines in ARP4754A were developed. The
+case studies captured the following characteristics:
+ Are representative of current state-of-the-art systems in terms of complexity and safety
+criticality,
+ Include examples of the application of the DAL assignment guidelines with system
+architecture consideration,
+ Are performed at a level of detail that ensures educational value and allows insight into
+the sorts of development and assurance problems requiring engineering judgment,
+ Enable the identification of issues of concern in the current guidance, policy, and
+practice of system development and assurance.
+Appendix A captures the three scenarios developed in support of this study effort. Each
+scenario synopsizes the development activities to accomplish ARP4754A objectives and
+responds to the objectives identified above.
+ 3

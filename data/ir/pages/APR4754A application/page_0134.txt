@@ -1,0 +1,14 @@
+Avionic System Development Plan ASDP300 5/28/2015 Title Doc No. Date
+Α.3 ASDP300 8 Certification:
+Certification artifacts to be developed for the IMA100V2 changes include: 
+Avionic System Development Plan (ASD300 – this document), o
+IMA100 Validation and Verification Summary Report for V2 Configuration, o
+System Safety Assessment (SSA) for IMA100V2 as Installed on the SAAB-EII 300 o
+Airplane,
+IMA100V2 Plan for Software Aspects of Certification, o
+IMA100V2 Version Description Document, o
+Other DO-178 life cycle documents as necessary, o
+Other DO-254 life cycle documents as necessary. o
+Editor Note: Only the Avionic System Development Plan developed as part of the study.
+------ End of ASDP300 Avionic System Development Plan excerpt -----
+ 122

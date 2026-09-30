@@ -1,0 +1,54 @@
+Avionic System Development Plan Title Doc No.
+Company “Α” System
+Level Function
+ Requirement Baseline
+ Use CM Process to
+modify baseline
+requirements
+Use CM Process to
+add new
+ requirements to
+baseline
+ Validate new or
+changed
+requirements per
+ requirement
+validation process
+ Use CM process to
+revise verification
+artifacts for new or
+ modified
+requirements
+Flow requirements to
+Item processes
+(See PSAC & PHAC) for
+ details
+Figure 9 System Requirements Activity Plan
+
+SDP100 4/24/2015 Date
+SAAB-EII Airplane Level
+Function Requirements
+Apply traceability
+between baseline
+and Airplane
+Function
+Requirements
+Baseline YES
+requirements need
+changes?
+NO
+Need to add new YES
+requirements to
+baseline?
+NO
+Validate baseline
+reqts for new
+airplane by similarity
+Perform verification
+activities on
+completed
+implementation
+Generate Avionic System
+Validation & Verification
+Substantiation Report
+65

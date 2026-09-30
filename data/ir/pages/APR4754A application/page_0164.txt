@@ -1,0 +1,40 @@
+21 Please describe how the airplane manufacturer was involved in the requirement
+management processes at the system and lower tier equipment supplier levels, as applicable.
+ R1 Skip
+ R2 As an observation, airplane manufacturers currently have limited practical influence at
+lower tiers supplier levels, although most have processes to manage system-level
+requirements.
+ R3 Skip
+ R4 The airplane manufacturer was involved in the system requirements by discussion and
+agreement to the compliance matrix to the customer specification as well as the
+participation in the system validation audits.
+ R5 Airframer review engine safety requirement, offer workshop
+ R6 The normal interaction with the airframer is through the publication of the ICD. This
+process is the same under both versions of the ARP so there is no difference seen in this
+area.
+ R7 1) System Requirements Document is α child of the airplane manufacturer’σ requirements
+documents. Traceability to the document
+2) Validation activities with airplane manufacturer to ensure completeness and coverage
+are part of standard process.
+3) System Validation/Verification Summary Reports including matrices containing agreed
+information are part of deliverables.
+4) Airplane manufacturer representatives witness verification activities on request.
+ R8 In some projects airplane manufacturer or main contractor gives us not only FDALs but
+also IDALs for system items that we are developing without validation evidence. This
+complicates the safety assessment process, requirement development and management.
+ R9 In our experience as airplane manufacturer, suppliers are involved in two moments, with
+two approaches. In the first moment, in the preliminary studies of α new project, before its
+formally launched, through interviews and procurement preliminary discussions (requests
+for information / proposal). Next, we set up α supplier oversight plan, based on α risk
+assessment and level of involvement processes. Those processes end up with activities
+similar to the ones defined for “Stage Of Involvement” reviews performed for software when
+finding compliance to DO-178() (“SOIs”), which the highest rigor is to have on-site
+development and verification reviews after the planning review performed for all cases. In
+general, we’ve observed the suppliers of are not familiar with fulfilling ARP4754()
+objectives, usually because either their primary regulatory compliance does not require
+include ARP4754Α as α means of compliance or that compliance is requested to be
+demonstrate by the airplane manufacturer only.
+ R10 Aircraft level requirements and supplier requirements are traces and controlled by the
+airplane manufacturer.
+ R11 Skip
+ 152

@@ -1,0 +1,16 @@
+System Level: Engineering judgment is α key element in the re-use of systems and/or items.
+The judgment experience is used in understanding the baseline system and item functionality so
+as to plan and implement the desired re-use evolution. The ability to determine the system
+functionality which is not changing and that which is changing as part of α new application
+optimizes the project efforts to satisfy ARP4754Α development objectives and simplify the
+certification efforts.
+Re-Use Guidelines
+ARP4754Α facilitates re-use but the advantages lie primarily at system and Item levels.
+Validation and verification objective activities can be minimized to those necessary for only new
+or changed requirements.
+For aircraft manufacturers, evaluation and application of ARP4754Α should be considered early
+in the development process. By actively contracting development of the airplane level avionic
+requirements from the system supplier re-applying the certificated system will help mitigate
+some of the aircraft level objective evidence that must be created on the new airplane for the
+“old” system.
+ 5

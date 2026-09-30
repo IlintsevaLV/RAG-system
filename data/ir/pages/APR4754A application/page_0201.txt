@@ -1,0 +1,14 @@
+Figure 26 ARP4754A Objective Areas & CM Categories by Assurance Level
+C 3.1 References
+The documents listed in Table 34 were used in performing the life cycle process (LCP) comparison study
+presented in section C 4.
+Table 34 Reference Document List
+Document No. Document Title
+ARP4754A Guidelines for Development of Civil Aircraft and Systems
+DO-178B Software Considerations in Airborne Systems and Equipment Certification
+DO-178C Software Considerations in Airborne Systems and Equipment Certification
+DO-254 Design Assurance Guidance for Airborne Electronic Hardware
+Integrated Modular Avionics (IMA) Development Guidance and Certification
+DO-297
+Considerations
+ 189

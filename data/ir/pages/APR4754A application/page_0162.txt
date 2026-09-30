@@ -1,0 +1,33 @@
+19 Please describe any ARP4754Α planning difficulties encountered.
+ R1 Safety assessments should be started very early stage of the project. Because system
+criticality effects some planning activities. Without knowing system criticality we couldn’τ
+plan some activities in detail.
+ R2 Skip
+ R3 Skip
+ R4 None, after the generic validation and verification plans have been established in the
+development process
+ R5 When to introduce Config Management
+ R6 NA
+ R7 1) “Old school” verification, just like design, certainly still relies on experience and sees
+requirements engineering as subordinated.
+2) Beyond configuration management own issues, keep track of all currently valid items’
+baselines in α way to coordinate complex actions and interactions is nearly impossible.
+E.γ.: By the time of its delivery, the qualification procedures for the release of equipment
+might not be complete in its entireness. Written Evidence or Design Justification supporting
+applicability and minor/none effect of remaining portion to be qualified must be produced.
+ R8 It is difficult to plan the completion of requirement validation work.
+ R9 The most relevant difficulties were related to:
+α) timely definition and application of clear transition criteria and guidelines related to
+deviations from the plans (section 3.2);
+β) to set up process related to architecture / design definition and requirements allocation
+(sections 4.1.6/7, 4.4 and 5.8.4.4). Additionally, about this last, in despite of figure 6
+suggests the existence of sub-systems, related sections suggest that systems are, at the
+same time, the entity to which aircraft level functions are allocated and from which software
+and hardware items are deployed (section 4.6). This situation does not match with real
+environment and introduce difficulties in planning requirements organization and integral
+processes.
+ R10 None
+ R11 The plans for all the projects seem similar, but it does not have too much help to the
+project. We do not know how to write α good plan to guide the specific project working
+effectively.
+ 150

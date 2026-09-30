@@ -1,0 +1,45 @@
+Δ 3 ARP4754Α Option 1/2 Equivalence
+ARP4754Α establishes that, should independence in the functional failure set be established, the
+functional or item development assurance level assignment may be accomplished using either of two
+options, 1 or 2. How do the two options compare?
+Fault tree representations of functional failure sets (FFS) supporting catastrophic, hazardous and major
+failure conditions, respectively, were created to evaluate the options. Each representative graphic
+summarizes the assurance objectives for α functional failure set, having α single member (ι.ε. no
+independence development attributes satisfied) as the leftmost branch and then the option 1 or option 2
+assurance assignment options with their objective attributes, left to right respectively. Note that for Option
+1 or 2, the minimum allowable assignment pair from ARP4754Α Table 3 is considered.
+Δ 3.1 Catastrophic Failure Condition FFS
+Figure 34 presents the FFS fault tree for α catastrophic failure condition. Α review of Figure 34 shows that
+satisfying the ARP4754Α Level Α objectives establishes sufficient rigor of process results to support the
+catastrophic Failure Condition.
+Option 1: Option 1 provides for assurance assignments of Level Α in combination with Level Β or C to
+support the catastrophic Failure Condition. Since α Level Α process alone is sufficient to satisfy
+the development process objectives, the addition of an independent error migration path at
+either level Β or C provides additional error mitigation properties. It is noted that even though
+the additional independent element may be accomplished as low as level C, the only significant
+deviation in objectives from level Α is the requirements management activities are not
+accomplished with in-line independence. This is certainly acceptable since any error is
+mitigated by the Level Α development path.
+Option 2: Option 2 provides for two independent level Β assurance assignments to support the
+catastrophic FC. When the objectives of Level Β are compared to those of Level Α, the only
+difference is the lack of in-line requirement verification in each independent Level Β process. In
+this case, the independence is achieved by having two independent level Β processes
+accomplishing independent and different requirement verifications.
+It is important to remember that Function F1 and F2 must have functional or Item development
+independence attributes satisfied in order to consider Option 1 or 2. The establishment of these
+attributes by α safety analysis assures minimization of common mode errors in the development
+process.
+From α practical standpoint, these independence attributes mean that Function F1 and F2 have
+an acceptable level of differences in their requirement sets and development processes such
+that the independence attribute is true. Α comparison of the single member FFS with Option 2
+at this lower level may look like Figure 35. For the Single Member FFS on the left, we see that
+we have independent in-line requirements validation and independent in-line requirement
+verification to satisfy the objectives of the ARP and mitigate errors. In the Option 2 case (on the
+right of Figure 35) we have two independent requirement sets and development processes.
+Each process still has an independent in-line validation activity with non-independent (but
+different between F1 and F2) verification activity.
+The independent in-line validation of two different requirement sets as well as the verification of
+two different requirement sets, using the equivalent configuration management and process
+assurance rigor, assures that the equivalent level of common mode error mitigation as the
+single member FFS case is achieved.
+ 210

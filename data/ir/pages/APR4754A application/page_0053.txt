@@ -1,0 +1,56 @@
+Avionics Development Plan ADP100 Title Doc No.
+Airplane Avionics Function Requirements
+Navigation/Flight
+Autoflight/
+Management
+Autopilot Function
+Function
+Requirements
+Requirements
+Communication
+Avionic Platform Reqts
+Function
+Requirements
+Requirements
+Display Function Airplane Maintenance
+Requirements Function Requirements
+Airplane Function Requirement
+Allocated to Systems
+System Requirement
+Allocated to Items
+Item
+Implementation
+Figure 6 Airplane Avionic Function Development Life Cycle - Initial
+Table 5 SAAB-EII 100 Avionic Function FDAL Assignments
+Avionic Function
+Autopilot/Autoflight (ATA22)
+Communications (ATA23)
+Displays (ATA31)
+Navigation/Flight Management (ATA34)
+Maintenance (ATA45)
+Maintenance Α Testing &
+Data/Program Loading
+System(σ) Maintenance Testing
+Platform
+
+
+2/18/2015 Date
+Airplane Avionics Function Verification
+Autoflight/ Navigation/Flight
+Autopilot Management
+Integration & Test Integration & Test
+Communication
+Avionic Platform
+Function
+Integration & Test
+Integration & Test
+Airplane Maintenance
+Display Function
+Function Integration &
+Integration & Test
+Test
+System Level
+Verification
+FDAL
+AAABADA
+41

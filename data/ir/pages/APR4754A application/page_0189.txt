@@ -1,0 +1,25 @@
+49 What additional case study application examples would be helpful in understanding
+development process expectations? Why would these examples be helpful?
+ R1 Skip
+ R2 Skip
+ R3 Skip
+ R4 None
+ R5 FADEC Case Study
+ R6 No comment
+ R7 Skip
+ R8 The example system assesses in 4761, 4761A and AIR6110 are all the same, Wheel Brake
+System. This can be another system like cockpit display and flight management system
+since this type of systems are more interface with other systems and have more items to be
+integrated it will provide good guidance in understanding the DAL assignment process.
+ R9 A case of MBDV (Model Based Development and Verification), aligned with guidance of
+DO-331, top-down from aircraft level through system design and reaching software
+boundary. This would be helpful due to the lack of guidelines in using model both as
+requirements and as part of design data and the newness of usage of guidance provided
+by DO-331, raising difficulties on defining the boundaries. Another case that would be
+interesting and helpful due to similar reasons would be development of a system through
+the usage of an IMA (see q. 43).
+ R10 Don't know.
+ R11 Requirement management procedure. We have DOORS in the company, but we do not
+know how to use it affectively, what’s the relationship between the DOORS and CM tools,
+etc.
+ 177

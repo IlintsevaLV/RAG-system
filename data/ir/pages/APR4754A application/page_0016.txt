@@ -1,0 +1,38 @@
+4 ARP4754Α Application Guidelines Summary
+Upon completion of the case studies outlined in section 3, development and assurance
+guidelines on the application of ARP-4754Α based on lessons learned and insight gained in the
+course of performing the case studies were developed. These ARP4754Α application
+guidelines provide insight into the rationale for development assurance level (DAL) assignments
+with system architecture consideration as well as consider the system complexity and safety
+criticality.
+Α review of the notes and activities associated with the case study developments identified α
+few general guidelines. Additional material derived from α questionnaire and roundtable
+discussions were collected from industry to enhance the lessons learned material. This
+additional solicited experience information is summarized in Appendix Β.
+The study results indicate that ARP4754Α provides α systematic path for aircraft function design
+and development. It provides for early removal of errors resulting in less iteration to get α
+function design correct. The ARP establishes compatibility with the other industry standards
+and processes (DO-178, DO-254 and DO-297). Users advocate tailoring the activities outline in
+the ARP according to their individual scope of work and criticality of function being developed.
+FDAL/IDAL Assignment Guidelines
+For almost all development project scenarios, the functional development assurance level
+(FDAL) can and will be assigned using the functional hazard assessment classification with the
+assurance level assigned per ARP4754Α Table 2 or ARP4754Α Table 3 using the single
+member functional failure set (FFS) column. Most project developments, especially at the
+aircraft function level, provide minimum opportunity to use the functional independence attribute.
+Similarly, the Item development assurance level (IDAL) will be assigned commensurate with the
+FDAL (and therefore the hazard) supported or implemented by the Item.
+No special tools need to be used to assign the FDAL and IDAL. Α common mode analysis
+(CMA) evaluates for satisfaction of the independence characteristics.
+Engineering Judgment Guidelines
+In general, the key engineering use areas in ARP4754Α include planning, requirements capture
+and requirements validation. The requirement management objectives rely the most on
+engineering judgment. The generation of acceptable, clear, concise requirement text relies on
+experience and engineering judgment. Validation of requirements is primarily accomplished
+through the application of knowledgeable experience.
+Aircraft Level: Optimum planning to support the ARP4754Α objectives relies on substantial
+engineering judgment in order to organize the project into an efficient, executable development
+process which creates the necessary evidence. In conjunction with the planning efforts,
+establishing the initial certification position with regards to how the project will satisfy the
+development assurance objectives also relies heavily on engineering judgment.
+ 4

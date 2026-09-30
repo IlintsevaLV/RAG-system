@@ -1,0 +1,44 @@
+schematic, Simulink, engineering review and test cases and call them validation as done with
+independence. The credit has never received in the past with those Validation while they are
+already DAL A and B, but now we can get the credit with the improved guideline.
+It is not difficult to assign DAL assignments, but the assignment might result in additional work. The
+ARP4754A has a clear comparison to show the differences with ARP4754; however, people are
+assuming they are the same, while it is not true. The subject of objective allocation needs to be
+further broken down. It is incorrect while people assigning 18 level A with only one level D. There
+needs to be an explanation for each process to evaluate the work; otherwise, there is too much
+work to be done. The Validation will take credit on ARP4754A, but we do want to avoid extra work
+that is not going to take credit.
+SYS B: One of the challenges I have is to understand what is an IDAL. An IDAL applies to the
+whole life. It divides the concepts to where you are applying to. I have a single item that has mixed
+many IDALs. There become a discussion on the level A has a level D coding SW behind it
+internally. It shows it is being activated appropriately, so I have an FDAL.
+SYS C: It is the problem that we have a DAL A partition and a DAL D in there. You cannot do it by
+looking at the table. The case is like, you have a simple switch in the hardware; therefore, by
+ARP4754A, it is DAL A. I used DAL A switch to detect DAL B. We cannot do that either per table,
+but common sense it is OK. Those are common sense that we can fix in ARP 4754A.
+SYS B: The other one that I dislike with is that by definition DAL C is not catastrophic. We
+programming in the wrong time. I do not know if I need to do anything or not, but it has to be DAL
+C according to the system because the wording in the ARP. However, I cannot proof confidentially
+and I cannot stop either because catastrophic by definition.
+There needs to be a good understanding of IDAL. IDAL is for the whole item, so the single item
+may have mixed items. Per ARP4754A table, it is incorrect to have a level A partition with a level D
+allocation, but sometimes it seems to be fine in common sense. An example for a level A assign to
+mechanical devise is like a simple DAL A switch to detect DAL B.
+AC A: By definition, DAL C is not catastrophic; however, the combination of DAL in mechanical
+and electrical objectives in each level may result of level increasing.
+SYS B: It is an issue that if there was no agreement up front. Every hazardous failure condition has
+something not making sense or misleading, which cause argument and rework.
+AC A: When you look at the aircraft level if I go to PASA to talk about DAL assignment. Not a big
+deal since they use DO178, 254. When I go to ECS for flight control systems that has never done
+this before, they do not know what to do, and I will have to explain them the concept and let them
+know that they have done it before, and now you can get credit for it. It is depend on who your
+audience is.
+SYS B: It is documenting what you actually did to satisfy the objectives. We did many things and
+we cannot know what we did, so we document it to now to know the steps.
+AC A: It is important to know who you are talking to and understand from their stand point. If I talk
+to an ACO regulator it will be smooth, but if I talk to a purely mechanical flight control system or ice
+protection system specialist, and they will be asking: Why are you giving this material to me? We
+need to have the local regulator training to resolve cross ways.
+It is depend on who your audience is. While interfacing organization that is using DO178B and DO
+254, they are audit friendly. The documents are actually mentioning what you actually did. You
+ 181

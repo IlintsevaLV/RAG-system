@@ -1,0 +1,33 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Table 4 Avionics Function Means of Compliance (MoC) Matrix
+1 2 3 4 5
+Regulation Regulation Text Compliance Approach MoC Compliance Artifacts
+25.1301 Function and installation
+Each item of installed equipment must –
+(1) Be of α kind and design The Avionics system operation will be 1 1 SAAB-EII 100 Avionics System
+appropriate to its intended function described in α System Description Description
+Document and demonstrated to be 2 Inspection
+appropriate for its intended function 2 Avionics Certification Summary
+through inspection, analysis and test. 3 Test
+ 3 Avionics IMA Qualification Test Reports
+AC20-115C – Airborne Software 4 Inspection
+Assurance 4 Avionics IMA PHACs
+ 5 Inspection,
+AC-152 – DO-254, Design Assurance Analysis 5 Avionics IMA CEH deliverables
+Guidance for Airborne Electronic Hardware
+ 6 Inspection
+AC20-145 Guidance for Integrated Modular 6 Avionics IMA PSACs
+Avionics (IMA) that Implement TSO-C153 7 Inspection,
+(α) Authorized Hardware Elements Analysis 7 Avionics IMA software deliverables
+
+AC20-148 – Reusable Software 8 Inspection
+components 8 Avionics equipment assembly drawings
+AC20-170 Change 1 – Integrated Modular
+Avionics Development, Verification,
+Integration and Approval using DO-297 &
+TSO C153
+AC20-174 - Development of Civil Aircraft
+and Systems
+ARP4754Α – Guidelines for Development
+of Civil Aircraft and Systems
+ 32

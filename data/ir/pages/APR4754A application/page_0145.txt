@@ -1,0 +1,37 @@
+03 Based on your current work environment, how does your management interpret the scope
+and purpose of ARP4754A?
+ R1 I think benefit of using this standard is not well understood by management. We need to
+measure some metrics during application process.
+ R2 As regulators, we generally view 4754A as state-of-the-art guidelines
+ R3 Skip
+ R4 Initially after the release of the DRAFT ARP4754A and the request, by our customers,
+apply the ARP for new development programs, it created confusion, as interpretation of the
+ARP content was varying inside the organization heavily. It was not clear how the existing
+development processes have to be tuned in order to show compliance. The management
+accepted the ARP as a burden in the beginning, which changed with the first projects
+ARP4754A has been applied to the common consensus that the application of the ARP
+adds maturity to all development phase. (brings our products closer to first time right).
+ R5 Comply with Rev A for new design. Airframer got Issue Paper to follow rev A.
+ R6 Concerned that any extra work to become 4754A compliant was not in the original budget
+and is not easily
+ R7 Necessary and acceptable mean to ensure development process of complex systems and
+product quality. Reference and link to cost for extensive application of integral process not
+defined and measurable yet despite development planning and transition criteria
+guidelines.
+ R8 Management knows the importance of application of ARPs since they are stated in the
+contracts in military projects. Also the aim is to get TSO in the near future for our products
+meeting civil certification requirements so they know ARPs are part of this process.
+ R9 A kind of certification requirement and, to some extent, and under certain conditions, good
+practices for product quality and maturity assurance. Recently, due to a certain inflation in
+number of requirements being captured either due to situation described in q. 22 below or
+because those recommended practices being carried for non-direct engineering
+requirements at product high level specification (like maintenance, operational and
+customer support requirements – see also q.5), there is also the perception that it
+represents a burden activity.
+ R10 It’s understood within management that the application of ARP4754A is needed in any
+system development
+ R11 The CAAC authority may take the ARP4754A as the certification requirement for the
+system product, though there is no formal AC for it. My company management use
+ARP4754A as guidance to improve the development process rather than only for
+certification.
+ 133

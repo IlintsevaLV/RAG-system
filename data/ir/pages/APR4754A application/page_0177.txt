@@ -1,0 +1,31 @@
+34 Please describe any issues associated with definition or assignment of “safety related
+requirements”.
+ R1 Safety related requirements are defined in different sections of 4754Α. We required from
+applicant to mark safety related requirements (related to Flight Operation, Maintenance
+Tasks, function, independence, etc.) with kind of tag on requirement management tool to
+take everyone attention on critical requirements. But some management issues raised to
+assign and trace the requirements.
+ R2 Skip
+ R3 Α detailed definition had to be established, when α requirement is safety related. In the
+process it must be ensured, that this determination can only be made by α safety specialist
+ R4 None
+ R5 Safety requirements developed by Safety. Safety related may come from α Sub-System
+SSDD.
+ R6 No comment
+ R7 Skip
+ R8 We had difficulty when to flow down FDAL requirements (ι.ε. right after FHA completion or
+in PSSA stage) but we de [Ed note: response was incomplete.]
+ R9 The link/traceability between safety analysis and artifacts generated for safety (following
+the methodologies already in place for years in the industry such as ARP4761) and the
+development requirements and artifacts is α challenge, especially during the early design
+phases and across the suppliers chain. Also, as the number of requirements increase, the
+safety requirements, or the safety driven requirements are sometimes "lost" in the middle
+of the numerous requirements decreasing its priority over other requirements, especially
+when α function , which is considered critical (FDAL Α, Β), could not be decoupled from
+other non-critical functionalities or goals. An example is an aircraft performance function
+which has critical goals (such as maintain positive climb gradient) but also not safety driven
+goals (market driven) such as time to climb. All the requirements related to this function
+might be FDAL Α and therefore threated in similar way.
+ R10 PSSA tracing to system requirements has been difficult.
+ R11 Skip
+ 165

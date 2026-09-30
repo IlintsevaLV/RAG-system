@@ -1,0 +1,28 @@
+Project Specific Certification Plan APSCP300 5/28/2015 Title Doc No. Date
+Table 27 SAAB-EII 300 Modification Schedule
+Change Activity Projected Completion Schedule
+Installation modification drawings &
+Airplane Project CDR
+wiring definitions
+Initial Detailed IMA Changes Plan Company “Α” Avionics PDR
+Final Detailed IMA Changes Plan Company “Α” Avionics CDR
+IMA Implementation Verification IMA Integration Verification Testing
+Airplane Installation Verification Airplane Ground/Flight Testing
+PSCP Compliance Summary Airplane Certification Package Delivery
+Α.3 APSCP300 4 Modification Impact Analysis Summary:
+Α.3 APSCP300 4.1 Change Description:
+SAAB-EII 300 Airplane: 
+AGPWS mounting tray installation in forward EE bay. o
+Addition of AGPWS circuit breaker in forward EE bay electrical panel #2 o
+Addition of AGPWS wire harness: o
+ AGPWS circuit breaker to Essential 28vdc Power Bus 2, 
+ AGPWS circuit breaker to AGPWS mounting tray connector, 
+ AGPWS ARINC 429 Output to Right IMA #2, 
+ AGPWS Audio Output to Right IMA #2, 
+ AGPWS Monitor Output to Right IMA #2, 
+ Right IMA #2 Airplane status discretes (AGPWS Inhibit, Gear up/down, Flaps 
+up/down) to AGPWS,
+ Right IMA #2 ARINC 429 Output to AGPWS (Radio Altitude, Glide Slope Deviation, 
+Barometric Data).
+Figure 19 presents preliminary aircraft wiring installation modification. 
+ 103

@@ -1,0 +1,28 @@
+December 2000 September 2005 December 1992 December 2011
+DO-254 DO-297 DO-178Β DO-178C
+December 1996 2002
+November 2010 ARP4754 AC
+ARP4754Α ARP4761 Arsenal Draft
+12/31/1991 12/31/2015
+Figure 25 Development Processes Historical Timeline
+C 3 ARP4754Α to Other Industry Development Documents
+This section performs α comparison analysis of the objectives identified in Appendix Α of ARP4754Α,
+“Guidelines for Development of Civil Aircraft and Systems” with the corresponding objectives identified in
+the software (DO-178 Β/C Considerations in Airborne Systems and Equipment Certification) and hardware
+(DO-254 Design Assurance Guidance for Airborne Electronic Hardware) life cycle process guidance
+documents. The high-level ARP development process objectives are highlighted in Figure 26. This two-
+dimensional graphic summarizes the objective areas identified in ARP4754Α Appendix Α, including the
+recommendations as well as the configuration management data control categories.
+In order to provide an “apples to apples” comparison, the ARP objectives were arranged so that an
+effective comparison between the life cycle activities, data and configuration management control could be
+achieved. The following process objective areas of Figure 26 are compared:
+ Planning,
+ Development process (requirements capture, management),
+ Validation process,
+ Verification process,
+ Configuration Management and,
+ Process Assurance.
+The safety process activities (FHA and general safety process) are acknowledged as applicable only to
+the airplane/system development levels, so were omitted from the comparison activities.
+Section 4 provides the comparison results for the above selected process objective areas.
+ 188

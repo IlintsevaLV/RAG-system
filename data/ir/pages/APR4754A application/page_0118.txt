@@ -1,0 +1,29 @@
+Project Specific Certification Plan APSCP300 5/28/2015 Title Doc No. Date
+Review of legacy IMA functional failure conditions indicates that: 
+Modifications planned for the Display function do not affect the functional hazard failure o
+condition description or severity. However, the System FHA will be revised to add the
+AGPWS function failure conditions.
+Modifications planned for the Platform function may affect other IMA functionality due to o
+added information on communication backbone. IMA backbone communications hardware
+and software were developed to Level Α. Changes to these implementations will follow α
+Level Α change process and be fully analyzed and tested.
+Α.3 APSCP300 4.4 Modification Implementation Strategy:
+Airplane installation drawings, wiring diagrams will be created by SAAB-EII for the modification of 
+the SAAB-EII 300 airplane.
+All modifications planned to the IMA Avionics platform will be accomplished by Company “Α”. 
+See Company “Α” Avionics System Development Plan for details of planned modification. 
+Α.3 APSCP300 5 Compliance Methods:
+Compliance to the regulations will be shown by analysis, inspection and test. 
+Summary for 14CFR 25.1309, Systems, equipment and installations: 
+Installation and design appraisals will be accomplished to establish that the AGPWS o
+installation supports the safety objectives.
+IMA avionic system development process will be per AC20-174 using ARP4754Α at o
+assigned FDAL for activation of AGPWS functionality Similarity and service experience are
+planned for use in accomplishing the IMA design evolution.
+Airborne electronic hardware development will be per AC20-152 using DO-254 at assigned o
+IDALs.
+Airborne software development will be per AC20-115C using DO-178Β at assigned IDALs. o
+Safety assessments (FHA, PSSA, SSA) per ARP4761. o
+IMA development per AC-148 and AC-170. 
+See Company “Α” Avionic System Development Plan for details of modification process. 
+ 106

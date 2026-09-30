@@ -1,0 +1,35 @@
+04 If your company has (or had) α system development process equivalent to ARP4754Α,
+please describe how the equivalency was determined, validated and accepted?
+ R1 Military applicants have used system engineering processes defined in ISO/IEC standards.
+They also started to organize their processes according to 4754Α. Especially safety related
+processes that are not well defined in system engineering standards.
+ R2 Skip
+ R3 Skip
+ R4 The development process in our company was reworked in 2010 with respect to the
+AIRPLANE PROGRAM NAME development guidelines. So with the release of ARP4754Α,
+an assessment was done in order to identify if there are discrepancies existing to be
+corrected, adjusted. Further on we stepped into new development programs where our
+customers had different approaches to show compliance to the ARP4754Α. One customer
+required for example α line to line compliance matrix to the ARP4754Α. The comparison
+ARP4754Α versus our development process was made and adjustments applied to the
+process where necessary. One beneficial task prior to the assessment was the ARP4754Α
+training at our company done by Eric Peterson to reach α common understanding of the
+ARP.
+ R5 Closest that comes to mind was PROGRAM NAME. No equivalency established
+ R6 As far as I know there isn’τ one.
+ R7 Skip
+ R8 We are trying to update our system development process to make it fully compliant with
+ARP 4754Α. In order to determine the gaps between ARP process and our existing
+processes we conducted gap analyses performed by an independent consultant.
+ R9 Company has adapted its engineering processes across projects. For the projects under
+development this question is not applicable (all systems/functions are covered by
+ARP4754Α based processes). The last project’ TC adopted ARP4754 (legacy version)
+based processes, with some features from version Α; and for the first two projects’ TC,
+there were α scope analysis based on complexity, level of integration and criticality of
+systems/functions to identify which ones would be covered by each process (company
+equivalent and ARP4754 based).
+ R10 Don’τ know
+ R11 We have established α development process followed ARP4754Α at the LRU level, we
+have internal review and approval procedure to check against the ARP4754, but there is no
+way to determine the equivalency by the third party at the moment in Chinese case.
+ 134

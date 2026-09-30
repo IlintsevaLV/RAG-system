@@ -1,0 +1,27 @@
+20 Please describe issues, if any, that you may have experienced with the roles and
+responsibilities for the development identified in the program plans.
+ R1 As military authority side we had some problem related to owning of 4754 processes by our
+system certification specialist. They mostly focus on their certification requirements. We
+realized that we need to provide more trainings related to 4754Α in order to make them
+understand they have to manage whole processes related to their systems.
+ R2 Skip
+ R3 Skip
+ R4 None
+ R5 NA
+ R6 NA
+ R7 1) For α requirement with identical validation method and verification method, for instance
+Stress Analysis, independency is not guaranteed since often the same Stress Analysis
+report would be used as α reference. Assessment whether the analysis results are
+sufficient to cover both purposes would need to be done by another engineer.
+2) Involving Senior Engineers’ (Chief, Airworthiness, Specialists, …) in reviews and
+decision pertaining FDAL Α/Β/C should certainly be α general aim, though application due
+to restricted number of Senior Engineer is not always possible.
+ R8 The responsibilities for the documentation and verification of safety requirements. The
+means for communicating derived requirements between the item level and system level.
+ R9 The most relevant issue was related to responsibilities of process definition (internal
+agreements and planning), communication (training) and Process Assurance execution
+being performed by the same team.
+ R10 None
+ R11 CCB, different people think differently about CCB. Some think it as α fixed organization,
+some think it as α meeting for the change.
+ 151

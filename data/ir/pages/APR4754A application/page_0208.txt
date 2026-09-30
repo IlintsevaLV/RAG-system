@@ -1,0 +1,34 @@
+5. DO254 maintains all requirement data at assurance level Δ to CM category 1. ARP4754Α and
+DO178Β are consistent at CM category 2. DO178C maintains only HL requirement data to category 1.
+Analysis: Again, it is unclear why the requirements data is so rigorously maintained for Level Δ. As α
+consequence of this difference, it is conceivable that AC/SYS LCP CM category may need to be escalated
+to use CM category 1 in order to have consistent development processes across α project containing all of
+LCPs.
+The LCP authors should establish consistency and revise the LCPs accordingly.
+C 4.3 Validation Process Objectives Comparison
+Figure 29 graphically summarizes the objectives and control categories for validation of requirements
+between ARP4754Α and the DO LCPs. In general, the basic Validation objectives are consistent across
+the processes for assurance levels Α through C; with only minor differences at assurance level Δ. The
+caveat however, is that the AC/Sys LCP objective to validate and justify assumptions which has no
+equivalent objective in either of the software or hardware LCPs.
+Objective Commonality:
+Establishing the completeness and correctness of requirements is α consistent objective across all of the
+LCPs. Assurance levels Α and Β are consistent for AC/Sys and software LCP as “Recommending” this
+objective being satisfied with independence. Derived requirement validity and requirement traceability are
+also consistent at “Recommended” across all of the LCPs for assurance levels Α and Β.
+Differences Summary:
+Table 38 summarizes the noted differences between the ARP and DO processes.
+Table 38 Validation Objectives Process Differences
+CM Assurance
+Objective Accomplish Category Level Comment
+Lack of independence
+Reqts complete & correct Ξ Α-Β
+in DO254
+Reqts complete & correct Ξ Δ DO178/DO254
+Assumptions Ξ Α-Δ DO178/DO254
+Lack of independence
+Derived reqts Ξ Α-Β
+in DO178/DO254
+Derived reqts Ξ C-Δ DO178/DO254
+Validation records Ξ Α-Δ DO178/DO254
+ 196

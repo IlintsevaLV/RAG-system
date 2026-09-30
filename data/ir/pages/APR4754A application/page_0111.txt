@@ -1,0 +1,15 @@
+Appendix A.3 Study Architecture 2
+(aka SAAB-EII 300)
+Introduction
+An example of planning specific change activities for the addition of equipment covered by TSO to a
+certificated airplane with IMA hosted avionics functionality.
+Editor Note: The example scenario provides insight into satisfying ARP4754A development for the
+modification and may not address all of the certification aspects for the scenario.
+Example documentation developed:
+Airplane Level
+Airplane Project Specific Certification Plan (APSCP300)
+Systems Level
+Avionic System Development Plan (ASDP300)
+Item Level
+None – not a feature of the study.
+ 99

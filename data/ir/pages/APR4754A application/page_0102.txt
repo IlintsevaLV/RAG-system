@@ -1,0 +1,49 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Company “Α” IMA100
+System Level
+Requirement Baseline
+FMS
+Function
+Revisions
+Baseline YES
+requirements need
+changes?
+“ABC”
+Addition NO
+Use CM Process to
+modify baseline
+requirements
+Need to add new
+YES
+requirements to
+baseline?
+Use CM Process to
+NO
+add new
+requirements to
+baseline
+Validate new or
+changed
+requirements per
+requirement Validate baseline
+validation process reqts by similarity
+Use CM process to
+revise verification
+artifacts for new or
+modified
+requirements
+Perform verification
+activities on
+completed
+implementation
+Flow requirements to
+Item processes
+(See PSAC & PHAC) for
+details
+Generate Avionic System
+Validation & Verification
+Substantiation Report
+Scenario 1 Avionics Sys Dev Plan ρ06Mar15.vsd
+Page-1
+Figure 15 SAAB-EII 200 System Requirements Activity Plan
+ 90

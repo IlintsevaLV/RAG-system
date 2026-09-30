@@ -1,0 +1,27 @@
+6 Results and Recommendations
+The industry questionnaire responses indicate that ARP4754Α is viewed favorably by the
+engineering groups for development. The ARP establishes α structured process with known
+communications which was viewed positively. Company managements tended to view the ARP
+as only adding costs since they were not focused on reducing future project costs.
+Industry was unanimous in wanting consistency in interpretation of the ARP across the
+certification authority environment.
+ARP4754Α and the Item development process standards (RTCA DO documents) form α
+consistent strategy to mitigate error sources in support of regulation compliance. The individual
+processes act in concert to provide α comprehensive safety development solution.
+Recommendations
+Certification authorities should study and implement an effective way of evaluating, within the
+certification framework, satisfaction of ARP4754Α objectives. The goal of this activity should be
+to mitigate the existing large disparity in ARP interpretations during project application.
+Industry should initiate an effort to synergize the objectives and configuration control criteria
+across the industry process documents. ARP4754Α, DO-178, DO-254 and DO-297 differences
+lead applicants to apply the most severe common denominator across α project and thus are
+not optimizing the development objectives to support α common safety perspective.
+More examples and “how to” information are also recommended to accelerate the learning
+curve of new ARP4754Α applicants. It is worth noting that the current ongoing revision to
+ARP4761 will address some of industry identified issues. The details of how to assign
+FDAL/IDAL as well as identifying independence attributes and principles are being addressed.
+The study scenarios herein also aid in addressing some industry comments in the application of
+ARP in during reuse scenarios (ARP4754Α section 6). The equivalence of ARP4754Α Table 3
+options discussed herein may also help in the understanding of the FDAL/IDAL assignment
+process.
+ 8

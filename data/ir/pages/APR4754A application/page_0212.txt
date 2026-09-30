@@ -1,0 +1,23 @@
+SW partitioning integrity confirmed DO-178Β SW partitioning integrity confirmed DO-178C Verification Implementation complies with AC/sys reqts
+Verif. Intended function/no unintended Deficiencies & safety impact identified
+Objectives Code complies with reqts DO-178Β Test procedures correct DO-178C Test / Analysis procedures correct Code complies with reqts DO-178C Test coverage achieved DO-178C Test procedures correct DO-178Β Verification compliance evidence Test coverage achieved DO-178Β
+Test procedures correct
+Safety reqts verified
+Test results pass Test results pass
+Assurance
+Level
+RRRRRRRRRARRRRRRRRRRRRIIIIIIIIIIIIIRRRRBRRRRRRRRRRRRRRRRRIIIIIICRRRRRRRRRRRRRRRRRDARARRRARRRARRAAE
+Legend
+System Objective – ARP4754Α Software Objective – DO178C
+Software Objective – DO178Β Hardware Objective – DO254
+CM Level 1 CM Level 2
+R - RI – R Α – Recommended ω/ Independence As negotiated
+Figure 30 Verification Objectives Comparison Summary
+2. The Verify intended function and Verify implementation software objectives have accomplishment with
+independence for the software LCP in difference to the AC/Sys and HW LCPs.
+Analysis: It is unclear why the software verification is accomplished with independence at assurance
+level Β inconsistently with the other LCPs. As α consequence of this difference, it is conceivable that
+AC/System and HW process activities may need to be adapted to implement independence in order to
+have consistent development processes across α project containing all LCPs.
+The software LCP authors should establish consistency with the AC/System and hardware LCPs.
+ 200

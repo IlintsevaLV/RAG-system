@@ -1,0 +1,30 @@
+26 Please describe any ARP4754A configuration management issues encountered.
+ R1 Mostly issues were raised in change control and problem reporting. Evaluating the effect of
+changes on each processes, systems, etc. was a challenging process. And ensuring the
+timely transfer of design data to all parties
+ R2 Skip
+ R3 Skip
+ R4 None
+ R5 PSSA goes through several iterations before final issue
+ R6 NA
+ R7 1) Short cuts and full run processes are defined based upon criticality of configuration or
+change. Still, short cut process would suffice in many cases, e.g.: correction of typos in a
+System Requirements Document would mean among others building a team of at least 5,
+alerting the Airplane Manufacturer for the upcoming update. If the typo affects
+understanding or design, this process is correct. However, removal of a misspelling or
+transposed word should be allowed to be done at any time, which is then likely to be at the
+opportunity of a major rework.
+2) Sensitization of every single member of a development team in the necessity of
+configuration and change management needs time to take effect.
+ R8 The time when the configuration baselines are established can be described more clearly
+giving example milestones in the certification process.
+ R9 Some issues occurred were related to the inclusion of design data in the configuration item
+identification for CM activities and to criteria procedures for archive and retrieval
+(applicability of SC2). Although there is some practices in place, not clear in the document
+what are the guidelines regarding interim and design completion configurations (figure 14).
+ R10 None
+ R11 The CM is too general in the ARP4754A. We need more specific guidance for the
+relationship between Part No, Mod, version, document id, etc. Also, the definition for CC1
+and CC2 is not clear, I think a criteria is needed for classifying the CC1 and CC2, so the
+engineers can judge CC for the data by themselves.
+ 157

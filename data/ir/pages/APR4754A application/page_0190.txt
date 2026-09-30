@@ -1,0 +1,29 @@
+50 Please describe the sector of the industry in which you work (e.g certification authority,
+airplane manufacturer, integrated system supplier, equipment supplier, etc.).
+ R1 Military Certification Authority
+ R2 Certification authority
+ R3 Skip
+ R4 Integrated system supplier for landing gear systems (ATA 32), primary and secondary flight
+control systems.
+ R5 Turbine engine manufacturer
+ R6 Engine supplier
+ R7 Integrated system and equipment supplier
+ R8 Integrated system supplier, equipment supplier.
+ R9 Airplane manufacturer
+ R10 Airplane manufacturer
+ R11 Equipment supplier
+51 Please describe which regulatory framework you normally address (e.g. Transport (Part 25),
+ Normal, Utility (Part 23), Rotorcraft (Part 27-29), other, etc).
+ R1 Part 25, MIL-HNBK-516
+ R2 Part 25
+ R3 Skip
+ R4 The main focus is on Part 25 and Part 29, with random activities on Part23 and Part 27
+ R5 Part 25 and 27
+ R6 AC 33.28
+ R7 Part 25, Part 23, Part 27-29
+ R8 Part 23, Part 27-29.
+ R9 Part 25 (mainly), Part 23.
+ R10 Utility (Part 23)
+ R11 We provide the computers for the different kind of customers, including Part 25, 23, 27,39,
+33,etc.
+ 178

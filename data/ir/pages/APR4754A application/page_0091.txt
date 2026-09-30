@@ -1,0 +1,37 @@
+Project Specific Certification Plan PSCP200 7/03/2015 Title Doc No. Date
+Α.2 PSCP200 4 Modification Impact Analysis Summary:
+Α.2 PSCP200 4.1 Change Description Summary:
+Modifications to FMS function do not impact airplane level functionality. 
+Addition of function “ABC” provides additional capabilities to Provide Operational Awareness and 
+Maintenance hosted airplane level function.
+Table 21 summarizes the IMA functional areas impacted by the change and the most sever failure 
+condition classifications for that function.
+Table 21 SAAB-EII 200 IMA Impact Summary
+Failure
+Change Condition
+IMA Function Y/N Impact Description Classification
+Autopilot/Autoflight (ATA22) N No new or changed autopilot functions. Catastrophic
+No new or changed communication
+Communications (ATA23) N Catastrophic
+functions.
+Addition of maintenance messages to
+Displays (ATA31) Y Catastrophic*
+support new function “ABC”
+Open system problem reports on FMS
+Navigation/Flight
+Y function deficiencies and FMS function Hazardous
+Management (ATA34)
+performance will be implemented.
+New maintenance messages and test
+Maintenance (ATA45) Y Hazardous
+instructions added.
+No new or changed aircraft level
+Platform N Catastrophic
+platform functions.
+Sensors N No new or changed sensing functions. Various
+New aircraft configuration monitoring
+“ABC” Y and reporting function using existing Hazardous
+available sensor data
+*Note: Legacy Displays IMA function implementation is partitioned to support multiple software function
+criticalities.
+ 79

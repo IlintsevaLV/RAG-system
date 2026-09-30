@@ -1,0 +1,40 @@
+Option 1
+Level C Level C Level A-E*
+Objectives Objectives Objectives
+O F1 F2
+Planning R V&V 2 Planning R V&V 2 Planning R
+Safety - FHA R 1 Safety - FHA R 1 Safety - FHA R
+Reqts Cap RD 1 Reqts Cap B 1 Reqts Cap
+Reqts Valid R 2 Reqts Valid R 2 Reqts Valid
+Reqts Verif R 2 Reqts Verif R 2 Reqts Verif
+Safety Proc R 1 Safety Proc R 1 Safety Proc
+CM R 2 CM R 2 CM
+Cert Coord R 1 Cert Coord R 1 Cert Coord
+PA R' 2 PA R' 2 PA
+* Level E Objectives shown
+F1 at Level C alone satisfies
+objectives
+
+Legend
+Major Failure R - Recommended
+Condition R' - With Independence R° - With Derived Reqt Identification
+RV&v – With Valid. & Verif. Planning
+1 – CM per SCC1
+2 - CM per SCC2
+Independence satisfied Option 2
+between F1 & F2
+Level D Level D
+Objectives Objectives
+F1 F2
+2 Planning R Planning R 2
+1 Safety - FHA R 1 Safety - FHA R
+Reqts Cap R 2 Reqts Cap R 2
+Reqts Valid Reqts Valid
+Reqts Verif Reqts Verif
+Safety Proc Safety Proc
+CM R 2 R 2
+Cert Coord Cert Coord
+PA PA
+Objectives identical to Level C
+except for highlighted areas.
+216

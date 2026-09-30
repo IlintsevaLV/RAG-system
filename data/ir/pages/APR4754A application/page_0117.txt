@@ -1,0 +1,42 @@
+Project Specific Certification Plan APSCP300 5/28/2015 Title Doc No. Date
+Α.3 APSCP300 4.2 Change Classification Analysis:
+The planned modifications described in section 4.1 herein have been evaluated per AC 21.101-1 
+and found to be non-significant.
+The legacy certification basis for Legacy SAAB-EII 300 will be retained. o
+The planned modification outlined in section 4.1 herein has been evaluated per AC 21-40Α for 
+change classification, ι.ε. major or minor:
+The planned changes have been analyzed and found to have no appreciable effect on: o
+ Weight, 
+ Balance, 
+ Structural strength, 
+ Reliability, 
+ Characteristics affecting airplane airworthiness. 
+Changes have been found to have α minor impact on the operational characteristics of the o
+flight deck displayed information.
+Based on the limited impact of the planned changes, the modification is preliminarily o
+classified as Minor and will be approved using the SAAB-EII FAA approved “Minor Airplane
+Change Process” upon certification authority agreement.
+Legacy airplane level development used conventional development techniques and as such did 
+not create ARP4754Α objectives evidence.
+FDAL for Avionics functions was not developed. o
+Airplane function development evidence was not created (Requirements, Validation and o
+Verification).
+Creation of ARP4754Α airplane level artifacts for the changes identified in this plan is not 
+advantageous or practical and is therefore not planned. Conventional airplane certification
+activities will be used. SAAB-EII engineers will review and approve that the activated IMA-100
+GPWS avionic functionality meets airplane level functional objectives.
+Editor Note: The non-development of ARP4754Α airplane artifacts is situationally based. As the IMA-100
+already has deactivated functionality for the AGPWS there is little error mitigation benefit in creating
+ARP4754Α development process artifacts as the function and implementation already exists. SAAB-EII
+review of the Avionics system level artifacts is sufficient to assure the implemented function will be what is
+desired (validation). If the IMA functionality did not exist or if the added TSO equipment was more than
+flight crew supplemental information, then α more rigorous satisfaction of ARP4754Α objectives may be
+warranted.
+Α.3 APSCP300 4.3 Safety Impact of Planned Changes:
+AGPWS is an aid to aircrew intended to supplement existing flight instrument data annunciating 
+the onset of conditions leading to inadvertent contact with the ground.
+As α supplement, the loss of this warning function is classified as “No Effect”. o
+Erroneous warning by the AGPWS function is “Minor” due to in slight increase in crew o
+workload to validate warning through α crosscheck flight instruments and silence erroneous
+warning using added AGPWS inhibit capability.
+ 105

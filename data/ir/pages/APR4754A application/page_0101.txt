@@ -1,0 +1,31 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Α.2 ASDP200 5 Avionic System Requirements Development, Validation &
+Verification:
+Requirements development, validation and avionic system requirement verification plans are 
+discussed in this section.
+Figure 15 presents the high level avionics system development process flow. 
+Any changes in FDAL or IDAL assignments between the established baseline artifact level of rigor 
+and the modification program assigned level will be evaluated on α case-by-case basis for α
+negotiated development approach.
+Α.2 ASDP200 5.1 Requirements Development & Management:
+The IMA100 Avionic System “Ξ.Y” requirements set will form the baseline for the SAAB-EII 200 
+Avionic System modification program.
+The baseline requirements were developed to the level of rigor commensurate with the level of 
+assurance assigned to the implementing software (though not identified as FDAL) as shown in
+Table 23.
+Each requirement includes the following information: 
+Unique requirement identifier, o
+Requirement text, o
+Rationale (reason for having the requirement if requirement was derived), o
+Parent trace link (if requirement traceable to α parent), o
+Safety related attribute. o
+As part of the SAAB-EII 200 development process, the baseline Company “Α” avionic system FMS 
+and Display requirement sets will be evolved from the “Ξ.Y” baseline to new IMA100V1.
+See Figure 16 for an artifact evolution plan. 
+Requirements that need to be modified will be managed through the configuration management 
+process to ensure traceability to the baseline.
+Changed requirements will be revalidated using the requirement validation process. 
+New requirements (function “ABC”) will be introduced to the baseline requirement set using the CM 
+process and validated using the validation process.
+An illustration of the requirement levels and tracing between these levels is shown in Figure 17. 
+ 89

@@ -1,0 +1,43 @@
+Avionic System Development Plan ASDP300 5/28/2015 Title Doc No. Date
+The avionics system development process is based on re-using an integrated avionic 
+implementation previously certificated on the same SAAB-EII 300 airplane type.
+The SAAB-EII 300 avionics system development process will use α combination of 
+similarity/service experience to previous program ARP4754 objective data and the generation of
+new ARP4754Α objective evidence for the changed IMA functionality to satisfy the SAAB-EII 300
+ARP4754Α development life cycle.
+Figure 20 presents α high level summary of the Avionics System development activities. 
+Table 29 summarizes the objective evolution and highlights new configuration management (CM) 
+system control (SC) category.
+Changed Display function (ATA31): o
+ Capture requirements associated with changed Display functionality (activation of 
+AGPWS provisional function) per newly assigned FDAL.
+ Validate new or changed Display requirements per ARP4754Α compliant process. 
+ Validate unchanged Display requirements per ARP4754Α similarity to certificated 
+functionality.
+ Verify old and new Display implementation meets intended Display function 
+requirements.
+Activate AGPWS function (ATA34) o
+ Activate provisional AGPWS function requirements per newly assigned FDAL.
+ Validate new or changed AGPWS requirements per ARP4754Α compliant process.
+ Validate unchanged AGPWS requirements per ARP4754Α similarity to certificated
+functionality.
+ Verify old and new AGPWS implementation meets intended function requirements.
+Changed Platform function (ATA42): o
+Input/Output (I/O)-
+ Capture I/O requirements for added AGPWS digital (ARINC 429), analog (audio), 
+and discrete (landing gear status, warning, monitor) interfaces
+ Validate new or changed I/O requirements per ARP4754Α compliant process. 
+ Validate unchanged I/O requirements per ARP4754Α similarity to certificated 
+functionality.
+ Verify old and new I/O implementation meets intended AGPWS function 
+requirements.
+Communication (Comm) Network-
+ Capture Comm network requirements for added AGPWS digital (ARINC 429), 
+analog (audio), and discrete (landing gear status, warning, monitor) interfaces
+ Validate new or changed Comm requirements per ARP4754Α compliant process. 
+ Validate unchanged Comm requirements per ARP4754Α similarity to certificated 
+functionality.
+ Verify old and new Comm implementation meets intended AGPWS function 
+requirements.
+
+ 109

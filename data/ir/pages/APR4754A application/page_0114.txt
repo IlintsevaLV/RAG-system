@@ -1,0 +1,31 @@
+Project Specific Certification Plan APSCP300 5/28/2015 Title Doc No. Date
+Display Control Display Control
+AP Control Panel
+Wx Cntllr Panel Panel
+Wx
+Radar TCAS
+PFD EICAS MFD PFD
+GPS GPS
+Antenna Antenna
+Communication Network
+Air Data
+Sensor
+MCDU MCDU
+Air Data Company R AGPWS
+Sensor
+Right IMA 1
+Left IMA 1
+Inertial Sensor
+Right IMA 2 Radar Left IMA 2
+Altimeter Audio Control Audio Control
+Panel Panel
+Inertial Sensor
+Left Radio Right Radio
+Set Set
+AP AP AP
+Pitch Trim Ail Elev Rudder
+Servo Servo Servo VOR/LOC, GS, MB,
+DME, ATC, COM ADF
+Antennas Standby Flight Display Antenna
+Figure 18 SAAB-EII 300 Modification
+ 102

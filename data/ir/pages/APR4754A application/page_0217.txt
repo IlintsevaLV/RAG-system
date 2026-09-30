@@ -1,0 +1,19 @@
+SW conformity review conducted DO-178Β
+Activities & processes accordance ω/plans
+Process
+Transition criteria satisfied DO-178Β
+Assurance Life cycle data complies ω/plan Plans developed & maintained
+HW conforms to life cycle data
+SW complies with standards
+Objectives
+Process comply ω/plan
+Assurance
+Level
+RRRRRRRRRRAIIIIIIIIIIRRRRRRRRRRBIIIIIIIIIIRRRRRRRRRCR` IIIIIIIIIRRRDRRIIIE
+Legend
+System Objective – ARP4754Α Software Objective – DO178C
+Software Objective – DO178Β Hardware Objective – DO254
+CM Level 1 CM Level 2
+R - RI – R Α – Recommended ω/ Independence As negotiated
+Figure 32 Process Assurance Objectives Comparison Summary
+ 205

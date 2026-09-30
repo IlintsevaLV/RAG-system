@@ -1,0 +1,45 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Table 24 Reuse Strategy Nomenclature
+Determining the Item Change Type
+Program Strategy (Column 6) Description
+Reusing an item (SW Application or HW element) from another aircraft program
+Reuse
+or previous certification without modification to the item itself.
+Reusing an item from another airplane program or previous certification with
+Reuse with Change (RWC)
+modifications to the item.
+Develop α new item; ι.ε. this is the first instance of this function
+New
+implementation.
+Determining the System Change Type
+Program Strategy (Column 6) Description
+Select Reapply if the entire system is being reused from another/same airplane
+program (ι.ε., all of the items in the system are identified as Reapply). The
+Reapply activities are related to adding traceability from existing system requirements
+to new airplane program/revised Function requirements and integration of the
+system.
+Select Adapt if one or more of the items is identified as Reuse with Change
+Adapt
+(RWC) with other items are identified as Reuse.
+New Select New if all or nearly all items are New
+Α.2 ASDP200 4 Avionic System Safety:
+The system safety process includes requirements development as well as implementation 
+verification activities that support the avionic system development.
+This process provides α methodology to evaluate airplane function failure conditions and the 
+avionic system design performing these functions to establish that the identified hazards have
+been properly addressed.
+The avionics systems development process will include the following safety activities: 
+Avionic System Functional Hazard Analysis o
+ Updated hazard evaluation for new function “ABC”, 
+Preliminary Avionic System Safety Assessment Supplement o
+ Supplement IMA100V1 PSSA will be created to evaluate planned implementation of 
+function “ABC” against new system FHA failure condition(σ).
+ Safety requirement development as necessary to support “ABC” implementation 
+ FDAL / IDAL assignment (assignment substantiation) for FMS revisions & “ABC” 
+development
+Avionic System Safety Assessment (revision to existing analysis to incorporate applicable o
+FMS changes and addition of “ABC” failure condition analysis result),
+Avionic System Common Cause Analysis (update as necessary to support PSSA/SSA o
+revisions),
+Editor’σ Note: IMA100V1PSSA not created as part of the example development.
+ 88

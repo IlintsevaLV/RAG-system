@@ -1,0 +1,53 @@
+Avionic System Development Plan ASDP300 5/28/2015 Title Doc No. Date
+Α.3 ASDP300 5 Avionic System Requirements Development, Validation &
+Verification:
+Requirements development, validation and avionic system requirement verification plans are 
+discussed in this section.
+Figure 21 presents the high level avionics system development process flow. 
+Any changes in FDAL or IDAL assignments between the established baseline artifact level of rigor 
+and the modification program assigned level will be evaluated on α case-by-case basis for α
+negotiated development approach.
+Company “Α” IMA100
+System Level
+Requirement Baseline
+AGPWS
+Revisions
+Baseline YES
+requirements need
+changes?
+AGPWS
+Warning
+NO Addition Use CM Process to
+modify baseline
+requirements
+Need to add new YES
+requirements to
+baseline?
+Use CM Process to NO
+add new
+requirements to
+baseline
+Validate new or
+changed
+requirements per
+requirement Validate baseline
+validation process reqts by similarity
+Use CM process to
+revise verification
+artifacts for new or
+modified
+requirements
+Perform verification
+activities on
+completed
+implementation
+Flow requirements to
+Item processes
+(See PSAC ) for details
+Generate Avionic System
+Validation & Verification
+Substantiation Report
+Scenario 2 Avionics Sys Dev Plan ρ12Jul15.vsd
+ Page-1
+Figure 21 SAAB-EII 300 System Requirements Activity Plan
+ 114

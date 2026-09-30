@@ -1,0 +1,40 @@
+10 In what ways would/did the application of ARP4754Α impact program cost and schedule?
+ R1 We couldn’τ apply all sections 100% in our military project. No metrics were measured.
+Therefore no objective evidence about the impact on cost and schedule.
+ R2 From the regulatory perspective, cost and schedule impacts should be neutral for the first
+application (ι.ε. pays for itself due to mitigation of late surprises) and then improved for the
+next project.
+ R3 Additional effort in development, requirements capture process and verification. Application
+in development process in some cases not clear - see also response to question 6.
+ R4 In the beginning for the first time application of the ARP4754Α it was an increase of the
+cost of about 25% and α schedule impact of about 3-4 month, clearly owed the fact that the
+ARP4754Α process common understanding was not given with α set of repetitions
+required. With the improved practice and mature and trained process, the impact is
+reduced to 10% cost and 4 weeks schedule. But consider that the maturity of the final
+system/product is heavily improved.
+ R5 Higher cost, longer development plan
+ R6 Α small potential for addition hours to support the higher levels of CM
+ R7 1) Reviews might need to involve more resources, effort or loops before being deemed
+completed. However, this is usually the case for FDAL Α/Β and safety related items.
+2) Validation process is generally understood to need time, which is acceptable with
+regards to the final target. Often times, this process is being complicated when
+organizations/stakeholders to be involved are further apart (ε.γ. Customer/Supplier in
+different countries). Release of documents might take longer, or rework is necessary if
+validation is not directly performed with all stakeholders.
+ R8 There is no sufficient data for this evaluation in our hand since our experience is relatively
+low, newly developing. But I think the application of ARP should not adversely affect the
+cost and schedule when applied correctly because the real cost comes from SW
+development (appliance of DO 178) and AEH development (appliance of DO 254). On the
+other hand, appliance of ARP should serve for cutting cost and schedule in the appliance of
+these processes by timely identifying safety objectives, safety requirements and
+development assurance levels which are used as the main inputs and in fact are the main
+drivers for cost and schedule factors.
+ R9 Increase schedule and cost in early phases of projects (due to greater effort concentrated
+in requirements capture, discussion and validation, when compared to non-ARP4754
+based processes) and across all phases due to formalization of several data, process
+assurance activities and support for Cert. Authorities on-site reviews.
+ R10 Don'τ know.
+ R11 In my opinion, to apply ARP4754Α, we need qualified engineers to support the engineering
+activities, so cost more for the human resource. As for the schedule, it may take more time
+for design, but it may save time for the verification.
+ 142

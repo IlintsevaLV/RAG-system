@@ -1,0 +1,60 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+Table 16 SAAB-EII 100 Avionics Reuse Strategy
+ 1 2 3 4 5 6
+System Existing New
+Func or FDAL FDAL Rigors Program
+System Functional Area Item /IDAL /IDAL Differ Strategy
+Autopilot/Autoflight (ATA 22) Sys Α Α No Adapt
+ SW - AFCS App Item Α Α No RWC
+HW - AP Control Panel Item Β Β No Reuse
+HW - Pitch servo Item Β Β No Reuse
+HW - Roll Servo Item Β Β No Reuse
+HW - Yaw Servo Item Β Β No Reuse
+ HW - Pitch Trim Servo Item Β Β No Reuse
+Communications (ATA 23) Sys Α Α No Reapply
+ SW - Radio Tune App - Comm Item Reuse
+HW - Radio Set - Comm Item Reuse
+HW - Radio Set - Datalink Item Reuse
+HW - Antennas - Comm Item Reuse
+ HW - Audio Control Panel Item Reuse
+ HW - TCAS Item Reuse
+ Displays (ATA 31) Sys Α Α No Adapt
+SW - PFD Graphics Common App Item Α Α No Reuse
+SW - PFD Graphics Instrument "Τ" App Item Β Β No Reuse
+SW - Warn Function App Item RWC
+SW - Warn Function Common App Item Reuse
+ SW - WX Graphics App Item Reuse
+HW - Display Control Panel Item Β Β No Reuse
+HW - Standby Instrument Item Reuse
+HW - Display Unit - PFD Item Α Α No Reuse
+HW - Display Unit - EICAS Item Α Α No Reuse
+ HW - Display Unit - MFD Item Β Β No RWC
+Navigation/Flight Management (ATA34) Sys Β Β No Adapt
+ SW - Flight Management App Item Reuse
+SW - Take off Performance App Item RWC
+SW - MCDU Host App Item Reuse
+SW - GPS Nav App Item Reuse
+ SW - Radio Tune App - Nav Item Reuse
+ HW - Inertial Sensor Item Reuse
+HW - Radio Set - Nav Item Reuse
+HW - Antennas - Nav Item Reuse
+HW - GPS Antenna Item Reuse
+ HW - MCDU Item Reuse
+Maintenance (ATA45) Sys Α Α No Adapt
+ SW - CMC App Item Δ Δ RWC
+SW - Dataload App Item Α Α Reuse
+ IMA Platform Sys Α Α No Adapt
+SW - Operating System App Item Α Α Reuse
+SW - Middleware Apps Item Α Α Reuse
+SW - HW Abstraction Layer App Item Α Α RWC
+SW - Comm Network Core App Item Α Α RWC
+ SW - Comm Network Messaging App Item Α Α RWC
+HW - Power Supply Item Α Α Reuse
+HW - Cabinets Item Α Α Reuse
+HW - Multipurpose computers Item Α Α Reuse
+ HW - Comm Network Item Α Α Reuse
+ HW - Airplane Interfaces Item C C New
+ Sensors Sys Δ Δ No Reapply
+HW - Weather Radar Item Reuse
+HW - Weather Radar Controller Item Reuse
+ 62

@@ -1,0 +1,40 @@
+42 Looking back, how did your understanding of Functional/Item DAL assignment process
+evolve throughout the project.
+ R1 We had to deal with CAT function with DAL Α software. Same software run on both
+computers. During the process the discussion was weather two independent level Β
+software developed by different teams is better or not in terms of error. Some research say
+two different SW generates more errors. Benefit of using of Option 2 was another question.
+ R2 As α regulator, an observation is that because the company’σ process specialists don’τ do
+safety assessment, they often are not aware of how Table 3 is used.
+ R3 It was not fully clear, down to what level FDAL-determination should be performed: Down to
+each single requirement or only for top-level functions and thus one FDAL for the whole
+specification. In the process the latter was finally applied On IDAL determination there were
+discussions about combination of failures of mechanical items and electronic items leading
+to cat. Failures: Can credit be taken of the mechanical item being IDAL Α, thus reducing
+the IDAL of the electronic item to C? The decision was, not to take credit of the mechanical
+item being IDAL Α, however there is no clear substantiation for it.
+ R4 We faced lots of discussion how to evaluate FDAL if not assigned form the parent
+documentation, which was the case in our previous and actual running programs.
+Discussions lead to the point that in case of α system is identified with one Top Level
+Failure conditions “Catastrophic” the entire system is dealt as FDAL on System level. At
+equipment level we differentiated the architecture then to cover the FDAL Α with dedicated
+IDAL’σ for the electronic control units to show compliance.
+ R5 NA
+ R6 No comment
+ R7 Skip
+ R8 It is in close relationship with the customer requirements (in Α/C level), system functions,
+their allocations to subsystems and system architecture. We observed that since there are
+lots of factors driving DAL assignment process it is difficult to manage the changes.
+Because you have to catch up with or provide output beforehand the item level
+development processes. There are always schedule pressure, since all the activities
+performed concurrently, DAL assignment process or safety assessment process needs to
+be performed as early as possible but in practice it is difficult to complete these when you
+don’τ have enough data for substantiation of results to derive safety requirements.
+ R9 For the common developer, it has been very difficult concept to be understood and applied.
+For most the users IDAL is α more straightforward concept but the FDAL itself and the
+mixing with IDAL in α FFS approach is α very confusing and complex to operationalize
+method. Even for α specialist it still causes misunderstanding and misalignment all across
+the company.
+ R10 It has improved, allowing to reduce the FDAL and IDAL in some particular cases.
+ R11 Skip
+ 171

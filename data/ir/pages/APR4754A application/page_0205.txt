@@ -1,0 +1,35 @@
+Data CM Category Differences:
+1. The CM control categories for assurance level Α and Β differ between the software LCPs and AC/SYS
+and hardware LCP. All of the software planning objectives are managed using CM category 1 while
+hardware and AC/Sys planning data is managed using CM category 2.
+Analysis: It is unclear why the software life cycle manages the planning activities for assurance levels Α
+and Β to the CM category 1 stringent criteria. The certification equivalent documents between the life
+cycles are managed consistently at CM category 1 and it is these data artifacts that are specifically used
+to plan the regulatory certification compliance criteria. CM category 1 increases the burden on industry
+without justification or benefit since the certification planning data artifacts would need to be revised
+commensurate with any subordinate plan revision.
+The software LCP authors should consider relaxing the software configuration management control
+category for development, verification, configuration management and quality assurance as the more
+rigorous activities are unnecessary for certification or for the mitigation of development errors.
+C 4.2 Development Process Objectives Comparison
+Figure 28 graphically summarizes the objectives and control categories for development process between
+ARP4754Α and the DO LCPs. In general, the basic Development Process objectives are consistent
+across the processes for assurance levels Α through C; with only minor differences of CM control
+categories. There are significant differences highlighted between the four LCPs at assurance level Δ for
+both the objective recommendations and CM category assignments.
+Objective Commonality:
+The Development Process Objectives across the different life cycle domains are consistent, with each
+LCP recommending objectives at assurance levels Α through C for:
+ Identifying and capturing requirements,
+ Identifying system architectures and,
+ Performing integration.
+The Development Process objectives for identifying requirements and architectures are consistent with
+“Recommended” for development assurance levels Α and Β, with the data managed per CM category
+1. There are objective differences identified at assurance levels C and Δ (see Objective Differences).
+There are also CM data control category differences identified at development assurance levels Α and
+Β for performing integration objectives (see CM Differences).
+No Development Process Objectives are identified for development assurance level E across all four
+LCPs.
+Differences Summary:
+Table 37 summarizes the noted differences between the ARP and DO processes.
+ 193

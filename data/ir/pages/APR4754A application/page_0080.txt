@@ -1,0 +1,25 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+Α.1 SDP100 5.2.1 Requirements Validation Methods & Process:
+Requirements will be validated using structured process accomplishing objectives of ARP4754Α. 
+Requirements will be validated using combination of methods: 
+Methods of validation include: 
+Traceability, o
+Analysis (Modeling), o
+Test, o
+Similarity or, o
+Inspection (engineering review). o
+It is anticipated that the bulk of the avionic systems requirements will be validated through 
+similarity to the certificated baseline.
+Traceability will be established between the baseline requirement set and the SAAB-EII 100 
+avionic function requirement set, where appropriate.
+Baseline requirement set derived requirements and assumptions will be revalidated as part of the 
+SAAB-EII 100 validation process.
+Artifacts will be generated as demonstration of the validation process for all requirements. 
+For simplicity of process, validation of requirement sets supporting FDALs Α through C will be 
+accomplished with independence.
+Requirements supporting FDAL assignments Α thru C will be summarized in α validation matrix. 
+This matrix tracks the validation status of each requirement or assumption and captures the 
+validation methods used to establish the validation result and artifact references capturing the
+evidence.
+An example validation matrix shown in Table 18. 
+ 68

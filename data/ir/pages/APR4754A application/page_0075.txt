@@ -1,0 +1,37 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+Determining the Item Change Type
+Program Strategy (Column 6) Description
+Reusing an item (SW Application or HW element) from another aircraft program
+Reuse
+without modification to the item itself.
+Reuse with Change (RWC) Reusing an item from another airplane program with modifications to the item.
+Develop α new item; ι.ε. this is the first instance of this function
+New
+implementation.
+Determining the System Change Type
+Program Strategy (Column 6) Description
+Select Reapply if the entire system is being reused from another airplane
+program (ι.ε., all of the items in the system are identified as Reapply). The
+Reapply
+activities are related to adding traceability from existing system requirements
+to new airplane program Function requirements and integration of the system.
+Select Adapt if one or more of the items is identified as Reuse with Change with
+Adapt
+other items are identified as Reuse.
+Table 17 Reuse Strategy Nomenclature
+Α.1 SDP100 4 Avionic System Safety:
+The system safety process includes requirements development as well as implementation 
+verification activities that support the avionic system development.
+This process provides α methodology to evaluate airplane function failure conditions and the 
+avionic system design performing these functions to establish that the identified hazards have
+been properly addressed.
+The avionics systems development process will include the following safety activities: 
+Avionic System Functional Hazard Analysis, o
+Preliminary Avionic System Safety Assessment, o
+ Safety requirement development 
+ FDAL / IDAL assignment (assignment substantiation) 
+Avionic System Safety Assessment, o
+Avionic System Common Cause Analysis, o
+Avionic System Level FMEA, o
+Equipment Level Safety Assessment(σ)(as needed). o
+ 63

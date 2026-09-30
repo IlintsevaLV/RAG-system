@@ -1,0 +1,22 @@
+02 Describe any prior experience with the legacy ARP4754 systems development document
+that your organization may have had.
+ R1 Skip
+ R2 As regulators, we had only seen applicants use the legacy document in the areas of DAL
+(more specifically IDAL in current 4754A) assignments.
+ R3 The development process was mostly following the ARP 4754 as it is a clear proceeding;
+however it was not reflected in whole detail in the internal development process
+ R4 ARP4754, was applied in our organization for the development of control units for landing
+gear systems, flight control systems and environmental control system as the level above
+RTCA DO254 and 178B
+ R5 Small gas turbine FADEC development project for helicopters, and turbine engine
+development for civil aircraft
+ R6 The PROGRAM NAME was developed under 4754. This covers a product line for the
+PROGRAM NAME and the development of four different applications.
+ R7 Airplane 1 LGS, Airplane 2 & 3 LGS, Airplane 4 & 5 LGS, Airplane 1 FCS
+ R8 Application of ARP 4754 was a contractual requirement in many of our current and
+previous development programs.
+ R9 Three TC projects and type design changes (post-TC) in one of them.
+ R10 Don’t know
+ R11 We do not have formal prior experience with ARP4754, but we have followed the idea of
+the ARP4754 in some project.
+ 132

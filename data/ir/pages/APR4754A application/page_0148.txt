@@ -1,0 +1,39 @@
+06 Please describe any aspects of ARP4754Α that your company determined were
+unnecessary or impractical to apply.
+ R1 DAL allocation Table 3. Using option 1 and 2 is not as easy in real environment as it is
+described in 4754Α in terms of showing compliance to independence requirements.
+ R2 Skip
+ R3 FDAL-determination: it is not fully clear, down to what level this should be performed
+Validation: It was understood, that for requirements with FDAL Α or Β two means of
+verification should be applied. This is in some cases not feasible or impossible
+ R4 FDAL and IDAL Assignment Process created discussion and inconsistency within our
+development process. As our customers do not identify FDAL’σ in their specifications In
+consequence we used the SFHA as done in legacy projects. The further item difficult to
+handle was the issue how to determine complex versus noncomplex equipment mainly for
+structural or hydro-mechanical equipment. For electronic HW and SW it was clear. This
+was α discussion with our customers, as well the authorities as it was not clear from ARP
+how to handle non electronic equipment. During audits with customers and authorities it
+was not clear at all how to deal with para 5.5.5.4 β. “unintended functions “ of ARP4754Α.
+ R5 NA
+ R6 NA
+ R7 1) Ambiguous explanation (ε.γ. Table 6 Requirements Validation Methods and Data) often
+leads to mismatching interpretation and expectation with Regulatory Authorities and TC-
+holder. This concerns both the process to be in put in place and the acceptable level and
+extent of data/results to be provided.
+2) The concept of eliminating “unintended function” during verification and/or integration
+activities gained wider popularity and some acceptance with ARP4754Α. It is however too
+summarily defined to provide assistance or guideline: some interpretation might be
+unintended function = “everything that is not required from the system”, thus any attempt to
+define α process gets out of hand.
+3) Formal allocation FDAL Α/Β/C sufficient to address failure criticalities affecting
+development process. Focus is usually put on FDAL Α/Β investigation and assurance.
+ R8 Section 6
+ R9 Although some aspects have been controversial issues, both internally and externally in
+discussions with cert. authorities and suppliers, we could not find, to the extent of
+application we’ve exercised so far, anyone that we could firmly say it’σ unnecessary or
+impractical.
+ R10 Don'τ know.
+ R11 Because we are the LRU supplier, so most of the safety assessment process except FMEA
+is unnecessary to us. Typically we follow the requirement from the customer, including DAL
+and safety requirement.
+ 136

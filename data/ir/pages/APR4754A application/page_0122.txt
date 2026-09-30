@@ -1,0 +1,55 @@
+Avionic System Development Plan ASDP300 Title Doc No.
+Table 29 ARP4754 Objectives & Configuration Evolution Summary
+4754 Objective / Evidence
+Display Function (ATA31)
+Display Function Requirement Set
+Requirements Validation (validation matrix,
+report)
+Requirements Verification (verification
+matrix, report)
+AGPWS Function (ATA34)
+AGPWS Function Requirement Set
+Requirements Validation (validation matrix,
+report)
+Requirements Verification (verification
+matrix, report)
+IMA Platform
+I/O Requirement Set
+(Α429, Analog, Discrete)
+Comm Requirement Set
+(Α429, Analog, Discrete)
+I/O & Comm Requirements Validation
+(validation matrix, report)
+I/O & Comm Requirements Verification
+(verification matrix, report)
+
+5/28/2015 Date
+Legacy 4754Α
+CM SCC CM SCC
+Category 4754Α Objective / Evidence Category
+New and Changed Display
+NA SC1
+Function Requirement Set
+NA Requirements Validation per FDAL SC2
+Requirements Verification per
+NA SC2
+FDAL
+Changed AGPWS Function
+NA SC1
+Requirement Set
+NA Requirements Validation per FDAL SC2
+Requirements Verification per
+NA SC2
+FDAL
+New and Changed I/O Requirement
+NA SC1
+Set
+New and Changed Comm
+NA SC1
+Requirement Set
+Requirements Validation per FDAL
+NA SC2
+Requirements Verification per
+NA SC2
+FDAL
+110

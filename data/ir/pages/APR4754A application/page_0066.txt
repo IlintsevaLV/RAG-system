@@ -1,0 +1,58 @@
+SAAB-EII 100 PASA SE100PASA Title Doc No.
+Table 12 PASA CMA-4
+Captain displayed navigation/position information shall be independent of First Officer 7.
+displayed navigation/position information
+CONCEPT & DESIGN: DESIGN ARCHITECTURE
+Common Mode Sources Common Modes Failure /Errors
+External Sources Electrical Power Distribution failure
+ Data Source (input) Failure
+
+CONCEPT & DESIGN: TECHNOLOGY, MATERIAL, EQUIPMENT TYPE
+Redundant, Similar Hardware Hardware development errors
+ Common components fail (type, usage,
+etc.)
+Verification tools
+Redundant, Similar Software Common software development errors
+Common software development tools
+Verification tools
+
+CONCEPT & DESIGN: SPECIFICATIONS
+Same specification Specification for communication function
+causes failure condition of interest due to
+error in common requirement(σ).
+
+
+4/24/2015 Date
+ Analysis / Discussion
+Captain and First officer
+navigational/positional displays and sensor
+information paths will each be electrically
+powered from circuit breaker protected
+independent power sources.
+Redundant and independent sensor inputs
+will be selected and validate for use in
+displayed navigation information.
+Captain and First Officer
+navigational/positional displays developed
+assurance level commensurate with functional
+hazard.
+Captain and First Officer
+navigational/positional displays developed
+assurance level commensurate with functional
+hazard.
+Avionics Development Plan indicates that
+avionic function requirements will be captured
+and managed as independent elements.
+Error mitigation is acceptably established
+between functions. However, functionality
+within α specific functional area (ε.γ.
+Communications ATA23) may have common
+requirements, common development
+processing and potential for common
+requirement misinterpretation.
+Α functional development independence
+attribute is not demonstrated for this
+independence requirement. FDAL will be
+assigned based on most severe failure
+condition – Level Α.
+54

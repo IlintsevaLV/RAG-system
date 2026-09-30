@@ -1,0 +1,74 @@
+Avionics Certification Plan CP100 Title Doc No.
+1 2 3
+Failure Condition
+Function FC # (Hazard Description)
+Erroneous engagement of
+22.01
+autopilot at low altitude
+Erroneous autopilot
+22.02 disengagement at low altitude
+without annunciation
+Provide Stability
+& Control:
+Erroneous autopilot
+Automatic
+22.03 command which exceeds
+Stability &
+authority limits
+Control (2.5)
+Erroneous autopilot
+command with failure of
+22.04
+override or disengagement
+capability
+Loss of automatic stability &
+22.05 control capability (loss of
+autopilot)
+Loss of normal control surface
+22.06 capability due to erroneous
+operation of autopilot
+
+2/18/2015 Date
+Table 2 SAAB-EII 100 Avionics FHA Summary
+4 5 6
+Flight Effect of Failure Condition on
+Phase Aircraft/Crew Classification
+May reduce crew capability for
+Take off, controlling the airplane during
+Landing, specific maneuvers. Interference with
+Hazardous
+Go crew control near the ground may
+Around jeopardize continued safe flight and
+landing.
+Airplane deviates from planned
+vertical and/or lateral flight path and
+airspeed resulting in unsafe flight
+Approach,
+near to the ground until recognized
+Landing,
+by the crew. Airplane may land hard Catastrophic
+Go
+and/or short of runway due to
+Around
+incomplete or no flare. Landing gear
+or fuselage damage resulting in loss of
+airplane.
+Airplane structural damage may result
+due to unrestricted pitch, roll or yaw
+commands. May result in rapid flight
+Flight path responses, unsafe airplane flight Catastrophic
+paths and loss of altitude. Possible
+ground contact if occurs at low
+altitude resulting in loss of airplane.
+Unsafe airplane flight path due to
+Flight inability of crew to regain control Catastrophic
+resulting in loss of airplane.
+Crew continues flight under manual
+Flight Major
+control.
+Crew must recognize erroneous
+control behavior and coordinate
+Flight autopilot disconnect with necessary Major
+autopilot function override forces to
+maintain desired flight path.
+27

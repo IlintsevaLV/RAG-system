@@ -1,0 +1,17 @@
+Avionics Development Plan ADP100 2/18/2015 Title Doc No. Date
+Figure 7 Airplane Avionic Function Development –Life Cycle - Post PASA
+Α.1 ADP100 4.1 Requirements Capture & Validation:
+Requirements for each of the avionic functions will be captured and managed independently but 
+may be combined into α single document structure for transmittal to the avionic system supplier.
+Maintenance function development further split into Level Α maintenance and Level Δ o
+maintenance to facilitate different criticalities and optimize project development activities.
+Requirements captured using database style requirements documentation tool. 
+Requirements validated using process and techniques outlined in ARP4754Α. 
+Requirements validated using combination of methods: o
+Methods of validation include: o
+ Traceability, 
+ Analysis, 
+ Test, 
+ Modeling or, 
+ Inspection (engineering review). 
+ 42

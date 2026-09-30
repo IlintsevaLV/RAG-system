@@ -1,0 +1,31 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+The avionics system development process is based on re-using an integrated avionic 
+implementation previously certificated on the SAAB-EII 200 airplane.
+The SAAB-EII 200 avionics system development process will use α combination of 
+similarity/service experience to previous program ARP4754 objective data and the generation of
+new ARP4754Α objective evidence for the changed IMA functionality to satisfy the SAAB-EII 200
+ARP4754Α development life cycle.
+Figure 14 presents α high level summary of the Avionics System development activities. 
+Changed FMS function: o
+ Capture requirements associated with changed FMS functionality per newly 
+assigned FDAL.
+ Validate new FMS requirements per ARP4754Α compliant process 
+ Validate unchanged FMS requirements per ARP4754Α similarity to certificated 
+functionality
+ Verify old and new FMS implementation meets intended FMS function 
+requirements.
+New “ABC” function: o
+ Capture requirements associated with “ABC” functionality per assigned FDAL. 
+ Validate new “ABC” requirements per ARP4754Α compliant process. 
+ Verify “ABC” implementation meets intended “ABC” function requirements. 
+ Capture requirements in Displays (ATA 31) and Maintenance (ATA45) associated 
+with changed IMA functionality per newly assigned FDAL.
+ Validate new IMA requirements per ARP4754Α compliant process. 
+ Validate unchanged IMA requirements per ARP4754Α similarity to certificated 
+functionality.
+ Verify old and new IMA implementation meets intended IMA function requirements. 
+Table 22 summarizes the objective evolution and highlights new configuration management o
+(CM) system control (SC) category.
+Modifications are anticipated to affect software only. Should hardware modifications be o
+required, the necessary PHAC(σ) will be created and approved for the modification.
+ 84

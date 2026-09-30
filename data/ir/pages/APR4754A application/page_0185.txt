@@ -1,0 +1,21 @@
+44 What, if any, additional guideline material(σ) would help to satisfy regulatory expectations?
+ R1 Skip
+ R2 Prioritize the following 4 aspects of the integral process: Planning, Safety Assessment,
+Requirement Validation, Implementation Verification.
+ R3 More detailed explanations to the questions/issues raised in point 6, 18, 40 and 42 above.
+ R4 Training of the ARP4754Α would help to understand the aim end reduce the window of
+interpretations
+ R5 Training
+ R6 No comment
+ R7 Skip
+ R8 The details of the flow of information between guideline documents (ARP 4754, ARP 4761,
+DO-178, DO-254) can be presented with an example containing SW and AEH
+development.
+ R9 Although we have neither exercised nor studied them yet, we feel that the following FAA
+documents can be helpful on this matter: DOT/FAA/AR-08/34, Requirements Engineering
+Management Findings Report, May 2009. DOT/FAA/AR-08/32, Requirements Engineering
+Management Handbook, June 2009.
+ R10 Don'τ know.
+ R11 I understand that ARP4754Α do not want to limit the applicant or suppliers, but I think it will
+be helpful if providing good Checklist and document template as examples.
+ 173

@@ -1,0 +1,35 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Display Control Display Control AP Control Panel Wx Cntllr Panel Panel
+Wx
+Radar TCAS
+PFD EICAS MFD PFD
+GPS GPS
+Antenna Antenna
+Communication Network
+MCDU MCDU
+Air Data Air Data
+Sensor Sensor
+Right IMA 1 Left IMA 1
+Inertial Sensor
+Inertial Sensor
+Right IMA 2 Radar Left IMA 2
+Altimeter Audio Control Audio Control
+Panel Panel
+Pitch Trim
+Left Radio Right Radio Standby Flight Display
+Set Set
+AP AP AP
+Ail Elev Rudder
+Servo Servo Servo VOR/LOC, GS, MB,
+DME, ATC, COM ADF Antennas Antenna
+Figure 3 SAAB-EII 100 Avionics Architecture
+Α.1 CP100 3 FHA Summary:
+The associated average flight profile for the SAAB-EII 100 Airplane is presented in Figure 4 with 
+flight phase description identified in Table 1.
+The functional failure conditions developed for the Avionic System are summarized in Table 2 (see 
+SE100AVFHA for the full FHA analysis).
+Editor’σ Note: SE100AVFHA was not developed as part of the scenario example artifacts .
+Editor’σ Note: Normally, only the catastrophic and hazardous failure conditions would be included and
+summarized in the certification plan. Major and minor failure conditions have been included as part of this
+scenario development since they will be used later in the example.
+ 20

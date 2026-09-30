@@ -1,0 +1,62 @@
+Avionics Development Plan ADP100 2/18/2015 Title Doc No. Date
+Table 6 Avionics System ARP4754Α (Appendix Α) Summary of Objectives Mapping
+ARP4754Α SAAB-EII 100
+Objective
+Ref No Objective Description Output Reference Data
+1.0 Planning
+SAAB-EII 100 Certification
+Certification Plan Plan,CP010
+Avionics Certification Plan, ACP100
+Avionics Safety Program Plan, Doc
+Safety Program Plan System development and integral
+# TBA
+processes activities are defined and
+Development Plan 1.1 / 1.2
+include transition criteria and Avionics Development Plan,
+Validation Plan
+interrelationships. ADP100 (this document)
+Verification Plan
+Configuration Management
+Doc # TBA
+Plan
+Process Assurance Plan Doc # TBA
+2.0 Aircraft and System Development Process and Requirements Capture
+2.1 Aircraft-level functions, functional
+SAAB-EII 100 Avionics Function List of Aircraft-level functions
+requirement, functional interfaces and
+Aircraft-level Requirements Requirements, Doc # TBA
+assumptions are defined
+2.2 Aircraft functions are allocated to
+System Requirements
+systems
+2.3 System requirements, including
+assumptions and system interfaces are System Requirements
+defined.
+Company “Α” objective 2.4 System derived requirements (including
+derived safety-related requirements) System Requirements
+are defined and rationale explained.
+2.5 System architecture is defined. System Design Description
+2.6 System requirements are allocated to
+Item Requirements
+the items.
+2.7 Appropriate item, system and aircraft Airplane level – Avionics Function
+integrations are performed. Validation & Verification Report, Verification Summary
+Doc # TBA
+3.0 Safety Assessment Process
+SAAB-EII 100 Airplane (Avionics)
+Aircraft FHA
+FHA, SE100AvFHA
+The aircraft/system functional hazard
+
+assessment is performed. 3.1
+System FHA Avionic System FHA is Company
+ “Α” objective.
+SAAB-EII 100 Preliminary Aircraft
+The preliminary aircraft safety
+Safety Assessment (PASA), PASA
+assessment is performed. 3.2
+SE100PASA
+The preliminary system safety
+Company “Α” objective PSSA
+assessment is performed. 3.3
+ 44

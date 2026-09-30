@@ -1,0 +1,35 @@
+25 Please describe any ARP4754Α requirement verification issues encountered.
+ R1 Verification process was more structure than validation process. Because seeing the
+results/outputs were the concern of each party therefore more attention was paid for this
+process. But documenting of what was done as guided by 4754Α was an issue.
+ R2 Skip
+ R3 Implementation during development process needed to be established, ε. γ. with respect to
+determination of disciplines to participate and resources planning Verification rigor
+sometimes unclear.
+ R4 Traceability and coverage becomes α high effort, if the verification engineering was not
+deeply involved within the validation process, causing inconsistencies in the verification
+either verification of requirements was not done or duplicated at different levels.
+ R5 Not covered yet
+ R6 NA
+ R7 1) First issue roots back to requirement capture and validation process: misinterpretation
+might raise on what needs to be verified, or possibly how it should be verified.
+2) For Verification Method “similarity”, it is unclear how much of the “similar” equipment or
+system need to be shown. The main issue is due to disclosure obligation with α third party
+airplane manufacturer.
+3) Combination of numbers of Verification Method to be applied (ε.γ. 2), FDAL
+classification (ε.γ. Α) and mandatory method (ε.γ. test) as per System Verification Plan
+might not be feasible. Negotiation with Regulatory Authorities and Airplane Manufacturer is
+not avoidable.
+ R8 We are confused with the need to prepare α separate verification plan, the need for the
+plan and the content of this plan is not clear in ARP.
+ R9 Some minor issues were related to credits from verification performed at different levels of
+systems and items development; to the level of formalization of verification environment in
+the verification procedures and results; and to the definition of criteria for verification
+methods others than test. Some other issues were related to independence for verification
+activities with regarding design activities and to the level of details in description of test
+objectives and test cases, when considering the requirements set covered.
+ R10 None
+ R11 According to ARP475Α, the requirement verification not only refers test after the prototype,
+to verify the design data against the requirement is also part of the requirement verification.
+But at moment we do not have good way for this except review.
+ 156

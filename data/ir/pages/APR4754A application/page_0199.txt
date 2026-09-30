@@ -1,0 +1,41 @@
+Aircraft Development Process - ARP4754Α
+Aircraft
+Functions
+System Development Process - ARP4754Α
+Systems
+Sub-System Development Process - ARP4754Α
+Electronic Hardware Development Process -DO-254
+Software Development Process - DO-178
+Implementation
+Equipment
+Figure 24 ARP4754Α Certification Support Summary
+C 2.1 Development Process – Historical Perspective
+Α look at the timeline associated with the creation of the various industry development process documents
+helps establish α basic consideration as to what and why ARP4754Α objectives were established. Figure
+25 presents α synopsis of guideline/guidance document publications over the last 23 years. It is
+reasonably safe to assume that α synergy with DO-178, published in 1992, was established for the
+systems objectives published in ARP4754 in 1996.
+The rationale for the resultant objectives and guidelines in ARP4754 and subsequently ARP4754Α, are
+thereby primarily based on similarity to those objectives that were established earlier in time by DO-178Β.
+
+
+§ Part 25 Product Safety Assessment Process – ARP4761
+FHA
+FC,
+Classifications
+Mistake in
+Requirements,
+Design,
+Implementation Error causes
+Failure Failures
+cause or
+contribute to
+§25.1309
+FC
+SSA/ASA
+Failure
+Loss or
+Malfunction of
+Implementation
+Why Summary ρ3.vsd
+187

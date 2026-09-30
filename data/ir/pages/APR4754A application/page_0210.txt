@@ -1,0 +1,42 @@
+Objective Differences:
+1. The DO254 LCP “Recommends” ensuring hardware requirements are complete and correct but is
+inconsistent with the AC/Sys and software LCPS in not accomplishing the objective with independence
+for assurance levels Α and Β. The AC/Sys LCP also has “As Negotiated” for validation of requirements
+at assurance level Δ, while the DO LCPs maintain “Recommended”.
+Analysis: It is unclear why the hardware requirements validation is not accomplished with independence
+similarly to AC/Sys and software LCPs. As α consequence of this difference, it is conceivable that
+hardware validation activities would be adapted to implement independence in order to have consistent
+development processes across α project containing all of LCPs.
+Similarly, if the HW and SW LCPs recommend validation of requirements for assurance level Δ, the
+AC/SYS LCP would need to be negotiated to “Recommended” to maintain project consistency.
+The AC/Sys and hardware LCP authors should establish consistency and revise the LCPs accordingly.
+2. Validation of assumptions has no equivalent objective identified in the DO LCPs.
+Analysis: This seems to be α set of “missing” (or at least not highlighted in the guidance material)
+objectives from the DO life cycle processes regarding assumptions. Many assumptions are made at these
+lower levels of development which may experience the same benefits experienced at the aircraft and
+system levels had the validity been tracked and/or validated prior project completion.
+The DO LCP authors should consider adding objective or highlighting validating assumptions made during
+hardware and software development and revise the LCPs accordingly.
+3. Derived requirement objectives vary across the LCP with different accomplishment criteria or by not
+having any objectives. For assurance levels Α and Β, all of the LCPs “Recommend” accomplishing
+validating captured requirements. The AC/Sys LCP recommends accomplishing this object with
+independence whereas the DO LCPs do not. Additionally, the recommendation disappears for
+validation of software requirements for assurance levels C and Δ.
+Analysis: It is unclear why some categories of derived software requirements are not validated with
+independence. It is also unclear as to why the software LCP varies the objectives within the domain
+based on high and low level requirement definitions.
+The software LCP authors should identify the rationale that validates high software requirements with
+independence yet validates the traced children low level requirements without independence.
+4. Validation records generation has no equivalent objective identified in the DO LCPs.
+Analysis: This result is probably due to the comparison strategy used in this analysis. The hardware and
+software DO LCPs contain the generation of validation data, as noted by the common satisfaction of
+establishing requirement completeness and correctness. The DO LCPs do not call this out as α separate
+or unique completion objective.
+Data CM Category Differences:
+There were no configuration management category differences identified for validation objectives between
+the ARP and DO LCPs.
+C 4.4 Verification Process Objectives Comparison
+Figure 30 graphically summarizes the objectives and control categories for verification of requirements
+between ARP4754Α and the DO LCPs. In general, the basic Verification objectives are consistent across
+the processes for assurance levels Α through Δ; with only minor differences at assurance level Δ.
+ 198

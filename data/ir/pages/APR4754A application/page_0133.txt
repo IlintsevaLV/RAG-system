@@ -1,0 +1,35 @@
+Avionic System Development Plan ASDP300 5/28/2015 Title Doc No. Date
+Α.3 ASDP300 6 Avionic System Configuration & Change Management:
+Configuration management of development artifacts are the responsibility of the Company “Α” 
+originating group.
+The central Company “Α” CM organization provides tools, services and process to assist in this 
+task.
+Artifacts created during the development and used as part of the certification process will be 
+managed per the detailed process described in the “Company Α Configuration Management Plan”
+appropriate to the level of rigor established for the artifact.
+Artifacts to be managed include: 
+Avionic System Development Plan (this document), o
+Avionic system requirements documentation, o
+Avionic system safety assessments, o
+Avionic system validation evidence, o
+Avionic system verification procedures, o
+Avionic system verification evidence, o
+Avionic system validation & verification accomplishment summary. o
+Current ARP4754 CM objective satisfaction will be compared to ARP4754Α CM objectives for 
+areas of difference identification.
+Any CM process differences will be noted for discussion and negotiated evolution. 
+Requirements, safety assessment and verification procedure artifacts will be managed using detail 
+change management process (Change control level 1 aka System CM category 1)
+All other program artifacts will be managed using version control change management process 
+(change control level 2 aka System CM Category 2).
+Α.3 ASDP300 7 Avionic System Process Assurance:
+Process assurance is integral to the development activities to ensure that the system development 
+and supporting processes are appropriate, maintained, and followed.
+Process assurance is performed by the Company “Α” Quality Assurance (QA) organization. 
+Process assurance is evaluated against: 
+ARP4754Α objectives based on development assurance rigor (FDAL), o
+DO-178 objectives based on development assurance rigor (IDAL). See PSAC for specific o
+details.
+DO-254 objectives based on development assurance rigor (IDAL). See PHAC for specific o
+details.
+ 121

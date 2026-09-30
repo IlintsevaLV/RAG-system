@@ -1,0 +1,40 @@
+Avionics Certification Plan CP100 Title Doc No.
+1 2
+Regulation Regulation Text Compliance Approach
+(δ) Compliance with the requirements of
+paragraph (β) of this section must be through analysis system failures and
+shown by analysis, and where combinations of failures in support of the
+necessary, by appropriate ground, regulatory objectives identified in
+flight, or simulator tests. The analysis paragraph (β). This analysis will be
+must consider—
+(1) Possible modes of failure, testing for specific failures and/or failure
+including malfunctions and damage combinations.
+from external sources.
+(2) The probability of multiple failures AC20-174 Development of Civil Aircraft
+and undetected failures. and Systems
+(3) The resulting effects on the
+airplane and occupants, considering AC/AMJ25.1309 System Design and
+the stage of flight and operating
+conditions, and
+(4) The crew warning cues, corrective
+action required, and the capability of
+detecting faults.
+
+2/18/2015 Date
+Table 4 Avionics Function Means of Compliance (MoC) Matrix
+3 4 5
+MoC Compliance Artifacts
+The Avionics Safety Analysis will evaluate 1 1
+
+2 Inspection 2 Avionics Certification Summary
+
+3 Analysis 3 SAAB-EII 100 Airplane Safety Analysis
+supplanted by ground, flight and simulator (ASA) - Avionics
+
+4 Test 4 Avionics Certification Lab Test Report
+
+5 Test 5 Flight Test Certification Report
+
+6 Test 6 Ground Test Certification Report
+Analysis, RTCA Draft Arsenal revised 2002
+36

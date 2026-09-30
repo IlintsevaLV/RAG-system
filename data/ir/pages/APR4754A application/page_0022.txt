@@ -1,0 +1,35 @@
+BASELINE ARCHITECTURE
+The baseline architecture captures the activities associated with development of α new airplane
+type to be certificated under 14CFR Part 25. The airplane itself is of conventional construction
+and conventionally controlled (non-electronic flight controls). The avionics suite to be included
+in the design is α re-application of an Integrated Modular Avionics (IMA) based avionic system
+previously certificated on α different airplane manufacturer’σ type airplane.
+The functions included in the IMA avionics include:
+ 1 Autopilot (autoflight) (ATA22) ,
+ Communications (ATA23),
+ Displays (ATA31),
+ Navigation/Flight Management (ATA34),
+ Maintenance (ATA45).
+Note 1 - Air Transport Association function nomenclature has been used to enhance readability.
+Artifact examples of the following airplane level ARP4754Α objectives are developed:
+ Airplane Certification Plan,
+ Avionics Certification Plan,
+ Avionics Development Plan,
+ Avionic System Preliminary Aircraft Safety Assessment (PASA).
+Artifact examples of the following system level ARP4754Α objectives are developed:
+ Avionic System Development Plan.
+STUDY ARCHITECTURE 1
+This architecture scenario captures the development of an update to an existing IMA avionic
+system implementation on the same legacy airplane as originally certificated. Α revision to an
+existing IMA avionic function as well as the introduction of α new function to the IMA is explored.
+No airplane function changes are contemplated. The IMA system architecture, with the same
+initial function set, as that postulated in the baseline architecture scenario is used.
+In this scenario, revision artifacts are developed for updates to one of the existing implemented
+functions (Flight Management (ATA34)) and for the addition of new functionality to the
+maintenance function (ATA45). The new function addition affects multiple elements within the
+implementation which are also explored.
+Artifact examples of the following airplane level ARP4754Α objectives are developed:
+ Project Specific Certification Plan (PSCP).
+Artifact examples of the following system level ARP4754Α objectives are developed:
+ Avionic System Development Plan.
+ 10

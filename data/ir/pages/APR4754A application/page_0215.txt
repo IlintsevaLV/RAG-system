@@ -1,0 +1,20 @@
+Baselines & traceability established DO-178Β Baselines & traceability established DO-178C Configuration items are defined DO-178C Archive & retrieval established DO-178C SW environ. control established DO-178Β Configuration items are defined DO-178Β Configuration Archive & retrieval established DO-178Β SW environ. control established DO-178C Configuration items uniquely identified SW Load control established DO-178C Change control established DO-178C SW Load control established DO-178Β Change control established DO-178Β Baselines & traceability established Baselines & derivatives established Management
+Configuration items are defined Archive & retrieval established Archive & retrieval established
+Objectives Change control established Change control established
+Assurance
+Level
+ARRRRRRRRRRRRRRRRRRRRBRRRRRRRRRRRRRRRRRRRRCRRRRRRRRRRRRRRRRRRRRDARRRARRRRRRRRRRRRRRRE
+Legend
+System Objective – ARP4754Α Software Objective – DO178C
+Software Objective – DO178Β Hardware Objective – DO254
+CM Level 1 CM Level 2
+R - RI – R Α – Recommended ω/ Independence As negotiated
+Figure 31 Configuration Management Objectives Comparison Summary
+C 4.6 Process Assurance Objectives Comparison
+Figure 32 graphically summarizes the objectives and control categories for process assurance between
+ARP4754Α and the DO LCPs. The Process Assurance objectives are consistent across the processes for
+assurance levels Α through C; with minor differences at assurance level Δ.
+Objective Commonality:
+All of the development process documents have consistent “Recommended” PA objectives for:
+ Evaluating process activities and processes in accordance with developed plans.
+ 203

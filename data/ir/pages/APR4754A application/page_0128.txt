@@ -1,0 +1,47 @@
+Avionic System Development Plan ASDP300 5/28/2015 Title Doc No. Date
+CM
+Process
+Changed Reqts Baseline “Ξ.Y”
+New Reqts
+SAAB-EII 300
+Avionics System
+Avionics System
+Requirements Validation
+Requirement Set Chgd Valdn evidence
+Process
+New Valdn evidence
+SAAB-EII 300
+Validation
+Validation Artifacts Validation Artifacts Process
+(valid by similarity) (Validation Matrix)
+Changed Procs CM
+Process New Procs
+SAAB-EII 300
+SAAB-EII 300
+Verification Avionics System
+Verification
+Procedure Artifacts Verification
+Evidence Artifacts
+Procedures
+CM Category
+Baseline Verification Updates
+SAAB-EII 300 Artifacts
+CM Level 1 Avionics System (Verification matrix)
+V & V Report
+CM Level 2
+(Pedigree per ARP4754)
+ Scenario 2 baseline evolution ρ12Jul15.vsd
+Figure 22 Baseline Ξ.Y Evolution on SAAB-EII 300
+Airplane Requirements Level
+Company “Α” Avionic System
+Requirements Level
+IMA100 Avionics
+System Requirements
+Specification
+Trace
+Avionics Function 1 Avionics Function 2 Avionics Function 3 Avionics Function ν Avionics Platform
+Requirements Requirements Requirements Requirements Requirements
+Specification Specification Specification Specification Specification
+ Scenario 1 Avionics System tracing ρ06Mar15.vsd
+Figure 23 SAAB-EII 300 Baseline Requirements and Tracing
+ 116

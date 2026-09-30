@@ -1,0 +1,34 @@
+Option 1
+Level D Level B Level B
+Objectives Objectives Objectives
+F2 F1
+V&V V&V V&V V&V R 2 2 2 2 RRRR Planning Planning Planning Planning Planning
+RIIII 1 1 1 1 Safety - FHA Safety - FHA Safety - FHA Safety - FHA Safety - FHA RRRRRDDDD 1 1 1 1 Reqts Cap Reqts Cap Reqts Cap Reqts Cap Reqts Cap RRRRIIII 2 2 2 2 Reqts Valid Reqts Valid Reqts Valid Reqts Valid Reqts Valid RRRRRRII 2 2 2 2 Reqts Verif Reqts Verif Reqts Verif Reqts Verif Reqts Verif RRIIII 1 1 1 1 Safety Proc Safety Proc Safety Proc Safety Proc Safety Proc RRRRRRRRR 2 2 2 2 CM CM CM CM CM
+RRRR 1 1 1 1 Cert Coord Cert Coord Cert Coord Cert Coord Cert Coord
+IIII 2 2 2 2 PA PA PA PA PA RRRR
+F1 at Level B alone satisfies
+objectives
+
+Hazardous Legend
+Failure R - Recommended
+I Condition R - With Independence
+D R – With Derived Reqt Identification
+V&V R – With Valid. & Verif. Planning
+1 – CM per SCC1
+2 – CM per SCC2
+Independence satisfied Option 2
+between F1 & F2
+Level C Level C
+Objectives Objectives
+F1 F2
+V&V V&V 2 2 2 R R Planning Planning
+R R 1 1 1 Safety - FHA Safety - FHA
+D D 2 1 1 Reqts Cap Reqts Cap RRRR 2 2 Reqts Valid Reqts Valid
+R R 2 2 Reqts Verif Reqts Verif
+R R 1 1 Safety Proc Safety Proc
+R R 2 2 2 CM CM
+R R 1 1 Cert Coord Cert Coord
+I I 2 2 PA PA R R
+Objectives identical to Level B
+except for highlighted areas.
+214

@@ -1,0 +1,43 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+Α.1 SDP100 1 Introduction:
+Plan describes the system development process for Avionics functions to be installed on the 
+SAAB-EII 100 airplane.
+Plan addresses engineering life cycle including function design, requirements generation, analysis, 
+requirements validation, function verification for re-used functionality and modified functionality.
+Plan includes the identification and assignment of the appropriate Item Development Assurance 
+Level (IDAL) rigor to be performed for airborne electronic hardware and software development.
+Plan fulfills the intent of ARP4754Α objectives planning for: 
+Development (section 4), o
+Requirements Management (section 5.3), o
+Validation (section 5.4), o
+Verification (section 5.5). o
+Α.1 SDP100 2 Avionics System Description:
+The Company “Α” Avionics Flight Deck integrates multiple avionic functions into α single Integrated
+Modular Avionic (IMA) system implementation:
+The Integrated Modular Avionics (IMA – ATA 42) includes the following functions: 
+IMA implementation certificated on “OTHER” aircraft o
+Baseline IMA includes the following system functions: o
+ Autopilot/autoflight (ATA 22), 
+ Communications (ATA23), 
+ Displays (ATA31), 
+ Navigation/Flight Management (ATA34), and 
+ Maintenance (ATA 45). 
+Α.1 SDP100 3 Avionics System Development Overview:
+The avionics system development process will ensure support of the certification process outlined 
+in the SAAB-EII 100 Avionics Certification Plan (CP100).
+The avionics system development process is structured to ensure satisfaction of ARP4754Α 
+objectives commensurate with the assigned development assurance level (FDAL).
+This plan responds to the following ARP4754Α planning objectives: 
+Requirements Management, o
+Requirements Validation, o
+Requirement Verification, o
+Configuration Management, o
+Process Assurance. o
+The avionics system development process is based on re-using an integrated avionic 
+implementation certificated on another airplane.
+The SAAB-EII 100 avionics system development process will use α combination of 
+similarity/service experience to previous program ARP4754Α objective data and the generation of
+new objective evidence for the unique airplane functionality to satisfy the SAAB-EII 100 ARP4754Α
+development life cycle.
+Figure 8 presents α high level summary of the Avionics System development activities. 
+ 60

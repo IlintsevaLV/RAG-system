@@ -1,0 +1,28 @@
+12 What key issues(σ) was/were the subject of any certification authority or OEM negotiation?
+ R1 It was α modification project so as authority side we tried to follow section 6 of 4764Α but
+some issues raised to agree on impact analyses and output documentation. I think section
+6 should provide more information to manage the modification of an aircraft. Also
+modifications are mostly performed by companies rather than TC holder and those
+companies usually don’τ have enough information about aircraft to assess the modification
+impact (for example no original safety assessments).
+ R2 Looking from the regulatory perspective, the main concern I have is the “ARP4754Α
+process specialists” at the companies are too busy designing the processes, they are
+removed from the development itself (which often runs concurrently) and consequently
+there can be disconnects between what they think is done vs what is actually done. Thus
+the full spectrum of benefits of applying the ARP is not realized until the next program
+(cost/schedule/quality of product/smoother cert).
+ R3 Skip
+ R4 Compliance to ARP was one of the mandatory subjects.
+ R5 NA
+ R6 NA
+ R7 1) Amount of validation/verification methods to be applied;
+2) Involvement of Safety Engineer in reviews, problem and change assessment.
+ R8 Item DAL levels.
+ R9 Their level of involvement and the rigor in the compliance demonstration, considering the
+systems that is introducing any new technology or whose architecture is highly integrated
+and complex, or, yet, if the supplier has few previous experience either in the development
+of the sub-system or equipment being supplied or in the ARP4754 compliance
+demonstration for it.
+ R10 Don'τ know.
+ R11 DAL allocation.
+ 144

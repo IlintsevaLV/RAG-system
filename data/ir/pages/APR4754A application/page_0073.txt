@@ -1,0 +1,26 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+Airplane Level Avionic
+Function Requirements
+Modify System Level Avionic
+Function Requirements for
+SAAB-EII 100 Airplane Modify System Modify System
+Level Avionic Level Avionic
+Input Output
+Requirements Requirements
+for SAAB-EII 100 for SAAB-EII 100
+Airplane Airplane
+Existing “Certificated” IMA
+Requirements
+Function Changes
+(as req’δ)
+Output Changes (as req’δ) Input Changes (as req’δ)
+Existing “Certificated” IMA
+Implementation
+Cntl Arch Avionics Sys Dev Plan ρ01Feb15.vsd
+Figure 8 Generalized Avionics System Development Life Cycle
+Α.1 SDP100 3.1 Reuse Analysis Plan:
+Table 16 presents the top level SAAB-EII Avionics Development plan and strategy for reuse of 
+baseline avionic system functionality.
+Table 17 presents the planned program strategy nomenclature descriptions. 
+
+ 61

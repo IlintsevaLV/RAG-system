@@ -1,0 +1,17 @@
+HL/LL reqts trace to sys/HL reqts DO-178C HL/LL reqts accurate & consistent DO-178Β SW arch. compatible with target DO-178C HL/LL reqts trace to sys/HL reqts DO-178Β SW arch. compatible with target DO-178Β
+HL/LL reqts accurate & consistent DO-178C
+AC/Sys/Item reqts complete & correct
+Derived HW rets complete & correct Validation Validation substantiation provided
+Assumptions are justified & valid HW reqts correlated to sys reqts
+HW reqts complete & correct Derived reqts justified & valid Objectives
+Reqts are traceable
+Assurance
+Level
+RRRRRARRRRRRRRRIIIIIRRRRBRRRRRRRRRRIIIICRRRRRRRRRRRRDARRRAARARRRAE
+Legend
+System Objective – ARP4754Α Software Objective – DO178C
+Software Objective – DO178Β Hardware Objective – DO254
+CM Level 1 CM Level 2
+R - RI – R Α – Recommended ω/ Independence As negotiated
+Figure 29 Validation Objectives Comparison Summary
+ 197

@@ -1,0 +1,67 @@
+Avionics Development Plan ADP100 Title Doc No.
+ARP4754Α
+Objective
+Ref No Objective Description Output
+Product implementation complies with
+5.3
+aircraft, and system requirements.
+Results
+5.4 Safety requirements are verified.
+ASA,
+SSA
+Verification compliance substantiation
+5.5
+is included.
+Assessment of deficiencies and their
+5.6
+related impact on safety is identified.
+6.0 Configuration Management Process
+6.1 Configuration items are identified. CM Records
+Configuration baseline and derivatives
+6.2
+are established.
+Problem reporting, change control,
+6.3 change review, and configuration
+status accounting are established.
+6.4 Archive and retrieval are established. CM Records
+7.0 Process Assurance Process
+Assurance is obtained that necessary
+plans are developed and maintained for 7.1
+all aspects of system certification.
+Development activities and processes
+are conducted in accordance with those 7.2
+plans.
+-------- End of ADP100 Avionics Development Plan Excerpt-------
+
+2/18/2015 Date
+SAAB-EII 100
+Reference Data
+Avionics Function Verification
+Verification Procedures
+Procedures, Doc # TBA
+Airplane level – Avionics Function
+Validation & Verification Report,
+Doc # TBA
+ Verification Results
+Flight Test Certification Report
+Ground Test Certification Report
+Avionics Function Verification
+Verification Procedures and Procedures, Doc # TBA
+Airplane level – Avionics Function
+Validation & Verification Report,
+Doc # TBA
+Verification Matrix Airplane level – Avionics Function
+Verification Summary Validation & Verification Report,
+Verification Summary Doc # TBA
+Flight Test Certification Report, Doc
+# TBA
+Problem Reports
+Ground Test Certification Report,
+Doc # TBA
+Configuration Baseline Records
+Title and Doc # TBA
+Problem reports CM Records
+Evidence of Process Assurance
+Title and Doc # TBA
+Evidence of Process Assurance
+46

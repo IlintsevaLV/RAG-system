@@ -1,0 +1,42 @@
+Project Specific Certification Plan APSCP300 5/28/2015 Title Doc No. Date
+Α.3 APSCP300 1 Plan Purpose:
+This airplane project specific certification plan (PSCP) defines the certification activities planned as 
+part of an equipment addition and modification to the IMA avionics platform on the SAAB-EII 300
+airplane.
+The plan will highlight the specific modification activities planned for the addition of α TSO-092C 
+Airborne Ground Proximity Warning System (AGPWS) line replaceable unit (LRU) to the SAAB-EII
+300 airplane and integration of the AGPWS into Company “Α” IMA100 avionics system. This plan
+will describe the development and implementation strategy for the modification and the safety
+aspects of the planned changes.
+Α.3 APSCP300 2 Project Background:
+Legacy SAAB-EII 300 airplane certificated under 14CFR Part 25 Transport Category airplane 
+Legacy airplane certificated per conventional development processes o
+Editor Note: Conventional development processes means no specific ARP4754Α artifacts were created as
+part of the development effort.
+Company “Α” provided Integrated Modular Avionics (IMA) Model 100 based flight deck functionality 
+(IMA – ATA 42) (see Figure 1)
+IMA developed to ARP4754, DO-178Β, DO-254 & DO-297 o
+IMA includes the following functions: o
+ Autopilot/autoflight (ATA 22), 
+ Communications (ATA23), 
+ Displays (ATA31), 
+ Navigation/Flight Management (ATA34) and, 
+ Maintenance (ATA 45). 
+Α.3 APSCP300 3 Planned Modifications:
+Airplane modification for installation of Company “R” TSO-092C AGPWS LRU 
+Addition of GPWS situational awareness airplane function o
+ Includes additional wiring, installation tray, 
+ Connection to airplane 28vdc electrical power. 
+Existing Avionics platform (IMA), Part Number IMA100, will have the following changes 
+incorporated:
+AGPWS functional changes to IMA hosted functions: o
+ Activation of provisioned AGPWS software function, 
+ Activation of included spare digital (ARINC 429), discrete and analog interfaces, 
+ Activation of IMA communication network for AGPWS information, 
+ Activation of IMA annunciation function for display of AGPWS cautions and 
+warnings.
+Modifications to the IMA100 will be accomplished using existing Company “Α” supplier system, 
+software and hardware development processes.
+System architecture modifications presented in Figure 18. 
+Modification activity schedule is presented in Table 27. 
+ 101

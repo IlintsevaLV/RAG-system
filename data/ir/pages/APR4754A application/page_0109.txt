@@ -1,0 +1,32 @@
+Avionic System Development Plan ASDP200 7/03/2015 Title Doc No. Date
+Α.2 ASDP200 6 Avionic System Configuration & Change Management:
+Configuration management of development artifacts are the responsibility of the originating group. 
+The central Company “Α” CM organization provides tools, services and process to assist in this 
+task.
+Artifacts created during the development and used as part of the certification process will be 
+managed per the detailed process described in the “Company Α Configuration Management Plan”
+appropriate to the level of rigor established for the artifact.
+Artifacts to be managed include: 
+Avionic System Development Plan (this document), o
+Avionic system requirements documentation, o
+Avionic system safety assessments, o
+Avionic system validation evidence, o
+Avionic system verification procedures, o
+Avionic system verification evidence, o
+Avionic system validation & verification accomplishment summary. o
+Current ARP4754Α CM objective satisfaction will be compared to ARP4754Α CM objectives for 
+areas of difference identification.
+Any CM process differences will be noted for discussion and negotiated evolution. 
+Requirements, safety assessment and verification procedure artifacts will be managed using detail 
+change management process (Change control category 1 aka CM Level 1).
+All other program artifacts will be managed using version control change management process 
+(change control category 2 aka CM Level 2).
+Α.2 ASDP200 7 Avionic System Process Assurance:
+Process assurance is integral to the development activities to ensure that the system development 
+and supporting processes are appropriate, maintained, and followed.
+Process assurance is performed by the Company “Α” Quality Assurance (QA) organization. 
+Process assurance is evaluated against: 
+ARP4754Α objectives based on development assurance rigor (FDAL), o
+DO-178 objectives based on development assurance rigor (IDAL). See PSAC for specific o
+details.
+ 97

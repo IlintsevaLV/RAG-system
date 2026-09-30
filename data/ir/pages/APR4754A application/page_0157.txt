@@ -1,0 +1,36 @@
+13 What data/documentation do/did you submit to your certification authority or OEM to
+support ARP4754Α?
+ R1 As military authority side we incorporated all documents that we required in the contract.
+We also referenced 4754Α in the contract but Contract Data Requirement List took priority.
+ R2 Skip
+ R3 As system supplier we submit validation and verification plans, system development plan,
+safety and reliability plan to the aircraft manufacturer
+ R4 Compliance Matrix, System Development Plan, Process Assurance Plan, Validation and
+Verifcation Plan
+ R5 SSA
+ R6 NA
+ R7 System Development Plan, Requirements Validation Plan, Requirements Verification Plan,
+Process Assurance Plan, Configuration Management, System Requirements Document,
+System Validation Summary Report including matrix, System Verification Summary Report
+including matrix
+ R8 System Safety Program Plan, Certification Plan, FHA, PSSA, SSA.
+ R9 See 11.
+ R10 System Description Documents, Test Procedures, Test Results
+ R11 Certification support Plan, FHA/PSSA/SSA data, Verification plan, summary report.
+14 How many Designated Engineering Representatives (DERs) or Authorized Representatives
+(ARs), who specialize in ARP4754Α objectives, does your company have?
+ R1 We have trained our specialist to understand the objectives of 4754 but it takes time to
+specialize in this guideline.
+ R2 Skip
+ R3 Skip
+ R4 None
+ R5 Don'τ know.
+ R6 NA
+ R7 Skip
+ R8 None
+ R9 Eleven (11) registered in Certification Authority records and, so far, four (4) had effectively
+acted in reviewing ARP4754() data for compliance.
+ R10 Two
+ R11 There are 2 DERs (system and equipment) in my company, in CAAC policy there is no
+specialized DER for ARP4754Α objective, neither for SW or E HW.
+ 145

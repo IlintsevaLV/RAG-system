@@ -1,0 +1,74 @@
+Avionics Certification Plan CP100 Title Doc No.
+Table 2, Avionic FHA Summary summarizes the following functional hazard assessment information:
+Column 1: Description of the airplane level functional area
+Column 2:
+Column 3: Failure condition (hazard) description
+Column 4:
+Column 5:
+Column 6:
+1 2 3
+Failure Condition
+Function FC # (Hazard Description)
+Loss of all attitude display
+31.01 information in cockpit
+(including standby)
+Display of misleading pitch or
+roll attitude to both pilots
+31.02
+simultaneously (including
+standby)
+Display of misleading pitch or
+31.03 Situational
+roll attitude to one pilot.
+Awareness:
+Primary Flight
+Loss of primary attitude
+Display (4.1.1) 31.04
+display to both pilots
+Loss of all airspeed display
+31.05 information including standby
+airspeed
+Loss of primary airspeed
+31.06 display information to both
+pilots
+
+2/18/2015 Date
+Unique failure condition (hazard) tracking identification number
+Flight phase(σ) of interest for the postulated failure condition identified in column 3.
+Failure condition effects on airplane, occupants and crew qualitative description.
+Failure condition classification based on the descriptions entered in column 5.
+Table 2 SAAB-EII 100 Avionics FHA Summary
+4 5 6
+Flight Effect of Failure Condition on
+Phase Aircraft/Crew Classification
+Crew is unable to determine correct
+airplane attitude using flight deck
+Flight Catastrophic
+instruments resulting in loss of
+airplane.
+Crew is unable to determine correct
+airplane attitude using flight deck
+Flight Catastrophic
+instruments resulting in loss of
+airplane.
+Excessive crew workload. Crew must
+use cross-side display and standby
+Flight Hazardous
+attitude instrument to recognize
+condition.
+Significant increase in crew workload.
+Crew must rely on standby
+Flight Major
+instrument for attitude reference
+information
+Crew is unable to determine correct
+airplane airspeed using flight deck
+Flight Catastrophic
+instruments resulting in loss of
+airplane.
+Significant increase in crew workload.
+Crew must rely on standby
+Flight Major
+instrument for airspeed reference
+information.
+22

@@ -1,0 +1,25 @@
+33 Describe the ARP4754A safety process activity issue(s) (e.g. FHA, PASA, PSSA, FTA, CCA).
+ R1 We had issues related to Common Mode Analysis outputs especially when applicant use
+architectural mitigation for DAL assignment. Companies didn’t want to show independence
+for DAL assignment (for HAZ and MAJ FC) by CMA. They provided evidence of CMA for
+only CAT failure conditions (for no single failure requirements).
+ R2 Skip
+ R3 As a system supplier we have always been involved in the whole V&V process form PSSA
+to SSA incl. FTA, CMA, PRA, FMEA. No special issues were experienced due to the ARP
+4754A.
+ R4 None
+ R5 All above necessary for Safety Case development
+ R6 No comment
+ R7 Skip
+ R8 We had confusion on whether the probabilistic requirement should match with the DAL
+assigned to lower level events in a Fault Tree. We had confusion about how to transform
+the results of CMA into safety requirements.
+ R9 In general, the systematic and complete analysis performed for FHA, PASA, PSSA, FTA,
+CCA are generated late in aircraft development when the definitions are almost freeze due
+to the lack of resources in the early phases. This causes some rework late in design after
+the throughout analysis is completed for final certification. Also, due to the different mindset
+the communication between safety specialist to project management and the project
+designers.
+ R10 PSSA tracing to system requirements has been difficult.
+ R11 Skip
+ 164

@@ -1,0 +1,18 @@
+35 Please describe the context of any architectural mitigation strategies successfully used in
+the assignment of Functional Development Assurance Levels (FDALs).
+ R1 Skip
+ R2 Skip
+ R3 Redundant and dissimilar functions, Separation of functions
+ R4 Introduction of dissimilar control- monitor channel control architectures; dissimilar control
+architectures etc.
+ R5 NA
+ R6 No comment
+ R7 Skip
+ R8 Independent systems performing same function.
+ R9 Independent functions allocated to different system and suppliers. Independent functions
+allocated to totally dissimilar technologies (ex: electronics versus mechanical).
+ R10 Redundancy and independence of control and monitoring functions has been used
+throughout the system development. Protection functions external to the system have also
+be used in limited cases.
+ R11 Skip
+ 166

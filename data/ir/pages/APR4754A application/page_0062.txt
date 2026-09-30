@@ -1,0 +1,27 @@
+SAAB-EII 100 PASA SE100PASA Title Doc No.
+Table 8 PASA-2 Avionic System FDAL Assignment Summary
+Avionic Function
+Autopilot/Autoflight (ATA22)
+Communications (ATA23)
+Displays (ATA31)
+Navigation/Flight Management (ATA34)
+Maintenance (ATA45)
+1 .Maintenance Α Testing & Data/Program
+Loading (45.01)
+2. Misc. Airplane Function Maintenance Testing
+(45.xx)
+Platform
+Note 1: Maintenance (ATA45) Independence Attribute:
+The Maintenance Function Independence attribute is not demonstrated in current planned development
+activity. If PASA recommendations are accepted; to capture Maintenance functionality in two
+independently managed requirement sets, then independence criteria will be satisfied and ARP4754Α
+option 1 or 2 may be used to assign the FDAL for Maintenance Α Testing (1) and Misc. Airplane Function
+Maintenance Testing (2).
+
+
+4/24/2015 Date
+Independence
+Attribute FDAL
+NANANANB
+1 1 NAYAYDNA
+50

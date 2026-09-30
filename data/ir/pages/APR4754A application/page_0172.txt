@@ -1,0 +1,28 @@
+29 Please describe any boundary definition issues, between systems and items, that were
+encountered and how they were manifested.
+ R1 Especially LRUs were treated as item (hardware) by the companies rather than a part of
+system. Therefore problem raised to apply 4754A for development process of equipment.
+ R2 Skip
+ R3 Skip
+ R4 None real boundary conditions, one point to mention to define in an early stage to what
+level of completion the validation must be done and released prior to the transition to the
+next level, that means for example SW development may need at an earlier stage validated
+requirements than a hydraulic valve block during the during the development phase.
+ R5 e.g., Boundary overlap between engine Controls and Installations
+ R6 NA
+ R7 The systems and items definition issues are not related to the boundary definitions but
+more to activities applicable on multiple levels: Credit is sometimes taken on a higher level
+from verification activities of sub-level items. Attempt to influence the verification activities
+on these sub-levels to cover both their and the one above might occur. Also, it is possible
+to have conflicting means of verification on two levels.
+ R8 The means for communicating derived requirements between the item level and system
+level.
+ R9 We are facing difficulties in the usage of REQUIREMENTS MODEL; boundaries when
+applying DO-331 (Model Based Development and Verification supplement to DO-178C) for
+such requirements are not clear and ARP4754A guidelines are not considering that
+supplement.
+ R10 Tracing requirements between the system and the individual components is difficult and
+sometimes not possible. Items are developed by suppliers, sometimes with different
+processes. It is particularly a problem when integrating COTS items in the system.
+ R11 Actually, the term “boundary” is not clear when I read the ARP4754A.
+ 160

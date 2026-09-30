@@ -1,0 +1,31 @@
+27 Please describe any ARP4754A processes assurance issues encountered as it related to
+your development activities.
+ R1 Process assurance activities was performed as part of independent system monitoring
+activities. But stand-alone assessment according to 4754A (with a 4754A questionnaire)
+should have been performed to assure better compliance.
+ R2 Skip
+ R3 Skip
+ R4 None
+ R5 NA
+ R6 NA
+ R7 Skip
+ R8 None
+ R9 Some issues identified: #1. Not clear which level, or at least, which kind of, independence
+section 5.7 talks about, e.g.: who performs the assurance activities versus who defines the
+process versus who performs development activities? Individuals or organization level?
+Most of practices are based on experience from software domain… what about that
+“portability” – adequate? Too rigorous?
+#2. Unclear guidelines regarding deviation from plans when considering the Process
+Assurance: section 3.2.1 (bottom line for all planning elements) has a general statement
+about that, but further guidelines are defined only for validation, verification and certification
+planning elements.
+#3. Sometime we have some difficulty in performing assurance due to supplier’s data
+access limitation, like Intellectual Property or ITAR restrictions.
+ R10 Requirements were initially written based on preliminary system design data which leads to
+a lot of changes during validation and verification process. Requirements traces have to be
+reviewed regularly in order to keep them up to date. High level requirements are also an
+area that causes difficulties, since they are written at the beginning of the program and not
+updated, with the risk of becoming obsolete and making the traces invalid.
+ R11 We know the basic idea PA, but it is not quite clear how to make the PA work effectively
+and typically what kind of person is qualified for the PA.
+ 158

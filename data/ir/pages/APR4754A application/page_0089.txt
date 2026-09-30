@@ -1,0 +1,26 @@
+Project Specific Certification Plan PSCP200 7/03/2015 Title Doc No. Date
+Α.2 PSCP200 3 Planned Modifications:
+Changes under this plan are limited to the flight deck avionics, ι.ε. no aircraft level modifications 
+are planned.
+Existing Avionics (IMA), Part Number IMA100, will have the following changes incorporated: 
+Existing IMA Fight Management System (FMS) function will be revised to correct for o
+deficiencies and enhance performance.
+Α new IMA function “ABC” will be added to the IMA platform to provide enhanced o
+situational awareness of system status and configuration.
+Modifications will be accomplished using existing and evolved supplier system, software and 
+hardware development processes satisfying ARP4754Α objectives.
+Modification activity milestone summary is presented in Table 20. 
+Α high level modification process flow diagram is presented in Figure 13. 
+Table 20 SAAB-EII 200 Avionics Modification Milestones
+Change Activity Projected Completion Schedule
+FMS Deficiency/Enhancements Per change notice tracking timeline
+“ABC” Requirement Capture Function “ABC” CDR
+Validation Matrix Update Function “ABC” CDR
+1 IMA Software Revisions See IMA100V1 PSAC
+Complete
+Verification Procedures Update Completion of HW-SW Integration (see IMA100V1 PSAC)
+Verification Testing Two weeks prior to submittal of certification package
+V & V Summary Report System Certification Package
+1 Individual PSACs for each software component may be developed or α combined IMA PSAC plan developed for all software
+modifications as selected for this scenario example.
+ 77

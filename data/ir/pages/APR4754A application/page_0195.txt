@@ -1,0 +1,44 @@
+Discussion Area 2: Engineering Judgment
+Facilitator: What are your experiences with regards to engineering judgment? What should developers do
+if they have no experience? How do you accomplish if you have never done it before? How to fill in the
+blanks?
+EQ B: By reading ARP, there are 3 levels of decomposition. There is no reason that we cannot
+take the principle of the ARP and increase the layer for higher complexity. We are not going to
+commit and assume the small layer of decomposition is enough.
+REG A: There is a need to have background of domain knowledge to ask the correct questions to
+review the documents. The process depends on experience people who have the history of
+lessons learned.
+AC C: There needs to be better definition on the objects to support engineering judgment if there is
+not enough history or lessons and learned. The assumptions are not based on technical activity,
+but by the objectives and principle that you want to archive. This is challenge to write the policy
+and guidance to help the engineers to understand the objectives to achieve.
+AC D: There are extreme cases that the certification authority needs experience to do something
+first. Maybe the training for certification authority is needed.
+SYS B: While assuming something is the same and consistent, the assumption is also engineering
+judgment.
+AC D: How do people start? They build experience from something that does not need to be
+certified first to build up their domain knowledge. After they get their experiences then they can
+move to a Part 23 then Part 25 aircraft. All those experiences are engineering judgment, and there
+is no way to skip all that unless hiring the talent people.
+SYS C: If we look at the basic, there is not much differences when a good functional allocation is
+needed. If you have a system development knowledge background then it will help support
+facilitate engineering judgment. If we do not have the experience then we hire experience people,
+which can do good functional allocation.
+SYS B: There is a dependency of company culture differences. Some companies focus on safety,
+but some of them want the minimum cost. The requirements are driven by the company behavior
+on their culture differences. The company culture philosophy will drive the engineers to make some
+decisions, which are engineering judgments.
+AC A: We have never been good systems engineering organization. Since 1927, we have been
+able to design build and certified aircraft in local office. Now we have a hiccup on AC20-174. In
+ARP there are all kinds of engineering judgment for the reviews that we can take credit for.
+Somehow locally for my experience is to that if you are not compliant of 8110-3 or 8100-9 and
+unable to show the engineering judgment from experience people, it will be hard to take credit from
+them.
+REG A: Can I just clarify something? The AC is about development assurance process for
+complex systems. The ARP is a means, but not the only means. We only use it to design and build
+a better aircraft. Maybe we need to have a development assurance process for company start up.
+The engineering judgment should focus on strict objectives to in accordance with the planning. If
+you can go back and show what you should do, and what you need to add on due to any
+unresolved problems. That would be great. We do not need everything to be blindly compliant to
+ARP4754A.
+ 183

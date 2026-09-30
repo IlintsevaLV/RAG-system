@@ -1,0 +1,40 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+SAAB-EII 100
+Airplane Level
+Avionics Reqt Set
+CM
+Process
+Changed Reqts
+Baseline “Ξ.Y”
+New Reqts
+SAAB-EII 100
+Avionics System
+Avionics System
+Requirements Validation
+Requirement Set Chgd Valdn evidence
+Process
+New Valdn evidence
+SAAB-EII 100
+Validation Artifacts
+Validation
+(new traceability Validation Artifacts Process
+but valid by (Validation Matrix)
+similarity
+Changed Procs CM
+Process New Procs
+SAAB-EII 100
+SAAB-EII 100
+Verification Avionics System
+Verification
+Procedure Artifacts Verification
+Evidence Artifacts
+Procedures
+Baseline Verification
+SAAB-EII 100 Artifacts
+CM Level 1 Avionics System (Verification matrix)
+V & V Report
+CM Level 2
+Cntl Arch baseline evolution ρ 06Mar15.vsd
+Figure 10 Baseline Ξ.Y Evolution on SAAB-EII 100
+
+ 66

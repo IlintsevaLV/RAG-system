@@ -1,0 +1,62 @@
+Avionic System Development Plan ASDP300 5/28/2015 Title Doc No. Date
+Table 30 SAAB-EII 300 Avionics Reuse Strategy
+1 2 3 4 5 6
+System Existing New
+Func or FDAL FDAL Rigors Program
+System Functional Area Item /IDAL /IDAL Differ Strategy
+Autopilot/Autoflight (ATA 22) Sys NA NA NA Reapply
+SW - AFCS App Item Α Α No Reuse
+HW - AP Control Panel Item Β Β No Reuse
+HW - Pitch servo Item Β Β No Reuse
+HW - Roll Servo Item Β Β No Reuse
+HW - Yaw Servo Item Β Β No Reuse
+HW - Pitch Trim Servo Item Β Β No Reuse
+Communications (ATA 23) Sys NA NA NA Reapply
+SW - Radio Tune App - Comm Item Reuse
+HW - Radio Set - Comm Item Reuse
+HW - Radio Set - Datalink Item Reuse
+HW - Antennas - Comm Item Reuse
+HW - Audio Control Panel Item Reuse
+HW - TCAS Item Reuse
+Displays (ATA 31) Sys NA Α Yes Adapt
+SW - PFD Graphics Common App Item Α Α No Reuse
+SW - PFD Graphics Instrument "Τ" App Item Β Β No Reuse
+SW - Warn Function App Item Α Α No RWC
+SW - Warn Function Common App Item Α Α No Reuse
+SW - WX Graphics App Item Reuse
+HW - Display Control Panel Item Β Β No Reuse
+HW - Standby Instrument Item Reuse
+HW - Display Unit - PFD Item Α Α No Reuse
+HW - Display Unit - EICAS Item Α Α No Reuse
+HW - Display Unit - MFD Item Β Β No Reuse
+Navidation/Flight Management (ATA34) Sys NA Β Yes Adapt
+SW - Flight Management App Item Β No Reuse
+SW - Take off Performance App Item Β No Reuse
+SW - MCDU Host App Item Reuse
+SW - GPS Nav App Item Reuse
+SW - Radio Tune App - Nav Item Reuse
+SW - AGPWS Item C No New
+HW - Inertial Sensor Item Reuse
+HW - Radio Set - Nav Item Reuse
+HW - Antennas - Nav Item Reuse
+HW - GPS Antenna Item Reuse
+HW - MCDU Item Reuse
+Maintenance (ATA45) Sys NA C No Reapply
+SW - CMC App Item Δ C No Reuse
+IMA Platform Sys NA Α Yes Adapt
+SW - Operating System App Item Α Α No Reuse
+SW - Middleware Apps Item Α Α No Reuse
+SW - HW Abstraction Layer App Item Α Α No Reuse
+SW - Comm Network Core App Item Α Α No RWC
+SW - Comm Network Messaging App Item Α Α No RWC
+SW - Dataload App Item Α Α No Reuse
+HW - Power Supply Item Α Α No Reuse
+HW - Cabinets Item Α Α No Reuse
+HW - Multipurpose computers Item Α Α No Reuse
+HW - Comm Network Item Α Α No Reuse
+HW - Input / Output Item Α Α No RWC
+Sensors Sys NA Δ No Adapt
+HW - AGPWS Item NA No New
+HW - Weather Radar Item Reuse
+HW - Weather Radar Controller Item Reuse
+ 112

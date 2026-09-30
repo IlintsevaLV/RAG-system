@@ -1,0 +1,43 @@
+C 5 ARP4754Α to DO-297 Objectives Comparison
+This section summarizes α comparison of the objectives and control categories between ARP4754Α and
+DO297. DO-297 does not vary satisfaction of objectives or CM control category by assurance level within
+its guidance. All objectives identified are “Recommended” for accomplishment at the assigned
+configuration control category due to the Integrated Modular Avionic (IMA) system construction.
+There is no Development Assurance Level specified under DO-297; therefore, the comparison will focus
+on ARP4754Α assignment level Α for objective coverage and CM category.
+Objective Commonality:
+1. The Development Process Objectives for identifying requirements and architectures are consistent per
+CM category 1 between ARP4754Α and DO297. There are differences identified at Α/C level
+objectives (see Objective Differences 2 & 3).
+2. The Validation Objectives for V&V data are consistent to be CM category 2 between ARP4754Α and
+DO297. There are differences in terms of having objectives (see Objective Differences 4).
+3. The Verification Objectives for V&V data are consistent between ARP4754Α and DO297 with minor
+considerations (see Objective Differences 5).
+4. In general, CM objectives and control categories are consistent between ARP4754Α and DO297. The
+CM objectives are always control categories 2 unless related to baseline (configuration) or
+environment (platform).
+5. In general, Process Assurance objectives are consistent between ARP4754Α and DO297 and
+managed under control category 2 with single exception (see Objective Differences 6).
+Objective Differences
+The ARP4754Α objectives differ from DO297 objectives in α few notable areas.
+1. Certification Plan objectives for ARP4754Α and all the Planning Objectives for DO297 are maintained
+under CM category 1 while the remaining Planning objectives for ARP4754Α are maintained under CM
+category 2.
+Analysis 1: As α result of this discrepancy, it is conceivable that DO297 Planning Objectives may need to
+align with ARP4754Α objectives to have all the objectives to be maintained under CM category 2 except
+for Certification Plan.
+2. The ARP4754Α Development Process Objectives of Α/C & system integration is maintained under CM
+category 2 while in DO297, most of the objectives of Α/C & system integration data managed per CM
+category 1. DO297 also have platform integration and V&V results data controlled at CM category 2.
+Analysis 2: As α result of this discrepancy, it is conceivable that ARP4754 Integration Objectives may
+need to align with DO297 objectives to have most of the objectives to be maintained under CM category 2
+except for platform integration and V&V results.
+3. Based on Objective tables under DO297, it is unclear if the Development Process Objectives of
+identifying Α/C requirements and allocating Α/C functions to systems are covered or not. The Α/C
+function allocation objectives are actually mixed with system function allocation objectives under
+DO297 section 3.2, but DO297 Α/C requirements identification equivalent objectives is not identified.
+Analysis 3: As α result of this discrepancy, it is conceivable that DO297 objectives of Α/C function
+allocation and identification may need to be independent from system objectives in Chapter 3.
+4. The ARP4754Α contains two additional Validation Objectives, justifying assumptions and providing
+validation substantiation which do not have DO297 equivalent objectives.
+ 206

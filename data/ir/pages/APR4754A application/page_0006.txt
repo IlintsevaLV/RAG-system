@@ -1,0 +1,38 @@
+A.1 Avionic System Development Plan (ASDP100) .................................................................. 59
+A.1 SDP100 1 Introduction: .......................................................................................................60
+A.1 SDP100 2 Avionics System Description: .............................................................................60
+A.1 SDP100 3 Avionics System Development Overview: ..........................................................60
+A.1 SDP100 3.1 Reuse Analysis Plan: ......................................................................................61
+A.1 SDP100 4 Avionic System Safety: ......................................................................................63
+A.1 SDP100 5 Avionic System Requirements Development, Validation & Verification: .............64
+A.1 SDP100 5.1 Requirements Development & Management: ..............................................64
+A.1 SDP100 5.2 Requirements Validation: ............................................................................67
+A.1 SDP100 5.2.1 Requirements Validation Methods & Process: ......................................68
+A.1 SDP100 5.3 Requirements Verification: ..........................................................................70
+A.1 SDP100 5.3.1 Requirements Verification Methods & Process: ....................................70
+A.1 SDP100 6 Avionic System Configuration & Change Management: .....................................72
+A.1 SDP100 7 Avionic System Process Assurance: ..................................................................72
+Appendix A.2 Study Architecture 1 (aka SAAB-EII 200) ............................................................ 73
+A.2 Project Specific Certification Plan (PSCP 200) ................................................................... 74
+A.2 PSCP200 1 Plan Purpose: ..................................................................................................75
+A.2 PSCP200 2 Project Background: ........................................................................................75
+A.2 PSCP200 3 Planned Modifications: ....................................................................................77
+A.2 PSCP200 4 Modification Impact Analysis Summary: ..........................................................79
+A.2 PSCP200 4.1 Change Description Summary: .................................................................79
+A.2 PSCP200 4.2 Change Classification Analysis: ................................................................80
+A.2 PSCP200 4.3 Safety Impact of Planned Changes: ..........................................................80
+A.2 PSCP200 4.4 Modification Implementation Strategy: ......................................................80
+A.2 PSCP200 5 Compliance Methods: ......................................................................................81
+A.2 Avionic System Development Plan (ASDP200) .................................................................. 82
+A.2 ASDP200 1 Introduction: ....................................................................................................83
+A.2 ASDP200 2 Avionics System Description: ..........................................................................83
+A.2 ASDP200 3 Avionics System Development Overview: .......................................................83
+A.2 ASDP200 3.1 Reuse Analysis Plan: ................................................................................86
+A.2 ASDP200 4 Avionic System Safety: ....................................................................................88
+A.2 ASDP200 5 Avionic System Requirements Development, Validation & Verification: ...........89
+A.2 ASDP200 5.1 Requirements Development & Management: ............................................89
+A.2 ASDP200 5.2 Requirements Validation: ..........................................................................92
+A.2 ASDP200 5.2.1 Requirements Validation Methods & Process: ....................................93
+A.2 ASDP200 5.3 Requirements Verification: ........................................................................95
+A.2 ASDP200 5.3.1 Requirements Verification Methods & Process: ..................................95
+ ii

@@ -1,0 +1,34 @@
+24 Please describe any ARP4754Α requirement validation issues encountered.
+ R1 The issue was that companies didn’τ set α systematic correctness and completeness check
+process. Also only review process as α validation method was preferred by companies.
+Test and analysis methods were found as α
+ R2 Skip
+ R3 Implementation during development process needed to be established, ε. γ. with respect to
+determination of disciplines to participate and resources planning
+ R4 Organization of the validation process, having the required people available for the
+validation process. Re-visit of already validated requirements with different results. Non
+availability of Verification engineering for validation, causing additional effort during
+verification back in the validation process. In complete requirements baseline from parent
+documentation means spread of requirements over α set of documents. We made the
+decision in the company to apply validation process as well for complex and non complex
+systems and equipment’σ, as we recognized by doing so having α robust development
+process and less discussions with customers/authorities.
+ R5 Not covered yet
+ R6 NA
+ R7 1) Rationale of requirement often understood as self-explaining or “based on experience” is
+also often hard to formulate.
+2) Different linguistic backgrounds within one project, whether within one organization or
+outside, sometimes build α barrier for clear formulation and precise wording choice. Even
+the most skilled specialist might encounter this problem if not expressing himself in his
+native language or language of education.
+ R8 The responsibility of requirement validation work is not clearly described in ARP.
+ R9 Additionally to comment provided in question 22 above, recently we realized that sections
+5.4.3 and 5.4.4 (Correctness and Completeness Checks) seem to provide much more
+details than the current practices actually demands to address. Additionally, one of the
+most controversial issue is regarding the prevention of unintended function through
+validation methods and activities – usually, for textual requirements, this issue is explicitly
+addressed in the verification process only.
+ R10 Requirement owners don’τ always understand the need to validate their requirements
+during the process. It is important to involve everyone in the process.
+ R11 One of the objective of the requirement validation is its integrity, but it is difficult to prove it.
+ 155

@@ -1,0 +1,21 @@
+45 How did SAE AIR6110, the industry application example for ARP4754A, aid your
+understanding of the development process described in ARP4754A?
+ R1 It helps for better understanding of 4754A but I think It is not well known by industry. When
+it becomes an appendix of 4754, it will make more sense.
+ R2 Skip
+ R3 Skip
+ R4 None
+ R5 NA
+ R6 No comment
+ R7 Skip
+ R8 Examples given in AIR are very helpful to understand the application of the system
+development process described in ARP. It provides very valuable examples for all the
+activities defined in the process thus complements the application of ARP. Especially
+requirement validation example tables.
+ R9 We have neither exercised nor studied in deep that document up to now.
+ R10 I didn’t use it.
+ R11 I think current AIR6110 will be a great help for us to understanding the development, but I
+think besides the development process, it would be more help if the document includes the
+example for Process Assurance, Configuration Management process, requirement
+management, etc.
+ 174

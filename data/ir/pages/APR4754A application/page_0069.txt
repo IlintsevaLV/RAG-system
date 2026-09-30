@@ -1,0 +1,56 @@
+SAAB-EII 100 PASA SE100PASA Title Doc No.
+Table 15 PASA CMA-7
+11.
+CONCEPT & DESIGN: DESIGN ARCHITECTURE
+Common Mode Sources Common Modes Failure /Errors
+External Sources Electrical Power Distribution failure
+ Data Source (input) Failure
+
+CONCEPT & DESIGN: TECHNOLOGY, MATERIAL, EQUIPMENT TYPE
+Redundant, Similar Hardware Hardware development errors
+ Common components fail (type, usage,
+etc.)
+Verification tools
+Redundant, Similar Software Common software development errors
+Common software development tools
+Verification tools
+
+CONCEPT & DESIGN: SPECIFICATIONS
+Same specification Specification for maintenance monitoring
+function causes failure condition of
+interest due to error in common
+requirement(σ) with data load function.
+
+4/24/2015 Date
+Maintenance data load monitoring/annunciation shall be independent of maintenance data load.
+ Analysis / Discussion
+Editor – Not pertinent to ARP4754Α example.
+Editor – Not pertinent to ARP4754Α example.
+Editor – Not pertinent to ARP4754Α example.
+Editor – Not pertinent to ARP4754Α example.
+Avionics Development Plan indicates that
+avionic function requirements will be captured
+and managed as independent elements. Error
+mitigation is acceptably established between
+functions. However, functionality within α
+specific functional area (ε.γ. Maintenance
+ATA45) may have common requirements,
+common development processing and
+potential for common requirement
+misinterpretation.
+Α functional development independence
+attribute is not demonstrated for this
+independence requirement. FDAL shall be
+assigned based on most severe failure
+condition – Level Α.
+It is recommended that the Avionic
+Maintenance function requirement
+specification be subdivided into the elements
+of Maintenance which must support
+catastrophic (Level Α) failure conditions and
+those that must support normal airplane
+maintenance functions. Using this life cycle
+process, there would be no common errors in
+Maintenance Level Δ functionality which may
+cause or contribute to α Level Α FC.
+57

@@ -1,0 +1,70 @@
+Aircraft - System Function
+Qualitative Quantitative
+Development Process Development Process Development Process
+With Independence Ω/O Independence
+Key Attributes
+Airplane Class Classification
+Probability
+FC Criteria
+Α Catastrophic Α AC or BB ≤10-9
+(per AC20-174/
+Β Hazardous Β BC or CC ≤10-7 ARP4754Α) § Part 25
+CC, CD,
+NA C Major C ≤10-5
+CE or DD
+Minor Δ DD or DE ≤10-3 Δ
+No Effect E E NA E
+IV ≤10-9
+III ≤10-8
+Catastrophic
+II ≤10-7
+I ≤10-6
+IV ≤10-7
+III ≤10-7 (per AC23.1309-1E) Hazardous
+II ≤10-6
+§ Part 23 None ≤10-5 I
+Required
+IV ≤10-5
+III ≤10-5
+Major
+≤10-5 II
+I ≤10-4
+IV ≤10-3
+III ≤10-3
+Minor
+II ≤10-3
+I ≤10-3
+No Effect NA NA
+
+Software (Item) Electronic Hardware (Item)
+Qualitative Quantitative Qualitative Quantitative
+Development Process Development Process Development Process
+With Independence With Independence Ω/O Independence Ω/O Independence
+Probability Probability
+Criteria Criteria
+AC or BB NA Α AC or BB ≤10-9
+BC or CC NA Β BC or CC ≤10-7
+CC, CD, CC, CD,
+NA C ≤10-5
+CE or DD CE or DD
+Δ DD or DE ≤10-3 DD or DE NA
+E NA E E NA
+AB NA AB ≤10-9
+BC ≤10-8 BC NA
+CC ≤10-7 CC NA
+CC ≤10-6 CC NA
+BC NA BC ≤10-7
+CC NA CC ≤10-7
+NA CC ≤10-6 CC
+CD NA CD ≤10-5
+NA CD ≤10-5 CD
+CD NA CD ≤10-5
+CD NA CD ≤10-5
+≤10-4 CD NA CD
+Δ NA Δ ≤10-3
+Δ NA Δ ≤10-3
+≤10-3 Δ NA Δ
+Δ NA Δ ≤10-3
+NA NA NA NA
+Figure 33 Part 23-25 Development Assurance Assignment Comparison
+209

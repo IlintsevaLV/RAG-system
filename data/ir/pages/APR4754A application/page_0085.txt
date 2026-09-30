@@ -1,0 +1,14 @@
+Appendix A.2 Study Architecture 1
+(aka SAAB-EII 200)
+Introduction
+An example of planning specific change activities to avionics system hosted functionality being used on
+the same airplane as was previously certificated. Legacy avionic system (IMA) developed per ARP4754.
+Example project ARP4754A artifacts developed include:
+Airplane Level
+Airplane Project Specific Certification Plan (PSCP200)
+Systems Level
+Avionic System Development Plan (ASDP200)
+Item Level
+None – not a feature of study
+
+ 73

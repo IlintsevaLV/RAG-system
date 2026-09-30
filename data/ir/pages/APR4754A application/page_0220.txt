@@ -1,0 +1,23 @@
+Appendix Δ Additional Study Areas
+Δ 1 Introduction
+This appendix summarizes various additional ARP4754Α study results for questions identified during the
+project kick-off meeting. The following topic objectives are included:
+ Development Assignment levels in AC23.1309.1E vs ARP4754Α (AC 20-174), Differences – Why?
+Are the levels assigned equivalent?,
+ Insight as to why Options 1 / 2 of ARP4754Α Table 3 are equivalent,
+Δ 2 ARP4754Α & AC23.1309-1E
+Figure 33 captures α synopsis of the functional and item development assurance level assignments
+afforded by ARP4754Α in support of Part 25 and the equivalent development assurance level
+assignments allowed by the guidance in AC23.1309-1E.
+As summarized in Figure 33, AC23.1309 does not advocate applying development assurance activities at
+the airplane or system function level (FDALs) for any of the Class I-IV airplane types. It is apparent that
+the Authors of the AC are primarily interested in mitigating errors within the software and airborne
+electronic hardware domains. Information as to why this emphasis was implemented was not publicly
+available.
+Within the assignment levels for the hardware and software domains (IDALs), the AC23 assignments are
+consistently more rigorous than those that would be allowed for Part 25. This revelation means that the
+airborne electronic hardware and software developed to support Normal and Utility Category aircraft may
+be more rigorous than that developed for Commercial Category. Therefore it is safe to extrapolate that
+the development assurance levels are not based on safety concepts and may be higher to compensate for
+the fact that there isn’τ any rigor associated with the system development.
+ 208

@@ -1,0 +1,31 @@
+1 Executive Summary
+The effort described herein supports NASA's Aviation Safety Program’s System-wide Safety
+Assurance Technologies (SSAT) Project, which is conducting research directed at improving the
+safety of current and future aircraft operating in the National Airspace System. Under SSAT a
+technical challenge has been raised that targets the assurance of flight critical systems – a
+technical challenge to address, among other things, the sound assurance of safety-critical
+distributed systems properties and the complex interactions between systems and subsystems.
+There is an ongoing trend in the aviation industry of increasing adoption of ever more
+sophisticated computer-based technology to realize aircraft systems performing a wide variety
+of functions with different safety criticality levels. State-of-the-art aircraft avionics are network-
+centric systems of systems that are highly complex, software-intensive, and functionally
+integrated. The use of legacy components and multiple vendors to supply different functions
+that must share resources on a common distributed platform adds further complexity to these
+systems. The intricate patterns of interaction resulting from large-scale functional integration
+and distributed processing can expose a system to many non-intuitive failure mechanisms with
+a potential for severe safety-relevant effects. The level of rigor in the development process is
+determined by considerations of complexity and safety criticality. The predictability and
+robustness of the integrated system in the face of uncertainty in interactions and health status of
+components is of major importance in the “certifiability” of the system.
+The SAE International (formerly the Society of Automotive Engineers [SAE]) Aerospace
+Recommended Practice (ARP) 4754, Revision A (hereafter ARP4754A) describes a
+recommended process-based development assurance framework for systems that implement
+and support aircraft-level functions.
+The purpose of ARP4754A is to provide guidelines for the generation of evidence to
+substantiate with adequate confidence (i.e., assurance level) that errors in requirements,
+design, and implementation of the system have been identified and corrected and that the
+system satisfies the applicable certification regulations. ARP4754A states what objectives need
+to be accomplished based on system development assurance level (DAL) assignments, but it
+does not provide a justification for the guidelines and its application requires significant
+engineering judgment.
+ 1

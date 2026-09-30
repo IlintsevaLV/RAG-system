@@ -1,0 +1,22 @@
+Airplane Certification Plan CP010 2/18/2015 Title Doc No. Date
+Α.1 CP010 5 Novel or Unique Design Features:
+Avionic system will be implemented using state-of-the-art IMA platform technology. 
+See Avionics Certification Plan (CP100) for more details. 
+Α.1 CP010 6 Certification Basis:
+SAAB-EII 100 airplane will be certificated to 14CFR Part 25: 
+Current amendments, o
+Current advisory material. o
+Α.1 CP010 7 Compliance Methods:
+Compliance to the regulations will be shown by analysis, inspection and test. 
+See individual function/system certification plans for regulations and compliance associated with 
+each specific area.
+Summary for 14CFR 25.1309, Systems, equipment and installations: 
+Airplane function and system development process per AC20-174 using ARP4754Α at o
+assigned FDAL,
+Airborne electronic hardware development per AC20-152 using DO-254 at assigned IDALs, o
+Airborne software development per AC20-115C using DO-178C at assigned IDALs, o
+Safety assessments (FHA, PSSA, SSA) per ARP4761. o
+IMA development per AC-148 and AC-170. 
+Airplane mechanical systems per AC25-21 and AC25-22. 
+--------End of CP010 Airplane Certification Plan Excerpt-------
+ 17

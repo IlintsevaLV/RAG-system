@@ -1,0 +1,28 @@
+28 With regard to ARP4754Α and engineering judgment, what, if any, difficulties did your
+company
+ R1 Skip
+ R2 Skip
+ R3 Skip
+ R4 For engineering judgment, the point is that you have to have α proven database either from
+previous developments/lessons learnt or R&Δ programs/testing etc. which are documented
+to underline the engineering judgment position.
+ R5 NA
+ R6 NA
+ R7 Documentation of engineering judgment, possibly taken as an assumption, encounters
+reluctance, sometimes resistance. This is often explained as follows: Capturing the
+judgment as α requirement would make it necessary to be validated. The validation method
+used will confirm the “judgment”, changing its character to “analyzed” or “reviewed and
+assessed”.
+ R8 For military platforms, it is difficult to justify DAL requirement for some mission functions.
+ R9 Requirements using "engineering judgment" present evidence and documentation with very
+sparse quality (high and low) being very dependent, of course, on the person who is
+judging. And as previously spoken (see q. 9, adverse impacts), there may be cases when
+that person does not have more experience or knowledge than who wrote the evidence,
+leading to α possible loss of knowledge or even errors that may have consequences on the
+next project phase. In general, we think that engineering judgment should be avoided.
+Methods such as analysis and simulation are more scientific and less subject to opinions as
+engineering judgment. Nevertheless, there may be ways to increase the quality of
+engineering judgment, like for example training, use of best practices records, etc.
+ R10 Don'τ know.
+ R11 We are lack of the experienced engineers or experts to make good engineering judgment.
+ 159

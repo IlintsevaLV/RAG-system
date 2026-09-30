@@ -1,0 +1,45 @@
+43 What, if any, concerns do you have with the current ARP4754Α industry guidelines for
+development and assurance?
+ R1 4754Α set α systematic approach to development. As α result of this, it increases
+documentation effort by applicants and assessment/acceptance effort by Authority.
+Concerns were mostly related to cost and schedule.
+ R2 The line between system engineering and safety engineering is vague, consequently the
+scope of application widely varies between aircraft manufacturers.
+ R3 Skip
+ R4 The ARP provides recommended practice with recommendations, but it seems that our
+customers and respectively the authorities interpreted recommendation as α “shall”
+required and are not open to accept α different approach.
+ R5 More work, not enough experience
+ R6 No comment
+ R7 Skip
+ R8 Transition criteria between the activities within the development processes and integral
+processes can be defined with an example.
+ R9 Besides the ones provided in questions 15/16, 19, 24, 27 and 29, we have the following:
+#1. Section 1 (SCOPE) is unclear in the following points: in the upper bound of product
+specification, it explicitly excludes from these guidelines some activities and technologies,
+like aircraft structural development. Nevertheless other aircraft level technologies, like the
+ones related to aeronautics, ε.γ. flight mechanics, performance, aeroelasticity, etc. remain
+undefined, once they are neither explicitly excluded nor can be fit the area of
+“…development of aircraft systems…” stated in the first paragraph of that section. In the
+lower bound of product specification, once ARP4754Α define it boundary where software
+and hardware start, it is not clear if α single “equipment” is part of its scope. Around this
+issue, it’σ not clear as well how ARP4754Α and DO-297 guidelines work together for the
+case of an “Integrated Modular Architecture” (IMA).
+#2. There is α perception that the compliance plans (both internal and from the suppliers)
+are somewhat inefficient to promote product improvement by themselves. From one hand,
+it seems that ARP4754Α has too open guidelines in such α way that any plan can be
+compliant with that; on the other hand, there may be too much rigor depending on who
+define, apply and oversight the plans and artifacts, to clearly identify the improvements
+desired (similar to situation described in q. 15). We have tried to mitigate that situation, both
+internally and at suppliers (see q. 21) through planned process reviews, similar to the
+software “SOIs” reviews. We are working on an internal policy to perform those process
+reviews on α regular basis in all programs and contracts, covering not only process aspects
+but also the related technology aspects (ε.γ., requirements validation and rational
+fundamentals and design choices) by involving people with good knowledge and
+experience in the technologies reviewed.
+ R10 Too long and complicated in some areas.
+ R11 1.The interface with DO178, DO254, DO297, etc, needs to be more clearly defined. 2.
+Some terms in definitions and the main body are not consistent, for example, the some
+context, the term “item” refers to LRU, in other context, “item” refers to single piece of SW
+or HW.
+ 172

@@ -1,0 +1,27 @@
+Avionics Development Plan ADP100 2/18/2015 Title Doc No. Date
+Α.1 ADP100 3 System Description:
+Avionics Flight deck will include Company “Α” Advanced Flight Deck which integrates multiple avionic
+functions into α single system implementation:
+Integrated Modular Avionics (IMA – ATA 42) from Company “Α” 
+Company Α IMA implementation certificated on other aircraft. o
+IMA includes the following system functions: o
+ Autopilot/autoflight (ATA 22), 
+ Communications (ATA23), 
+ Displays (ATA31), 
+ Navigation/Flight Management (ATA34), and 
+ Maintenance (ATA 45). 
+Α.1 ADP100 4 Avionics Function Requirements Development:
+Airplane Avionic function requirements will be captured and validated for the following functions: 
+Autopilot/autoflight (ATA 22), o
+Communications (ATA23), o
+Displays (ATA31), o
+Navigation/Flight Management (ATA34), and o
+Maintenance (ATA 45). o
+Airplane Avionic Function Development initial life cycle is shown in Figure 6. 
+Airplane Avionics Development ARP4754Α objective activities accomplished to the level of rigor 
+assigned for each function.
+See Table 5 FDALs assigned based on results identified in Avionics PASA (Document 
+SE100PASA), section FDAL Assignment.
+Airplane Avionic Function Development life cycle post PASA recommended updates shown in 
+Figure 7.
+ 40

@@ -1,0 +1,18 @@
+Appendix Α.1 Baseline Architecture
+(aka SAAB-EII 100)
+Introduction
+An example of planning the development of flight deck functionality for α new airplane that uses an
+existing “certificated” avionic system from another airplane. For the purposes of this scenario
+development, the airplane is identified as the SAAB-EII 100 to provide α common reference framework for
+the development activities.
+Example documentation developed:
+Airplane Level
+Airplane Certification Plan (CP010)
+Avionics Certification Plan (CP100)
+Avionics Development Plan (ADP100)
+PASA CMA/Development Assurance assignment excerpt (SE100PASA)
+Systems Level
+Avionic System Development Plan (ASDP100)
+Item Level
+None – not α feature of study
+ 12

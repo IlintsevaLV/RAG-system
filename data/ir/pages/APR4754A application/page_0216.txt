@@ -1,0 +1,33 @@
+Differences Summary:
+Table 41 summarizes the noted differences between the ARP and DO processes.
+Table 41 Process Assurance Differences
+CM Assurance
+Objective Accomplish Category Level Comment
+Plans developed & maintained Ξ Α-Δ DO178/DO254
+Data complies with plans Ξ Α-C DO178/DO254
+Implementation conforms to data Ξ Α-Δ DO178/DO254
+Objective Differences:
+1. The AC/Sys LCP directly identifies creating and maintaining the development plan data while the DO
+LCPs do have an equivalent objective.
+Analysis: In this case, it is obvious that the DO LCPs contain this objective since the remainder of the
+process assurance activities are based on evaluating compliance to these plans. So even though there
+appears to be α gap in objectives, it is predominately α depth of comparison analysis study issue.
+It would be advantageous though for the software and hardware LCP authors to explore adding an
+equivalent objective to enhance process consistency.
+2. There are differences in evaluating the process activities for assurance level Δ. The software LCP
+maintains α “Recommended with Independence” for assurance levels Α thru Δ while the AC/Sys LCP
+identifies only “Recommended” and DO254 has no equivalent objective.
+Analysis: It is unclear why the SW LCP recommends the additional burden of activity monitoring with
+independence for functions which have such α limited impact on product safety.
+The software and hardware LCP authors should explore the rationale for the present recommendations or
+lack thereof at assurance level Δ when the AC/System LCP indicates there isn’τ α safety need.
+3. The hardware and software LCPs contain objectives evaluating the implementation against program
+standards and specific project documentation. There is not an equivalent AC/Sys LCP objective.
+Analysis: This is an acceptable difference. The DO LCPs define the items that are used to implement
+systems and aircraft. It is reasonable therefore to have α process objective to establish that the actual
+implementation matches its documentation, since that documentation will be used at each successive
+level to establish compliance.
+Data CM Category Differences:
+There were no configuration management category differences identified for the process assurance
+objectives between the ARP and DO LCPs.
+ 204

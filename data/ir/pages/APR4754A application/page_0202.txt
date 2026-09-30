@@ -1,0 +1,36 @@
+C 3.2 Definitions
+The definitions captured in Table 35 are noteworthy for the life cycle objective comparison activity.
+Table 35 Noteworthy Comparison Definitions
+Term Definition
+Guidance Recommended procedure for complying with regulations.
+Supporting information that can be helpful but is not considered to be
+Guideline
+guidance.
+The separation of responsibilities that assures the accomplishment of
+Independence objectives evaluation (e.g. validation activities are not performed solely by
+the developer of a requirement for a system or Item (ARP4754A))
+C 4 Life Cycle Objective Comparisons
+This section presents the comparison of objectives identified in ARP4754A and the equivalent objectives
+identified in DO-178 and DO-254. Each sub-section provides analysis description highlights of the major
+commonalities, and the significant activity objective or configuration control category differences. The
+following process objective areas are compared:
+ Planning,
+ Development process (requirements capture, management),
+ Validation process,
+ Verification process,
+ Configuration Management and,
+ Process Assurance.
+C 4.1 Planning Process Objectives Comparison
+Figure 27 graphically summarizes the objectives and control categories for planning between ARP4754A
+and the DO LCPs. The Planning objectives are consistent across the processes for assurance levels A
+through D; with only differences of CM control categories depending upon the planning data. There are
+significant CM control differences highlighted between the software LCPs and ARP4754A.
+Objective Commonality:
+1. The Planning Objectives across the different life cycle domains are consistent, with each LCP
+recommending objectives at assurance levels A through D for:
+ Certification planning,
+ Development planning,
+ Verification planning,
+ Configuration management planning and,
+ Process assurance planning.
+ 190

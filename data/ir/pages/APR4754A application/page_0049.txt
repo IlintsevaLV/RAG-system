@@ -1,0 +1,29 @@
+Avionics Certification Plan CP100 2/18/2015 Title Doc No. Date
+Table 4 Avionics Function Means of Compliance (MoC) Matrix
+1 2 3 4 5
+Regulation Regulation Text Compliance Approach MoC Compliance Artifacts
+(ε) In showing compliance with paragraphs The Avionics system electrical power 1 1 SAAB-EII 100 Airplane Flight Manual
+(α) and (β) of this section with regard to sources will be designed, qualified and SAAB-EII 100 Avionics System
+the electrical system and equipment installed to comply with these objectives. Description
+design and installation, critical The electrical power system will be
+environmental conditions must be described in the Airplane Flight Manual and 2 Inspection 2 Avionics Certification Summary
+considered. For electrical generation, the Avionics System Description
+distribution, and utilization equipment Document. Electrical generation and 3 Analysis 3 SAAB-EII 100 Airplane Safety Analysis
+required by or used in complying with distribution compliance to this paragraph is (ASA) - Avionics
+this chapter, except equipment covered provided in the Electrical Power
+by Technical Standard Orders Certification Plan, CP300. 4 Test 4 Avionics IMA Qualification Test Reports
+containing environmental test
+procedures, the ability to provide AC20-174 Development of Civil Aircraft
+continuous, safe service under and Systems
+foreseeable environmental conditions
+may be shown by environmental tests, AC/AMJ25.1309 System Design and
+design analysis, or reference to Analysis, RTCA Draft Arsenal revised 2002
+previous comparable service
+experience on other aircraft.
+(φ) EWIS must be assessed in accordance The Avionics System Safety Analysis will 1 Inspection 1 Avionics Certification Summary
+with the requirements of §25.1709. include the associated airplane wiring
+system as one of the functional elements 2 Analysis 2 SAAB-EII 100 Airplane Safety Analysis
+being assessed for showing compliance to (ASA) - Avionics
+this requirement.
+------End of CP100 Airplane Avionics Certification Plan Excerpt-------
+ 37

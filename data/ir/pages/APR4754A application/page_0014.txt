@@ -1,0 +1,29 @@
+2 Scope, Motivation and Objectives of this Report
+This report documents applications of ARP4754Α to the development of modern computer-
+based (ι.ε., digital electronics, software and network-based) aircraft systems. This study is to
+offer insight and provide educational value relative to the guidelines in ARP4754Α and provide
+an assessment of the current state-of-the-practice within industry and regulatory bodies relative
+to development assurance for complex and safety-critical computer-based aircraft systems.
+The primary objectives of this study are to:
+ Develop case studies on the application of ARP4754Α to the development and
+assurance of computer-based aircraft systems with architecture level complexity
+representative of state-of-the-art technology,
+ Generate guidelines on the application of ARP4754Α to the development and assurance
+of computer-based aircraft systems and to,
+ Identify issues of concern in the current guidance, policy, and practice (ι.ε., processes,
+methods, tools or techniques) of development and assurance for computer-based
+aircraft systems.
+As the above objectives were being accomplished, additional topics were also addressed. The
+following areas of study are detailed in Appendices C and Δ:
+ Justification for ARP4754Α guidelines,
+ How to transition from safety analysis to system architecture,
+ Relationship between risk mitigation and ARP4754Α,
+ Development Assignment levels in AC23.1309.1E vs ARP4754Α (AC 20-174),
+Differences – Why? Are the levels assigned equivalent?,
+ Insight as to why Options 1 / 2 of ARP4754Α Table 3 are equivalent,
+ Engineering judgment,
+ARP4754Α requires significant engineering judgment – which parts, o
+How engineering judgment is leveraged / used in ARP4754Α, o
+How to make up for “missing” engineering judgment for new comers in order to o
+apply the recommended practice.
+ 2

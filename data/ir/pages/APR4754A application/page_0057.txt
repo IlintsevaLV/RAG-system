@@ -1,0 +1,74 @@
+Avionics Development Plan ADP100 Title Doc No.
+ARP4754Α
+Objective
+Ref No Objective Description Output
+The common cause analyses are
+performed. 3.4
+The aircraft safety assessment is
+ASA
+performed. 3.5
+The system safety assessment is
+SSA
+performed. 3.6
+Independence requirements in
+functions, systems and items are PASA
+3.7
+captured PSSA
+4.0 Requirements Validation Process
+Aircraft, system, item requirements are
+4.1
+complete and correct.
+4.2 Assumptions are justified and validated
+Derived requirements are justified and
+4.3
+validated.
+4.4 Requirements are traceable.
+Validation compliance substantiation is
+4.6
+provided.
+5.0 Implementation Verification Process
+Test or demonstration procedures are
+5.1
+correct.
+Verification demonstrates intended
+5.2 function and confidence of no
+unintended function impacts to safety.
+
+2/18/2015 Date
+SAAB-EII 100
+Reference Data
+Docs TBA Particular Risk Assessment
+SAAB-EII 100 Preliminary Aircraft
+Safety Assessment (PASA), Common Mode Analysis
+SE100PASA
+Docs TBA Zonal Safety Analysis
+SAAB-EII 100 Airplane Safety
+Assessment (ASA), SE100ASA
+Company “Α” objective
+SAAB-EII 100 Preliminary Aircraft
+Safety Assessment (PASA), System, HW, SW Requirements
+SE100PASA provides airplane level
+PSSA is Company “Α” objective
+Airplane level – Avionics Function
+Validation & Verification Report,
+Doc # TBA
+Validation Results
+System level – See Company “Α”
+artifacts
+Validation Results
+Airplane level – Avionics Function Validation Results
+Validation & Verification Report,
+Validation Results
+Doc # TBA
+Validation Summary (including
+Validation Matrix)
+Avionics Function Verification Verification Procedures
+Procedures, Doc # TBA
+Verification Procedures
+Airplane level – Avionics Function
+Validation & Verification Report,
+Doc # TBA
+ Verification Results
+Flight Test Certification Report
+Ground Test Certification Report
+45

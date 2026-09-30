@@ -1,0 +1,34 @@
+Avionic System Development Plan SDP100 4/24/2015 Title Doc No. Date
+Α.1 SDP100 5 Avionic System Requirements Development, Validation &
+Verification:
+Requirements development, validation and avionic system requirement verification plans are 
+discussed in this section.
+Figure 9 presents the high level avionics system development process flow. 
+Any changes in FDAL or IDAL assignments between the established baseline artifact level of rigor 
+and the SAAB-EII 100 program assigned level will be evaluated on α case-by-case basis for α
+negotiated development approach.
+Note- FDAL assignments Α-Β-C have minimal differences with respect to ARP4754Α o
+process objectives.
+Α.1 SDP100 5.1 Requirements Development & Management:
+The Avionic System “Ξ.Y” requirements set will form the baseline for the SAAB-EII 100 Avionic 
+System.
+The baseline requirements were developed to the level of rigor identified in Column 3 of Table 16 
+and include the following information:
+Unique requirement identifier, o
+Requirement text, o
+Rationale (reason for having the requirement if requirement was derived), o
+Parent trace linkage capability, o
+Safety related attribute. o
+As part of the SAAB-EII 100 development process, the baseline Company “Α” avionic system 
+requirement set will be evolved to include traceability information between the SAAB-EII 100
+requirement specifications and the baseline avionic requirement set. See Figure 10 for artifact
+evolution plan.
+Requirements that need to be modified to satisfy SAAB-EII OEM requirements will be managed 
+through the configuration management process to ensure traceability to the baseline.
+Changed requirements will be revalidated using the requirement validation process. 
+New requirements will be introduced to the baseline requirement set using the CM process and 
+validated using the validation process.
+All SAAB-EII 100 baseline requirement set validation attributes will be set initially to invalid status. 
+An illustration of the requirement levels and tracing between these levels is shown in Figure 11. 
+
+ 64

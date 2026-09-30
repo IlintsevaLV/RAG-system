@@ -1,0 +1,45 @@
+Project Specific Certification Plan PSCP200 7/03/2015 Title Doc No. Date
+Α.2 PSCP200 4.2 Change Classification Analysis:
+The modifications have been evaluated per AC 21.101-1 and found to be non-significant. 
+The legacy certification basis for Legacy SAAB-EII 200 will be maintained. o
+The planned modification has been evaluated per AC 21-40Α for classification of the change as 
+either major or minor:
+Changes have been found to have no appreciable effect on: o
+ Weight, 
+ Balance, 
+ Structural strength, 
+ Reliability, 
+ Characteristics affecting airplane airworthiness. 
+Changes have been found to have α minor impact on the operational characteristics of the o
+flight deck maintenance displayed information.
+Therefore, the changes planned in this plan are anticipated classified as Minor and will be o
+approved using the SAAB-EII FAA approved “Minor Airplane Change Process”.
+Legacy airplane level development used conventional development techniques and as such did 
+not create ARP4754Α objectives evidence.
+FDAL for Avionics functions were not developed. o
+Airplane function development evidence was not created (Requirements, Validation and o
+Verification).
+Creation of ARP4754Α airplane level artifacts for the changes identified in this plan is not 
+advantageous or practical and is therefore not planned. Conventional airplane certification
+activities will be used.
+Α.2 PSCP200 4.3 Safety Impact of Planned Changes:
+Review of legacy IMA functional failure conditions indicates that: 
+FMS Loss or Erroneous operation classified as Hazardous o
+Modifications planned for the FMS function do not affect the functional hazard failure o
+condition description or severity
+Modifications planned for the FMS function do not affect any other IMA or external o
+functionality.
+Added IMA function “ABC” adds software function to provide new aircraft configuration advisories 
+to enhance flight crew situational awareness
+New function “ABC” adds two new failure conditions. o
+Preliminary FHA of function “ABC” indicates α hazardous (II) classification for erroneous o
+operation and major (III) classification for loss of function.
+Displays functionality is partitioned between caution/warn display and maintenance. o
+The System FHA will be revised to add function “ABC” failure conditions and classification. 
+FDAL for the modification activities will be assigned directly based on the most sever aircraft-level 
+failure condition supported by the modified and new functionality.
+Α.2 PSCP200 4.4 Modification Implementation Strategy:
+All modifications planned under this change effort are contained to the IMA Avionics platform and 
+impact only IMA avionic software
+See Company “Α” Avionics System Development Plan for details of planned modification. 
+ 80

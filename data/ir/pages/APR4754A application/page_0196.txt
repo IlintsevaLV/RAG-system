@@ -1,0 +1,43 @@
+AC A: There is no good way to maintain or archive lessons learned information. In some cases,
+they (lessons learned) are only captured in an engineer’s note book. The experienced people who
+have the knowledge are behind the story. For the process now the certification plan should control
+the roles, responsibility, negotiation and planning. We do want to follow the objectives, but we also
+need engineering judgment to set the priority of the objectives in order to improve the “selling” of
+the process.
+Item 3: Certification lesson learned on application of ARP4754A
+Facilitator: ARP is a means of compliance. Map how you accomplish the objective in the ARP.
+System B: The ARP is a mean of compliant to the regulations. Where is the compliance matrix for
+the regulation? It is difficult to map the requirement and the matrix.
+Facilitator: ARP 4754A Appendix A is a summary only. In order to approach the satisfaction of ARP, we
+need to read the text for detail objectives. There maybe 30 objectives in the appendix, but 90 objectives in
+the ARP content. Another approach is like, Do you understand the [ARP] objectives? Have you setup to
+accomplish your plan? Understanding ARP and include in your plan is necessary. The DOs are easier to
+audit since it tells you what to do.
+Person ?: It is possible to fall into strictly compliant to ARP with no background on what the
+purpose is. Good planning is needed to find problems if they need to be compliant with real values.
+It is not a good practice to blindly to be compliant to all the artifacts.
+REG A: Enough or not enough is an engineering judgment from regulatory stand point, which
+needs artifacts to support process in order to comply only on necessary objective and avoid
+negotiation during the audit.
+AC A: ACO specialist scope is different than each other and also cause differences on different
+programs. It is hard to determine when or when not to exercise the particular aspect.
+EQ B: Develop partnership is needed to handle disagreements. The agreement between you and
+the ACO management can resolve different cases under different levels, which can be refer to
+PSP.
+SYS B: Fundamentally, the higher level authority does not have good understanding on the lower
+level sub-system. It is common that the system get overworked while certifying the sub-system by
+reading the guidance with checking boxes.
+Facilitator: There is a lack of consistency for interpreter side for certifying. It may be recommended
+instead of revising the ACs we can create some standards or guidance for people doing evaluation. Kind
+of like a lessons learned for regulatory standpoint.
+Person ?: There is a battle on training our own people or training the regulatory authority. There
+needs to be a trust of each other in order to have a smooth certification.
+REG B: Pre-audit can resolve problems. The pre-audit can have the supplier understand the
+objectives and where they come from. Try to meet the intent of assigning DALs. For example, to
+perform more robustness testing to meet the intent of unintended function. In this case, the audit
+will go smoother.
+AC A: There are problems on the AC 8110.15. Need experience on brand new process. This issue
+has grown locally, but there were no people to support it. There is culture shift for individual
+authority, which does not support locally while the ARP get interpreted locally. The lack of process
+understanding needs to be addressed in FAA manual.
+ 184
