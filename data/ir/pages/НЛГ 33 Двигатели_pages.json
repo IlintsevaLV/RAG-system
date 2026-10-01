@@ -39,7 +39,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 486
+      "elapsed_ms": 466
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -91,7 +91,7 @@
       "vlm_used": false,
       "vlm_quality": "unavailable",
       "ocr_fallback_used": true,
-      "elapsed_ms": 13518
+      "elapsed_ms": 14029
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -129,7 +129,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 23
+      "elapsed_ms": 22
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -182,7 +182,7 @@
       "vlm_used": false,
       "vlm_quality": "unavailable",
       "ocr_fallback_used": true,
-      "elapsed_ms": 8831
+      "elapsed_ms": 8907
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -223,7 +223,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 49
+      "elapsed_ms": 43
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -261,7 +261,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 41
+      "elapsed_ms": 24
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -303,7 +303,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 25
+      "elapsed_ms": 21
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -341,7 +341,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 21
+      "elapsed_ms": 18
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -420,7 +420,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 29
+      "elapsed_ms": 32
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -464,7 +464,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 21210
+      "elapsed_ms": 20999
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -505,7 +505,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 22
+      "elapsed_ms": 18
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -546,7 +546,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 30
+      "elapsed_ms": 29
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -590,7 +590,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 28899
+      "elapsed_ms": 27674
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -631,7 +631,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 46
+      "elapsed_ms": 31
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -672,7 +672,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 39
+      "elapsed_ms": 31
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -713,7 +713,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 41
+      "elapsed_ms": 28
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -754,7 +754,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 29
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -795,7 +795,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 34
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -836,7 +836,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 36
+      "elapsed_ms": 33
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -921,7 +921,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 16258
+      "elapsed_ms": 16047
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -965,7 +965,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 28212
+      "elapsed_ms": 25032
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1006,7 +1006,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 36
+      "elapsed_ms": 25
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1050,7 +1050,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 10372
+      "elapsed_ms": 9437
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1091,7 +1091,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 48
+      "elapsed_ms": 42
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1135,7 +1135,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 29805
+      "elapsed_ms": 28056
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1176,7 +1176,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 42
+      "elapsed_ms": 39
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1220,7 +1220,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 29665
+      "elapsed_ms": 27916
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1264,7 +1264,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 29629
+      "elapsed_ms": 27048
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1305,7 +1305,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 33
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1346,7 +1346,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 36
+      "elapsed_ms": 27
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1390,7 +1390,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 27846
+      "elapsed_ms": 25913
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1431,7 +1431,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 40
+      "elapsed_ms": 27
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1472,7 +1472,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 38
+      "elapsed_ms": 25
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1515,7 +1515,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 24
+      "elapsed_ms": 16
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1556,7 +1556,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 28
+      "elapsed_ms": 19
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1594,7 +1594,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 24
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1635,7 +1635,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 42
+      "elapsed_ms": 26
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1676,7 +1676,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 43
+      "elapsed_ms": 30
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1720,7 +1720,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 28502
+      "elapsed_ms": 27402
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1764,7 +1764,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 24858
+      "elapsed_ms": 25522
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1810,7 +1810,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 24366
+      "elapsed_ms": 24331
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1896,7 +1896,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 28893
+      "elapsed_ms": 30271
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1937,7 +1937,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 34
+      "elapsed_ms": 36
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -1978,7 +1978,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 41
+      "elapsed_ms": 34
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2019,7 +2019,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 38
+      "elapsed_ms": 27
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2060,7 +2060,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 39
+      "elapsed_ms": 32
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2098,7 +2098,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 43
+      "elapsed_ms": 32
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2141,7 +2141,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 43
+      "elapsed_ms": 33
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2184,7 +2184,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 33
+      "elapsed_ms": 31
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2227,7 +2227,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 29
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2268,7 +2268,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 42
+      "elapsed_ms": 26
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2312,7 +2312,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 28879
+      "elapsed_ms": 27950
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2356,7 +2356,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 27238
+      "elapsed_ms": 27144
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2397,7 +2397,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 27
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2438,7 +2438,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 33
+      "elapsed_ms": 36
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2520,7 +2520,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 28
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2561,7 +2561,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 34
+      "elapsed_ms": 29
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2602,7 +2602,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 41
+      "elapsed_ms": 32
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2643,7 +2643,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 39
+      "elapsed_ms": 33
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2687,7 +2687,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 24867
+      "elapsed_ms": 25652
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2728,7 +2728,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 41
+      "elapsed_ms": 34
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2772,7 +2772,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 27582
+      "elapsed_ms": 28815
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2813,7 +2813,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 24
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2855,7 +2855,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 42
+      "elapsed_ms": 28
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2900,7 +2900,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 27664
+      "elapsed_ms": 28269
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2941,7 +2941,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 34
+      "elapsed_ms": 26
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -2983,7 +2983,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 43
+      "elapsed_ms": 28
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3021,7 +3021,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 23
+      "elapsed_ms": 20
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3064,7 +3064,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 27
+      "elapsed_ms": 22
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3105,7 +3105,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 7406
+      "elapsed_ms": 7254
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3149,7 +3149,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 16403
+      "elapsed_ms": 17241
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3193,7 +3193,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 15244
+      "elapsed_ms": 15150
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3234,7 +3234,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 22
+      "elapsed_ms": 18
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3278,7 +3278,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 27969
+      "elapsed_ms": 28463
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3322,7 +3322,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 28505
+      "elapsed_ms": 28479
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3363,7 +3363,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 42
+      "elapsed_ms": 29
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3405,7 +3405,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 33
     },
     {
       "doc_id": "НЛГ 33 Двигатели",
@@ -3457,7 +3457,7 @@
       "vlm_used": false,
       "vlm_quality": "unavailable",
       "ocr_fallback_used": true,
-      "elapsed_ms": 11004
+      "elapsed_ms": 10271
     }
   ],
   "summary": {

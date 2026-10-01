@@ -45,7 +45,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 16095
+      "elapsed_ms": 19820
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -91,7 +91,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 13183
+      "elapsed_ms": 13570
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -134,7 +134,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 43
+      "elapsed_ms": 36
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -180,7 +180,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 18045
+      "elapsed_ms": 17161
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -221,7 +221,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 20
+      "elapsed_ms": 21
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -264,7 +264,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 41
+      "elapsed_ms": 44
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -307,7 +307,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 32
+      "elapsed_ms": 26
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -348,7 +348,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 35
+      "elapsed_ms": 28
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -389,7 +389,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 39
+      "elapsed_ms": 25
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -432,7 +432,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 25
+      "elapsed_ms": 22
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -473,7 +473,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 44
+      "elapsed_ms": 34
     },
     {
       "doc_id": "РЦ-АП-ВД 6.2 анализ безопасности",
@@ -516,7 +516,7 @@
       "vlm_used": false,
       "vlm_quality": null,
       "ocr_fallback_used": false,
-      "elapsed_ms": 18
+      "elapsed_ms": 15
     }
   ],
   "summary": {
