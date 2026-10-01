@@ -1,0 +1,46 @@
+S1000DR-UACRU-01000-00
+Таблица 7 Числовые функции (Продолжение)
+Значение атрибута Вид Возвращаемое Описание
+numberAction значение
+(sinh) числа
+hyperbolicSine Вещественное " "
+Вещественное
+hyperbolicTangent hyperbolicTangent Вещественное Возвращает " " "
+гиперболический тангенс " Целое
+(tanh) числа
+hyperbolicTangent Вещественное "
+" Вещественное
+inverseCosine inverseCosine Вещественное Возвращает арккосинус " " " "
+-1 (arccos или cos ) числа. Целое
+inverseCosine Вещественное " "
+Вещественное
+inverseCosecant inverseCosecant Вещественное Возвращает арккосеканс " " " "
+-1 (arccsc или css ) числа. Целое
+inverseCosecant Вещественное " "
+Вещественное
+inverseCotangent inverseCotangent Вещественное Возвращает арккотангенс " " " "
+-1 (arccot или cos ) числа. Целое
+inverseCotangent Вещественное " "
+Вещественное
+inverseSine inverseSine Вещественное Возвращает арксинус " " " " Целое
+(arcsin) числа
+inverseSine Вещественное " "
+Вещественное
+inverseSecant inverseSecant Вещественное Возвращает арксеканс " " " "
+-1 (arcsec или ses ) числа. Целое
+inverseSecant Вещественное " "
+Вещественное
+inverseTangent inverseTangent Вещественное Возвращает арктангенс " " " "
+-1 (arctan или tan ) числа. Целое
+inverseTangent Вещественное " "
+Вещественное
+naturalLogarithm naturalLogarithm Вещественное Возвращает натуральный " " " "
+логарифм (ln) числа Целое
+naturalLogarithm Вещественное " "
+Вещественное
+negative negative Целое Возвращает " " " " Целое
+отрицательное значение
+negative Вещественное " " числа.
+Действительно: Все S1000D-A-07-06-0104-00A-040A-A
+Глава 7.6.1.4
+2013-11-15 Страница 10

@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+applicIdentValue (Μ), идентификатор комментария по применимости. 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<applicSpecIdent applicIdentValue="app-
+Σ1000DLIGHTINGAAAD00000000AA056AA-0000"/>
+3 Примеры
+Β следующих примерах показаны два внешних комментария по применимости,
+которые хранятся β модуле данных CIR комментариев по применимости.
+Первый относится κ модулю данных DMC-Σ1000DLIGHTING-AAA-Δ00-00-00-00AA-056Α-
+Α, α второй - κ DMC-Σ1000DLIGHTING-AAA-Δ00-00-00-00AA-057Α-Α.
+<content>
+<referencedApplicGroup>
+<applic id="app-0001">
+<displayText><simplePara>Mountain bicycle and (Mountain storm
+Mk1 or Brook trekker Mk9)</simplePara></displayText>
+...
+</applic>
+...
+</referencedApplicGroup>
+<commonRepository>
+<applicRepository>
+<applicSpec id="appsp-00001" applicMapRefId="app-0001">
+<applicSpecIdent applicIdentValue="app-
+Σ1000DLIGHTINGAAAD00000000AA056AA-0000"/>
+</applicSpec>
+...
+<applicSpec id="appsp-00006" applicMapRefId="app-0001">
+<applicSpecIdent applicIdentValue="app-
+Σ1000DLIGHTINGAAAD00000000AA057AA-0000"/>
+</applicSpec>
+...
+</applicRepository>
+</commonRepository>
+</content>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11N-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.12
+2013-11-15 Страница 4

@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+warning < > (O). См. Глава 3.9.3 . 
+caution < > (O). См. Глава 3.9.3 . 
+note < > (O). См. Глава 3.9.3 . 
+crewMemberGroup < > (O). См. Разд. 2.3.1.1.2. 
+para < > (O). См. Глава 3.9.5.2.1.10 . 
+figure < > (O). См. Глава 3.9.5.2.1.7 . 
+figureAlts < > (O). См. Глава 3.9.5.2.1.7 . 
+multimedia < > (O). См. Глава 3.9.5.2.1.7 . 
+multimediaAlts < > (O). См. Глава 3.9.5.2.1.7 . 
+foldout < > (O). См. Глава 3.9.5.2.1.7 . 
+table < > (O). См. Глава 3.9.5.2.1.6 . 
+crewDrillStep < > (O). См. Разд. 2.3.1.1.4. 
+if < > (O). См. Разд. 2.3.1.1.7. 
+elseIf < > (O). См. Разд. 2.3.1.1.11. 
+case < > (O). См. Разд. 2.3.1.1.12. 
+Пример разметки:
+<subCrewDrill>
+<title>Callipers</title>
+<crewDrillStep>
+<challengeAndResponse>
+<challenge>
+<para>Link Wire</para>
+</challenge>
+<response>
+<para>Firmly attached</para>
+</response>
+</challengeAndResponse>
+</crewDrillStep>
+</subCrewDrill>
+2.3.1.1.14 Завершающие действия
+endMatter Описание. Элемент < > используется для описания завершающих
+para действий при помощи элемента < >.
+endMatter Элемент разметки: < > (O)
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+Действительно: Все Σ1000Δ-Α-03-09-0502-06Α-040Α-Α
+Глава 3.9.5.2.6
+2013-11-15 Страница 21

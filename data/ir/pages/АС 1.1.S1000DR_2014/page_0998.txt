@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</genericPartDataGroup>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" item="001" indenture="2">
+<internalRef internalRefId="fig-0001-gra-0001-hot-0001"
+internalRefTargetType="irtt11">
+</internalRef>
+<itemSequenceNumber itemSeqNumberValue="00Α">
+<reasonForSelection reasonForSelectionValue="1"/>
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>KZ999</manufacturerCode>
+<partNumber>BICYCLE-001/1</partNumber>
+<partIdentSegment>
+<descrForPart>Frame assembly</descrForPart>
+<unitOfIssue>EA</unitOfIssue>
+<specialStorage>0</specialStorage>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service>UKA</service>
+<sourceMaintRecoverability>PAODD</sourceMaintRecoverability>
+<modelVersion modelVersionValue="MB"></modelVersion>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+...
+<catalogSeqNumber systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" item="006" indenture="3">
+<internalRef internalRefId="fig-0001-gra-0001-hot-0006"
+internalRefTargetType="irtt11">
+</internalRef>
+<itemSequenceNumber itemSeqNumberValue="00Α">
+<reasonForSelection reasonForSelectionValue="1"/>
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>KZ777</manufacturerCode>
+<partNumber>LRU1001</partNumber>
+<partIdentSegment>
+<descrForPart>Light system</descrForPart>
+<unitOfIssue>EA</unitOfIssue>
+<specialStorage>1</specialStorage>
+<physicalSecurityPilferageCode>J</physicalSecurityPilferageCode>
+</partIdentSegment>
+<partLocationSegment>
+<referTo refType="nha">
+<catalogSeqNumberRef modelIdentCode="Σ1000DBIKE"
+systemDiffCode="AAA" systemCode="00" subSystemCode="0"
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 66

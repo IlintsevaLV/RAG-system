@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+<dmCode modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="en" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</sourceDmIdent>
+…
+</updateStatus>
+…
+</updateIdentAndStatusSection>
+…
+</dataUpdateFile>
+должен использовать этот файл обновления данных η целевой модуль данных CIR
+издания 001:
+DMC-Σ1000DLIGHTING-AAA-Δ00-00-00-00AA-00GA-Δ
+для инкрементного обновления целевого модуля данных CIR.
+Примечание
+Все проблемы β связи σ номером издания целевого модуля данных должны
+разрешаться между отправителем η получателем данных.
+2.5.2 Целевые модули данных
+Для инкрементного обновления целевого модуля данных получатель данных должен
+выполнить следующие действия σ предыдущим изданием целевого модуля данных.
+2.5.2.1 Идентификация целевого модуля данных
+Код модуля данных для целевого модуля данных остается прежним η переиздается
+β обычном порядке.
+Однако рекомендуется, чтобы получатель данных использовал расширение кода
+модуля данных, которое будет указывать на то, что модуль данных был извлечен
+получателем из исходного модуля данных. См. Глава 4.13.2 .
+Номер издания целевого модуля данных CIR указывается β статусной части
+targetDmIssueInfo исходного модуля данных CIR β элементе < >.
+Например, получатель данных, получающий следующий файл обновления данных:
+<dataUpdateFile>
+<updateIdentAndStatusSection>
+<updateAddress>…</updateAddress>
+<updateStatus>
+…
+<targetDmIssueInfo inWork="00" issueNumber="002"/>
+…
+</updateStatus>
+…
+</updateIdentAndStatusSection>
+…
+</dataUpdateFile>
+Действительно: Все Σ1000Δ-Α-04-13-0201-00Α-040Α-Α
+Глава 4.13.2.1
+2013-11-15 Страница 8

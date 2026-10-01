@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+lcAnswerOption < > (C). См. Разд. 2.4.1.3.1. 
+Пример разметки:
+<lcAnswerOptionGroup>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Spokes</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Control cables</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Chain</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Wheel rims</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+2.4.1.3.1 Вариант ответа
+lcAnswerOption Описание. Элемент < > содержит единственный вариант ответа
+для оценочных взаимодействий "да/нет", σ единственным вариантом ответа, σ вводом
+недостающих данных или σ несколькими вариантами ответа.
+lcAnswerOption Элемент разметки: < > (C)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 12

@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+sbSummary sbtt02 sbtt02 < > значение по умолчанию равно " ". Значение " "
+допустимо только β этом контексте. Сводка может содержать разделы со
+sbtt05 sbtt09 значениями, включающими, помимо прочего, значения σ " " по " ",
+sbtt11 sbtt17 sbtt20 " " η σ " " по " ".
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00281 -
+sbTopicType sbSummary Использование атрибута β элементе < > :
+Определение того, какие типы разделов являются обязательными η 
+необязательными, α также последовательности их размещения β элементе
+sbSummary < >. См. Глава 3.9.6.1 .
+Пример разметки:
+<sbSummary>
+<sbTopic sbTopicType="sbtt07">
+<title>Reason</title>
+<sbTopicContent>
+<para>Α lot of customers asked for the improvement of the front
+hanging in order to use the bike in more severe
+conditions.</para>
+</sbTopicContent>
+</sbTopic>
+<sbTopic sbTopicType="sbtt08">
+<title>Description</title>
+<sbTopicContent>
+<para>Replacement of the fork</para>
+</sbTopicContent>
+</sbTopic>
+<sbTopic sbTopicType="sbtt19">
+<title>General evaluation</title>
+<sbTopicContent>
+...
+</sbTopicContent>
+</sbTopic>
+</sbSummary>
+2.3.5 Сведения по планированию сервисного бюллетеня
+sbPlanningInfo Описание. Элемент < > содержит сведения, позволяющие
+определить, следует ли использовать данный сервисный бюллетень, α также
+спланировать его выполнение. Он состоит из разделов σ описательным содержимым.
+sbPlanningInfo Элемент разметки: < > (Μ)
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Α-040Α-Α
+Глава 3.9.5.2.15
+2013-11-15 Страница 11

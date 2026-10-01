@@ -1,0 +1,27 @@
+Σ1000DR-UACRU-01000-00
+сгруппированных β набор η задействованных β сервисном бюллетене.
+sbSupplySet Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00054-Α-001-01
+sbSupplySet Рис. 17 Элемент < >
+Атрибуты:
+Атрибуты η правила выполнения проекта такие же, как η для элемента 
+sbMaterialSet < >. См. Разд. 2.1.1.
+Дочерние элементы:
+name < > (O). См. Глава 3.9.5.2.1.9 . 
+shortName < > (O). См. Глава 3.9.5.2.1.9 . 
+sbProcurementInfo < > (O). См. Разд. 2.1.1.1. 
+sbIndustrySupport < > (O). См. Разд. 2.1.1.2. 
+sbInstructionRef < > (O). См. Глава 3.9.5.2.15.1 . 
+sbIndividualSupply < > (Μ). См. Разд. 2.3.2. 
+footnote < > (O). См. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<sbSupplySet id="mat-0018" sbMaterialType="sbmt01"
+sbMaterialIdent="BSK-SPST-100" sbMaterialIssue="001"
+sbProcurableFlag="1" sbSupplierValue="any">
+<name>Clean up set</name>
+<sbProcurementInfo>
+...
+</sbProcurementInfo>
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 23

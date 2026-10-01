@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+applicPropertyValues="1Β070643~1Β070799"/>
+</evaluate>
+3.2.2.2 Комментарий вычисления логического "ИЛИ"
+Приведенный ниже пример иллюстрирует комментарий вычисления, выполняющий
+логическую операцию "ИЛИ". Если какой-либо из комментариев-утверждений дает
+результирующее логическое значение "true", результатом вычисления является
+логическое значение "true". Если оба комментария-утверждения дают результирующее
+логическое значение "false", результатом вычисления является логическое значение
+"false".
+Комментарий вычисления:
+<evaluate andOr="or">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Mountain
+storm"/>
+</evaluate>
+3.2.2.3 Комментарий рекурсивного вычисления
+Приведенный ниже пример иллюстрирует рекурсивный характер комментария
+вычисления. Внешний комментарий вычисления выполняет над результатами двух
+внутренних комментариев вычисления логическую операцию "ИЛИ".
+Комментарий вычисления:
+<evaluate andOr="or">
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Mountain
+storm"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk1"/>
+</evaluate>
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk9"/>
+</evaluate>
+</evaluate>
+3.3 Создание отображаемого текста
+3.3.1 Преобразование комментариев-утверждений
+3.3.1.1 Текстовый комментарий-утверждение
+Комментарий-утверждение:
+<assert>in icy conditions</assert>
+Действительно: Все Σ1000Δ-Α-07-08-0000-00Α-040Α-Α
+Глава 7.8
+2013-11-15 Страница 13

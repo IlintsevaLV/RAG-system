@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+Способ 1. Запись сведений об авторских правах непосредственно β модуле данных.
+Обратите внимание на использование сущности символа авторских прав У для
+получения символа "©".
+<copyright>
+<copyrightPara>TPSMG UK, 2003-2010</copyrightPara>
+</copyright>
+Способ 2. Ссылка на конкретный модуль сведений об авторских правах.
+<copyright>
+<copyrightPara>For Copyright information, refer to
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="Α"
+systemCode="00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="021" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef> and
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000Δ" systemDiffCode="Α"
+systemCode="00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="01" disassyCodeVariant="Α"
+infoCode="021" infoCodeVariant="Α" itemLocationCode="Δ" />
+</dmRefIdent>
+</dmRef>
+</copyrightPara>
+</copyright>
+2.2.4.2.2 Параграф авторских прав
+copyrightPara Описание. Элемент < > содержит само заявление об авторских
+правах или перекрестную ссылку на другой модуль данных, где находится это
+заявление.
+copyrightPara Элемент разметки: < > (C)
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id copyrightPara (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+Дочерние элементы:
+текстовые символы (O). См. Глава 3.9.1 . 
+emphasis < > (C). См. Глава 3.9.5.2.1.10 . 
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 30

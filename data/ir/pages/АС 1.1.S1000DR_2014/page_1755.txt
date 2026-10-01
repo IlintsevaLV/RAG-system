@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00038-Α-001-01
+sbMaterialInfoContent Рис. 1 Элемент < >
+Атрибуты:
+Нет. 
+Дочерние элементы:
+commonInfo < > (O). См. Глава 3.9.5.2.1.12 . 
+sbMaterialSetList < > (Μ). См. Разд. 2.1. 
+sbSupportEquipsList < > (Μ). См. Разд. 2.2. 
+sbSuppliesList < > (Μ). См. Разд. 2.3. 
+sbSparesList < > (Μ). См. Разд. 2.4. 
+sbRemovedSparesList < > (Μ). См. Разд. 2.5. 
+Пример разметки:
+<sbMaterialInfoContent>
+<sbMaterialSetList>
+...
+</sbMaterialSetList>
+<sbSupportEquipsList>
+...
+</sbSupportEquipsList>
+<sbSuppliesList>
+...
+</sbSuppliesList>
+<sbSparesList>
+...
+</sbSparesList>
+<sbRemovedSparesList>
+...
+</sbRemovedSparesList>
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 4

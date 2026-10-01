@@ -1,0 +1,65 @@
+Пример разметки:
+<faultReporting>
+<isolatedFault id="flt-0003"
+<faultDescr>
+<descr>Horn failed</descr>
+</faultDescr>
+<locateAndRepair>
+<locateAndRepairLruItem>
+<lru>
+<name>Horn</name>
+<identNumber>
+<manufacturerCode>KZ444</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>Horn-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</lru>
+<repair>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="DA3"
+assyCode="00" disassyCode="00"
+infoCode="921" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+</repair>
+</locateAndRepairLruItem>
+</locateAndRepair>
+</isolatedFault>
+</faultReporting>
+2.5.2 Группа альтернативных вариантов
+Описание: Элемент <
+альтернативных вариантов, которая
+локализованных неисправностей.
+вариантов β содержимом модуля
+Элемент разметки : <
+Атрибуты :
+id (O), идентификатор элемента 
+3.9.5.2.1.2 .
+changeMark changeType (O), 
+используются для указания на
+3.9.5.2.1.1 .
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ faultCode="NYCJD03">
+ systemDiffCode="AAA"
+subSystemCode="1" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+ локализованных неисправностей
+isolatedFaultAlts > представляет собой группу
+ позволяет объединять несколько альтернативных
+Сведения об использовании группы альтернативных
+ данных см. β Глава 4.13.3
+isolatedFaultAlts > (O)
+isolatedFaultAlts < >. См. Глава
+reasonForUpdateRefIds (O) η (O),
+ изменение β соответствии σ положениями Глава
+Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 18

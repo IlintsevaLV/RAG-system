@@ -1,0 +1,26 @@
+Σ1000DR-UACRU-01000-00
+genericPropertyType Использование атрибута β элементе
+genericPropertyGroup sbManagementInfo < > β элементе < > :
+genericPropertyType Решение ο том, какие значения атрибута являются 
+допустимыми. Использование тех или иных допустимых значений атрибута
+genericPropertyType зависит от контекста, β котором используется
+genericPropertyGroup элемент < >. См. Глава 3.9.6.1 .
+Пример разметки:
+<genericPropertyGroup>
+<genericProperty genericPropertyType="gpt01"
+genericPropertyFlag="1"/>
+<genericProperty genericPropertyType="gpt04"
+genericPropertyFlag="1"/>
+<genericProperty genericPropertyType="gpt06"
+genericPropertyFlag="1"/>
+</genericPropertyGroup>
+Примечание
+genericPropertyType gpt01 =" " определяется как "влияет на комфорт 
+пассажиров".
+genericPropertyType gpt04 =" " определяется как "конструктивное 
+продление жизненного цикла".
+genericPropertyType gpt06 =" " определяется как "влияет на 
+функциональность объекта".
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Конец модуля данных Глава 3.9.5.2.15.1
+2013-11-15 Страница 26

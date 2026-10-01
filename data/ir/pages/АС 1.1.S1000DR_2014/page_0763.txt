@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+levelledParaAlts Элемент разметки : < > (O)
+Атрибуты:
+id levelledParaAlts (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+levelledPara < > (Μ) 
+3 Пример
+<levelledPara>
+<title>The bicycle wheel</title>
+<para>The wheel (refer to <internalRef internalRefId="fig-0001"
+internalRefTargetType="irtt01"></internalRef>) of α bicycle is α
+complex structure. The wheel assembly has these parts:
+<randomList listItemPrefix="pf01">
+<listItem>the tire</listItem>
+<listItem>the tube</listItem>
+<listItem>the spokes</listItem>
+<listItem>the spoke nipples</listItem>
+<listItem>the valve</listItem>
+<listItem>the hub</listItem>
+</randomList>
+On their own, the individual components are not very strong.
+But, when they are installed together, the components make the
+complete wheel (refer to <internalRef internalRefId="fig-0001"
+internalRefTargetType="irtt01"></internalRef>). The complete
+wheel is resistant to almost any type of heavy loads and
+operation.</para>
+<figure id="fig-0001">
+<title>Parts of the wheel</title>
+<graphic infoEntityIdent="ICN-Σ1000DBIKE-AAA-DA00000-0-U8025-
+00504-Α-03-1" reproductionWidth="510mm"></graphic>
+</figure>
+<levelledPara id="par-0001">
+<title>Spokes</title>
+<para>The spokes go out from the hub and go across and below
+each other. The spoke nipples attach the spokes to the rim
+Действительно: Все Σ1000Δ-Α-03-09-0502-02Α-040Α-Α
+Глава 3.9.5.2.2
+2013-11-15 Страница 8

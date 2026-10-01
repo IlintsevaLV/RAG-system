@@ -1,0 +1,43 @@
+S1000DR-UACRU-01000-00
+lcFeedbackItemGroup < >.
+• Оценка обучения: добавлен новый необязательный элемент
+lcFeedbackItemGroup < > в следующие элементы типа взаимодействия:
+lcSingleSelect lcMultipleSelect lcTrueFalse < >, < >, < >,
+lcDragAndDrop lcMatching lcHotSpot < >, < >, < >,
+lcCompletion lcSequencing < >, < >). Новый элемент
+lcFeedbackItemGroup < > содержит дочерний элемент
+lcFeedbackItem < >, содержащий необязательные атрибуты:
+attemptsMatch используется для указания разрешенного числа 
+попыток ответа при взаимодействии
+feedbackStatus указывает, к какому ответу относится обратная 
+связь: к правильному или неправильному.
+lcFeedbackCorrect • Оценка обучения: элементы < > и
+lcFeedbackIncorrect < > удалены из элементов типа взаимодействия и
+lcFeedbackItem перемещены в новый родительский элемент < >.
+lcAnswerOption • Оценка обучения: в элемент < > добавлены следующие
+weight attempts shuffle новые атрибуты: , и . Элемент
+lcFeedback lcAnswerOption < > удален из < > и замещен элементом
+lcFeedbackItem < >.
+lcIntro lcDuration • Содержимое обучения: элементы < >, < >,
+lcObjectives lcChallenge < > и < > удалены из родительского
+learningContent элемента < >.
+lcIntro lcPrereqs • Обзор обучения: элементы < >, < > и
+lcObjectives learningOverview < > исключены из элемента < >
+description lcEntryBehavior • Обзор обучения: элементы < > и < >
+lcAudience добавлены в элемент < >.
+lcNeedsAnalysis lcIntervention • План обучения: элементы < >, < >,
+lcTechnical learningPlan < > исключены из элемента < >.
+lcPerformanceAnalysis • План обучения: элементы < >,
+lcCauseAnalysis lcInterventionDefinition < >, < > и
+lcInterventionImplementation < > добавлены в элемент
+learningPlanElement < >.
+lcObjectives • Сводка по обучению: элемент < > исключен из ветви сводки
+по обучению и добавлен в ветвь плана обучения.
+• Содержимое обучения, обзор и сводка по обучению: элемент
+shortDescr description < > замещен элементом < >.
+• Обновления структур данных плана обучения представляют собой полный
+пересмотр ветви плана обучения в схеме обучения.
+CPF 2009-019S1 - Разделение пакета содержимого SCORM 
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 6

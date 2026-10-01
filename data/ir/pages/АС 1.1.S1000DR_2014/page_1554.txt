@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+Courier Manager on the last Friday of each month. The statistics
+will be entered directly into the Courier Manager'σ Maintenance
+Awareness (CMMA) tool.</para>
+</description>
+</lcOrganizationalCommunication>
+2.4.1.6 Организационная структура
+lcOrganizationalDesign Описание: Элемент < > содержит технические
+данные, описывающие воздействие, связанное σ производительностью η нацеленное
+на улучшение или согласование структуры организации, которое обеспечит успешную
+реализацию бизнес-задач работниками.
+lcOrganizationalDesign Элемент разметки: < > (O)
+Атрибуты:
+id lcOrganizationalDesign (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcOrganizationalDesign>
+<description>
+<para>Couriers will be structured into three tiers. The base
+tier will be new hires with no experience. The second tier will
+be couriers with 1-3 years of experience. The third tier will be
+couriers with 4+ years of experience, and will include
+supervisory-level couriers.</para>
+</description>
+</lcOrganizationalDesign>
+2.4.2 Учебное воздействие
+lcTrainingInterventions Описание: Элемент < > является контейнером для
+данных, описывающих характеристики η требования κ структуре η разработке
+обучающих курсов.
+lcTrainingInterventions Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 70

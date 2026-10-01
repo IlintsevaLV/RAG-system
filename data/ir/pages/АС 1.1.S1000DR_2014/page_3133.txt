@@ -1,0 +1,40 @@
+S1000DR-UACRU-01000-00
+wireAlts harnessAlts • Добавлены новые элементы < >, < >,
+electricalEquipAlts wire < > в качестве варианта к элементам < >,
+harness electricalEquip < > и < >.
+functionalItemAlt functionalItem • Элемент < > переименован в < >
+functionalItemAlts и вложен в новый элемент < >.
+circuitBreakerAlt circuitBreaker • Элемент < > переименован в < >
+circuitBreakerAlts и вложен в новый элемент < >.
+zoneAlt zone • Элемент < > переименован в < > и вложен в новый элемент
+zoneAlts < >.
+accessPointAlt accessPoint • Элемент < > переименован в < > и
+accessPointAlts вложен в новый элемент < >.
+toolAlt tool • Элемент < > переименован в < > и вложен в новый элемент
+toolAlts < >.
+supplyRqmtAlt supplyRqmt • Элемент < > переименован в < > и вложен в
+supplyRqmtAlts новый элемент < >.
+CPF 2007-011SE - Новая схема служебной информации 
+• Введена новая схема для типа модуля данных служебной информации:
+схема служебной информации, главным элементом которой является новый
+frontMatter элемент < >.
+CPF 2008-006US - измененная последовательность процессного модуля данных 
+dmSeq dmNode • Элемент < > удален из < > для исключения ситуации с
+вложением одного узла в другой.
+dmNodeAlt dmSeqAltGroup • Элемент < > замещен элементом < > из
+dmSeq dmThenSeq dmElseSeq < >, < > и < > для обеспечения возможности
+альтернативных подпоследовательностей (например, If, Loop и Node) в
+зависимости от применимости.
+dmSeqAlt dmSeqAltGroup • Элемент < > добавлен к < > для выбора
+альтернативной последовательности для выполнения, состоящей из
+dmIf dmLoop dmNode dmSeqAltGroup элементов < >, < >, < > и < >.
+applicRefId dmIf dmLoop • Атрибут добавлен к элементам < > и < >,
+чтобы допустить применимость
+CPF 2008-007S1 - Согласованы имена атрибутов номера проекта начальной 
+поставки
+initialProvisioningProjectValue • Атрибут переименован в
+initialProvisioningProjectNumber .
+references.doc CPF 2008-014AA - Оптимизация источника требования 
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 3

@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<description>
+<para>Speedy Couriers has one general manager and four shift
+managers with administrative duties related to dispatching
+couriers. No managers have any advanced bike repair skills
+beyond what the couriers possess. The shift managers are
+responsible for ensuring couriers perform all required
+preventive maintenance at the scheduled periodicity.</para>
+</description>
+</lcManagerialSupport>
+<lcPhysicalAspectsOfSite>
+<description>
+<para>The maintenance location provided for couriers by the
+corporation is α single garage bay measuring 20-feet deep by 16-
+feet wide. Basic wrenches, pliers, screwdrivers, etc are within
+the work area. Lighting is in full working order. Various
+moveable stools and benches are scattered throughout. No other
+items are in the maintenance location.</para>
+</description>
+</lcPhysicalAspectsOfSite>
+<lcSocialAspectsOfSite>
+<description>
+<para>Due to the need to keep couriers constantly dispatched,
+there is often only one courier performing the required
+maintenance at α given time. Couriers generally do not have time
+or opportunity to interact or assist one another in the
+maintenance location. Maintenance tasks are learned by the
+couriers while on the job, often without assistance.</para>
+</description>
+</lcSocialAspectsOfSite>
+<lcSpecialFactors>
+<description>
+<para>None identified.</para>
+</description>
+</lcSpecialFactors>
+</lcWorkEnvironmentAnalysis>
+<lcPerformerAnalysis>
+<title>Performer Analysis</title>
+<description>
+<para>This performer analysis examined the characteristics and
+attributes of the primary bike maintenance technician, the
+courier. The characteristics and attributes of α professional
+bike technician are addressed under another performer
+analysis.</para>
+</description>
+<lcJobTitle>
+<description>
+<para>Bike Courier</para>
+</description>
+</lcJobTitle>
+<lcJobCode>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 17

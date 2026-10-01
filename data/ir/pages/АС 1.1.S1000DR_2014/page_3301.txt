@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+</xs:sequence>
+<xs:attribute name="infoEntityIdent" type="xs:ENTITY"
+use="required"/>
+<xs:attribute name="applicRefId" type="xs:IDREF"/>
+<xs:attribute name="id" type="xs:ID"/>
+<xs:attribute name="repoductionWidth" type="xs:string"/>
+<xs:attribute name="repoductionHeight" type="xs:string"/>
+<xs:attribute name="repoductionScale" type="xs:string"/>
+<xs:attribute name="changeMark" type="xs:nonNegativeInteger"/>
+<xs:attribute name="reasonForUpdateRefIds" type="xs:IDREFS"/>
+<xs:attribute name="authorityName" type="xs:string"/>
+<xs:attribute name="authorityDocument" type="xs:string"/>
+<xs:attribute name="securityClassification"
+type="securityClassificationAttType"/>
+<xs:attribute name="commercialClassification"
+type="commercialClassificationAttType"/>
+<xs:attribute name="caveat" type="caveatAttType"/>
+<xs:attribute ref="xlink:type" fixed="simple"/>
+<xs:attribute ref="xlink:href"/>
+<xs:attribute ref="xlink:title"/>
+<xs:attribute ref="xlink:show"/>
+<xs:attribute ref="xlink:actuate"/>
+</xs:complexType>
+</xs:element>
+Примечание
+Примечание
+Поскольку активировать графические активные участки имеет смысл, только
+internalRef ссылаясь на них σ помощью элемента < >, нет необходимости
+hotspot объявлять элемент < > как связывающий элемент.
+symbol Существует особый случай для элемента < >, который может появиться на
+самом низком уровне (например, β параграфах, списках η таблицах). По умолчанию
+программа просмотра должна вывести его без взаимодействия σ пользователем η
+вставить β текущий текст.
+symbol Β Глава 7.7.4 можно найти пример объекта XLink для элемента < >.
+figure graphic Другие примеры разметки для элемента < > η элемента < >
+приведены β следующих параграфах.
+2.2.1 Одностраничная иллюстрация
+Пример разметки одностраничной иллюстрации β фрагменте экземпляра модуля
+данных на языке XML σ минимальным объемом необходимых сведений:
+<figure id="fig001">
+<title>Removal of solenoid valve, Pump No. 1</title>
+<graphic infoEntityIdent="ICN-1Β-Β-291101-Μ-C0419-00571-Α-01-1">
+</graphic>
+</figure>
+Пример разметки одностраничной иллюстрации β формате XML σ атрибутами XLink β
+Действительно: Все Σ1000Δ-Α-07-04-0101-03Α-040Α-Α
+Глава 7.4.1.1.3
+2013-11-15 Страница 4

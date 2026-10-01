@@ -1,0 +1,14 @@
+Σ1000DR-UACRU-01000-00
+<tool applicRefId="applic-001">
+<itemDescr>This tool is used to move the borescope during APU
+internal inspections of the Power Turbine.</itemDescr>
+<functionalPhysicalAreaRef systemCode="49" subSystemCode="2"/>
+<rcmdQuantity>2</rcmdQuantity>
+<taskCategory taskCategoryCode="maintenance"/>
+</tool>
+</toolAlts>
+</toolSpec>
+</toolRepository>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11K-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.9
+2013-11-15 Страница 9

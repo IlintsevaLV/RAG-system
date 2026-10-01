@@ -1,0 +1,36 @@
+S1000DR-UACRU-01000-00
+modelIdentCode systemDiffCode • Необязательные атрибуты , ,
+systemCode subSystemCode subSubSystemCode assyCode , , , и
+ItemLocationCode добавлены в элементы
+catalogSeqNumberRef categoryOneContainerLocation < > и < >.
+systemCode subSystemCode • Необязательные атрибуты , ,
+ subSubSystemCode assyCode и добавлены в элемент
+catalogSeqNumber < >.
+CPF 2009-040S1 - Текстовые правила BREX 
+• В модуль данных BREX добавлен новый необязательный элемент
+nonContextRules < >.
+contextRules • Изменен элемент < >, который стал необязательным.
+CPF 2009-142S1 - Добавление комментариев в таблицах автомата защиты сети 
+footnote • Элемент < > добавлен в элемент
+circuitBreakerDescrGroup < >.
+footnoteRemarks • Добавлен новый необязательный элемент < > в элемент
+circuitBreakerDescr < >.
+CPF 2009-143S1 - Ссылки в MAC 
+refs groupNumber • Элемент < > добавлен в элемент < >.
+refs maintFunc • Элемент < > добавлен в элемент < >.
+CPF 2009-144S1 - Внешние комментарии по применимости 
+applicRef dmStatus • Новый элемент < > добавлен в элемент < >.
+referencedApplicGroup dmStatus • Элемент < > удален из < >.
+referencedApplicGroup • Элементы < > и
+referencedApplicGroupRef content < > добавлены в элемент < >.
+applicRepository • Новый элемент < > и его дочерние элементы
+commonRepository добавлены в элемент < >.
+CPF 2009-146S1 - Оптимизация описания деталей в общем информационном 
+репозитории
+partNumberUnavailableFlag • Новый атрибут добавлен в элемент
+itemIdentData < >.
+stockNumber customerStockNumber • Элемент < > переименован в < >.
+name descrForPart • Элемент < > переименован в < > в элементе
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 13

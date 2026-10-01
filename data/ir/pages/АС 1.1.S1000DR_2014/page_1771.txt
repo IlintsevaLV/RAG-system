@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+footnoteRemarks < > (O). См. Глава 3.9.5.2.1.9 . 
+Пример разметки:
+<sbIndividualSupportEquip sbMaterialType="sbmt01">
+<embeddedSupportEquipDescr>
+<name>Saw tool</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TW-100</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</embeddedSupportEquipDescr>
+</sbIndividualSupportEquip>
+</sbIndividualSupportEquip>
+2.2.2.1 Ссылка на чертеж
+sbDrawingRef Описание. Элемент < > содержит ссылку на чертеж, не входящий β
+модуль данных сервисного бюллетеня.
+sbDrawingRef Элемент разметки: < > (O)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00051-Α-001-01
+sbDrawingRef Рис. 14 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id (O), идентификатор ссылки на чертеж. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+sbItem (O), обозначает изделие на чертеже 
+Дочерние элементы:
+refs < > (O). См. Глава 3.9.5.2.1.2 . 
+Пример разметки:
+<sbDrawingRef sbItem="01">
+<refs><externalPubRef>...</externalPubRef></refs>
+<sbDrawingRef>
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 20

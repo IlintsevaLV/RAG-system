@@ -1,0 +1,41 @@
+Рис. 7 Элемент <
+Атрибуты:
+Нет 
+Дочерние элементы:
+dmRef < > (Μ). См. Глава 
+Пример разметки:
+<condCrossRefTableRef>
+<dmRef>
+...
+</dmRef>
+</condCrossRefTableRef>
+2.5 Ссылка на PCT
+Описание. Элемент <
+модуль данных PCT для данного
+Элемент разметки: <
+Рис. 8 Элемент <
+Атрибуты:
+Нет 
+Дочерние элементы:
+dmRef < > (Μ). См. Глава 
+Пример разметки:
+<productCrossRefTableRef>
+<dmRef>
+...
+</dmRef>
+</productCrossRefTableRef>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090503-Α-FAPE3-00014-Α-001-01
+condCrossRefTableRef >
+3.9.5.2.1.2 .
+productCrossRefTableRef > представляет ссылку на
+ проекта.
+productCrossRefTableRef > (O)
+ICN-Σ1000Δ-Α-03090503-Α-FAPE3-00015-Α-001-01
+productCrossRefTableRef >
+3.9.5.2.1.2 .
+Σ1000Δ-Α-03-09-0503-01Α-040Α-Α
+Глава 3.9.5.3.1
+2013-11-15 Страница 11

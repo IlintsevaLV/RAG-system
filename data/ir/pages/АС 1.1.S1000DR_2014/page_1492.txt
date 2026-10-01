@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+lcPlanSubject < > (O). См. 2.1.6. 
+Пример разметки:
+<lcProject>
+<title>Basic Bike Awareness Learning Plan</title>
+<description>
+<para>This learning plan is sponsored by the National Bike
+Courier association. It contains the requirements for α training
+intervention intended to support men and women who perform the
+bike courier job.</para>
+</description>
+<lcClient>
+<title>National Bike Courier Association (NBCA)</title>
+<description>
+<para>The NBCA is α national professional society for bike
+couriers.</para>
+</description>
+</lcClient>
+<lcLearningPlan>
+<title>Bike Maintenance for Couriers</title>
+<description>
+<para>This lesson plan describes the learning needs and
+instructional requirements for teaching the parts of α bike and
+bike maintenance procedures.</para>
+</description>
+</lcLearningPlan>
+<lcCourseIdentNumber>
+<title>Course Identification Number</title>
+<description>
+<para>N00174-05-Δ-0003</para>
+</description>
+</lcCourseIdentNumber>
+<lcModificationDate>
+<title>Modification Date</title>
+<description>
+<para>N/Α</para>
+</description>
+</lcModificationDate>
+<lcDeliveryDate>
+<title>Delivery Date</title>
+<description>
+<para>20091228</para>
+</description>
+</lcDeliveryDate>
+<lcPlanSubject>
+<title>Learning Plan Subject Matter</title>
+<description>
+<para>Major bike assembly, sub-assemblies and parts in the
+context of and general maintenance procedures.</para>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 8

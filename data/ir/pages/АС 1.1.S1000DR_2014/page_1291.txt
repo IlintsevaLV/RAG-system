@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+paraBasic < > (Μ). См. Разд. 2.3.1. 
+send < > (O). См. Разд. 2.3.2. 
+receiveValue < > (O). См. Разд. 2.3.3. 
+receiveByName < > (O). См. Разд. 2.3.4. 
+receiveByPosition < > (O). См. Разд. 2.3.5. 
+Пример разметки:
+<dmNode>
+<externalApplication application="MMS">
+<paraBasic>Update the Maintenance Management System
+(MMS)</paraBasic>
+<send>
+<sendName>code</sendName>
+<variableRef variableName="ECU.fault-code"/>
+</send>
+</externalApplication>
+</dmNode>
+2.3.1 Элемент paraBasic
+paraBasic Описание. Элемент < > содержит описание внешнего приложения или
+другие сведения, отображаемые для пользователя.
+paraBasic Элемент разметки: < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+Нет 
+Пример разметки:
+<paraBasic>Update the Maintenance Management System
+(MMS)</paraBasic>
+2.3.2 Элемент Send
+send Описание. Элемент < > определяет параметры для отправки β вызванное
+приложение.
+send Элемент разметки: < >
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Δ-040Α-Α
+Глава 3.9.5.2.10.3
+2013-11-15 Страница 10

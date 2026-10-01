@@ -1,0 +1,19 @@
+Σ1000DR-UACRU-01000-00
+<title>Bicycle service due dates</title> 2
+<prompt> 3
+<paraBasic>Tire is due </paraBasic> 4
+<variableRef variableName="TireDue"/> 5
+</prompt> 6
+<prompt> 7
+<paraBasic>Gear changer is due </paraBasic> 8
+<variableRef variableName="GearDue"/> 9
+</prompt> 10
+</message> 11
+ICN-Σ1000Δ-Α-030905-Α-99994-00007-Α-01-1
+Рис. 20 Пример диалога σ отображением сообщения для пользователя
+2.4.7 Пример сложной компоновки диалога
+Приведенный ниже пример разметки η диалога ИЭТП (См Рис. 21) является
+сочетанием трех (3) диалоговых компонентов (меню, поле ввода η сообщение) σ
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 39

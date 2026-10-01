@@ -1,0 +1,41 @@
+S1000DR-UACRU-01000-00
+CPF 2009-149S1 - Данные в иллюстрированном каталоге деталей, зависимые от 
+местоположения
+specDocument • Необязательный и повторяющийся элемент < > добавлен в
+illustratedPartsCatalog элемент < >.
+applicRefId specDocument • Атрибут добавлен в элемент < >.
+referTo • Необязательный и повторяющийся элемент < > добавлен в элемент
+catalogSeqNumber < >.
+refs functionalItemRef • Повторяющиеся элементы < > и < > добавлены
+referTo в элемент < >.
+totalQuantity • Необязательные элементы < > и
+removalOrInstallationQuantity < > добавлены в элемент
+itemSequenceNumber < >.
+partStatus • Новый атрибут добавлен в элемент
+itemSequenceNumber < >.
+changeAuthorityNumber • Элемент < > переименован в
+changeAuthority < > и добавлен в новый элемент
+changeAuthorityData condNumber < >. Атрибуты ,
+manufacturerCodeValue condType , добавлены в элемент
+changeAuthority < >.
+locationRcmdSegment • Изменен элемент < >, который стал
+itemSequenceNumber необязательным в элементе < >.
+• Новый необязательный и повторяющийся элемент
+restrictedOperationNote < > добавлен в элемент
+applicabilitySegment < >.
+installationLocation • Необязательный и повторяющийся элемент < >
+partLocationSegment добавлен в элемент < >.
+CPF 2009-150S1 - Ссылки на набор материалов сервисного бюллетеня из 
+предварительных требований процедуры
+• Все изменения схемы данного CPF производились по CPF 2009-158S1.
+CPF 2009-158S1 - Демонтированные детали 
+materialUsage materialSetRef • Новый атрибут и новый элемент < >
+supportEquipDescr supplyDescr добавлены в элементы < >, < > и
+spareDescr < >.
+materialSetRef • Добавлен новый элемент < >.
+• Новый необязательный и повторяющийся элемент
+embeddedSupportEquipDescr < > добавлен в элемент
+supportEquipDescr < >.
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 15

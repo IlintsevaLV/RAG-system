@@ -1,0 +1,20 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00002-A-01-1
+referencedApplicGroup content Рис. 2 Издание 4.1 < > в < >
+2.2 Общий информационный репозиторий (CIR) - элемент
+techRepository < >
+techRepository content Элемент < > в элементе < > переименован в
+commonRepository < >.
+ICN-S1000D-A-07030104-0-FAPE3-00003-A-01-1
+techRepository Рис. 3 Издание 4.0.1: < >
+ICN-S1000D-A-07030104-0-FAPE3-00004-A-01-1
+commonRepository Рис. 4 Издание 4.1: < >
+2.3 Иллюстрации общего информационного репозитория - элементы
+zoneRepository accessPointRepository < >, < >,
+toolRepository controlIndicatorRepository < > и < >
+figure zoneRepository Элемент < > перемещен из элементов < >,
+accessPointRepository toolRepository < >, < > и
+controlIndicatorGroup commonRepository < > в элемент < >.
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 5

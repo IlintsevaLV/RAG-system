@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00059-Α-001-01
+sbIndividualSpare Рис. 22 Элемент < >
+Атрибуты:
+Атрибуты η правила выполнения проекта такие же, как η для элемента 
+sbMaterialSet < >. См. Разд. 2.1.1.
+Дочерние элементы:
+embeddedSpareDescr < > (Μ). См. Глава 3.9.5.2.1.9 . 
+sbDrawingRef < > (O). См. Разд. 2.2.2.1. 
+sbProcurementInfo < > (O). См. Разд. 2.1.1.1. 
+sbIndustrySupport < > (O). См. Разд. 2.1.1.2. 
+sbInstructionRef < > (O). См. Глава 3.9.5.2.15.1 . 
+footnoteRemarks < > (O). См. Глава 3.9.5.2.1.9 . 
+Пример разметки:
+<sbIndividualSpare id="mat-0004" sbMaterialType="sbmt01"
+sbMaterialIdent="FK-TEL1002" sbMaterialIssue="001"
+sbProcurableFlag="1" sbSupplierValue="manufacturer">
+<embeddedSpareDescr>
+<name>Fork</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>FK-TEL1002</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</embeddedSpareDescr>
+<sbProcurementInfo>
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 29

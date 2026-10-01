@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+Пример разметки
+<lcHotspotMap>
+<figure>
+<title/>
+<graphic id="hsa-001" infoEntityIdent="ICN-Σ1000DBIKE-AAA-
+DA20000-Α-06RT9-00029-Α-001-01" reproductionHeight="400"
+reproductionWidth="400">
+<hotspot id="hotspot001"
+objectCoordinates="150,90,180,90,150,170,180,170">
+<lcCorrectResponse lcName="hotspot001"/>
+<hotspot id="hotspot002"
+objectCoordinates="200,180,230,180,200,380,230,380">
+</hotspot>
+<hotspot id="hotspot003"
+objectCoordinates="120,50,190,50,120,100,190,100">
+</hotspot>
+</graphic>
+</figure>
+</lcHotspotMap>
+2.4.7 Ввод недостающих данных
+lcCompletion Описание. Элемент < > содержит взаимодействия типа "ввод
+недостающих данных". При взаимодействии σ вводом недостающих данных
+проходящего оценку просят вставить недостающие данные, чтобы заполнить
+оценочный пункт. Оценочный пункт взаимодействия σ вводом недостающих данных
+часто называют вопросом σ пропусками.
+lcCompletion Элемент разметки: < > (O)
+Атрибуты:
+id lcHotspot (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+title < > (O), заголовок сведений об оценке обучения. Он используется β 
+соответствии σ положениями Глава 3.9.5.2.1.5 .
+lcQuestion < > (C). См. Разд. 2.4.1.1. 
+lcAsset < > (O). См. Разд. 2.4.1.2. 
+lcAnswerOptionGroup < > (O). См. Разд. 2.4.1.3. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 42

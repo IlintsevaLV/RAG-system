@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</dialogGroup>
+<dialogGroup dialogSeparator="1">
+<title>Bike Checklist</title>
+<menu choiceType="select" choiceSelection="multiple">
+<menuChoice>
+<prompt><paraBasic>Wearing Helmet</paraBasic></prompt>
+<assertion>
+<variableRef variableName="helmet"/>
+<expression>
+<booleanValue><trueValue/></booleanValue>
+</expression>
+</assertion>
+</menuChoice>
+<menuChoice>
+<enabledState>
+<expression>
+<expression><variableRef variableName="condition"/></expression>
+<booleanOperator booleanOperation="equal"/>
+<expression><stringValue>night</stringValue></expression>
+</expression>
+</enabledState>
+<prompt><paraBasic>Headlight On</paraBasic></prompt>
+<assertion>
+<variableRef variableName="headlight"/>
+<expression>
+<booleanValue><trueValue/></booleanValue>
+</expression>
+</assertion>
+</menuChoice>
+<menuChoice>
+<prompt><paraBasic>Correct Air Pressure in
+Tire</paraBasic></prompt>
+<assertion>
+<variableRef variableName="air pressure"/>
+<expression>
+<booleanValue><trueValue/></booleanValue>
+</expression>
+</assertion>
+</menuChoice>
+<menuChoice>
+<prompt><paraBasic>Mirror is Adjusted</paraBasic></prompt>
+<assertion>
+<variableRef variableName="mirror"/>
+<expression>
+<booleanValue><trueValue/></booleanValue>
+</expression>
+</assertion>
+</menuChoice>
+</menu>
+</dialogGroup>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 13

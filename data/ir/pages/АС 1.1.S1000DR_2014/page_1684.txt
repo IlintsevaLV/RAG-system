@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+<figure>
+<title/>
+<graphic id="hsa-001" infoEntityIdent="ICN-Σ1000DBIKE-AAA-
+DA20000-Α-06RT9-00029-Α-001-01" reproductionHeight="400"
+reproductionWidth="400">
+<hotspot id="hotspot001"
+objectCoordinates="150,90,180,90,150,170,180,170">
+<lcCorrectResponse lcName="hotspot001"/>
+<hotspot id="hotspot002"
+objectCoordinates="200,180,230,180,200,380,230,380">
+</hotspot>
+<hotspot id="hotspot003"
+objectCoordinates="120,50,190,50,120,100,190,100">
+</hotspot>
+</graphic>
+</figure>
+</lcHotspotMap>
+</lcHotspot>
+</lcInteraction>
+</learningAssessment>
+</learning>
+</content>
+2.4.6.1 Отображение активных участков
+lcHotspotMap Описание. Элемент < > определяет активную зону или
+интерактивную область на мультимедийном объекте η позволяет проходящим оценку
+щелкнуть мышью эту область. Выбор пользователя оценивается как правильный или
+неправильный ответ на интерактивный вопрос. Интерактивная или "активная" область
+lcHotspotMap определяется внутри < > β виде последовательности декартовых
+objectCoordinate координат "ξ" η "υ", присваиваемых как значения атрибутов
+hotspot элемента < >. См. Глава 3.9.5.2.1.8 .
+lcHotspotMap Элемент разметки: < > (C)
+Атрибуты:
+id lcHotspot (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+figure < > (C). См. Глава 3.9.5.2.1.7 . 
+figureAlts < > (C). См. Глава 3.9.5.2.1.7 . 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 41

@@ -1,0 +1,25 @@
+Σ1000DR-UACRU-01000-00
+</assertion>
+</menuChoice>
+<menuChoice>
+<prompt><paraBasic>No</paraBasic></prompt>
+<noAssertions/>
+</menuChoice>
+</menu>
+</dialogGroup>
+<dialogGroup dialogSeparator="1">
+<message>
+<prompt><paraBasic>You must be an experienced user to access
+this data.</paraBasic></prompt>
+</message>
+</dialogGroup>
+</dialog>
+ICN-Σ1000Δ-Α-030905-Α-99994-00008-Α-01-1
+Рис. 13 Пример расположения простой η вложенной группы диалога
+2.3 Альтернативные варианты диалога
+dialogAlts Элемент разметки: < >
+ICN-76301-Σ1000Δ0031-001-01
+dialogAlts Рис. 14 Элемент < >
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 23

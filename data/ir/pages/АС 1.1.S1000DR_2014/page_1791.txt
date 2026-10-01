@@ -1,0 +1,21 @@
+Σ1000DR-UACRU-01000-00
+2001"/>
+<sbAlteredToPartDescr>Mountain bike wheel
+axis</sbAlteredToPartDescr>
+</sbAlteredToPart>
+2.5.2.2.3 Описание измененной детали
+sbAlteredToPartDescr Описание. Элемент < > содержит описание новой
+детали, которая сначала модифицируется, α затем повторно устанавливается на
+объект.
+sbAlteredToPartDescr Элемент разметки: < > (O)
+Атрибуты:
+id (O), идентификатор описания измененной детали. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Конец модуля данных Глава 3.9.5.2.15.2
+2013-11-15 Страница 40

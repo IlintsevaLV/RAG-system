@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00002-Α-001-01
+content Рис. 2 Элемент < >
+Атрибуты:
+id (O), идентификатор элемента содержимого. 
+Дочерние элементы:
+refs < > (O). См. Глава 3.9.5.2.1.2 . 
+referencedApplicGroup < > (O). См. Глава 3.9.5.3 . 
+referencedApplicGroupRef < > (O). См. Глава 3.9.5.3 . 
+warningsAndCautions < > (O). См. Глава 3.9.3 . 
+warningsAndCautionsRef < > (O). См. Глава 3.9.3 . 
+sb < > (Μ). См. Разд. 2.3. 
+Пример разметки:
+<content>
+<referencedApplicGroup>
+<applic>...</applic>
+...
+</referencedApplicGroup>
+<warningsAndCautions>
+<warning>...</warning>
+...
+<caution>...</caution>
+...
+</warningsAndCautions>
+<sb>
+...
+</sb>
+</content>
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Α-040Α-Α
+Глава 3.9.5.2.15
+2013-11-15 Страница 4

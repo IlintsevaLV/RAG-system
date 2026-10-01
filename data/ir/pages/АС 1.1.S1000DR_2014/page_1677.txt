@@ -1,0 +1,60 @@
+<lcItem>
+<description>
+<para>Question</para>
+</description>
+</lcItem>
+<lcMatchingItem>
+<description>
+<para>Answer Menu</para>
+</description>
+</lcMatchingItem>
+</lcMatchingHeader>
+<lcMatchingPair>
+<lcItem>
+<description>
+<para>Which part of the
+to rotate freely around
+</description>
+</lcItem>
+<lcMatchingItem>
+<description>
+<para>Bearings</para>
+</description>
+</lcMatchingItem>
+</lcMatchingPair>
+<lcMatchingPair>
+<lcItem>
+<description>
+<para>To which part of the
+attached?</para>
+</description>
+</lcItem>
+<lcMatchingItem>
+<description>
+<para>Hub shell</para>
+</description>
+</lcMatchingItem>
+</lcMatchingPair>
+<lcMatchingPair>
+<lcItem>
+<description>
+<para>Which part of the
+dropouts?</para>
+</description>
+</lcItem>
+<lcMatchingItem>
+<description>
+<para>Axle</para>
+</description>
+</lcMatchingItem>
+</lcMatchingPair>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+hub assembly allows wheel components
+the axle?</para>
+ assembly are the spokes
+hub assembly is attached to the
+Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 34

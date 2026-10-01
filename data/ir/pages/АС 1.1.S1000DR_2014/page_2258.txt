@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+Когда альтернативные варианты объединяются β группу, явно определяется, что
+элементы являются альтернативными вариантами одного информационного объекта.
+Это позволяет реализовать простой алгоритм нумерации для связи одного номера со
+всеми альтернативными вариантами одного элемента.
+5 Примеры
+5.1 Пример группы альтернативных вариантов для процедурных
+шагов
+Β этом примере разметки показано использование группирования альтернативных
+процедурных шагов β модуле данных задач технического обслуживания (элемент
+proceduralStepAlts < >), см. Рис. 2.
+<mainProcedure>
+...
+<!-- ProceduralStep alternates grouping (two alternates of step
+6)-->
+<proceduralStepAlts>
+<!-- First procedural step (step 6) alternate with
+applicability: "Model: Mountain storm Version: Mk1"-->
+<proceduralStep applicRefId="apMK1"><para>Wash the Bike</para>
+<proceduralStep><para>Soak the <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#seq-
+0003" internalRefId="seq-0003" internalRefTargetType="irtt05"/>
+into <internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0002" internalRefId="sup-0002"
+internalRefTargetType="irtt04"/> and water.</para>
+</proceduralStep>
+<proceduralStep><para>Clean the bicycle with the soaked
+sponge.</para></proceduralStep>
+<proceduralStep><para>Flush the bicycle and make sure that all
+<internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0002" internalRefId="sup-0002"
+internalRefTargetType="irtt04"/> is
+removed.</para></proceduralStep>
+<proceduralStep><para>Move the bicycle up and down on its tires
+to remove all water.</para></proceduralStep>
+</proceduralStep>
+<!-- Second procedural step (step 6) alternate with
+applicability:"Model: Brook trekker Version: Mk9"-->
+<proceduralStep applicRefId="apMK9"><para>Wash the Bike</para>
+<proceduralStep><para>Soak the <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#seq-
+0003" internalRefId="seq-0003" internalRefTargetType="irtt05"/>
+into <internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0003" internalRefId="sup-0003"
+internalRefTargetType="irtt04"/> and
+water.</para></proceduralStep>
+<proceduralStep><para>Clean the bicycle with the soaked
+sponge.</para></proceduralStep>
+<proceduralStep><para>Soak the <internalRef
+Действительно: Все Σ1000Δ-Α-04-13-0300-00Α-040Α-Α
+Глава 4.13.3
+2013-11-15 Страница 8

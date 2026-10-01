@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+authorityName authorityDocument (O) η (O) используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+circuitBreakerIdent < > (Μ). См. Разд. 2.1.1.1. 
+name < > (Μ). См. Глава 3.9.5.2.1.10 . 
+shortName < > (O). См. Глава 3.9.5.2.1.10 . 
+functionalPhysicalAreaRef < > (O). См. Глава 3.9.5.2.11.10 . 
+circuitBreakerRefGroup < > (Μ). См. Разд. 2.1.1.2. 
+circuitBreakerAlts < > (Μ). См. Разд. 2.1.1.3. 
+refs < > (O). См. Глава 3.9.5.2.1.2 . 
+Пример разметки:
+<circuitBreakerSpec>
+<circuitBreakerIdent circuitBreakerNumber="..."/>
+<name>...</name>
+<circuitBreakerAlts>...</circuitBreakerAlts>
+</circuitBreakerSpec>
+2.1.1.1 Идентификатор автомата защиты сети
+id Описание. Β отличие от атрибута этот элемент содержит семантическое
+определение функционального элемента на основании его атрибутов.
+circuitBreakerIdent Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Α-FAPE3-00017-Α-001-01
+circuitBreakerIdent Рис. 3 Элемент < >
+Атрибуты:
+id circuitBreakerIdent (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+circuitBreakerNumber (Μ), номер автомата защиты сети. См. Глава 
+3.9.5.2.1.10 .
+installationIdent (O), идентификатор установки 
+Действительно: Все Σ1000Δ-Α-03-09-0502-11C-040Α-Α
+Глава 3.9.5.2.11.2
+2013-11-15 Страница 4

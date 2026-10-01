@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+2.4.2.4.5 Необходимый персонал
+lcRequiredPersonnel Описание: Элемент < > определяет персонал,
+необходимый для поддержки или реализации компонента обучения.
+lcRequiredPersonnel Элемент разметки: < > (O)
+Атрибуты:
+id lcRequiredPersonnel (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcRequiredPersonnel>
+<description>
+<para>The current bicycle repair technician will serve as α
+facilitator during the practical exercise portion of the
+training as well as the grader for the hands-on test at the end
+of the training.</para>
+</description>
+</lcRequiredPersonnel>
+2.4.2.4.6 Необходимые помещения
+lcRequiredFacilities Описание: Элемент < > определяет помещения,
+необходимые для поддержки или реализации компонента обучения.
+lcRequiredFacilities Элемент разметки: < > (O)
+Атрибуты:
+id lcRequiredFacilities (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 88

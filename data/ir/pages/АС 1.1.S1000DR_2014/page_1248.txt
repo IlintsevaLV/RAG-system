@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+серый фон).
+enabledState Элемент < > вычисляется при вводе данных β диалоге η до
+отправки данных диалога. Обычно он используется, если пользователь выбирает
+вариант, требующий ввода дополнительных данных, β то время как другие варианты
+не требуют дополнительного ввода.
+Примером может служить диалог, содержащий η меню для выбора вариантов, η
+диалог для ввода данных. Меню содержит два элемента: целое значение
+datatype (утверждение [ = "integer"]) η вещественное значение (утверждение
+datatype [ = "real"]). Диалог запрашивает υ пользователя точное вещественное
+datatype значение (разрешающее выражение [ равно "real"]). Если выбран вариант
+σ целым значением, ввод пользователем запрещается, α если выбран вариант σ
+вещественным значением, ввод разрешается.
+enabledState Элемент разметки: < >
+ICN-76301-Σ1000Δ0023-001-01
+enabledState Рис. 5 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+expression < > (Μ). См. Глава 3.9.5.2.10.3 . 
+Пример разметки:
+<dialog submitCaption="ok01" cancelCaption="ca01">
+<dialogGroup>
+<title>Driving Condition</title>
+<menu choiceType="select" choiceSelection="single">
+<menuChoice>
+<prompt><paraBasic>Day</paraBasic></prompt>
+<assertion>
+<variableRef variableName="condition"/>
+<expression><stringValue>day</stringValue></expression>
+</assertion>
+</menuChoice>
+<menuChoice>
+<prompt><paraBasic>Night</paraBasic></prompt>
+<assertion>
+<variableRef variableName="condition"/>
+<expression><stringValue>night</stringValue></expression>
+</assertion>
+</menuChoice>
+</menu>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 12

@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<copyright>
+<copyrightPara>TPSMG UK, 2003-2010</copyrightPara>
+<copyrightPara>Government License - TPSMG 001</copyrightPara>
+</copyright>
+<policyStatement>TPSMG TOR 001</policyStatement>
+<dataConds>There are no known conditions that would change the
+data restrictions for, or security classification of, this data
+module.</dataConds>
+</restrictionInfo>
+</dataRestrictions>
+<responsiblePartnerCompany enterpriseCode="U8025">
+<enterpriseName>UK
+MoD</enterpriseName></responsiblePartnerCompany>
+<originator enterpriseCode="U8025">
+<enterpriseName>UK MoD</enterpriseName></originator>
+<applicCrossRefTableRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-
+Δ00-00-00-00AA-00WA-Δ"><dmRefIdent><dmCode
+modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Ω" infoCodeVariant="Α"
+itemLocationCode="Δ"></dmCode>
+</dmRefIdent></dmRef></applicCrossRefTableRef>
+<applic>
+<displayText><simplePara>Mountain bicycle and (Mountain storm
+Mk1 or Brook trekker Mk9)</simplePara></displayText>
+<evaluate andOr="and">
+<assert applicPropertyIdent="type" applicPropertyType="prodattr"
+applicPropertyValues="Mountain bicycle"/>
+<evaluate andOr="or">
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Mountain
+storm"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk1"/>
+</evaluate>
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk9"/>
+</evaluate>
+</evaluate>
+</evaluate>
+</applic>
+<techStandard>
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 51

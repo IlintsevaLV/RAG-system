@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+allowed the couriers to conduct their own repairs and reduce the
+number of breakdown pickups by the company.</para>
+</description>
+</lcJobTransfer>
+<lcOrganizationalImpact>
+<description>
+<para>At α time of 6 months after the start of the training
+program, Speedy Couriers will evaluate the data in order to
+determine if breakdown service has decreased and on-time
+delivery has increased.</para>
+</description>
+</lcOrganizationalImpact>
+</lcSummativeEvaluation>
+</lcPerformanceEvaluation>
+2.6.1 Стимулирующая оценка
+lcFormativeEvaluation Описание: Элемент < > содержит данные, связанные σ
+требованиями κ непрерывной обратной связи по отношению κ производительности
+для предоставления оценочных сведений, помогающих повысить эффективность
+обучения.
+lcFormativeEvaluation Элемент разметки: < > (O)
+Атрибуты:
+id lcFormativeEvaluation (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcFormativeEvaluation>
+<title>Formative Evaluation</title>
+<description>
+<para>Formative evaluation for this course is provided in the
+form of checks on learning that are spread out thoughout the
+lessons. In addition, the core lessons have quizzes that assess
+the content.</para>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 119

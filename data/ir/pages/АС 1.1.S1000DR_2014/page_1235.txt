@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+dmLoop Использование элемента < > :
+dmLoop Решение об использовании элемента < > η порядке использования. 
+Пример разметки:
+<dmLoop>
+<expression>
+<expression>
+<variableRef variableName="tourFinished"/>
+</expression>
+<numberOperator numberOperation="equal"/>
+<expression>
+<booleanValue><falseValue/></booleanValue>
+</expression>
+</expression>
+<dmSeq>
+<dmNode>
+<proceduralStep>
+<title>Introduction</title>
+<para>Because you are an inexperienced user, you will be
+presented α brief introduction on how to operate α
+bicycle.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Click <emphasis>next</emphasis>.</para>
+</proceduralStep>
+</dmNode>
+<dmNode>
+<proceduralStep>
+<para>Before you can, you will be given α simple question to
+test whether you read the instructions carefully.</para>
+</proceduralStep>
+</dmNode>
+<dmNode>
+<dialog>
+<menu choiceSelection="single" choiceType="select">
+<prompt>
+<paraBasic>The rear brake is operated by</paraBasic>
+</prompt>
+<menuChoice>
+<prompt>
+<paraBasic>Left brake lever</paraBasic>
+</prompt>
+<assertion>
+<variableRef variableName="tourCorrectAnswer"/>
+<expression>
+<booleanValue><falseValue/></booleanValue>
+</expression>
+</assertion>
+</menuChoice>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Β-040Α-Α
+Глава 3.9.5.2.10.1
+2013-11-15 Страница 30

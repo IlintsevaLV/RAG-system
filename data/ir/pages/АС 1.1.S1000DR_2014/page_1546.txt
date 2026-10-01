@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</description>
+</lcFileSizeLimitations>
+<lcDownloadTime>
+<description>
+<para>Download time will vary due to the the users' computer
+specifications.</para>
+</description>
+</lcDownloadTime>
+<lcSecurity>
+<description>
+<para>Security level is unclassified.</para>
+</description>
+</lcSecurity>
+</lcTechnicalRqmts>
+</lcTrainingInterventions>
+<lcLearningObjectives>
+<title>Learning Objectives</title>
+<description>
+<para>Objectives for the Basic Bike Awareness course</para>
+</description>
+<lcObjectiveItemGroup>
+<title>Steering System Lesson Objectives</title>
+<description>
+<para>Objectives for the steering system lesson</para>
+</description>
+<lcObjectiveItem>
+<title>Terminal Objective</title>
+<description>
+<para>Perform steps to remove and install the parts of α bike'σ
+steering system.</para>
+</description>
+<lcContentIdentifierName>
+<description>
+<para>Module 3: Steering System</para>
+</description>
+</lcContentIdentifierName>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="100" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ2Γ" learnEventCode="C"/>
+<issueInfo issueNumber="001" inWork="01"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+</dmRef>
+<lcObjectiveItemGroup>
+<title>Enabling Objectives</title>
+<description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 62

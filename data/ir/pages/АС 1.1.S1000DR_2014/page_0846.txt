@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+listOfChoices Элемент разметки: < > (C)
+Атрибуты:
+nextActionRefId (Μ), содержит идентификатор на следующее действие для 
+каждого элемента σ вариантом выше.
+Дочерние элементы:
+choice < > (Μ), перечень возможных вариантов 
+Пример разметки:
+<listOfChoices>
+<choice nextActionRefId="stp-0002">More than 2700 hPa</choice>
+<choice nextActionRefId="stp-0003">Between 100 hPA and 2700
+hPa</choice>
+<choice nextActionRefId="stp-0004">Less than 100 hPA</choice>
+</listOfChoices>
+2.6.1.5 Группа альтернативных шагов локализации
+isolationStepAlts Описание : Элемент < > представляет собой группу
+альтернативных вариантов, которая позволяет объединять несколько альтернативных
+шагов локализации неисправностей. Сведения об использовании группы
+альтернативных вариантов β содержимом модуля данных см. β Глава 4.13.3
+isolationStepAlts Элемент разметки : < > (O)
+Атрибуты :
+id isolationStepAlts (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O) используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6
+Дочерние элементы :
+isolationStep < > (Μ). См. Разд. 2.6.1.4. 
+Пример разметки :
+<isolationStepAlts id="stpc-0001">
+<isolationStep id="stp-0001">
+<action>To do α check of the tire for damage</action>
+<isolationStepQuestion>Is there damage to the
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 64

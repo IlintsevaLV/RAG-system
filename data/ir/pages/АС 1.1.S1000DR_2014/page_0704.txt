@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0002">
+<name>Stiff bristle brush</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001-02</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0003">
+<name>Sponge</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001-11</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr id="sup-0001">
+<name>Degreasing agent</name>
+<identNumber>
+<manufacturerCode>KZ222</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>LL-004</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="Λ">1</reqQuantity>
+</supplyDescr>
+<supplyDescr id="sup-0002">
+<name>Detergent Α</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-023-14</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="Λ">1</reqQuantity>
+</supplyDescr>
+<supplyDescr applicRefId="apMK9" id="sup-0003">
+<name>Detergent Β</name>
+<identNumber>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 73

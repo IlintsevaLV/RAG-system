@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+ICN-1654N-Σ1000Δ0025-001-01
+lcCauseAnalysis Рис. 9 Элемент < >
+Атрибуты:
+id lcCauseAnalysis (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcEnvironmentalFactor < > (O). См. 2.3.1. 
+lcInternalFactor < > (O). См. 2.3.2. 
+Пример разметки:
+<lcCauseAnalysis>
+<title>Speedy Courier Cause Analysis</title>
+<description>
+<para>Α causal factor tree analysis was conducted at Speedy
+Couriers, Inc. to determine root causes of the couriers'
+collective inability to make deliveries in accordance with the
+company'σ defined requirement. This cause analysis was also used
+to identify potential factors introduced by engineering changes
+to the XYZ Bike used by Speedy Couriers, Inc., which may affect
+(positively or negatively) the couriers' ability to meet the
+requirement.</para>
+</description>
+<lcEnvironmentalFactor>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 45

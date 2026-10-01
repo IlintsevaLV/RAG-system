@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcBrowsers>
+<description>
+<para>This courseware is created to run in the Internet Explorer
+6.ξ web browser.</para>
+</description>
+</lcBrowsers>
+2.4.2.6.2 LMS
+lcLms Описание: Элемент < > содержит название системы управления обучением η
+ее номер версии.
+lcLms Элемент разметки: < > (O)
+Атрибуты:
+id lcLms (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcLms>
+<description>
+<para>Lesson content packages will be tracked in the Sum Total
+LMS.</para>
+</description>
+</lcLms>
+2.4.2.6.3 Среды, отличные от системы управления обучением
+lcNonLmsEnvironment Описание: Элемент < > описывает технические
+требования, когда использование SCORM η системы управления обучением не
+требуется.
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 101

@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+Пример 3: Параграф σ размеченным текстом (например, XML) σ использованием
+размеченного раздела CDATA:
+<para>
+<verbatimText>
+<![CDATA[
+<para>For α full description of the headset,
+refer to <dmRef xlink:type="simple"
+xlink:actuate="onRequest" xlink:show="replace"
+xlink:href=
+"URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-DA2-30-00-00AA-041Α-Α">
+<dmRefIdent><dmCode modelIdentCode="Σ1000DBIKE"
+systemDiffCode="AAA" systemCode="DA2" subSystemCode="3"
+subSubSystemCode="0" assyCode="00" disassyCode="00"
+disassyCodeVariant="AA" infoCode="041" infoCodeVariant="Α"
+itemLocationCode="Α"/></dmRefIdent>
+</dmRef>.</para>
+]]>
+</verbatimText>
+</para>
+Пример 4: Параграф σ размеченным текстом (например, XML) σ использованием
+символьных сущностей для предотвращения конфликтов внутри разметки (β данном
+случае переводы строки обычно не удаляются):
+<para>
+<verbatimText>
+<para>For α full description of the headset,
+refer to <refdm xlink:type="simple"
+xlink:actuate="onRequest" xlink:show="replace"
+xlink:href=
+"URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-DA2-30-00-00AA-041Α-Α">
+<modelic>Σ1000DBIKE</modelic>
+<sdc>AAA</sdc>
+<chapnum>DA2</chapnum>
+<section>3</section>
+<subsect>0</subsect>
+<subject>00</subject>
+<discode>00</discode>
+<discodev>>AA</discodev>
+<incode>041</incode>
+<incodev>Α</incodev>
+<itemloc>Α</itemloc>
+</refdm>.</para>
+</verbatimText>
+</para>
+Пример 5: Текстовый параграф, содержащий пример внутритекстовой разметки XML,
+который должен быть распознан β своем контексте:
+<para>This is α running text demonstrating how the attribute
+<verbatimText verbatimStyle="vs01">verbatimStyle</verbatimText>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Λ-040Α-Α
+Глава 3.9.5.2.1.10
+2013-11-15 Страница 31

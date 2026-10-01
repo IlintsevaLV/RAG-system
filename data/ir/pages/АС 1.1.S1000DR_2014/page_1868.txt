@@ -1,0 +1,69 @@
+Β комментарии по применимости
+применимы для велосипедов 
+обслуживания 1 или 2
+применимы для велосипедов 
+<applic>
+<displayText><simplePara>Type:
+storm Version: Mk1 Maintenance
+trekker Version:
+<evaluate andOr="and">
+<assert applicPropertyIdent="type"
+applicPropertyValues="Mountain
+<evaluate andOr="or">
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr"
+storm"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr"
+<assert applicPropertyIdent="mntlvl"
+applicPropertyType="condition"
+applicPropertyValues="ml01|ml02"/>
+</evaluate>
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr"
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr"
+</evaluate>
+</evaluate>
+</evaluate>
+</applic>
+Пример 2: Комментарий по
+критериях для отдельного объекта
+010 " ").
+Β комментарии по применимости
+применимы для объектов σ 
+необходимости β рассмотрении
+условно применимы для 
+<applic>
+<displayText><simplePara>SN:
+post)</simplePara></displayText>
+<evaluate andOr="or">
+<assert applicPropertyIdent="serialno"
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ указано, что связанные технические данные:
+"Mountain storm Mk1" при уровнях технического
+"Brook trekker Mk9"
+ Mountain bicycle (Model: Mountain
+ level: 1, 2) or (Model: Brook
+Mk9)</simplePara></displayText>
+ applicPropertyType="prodattr"
+ bicycle"/>
+ applicPropertyValues="Mountain
+ applicPropertyValues="Mk1"/>
+ applicPropertyValues="Brook
+ applicPropertyValues="Mk9"/>
+применимости, основанный на информационных
+1 (объекты σ серийными номерами от " " до
+ указано, что связанные технические данные:
+1 2 5 10 номерами " ", " " η от " " до " " (нет
+ технических или эксплуатационных условий)
+3 4 объектов σ номерами " " η " "
+ 1-2, 5-10 or (SN: 3-4 SB Β:
+Σ1000Δ-Α-03-09-0503-00Α-040Α-Α
+Глава 3.9.5.3
+2013-11-15 Страница 16

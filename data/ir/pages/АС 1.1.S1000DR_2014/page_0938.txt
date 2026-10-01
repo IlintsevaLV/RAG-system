@@ -1,0 +1,24 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-030905-Δ-F6117-00002-Α-002-01
+illustratedPartsCatalog Рис. 2 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+figure < > (O). См. Глава 3.9.5.2.1.7 . 
+figureAlts < > (O). См. Глава 3.9.5.2.1.7 . 
+multimedia < > (O). См. Глава 3.9.2.4 . 
+multimediaAlts < > (O). См. Глава 3.9.2.4 . 
+specDocument < > (O). Указывает, из какого рабочего чертежа взят рисунок 
+иллюстрированного каталога деталей. См. Глава 3.9.5.2.11.3 .
+initialProvisioningProject < > (O). См. Разд. 2.2. 
+zoneGroup < > (O). См. Разд. 2.3. 
+catalogSeqNumber < > (Μ). См. Разд. 2.4. 
+Пример разметки:
+<illustratedPartsCatalog>
+<figure>...</figure>
+<initialProvisioningProject>...</initialProvisioningProject>
+<catalogSeqNumber systemCode="72" subSystemCode="0"
+subSubSystemCode="1" assyCode="67" figureNumber="10" item="001"
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 6

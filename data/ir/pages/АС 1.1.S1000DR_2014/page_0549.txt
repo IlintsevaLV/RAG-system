@@ -1,0 +1,29 @@
+from the
+<internalRef
+internalRefTargetType="irtt05"/>
+and attach the new
+<internalRef
+internalRefTargetType="irtt06"/>
+to the wheel. Refer to
+<dmRef referredFragment="par-0003">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="DA0"
+assyCode="20" disassyCode="00"
+infoCode="041" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+Действительно: Все
+Конец
+
+Σ1000DR-UACRU-01000-00
+internalRefId="seq-0001"
+internalRefId="spa-0001"
+ systemDiffCode="AAA"
+subSystemCode="1" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α
+модуля данных Глава 3.9.5.2.1.2
+2013-11-15 Страница 35

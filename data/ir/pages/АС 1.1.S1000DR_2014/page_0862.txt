@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+минимальному значению, κ максимальному значению или κ обоим значениям.
+Этот атрибут может иметь следующие значения:
+plus • " " - максимальное значение
+minus • " " - минимальное значение
+plusorminus • " " (Δ) - значение допуска
+thresholdUnitOfMeasure (O), единицы измерения для значения допуска 
+Дочерние элементы:
+Нет 
+Пример разметки:
+<threshold thresholdUnitOfMeasure="θ06">
+<thresholdValue>5</thresholdValue>
+<tolerance toleranceType="plus" toleranceValue="3"
+thresholdUnitOfMeasure="θ06"/>
+<tolerance toleranceType="minus" toleranceValue="2"
+thresholdUnitOfMeasure="θ06"/>
+</threshold>
+2.4.1.1.4 Тип проверки
+inspectionType Описание. Элемент < > содержит классификацию технического
+обслуживания по различным типам, например, "системы", "структурное" или
+"зональное".
+inspectionType Элемент разметки: < > (O)
+Атрибуты:
+id inspectionType (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+inspectionTypeCategory (Μ), текстовая классификация проверки. Если 
+ограничение используется на уровне задачи, этот атрибут позволит разработчику
+id ссылаться на проверку .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00197 - Значения
+inspectionTypeCategory атрибута :
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 11

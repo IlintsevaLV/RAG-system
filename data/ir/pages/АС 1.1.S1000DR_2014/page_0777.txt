@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-001-11</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr></supportEquipDescrGroup></reqSupportEquips>
+<reqSupplies><supplyDescrGroup>
+<supplyDescr id="sup-0001"><name>Degreasing agent</name>
+<identNumber><manufacturerCode>KZ222</manufacturerCode>
+<partAndSerialNumber><partNumber>LL-004</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="Λ">1</reqQuantity></supplyDescr>
+<supplyDescr id="sup-0002"><name>Detergent Α</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-023-14</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="Λ">1</reqQuantity></supplyDescr>
+<supplyDescr id="sup-0003" applicRefId="apMK9">
+<name>Detergent Β</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-001-15</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="Λ">1</reqQuantity></supplyDescr>
+</supplyDescrGroup></reqSupplies>
+<reqSpares><noSpares/></reqSpares>
+<reqSafety><safetyRqmts>
+<warning><warningAndCautionPara>Do not get <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#sup-
+0002" internalRefId="sup-0002" internalRefTargetType="irtt04"/>
+into your eyes. If it gets into your eyes, wash them immediately
+in clean warm water.</warningAndCautionPara></warning>
+<warning><warningAndCautionPara>Do not get <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#sup-
+0003" internalRefId="sup-0003" internalRefTargetType="irtt04"/>
+into your eyes. If it gets into your eyes, wash them immediately
+in clean warm water.</warningAndCautionPara></warning>
+<caution><warningAndCautionPara>Do not use α <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#seq-
+0001" internalRefId="seq-0001" internalRefTargetType="irtt05"/>
+that has high pressure. Α water hose that has high pressure can
+cause some parts to become loose or full of
+water.</warningAndCautionPara></caution>
+<caution><warningAndCautionPara>Do not point the hose directly
+at the hub or at the bottom bracket bearings. This can cause
+damage to the parts.</warningAndCautionPara></caution>
+<caution><warningAndCautionPara>Apply <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#sup-
+0003" internalRefId="sup-0003" internalRefTargetType="irtt04"/>
+in accordance with the instruction on the container. The
+substance may cause damage to the Bike paint if it is not
+applied correctly.</warningAndCautionPara></caution>
+Действительно: Все Σ1000Δ-Α-03-09-0502-03Α-040Α-Α
+Глава 3.9.5.2.3
+2013-11-15 Страница 13

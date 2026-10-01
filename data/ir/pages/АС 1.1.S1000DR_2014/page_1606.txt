@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcImmediatePerformanceCompetence>
+<description>
+<para>The immediate performace change will be evaluated during
+the hands-on assessment conducted at the end of the training.
+This assessment will determine if the training had the desired
+immediate effect.</para>
+</description>
+</lcImmediatePerformanceCompetence>
+2.6.2.2 Эффективность выполнения рабочих задач
+lcJobTransfer Описание: Элемент < > содержит данные, связанные σ
+требованиями κ инструменту или плану оценки, который позволяет определить,
+достигло ли воздействие желаемого результата β отношении эффективности рабочей
+среды.
+lcJobTransfer Элемент разметки: < > (O)
+Атрибуты:
+id lcJobTransfer (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcJobTransfer>
+<description>
+<para>At α time of 6 months after the course is provided to the
+couriers, α survey will be taken to determine if the training
+allowed the couriers to conduct their own repairs and reduce the
+number of breakdown pickups by the company.</para>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 122

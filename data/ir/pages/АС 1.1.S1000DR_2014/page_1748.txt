@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00032-Α-001-01
+sbApprovedDm Рис. 17 Элемент < >
+Атрибуты:
+id (O), идентификатор раздела сервисного бюллетеня σ утвержденными 
+модулями данных. См. Глава 3.9.5.3 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+noInfo < > (Μ). См. Глава 3.9.5.2.15 . 
+refs < > (Μ). Ссылки на утвержденные модули данных См. Глава 3.9.5.2.1.2 . 
+Пример разметки:
+<sbApprovedDm>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="01" disassyCode="00" disassyCodeVariant="AA"
+infoCode="933" infoCodeVariant="Α" itemLocationCode="Α"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</dmRefIdent>
+</dmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="3" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="520" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="01" disassyCode="00" disassyCodeVariant="AB"
+infoCode="720" infoCodeVariant="Α" itemLocationCode="Α"/>
+<issueInfo issueNumber="001" inWork="00"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 23

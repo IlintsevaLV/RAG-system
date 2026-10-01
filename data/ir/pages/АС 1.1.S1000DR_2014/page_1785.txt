@@ -1,0 +1,26 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-03090502-B-FAPE3-00063-A-001-01
+sbIndividualRemovedSpare Рис. 26 Элемент < >
+Атрибуты:
+Атрибуты и правила выполнения проекта такие же, как и для элемента 
+sbRemovedSpareSet < >. См. Разд. 2.5.1.
+Дочерние элементы:
+sbRemovedSpareDescr < > (M). См. Разд. 2.5.2.1. 
+sbDrawingRef < > (O). См. Разд. 2.2.2.1. 
+genericPropertyGroup < > (O). См. Глава 3.9.5.2.15.1 . 
+sbInterchange < > (O) См. Разд. 2.5.2.2. 
+sbIndustrySupport < > (O). См. Разд. 2.1.1.2. 
+sbInstructionRef < > (O). См. Глава 3.9.5.2.15.1 . 
+footnoteRemarks < > (O). См. Глава 3.9.5.2.1.9 . 
+Принятие решения о правиле выполнения проекта BRDP-S1-00291 -
+genericPropertyType Использование атрибута в элементе
+genericPropertyGroup sbIndividualRemovedSpare < > в элементе < > :
+genericPropertyType Решение о том, какие значения атрибута 
+genericPropertyGroup использовать в элементе < >. См. Глава 3.9.6.1 .
+gpt10 gpt11 Предварительно заданными значениями являются " " и " ".
+Пример разметки:
+<sbIndividualRemovedSpare>
+<sbRemovedSpareDescr>
+Действительно: Все S1000D-A-03-09-0502-15C-040A-A
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 34

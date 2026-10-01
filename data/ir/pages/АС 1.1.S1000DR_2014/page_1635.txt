@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+title < > (O). См. Глава 3.9.5.2.1.5 . 
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcInstruction>
+<description>...</description>
+</lcInstruction>
+3 Примеры
+learningContent Ниже приводится полный пример разметки для < >. Β нем
+описываются шаги демонтажа переднего колеса велосипеда.
+<learning>
+<learningContent>
+<title>Front Wheel Removal</title>
+<description>
+<para>The content of this data model describes the steps for
+removing the bicycle front wheel.</para>
+</description>
+<lcInstruction>
+<description>
+<figure>
+<title></title>
+<graphic infoEntityIdent="ICN-Σ1000DBIKE-AAA-DA00000-Α-06RT9-
+00094-Α-001-01" />
+</figure>
+<levelledPara id="para-000">
+<levelledPara id="para-001">
+<para>To remove your bike'σ front wheel, place the bike on α
+stand. If you do not have α stand, you can still remove the
+tire. It will just take α little coordination on your
+part.</para>
+<para>Begin by either deflating the front tire slightly or
+disconnecting the front brakes. This is done so the wheel can
+come out easily and not get stuck at the brake pads.</para>
+<figure>
+<title></title>
+<graphic infoEntityIdent="ICN-Σ1000DBIKE-AAA-DA00000-Α-06RT9-
+00106-Α-001-01" />
+</figure>
+</levelledPara>
+<levelledPara id="para-002">
+<para>If your bike has α quick-release lever, push the lever
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Δ-040Α-Α
+Глава 3.9.5.2.13.3
+2013-11-15 Страница 3

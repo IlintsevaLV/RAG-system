@@ -1,0 +1,46 @@
+Рис. 7 Пример разметки
+<wireGroup>
+<wire wireState="active">
+<wireIdent>
+<wireNumber>QX24QA</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef
+<contactInfo>
+<contact contactIdent="Α"/>
+<wireConnectionCode>
+<screenOrder>3</screenOrder>
+<electricalPotential>
+<contactOrderValue>1</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+</contactInfo>
+<screenGroup>
+<screen screenLevel="00"
+</screen>
+</screenGroup>
+</fromEquip>
+<toEquip>
+<functionalItemRef
+<contactInfo>
+<contact contactIdent="Α"/>
+<wireConnectionCode>
+<screenOrder>3</screenOrder>
+<electricalPotential>
+<contactOrderValue>1</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>02</networkAnalysisCode>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ICN-C0419-Σ1000Δ0186-002-01
+соединения провода, 6QXA - 6712VR
+functionalItemNumber="6QXA"/>
+screenType="01" screenStyle="00">
+functionalItemNumber="6712VR"/>
+Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 41

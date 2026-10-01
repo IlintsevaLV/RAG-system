@@ -1,0 +1,67 @@
+</figure>
+<controlIndicatorRepository>
+<controlIndicatorGroup>
+<internalRef
+"irtt01"/>
+...
+<controlIndicatorSpec
+<controlIndicatorKey>5</controlIndicatorKey>
+<controlIndicatorName>Chrome
+<controlIndicatorDescr>
+<controlIndicatorFunction>Press
+signal α need for
+</controlIndicatorDescr>
+</controlIndicatorSpec>
+<controlIndicatorSpec
+<controlIndicatorKey>6</controlIndicatorKey>
+<controlIndicatorName>Platform
+<controlIndicatorDescr>
+<controlIndicatorFunction>Control
+bicycle.</controlIndicatorFunction>
+</controlIndicatorDescr>
+</controlIndicatorSpec>
+<controlIndicatorSpec
+<controlIndicatorKey>7</controlIndicatorKey>
+<controlIndicatorName>LED
+<controlIndicatorDescr>
+<controlIndicatorFunction>Push
+<inlineSignificantData
+<inlineSignificantData
+ntrolIndicatorFunction>
+</controlIndicatorDescr>
+</controlIndicatorSpec>
+<controlIndicatorSpec
+<controlIndicatorKey>8</controlIndicatorKey>
+<controlIndicatorName>LED
+<controlIndicatorDescr>
+<controlIndicatorFunction>Lights
+brakes are
+</controlIndicatorDescr>
+</controlIndicatorSpec>
+</controlIndicatorGroup>
+</controlIndicatorRepository>
+</commonRepository>
+Действительно: Все
+Конец
+
+Σ1000DR-UACRU-01000-00
+internalRefId="fig-0001" internalRefTargetType=
+controlIndicatorNumber="ci-0005">
+ Bell</controlIndicatorName>
+ to sound bell. Normally used to
+attention.</controlIndicatorFunction>
+controlIndicatorNumber="ci-0006">
+ Pedals</controlIndicatorName>
+ the acceleration of the
+controlIndicatorNumber="ci-0007">
+ Headlight</controlIndicatorName>
+ button to turn light
+significantParaDataType="psd10">ON</inlineSignificantData> or
+significantParaDataType="psd10">OFF</inlineSignificantData>.</co
+controlIndicatorNumber="ci-0008">
+ Taillight</controlIndicatorName>
+ illuminate automatically when
+engaged.</controlIndicatorFunction>
+Σ1000Δ-Α-03-09-0502-11Μ-040Α-Α
+модуля данных Глава 3.9.5.2.11.11
+2013-11-15 Страница 8

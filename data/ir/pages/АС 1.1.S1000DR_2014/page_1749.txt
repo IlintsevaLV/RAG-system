@@ -1,0 +1,54 @@
+</dmRefIdent>
+</dmRef>
+...
+</refs>
+</sbApprovedDm>
+2.11 Замена сервисного бюллетеня
+sbReplacementSb Описание. Элемент <
+бюллетене, которым можно заменить
+sbReplacementSb Элемент разметки: <
+Рис. 18 Элемент
+Атрибуты:
+id (O), идентификатор раздела 
+3.9.5.3 .
+changeMark changeType (O), 
+указания на изменения. См.
+Дочерние элементы:
+noInfo < > (Μ). См. Глава 
+refs < > (Μ). Ссылки на 
+Пример разметки:
+<sbReplacementSb>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="02" disassyCode="00"
+infoCode="930" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+</sbReplacementSb>
+2.12 Группа общих свойств
+Описание. Элемент <
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+> содержит сведения ο сервисном
+ текущий сервисный бюллетень.
+> (O)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00033-Α-001-01
+sbReplacementSb < >
+ σ сервисным бюллетенем на замену. См. Глава
+reasonForUpdateRefIds (O) η (O),
+Глава 3.9.5.2.1.1 .
+3.9.5.2.15 .
+сервисный бюллетень на замену. См. Глава 3.9.5.2.1.2 .
+ systemDiffCode="AAA"
+subSystemCode="0" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+genericPropertyGroup > содержит перечень свойств,
+Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 24

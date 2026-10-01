@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+2.17 Частотные характеристики
+frequencyCharacteristics Описание. Β элементе < > содержатся сведения ο
+частотных характеристиках переменного тока для материала провода.
+frequencyCharacteristics Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+impedance < > (C), сведения ο полном сопротивлении 
+frequencyAttenuation < > (O), сведения ο частоте η затухании 
+Пример разметки:
+Β следующем примере разметки показано использование элемента
+frequencyCharacteristics < > для материала провода. Полное сопротивление
+материала провода составляет 50 Ом, характеристики частоты η ослабления
+представлены β Табл. 2.
+Таблица 2 Частотные характеристики
+Частота Затухание
+20 МГц 14 дБ/100 μ
+100 МГц 31 дБ/100 μ
+<frequencyCharacteristics>
+<impedance unitOfMeasure="ohm">50</impedance>
+<frequencyAttenuation>
+<frequency unitOfMeasure="MHz">20</frequency>
+<attenuation unitOfMeasure="dB/100μ">14</attenuation>
+</frequencyAttenuation>
+<frequencyAttenuation>
+<frequency unitOfMeasure="MHz">100</frequency>
+<attenuation unitOfMeasure="dB/100μ">31</attenuation>
+</frequencyAttenuation>
+</frequencyCharacteristics>
+2.17.1 Полное сопротивление
+impedance Описание. Элемент < > содержит полное сопротивление переменного
+тока для материала провода, обычно для кабеля.
+impedance Элемент разметки: < > (C)
+Атрибуты:
+unitOfMeasure (Ο), единица измерения полного сопротивления 
+Действительно: Все Σ1000Δ-Α-03-09-0502-09N-040Α-Α
+Глава 3.9.5.2.9.12
+2013-11-15 Страница 9

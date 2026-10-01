@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<supportEquipDescr><name>Chain cleaning tool</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-001-
+03</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr><name>Floor covering</name>
+<identNumber><manufacturerCode></manufacturerCode>
+<partAndSerialNumber><partNumber></partNumber></partAndSerialNum
+ber>
+</identNumber>
+<reqQuantity>As required</reqQuantity>
+</supplyDescr>
+<supplyDescr><name>General lubricant</name>
+<identNumber><manufacturerCode>KZ222</manufacturerCode>
+<partAndSerialNumber><partNumber>LL-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity>As required</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares/>
+</reqSpares>
+<reqSafety>
+<noSafety/>
+</reqSafety>
+</preliminaryRqmts>
+<refs><dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA4" subSystemCode="1" sub-subsystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="251" infoCodeVariant="Β" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" sub-subsystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="121" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+<dmRefAddressItems>
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 49

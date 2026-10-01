@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+<para>ANSWER:Headset</para>
+</description>
+</lcPerformanceRubric>
+2.4.2.5.1.3 Метод подсчета результатов
+lcScoringMethod Описание. Элемент < > содержит описание метода определения
+результата оценки.
+lcScoringMethod Элемент разметки: < > (O)
+Атрибуты:
+id lcScoringMethod (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcScoringMethod>
+<description>
+<para>The lesson tests are scored using computer programming
+built into the training.</para>
+</description>
+</lcScoringMethod>
+2.4.2.5.1.4 Минимальный порог
+lcMinimumPassThreshold Описание: Элемент < > определяет минимальный
+балл, необходимый учащемуся для успешного прохождения компонента оценки.
+lcMinimumPassThreshold Элемент разметки: < > (O)
+Атрибуты:
+id lcMinimumPassThreshold (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 95

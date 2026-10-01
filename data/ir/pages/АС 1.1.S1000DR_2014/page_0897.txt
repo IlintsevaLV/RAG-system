@@ -1,0 +1,66 @@
+</reqCondGroup>
+<reqPersons>
+<person man="Α">
+<personCategory
+<trade>Operator</trade>
+<estimatedTime
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr><name>Specialist
+<partAndSerialNumber><partNumber>BSK-TLST-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr><name>General
+<partAndSerialNumber><partNumber>LL-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity>As
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares/>
+</reqSpares>
+<reqSafety>
+<noSafety/>
+</reqSafety>
+</preliminaryRqmts>
+<refs><dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="151" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef></refs><equipGroup>
+<equip><name>Bicycle</name>
+<partAndSerialNumber><partNumber>Bicycle-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+personCategoryCode="Basic user"/>
+unitOfMeasure="HR">0,25 η</estimatedTime>
+ toolset</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+unitOfMeasure="EA">1</reqQuantity>
+ lubricant</name>
+<identNumber><manufacturerCode>KZ222</manufacturerCode>
+required</reqQuantity>
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+<identNumber><manufacturerCode>KZ555</manufacturerCode>
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 46

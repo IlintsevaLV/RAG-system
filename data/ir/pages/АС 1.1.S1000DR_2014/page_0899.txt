@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+infoCode="251" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef></refs><equipGroup><equip><name>Brake pads</name>
+<identNumber><manufacturerCode>KT444</manufacturerCode>
+<partAndSerialNumber><partNumber>BR-PADS-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+</equip></equipGroup>
+<limit><inspectionType inspectionTypeCategory="Monthly"/>
+<limitRange><limitRangeFrom><threshold
+thresholdUnitOfMeasure="θ03"><thresholdValue>1</thresholdValue>
+</threshold>
+</limitRangeFrom>
+<limitRangeTo><threshold
+thresholdUnitOfMeasure="θ03"><thresholdValue>1</thresholdValue>
+</threshold>
+</limitRangeTo>
+</limitRange>
+</limit>
+</taskDefinition>
+<taskDefinition applicRefId="appl-001" taskIdent="004"
+worthinessLimit="recommended"
+reducedMaint="Yes">
+<task><taskDescr><simplePara>Clean the
+chain</simplePara></taskDescr></task>
+<preliminaryRqmts><reqCondGroup><noConds/>
+</reqCondGroup>
+<reqPersons>
+<person man="Α">
+<personCategory personCategoryCode="Basic user"/>
+<trade>Operator</trade>
+<estimatedTime unitOfMeasure="HR">0,25 η</estimatedTime>
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr><name>Stiff bristle brush</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-001-
+02</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr><name>Chain cleaning fluid</name>
+<identNumber><manufacturerCode>KZ222</manufacturerCode>
+<partAndSerialNumber><partNumber>LL-
+003</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity>As required</reqQuantity>
+</supportEquipDescr>
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 48

@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+<techPubBase>Bike book 20010131</techPubBase>
+2.2.11.4 Исключения, санкционированные ответственной организацией
+authorityExceptions Описание. Β элементе < > содержатся отклонения
+содержимого модуля данных от стандарта, приведенного β блоке ответственной
+организации для конфигурации.
+authorityExceptions Элемент разметки: < > (C)
+Атрибуты:
+Нет 
+Дочерние элементы:
+productConfiguration < > (O). См. Разд. 2.2.11.4.1. 
+retrofit < > (O). См. Разд. 2.2.11.4.4. 
+Пример разметки:
+<authorityExceptions>
+<productConfiguration>
+<excludedModification>Α12345</excludedModification>
+<additionalModification>00345</additionalModification>
+</productConfiguration>
+<retrofit>
+<modification authorizationIdent="K0378"
+modificationType="post">
+<modificationTitle>Improved suspension for Brook Trekker deluxe
+models</modificationTitle>
+</modification>
+</retrofit>
+</authorityExceptions>
+2.2.11.4.1 Конфигурация объекта
+productConfiguration Описание. Элемент < > содержит ссылку на
+конфигурацию Объекта, как определено β блоке ответственной организации. Любые
+отклонения от данной конфигурации или стандарта указываются при помощи вставки
+номера модификации.
+productConfiguration Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+excludedModification < > (O). См. Разд. 2.2.11.4.2. 
+additionalModification < > (O). См. Разд. 2.2.11.4.3. 
+Пример разметки:
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 39

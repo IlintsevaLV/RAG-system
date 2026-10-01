@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+assign applicPropertyIdent model < > σ атрибутом со значением " " η
+applicPropertyValue Mountain storm атрибутом со значением " ",
+соответствующим одному из значений проверки. Результатом является логическое
+значение "true".
+Комментарий-утверждение:
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker|Mountain storm"/>
+Комментарий-назначение из PCT:
+<assign applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValue="Mountain
+storm"/>
+Результирующее логическое значение: true
+3.2.1.3 Комментарий-утверждение значения σ результирующим логическим значением "false"
+assert Следующий пример иллюстрирует принадлежащий элементу < > атрибут
+applicPropertyIdent model проверки комментария со значением " " для
+applicPropertyValues Brook trekker одного атрибута со значением " ".
+assign Выбранный экземпляр объекта имеет элемент < > σ атрибутом
+applicPropertyIdent model со значением " " η атрибутом
+applicPropertyValue Mountain storm со значением " ", не
+соответствующим значению проверки. Результатом является логическое значение
+"false".
+Комментарий-утверждение:
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+Комментарий-назначение из PCT:
+<assign applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValue="Mountain
+storm"/>
+Результирующее логическое значение: false
+3.2.1.4 Комментарий-утверждение диапазона σ результирующим логическим значением "false"
+assert Следующий пример иллюстрирует принадлежащий элементу < > атрибут
+applicPropertyIdent serialno проверки комментария со значением " " для
+applicPropertyValues 1Β070643 атрибута диапазона со значениями от " " до
+1Β070799 assign " ". Выбранный экземпляр объекта имеет элемент < > σ атрибутом
+applicPropertyIdent serialno со значением " " η атрибутом
+applicPropertyValue 1Β070642 со значением " ", выходящим за пределы
+допустимого диапазона. Результатом является логическое значение "false".
+Комментарий-утверждение:
+Действительно: Все Σ1000Δ-Α-07-08-0000-00Α-040Α-Α
+Глава 7.8
+2013-11-15 Страница 11

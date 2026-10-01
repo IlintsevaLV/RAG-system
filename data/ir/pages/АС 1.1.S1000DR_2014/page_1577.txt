@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+lcPerformanceRubric < > (O). См. Параграф 2.4.2.5.1.2 . 
+lcScoringMethod < > (O). См. Параграф 2.4.2.5.1.3 . 
+lcMinimumPassThreshold < > (O). См. Параграф 2.4.2.5.1.4 . 
+Пример разметки:
+<lcAssessmentComponent>
+<title>Computer-based Assessment Component</title>
+<description>
+<para>The following information outlines the assessment strategy
+for the computer-based portion of the training.</para>
+</description>
+<lcMasteryScoreCriteria>
+<description>
+<para>80% mastery of all lesson tests</para>
+</description>
+</lcMasteryScoreCriteria>
+<lcPerformanceRubric>
+<description>
+<para>QUESTION: Which part of the steering system supplies the
+sideways swiveling action that allows the rider to steer the
+bike?</para>
+<para>ANSWER:Headset</para>
+</description>
+</lcPerformanceRubric>
+<lcScoringMethod>
+<description>
+<para>The lesson tests are scored using computer programming
+built into the training.</para>
+</description>
+</lcScoringMethod>
+<lcMinimumPassThreshold>
+<description>
+<para>The minimum passing score for the assessment is
+80%.</para>
+</description>
+</lcMinimumPassThreshold>
+</lcAssessmentComponent>
+2.4.2.5.1.1 Критерий овладения материалом
+lcMasteryScoreCriteria Описание. Элемент < > определяет минимальную
+оценку, которую должен получить учащийся, чтобы учебный курс считался успешно
+пройденным.
+lcMasteryScoreCriteria Элемент разметки: < > (O)
+Атрибуты:
+id lcMasteryScoreCriteria (O), идентификатор элемента < >. См. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 93

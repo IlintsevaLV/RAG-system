@@ -1,0 +1,32 @@
+S1000DR-UACRU-01000-00
+tangent " " 
+times " " 
+truncate " " 
+Операции для работы со строковыми данными:
+concatenate " " 
+contains " " 
+empty " " 
+equal " " 
+greaterThan " " 
+greaterThanOrEqual " " 
+lessThan " " 
+lessThanOrEqual " " 
+notEqual " " 
+sizeOf " " 
+subStringFunction < > 
+Операции для работы с множествами:
+add " " 
+disjoint " " 
+empty " " 
+equal " " 
+intersection " " 
+member " " 
+notEqual " " 
+remove " " 
+setDifference " " 
+sizeOf " " 
+subset " " 
+union " " 
+Действительно: Все S1000D-A-07-06-0104-00A-040A-A
+Глава 7.6.1.4
+2013-11-15 Страница 16

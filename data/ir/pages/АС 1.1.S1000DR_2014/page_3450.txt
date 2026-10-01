@@ -1,0 +1,46 @@
+Таблица 21 Пример
+Строка Разметка
+<!ENTITY WireTool SYSTEM " 1
+...
+<variableDeclarations> 2
+<variable variableName="RtnWireno" 3
+<variable variableName="RtnBundle" 4
+</variableDeclarations> 5
+...
+<dmNode> 6
+<externalApplication 7
+<paraBasic>Isolate Wiring 8
+<send> 9
+<sendName>RefDes</sendName> 10
+<stringValue>52Π-H004</stringValue> 11
+</send> 12
+<send> 13
+<sendName>Pin</sendName> 14
+<stringValue>4</stringValue> 15
+</send> 16
+<receiveByPosition> 17
+<returnedValuePosition>3</returnedValuePosition> 18
+<variableRef 19
+</receiveByPosition> 20
+<receiveByPosition> 21
+<returnedValuePosition>2</returnedValuePosition> 22
+<variableRef 23
+</receiveByPosition> 24
+</externalApplication> 25
+</dmNode> 26
+Обработка возвращения значений
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+возвращения значений по позиции
+" NDATA exe> file://Wired/Wired.exe
+ valueType="string"/>
+ valueType="string"/>
+application="WireTool">
+Defect</paraBasic>
+variableName="RtnBundle"/>
+variableName="RtnWireno"/>
+ по позиции:
+Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 25

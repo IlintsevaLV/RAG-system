@@ -1,0 +1,65 @@
+</applicCrossRefTable>
+</content>
+</dmodule>
+Модуль данных ACT для летательного
+<dmodule>
+<identAndStatusSection>
+dmAddress <
+<dmStatus>
+...
+<responsiblePartnerCompany>AIR
+provider</ResponsiblePartnerCompany>
+...
+</dmStatus>
+...
+<content>
+<applicCrossRefTable>
+<productAttributeList>
+externalProductAttribute <
+</productAttributeList>
+</applicCrossRefTable>
+</content>
+</dmodule>
+Модуль данных каталога ACT:
+<dmodule>
+<identAndStatusSection>
+dmAddress < >DMC-ACT catalog
+<dmStatus>
+...
+<responsiblePartnerCompany>AIR
+provider</ResponsiblePartnerCompany>
+...
+</dmStatus>
+...
+<content>
+<applicCrossRefTableCatalog>
+<productDefinitionRelationship>
+<externalAssert
+applicPropertyType="prodattr">
+<applicCrossRefTableRef><dmRef>
+<associate associationType="
+<externalAssert
+applicPropertyType="prodattr">
+<applicCrossRefTableRef><dmRef>
+</productDefinitionRelationship>
+</applicCrossRefTableCatalog>
+</content>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ аппарата:
+</dmAddress >DMC-AIR-AAA-XX-XX-XX-00AA-00WA-Α >
+ data
+" "/ id= engineModel >
+</dmAddress >
+ data
+applicPropertyIdent=" " engineModel
+DMC-AIR-AAA-XX-XX-XX-00AA-00WA-Α
+</dmRef></applicCrossRefTableRef></externalAssert>
+"> extref
+applicPropertyIdent=" " model
+DMC-ENG-AAA-XX-XX-XX-00AA-00WA-Α
+</dmRef></applicCrossRefTableRef></externalAssert></associate>
+Σ1000Δ-Α-04-14-0400-00Α-040Α-Α
+Глава 4.14.4
+2013-11-15 Страница 6

@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcData < > (O). См. 2.3.1.1. 
+lcResources < > (O). См. 2.3.1.2. 
+lcIncentives < > (O). См. 2.3.1.3. 
+Пример разметки:
+<lcEnvironmentalFactor>
+<title>Environmental Factor</title>
+<description>
+<para>Causal factors external to the couriers were derived from
+observations of the workplace, interviews with couriers,
+supervisors, and the company'σ Human Resources director, and α
+review of relevant company policies.</para>
+</description>
+<lcData>
+<description>
+<para>Job sheets with basic, step-by-step procedures for routine
+maintenance tasks are provided to all couriers with their
+company-issued handbook. The maintenance procedures are not
+illustrated and do not reference tools that should be used in
+any given step.</para>
+</description>
+</lcData>
+<lcResources>
+<description>
+<para>Couriers are provided the tools and parts required to
+maintain and repair their bikes. However, those tools are only
+available in the workshop location. There are no onboard tool
+packs or emergency repair kits that couriers may carry in
+transit.</para>
+</description>
+</lcResources>
+<lcIncentives>
+<description>
+<para>The study revealed that there is currently α negative
+incentive to troubleshoot and repair bike problems while on
+courier duties. Since the company provides unlimited breakdown
+service at no cost to the courier, there is no reason for
+couriers to repair their own bikes.</para>
+</description>
+</lcIncentives>
+2.3.1.1 Данные
+lcData Описание: Элемент < > содержит сведения ο нехватке данных, которая
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 48

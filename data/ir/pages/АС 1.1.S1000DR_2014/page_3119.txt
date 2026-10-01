@@ -1,0 +1,37 @@
+S1000DR-UACRU-01000-00
+closereq < >.
+CPF 2006-044US: 
+inwork issueInfo • Атрибут элемента < > теперь является обязательным
+issno (прежний элемент < >).
+CPF 2006-045SE: 
+snsRules • Новый необязательный элемент < > добавлен к элементу
+brex < >, чтобы обеспечить большее соответствие модуля данных BREX
+потребностям.
+CPF 2006-046SE: 
+• Последовательности повторяющихся элементов одного уровня помещены в
+собственные элементы-оболочки для повышения удобочитаемости схем. Была
+definitionList deliveryList изменена структура элементов < >, < >,
+equip locationRcmdSegment observedFault < >, < >, < >,
+reqPersons sruItem < >, < >.
+• Добавлен ряд элементов-оболочек, чтобы сделать структуры более
+понятными:
+definitionListItem definitionList < > в < > 
+deliveryListItem deliveryList < > в < > 
+equip equipGroup equip < > - добавлена < >, содержащая < > 
+locationRcmd locationRcmdSegment < > в < > 
+contextAndIsolationInfo observedFault < > в < > 
+person reqPersons < > в < > - элемент реструктуризирован, и 
+personnel добавлен элемент того же уровня < >, который используется,
+когда невозможно задать требуемый персонал
+sruItem lruItem sruItem < > в < > - каждый < > теперь представляет 
+одно изделие
+• Смешанное содержимое было исключено из следующих элементов
+displayText < > 
+entry < > 
+listItem < > 
+listItemDefinition < > 
+reasonForUpdate < > 
+remarks < > 
+Действительно: Все S1000D-A-07-03-0101-05A-040A-A
+Глава 7.3.1.1.5
+2013-11-15 Страница 4

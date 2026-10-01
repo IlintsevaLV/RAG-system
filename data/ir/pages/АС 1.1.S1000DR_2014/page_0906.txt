@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<maintQualifier>
+<maintFunction function="ft00"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml01"/>
+</maintLevelGroup>
+</maintQualifier>
+</componentAssyGroup>
+<componentAssyGroup>
+<componentAssy>
+<name>Engine, Turbo Diesel</name>
+</componentAssy>
+<maintQualifier>
+<maintFunction function="ft01"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml01">1.0</maintLevel>
+</maintLevelGroup>
+<remarksRefs>
+<internalRef internalRefId="RemarkA"></internalRef>
+</remarksRefs>
+</maintQualifier>
+<maintQualifier>
+<maintFunction function="ft02"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml02">0.5</maintLevel>
+<maintLevel maintLevelCode="ml03">1.0</maintLevel>
+</maintLevelGroup>
+<toolsRefs>
+<internalRef internalRefId="Tool01">1</internalRef>
+<internalRef internalRefId="Tool03">3</internalRef>
+<internalRef internalRefId="Tool04">4</internalRef>
+</toolsRefs>
+</maintQualifier>
+<maintQualifier>
+<maintFunction function="ft03"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml02">1.5</maintLevel>
+</maintLevelGroup>
+<toolsRefs>
+<internalRef internalRefId="Tool01">1</internalRef>
+<internalRef internalRefId="Tool04">4</internalRef>
+</toolsRefs>
+</maintQualifier>
+<maintQualifier>
+<maintFunction function="ft08"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml03">8.0</maintLevel>
+</maintLevelGroup>
+<toolsRefs>
+<internalRef internalRefId="Tool01">1</internalRef>
+<internalRef internalRefId="Tool04">4</internalRef>
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 55

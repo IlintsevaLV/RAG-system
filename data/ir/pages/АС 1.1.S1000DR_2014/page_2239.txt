@@ -1,0 +1,65 @@
+<updateAddress>
+<updateIdent>
+<updateCode objectIdentCode="UPF"
+modelIdentCode="Σ1000DLIGHTING"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="00Γ" infoCodeVariant="Α"
+<language languageIsoCode="sx"
+<issueInfo issueNumber="001"
+</updateIdent>
+...
+</updateAddress>
+<updateStatus>
+<sourceDmIdent>
+<dmCode modelIdentCode="Σ1000DLIGHTING"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="00Γ" infoCodeVariant="Α"
+<language languageIsoCode="en"
+<issueInfo issueNumber="001"
+</sourceDmIdent>
+...
+</updateStatus>
+<targetDmStatus>...</targetDmStatus>
+</updateIdentAndStatusSection>
+<content>
+<update>
+<replaceObjectGroup>
+<replaceObject>
+<partSpec id="part-0010"
+reasonForUpdateRefIds="rfu-0001">
+...</partSpec>
+</replaceObject>
+</replaceObjectGroup>
+</update>
+</content>
+</dataUpdateFile>
+2.4.3 Группа объектов для удаления
+Описание. Элемент <
+данных, которые были удалены σ
+При получении нового издания
+Элемент разметки: <
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ systemDiffCode="AAA"
+subSystemCode="0" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Δ"/>
+ countryIsoCode="US"/>
+ inWork="00"/>
+ systemDiffCode="AAA"
+subSystemCode="0" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Δ"/>
+ countryIsoCode="US"/>
+ inWork="00"/>
+changeType="modify"
+deleteObjectGroup > содержит все фрагменты модуля
+ момента предыдущего издания модуля данных.
+модуля данных эти фрагменты необходимо удалить.
+deleteObjectGroup > (C)
+Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 18

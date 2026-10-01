@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+choiceSelection="multiple" mandatory="1">
+<menuChoice menuChoiceDefaultFlag="0"> 93
+<prompt><paraBasic>Touring</paraBasic></prompt> 94
+<assertion> 95
+<variableRef variableName="TireStyle"/> 96
+<expression> 97
+<stringValue>tour</stringValue> 98
+</expression> 99
+</assertion> 100
+</menuChoice> 101
+<menuChoice menuChoiceDefaultFlag="0"> 102
+<prompt><paraBasic>Racing</paraBasic></prompt> 103
+<assertion> 104
+<variableRef variableName="TireStyle"/> 105
+<expression> 106
+<stringValue>race</stringValue> 107
+</expression> 108
+</assertion> 109
+</menuChoice> 110
+<menuChoice menuChoiceDefaultFlag="0"> 111
+<prompt><paraBasic>All Terrain</paraBasic></prompt> 112
+<assertion> 113
+<variableRef variableName="TireStyle"/> 114
+<expression> 115
+<stringValue>allterrain</stringValue> 116
+</expression> 117
+</assertion> 118
+</menuChoice> 119
+</menu> 120
+<message> 121
+<prompt> 122
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 44

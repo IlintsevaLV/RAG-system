@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+yesNoAnswer < > (O). См. Разд. 2.6.1.4.4. 
+listOfChoices < > (O). См. Разд. 2.6.1.4.5. 
+Пример разметки:
+<isolationStepAnswer>
+<listOfChoices>
+<choice nextActionRefId="stp-0002">More than 2700 hPa</choice>
+<choice nextActionRefId="stp-0003">Between 100 hPA and 2700
+hPa</choice>
+<choice nextActionRefId="stp-0004">Less than 100 hPA</choice>
+</listOfChoices>
+</isolationStepAnswer>
+2.6.1.4.4 Ответы - Да η нет
+yesNoAnswer Описание. Элемент < > содержит набор из двух ответов: "Да"
+yesAnswer noAnswer (элемент < >) или "Нет" (элемент < >). Каждый из них дает
+ссылку на другое действие, завершающее действие (β элементе
+isolationProcedureEnd < >) или на завершающие требования (элемент
+closeRqmts < >).
+yesNoAnswer Элемент разметки: < > (C)
+Дочерние элементы:
+yesAnswer < > (Μ), действие для положительного ответа 
+noAnswer < > (Μ), действие для отрицательного ответа 
+Атрибуты:
+yesAnswer noAnswer Элемент < > (C) η элемент < > (C) имеют атрибут
+nextActionRefId , который содержит идентификатор следующего действия.
+Пример разметки:
+<yesNoAnswer>
+<yesAnswer nextActionRefId="istp-0005"/>
+<noAnswer nextActionRefId="istp-0006"/>
+</yesNoAnswer>
+2.6.1.4.5 Ответы - Набор вариантов
+listOfChoices Описание. Элемент < > содержит набор из вариантов (один или
+несколько). Каждый из них дает ссылку на другое действие, завершающее действие
+isolationProcedureEnd (β элементе < >) или на завершающие требования
+closeRqmts (элемент < >).
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 63

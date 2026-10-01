@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+can describe α full learning event (one or more learning
+products that make up α course or lesson).
+The IDSTATUS section gives all the identification elements
+required to address and control the SCORM content package. -->
+<identAndStatusSection>
+<scormContentPackageAddress>
+<scormContentPackageIdent>
+<scormContentPackageCode modelIdentCode="DEE1Β"
+scormContentPackageNumber="01132"
+scormContentPackageIssuer="C0419"
+scormContentPackageVolume="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo inWork="00" issueNumber="003"/>
+</scormContentPackageIdent>
+<scormContentPackageAddressItems>
+<issueDate day="01" month="08" year="2008"/>
+<scormContentPackageTitle>Air vehicle maintenance training -
+Landing gear system</scormContentPackageTitle>
+</scormContentPackageAddressItems>
+</scormContentPackageAddress>
+<scormContentPackageStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany
+enterpriseCode="C0419"></responsiblePartnerCompany>
+<scormContentPackageMedia scormContentPackageMediaCode="DKS:1"
+scormContentPackageMediaType="CD-ROM"/>
+<qualityAssurance>
+<firstVerification verificationType="tabtop"/>
+</qualityAssurance>
+<personSkill skillLevelCode="sk01"/>
+</scormContentPackageStatus>
+<!--The LOM at this level is used to insert metadata about the
+SCORM content package. If the SCORM content package describes α
+single learning product, then this is the only place where the
+LOM might be referenced. If the SCORM content package is α
+collection of learning products used to describe α full learning
+event, then there can be α LOM reference here for the learning
+event and then additional LOM references at the individual
+learning product level to describe those products.-->
+<lom:lom>
+<lom:general>
+<lom:identifier>
+<lom:entry>3Δ16197F-4BA0-4F5C-BF57-CD3C8BA61148</lom:entry>
+</lom:identifier>
+<lom:title>
+<lom:string>Air vehicle maintenance training - Landing gear
+system</lom:string>
+</lom:title>
+<lom:description>
+<lom:string>Air vehicle maintenance training - Landing gear
+Действительно: Все Σ1000Δ-Α-04-15-0300-00Α-040Α-Α
+Глава 4.15.3
+2013-11-15 Страница 3

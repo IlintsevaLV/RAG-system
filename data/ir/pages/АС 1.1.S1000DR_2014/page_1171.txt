@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+descrMaxTemperature < > (O), описание максимальной температуры 
+descrHarnessEnvironment < > (O), описание среды размещения жгута 
+descrSleeve < > (O), описание муфты жгута 
+descrRouting < > (O), описание прокладки соединений. См. Разд. 2.5.27. 
+descrFeedThru < > (O), описание сведений ο проходном типе. См. 
+Разд. 2.5.28.
+descrResponsiblePartnerCompany < > (O), описание сведений об 
+ответственной компании-контрагенте. См. Разд. 2.5.26.
+descrFunctionalDescrRef < > (O), описание ссылки на функциональное 
+описание. См. Разд. 2.5.32.
+descrIllustrationRef < > (O), описание ссылки на иллюстрацию См. 
+Разд. 2.5.33.
+Пример разметки:
+<descrHarness>
+<descrHarnessIdent>
+<fieldName>Loom identification</fieldName>
+<descr>All looms that are installed in the aircraft are
+identified by α loom identification, eg 3001VB.</descr>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β" systemCode="92"
+subSystemCode="0" sub-subsystemCode="0" assyCode="00"
+disassyCode="00" disassyCodeVariant="Α" infoCode="040"
+infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+</descrHarnessIdent>
+</descrHarness>
+2.6.1 Описание альтернативных обозначений компонента
+descrAltPartNumber Описание. Элемент < > содержит дочерние элементы, β
+которых указываются название для конкретного проекта или организации, краткое
+описание η ссылка на другие модули данных или публикации для элемента
+partNumber обозначения компонента < > β перечне альтернативных обозначений β
+altIdent элементе < >. См. Разд. 2.4.
+descrAltPartNumber Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Π-040Α-Α
+Глава 3.9.5.2.9.13
+2013-11-15 Страница 20

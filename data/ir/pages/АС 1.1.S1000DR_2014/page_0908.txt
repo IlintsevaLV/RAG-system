@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</maintLevelGroup>
+<toolsRefs>
+<internalRef internalRefId="Tool01">1</internalRef>
+<internalRef internalRefId="Tool04">4</internalRef>
+</toolsRefs>
+</maintQualifier>
+</componentAssyGroup>
+</maintAllocationGroup>
+</maintAllocation>
+<toolsList>
+<title>Tools and Test Equipment References</title>
+<toolsListGroup>
+<toolsListCode id="Tool01">1</toolsListCode>
+<maintLevel maintLevelCode="ml02">O</maintLevel>
+<name>Shop Equipment, Automotive Maintenance and Repair: OM
+Common No. 1, Less Power (SC4910-95-Α74)</name>
+<natoStockNumber natoSupplyClass="4910"
+natoCodificationBureau="00" natoItemIdentNumberCore="75406548"/>
+<toolRef toolNumber="Ω32593"/>
+</toolsListGroup>
+<toolsListGroup>
+<toolsListCode id="Tool02">2</toolsListCode>
+<maintLevel maintLevelCode="ml03">F</maintLevel>
+<name>Shop Equipment, General Purpose Repair, Semitrailer
+Mounted (SC4940-95-CL-Β02)</name>
+<natoStockNumber natoSupplyClass="4940"
+natoCodificationBureau="00" natoItemIdentNumberCore="2874894"/>
+<toolRef toolNumber="Τ10549"/>
+</toolsListGroup>
+<toolsListGroup>
+<toolsListCode id="Tool03">3</toolsListCode>
+<maintLevel maintLevelCode="ml02">O</maintLevel>
+<name>Simplified Test Equipment for Internal Combustion Engines
+Reprogrammed (STE/ICE-R)</name>
+<natoStockNumber natoSupplyClass="4910"
+natoCodificationBureau="01" natoItemIdentNumberCore="2226589"/>
+<toolRef toolNumber="Α56243"/>
+</toolsListGroup>
+<toolsListGroup>
+<toolsListCode id="Tool04">4</toolsListCode>
+<maintLevel maintLevelCode="ml02">O</maintLevel>
+<name>Tool Kit, General Mechanics: Automotive (SC5180-90-
+N26)</name>
+<natoStockNumber natoSupplyClass="5180"
+natoCodificationBureau="00" natoItemIdentNumberCore="1777033"/>
+<toolRef toolNumber="Ω33004"/>
+</toolsListGroup>
+</toolsList>
+<remarksList>
+<title>Remarks</title>
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 57

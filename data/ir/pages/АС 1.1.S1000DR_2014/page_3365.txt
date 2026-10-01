@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+3 Примеры
+Β следующем примере показано сопоставление элементов η атрибутов
+идентификационно-статусной части σ элементами метаданных LOM, включенными β
+контейнеры схемы модуля пакета содержимого SCORM, выраженными β XML:
+<lom>
+<lom:lom>
+<lom:general>
+<lom:identifier>
+<lom:entry>DMC-MD-Α-32-23-10-00Α-340Α-Α</lom:entry>
+</lom:identifier>
+<lom:language>en</lom:language>
+<lom:title>
+<lom:string> Landing gear system - Retraction and extension
+function test</lom:string>
+</lom:title>
+<lom:description>
+<lom:string>Air vehicle maintenance training - Landing gear
+system</lom:string>
+</lom:description>
+<lom:keyword>
+<lom:string>Air vehicle maintenance training</lom:string>
+<lom:string> Landing gear system </lom:string>
+<lom:string>Retraction and extension function test</lom:string>
+</lom:keyword>
+</lom:general>
+<lom:annotation>
+<lom:entity>AH019</lom:entity>
+</lom:annotation>
+<lom:lifeCycle>
+<lom:version>
+<lom:string>001</lom:string>
+</lom:version>
+<lom:status>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>final</lom:value>
+</lom:status>
+</lom:lifeCycle>
+<lom:metaMetadata>
+<lom:identifier>
+<lom:catalog>GUID</lom:catalog>
+<lom:entry>3Δ16197F-4BA0-4F5C-BF57-CD3C8BA61148</lom:entry>
+</lom:identifier>
+<lom:metadataSchema>LOMv1.0</lom:metadataSchema>
+<lom:metadataSchema>SCORM_CAM_v1.3</lom:metadataSchema>
+</lom:metaMetadata>
+<lom:technical>
+<lom:format>application/ξ-shockwave-flash</lom:format>
+<lom:format>image/gif</lom:format>
+Действительно: Все Σ1000Δ-Α-07-05-0400-00Α-040Α-Α
+Глава 7.5.4
+2013-11-15 Страница 3

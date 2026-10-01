@@ -1,0 +1,34 @@
+S1000DR-UACRU-01000-00
+language pmAddress < > внутри элемента < >.
+dmRef refdm • Модель содержимого элемента < > (прежний элемент < >)
+изменена с
+identExtension?,dmCode,dmTitle?,issueInfo?,issueDate? (
+,language? ) на
+identExtension?,dmCode,language?,issueInfo?, (
+issueDate?,dmTitle? ). Эта замена вызывает проблемы с обратной
+совместимостью, которые решаются изменением на обратный порядка
+dmTitle language следования элементов < > и < > внутри элемента
+dmRef < >.
+pmRef refpm • Модель содержимого элемента < > (прежний элемент < >)
+заменена с
+pmCode,pmTitle?,issueInfo?,issueDate?,language?,... ( )
+на
+pmCode,language?,issueInfo?,issueDate?,pmTitle?,... ( ).
+Эта замена вызывает проблемы с обратной совместимостью, которые
+решаются изменением на обратный порядка следования элементов
+pmTitle language pmRef < > и < > внутри элемента < >.
+externalPubRef • Модель содержимого элемента < > (прежний элемент
+refextp < >) изменена с
+externalPubCode,pubTitle?,pubDate?,... ( ) на
+externalPubCode,pubDate?,pubTitle?,... ( ). Эта замена
+вызывает проблемы с обратной совместимостью, которые решаются
+pubDate изменением на обратный порядка следования элементов < > и
+pubTitle pmRef < > внутри элемента < >.
+CPF 2006-044US: 
+pmAddress inwork issueInfo • Внутри элемента < > атрибут элемента < >
+issno теперь изменен и является обязательным (прежний элемент < >).
+language pmAddress • Элемент < > внутри элемента < > теперь является
+обязательным.
+Действительно: Все S1000D-A-07-04-0201-05A-040A-A
+Конец модуля данных Глава 7.4.2.1.5
+2013-11-15 Страница 2

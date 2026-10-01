@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+</lcReview>
+2.3 Следующие шаги
+lcNextSteps Описание: Элемент < > описывает следующие шаги по закреплению
+полученных знаний.
+lcNextSteps Элемент разметки: < > (O)
+Атрибуты:
+id lcNextSteps (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcNextSteps>
+<description>
+<para>Now that you have completed this topic, you can take the
+related assessment.</para>
+</description>
+</lcNextSteps>
+2.4 Ресурсы
+lcResources Описание: Β элементе < > содержится перечень связанных ресурсов
+η сведений ο них, таких как связанные статьи или примеры β Интернете. См. Глава
+3.9.5.2.13.2 .
+lcResources Элемент разметки: < > (O)
+Пример разметки:
+<lcNextSteps>
+<description>
+<para>Now that you have completed this topic, you can take the
+related assessment.</para>
+</description>
+</lcNextSteps>
+2.5 Раздел
+lcSection Описание: Элемент < > является общим элементом, содержащим
+другое содержимое обучения. См. Глава 3.9.5.2.13.2 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13E-040Α-Α
+Глава 3.9.5.2.13.4
+2013-11-15 Страница 5

@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<para>Steering System Module Enabling Objectives</para>
+</description>
+<lcObjectiveItem>
+<title>Enabling Objective for SCO 1</title>
+<description>
+<para>Identify the parts of α bike'σ steering system.</para>
+</description>
+<lcContentIdentifierName>
+<description>
+<para>SCO 1 – Steering System Description</para>
+</description>
+</lcContentIdentifierName>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="100" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ2Γ" learnEventCode="C"/>
+<issueInfo issueNumber="001" inWork="01"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+</dmRef>
+</lcObjectiveItem>
+<lcObjectiveItem>
+<title>Enabling Objective for SCO 2</title>
+<description>
+<para>Describe the steps for installing and removing α bike'σ
+steering system.</para>
+</description>
+<lcContentIdentifierName>
+<description>
+<para>SCO 2 – Steering System Installation and Removal</para>
+</description>
+</lcContentIdentifierName>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="100" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ2Γ" learnEventCode="C"/>
+<issueInfo issueNumber="001" inWork="01"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+</dmRef>
+</lcObjectiveItem>
+</lcObjectiveItemGroup>
+</lcObjectiveItem>
+</lcObjectiveItemGroup>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 63

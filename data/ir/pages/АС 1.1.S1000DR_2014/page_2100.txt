@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+brexDmRef < > (Μ). См. Глава 3.9.5.1 . 
+remarks < > (O). См. Глава 3.9.5.1 . 
+Пример разметки:
+<commentStatus>
+<security securityClassification="01"/>
+<commentPriority commentPriorityCode="cp01"/>
+<commentRefs>
+<noReferences/>
+</commentRefs>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000Δ" systemDiffCode="E"
+systemCode="04" subSystemCode="1" subSubSystemCode="0"
+assyCode="0301" disassyCode="00" disassyCodeVariant="Α"
+infoCode="022" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+</commentStatus>
+2.2.1 Приоритет комментария
+commentPriority Описание. Элемент < > содержит код приоритета комментария.
+commentPriority Элемент разметки: < > (Μ)
+Атрибуты:
+commentPriorityCode (Μ), используется для хранения приоритета 
+комментария β кодированной форме. Этот атрибут может принимать следующие
+значения:
+σ "cp01" до "cp99". См. Глава 3.9.6.1
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00357 –
+Использование кодов приоритета комментария:
+Если стандартных значений недостаточно, нужно решить, как оптимально задать 
+дополнительные коды, необходимые для представления приоритетов
+комментариев. См. Глава 3.9.6.1 .
+Пример разметки:
+<commentPriority commentPriorityCode="cp01"/>
+2.2.2 Ответ на комментарий
+commentResponse Описание. Элемент < > содержит тип кода ответа на
+Действительно: Все Σ1000Δ-Α-04-06-0100-00Α-040Α-Α
+Глава 4.6.1
+2013-11-15 Страница 14

@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+lcMatchingPair < > (C). См. Разд. 2.4.5.1.4. 
+Пример разметки:
+<lcMatchTable>
+<lcMatchingHeader>
+<lcItem>
+<description>
+<para>Question</para>
+</description>
+</lcItem>
+<lcMatchingItem>
+<description>
+<para>Answer Menu</para>
+</description>
+</lcMatchingItem>
+</lcMatchingHeader>
+<lcMatchingPair>
+<lcItem>
+<description>
+<para>Which part of the hub assembly allows wheel components
+to rotate freely around the axle?</para>
+</description>
+</lcItem>
+<lcMatchingItem>
+<description>
+<para>Bearings</para>
+</description>
+</lcMatchingItem>
+</lcMatchingPair>
+<lcMatchingPair>
+<lcItem>
+<description>
+<para>To which part of the assembly are the spokes
+attached?</para>
+</description>
+</lcItem>
+<lcMatchingItem>
+<description>
+<para>Hub shell</para>
+</description>
+</lcMatchingItem>
+</lcMatchingPair>
+<lcMatchingPair>
+<lcItem>
+<description>
+<para>Which part of the hub assembly is attached to the
+dropouts?</para>
+</description>
+</lcItem>
+<lcMatchingItem>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 36

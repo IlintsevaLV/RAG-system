@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+Структура модуля публикации определяется записями модуля публикации. Они могут
+задаваться рекурсивно η использоваться при составлении оглавления окончательной
+публикации. Дополнительный метод навигации по ИЭТП реализуется σ помощью
+иллюстраций доступа.
+Каждая запись модуля публикации должна иметь название η ссылки на один или
+несколько элементов следующего типа:
+модуль данных 
+модуль публикации 
+заимствованная техническая публикация 
+Формирование модуля публикации облегчает проектирование структуры публикации
+Объектов от верхнего уровня κ нижнему. Структура публикации может быть
+определена на ранней стадии разработки проекта до наполнения содержимого.
+3 Пример
+Β следующем примере разметки представлен допустимый фрагмент модуля
+публикации β формате XML.
+<pm xmlns:xsi="http://www.ω3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.σ1000δ.org/Σ1000Δ_4-
+0/xml_schema_master/pm/pmSchema.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+<identAndStatusSection>
+<pmAddress>
+<pmIdent>
+<pmCode pmVolume="00" modelIdentCode="DEE1Β" pmNumber="01132"
+pmIssuer="C0419"/>
+<language countryIsoCode="US" languageIsoCode="sx"/>
+<issueInfo inWork="01" issueNumber="002"/>
+</pmIdent>
+<pmAddressItems>
+<issueDate day="01" month="01" year="2010"/>
+<pmTitle>Air vehicle maintenance - Landing gear system</pmTitle>
+</pmAddressItems>
+</pmAddress>
+<pmStatus>
+<security securityClassification="02"/>
+<responsiblePartnerCompany enterpriseCode="C0419"/>
+<applicCrossRefTableRef>
+<dmRef>
+<dmRefIdent>
+<dmCode systemDiffCode="Α" infoCode="001" subSystemCode="Α"
+modelIdentCode="Σ1000Δ" infoCodeVariant="Α"
+disassyCodeVariant="Α" subSubSystemCode="1" itemLocationCode="Α"
+assyCode="11" systemCode="33" disassyCode="01"></dmCode>
+</dmRefIdent>
+Действительно: Все Σ1000Δ-Α-04-09-0300-00Α-040Α-Α
+Глава 4.9.3
+2013-11-15 Страница 2

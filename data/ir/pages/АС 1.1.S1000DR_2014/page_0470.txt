@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+Нет 
+Дочерние элементы:
+authorityInfoAndTp < > (C). См. Разд. 2.2.11.1. 
+authorityInfo < > (C). См. Разд. 2.2.11.2. 
+techPubBase < > (C). См. Разд. 2.2.11.3. 
+authorityExceptions < > (Μ). См. Разд. 2.2.11.4. 
+authorityNotes < > (Μ). См. Разд. 2.2.11.5. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00072 –
+techStandard Использование элемента < > :
+Решение об использовании технического стандарта. 
+Пример разметки:
+<techStandard>
+<authorityInfoAndTp>
+<authorityInfo>20010131</authorityInfo>
+<techPubBase>Bike book</techPubBase>
+</authorityInfoAndTp>
+<authorityExceptions>"..."</authorityExceptions>
+<authorityNotes>"..."</authorityNotes>
+</techStandard>
+2.2.11.1 Блок ответственной организации η сведения ο технических публикациях
+authorityInfoAndTp Описание. Элемент < > содержит сведения блока
+ответственной организации η базу технической публикации, когда необходимо их
+совместное использование.
+authorityInfoAndTp Элемент разметки: < > (C)
+Атрибуты:
+Нет 
+Дочерние элементы:
+authorityInfo < > (Μ). См. Разд. 2.2.11.2. 
+techPubBase < > (Μ). См. Разд. 2.2.11.3. 
+Пример разметки:
+<authorityInfoAndTp>
+<authorityInfo>20010131</authorityInfo>
+<techPubBase>Bike book</techPubBase>
+</authorityInfoAndTp>
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 37

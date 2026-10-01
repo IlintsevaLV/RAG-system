@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+applicPropertyValues="1Β070643~1Β070799"/>
+Комментарий-назначение из PCT:
+<assign applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValue="1Β070642"/>
+Результирующее логическое значение: false
+3.2.1.5 Комментарий-утверждение сочетания σ результирующим логическим значением "true"
+assert Следующий пример иллюстрирует принадлежащий элементу < > атрибут
+applicPropertyIdent serialno проверки комментария со значением " " для
+множества значений η диапазонов. Выбранный экземпляр объекта имеет элемент
+assign applicPropertyIdent serialno < > σ атрибутом со значением " " η
+applicPropertyValue 1Β070642 атрибутом со значением " ", находящимся β
+пределах одного из допустимых диапазонов. Результатом является логическое
+значение "true".
+Комментарий-утверждение:
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+applicPropertyValues="1Β070640|1Β070642~1Β070720|1Β070722|1Β0707
+30~1Β070799"/>
+Комментарий-назначение из PCT:
+<assign applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValue="1Β070642"/>
+Результирующее логическое значение: true
+3.2.2 Вычисление комментариев вычисления
+3.2.2.1 Комментарий вычисления логического "И"
+Приведенный ниже пример иллюстрирует комментарий вычисления, выполняющий
+логическую операцию "И". Если все три комментария-утверждения дают
+результирующее логическое значение "true", результирующим значением является
+логическое значение "true". Если любой из этих трех комментариев-утверждений дает
+результирующее логическое значение "false", результирующим значением является
+логическое значение "false".
+Комментарий вычисления:
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk9"/>
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+Действительно: Все Σ1000Δ-Α-07-08-0000-00Α-040Α-Α
+Глава 7.8
+2013-11-15 Страница 12

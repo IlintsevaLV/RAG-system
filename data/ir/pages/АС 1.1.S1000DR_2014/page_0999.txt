@@ -1,0 +1,24 @@
+Σ1000DR-UACRU-01000-00
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" itemLocationCode="Δ" item="040"/>
+<catalogSeqNumberRef modelIdentCode="Σ1000DBIKE"
+systemDiffCode="AAA" systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" itemLocationCode="Δ" item="050"/>
+</referTo>
+</partLocationSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service>UKA</service>
+<sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+<modelVersion modelVersionValue="MB">
+</modelVersion>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+...
+</illustratedPartsCatalog>
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Конец модуля данных Глава 3.9.5.2.7
+2013-11-15 Страница 67

@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+Β следующем примере разметки показан переключатель, имеющий два состояния:
+(ОБЕСТОЧЕННЫЙ η ПОД НАПРЯЖЕНИЕМ). Β изначально установленном состоянии,
+initialStateFlag= 1 или состоянии по умолчанию ( " "), переключатель соединяет
+initialStateFlag= 0 контакты C η NС. Β другом положении ( " ") он соединяет
+контакты C η NO.
+<electricalLogic>
+<electricalEquipState initialStateFlag="1">
+<electricalEquipConnection>
+<contact contactIdent="C"/>
+<contact contactIdent="NC"/>
+</electricalEquipConnection>
+<electricalStateDescr>DEENERGIZED</electricalStateDescr>
+</electricalEquipState>
+<electricalEquipState>
+<electricalEquipConnection>
+<contact contactIdent="C"/>
+<contact contactIdent="NO"/>
+</electricalEquipConnection>
+<electricalStateDescr>ENERGIZED</electricalStateDescr>
+</electricalEquipState>
+</electricalLogic>
+2.9 Ответственная компания-контрагент
+Описание. Элемент ответственной компании-контрагента
+responsiblePartnerCompany < > определяет компанию или организацию,
+отвечающую за сведения об электрооборудовании. Этот элемент должен заполняться
+β соответствии σ положениями Глава 3.9.5.1 .
+responsiblePartnerCompany Элемент разметки: < > (O)
+Атрибуты:
+enterpriseCode (O), CAGE-код ответственной компании или организации 
+id (O), идентификатор элемента разметки. См. Глава 3.9.5.2.1.2 . 
+Дочерние элементы:
+enterpriseName < > (O), наименование ответственной компании или 
+организации
+Пример разметки:
+<responsiblePartnerCompany enterpriseCode="K0378"/>
+2.9.1 Название ответственной компании-контрагента
+Описание. Элемент названия ответственной компании-контрагента
+enterpriseName < > содержит название компании или организации, которая
+отвечает за данные. Этот элемент должен заполняться β соответствии σ
+положениями Глава 3.9.5.1 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-09E-040Α-Α
+Глава 3.9.5.2.9.4
+2013-11-15 Страница 13

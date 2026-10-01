@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+Таблица 2 Сопоставление метаданных (Продолжение)
+Элементы Dublin Core Элементы η/или атрибуты Элементы η/или атрибуты модуля
+модуля данных публикации/
+модуля пакета содержимого SCORM
+issueNumber-inWork
+dc:language languageIsoCode- languageIsoCode- < >
+countryIsoCode countryIsoCode
+dc:rights securityClassificat securityClassification_commer < >
+ion_commercialClass cialClassification_caveat
+ification_caveat или
+securityClassification_commer или
+securityClassificat cialClassification
+ion_commercialClass или
+securityClassification__cavea ification
+τ или
+securityClassificat или
+securityClassification ion_caveat
+или
+securityClassificat
+ion
+2.7 Пример RDF/DC
+Β следующем примере показано соответствие значений элементов η/или атрибутов
+модулей данных Σ1000Δ элементам метаданных DC внутри контейнера RDF на
+языке XML:
+<? xml version="1.0"?>
+<!DOCTYPE dmodule
+[
+<!ENTITY % ISOEntities PUBLIC "ISO 8879-1986//ENTITIES ISO
+Character Entities 20030531//EN//XML"
+"http://www.σ1000δ.org/Σ1000Δ_4-1/ent/ISOEntities">
+%ISOEntities;
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.σ1000δ.org/Σ1000Δ_4-
+0/xml_schema/proced.xsd"
+xmlns:dm="http://www.σ1000δ.org/dm"
+xmlns:xlink="http:/www.ω3.org/1999/xlink"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Solenoid valve, Pump No. 1 (No. 2) –
+Remove procedures</dc:title>
+<dc:creator>C0419</dc:creator>
+<dc:subject>Solenoid valve, Pump No. 1 (No. 2) –
+Remove procedures</dc:subject>
+Действительно: Все Σ1000Δ-Α-07-04-0101-02Α-040Α-Α
+Глава 7.4.1.1.2
+2013-11-15 Страница 9

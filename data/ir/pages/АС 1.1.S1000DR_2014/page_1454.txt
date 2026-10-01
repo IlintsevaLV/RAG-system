@@ -1,0 +1,70 @@
+dmRef < > (O). См. Глава 
+Пример разметки:
+<functionalPhysicalAreaRef
+3 Пример
+Β следующем примере иллюстрируется
+конфигурации. Поскольку зона
+другому, было задано два
+<referencedApplicGroup>
+<applic id="appl-001">
+<displayText>
+<simplePara>Α340-300,
+</displayText>
+<evaluate andOr="or">
+<assert applicPropertyIdent="serie"
+applicPropertyType="prodattr"
+<assert applicPropertyIdent="serie"
+applicPropertyType="prodattr"
+</evaluate>
+</applic>
+<applic id="appl-002">
+<assert applicPropertyIdent="serie"
+applicPropertyType="prodattr"
+</applic>
+</referencedApplicGroup>
+...
+<commonRepository>
+<functionalPhysicalAreaRepository>
+<functionalPhysicalAreaSpec
+<functionalPhysicalAreaIdent
+<name>Environmental
+<functionalPhysicalAreaRefGroup>
+<functionalPhysicalAreaRef
+<functionalPhysicalAreaRef
+</functionalPhysicalAreaRefGroup>
+</functionalPhysicalAreaSpec>
+<functionalPhysicalAreaSpec
+<functionalPhysicalAreaIdent
+<name>Compression</name>
+...
+</functionalPhysicalAreaSpec>
+<functionalPhysicalAreaSpec
+<functionalPhysicalAreaIdent
+<name>Distribution</name>
+...
+</functionalPhysicalAreaSpec>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+3.9.5.2.1.2 .
+ systemCode="21" subSystemCode="1"/>
+ функциональный элемент, который зависит от
+может отличаться от одного ассортимента продукции κ
+альтернативных функциональных элемента.
+Α340-500</simplePara>
+ applicPropertyValues="Α340-200"/>
+ applicPropertyValues="Α340-500"/>
+<displayText><simplePara>Α340-500</simplePara></displayText>
+ applicPropertyValues="Α340-500"/>
+ applicRefId="appl001">
+ systemCode="21"/>
+control</name>
+ systemCode="21" subSystemCode="1"/>
+ systemCode="21" subSystemCode="2"/>
+ applicRefId="appl001">
+ systemCode="21" subSystemCode="1"/>
+ applicRefId="appl002">
+ systemCode="21" subSystemCode="2"/>
+Σ1000Δ-Α-03-09-0502-11Λ-040Α-Α
+Глава 3.9.5.2.11.10
+2013-11-15 Страница 7

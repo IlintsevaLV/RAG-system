@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+использоваться при извлечении самостоятельного модуля данных из модуля данных
+зависимого, зависимого от CIR, η связанного модуля данных CIR. См. Глава 4.13.2 .
+repositorySourceDmIdent Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+identExtension < > (O). См. Разд. 2.1.1.1. 
+dmCode < > (Μ). См. Разд. 2.1.1.2. 
+language < > (Μ). См. Разд. 2.1.1.3. 
+issueInfo < > (Μ). См. Разд. 2.1.1.4. 
+Пример разметки:
+<repositorySourceDmIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00E" infoCodeVariant="Α" itemLocationCode="Α"/>
+<language languageIsoCode="sx" countryIsoCode="US"/>
+<issueInfo inWork="00" issueNumber="004"/>
+</repositorySourceDmIdent>
+2.2.3 Гриф секретности
+security Описание. Элемент < > содержит гриф секретности η ограничительные
+отметки полного модуля данных η содержащихся β нем либо связанных
+security иллюстраций. Допустимые значения атрибутов элемента < > см. β Глава
+3.9.6.1 .
+security Элемент разметки: < > (Μ)
+Атрибуты:
+securityClassification commercialClassification (Μ), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00054 -
+Использование η определение атрибутов:
+Решение об использовании η определении атрибутов 
+commercialClassification caveat η .
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00055 - Приоритет
+η взаимосвязи атрибутов:
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 20

@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</lom:lifeCycle>
+<lom:metaMetadata>
+<lom:identifier>
+<lom:catalog>GUID</lom:catalog>
+<lom:entry>3Δ16197F-4BA0-4F5C-BF57-CD3C8BA61148</lom:entry>
+</lom:identifier>
+<lom:metadataSchema>LOMv1.0</lom:metadataSchema>
+<lom:metadataSchema>SCORM_CAM_v1.3</lom:metadataSchema>
+</lom:metaMetadata>
+</lom:lom>
+</identAndStatusSection>
+<content>
+<!--This is α reference to one learning product used to make up
+the courseware.-->
+<scoEntry>
+<scoEntryAddress>
+<scoEntryCode modelIdentCode="DEE1Β1"
+scormContentPackageNumber="01132"
+scormContentPackageIssuer="C0419"
+scormContentPackageVolume="00"/>
+<scoEntryTitle>Parts of the Landing Gear</scoEntryTitle>
+</scoEntryAddress>
+<scoEntryStatus>
+<qualityAssurance>
+<unverified/>
+</qualityAssurance>
+</scoEntryStatus>
+<scoEntryContent>
+<dmRef>
+<dmRefIdent>
+<dmCode systemDiffCode="AAAA" infoCode="921" subSystemCode="5"
+modelIdentCode="MODELIC" infoCodeVariant="Α"
+disassyCodeVariant="AAA" subSubSystemCode="0"
+itemLocationCode="Α" assyCode="0000" systemCode="Α53"
+disassyCode="00"/>
+</dmRefIdent>
+</dmRef>
+</scoEntryContent>
+<scoEntry>
+<!--This is an example of how α reference is made to another
+SCORM content package. This would be done in cases where the
+SCORM content package is being used to reference one learning
+product or α collection of learning products, but the SCORM
+content package does not make up α full learning event.-->
+<scoEntryAddress>
+<scoEntryCode modelIdentCode="DEE1Β2"
+scormContentPackageNumber="01132"
+scormContentPackageIssuer="C0419"
+scormContentPackageVolume="00"/>
+<scoEntryTitle>Landing Gear Hydraulics</scoEntryTitle>
+Действительно: Все Σ1000Δ-Α-04-15-0300-00Α-040Α-Α
+Глава 4.15.3
+2013-11-15 Страница 9

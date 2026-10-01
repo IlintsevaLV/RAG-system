@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+</reqSupportEquips>
+Пример 4 - Номенклатурный номер НАТО, разбитый на составляющие части, вместе
+σ обозначением детали:
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="seq-0212">
+<name>Extractor, Δ-Puller, Left-hand</name>
+<natoStockNumber natoSupplyClass="4920"
+natoCodificationBureau="99" natoItemIdentNumberCore="1234567"/>
+<identNumber> <manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>JJ134252</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0041">
+<name>Extractor, Δ-Puller, Right-hand</name>
+<natoStockNumber natoSupplyClass="4290"
+natoCodificationBureau="99" natoItemIdentNumberCore="1234561"/>
+<identNumber> <manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>JJ134259</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+Пример 5 - Обозначение детали, две необходимые единицы вспомогательного
+оборудования:
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="seq-0101">
+<name>Extractor, Left-handed, Puller</name>
+<identNumber><manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>JJ123452</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0002">
+<name>Extractor, Right-handed, Puller</name>
+<identNumber><manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>JJ123456</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 56

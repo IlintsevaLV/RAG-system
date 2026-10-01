@@ -1,0 +1,20 @@
+Σ1000DR-UACRU-01000-00
+applicPropertyType="prodattr">
+<applicCrossRefTableRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="URN:Σ1000Δ:DMC-BRAKE-AAA-Δ00-
+00-00-00AA-00WA-Δ">
+<dmRefIdent>
+<dmCode modelIdentCode="BRAKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Ω" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef>
+</applicCrossRefTableRef>
+</externalAssert>
+</associate>
+</productDefinitionRelationship>
+Действительно: Все Σ1000Δ-Α-03-09-0503-04Α-040Α-Α
+Конец модуля данных Глава 3.9.5.3.4
+2013-11-15 Страница 7

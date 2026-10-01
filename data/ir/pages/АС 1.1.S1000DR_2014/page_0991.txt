@@ -1,0 +1,73 @@
+Таблица 7 Соответствие элементов
+Текстовый Наименование Μ/O
+идентифика элемента данных
+тор
+элемента
+IPS Предмет снабжения β Μ
+проекте начальной
+поставки
+ISN Порядковый номер Μ
+изделия β каталоге
+LGE Код языка Μ
+MFC Код производителя Μ
+MFM Серия изделий, O
+необходимых для
+изготовления,
+переработки или
+ремонта объекта
+MOI Идентификатор Μ
+финального изделия
+MOV Версия финального O
+изделия
+NIL Нет иллюстрации O
+NSN Номенклатурный номер O
+НАТО
+NSC Класс предмета Μ
+снабжения НАТО
+NIN Идентификационный O
+номер НАТО
+PNR Обозначение изделия Μ
+PSC Код секретности O
+QNA Количество β Μ
+сборочной единице
+высшего уровня
+QUI Количество β единице O
+поставки
+RFD Ссылочное O
+обозначение
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+данных ο деталях (Σ2000Μ – Σ1000Δ) (Продолжение)
+Элемент/атрибут схемы
+"...">
+<initialProvisioningProject
+initialProvisioningProjectNumberSubject=
+"...">
+<itemSeqNumber itemSeqNumberValue="...">
+<initialProvisioningProject
+languageCode="...">
+<manufacturerCode>...
+</manufacturerCode>
+<selectOrManufacture>...
+</selectOrManufacture>
+<modelIdentCode>...
+</modelIdentCode>
+<modelVersion modelVersionValue="...">
+<notIllustrated>
+Составной элемент данных, включающий NSC η NIN
+<natoStockNumber natoSupplyClass="...">
+<natoStockNumber
+natoCodificationBureau="..."
+natoItemIdentNumberCore="...">
+<partNumber>...</partNumber>
+<physicalSecurityPilferageCode>...
+</physicalSecurityPilferageCode>
+<quantityPerNextHigherAssy>...
+</quantityPerNextHigherAssy>
+<quantityPerUnit>...
+</quantityPerUnit>
+<functionalItemRef>...
+Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 59

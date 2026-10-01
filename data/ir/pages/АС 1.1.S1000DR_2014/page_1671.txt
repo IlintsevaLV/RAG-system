@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+lcSequenceOptionGroup < > (O). См. Разд. 2.4.4.1. 
+lcFeedbackItemGroup < > (O). См. Разд. 2.4.1.4. 
+Пример разметки:
+<lcSequencing>
+<!--PROGRAMMERS NOTE: Randomize the display order of sequence
+options - lcValue attribute indicates correct order after user
+sequencing-->
+<title></title>
+<lcQuestion id="ques-001">
+<description>
+<para>Place the steps for finding and repairing α puncture in
+the correct order. First, select α step. Then use the up and
+down arrows to move the step to the correct position. Repeat for
+each step, and then click NEXT.</para>
+</description>
+</lcQuestion>
+<lcSequenceOptionGroup>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Remove the wheel.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="1"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Unseat the tire.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="2"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Examine tube for leak.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="3"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Mark puncture.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="4"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 28

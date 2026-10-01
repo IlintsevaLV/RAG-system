@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Sand patch application area.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="5"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>
+Apply the glue.
+</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="6"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Reinstall the tube.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="7"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Reinstall the tire.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="8"/>
+</lcSequenceOption>
+</lcSequenceOptionGroup>
+</lcSequencing>
+2.4.4.1 Группа вариантов порядка следования
+lcSequenceOptionGroup Описание. Элемент < > содержит варианты для
+оценочного взаимодействия σ определением порядка следования.
+lcSequenceOptionGroup Элемент разметки: < > (O)
+Атрибуты:
+id lcSequenceOptionGroup (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 29

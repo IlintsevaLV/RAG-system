@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+<sbIndustrySupport>
+...
+</sbIndustrySupport>
+<sbIndividualSuppply sbMaterialType="sbmt01">
+...
+</sbIndividualSupply>
+<sbIndividualSuppply sbMaterialType="sbmt01">
+...
+</sbIndividualSupply>
+</sbSupplySet>
+Примечание
+sbMaterialType sbmt01 =" " определяется как "набор материалов или
+отдельный материал конкретного сервисного бюллетеня".
+2.3.2 Отдельный предмет поставки
+sbIndividualSupply Описание. Элемент < > содержит сведения об отдельном
+предмете поставки, задействованном β сервисном бюллетене. Предмет поставки не
+входит β набор поставляемых изделий.
+sbIndividualSupply Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00055-Α-001-01
+sbIndividualSupply Рис. 18 Элемент < >
+Атрибуты:
+Атрибуты η правила выполнения проекта такие же, как η для элемента 
+sbMaterialSet < >. См. Разд. 2.1.1.
+Дочерние элементы:
+embeddedSupplyDescr < > (Μ). См. Глава 3.9.5.2.1.9 . 
+sbDrawingRef < > (O). См. Разд. 2.2.2.1. 
+sbProcurementInfo < > (O). См. Разд. 2.1.1.1. 
+sbIndustrySupport < > (O). См. Разд. 2.1.1.2. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 24

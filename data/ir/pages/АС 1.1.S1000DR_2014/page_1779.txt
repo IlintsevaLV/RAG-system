@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+sbInstructionRef < > (O). См. Глава 3.9.5.2.15.1 . 
+sbIndividualSpare < > (Μ). См. Разд. 2.4.2. 
+footnote < > (O). См. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<sbSpareSet id="mat-0003" sbMaterialType="sbmt01"
+sbMaterialIdent="SPA-1000-1" sbMaterialIssue="001"
+sbProcurableFlag="1" sbSupplierValue="manufacturer">
+<name>Fork set</name>
+<sbProcurementInfo>
+...
+</sbProcurementInfo>
+<sbIndividualSpare sbMaterialType="sbmt02">
+...
+</sbIndividualSpare>
+<sbIndividualSpare sbMaterialType="sbmt02">
+...
+</sbIndividualSpare>
+</sbSpareSet>
+Примечание
+sbMaterialType sbmt01 =" " определяется как "набор материалов или 
+отдельный материал конкретного сервисного бюллетеня"
+sbMaterialType sbmt02 =" " определяется как "набор материалов или 
+отдельный материал, который не создавался специально для сервисного
+бюллетеня"
+2.4.2 Отдельная запасная деталь
+sbIndividualSpare Описание. Элемент < > содержит сведения об отдельной
+запасной детали, задействованной β сервисном бюллетене. Запасная деталь не
+входит β набор запасных деталей.
+sbIndividualSpare Элемент разметки: < > (Μ)
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 28

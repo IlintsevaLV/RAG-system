@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcResources>
+<description>
+<para>Couriers are provided the tools and parts required to
+maintain and repair their bikes. However, those tools are only
+available in the workshop location. There are no onboard tool
+packs or emergency repair kits that couriers may carry in
+transit.</para>
+</description>
+</lcResources>
+2.3.1.3 Поощрения
+lcIncentives Описание: Элемент< > содержит сведения ο политиках, программах
+или корпоративной культуре β организации или рабочей группе, которые влияют на
+мотивацию работника, α также об определении приоритетов рабочих задач, которые
+могут положительно или отрицательно влиять на способность выполнять свою работу
+η быть причиной потенциального или фактического низкого уровня
+производительности.
+lcIncentives Элемент разметки: < > (O)
+Атрибуты:
+id lcIncentives (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcIncentives>
+<description>
+<para>The study revealed that there is currently α negative
+incentive to troubleshoot and repair bike problems while on
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 50

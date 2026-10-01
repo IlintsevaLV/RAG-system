@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+to</para>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="01" disassyCode="00" disassyCodeVariant="AA"
+infoCode="933" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+</sbAccomplishmentInstructions>
+Пример разметки:
+Инструкции по выполнению σ простыми пошаговыми инструкциями, включенными β
+модуль данных основного сервисного бюллетеня.
+<sbAccomplishmentInstructions>
+<mainProcedure>...</mainProcedure>
+</sbAccomplishmentInstructions>
+2.3.8 Дополнительные сведения сервисного бюллетеня
+sbAdditionalInfo Описание. Элемент < > содержит дополнительные сведения,
+относящиеся κ процедурам или инструкциям сервисного бюллетеня. Он состоит из
+разделов σ описательным содержимым.
+sbAdditionalInfo Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00010-Α-001-01
+sbAdditionalInfo Рис. 10 Элемент < >
+Атрибуты:
+id (O), идентификатор основного раздела. 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Α-040Α-Α
+Глава 3.9.5.2.15
+2013-11-15 Страница 17

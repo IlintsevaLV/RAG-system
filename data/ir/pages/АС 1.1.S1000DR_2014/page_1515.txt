@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+<para>An organizational environment analysis was conducted to
+capture information about factors that may inhibit Speedy
+Couriers corporation in its ability to use the Σ1000Δ Bike to
+meet its objectives within the business community. During the
+analysis, it was learned that the corporation'σ couriers are
+union workers. Union policy states that all general maintenance
+and minor repairs shall be performed by couriers and that they
+shall be compensated at α technician rate for such maintenance.
+Therefore, it is desired by Speedy Courier corporation that all
+procedures that fall within this part of the union policy be
+written for couriers versus normal bike technicians.</para>
+</description>
+</lcOrganizationalEnvironmentAnalysis>
+2.2.4 Анализ рабочей среды
+lcWorkEnvironmentAnalysis Описание: Элемент < > содержит сведения,
+касающиеся факторов β непосредственной среде работника, которые могут влиять на
+способность организации реализовать свою стратегию, миссию, цели η задачи.
+lcWorkEnvironmentAnalysis Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0023-001-01
+lcWorkEnvironmentAnalysis Рис. 7 Элемент < >
+Атрибуты:
+id lcWorkEnvironmentAnalysis (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 31

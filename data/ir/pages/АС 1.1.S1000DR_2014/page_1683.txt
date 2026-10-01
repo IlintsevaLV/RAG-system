@@ -1,0 +1,30 @@
+Σ1000DR-UACRU-01000-00
+lcHotspot Элемент разметки: < > (O)
+ICN-Σ3627-Σ1000Δ0648-001-01
+lcHotspot Рис. 11 Элемент < >
+Атрибуты:
+id lcHotspot (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityDocument authorityName (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+title < > (O), заголовок сведений об оценке обучения. Он используется β 
+соответствии σ положениями Глава 3.9.5.2.1.5 .
+lcQuestion < > (C). См. Разд. 2.4.1.1. 
+lcHotspotMap < > (C). См. Разд. 2.4.6.1. 
+lcFeedbackItemGroup < > (O). См. Разд. 2.4.1.4. 
+Пример разметки:
+<lcHotspot id="hotspotsAssessment001">
+<title></title>
+<lcQuestion>
+<description>
+<para>Identify the headset by clicking it in the image.</para>
+</description>
+</lcQuestion>
+<lcHotspotMap>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 40

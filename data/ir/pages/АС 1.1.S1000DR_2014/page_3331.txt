@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+brexDmRef • Обязательный элемент < > добавлен β модель содержимого
+scormContentPackageStatus элемента < >.
+CPF 2009-144Σ1 
+applicRef • Элемент < > добавлен β модель содержимого элемента
+scormContentPackageStatus < >.
+CPF 2009-167Σ1 
+exportRegistrationCode • Тип элемента < > дополнен значением
+mixed= true " "
+Дальнейшие изменения β соответствии σ обновлениями схемы модуля данных 
+(см. Глава 7.3.1.1.6 )
+functionalItemRef • Модели содержимого элементов < >,
+circuitBreakerRef controlIndicatorRef zoneRef < >, < > η < >
+shortName дополнены новым элементом < >
+issueDate • Элемент < > замещен элементом
+externalPubIssueDate < > β модели содержимого
+externalPubRefAddressItems элемента< >.
+functionalItemType itemOriginator • Значения атрибутов , ,
+circuitBreakerType internalRefTargetType η заменены
+настраиваемыми значениями атрибутов
+circuitBreakerAction • Список значений атрибута дополнен двумя
+новыми значениями
+applicRef zoneRef • Атрибут добавлен элементам < > η
+accessPointRef < >
+title • Для элемента < > разрешены атрибуты изменений
+applic • Β элемент < > добавлены атрибуты изменений, секретности,
+applicConfiguraton id η
+content • Модель содержимого элемента < > дополнена необязательными
+referencedApplicGroup дочерними элементами < > η
+referencedApplicGroupRef < >
+Действительно: Все Σ1000Δ-Α-07-04-0202-00Α-040Α-Α
+Конец модуля данных Глава 7.4.2.2
+2013-11-15 Страница 3

@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+lcOrganizationalEnvironmentAnalysis < > (O). См. 2.2.3. 
+lcWorkEnvironmentAnalysis < > (O). См. 2.2.4. 
+lcPerformerAnalysis < > (O). См. 2.2.5. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00270 -
+Определение потребности β организации жизненного цикла β данных анализа
+производительности:
+Определение потребности β организации жизненного цикла данных η требований 
+анализа производительности для клиентской организации η системы повышения
+производительности труда, затрагиваемых объектом.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00271 -
+Определение потребности β организации жизненного цикла β данных анализа
+потребностей β обучении:
+Определение потребности β организации жизненного цикла данных η требований 
+анализа требований κ обучению для учебного воздействий.
+Пример разметки:
+<lcPerformanceAnalysis>
+<title>Performance Analysis</title>
+<description>
+<para>An analysis of the human performance system in which
+Speedy Couriers bike couriers operate was conducted to determine
+job performance requirements in relation to the Σ1000Δ Bike
+product.</para>
+</description>
+<lcOrganizationalAnalysis>
+<title>Organizational Analysis</title>
+<description>
+<para>This organizational analysis was conducted to collect
+information about the Speedy Couriers corporation to ensure
+human performance technologists and instructional systems
+designers align any performance interventions, including
+training, with the character and expectations of the
+corporation.</para>
+</description>
+<lcVisionStatement>
+<description>
+<para>We grow the local business economy by helping the
+businesses of the city be more productive and successful.</para>
+</description>
+</lcVisionStatement>
+<lcMissionStatement>
+<description>
+<para>Provide the city'σ businesses with the fastest, most
+convenient and reliable courier services possible.</para>
+</description>
+</lcMissionStatement>
+<lcValues>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 14

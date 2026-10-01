@@ -1,0 +1,69 @@
+<limit><threshold
+<thresholdValue>6</thresholdValue>
+</threshold>
+<inspectionType
+<limitRange>
+<limitRangeFrom>
+<threshold
+<thresholdValue>6</thresholdValue>
+<tolerance toleranceType="plusorminus"
+thresholdUnitOfMeasure="θ04"/>
+</threshold>
+</limitRangeFrom>
+</limitRange>
+</limit>
+</taskDefinition>
+</maintPlanning>
+3.3 Пример определения
+<maintPlanning>
+<inspectionDefinition><inspection>
+<limit limitCond="Pre-ride">
+<sampling>Pre-ride</sampling>
+<threshold
+<tolerance toleranceType="plusorminus"
+thresholdUnitOfMeasure="θ04"/>
+</threshold>
+<inspectionType
+<limitRange><limitRangeFrom>
+<threshold
+<thresholdValue>1</thresholdValue>
+<tolerance toleranceType="plusorminus"
+thresholdUnitOfMeasure="θ04"/>
+</threshold>
+</limitRangeFrom>
+</limitRange>
+</limit>
+</inspection>
+<taskGroup>
+<taskItem taskSeqNumber="001"
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+thresholdUnitOfMeasure="θ03">
+inspectionTypeCategory="6 Monthly"/>
+thresholdUnitOfMeasure="θ03">
+ toleranceValue="4"
+проверки
+thresholdUnitOfMeasure="θ51"><thresholdValue>1</thresholdValue>
+ toleranceValue="1"
+inspectionTypeCategory="Pre"/>
+thresholdUnitOfMeasure="θ51">
+ toleranceValue="1"
+ taskName="Inspect Brakes">
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 52

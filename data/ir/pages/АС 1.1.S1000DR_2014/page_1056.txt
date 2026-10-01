@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<functionalItemRef functionalItemNumber="3209VEB*"/>
+<contactInfo>
+<contact contactIdent="Β"/>
+<wireConnectionCode>
+<electricalPotential>
+<contactOrderValue>2</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>02</networkAnalysisCode>
+</contactInfo>
+</fromEquip>
+<toEquip>
+<functionalItemRef functionalItemNumber="61UR"/>
+<contactInfo>
+<contact contactIdent="Ξ2"/>
+<wireConnectionCode>
+<electricalPotential>
+<blockGroupingValue>01</blockGroupingValue>
+<shuntGroupingValue>01</shuntGroupingValue>
+<contactOrderValue>108</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>04</networkAnalysisCode>
+</contactInfo>
+</toEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+<wire wireState="active">
+<wireIdent>
+<wireNumber>PA0360FA</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="3209VEB*"/>
+<contactInfo>
+<contact contactIdent="Α"/>
+<wireConnectionCode>
+<electricalPotential>
+<contactOrderValue>1</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>02</networkAnalysisCode>
+</contactInfo>
+</fromEquip>
+<toEquip>
+<functionalItemRef functionalItemNumber="61UR"/>
+<contactInfo>
+<contact contactIdent="Ξ1"/>
+<wireConnectionCode>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 48

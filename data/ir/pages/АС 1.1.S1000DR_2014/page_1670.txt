@@ -1,0 +1,25 @@
+S1000DR-UACRU-01000-00
+ICN-S3627-S1000D0651-002-01
+lcSequencing Рис. 8 Элемент < >
+Примечание
+lcSequencing Элемент < > содержит такую же базовую модель содержимого,
+lcTrueFalse lcSingleSelect что и элемент < >, элемент < > и элемент
+lcMultipleSelect < >, за исключением того, что элемент
+lcSequenceOptionGroup < > замещает элемент
+lcAnswerOptionGroup < >.
+Атрибуты:
+id lcSequencing (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) и (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+title < > (O), заголовок сведений об оценке обучения. Он используется в 
+соответствии с положениями Глава 3.9.5.2.1.5 .
+lcQuestion < > (C). См. Разд. 2.4.1.1. 
+lcAsset < > (O). См. Разд. 2.4.1.2. 
+Действительно: Все S1000D-A-03-09-0502-13F-040A-A
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 27

@@ -1,0 +1,13 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00040-A-01-1
+issueDate externalPubRefAddressItems Рис. 40 Издание 4.0.1: < > в < >
+ICN-S1000D-A-07030104-0-FAPE3-00041-A-01-1
+externalPubIssueDate Рис. 41 Издание 4.1: < > в
+externalPubRefAddressItems < >
+rqmtSource 2.21 Ссылка на источник требований - < >
+rqmtSource sourceIdent issueInfo В элементе < > атрибут и элементы < > и
+issueDate dmRef pmRef < > заменены элементами < >, < > и
+externalPubRef < >.
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 23

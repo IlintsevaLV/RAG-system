@@ -1,0 +1,26 @@
+Σ1000DR-UACRU-01000-00
+<menuChoice>
+<prompt>
+<paraBasic>Right brake lever</paraBasic>
+</prompt>
+<assertion>
+<variableRef variableName="tourCorrectAnswer"/>
+<expression>
+<booleanValue><trueValue/></booleanValue>
+</expression>
+</assertion>
+<assertion>
+<variableRef variableName="tourFinished"/>
+<expression>
+<booleanValue><trueValue/></booleanValue>
+</expression>
+</assertion>
+</menuChoice>
+</menu>
+</dialog>
+</dmNode>
+</dmSeq>
+</dmLoop>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Β-040Α-Α
+Конец модуля данных Глава 3.9.5.2.10.1
+2013-11-15 Страница 31

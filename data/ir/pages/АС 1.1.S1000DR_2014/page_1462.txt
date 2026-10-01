@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Μ-07GB6-00004-Α-001-01
+controlIndicatorFunction Рис. 4 Элемент < >
+Атрибуты:
+id controlIndicatorFunction (O), идентификатор элемента < >. См. 
+Глава 3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+symbol < > (O). См. Глава 3.9.5.2.1.10 . 
+inlineSignificantData < > (O). См. Глава 3.9.5.2.1.10 . 
+subScript < > (O). См. Глава 3.9.5.2.1.10 . 
+superScript < > (O). См. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<controlIndicatorFunction>Push button to turn light
+<inlineSignificantData
+significantParaDataType="psd10">ON</inlineSignificantData> or
+<inlineSignificantData
+significantParaDataType="psd10">OFF</inlineSignificantData>.</co
+ntrolIndicatorFunction>
+3 Пример
+<commonRepository>
+<figure id="fig-0001">
+<title>Bike controls and indicators</title>
+<graphic infoEntityIdent="ICN-Σ1000DBIKE-AAA-Δ000000-0-U8025-
+00999-Α-03-1"></graphic>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11Μ-040Α-Α
+Глава 3.9.5.2.11.11
+2013-11-15 Страница 7

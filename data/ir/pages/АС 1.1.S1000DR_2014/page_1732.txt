@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+minor • " ", изменение классифицируется как незначительное.
+major • " ", изменение классифицируется как значительное.
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00284 -
+sbModificationClassification Использование атрибута :
+Решение ο допустимых значениях атрибута 
+sbModificationClassification η их определениях. Например, могут
+использоваться следующие значения. См. Глава 3.9.6.1 .
+Пример разметки:
+<sbProductModification applicRefId="app-0002"
+sbModificationIdent="Α2001"
+sbModificationClassification="major">Installation of telescopic
+fork with 140mm clearance</sbProductModification>
+<sbProductModification applicRefId="app-0003"
+sbModificationIdent="Α2002"
+sbModificationClassification="major">Installation of telescopic
+fork with 100mm clearance</sbProductModification>
+2.4 Перечень последствий
+sbImpactList Описание. Элемент < > содержит перечень последствий выполнения
+сервисного бюллетеня для объекта.
+sbImpactList Элемент разметки: < > (O)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00018-Α-001-01
+sbImpactList Рис. 3 Элемент < >
+Атрибуты:
+id (O), идентификатор перечня последствий сервисного бюллетеня. См. Глава 
+3.9.5.2.1.12 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+noInfo < > (Μ). См. Глава 3.9.5.2.15 . 
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 7

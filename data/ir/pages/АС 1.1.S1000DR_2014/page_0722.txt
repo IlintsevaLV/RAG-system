@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+Пример разметки:
+Пример 1: Разметка простых количественных данных σ помощью атрибута
+quantityType :
+<para>Maximum torque not to exceed
+<quantity quantityType="qty05">8 Nm</quantity>.
+</para>
+Отображение данной разметки может быть следующим:
+"Maximum torque not to exceed 8 Nm."
+Пример 2: Разметка количественных данных σ помощью дочернего элемента
+quantityGroup < >:
+<para>Maximum torque not to exceed
+<quantity quantityType="qty05">
+<quantityGroup quantityGroupType="nominal">
+<quantityValue quantityUnitOfMeasure="N.μ">8</quantityValue>
+</quantityGroup>
+</quantity>
+.</para>
+Отображение данной разметки может быть следующим:
+"Maximum torque not to exceed 8 Nm."
+Пример 3: Разметка количественных данных σ помощью цены η валюты:
+<para>The price of the kit is
+<quantity quantityType="qty02" quantityTypeSpecifics="USD">1500
+</quantity>
+.</para>
+Отображение данной разметки может быть следующим:
+"The price of the kit is 1500 USD."
+2.1.4.1 Количественная группа
+quantityGroup Описание. Элемент < > содержит группу значений η допусков
+η/или множество значений β случае, если используется несколько единиц измерения
+(например, 2 ч 30 мин).
+quantityGroup Элемент разметки: < > (O)
+Атрибуты:
+quantityGroupType (O). Этот атрибут может иметь следующие значения: 
+nominal • " " (Δ) - единственное значение
+minimum • " " - начало диапазона или минимальное значение
+maximum • " " - конец диапазона или максимальное значение
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Λ-040Α-Α
+Глава 3.9.5.2.1.10
+2013-11-15 Страница 13

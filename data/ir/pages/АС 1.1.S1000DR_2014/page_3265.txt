@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+dmRef Таблица 8 Элемент < > η его соответствие во вспомогательном ХМL-файле
+dmRef Элемент вспомогательного XML- Элемент Σ1000Δ < >
+linkuri файла < >
+referredFragment xlink:href uri Атрибут или атрибут Атрибут
+xlink:show xlink:actuate behavior Атрибут η/или атрибут Атрибут
+dmTitle xlink:hotspotTitle desc Элемент < > или атрибут Атрибут
+catalogSeqNumberRef Таблица 9 Элемент < > η его соответствие во вспомогательном
+ХМL-файле (неявная ссылка)
+catalogSeqNumberRef Элемент вспомогательного Элемент Σ1000Δ < >
+linkuri ХМL-файла < >
+ uri Структурированный иллюстрированный каталог деталей: Атрибуты Атрибут
+modelIdentCode systemDiffCode systemCode , , ,
+subSystemCode subSubSystem assyCode , , ,
+figureNumber figureNumberVariant , ,
+itemLocationCode item itemVariant , η
+Или для неструктурированного иллюстрированного каталога
+деталей атрибуты:
+initialProvisioningProjectNumber ,
+responsiblePartnerCompanyCode figureNumber , ,
+figureNumberVariant itemLocationCode item , , η
+itemVariant
+Если для структурированного или неструктурированного
+иллюстрированного каталога деталей требуется ссылка на
+конкретный номер ISN, необходимо использовать атрибут
+itemSeqNumberValue
+xlink:href или атрибут
+xlink:show xlink:actuate behavior Атрибут η/или атрибут Атрибут
+ xlink:hotspotTitle desc Атрибут Атрибут
+Примечание
+xlink:show new Β этом контексте значения атрибута ограничены " " или
+replace xlink:actuate onload " ", α значение атрибута ограничено " ".
+xlink:show Если имеется атрибут , он переопределяет любой атрибут
+xlink:actuate .
+2.3.4.2.4 Структуры bindById η bindByName
+Остальными двумя структурами вспомогательного ХМL-файла Σ1000Δ являются
+bindById webcgm bindById η bindByName. Элемент < > элемента < > эквивалентен
+grobject webcgm bindByName элементу < > элемента < >. Элемент < > элемента
+webcgm < > присоединяет внешние метаданные κ любым структурам grobject β CGM-
+Действительно: Все Σ1000Δ-Α-07-03-0200-00Α-040Α-Α
+Глава 7.3.2
+2013-11-15 Страница 16

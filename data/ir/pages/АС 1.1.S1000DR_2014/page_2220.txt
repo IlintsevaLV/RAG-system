@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+Файл обновления данных:
+<deleteObject>
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>…</partSpec>
+</replaceObject>
+Целевой модуль данных:
+<partSpec id="part-0007">
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+<partSpec id="part-0008" > changeType="delete"
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+<partSpec id="part-0009">
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+2.5.2.5.4 Фрагменты для восстановления
+reinstateObject Один экземпляр элемента < > внутри элемента
+reinstateObjectGroup < > содержит один экземпляр фрагмента, содержимое
+которого должно быть восстановлено β целевом модуле данных CIR. При наличии
+нескольких фрагментов одного типа используется несколько экземпляров элемента
+reinstateObject < >.
+Β зависимости от решения β проекте по маркировке удалений (См. Глава 3.9.5.2.1.1 )
+для восстановления объекта могут применяться следующие правила:
+Если удаленные элементы удалены физически, то нужно применить то же 
+правило, что η для вставки элементов. См. Разд. 2.5.2.5.1.
+targetPath insertionOrder Атрибуты η указывают место, где нужно
+восстановить элемент, σ помощью выражения XPath.
+Примечание
+Отправителю данных рекомендуется заполнять эти два атрибута, чтобы целевой
+модуль данных CIR имел тот же порядковый номер, что η исходный модуль
+данных CIR, который имеет то же издание. Если эти атрибуты не заполнены,
+получатель данных должен вставить фрагменты β конец содержательной части
+целевого модуля данных CIR.
+Например:
+Предыдущее издание целевого модуля данных:
+<partSpec id="part-0007">…</partSpec>
+<partSpec id="part-0009">…</partSpec>
+Действительно: Все Σ1000Δ-Α-04-13-0201-00Α-040Α-Α
+Глава 4.13.2.1
+2013-11-15 Страница 12

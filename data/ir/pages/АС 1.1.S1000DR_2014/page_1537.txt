@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcKnowledge>
+<description>
+<para>Only α small percentage of the couriers had the necessary
+knowledge needed to maintain and repair bicycles because for
+many of the employees this is the first time using α bike for α
+job.</para>
+</description>
+</lcKnowledge>
+2.3.2.2 Индивидуальная производительность
+lcCapacity Описание: Элемент < > содержит сведения ο недостаточной
+индивидуальной производительности работника, которая негативно влияет на
+способность выполнять свою работу η, таким образом, является причиной
+потенциального или фактического низкого уровня производительности.
+lcCapacity Элемент разметки: < > (O)
+Атрибуты:
+id lcCapacity (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcCapacity>
+<description>
+<para>Bike couriers are not physically capable of carrying α
+portable jack stand needed to perform steering alignment
+repairs.</para>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 53

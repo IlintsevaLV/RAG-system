@@ -1,0 +1,38 @@
+S1000DR-UACRU-01000-00
+itemIdentData < >,
+refs specDocument • Необязательный элемент < > добавлен в элемент < >.
+specDocument • Изменен элемент < >, который стал многократным в
+techData элементе < >.
+descrForItem usageCategory • Элементы < > и < > замещены новым
+partUsage элементом < >.
+placardText • Добавлен новый необязательный элемент < > в элемент
+techData < >.
+hazardousFlag • Атрибут заменен новым элементом
+hazardousClass techData supplySpec < > в элементах < > и < >.
+limitedPartNumber • Новый элемент < > добавлен в элемент
+itemIdentData < >.
+supplierCode optionalSupplierCode • Элементы < > и < > заменены
+enterpriseRef существующим элементом < >.
+enterpriseType • Новый атрибут добавлен в элемент
+enterpriseRef < >.
+name shortName • Необязательные элементы < > и < > добавлены в элемент
+enterpriseRef < >.
+unitOfIssueQualificationSegment • Элемент < > добавлен в элемент
+techData < >.
+CPF 2009-147S1 - Взаимосвязи деталей 
+altPart alteredFromPart • Элемент < > переименован в < > в элементе
+partRefGroup < >,
+altPartDescr • Элемент < > переименован в
+alteredFromPartDescr alteredFromPart < > в элементе < >,
+catalogSeqNumberRef • Элемент < > добавлен в элементы
+alteredFromPart replacedBy optionalPart < >, < >, < >,
+preferredSparePart localFabricationMaterial < > и < >.
+CPF 2009-148S1 - Данные детали в иллюстрированном каталоге деталей 
+manufacturerCode partNumber • Элементы < > и < > заменены новым
+partRef itemSequenceNumber элементом < > в элементе < >.
+partIdentSegment partSegment • Элемент < > переименован в < >.
+natoStockNumber • Элемент < > удален из
+itemSequenceNumber элемента< >.
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 14

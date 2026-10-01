@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00138 -
+installationLocation Использование элемента < > β элементе
+preliminaryRqmts < > :
+installationLocation Решение об использовании элемента < > η порядке 
+использования. Если используется, решите, σ какими типами модулей данных он
+будет использоваться.
+Пример разметки:
+Пример 1 - Место установки β кодированной форме
+Β следующем примере разметки показано место установки β кодированной форме,
+когда типом является "Сечение".
+<installationLocation installationLocationType="instloctyp02">
+245</installationLocation>
+Пример 2 - Место установки β виде обычного текста
+Β следующем примере разметки показано место установки β виде обычного текста.
+<installationLocation>Side console and rear pressure bulkhead
+plug break RH (rear cockpit)</installationLocation>
+Пример 3 - Место установки σ размерами
+Β следующем примере показано место установки оборудования посредством
+installationLocation присвоения элементу < > значений для узла подвески,
+ватерлинии η кормового батокса. Единица измерения - сантиметр.
+<installationLocation installationLocationType="instloctyp03"
+unitOfMeasure="cm">199</installationLocation>
+<installationLocation installationLocationType="instloctyp04"
+unitOfMeasure="cm">170</installationLocation>
+<installationLocation installationLocationType="instloctyp05"
+unitOfMeasure="cm">Λ057</installationLocation>
+2.1.2.1.3 Изделие β объекте
+productItem Описание : Элемент < > является идентификатором детали
+конструкции Объекта (например, шпангоут, нервюра, стрингер). Он помогает рабочим
+определять точное место проведения работ.
+productItem Элемент разметки : < > (O)
+Атрибуты :
+id productItem (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 14

@@ -1,0 +1,21 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00013-A-01-1
+partRef Рис. 15 Издание 4.1: < >
+partIdentSegment 2.7.2 Часть детали - элемент < >
+partIdentSegment itemSequenceNumber Элемент < > в элементе < >
+partSegment переименован в < > и вместо многократного стал одиночным.
+Его содержимое заменяется таким же содержимым, как в модуле данных CIR
+itemIdentData деталей. Оно включает в себя обязательный элемент < > и
+procurementData techData необязательные элементы < >, < > и
+partRefGroup < >.
+descrForPart itemIdentData Элемент < > перемещен в элемент < >.
+descrForItem partUsage Элемент < > переименован в элемент < > и перемещен
+techData в элемент < >. См. Разд. 2.10.
+unitOfIssue specialStorage Элементы < >, < >,
+fitmentCodephysicalSecurityPilferageCode < > и
+calibrationMarker techData < > перемещены в элемент < >.
+unitOfIssueQualificationSegment Элемент < > перемещен в элемент
+techData < >.
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 11

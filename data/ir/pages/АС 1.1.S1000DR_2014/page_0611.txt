@@ -1,0 +1,66 @@
+</graphic>
+<graphic id="fig-0001-gra-0002"
+723200-R-K0378-00233-Α-01-1">
+</graphic>
+<legend>
+<definitionList>
+<title>Legend for <internalRef
+</internalRef>
+</title>
+<definitionListItem>
+<listItemTerm>1</listItemTerm>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>2</listItemTerm>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>3</listItemTerm>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>4</listItemTerm>
+</definitionListItem>
+...
+<definitionListItem>
+<listItemTerm>102</listItemTerm>
+</definitionListItem>
+</definitionList>
+</legend>
+</figure>
+3.5 Мультимедийные объекты
+Элемент мультимедийного объекта
+что η рисунок, крупномасштабный
+приводится ниже:
+<multimedia id="mul-0001">
+<multimediaObject autoPlay="0"
+AAA-Δ000000-0-SF518-00538-Α-001-01"
+showPluginControls="hide"
+multimediaObjectHeight="300"
+</multimediaObject>
+</multimedia>
+Для ссылки на объект внутри
+стандартный элемент перекрестной
+сделать возможными такие
+multimedia значения " ", "
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ infoEntityIdent="ICN-E2-Α-
+ internalRefId="fig-0001">
+<listItemDefinition><para>Display</para></listItemDefinition>
+<listItemDefinition><para>Button</para></listItemDefinition>
+<listItemDefinition><para>Widget</para></listItemDefinition>
+<listItemDefinition><para>Adaptor</para></listItemDefinition>
+<listItemDefinition><para>Retainer</para></listItemDefinition>
+ можно вставить β модуль данных β те же места,
+ объект или таблицу. Пример вставленной разметки
+ infoEntityIdent="ICN-Σ1000DBIKE-
+ multimediaType="3Δ"
+ fullScreen="0"
+ multimediaObjectWidth="300">
+мультимедийного объекта разработчику нужен
+internalRef ссылки < >. Для того чтобы
+перекрестные ссылки, были добавлены дополнительные
+multimediaObject param " η " " κ атрибуту типа β
+Σ1000Δ-Α-03-09-0502-01H-040Α-Α
+Глава 3.9.5.2.1.7
+2013-11-15 Страница 13

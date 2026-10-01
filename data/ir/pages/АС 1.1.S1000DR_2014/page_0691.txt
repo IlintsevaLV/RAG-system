@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+использоваться не должны
+Retained • Для расходных материалов значение " " (атрибут
+materialUsage mu02 = " ") должно использоваться только β контексте
+сервисного бюллетеня.
+Дочерние элементы:
+supplyDescr Элемент < > содержит такие же атрибуты, что η элемент
+supportEquipDescr < > (см. Разд. 2.5.1) со следующим исключением:
+toolRef supplyRef < > заменяется на элементы < > η элемент 
+supplyRqmtRef < >. См. Разд. 2.6.1.1, где представлены сведения об элементе
+supplyRef < >. См. Разд. 2.6.1.2 , где представлены сведения об элементе
+supplyRqmtRef < >.
+embeddedSupportEquipDescr < > заменяется на элемент 
+embeddedSupplyDescr < >. См. Разд. 2.6.1.3.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00155 -
+id supplyDescr Использование атрибута элемента < > β элементе
+preliminaryRqmts < > :
+id Решение об использовании атрибута для создания перекрестных ссылок из 
+процедуры на расходные материалы, перечисленные β предварительных
+id supplyDescr требованиях. Атрибут элемента < > используется для
+представления связи η гарантирует последовательное использование
+идентификаторов во всей процедуре. Использование перекрестных ссылок
+приветствуется.
+Пример разметки:
+Набор материалов для расходных материалов
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr materialUsage=”mu05” id="sup-0010">
+<name>Consumable Set</name>
+<materialSetRef materialSetIdent="578015CML01"
+materialSetIssue="01"/>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+<embeddedSupplyDescr id="sup-0054">
+<name>Oil, Engine, Gas Turbine</name>
+<identNumber>
+<manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>OIL-HHGA</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="Λ">2,0</reqQuantity>
+</embeddedSupplyDescr>
+<embeddedSupplyDescr id="sup-0302">
+<name>Grease, Lubricating</name>
+<identNumber>
+<manufacturerCode>K0378</manufacturerCode>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 60

@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+mu01 materialUsage mu02 = " ") η “Retained” (атрибут = " ") используются
+только β контексте сервисного бюллетеня.
+reqQuantity • Элемент < > должен заполняться дефисом [-], когда элемент
+spareDescr materialUsage mu04 < > имеет атрибут , равный " "
+(указанный по ссылке)
+Дочерние элементы:
+spareDescr Элемент < > содержит такие же атрибуты, что η элемент
+supportEquipDescr < > (см. Разд. 2.5.1) со следующим исключением:
+toolRef partRef Элемент < > заменяется на элемент < > η элемент 
+functionalItemRef < >. См. Разд. 2.7.1.2, где представлены сведения об
+partRef элементе < >. См. Разд. 2.7.1.1 , где представлены сведения об
+functionalItemRef элементе < >.
+embeddedSupportEquipDescr Элемент < > заменяется на элемент 
+embeddedSpareDescr < >. См. Разд. 2.7.1.2.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00156 -
+id sparesDescr Использование атрибута элемента < > β элементе
+preliminaryRqmts < > :
+id Решение об использовании атрибута для создания перекрестных ссылок из 
+процедуры на запасные детали, перечисленные β предварительных требованиях.
+id sparesDescr Атрибут элемента < > используется для представления связи
+η гарантирует последовательное использование идентификаторов во всей
+процедуре. Использование перекрестных ссылок приветствуется.
+Пример разметки:
+Две запасные детали β комплекте
+<spareDescr id="spa-0002" materialUsage=”mu05”>
+<name>Kit</name>
+<materialSetRef materialSetIdent="578015Β01"
+materialSetIssue="01"/>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+<embeddedSpareDescr id="spa-0003">
+<name>Bulb</name>
+<catalogSeqNumberRef catalogSeqNumberValue="Δ00000000Α010"
+itemSeqNumberValue="00Α"/>
+<identNumber>
+<manufacturerCode>KZ777</manufacturerCode>
+<partAndSerialNumber><partNumber>LIRUS-Β1-
+12F</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</embeddedSpareDescr>
+<embeddedSpareDescr id="spa-0004">
+<name>Bulb</name>
+<catalogSeqNumberRef catalogSeqNumberValue="Δ00000000Α010"
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 67

@@ -1,0 +1,20 @@
+</validate> 33
+</userEntry> 34
+<pushButton> 35
+<prompt><paraBasic>Locate 36
+<externalApplication 37
+<paraBasic>Display 38
+39
+</externalApplication> 40
+</pushButton> 41
+</dialog> 42
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ Tire Label</paraBasic></prompt>
+ application="illustrate">
+ CGM graphic</paraBasic>
+<send><stringValue>tirelocate.cgm</stringValue></send>
+Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 37

@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcManagerialSupport < > (O). См. 2.2.4.1. 
+lcPhysicalAspectsOfSite < > (O). См. 2.2.4.2. 
+lcSocialAspectsOfSite < > (O). См. 2.2.4.3. 
+lcSpecialFactors < > (O). См. 2.2.4.4. 
+Пример разметки:
+<lcWorkEnvironmentAnalysis>
+<title>Analysis of Courier'σ Work Environment at Speedy Courier,
+Inc.</title>
+<description>
+<para>The work environment of Speedy Courier bike couriers is in
+urban locations. The streets are paved, but due to its northern
+locale, the streets are often damaged from ice and snow during
+the winter months. Winter temperature range is -9 to 2 degrees
+Celsius, spring is 4 to 20, summer is 22 to 27, and fall is 6 to
+20. The couriers' bikes are subject to atmospheric conditions
+such as sun, rain, sleet, snow, etc. For maintenace procedures
+the couriers complete themselves, or that are performed by α
+non-union technician, they will be performed at the garage area
+provided by the corporation. In some cases, however, road hazard
+maintenance will have to be performed in the field.
+Specifically, this refers to tire tube replacements and chain
+replacement.</para>
+</description>
+<lcManagerialSupport>
+<description>
+<para>Speedy Couriers has one general manager and four shift
+managers with administrative duties related to dispatching
+couriers. No managers have any advanced bike repair skills
+beyond what the couriers possess. The shift managers are
+responsible for ensuring couriers perform all required
+preventive maintenance at the scheduled periodicity.</para>
+</description>
+</lcManagerialSupport>
+<lcPhysicalAspectsOfSite>
+<description>
+<para>The maintenance location provided for couriers by the
+corporation is α single garage bay measuring 20-feet deep by 16-
+feet wide. Basic wrenches, pliers, screwdrivers, etc are within
+the work area. Lighting is in full working order. Various
+moveable stools and benches are scattered throughout. No other
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 32

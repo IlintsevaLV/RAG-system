@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="01" disassyCode="00" disassyCodeVariant="AA"
+infoCode="933" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+</sbCondition>
+<sbDuration>
+<quantity quantityType="qty04">
+<quantityGroup>
+<quantityValue quantityUnitOfMeasure="η">3.0</quantityValue>
+</quantityGroup>
+</quantity>
+</sbDuration>
+<sbEstimatedTime>
+<quantity quantityType="qty04">
+<quantityGroup>
+<quantityValue quantityUnitOfMeasure="η">5.0</quantityValue>
+</quantityGroup>
+</quantity>
+</sbEstimatedTime>
+</sbTimeInfo>
+Примечание
+Если β приведенном выше примере (infocode=933) для выполнения набора 
+sbCondition задач, на который ссылается элемент < >, требуется два
+человека, которые будут работать вместе η одновременно β течение двух
+часов, α после этого β течение одного часа будет работать один человек,
+sbDuration элемент < > должен содержать 3,0 ч (часа), α элемент
+sbEstimatedTime < > должен содержать 5,0 ч (человеко-часов).
+sbAggregationLevelFlag 1 Атрибут со значением " " указывает, что β 
+этих цифрах учитываются продолжительность η планируемое время любой из
+указанных процедур.
+quantityType qty04 =" " определяется как "время". 
+2.7.1.1 Условие
+sbCondition Описание. Элемент < > содержит различные варианты выполнения
+сервисного бюллетеня η повторного обслуживания согласно процедурам или набору
+задач.
+sbCondition Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 18

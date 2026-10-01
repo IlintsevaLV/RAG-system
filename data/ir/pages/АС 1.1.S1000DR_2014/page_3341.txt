@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+отправленных данных σ их контрольными номерами η номерами изданий β качестве
+дополнительной характеристики.
+deliveryListItem Элемент < > задает один передаваемый объект β пакете
+dispatchFileName отправки. Элемент < > должен содержать полное имя файла
+передачи, β том числе ТИП η ФОРМАТ, разделенные дефисами η подчеркиваниями,
+по необходимости.
+entityControlNumber Элемент < > должен содержать только КОНТРОЛЬНЫЙ
+НОМЕР без ТИПА η ФОРМАТА, τ.ε. без префиксов или постфиксов, разделенных
+дефисами по необходимости.
+Пример разметки:
+<deliveryListItem>
+<dispatchFileName>DMC-1Β-Α-31-16-00-00Α-040Α-Α_003-00_SX-US.XML
+</dispatchFileName>
+<entityControlNumber>1Β-Α-31-16-00-00Α-040Α-Α_SX-US
+</entityControlNumber>
+</deliveryListItem>
+<deliveryListItem>
+<dispatchFileName>PMC-1Β-Δ9460-00001-00_002-00_EN-US.XML
+</dispatchFileName>
+<entityControlNumber>1Β-Δ9460-00001-00_EN-US
+</entityControlNumber>
+</deliveryListItem>
+<deliveryListItem>
+<dispatchFileName>ICN-Α1-Α-532510-Δ-F6117-00001-Α-001-01.CGM
+</dispatchFileName>
+<entityControlNumber>Α1-Α-532510-Δ-F6117-00001-Α-001-01
+</entityControlNumber>
+</deliveryListItem>
+<deliveryListItem>
+<dispatchFileName>COM-AJ-I9034-2006-00365-R_SX-US.XML
+</dispatchFileName>
+<entityControlNumber>AJ-I9034-2006-00365-R_SX-US
+</entityControlNumber>
+</deliveryListItem>
+<deliveryListItem>
+<dispatchFileName>ICN-Σ1000Δ-Α-005004-0-E8010-00001-Α-001-01.AVI
+</dispatchFileName>
+<entityControlNumber>Σ1000Δ-Α-005004-0-E8010-00001-Α-001-01
+</entityControlNumber>
+</deliveryListItem>
+2.3.2 Текст модуля данных
+КОНТРОЛЬНЫЙ НОМЕР - это код модуля данных σ дефисами между различными
+вложенными элементами кода (MI, SDC, SNS, DC/DCV, IC/ICV, ILC), за которым
+следует последовательность:
+Действительно: Все Σ1000Δ-Α-07-05-0100-00Α-040Α-Α
+Глава 7.5.1
+2013-11-15 Страница 6

@@ -1,0 +1,38 @@
+S1000DR-UACRU-01000-00
+installationIdent contextIdent • Необязательные атрибуты , ,
+manufacturerCodeValue itemOriginator и добавлены в
+circuitBreakerIdent circuitBreakerRef элементы < > и < >.
+CPF 2009-070AA - Иллюстрации функционального элемента 
+internalRef • Необязательный элемент < > добавлен в элемент
+functionalItemAlt < >.
+CPF 2009-071S1 - Получение значений применимости 
+prompt • Необязательный элемент < > добавлен в элемент
+productAttribute cond < > в схеме appliccrossreftable и в < > в схеме
+condcrossreftableSchema.
+prompt • В этих схемах заново определен < > с удалением элемента
+variableRef < >.
+enumerationLabel • Добавлен новый необязательный атрибут в элемент
+enumeration < > в схемах appliccrossreftableSchema и
+condcrossreftableSchema.
+CPF 2009-073DE - Допуск, значение, единицы измерения 
+tolerance • Изменен элемент < >, который теперь представляется не более
+threshold двух раз в элементе < >.
+thresholdUnitOfMeasure • Обязательный атрибут добавлен в элемент
+threshold < >.
+toleranceValue • Добавлены новый обязательный атрибут и новый
+toleranceType tolerance необязательный атрибут в элемент < >.
+thresholdUnitOfMeasure • Атрибут добавлен в элемент
+tolerance < >.
+toleranceLow toleranceHigh unitOfMeasure • Атрибуты , и
+tolerance исключены из элемента < >
+CPF 2009-089AA - Расширение общего атрибута 
+id changeAttGroup • Необязательные атрибуты и добавлены в элементы
+commonInfo preliminaryRqmts < >, < >,
+isolationMainProcedure productionMaintData < >, < >,
+reqCondGroup reqTechInfoGroup reqSupportEquips < >, < >, < >,
+reqSupplies reqSpares reqSafety < >, < > и < >.
+changeAttGroup • Необязательные атрибуты добавлены в элементы
+isolationStep isolationProcedureEnd < > и < >.
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 10

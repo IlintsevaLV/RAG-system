@@ -1,0 +1,58 @@
+variableName="Voltage"/>
+applicPropertyIdent="Voltage"
+applicPropertyType="condition"/>
+2.4 Диалоги
+Β диалоге данные состояния
+пользователем путем использования
+Β примерах ниже используются
+разработаны для значений глобальных
+variableRef < > на элемент <
+η 30.
+2.4.1 Диалоги σ вводом данных
+Диалог σ вводом данных предписывает
+диалог σ полем ввода, β котором
+Таблица 15 Пример
+Строка Разметка
+<variableDeclarations> 1
+<variable 2
+...
+</variableDeclarations> 3
+...
+<dmNode><!--Air pressure 4
+<dialog submitCaption="ok01" 5
+<userEntry mandatory="1" 6
+<prompt> 7
+<paraBasic>Enter front tire 8
+</prompt> 9
+<variableRef 10
+<default> 11
+<expression> 12
+<realValue>65.0</realValue> 13
+</expression> 14
+</default> 15
+<validate errorMessage="Tire 16
+90.0 PSI">
+17
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+<globalPropertyRef на
+ β 6-ой η 13-ой строках.
+устанавливаются после завершения диалога
+ функции "ОК".
+локальные переменные. Диалоги могут быть
+ переменных заменой элемента
+globalPropertyRef > β строках разметки 10, 24
+ логическому ядру представить пользователю
+ можно ввести данные.
+ диалога σ вводом данных
+variableName="TirePressureFront" valueType="real"/>
+dialog-->
+ cancelCaption="ca01">
+dataEntryFieldLength="8">
+ air pressure (PSI):</paraBasic>
+variableName="TirePressureFront"/>
+ pressure must be between 0.0 and
+Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 14

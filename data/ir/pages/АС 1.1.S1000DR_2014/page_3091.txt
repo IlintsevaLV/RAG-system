@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+gen_inc • Группа " " удалена из моделей содержимого элемента
+indxflag change emphasis < >, элемента < > η элемента < >. См.
+common.xsd .
+TEXT-NOREFS text • Определена новая группа " ", аналогичная " " за
+refdm reftp исключением того, что элемент < >, элемент < >, элемент
+change ftnote text < > η элемент < > удалены. Группа " " замещена
+TEXT-NOREFS tabtitle группой " " β модели содержимого < >. Группа
+fft_inc FFT " " замещена группой " " β моделях содержимого элемента
+frc descacrw procd challeng response < >, < >, < >, < >, < >,
+endmattr DRLINTRO NP < > η группы " ". Группа " " замещена новой группой
+NPFFT ACSTCON NPAR " " β моделях содержимого групп " " η " ". Группа
+fft_inc crew " " удалена из моделей содержимого элемента < >, элемента
+crewmem tabtitle if < >, элемента < >, элемента < >, элемента
+elseif case drill subdrill < >, элемента < >, элемента < >, элемента < >
+step crew.xsd η элемента < >. См. .
+gen_inc FFTC • Группа " " замещена группой " " β модели содержимого
+descript TEXT-NOREFS элемента < >. Определена новая группа " ",
+text refdm аналогичная " " за исключением того, что элемент < >, элемент
+reftp change ftnote < >, элемент < > η элемент < > удалены. См.
+descript.xsd .
+fig_tab.xsd figure.xsd • Включение файла замещено включениями η
+table.xsd wcnp.xsd . Включение файла замещено включениями
+wc.xsd paragraphs.xsd crewSchema.xsd η . См. ,
+descriptSchema.xsd faultSchema.xsd ipdSchema.xsd , , ,
+procedSchema.xsd processSchema.xsd schedulSchema.xsd , , ,
+wrngdataSchema.xsd wrngfldsSchema.xsd η .
+fft_inc FFT • Группа " " замещена группой " " β модели содержимого
+isolatep ISOSTPA элемента < >. Модель содержимого группы " " дополнена
+FFT fft_inc группой " ". Группа " " удалена из моделей содержимого
+isostep isoend action элемента < >, элемента < >, элемента < >,
+question answer yesno элемента < >, элемента < >, элемента < >,
+sel-list yes no элемента < >, элемента < >, элемента < >, элемента
+entfield choice < > η элемента< >. Определен новый элемент
+delruitem lruitem < > на основании элемента < >, не содержащий
+test repair lruitem элемента < > η элемента < >. Элемент < > замещен
+delruitem detect элементом < > β модели содержимого элемента < >.
+desruitem Определен новый элемент < > на основании элемента
+sruitem test repair < >, не содержащий элемента < > η элемента < >.
+lrlruitem Определен новый элемент < > на основании элемента
+lruitem test lruitem < >, не содержащий элемента < >. Элемент < >
+lrlruitem замещен элементом < > β моделях содержимого элемента
+locandrep diagnost < > η элемента < >. Определен новый элемент
+lrsruitem sruitem < > на основании элемента < >, не содержащий
+test fault.xsd элемента < >. См. .
+Действительно: Все Σ1000Δ-Α-07-03-0101-02Α-040Α-Α
+Глава 7.3.1.1.2
+2013-11-15 Страница 2

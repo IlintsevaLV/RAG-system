@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcVisionStatement < > (O). См. 2.2.1.1. 
+lcMissionStatement < > (O). См. 2.2.1.2. 
+lcValues < > (O). См. 2.2.1.3. 
+lcGoalStatement < > (O). См. 2.2.1.4. 
+lcObjectiveStatement < > (O). См. 2.2.1.5. 
+Пример разметки:
+<lcOrganizationalAnalysis>
+<title>Organizational Analysis</title>
+<description>
+<para>This organizational analysis was conducted to collect
+information about the Speedy Couriers corporation to ensure
+human performance technologists and instructional systems
+designers align any performance interventions, including
+training, with the character and expectations of the
+corporation.</para>
+</description>
+<lcVisionStatement>
+<description>
+<para>We grow the local business economy by helping the
+businesses of the city be more productive and successful.</para>
+</description>
+</lcVisionStatement>
+<lcMissionStatement>
+<description>
+<para>Provide the city'σ businesses with the fastest, most
+convenient and reliable courier services possible.</para>
+</description>
+</lcMissionStatement>
+<lcValues>
+<description>
+<para>Promote the use of ecologically-friendly means of
+transportation and respect the existence of wildlife, animals,
+and humans when conducting business services.</para>
+</description>
+</lcValues>
+<lcGoalStatement>
+<description>
+<para>To become the number-one, lowest-cost messenger service in
+the city</para>
+</description>
+</lcGoalStatement>
+<lcObjectiveStatement>
+<description>
+<para>Achieve 98% customer satisfaction rating on all bike
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 20

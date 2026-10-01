@@ -1,0 +1,67 @@
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr><name>General
+<partAndSerialNumber><partNumber>LL-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity>As
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares/>
+</reqSpares>
+<reqSafety>
+<noSafety/>
+</reqSafety>
+</preliminaryRqmts>
+<refs><dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef></refs><equipGroup>
+<equip><name>Bicycle</name>
+<partAndSerialNumber><partNumber>Bicycle-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+</equip></equipGroup>
+<limit limitTypeValue="po">
+<threshold
+thresholdType="interval">
+<thresholdValue>1</thresholdValue>
+<tolerance toleranceType="plusorminus"
+thresholdUnitOfMeasure="θ06"/>
+</threshold>
+<inspectionType
+</limit>
+</taskDefinition>
+<taskDefinition
+worthinessLimit="recommended"
+reducedMaint="No">
+<task><taskDescr><simplePara>To
+maintenance</simplePara></taskDescr></task>
+<preliminaryRqmts><reqCondGroup><noConds/>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ lubricant</name>
+<identNumber><manufacturerCode>KZ222</manufacturerCode>
+required</reqQuantity>
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+<identNumber><manufacturerCode>KZ555</manufacturerCode>
+thresholdUnitOfMeasure="θ06"
+ toleranceValue="1"
+inspectionTypeCategory="Daily"/>
+applicRefId="appl-001" taskIdent="002"
+ do the post-ride
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 45

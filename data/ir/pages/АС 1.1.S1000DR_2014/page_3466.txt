@@ -1,0 +1,50 @@
+Таблица 7 Пример
+Строка Разметка
+</assertion> 25.
+</menuChoice> 26.
+<menuChoice> 27.
+28.
+<assertion> 29.
+<variableRef 30.
+<expression> 31.
+</expression>
+</assertion> 32.
+</menuChoice> 33.
+</menu> 34.
+</dialog> 35.
+</dmNode> 36.
+<dmIf> 37.
+<expression> 38.
+<variableRef
+</expression>
+<dmThenSeq> <!-- 39.
+<dmRef> 40.
+... 41.
+</dmRef> 42.
+</dmThenSeq> 43.
+<dmElseSeq> <!-- 44.
+<dmSeqAlts> <!-- 45.
+"MC-168119" -->
+<dmSeq 46.
+<dmSeq 47.
+- </dmSeqAlts> 48.
+<dmSeqAlts> <!-- 49.
+"MC-168234" -->
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+альтернативных вариантов последовательности узлов
+(Продолжение)
+<prompt><paraBasic>No</paraBasic></prompt>
+variableName="BrakesOK"/>
+<booleanValue><falseValue/></booleanValue>
+variableName="BrakesOK"/>
+ Brakes OK check next component -->
+ Brakes faulty -->
+ Brake repairs for bicyle part number
+applicRefId=”appl-002”>...</dmSeq>
+applicRefId=”appl-003”>...</dmSeq>
+Brake repairs for bicyle part number
+Σ1000Δ-Α-07-07-0200-00Α-040Α-Α
+Глава 7.7.2
+2013-11-15 Страница 11

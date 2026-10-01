@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+manufacturerCodeValue .
+name shortName • Добавлены существующие элементы < > η < > β элементы
+supplyRef enterpriseRef < > η < >.
+enterpriseType qualifiedSiteFlag • Новые атрибуты η добавлены
+enterpriseRef β элемент < >.
+supplyRef • Существующий элемент < > добавлен β элемент
+supplyDescr < >.
+CPF 2009-095AA - Ток срабатывания автомата защиты сети 
+amperage • Необязательный элемент < > добавлен β элемент
+circuitBreaker < >.
+CPF 2009-099US - Отмена сообщения 
+ cancelCaption • Добавлен новый необязательный атрибут β элемент
+message < >.
+CPF 2009-102AA - Атрибуты функциональной η/или физической области 
+ subSystemCode subSubSystemCode • Изменены атрибуты , η
+assyCode functionalPhysicalAreaIdent υ < > η
+functionalPhysicalAreaRef < >, которые стали необязательными.
+CPF 2009-104AA - Описание задачи 
+simplePara • Существующий элемент < > добавлен β элемент
+taskDescr < >.
+CPF 2009-111AA - Тип целевого объекта внутренней ссылки 
+internalRefTargetType • Изменены значения атрибута , которые вместо
+фиксированных значений стали настраиваемыми β проекте значениями.
+CPF 2009-125GB - Атрибуты разбиения номера позиции β каталоге 
+catalogSeqNumberValue • Атрибут исключен из элементов
+catalogSeqNumber catalogSeqNumberRef < >, < > η
+categoryOneContainerLocation < >.
+figureNumber item • Новые обязательные атрибуты η добавлены β
+catalogSeqNumber catalogSeqNumberRef элементы < >, < > η
+categoryOneContainerLocation < >.
+figureNumberVariant • Новые необязательные атрибуты η
+itemVariant catalogSeqNumber добавлены β элементы < >,
+catalogSeqNumberRef categoryOneContainerLocation < > η < >.
+Действительно: Все Σ1000Δ-Α-07-03-0101-06Α-040Α-Α
+Глава 7.3.1.1.6
+2013-11-15 Страница 12

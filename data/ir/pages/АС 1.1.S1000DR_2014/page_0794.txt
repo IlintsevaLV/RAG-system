@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+</detectedLruItem>
+</detectionInfo>
+2.5.1.3.1 Обнаруженный конструктивно-сменный блок (LRU)
+detectedLruItem Описание. Элемент < > содержит идентификацию, название η
+аббревиатуру обнаруженного блока LRU.
+detectedLruItem Элемент разметки: < > (C)
+Атрибуты:
+id detectedLruItem (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+faultProbability (O), фактор вероятности, указывающий вероятность 
+неисправности конкретного быстросменного блока
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+lru lru < > (C). Несколько элементов < > должны содержать только 
+альтернативные варианты выявленного блока. См. Разд. 2.5.1.3.2.
+remarks < > (O). См. Глава 3.9.5.1 . 
+detectSruItem < > (O). См. Разд. 2.5.1.3.3. 
+Пример разметки:
+<detectedLruItem>
+<lru>
+<name>Tire</name>
+<identNumber>
+<manufacturerCode>KT666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>TIRES-010101</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</lru>
+</detectedLruItem>
+2.5.1.3.2 Идентификация LRU
+lru Описание. Элемент < > содержит название, краткое название η идентификацию
+LRU.
+lru Элемент разметки: < > (C)
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 12

@@ -1,0 +1,12 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00031-A-01-1
+catalogSeqNumber Рис. 33 Издание 4.1: < > атрибуты
+2.17 Unit of issue qualification - элемент
+unitOfIssueQualificationSegment < >
+unitOfIssueQualificationSegment В элементе < > необязательный элемент
+quantityPerUnit < > теперь стал обязательным.
+ICN-S1000D-A-07030104-0-FAPE3-00032-A-01-1
+unitOfIssueQualificationSegment Рис. 34 Издание 4.0.1: < >
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 20

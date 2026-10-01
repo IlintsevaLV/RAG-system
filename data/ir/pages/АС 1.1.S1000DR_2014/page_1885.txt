@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" sub-subsystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Π" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef>
+</productCrossRefTableRef>
+</applicCrossRefTable>
+Пример 5: Объявление двух атрибутов объекта, β которых технический разработчик
+размещает текст, используемый программой просмотра для создания подсказки,
+предназначенной для получения значений объекта от конечного пользователя.
+serialno Для атрибута объекта используется подсказка:
+"Серийный номер (расположите под нижним кронштейном на стыке двух кривошипов
+педали)"
+version MK1 MK2 Атрибут объекта имеет два возможных значения: " " η " ". Каждая
+enumerationLabel версия имеет подсказку, связанную σ атрибутом .
+<productAttribute id="serialno">
+<name>Serial number</name>
+<descr>Serial number</descr>
+<prompt>
+<paraBasic>Serial Number (locate under bottom bracket where the
+two pedal cranks meet)</paraBasic>
+</prompt>
+</productAttribute>
+<productAttribute id="version" valuePattern="Mk(1|9)">
+<name>Version</name>
+<descr>Version of the bike</descr>
+<enumeration applicPropertyValues="Mk1" enumerationLabel="Mk 1
+Version (Mountain storm Only)"/>
+<enumeration applicPropertyValues="Mk9" enumerationLabel="Mk 9
+Version (Brook Trekker Only)"/>
+</productAttribute>
+Действительно: Все Σ1000Δ-Α-03-09-0503-01Α-040Α-Α
+Конец модуля данных Глава 3.9.5.3.1
+2013-11-15 Страница 14

@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+<crewDrillStep>
+<crewProcedureName>
+<para>Tighten clamp</para>
+</crewProcedureName>
+</crewDrillStep>
+</elseIf>
+2.3.1.1.12 Оператор выбора
+case Описание. Элемент < > используется для определения варианта β составе
+перечня допустимых вариантов.
+case Элемент разметки: < > (O)
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id case (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+caseCond < > (Μ). См. Разд. 2.3.1.1.10. 
+crewDrillStep < > (O). См. Разд. 2.3.1.1.4. 
+case < > (O). См. Разд. 2.3.1.1.12. 
+if < > (O). См. Разд. 2.3.1.1.7. 
+elseIf < > (O). См. Разд. 2.3.1.1.11. 
+Пример разметки:
+<case>
+<caseCond>Dial set to Α</caseCond>
+<crewDrillStep>
+<crewProcedureName>
+<para>Set dial to Β</para>
+</crewProcedureName>
+</crewDrillStep>
+</case>
+<case>
+<caseCond>Dial set to Β</caseCond>
+<crewDrillStep>
+<crewProcedureName>
+<para>Do nothing</para>
+</crewProcedureName>
+Действительно: Все Σ1000Δ-Α-03-09-0502-06Α-040Α-Α
+Глава 3.9.5.2.6
+2013-11-15 Страница 19

@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+sourcePmIdent < > (O). См. Разд. 2.1.2.1 
+security < > (Μ). См. Разд. 2.1.2.2 
+dataRestrictions < > (O). См. Разд. 2.1.2.3 
+logo < > (O). См. Разд. 2.1.2.4 
+responsiblePartnerCompany < > (Μ). См. Разд. 2.1.2.5 
+originator < > (O). См. Разд. 2.1.2.6 
+applicCrossRefTableRef < > (O). См. Разд. 2.1.2.7 
+applic < > (Μ). См. Разд. 2.1.2.8 
+pubMedia < > (O). См. Разд. 2.1.2.9 
+qualityAssurance < > (Μ). См. Разд. 2.1.2.10 
+systemBreakdownCode < > (O). См. Разд. 2.1.2.11 
+functionalItemCode < > (O). См. Разд. 2.1.2.11 
+reasonForUpdate < > (O). См. Разд. 2.1.2.12 
+remarks < > (O). См. Разд. 2.1.2.13 
+Пример разметки:
+<pmStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany>
+<enterpriseName>Σ1000Δ</enterpriseName>
+</responsiblePartnerCompany>
+<applic>
+<displayText>
+<simplePara>ALL</simplePara>
+</displayText>
+</applic>
+<qualityAssurance>
+<unverified/>
+</qualityAssurance>
+</pmStatus>
+2.1.2.1 Идентификация исходного модуля публикации
+sourcePmIdent Описание. Элемент < > содержит сведения об идентификации
+исходного модуля публикации, такие как код модуля публикации, язык η номер
+издания.
+sourcePmIdent Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-04-09-0100-00Α-040Α-Α
+Глава 4.9.1
+2013-11-15 Страница 11

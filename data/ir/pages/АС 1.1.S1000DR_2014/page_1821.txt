@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+title < > (O). См. Разд. 2.3.2.3.1. 
+tocEntry < > (Μ). См. Разд. 2.3.2.3.2. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00304 -
+Использование иерархического содержания:
+Решение об использовании иерархического содержания η количестве уровней. 
+Пример разметки:
+<tocList>
+<tocEntry>
+<dmRef applicRefId="app-0001">
+<dmRefIdent>
+<dmCode modelIdentCode="E2" systemDiffCode="Α" systemCode="70"
+subSystemCode="0" subSubSystemCode="0" assyCode="00"
+disassyCode="00" disassyCodeVariant="Α" infoCode="003"
+infoCodeVariant="Α" itemLocationCode="Α"/>
+<issueInfo issueNumber="007" inWork="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Engine</techName>
+<infoName>Highlights</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+<numberOfPages>1</numberOfPages>
+</tocEntry>
+<tocEntry>
+<title>72 Engine</title>
+<tocEntry>
+<title>72-00-00 Engine general</title>
+<dmRef applicRefId="app-0001">
+<dmRefIdent>
+<dmCode modelIdentCode="E2" systemDiffCode="Α" systemCode="72"
+subSystemCode="0" subSubSystemCode="0" assyCode="00"
+disassyCode="00" disassyCodeVariant="Α" infoCode="040"
+infoCodeVariant="Α" itemLocationCode="Δ"/>
+<issueInfo issueNumber="004" inWork="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Engine</techName>
+<infoName>Description of how it is made and its
+function</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+Действительно: Все Σ1000Δ-Α-03-09-0502-16Α-040Α-Α
+Глава 3.9.5.2.16
+2013-11-15 Страница 30

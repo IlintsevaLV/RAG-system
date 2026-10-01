@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcRequiredFacilities>
+<description>
+<para>The current bicycle repair area will be used for the
+practical exercises and end of training hands-on test.</para>
+</description>
+</lcRequiredFacilities>
+2.4.2.4.7 Необходимое оборудование
+lcRequiredEquipment Описание: Элемент < > определяет предметы поставки η
+инструменты, необходимые для поддержки или реализации компонента обучения.
+lcRequiredEquipment Элемент разметки: < > (O)
+Атрибуты:
+id lcRequiredEquipment (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcRequiredEquipment>
+<description>
+<para>Couriers may take the computer portion of the training
+using one of Speedy Courier'σ office computer workstations or
+they may take α CD of the training to be completed at home. The
+current bicycle repair equipment will be used for the practical
+exercises and end of training hands-on test.</para>
+</description>
+</lcRequiredEquipment>
+2.4.2.4.8 Особенности местной культуры
+lcLocalCultureConsiderations Описание: Элемент < > определяет особые
+местные традиции или культурные нюансы, которые следует иметь β виду при
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 89

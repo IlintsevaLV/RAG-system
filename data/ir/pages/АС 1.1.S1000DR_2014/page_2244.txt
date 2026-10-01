@@ -1,0 +1,53 @@
+<content>
+<update>
+<deleteObjectGroup>
+<deleteObject>
+<figureIdent
+...
+</deleteObjectGroup>
+</update>
+</content>
+2.4.3.3 Идентификатор группы альтернативных
+figureAltsIdent Описание. Элемент <
+альтернативных рисунков.
+figureAltsIdent Элемент разметки: <
+Атрибуты:
+id (Μ), идентификатор элемента 
+Дочерние элементы:
+Нет. 
+Пример разметки:
+<content>
+<update>
+<deleteObjectGroup>
+<deleteObject>
+<figureAltsIdent
+...
+</deleteObjectGroup>
+</update>
+</content>
+2.4.3.4 Идентификатор мультимедийного
+multimediaIdent Описание. Элемент <
+мультимедийные объекты.
+multimediaIdent Элемент разметки: <
+Атрибуты:
+id (Μ), идентификатор элемента 
+Дочерние элементы:
+Нет. 
+Пример разметки:
+<content>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+id="fig-0010"></deleteObject>
+ рисунков
+> позволяет идентифицировать группу
+> (C)
+figureAlts < > для удаления.
+id="figalts-0010"></deleteObject>
+объекта
+> позволяет идентифицировать
+> (C)
+multimedia < > для удаления.
+Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 23

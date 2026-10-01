@@ -1,0 +1,44 @@
+</partAndSerialNumber>
+</identNumber>
+</lru>
+</detectedLruItem>
+</detectionInfo>
+<isolateDetectedFault>
+<lruItem>
+<lru>
+<name>Rear wheel</name>
+<identNumber>
+<manufacturerCode>KZ333</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>WH-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</lru>
+</lruItem>
+</isolateDetectedFault>
+<remarks><simplePara>Prepare
+the tire</simplePara></remarks>
+</detectedFault>
+2.5.3.1 Локализация обнаруженной
+Описание. Β элементе <
+необходимые для локализации
+блока из перечня предполагаемых
+делается путем ссылки на другой
+faultIsolationRef < > или
+сменных блоков σ помощью
+Элемент разметки: <
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ the rear wheel for the removal of
+неисправности
+isolateDetectedFault > содержатся сведения,
+обнаруженной неисправности конструктивно-сменного
+ неисправных конструктивно-сменных блоков. Это
+ модуль данных σ помощью элемента
+путем описания проверки этих конструктивно-
+lruItem элемента < >.
+isolateDetectedFault > (O)
+Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 21

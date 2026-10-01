@@ -1,0 +1,22 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00033-A-01-1
+unitOfIssueQualificationSegment Рис. 35 Издание 4.1: < >
+2.18 Детали, полученные изменением другой детали, - элемент
+altPart < >
+altPart partRefGroup Элемент < > в элементе < > переименован в
+alteredFromPart altPartDescr < >. А его дочерний элемент < > переименован
+alteredFromPartDescr в < >.
+ICN-S1000D-A-07030104-0-FAPE3-00034-A-01-1
+altPart Рис. 36 Издание 4.0.1: < >
+ICN-S1000D-A-07030104-0-FAPE3-00035-A-01-1
+alteredFromPart Рис. 37 Издание 4.1: < >
+2.19 Производственные данные по техническому обслуживанию -
+productionMaintData элемент < >
+productionMaintData В модели содержимого элемента < > элементы
+zoneRef accessPointRef workArea < >, < > и < > заменены новым элементом
+workLocationGroup zoneRef < >. Новый элемент содержит элементы < >,
+accessPointRef workLocation < > и < >, которые используются вместо
+workArea элемента < >.
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 21

@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+<structureObjectRule>
+<objectPath allowedObjectFlag="0">//title/pmRef</objectPath>
+<objectUse>References in titles are not allowed</objectUse>
+</structureObjectRule>
+<structureObjectRule>
+<objectPath
+allowedObjectFlag="0">//title/externalPubRef</objectPath>
+<objectUse>References in titles are not allowed</objectUse>
+</structureObjectRule>
+</structureObjectRuleGroup>
+<notationRuleList>
+<notationRule>
+<notationName allowedNotationFlag="0">GIF</notationName>
+<objectUse>GIF and PNG illustration formats are not
+allowed</objectUse>
+</notationRule>
+<notationRule>
+<notationNameallowedNotationFlag="0">PNG</notationName>
+<objectUse>GIF and PNG illustration formats are not
+allowed</objectUse>
+</notationRule>
+</notationRuleList>
+</contextRules>
+<nonContextRules><nonContextRule>
+<simplePara>CSDB synchronization between partner companies must
+occur last Sunday of each month.</simplePara>
+</nonContextRule></nonContextRules>
+</brex>
+</content>
+</dmodule>
+Действительно: Все Σ1000Δ-Α-04-10-0200-00Α-040Α-Α
+Конец модуля данных Глава 4.10.2
+2013-11-15 Страница 7

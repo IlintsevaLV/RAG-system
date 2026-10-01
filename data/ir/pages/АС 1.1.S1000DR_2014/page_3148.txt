@@ -1,0 +1,20 @@
+S1000DR-UACRU-01000-00
+paraContentElemGroup entry • Атрибут исключен из элементов < > и
+listItemDefinition < >.
+threshold CPF 2011-034S1- Исправление противоречий в элементе < > 
+thresholdValue • Изменен элемент < >, который вместо строкового типа
+получил целый тип.
+CPF 2011-035S1 - Исключены дублирования из списка единиц измерения 
+• Удалены два дублирующихся "cL" и "dL" из нумерованного списка
+quantityUnitOfMeasureAttType .
+CPF 2012-006S1 - Корректировка планирования технического обслуживания 
+commercialSecurityAttGroup • Атрибут добавлен в элементы
+maintAllocationGroup groupNumber toolsList < >, < >, < > и
+remarksList < >.
+checkListStep checkListProcedure CPF 2012-008S1 - Элементы < >, < > 
+checkListPara и < > получили стандартные атрибуты.
+step Добавлены атрибуты стандартного элемента < > в элементы 
+checkListStep checkListProcedure checkListPara < >, < > и < >.
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Конец модуля данных Глава 7.3.1.1.6
+2013-11-15 Страница 18

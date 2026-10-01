@@ -1,0 +1,50 @@
+<menuChoice> 119
+<prompt><paraBasic>Left 120
+<assertion> 121
+<variableRef 122
+123
+ression>
+</assertion> 124
+<assertion> 125
+<variableRef 126
+<expression> 127
+<expression><variableRef
+<numberOperator
+</expression>
+</assertion> 128
+</menuChoice> 129
+<menuChoice> 130
+<prompt><paraBasic>Right 131
+<assertion> 132
+<variableRef 133
+134
+ession>
+</assertion> 135
+<assertion> 136
+<variableRef 137
+138
+ession>
+</assertion> 139
+</menuChoice> 140
+</menu> 141
+</dialog> 142
+</dmNode> 143
+<dmNodeAlts> 144
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ brake lever</paraBasic></prompt>
+variableName="tourCorrectAnswer"/>
+<expression><booleanValue><falseValue/></booleanValue></exp
+variableName="tourMistakes"/>
+variableName="tourMistakes"/></expression>
+numberOperation="plus"/>
+<expression><integerValue>1</integerValue></expression>
+ brake lever</paraBasic></prompt>
+variableName="tourCorrectAnswer"/>
+<expression><booleanValue><trueValue/></booleanValue></expr
+variableName="tourFinished"/>
+<expression><booleanValue><trueValue/></booleanValue></expr
+Σ1000Δ-Α-03-09-0502-10F-040Α-Α
+Глава 3.9.5.2.10.5
+2013-11-15 Страница 9

@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+courier duties. Since the company provides unlimited breakdown
+service at no cost to the courier, there is no reason for
+couriers to repair their own bikes.</para>
+</description>
+</lcIncentives>
+2.3.2 Внутренние факторы
+lcInternalFactor Описание: Элемент < > содержит сведения ο причинах
+потенциального или фактического низкого уровня производительности, которые
+напрямую связаны σ работником.
+lcInternalFactor Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0027-001-01
+lcInternalFactor Рис. 11 Элемент < >
+Атрибуты:
+id lcInternalFactor (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcKnowledge < > (O). См. 2.3.2.1. 
+lcCapacity < > (O). См. 2.3.2.2. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 51

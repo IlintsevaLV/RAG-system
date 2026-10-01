@@ -1,0 +1,48 @@
+2.4 Условный узел модуля
+dmIf Элемент < > предписывает
+"то" η "иначе", как это делает
+Markup Строка
+<variableDeclarations> 1.
+<variable 2.
+... 3.
+</variableDeclarations> 4.
+... 5.
+<dmIf><!--Remove/replace 6.
+<expression> 7.
+<expression> 8.
+<variableRef 9.
+</expression> 10.
+<stringOperator 11.
+<expression> 12.
+13.
+</expression> 14.
+</expression> 15.
+<dmThenSeq><!--Replace 16.
+<dmNode><!--Remove 17.
+<dmRef> 18.
+... 19.
+</dmRef> 20.
+</dmNode> 21.
+<dmNode><!--Repair 22.
+<dmRef> 23.
+... 24.
+</dmRef> 25.
+</dmNode> 26.
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+данных
+логическому ядру продолжать обработку по веткам
+программная конструкция "if".
+Таблица 5 Пример узла if
+name="BicyclePartnum" valueType="string"/>
+ brakes-->
+variableName="BicyclePartnum"/>
+ stringOperation="equal"/>
+<stringValue>MC-168119</stringValue>
+ side-pull brakes-->
+ side-pull brakes-->
+ side-pull brakes-->
+Σ1000Δ-Α-07-07-0200-00Α-040Α-Α
+Глава 7.7.2
+2013-11-15 Страница 6

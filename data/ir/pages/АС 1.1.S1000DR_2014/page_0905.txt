@@ -1,0 +1,68 @@
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+<task><taskDescr><simplePara>To
+bearings</simplePara></taskDescr></task>
+</taskItem>
+<taskItem taskSeqNumber="006"
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+<task><taskDescr><simplePara>To
+chain</simplePara></taskDescr></task>
+</taskItem>
+</taskGroup>
+</inspectionDefinition>
+</maintPlanning>
+3.4 Пример назначения
+<maintPlanning>
+<maintAllocation>
+<title>MAC for the
+<maintAllocationGroup>
+<groupNumber>01</groupNumber>
+<componentAssy>
+<name>ENGINE</name>
+</componentAssy>
+<maintQualifier>
+<maintFunction function="ft00"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml01"/>
+</maintLevelGroup>
+</maintQualifier>
+</maintAllocationGroup>
+<maintAllocationGroup>
+<groupNumber>0100</groupNumber>
+<componentAssyGroup>
+<componentAssy>
+<name>Engine Assembly</name>
+</componentAssy>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+ do α check of the headset
+ taskName="Carry out chain checks">
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+ do α check of the
+технического обслуживания
+Roller</title>
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 54

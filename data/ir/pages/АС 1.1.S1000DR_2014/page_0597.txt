@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+<colspec colname="col3"/>
+<colspec colname="col4"/>
+<colspec colname="col5"/>
+<thead>
+<row rowsep="1">
+==
+<entry colname="col2" colsep="0"><para>Maximum blend
+depth</para></entry>
+<entry colname="col3" colsep="0"><para>Maximum blend
+length</para></entry>
+<entry colname="col4" colsep="0"><para>Maximum blend
+width</para></entry>
+<entry colname="col5" colsep="0"><para>Maximum number of
+blends</para></entry>
+</row>
+</thead>
+<tbody>
+<row rowsep="o">
+<entry colsep="0"><para>0,60 mm</para></entry>
+<entry colsep="0"><para>10,00 mm</para>×/entry>
+<entry colsep="0"><para>10,00 mm</para></entry>
+<entry colsep="0"><para>Four</para>/entry>
+</row>
+<row rowsep="o">
+=
+<entry colsep="0"><para>0,10 mm</para></entry>
+<entry colsep="0"><para>Not applicable</para></entry>
+<entry colsep="0"><para>Not applicable</para></entry>
+=
+high metal only.</para>/entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+Β примере ниже показана разметка таблицы без оформления σ шириной по
+количеству столбцов.
+<table id="tab-0003">
+<tgroup cols="2">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+<tbody>
+<row rowsep="o">
+<entry colsep="0"><para>Α3460</para></entry>
+<entry colsep="0"><para>Avio</para>/entry>
+</row>
+<row rowsep="0">
+<entry colsep="0"><para>Δ3309</para></entry>
+<Axzua/><exed/>nlw<exed><0=dast0o Axzue>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Γ-040Α-Α
+Глава 3.9.5.2.1.6
+2013-11-15 Страница 19

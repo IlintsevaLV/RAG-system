@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+Определение слов до элементов ссылки η после них:
+dmRef pmRef externalPubRef Определение слов до элементов < >, < > η < > 
+η после них. Это важно, поскольку влияет на используемые таблицы стилей.
+Пример: Для одной реализации таблица стилей может автоматически
+формировать слова, например, "См. модуль данных:" при обнаружении элемента
+dmRef < >. Это приведет κ проблеме, если автор написал "См. " β параграфе
+dmRef перед элементом < >.
+Пример разметки:
+Β следующем примере показана ссылка на другой модуль данных без включения
+номера издания η названия.
+... Refer to
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="041" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+для функционального...
+Β следующем примере показана ссылка на модуль данных, включая номер издания
+η название.
+... as described in
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA3" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="041" infoCodeVariant="Α" itemLocationCode="Α"/>
+<issueInfo issueNumer="007" inWork="00"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Frame</techName>
+<infoName>Description of how it is made</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+...
+Β следующем примере показана ссылка на параграф β другом модуле данных без
+включения номера издания η названия.
+<proceduralStep>
+<para>Use the
+<internalRef internalRefId="seq-0002"
+internalRefTargetType="irtt05"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01C-040Α-Α
+Глава 3.9.5.2.1.2
+2013-11-15 Страница 34

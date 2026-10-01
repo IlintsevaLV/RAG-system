@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+descrShrinkSleeve Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+descrPartNumber < > (C), описание обозначения компонента. См. Разд. 2.5.6. 
+descrAltPartNumber < > (Μ), описание альтернативного обозначения 
+компонента. См. Разд. 2.6.1.
+descrManufacturerCode < > (O), описание кода изготовителя См. 
+Разд. 2.6.2.
+descrSize < > (O), описание сведений ο размере 
+descrMass < > (O), описание сведений ο массе. См. Разд. 2.8.1.1. 
+descrWireColor < > (O), описание сведений ο цвете. См. Разд. 2.5.13. 
+descrMinDiameter < > (O), описание минимального диаметра. См. 
+Разд. 2.8.4.1.
+descrMaxDiameter < > (O), описание минимального диаметра. См. 
+Разд. 2.8.4.2.
+descrMinTemperature < > (O), описание минимальной температуры. См. 
+Разд. 2.6.6.
+descrMaxTemperature < > (O), описание максимальной температуры. См. 
+Разд. 2.6.7.
+descrMinHarnessSize < > (O), описание минимального размера жгута 
+descrMaxHarnessSize < > (O), описание максимального размера жгута 
+descrFunctionalDescrRef < > (O), описание ссылки на функциональное 
+описание. См. Разд. 2.5.32.
+descrIllustrationRef < > (O), описание ссылки на иллюстрацию См. 
+Разд. 2.5.33.
+Пример разметки:
+minTemperature Β следующем примере показано определение элементов < > η
+maxTemperature < > β данных термоусадочной трубки. Ссылки не используются.
+<descrMinTemperature>
+<fieldName>Minimum ambient temperature</fieldName>
+<descr>The minimum ambient temperature indicates the minimum
+temperature, where application of the shrink sleeve is
+recommended.</descr>
+</descrMinTemperature>
+<descrMaxTemperature>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Π-040Α-Α
+Глава 3.9.5.2.9.13
+2013-11-15 Страница 40

@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+<footnoteRemarks><footnoteRef internalRefId=”ftn-
+0001”</footnoteRef></footnoteRemarks>
+</supportEquipDescr>
+<footnote id=”ftn-0001”><para>Make sure to use the good
+tool.</para></footnote>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+Пример 2 - Ссылка на CSN Показывает две необходимые единицы вспомогательного
+оборудования.
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="seq-0001">
+<name>Extractor, Left-handed, Puller</name>
+<catalogSeqNumberRef modelIdentCode=”E2” systemDiffCode=”Α”
+systemCode=”11” subSystemCode=”2” subSubSystemCode=”2”
+assyCode=”33” figureNumber=”01” item=”002” itemVariant=”Α”
+itemLocationCode=”Δ”/>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0002">
+<name>Extractor, Right-handed, Puller</name>
+<catalogSeqNumberRef modelIdentCode=”E2” systemDiffCode=”Α”
+systemCode=”11” subSystemCode=”2” subSubSystemCode=”2”
+assyCode=”33” figureNumber=”01” item=”001” itemLocationCode=”Δ”
+itemSeqNumberValue="00Α"/>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+Пример 3 - Номенклатурный номер НАТО показывает две необходимые единицы
+вспомогательного оборудования:
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="seq-0028">
+<name>Extractor, Δ-Puller, Left-hand</name>
+<natoStockNumber>4920991234567</natoStockNumber>
+<identNumber> <manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>JJ134252</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0312">
+<name>Extractor, Δ-Puller, Right-hand</name>
+<natoStockNumber>4290991234561</natoStockNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 55

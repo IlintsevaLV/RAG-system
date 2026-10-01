@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+<functionalItemRef functionalItemNumber="61UR"/>
+<contactInfo>
+<contact contactIdent="Α3"/>
+<wireConnectionCode>
+<electricalPotential>
+<blockGroupingValue>02</blockGroupingValue>
+<shuntGroupingValue>01</shuntGroupingValue>
+<contactOrderValue>103</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+</contactInfo>
+</fromEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+<wire wireState="notactiv">
+<wireIdent>
+<wireNumber>NC00002NA</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="61UR"/>
+<contactInfo>
+<contact contactIdent="Β3"/>
+<wireConnectionCode>
+<electricalPotential>
+<blockGroupingValue>03</blockGroupingValue>
+<shuntGroupingValue>01</shuntGroupingValue>
+<contactOrderValue>106</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+</contactInfo>
+</fromEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+</wireGroup>
+3.6 Группировка проводов
+Β следующем примере показана группировка четырех проводов, соединенных σ
+контактным зажимом σ идентификатором Τ5. Провода Ω-001 η Ω-002 подсоединены
+κ одной круглой клемме, провода Ω-003 η Ω-004 подсоединены κ другой круглой
+клемме. См. Рис. 9 Код группы "Α" присваивается проводам Ω-001 η Ω-002, код
+группы "Β" - проводам Ω-003 η Ω-004.
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 53

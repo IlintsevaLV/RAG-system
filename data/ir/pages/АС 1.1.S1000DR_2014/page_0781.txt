@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<proceduralStep><para>Soak the <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#seq-
+0003" internalRefId="seq-0003" internalRefTargetType="irtt05"/>
+into <internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0002" internalRefId="sup-0002"
+internalRefTargetType="irtt04"/> and
+water.</para></proceduralStep>
+<proceduralStep><para>Clean the bicycle with the soaked
+sponge.</para></proceduralStep>
+<proceduralStep><para>Flush the bicycle and make sure that all
+<internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0002" internalRefId="sup-0002"
+internalRefTargetType="irtt04"/> is
+removed.</para></proceduralStep>
+<proceduralStep><para>Move the bicycle up and down on its tires
+to remove all water.</para></proceduralStep>
+</proceduralStep>
+<proceduralStep applicRefId="apMK9"><para>Wash the Bike</para>
+<proceduralStep><para>Soak the <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#seq-
+0003" internalRefId="seq-0003" internalRefTargetType="irtt05"/>
+into <internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0003" internalRefId="sup-0003"
+internalRefTargetType="irtt04"/> and
+water.</para></proceduralStep>
+<proceduralStep><para>Clean the bicycle with the soaked
+sponge.</para></proceduralStep>
+<proceduralStep><para>Soak the <internalRef
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#seq-
+0003" internalRefId="seq-0003" internalRefTargetType="irtt05"/>
+into <internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0002" internalRefId="sup-0002"
+internalRefTargetType="irtt04"/> and
+water.</para></proceduralStep>
+<proceduralStep><para>Fully clean the bicycle with the soaked
+sponge.</para></proceduralStep>
+<proceduralStep><para>Flush the bicycle to make sure that all
+detergents are removed.</para></proceduralStep>
+<proceduralStep><para>Move the bicycle up and down on its tires
+to remove all water.</para></proceduralStep></proceduralStep>
+</proceduralStepAlts>
+<proceduralStep><para>Lubricate the bicycle (refer to <dmRef
+xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-
+DA4-10-00-00AA-241Α-Α"><dmRefIdent><dmCode
+modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA4" subSystemCode="1" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="241" infoCodeVariant="Α"
+itemLocationCode="Α"/></dmRefIdent></dmRef>).</para>
+Действительно: Все Σ1000Δ-Α-03-09-0502-03Α-040Α-Α
+Глава 3.9.5.2.3
+2013-11-15 Страница 17

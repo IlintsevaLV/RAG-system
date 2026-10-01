@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+модуля данных иллюстрированного каталога деталей, где атрибут id записи может
+csn-0001 иметь значение, например, " ".
+<catalogSeqNumberRef
+xlink:type="simple"
+xlink:actuate="onRequest"
+xlink:show="new"
+xlink:title="Part: XXXX"
+xlink:href="URN:Σ1000Δ:DMC-YY–Α–53–25–10–010–941Α–Δ# csn-0001"
+modelIdentCode="AE" systemDiffCode="Α" systemCode="53"
+subSystemCode="2" subSubSystemCode="5" assyCode="10"
+figureNumber="01" itemLocationCode="Δ" item="001"
+itemSeqNumberValue="00Α"/>
+Пример преобразования отображения позиции β каталоге β HTML:
+<α href = "JavaScript:openwindow('AE–Α–53–25–10–010–941Α–
+Δ.XML#csn-0001')">001</α>
+2.4 Ссылка на графику
+infoEntityIdent URN ссылки на графику необходимо создавать из атрибута
+graphic элемента < >.
+<figure id="fig001">
+<title>LH multifunction head down display</title>
+<graphic
+xlink:type="simple"
+xlink:actuate="onRequest"
+xlink:show="new"
+xlink:href="URN:Σ1000Δ:ICN-1Β-Β-311501-Β-K0999-00352-Α-001-01"
+infoEntityIdent="ICN-1Β-Β-311501-Β-K0999-00352-Α-001-01">
+</graphic>
+</figure>
+Пример преобразования вида информационного контрольного номера β HTML:
+<α href="ICN-1Β-Β-311501-Β-K0999-00352-Α-001-01.CGM"
+target="_blank">ICN-1Β-Β-311501-Β-K0999-00352-Α-001-01</α>
+2.5 Ссылка на условное обозначение
+URN ссылки на условное обозначение необходимо создавать из атрибута
+infoEntityIdent symbol элемента < >.
+<symbol
+xlink:type="simple"
+xlink:actuate="onLoad"
+xlink:show="embed"
+xlink:href="URN:Σ1000Δ:ICN-AE-Α-316200-0-F0214-00352-Α-001-01"
+infoEntityIdent="ICN-AE-Α-316200-0-F0214-00352-Α-001-01"/>
+Пример преобразования вида информационного контрольного номера β HTML:
+Действительно: Все Σ1000Δ-Α-07-07-0400-00Α-040Α-Α
+Глава 7.7.4
+2013-11-15 Страница 4

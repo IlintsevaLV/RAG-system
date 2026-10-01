@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+<title>Ring, Bearing Inner (No. 1) - Repair Data</title>
+<tgroup cols="5">
+<colspec colname="col1" colwidth="1*"/>
+<colspec colname="col2" colwidth="1*"/>
+<colspec colname="col3" colwidth="1*"/>
+<colspec colname="col4" colwidth="1*"/>
+<colspec colname="col5"/>
+<thead>
+<row rowsep="1">
+<entry><para>Area</para></entry>
+<entry><para>Maximum blend depth</para></entry>
+<entry><para>Maximum blend length</para></entry>
+<entry><para>Maximum blend width</para></entry>
+<entry><para>Maximum number of blends</para></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><para>All areas (unless specified differently)
+</para></entry>
+<entry><para>None</para></entry>
+<entry><para>None</para></entry>
+<entry><para>None</para></entry>
+<entry colsep="0"><para>Blends are not permitted</para></entry>
+</row>
+<row rowsep="0">
+<entry><para>Α1</para></entry>
+<entry><para>0,60 mm</para></entry>
+<entry><para>10,00 mm</para></entry>
+<entry><para>10,00 mm</para></entry>
+<entry><para>Four</para></entry>
+</row>
+<row rowsep="0">
+<entry><para>Α2</para></entry>
+<entry><para>1,00 mm</para></entry>
+<entry colsep="0"><para>25,00 mm</para></entry>
+<entry><para>17,00 mm</para></entry>
+<entry><para>Six</para></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+Β примере ниже показана разметка таблицы σ оформлением σ шириной по
+отображаемой области.
+<table frame="topbot" pgwide="1" id="tab-0002">
+<title>Ring, Bearing Inner (No. 1) - Repair Data</title>
+<tgroup cols="5">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Γ-040Α-Α
+Глава 3.9.5.2.1.6
+2013-11-15 Страница 18

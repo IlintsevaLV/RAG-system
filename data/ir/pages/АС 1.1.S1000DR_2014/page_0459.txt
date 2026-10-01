@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+Решение ο подходящей области действия инструкцию по уничтожению, которые 
+применяются κ модулю данных.
+Пример разметки:
+<dataDestruction>Users may destroy this data module in
+accordance with their own local procedures.</dataDestruction>
+2.2.4.1.5 Раскрытие данных
+dataDisclosure Описание. Элемент < > содержит любые особые инструкции,
+касающиеся раскрытия содержимого модуля данных.
+dataDisclosure Элемент разметки: < > (O)
+Атрибуты:
+id dataDisclosure (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00062 -
+dataDisclosure Использование элемента < > :
+Решение ο требованиях, применяемых κ модулю данных, β связи σ инструкциями 
+по раскрытию данных.
+Пример разметки:
+<dataDisclosure>There are no dissemination limitations that
+apply to this data module.</dataDisclosure>
+2.2.4.1.6 Замена
+supersedure Описание. Элемент < > содержит уведомление ο том, что модуль
+данных заменяет другие модули данных.
+supersedure Элемент разметки: < > (C)
+Атрибуты:
+id supersedure (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+ securityClassification commercialClassification (O), (O) η 
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 26

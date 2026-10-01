@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты:
+id enterpriseRepository (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+authorityName authorityDocument (O) η (O) используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+enterpriseIdent < > (Μ). См. Разд. 2.2 
+enterpriseIdentAlt < > (O). См. Разд. 2.3 
+enterpriseName < > (Μ). См. Разд. 2.4 
+shortName < > (O). См. Глава 3.9.5.2.1.10 . 
+businessUnit < > (O). См. Разд. 2.5 
+enterpriseRef < > (O). См. Разд. 2.6 
+refs < > (O). Ссылки должны заполняться β соответствии σ положениями Глава 
+3.9.5.2.1.2 .
+Пример разметки:
+<enterpriseSpec id="C001">
+...
+</enterpriseSpec>
+2.2 Обозначение организации
+enterpriseIdent Описание. Элемент < > идентифицирует организацию σ
+помощью CAGE-кода.
+enterpriseIdent Элемент разметки: < > (C)
+Атрибуты:
+manufacturerCodeValue (Μ), содержит CAGE-код организации. 
+id enterpriseIdent (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+Действительно: Все Σ1000Δ-Α-03-09-0502-11Γ-040Α-Α
+Глава 3.9.5.2.11.6
+2013-11-15 Страница 4

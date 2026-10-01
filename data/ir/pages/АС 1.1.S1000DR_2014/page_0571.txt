@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+ICN-AE-Α-030905-0-U8025-00084-Α-02-1
+captionGroup Рис. 2 Параметры форматирования < >
+captionEntry Четыре ячейки таблицы σ элементами < > на Рис. 2
+отформатированы согласно Табл. 2. Светло-синие границы ячеек просто показывают
+captionEntry контур каждого элемента < >, но на выходе их не видно.
+captionGroup Таблица 2 Параметры форматирования < >
+captionEntr Настройки атрибутов форматирования <
+υ >
+<captionEntry colname="col1"> 1
+<caption captionWidth="30mm" captionHeight="10mm"
+color="co04">
+<captionLine>CAPTION LINE</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col1"> 2
+<caption captionWidth="30mm" captionHeight="30mm"
+color="co03">
+<captionLine>CAPTION LINE</captionLine>
+<captionLine>CAPTION LINE</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2" align="right"> 3
+<caption captionWidth="25mm" captionHeight="10mm"
+color="co04"
+align="right">
+<captionLine>CAPTION LINE</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2" valign="middle" 4
+colsep="1"
+rowsep="1">
+Действительно: Все Σ1000Δ-Α-03-09-0502-01E-040Α-Α
+Глава 3.9.5.2.1.4
+2013-11-15 Страница 10

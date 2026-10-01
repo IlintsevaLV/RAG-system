@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+type="pictureVisibilityAttType"/>
+<xs:simpleType name="pictureVisibilityAttType">
+<xs:restriction base="xs:NMTOKEN">
+<xs:enumeration value="off"/>
+<xs:enumeration value="on"/>
+</xs:restriction>
+</xs:simpleType>
+Содержимое, указанное β данной структуре, получается из элемента Σ1000Δ
+graphic < >. Β Табл. 5 приводится соответствие.
+graphic Таблица 5 Элемент < > η его соответствие во вспомогательном XML-
+файле
+graphic Элемент вспомогательного Элемент Σ1000Δ < >
+webcgm ХМL-файла < >
+infoEntityIdent id Атрибут Атрибут
+filename Системный идентификатор, связанный σ сущностью, Атрибут
+infoEntityIdent указанной β атрибуте
+ background-color Атрибут может использоваться внешним приложением для
+переопределения фонового цвета, заданного β СGМ-файле во время выполнения.
+%styleProperties Сущность содержит следующие определения атрибутов стиля
+для динамического отображения:
+<xs:attributeGroup name="stylePropertiesAttGroup">
+<xs:attribute ref="text-size"/>
+<xs:attribute ref="fill-color"/>
+<xs:attribute ref="intensity"/>
+<xs:attribute ref="stroke-color"/>
+<xs:attribute ref="stroke-weight"/>
+<xs:attribute ref="text-color"/>
+<xs:attribute ref="text-font"/>
+<xs:attribute ref="raster-intensity"/>
+</xs:attributeGroup>
+<xs:attribute name="text-size" type="xs:string"/>
+<xs:attribute name="fill-color" type="xs:string"/>
+<xs:attribute name="intensity" type="xs:string"/>
+<xs:attribute name="stroke-color" type="xs:string"/>
+<xs:attribute name="stroke-weight" type="xs:string"/>
+<xs:attribute name="text-color" type="xs:string"/>
+<xs:attribute name="text-font" type="xs:string"/>
+<xs:attribute name="raster-intensity" type="xs:string"/>
+Дополнительные сведения см. β спецификации WebCGM 2.0.
+2.3.4.2.2 Структура grobject
+Второй структурой вспомогательного ХМL-файла Σ1000Δ является grobject. Ниже
+приводится фрагмент схемы:
+<xs:element name="grobject" type="grobjectType"/>
+Действительно: Все Σ1000Δ-Α-07-03-0200-00Α-040Α-Α
+Глава 7.3.2
+2013-11-15 Страница 13

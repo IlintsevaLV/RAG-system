@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+2.4.1.3 Личное развитие
+lcPersonalDevelopment Описание: Элемент < > содержит технические данные,
+описывающие действия, операции η пр., которые должны предприниматься
+отдельными лицами для повышения эффективности выполнения рабочих задач.
+lcPersonalDevelopment Элемент разметки: < > (O)
+Атрибуты:
+id lcPersonalDevelopment (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcPersonalDevelopment>
+<description>
+<para>Bike couriers that are failing to meet the defined time
+limit for any repair task listed in their manual will be
+required to practice those tasks twice per week. They will be
+assigned α mentor while performing the tasks. When they
+demonstrate that they can perform the repairs within the time
+limit, they will no longer be required to perform these task
+rehearsals.</para>
+</description>
+</lcPersonalDevelopment>
+2.4.1.4 Развитие кадровых ресурсов
+lcHumanResourceDevelopment Описание: Элемент < > содержит технические
+данные, описывающие воздействие, связанное σ кадровыми ресурсами, которое
+ориентировано на создание или изменение процессов набора кадров.
+lcHumanResourceDevelopment Элемент разметки: < > (O)
+Атрибуты:
+id lcHumanResourceDevelopment (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 68

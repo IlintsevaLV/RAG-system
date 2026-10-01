@@ -1,0 +1,58 @@
+Нет 
+Дочерние элементы:
+applicCrossRefTableRef <
+используемые β рамках проекта.
+productDefinitionRelationships < 
+Пример разметки:
+<applicCrossRefTableCatalog>
+<applicCrossRefTableRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="00Ω" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</applicCrossRefTableRef>
+<applicCrossRefTableRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="BRAKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="00Ω" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</applicCrossRefTableRef>
+<productDefinitionRelationShip>
+…
+</productDefinitionRelationShip>
+</applicCrossRefTableCatalog>
+Product definition
+Описание. Элемент <
+установления взаимосвязей между
+атрибута объекта или условиями,
+Элемент разметки: <
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+> (Μ), различные модули данных АСТ,
+См. Глава 3.9.5.1 .
+> (Μ). См. Разд. 2.2.
+ systemDiffCode="AAA"
+subSystemCode="0" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Δ"/>
+ systemDiffCode="AAA"
+subSystemCode="0" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Δ"/>
+relationships
+productDefinitionRelationship > предназначен для
+ двумя или более атрибутами объекта, значениями
+ взятыми из различных наборов ACT/CCT.
+productDefinitionRelationship > (O)
+Σ1000Δ-Α-03-09-0503-04Α-040Α-Α
+Глава 3.9.5.3.4
+2013-11-15 Страница 3

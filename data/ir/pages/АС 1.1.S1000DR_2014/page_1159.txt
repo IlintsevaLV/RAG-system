@@ -1,0 +1,36 @@
+S1000DR-UACRU-01000-00
+Дочерние элементы:
+descrCircuitIdent < > (O), описание кода цепи 
+descrWireNumber < > (C), описание обозначения провода 
+descrSectionIdent < > (O), описание обозначения секции 
+descrWireType < > (O), описание типа провода 
+descrWireGauge < > (O), описание сортамента провода 
+descrPartNumber < > (M), описание обозначения детали 
+descrHarnessIdent < > (O), описание обозначения жгута 
+descrWireSeqNumber < > (M), описание последовательного номера провода 
+descrWireInfoCircuitIdent < > (O), описание кода цепи для провода 
+descrWireInfoSectionIdent < > (O), описание обозначения секции для 
+провода
+descrEmcCode < > (O), описание кода электромагнитной совместимости (EMC) 
+descrLength < > (O), описание длины 
+descrWireColor < > (O), описание цвета 
+descrTwist < > (O), описание скрутки 
+descrCoaxialCableFlag < > (O), описание сведений о коаксиальном кабеле 
+descrTriaxialCableFlag < > (O), описание сведений о коаксиальном 
+трехжильном кабеле
+descrSignalInfo < > (O), описание сигнала 
+descrFunctionalItemRef < > (O), описание функционального элемента 
+(также называется позиционным обозначением)
+descrContact < > (O), описание контакта 
+descrWireConnectionCode < > (O), описание кода проводного соединения 
+descrNetworkAnalysisCode < > (O), описание кода анализа сети 
+descrGroupCode < > (O), описание кода группы 
+descrScreen < > (O), описание сведений об экранировании 
+descrPreparationInfo < > (O), описание сведений о подготовке 
+descrFinishingInfo < > (O), описание сведений о финишной обработке 
+descrResponsiblePartnerCompany < > (O), описание сведений об 
+ответственной компании-контрагенте
+descrRouting < > (O), описание прокладки соединений 
+Действительно: Все S1000D-A-03-09-0502-09P-040A-A
+Глава 3.9.5.2.9.13
+2013-11-15 Страница 8

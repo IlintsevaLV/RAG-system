@@ -1,0 +1,38 @@
+S1000DR-UACRU-01000-00
+id manufacturerCode (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания об изменениях. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+2.2.1.1.2 Обозначение изделия
+partNumber Описание. Элемент < > содержит обозначение изделия, присвоенное
+разработчиком оборудования.
+partNumber Элемент разметки: < > (M)
+Атрибуты:
+id partNumber (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания об изменениях. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+2.2.1.2 Номенклатурный номер НАТО для предмета снабжения
+natoStockNumber Описание. Элемент < > содержит номенклатурный номер НАТО
+для идентификации предмета снабжения (SID).
+natoStockNumber Элемент разметки: < > (O)
+Атрибуты:
+id natoStockNumber (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания об изменениях. См. Глава 3.9.5.2.1.1 .
+natoSupplyClass (O), класс предмета снабжения НАТО (NSC) 
+natoCodificationBureau (O), первые две цифры идентификационного 
+номера НАТО (NIIN) в формате Национального бюро по кодификации (NCB)
+natoItemIdentNumberCore (O), цифры номера NIIN с третьей по девятую 
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+Действительно: Все S1000D-A-03-09-0502-07A-040A-A
+Глава 3.9.5.2.7
+2013-11-15 Страница 9

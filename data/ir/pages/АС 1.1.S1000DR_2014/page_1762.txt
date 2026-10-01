@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты:
+id (O), идентификатор сведений ο цене. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+noInfo < > (Μ). См. Глава 3.9.5.2.15 . 
+quantity < > (O). Количество дней или месяцев, необходимых для получения 
+материала. См. Глава 3.9.5.2.1.10 .
+footnoteRemarks < > (O). См. Глава 3.9.5.2.1.9 . 
+Пример разметки:
+<sbAvailability>
+<quantity>
+<quantityGroup>
+<quantityValue quantityUnitOfMeasure="δ">3</quantityValue>
+</quantityGroup>
+</quantity>
+</sbAvailability>
+Примечание
+quantityUnitOfMeasure δ =" " определяется как "сутки".
+2.1.1.1.3 Адреса закупки
+sbProcurementAddress Описание. Элемент < > содержит сведения ο том, где
+покупать материал.
+sbProcurementAddress Элемент разметки: < > (O)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00044-Α-001-01
+sbProcurementAddress Рис. 7 Элемент < >
+Атрибуты:
+id (O), идентификатор сведений ο цене. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 11

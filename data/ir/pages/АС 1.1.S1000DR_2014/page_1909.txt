@@ -1,0 +1,24 @@
+Σ1000DR-UACRU-01000-00
+applicPropertyType="prodattr" applicPropertyValue="Mk9"/>
+<assign applicPropertyIdent="versrank"
+applicPropertyType="prodattr" applicPropertyValue="1"/>
+<assign applicPropertyIdent="SB-Σ001"
+applicPropertyType="condition" applicPropertyValue="Post"/>
+</product>
+<product>
+<assign applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValue="1Β070701"/>
+<assign applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValue="Mountain
+storm"/>
+<assign applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValue="Mk1"/>
+<assign applicPropertyIdent="versrank"
+applicPropertyType="prodattr" applicPropertyValue="1"/>
+<assign applicPropertyIdent="SB-Σ001"
+applicPropertyType="condition" applicPropertyValue="Pre"/>
+</product>
+</productCrossRefTable>
+Действительно: Все Σ1000Δ-Α-03-09-0503-03Α-040Α-Α
+Конец модуля данных Глава 3.9.5.3.3
+2013-11-15 Страница 5

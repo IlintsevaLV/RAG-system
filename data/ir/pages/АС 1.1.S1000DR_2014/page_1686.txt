@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+lcFeedbackItemGroup < > (O). См. Разд. 2.4.1.4. 
+Пример разметки:
+<lcCompletion>
+<lcQuestion>
+<description>
+<para>Type the answer that best completes the statement in the
+text box, and then click CHECK.</para>
+<para>The stem attaches the______________ to the
+handlebar.</para>
+</description>
+</lcQuestion>
+<lcAnswerOptionGroup>
+<lcAnswerOption
+<lcAnswerOptionContent>
+<description>
+<para>headset</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse />
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+<lcCompletion>
+2.4.8 Перетаскивание
+lcDragAndDrop Описание. Элемент < > содержит оценочные взаимодействия σ
+перетаскиванием. При взаимодействиях σ перетаскиванием проходящему оценку
+предлагают перетащить мышью соответствующие пункты на определенные
+встроенные целевые области. Ответ оценивается на основании модели содержимого
+таблицы соответствия.
+Примечание
+lcHotspot Как η во взаимодействии < >, во взаимодействии
+lcDragAndDrop < > для сопоставления пунктов ответа используется элемент
+lcMatchTable lcDragAndDrop < >. Элемент < > позволяет пользователю
+выполнить взаимодействие путем выбора объекта мышью η перетаскивания его
+на определенные интерактивные целевые области. Во взаимодействии σ
+lcItem перетаскиванием используются согласованные пары элементов < > η
+lcMatchingItem lcMatchTable < >, расположенных внутри элемента < >.
+Пары из двух соответствующих пунктов позволяют определять правильность
+попытки ответа.
+lcDragAndDrop Элемент разметки: < > (O)
+Атрибуты:
+id lcHotspot (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 43

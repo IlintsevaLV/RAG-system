@@ -1,0 +1,57 @@
+<sbPriceInfo>
+<quantity
+</quantity>
+</sbPriceInfo>
+<sbAvailability>
+<quantity>
+<quantityGroup>
+<quantityValue
+</quantityGroup>
+</quantity>
+<footnoteRemarks>
+<simplePara>after purchase
+</footnoteRemarks>
+</sbAvailability>
+<sbProcurementAddress>
+<enterpriseRef
+<name>World-Bike</name>
+<businessUnit>
+<businessUnitName>Customer
+<businessUnitAddress>
+<street>100, Bike
+<city>London</city>
+<country>UK</country>
+</businessUnitAddress>
+</businessUnit>
+</enterpriseRef>
+</sbProcurementAddress>
+</sbProcurementInfo>
+</sbIndividualSpare>
+2.4.3 Внешняя запасная деталь
+Описание. Элемент <
+документацию, относящуюся κ
+сервисного бюллетеня.
+Элемент разметки: <
+Рис. 23 Элемент <
+Атрибуты:
+Атрибуты η правила выполнения 
+sbMaterialSet < >. См.
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+quantityType="qty02"quantityTypeSpecifics="USD">100
+quantityUnitOfMeasure="δ">3</quantityValue>
+ order reception</simplePara>
+manufacturerCodeValue="KZ666">
+ Support</businessUnitName>
+Street</street>
+sbExternalSpareSet > содержит ссылки на внешнюю
+запасным деталям, необходимым для выполнения
+sbExternalSpareSet > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00060-Α-001-01
+sbExternalSpareSet >
+ проекта такие же, как η для элемента
+Разд. 2.1.1.
+Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 30

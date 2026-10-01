@@ -1,0 +1,68 @@
+Таблица 7 Соответствие элементов
+Текстовый Наименование Μ/O
+идентифика элемента данных
+тор
+элемента
+CMK Признак O
+необходимости
+калибровки
+CSN Позиция β каталоге Μ
+CTL Расположение O
+контейнера категории
+1
+DFL Описание O
+расположения
+DFP Описание детали Μ
+EFY Применяемость O
+FTC Код готовности O
+ICN Информационный O
+контрольный номер
+ICY Взаимозаменяемость O
+ILS Код проекта ИЛП O
+IND Величина отступа (β Μ
+графе каталога),
+соответствующая
+уровню иерархии β
+структуре изделия
+IPP Код проекта начальной Μ
+поставки
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+данных ο деталях (Σ2000Μ – Σ1000Δ) (Продолжение)
+Элемент/атрибут схемы
+</changeAuthority>
+</changeAuthorityData>
+<calibrationMarker>...
+</calibrationMarker>
+<catalogSeqNumber systemCode="..."
+subSystemCode="..."
+subSubSystemCode="..." assyCode="..."
+figureNumber="..."
+figureNumberVariant="..." item="..."
+itemVariant="...">
+<categoryOneContainerLocation
+modelIdentCode="..."
+systemDiffCode="..."
+systemCode="..." subSystemCode="..."
+subSubSystemCode="..." assyCode="..."
+figureNumber="..."
+figureNumberVariant="..."
+itemLocationCode="Δ" item="..."
+itemVariant="..."
+itemSeqNumberValue="...">
+<descrForLocation>...
+</descrForLocation>
+<descrForPart>...</descrForPart>
+<effectivity>...</effectivity>
+<fitmentCode fitmentCodeValue="...">
+<graphic infoEntityIdent="ICN-...">
+<interchangeability>...
+</interchangeability>
+<ilsNumber>...</ilsNumber>
+<catalogSeqNumber indenture="...">
+<initialProvisioningProject
+initialProvisioningProjectNumber=
+Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 58

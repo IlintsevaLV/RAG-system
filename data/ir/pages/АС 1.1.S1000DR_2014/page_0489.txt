@@ -1,0 +1,26 @@
+Σ1000DR-UACRU-01000-00
+</exportRegistrationCode>
+3 Пример
+Β следующем примере представлено заявление экспортного контроля:
+<exportControl exportRegulationType="EAR">
+<exportRegistrationStmt exportRole="partial"> This information
+contains technology controlled under EAR. Transfer of this data
+to α Foreign Person without Export approval is expressly
+prohibited.</exportRegistrationStmt>
+<exportRegistrationStmt exportRole="full">Export of this
+technology is controlled under the United States Export
+Administration Regulations (EAR) (15 CFR 730-774). An export
+license may be required before it is used for development,
+production or use by foreign persons from specific countries.
+The controller of this data has the individual responsibility to
+abide by all export laws.</exportRegistrationStmt>
+<exportRegistrationCode
+exportRegulationCodeType="ECCN">1E001</exportRegistrationCode>
+<exportRegistrationCode
+exportRegulationCodeType="ECCN">5Α101</exportRegistrationCode>
+<exportRegistrationCode
+exportRegulationCodeType="ECCN">9Α991</exportRegistrationCode>
+</exportControl>
+Действительно: Все Σ1000Δ-Α-03-09-0501-01Α-040Α-Α
+Конец модуля данных Глава 3.9.5.1.1
+2013-11-15 Страница 4

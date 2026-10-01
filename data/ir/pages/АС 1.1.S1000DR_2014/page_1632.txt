@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+описывается короткое занятие, являющееся частью примера обучения, связанного σ
+велосипедом.
+<learning>
+<learningOverview>
+<title>Overview: Getting to Know Your Bike</title>
+<lcAudience>
+<description>
+<para>The intended audience are bike couriers.</para>
+</description>
+<lcEntryBehavior>
+<description>
+<para>Newly hired bike couriers do not necessarily have the
+skills required to maintain their bikes. Currently employed
+couriers may require refresher training on bike
+maintenance.</para>
+</description>
+</lcEntryBehavior>
+</lcAudience>
+<lcDuration>
+<title>Duration</title>
+<lcTime>
+<description>
+<para>It should take no more than 1 hour and 30 minutes to
+complete this course.</para>
+</description>
+</lcTime>
+</lcDuration>
+<lcResources>
+<description>
+<para>Bike technical data</para>
+</description>
+</lcResources>
+<lcSection>
+<description>
+<figure>
+<title/>
+<graphic infoEntityIdent = "ICN-Σ1000DBIKE-AAA-Δ000000-Α-06RT9-
+00149-Α-001-01"/>
+</figure>
+</description>
+</lcSection>
+</learningOverview>
+</learning>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13C-040Α-Α
+Конец модуля данных Глава 3.9.5.2.13.2
+2013-11-15 Страница 8

@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+2.3.1.6.2 Модель объекта
+productModel Описание. Элемент < > содержит название модели η его
+идентификаторы.
+Атрибуты:
+Нет 
+Дочерние элементы:
+modelName < > (C). См. Разд. 2.3.1.6.3. 
+natoStockNumber < > (O). См. Разд. 2.3.1.6.4. 
+identNumber < > (O). См. Разд. 2.3.1.6.5. 
+endItemCode < > (O). См. Разд. 2.3.1.6.6. 
+Пример разметки:
+<productModel>
+<modelName><name>Mk I</name></modelName>
+<natoStockNumber>6240-00-027-2059</natoStockNumber>
+<identNumber>
+<manufacturerCode>00000</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>Π/N 19283746</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<endItemCode>99Α</endItemCode>
+</productModel>
+<productModel>
+<modelName><name>Mk I De Luxe</name></modelName>
+<natoStockNumber>6240-00-027-2063</natoStockNumber>
+<identNumber>
+<manufacturerCode>00000</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>Π/N 91827364</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<endItemCode>99Β</endItemCode>
+</productModel>
+2.3.1.6.3 Название модели
+modelName Описание. Элемент << >> содержит название модели продукта,
+задокументированного β публикации.
+modelName Элемент разметки: << >> (C)
+Атрибуты:
+Нет 
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-16Α-040Α-Α
+Глава 3.9.5.2.16
+2013-11-15 Страница 14

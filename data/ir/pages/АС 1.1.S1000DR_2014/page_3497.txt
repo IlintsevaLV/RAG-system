@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+Объявление атрибута объекта из ACT:
+<productAttribute id="serialno" productIdentifier="primary">
+<name>Serial number</name>
+<displayName>Serial number (SN):</displayName>
+<descr>Serial number etched on the bicycle frame</descr>
+</productAttribute>
+Формат, предназначенный для человека:
+"Serial number (SN): 1Β070643-1Β070799"
+3.3.1.5 Комментарий-утверждение σ комбинацией значений η диапазонов
+Комментарий-утверждение:
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+applicPropertyValues="1Β070640|1Β070642~1Β070720|1Β070722|1Β0707
+30~1Β070799"/>
+Объявление атрибута объекта из ACT:
+<productAttribute id="serialno">
+<name>Serial number</name>
+<displayName>SN</displayName>
+<descr>Serial number etched on the bicycle frame</descr>
+</productAttribute>
+Формат, предназначенный для человека:
+"SN: 1Β070640 or 1Β070642-1Β070720 or 1Β070722 or 1Β070730-
+1Β070799"
+3.3.2 Преобразование комментариев вычисления
+3.3.2.1 Логическая операция "И" σ единственным вычислением
+Комментарий вычисления:
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk9"/>
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+applicPropertyValues="1Β070643~1Β070799"/>
+</evaluate>
+Формат, предназначенный для человека:
+"Model: Brook trekker Version: Mk9 SN: 1Β070643-1Β070799"
+Действительно: Все Σ1000Δ-Α-07-08-0000-00Α-040Α-Α
+Глава 7.8
+2013-11-15 Страница 15

@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+<dialog submitCaption="ok01" cancelCaption="ca01"> 1
+<title>Ordering tire</title> 2
+<dialogGroup dialogSeparator="0"> 3
+<title>Tire size</title> 4
+<menu choiceType="pulldown" menuChoiceFlow="list" 5
+choiceSelection="single" mandatory="1">
+<menuChoice menuChoiceDefaultFlag="1"> 6
+<prompt><paraBasic>ISO (ETRTO)</paraBasic></prompt> 7
+<assertion> 8
+<variableRef variableName="TireSizeMethod"/> 9
+<expression> 10
+<stringValue>iso</stringValue> 11
+</expression> 12
+</assertion> 13
+</menuChoice> 14
+<menuChoice menuChoiceDefaultFlag="0"> 15
+<prompt><paraBasic>Fractional</paraBasic></prompt> 16
+<assertion> 17
+<variableRef variableName="TireSizeMethod"/> 18
+<expression> 19
+<stringValue>fractional</stringValue> 20
+</expression> 21
+</assertion> 22
+</menuChoice> 23
+<menuChoice menuChoiceDefaultFlag="0"> 24
+<prompt><paraBasic>Decimal</paraBasic></prompt> 25
+<assertion> 26
+<variableRef variableName="TireSizeMethod"/> 27
+<expression> 28
+<stringValue>decimal</stringValue> 29
+</expression> 30
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 41

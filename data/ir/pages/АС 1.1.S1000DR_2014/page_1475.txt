@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+id cautionIdent (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+cautionIdentNumber (Μ), идентификатор предостережения. 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<cautionIdent cautionIdentNumber="0-0204504-1"/>
+3 Пример
+Β следующем примере показаны два предостережения, хранящиеся β модуле данных
+CIR предостережений.
+<content>
+<commonRepository>
+<cautionRepository>
+<cautionSpec id="caut-00001">
+<cautionIdent cautionIdentNumber="0-0204504-1"/>
+<warningAndCautionPara>Do not touch the glass of the
+bulb.</warningAndCautionPara>
+</cautionSpec>
+<cautionSpec id="caut-00002">
+<cautionIdent cautionIdentNumber="0008037-802"/>
+<warningAndCautionPara>Make sure that the glass is clean before
+installing it on the light.</warningAndCautionPara>
+</cautionSpec>
+…
+</cautionRepository>
+</commonRepository>
+</content>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11R-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.14
+2013-11-15 Страница 4

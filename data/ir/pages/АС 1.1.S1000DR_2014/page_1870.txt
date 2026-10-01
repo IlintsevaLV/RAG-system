@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+Β данном примере атрибут объекта является также первичным идентификатором, см.
+β Глава 3.9.5.3.1 более подробные сведения об атрибуте "productIdentifier".
+<productAttribute id="serialno" productIdentifier="primary">
+<name>Serial number</name>
+<displayName>SN</displayName>
+<descr>Serial number etched on the frame</descr>
+</productAttribute>
+serialno id Технический разработчик отмечает значение " " атрибута , необходимое
+для создания комментария по применимости. Атрибут объекта, представляющий
+Σ001 сервисный бюллетень " ", не найден, поэтому следующим действием
+технический разработчик должен обратиться κ модулю данных ССТ, чтобы найти
+Σ001 условие, представляющее сервисный бюллетень " ". Расположение упомянутого
+модуля данных ССТ можно определить β содержательной части модуля данных АСТ
+condCrossRefTableRef β элементе < >.
+<condCrossRefTableRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Q" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef>
+</condCrossRefTableRef>
+Внутри модуля данных ССТ технический разработчик находит условия (элемент
+cond Σ001 < >), представляющие сервисный бюллетень " ". Сведения, необходимые
+name для принятия этого решения, содержатся β дочернем элементе < > η элементе
+descr < >. Внутри модуля данных ССТ объявлено следующее условие для
+Σ001 сервисного бюллетеня " ":
+<cond condTypeRefId="SB" id="SB-Σ001">
+<name>Service bulletin Σ001 - Chain guard</name>
+<descr>Service bulletin Σ001 for the installation of the chain
+guard</descr>
+</cond>
+SB-Σ001 id Технический разработчик отмечает значение " " атрибута , необходимое
+для создания комментария по применимости.
+Комментарий по применимости теперь может быть создан при помощи атрибута
+объекта η идентификаторов условия из модулей данных АСТ η ССТ, α также
+известных контрольных значений. Следующий комментарий по применимости
+referencedApplicGroup добавляется β элемент статусной части < > модуля
+данных технического обслуживания:
+<referencedApplicGroup>
+...
+<applic id="appl-006">
+Действительно: Все Σ1000Δ-Α-03-09-0503-00Α-040Α-Α
+Глава 3.9.5.3
+2013-11-15 Страница 18

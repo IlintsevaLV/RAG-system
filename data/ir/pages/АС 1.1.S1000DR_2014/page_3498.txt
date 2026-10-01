@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+3.3.2.2 Логическая операция "ИЛИ" σ единственным вычислением
+Комментарий вычисления:
+<evaluate andOr="or">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Mountain
+storm"/>
+</evaluate>
+Формат, предназначенный для человека:
+"Model: Brook trekker or Model: Mountain storm"
+3.3.2.3 Комбинированные логические операции σ несколькими вычислениями
+Комментарий вычисления:
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<evaluate andOr="or">
+<evaluate andOr="and">
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+applicPropertyValues="1Β070643~1Β070720"/>
+<assert applicPropertyIdent="SB-Σ001"
+applicPropertyType="condition" applicPropertyValues="Post"/>
+</evaluate>
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+applicPropertyValues="1Β070721~1Β070799"/>
+</evaluate>
+</evaluate>
+Формат, предназначенный для человека:
+"Model: Brook trekker ((SN: 1Β070643-1Β070720 Service
+Bulletin (SB) Σ001: Post) or SN: 1Β070721-1Β070799)"
+3.3.3 Использование класса отображения
+Ниже приведен пример, иллюстрирующий возможный вариант кодирования β
+гражданской авиации комментария по применимости σ помощью атрибута
+applicDisplayClass :
+<applic>
+<evaluate andOr="or">
+<assert applicPropertyType="prodattr"
+applicPropertyIdent="serialno"
+Действительно: Все Σ1000Δ-Α-07-08-0000-00Α-040Α-Α
+Глава 7.8
+2013-11-15 Страница 16

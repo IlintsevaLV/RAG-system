@@ -1,0 +1,28 @@
+Σ1000DR-UACRU-01000-00
+</assertion> 21
+</menuChoice> 22
+<menuChoice menuChoiceDefaultFlag="0"> 23
+<enabledState> 24
+<expression> 25
+<expression> 26
+<variableRef variableName="Environment"/> 27
+</expression> 28
+<stringOperator stringOperation="equal"/> 29
+<expression> 30
+<stringValue>night</stringValue> 31
+</expression> 32
+</expression> 33
+</enabledState> 34
+<prompt><paraBasic>Headlight</paraBasic></prompt> 35
+<assertion> 36
+<variableRef variableName="CheckCondition"/> 37
+<expression> 38
+<stringValue>light</stringValue> 39
+</expression> 40
+</assertion> 41
+</menuChoice> 42
+</menu> 43
+</dialog> 44
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 26

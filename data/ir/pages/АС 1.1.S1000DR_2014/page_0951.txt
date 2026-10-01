@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+itemSeqNumberValue="00Α" itemLocationCode="Δ"/>
+Β следующем примере разметки будет создана ссылка на модуль данных
+неструктурированного иллюстрированного каталога деталей σ кодом DMC-E2-Α-ZR-99-
+01 001Α AA-010-941Α-Δ η форматированная строка CSN " ".
+<catalogSeqNumberRef responsiblePartnerCompanyCode="R"
+initialProvisioningProjectNumber="F611799AA" modelIdentCode="E2"
+systemDiffCode="Α" figureNumber="01" item="001" itemVariant="Α"
+itemSeqNumberValue="00Α" itemLocationCode="Δ"/>
+<reqSpares>
+<spareDescrGroup>
+<spareDescr id="spa-0987">
+<name>Blade, LP Compressor</name>
+<natoStockNumber natoSupplyClass="2840"
+natoCodificationBureau="99" natoItemIdentNumberCore="1234524"/>
+<catalogSeqNumberRef modelIdentCode="E2" systemDiffCode="Α"
+systemCode="72" subSystemCode="3" subSubSystemCode="2"
+assyCode="10" figureNumber="01" figureNumberVariant="Α"
+item="010" itemVariant="Α" itemLocationCode="Δ"
+itemSeqNumberValue="00Α"/>
+<reqQuantity unitOfMeasure="EA">23</reqQuantity>
+</spareDescr>
+<spareDescr id="spa-0752">
+<name>Retainer, Blade, LP Compressor</name>
+<natoStockNumber natoSupplyClass="2840"
+natoCodificationBureau="99" natoItemIdentNumberCore="1234584"/>
+<catalogSeqNumberRef modelIdentCode="E2" systemDiffCode="Α"
+systemCode="72" subSystemCode="3" subSubSystemCode="2"
+assyCode="10" figureNumber="01" figureNumberVariant="Α"
+item="040" itemVariant="Α" itemLocationCode="Δ"
+itemSeqNumberValue="00Α"/>
+<reqQuantity unitOfMeasure="EA">23</reqQuantity>
+</spareDescr>
+</spareDescrGroup>
+</reqSpares>
+2.4.3 Внутренняя ссылка
+internalRef Описание. Элемент < > используется для внутренних ссылок, которые
+используются β содержимом модуля данных иллюстрированного каталога деталей, он
+связан σ механизмом активных участков. См. Глава 3.9.5.2.1.2 .
+internalRef Элемент разметки: < > (O)
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+internalRefId (O), целевой идентификатор внутренней ссылки. См. Глава 
+3.9.5.2.1.2 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 19

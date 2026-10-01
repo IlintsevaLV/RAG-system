@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+Примечание
+Дополнительные сведения ο ссылках на модули данных общего
+информационного репозитория см. β Глава 4.13.1 .
+Пример разметки:
+Пример 1 - Простой пример
+<supplyRqmtRef supplyRqmtNumber="sup-0002"></supplyRqmtRef>
+Пример 2 - На следующем примере показано, что для выполнения данной
+процедуры необходимо 2 литра масла η 0,5 литра смазки. Здесь расходные
+материалы определяются по обозначению детали η изготовителю.
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr id="suppliedBy-0054">
+<name>Oil, Engine, Gas Turbine</name>
+<identNumber><manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>OIL-HHGA</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="Λ">2,0</reqQuantity>
+</supplyDescr>
+<supplyDescr id="suppliedBy-0302">
+<name>Grease, Lubricating</name>
+<identNumber><manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>GRL-6726</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="Λ">0,5</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+2.6.1.3 Описание включенных расходных материалов
+embeddedSupplyDescr Описание: Элемент < > содержит сведения ο каждой
+единице, включенной β набор расходных материалов.
+supplyDescr Иерархическое отношение между элементом < > η элементом
+embeddedSupplyDescr < > таково:
+supplyDescr Если элемент < > является набором материалов, то атрибут 
+materialUsage mu05 получает значение " ", α включенные расходные
+материалы представляются β одном или нескольких элементах
+embeddedSupplyDescr < >.
+Если речь идет ο простом расходном материале, которое передается со склада 
+materialUsage или уже имеется β объекте, то атрибут должен
+соответствовать правилам выполнения проекта, описанным β Разд. 2.6.1, η
+embeddedSupplyDescr элемент < > не используется.
+embeddedSupplyDescr Элемент разметки: < > (C)
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 62

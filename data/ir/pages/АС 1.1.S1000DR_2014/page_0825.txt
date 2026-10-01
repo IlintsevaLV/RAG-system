@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+commonInfo < > (O). См. Глава 3.9.5.2.1.12 . 
+preliminaryRqmts < > (O). См. Глава 3.9.5.2.1.9 . 
+faultIsolationProcedure < > (C), повторяемый. См. Разд. 2.6.1. 
+Пример разметки:
+<faultIsolation>
+<faultIsolationProcedure>
+<fault faultCode="NYCJD04"/>
+<faultDescr><descr>Tire does not function correctly</descr>
+</faultDescr>
+<isolationProcedure>
+<preliminaryRqmts><reqCondGroup><noConds/></reqCondGroup>
+<reqSupportEquips><supportEquipDescrGroup>
+<supportEquipDescr id="seq-0001"><name>Tire pressure gage</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001-01</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity
+unitOfMeasure="EA">1</reqQuantity></supportEquipDescr>
+<supportEquipDescr><name>Specialist toolset</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity
+unitOfMeasure="EA">1</reqQuantity></supportEquipDescr>
+</supportEquipDescrGroup></reqSupportEquips>
+<reqSupplies><noSupplies/></reqSupplies>
+<reqSpares><noSpares/></reqSpares>
+<reqSafety><noSafety/></reqSafety></preliminaryRqmts>
+<isolationMainProcedure>
+<isolationStep id="stp-0001">
+<action>Use the tire pressure gage (<internalRef
+internalRefId="seq-0001"
+internalRefTargetType="irtt05"></internalRef> to do α check of
+the pressure</action>
+<isolationStepQuestion>What is the tire pressure
+reading?</isolationStepQuestion>
+<isolationStepAnswer>
+<listOfChoices>
+<choice nextActionRefId="stp-0002">More than 2700 hPa</choice>
+<choice nextActionRefId="stp-0003">Between 100 hPA and 2700
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 43

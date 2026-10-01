@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+<lcSecurity>
+<description>
+<para>Security level is unclassified.</para>
+</description>
+</lcSecurity>
+</lcTechnicalRqmts>
+</lcTrainingInterventions>
+2.4.2.1 Целевая аудитория
+lcTargetAudience Описание: Элемент < > является контейнером для данных,
+описывающих характеристики учащихся, для которых предназначено учебное
+воздействие.
+lcTargetAudience Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0031-001-01
+lcTargetAudience Рис. 15 Элемент < >
+Атрибуты:
+id lcTargetAudience (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcCurrentEntryBehaviors < > (O). См. 2.4.2.1.1. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 77

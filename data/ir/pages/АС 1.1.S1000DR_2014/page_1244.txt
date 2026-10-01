@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+</prompt>
+<menuChoice>
+<prompt>
+<paraBasic>Yes</paraBasic>
+</prompt>
+<assertion>
+<variableRef variableName="level"/>
+<expression>
+<stringValue>experienced</stringValue>
+</expression>
+</assertion>
+</menuChoice>
+<menuChoice>
+<prompt>
+<paraBasic>No</paraBasic>
+</prompt>
+<noAssertions/>
+</menuChoice>
+</menu>
+2.2.1.1 Подсказки для пользователя.
+prompt Описание. Элемент < > содержит текст вопроса или указания для
+пользователя.
+prompt Элемент разметки: < >
+ICN-76301-Σ1000Δ0021-001-01
+prompt Рис. 3 Элемент < >
+Атрибуты:
+id prompt (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+textDisplayPosition (O), определяет размещение отображаемого текста 
+относительно места ввода или выбора данных. Если атрибут не используется,
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 8

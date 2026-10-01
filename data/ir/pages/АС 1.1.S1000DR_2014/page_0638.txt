@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+productionMaintData < > (O), повторяемый. Данные управления 
+производством См. Разд. 2.1.
+reqCondGroup < > (Μ), требуемые условия. См. Разд. 2.2. 
+reqPersons < > (O), повторяемый. Требуемые сотрудники. См. Разд. 2.3. 
+reqTechInfoGroup < > (O), требуемые технические сведения. См. Разд. 2.4. 
+reqSupportEquips < > (Μ), вспомогательное оборудование. См. Разд. 2.5. 
+reqSupplies < > (Μ), расходные материалы, материалы η изделия 
+одноразового применения. См. Разд. 2.5.2.
+reqSpares < > (Μ), запасные детали. См. Разд. 2.7. 
+reqSafety < > (Μ), условия безопасности. См. Разд. 2.8. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00134 -
+preliminaryRqmts Использование элемента < > :
+preliminaryRqmts Решение об использовании элемента < > β модулях 
+данных технического облуживания, модулях данных локализации отказов,
+контрольных перечней технического облуживания η/или процессных модулях
+данных.
+Пример разметки:
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds/>
+</reqCondGroup>
+<reqPersons>
+<person man="Α">
+<personCategory personCategoryCode="Basic user"/>
+<trade>Operator</trade>
+<estimatedTime unitOfMeasure="η">0,3</estimatedTime></person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="seq-0001">
+<name>Tire pressure gauge</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001-01</partNumber>
+</partAndSerialNumber>
+</identNumber>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 7

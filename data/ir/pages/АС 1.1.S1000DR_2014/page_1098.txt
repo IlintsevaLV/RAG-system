@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+ICN-C0419-Σ1000Δ0207-001-01
+Рис. 1 Пример неоднократно используемого электрооборудования
+<electricalEquip>
+<functionalItemRef functionalItemNumber="Μ35001"/>
+<installationInfo installationIdent="1">
+<installationLocation installationLocationType="instloctyp02">
+398</installationLocation>
+<siblingPlugIdent>
+<functionalItemRef functionalItemNumber="Δ35150Π"/>
+</siblingPlugIdent>
+</installationInfo>
+<installationInfo installationIdent="2">
+<installationLocation installationLocationType="instloctyp02">
+421</installationLocation>
+<siblingPlugIdent>
+<functionalItemRef functionalItemNumber="Δ35151Π"/>
+</siblingPlugIdent>
+</installationInfo>
+<installationInfo installationIdent="3">
+<installationLocation installationLocationType="instloctyp02">
+442</installationLocation>
+<siblingPlugIdent>
+<functionalItemRef functionalItemNumber="Δ35152Π"/>
+</siblingPlugIdent>
+</installationInfo>
+<installationInfo installationIdent="4">
+<installationLocation installationLocationType="instloctyp02">
+Действительно: Все Σ1000Δ-Α-03-09-0502-09E-040Α-Α
+Глава 3.9.5.2.9.4
+2013-11-15 Страница 20

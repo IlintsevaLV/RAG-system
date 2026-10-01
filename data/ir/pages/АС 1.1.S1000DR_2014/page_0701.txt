@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+слово "None" (Нет). Β странично-ориентированном представлении значение "None"
+дается β виде текстового параграфа под стандартным заголовком "Условия
+безопасности".
+reqSafety Элемент разметки: < > (Μ)
+ICN-Σ3627-Σ1000Δ0482-001-01
+reqSafety Рис. 24 Элемент < >
+Атрибуты:
+id reqSafety (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+noSafety < > (O), указывает на отсутствие предварительных необходимых 
+требований безопасности.
+safetyRqmts < > (O). См. Разд. 2.8.1. 
+Пример разметки:
+на следующем примере показаны два предупреждения β условиях безопасности:
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>Sellinium-Ξ is corrosive. Do not get it
+on your skin.
+Do not drink it. Use it in α well ventilated
+area.</warningAndCautionPara>
+</warning>
+<warning>
+<warningAndCautionPara>Make sure you read the standard reqSafety
+conditions
+that are given in <dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="012"
+infoCodeVariant="Α" itemLocationCode="Δ" modelIdentCode="AE"
+subSubSystemCode="0"
+subSystemCode="0" systemCode="00"
+systemDiffCode="Α"/></dmRefIdent>
+</dmRef>.</warningAndCautionPara>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 70

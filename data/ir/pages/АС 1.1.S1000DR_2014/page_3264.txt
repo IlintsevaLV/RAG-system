@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+hotspot Таблица 6 Элемент < > η его соответствие во вспомогательном ХМL-файле
+(Продолжение)
+hotspot Элемент вспомогательного ХМL-файла Элемент Σ1000Δ < >
+grobject < >
+visible on " " " "
+hidden off " " " "
+%styleProperties Сущность описывается β Разд. 2.3.4.2.1.
+2.3.4.2.3 Содержимое linkuri
+Третьей структурой вспомогательного ХМL-файла Σ1000Δ является содержимое
+linkuri. Ниже приводится фрагмент ХМL-схемы:
+<xs:element name="linkuri" type="linkuriType"/>
+<xs:complexType name="linkuriType">
+<xs:attribute ref="uri" use="required"/>
+<xs:attribute ref="behavior"/>
+<xs:attribute ref="desc"/>
+</xs:complexType>
+<xs:attribute name="uri" type="xs:string"/>
+<xs:attribute name="behavior" type="xs:string"/>
+<xs:attribute name="desc" type="xs:string"/>
+internalRef dmRef Элемент Σ1000Δ < >, элемент Σ1000Δ < > η элемент Σ1000Δ
+catalogSeqNumberRef hotspot < > β элементе Σ1000Δ < > соответствуют
+linkuri элементу вспомогательного ХМL-файла < >. Необходимый атрибут
+uri вспомогательного ХМL-файла берется из атрибутов, связанных σ элементом
+internalRef dmRef Σ1000Δ < >, элементом Σ1000Δ < > η элементом Σ1000Δ
+catalogSeqNumberRef < >. Это соответствие показано β Табл. 7, Табл. 8 η
+Табл. 9.
+internalRef Таблица 7 Элемент < > η его соответствие во вспомогательном ХМL-файле
+internalRef Элемент вспомогательного Элемент Σ1000Δ < >
+linkuri ХМL-файла < >
+internalRefId referredFragment uri Атрибут или атрибут Атрибут
+xlink:href или атрибут
+xlink:show xlink:actuate behavior Атрибут η/или атрибут Атрибут
+targetTitle xlink:hotspotTitle desc Атрибут или атрибут Атрибут
+Действительно: Все Σ1000Δ-Α-07-03-0200-00Α-040Α-Α
+Глава 7.3.2
+2013-11-15 Страница 15

@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+<accessPointRef accessPointNumber="2502VU"
+accessPointTypeValue="accpnl02"/>
+<circuitBreakerLocation>SSPC</circuitBreakerLocation>
+</circuitBreakerDescr>
+</circuitBreakerDescrSubGroup>
+</circuitBreakerDescrGroup>
+</reqCondCircuitBreaker>
+<reqCondCircuitBreaker>
+<reqCond>Open the circuit breaker:</reqCond>
+<circuitBreakerDescrGroup circuitBreakerAction="open">
+<circuitBreakerDescrSubGroup>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="44RT"/>
+<name>MMR-2 (ILS+GPS)</name>
+<accessPointRef accessPointNumber="2514VU"
+accessPointTypeValue="accpnl02"/><circuitBreakerLocation>0867</χ
+ircuitBreakerLocation>
+</circuitBreakerDescr>
+</circuitBreakerDescrSubGroup>
+</circuitBreakerDescrGroup>
+</reqCondCircuitBreaker>
+internalRef Пример 2 - Идентификатор точки доступа, заданный элементом < >
+accessPointRef productionMaintData (на элемент < > внутри элемента < >).
+<reqCondCircuitBreaker>
+<reqCond>Make sure the circuit breaker is open, safetied/locked
+and tagged:</reqCond>
+<circuitBreakerDescrGroup circuitBreakerAction="open">
+<circuitBreakerDescrSubGroup>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="42RT"/>
+<name>MMR-1 (ILS+GPS)</name>
+<internalRef internalRefTargetType="irtt13"
+internalRefId="accessPointRef-0041"/>
+<circuitBreakerLocation>0867</circuitBreakerLocation>
+</circuitBreakerDescr>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="800RT"/>
+<name>GLIDE ANT2 SWGT RELAY</name>
+<internalRef internalRefTargetType="irtt13"
+internalRefId="accpnl-0052"/>
+<circuitBreakerLocation>SSPC</circuitBreakerLocation>
+</circuitBreakerDescr>
+</circuitBreakerDescrSubGroup>
+</circuitBreakerDescrGroup>
+</reqCondCircuitBreaker>
+<reqCondCircuitBreaker>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 30

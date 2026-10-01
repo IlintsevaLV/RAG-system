@@ -1,0 +1,29 @@
+Σ1000DR-UACRU-01000-00
+Пример разметки:
+<pm>
+<identAndStatusSection>...</identAndStatusSection>
+<content>...</content>
+</pm>
+2.1 Идентификационно-статусная часть
+identAndStatusSection Описание. Элемент < > содержит идентификационно-
+статусную часть публикации.
+identAndStatusSection Элемент разметки: < > (Μ)
+ICN-1654N-Σ1000Δ0010-001-01
+identAndStatusSection Рис. 3 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+pmAddress < > (Μ). См. Разд. 2.1.1 
+pmStatus < > (Μ). См. Разд. 2.1.2 
+Пример разметки:
+<identAndStatusSection>
+<pmAddress>...</pmAddress>
+<pmStatus>...</pmStatus>
+</identAndStatusSection>
+2.1.1 Адрес модуля публикации
+pmAddress Описание. Элемент < > сдержит сведения об адресе модуля
+публикации.
+pmAddress Элемент разметки: < > (Μ)
+Действительно: Все Σ1000Δ-Α-04-09-0100-00Α-040Α-Α
+Глава 4.9.1
+2013-11-15 Страница 4

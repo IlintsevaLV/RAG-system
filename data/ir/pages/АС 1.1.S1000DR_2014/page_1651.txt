@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+пунктам.
+Пример разметки:
+<lcInteraction shuffle="yes" weghtingFactor="25" attempts="2">
+<lcTrueFalse>
+<title />
+<lcQuestion>
+<description>
+<para>Select your answer, and then click NEXT.</para>
+<para>All bike tires require an inner tube?</para>
+</description>
+</lcQuestion>
+<lcAnswerOptionGroup>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>True</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>False</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+<lcFeedbackItemGroup>...</lcFeedbackItemGroup>
+</lcTrueFalse>
+</lcInteraction>
+2.4.1 Да/нет
+lcTrueFalse Описание. Элемент < > содержит разметку для пунктов оценочного
+взаимодействия "да/нет". Взаимодействие "да/нет" представляет учащемуся два
+возможных выбора, правильный η неправильный η часто представляется β виде
+ответов "истинно/ложно" или "да/нет".
+Примечание
+lcTrueFalse Элемент < > содержит такую же модель содержимого, что η
+lcSingleSelect lcMultipleSelect элемент < > η элемент < >. Однако
+answerOption взаимодействие "да/нет" содержит только два элемента < >
+answerOptionGroup внутри дочернего элемента < >: один вариант для ответа
+true false " " η другой для ответа " ".
+lcTrueFalse Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 8

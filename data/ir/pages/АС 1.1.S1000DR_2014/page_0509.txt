@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+2.5.3.2.2 Разные причины
+Если таблица η ее название меняются по разным причинам, необходимо присвоить
+table title соответствующие значения атрибутам элемента < > η элемента < >.
+Пример разметки:
+<table id="tab-0005" changeType="modify" changeMark="1"
+reasonForUpdateRefIds="rfu-0009">
+<title changeType="modify" changeMark="1"
+reasonForUpdateRefIds="rfu-0010">Title modified</title>
+...
+</table>
+2.5.3.3 Удаление
+Если удаляется целая таблица η ее название, необходимо присвоить
+table соответствующие значения атрибутам элемента < >. См. Разд. 2.5.1.3.
+2.5.4 Разметка только отдельных строк таблицы.
+2.5.4.1 Добавление
+row Если добавляется строка, атрибутам элемента < > необходимо присвоить
+соответствующие значения.
+Пример разметки:
+<table id="tab-0006">
+<title>Title</title>
+<tgroup cols="3">
+<tbody>
+<row changeType="add" changeMark="1"
+reasonForUpdateRefIds="rfu-0011">
+<entry><para>This paragraph has been added.</para></entry>
+...
+</row>
+...
+</tgroup>
+</table>
+2.5.4.2 Изменение
+Если изменяется строка, необходимо присвоить соответствующие значения атрибутам
+row элемента < >.
+Пример разметки:
+<table id="tab-0006">
+<title>Title</title>
+<tgroup cols="3">
+<tbody>
+<row changeType="modify" changeMark="1"
+reasonForUpdateRefIds="rfu-0012">
+<entry><para>This paragraph has been modified.</para></entry>
+...
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Β-040Α-Α
+Глава 3.9.5.2.1.1
+2013-11-15 Страница 14

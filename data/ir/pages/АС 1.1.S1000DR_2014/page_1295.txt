@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+variableRef являющийся именем возвращенного значения, η элемент < > или
+globalPropertyRef < >, определяющий локальную переменную или глобальное
+свойство, которому присваивается возвращенное значение. Если внешнее
+приложение возвращает имя значения, не указанное элементом
+returnedValueName < >, такая пара имя/значение удаляется.
+Пример разметки:
+<externalApplication application="MMS">
+<paraBasic>Receive test results</paraBasic>
+<receiveByName>
+<returnedValueName>testresult</returnedValueName>
+<variableRef variableName="Result Test 5"/>
+</receiveByName>
+</externalApplication>
+2.3.5 Элемент ReceiveByPosition
+receiveByPosition Описание. Элемент < > используется, если внешнее
+приложение возвращает данные β виде потока значений, разграниченных по
+позициям.
+receiveByPosition Элемент разметки: < >
+ICN-76301-Σ1000Δ0040-001-01
+receiveByPosition Рис. 8 Элемент < >
+Атрибуты:
+id listItem (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Δ-040Α-Α
+Глава 3.9.5.2.10.3
+2013-11-15 Страница 14

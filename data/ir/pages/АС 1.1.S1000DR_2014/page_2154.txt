@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<dmIdent>
+<dmCode modelIdentCode="PRODUCT" systemDiffCode="Α"
+systemCode="00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="022" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="sx" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</dmIdent>
+<dmAddressItems>
+<issueDate day="01" month="12" year="2011"/>
+<dmTitle>
+<techName>This project</techName>
+<infoName>Business rules</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany enterpriseCode="SI">
+<enterpriseName>SF518</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="SI">
+<enterpriseName>SF518</enterpriseName>
+</originator>
+<applic><displayText>Product type Α</displayText></applic>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="PRODUCTGROUP" systemDiffCode="Α"
+systemCode="00" subSystemCode="0" subSubSystemCode="0"
+assyCode="0000" disassyCode="00" disassyCodeVariant="Α"
+infoCode="022" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<issueInfo issueNumber="003" inWork="00"/>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<firstVerification verificationType="tabtop"/>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<brex>
+<commonInfo>
+<para>This BREX data module gives the rules that apply to the
+PRODUCT. The rules are based on the PRODUCTGROUP rules.</para>
+</commonInfo>
+<snsRules>
+<snsDescr>
+<snsSystem>
+Действительно: Все Σ1000Δ-Α-04-10-0200-00Α-040Α-Α
+Глава 4.10.2
+2013-11-15 Страница 4

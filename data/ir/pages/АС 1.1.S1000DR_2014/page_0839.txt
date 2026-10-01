@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+</isolationStepAnswer>
+</isolationStep>
+<isolationProcedureEnd id="stp-0005">
+<action>Replace the tire (refer to
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+assyCode="20" disassyCode="00" disassyCodeVariant="AA"
+infoCode="921" infoCodeVariant="Α" itemLocationCode ="Α"/>
+</dmRefIdent>
+</dmRef>).</action>
+</isolationProcedureEnd>
+<isolationProcedureEnd id="stp-0006">
+<action>Replace the inner-tube (refer to
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+assyCode="10" disassyCode="00" disassyCodeVariant="AA"
+infoCode="921" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>).</action>
+</isolationProcedureEnd>
+</isolationMainProcedure>
+2.6.1.4 Шаг локализации неисправности
+isolationStep Описание. Элемент < > содержит текстовое описание действия,
+вопроса или вариантов ответа. Он также может включать, например, заголовок,
+предупреждения, предостережения η примечания.
+isolationStep Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 57

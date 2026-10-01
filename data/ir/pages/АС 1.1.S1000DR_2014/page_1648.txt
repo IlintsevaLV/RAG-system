@@ -1,0 +1,33 @@
+S1000DR-UACRU-01000-00
+lcIntro Элемент разметки: < > (O)
+Атрибуты:
+id lcIntro (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+ authorityName authorityDocument (O) и (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (O). См. Глава 3.9.5.2.2 . 
+2.3 Продолжительность
+lcDuration Описание: Элемент < > содержит расчетную продолжительность
+description оценки с помощью элемента < >.
+lcDuration Элемент разметки: < > (O)
+Атрибуты:
+id lcDuration (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+ changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) и (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (O). См. Глава 3.9.5.2.2 . 
+2.4 Взаимодействие
+lcInteraction Описание. Элемент < > содержит оценочные вопросы и набор
+возможных ответов:
+lcInteraction Элемент разметки: < > (O)
+Действительно: Все S1000D-A-03-09-0502-13F-040A-A
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 5

@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+correlatedFaultAlts < > (O). См. Разд. 2.5.8. 
+Пример разметки:
+<faultReporting>
+<isolatedFault id="flt-0003" faultCode="NYCJD03">
+<faultDescr>
+<detailedFaultDescr>
+<systemName>Engine</systemName>
+<faultMessageBody>Engine will not start.</faultMessageBody>
+</detailedFaultDescr>
+</faultDescr>
+<locateAndRepair>
+<locateAndRepairLruItem>
+<lru>
+</lru>
+</locateAndRepairLruItem>
+</locateAndRepair>
+</isolatedFault>
+</faultReporting>
+2.5.1 Локализованные неисправности
+isolatedFault Описание. Элемент < > используется для структурирования
+сведений по локализованным неисправностям.
+isolatedFault Элемент разметки: < > (O)
+ICN-Σ3627-Σ1000Δ0503-001-01
+isolatedFault Рис. 3 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id isolatedFault (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+faultCode (Μ), код отказа, присваиваемый β рамках процесса логистического 
+анализа
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 7

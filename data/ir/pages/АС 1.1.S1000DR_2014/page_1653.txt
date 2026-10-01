@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+<lcQuestion>
+<description>
+<para>Select your answer, and then click NEXT.</para>
+<para>All bike tires require an inner tube?</para>
+</description>
+</lcQuestion>
+<lcAnswerOptionGroup>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>True</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>False</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+<lcFeedbackItemGroup>...</lcFeedbackItemGroup>
+</lcTrueFalse>
+2.4.1.1 Вопрос
+lcQuestion Описание. Элемент < > содержит элемент оценочного взаимодействия.
+lcQuestion Элемент разметки: < > (C)
+Атрибуты:
+id lcQuestion (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C), описание элемента, β котором он содержится. Он 
+используется β соответствии σ положениями Глава 3.9.5.2.2 .
+Пример разметки:
+<lcQuestion>
+<description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 10

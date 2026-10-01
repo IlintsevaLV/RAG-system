@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<numberOfPages>5</numberOfPages>
+<dmRef applicRefId="app-0001">
+<dmRefIdent>
+<dmCode modelIdentCode="E2" systemDiffCode="Α" systemCode="72"
+subSystemCode="0" subSubSystemCode="0" assyCode="00"
+disassyCode="00" disassyCodeVariant="Α" infoCode="030"
+infoCodeVariant="Α" itemLocationCode="Δ"/>
+<issueInfo issueNumber="003" inWork="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Engine</techName>
+<infoName>Performance data</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+<numberOfPages>7</numberOfPages>
+</tocEntry>
+<tocEntry>
+<title>72-10-00 Reduction gear, shaft section</title>
+<dmRef applicRefId="app-0002">
+<dmRefIdent>
+<dmCode modelIdentCode="E2" systemDiffCode="Α" systemCode="72"
+subSystemCode="1" subSubSystemCode="0" assyCode="00"
+disassyCode="00" disassyCodeVariant="Α" infoCode="040"
+infoCodeVariant="Α" itemLocationCode="Δ"/>
+<issueInfo issueNumber="004" inWork="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Reduction gear, shaft section</techName>
+<infoName>Description of how it is made and its
+function</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+<numberOfPages>8</numberOfPages>
+<dmRef applicRefId="app-0001">
+<dmRefIdent>
+<dmCode modelIdentCode="E2" systemDiffCode="Α" systemCode="72"
+subSystemCode="1" subSubSystemCode="0" assyCode="00"
+disassyCode="00" disassyCodeVariant="Α" infoCode="030"
+infoCodeVariant="Α" itemLocationCode="Δ"/>
+<issueInfo issueNumber="003" inWork="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+Действительно: Все Σ1000Δ-Α-03-09-0502-16Α-040Α-Α
+Глава 3.9.5.2.16
+2013-11-15 Страница 31

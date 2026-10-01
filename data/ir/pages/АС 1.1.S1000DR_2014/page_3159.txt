@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ_4-1/xml_schema_flat/
+prdcrossreftable.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+18 Содержимое SCO
+<!DoCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ 4-1/xml schema flat/
+scocontent.xsd"
+"#su-xezuAs-jpx-zZ/Z0/6661/β10·εm·Mmm//:dz74.=fpx:sutux
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+19 Сервисные бюллетени
+<!DoCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ_4-1/xml_schema_flat/sb.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+20 Обновления
+<!DoCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ 4-1/xml schema flat/update.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+21 Схемы электрооборудования
+<!DoCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ_4-1/xml_schema_flat/wrngdata.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+Действительно: Все Σ1000Δ-Α-07-03-0103-00Α-040Α-Α
+Глава 7.3.1.3
+2013-11-15 Страница 6

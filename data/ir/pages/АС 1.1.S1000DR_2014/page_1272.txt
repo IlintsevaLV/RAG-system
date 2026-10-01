@@ -1,0 +1,48 @@
+<userEntry mandatory="1" 3
+<prompt><paraBasic>Tire 4
+(PSI)</paraBasic></prompt>
+<variableRef 5
+<default> 6
+<expression> 7
+<variableRef 8
+</expression> 9
+</default> 10
+<validate 11
+90">
+<expression> 12
+<expression> 13
+<expression> 14
+<integerValue>30</integerValue> 15
+</expression> 16
+<numberOperator 17
+<expression> 18
+<variableRef 19
+</expression> 20
+</expression> 21
+<booleanOperator 22
+<expression> 23
+<expression> 24
+<variableRef 25
+</expression> 26
+<numberOperator 27
+<expression> 28
+<integerValue>90</integerValue> 29
+</expression> 30
+</expression> 31
+</expression> 32
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ dataEntryFieldLength="1">
+ pressure
+variableName="Pressure"/>
+variableName="Pressure"/>
+errorMessage="Tire pressure (PSI) must be 30 to
+numberOperation="lessThanOrEqual"/>
+variableName="Pressure"/>
+booleanOperation="and"/>
+variableName="Pressure"/>
+numberOperation="lessThanOrEqual"/>
+Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 36

@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+internalRef < > (O), перекрестная ссылка на набор материалов. См. Глава 
+3.9.5.2.1.2 .
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00289 -
+sbMaterialIdent Использование атрибута :
+sbMaterialIdent Решение об использовании атрибута . 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00290 -
+sbMaterialIssue Использование атрибута :
+sbMaterialIssue Решение об использовании атрибута . 
+Пример разметки:
+<sbMaterialSetRef><internalRef internalRefId="mat-0004"
+internalRefTargetType="irtt15"/>
+</sbMaterialSetRef>
+<sbMaterialSetRef><internalRef internalRefId="mat-0003"
+internalRefTargetType="irtt15"/>
+</sbMaterialSetRef>
+<sbMaterialSetRef><internalRef internalRefId="mat-0002"
+internalRefTargetType="irtt15"/>
+</sbMaterialSetRef>
+Примечание
+internalRefTargetType irtt15 =" " определяется как "набор материалов".
+2.2 Перечень вспомогательного оборудования
+sbSupportEquipsList Описание. Элемент < > содержит перечень
+вспомогательного оборудования (набор оборудования, отдельное или внешнее
+оборудование), задействованного β сервисном бюллетене.
+sbSupportEquipsList Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00048-Α-001-01
+sbSupportEquipsList Рис. 11 Элемент < >
+Атрибуты:
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 16

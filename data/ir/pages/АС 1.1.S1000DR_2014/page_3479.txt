@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+<img src="ICN-1Β-Β-311501-Β-K0999-00352-Α-001-01.CGM"></img>
+2.6 Внешняя ссылка σ целевым объектом
+URN ссылки на модуля данных необходимо создавать из содержимого элемента
+dmCode < > η идентификатора целевого объекта внутри ссылочного модуля данных.
+ id= fig-0001 Β приведенном ниже примере ссылка указывает на рисунок σ " " β
+другом внешнем модуле данных.
+<dmRef referredFragment=
+"URN:Σ1000Δ:DMC-Σ1000Δ-Α-06-02-0301-00Α-040Α-Α#fig-0001"
+xlink:type="simple"
+xlink:actuate="onRequest"
+xlink:show="replace"
+xlink:href=
+"URN:Σ1000Δ:DMC-Σ1000Δ-Α-06-02-0301-00Α-040Α-Α#fig-0001">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000Δ" systemDiffCode="Α"
+systemCode="06" subSystemCode="0" subSubSystemCode="2"
+assyCode="0301" disassyCode="00" disassyCodeVariant="Α"
+infoCode="040" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Layout rules and examples</techName>
+<infoName>Front matter data modules</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+Пример преобразования вида кода модуля данных β HTML:
+<α href=
+"DMC-AE-Α-06-02-0301-00Α-040Α-Α.XML#fig-0001">
+Layout rules and examples - Front matter data modules</α>
+2.7 Внутренняя ссылка
+internalRefId Внутренние ссылки задаются атрибутами η
+internalRefTargetType internalRef элемента < >.
+id= fig-0001 Β приведенном ниже примере ссылка указывает на рисунок σ " " β
+том же модуле данных.
+<internalRef internalRefId="fig-0001"
+internalRefTargetType="irtt01"
+xlink:actuate="onRequest"
+xlink:show="replace"
+xlink:href="#fig-0001">
+</internalRef>
+Пример преобразования вида ссылки β HTML:
+Действительно: Все Σ1000Δ-Α-07-07-0400-00Α-040Α-Α
+Глава 7.7.4
+2013-11-15 Страница 5

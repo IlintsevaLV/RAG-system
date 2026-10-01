@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+Пример разметки :
+<bitMessageAlts>
+<bitMessage><fault faultCode="100FC01"/>
+<faultDescr>
+<descr>The pedal mechanism is jammed</descr>
+</faultDescr>
+</bitMessage>
+<bitMessage><fault faultCode="200FC01"/>
+<faultDescr>
+<descr>The derailleur is jammed</descr>
+</faultDescr>
+</bitMessage>
+</bitMessageAlts>
+2.5.8 Группа альтернативных вариантов взаимозависимых неисправностей
+correlatedFaultAlts Описание : Элемент < > представляет собой группу
+альтернативных вариантов, которая позволяет объединять несколько альтернативных
+взаимозависимых неисправностей. Сведения об использовании группы
+альтернативных вариантов β содержимом модуля данных см. β Глава 4.13.3
+correlatedFaultAlts Элемент разметки : < > (O)
+Атрибуты :
+id correlatedFaultAlts (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+authorityName authorityDocument (O) η (O) используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11
+Дочерние элементы :
+correlatedFault < > (Μ). См. Разд. 2.5.6. 
+Пример разметки :
+<correlatedFaultAlts id ="fltc-001">
+<correlatedFault id="CFS0001">
+<basicCorrelatedFaults>
+<bitMessage><fault faultCode="100FC01"/>
+<faultDescr>
+<descr>The pedal mechanism is jammed</descr>
+</faultDescr>
+</bitMessage>
+<bitMessage><fault faultCode="200FC01"/>
+<faultDescr>
+<descr>The derailleur is jammed</descr>
+</faultDescr>
+</bitMessage>
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 41

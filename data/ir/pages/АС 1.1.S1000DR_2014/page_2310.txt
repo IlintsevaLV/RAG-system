@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+<lom:description>
+<lom:string>
+Sample courseware consisting based on the Σ1000Δ Bike sample
+technical data implementing the Σ1000Δ version 4.1 Learning
+schema markup.
+</lom:string>
+</lom:description>
+<lom:keyword>
+<lom:string>
+Σ1000DBIKE
+</lom:string>
+</lom:keyword>
+<lom:keyword>
+<lom:string>
+σ1000δ learning schema
+</lom:string>
+</lom:keyword>
+</lom:general>
+<lom:lifeCycle>
+<lom:version>
+<lom:string language="en">1.0</lom:string>
+</lom:version>
+<lom:status>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>final</lom:value>
+</lom:status>
+</lom:lifeCycle>
+<lom:metaMetadata>
+<lom:identifier>
+<lom:catalog>GUID</lom:catalog>
+<lom:entry>3Ξ157197F-7BD0-4F5C-BF57-CD3C8BA242</lom:entry>
+</lom:identifier>
+<lom:metadataSchema>LOMv1.0</lom:metadataSchema>
+<lom:metadataSchema>SCORM_CAM_v1.3</lom:metadataSchema>
+</lom:metaMetadata>
+</lom:lom>
+2.3 Содержательная часть
+Описание. Содержательная часть включает все ссылки на технические сведения,
+необходимые для создания конечного обучающего продукта.
+Β данном разделе акроним SCO используется β разных элементах. Существует
+разница между термином SCO β SCORM η его использованием β Σ1000Δ. Объект
+SCO β SCORM – это один объект обучения многократного использования, который
+может направлять запросы β систему LMS во время события обучения. Β Σ1000Δ
+объект SCO – это набор объединенных технических сведений, собранных во время
+создания содержимого до объединения β пакет SCORM. Пакет содержимого SCORM
+β Σ1000Δ не взаимодействует σ LMS. Аналогии β именах предусмотрены намеренно
+σ целью упростить процесс объединения содержимого β соответствии со структурой
+содержимого, который происходит β ходе события обучения.
+content Элемент разметки: < >
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 13

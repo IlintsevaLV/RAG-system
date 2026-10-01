@@ -1,0 +1,30 @@
+Σ1000DR-UACRU-01000-00
+<faultMessageBody>Engine will not start.</faultMessageBody>
+</detailedFaultDescr>
+2.5.1.3 Сведения об обнаружении неисправности
+detectionInfo Описание. Элемент < > содержит сведения для обнаружения
+неисправности.
+detectionInfo Элемент разметки: < > (O)
+ICN-Σ3627-Σ1000Δ0505-002-01
+detectionInfo Рис. 5 Элемент < >
+Атрибуты:
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+detectionType (O), тип неисправности 
+Дочерние элементы:
+detectedLruItem < >. См. Разд. 2.5.1.3.1. 
+Пример разметки:
+<detectionInfo detectionType="Major">
+<detectedLruItem>
+<lru>
+<name>Tire</name>
+<identNumber>
+<manufacturerCode>KT666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>TIRES-010101</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</lru>
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 11

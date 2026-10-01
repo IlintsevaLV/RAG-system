@@ -1,0 +1,19 @@
+S1000DR-UACRU-01000-00
+descrForItemCode partIdentSegment (ранее был в < >) и элемент
+usageCategory usageCategoryCode < > с атрибутом заменены на новый
+partUsage partUsageCode элемент < > с атрибутом . В элемент
+partSegment partIdentSegment < > (ранее < >) добавлен элемент
+techData < >, см. Разд. 2.7.
+hazardousFlag 2.11 Класс опасности - элемент
+techData supplySpec hazardousFlag В элементах < > и < > атрибут заменен
+hazardousClass hazardousClassValue новым элементом < > с атрибутом .
+supplySpec 2.12 Поставка - элемент < >
+specificationGroup supplySpec Элемент < > в элементе < > переименован в
+specGroup < >.
+supplierGroup supplySpec Элемент < > в элементе < > переименован в
+enterpriseGroup < >.
+ICN-S1000D-A-07030104-0-FAPE3-00022-A-01-1
+supplySpec Рис. 24 Издание 4.0.1: < >
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 15

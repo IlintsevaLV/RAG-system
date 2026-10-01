@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+beyond what the couriers possess. The shift managers are
+responsible for ensuring couriers perform all required
+preventive maintenance at the scheduled periodicity.</para>
+</description>
+</lcManagerialSupport>
+2.2.4.2 Физические условия на площадке
+lcPhysicalAspectsOfSite Описание: Элемент < > содержит описание
+материальных, очевидных характеристик или атрибутов рабочих площадок
+работников, которые могут влиять на способность организации реализовать свою
+стратегию, миссию, цели η задачи.
+lcPhysicalAspectsOfSite Элемент разметки: < > (O)
+Атрибуты:
+id lcPhysicalAspectsOfSite (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcPhysicalAspectsOfSite>
+<description>
+<para>The maintenance location provided for couriers by the
+corporation is α single garage bay measuring 20-feet deep by 16-
+feet wide. Basic wrenches, pliers, screwdrivers, etc are within
+the work area. Lighting is in full working order. Various
+moveable stools and benches are scattered throughout. No other
+items are in the maintenance location.</para>
+</description>
+</lcPhysicalAspectsOfSite>
+2.2.4.3 Социальные условия на площадке
+lcSocialAspectsOfSite Описание: Элемент < > описывает социальные или
+культурные модели, особенности или нормы, которые влияют на производительность
+труда работников η на способность организации реализовать свою стратегию,
+миссию, цели η задачи.
+lcSocialAspectsOfSite Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 34

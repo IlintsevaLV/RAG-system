@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+applic_interact.xsd использования. См. .
+APPLIC • Создана группа " " σ нормальной моделью содержимого
+applic_static.xsd применимости для статического использования. См. .
+applic_static.xsd paracon_static.xsd • Включены файлы η . См.
+brexSchema.xsd crewSchema.xsd descriptSchema.xsd , , ,
+faultSchema.xsd ipdSchema.xsd procedSchema.xsd , , ,
+schedulSchema.xsd wrngdataSchema.xsd and ,
+wrngfldsSchema.xsd .
+paracon_capgrp.xsd descriptSchema.xsd • Включен файл . См. η
+procedSchema.xsd .
+paracon • Переопределена группа " ", которая теперь содержит элемент
+variable-ref < > для интерактивного использования β дополнение κ
+text list paracon_interact.xsd paracon- группам " " η " ". См. η
+static.xsd .
+precond applic • Элемент < > замещен элементом < > β моделях
+dialog menuchoice содержимого элемента < > η элемента < > для
+interact.xsd интерактивного использования. См. .
+paracon • Переопределена группа " ", которая теперь содержит группу
+CAPPCON " " для статических описательных η модулей данных технического
+text list обслуживания β дополнение κ группам " " η " ". См.
+paracon_capgrp.xsd paracon_static.xsd η .
+steps_static.xsd proced.xsd • Включен файл . См. .
+applic_interact.xsd paracon_interact.xsd • Включены файлы ,
+and steps_interact.xsd processSchema.xsd and . См.
+process.xsd .
+prelreqs closereqs • Элемент < > η элемент < > добавлены κ элементу
+process bodyatt < >. Ко многим элементам добавлена группа " " вместо
+id precond единственного атрибута . Элемент < > замещен элементом
+applic expression < >, содержащим элемент < > для интерактивного
+STEP1 использования. Группа " " добавлена β модель содержимого элемента
+dm-node process.xsd < > для интерактивного использования. См. .
+step2 STEP2 • Элемент < > замещен группой " " β модели содержимого
+step1 step3 STEP3 элемента < >. Элемент < > замещен группой " " β модели
+step2 step4 содержимого элемента < >. Элемент < > замещен группой
+STEP4 step3 step5 " " β модели содержимого элемента < >. Элемент < >
+STEP5 step4 замещен группой " " β модели содержимого элемента < >. См.
+steps.xsd .
+STEP1 STEP5 • Определены новые группы σ " " по " ", содержащие элементы σ
+step1 step5 step1-alt step5- < > по < > η новые элементы σ < > по <
+alt step1- > для интерактивного использования. Созданы элементы σ <
+alt step5-alt > по < >, содержащие обязательные повторяемые
+Действительно: Все Σ1000Δ-Α-07-03-0101-02Α-040Α-Α
+Глава 7.3.1.1.2
+2013-11-15 Страница 5

@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+day="04" month="09" year="2003"/> <security
+securityClassification="02"/> <responsiblePartnerCompany>
+<enterpriseName>C0419</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode="1Β-Δ9460-00100-00-CD"/> </pmRefAddressItems>
+<behavior linkActuate="onRequest"/> </pmRef> <pmRef>
+<pmRefIdent> <pmCode modelIdentCode="1Β" pmIssuer="Δ9460"
+pmNumber="00128" pmVolume="00"/> <language languageIsoCode="en"
+countryIsoCode="US"/> </pmRefIdent> <pmRefAddressItems>
+<pmTitle>Air vehicle maintenance</pmTitle> <issueDate day="04"
+month="09" year="2003"/> <security securityClassification="02"/>
+<responsiblePartnerCompany>
+<enterpriseName>C0419</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode="1Β-Δ9460-00100-00-CD"/> </pmRefAddressItems>
+<behavior linkActuate="onRequest"/> </pmRef> <pmRef>
+<pmRefIdent> <pmCode modelIdentCode="1Β" pmIssuer="Δ9460"
+pmNumber="01001" pmVolume="00"/> <issueInfo issueNumber="001"
+inWork="00"/> <language languageIsoCode="en"
+countryIsoCode="US"/> </pmRefIdent> <pmRefAddressItems>
+<pmTitle>IPD - Air vehicle</pmTitle> <issueDate day="04"
+month="09" year="2003"/> <security securityClassification="01"/>
+<responsiblePartnerCompany>
+<enterpriseName>C0419</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode="1Β-Δ9460-00100-00-CD"/> <pubMedia
+pubMediaType="Paper" pubMediaCode="1Β-Δ9460-01001-00-Π"/>
+</pmRefAddressItems> <behavior linkActuate="onRequest"/>
+</pmRef> </pmEntry> <pmEntry> <dmRef> <dmRefIdent> <dmCode
+modelIdentCode="F2" systemDiffCode="Α" systemCode="12"
+subSystemCode="0" sub-subsystemCodeSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="200" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent> </dmRef> </pmEntry> </pmEntry> <pmEntry>
+<pmEntryTitle>Engine publications. Example</pmEntryTitle>
+<pmRefIdent> <pmCode modelIdentCode="1Β" pmIssuer="Δ9460"
+pmNumber="00504" pmVolume="00"/> <issueInfo issueNumber="002"
+inWork="00"/> </pmRefIdent> <pmRefAddressItems> <pmTitle>Engine
+manual</pmTitle> <issueDate day="04" month="09" year="2003"/>
+<security securityClassification="02"/>
+<responsiblePartnerCompany>
+<enterpriseName>Δ3309</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode="1Β-Δ3309-0004"/> </pmRefAddressItems> <behavior
+linkActuate="onRequest"/> </pmRef> <pmRef> <pmRefIdent> <pmCode
+modelIdentCode="1Β" pmIssuer="Δ9460" pmNumber="00508"
+pmVolume="00"/> <issueInfo issueNumber="011" inWork="00"/>
+</pmRefIdent> <pmRefAddressItems> <pmTitle>IPD -
+Engine</pmTitle> <issueDate day="04" month="09" year="2003"/>
+<security securityClassification="01"/>
+Действительно: Все Σ1000Δ-Α-05-02-0120-00Α-040Α-Α
+Глава 5.2.1.20
+2013-11-15 Страница 11

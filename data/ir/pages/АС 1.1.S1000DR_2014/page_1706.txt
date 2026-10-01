@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<checkList checkListCategory="clc02">
+<checkListInfo>
+<checkListItems>
+<checkListItem>
+<itemNumber>7</itemNumber>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ02">
+<thresholdValue>Before</thresholdValue>
+</threshold>
+<equip>
+<name>Internal Fire Extinguishers</name>
+<catalogSeqNumberRef catalogSeqNumberValue="1"/>
+</equip>
+<checkListProcedure crewMemberType="cm52">
+<checkListStep>
+<para>Check engine compartment fire extinguisher.</para>
+<checkListStep>
+<para>Check wire or lead seals on engine compartment fire
+extinguisher.</para>
+<equipmentNotAvailable>
+<para>Wire or lead seals on engine compartment fire extinguisher
+are missing broken or improperly laced.</para>
+</equipmentNotAvailable>
+</checkListStep>
+<checkListStep>
+<note>
+<para>If engine compartment fire extinguisher is in yellow zone,
+notify unit maintenance after mission is completed.</para>
+</note>
+<para>Check that pressure gage on engine compartment fire
+extinguisher is in green or yellow zone. </para>
+<equipmentNotAvailable>
+<para>Pressure gage on engine compartment fire extinguisher
+reads in red zone. </para>
+</equipmentNotAvailable>
+</checkListStep>
+</checkListStep>
+</checkListProcedure>
+</checkListItem>
+<checkListItem>
+<itemNumber>8</itemNumber>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ51">
+<thresholdValue>After</thresholdValue>
+</threshold>
+<checkListProcedure>
+<checkListPara>
+<para></para>
+</checkListPara>
+</checkListProcedure>
+Действительно: Все Σ1000Δ-Α-03-09-0502-14Α-040Α-Α
+Глава 3.9.5.2.14
+2013-11-15 Страница 18

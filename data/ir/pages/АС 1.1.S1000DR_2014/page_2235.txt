@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+applic < > (C), комментарий по применимости, на который указывает ссылка. 
+См. Глава 3.9.5.3 .
+applicRef < > (C), ссылка на внешний комментарий по применимости, на 
+которую указывает ссылка. См. Глава 3.9.5.2.1.11 .
+Пример разметки:
+<dataUpdateFile>
+<updateIdentAndStatusSection>
+<updateAddress>
+<updateIdent>
+<updateCode objectIdentCode="UPF"
+modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="sx" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</updateIdent>
+...
+</updateAddress>
+<updateStatus>
+<sourceDmIdent>
+<dmCode modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="en" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</sourceDmIdent>
+...
+</updateStatus>
+<targetDmStatus>...</targetDmStatus>
+</updateIdentAndStatusSection>
+<content>
+<update>
+<insertObjectGroup>
+<insertObect targetPath="//partSpec[@id='part-0008']"
+insertOrder="before ">
+<partSpec id="part-0007" changeType="add">...</partSpec>
+<insertObject>
+</insertObjectGroup>
+</update>
+</content>
+</dataUpdateFile>
+2.4.2 Группа объектов для замены
+replaceObjectGroup Описание. Элемент < > содержит все фрагменты модуля
+данных, которые были изменены σ момента предыдущего издания модуля данных.
+При получении нового издания модуля данных эти фрагменты необходимо заменить.
+Действительно: Все Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 14

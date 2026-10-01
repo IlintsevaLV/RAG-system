@@ -1,0 +1,13 @@
+S1000DR-UACRU-01000-00
+ICN-S3627-S1000D0637-001-01
+address Рис. 4 Элемент < >
+Атрибуты:
+id address (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), ограничительные отметки. См. Глава 3.6 .
+Дочерние элементы:
+Действительно: Все S1000D-A-04-06-0100-00A-040A-A
+Глава 4.6.1
+2013-11-15 Страница 11

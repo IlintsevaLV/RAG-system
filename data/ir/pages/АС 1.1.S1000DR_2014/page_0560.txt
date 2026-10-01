@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+</para>
+3.2.2 Простой
+Β следующем примере показан простой произвольный перечень.
+<randomList listItemPrefix="pf01">
+<listItem><para>This is the first item.</para></listItem>
+<listItem>
+<para>This is the second item with two paras.</para>
+<para>This is the second para of the second item.</para>
+</listItem>
+</randomList>
+3.3 Перечень определений
+Β следующем примере показан перечень определений.
+<definitionList>
+<definitionListItem>
+<listItemTerm>Frame</listItemTerm>
+<listItemDefinition><para>The frame is the skeleton of the
+bicycle.</para></listItemDefinition></definitionListItem>
+<definitionListItem>
+<listItemTerm>Wheel</listItemTerm>
+<listItemDefinition><para>The wheel is the point of contact
+between the bicycle and the road for the bicycle to have
+movement.</para></listItemDefinition></definitionListItem>
+<definitionListItem>
+<listItemTerm>Spokes</listItemTerm>
+<listItemDefinition><para>The spokes are thick wires with
+tension applied that connect the hub to the rim. You can adjust
+the tension with the nipple on the rim
+side.</para></listItemDefinition></definitionListItem>
+<definitionListItem>
+<listItemTerm>Hub</listItemTerm>
+<listItemDefinition><para>The hub attaches to the center of the
+wheel where the axle and the bearings
+are.</para></listItemDefinition></definitionListItem>
+<definitionListItem>
+<listItemTerm>Metal rim</listItemTerm>
+<listItemDefinition><para>The metal rim is α metal ring that has
+α U-shaped cross section to hold the spokes on the inner side
+and the tire on the outer
+side.</para></listItemDefinition></definitionListItem>
+<definitionListItem>
+<listItemTerm>Seat</listItemTerm>
+<listItemDefinition><para>The Seat, which is also known as the
+'saddle', is used as the support platform for the person to sit
+on the bicycle.</para></listItemDefinition></definitionListItem>
+<definitionListItem>
+<listItemTerm>Seat post</listItemTerm>
+<listItemDefinition><para>The Seat post is used as α support
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Δ-040Α-Α
+Глава 3.9.5.2.1.3
+2013-11-15 Страница 11

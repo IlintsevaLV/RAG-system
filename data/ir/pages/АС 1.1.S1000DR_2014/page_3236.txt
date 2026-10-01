@@ -1,0 +1,16 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00019-A-01-1
+itemIdentData Рис. 21 Издание 4.1: Модель содержимого элемента < >
+procurementData 2.9 Данные по снабжению - элемент < >
+supplierCode optionalSupplierCode Элементы < > и < > в элементе
+procurementData enterpriseRef < > заменены на элемент < >.
+ICN-S1000D-A-07030104-0-FAPE3-00020-A-01-1
+procurementData Рис. 22 Издание 4.0.1: Модель содержимого элемента < >
+ICN-S1000D-A-07030104-0-FAPE3-00021-A-01-1
+procurementData Рис. 23 Издание 4.1: Модель содержимого элемента < >
+descrForItem 2.10 Использование деталей - элементы < > и
+usageCategory < >
+techData descrForItem В элементе < > элемент < > с атрибутом
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 14

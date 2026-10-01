@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+xlink:href="URN:Σ1000Δ:DMC-Σ1000Δ-Α-07-04-0101-00Α-040Α-Α">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000Δ" systemDiffCode="Α"
+systemCode="07" subSystemCode="0" subSubSystemCode="4"
+assyCode="0101" disassyCode="00" disassyCodeVariant="Α"
+infoCode="040" infoCodeVariant="Α" itemLocationCode="Α"/>
+<issueInfo issueNumber="002" inWork="00" issueType="changed"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techname>IETP</techname>
+<infoName>Generation process</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+Пример разметки фрагмента экземпляра модуля данных σ применением расширения
+кода модуля данных:
+<dmRef>
+<dmRefIdent>
+<identExtension extensionProducer="SF518"
+extensionCode="USER001"/>
+<dmCode modelIdentCode="Σ1000Δ" systemDiffCode="Α"
+systemCode="07" subSystemCode="0" subSubSystemCode="4"
+assyCode="0101" disassyCode="00" disassyCodeVariant="Α"
+infoCode="040" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+Пример разметки со сгенерированными атрибутами XLink, выделенными полужирным
+шрифтом:
+<dmRef xmlns:xlink="http://www.ω3.org/1999/xlink"
+xlink:type="simple"
+xlink:actuate="onRequest"
+xlink:show="replace"
+xlink:href="URN:Σ1000Δ:DME-SF518-USER001-Σ1000Δ-Α-07-04-0101-
+00Α-040Α-Α">
+<dmRefIdent>
+<identExtension extensionProducer="SF518"
+extensionCode="USER001"/>
+<dmCode modelIdentCode="Σ1000Δ" systemDiffCode="Α"
+systemCode="07" subSystemCode="0" subSubSystemCode="4"
+assyCode="0101" disassyCode="00" disassyCodeVariant="Α"
+infoCode="040" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+Примечание
+Β зависимости от требований просмотра конечного пользователя атрибут
+xlink:show new replace может принимать значение " " вместо значения " ".
+Действительно: Все Σ1000Δ-Α-07-04-0101-03Α-040Α-Α
+Конец модуля данных Глава 7.4.1.1.3
+2013-11-15 Страница 8

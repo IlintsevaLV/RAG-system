@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+<language languageIsoCode="en" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</sourceDmIdent>
+<targetDmIssueInfo inWork="00" issueNumber="002"/>
+<responsiblePartnerCompany enterpriseCode="U8025">
+<enterpriseName>UK MoD</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="U8025">
+<enterpriseName>UK MoD</enterpriseName>
+</originator>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-
+Δ00-00-00-00AA-022Α-Δ_007-00">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="022" infoCodeVariant="Α" itemLocationCode="Δ" />
+<issueInfo issueNumber="007" inWork="00" />
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance><unverified/></qualityAssurance>
+</updateStatus>
+2.3 Содержимое
+content Описание. Элемент < > включает β себя содержательную часть файла
+обновления данных.
+content Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-04130202-Α-FAPE3-00015-Α-001-01
+content Рис. 6 Элемент < >
+Атрибуты:
+id content (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+Дочерние элементы:
+refs < > (O). См. Глава 3.9.5.2.1.2 . 
+update < > (Μ). См. Разд. 2.4. 
+Пример разметки:
+Действительно: Все Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 9

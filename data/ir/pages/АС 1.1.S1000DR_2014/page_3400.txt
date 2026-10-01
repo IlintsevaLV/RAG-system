@@ -1,0 +1,34 @@
+S1000DR-UACRU-01000-00
+hyperbolicCosine " " 
+hyperbolicCotangent " " 
+hyperbolicSecant " " 
+hyperbolicSine " " 
+hyperbolicTangent " " 
+integerDivide " " 
+inverseCosine " " 
+inverseCosecant " " 
+inverseCotangent " " 
+inverseSine " " 
+inverseSecant " " 
+inverseTangent " " 
+lessThan " " 
+lessThanOrEqual " " 
+minus " " 
+modulus " " 
+naturalLogarithm " " 
+notEqual " " 
+negative " " 
+plus " " 
+secant " " 
+sine " " 
+squareRoot " " 
+tangent " " 
+times " " 
+Операции для работы с вещественными данными:
+commonLogarithm " " 
+cosecant " " 
+cosine " " 
+cotangent " " 
+Действительно: Все S1000D-A-07-06-0104-00A-040A-A
+Глава 7.6.1.4
+2013-11-15 Страница 14

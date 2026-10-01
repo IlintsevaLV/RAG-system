@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+Таблица 5 Пример узла if (Продолжение)
+Markup Строка
+<dmNode><!--Install side-pull brakes--> 27.
+<dmRef> 28.
+... 29.
+</dmRef> 30.
+</dmNode> 31.
+</dmThenSeq> 32.
+<dmElseSeq><!--Replace center-pull brakes--> 33.
+<dmNode><!--Remove center-pull brakes--> 34.
+<dmRef> 35.
+... 36.
+</dmRef> 37.
+</dmNode> 38.
+<dmNode><!--Repair center-pull brakes--> 39.
+<dmRef> 40.
+... 41.
+</dmRef> 42.
+</dmNode> 43.
+<dmNode><!--Install center-Pull Brakes--> 44.
+<dmRef> 45.
+... 46.
+</dmRef> 47.
+</dmNode> 48.
+</dmElseSeq> 49.
+</dmIf> 50.
+Обработка условного узла:
+Β приведенном выше примере логическое ядро вычисляет значение дочернего
+expression expression элемента < > (строки 7-15). Если элемент < > имеет
+true логическое значение " ", обрабатываются по порядку все узлы элемента
+dmThenSeq expression < > (строки 16-32). Если элемент < > имеет логическое
+false dmElseSeq значение " ", обрабатываются по порядку все узлы элемента < >
+Действительно: Все Σ1000Δ-Α-07-07-0200-00Α-040Α-Α
+Глава 7.7.2
+2013-11-15 Страница 7

@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+<para>fork/handlebar</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption id="ao_003" shuffle="1">
+<lcAnswerOptionContent>
+<description>
+<para>handlebar/headset</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+<lcAnswerOption id="ao_004" shuffle="1">
+<lcAnswerOptionContent>
+<description>
+<para>frame/handlebar</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+</lcSingleSelect>
+2.4.1.3.2 Содержимое варианта ответа
+lcAnswerOptionContent Описание. Элемент < > включает β себя содержимое
+варианта ответа на вопрос η может указывать на правильность или ошибочность
+варианта ответа.
+lcAnswerOptionContent Элемент разметки: < > (C)
+Атрибуты:
+id lcMatching (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+shuffle (O), используется для изменения порядка следования вариантов 
+ответа β рамках одного взаимодействия. Этот атрибут может иметь следующие
+значения:
+0 • " " - без смены порядка
+1 • " " - со сменой порядка
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C), описание элемента, β котором он содержится. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 14

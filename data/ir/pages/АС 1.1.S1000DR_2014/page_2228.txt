@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+objectIdentCode (Μ), тип объекта файла. Позволяет отличать файл 
+обновления данных от других объектов CSDB (модулей данных, модулей
+публикации η τ. δ.). Для файла обновления данных этот атрибут должен иметь
+значение:
+UPF • " ", файл обновления данных.
+modelIdentCode (Μ), идентификатор модели или имя проекта. См. Глава 
+4.3.1 .
+systemDiffCode (Μ), отличительный код системы. См. Глава 4.3.2 . 
+systemCode (Μ), код системы (часть SNS). См. Глава 4.3.3 . 
+subSystemCode (Μ), код подсистемы (часть SNS). См. Глава 4.3.3 . 
+subSubSystemCode (Μ), код подподсистемы (часть SNS). См. Глава 4.3.3 . 
+assyCode (Μ), код сборочной единицы. См. Глава 4.3.3 . 
+disassyCode (Μ), код демонтажа. См. Глава 4.3.4 . 
+disassyCodeVariant (Μ), вариант кода демонтажа. См. Глава 4.3.5 . 
+infoCode (Μ), информационный код. См. Глава 4.3.6 . 
+infoCodeVariant (Μ), вариант информационного кода. См. Глава 4.3.7 . 
+itemLocationCode (Μ), код расположения изделия. См. Глава 4.3.8 . 
+Дочерние элементы:
+Нет 
+Пример разметки:
+<dataUpdateFile>
+<updateIdentAndStatusSection>
+<updateAddress>
+<updateIdent>
+<updateCode objectIdentCode="UPF"
+modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="sx" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</updateIdent>
+<issueDate day="01" month="02" year="2011"/>
+</updateAddress>
+<updateStatus>...</updateStatus>
+<targetDmStatus>...</targetDmStatus>
+</updateIdentAndStatusSection>
+<content>...</content>
+</dataUpdateFile>
+Действительно: Все Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 7

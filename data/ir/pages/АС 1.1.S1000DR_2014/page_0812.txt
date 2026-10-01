@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+<observedFault faultCode="NYCJD02" id="flt-0001">
+<faultDescr>
+<descr>The lights are set to the dim position.</descr>
+</faultDescr>
+<contextAndIsolationInfo>
+<isolationInfo>
+<lruItem>
+<lru></lru>
+</lruItem>
+</isolationInfo>
+</contextAndIsolationInfo>
+</observedFault>
+2.5.5.2 Сведения ο локализации неисправности
+isolationInfo Описание. Элемент < > содержит диагностические сведения для
+наблюдаемой неисправности. Это делается путем ссылки σ помощью элемента
+faultIsolationRef < > или путем описания процесса диагностики σ помощью
+diagnosticProcess элемента < > или просто путем проверки конструктивно-
+lruItem сменного блока, указанного β элементе < >.
+isolationInfo Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+faultIsolationRef < > (O), ссылки на диагностические сведения для 
+refs наблюдаемой неисправности σ помощью элемента < >. См. Глава 3.9.5.2.1.2 .
+diagnosticProcess < > (O). См. Разд. 2.5.5.3. 
+lruItem < > (O). См. Разд. 2.5.3.1.1. 
+Пример разметки:
+<isolationInfo>
+<lruItem>
+<lru></lru>
+</lruItem>
+</isolationInfo>
+2.5.5.3 Диагностика
+diagnosticProcess Описание. Элемент < > содержит текстовое описание
+причины η ссылку на процедуру ремонта или любые задачи по локализации η
+ремонту η сведения ο неисправном конструктивно-сменном блоке.
+diagnosticProcess Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 30

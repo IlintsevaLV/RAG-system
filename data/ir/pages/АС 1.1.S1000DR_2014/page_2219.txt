@@ -1,0 +1,53 @@
+Например:
+Предыдущее издание целевого
+<partSpec id="part-0007">
+<partIdent partNumberValue="part0007"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+<partSpec id="part-0008">
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+</partSpec>
+<partSpec id="part-0009">
+<partIdent partNumberValue="part0009"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+Файл обновления данных:
+<deleteObject>
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+</deleteObject>
+Целевой модуль данных:
+<partSpec id="part-0007">
+<partIdent partNumberValue="part0007"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+<partSpec id="part-0009">
+<partIdent partNumberValue="part0009"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+Примечание
+Если решено оставить отметки
+получатель данных должен
+3.9.5.2.1.1 .
+Например:
+Предыдущее издание целевого
+<partSpec id="part-0007">
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+…</partSpec>
+<partSpec id="part-0008">
+<partIdent partNumberValue="part0008"
+manufacturerCodeValue="XXXXX"/>
+</partSpec>
+<partSpec id="part-0009">
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+модуля данных:
+ об изменениях для удаленных элементов, то
+применить отметки об изменениях. См. Глава
+модуля данных:
+Σ1000Δ-Α-04-13-0201-00Α-040Α-Α
+Глава 4.13.2.1
+2013-11-15 Страница 11

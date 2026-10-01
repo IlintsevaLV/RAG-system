@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+Дочерние элементы : Элемент может содержать текст вместе σ элементом
+acronymTerm < > (O), см. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<para>This is an example caption <caption color="co04"
+captionWidth="25mm"><captionLine>SPEED</captionLine>
+</caption> embedded in α paragraph.</para>
+3 Примеры
+<captionGroup cols="2" applicRefId="appl-001"
+changeMark="1" changeType="add" reasonForUpdateRefIds="rfu-01">
+<colspec colnum="1" colname="col1" colwidth="30mm"/>
+<colspec colnum="2" colname="col2" colwidth="30mm"/>
+<captionBody>
+<captionRow>
+<captionEntry colname="col1">
+<caption color="co04" captionWidth "30mm">
+<captionLine>ALTITUDE</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 miles</captionLine>
+</caption>
+</captionEntry>
+</captionRow>
+<captionRow>
+<captionEntry colname="col1">
+<caption color="co04" captionWidth="30mm">
+<captionLine>SPEED</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 mph</captionLine>
+</caption>
+</captionEntry>
+</captionRow>
+<captionRow>
+<captionEntry colname="col1">
+<caption color="co04" captionWidth="30mm">
+<captionLine>DISTANCE</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 miles</captionLine>
+</caption>
+</captionEntry>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01E-040Α-Α
+Глава 3.9.5.2.1.4
+2013-11-15 Страница 13

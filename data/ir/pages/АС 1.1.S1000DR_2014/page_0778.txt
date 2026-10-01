@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</safetyRqmts></reqSafety></preliminaryRqmts>
+<mainProcedure>
+<proceduralStep><para>Clean the bicycle with water to remove all
+dirt. Refer to <internalRef xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="#fig-0001" internalRefId="fig-
+0001" internalRefTargetType="irtt01"/>.</para>
+<figure id="fig-0001"><title>Cleaning the bike</title>
+<graphic xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="new" xlink:href="URN:Σ1000Δ:ICN-Σ1000DBIKE-AAA-
+Δ000000-0-U8025-00502-Α-04-1" xlink:title="Cleaning the bike"
+infoEntityIdent="ICN-Σ1000DBIKE-AAA-Δ000000-0-U8025-00502-Α-04-
+1"/></figure></proceduralStep>
+<proceduralStep><para>Use α <internalRef
+xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#seq-0002" internalRefId="seq-0002"
+internalRefTargetType="irtt05"/> to get access to areas that are
+not easy to clean. These are the shift levers, the knobbly
+tires, and the brakes.</para></proceduralStep>
+<proceduralStep><para>Clean the caked grime from the chain and
+the sprockets with α screwdriver that has α small
+blade.</para></proceduralStep>
+<proceduralStep><para>Remove the grease from the freewheel
+assembly with the <internalRef xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="#sup-0001"
+internalRefId="sup-0001" internalRefTargetType="irtt04"/> as
+shown in <internalRef xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="#fig-0002"
+internalRefId="fig-0002" internalRefTargetType="irtt01"/> . Use
+α brush to remove the grease from these parts:
+<randomList listItemPrefix="pf02">
+<listItem><para>sprockets</para></listItem>
+<listItem><para>guide and tension wheels of the
+derailleur</para></listItem>
+<listItem><para>chain ring teeth</para></listItem>
+</randomList></para>
+<figure id="fig-0002"><title>Degreasing the freehub</title>
+<graphic xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="new" xlink:href="URN:Σ1000Δ:ICN-Σ1000DBIKE-AAA-
+DA52000-0-U8025-00523-Α-04-1"
+xlink:title="Degreasing the freehub" infoEntityIdent="ICN-
+Σ1000DBIKE-AAA-DA52000-0-U8025-00523-Α-04-1"/></figure>
+</proceduralStep>
+<proceduralStep><para>Flush the sprockets, the derailleurs, the
+chain rings and the chain with water.</para>
+<note><notePara>If necessary, do the flush procedure
+again.</notePara></note></proceduralStep>
+<proceduralStep applicRefId="apMK1"><title>Wash the Bike</title>
+<proceduralStep><para>Soak the <internalRef
+xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#seq-0003" internalRefId="seq-0003"
+Действительно: Все Σ1000Δ-Α-03-09-0502-03Α-040Α-Α
+Глава 3.9.5.2.3
+2013-11-15 Страница 14

@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0002">
+<name>Specialist toolset</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr id="sup-0001">
+<name>General lubricant</name>
+<identNumber>
+<manufacturerCode>KZ222</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>LL-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity>As required</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares/>
+</reqSpares>
+<reqSafety>
+<noSafety/>
+</reqSafety>
+</preliminaryRqmts>
+2.1 Производственные данные по техническому обслуживанию
+productionMaintData Описание. Β элементе < > содержатся основные
+сведения, необходимые для планирования η подготовки выполнения задачи.
+productionMaintData Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 8

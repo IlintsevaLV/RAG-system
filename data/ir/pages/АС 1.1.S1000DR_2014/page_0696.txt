@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+natoCodificationBureau="99" natoItemIdentNumberCore="1234524"/>
+<catalogSeqNumberRef modelIdentCode=”E2” systemDiffCode=”Α”
+systemCode=”72” subSystemCode=”3” subSubSystemCode=”2”
+assyCode=”10” figureNumber=”01” figureNumberVariant=”Α”
+item=”010” itemVariant=”Α” itemLocationCode=”Δ”
+itemSeqNumberValue="00Α"/>
+<reqQuantity unitOfMeasure="EA">23</reqQuantity>
+<footnoteRemarks><footnoteRef internalRefId=”ftn-
+0001”</footnoteRef></footnoteRemarks>
+</spareDescr>
+<spareDescr id="spa-0752">
+<name>Retainer, Blade, LP Compressor</name>
+<natoStockNumber natoSupplyClass="2840"
+natoCodificationBureau="99" natoItemIdentNumberCore="1234584"/>
+<catalogSeqNumberRef modelIdentCode=”E2” systemDiffCode=”Α”
+systemCode=”72” subSystemCode=”3” subSubSystemCode=”2”
+assyCode=”10” figureNumber=”01” figureNumberVariant=”Α”
+item=”040” itemVariant=”Α” itemLocationCode=”Δ”
+itemSeqNumberValue="00Α"/>
+<reqQuantity unitOfMeasure="EA">23</reqQuantity>
+<footnoteRemarks><footnoteRef internalRefId=”ftn-
+0001”</footnoteRef></footnoteRemarks>
+<footnoteRemarks><footnoteRef internalRefId=”ftn-
+0001”</footnoteRef></footnoteRemarks>
+</spareDescr>
+<footnote id=”ftn-0001><para”>Make sure that the blade is the
+good one</para></footnote>
+</spareDescrGroup>
+</reqSpares>
+2.7.1 Описание запасной детали
+spareDescr Описание: Элемент < > содержит сведения по каждой единице
+запасной детали или по набору запасных деталей.
+ spareDescr id Β элементе < > можно использовать атрибут , что позволит
+указывать перекрестную ссылку на запасную деталь из процедуры.
+spareDescr Элемент разметки: < > (C)
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 65

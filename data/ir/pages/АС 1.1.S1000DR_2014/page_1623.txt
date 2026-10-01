@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</lcObjectiveItem>
+<lcObjectiveItem>
+<title>Enabling Objective for SCO 2</title>
+<description>
+<para>Describe the steps for installing and removing α bike'σ
+steering system.</para>
+</description>
+<lcContentIdentifierName>
+<description>
+<para>SCO 2 – Steering System Installation and Removal</para>
+</description>
+</lcContentIdentifierName>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="100" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ2Γ" learnEventCode="C"/>
+<issueInfo issueNumber="001" inWork="01"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+</dmRef>
+</lcObjectiveItem>
+</lcObjectiveItemGroup>
+</lcObjectiveItem>
+</lcObjectiveItemGroup>
+</lcLearningObjectives>
+</lcInterventionDefinition>
+<lcInterventionImplementation>
+<title>Intervention Implementation</title>
+<description>
+<para>The implementation of this intervention will be composed
+of the creation and institution of α computer-based training
+program that works in conjunction with hands-on practical
+exercises.</para>
+</description>
+</lcInterventionImplementation>
+<lcPerformanceEvaluation>
+<title>Performance Evaluation</title>
+<description>
+<para>The following information outlines the Performance
+evaluation.</para>
+</description>
+<lcFormativeEvaluation>
+<title>Formative Evaluation</title>
+<description>
+<para>Formative evaluation for this course is provided in the
+form of checks on learning that are spread out thoughout the
+lessons. In addition, the core lessons have quizzes that assess
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 139

@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+контактами диаметром 1,15 мм.
+<contactDescrGroup>
+<contactDescr>
+<contact contactIdent="1"/>
+<contactDiameter unitOfMeasure="mm">1,15</contactDiameter>
+<thermoCouplePlus>N</thermoCouplePlus>
+<thermoCoupleMinus>N</thermoCoupleMinus>
+<specialTerminal>N</specialTerminal>
+<coaxialCableFlag>N</coaxialCableFlag>
+<triaxialCableFlag>N</triaxialCableFlag>
+<terminationModuleGroupingValue>1
+</terminationModuleGroupingValue>
+<blockGroupingValue>1</blockGroupingValue>
+<shuntGroupingValue>1</shuntGroupingValue>
+</contactDescr>
+<contactDescr>
+<contact contactIdent="2"/>
+<contactDiameter unitOfMeasure="mm">1,15</contactDiameter>
+<thermoCouplePlus>N</thermoCouplePlus>
+<thermoCoupleMinus>N</thermoCoupleMinus>
+<specialTerminal>N</specialTerminal>
+<coaxialCableFlag>N</coaxialCableFlag>
+<triaxialCableFlag>N</triaxialCableFlag>
+<terminationModuleGroupingValue>1
+</terminationModuleGroupingValue>
+<blockGroupingValue>1</blockGroupingValue>
+<shuntGroupingValue>1</shuntGroupingValue>
+</contactDescr>
+<contactDescr>
+<contact contactIdent="3"/>
+<contactDiameter unitOfMeasure="mm">1,15</contactDiameter>
+<thermoCouplePlus>N</thermoCouplePlus>
+<thermoCoupleMinus>N</thermoCoupleMinus>
+<specialTerminal>N</specialTerminal>
+<coaxialCableFlag>N</coaxialCableFlag>
+<triaxialCableFlag>N</triaxialCableFlag>
+<terminationModuleGroupingValue>1
+</terminationModuleGroupingValue>
+<blockGroupingValue>1</blockGroupingValue>
+<shuntGroupingValue>2</shuntGroupingValue>
+</contactDescr>
+<contactDescr>
+<contact contactIdent="4"/>
+<contactDiameter unitOfMeasure="mm">1,15</contactDiameter>
+<thermoCouplePlus>N</thermoCouplePlus>
+<thermoCoupleMinus>N</thermoCoupleMinus>
+<specialTerminal>N</specialTerminal>
+<coaxialCableFlag>N</coaxialCableFlag>
+<triaxialCableFlag>N</triaxialCableFlag>
+<terminationModuleGroupingValue>1
+Действительно: Все Σ1000Δ-Α-03-09-0502-09F-040Α-Α
+Глава 3.9.5.2.9.5
+2013-11-15 Страница 11

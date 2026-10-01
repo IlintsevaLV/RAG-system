@@ -1,0 +1,68 @@
+securityClassification 
+caveat (O), отметки ο
+Дочерние элементы:
+warning < > (C), при включении 
+id. См. Разд. 2.1.
+caution < > (C), при включении 
+id. См. Разд. 2.2.
+Пример разметки:
+<warningsAndCautions>
+<warning id="warn-0001">
+<warningAndCautionPara>The
+warnings and cautions,
+module.</warningAndCautionPara>
+</warning>
+<warning id="warn-0002">
+<warningAndCautionPara>The
+warnings and cautions,
+module.</warningAndCautionPara>
+</warning>
+<caution id="caut-0001">
+<warningAndCautionPara>The
+warnings and cautions,
+module.</warningAndCautionPara>
+</caution>
+</warningsAndCautions>
+...
+<reqSafety>
+<safetyRqmts warningRefs="warn-0001"
+<warning>
+<warningAndCautionPara>Some
+collection.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+...
+<table>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry warningRefs="warn-0001
+0001"></entry>
+<entry>
+<caution>
+<warningAndCautionPara>Α
+authored in the applicable
+</caution>
+</entry>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+commercialClassification (O), (O) η
+секретности η ограничениях. См. Глава 3.6 .
+ β коллекцию необходимо использовать атрибут
+ β коллекцию необходимо использовать атрибут
+ first warning in the collection of
+used multiple times within the data
+ secnd warning in the collection of
+used multiple times within the data
+ first caution in the collection of
+used multiple times within the data
+ cautionRefs="caut-0001">
+ other warning, not included in the
+ warn-0002" cautionRefs="caut-
+caution that is used only once and
+ table entry.</warningAndCautionPara>
+Σ1000Δ-Α-03-09-0300-00Α-040Α-Α
+Глава 3.9.3
+2013-11-15 Страница 21

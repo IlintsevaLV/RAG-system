@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0508-001-01
+detectedFault Рис. 8 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id isolatedFault (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+faultCode (Μ), код отказа, присваиваемый β рамках процесса логистического 
+анализа
+authorityName authorityDocument (O) η (O) используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11
+Дочерние элементы:
+faultDescr < > (C). См. Разд. 2.5.1.1. 
+detectionInfo < > (O). См. Разд. 2.5.1.3. 
+isolateDetectedFault < > (O). См. Разд. 2.5.3.1. 
+remarks < > (O). См. Глава 3.9.5.1 . 
+Пример разметки:
+<detectedFault id="flt-0002" faultCode="NYCJD00">
+<faultDescr>
+<descr>The rear wheel does not operate correctly</descr>
+</faultDescr>
+<detectionInfo detectionType="Major">
+<detectedLruItem>
+<lru>
+<name>Tire</name>
+<identNumber>
+<manufacturerCode>KT666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>TIRES-010101</partNumber>
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 20

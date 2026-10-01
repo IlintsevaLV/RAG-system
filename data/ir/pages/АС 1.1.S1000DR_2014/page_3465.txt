@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+Таблица 7 Пример альтернативных вариантов последовательности узлов
+Строка Разметка
+<referencedApplicGroup> 1.
+<applic id="appl-001"> 2.
+<assert applicPropertyIdent="BicyclePartnum" 3.
+applicPropertyType="prodattr"
+applicPropertyValues="MC-168119"/>
+</applic> 4.
+<applic id="appl-002"> 5.
+<assert applicPropertyIdent="BicyclePartnum" 6.
+applicPropertyType="prodattr"
+applicPropertyValues="MC-168234"/>
+</applic> 7.
+</referencedApplicGroup>... 8.
+<process> 9.
+<variableDeclarations> 10.
+<variable name="BrakesOK" valueType="boolean"/> 11.
+... 12.
+</variableDeclarations> 13.
+... 14.
+<dmSeq> 15.
+<dmNode> 16.
+<dialog> 17.
+<menu choiceType="select" mandatory="1" 18.
+menuChoiceFlow="list">
+<prompt><paraBasic>Do the brakes work? 19.
+</paraBasic></prompt>
+<menuChoice> 20.
+<prompt><paraBasic>Yes</paraBasic></prompt> 21.
+<assertion> 22.
+<variableRef variableName="BrakesOK"/> 23.
+<expression> 24.
+<booleanValue><trueValue/></booleanValue>
+</expression>
+Действительно: Все Σ1000Δ-Α-07-07-0200-00Α-040Α-Α
+Глава 7.7.2
+2013-11-15 Страница 10

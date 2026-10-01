@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+descrSolderSleeve Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+descrPartNumber < > (C), описание обозначения компонента. См. Разд. 2.5.6. 
+descrAltPartNumber < > (Μ), описание альтернативного обозначения 
+компонента. См. Разд. 2.6.1.
+descrManufacturerCode < > (O), описание кода изготовителя См. 
+Разд. 2.6.2.
+descrLength < > (O), описание длины. См. Разд. 2.5.12. 
+descrMaterial < > (O), описание сведений ο материале. См. Разд. 2.8.2.2. 
+descrMass < > (O), описание сведений ο массе. См. Разд. 2.8.1.1. 
+descrMinDiameter < > (O), описание минимального диаметра 
+descrMaxDiameter < > (O), описание максимального диаметра 
+descrFunctionalDescrRef < > (O), описание ссылки на функциональное 
+описание. См. Разд. 2.5.32.
+descrIllustrationRef < > (O), описание ссылки на иллюстрацию См. 
+Разд. 2.5.33.
+Пример разметки:
+minDiameter Β следующем примере разметки показано определение элементов < >
+maxDiameter η < > β данных кабельной муфты.
+<descrMinDiameter>
+<fieldName>Entry diameter 'δ' min</fieldName>
+<descr>The entry diameter 'δ' min describes the minimum diameter
+of the stripped wires in the center of the solder
+sleeve.</descr>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β" systemCode="91"
+subSystemCode="0" sub-subsystemCode="0" assyCode="33"
+disassyCode="08" disassyCodeVariant="Α" infoCode="040"
+infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+</descrMinDiameter>
+<descrMaxDiameter>
+<fieldName>Entry diameter 'Δ' max</fieldName>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Π-040Α-Α
+Глава 3.9.5.2.9.13
+2013-11-15 Страница 38

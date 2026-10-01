@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+β правильном порядке.
+Например, можно проверить, что введенные пять (5) символов являются CAGE-
+CAGEC кодом. Используется переменная состояния , α выражение подтверждения
+CAGEC выглядит следующим образом [sizeOf ( ) = 5]. Введенное пользователем
+значение, содержащее меньше или больше 5 символов, считается неверным.
+validate Элемент разметки: < >
+ICN-76301-Σ1000Δ0026-001-01
+validate Рис. 8 Элемент < >
+Атрибуты:
+errorMessage (O), текст, выводимый пользователю при ошибке проверки. 
+Дочерние элементы:
+expression < > (Μ). См. Глава 3.9.5.2.10.3 . 
+Пример разметки:
+<validate errorMessage="Age must be within 4 to 100">
+<expression>
+<expression>
+<expression>
+<variableRef variableName="age"/>
+</expression>
+<numberOperator numberOperation="greaterThanOrEqual"/>
+<expression>
+<integerValue>4</integerValue>
+</expression>
+</expression>
+<booleanOperator booleanOperation="and"/>
+<expression>
+<expression>
+<variableRef variableName="age"/>
+</expression>
+<numberOperator numberOperation="lessThanOrEqual"/>
+<expression>
+<integerValue>100</integerValue>
+</expression>
+</expression>
+</expression>
+</validate>
+2.2.1.5 Кнопка
+pushButton Описание. Элемент < > дает возможность получать данные для ввода
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 17

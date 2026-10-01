@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+descrPositionOnNextHigherAssy < > (O), описание расположения β 
+сборочной единице вышестоящего уровня
+descrMaxMountingPositions < > (O), описание максимального количества 
+позиций монтажа
+descrSystemBreakdownCode < > (O), описание кода разбиения системы 
+descrSiblingPlugIdent < > (O), описание обозначения составного разъема 
+descrTransverseLink < > (O), описание сведений ο пересекающейся связи 
+descrConnectionListClass < > (O), описание класса перечня соединений 
+descrElectricalContact < > (O), описание контакта электрического 
+соединения
+descrElectricalStateDescr < > (O), описание сведений об электрическом 
+состоянии
+descrResponsiblePartnerCompany < > (O), описание сведений об 
+ответственной компании-контрагенте. См. Разд. 2.5.26.
+descrEquipName < > (O), описание названия оборудования 
+descrReqQuantity < > (O), описание сведений ο количестве 
+descrEquipDescrRef < > (O), описание ссылки на описание оборудования 
+descrFunctionalDescrRef < > (O), описание ссылки на функциональное 
+описание. См. Разд. 2.5.32.
+descrIllustrationRef < > (O), описание ссылки на иллюстрацию См. 
+Разд. 2.5.33.
+Пример разметки:
+<descrElectricalEquip>
+<descrFunctionalItemRef>
+<fieldName>Functional item</fieldName>
+<descr>Each item of equipment within α system / circuit is
+identified by its circuit code with α sequential number before
+it, eg 1AG. If items of equipment are used by more than one
+system, they are identified by the use of α systems letter V.
+The systems letter V will have an equipment sequential number
+before it. The second letter after the V identifies the type of
+equipment used and is identified within the system V. Connectors
+are identified by an additional letter. The letter will come
+after the equipment ident, eg 1AGA.</descr>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β" systemCode="91"
+subSystemCode="0" sub-subsystemCode="0" assyCode="12"
+disassyCode="02" disassyCodeVariant="Α" infoCode="018"
+infoCodeVariant="Α" itemLocationCode="Α"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Π-040Α-Α
+Глава 3.9.5.2.9.13
+2013-11-15 Страница 24

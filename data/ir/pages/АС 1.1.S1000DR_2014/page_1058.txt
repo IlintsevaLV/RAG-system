@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<wireIdent>
+<wireNumber>UR0443FD</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="3209VVB"/>
+<contactInfo>
+<contact contactIdent="U"/>
+<wireConnectionCode>
+<electricalPotential>
+<terminationModuleGroupingValue>01</terminationModuleGroupingVal
+ue>
+<blockGroupingValue>01</blockGroupingValue>
+<shuntGroupingValue>06</shuntGroupingValue>
+<contactOrderValue>21</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>04</networkAnalysisCode>
+</contactInfo>
+</fromEquip>
+<toEquip>
+<functionalItemRef functionalItemNumber="61UR"/>
+<contactInfo>
+<contact contactIdent="Α1"/>
+<wireConnectionCode>
+<electricalPotential>
+<blockGroupingValue>02</blockGroupingValue>
+<shuntGroupingValue>02</shuntGroupingValue>
+<contactOrderValue>101</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>04</networkAnalysisCode>
+</contactInfo>
+</toEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+<wire wireState="active">
+<wireIdent>
+<wireNumber>UR0443FE</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="3209VVB"/>
+<contactInfo>
+<contact contactIdent="Τ"/>
+<wireConnectionCode>
+<electricalPotential>
+<terminationModuleGroupingValue>01</terminationModuleGroupingVal
+ue>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 50

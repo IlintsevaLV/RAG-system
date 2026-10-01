@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+</lcRequiredFinances>
+<lcRequiredPersonnel>
+<description>
+<para>The current bicycle repair technician will serve as α
+facilitator during the practical exercise portion of the
+training as well as the grader for the hands-on test at the end
+of the training.</para>
+</description>
+</lcRequiredPersonnel>
+<lcRequiredFacilities>
+<description>
+<para>The current bicycle repair area will be used for the
+practical exercises and end of training hands-on test.</para>
+</description>
+</lcRequiredFacilities>
+<lcRequiredEquipment>
+<description>
+<para>Couriers may take the computer portion of the training
+using one of Speedy Courier'σ office computer workstations or
+they may take α CD of the training to be completed at home. The
+current bicycle repair equipment will be used for the practical
+exercises and end of training hands-on test.</para>
+</description>
+</lcRequiredEquipment>
+<lcLocalCulture>
+<description>
+<para>Most of the couriers take classes at the local community
+college. Many view their jobs as α necessity and have poor
+attitudes toward improving their performance.</para>
+</description>
+</lcLocalCulture>
+</lcTrainingComponent>
+2.4.2.4.1 Тип обучения
+lcTrainingType Описание: Элемент < > определяет категорию планируемого
+обучения.
+lcTrainingType Элемент разметки: < > (O)
+Атрибуты:
+id lcTrainingType (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 84

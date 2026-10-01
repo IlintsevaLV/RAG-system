@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+Использование заголовков шагов процедуры:
+title Решение об использовании β шагах элемента < > η порядке его 
+использования.
+2.4.4 Предупреждения, предостережения η примечания
+Предупреждение, предостережение или примечание или ссылка на предупреждение
+proceduralStep или предостережение, размещенная β шаге (элемент < >),
+proceduralStep применяется ко всем подшагам (элемент < >). Обратное
+утверждение неверно.
+3 Примеры
+3.1 Отказ от использования альтернативных вариантов
+Ниже приведен пример разметки процедуры без использования альтернативных
+вариантов.
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<reqCondNoRef>
+<reqCond>The bicycle is outdoors</reqCond>
+</reqCondNoRef></reqCondGroup>
+<reqPersons applicRefId="apMK9">
+<person man="Α">
+<personCategory personCategoryCode="Chemical technician"/>
+<personSkill skillLevelCode="sk02"/>
+<trade>Bike cleaner</trade>
+<estimatedTime unitOfMeasure="η">1,0</estimatedTime>
+</person></reqPersons>
+<reqPersons applicRefId="apMK1">
+<person man="Β">
+<personCategory personCategoryCode="Operator"/>
+<personSkill skillLevelCode="sk02"/>
+<trade>Bike rider</trade>
+<estimatedTime unitOfMeasure="η">1,0</estimatedTime>
+</person></reqPersons>
+<reqSupportEquips><supportEquipDescrGroup>
+<supportEquipDescr id="seq-0001"><name>Water hose</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-001-09</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0002">
+<name>Stiff bristle brush</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-001-02</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="seq-0003"><name>Sponge</name>
+Действительно: Все Σ1000Δ-Α-03-09-0502-03Α-040Α-Α
+Глава 3.9.5.2.3
+2013-11-15 Страница 12

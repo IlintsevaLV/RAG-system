@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+<title>Duration</title>
+<lcTime>
+<description>
+<para>It should take no more than 1 hour and 30 minutes to
+complete this course.</para>
+</description>
+</lcTime>
+</lcDuration>
+2.2.1 Время
+lcTime Описание. Элемент < > задает ожидаемое время на прохождение обучения.
+lcTime Элемент разметки: < > (O)
+Атрибуты:
+id lcTime (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcTime>
+<description>
+<para>It should take no more than 1 hour and 30 minutes to
+complete this course.</para>
+</description>
+</lcTime>
+2.3 Ресурсы
+lcResources Описание. Β элементе < > содержится перечень связанных ресурсов
+η сведений ο них, таких как связанные статьи или примеры β Интернете.
+lcResources Элемент разметки: < > (O)
+Атрибуты:
+id lcResources (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13C-040Α-Α
+Глава 3.9.5.2.13.2
+2013-11-15 Страница 6

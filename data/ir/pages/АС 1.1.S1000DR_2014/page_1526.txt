@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+<lcProfessionalBackground>
+<description>
+<para>The typical bike courier at Speedy Bike has limited or no
+professional experience in any career field. The majority are
+college students employed part-time by the bike courier
+company.</para>
+</description>
+</lcProfessionalBackground>
+2.2.5.6 Знания
+lcKnowledge Описание: Элемент < > описывает текущий уровень знаний
+учащегося, необходимых для выполнения его рабочих задач.
+lcKnowledge Элемент разметки: < > (C)
+Атрибуты:
+id lcKnowledge (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcKnowledge>
+<description>
+<para>Based on α survey of Speedy Bike Couriers, it was
+concluded that the majority (90%) know the major common
+components and assemblies of α bike. This includes being able to
+describe the basic mechanical functions and relationships
+between those components and assemblies.</para>
+</description>
+</lcKnowledge>
+2.2.5.7 Квалификация
+lcSkills Описание: Элемент < > описывает текущий уровень квалификации
+учащегося, необходимой для выполнения его рабочих задач.
+lcSkills Элемент разметки: < > (O)
+Атрибуты:
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 42

@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+предоставляет связь между атрибутом применимости интегратора или значением
+атрибута применимости η эквивалентным атрибутом применимости поставщика или
+значением атрибута применимости. Тип связи объектов должен иметь значение
+alias " ".
+Ниже приводится пример внешней ссылки:
+Модуль данных ACT для двигателя:
+<dmodule>
+<identAndStatusSection>
+dmAddress </dmAddress < >DMC-ENG-AAA-XX-XX-XX-00AA-00WA-Α >
+<dmStatus>
+...
+<responsiblePartnerCompany>ENG data
+provider</ResponsiblePartnerCompany>
+...
+</dmStatus>
+...
+<content>
+<applicCrossRefTable>
+<productAttributeList>
+productAttribute " " < id= model />
+</productAttributeList>
+</applicCrossRefTable>
+</content>
+</dmodule>
+Модуль данных ACT для летательного аппарата:
+<dmodule>
+<identAndStatusSection>
+dmAddress </dmAddress < >DMC-AIR-AAA-XX-XX-XX-00AA-00WA-Α >
+<dmStatus>
+...
+<responsiblePartnerCompany>AIR data
+provider</ResponsiblePartnerCompany>
+...
+</dmStatus>
+...
+<content>
+<applicCrossRefTable>
+<productAttributeList>
+productAttribute " " =" "/ < id= engineModel aliasFlag 1 >
+</productAttributeList>
+</applicCrossRefTable>
+</content>
+</dmodule>
+Модуль данных каталога ACT:
+<dmodule>
+<identAndStatusSection>
+Действительно: Все Σ1000Δ-Α-04-14-0400-00Α-040Α-Α
+Глава 4.14.4
+2013-11-15 Страница 8

@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<snsCode>30</snsCode>
+<snsTitle>Ice and rain protection</snsTitle>
+<snsSubSystem>
+<snsCode>0</snsCode>
+<snsTitle>General</snsTitle>
+<snsSubSubSystem>
+<snsCode>0</snsCode>
+<snsTitle>General</snsTitle>
+</snsSubSubSystem>
+</snsSubSystem>
+<snsSubSystem>
+<snsCode>1</snsCode>
+<snsTitle>Air foil</snsTitle>
+<snsSubSubSystem>
+<snsCode>0</snsCode>
+<snsTitle>Air foil general</snsTitle>
+</snsSubSubSystem>
+</snsSubSystem>
+<snsSubSystem>
+<snsCode>2</snsCode>
+<snsTitle>Air intakes</snsTitle>
+</snsSubSystem>
+<snsSubSystem>
+<snsCode>3</snsCode>
+<snsTitle>Pitot and static</snsTitle>
+</snsSubSystem>
+<snsSubSystem>
+<snsCode>4</snsCode>
+<snsTitle>Windows, windshields, canopies and doors</snsTitle>
+</snsSubSystem>
+<snsSubSystem>
+<snsCode>5</snsCode>
+<snsTitle>Antennas and radomes</snsTitle>
+</snsSubSystem>
+<snsSubSystem>
+<snsCode>6</snsCode>
+<snsTitle>Propellers/rotors</snsTitle>
+</snsSubSystem>
+</snsSystem>
+</snsDescr>
+</snsRules>
+<!-- Α structure rule specific to the comment schema -->
+<contextRules rulesContext="http://www.σ1000δ.org/Σ1000Δ_4-
+0/xml_schema/comment/commentSchema.xsd">
+<structureObjectRuleGroup>
+<structureObjectRule>
+<objectPath allowedObjectFlag="2">//comment</objectPath>
+<objectUse>The comment object is not applied to these
+projects</objectUse>
+</structureObjectRule>
+Действительно: Все Σ1000Δ-Α-04-10-0200-00Α-040Α-Α
+Глава 4.10.2
+2013-11-15 Страница 5

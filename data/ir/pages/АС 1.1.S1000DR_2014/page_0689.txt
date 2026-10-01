@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+Примечание
+noSupplies При использовании элемента < > β представлении будет создано
+слово "None" (Нет). Β странично-ориентированном представлении значение "None"
+приводится β столбце наименования таблицы расходных материалов, материалов
+η изделий одноразового применения.
+Если расходные материалы необходимы, то должен использоваться элемент
+supplyDescr supplyDescrGroup < > внутри элемента < > для каждого
+расходного материала, материала η изделий одноразового применения.
+Пример разметки:
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr id="suppliedBy-0054">
+<name>Oil, Engine, Gas Turbine</name>
+<identNumber><manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>OIL-HHGA</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="Λ">2,0</reqQuantity>
+</supplyDescr>
+<supplyDescr id="suppliedBy-0302">
+<name>Grease, Lubricating</name>
+<identNumber><manufacturerCode>K0378</manufacturerCode>
+<partAndSerialNumber><partNumber>GRL-6726</partNumber>
+</partAndSerialNumber></identNumber>
+<reqQuantity unitOfMeasure="Λ">0,5</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+2.6.1 Описание расходных материалов η изделий одноразового применения
+supplyDescr Описание: Элемент < > содержит сведения по каждой единице
+расходных материалов η изделий одноразового применения или по их набору.
+supplyDescr id Β элементе < > можно использовать атрибут , что позволит
+указывать перекрестную ссылку на расходный материал из процедуры.
+supplyDescr Элемент разметки: < > (C)
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 58

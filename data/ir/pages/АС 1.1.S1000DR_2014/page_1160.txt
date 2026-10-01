@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+descrFeedThru < > (O), описание сведений ο выводе 
+descrWireRoute < > (O), описание кода прокладки провода 
+descrRestriction < > (O), описание ограничений провода 
+descrNextHigherAssy < > (O), описание сведений ο следующей сборочной 
+единице вышестоящего уровня
+descrFunctionalDescrRef < > (O), описание ссылки на функциональное 
+описание
+descrIllustrationRef < > (O), описание ссылки на иллюстрацию 
+Пример разметки:
+<descrWire><descrWireNumber>...</descrWireNumber></descrWire>
+2.5.1 Описание кода цепи
+descrCircuitIdent Описание. Элемент < > содержит дочерние элементы, β
+которых указываются название для конкретного проекта или организации, краткое
+описание η ссылка на другие модули данных или публикации для элемента кода
+circuitIdent wireIdent цепи < > β элементе < >. См. Разд. 2.4.
+descrCircuitIdent Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+См. Разд. 2.4. 
+Пример разметки:
+<descrCircuitIdent>
+<fieldName>Circuit Code</fieldName>
+<descr>Aircraft electrical systems are identified by α primary
+alphabetic letter, eg Α = Armament. Α circuit within α system is
+identified by the primary alphabetic letter (system
+identification) and α secondary letter (sub system
+identification). Both letters together make the circuit code, eg
+AG = Gun System.</descr>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β" systemCode="91"
+subSystemCode="0" sub-subsystemCode="0" assyCode="12"
+disassyCode="03" disassyCodeVariant="Α" infoCode="018"
+infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Π-040Α-Α
+Глава 3.9.5.2.9.13
+2013-11-15 Страница 9

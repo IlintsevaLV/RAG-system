@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+<dmNode>
+<proceduralStep> 98
+<title>Introduction</title> 99
+<para>Dear <variableRef variableName="name"/>, because you 100
+are an inexperienced user, you will be presented α brief
+introduction on how to operate α bicycle.</para>
+</proceduralStep> 101
+<proceduralStep> 102
+<para>Click <emphasis>next</emphasis>.</para> 103
+</proceduralStep> 104
+</dmNode> 105
+<dmNode> 106
+<dmRef 107
+xlink:href="DMC_Σ1000DBIKE_AAA_Δ00_00_00_00AA_043Α_Α">
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="00"
+disassyCodeVariant="00" infoCode="43Α" infoCodeVariant="Α"
+itemLocationCode="Α" modelIdentCode="Σ1000DBIKE"
+subSubSystemCode="0" subSystemCode="Δ" systemCode="AAA"
+systemDiffCode="ALL"/>
+</dmRefIdent>
+</dmRef>
+</dmNode> 108
+<dmNode> 109
+<proceduralStep> 110
+<title>Did you really read the instructions?</title> 111
+<para>Before you can proceed to the practical section of 112
+this manual, you will be given α simple question to test
+whether you read the instructions carefully.</para>
+</proceduralStep> 113
+</dmNode> 114
+<dmNode> 115
+<dialog> 116
+<menu choiceSelection="single" choiceType="select"> 117
+<prompt><paraBasic>The rear brake is operated 118
+by</paraBasic></prompt>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10F-040Α-Α
+Глава 3.9.5.2.10.5
+2013-11-15 Страница 8

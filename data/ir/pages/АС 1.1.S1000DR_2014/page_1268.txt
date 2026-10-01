@@ -1,0 +1,22 @@
+35
+</externalApplication> 36
+<assertion> 37
+<variableRef 38
+<expression> 39
+<stringValue>scrap</stringValue> 40
+</expression> 41
+</assertion> 42
+</menuChoice> 43
+</menu> 44
+</dialog> 45
+Рис. 17 Пример меню пользовательского
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+<send><stringValue>scrap.wav</stringValue></send>
+variableName="BrakeSound"/>
+ICN-Σ1000Δ-Α-030905-Α-99994-00004-Α-01-1
+ диалога σ вызовом внешнего приложения
+Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 32

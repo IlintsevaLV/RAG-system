@@ -1,0 +1,44 @@
+</techData>
+<partRefGroup>
+<optionalPart>
+<partRef partNumberValue="Μ24308-2-288"
+manufacturerCodeValue="81349"/>
+</optionalPart>
+<optionalPart>
+<partRef partNumberValue="NSA938361-05"
+manufacturerCodeValue="F5442"/>
+</optionalPart>
+</partRefGroup>
+</partSpec>
+<partSpec>
+<partIdent
+manufacturerCodeValue="C2683"/>
+<itemIdentData>
+<descrForPart>PANEL-INSIDE
+<partKeyword>PANEL</partKeyword>
+</itemIdentData>
+<procurementData>
+<enterpriseRef
+enterpriseType="supplier"/>
+<enterpriseRef
+enterpriseType="optionalSupplier"/>
+</procurementData>
+<techData>
+<sparePartClass
+<partUsage partUsageCode="pu20"/>
+</techData>
+</partSpec>
+</partRepository>
+</commonRepository>
+Действительно: Все
+Конец
+
+Σ1000DR-UACRU-01000-00
+partNumberValue="0008037-802"
+ CONTROL</dezcrForPart>
+manufacturerCode="C2683"
+manufacturerCode="C2686"
+sparePartClassCode="2"/>
+Σ1000Δ-Α-03-09-0502-11Δ-040Α-Α
+модуля данных Глава 3.9.5.2.11.3
+2013-11-15 Страница 5

@@ -1,0 +1,33 @@
+S1000DR-UACRU-01000-00
+correlatedFaultAlts • < >
+warningMalfunctionAlts • < >
+assocWarningMalfunctionAlts • < >
+bitMessageAlts • < >
+isolationStepAlts • < >
+isolationProcedureEndAlts • < >
+в модулях данных планирования ТО: 
+taskDefinitionAlts • < >
+в модулях данных информации по схемам электрооборудования: 
+wireAlts • < >
+harnessAlts • < >
+electricalEquipAlts • < >
+в процессных модулях данных: 
+dialogAlts • < >
+dmNodeAlts • < >
+dmSeqAlts • < >
+proceduralStepAlts • < >
+messageAlts • < >
+в модулях данных CIR и модулях данных обновления: 
+functionalItemAlts • < >
+circuitBreakerAlts • < >
+zoneAlts • < >
+accessPointAlts • < >
+toolAlts • < >
+supplyRqmtAlts • < >
+Реализация групп альтернативных вариантов в содержимом модуля данных является
+необязательной.
+Принятие решения о правиле выполнения проекта BRDP-S1-00382 -
+Использование групп альтернативных вариантов в содержимом модуля
+Действительно: Все S1000D-A-04-13-0300-00A-040A-A
+Глава 4.13.3
+2013-11-15 Страница 3

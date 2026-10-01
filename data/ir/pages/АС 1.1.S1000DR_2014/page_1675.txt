@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+lcAnswerOptionContent < > (O). См. Разд. 2.4.1.3.2. 
+lcSequence < > (O). См. Разд. 2.4.4.2.1. 
+Пример разметки:
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Reinstall the tube.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="1"/>
+</lcSequenceOption>
+2.4.4.2.1 Порядок следования
+lcSequence Описание. Элемент < > содержит позицию варианта порядка
+следования β оценочном взаимодействии.
+lcSequence Элемент разметки: < > (O)
+Атрибуты:
+id lcMatchTable (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+lcValue (O), значение, задающее порядок следования для 
+lcSequenceOption < >
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<lcSequence lcName="lcSequence" lcValue="7"/>
+2.4.5 Сопоставление
+lcMatching Описание. Элемент < > включает β себя пункты ответа σ
+соответствующими им ответами β виде таблицы соответствия. Во взаимодействии σ
+сопоставлением ответы представляются β таблице соответствия. Во взаимодействии
+σ сопоставлением проходящего оценку просят связать между собой два пункта из
+перечня со множеством вариантов.
+lcMatching Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 32

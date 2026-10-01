@@ -1,0 +1,72 @@
+<dmTitle><techName>Bicycle</techName>
+<infoName>Pre-operation
+</dmTitle>
+</dmRefAddressItems>
+<partAndSerialNumber><partNumber>Ch-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+</equip></equipGroup>
+<limit limitCond="Dirty">
+<threshold
+<thresholdValue>1</thresholdValue>
+</threshold>
+<inspectionType
+<trigger><refs><dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef></refs></trigger>
+</limit>
+</taskDefinition>
+<taskDefinition
+worthinessLimit="recommended"
+reducedMaint="No">
+<task><taskDescr><simplePara>Clean
+bearings</simplePara></taskDescr></task>
+<preliminaryRqmts>
+<reqCondGroup>
+<reqCondDm>
+<reqCond>Rear wheel
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="DA0"
+assyCode="00" disassyCode="00"
+infoCode="520" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef></reqCondDm>
+</reqCondGroup>
+<reqPersons>
+<person man="Β">
+<personCategory
+<personSkill skillLevelCode="sk03"/>
+<trade>Bicycle mechanic</trade>
+<estimatedTime
+</person>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+procedures (crew)</infoName>
+</dmRef></refs><equipGroup><equip><name>Chain</name>
+<identNumber><manufacturerCode>KZ555</manufacturerCode>
+thresholdUnitOfMeasure="θ03">
+inspectionTypeCategory="Monthly"/>
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+applicRefId="appl-001" taskIdent="005"
+ the hub
+removed</reqCond>
+ systemDiffCode="AAA"
+subSystemCode="2" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+personCategoryCode="Supervisor"/>
+unitOfMeasure="HR">0,75 η</estimatedTime>
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 50

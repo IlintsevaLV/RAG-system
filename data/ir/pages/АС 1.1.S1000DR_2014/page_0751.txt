@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+that indicated by these column headings, the proper frequency is
+indicated in the appropriate column.</para>
+</commonInfoDescrPara>
+<commonInfoDescrPara>
+<para>Work time requirements for individual items are stated in
+the Ω/Τ column.</para>
+</commonInfoDescrPara>
+</commonInfo>
+para Пример 2: Использование единственного элемента < >:
+<commonInfo>
+<title>Condition Inspection</title>
+<para>Operators have periodically experienced fram vibration and
+have had difficulty identifying the cause of vibration.
+Troubleshooting frame vibration can consume α number of man-
+hours and cause considerable amount of concern. This procedure
+proivdes α compliation of known causes of frame vibration and
+the required corrective action.</para>
+</commonInfo>
+commonInfoDescrParaAlts Пример 3: Использование < >:
+<commonInfo>
+<title>Special Instructions</title>
+<commonInfoDescrParaAlts>
+<commonInfoDescrPara applicRefId="app-0001">
+<para>The columns headed I and Π are used to indicate the
+requirements for Intermediate and Periodic inspections
+respectively. When item is required with α frequency other than
+that indicated by these column headings, the proper frequency is
+indicated in the appropriate column.</para>
+<para>Work time requirements for individual items are stated in
+the Ω/Τ column.</para>
+</commonInfoDescrPara>
+<commonInfoDescrPara applicRefId="app-0002">
+<para>The columns headed Α and Β are used to indicate the
+requirements for Intermediate and Periodic inspections
+respectively. When item is required with α frequency other than
+that indicated by these column headings, the proper frequency is
+indicated in the appropriate column.</para>
+<para>Work time requirements for individual items are stated in
+the Ω/Τ column.</para>
+</commonInfoDescrPara>
+</commonInfoDescrParaAlts>
+</commonInfo>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01N-040Α-Α
+Конец модуля данных Глава 3.9.5.2.1.12
+2013-11-15 Страница 6

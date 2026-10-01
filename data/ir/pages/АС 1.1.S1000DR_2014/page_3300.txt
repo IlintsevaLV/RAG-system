@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+itemSeqNumber < > Для позиций β неструктурированном каталоге
+figureNumber идентификатор составляется из атрибутов ,
+figureNumberVariant item itemVariant , , . Необходимо отметить, что
+catalogSequenceNumber поскольку υ элемента < > атрибуты
+figureNumberVariant itemNumberVariant η не всегда используются,
+чтобы получить действительное η уникальное значение идентификатора XML,
+рекомендуется ставить на их месте β идентификаторе дефис.
+Рекомендуемое соглашение об именовании значений идентификаторов заключается β
+следующем:
+1 Использовать первые три символа имени элемента.
+2 Добавлять порядковый (контрольный) номер (предварительно поставив перед ним
+один дефис), который является уникальным β рамках модуля данных
+Примеры:
+<figure id="fig001">
+<graphic id="fig002-gra02" infoEntityIdent="ICN-Σ1000Δ-Α-
+004002-Γ-Σ7282-00151-Α-01-1">
+<symbol id="sym123" infoEntityIdent="ICN-Σ1000Δ-Α-316200-0-
+F0214-00352-Α-01-1">
+<catalogSeqNumber id="csn-53251001-008-00Α">
+<catalogSeqNumber Пример позиции β каталоге, представленной элементом
+systemCode=”53” subSystemCode=”2” subSubSystemCode=”5”
+assyCode=”10” figureNumber=”01” item=”008”> η номера ISN,
+<itemSeqNumber itemSeqNumberValue="00Α"> представленного элементом β
+модуле данных структурированного иллюстрированного каталога деталей.
+<catalogSeqNumber id="csn-01-008-00Α">
+<catalogSeqNumber Пример позиции β каталоге, представленной элементом
+figureNumber=”01” item=”008”> and ISN represented by element
+<itemSeqNumber itemSeqNumberValue="00Α"> β модуле данных
+неструктурированного иллюстрированного каталога деталей.
+<listItemTerm id="fig001-trm03">
+2.2 Графика η графические активные участки
+Графические активные участки задаются β Σ1000Δ β модулях данных XML как
+hotspot graphic подэлементы < > элемента < >. Пример фрагмента ХМL-схемы
+приведен ниже:
+<xs:element name="graphic">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="hotspot" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element ref="reasonForAmendment" minOccurs="0"
+maxOccurs="unbounded"/>
+Действительно: Все Σ1000Δ-Α-07-04-0101-03Α-040Α-Α
+Глава 7.4.1.1.3
+2013-11-15 Страница 3

@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+Основной раздел для сведений ο редакции σ содержимым
+<sbRevisionInfo>
+<sbTopic sbTopicType="sbtt21">
+<title>Additional Work</title>
+<sbTopicContent>
+...
+</sbTopicContent>
+</sbTopic>
+<sbTopic sbTopicType="sbtt22">
+<title>Reason</title>
+<sbTopicContent>
+...
+</sbTopicContent>
+</sbTopic>
+<sbTopic sbTopicType="sbtt23">
+<title>Revision history</title>
+<sbTopicContent>
+<para>This document is the first issue of the Service
+Bulletin</para>
+</sbTopicContent>
+</sbTopic>
+<sbTopic sbTopicType="sbtt24">
+<title>Revision sequence</title>
+<sbTopicContent>
+<para>Original issue date: April 14θ,2010
+</para>
+</sbTopicContent>
+</sbTopic>
+</sbRevisionInfo>
+Примечание
+Разрешенный перечень типов разделов см. β Разд. 2.3.3.2.
+2.3.3.1 Нет сведений
+noInfo Описание. Элемент < > представляет собой маркер отсутствия сведений β
+основных разделах, разделах или описании материалов β сервисном бюллетене. Там,
+noInfo где используется элемент < >, разрешается уточнять контекст σ помощью
+текста.
+noInfo Элемент разметки: < > (Μ)
+Атрибуты:
+Нет 
+Дочерние элементы:
+Нет 
+2.3.3.2 Раздел сервисного бюллетеня
+sbTopic Описание. Элемент < > содержит необходимые сведения для основных
+описательных разделов сервисного бюллетеня (сведения ο редакции, сводку,
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Α-040Α-Α
+Глава 3.9.5.2.15
+2013-11-15 Страница 8

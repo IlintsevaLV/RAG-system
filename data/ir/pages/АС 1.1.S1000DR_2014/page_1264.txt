@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+<paraBasic>Play audio sounds</paraBasic>
+<send><stringValue>squeak.wav</stringValue></send> 11
+</externalApplication> 12
+</pushButton> 13
+<assertion> 14
+<variableRef variableName="BrakeSound"/> 15
+<expression> 16
+<stringValue>squeak</stringValue> 17
+</expression> 18
+</assertion> 19
+</menuChoice> 20
+<menuChoice menuChoiceDefaultFlag="0"> 21
+<prompt><paraBasic>Clanking</paraBasic></prompt> 22
+<pushButton> 23
+<prompt><paraBasic>Sample</paraBasic></prompt> 24
+<externalApplication application="sound"> 25
+<paraBasic>Play audio sounds</paraBasic> 26
+<send><stringValue>clank.wav</stringValue></send> 27
+</externalApplication> 28
+</pushButton> 29
+<assertion> 30
+<variableRef variableName="BrakeSound"/> 31
+<expression> 32
+<stringValue>clank</stringValue> 33
+</expression> 34
+</assertion> 35
+</menuChoice> 36
+<menuChoice menuChoiceDefaultFlag="0"> 37
+<prompt><paraBasic>Scraping</paraBasic></prompt> 38
+<pushButton> 39
+<prompt><paraBasic>Sample</paraBasic></prompt> 40
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 28

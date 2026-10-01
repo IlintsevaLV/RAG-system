@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты:
+frontMatterInfoType (O), тип служебной информации. Значения этого 
+атрибута можно использовать для управления представлением содержимого, α
+также указания названия фактической служебной информации. Этот атрибут
+может иметь следующие значения:
+fmi01 fmi99 • " " до " ". См. Глава 3.9.6.1 .
+Дочерние элементы:
+title < > (O). См. Разд. 2.3.1.15.1. 
+reducedPara < > (C). См. Разд. 2.3.1.15.2. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00301 -
+frontMatterInfo Использование элемента < > :
+Решение об использовании η порядке использования элемента 
+frontMatterInfo < >, включая допустимые значения атрибута
+frontMatterInfoType η их отображение β виде названий при
+представлении. См. Глава 3.9.6.1 .
+Примечание
+title Содержимое элемента < > имеет приоритет над значением атрибута
+frontMatterInfoType при представлении.
+Пример разметки:
+frontMatterInfoType fmi01 Это пример общих сведений = " " σ введенным
+вручную названием:
+<frontMatterInfo frontMatterInfoType="fmi01">
+<title>Notice to the reader:</title>
+<reducedPara>This publication contains highly sophistcated
+stuff. Read it with:
+<reducedRandomList listItemPrefix="pf03">
+<reducedRandomListItem>
+<reducedListItemPara>reflection</reducedListItemPara>
+</reducedRandomListItem>
+<reducedRandomListItem>
+<reducedListItemPara>pride</reducedListItemPara>
+</reducedRandomListItem>
+</reducedRandomList>
+</reducedPara>
+</frontMatterInfo>
+frontMatterInfoType fmi02 Это пример сведений об изготовителе = " " σ
+fmi02 автоматически сформированным названием, взятым из значения " ". Эти
+сведения представляются на титульном листе:
+<frontMatterInfo frontMatterInfoType="fmi02"></>
+Действительно: Все Σ1000Δ-Α-03-09-0502-16Α-040Α-Α
+Глава 3.9.5.2.16
+2013-11-15 Страница 22

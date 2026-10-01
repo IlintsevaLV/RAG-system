@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+zoneNumber="110"/></zoneRefGroup>
+<zoneAlts>
+<zoneAlt applicRefId="appl-001">
+<itemDescr>LOWER THIRD OF FUSELAGE (BELOW CABIN FLOOR) INCLUDING
+RADOME TO FORWARD FACE OF REAR PRESSURE BULKHEAD NOSE CONE
+STA650 TO FR95</itemDescr>
+<zoneSide zoneSideValue="lr"/>
+<boundaryFrom><boundary><quantity><quantityGroup
+quantityGroupType="nominal">
+<quantityValue>0</quantityValue></quantityGroup></quantity>
+<quantity><quantityGroup quantityGroupType="nominal">
+<quantityValue>650</quantityValue></quantityGroup></quantity></β
+oundary>
+</boundaryFrom>
+<boundaryTo><boundary><quantity><quantityGroup
+quantityGroupType="nominal">
+<quantityValue>95</quantityValue></quantityGroup></quantity>
+<quantity><quantityGroup quantityGroupType="nominal">
+<quantityValue>0</quantityValue></quantityGroup></quantity></bou
+ndary>
+</boundaryTo>
+<internalRef internalRefId="fig-0001"
+internalRefTargetType="irtt01"/>
+</zoneAlt>
+</zoneAlts>
+</zoneSpec>
+<zoneSpec zoneType="subzone">
+<zoneIdent zoneNumber="110"/>
+<zoneRefGroup zoneRefType="belongsto"><zoneRef
+zoneNumber="100"/></zoneRefGroup>
+<zoneAlts>
+<zoneAlt applicRefId="appl-001">
+<itemDescr>Lower Deck Forward Cargo Compartment Rigth zoneSide -
+limitRangeFrom lower Side of Pax floor limitRangeTo upper
+zoneSide of cargo floor</itemDescr>
+<boundaryFrom><boundary><quantity><quantityGroup
+quantityGroupType="nominal">
+<quantityValue>0</quantityValue></quantityGroup></quantity><quan
+tity><quantityGroup quantityGroupType="nominal">
+<quantityValue>650</quantityValue></quantityGroup></quantity></β
+oundary>
+</boundaryFrom>
+<boundaryTo><boundary><quantity><quantityGroup
+quantityGroupType="nominal">
+<quantityValue>0</quantityValue></quantityGroup></quantity>
+<quantity><quantityGroup quantityGroupType="nominal">
+<quantityValue>0</quantityValue></quantityGroup></quantity></bou
+ndary>
+</boundaryTo>
+<internalRef internalRefId="fig-0001"
+Действительно: Все Σ1000Δ-Α-03-09-0502-11E-040Α-Α
+Глава 3.9.5.2.11.4
+2013-11-15 Страница 11

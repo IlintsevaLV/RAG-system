@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+Файл обновления данных:
+<reinstateObject targetPath="//partSpec[@id='part-0009']"
+insertionOrder=”before”>
+<partSpec id="part-0008" changeType="add">…</partSpec>
+</reinstateObject>
+Целевой модуль данных:
+<partSpec id="part-0007">…</partSpec>
+<partSpec id="part-0008" changeType="add">…</partSpec>
+<partSpec id="part-0009">…</partSpec>
+Если удаленные элементы отмечены как удаленные, то нужно применить то же 
+правило, что η для замены элементов. См. Разд. 2.5.2.5.2.
+Примечание
+Β этом случае поставщику данных не нужно заполнять два атрибута
+targetPath insertionOrder η .
+Например:
+Предыдущее издание целевого модуля данных:
+<partSpec id="part-0007">…</partSpec>
+<partSpec id="part-0008" changeType="deleted">…</partSpec>
+<partSpec id="part-0009">…</partSpec>
+Файл обновления данных:
+<reinstateObject>
+<partSpec id="part-0008" changeType="modify">…</partSpec>
+</insertObject>
+Целевой модуль данных:
+<partSpec id="part-0007">…</partSpec>
+<partSpec id="part-0008" changeType="modify">…</partSpec>
+<partSpec id="part-0009">…</partSpec>
+Действительно: Все Σ1000Δ-Α-04-13-0201-00Α-040Α-Α
+Конец модуля данных Глава 4.13.2.1
+2013-11-15 Страница 13

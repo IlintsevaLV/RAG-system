@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+multimedia < > (O). См. Глава 3.9.5.2.1.7 . 
+multimediaAlts < > (O). См. Глава 3.9.5.2.1.7 . 
+foldout < > (O). См. Глава 3.9.5.2.1.7 . 
+table < > (O). См. Глава 3.9.5.2.1.6 . 
+caption < > (O). См. Глава 3.9.5.2.1.4 . 
+Пример разметки:
+<dmNode>
+<proceduralStep>
+<title>Practical part</title>
+<para>Take the bicycle from the garage.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Clean the dust from the bicycle.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Sit on the bike.</para>
+</proceduralStep>
+<proceduralStep>
+<para>...and (RIDE)!</para>
+</proceduralStep>
+</dmNode>
+2.3.1.3 Группа альтернативных вариантов шага процедуры
+proceduralStepAlts Описание. Элемент < > обеспечивает возможность
+группировки β одной структуре нескольких возможных шагов для отображения. Β
+зависимости от сведений ο применимости, присвоенных элементу
+proceduralStep proceduralStepAlts < > внутри элемента < >, отображается
+один шаг данных или ни одного. Дополнительные сведения ο понятии группы
+альтернативных вариантов см. β Разд. 2.3.2 η Глава 4.13.3 .
+proceduralStepAlts Элемент разметки: < > (O)
+ICN-76301-Σ1000Δ0009-001-01
+proceduralStepAlts Рис. 8 Элемент < >
+Атрибуты:
+id proceduralStepAlts (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Β-040Α-Α
+Глава 3.9.5.2.10.1
+2013-11-15 Страница 17

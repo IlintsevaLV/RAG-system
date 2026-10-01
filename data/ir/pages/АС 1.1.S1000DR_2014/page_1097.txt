@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+electricalEquip < > (Μ), информация об электрическом оборудовании. См. 
+Разд. 2.
+Пример разметки:
+<wiringData>
+<electricalEquipGroup>
+<electricalEquipAlts>
+<electricalEquip equipState="active" applicRefId="app-0001">
+<functionalItemRef .../>
+<partNumber>...</partNumber>
+<connectionListClass>...</connectionListClass>
+<electricalLogic>...</electricalLogic>
+<responsiblePartnerCompany>...</responsiblePartnerCompany>
+<equipName>...</equipName>
+<installationInfo>...</installationInfo>
+</electricalEquip>
+<electricalEquip equipState="inactive" applicRefId="app-0002">
+<functionalItemRef .../>
+<partNumber>...</partNumber>
+<connectionListClass>...</connectionListClass>
+<electricalLogic>...</electricalLogic>
+<responsiblePartnerCompany>...</responsiblePartnerCompany>
+<equipName>...</equipName>
+<installationInfo>...</installationInfo>
+</electricalEquip>
+</electricalEquipAlts>
+</electricalEquipGroup>
+</wiringData>
+3 Пример разметки
+3.1 Неоднократно используемое электрооборудование
+ installationIdent Β следующем примере показано использование атрибута
+для неоднократно используемого электрооборудования. Оборудование Μ35001 OXY
+BOX (PSU) σ номером функционального элемента Μ35001 используется, как указано
+β данном примере, четыре раза. Функциональный элемент также называется
+элементом позиционного обозначения. Четыре образца электрооборудования
+соединены σ Δ35150Π через Δ35153Π. См. Рис. 1
+Элемент разметки также показывает ссылку на четвертый образец Δ35153Π во
+electricalEquip втором экземпляре элемента < >.
+Действительно: Все Σ1000Δ-Α-03-09-0502-09E-040Α-Α
+Глава 3.9.5.2.9.4
+2013-11-15 Страница 19

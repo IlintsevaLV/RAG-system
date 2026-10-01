@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcAssessmentComponent < > (O). См. Параграф 2.4.2.5.1.1 . 
+Пример разметки:
+<lcAssessmentStrategy>
+<title>Assessment Strategy</title>
+<description>
+<para>The following information outlines the assessment
+strategies for the Basic Bike Awareness course.</para>
+</description>
+<lcAssessmentComponent>
+<title>Computer-based Assessment Component</title>
+<description>
+<para>The following information outlines the assessment strategy
+for the computer-based portion of the training.</para>
+</description>
+<lcMasteryScoreCriteria>
+<description>
+<para>80% mastery of all lesson tests</para>
+</description>
+</lcMasteryScoreCriteria>
+<lcPerformanceRubric>
+<description>
+<para>QUESTION: Which part of the steering system supplies the
+sideways swiveling action that allows the rider to steer the
+bike?</para>
+<para>ANSWER:Headset</para>
+</description>
+</lcPerformanceRubric>
+<lcScoringMethod>
+<description>
+<para>The lesson tests are scored using computer programming
+built into the training.</para>
+</description>
+</lcScoringMethod>
+<lcMinimumPassThreshold>
+<description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 91

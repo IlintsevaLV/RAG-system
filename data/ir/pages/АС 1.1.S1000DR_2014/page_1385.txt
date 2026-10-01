@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+3 Пример
+<referencedApplicGroup>
+<applic id="appl-001">
+<displayText>
+<simplePara>Version: Α SN: 001-009</simplePara>
+</displayText>
+<evaluate andOr="and">
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValues="001~009"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Α"/>
+</evaluate>
+</applic>
+<applic id="appl-002">
+<displayText>
+<simplePara>Version: Α SN: 010-015</simplePara>
+</displayText>
+<evaluate andOr="and">
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValues="010~015"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Α"/>
+</evaluate>
+</applic>
+</referencedApplicGroup>
+...
+<commonRepository>
+<figure><title>Access panels - Figure 1</title>
+<graphic infoEntityIdent="ICN-AE-Α-00000000-Z-SF518-00000-Α-01-
+1"
+id="fig-0001"/>
+</figure>
+<accessPointRepository>
+<accessPointSpec id="ap00">
+<accessPointIdent accessPointNumber="123BF"></accessPointIdent>
+<accessPointRef accessPointRefType="contains"
+accessPointNumber="123Β"/>
+<accessPointAlts>
+<accessPointAlt altNumber="1" applicRefId="appl-001">
+<name>Forward Cargo Panel</name>
+<shortname>Panel</Shortname>
+<accessPointType
+accessPointTypeValue="accpnl01"></accessPointType>
+<zoneRef>
+<name>Lower Deck Forward Cargo Compartment Right side</name>
+</zoneRef>
+<accessTo><functionalItemRef functionalItemNumber="4000-EM-1"
+functionalItemType="exact">
+<name>INTERNAL STRUCTURE,
+Действительно: Все Σ1000Δ-Α-03-09-0502-11F-040Α-Α
+Глава 3.9.5.2.11.5
+2013-11-15 Страница 13

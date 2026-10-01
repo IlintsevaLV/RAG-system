@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+content < > (Μ). См. Разд. 2.3. 
+Пример разметки:
+<scormContentPackage>
+<identAndStatusSection>…</identAndStatusSection>
+<content>...</content>
+</scormContentPackage>
+2.2 Идентификационно-статусная часть
+identAndStatusSection Описание: Элемент < > является одной из двух частей
+пакета содержимого SCORM. Идентификационно-статусная часть содержит все
+идентификационные элементы, необходимые для именования пакета содержимого
+SCORM η управления им. Она также содержит статусные элементы σ информацией
+ο безопасности η качестве всего пакета содержимого SCORM.
+identAndStatusSection Элемент разметки: < >
+ICN-1654N-Σ1000Δ0048-001-01
+identAndStatusSection Рис. 2 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+scormContentPackageAddress < > (Μ). См. Разд. 2.2.1. 
+scormContentPackageStatus < > (Μ). См. Разд. 2.2.2. 
+lom < > (O). См. Разд. 2.2.3. 
+Пример разметки:
+<identAndStatusSection>
+<scormContentPackageAddress>…</scormContentPackageAddress>
+<scormContentPackageStatus>…</scormContentPackageStatus>
+<lom>…</lom>
+</identAndStatusSection>
+2.2.1 Адрес пакета содержимого SCORM
+scormContentPackageAddress Описание: Элемент < > используется для
+указания кода η названия пакета содержимого SCORM.
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 4

@@ -1,0 +1,42 @@
+S1000DR-UACRU-01000-00
+warningRepository • Добавлены новые элементы < > и
+cautionRepository < > и их дочерние элементы к элементу
+commonRepository < >.
+warningsAndCautionsRef • Добавлен новый элемент < > и его дочерние
+warningsAndCautions элементы в качестве выбора к элементу < > в
+content элементе < >.
+CPF 2007-003AA - Включение групп альтернативных вариантов 
+figure • Элемент < > заменен новой группой элементов
+figureElemGroup figure < >, предлагающей выбор между элементом < >
+figureAlts и новым элементом < >.
+multimedia • Элемент < > заменен новой группой элементов
+multimediaElemGroup < >, предлагающей выбор между элементом
+multimedia multimediaAlts < > и новым элементом < >.
+dmNodeAlt dmNodeAlts • Элемент < > переименован в < >.
+dialogAlt dialogAlts • Элемент < > переименован в < >.
+messageAlt messageAlts • Элемент < > переименован в < >.
+proceduralStepAlt • Элемент < > переименован в
+proceduralStepAlts < > и добавлен в качестве варианта для
+proceduralStep < >. Примечание. В результате чего
+proceduralStep < > больше не переопределяется в процедурной схеме.
+commonInfoDecsrParaAlts • Добавлен новый элемент < > в качестве
+commonInfoDecsrPara варианта в элементе < >.
+levelledParaAlts • Добавлен новый элемент < > в качестве варианта в
+levelledPara элементе < >.
+isolationStepAlts • Добавлены новые элементы < > и
+isolationProcedureEndAlts < > в качестве варианта в элементы
+isolationStep isolationProcedureEnd < > и < >.
+isolatedFaultAlts • Добавлены новые элементы < >,
+detectedFaultAlts observedFaultAlts < >, < >,
+correlatedFaultAlts < > в качестве варианта к элементам
+isolatedFault detectedFault observedFault < >, < >, < > и
+correlatedFault < >.
+warningMalfunctionAlts • Добавлены новые элементы < >,
+assocWarningMalfunctionAlts bitMessageAlts < > и < > в
+warningMalfunction качестве варианта к элементам < >,
+assocWarningMalfunction bitMessage < > и < >.
+taskDefinitionAlts • Добавлен новый элемент < > в качестве варианта в
+taskDefinition элементе < >.
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 2

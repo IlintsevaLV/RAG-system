@@ -2,15 +2,662 @@
   "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
   "source_path": "C:\\Users\\l.ilyintseva\\Desktop\\RAG-system\\data\\raw\\ПОЛ_ о проведении сертификации по п.п.603,613_2008.pdf",
   "page_count": 12,
-  "pages": [],
+  "pages": [
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 1,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "МЕЖГОСУДАРСТВЕННЫЙ АВИАЦИОННЫЙ КОМИТЕТ\nАВИАЦИОННЫЙ РЕГИСТР\nСЕРТИФИКАЦИОННЫЙ ЦЕНТР «МАТЕРИАЛ»\nПОЛОЖЕНИЕ\nО проведении сертификации по п.п. 603,613 СБ АП\nи П.п. 603,613 и 615 СБ АП-ОЛС\nМосква 2008\n148",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.96848125,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0001_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.96848125,
+        "ocr_lines": 8,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.125
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 12751
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 2,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "2\n1. Назначение и область применения\n1.1. Настоящее Положение определяет требования к объёму и порядку работ\nп.п.603 и 613 Авиационных Правил ( АП-23, АП-25, АП-27 и АП-29 ) и п.п. 603,613 и 615 АП-ОЛС при проведении сертификации воздушного судна, а\nименно\n• процедуру\n• перечень документов\n• форму представления документов\n1.2.\n• (ии\nматериал\nуказанием их производителей\nноменклатура и значения расчетных характеристик (характеристик\nэлементов конструкции) иии ио и\n1 подтверждающее достаточность Обоснование, содержащее методики определения расчетных характеристик объема первичных\nсоответствии с АП экспериментальных данных для определения расчетных характеристик в\n• методы контроля уровня и стабильности служебных свойств, вклочая\nрасчетные характеристики, материалов силовых элементов.\n2. Модели проведения сертификационных работ\n2.1. В соответствии с Циркуляром «Порядок оценки соответствия материалов,\nиспользуемых в конструкции воздушного судна, требованиям Авиационных\n• Правил», возможны две модели проведения сертификационных работ По прямому соответствию Циркуляра (прямое соответствие)\n• Ho модели, определяемой специальным планом проведения\n2.2. сертификационных работ (эквивалентное соответствие)\nмакетной комиссии стандарты организации в соответствии с Циркуляром,\nпредварительный перечень материалов основных силовых элементов (ОСЭ)\nи их производителей, списки назначенных инженерных представителей О и (\nквалификации материалов. Модель прямого соответствия применяется к\nвновь разработанным материалам, материалам, не применяемым ранее и в\n• При проведении сертификации по модели эквивалентного соответствия на\nэтапе макета предоставляется на согласование нлан квалификации\nматериалов. Модель эквивалентного применяется для материалов, ранее\nи я хнии киэ\nэлементах и изготовлснных теми же производителями и по той\nнормативной докумснтации в том случас, если опыт применения материала\nht",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.9345129333333333,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0002_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.9345129333333333,
+        "ocr_lines": 75,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.227
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 23481
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 3,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "3\n2.3. Β целях обеспечения надлежащего уровня служебных свойств\nматериалов ОСЭ XI η стабильности при серийном производстве,\nпроизводитель этих материалов должен иметь сертификат (одобрение) АР\nMAK.\nη 613 СБ АП-23, АП-25, АП-27 η АП-29 η перечень предоставляемых 3. Процедура проведения сертификационных работ β обеспечение π.π 603\nдокументов.\n3.1. Разработчик авиационной техники (далее Заявитель) после подачи Заявки β\nмакетной АР МАК на проведение сертификации типа воздушного судна κ моменту комиссии подготавливает η предоставляет предварительный\nперечень материалов ОСэ β соответствии σ π.2. настоящего Положения η\nβ обоснование соответствующих пунктов АП. график согласования σ авиационными властями (СЦ η АРМАК) документов\n3.2. Заявитель, β случае необходимости, β месячный срок после проведения\nмакетной комиссии подает заявку β АР МАК на разрешение применения\nмодели эквивалентного соответствия для материалов, используемых β\nвоздушном судне, σ приложением обоснования, квалификации материалов, претендующих на модель эквивалентного списка η нланов\nсоответствию •\n3.3.\nсертификационными центрами (Сц), выдает разрешительное письмо на\nприменение модели эквивалентного соответствия для заявленных материалов\n3.4. Заявитель подготавливает η передает на согласование β соответствующие СЦ\nΒ случае применения метода эквивалентного соответствия для _каких-либо\nматериалов - порядок (план) квалификации этих материалов\nПлан-график проведения работ по квалификации иСпользуемых\nматериалов;\nсогласованный СЦ \"Прочность\" (Приложение 1). Перечень материалов для ОСЭ конструкции, подписанный Заявителем η\nпо установленной форме, подписанную Заявителем (β СЦ Материал) Спецификацию на применяемые β конструкции металлические материалы\nчисле η композиционные) ο α иин ии η ν ифи материалы по установленной форме,\nподписанную Заявителем (β СЦ Материал η СЦ Норма)\nΒ случае использования модели эквивалентного соответствия\nразрешительное письмо Авиарегистра МАк η техническая справка\nЗаявителя, подтверждающее выполнсние π.2.2 настоящего Положения.\nих типоразмеров; Перечень производителей материалов ОСЭ σ указанием НД на материал η\nРасчетные характеристики металлических материалов\nутвержденные Заявителем, σ указанием η, β случае необходимости,\nпредставлсния расчетных предоставлением методов их получения η исходной информацией. (форма характеристик материалов приведена β\nПриложениях 2,3,4). Должна быть продемонстрирована обоснованность выбора расчетных характеристик статической прочности, усталости η\nqh6 952",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.9404042105263158,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0003_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.9404042105263158,
+        "ocr_lines": 76,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.092
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 24379
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 4,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "4\nтрещиностойкости σ учетом заявленных условий эксплуатации.\nРасчетные характеристики композиционных материалов\nхарактеристики их компонентов, утвержденные Заявителем, σ указанием\nη, β случае необходимости, предоставлением методов их получения η\nматериалов приведена Β исходной информацией. (форма представления расчетных характеристик Приложениях 5,6,7). Должна быть\nпродемонстрирована обоснованность выбора расчетных характеристик\nусловий эксплуатации\nПримечание 1: Β случае использования данных Справочника β качестве\nрасчетных значений характеристик, предоставление методов определения\nспециальных требований.\nПримечание 2: При особых условиях эксплуатации представляются\n3.5. температурах эксплуатации β соответствии σ Приложением 8) Заявитель подготавливает, α Сц Материал на основании представленных\nдокументов согласовывает Заключение : ο соответствии материалов\nη 613 АП (Типичная форма Заключения приведена β Приложении 9).\n4. Процедура проведения сертификационных работ β обеспечение π.ν 603 η\n613,615 AI OJIC (JAR-VLA 603, 613, 615 » JAR-VLA 572) H ·nepeb\nпредоставляемых документов\n4.1. Заявитель подает Заявку β АР МАК на проведение сертификации.\nМатериал АП ОлС назначается комиссия, β которую включается представитель СЦ\n4.3. Для сертификации по модели эквивалентного соответствия необходимо.\nпомимо выполнения π.2.3. настоящего положения, продемонстрировать, что\nдопускаемые напряжения при эксплуатационной нагрузке не превышают\nзначений указанных β JAR-VLA 572.\nдокументы 4.4. Заявитель готовит η предоставляет комиссии для рассмотрения следующие\nСпецификацию на применяемые β самолете авиационные материалы,\nсогласованную σ экспертом-аудитором АР МАК.\nПеречень материалов для ОСЭ конструкции, согласованную ссс указанием\nрасчетных условий (может быть использована форма приведенная β\nприложении 1).\nДоказательную техническую документацию ДЛЯ подтверждения\nAПI ОЛС (JAR-VLA .603, 613, 615 ). Доказатсльная техническая\nдокументация должна содержать:\n(α) изложение методов назначения расчетных характеристик материалов,\nη\nматериалов для ОЭ, зафиксированных β конструкторско-технологической\nдокументации,\nShT",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.955288813559322,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0004_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.955288813559322,
+        "ocr_lines": 59,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.102
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 24102
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 5,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "5\n(c) результаты натурных испытаний, пригодные ДЛЯ\nподтверждения соответствия принятых расчетных характеристик\nматериалов ОСЭ требованиям АП,\n(d) результаты исследования свойств материалов, если таковые имеются,\n(e) результаты анализа опыта применения материалов в аналогичных\nконструкциях,\n4.5 При (f) данные о нагруженности ОЭ в эксплуатации. положительном результате рассмотрения представленных документов\nэксперт-аудитор АР МАК от СЦ\" Материал\" в Акте по результатам наземных\n244",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.97454,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0005_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.97454,
+        "ocr_lines": 22,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.227
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 11200
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 6,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "Приложение Примеча ниЯ (среда, темп. η Τ.Δ.).\nКРЫЛО ШН ο ини (ТУ, ОСТ, ГОСТ) Σο 2 Kr/MM² 2\n(νI oxnngpdεod 19wdnd uo) 6 Ξ\nУтверждаю Расчетные условия (необходимость получения характеристик - да/нет) Устало Трещин остойко сть 9\nСтатиче ская прочнос 8\nМакс. напряжение при расчёте нагрузки Kr/MM²\nГруппа или объем контроля, ΗΔ ha контроль 6\nKarero kид элемен Ta (Α (α HIrΗ\nДиректор СЦ Прочность полуфабрик ата, габариты, НД на поставку* 4\nСогласовано Материа λ(марка) го\n× Элемент констру КЦИИ 2 - ГОСТ, ОСТ, ТУ.\n9u3",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "medium",
+      "confidence": 0.8683783870967743,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0006_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew",
+          "mild_denoise",
+          "contrast_normalization"
+        ],
+        "iqs_level": "medium",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.8683783870967743,
+        "ocr_lines": 62,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.226
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 16347
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 7,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "Проложени2 Утверждаю E\n(νI nngdεd 1ndnp ) 00.2cK Σο..2 KT/MM² 2\nΒ базис\n0\n002 9\nΑ базис\n80 8\nOcpeza иVв базиса\nОсм иV β! базиса\nЗначение по ТУ 00.2 Kr/MM²$ 6\n6\nΛ Направ ление\nПолуфабрикат ост, гост. ту\nСогласовано От СЦ Материал Материа\n242",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [
+          "formula_dense_ocr_fragments"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "medium",
+      "confidence": 0.8411562857142858,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0007_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "formula_suspect short_ratio=0.37",
+        "formula_suspect_page",
+        "needs_formula_pipeline",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew",
+          "mild_denoise",
+          "contrast_normalization"
+        ],
+        "iqs_level": "medium",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.8411562857142858,
+        "ocr_lines": 35,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.371
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 13511
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 8,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "8\nПриложение 3\nСогласовано Утверждаю\nОт СЦ Материал (от фирмы разработчика ЛА)\n« « ρ.\nРасчетные характеристики. Усталость\nМарка сплава, Тип π/φ, OCT, Направле Образ Параметры уравнения Приме\nν/ρ Τ/O габариты рОСТ ние ец Νσ = 1 0β чание\nвырезки образца BmN при (ссыл )\nO=const*\n1 2 3 4 Σ 6 7 8 9 10\nдля АL-сплавов - O=16 кг/мм²\n* для сталей η титана — Ο=25 кг/мм²\n941 258",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [
+          "formula_dense_ocr_fragments"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.9393933333333333,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0008_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "formula_suspect short_ratio=0.50",
+        "formula_suspect_page",
+        "needs_formula_pipeline",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.9393933333333333,
+        "ocr_lines": 48,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.5
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 9836
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 9,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "Приложение 4 Утверждаю ПРИМ. (ссылк Ξ nu 2\nПЕРИС\n(νI nngodεd 1adnp o) ПАРАМЕТРЫ УРАВНЕНИЙ ДЛЯ ОПРЕДЕЛЕНИЯ СРТУ, ММ/ЩИКЛ HVWJO0 Ξ le\nKOJUIMIPHCT le\nCPTy ΔK=100 9\n8\n-иим η не образца Β. MM), α 6\nHanp. вырезк Ξ\nΛ\nСогласовано от СЦ Материал / сплава. Τ/0 габариты\nМарки\nIMO 2σ9",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [
+          "formula_dense_ocr_fragments"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "medium",
+      "confidence": 0.8419155555555555,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0009_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "formula_suspect short_ratio=0.39",
+        "formula_suspect_page",
+        "needs_formula_pipeline",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew",
+          "mild_denoise",
+          "contrast_normalization"
+        ],
+        "iqs_level": "medium",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.8419155555555555,
+        "ocr_lines": 36,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.389
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 14370
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 10,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "10\nПриложение 5\nПриложение 6\nПриложение 7\nЗАРЕЗЕРВИРОВАНО\n239 260",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "medium",
+      "confidence": 0.9472785714285715,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0010_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew",
+          "mild_denoise",
+          "contrast_normalization"
+        ],
+        "iqs_level": "medium",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.9472785714285715,
+        "ocr_lines": 7,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.429
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 10906
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 11,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "11\nПриложение 8\nТиповой перечень характеристик материала необходимый при сертификации\nматериала (полуфабриката) для греющихся элементов:\nСтатистические параметры при различных температурах*\n(Ξ - среднее, Σ - рассеяние, ν - объем выборки)\nХарактеристика Нормальная Промежуточная Максимальная\nтемпература температура**\n(20°C) температура\nМатериал, полуфабрикат, габариты, хим.\nсостав, ТУ, коррознонные свойства***\nПлотность ρ, кг/см³ Ξ\nΣ коэффициент теплоемкости Ξ\n(кДж/кгград.))\n(Вт/(мград.)) λ коэффициент теплопроводности XXX\nКоэффициент термического (линейного) XXX\nрасширения актр, 1/град\nсжатии, модуль сдвига, МПа Модуль упругости при растяжении, XXX\nПредел прочности, МПа XCN Ξ XCN\nПредел текучести, МПа XCN Ξ XCN\nУдлинение. % XCN Ξ XCN\nСужение,% XXX\nДлительная прочность\n(за 100 часов). МПа Ξ XCN\nПолзучесть (0,2% за 100 часов), МПа Ξ XCN\nМалоцикловая усталость\nМалоцикловая усталость,: α = 1 η α, = 3 на XCN XCN\n6α3eN=104.N=105\nпри ΔК=30 MaVм ) Скорость роста трещины (включая δ/dN XCN XCN\nКритический коэффициент интенсивности XCN XCN\nнапряжения Кс° Кс\n**- Характеристики материала при промежуточных температурах необходимы для построения\nинтерполяционной зависимости\n*** . Β случае работы элемента конструкции β коррозионной среде, необходимо дополнительно\nопределить характеристики усталости η скорости роста трещины β этих срсдах.\nα 28 261",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [
+          "formula_dense_ocr_fragments"
+        ],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.9581724358974358,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0011_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "formula_suspect short_ratio=0.45",
+        "formula_suspect_page",
+        "needs_formula_pipeline",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.9581724358974358,
+        "ocr_lines": 78,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.449
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 15788
+    },
+    {
+      "doc_id": "ПОЛ_ о проведении сертификации по п.п.603,613_2008",
+      "page": 12,
+      "page_class": "C",
+      "status": "suspicious",
+      "text": "12\nПриложение 9\nСогласовано Утверждаю\n« « Директор СЦ Материал r. (от фирмы разработчика ЛА)\nЗАКЛЮЧЕНИЕ О соответствии материалов, используемых в типовой конструкции самолета\n(марка), требованиям п.п. 25.603 и 25.613 Сертификационного Базиса.\nприменяемых в элементах типовой конструкции самолета (марка). Настоящее заключение касается материалов и их расчетных характеристик,\nхарактеристик требованиям Сертификационного Базиса (Сб) выполнен полный Для обоснования соответствия применяемых материалов и их расчетных\nсертификации авиационных материалов и письмом Авиарегистра МАК № 6.31-516 от комплекс работ, предусмотренных процелурой, определенной Руководством по\nСпецификация (№) на металлические материалы изделия (марка) 24.05.99 года и оформлена следующая доказательная документация:\nСпецификация (№) на неметаллические материалы изделия (марка) Перечень материалов для основных силовых элементов (ОСэ) самолета (марка)\n(прилагается)\nOCΘ - Расчетные значения характеристик статической .прочности металлических материалов\n— Расчетные значения характеристик статической прочности композиционных материалов\n– Расчетные значения характеристик усталости композиционных материалов ОСЭ\n— Расчетные значения характеристик трещиностойкости металлических материалов ОСЭ\nтрещиностойкости металлических материалов - Обоснования выбора расчетных характеристик статической прочности, усталости и\nтрещиностойкости композиционных материалов\nИз приведенной выше доказательной документации следует что:\nиспользованию в конструкции самолета (марка) с учетом ожидаемых условий эксплуатации и\nЛибо значения характеристик, взятые из Справочника;\nметодике, гарантированно обеспечивающих требуемый уровень надежности. Либо значения характеристик, определяемые по утвержденной АР МАК\nиспользуются статистически обоснованные средние значения.\nНа основе изложенного можно заключить, что материалы, применяемые в конструкции ВЫвод\nсамолета (марка), соответствуют требованиям п.п. 603 и.613 СБ.\nОт СЦ Матсриал (От фирмы разработчика ЛА)\n131 962",
+      "text_source": "ocr_fallback",
+      "layout": {
+        "n_columns": 1,
+        "likely_table": false,
+        "unusual_layout": false,
+        "notes": [],
+        "vlm_notes": null
+      },
+      "tlq_score": 0.0,
+      "lexical_quality": 0.0,
+      "iqs_level": "good",
+      "confidence": 0.9442737499999999,
+      "preview_path": "data\\cache\\extract\\ПОЛ_ о проведении сертификации по п.п.603,613_2008\\page_0012_cd.png",
+      "notes": [
+        "classified=C",
+        "no alpha tokens",
+        "no text layer",
+        "visual_agreement=0 (no spans)",
+        "low_confidence",
+        "vlm_disabled_or_unavailable",
+        "ocr_fallback_used"
+      ],
+      "provenance": {
+        "tlq": 0.0,
+        "lexical_quality": 0.0,
+        "visual_agreement": 0.0,
+        "preprocess_steps": [
+          "render",
+          "deskew"
+        ],
+        "iqs_level": "good",
+        "low_confidence": true,
+        "garbage_veto": false,
+        "ocr_mean_confidence": 0.9442737499999999,
+        "ocr_lines": 48,
+        "ocr_columns": 1,
+        "short_fragment_ratio": 0.229
+      },
+      "needs_vlm": true,
+      "vlm_attempted": false,
+      "vlm_used": false,
+      "vlm_quality": "unavailable",
+      "ocr_fallback_used": true,
+      "elapsed_ms": 22899
+    }
+  ],
   "summary": {
-    "pages": 0,
+    "pages": 12,
     "class_A": 0,
     "class_B": 0,
-    "class_C": 0,
+    "class_C": 12,
     "class_D": 0,
     "ok": 0,
+    "suspicious": 12,
     "failed": 0,
-    "needs_vlm": 0
+    "needs_vlm": 12,
+    "needs_vlm_pending": 12,
+    "vlm_candidates": 12,
+    "vlm_attempted": 0,
+    "vlm_used": 0,
+    "ocr_fallback_used": 12
   }
 }

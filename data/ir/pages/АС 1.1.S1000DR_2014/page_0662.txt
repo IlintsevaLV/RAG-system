@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+<reqCond>Open the circuit breaker:</reqCond>
+<circuitBreakerDescrGroup circuitBreakerAction="open">
+<circuitBreakerDescrSubGroup>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="44RT"/>
+<name>MMR-2 (ILS+GPS)</name>
+<internalRef internalRefTargetType="irtt13"
+internalRefId="accpnl-0042"/>
+<circuitBreakerLocation>0867</circuitBreakerLocation>
+</circuitBreakerDescr>
+</circuitBreakerDescrSubGroup>
+</circuitBreakerDescrGroup>
+</reqCondCircuitBreaker>
+2.2.5 Требуемое условие - ссылка на модуль публикации
+reqCondPm Описание. Элемент < > содержит требуемое действие или условие,
+когда они содержатся β другом модуле публикации.
+reqCond Элемент < > используется для описания требуемого действия или условия,
+pmRef α элемент < > содержит идентификатор модуля публикации.
+Примечание
+reqCondPm Для использования элемента < > необходима конкретная ссылка на
+процедуру, необходимую для выполнения операции или условия. Общая ссылка,
+например, на публикацию по техническому обслуживанию изделий, может
+помешать механику выполнить работу, α также может сократить возможность
+дальнейшей автоматической подготовки κ процедурам технического обслуживания,
+принятым для данной ситуации.
+reqCondPm Элемент разметки: < > (C)
+Атрибуты:
+reqCondNoRef Включает тот же набор атрибутов, что η элемент < >. См. 
+Разд. 2.2.2.
+Дочерние элементы:
+reqCond < > (C). См. Разд. 2.2.3.1. 
+pmRef < > (C). См. Глава 3.9.5.2.1.2 . 
+Пример разметки:
+<reqCondPm>
+<reqCond>Gather the following publication.</reqCond>
+<pmRef>
+<pmRefIdent>
+<pmCode modelIdentCode="FRIGATE124ALFA" pmIssuer="01233"
+pmNumber="01234"
+pmVolume="01"/>
+</pmRefIdent>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 31

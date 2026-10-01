@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+xlink:href (O), задает адрес ссылки (URN запрашиваемого ресурса), если 
+установлена ссылка XLink.
+xlink:title (O), задает название ссылки, если установлена ссылка XLink. 
+xlink:show (O), задает способ представления ссылки, если установлена 
+ссылка XLink. Этот атрибут может иметь следующие значения:
+new • " ", открывает новое окно для отображения данных
+replace • " ", отображает данные на месте текущего окна
+embed • " ", включает данные β текст
+other • " ", задается пользователем
+none • " ", данные не отображаются
+xlink:actuate (O), задает поведение ссылки, если установлена ссылка 
+XLink. Этот атрибут может иметь следующие значения:
+onLoad • " ", отображает данные во время загрузки страницы
+onRequest • " ", отображает данные по щелчку мыши
+xlink:typehas simple xlink:href Атрибут имеет значение " ", α атрибут
+содержит URN запрашиваемого ресурса. Все примеры приведены только для
+иллюстрации.
+2 Указания η примеры
+2.1 Ссылка на код модуля данных
+URN ссылки на модуль данных необходимо создавать из содержимого элемента
+dmCode < >.
+<dmRef
+xlink:type="simple"
+xlink:actuate="onRequest"
+xlink:show="replace"
+xlink:title="IETP resource resolution"
+xlink:href="URN:Σ1000Δ:DMC-Σ1000Δ-Α-07-07-0400-00Α-040Α-Α">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000Δ" systemDiffCode="Α"
+systemCode="07" subSystemCode="0" subSubSystemCode="7"
+assyCode="0400" disassyCode="00" disassyCodeVariant="Α"
+infoCode="040" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>IETP resource resolution</techName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+Действительно: Все Σ1000Δ-Α-07-07-0400-00Α-040Α-Α
+Глава 7.7.4
+2013-11-15 Страница 2

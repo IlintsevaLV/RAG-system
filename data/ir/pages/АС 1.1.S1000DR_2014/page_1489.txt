@@ -1,0 +1,29 @@
+S1000DR-UACRU-01000-00
+раздел плана обучения может содержать описание целей обучения учебного занятия
+для техников, связанного с надлежащей разборкой объекта. Структура плана
+learning обучения содержится в элементе < >.
+learningPlan Элемент разметки: < > (O)
+ICN-1654N-S1000D0018-001-01
+learningPlan Рис. 1 Элемент < >
+Атрибуты:
+id learningPlan (O), идентификатор элемента < >. См. 
+S1000D-A-03-09-0502-01C-040A-A .
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания на изменения. См. S1000D-A-03-09-0502-01B-040A-A .
+authorityName authorityDocument (O) и (O), указания об управляемом 
+содержимом. См. S1000D-A-03-09-0502-01M-040A-A .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См.
+S1000D-A-03-06-0000-00A-040A-A .
+Дочерние элементы:
+lcProject < > (O). См. 2.1. 
+lcPerformanceAnalysis < > (O). См. 2.2. 
+lcCauseAnalysis < > (O). См. 2.3. 
+lcInterventionDefinition < > (O). См. 2.4. 
+lcInterventionImplementation < > (O). См. 2.5. 
+lcPerformanceEvaluation < > (O). См. 2.6. 
+Принятие решения о правиле выполнения проекта BRDP-S1-00267 - Проведение
+анализа производительности:
+Действительно: Все S1000D-A-03-09-0502-13B-040A-A
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 5

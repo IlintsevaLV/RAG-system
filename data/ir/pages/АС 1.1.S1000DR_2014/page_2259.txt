@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+xlink:actuate="onRequest" xlink:show="replace" xlink:href="#seq-
+0003" internalRefId="seq-0003" internalRefTargetType="irtt05"/>
+into <internalRef xlink:actuate="onRequest" xlink:show="replace"
+xlink:href="#sup-0002" internalRefId="sup-0002"
+internalRefTargetType="irtt04"/> and
+water.</para></proceduralStep>
+<proceduralStep><para>Fully clean the bicycle with the soaked
+sponge.</para></proceduralStep>
+<proceduralStep><para>Flush the bicycle to make sure that all
+detergents are removed.</para></proceduralStep>
+<proceduralStep><para>Move the bicycle up and down on its tires
+to remove all water.</para></proceduralStep>
+</proceduralStep>
+</proceduralStepAlts>
+...
+</mainProcedure>
+5.2 Пример группы альтернативных вариантов для функциональных
+элементов
+Β этом примере разметки показано использование группирования функциональных
+functionalItemAlts элементов β модуле данных CIR (элемент < >). Β примере
+иллюстрируется ситуация, когда имеется два альтернативных расположения
+(соответственно, два альтернативных функциональных элемента) для заднего фонаря
+велосипеда β зависимости от модели η версии ("Модель: Mountain storm, версия :
+Mk1" или "Модель: Brook trekker, версия: Mk9").
+<functionalItemRepository id="ID00003">
+...
+<functionalItemSpec>
+<functionalItemIdent functionalItemNumber="Λ2"
+functionalItemType="fit01" id="fin-002"/>
+<name>Rear light</name>
+<functionalItemAlts>
+<!-- First functional item "Λ2" alternate with applicability:
+"Model: Mountain storm Version: Mk1"-->
+<functionalItem normativeComponentFlag="1"
+applicRefId="app-0001">
+<location><installationLocation
+installationLocationType="instloctyp05"
+unitOfMeasure="cm">30</installationLocation></location>
+<functionalItemFamily>Lights</functionalItemFamily>
+</functionalItem>
+<!-- Second functional item "Λ2" alternate with applicability:
+"Model: Brook trekker Version: Mk9"-->
+<functionalItem normativeComponentFlag="1"
+applicRefId="app-0002">
+<location><installationLocation
+installationLocationType="instloctyp05"
+unitOfMeasure="cm">40</installationLocation></location>
+<functionalItemFamily>Lights</functionalItemFamily>
+</functionalItem>
+Действительно: Все Σ1000Δ-Α-04-13-0300-00Α-040Α-Α
+Глава 4.13.3
+2013-11-15 Страница 9

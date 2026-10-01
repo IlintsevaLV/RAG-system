@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</lcRequiredFacilities>
+<lcRequiredEquipment>
+<description>
+<para>Couriers may take the computer portion of the training
+using one of Speedy Courier'σ office computer workstations or
+they may take α CD of the training to be completed at home. The
+current bicycle repair equipment will be used for the practical
+exercises and end of training hands-on test.</para>
+</description>
+</lcRequiredEquipment>
+<lcLocalCulture>
+<description>
+<para>Most of the couriers take classes at the local community
+college. Many view their jobs as α necessity and have poor
+attitudes toward improving their performance.</para>
+</description>
+</lcLocalCulture>
+</lcTrainingComponent>
+<lcAssessmentStrategy>
+<title>Assessment Strategy</title>
+<description>
+<para>The following information outlines the assessment
+strategies for the Basic Bike Awareness course.</para>
+</description>
+<lcAssessmentComponent>
+<title>Computer-based Assessment Component</title>
+<description>
+<para>The following information outlines the assessment strategy
+for the computer-based portion of the training.</para>
+</description>
+<lcMasteryScoreCriteria>
+<description>
+<para>80% mastery of all lesson tests</para>
+</description>
+</lcMasteryScoreCriteria>
+<lcPerformanceRubric>
+<description>
+<para>QUESTION: Which part of the steering system supplies the
+sideways swiveling action that allows the rider to steer the
+bike?</para>
+<para>ANSWER:Headset</para>
+</description>
+</lcPerformanceRubric>
+<lcScoringMethod>
+<description>
+<para>The lesson tests are scored using computer programming
+built into the training.</para>
+</description>
+</lcScoringMethod>
+<lcMinimumPassThreshold>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 74

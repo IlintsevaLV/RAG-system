@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+</para>
+<!-- the following dmRef points to an objective item listed
+lcObjectives section of the learn plan for this lesson. –>
+<para>
+Now that you have completed this topic, you should be able to
+describe the procedures for installing and removing α bike'σ
+steering system.
+</para>
+<para>
+<dmRef referredFragment=”lo-002”>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="932" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="H31" learnEventCode="Α"/>
+<issueInfo issueNumber="001" inWork="01"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+</dmRef>
+</para>
+</description
+</lcSummary>
+2.2 Обзор
+lcReview Описание. Β элементе < > представляется обзор основных тем.
+lcReview Элемент разметки: < > (O)
+Атрибуты:
+id lcReview (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcReview>
+<description>
+<para>This lesson provided general bicycle care and maintenance
+information. </para>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13E-040Α-Α
+Глава 3.9.5.2.13.4
+2013-11-15 Страница 4

@@ -1,0 +1,29 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0548-001-01
+attentionSequentialList Рис. 8 Элемент < >
+Атрибуты:
+Включает тот же набор атрибутов, что η элемент 
+attentionListItemPara < >. См. Разд. 2.1.2.2.2.
+Дочерние элементы:
+title < > (O). См. Глава 3.9.5.2.1.5 . 
+attentionSequentialListItem < > (Μ). См. Разд. 2.3.2.1. 
+Пример разметки:
+<attentionSequentialList>
+<attentionSequentialListItem>...</attentionSequentialListItem>
+</attentionSequentialList>
+2.3.2.1 Пункт последовательного перечня-напоминания
+attentionSequentialListItem Описание. Элемент < > содержит один пункт
+последовательного перечня-напоминания η может состоять из одного или нескольких
+параграфов.
+attentionSequentialListItem Элемент разметки: < > (Μ)
+Атрибуты:
+Включает тот же набор атрибутов, что η элемент 
+attentionRandomListItem < >. См. Разд. 2.1.2.2.1.
+Дочерние элементы:
+attentionListItemPara < > (O). См. Разд. 2.1.2.2.2. 
+attentionRandomList < > (O). См. Разд. 2.1.2.2. 
+Пример разметки:
+<attentionSequentialListItem>...</attentionSequentialListItem>
+Действительно: Все Σ1000Δ-Α-03-09-0300-00Α-040Α-Α
+Глава 3.9.3
+2013-11-15 Страница 18

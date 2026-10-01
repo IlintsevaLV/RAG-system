@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+</lcPlanSubject>
+</lcProject>
+2.1.1 Клиент
+lcClient Описание: Элемент < > определяет организацию, которая финансирует
+или запрашивает разработку плана обучения.
+lcClient Элемент разметки: < > (O)
+Атрибуты:
+id lcClient (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcClient>
+<title>National Bike Courier Association (NBCA)</title>
+<description>
+<para>The NBCA is α national professional society for bike
+couriers. The director of the NBCA has funded the development of
+this learning plan.</para>
+</description>
+</lcClient>
+2.1.2 План обучения
+lcLearningPlan Описание: Элемент < > содержит идентификационное имя плана
+обучения η краткую сводку по его назначению или содержимому.
+lcLearningPlan Элемент разметки: < > (O)
+Атрибуты:
+id lcLearningPlan (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 9

@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+scoEntryType scoEntryType scot01 (O), атрибут σ помощью значений " " 
+scot99 - " " описывает тип записи SCO (например, SCO, asset). См. Глава
+3.9.6.1 .
+scoEntryType Использование атрибута указывает на необходимость
+scoEntry преобразования содержимого элемента < > β соответствующую
+структуру данных из манифеста IMS/SCORM. Рекомендуется зарезервировать
+scot01 значение scoEntryType " " для обозначения ресурса манифеста IMS типа
+scot02 "sco", α значение " " - для обозначения ресурса манифеста IMS типа
+"asset". Резервирование этих значений может повысить совместимость данных β
+модулях данных SCPM β проектах, где требуется вывод данных β формате
+Σ1000Δ η ADL SCORM.
+Дочерние элементы:
+scoEntryTitle < > (O). См. Разд. 2.3.1.1. 
+scoEntryItem < > (Μ). См. Разд. 2.3.1.2. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00402 -
+scoEntryType Использование атрибута :
+scoEntryType Решение ο том, будет ли использоваться атрибут для указания 
+необходимого типа ресурса.
+Пример разметки:
+<-- The following example provides data representation of the
+Drive Train unit of the Σ1000Δ Bike Learning Sample content. In
+this example, scoEntry elements are nested to provide data
+structures that can be used to represent α content Table of
+Contents for the Bike Steering System training module. In the
+SCORM, α "content module" is α term used to refer to α grouping
+of thematically related SCOs within the organizations section of
+an IMS/SCORM manifest.
+The recursive structure of the sample XML can be output to the
+the organizations section of an IMS Manifest through custom XSL
+transformation processes. The organizations section of the IMS
+Manifest typically provides the LMS the data needed for the
+presentation of the courseware Table of Contents.
+The optional scoEntryType attribute is used to further
+distinguish the use of SCO Entry elements in the example. The
+value "scot01" is used to reference α SCO type resource. The
+dmRef elements point to SCO Content type data modules. SCO
+Content data modules are aggregations of the content references
+for the content files comprising α single SCO. -->
+<scoEntry scoEntryType="scot51">
+<scoEntryTitle>Module 4 - Drive Train</scoEntryTitle>
+<scoEntryItem>
+<scoEntry scoEntryType="scot01">
+<scoEntryTitle>Drive Train Description</scoEntryTitle>
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 15

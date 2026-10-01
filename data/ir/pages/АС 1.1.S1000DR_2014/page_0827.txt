@@ -1,0 +1,45 @@
+</dmRef>).</action>
+</isolationProcedureEnd>
+</isolationMainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</isolationProcedure>
+</faultIsolationProcedure>
+</faultIsolation>
+2.6.1 Процедура локализации
+Описание. Элемент <
+процедуру локализации неисправности,
+неисправности η возможные причины
+Элемент разметки: <
+Рис. 19 Элемент <
+Атрибуты:
+applicRefId (O), сведения 
+id (O), идентификатор элемента 
+3.9.5.2.1.2 .
+changeMark changeType (O), 
+используются для указания
+ authorityName (O) η 
+указания на управляемое
+3.9.5.2.1.11
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+неисправностей
+faultIsolationProcedure > содержит подробную
+ включая код неисправности, описание
+ неисправности, которые можно локализовать.
+faultIsolationProcedure > (C)
+ICN-Σ3627-Σ1000Δ0519-002-01
+faultIsolationProcedure >
+ ο применимости. См. Глава 3.9.5.3 .
+faultIsolationProcedure < >. См. Глава
+reasonForUpdateRefIds (O) η (O);
+изменений β соответствии σ Глава 3.9.5.2.1.1
+authorityDocument (O) используются для
+содержимое β соответствии σ положениями Глава
+Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 45

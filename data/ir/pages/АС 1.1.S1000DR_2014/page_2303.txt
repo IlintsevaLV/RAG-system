@@ -1,0 +1,30 @@
+Σ1000DR-UACRU-01000-00
+ICN-1654N-Σ1000Δ0050-001-01
+scormContentPackageIdent Рис. 4 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+identExtension < > (O). См. Глава 3.9.5.1 . 
+scormContentPackageCode < > (Μ). См. Разд. 2.2.1.2. 
+language < > (Μ). См. Глава 3.9.5.1 . 
+issueInfo < > (Μ). См. Глава 3.9.5.1 . 
+Пример разметки:
+<scormContentPackageIdent>
+<scormContentPackageCode modelIdentCode="Σ1000DBIKE"
+scormContentPackageIssuer="AH019"
+scormContentPackageNumber="00001"
+scormContentPackageVolume="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo inWork="00" issueNumber="001"/>
+</scormContentPackageIdent>
+2.2.1.2 Код пакета содержимого SCORM
+scormContentPackageIdentCode Описание: Элемент < > содержит
+кодированные сведения, определяющие пакеты содержимого SCORM.
+scormContentPackageIdentCode Элемент разметки: < > (Μ)
+Атрибуты:
+modelIdentCode (Μ). См. Глава 4.3.1 . 
+scormContentPackageIssuer (Μ). См. Глава 4.15.2 . 
+scormContentPackageNumber (Μ). См. Глава 4.15.2 . 
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 6

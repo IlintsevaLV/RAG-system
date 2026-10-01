@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<person man="Α">
+<personCategory personCategoryCode="Basic user"/>
+<trade>Operator</trade>
+<estimatedTime unitOfMeasure="HR">0,25 η</estimatedTime>
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr><name>Specialist toolset</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr><name>Degreasing agent</name>
+<identNumber><manufacturerCode>KZ222</manufacturerCode>
+<partAndSerialNumber><partNumber>LL-
+004</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity>As required</reqQuantity>
+</supplyDescr>
+<supplyDescr id="sup-0002">
+<name>General grease</name>
+<identNumber><manufacturerCode>KZ222</manufacturerCode>
+<partAndSerialNumber><partNumber>LL-
+005</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity>As required</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares/>
+</reqSpares>
+<reqSafety>
+<noSafety/>
+</reqSafety>
+</preliminaryRqmts><equipGroup>
+<equip><name>Hubs</name>
+<identNumber><manufacturerCode>KZ555</manufacturerCode>
+<partAndSerialNumber><partNumber>HB-
+002</partNumber></partAndSerialNumber>
+</identNumber>
+</equip></equipGroup>
+<supervisorLevel supervisorLevelCode="sl01"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 51

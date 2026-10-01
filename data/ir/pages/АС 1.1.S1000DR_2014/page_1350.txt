@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+circuitBreakerRef < > (Μ). См. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<circuitBreakerRefGroup circuitBreakerRefType="cbr01">
+<circuitBreakerRef .../>
+</circuitBreakerRefGroup>
+2.1.1.3 Группа альтернативных вариантов автомата защиты сети
+circuitBreakerAlts Описание. Элемент < > представляет собой группу
+альтернативных вариантов автомата защиты сети.
+circuitBreakerAlts Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Α-FAPE3-00019-Α-001-01
+circuitBreakerAlts Рис. 5 Элемент < >
+Атрибуты:
+id circuitBreakerAlts (O), идентификатор элемента элемента < >. См. 
+Глава 3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+circuitBreaker < > (Μ). См. Разд. 2.1.1.4. 
+Пример разметки:
+<circuitBreakerAlts>
+<circuitBreaker>...</circuitBreaker>
+</circuitBreakerAlts>
+2.1.1.4 Альтернативный вариант автомата защиты сети
+circuitBreaker Описание. Элемент < > содержит свойства автомата защиты
+сети, которые зависят от конфигурации Объекта. Таким образом, этот элемент
+содержит сведения ο применимости.
+Действительно: Все Σ1000Δ-Α-03-09-0502-11C-040Α-Α
+Глава 3.9.5.2.11.2
+2013-11-15 Страница 6

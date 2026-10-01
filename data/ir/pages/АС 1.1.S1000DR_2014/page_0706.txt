@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+xlink:actuate="onRequest" xlink:href="sup-0003"
+xlink:show="replace"></internalRef> in
+accordance with the instruction on the container. The substance
+may cause
+damage to the Bike paint if it is not applied
+correctly.</warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+Β том, что касается изменений, соответствующая разметка статусной части будет
+выглядеть следующим образом:
+<reasonForUpdate id="chg-0001" updateReasonType="urt01">
+<simplePara>Procedure has been changed</simplePara>
+</reasonForUpdate>
+<reasonForUpdate id="chg-0002" updateReasonType="urt02">
+<simplePara>Replaced by supplier</simplePara>
+</reasonForUpdate>
+<reasonForUpdate id="chg-0003" updateReasonType="urt01">
+<simplePara>Safty hazard reported</simplePara>
+</reasonForUpdate>
+<reasonForUpdate id="chg-0004" updateReasonType="urt01">
+<simplePara>...</simplePara>
+</reasonForUpdate>
+3 Требования после завершения работ
+3.1 Общие сведения
+closeRqmts Описание. Элемент < > содержит все действия, которые необходимо
+выполнить после завершения процедуры.
+closeRqmts Элемент разметки: < > (Μ)
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 75

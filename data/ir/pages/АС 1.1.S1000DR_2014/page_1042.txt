@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+wireAlts Элемент разметки: < > (C)
+Атрибуты:
+id (O), идентификатор элемента разметки. См. Глава 3.9.5.2.1.2 . 
+changeType changeMark reasonForUpdateRefIds (O), (O) η (O) 
+указывают на изменение β соответствии σ положениями Глава 3.9.5.2.1.1 .
+ authorityName authorityDocument (O) η (O), используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+wire < > (Μ), данные провода. См. Разд. 2. 
+Пример разметки:
+<wiringData>
+<wireGroup>
+<wireAlts>
+<wire wireState="active" applicRefId="app-0001">
+<wireIdent>...</wireIdent>
+<wireConnection>...</wireConnection>
+<wireInfo>...</wireInfo>
+</wire>
+<wire wireState="inactive" applicRefId="app-0002">
+<wireIdent>...</wireIdent>
+<wireConnection>...</wireConnection>
+<wireInfo>...</wireInfo>
+</wire>
+</wireAlts>
+</wireGroup>
+</wiringData>
+3 Примеры
+3.1 Примеры кодов подсоединения провода
+3.1.1 Соединитель σ шестью контактами
+На Рис. 1 η β Табл. 10 показан код подсоединения провода η его дочерние
+элементы для соединителя σ шестью контактами.
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 34

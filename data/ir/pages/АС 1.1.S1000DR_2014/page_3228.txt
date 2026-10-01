@@ -1,0 +1,19 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00005-A-01-1
+figure zoneRepository Рис. 5 Издание 4.0.1: < > в < >
+ICN-S1000D-A-07030104-0-FAPE3-00006-A-01-1
+figure commonRepository Рис. 6 Издание 4.1: < > в < >
+2.4 Группы альтернативных вариантов общего информационного
+functionalItemSpec репозитория - элементы < >,
+circuitBreakerSpec zoneSpec accessPointSpec < >, < >, < >,
+toolSpec supplyRqmtSpec < > и < >
+functionalItemAlt circuitBreakerAlt zoneAlt Элементы < >, < >, < >,
+accessPointAlt toolAlt supplyRqmtAlt < >, < > и < > были, соответственно:
+functionalItem circuitBreaker zone переименованы в < >, < >, < >, 
+accessPoint tool supplyRqmt < >, < > и < >; и
+functionalItemAlts встроены в новые элементы < >, 
+circuitBreakerAlts zoneAlts accessPointAlts < >, < >, < >,
+toolAlts supplyRqmtAlts < > и < >
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 6

@@ -1,0 +1,56 @@
+<trade>AF092</trade>
+</personnel>
+<person man="Α">
+<personCategory
+<personSkill skillLevelCode="sk01"/>
+<trade>AF901</trade>
+<estimatedTime
+</person>
+<person man="Β">
+<personCategory
+<personSkill skillLevelCode="sk02"/>
+<trade>AF903</trade>
+<estimatedTime
+</person>
+<personnel>
+<personCategory
+<personSkill skillLevelCode="sk03"/>
+<trade>AF902</trade>
+</personnel>
+</reqPersons>
+2.4 Требуемые технические
+Описание. Элемент <
+документы β дополнение κ
+специалисту по обслуживанию для
+но его можно рассматривать как
+Например, требуемыми техническими
+отсутствующие β модуле данных,
+извлечь из библиотеки чертежей
+Элемент разметки: <
+Рис. 12 Элемент
+Атрибуты:
+id (O), идентификатор элемента 
+3.9.5.2.1.2 .
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+personCategoryCode="Electrician"/>
+unitOfMeasure="η">1,5</estimatedTime>
+personCategoryCode="PE"/>
+unitOfMeasure="η">2,5</estimatedTime>
+personCategoryCode="SPRVR"/>
+сведения
+reqTechInfoGroup > содержит ссылки на все технические
+фактическому модулю данных, которые необходимы
+ выполнения процедуры. Это не перечень ссылок,
+специальное средство, которое нужно выбрать.
+ сведениями могут быть технические чертежи,
+ которые специалист по обслуживанию должен
+для проведения задач технического обслуживания.
+reqTechInfoGroup > (O)
+ICN-Σ3627-Σ1000Δ0531-001-01
+reqTechInfoGroup < >
+reqTechInfoGroup < >. См. Глава
+Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 39

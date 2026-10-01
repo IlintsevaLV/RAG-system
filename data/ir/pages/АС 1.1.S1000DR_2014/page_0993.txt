@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+Таблица 7 Соответствие элементов данных ο деталях (Σ2000Μ – Σ1000Δ) (Продолжение)
+Текстовый Наименование Μ/O Элемент/атрибут схемы
+идентифика элемента данных
+тор
+элемента
+<specialStorage>...</specialStorage> STR Признак особого O
+хранения
+<usableOnCodeAssy>... UCA Код применимости O
+сборочной единицы </usableOnCodeAssy>
+<usableOnCodeEquip>... UCE Код применимости O
+оборудования </usableOnCodeEquip>
+<unitOfIssue>...</unitOfIssue> UOI Единица поставки O
+<unitOfIssueQualificationSegment UOM Единица измерения O
+unitOfMeasure="...">
+3 Примеры
+3.1 Ссылка
+Ссылка от одного изделия на две сборочные единицы вышестоящего уровня
+(элемент 040 β проекте 23121101 η элемент 010 β проекте 23121110) должна быть
+представлена следующим образом:
+<referTo refType="nha">
+<catalogSeqNumberRef responsiblePartnerCompanyCode="R"
+initialProvisioningProjectNumber="K03781101"
+modelIdentCode="..." systemDiffCode="..." figureNumber="..."
+figureNumberVariant="..." itemLocationCode="Δ" item="040"
+itemVariant="..."/>
+<catalogSeqNumberRef responsiblePartnerCompanyCode="F"
+initialProvisioningProjectNumber="K03781110"
+modelIdentCode="..." systemDiffCode="..." figureNumber="..."
+figureNumberVariant="..." itemLocationCode="Δ" item="010"
+itemVariant="..."/>
+</referTo>
+Ссылка от одного изделия на элемент структуры изделия (элемент 050 β проекте
+23121101) должна быть представлена следующим образом:
+<referTo refType="det">
+<catalogSeqNumberRef responsiblePartnerCompanyCode="F"
+initialProvisioningProjectNumber="23121101" modelIdentCode="..."
+systemDiffCode="..." figureNumber="..."
+figureNumberVariant="..." itemLocationCode="Δ" item="050"
+itemVariant="..."/>
+</referTo>
+Если элемент структуры изделия, на который указывает ссылка, разработан σ
+использованием неструктурированного иллюстрированного каталога деталей, то будет
+использовать только прямая ссылка на номер IPPN
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 61

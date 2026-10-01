@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+Пример:
+Взаимосвязь определений объекта
+Внешнее утверждение #1
+Тип соотнесения = "Alias''
+Внешнее утверждение #2
+это значит, что внешние утверждения #1 η #2 связаны соотнесением типа “alias”.
+associate Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090503-Α-FAPE3-00035-Α-001-01
+associate Рис. 5 Элемент < >
+Атрибуты:
+associationType (O). Допустимые значения: 
+extref • " " для внешних определений
+alias • " " для эквивалентных определений
+Дочерние элементы:
+applicCrossRefTableRef < > (Μ). См. Глава 3.9.5.1 . 
+Пример разметки:
+<productDefinitionRelationship>
+<externalAssert applicPropertyIdent="brakeSerialNo"
+applicPropertyType="prodattr">
+<applicCrossRefTableRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-
+Δ00-00-00-00AA-00WA-Δ">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Ω" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent></dmRef>
+</applicCrossRefTableRef>
+</externalAssert>
+<associate associationType="alias">
+<externalAssert applicPropertyIdent="serialNo"
+Действительно: Все Σ1000Δ-Α-03-09-0503-04Α-040Α-Α
+Глава 3.9.5.3.4
+2013-11-15 Страница 6

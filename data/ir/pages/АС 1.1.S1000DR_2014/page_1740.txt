@@ -1,0 +1,67 @@
+limit < > (Μ). Содержит 
+выполнения сервисного
+Пример разметки:
+<sbTimeCompliance
+<limit limitTypeValue="po">
+<threshold
+<thresholdValue>1000</thresholdValue>
+</threshold>
+</limit>
+</sbTimeCompliance>
+<sbTimeCompliance
+<limit limitTypeValue="po">
+<threshold
+<thresholdValue>3</thresholdValue>
+</threshold>
+<remarks><simplePara>After
+bulletin</simplePara></remarks>
+</limit>
+</sbTimeCompliance>
+<sbTimeCompliance
+<limit limitTypeValue="pe">
+<threshold
+<thresholdValue>200</thresholdValue>
+</threshold>
+</limit>
+</sbTimeCompliance>
+Примечание
+sbTimeComplianceType 
+sbTimeComplianceType 
+отсрочки"
+sbTimeComplianceType 
+повторений"
+limitTypeValue po =" 
+limitTypeValue pe =" 
+thresholdUnitOfMeasure 
+посадочный цикл".
+thresholdUnitOfMeasure 
+2.7 Оценка времени
+Описание. Элемент <
+(продолжительности, сроке
+бюллетеня. Сведения ο времени
+описанным β сервисном бюллетене.
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+сведения, необходимые для определения времени
+бюллетеня. См. Глава 3.9.5.2.5 .
+sbTimeComplianceType="sbtct01">
+thresholdUnitOfMeasure="θ02
+sbTimeComplianceType="sbtct02">
+thresholdUnitOfMeasure="θ03">
+ issuance of the service
+sbTimeComplianceType="sbtct03">
+thresholdUnitOfMeasure="θ02">
+sbtct01 =" " определяется как "основной срок"
+sbtct02 =" " определяется как "период
+sbtct03 =" " определяется как "интервал
+" определяется как "выполняется однократно"
+" определяется как "выполняется периодически"
+θ02 =" " определяется как "взлетно-
+θ03 =" " определяется как "месяцы".
+sbTimeAssessment > содержит сведения ο времени
+выполнения), необходимом для выполнения сервисного
+относятся κ различным конфигурациям объекта,
+Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 15

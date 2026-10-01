@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+атрибуту объекта
+condition applicPropertyIdent • " " указывает, что атрибут относится
+κ условию
+applicPropertyValue (Μ), для значения, которое должно быть присвоено 
+атрибуту объекта или условию, на которые указывает ссылка. Значение не может
+содержать символы тильды [~] или вертикальной черты [|], поскольку эти
+символы будут определены как разделители при использовании β качестве
+applicPropertyValues значения β атрибуте где-либо внутри модели
+применимости.
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00327 - Включение
+атрибутов η условий:
+Решение ο том, какие атрибуты объекта η условия необходимо включить β PCT. 
+Условия, представляющие эксплуатационные характеристики η свойства
+окружающей среды обычно не включаются β PCT, поскольку они не связаны σ
+экземпляром объекта.
+Пример разметки:
+<assign applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValue="1Β070643"/>
+3 Примеры
+Β следующем примере разметки показано определение трех экземпляров объекта.
+<productCrossRefTable>
+<product>
+<assign applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValue="1Β070643"/>
+<assign applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValue="Brook
+trekker"/>
+<assign applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValue="Mk9"/>
+<assign applicPropertyIdent="versrank"
+applicPropertyType="prodattr" applicPropertyValue="2"/>
+<assign applicPropertyIdent="SB-Σ001"
+applicPropertyType="condition" applicPropertyValue="Pre"/>
+</product>
+<product>
+<assign applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValue="1Β070644"/>
+<assign applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValue="Brook
+trekker"/>
+<assign applicPropertyIdent="version"
+Действительно: Все Σ1000Δ-Α-03-09-0503-03Α-040Α-Α
+Глава 3.9.5.3.3
+2013-11-15 Страница 4

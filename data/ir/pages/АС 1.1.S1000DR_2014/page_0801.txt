@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+authorityName authorityDocument (O) η (O) используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11
+Дочерние элементы :
+isolatedFault < > (Μ). См. Разд. 2.5.1. 
+Пример разметки :
+<isolatedFaultAlts id ="fltc-001">
+<isolatedFault id="flt-0001" faultCode="NYCJD01">
+<faultDescr>
+<detailedFaultDescr>
+<systemName>Engine</systemName>
+<faultMessageBody>Engine 1 will not start.</faultMessageBody>
+</detailedFaultDescr>
+</faultDescr>
+<locateAndRepair>
+<locateAndRepairLruItem>
+<lru>
+</lru>
+</locateAndRepairLruItem>
+</locateAndRepair>
+</isolatedFault>
+<isolatedFault id="flt-0002" faultCode="NYCJD02">
+<faultDescr>
+<detailedFaultDescr>
+<systemName>Engine</systemName>
+<faultMessageBody>Engine 2 will not start.</faultMessageBody>
+</detailedFaultDescr>
+</faultDescr>
+<locateAndRepair>
+<locateAndRepairLruItem>
+<lru>
+</lru>
+</locateAndRepairLruItem>
+</locateAndRepair>
+</isolatedFault>
+</isolatedFaultAlts>
+2.5.3 Обнаруженные неисправности
+detectedFault Описание. Β элементе < > содержатся сведения об обнаруженных
+неисправностях.
+detectedFault Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 19

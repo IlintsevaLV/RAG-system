@@ -1,0 +1,39 @@
+Рис. 17 Элемент <
+Атрибуты :
+embeddedSupportEquipDescr Элемент <
+supportEquipDescr элемент <
+Дочерние элементы :
+embeddedSupportEquipDescr Элемент <
+supportEquipDescr элемент <
+materialSetRef Элемент < 
+embeddedSupportEquipDescr Элемент < 
+2.5.2 Примеры разметки - Необходимое
+Пример 1
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr
+<name>Specialist toolset</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0611-001-01
+embeddedSupportEquipDescr >
+> содержит такие же атрибуты, что η
+>. См. Разд. 2.5.1.
+> содержит такие же атрибуты, что η
+> (см. Разд. 2.5.1) со следующими исключениями:
+> запрещается.
+> запрещается.
+ вспомогательное оборудование
+id="seq-0001">
+unitOfMeasure="EA">1</reqQuantity>
+Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 54

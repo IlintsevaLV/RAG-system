@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+<circuitBreakerRef circuitBreakerNumber="42RT"
+circuitBreakerType="cbt02">
+</circuitBreakerRef>
+<name>MMR-1 (ILS+GPS)</name>
+<circuitBreakerLocation>0867</circuitBreakerLocation>
+</circuitBreakerDescr>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerNumber="800RT"
+circuitBreakerType="cbt02">
+</circuitBreakerRef>
+<name>GLIDE ANT2 SWGT RELAY</name>
+<circuitBreakerLocation>SSPC</circuitBreakerLocation>
+</circuitBreakerDescr>
+</circuitBreakerDescrSubGroup>
+2.2.4.1.2 Описание автомата защиты
+circuitBreakerDescr Описание. Элемент < > содержит сведения об отдельных
+автоматах защиты.
+circuitBreakerDescr Элемент разметки: < > (C)
+ICN-Σ3627-Σ1000Δ0529-002-01
+circuitBreakerDescr Рис. 10 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости, представленные путем ссылки на 
+applic элемент < >. См. Глава 3.9.5.3 .
+id circuitBreakerDescr (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 26

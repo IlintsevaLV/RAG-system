@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+internalRef элементе < >.
+Пример разметки для перекрестной ссылки приводится ниже:
+<internalRef internalRefTargetType="irtt12" internalRefId="prm-
+0001"></internalRef>
+multimediaObject Перекрестная ссылка привязывается элементом < >, β котором
+записаны доступные объекты, имеющиеся β мультимедийном объекте. Вот пример
+такой разметки:
+<multimedia>
+<multimediaObject autoPlay="0" infoEntityIdent="ICN-Σ1000DBIKE-
+AAA-Δ000000-0-SF518-00538-Α-001-01" multimediaType="3Δ"
+showPluginControls="hide" fullScreen="0"
+multimediaObjectHeight="300" multimediaObjectWidth="300">
+<parameter id="prm-0001" parameterIdent="param001"
+parameterName="cable"/>
+</multimediaObject>
+<multimediaObject autoPlay="0" infoEntityIdent="ICN-Σ1000DBIKE-
+AAA-Δ000000-0-SF518-00538-Α-001-01" multimediaType="3Δ"
+showPluginControls="hide" fullScreen="0"
+multimediaObjectHeight="300" multimediaObjectWidth="300">
+<parameter id="prm-0002" parameterIdent="param002"
+parameterName="lever"/>
+</multimediaObject>
+<multimediaObject autoPlay="0" infoEntityIdent="ICN-Σ1000DBIKE-
+AAA-Δ000000-0-SF518-00538-Α-001-01" multimediaType="3Δ"
+showPluginControls="hide" fullScreen="0"
+multimediaObjectHeight="300" multimediaObjectWidth="300">
+<parameter id="prm-0003" parameterIdent="param003"
+parameterName="guide"/>
+</multimediaObject>
+</multimedia>
+parameter Β приведенном выше примере ссылка на элемент < > по его атрибуту
+id выделяет объект β мультимедийном объекте, который идентифицируется σ
+param001 parameterIdent cable помощью значения " " атрибута η значения " "
+parameterName parameter атрибута элемента < >. Дополнительные сведения об
+parameter элементе < > см. β Глава 3.9.5.2.1.8 .
+3.6 Крупномасштабные объекты
+Β следующем примере показана разметка для крупномасштабной иллюстрации:
+<foldout>
+<figure id="fig-0001">
+<title>LP compressor - Removal</title>
+<graphic infoEntityIdent="ICN-E2-Α-723200-R-K0378-00232-Α-01-1">
+</graphic>
+<graphic infoEntityIdent="ICN-E2-Α-723200-R-K0378-00233-Α-01-1">
+</graphic>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01H-040Α-Α
+Глава 3.9.5.2.1.7
+2013-11-15 Страница 14

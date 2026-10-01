@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+соединения. См. Разд. 2.7.10.
+descrElectricalStateDescr < > (O), описание сведений об электрическом 
+состоянии См. Разд. 2.7.11.
+descrAccessoryPartNumber < > (O), описание сведений ο вспомогательном 
+устройстве
+descrFunctionalDescrRef < > (O), описание ссылки на функциональное 
+описание. См. Разд. 2.5.32.
+descrIllustrationRef < > (O), описание ссылки на иллюстрацию См. 
+Разд. 2.5.33.
+Пример разметки:
+partNumber Β следующем примере разметки показано определение элементов < >
+manufacturerCode η < > β альтернативном варианте данных соединителя. Ссылки
+не используются.
+<descrAltPartNumber>
+<fieldName>Manufacturer part number</fieldName>
+<descr>Manufacturer part number provides manufacturer part
+numbers, which show cross reference part numbers to the standard
+part number of the connector.</descr>
+</descrAltPartNumber>
+<descrManufacturerCode>
+<fieldName>Manufacturer</fieldName>
+<descr>Manufacturer shows the manufacturer of the connector,
+described by manufacturer part number.</descr>
+</descrManufacturerCode>
+2.8.1.1 Описание сведений ο массе
+descrMass Описание. Элемент < > содержит дочерние элементы, β которых
+указываются название для конкретного проекта или организации, краткое описание η
+ссылка на другие модули данных или публикации для элемента сведений ο массе
+mass < >. См. Разд. 2.4.
+descrMass Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+См. Разд. 2.4. 
+2.8.1.2 Описание сведений ο размещении
+descrOrientation Описание. Элемент < > содержит дочерние элементы, β
+которых указываются название для конкретного проекта или организации, краткое
+описание η ссылка на другие модули данных или публикации для элемента
+orientation сведений ο размещении < >. См. Разд. 2.4.
+descrOrientation Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Π-040Α-Α
+Глава 3.9.5.2.9.13
+2013-11-15 Страница 31

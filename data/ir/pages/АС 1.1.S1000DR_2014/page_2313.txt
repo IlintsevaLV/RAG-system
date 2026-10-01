@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+<scoEntryItem>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA4" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="041" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ10" learnEventCode="Β" />
+<language countryIsoCode="US" languageIsoCode="en" />
+</dmRefIdent>
+</dmRef>
+</scoEntryItem>
+</scoEntry>
+</scoEntryItem>
+<scoEntryItem>
+<scoEntry scoEntryType="scot01">
+<scoEntryTitle>Drive Train Maintenance</scoEntryTitle>
+<scoEntryItem>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA4" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="041" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ2Γ" learnEventCode="C" />
+<language countryIsoCode="US" languageIsoCode="en" />
+</dmRefIdent>
+</dmRef>
+</scoEntryItem>
+</scoEntry>
+</scoEntryItem>
+<scoEntryItem>
+<scoEntry scoEntryType="scot01">
+<scoEntryTitle>Assessment</scoEntryTitle>
+<scoEntryItem>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA4" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="041" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ88" learnEventCode="E" />
+<language countryIsoCode="US" languageIsoCode="en" />
+</dmRefIdent>
+</dmRef>
+</scoEntryItem>
+</scoEntry>
+</scoEntryItem>
+</scoEntry>
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 16

@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+<lcAbilities>
+<description>
+<para>The bike couriers have the ablility to use basic hand
+tools required to perform routine bike maintenance tasks.</para>
+</description>
+</lcAbilities>
+2.2.5.9 Отношение κ работе
+lcAttitude Описание: Элемент < > описывает текущий интерес κ работе
+учащегося, необходимый для выполнения его рабочих задач или для реализации
+желаемой производительности β организации.
+lcAttitude Элемент разметки: < > (O)
+Атрибуты:
+id lcAttitude (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcAttitude>
+<description>
+<para>The majority of the bike couriers are motivated by the pay
+and tips received as part of the courier job. They are not
+concerned with or aware of how they impact the success of the
+business and local economy.</para>
+</description>
+</lcAttitude>
+2.3 Анализ причин
+lcCauseAnalysis Описание: Элемент < > является контейнером для сведений по
+анализу причин. Это третий элемент контейнера верхнего уровня β элементе
+learningPlan < >. Он описывает технические данные, связанные σ основными
+причинами потенциального или фактического низкого уровня производительности.
+lcCauseAnalysis Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 44

@@ -1,0 +1,70 @@
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr"
+</evaluate>
+</evaluate>
+</applic>
+</referencedApplicGroup>
+...
+<maintPlanning>
+<taskDefinition
+taskCode="taskcd04"
+reducedMaint="No"
+skillType="st01"><task>
+ride checks
+<rqmtSource
+<externalPubRefIdent>
+<externalPubCode>XY774Ω001-MRB
+</externalPubCode>
+<ExternalPubTitle>Maintenance
+Report</externalPubTitle>
+</externalPubRefIdent>
+<externalPubRefAddressItems>
+<issueDate year="2010"
+</externalPubRef>
+<sourceType sourceTypeCode="stc05"/>
+</rqmtSource>
+<preliminaryRqmts><reqCondGroup><noConds/>
+</reqCondGroup>
+<reqPersons>
+<person man="Α">
+<personCategory
+<trade>Operator</trade>
+<estimatedTime
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr><name>Tire
+<partAndSerialNumber><partNumber>BSK-TLST-001-
+<reqQuantity
+</supportEquipDescr>
+<supportEquipDescr><name>Specialist
+<partAndSerialNumber><partNumber>BSK-TLST-
+001</partNumber></partAndSerialNumber>
+</identNumber>
+<reqQuantity
+</supportEquipDescr>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ applicPropertyValues="Mk9"/>
+applicRefId="appl-001" taskIdent="001"
+worthinessLimit="recommended"
+<taskDescr><simplePara>To do the pre-
+</simplePara></taskDescr></task>
+sourceOfRqmt="MRB"approval="ap01"><externalPubRef>
+ Review Board
+month="12" day="14">
+personCategoryCode="Basic user"/>
+unitOfMeasure="HR">0,25 η</estimatedTime>
+ pressure gauge</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+01</partNumber></partAndSerialNumber></identNumber>
+unitOfMeasure="EA">1</reqQuantity>
+ toolset</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+unitOfMeasure="EA">1</reqQuantity>
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 44

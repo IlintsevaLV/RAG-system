@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+Таблица 13 Пример группирования содержимого шага (Продолжение)
+Строка Разметка
+</proceduralStep>
+<proceduralStep><para>This step has substeps</para> 3
+<proceduralStep><para>First screen, first substep</para> 4
+</proceduralStep>
+<proceduralStep><para>First screen, second substep</para> 5
+</proceduralStep>
+</proceduralStep> 6
+</dmNode> 7
+<dmNode> 8
+<proceduralStep><para>This is the second screen of data</para> 9
+</proceduralStep>
+<proceduralStep><para>This step has substeps</para> 10
+<proceduralStep><para>Second screen. first substep</para> 11
+</proceduralStep>
+<proceduralStep><para>Second screen, second substep</para> 12
+</proceduralStep>
+</proceduralStep> 13
+</dmNode> 14
+Обработка сгруппированного содержимого шага:
+Β приведенном выше фрагменте логическое ядро обрабатывает первый узел dmNode
+(строки 1-7) η создает пакет для отображения β ИЭТП. Ожидаемый результат может
+выглядеть следующим образом:
+1 Первый экран σ данными
+2 Данный шаг имеет подшаги
+2.1 2.1 Первый экран, первый подшаг
+2.2 2.2 Первый экран, второй подшаг
+Когда пользователь прочитает текст η захочет продолжить, ему надо будет
+воспользоваться функцией "Далее". Тогда логическое ядро перейдет κ обработке
+второго узла dmNode (строки 8-14) η создаст пакет для отображения β ИЭТП.
+Ожидаемый результат может выглядеть следующим образом:
+1 Это второй экран σ данными
+2 Данный шаг имеет подшаги
+2.1 2.1 Второй экран, первый подшаг
+Действительно: Все Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 12

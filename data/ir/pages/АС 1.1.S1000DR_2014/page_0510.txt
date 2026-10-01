@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+</row>
+...
+</tgroup>
+</table>
+2.5.4.3 Удаление
+Если удаляется строка, необходимо присвоить соответствующие значения атрибутам
+row элемента < >.
+Пример разметки:
+<table id="tab-0006">
+<title>Title</title>
+<tgroup cols="3">
+<tbody>
+<row changeType="delete" changeMark="1"
+reasonForUpdateRefIds="rfu-0013">
+<entry><para>This paragraph has been deleted.</para></entry>
+...
+</row>
+...
+</tgroup>
+</table>
+2.5.5 Разметка отдельных строк таблицы η названия таблицы
+2.5.5.1 Добавление
+Если добавляются отдельная строка η название таблицы, необходимо присвоить
+title row соответствующие значения атрибутам элемента < > η элемента < >.
+Пример разметки:
+<table id="tab-0007">
+<title changeType="add" changeMark="1"
+reasonForUpdateRefIds="rfu-0014">Title added</title>
+<tgroup cols="4">
+<tbody>
+<row changeType="add" changeMark="1"
+reasonForUpdateRefIds="rfu-0015">
+<entry><para>This paragraph has been added.</para></entry>
+...
+</row>
+...
+</tgroup>
+</table>
+2.5.5.2 Изменение
+Если изменяются строка η название таблицы, необходимо присвоить
+title row соответствующие значения атрибутам элемента < > η элемента < >.
+Пример разметки:
+<table id="tab-0007">
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Β-040Α-Α
+Глава 3.9.5.2.1.1
+2013-11-15 Страница 15

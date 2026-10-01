@@ -1,0 +1,29 @@
+Σ1000DR-UACRU-01000-00
+catalogSeqNumberRef < > (O). См. Разд. 2.4.2.1.2. 
+quantity < > (O). См. Разд. 2.5.5.3.4. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00226 –
+localFabricationMaterial Использование элемента < > :
+Решение ο методе идентификации связанной детали. 
+Пример разметки:
+Деталь σ обозначением 1 может производиться из детали σ обозначением 2 η
+детали σ обозначением 3.
+<partSpec>
+<partIdent partNumberValue="1".../>
+...
+<partRefGroup>
+<localFabricationMaterial>
+<partRef partNumberValue="2".../>
+<partRef partNumberValue="3".../>
+</localFabricationMaterial>
+</partRefGroup>
+</partSpec>
+2.5.6 Данные ο расположении детали
+partLocationSegment Описание. Элемент < > используется для идентификации
+сегмента данных ο расположении детали (CBS) β Σ2000Μ.
+partLocationSegment Элемент разметки: < > (O)
+ICN-Σ1000Δ-Α-030905-Δ-F6117-00006-Α-002-01
+partLocationSegment Рис. 6 Элемент < >
+Атрибуты:
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 43

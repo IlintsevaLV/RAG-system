@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+applicPropertyValues="1~10|12~34"
+applicDisplayClass="ConfirmedAC"/>
+<evaluate andOr="and">
+<assert applicPropertyType="prodattr"
+applicPropertyIdent="serialno"
+applicPropertyValues="101~118|201~213"
+applicDisplayClass="ConditionalAC"/>
+<evaluate andOr="or" applicDisplayClass="ConditionStack">
+<evaluate andOr="and" applicDisplayClass="techcond">
+<assert applicPropertyType="prodattr"
+applicPropertyIdent="serialno" applicPropertyValues="101~118"/>
+<assert applicPropertyType="condition"
+applicPropertyIdent="SB52-1085-FAPE3"
+applicPropertyValues="post" applicDisplayClass="sb"/>
+<assert applicPropertyType="condition"
+applicPropertyIdent="SB54-1086-FAPE3"
+applicPropertyValues="post" applicDisplayClass="sb"/>
+</evaluate>
+<evaluate andOr="and" applicDisplayClass="techcond">
+<assert applicPropertyType="prodattr"
+applicPropertyIdent="serialno" applicPropertyValues="201~213"/>
+<assert applicPropertyType="condition"
+applicPropertyIdent="SB52-1085-FAPE3"
+applicPropertyValues="post" applicDisplayClass="sb"/>
+</evaluate>
+</evaluate>
+</evaluate>
+</evaluate>
+</applic>
+Следовательно, предназначенной для человека формой по умолчанию может быть:
+"SN: 1-10 or 12-34 or (SN: 101-118 or 201-213 (SN: 101-118
+SB 52-1085-(FAPE)3: (POST) SB54-1086-FAPE3: POST) or (SN:
+201-213 SB52-1085-FAPE3: POST))"
+Это может быть неудобочитаемо η непонятно. Σ помощью значений атрибута класса
+отображения можно сгенерировать следующее предназначенное для человека
+отображение, соответствующее требованиям конкретных проекта или организации:
+Подтверждено по Α/C 1-10 12-34
+Зависит от Α/C 101-118 201-213
+POST SB 52-1085 η POST SB 54-001 по Α/C 101-118 
+POST SB 52-1085 по Α/C 201-213 
+Класс отображения "ConfirmedAC" предлагает отображать перед значениями надпись
+"Подтвержден по Α/C" (согласно принятым правилам выполнения проекта).
+Класс отображения "ConditionalAC" предлагает отображать перед значениями надпись
+"Зависит от Α/C" (согласно принятым правилам выполнения проекта).
+Другие значения класса отображения представляют данные, требуемые для создания
+Действительно: Все Σ1000Δ-Α-07-08-0000-00Α-040Α-Α
+Глава 7.8
+2013-11-15 Страница 17

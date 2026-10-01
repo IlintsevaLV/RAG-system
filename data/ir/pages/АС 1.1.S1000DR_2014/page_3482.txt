@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+targetPath dmSegmentRef Расположение включается β атрибут элемента < >.
+3 Примеры
+Все примеры приведены только σ целью иллюстрирования.
+<content>
+<scoContent>
+<trainingStep>
+<dmSegmentRef targetPath=
+"//lcInstruction/description/levelledPara[attribute::id =
+'para-000' and child::levelledPara[fn:position() = 1]]">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+assyCode="20" disassyCode="00" disassyCodeVariant="AA"
+infoCode="520" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ4J" learnEventCode="C"/>
+</dmRefIdent>
+</dmSegmentRef>
+<dmSegmentRef targetPath=
+"//lcInstruction/description/levelledPara[attribute::id =
+'para-000' and child::levelledPara[fn:position() = 3]]">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+assyCode="20" disassyCode="00" disassyCodeVariant="AA"
+infoCode="520" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ4J" learnEventCode="C"/>
+</dmRefIdent>
+</dmSegmentRef>
+</trainingStep>
+<trainingStep>
+<dmSegmentRef targetPath="//lerningAssessment">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="041" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ61" learnEventCode="E"/>
+</dmRefIdent>
+</dmSegmentRef>
+</trainingStep>
+</scoContent>
+</content>
+Действительно: Все Σ1000Δ-Α-07-07-0500-00Α-040Α-Α
+Конец модуля данных Глава 7.7.5
+2013-11-15 Страница 2

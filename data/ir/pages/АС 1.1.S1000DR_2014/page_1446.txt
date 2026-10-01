@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+Нет 
+2.1.1.4.2 Код задачи
+taskCategory Описание. Элемент < > определяет использование инструмента
+(например, обслуживание, техническое обслуживание, капитальный ремонт, ремонт)
+taskCategoryCode Для этого используется атрибут .
+taskCategory Элемент разметки: < > (O)
+Атрибуты:
+taskCategoryCode (Μ), значение категории задачи инструмента. 
+id taskCategory (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00262 -
+taskCategoryCode Использование атрибута :
+Решение об использовании категории задачи инструмента (например, 
+обслуживание, техническое обслуживание, капитальный ремонт, ремонт), α также
+taskCategoryCode ο способе заполнения атрибута .
+3 Пример
+<toolRepository>
+<toolSpec>
+<toolIdent toolNumber="PWC515916"
+manufacturerCodeValue="0Μ197"/>
+<itemIdentData>
+<descrForPart>TUBE-GUIDE, BORESCOPE,POWER TURBINE</descrForPArt>
+<partKeyword>GUIDE</partKeyword></itemIdentData>
+<procurementData>
+<enterpriseRef manufacturerCodeValeu="F0286"
+enterpriseType="supplier"/>
+</procurementData>
+<techData>
+<sparePartClass sparePartClassCode="1"/>
+<partUsage partUsageCode="pu01"/>
+</techData>
+<toolRefGroup toolRefType=”symmetric”>
+<toolRef toolNumber="PWC515918" manufacturerCodeValue="0Μ197"/>
+</toolRefGroup>
+<toolAlts>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11K-040Α-Α
+Глава 3.9.5.2.11.9
+2013-11-15 Страница 8

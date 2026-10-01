@@ -1,0 +1,61 @@
+<para>
+The answer
+The correct answer is
+</para>
+</description>
+<internalRef internalRefId="ao_004">
+</internalRef>
+</lcFeedbackItem>
+</lcFeedbackItemGroup>
+2.4.1.4.2 Внутренняя ссылка
+internalRef Описание: Элемент <
+ссылки из одной точки модуля
+осуществляется путем связи
+См. Глава 3.9.5.2.1.2 .
+internalRef Элемент < >
+для связи откликов σ соответствующими
+ путем присваивания атрибуту
+answerOption атрибута id элемента <
+Пример разметки:
+<lcAnswerOption id="ao_001"
+<lcAnswerOptionContent>
+<description>
+<para>headset/fork</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+. . .
+<lcFeedbackItem attemptMatch="1"
+<description>
+<para>The answer
+incorrect. Try again!</para>
+</description>
+<internalRef internalRefId="ao_001">
+</internalRef>
+</lcFeedbackItem>
+2.4.2 Единственный вариант ответа
+Описание. При взаимодействии σ
+представляется вопрос η три или
+является правильным.
+lcSingleSelect Элемент разметки: <
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+<emphasis>"frame/handlebar"</emphasis> is incorrect.
+handlebar/headset.
+> используется для разметки перекрестной
+данных на другую точку того же модуля данных. Это
+internalRefId id атрибута σ целевым атрибутом .
+используется внутри структуры группы обратной связи
+ вариантами ответов. Связь осуществляется
+internalRefId соответствующего значения
+>.
+ shuffle="1">
+ feedbackStatus="fbIncorrect">
+<emphasis>"headset/fork"</emphasis> is
+ единственным вариантом ответа учащемуся
+ больше возможных ответа, из которых только один
+> (O)
+Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 22

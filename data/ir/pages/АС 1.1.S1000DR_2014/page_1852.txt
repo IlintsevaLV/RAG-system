@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="043" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmSegmentRef>
+<dmSegmentRef
+targetPath="/dmodule/content/description/levelledPara[2]/
+levelledPara[4]">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="043" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmSegmentRef>
+<dmSegmentRef
+targetPath="/dmodule/content/description/levelledPara[2]/
+levelledPara[3]">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="043" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmSegmentRef>
+</trainingStep>
+</scoContent>
+3.2 Пример обращения κ внешнему объекту SCO
+Β следующем примере разметки представлен модуль данных содержимого SCO со
+ссылками на внешний объект SCO, который определен без использования данных
+Σ1000Δ.
+<scoContent>
+<externalSco>
+<externalPubRef>
+<externalPubRefIdent>
+<externalPubTitle>History of cycling</externalPubTitle>
+</externalPubRefIdent>
+<externalPubRefAddressItems>
+<externalPubIssueDate day="16" month="04" year="2010"/>
+<responsiblePartnerCompany enterpriseCode="AH019">
+<enterpriseName>Isselnord</enterpriseName>
+</responsiblePartnerCompany>
+</externalPubRefAddressItems>
+</externalPubRef>
+</externalSco>
+</scoContent>
+Действительно: Все Σ1000Δ-Α-03-09-0502-17Α-040Α-Α
+Конец модуля данных Глава 3.9.5.2.17
+2013-11-15 Страница 8

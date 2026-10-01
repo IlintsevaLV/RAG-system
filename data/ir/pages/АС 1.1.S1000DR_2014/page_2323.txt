@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+system</lom:string>
+</lom:description>
+<lom:keyword>
+<lom:string>Air vehicle maintenance training, Landing gear
+system</lom:string>
+</lom:keyword>
+</lom:general>
+<lom:lifeCycle>
+<lom:version>
+<lom:string language="en">2007.06.17.12.12.15.737</lom:string>
+</lom:version>
+<lom:status>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>final</lom:value>
+</lom:status>
+</lom:lifeCycle>
+<lom:metaMetadata>
+<lom:identifier>
+<lom:catalog>GUID</lom:catalog>
+<lom:entry>3Δ16197F-4BA0-4F5C-BF57-CD3C8BA61148</lom:entry>
+</lom:identifier>
+<lom:metadataSchema>LOMv1.0</lom:metadataSchema>
+<lom:metadataSchema>SCORM_CAM_v1.3</lom:metadataSchema>
+</lom:metaMetadata>
+</lom:lom>
+</identAndStatusSection>
+<content>
+<!--This is α reference to one learning product used to make up
+the courseware.-->
+<scoEntry>
+<scoEntryAddress>
+<scoEntryCode modelIdentCode="DEE1Β1"
+scormContentPackageNumber="01132"
+scormContentPackageIssuer="C0419"
+scormContentPackageVolume="00"/>
+<scoEntryTitle>Parts of the Landing Gear</scoEntryTitle>
+</scoEntryAddress>
+<scoEntryStatus>
+<qualityAssurance>
+<unverified/>
+</qualityAssurance>
+</scoEntryStatus>
+<!--Since this SCORM content package is α collection of learning
+products used to make up α full learning event, there might be
+another LOM reference here for this individual product.-->
+<lom:lom>
+<lom:general>
+<lom:identifier>
+<lom:entry>3Δ16197F-4BA0-4F5C-BF57-CD3C8BA61148</lom:entry>
+</lom:identifier>
+Действительно: Все Σ1000Δ-Α-04-15-0300-00Α-040Α-Α
+Глава 4.15.3
+2013-11-15 Страница 4

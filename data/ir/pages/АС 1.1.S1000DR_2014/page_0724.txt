@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+При использовании разделения на значение η допуск необходимо решить, на 
+каком уровне разметки должен включаться атрибут
+quantityUnitOfMeasure . Допустимые расположения находятся β
+quantityGroup родительском элементе < >, который применяется ко всем
+quantityValue дочерним элементам, или β отдельных дочерних элементах < >
+quantityTolerance η < >. Последовательное использование атрибута
+quantityUnitOfMeasure необходимо для соответствующего отображения
+на экране или β печатной копии, которые получает пользователь.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00165 –
+quantityUnitOfMeasure Использование атрибута :
+Решение об использовании атрибута quantityUnitOfMeasure, значений для него, α 
+также назначение подходящих определений для значений. См. Глава 3.9.6.1 .
+Примечание
+Β связи σ большим количеством единиц измерения предполагается, что β
+проекте будет использоваться только небольшая подгруппа доступных единиц
+измерения. Необходимо также учитывать, что модули данных могут быть
+менее переносимыми, если типы единиц измерения σ помощью механизма
+BREX будут расширены сверх стандартных типов
+Пример разметки:
+Пример 1: Количественная группа - это простые количественные данные, имеющие
+значение η единицы измерения:
+<para>The windshield assembly weighs approximately
+<quantity>
+<quantityGroup quantityGroupType="nominal">
+<quantityValue quantityUnitOfMeasure="kg">40</quantityValue>
+</quantityGroup>
+</quantity>
+and requires two persons ...
+</para>
+Отображение данной разметки может быть следующим:
+"The windshield assembly weighs approximately 40 kg and requires two persons ..."
+Пример 2: Количественные данные, υ которых значение η допуск имеют одинаковые
+единицы измерения:
+<para>If hole tolerance of
+<quantity>
+<quantityGroup quantityGroupType="nominal"
+quantityUnitOfMeasure="mm">
+<quantityValue>0.700</quantityValue>
+<quantityTolerance
+quantityToleranceType="plus">0.010</quantityTolerance>
+<quantityTolerance
+quantityToleranceType="minus">0.000</quantityTolerance>
+</quantityGroup>
+</quantity>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Λ-040Α-Α
+Глава 3.9.5.2.1.10
+2013-11-15 Страница 15

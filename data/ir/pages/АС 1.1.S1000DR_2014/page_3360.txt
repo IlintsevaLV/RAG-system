@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+Таблица 4 Сопоставление метаданных для комментариев
+Элементы DC Элементы η/или атрибуты комментариев
+dc:title commentTitle < > < >
+dc:subject commentTitle < > < >
+dc:publisher senderIdent < > < >
+dc:date year month day < > - -
+dc:type text < > " "
+dc:format text/xml < > " "
+dc:identifier commentCode < > < >
+dc:language language _languageIsoCode-countryIsoCode < > < >
+dc:rights securityClassification_commercialClassification_ca < >
+veat
+или
+securityClassification_commercialClassification или
+securityClassification_caveat или
+securityClassification
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00546 - Включение
+метаданных RDF/DC:
+Решение ο включении метаданных RDF/DC β уведомления ο передаче данных, 
+перечни модулей данных η комментарии. Рекомендуется применять включение
+согласованно для всех объектов CSDB.
+3 Примеры
+3.1 Метаданные RDF/DC для уведомлений ο передаче данных
+Β следующем примере показано сопоставление элементов η/или атрибутов
+уведомления ο передаче данных σ элементами метаданных DC β контейнере RDF на
+языке XML:
+<? xml version="1.0"?>
+<ddn xmlns:xsi="http://www.ω3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.σ1000δ.org/Σ1000Δ_2-
+3/xml_schema_master/ddn/ddnSchema.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:title>Data Dispatch Note</dc:title>
+<dc:subject>Data Dispatch Note</dc:subject>
+<dc:publisher>C0419</dc:publisher>
+<dc:date>1999-03-08</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>URN:Σ1000Δ:DDN-AE-C0419-K0999-1999-00002
+Действительно: Все Σ1000Δ-Α-07-05-0300-00Α-040Α-Α
+Глава 7.5.3
+2013-11-15 Страница 4

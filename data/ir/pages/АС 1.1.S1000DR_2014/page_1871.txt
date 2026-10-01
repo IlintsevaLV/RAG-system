@@ -1,0 +1,19 @@
+Σ1000DR-UACRU-01000-00
+<evaluate andOr="and">
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr"
+applicPropertyValues="1Β070643~1Β070699"/>
+<assert applicPropertyIdent="SB-Σ001"
+applicPropertyType="condition" applicPropertyValues="post"/>
+</evaluate>
+</applic>
+...
+</referencedApplicGroup>
+Β результате комментарий по применимости применен κ соответствующему
+содержимому внутри модуля данных технического обслуживания:
+<proceduralStep applicRefId="appl-006">
+...
+</proceduralStep>
+Действительно: Все Σ1000Δ-Α-03-09-0503-00Α-040Α-Α
+Конец модуля данных Глава 3.9.5.3
+2013-11-15 Страница 19

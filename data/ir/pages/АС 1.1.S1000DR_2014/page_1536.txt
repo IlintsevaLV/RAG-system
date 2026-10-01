@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+lcMotives < > (O). См. 2.3.2.3. 
+Пример разметки:
+<lcInternalFactor>
+<title>Internal Factor</title>
+<description>
+<para>Causal factors internal to the couriers were derived from
+interviews with the couriers.</para>
+</description>
+<lcKnowledge>
+<description>
+<para>While basic knowledge of concepts (eg, parts, components,
+operation) related to most bikes was demonstrated by couriers,
+only 15% the had the procedural knowledge necessary to maintain
+and repair bicycles.</para>
+</description>
+</lcKnowledge>
+<lcCapacity>
+<description>
+<para>No significant causal factors were observed or uncovered
+during this analysis.</para>
+</description>
+</lcCapacity>
+<lcMotives>
+<description>
+<para>No significant causal factors were observed or uncovered
+during this analysis.</para>
+</description>
+</lcMotives>
+</lcKnowledge>
+</lcInternalFactor>
+2.3.2.1 Знания
+lcKnowledge Описание: Элемент < > содержит сведения ο нехватке знаний
+работника, которая негативно влияет на способность выполнять свою работу η, таким
+образом, является причиной потенциального или фактического низкого уровня
+производительности.
+lcKnowledge Элемент разметки: < > (O)
+Атрибуты:
+id lcKnowledge (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 52

@@ -1,0 +1,26 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0509-002-01
+isolateDetectedFault Рис. 9 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+faultIsolationRef < > (O), ссылка на сведения, необходимые для 
+локализации обнаруженной неисправности.
+lruItem < > (Μ). См. Разд. 2.5.3.1.1. 
+Пример разметки:
+<isolateDetectedFault>
+<lruItem>
+<lru>
+<name>Rear wheel</name>
+<identNumber>
+<manufacturerCode>KZ333</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>WH-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</lru>
+</lruItem>
+</isolateDetectedFault>
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 22

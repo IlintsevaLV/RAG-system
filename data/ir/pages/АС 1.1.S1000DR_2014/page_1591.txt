@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+</lcViewers>
+2.4.2.6.11 Разрешение
+lcResolution Описание: Элемент < > описывает необходимое разрешение экрана
+компьютера для отображения учебных материалов.
+lcResolution Элемент разметки: < > (O)
+Атрибуты:
+id lcResolution (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcResolution>
+<description>
+<para>Although the courseware can be viewed using different
+resolutions, it is best viewed in 1024ξ768 resolution.</para>
+</description>
+</lcResolution>
+2.4.2.6.12 Ограничения для размеров файлов
+lcFileSizeLimitations Описание: Элемент < > содержит ограничения для
+размеров файлов β клиентской среде работы σ материалами.
+lcFileSizeLimitations Элемент разметки: < > (O)
+Атрибуты:
+id lcFileSizeLimitations (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 107

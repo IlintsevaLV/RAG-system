@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+текущую дату.
+<condIncorporation condRefId="SB-Σ001">
+<documentIncorporation>
+<refs><dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="2" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="520" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef></refs>
+<incorporationStatus incorporationStatus="incorporated"
+year="2007" month="07" day="31"/>
+</documentIncorporation>
+</condIncorporation>
+Пример 4: Полная содержательная часть модуля данных ССТ, объединяющая все
+три примера, приведенных β этом параграфе.
+<condCrossRefTable>
+<condTypeList>
+<condType id="SB">
+<name>Service bulletin</name>
+<descr>Generic service bulletin type</descr>
+<enumeration applicPropertyValues="Pre|Post"/>
+</condType>
+</condTypeList>
+<condList>
+<cond condTypeRefId="SB" id="SB-Σ001">
+<name>Service bulletin Σ001 - Chain guard</name>
+<descr>Service bulletin Σ001 for the installation of the chain
+guard</descr>
+</cond>
+</condList>
+<incorporation>
+<condIncorporation condRefId="SB-Σ001">
+<documentIncorporation>
+<refs><dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="2" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="520" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef></refs>
+<incorporationStatus incorporationStatus="incorporated"
+year="2007" month="07" day="31"/>
+</documentIncorporation>
+</condIncorporation>
+</incorporation>
+Действительно: Все Σ1000Δ-Α-03-09-0503-02Α-040Α-Α
+Глава 3.9.5.3.2
+2013-11-15 Страница 18

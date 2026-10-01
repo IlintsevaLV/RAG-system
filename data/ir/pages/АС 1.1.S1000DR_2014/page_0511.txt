@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+<title changeType="modify" changeMark="1"
+reasonForUpdateRefIds="rfu-0016">Title modified</title>
+<tgroup cols="4">
+<tbody>
+<row changeType="modify" changeMark="1"
+reasonForUpdateRefIds="rfu-0017">
+<entry><para>This paragraph has been modified.</para></entry>
+...
+</row>
+...
+</tgroup>
+</table>
+2.5.5.3 Удаление
+Если удаляются строка η название таблицы, необходимо присвоить соответствующие
+title row значения атрибутам элемента < > η элемента < >.
+Пример разметки:
+<table id="tab-0007">
+<title changeType="delete" changeMark="1"
+reasonForUpdateRefIds="rfu-0018">Title deleted</title>
+<tgroup cols="4">
+<tbody>
+<row changeType="delete" changeMark="1"
+reasonForUpdateRefIds="rfu-0019">
+<entry><para>This paragraph has been deleted.</para></entry>
+...
+</row>
+...
+</tgroup>
+</table>
+2.6 Специальные правила для разметки изменений β рисунках
+Существует три способа разметки изменений β рисунке. Разметка отдельных
+элементов позволяет делать представление проекта более гибким. Представление
+изменений β рисунках описывается β Глава 6.2.2 . Можно разметить следующие
+изменения β рисунках:
+только рисунок. См. Разд. 2.6.1. 
+только название рисунка. См. Разд. 2.6.2. 
+рисунок η название рисунка. См. Разд. 2.6.3. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00093 -
+Использование разметки изменений для рисунков:
+Решение об использовании разметки изменений для рисунков η способе ее 
+использования.
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Β-040Α-Α
+Глава 3.9.5.2.1.1
+2013-11-15 Страница 16

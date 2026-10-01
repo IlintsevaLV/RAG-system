@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+<referTo refType="det">
+<initialProvisioningProjectRef
+initialProvisioningProjectNumber="KZ9990001">
+</initialProvisioningProjectRef>
+</referTo>
+3.2 Данные об универсальных деталях
+Примеры разметки для управления уровнем распределения (nid), ключевыми словами
+(key), стандартной сушкой (dhy), контейнерами для хранения (emb) η примечаниями
+(xnt) приведены ниже:
+<genericPartDataGroup>
+<genericPartData genericPartDataName="nid">
+<genericPartDataValue>2</genericPartDataValue></genericPartData>
+<genericPartData genericPartDataName="key">
+<genericPartDataValue>Bicycle</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="dhy">
+<genericPartDataValue>F2408:1-
+4UD:02</genericPartDataValue></genericPartData>
+<genericPartData genericPartDataName="emb">
+<genericPartDataValue>KZ999:LNS10276051</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="xnt">
+<genericPartDataValue>SP</genericPartDataValue>
+</genericPartData>
+</genericPartDataGroup>
+3.3 Содержимое иллюстрированного каталога деталей
+<illustratedPartsCatalog>
+<figure id="fig-0001">
+<title>Bicycle</title>
+<graphic infoEntityIdent="ICN-Σ1000DBIKE-AAA-Δ000000-0-U8025-
+00536-Α-01-1"/>
+</figure>
+<initialProvisioningProject
+initialProvisioningProjectNumber="KZ9990001"
+initialProvisioningProjectNumberSubject="BICYCLE"
+fileIdent="σ"/>
+<catalogSeqNumber systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="000" figureNumber="00"
+figureNumberVariant="Α" item="000" itemVariant="Α"
+indenture="1">
+<itemSequenceNumber itemSeqNumberValue="00Α">
+<reasonForSelection reasonForSelectionValue="0"/>
+<quantityPerNextHigherAssy>REF</quantityPerNextHigherAssy>
+<manufacturerCode>KZ999</manufacturerCode>
+<partNumber>BICYCLE-001</partNumber>
+<partIdentSegment><descrForPart>Bicycle</descrForPart>
+</partIdentSegment>
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 62

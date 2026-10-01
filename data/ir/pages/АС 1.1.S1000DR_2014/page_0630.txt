@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+internalRefTargetType="irtt13"></internalRef></hotspot>
+Примечание
+applicationStructureIdent Атрибут η атрибут
+applicationStructureName β данном примере не используются.
+3.5 Ссылки между графическими объектами
+internalRef hotspot Элемент < > используется внутри элемента < > для
+перекрестного обращения из одного графического объекта κ другому, как показано
+ниже (β дополнение κ примеру выше):
+<hotspot id="fig-0001-gra-0000-hot-0001"
+applicationStructureIdent="hot001" applicationStructureName="6"
+hotspotTitle="O-Ring">
+<internalRef internalRefId="fig-0001-trm-0001"
+targetTitle="Explanation"
+internalRefTargetType="irtt13"></internalRef>
+<internalRef internalRefId="fig-0001-gra-0000-hot-0002"
+internalRefTargetType="irtt11" targetTitle="Second occurrence of
+catalogItemNumber 6"></internalRef></hotspot>
+6 Β данном примере связь от первого ко второму экземпляру изделия номер " "
+internalRef выражена σ помощью другого подэлемента < > элемента
+hotspot < >.
+3.6 Ссылки из листов иллюстраций на другие модули данных
+Для перекрестных ссылок из одного графического объекта на рисунок η ХМL-текст
+hotspot другого модуля данных η на каталог деталей β элементе < > используются
+internalRef dmRef catalogSeqNumberRef элементы < >, < > η < >, например
+(на основе приведенного выше примера):
+<hotspot id="fig-0001-gra-0000-hot-0003"
+applicationStructureIdent="hot003" hotspotTitle="Hydraulic
+pump">
+<internalRef internalRefId="fig-0001-trm-0002"
+targetTitle="Explanation"
+internalRefTargetType="irtt13"></internalRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β"
+systemCode="24" subSystemCode="4" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="130" infoCodeVariant="Β" itemLocationCode="Α"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Disconnection of power supply</techName>
+<infoName>Normal operation</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+<dmRef referredFragment="URN:Σ1000Δ:ICN-1Β-Β-244000-Μ-C0419-
+Действительно: Все Σ1000Δ-Α-03-09-0502-01J-040Α-Α
+Глава 3.9.5.2.1.8
+2013-11-15 Страница 17

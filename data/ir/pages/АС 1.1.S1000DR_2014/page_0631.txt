@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+00123-Α-001-01" xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="new" xlink:title="Disconnection of power supply -
+Figure">
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β"
+systemCode="24" subSystemCode="4" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="130" infoCodeVariant="Β" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+<catalogSeqNumberRef xlink:type="simple"
+xlink:actuate="onRequest" xlink:show="new"
+xlink:title="Hydraulic pump XYZ" xlink:href="URN:Σ1000Δ:DMC-E2-
+Α-53-25-10-010-921Α-Δ#53251001-001-00Α" modelIdentCode=”E2”
+systemDiffCode=”Α” systemCode=”53” subSystemCode=”2”
+subSubSystemCode=”5” assyCode=”10” figure=”01” item=”001”
+itemLocationCode=”Δ”
+itemSeqNumberValue="00Α"/>
+</hotspot>
+dmRef hotspot Β данном примере второй подэлемент < > элемента < > показывает
+возможность определения связи от графического активного участка κ другому модулю
+данных.
+dmRef hotspot Третий подэлемент < > элемента < > показывает возможность
+определения связей от графического активного участка κ другим ресурсам (τ. ε.
+другим рисункам) вне контекста конкретного модуля данных. Это достигается
+referredFragment использованием атрибута σ универсальным именем ресурса
+β соответствии со стандартом Σ1000Δ.
+catalogSeqNumberRef hotspot Четвертый подэлемент < > элемента < >
+показывает возможность для определения связи от графического активного участка κ
+детали β рамках модуля данных иллюстрированного каталога деталей. Пример
+включает β себя необязательные атрибуты XLink, которые описывают поведение η
+название ссылки.
+Β данном примере когда графический активный участок выбирается β ИЭТП,
+представляется перечень из четырех возможных целевых объектов связи:
+Объяснение - Прочие 
+Отключение источника питания - Нормальная работа 
+Отключение источника питания - Рисунок 
+Гидронасос XYZ - Данные детали 
+Действительно: Все Σ1000Δ-Α-03-09-0502-01J-040Α-Α
+Конец модуля данных Глава 3.9.5.2.1.8
+2013-11-15 Страница 18

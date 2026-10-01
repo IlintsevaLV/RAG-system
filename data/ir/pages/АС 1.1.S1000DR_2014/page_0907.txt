@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</toolsRefs>
+</maintQualifier>
+<maintQualifier>
+<maintFunction function="ft09"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml04">40.0</maintLevel>
+</maintLevelGroup>
+<toolsRefs>
+<internalRef internalRefId="Tool02">2</internalRef>
+<internalRef internalRefId="Tool04">4</internalRef>
+</toolsRefs>
+</maintQualifier>
+</componentAssyGroup>
+<componentAssyGroup>
+<componentAssy>
+<name>Engine Lifting Plate</name>
+</componentAssy>
+<maintQualifier>
+<maintFunction function="ft01"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml02">0.2</maintLevel>
+</maintLevelGroup>
+<remarksRefs>
+<internalRef internalRefId="RemarkA"></internalRef>
+</remarksRefs>
+</maintQualifier>
+<maintQualifier>
+<maintFunction function="ft08"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml02">0.5</maintLevel>
+</maintLevelGroup>
+</maintQualifier>
+</componentAssyGroup>
+<componentAssyGroup>
+<componentAssy>
+<name>Engine Mounts</name>
+</componentAssy>
+<maintQualifier>
+<maintFunction function="ft01"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml02">0.2</maintLevel>
+</maintLevelGroup>
+<remarksRefs>
+<internalRef internalRefId="RemarkA"></internalRef>
+</remarksRefs>
+</maintQualifier>
+<maintQualifier>
+<maintFunction function="ft08"/>
+<maintLevelGroup>
+<maintLevel maintLevelCode="ml02">2.0</maintLevel>
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 56

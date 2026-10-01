@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+для таблиц σ оформлением. Названия также могут включаться β элемент
+proceduralStep < > на подуровне от первого до пятого. См. Глава 6.2.2 .
+Все названия должны приводиться σ прописной буквы β начале предложения. См.
+Глава 3.9.1 .
+title Элемент разметки: < > (O)
+Атрибуты:
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O), используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6
+Дочерние элементы:
+Включает тот же набор дочерних элементов, что η элемент 
+textElementGroup , который зависит от типа схемы. См. Глава 3.9.5.2.1.10 .
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00118 -
+title Использование элемента < > :
+title Решение об использовании элемента < > η порядке использования. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00119 -
+Использование перекрестных ссылок β заголовках:
+Разрешены ли перекрестные ссылки β заголовках. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00120 -
+levelledPara Использование заголовков для элементов < > η
+proceduralStep < > σ шестого по восьмой подуровень для унаследованных
+данных:
+levelledPara Решение ο том, можно ли включать названия β элементы < > η 
+proceduralStep < > на подуровнях σ шестого по восьмой при преобразовании
+унаследованных данных β стандарт Σ1000Δ
+3 Пример
+<description>
+<levelledPara>
+<title>Brake system</title>
+<para>The most important part of the bicycle is the brake
+system. Only α minimum maintenance of the brake system is
+necessary. But, when α problem does occur, make sure you
+do the necessary maintenance as quickly as possible.
+If you do not do this the bicycle will be dangerous to
+use.</para>
+<para>There are nine different types of brake systems. The
+one found on most bicycles is the cantilever brake (refer to
+<internalRef internalRefId="par–0001"
+Действительно: Все Σ1000Δ-Α-03-09-0502-01F-040Α-Α
+Глава 3.9.5.2.1.5
+2013-11-15 Страница 2

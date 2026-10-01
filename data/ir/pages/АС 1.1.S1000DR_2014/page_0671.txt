@@ -1,0 +1,40 @@
+Σ1000DR-UACRU-01000-00
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+reqTechInfo < > (Μ). См. Разд. 2.4.1. 
+Пример разметки:
+<reqTechInfoGroup>
+<reqTechInfo>
+<externalPubRef>
+<externalPubRefIdent>
+<externalPubTitle>Power Supply Schematic
+(132E470092)</externalPubTitle>
+</externalPubRefIdent>
+</externalPubRef>
+</reqTechInfo>
+</reqTechInfoGroup>
+2.4.1 Требуемые технические сведения
+reqTechInfo Описание. Элемент < > содержит содержимое элемента
+reqTechInfoGroup < >.
+reqTechInfo Элемент разметки: < > (O)
+Атрибуты:
+reqTechInfoCategory (O), тип сведений. Этот атрибут может иметь 
+следующие значения:
+ti01 ti99 • " " до " ". См. Глава 3.9.6.1 .
+Дочерние элементы:
+dmRef < > (O). См. Глава 3.9.5.2.1.2 . 
+pmRef < > (O). См. Глава 3.9.5.2.1.2 . 
+externalPubRef < > (O). См. Глава 3.9.5.2.1.2 . 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00147 -
+reqTechInfoGroup Использование элемента < > β элементе
+preliminaryRqmts < > :
+reqTechInfoGroup Решение об использовании элемента < > η порядке 
+использования.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00148 -
+reqTechInfoCategory Использование атрибута β элементе
+reqTechInfoGroup < > :
+reqTechInfoCategory Решение об использовании атрибута , значений для 
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 40

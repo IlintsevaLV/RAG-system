@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+Нет 
+Дочерние элементы:
+dmRef < > (O). См. Разд. 2.2. 
+pmRef < > (O). См. Разд. 2.3. 
+externalPubRef < > (O). См. Разд. 2.5. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00106 - Заполнение
+refs элемента < > :
+refs Решение ο заполнении элемента < > η порядке заполнения: Если он 
+заполняется, необходимо задать порядок элементов β перечне.
+Пример разметки:
+Β следующем примере показана таблица ссылок, включая ссылку на модуль данных,
+модуль публикации η два документа, не соответствующих стандарту Σ1000Δ, один из
+которых обозначен кодом ISBN:
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA2" subSystemCode="2" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="520" infoCodeVariant="Α" itemLocationCode="Α" />
+<issueInfo issueNumber="002" inWork="00"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle><techName>Handlebar</techName>
+<infoName>Remove procedures</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+<pmRef>
+<pmRefIdent>
+<pmCode modelIdentCode="Σ1000DBIKE" pmIssuer="SF518"
+pmNumber="00003" pmVolume="00"/>
+</pmRefIdent>
+<pmRefAddressItems>
+<pmTitle>Bike manuals</pmTitle>
+<issueDate year="2007" month="02" day="28"/>
+</pmRefAddressItems>
+</pmRef>
+<externalPubRef>
+<externalPubRefIdent>
+<externalPubTitle>Local Disposal Procedures</externalPubTitle>
+</externalPubRefIdent>
+</externalPubRef>
+<externalPubRef>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01C-040Α-Α
+Глава 3.9.5.2.1.2
+2013-11-15 Страница 32

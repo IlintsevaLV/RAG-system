@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+2.2.1.4 Утверждение ο цели
+lcGoalStatement Описание: Элемент < > содержит описание того, κ чему β
+конечном счете стремится организация β рамках какой-либо инициативы или
+приобретения.
+lcGoalStatment Элемент разметки: < > (O)
+Атрибуты:
+id lcGoals (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcGoalStatement>
+<description>
+<para>To become the number-one, lowest-cost messenger service in
+the city</para>
+</description>
+</lcGoalStatement>
+2.2.1.5 Утверждение ο задаче
+lcObjectiveStatement Описание: Элемент < > содержит конкретные,
+измеримые показатели, описывающие то, что должна сделать организация для
+достижения своей цели.
+lcObjectiveStatment Элемент разметки: < > (O)
+Атрибуты:
+id lcObjectiveStatement (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+ securityClassification commercialClassification (O), (O) η 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 23

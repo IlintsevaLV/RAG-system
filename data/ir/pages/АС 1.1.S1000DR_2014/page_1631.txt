@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcResources>
+<description>
+<para>Bike technical data </para>
+</description>
+</lcResources>
+2.4 Раздел
+lcSection Описание. Элемент < > является общим элементом, содержащим
+дополнительные материалы обзора обучения.
+lcSection Элемент разметки: < > (O)
+Атрибуты:
+id lcSection (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcSection>
+<description>
+<figure>
+<title/>
+<graphic infoEntityIdent = "ICN-Σ1000DBIKE-AAA-Δ000000-Α-06RT9-
+00149-Α-001-01"/>
+</figure>
+</description>
+</lcSection>
+3 Примеры
+learningOverview Ниже приводится пример разметки для < >. Β нем
+Действительно: Все Σ1000Δ-Α-03-09-0502-13C-040Α-Α
+Глава 3.9.5.2.13.2
+2013-11-15 Страница 7

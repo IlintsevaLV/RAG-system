@@ -1,0 +1,39 @@
+Элемент разметки: <
+Рис. 3 Элемент <
+Атрибуты:
+Нет 
+Дочерние элементы:
+scormContentPackageIdent < 
+scormContentPackageAddressItems < 
+Пример разметки:
+<scormContentPackageIdent>
+<scormContentPackageCode
+scormContentPackageIssuer="AH019"
+scormContentPackageNumber="00001"
+scormContentPackageVolume="00"/>
+<language countryIsoCode="US"
+<issueInfo inWork="00"
+</scormContentPackageIdent>
+2.2.1.1 Идентификация пакета содержимого
+Описание: Элемент <
+обозначающий событие обучения,
+продуктов.
+Элемент разметки: <
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+scormContentPackageAddress >
+ICN-1654N-Σ1000Δ0049-001-01
+scormContentPackageAddress >
+> (Μ). См. Разд. 2.2.1.1.
+> (Μ). См. Разд. 2.2.1.3.
+modelIdentCode="Σ1000DBIKE"
+ languageIsoCode="en"/>
+issueNumber="001"/>
+ SCORM
+scormContentPackageIdent > содержит код,
+ обучающий продукт или набор обучающих
+scormContentPackageIdent >
+Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 5

@@ -1,0 +1,53 @@
+</commentAddressItems>
+2.1.2.1 Разработчик
+Описание. Элемент <
+комментария.
+Элемент разметки: <
+Атрибуты:
+Нет 
+Дочерние элементы:
+dispatchAddress < > (Μ). 
+Пример разметки:
+<commentOriginator>
+<dispatchAddress>
+<enterprise>
+<enterpriseName>...</enterpriseName>
+</enterprise>
+<address>
+<city>...</city>
+<country>...</country>
+</address>
+</dispatchAddress>
+</commentOriginator>
+2.1.2.1.1 Адрес публикации
+dispatchAddress Описание. Элемент <
+комментария, такие как наименование
+которого был отправлен
+dispatchAddress Элемент разметки: <
+Атрибуты:
+Нет 
+Дочерние элементы:
+enterprise < > (Μ), название 
+dispatchPerson < > (O), 
+address < > (Μ), адрес 
+Пример разметки:
+<dispatchAddress>
+<enterprise>
+<enterpriseName>...</enterpriseName>
+</enterprise>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+commentOriginator > содержит сведения ο разработчике
+commentOriginator > (Μ)
+ См. Разд. 2.1.2.1.1.
+> содержит сведения ο разработчике
+ предприятия, контактное лицо η адрес, σ
+комментарий/ответ.
+> (Μ)
+ предприятия-отправителя. См. Разд. 2.1.2.1.2.
+имя отправившего лица. См. Разд. 2.1.2.1.3.
+отправившего предприятия или лица. См. Разд. 2.1.2.1.4.
+Σ1000Δ-Α-04-06-0100-00Α-040Α-Α
+Глава 4.6.1
+2013-11-15 Страница 8

@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+ICN-1654N-Σ1000Δ0004-001-01
+businessUnit Рис. 3 Элемент < >
+Атрибуты:
+id businessUnit (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+businessUnitName < > (Μ). См. Разд. 2.5.1. 
+businessUnitAddress < > (O). См. Разд. 2.5.2. 
+contactPerson < > (O). См. Разд. 2.5.3. 
+Пример разметки:
+<businessUnit>
+<businessUnitName>Customers Services Business
+Line</businessUnitName>
+<businessUnitAddress>
+...
+</businessUnitAddress>
+</businessUnit>
+2.5.1 Название отдела
+businessUnitName Описание: Элемент < > содержит строку, указывающую
+название отдела.
+businessUnitName Элемент разметки: < > (C)
+Атрибуты:
+Нет 
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-11Γ-040Α-Α
+Глава 3.9.5.2.11.6
+2013-11-15 Страница 6

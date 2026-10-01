@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+<sbImpact applicRefId="app-0002" sbImpactType="sbit01">
+<quantity quantityType="qty08">
+<quantityGroup>
+<quantityValue quantityUnitOfMeasure="kg">+0.5</quantityValue>
+<quantityValue quantityUnitOfMeasure="lbm">+1.1</quantityValue>
+</quantityGroup>
+</quantity>
+</sbImpact>
+<sbImpact applicRefId="app-0003" sbImpactType="sbit01">
+<quantity quantityType="qty08">
+<quantityGroup>
+<quantityValue quantityUnitOfMeasure="kg">+0.8</quantityValue>
+<quantityValue quantityUnitOfMeasure="lbm">+1.7</quantityValue>
+</quantityGroup>
+</quantity>
+</sbImpact>
+Примечание
+sbImpactType sbit01 =" " определяется как "вес". 
+quantityType qty08 =" " определяется как "масса". 
+2.5 Перечень сопутствующих сервисных бюллетеней
+sbConcurrentSbList Описание. Элемент < > содержит перечень сервисных
+бюллетеней (η связанных σ ними модификаций объекта), которые необходимо
+выполнить перед текущим сервисным бюллетенем или одновременно σ ним, α также
+перечень сервисных бюллетеней (η связанных σ ними модификаций объекта),
+которые не нужно выполнять перед текущим сервисным бюллетенем, исходя из
+сведений ο применимости.
+sbConcurrentSbList Элемент разметки: < > (O)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00020-Α-001-01
+sbConcurrentSbList Рис. 5 Элемент < >
+Атрибуты:
+id (O), идентификатор перечня сопутствующих сервисных бюллетеней. См. 
+Глава 3.9.5.2.1.12 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 9

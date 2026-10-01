@@ -1,0 +1,27 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00049-Α-001-01
+sbSupportEquipSet Рис. 12 Элемент < >
+Атрибуты:
+Атрибуты η правила выполнения проекта такие же, как η для элемента 
+sbMaterialSet < >. См. Разд. 2.1.1.
+Дочерние элементы:
+name < > (O). См. Глава 3.9.5.2.1.9 . 
+shortName < > (O). См. Глава 3.9.5.2.1.9 . 
+sbProcurementInfo < > (O). См. Разд. 2.1.1.1. 
+sbIndustrySupport < > (O). См. Разд. 2.1.1.2. 
+sbInstructionRef < > (O). См. Глава 3.9.5.2.15.1 . 
+sbIndividualSupportEquip < > (Μ). См. Разд. 2.2.2. 
+footnote < > (O). См. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<sbSupportEquipSet id="mat-0001" sbMaterialType="sbmt01"
+sbMaterialIdent="BSK-TLST-200" sbMaterialIssue="001"
+sbProcurableFlag="1" sbSupplierValue="manufacturer">
+<name>Saw tool set</name>
+<sbProcurementInfo>
+...
+</sbProcurementInfo>
+<sbIndustrySupport>
+...
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 18

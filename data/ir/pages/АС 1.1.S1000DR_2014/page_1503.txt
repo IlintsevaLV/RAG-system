@@ -1,0 +1,30 @@
+Σ1000DR-UACRU-01000-00
+concerned with or aware of how they impact the success of the
+business and local economy.</para>
+</description>
+</lcAttitude>
+</lcPerformanceAnalysis>
+2.2.1 Организационный анализ
+lcOrganizationalAnalysis Описание: Элемент < > является элементом
+контейнера для сведений ο клиентской организации, которая будет использовать
+объект, являющийся темой проекта Σ1000Δ. Он позволяет собирать η управлять
+данными по назначению η этическим принципам организации, α также ее целям η
+задачам.
+lcOrganizationalAnalysis Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0021-001-01
+lcOrganizationalAnalysis Рис. 4 Элемент < >
+Атрибуты:
+id lcOrganizational (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 19

@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+id warningIdent (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+warningIdentNumber (Μ), идентификатор предупреждения. 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<warningIdent warningIdentNumber="0-0204504-1"/>
+3 Пример
+Β следующем примере показаны два предупреждения, хранящиеся β модуле данных
+CIR предупреждений.
+<content>
+<commonRepository>
+<warningRepository>
+<warningSpec id="warn-00001">
+<warningIdent warningIdentNumber="0-0204504-1"/>
+<warningAndCautionPara>Make sure that the bulb is cool before
+you replace it.</warningAndCautionPara>
+</warningSpec>
+<warningSpec id="warn-00002">
+<warningIdent warningIdentNumber="0008037-802"/>
+<warningAndCautionPara>Make sure the light glass is not broken
+before handling it</warningAndCautionPara>
+</warningSpec>
+…
+</warningRepository>
+</commonRepository>
+</content>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11Π-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.13
+2013-11-15 Страница 4

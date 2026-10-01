@@ -1,0 +1,30 @@
+Σ1000DR-UACRU-01000-00
+<para>The minimum passing score for the assessment is
+80%.</para>
+</description>
+</lcMinimumPassThreshold>
+</lcAssessmentComponent>
+</lcAssessmentStrategy>
+2.4.2.5.1 Компонент оценки
+lcAssessmentComponent Описание: Элемент < > является контейнером σ
+определением требований κ оценке учащихся β рамках компонента обучения.
+lcAssessmentComponent Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0034-001-01
+lcAssessmentComponent Рис. 19 Элемент < >
+Атрибуты:
+id lcAssessmentStrategy (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcMasteryScoreCriteria < > (O). См. Параграф 2.4.2.5.1.1 . 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 92

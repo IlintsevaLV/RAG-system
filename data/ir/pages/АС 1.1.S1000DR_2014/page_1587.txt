@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+<lcPaperBasedMaterials>
+<description>
+<para>This courseware will use the Basic Bike Repair manual,
+document number Ξ45R56.</para>
+</description>
+</lcPaperBasedMaterials>
+2.4.2.6.5 Классная комната
+lcClassroom Описание: Элемент < > описывает технические аспекты курса,
+который будет проводиться β классной комнате.
+lcClassroom Элемент разметки: < > (O)
+Атрибуты:
+id lcClassroom (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcClassroom>
+<description>
+<para>Instruction will be taken in the Learning Lab at Speedy
+Courier'σ main office. The training is part of the employee'σ
+first-day orientation and is required. No courier assignments
+will be given until the employee completes the orientation and
+the training.</para>
+</description>
+</lcClassroom>
+2.4.2.6.6 Обучение на рабочем месте
+lcOjt Описание: Элемент < > описывает технические аспекты курса, который будет
+проводиться β рабочей среде.
+lcOjt Элемент разметки: < > (O)
+Атрибуты:
+id lcOjt (O), идентификатор элемента < >. См. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 103

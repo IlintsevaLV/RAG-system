@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+<rds:RDS>
+<rdf:RDF>
+<rdf:Description
+rdf:about="www.σ1000δ.org/DMC-YY-Α-53-25-10-02Α-520Α-Α_I-002_Ω-
+00_Λ-SX_C-US.XML"
+rds:urn="URN:Σ1000Δ:DMC-YY-Α-53-25-10-02Α-520Α-Α">
+<title>Simplified Technical English instance Issue 2</title>
+<issueInfo issueNumber="002" inWork="00"/>
+<language languageIsoCode="sx" countryIsoCode="US"/>
+</rdf:Description>
+</rdf:RDF>
+<rdf:RDF>
+<rdf:Description
+rdf:about="www.σ1000δ.org/DMC-YY-Α-53-25-10-02Α-520Α-Α_I-001_Ω-
+00_Λ-EN_C-US.XML"
+rds:urn="URN:Σ1000Δ:DMC-YY-Α-53-25-10-02Α-520Α-Α">
+<title>English instance Issue 1</title>
+<issueInfo issueNumber="001" inWork="00"/>
+<language languageIsoCode="en" countryIsoCode="US"/>
+</rdf:Description>
+</rdf:RDF>
+<rdf:RDF>
+<rdf:Description
+rdf:about="www.σ1000δ.org/DMC-YY-Α-53-25-10-02Α-520Α-Α_I-002_Ω-
+01_Λ-FR_C-FR.XML"
+rds:urn="URN:Σ1000Δ:DMC-YY-Α-53-25-10-02Α-520Α-Α">
+<title>French instance Issue 2</title>
+<issueInfo issueNumber="002" inWork="01"/>
+<language languageIsoCode="fr" countryIsoCode="FR"/>
+</rdf:Description>
+</rdf:RDF>
+<rdf:RDF>
+<rdf:Description
+rdf:about="www.σ1000δ.org/DMC-YY-Α-53-25-10-02Α-520Α-Α_I-001_Ω-
+01_Λ-FR_C-FR.XML"
+rds:urn="URN:Σ1000Δ:DMC-YY-Α-53-25-10-02Α-520Α-Α">
+<title>French instance Issue 1</title>
+<issueInfo issueNumber="001" inWork="01"/>
+<language languageIsoCode="fr" countryIsoCode="FR"/>
+</rdf:Description>
+</rdf:RDF>
+</rds:RDS>
+2.8 Запрос на поиск всех характеристик ресурса
+Следующий запрос возвратит все характеристики ресурса:
+URN:Σ1000Δ:DMC-YY-Α-53-25-10-02Α-999Α-Α
+http://www.σ1000δ.org/resolution/resolveUrn?urn=URN:Σ1000Δ:
+DMC-YY-Α-53-25-10-02Α-999Α-Α&allurcs
+Действительно: Все Σ1000Δ-Α-07-07-0300-00Α-040Α-Α
+Глава 7.7.3
+2013-11-15 Страница 5

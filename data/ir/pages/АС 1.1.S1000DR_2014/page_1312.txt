@@ -1,0 +1,56 @@
+ression>
+</initialize>
+</variable>
+<variable valueType="boolean" 39
+<initialize>
+<expression>
+</expression>
+</initialize>
+</variable>
+<variable valueType="integer" 40
+</variableDeclarations> 41
+<dmSeq> 42
+<dmNode> 43
+<proceduralStep> 44
+<title>Prerequisities</title> 45
+<para>Please make sure 46
+description of α
+<dmRef 47
+xlink:title="Functional
+<dmRefIdent>
+<dmCode assyCode="00"
+disassyCodeVariant="00"
+itemLocationCode="Α"
+subSubSystemCode="0"
+systemDiffCode="ALL"/>
+</dmRefIdent>
+</dmRef>
+</para> 48
+</proceduralStep> 49
+</dmNode> 50
+<dmNode> 51
+<dialog> 52
+<dialogGroup> 53
+<userEntry> 54
+<prompt><paraBasic>Enter 55
+<variableRef 56
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+<expression><booleanValue><falseValue/></booleanValue></exp
+ variableName="tourFinished">
+<booleanValue><falseValue/></booleanValue>
+ variableName="tourMistakes"/>
+ you are familiar with the functional
+bicycle:
+xlink:href="DMC_Σ1000DBIKE_AAA_Δ00_00_00_00AA_042Α_Α"
+ description of α bicycle">
+ disassyCode="00"
+ infoCode="42Α" infoCodeVariant="Α"
+ modelIdentCode="Σ1000DBIKE"
+ subSystemCode="Δ" systemCode="AAA"
+ your name</paraBasic></prompt>
+variableName="name"/>
+Σ1000Δ-Α-03-09-0502-10F-040Α-Α
+Глава 3.9.5.2.10.5
+2013-11-15 Страница 5

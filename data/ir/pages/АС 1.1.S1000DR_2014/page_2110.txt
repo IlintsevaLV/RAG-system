@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+3 Примеры
+inWork Β следующей таблице приводятся допустимые комбинации атрибутов ,
+issueNumber issueType η . Подробное описание этих атрибутов приводится β
+Глава 3.5 η Глава 3.9.5.1 .
+issueNumber inWork issueType Таблица 2 Правила для атрибутов , η
+Нумерация Правило Значение атрибута
+inWork="01" 000.01 новый модуль данных, первая
+рабочая версия, атрибут issueNumber="000"
+issueType= new состояния " " issueType="new"
+inWork="02" 000.02 новый модуль данных, вторая
+рабочая версия, атрибут issueNumber="000"
+issueType= new состояния " " issueType="new"
+inWork="NN" 000-NN новый модуль данных, рабочая
+версия "NN", атрибут состояния issueNumber="000"
+issueType= new " " issueType="new"
+inWork="00" 001.00 первое издание модуля данных,
+атрибут состояния issueNumber="001"
+issueType= new " " issueType="new"
+inWork="01" 001.01 первое издание модуля данных,
+первая рабочая версия, атрибут issueNumber="001"
+issueType= new состояния " " issueType="new"
+inWork="02" 001.02 первое издание модуля данных,
+вторая рабочая версия, атрибут issueNumber="001"
+issueType= new состояния " " issueType="new"
+inWork="NN" 001-NN первое издание модуля данных,
+рабочая версия "NN", атрибут issueNumber="001"
+issueType= new состояния " " issueType="new"
+inWork="00" 002.00 второе издание модуля данных,
+атрибут состояния (например) issueNumber="002"
+issueType= changed " " issueType="changed"
+inWork="00" NNN.00 издание модуля данных "NNN",
+атрибут состояния (например) issueNumber="NNN"
+issueType= revised " " issueType="revised"
+Действительно: Все Σ1000Δ-Α-04-07-0000-00Α-040Α-Α
+Конец модуля данных Глава 4.7
+2013-11-15 Страница 2

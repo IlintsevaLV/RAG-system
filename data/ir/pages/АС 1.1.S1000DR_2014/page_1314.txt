@@ -1,0 +1,52 @@
+<dialogGroup
+<message> 78
+<prompt><paraBasic>Age 79
+100</paraBasic></prompt>
+<prompt><paraBasic>All 80
+mandatory</paraBasic></prompt>
+</message> 81
+</dialogGroup> 82
+</dialog> 83
+</dmNode> 84
+<dmIf> 85
+<expression> 86
+<booleanFunction
+<expression>
+<expression><variableRef
+variableName="level"/></expression>
+<numberOperator
+ion>
+</expression>
+</expression>
+<dmThenSeq> 87
+<dmLoop> 88
+<variablePreSet> 89
+<assertion> 90
+<variableRef 91
+92
+</assertion> 93
+</variablePreSet> 94
+<expression> 95
+<expression><variableRef
+<numberOperator
+ression>
+</expression>
+<dmSeq> 96
+97
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+dialogSeparator="1">
+ must be within 4 to
+ fields are
+booleanAction="not"/>
+numberOperation="equal"/>
+<expression><stringValue>experienced</stringValue></express
+variableName="tourMistakes"/>
+<expression><integerValue>0</integerValue></expression>
+variableName="tourFinished"/></expression>
+numberOperation="equal"/>
+<expression><booleanValue><falseValue/></booleanValue></exp
+Σ1000Δ-Α-03-09-0502-10F-040Α-Α
+Глава 3.9.5.2.10.5
+2013-11-15 Страница 7

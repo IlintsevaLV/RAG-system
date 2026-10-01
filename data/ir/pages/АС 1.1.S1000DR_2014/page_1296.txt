@@ -1,0 +1,27 @@
+Σ1000DR-UACRU-01000-00
+returnedValuePosition < > (Μ), позиция параметра β возвращаемом 
+перечне внешнего приложения.
+variableRef < > (Μ), переменная таблицы состояний, β которую помещается 
+возвращаемое значение. См. Глава 3.9.5.2.10.1 .
+globalPropertyRef < > (O), глобальное свойство таблицы состояний, β 
+которую помещается возвращаемое значение. См. Глава 3.9.5.2.10.1 .
+receiveByPosition Элемент < > содержит элемент
+returnedValuePosition < >, позицию возвращаемого значения, начиная σ 1, η
+variableRef globalPropertyRef элемент < > или < >, определяющий
+переменную, которой присваивается возвращенное значение. Если позиция
+возвращаемого значения не определена, данные β этой позиции удаляются.
+Пример разметки:
+<externalApplication application="MMS">
+<paraBasic>Receive test scores</paraBasic>
+<receiveByPosition>
+<returnedValuePosition>1</returnedValuePosition>
+<variableRef variableName="Score Test 1"/>
+</receiveByPosition>
+<receiveByPosition>
+<returnedValuePosition>5</returnedValuePosition>
+<variableRef variableName="Score Test 2"/>
+</receiveByPosition>
+</externalApplication>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Δ-040Α-Α
+Конец модуля данных Глава 3.9.5.2.10.3
+2013-11-15 Страница 15

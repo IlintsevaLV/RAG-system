@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+2.3 Последовательность узлов модуля данных
+dmSeq Элемент < > представляет коллекцию узлов модуля данных, обрабатываемых
+последовательно. Логическое ядро последовательно обрабатывает каждый узел до
+тех пор, пока не будет достигнут конец последовательности.
+Таблица 4 Пример последовательности узлов
+Строка Разметка
+<referencedApplicGroup> 1.
+<applic id="appl-001"> 2.
+<expression> 3.
+<expression> 4.
+<variableRef variableName="TirePressure"/> 5.
+</expression> 6.
+<numberOperator numberOperation="lessThan"/> 7.
+<expression> 8.
+<realValue>60,0</realValue> 9.
+</expression> 10.
+</expression> 11.
+</applic> 12.
+</referencedApplicGroup> 13.
+... 14.
+<variableDeclarations> 15.
+<variable variableName="TirePressure" valueType="real"/> 16.
+...</variableDeclarations> 17.
+<dmSeq><!--Monthly periodic maintenance--> 18.
+<dmNode><!--Visually inspect--> 19.
+<dmRef> 20.
+... 21.
+</dmRef> 22.
+</dmNode> 23.
+<dmNode><!--Check tire pressure--> 24.
+<dialog> 25.
+... 26.
+Действительно: Все Σ1000Δ-Α-07-07-0200-00Α-040Α-Α
+Глава 7.7.2
+2013-11-15 Страница 4

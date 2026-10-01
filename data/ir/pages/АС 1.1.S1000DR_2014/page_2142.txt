@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+</dmRef>
+</applicCrossRefTableRef><applic>
+<displayText></displayText>
+</applic>
+<qualityAssurance>
+<firstVerification verificationType="tabtop"/>
+</qualityAssurance>
+</pmStatus>
+</identAndStatusSection>
+<content>
+<pmEntry>
+<pmEntryTitle>Front matter</pmEntryTitle>
+<dmRef>
+<dmRefIdent>
+<dmCode systemDiffCode="Α" infoCode="001" subSystemCode="Α"
+modelIdentCode="Σ1000Δ" infoCodeVariant="Α"
+disassyCodeVariant="Α" subSubSystemCode="1" itemLocationCode="Α"
+assyCode="11" systemCode="33" disassyCode="01"></dmCode>
+</dmRefIdent>
+</dmRef>
+</pmEntry>
+<pmEntry>
+<pmEntryTitle>Extension and retraction</pmEntryTitle>
+<dmRef>
+<dmRefIdent>
+<dmCode systemDiffCode="Β" infoCode="040" subSystemCode="3"
+modelIdentCode="DEE1Β" infoCodeVariant="Α"
+disassyCodeVariant="Α" subSubSystemCode="0" itemLocationCode="Α"
+assyCode="00" systemCode="32" disassyCode="00"></dmCode>
+</dmRefIdent>
+</dmRef>
+</pmEntry>
+</content>
+</pm>
+Действительно: Все Σ1000Δ-Α-04-09-0300-00Α-040Α-Α
+Конец модуля данных Глава 4.9.3
+2013-11-15 Страница 3

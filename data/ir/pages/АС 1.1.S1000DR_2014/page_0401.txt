@@ -1,0 +1,22 @@
+Σ1000DR-UACRU-01000-00
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания об изменениях. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+attentionText Включает дочерние элементы группы , применимые κ 
+фактическому типу модуля данных. См. Разд. 2.1.2.1.
+η
+attentionRandomList < > (O). См. Разд. 2.1.2.2. 
+Пример разметки:
+<warningAndCautionPara>If you operate the front brake without
+the rear brake you can cause α crash.</warningAndCautionPara>
+attentionText 2.1.2.1 Группа
+attentionText Содержимое группы зависит от типа модуля данных, но имя
+группы остается неизменным для всех типов модулей данных. Полное
+attentionText (максимальное) содержимое группы представлено на Рис. 3.
+Действительно: Все Σ1000Δ-Α-03-09-0300-00Α-040Α-Α
+Глава 3.9.3
+2013-11-15 Страница 7

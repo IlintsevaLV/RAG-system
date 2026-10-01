@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+</lcPersonalDevelopment>
+<lcHumanResourceDevelopment>
+<description>
+<para>New hiring criteria and assessments shall be instituted to
+evaluate courier applicants' existing skills in basic bike
+repair and maintenance.</para>
+</description>
+</lcHumanResourceDevelopment>
+<lcOrganizationalCommunication>
+<description>
+<para>Α designated delegate in the third tier of bike couriers
+will report courier maintenance statistics directly to the
+Courier Manager on the last Friday of each month. The statistics
+will be entered directly into the Courier Manager'σ Maintenance
+Awareness (CMMA) tool.</para>
+</description>
+</lcOrganizationalCommunication>
+<lcOrganizationalDesign>
+<description>
+<para>Couriers will be structured into three tiers. The base
+tier will be new hires with no experience. The second tier will
+be couriers with 1-3 years of experience. The third tier will be
+couriers with 4+ years of experience, and will include
+supervisory-level couriers.</para>
+</description>
+</lcOrganizationalDesign>
+</lcNonTrainingInterventions>
+2.4.1.1 Поддержка обучения
+lcPerformanceSupport Описание: Элемент < > содержит технические данные,
+описывающие назначение, требования или характеристики воздействия β отношении
+рабочей задачи, которое должно привести κ повышению производительности
+работника.
+lcPerformanceSupport Элемент разметки: < > (O)
+Атрибуты:
+id lcPerformanceSupport (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 66

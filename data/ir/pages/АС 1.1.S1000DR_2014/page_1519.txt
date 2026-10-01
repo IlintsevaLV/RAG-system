@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты:
+id lcSocialAspectsOfSite (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcSocialAspectsOfSite>
+<description>
+<para>Due to the need to keep couriers constantly dispatched,
+there is often only one courier performing the required
+maintenance at α given time. Couriers generally do not have time
+or opportunity to interact or assist one another in the
+maintenance location. Maintenance tasks are learned by the
+couriers while on the job, often without assistance.</para>
+</description>
+</lcSocialAspectsOfSite>
+2.2.4.4 Особые факторы
+lcSpecialFactors Описание: Элемент < > описывает особые факторы,
+действующие на рабочей площадке, которые влияют на производительность труда
+работников η на способность организации реализовать свою стратегию, миссию, цели
+η задачи.
+lcSpecialFactors Элемент разметки: < > (O)
+Атрибуты:
+id lcSpecialFactors (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 35

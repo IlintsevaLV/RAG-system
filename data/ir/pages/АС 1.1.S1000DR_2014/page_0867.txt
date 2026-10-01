@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+task < > (O), сведения, описывающие задачу. См. Разд. 2.4.2.1.1. 
+Пример разметки:
+<taskItem taskSeqNumber="001" taskName="Nose landing gear
+inspection">
+<refs>
+...
+</refs>
+<task>
+...
+</task>
+</taskItem>
+2.4.2.1.1 Задача
+task Описание. Элемент < > содержит общие данные задачи, входящей β состав
+проверки.
+task Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+taskTitle < > (O), заголовок задачи. 
+taskDescr < > (C). См. Разд. 2.4.2.1.2. 
+taskMarker < > (O). См. Разд. 2.4.2.1.3. 
+Пример разметки:
+<taskItem taskSeqNumber="001" taskName="Nose landing gear
+inspection">
+<task>
+<taskTitle>
+General visual inspection of the landing gear
+</taskTitle>
+<taskDescr><simplePara>
+This inspection of the landing gear covers all aspects including
+wiring... </simplePara>
+</taskDescr>
+<taskMarker markerType="location"/>
+</task>
+</taskItem>
+2.4.2.1.2 Описание задачи
+taskDescr Описание. Элемент < > содержит описание задачи.
+taskDescr Элемент разметки: < > (C)
+Атрибуты:
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 16

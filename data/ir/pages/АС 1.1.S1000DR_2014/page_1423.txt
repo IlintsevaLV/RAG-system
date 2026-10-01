@@ -1,0 +1,24 @@
+Σ1000DR-UACRU-01000-00
+<supplyRqmtSpec id="inv0105029-">
+<supplyRqmtIdent materialCategory="05" supplyRqmtNumber="029"/>
+<supplyRqmtAlt id="sol0105029Α">
+<supplyRqmtAltIdent materialCategory="05" supplyRqmtNumber="029"
+vendorFlag="0"/>
+<supplySetGroup>
+<supplySet>
+<supplyRef supplyNumber="BSB-DUROFIX_FIXATIF_UW_SPECIAL"
+supplyNumberType="sp01"/>
+<supplyRef supplyNumber="BSB-DUROFIX_FIXATIF_UW"
+supplyNumberType="sp01"/>
+</supplySet>
+</supplySetGroup>
+<name>FIXATIVE FOR PLACARD INSTALLATION</name>
+<safetyCategory safetyCategoryValue="C"/>
+<usage>IMMERSION OF BSB LABEL</usage>
+</supplyRqmtAlt>
+</supplyRqmtSpec>
+</supplyRqmtRepository>
+</commonRepository>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11H-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.7
+2013-11-15 Страница 17

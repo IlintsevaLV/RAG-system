@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+соединения См. Разд. 2.6.1.1.1.
+otherPossibleCause < > (O). Другая возможная причина. См. Разд. 2.6.1.1.4. 
+sru < > (O). Возможная причина для узла цеховой замены. См. Разд. 2.5.1.3.4. 
+Пример разметки :
+<possibleCauseGroup>
+<lru id="pc1" applicRefid="IDAPPL006">
+<name> ACTUATOR-AIR INTAKE FLAP</name>
+<functionalItemRef functionalItemNumber="516KB"/>
+</lru>
+<wiringPossibleCause id="pc2" applicRefid="IDAPPL006">
+<wiringPossibleCauseFrom>
+<functionalItemRef functionalItemNumber="4926VC">
+<contactIdentification contactIdent="3"/>
+</wiringPossibleCauseFrom>
+<wiringPossibleCauseTo>
+<name> ground point </name>
+</wiringPossibleCauseTo>
+</wiringPossibleCause>
+<otherPossibleCause id="pc3" applicRefid="IDAPPL006">
+lubrication of the NLG<otherPossibleCause>
+<sru id="pc4" applicRefid="IDAPPL006">
+<identNumber>
+<manufacturerCode>KT666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>TIRES-010101</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</sru>
+</possibleCauseGroup>
+2.6.1.1.1 Возможная причина - проводное соединение
+wiringPossibleCause Описание : Элемент < > содержит описание проводного
+соединения, которое является возможной причиной неисправности (он также может
+использоваться для обозначения отдельной точки электрического соединения).
+wiringPossibleCause < > содержит два конца проводного соединения.
+wiringPossibleCause Элемент разметки : < >
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 49

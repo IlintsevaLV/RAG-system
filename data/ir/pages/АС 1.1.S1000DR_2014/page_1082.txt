@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+connectionListClass < > (Ο), класс перечня соединений 
+electricalLogic < > (O), сведения об электрической логической схеме 
+responsiblePartnerCompany < > (Ο), компания или организация, 
+отвечающая за сведения об электрооборудовании
+equipName < > (O), наименование электрооборудования 
+reqQuantity < > (O), сведения ο требуемом количестве 
+installationInfo < > (O), сведения об установке 
+equipDescrRef < > (O), ссылка на описание электрооборудования 
+functionalDescrRef < > (O), ссылка на функциональное описание 
+illustrationRef < > (O), ссылка на иллюстрации электрооборудования 
+Пример разметки:
+<wiringData>
+<electricalEquipGroup>
+<electricalEquip equipState="active" applicRefId="app-0001">
+<functionalItemRef .../>>
+<partNumber>...</partNumber>
+<connectionListClass>...</connectionListClass>
+<electricalLogic>...</electricalLogic>
+<responsiblePartnerCompany>...</responsiblePartnerCompany>
+<equipName>...</equipName>
+<installationInfo>...</installationInfo>
+</electricalEquip>
+...
+</electricalEquipGroup>
+</wiringData>
+2.1 Обозначение компонента
+partNumber Описание. Элемент обозначения компонента < > содержит обозначение
+компонента электрооборудования β конкретном проекте или организации. Этот
+элемент должен заполняться β соответствии σ положениями Глава 3.9.5.1 .
+partNumber Элемент разметки: < > (O)
+Атрибуты:
+id (O), идентификатор элемента разметки. См. Глава 3.9.5.2.1.2 . 
+changeType changeMark reasonForUpdateRefIds (O), (O) η (O) 
+указывают на изменение β соответствии σ положениями Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-09E-040Α-Α
+Глава 3.9.5.2.9.4
+2013-11-15 Страница 4

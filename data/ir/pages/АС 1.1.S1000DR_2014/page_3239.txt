@@ -1,0 +1,23 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00025-A-01-1
+enterpriseGroup Рис. 27 Издание 4.1: Модель содержимого элемента < >
+2.14 Позиционное обозначение и функциональный элемент - элемент
+referenceDesignator < >
+feedThru nextHigherAssy siblingPlugIdent В элементах < >, < >, < >,
+fromAndToEquipElemGroup electricalEquip < >, < > и
+itemSequenceNumber refereceDesignator < > элемент < > заменен на
+functionalItemRef < >.
+descrElectrical descrWire В элементах < > и < > элемент
+descrRefereceDesignator descrFunctionalItemRef < > заменен на < >.
+ICN-S1000D-A-07030104-0-FAPE3-00026-A-01-1
+nextHigherAssy Рис. 28 Издание 4.0.1: < >
+ICN-S1000D-A-07030104-0-FAPE3-00027-A-01-1
+referenceDesignator Рис. 29 Издание 4.1: < > переименован в
+functionalItemRef nextHigherAssy < >, например, в < >
+tolerance 2.15 Допуски - элемент < >
+toleranceLow toleranceHigh Атрибуты и заменены новым обязательным
+toleranceValue атрибутом и новыми необязательными атрибутами
+ toleranceType thresholdUnitOfMeasure tolerance и в элементе < >.
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 17

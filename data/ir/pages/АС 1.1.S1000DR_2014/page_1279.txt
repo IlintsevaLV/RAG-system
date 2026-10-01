@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+<userEntry mandatory="0" dataEntryFieldLength="6"> 62
+<enabledState> 63
+<expression> 64
+<expression> 65
+<expression> 66
+<variableRef variableName="TireSizeMethod"/> 67
+</expression> 68
+<stringOperator stringOperation="equal"/> 69
+<expression> 70
+<stringValue>fractional</stringValue> 71
+</expression> 72
+</expression> 73
+<booleanOperator booleanOperation="or"/> 74
+<expression> 75
+<expression> 76
+<variableRef variableName="TireSizeMethod"/> 77
+</expression> 78
+<stringOperator stringOperation="equal"/> 79
+<expression> 80
+<stringValue>decimal</stringValue> 81
+</expression> 82
+</expression> 83
+</expression> 84
+</enabledState> 85
+<prompt><paraBasic></paraBasic></prompt> 86
+<variableRef variableName="size3"/> 87
+</userEntry> 88
+</dialogGroup> 89
+<dialogGroup dialogSeparator="1"> 90
+<title>Tire style</title> 91
+<menu choiceType="select" menuChoiceFlow="list" 92
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 43

@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+barCodeSymbology Таблица 4 - Тип штрих-кода
+Допустимые значения Интерпретация по Σ1000Δ
+bcs01 Codabar " "
+bcs02 Code 11 " "
+bcs03 EAN-13 " "
+bcs04 EAN-8 " "
+bcs05 Industrial 2 of 5 " "
+bcs06 Interleaved 2 of 5 " "
+bcs07 MSI " "
+bcs08 Plessey " "
+bcs09 POSTNET " "
+bcs10 UPC-Α " "
+bcs11 Standard 2 of 5 " "
+bcs12 UPC-E " "
+bcs13 Code 128 " "
+bcs14 Code 39 " "
+bcs15 Code 93 " "
+bcs16 LOGMARS " "
+bcs17 PDF417 " "
+bcs18 DataMatrix " "
+bcs19 Maxicode " "
+bcs20 QR Code " "
+bcs21 Data Code " "
+bcs22 Code 49 " "
+bcs23 16K " "
+bcs24 Bookland EAN " "
+bcs25 Штрих-код ISSN η SISAC " "
+bcs26 OPC " "
+bcs27 UCC/EAN-128 " "
+bcs28 Условное обозначение UPC Shipping Container: ITF-14 " "
+Действительно: Все Σ1000Δ-Α-03-09-0601-00Α-040Α-Α
+Глава 3.9.6.1
+2013-11-15 Страница 7

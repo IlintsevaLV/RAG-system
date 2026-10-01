@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+lcSection < > (O). См. Разд. 2.4. 
+Пример разметки:
+<learningOverview>
+<title>Steering System Overview</title>
+<description>
+<!-- the following dmRef points to an objective item found in
+the learn plan for this lesson. -->
+<para>
+In order for α rider to keep his or her bike moving in α given
+direction, he or she must steer the bike. Α bike'σ steering
+system offers input, which helps the bike and rider to remain
+upright. Additionally, the rider'σ balance affects the bike'σ
+steering. If the rider'σ center of gravity sways more to the
+left or right of the wheels, the bike will lean. This lean
+causes the handlebar to turn in the direction of the lean,
+pulling the bike in that direction. In order to rebalance, the
+rider uses inertia and the steering system.
+</para>
+<para>
+Objective: Given α photograph of α bike'σ steering system, you
+will be able to identify each part with 80 percent accuracy.
+<dmRef referredFragment=”lo-001”>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="932" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="H31" learnEventCode="Α"/>
+<issueInfo issueNumber="001" inWork="01"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+</dmRef>
+</para>
+</description>
+</learningOverview>
+2.1 Аудитория
+lcAudience Описание. Элемент < > описывает уровень квалификации
+предполагаемых учащихся.
+lcAudience Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13C-040Α-Α
+Глава 3.9.5.2.13.2
+2013-11-15 Страница 3

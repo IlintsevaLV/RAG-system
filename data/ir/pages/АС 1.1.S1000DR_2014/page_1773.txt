@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00053-Α-001-01
+sbSuppliesList Рис. 16 Элемент < >
+Атрибуты:
+Нет. 
+Дочерние элементы:
+noInfo < > (Μ). См. Глава 3.9.5.2.15 . 
+sbSupplySet < > (Μ). См. Разд. 2.3.1. 
+sbIndividualSupply < > (Μ). См. Разд. 2.3.2. 
+sbExternalSupply < >> (Μ). См. Разд. 2.3.3. 
+para < > (Μ). См. Глава 3.9.5.2.1.10 . 
+note < > (Μ). См. Глава 3.9.3 . 
+Пример разметки:
+<sbSuppliesList>
+<sbSupplySet>
+...
+</sbSupplySet>
+...
+<sbIndividualSupply>
+...
+</sbIndividualSupply>
+...
+<sbExternalSupply>
+...
+</sbExternalSupply>
+</sbSuppliesList>
+2.3.1 Набор предметов поставки
+sbSupplySet Описание. Элемент < > содержит сведения ο предметах поставки,
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 22

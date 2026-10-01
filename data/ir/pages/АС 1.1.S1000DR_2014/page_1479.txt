@@ -1,0 +1,52 @@
+<enterpriseName>Α</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="XXX"/>
+<applic><displayText>All</displayText></applic>
+<brexDmRef>
+<dmRef>
+...
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified/>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<container>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="AJ"
+subSystemCode="1"
+disassyCode="00"
+infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="AJ"
+subSystemCode="1"
+disassyCode="00"
+infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+</container>
+</content>
+</dmodule>
+Действительно: Все
+Конец
+
+Σ1000DR-UACRU-01000-00
+ systemDiffCode="Α" systemCode="35"
+subSubSystemCode="3" assyCode="51"
+disassyCodeVariant="Β" infoCode="720"
+itemLocationCode="Α"/>
+ systemDiffCode="Α" systemCode="35"
+subSubSystemCode="3" assyCode="51"
+disassyCodeVariant="C" infoCode="720"
+itemLocationCode="Α"/>
+Σ1000Δ-Α-03-09-0502-12Α-040Α-Α
+модуля данных Глава 3.9.5.2.12
+2013-11-15 Страница 4

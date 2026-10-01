@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcTrainingType>
+<description>
+<para>An online computer-based course will be used in
+conjunction with hands-on practices.</para>
+</description>
+</lcTrainingType>
+2.4.2.4.2 Стратегия обучения
+lcLearningStrategy Описание: Элемент < > определяет выбранную стратегию
+обучения для компонента обучения.
+lcLearningStrategy Элемент разметки: < > (O)
+Атрибуты:
+id lcLearningStrategy (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcLearningStrategy>
+<description>
+<para>This training uses α blended approach to teaching bicycle
+maintenance and repair.</para>
+</description>
+</lcLearningStrategy>
+2.4.2.4.3 Продолжительность
+lcDuration Описание: Элемент < > содержит планируемое время, необходимое
+учащемуся на прохождение компонента обучения.
+lcDuration Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 85

@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+<xs:complexType name="grobjectType">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" ref="linkuri"/>
+</xs:sequence>
+<xs:attribute ref="apsid" use="required"/>
+<xs:attribute ref="screentip"/>
+<xs:attribute ref="region"/>
+<xs:attribute ref="viewcontext"/>
+<xs:attribute ref="visibility"/>
+<xs:attribute ref="interactivity"/>
+<xs:attributeGroup ref="stylePropertiesAttGroup"/>
+</xs:complexType>
+<xs:attribute ref="apsid" use="required"/>
+<xs:attribute ref="screentip"/>
+<xs:attribute ref="region"/>
+<xs:attribute ref="viewcontext"/>
+<xs:attribute ref="visibility"/>
+<xs:attribute ref="interactivity"/>
+<xs:attribute name="apsid" type="xs:ID"/>
+<xs:attribute name="screentip" type="xs:string"/>
+<xs:attribute name="region" type="xs:string"/>
+<xs:attribute name="viewcontext" type="xs:string"/>
+<xs:attribute name="visibility" type="visibilityAttType"/>
+<xs:simpleType name="visibilityAttType">
+<xs:restriction base="xs:NMTOKEN">
+<xs:enumeration value="off"/>
+<xs:enumeration value="inherit"/>
+<xs:enumeration value="on"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:attribute name="interactivity" type="interactivityAttType"/>
+<xs:simpleType name="interactivityAttType">
+<xs:restriction base="xs:NMTOKEN">
+<xs:enumeration value="off"/>
+<xs:enumeration value="inherit"/>
+<xs:enumeration value="on"/>
+</xs:restriction>
+</xs:simpleType>
+Содержимое, указанное β данной структуре, получается из элемента Σ1000Δ
+hotspot < >. Β Табл. 6 приводится соответствие.
+hotspot Таблица 6 Элемент < > η его соответствие во вспомогательном ХМL-файле
+hotspot Элемент вспомогательного ХМL-файла Элемент Σ1000Δ < >
+grobject < >
+applicationStructureIdent apsid Атрибут Атрибут
+hotspotTitle screentip Атрибут Атрибут
+visibility visibility Значения атрибута Значения атрибута
+Действительно: Все Σ1000Δ-Α-07-03-0200-00Α-040Α-Α
+Глава 7.3.2
+2013-11-15 Страница 14

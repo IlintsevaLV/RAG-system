@@ -1,0 +1,33 @@
+S1000DR-UACRU-01000-00
+toolalt Элемент < > 
+vpart Элемент < > 
+warning Элемент < > 
+wire-mat Элемент < > 
+wireid Элемент < > 
+wmlfMsgDesc Элемент < > 
+xref Элемент < > 
+zonealt Элемент < > 
+CPF 2006-60US: 
+controlIndicatorRepository • Новый элемент < > добавлен в
+репозиторий технической информации . Новый элемент вводит следующие
+элементы:
+controlIndicatorRef Элемент < > 
+controlIndicatorDescr Элемент < > 
+controlIndicatorFunction Элемент < > 
+controlIndicatorGroup Элемент < > 
+controlIndicatorSpec Элемент < >, включающий атрибут 
+controlIndicatorNumber
+controlIndicatorKey Элемент < > 
+controlIndicatorName Элемент < > 
+CPF 2006-65US: 
+numberAction • Добавлены новые значения для атрибута элемента
+numberFunction < >, в том числе:
+commonLogarithm Значение " " 
+cosecant Значение " " 
+cosine Значение " " 
+cotangent Значение " " 
+exponential Значение " " 
+factorial Значение " " 
+Действительно: Все S1000D-A-07-03-0101-05A-040A-A
+Глава 7.3.1.1.5
+2013-11-15 Страница 8

@@ -1,0 +1,58 @@
+</userEntry> 57
+<userEntry 58
+<prompt><paraBasic>Enter 59
+<variableRef 60
+<validate errorMessage="Age 61
+<expression> 62
+<expression>
+<expression><variableRef
+<numberOperator
+</expression>
+<booleanOperator
+<expression>
+<expression><variableRef
+<numberOperator
+</expression>
+</expression>
+</validate> 63
+</userEntry> 64
+<menu choiceSelection="single" 65
+<prompt><paraBasic>Did 66
+bicycle?</paraBasic></prompt>
+<menuChoice> 67
+68
+<assertion> 69
+<variableRef
+ion>
+</assertion>
+</menuChoice> 70
+<menuChoice> 71
+72
+<noAssertions/> 73
+</menuChoice> 74
+</menu> 75
+</dialogGroup> 76
+77
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+dataEntryFieldLength="3">
+ your age</paraBasic></prompt>
+variableName="age"/>
+ must be within 4 to 100">
+ variableName="age"/></expression>
+numberOperation="greaterThanOrEqual"/>
+<expression><integerValue>4</integerValue></expression>
+booleanOperation="and"/>
+ variableName="age"/></expression>
+numberOperation="lessThanOrEqual"/>
+<expression><integerValue>100</integerValue></expression>
+ choiceType="select">
+ you ever ride α
+<prompt><paraBasic>Yes</paraBasic></prompt>
+variableName="level"/>
+<expression><stringValue>experienced</stringValue></express
+<prompt><paraBasic>No</paraBasic></prompt>
+Σ1000Δ-Α-03-09-0502-10F-040Α-Α
+Глава 3.9.5.2.10.5
+2013-11-15 Страница 6

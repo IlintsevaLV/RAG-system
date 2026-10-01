@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcPerformanceSupport>
+<description>
+<para>Bike couriers shall be provided α Quick Fix guide that
+outlines the five most common bike breakdowns. This guide
+contains the processes to address each of the five breakdown
+types.</para>
+</description>
+</lcPerformanceSupport>
+2.4.1.2 Структура рабочей задачи
+lcJobDesign Описание: Элемент < > содержит технические данные, описывающие
+новые или модифицированные требования, характеристики, зоны ответственности,
+процессы η пр. β отношении рабочей задачи, которые должны привести κ
+повышению эффективности выполнения рабочих задач со стороны ответственных
+работников.
+lcJobDesign Элемент разметки: < > (O)
+Атрибуты:
+id lcJobDesign (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcJobDesign>
+<description>
+<para>Two changes will be made to the courier job to better
+align incentives with the company'σ goals. First, couriers will
+not receive the commission for α delivery if the breakdown
+service is used for α repair that could have been made "in the
+field." Second, couriers will be placed under α tiered bonus
+program that rewards calling in the breakdown service for
+repairs listed in their Quick Fix guide.</para>
+</description>
+</lcJobDesign>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 67

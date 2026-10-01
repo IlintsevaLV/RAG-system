@@ -1,0 +1,69 @@
+<language countryIsoCode="US"
+<issueInfo inWork="00"
+</scormContentPackageIdent>
+<scormContentPackageAddressItems>
+<issueDate day="01"
+<scormContentPackageTitle>Air
+Landing gear
+</scormContentPackageAddressItems>
+</scormContentPackageAddress>
+<scormContentPackageStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany
+<scormContentPackageMedia
+scormContentPackageMediaType="CD-ROM"/>
+<qualityAssurance>
+<unverified/>
+</qualityAssurance>
+<personSkill skillLevelCode="sk01"/>
+</scormContentPackageStatus>
+<!--The LOM at this level
+SCORM content package.
+describing α full learning
+the LOM might be referenced.-->
+<lom:lom>
+<lom:general>
+<lom:identifier>
+</lom:identifier>
+<lom:title>
+<lom:string>Air vehicle
+system</lom:string>
+</lom:title>
+<lom:description>
+<lom:string>Air vehicle
+system</lom:string>
+</lom:description>
+<lom:keyword>
+<lom:string>Air vehicle
+system</lom:string>
+</lom:keyword>
+</lom:general>
+<lom:lifeCycle>
+<lom:version>
+<lom:string
+</lom:version>
+<lom:status>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>final</lom:value>
+</lom:status>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ languageIsoCode="sx"/>
+issueNumber="003"/>
+month="08" year="2008"/>
+ vehicle maintenance training -
+system</scormContentPackageTitle>
+enterpriseCode="C0419"></responsiblePartnerCompany>
+ scormContentPackageMediaCode="DKS:1"
+ is used to insert metadata about the
+Since the SCORM content package is not
+ event, this is the only place where
+<lom:entry>3Δ16197F-4BA0-4F5C-BF57-CD3C8BA61148</lom:entry>
+maintenance training - Landing gear
+maintenance training - Landing gear
+maintenance training, Landing gear
+language="en">2007.06.17.12.12.15.737</lom:string>
+Σ1000Δ-Α-04-15-0300-00Α-040Α-Α
+Глава 4.15.3
+2013-11-15 Страница 8

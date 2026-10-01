@@ -1,0 +1,36 @@
+S1000DR-UACRU-01000-00
+techRepository • Существующий элемент < > переименован в элемент
+commonRepository < >.
+partRef • Добавлен необязательный элемент < > в элементы
+spareDescr lru sru equip < >, < >, < > и < >.
+supplyRef • Необязательный элемент < > добавлен в элемент
+supplyDescr < >.
+zoneRef • Необязательный и повторяющийся элемент < > добавлен в элемент
+installationInfo < >.
+refereceDesignator • Элемент < > замещен элементом
+functionalItemRef < >.
+descrRefereceDesignator • Элемент < > замещен элементом
+descrFunctionalItemRef < >.
+zoneRef • Необязательный и повторяющийся элемент < > добавлен в элемент
+installationInfo < >.
+CPF 2010-017S1 - Добавление кода валюты к количественному значению 
+quantityTypeSpecifics • Добавлен новый необязательный атрибут в
+quantity элемент < >.
+CPF 2010-026DE - Количество на единицу 
+quantityPerUnit • Изменен необязательный элемент < >, который стал
+unitOfIssueQualificationSegment обязательным в элементе < >.
+CPF 2010-030S1 - Параметр мультимедийного объекта 
+parameter • Изменен элемент < >, который стал многократным в элементе
+multimediaObjectElemType < >.
+CPF 2010-031S1 - Ссылка на требование к предмету поставки 
+materialCategory vendorFlag • Необязательные атрибуты и
+supplyRqmtRef добавлены в элемент < >.
+materialCategory • Изменен атрибут , который стал необязательным в
+supplyRqmtIdent supplyRqmtAltIdent элементах < > и < >.
+catalogItemNumber CPF 2011-027GB - Устранение избыточного атрибута " " 
+catalogItemNumber • Удален избыточный атрибут из элемента
+catalogSeqNumber < >.
+CPF 2011-033S1 - Исправленная ошибка в удалении смешанного содержимого 
+Действительно: Все S1000D-A-07-03-0101-06A-040A-A
+Глава 7.3.1.1.6
+2013-11-15 Страница 17

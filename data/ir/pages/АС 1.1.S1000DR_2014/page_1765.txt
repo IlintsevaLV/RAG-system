@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+Пример разметки:
+<sbIndustrySupport>
+<para>Technical support can be requested at:</para>
+<enterpriseRef manufacturerCodeValue="KZ666">
+<name>World-Bike</name>
+<businessUnit>
+<businessUnitName>Customer Support</businessUnitName>
+<businessUnitAddress>
+<street>100, Bike Street</street>
+<city>London</city>
+<country>UK</country>
+</businessUnitAddress>
+</businessUnit>
+</enterpriseRef>
+</sbIndustrySupport>
+2.1.1.3 Описание материала
+sbMaterialDescr Описание. Элемент < > содержит ссылку на набор материалов
+или на отдельный материал или на внешний набор материалов, необходимых для
+выполнения сервисного бюллетеня β соответствии σ заданными сведениями ο
+применимости.
+sbMaterialDescr Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00047-Α-001-01
+sbMaterialDescr Рис. 10 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id (O), идентификатор описания материала. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 14

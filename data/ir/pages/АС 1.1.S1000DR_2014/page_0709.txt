@@ -1,0 +1,27 @@
+Σ1000DR-UACRU-01000-00
+</reqCondGroup>
+</closeRqmts>
+Пример 3
+<closeRqmts>
+<reqCondGroup>
+<reqCondNoRef>
+<reqCond>Replace the tire.</reqCond>
+</reqCondNoRef>
+<reqCondDm>
+<reqCond>Inflate the tire with air.</reqCond>
+<dmRef xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-
+DA0-10-20-00AA-215Α-Α">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+assyCode="20" disassyCode="00" disassyCodeVariant="AA"
+infoCode="215" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</reqCondDm>
+</reqCondGroup>
+</closeRqmts>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Конец модуля данных Глава 3.9.5.2.1.9
+2013-11-15 Страница 78

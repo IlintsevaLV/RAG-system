@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+language < > (Μ). См. Глава 3.9.5.1 . 
+issueInfo < > (Μ). См. Глава 3.9.5.1 . 
+Пример разметки:
+<scormContentPackageIdent>
+<scormContentPackageCode modelIdentCode="Σ1000DBIKE"
+scormContentPackageIssuer="AH019"
+scormContentPackageNumber="00001"
+scormContentPackageVolume="00"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo inWork="00" issueNumber="001"/>
+</scormContentPackageIdent>
+2.2.2.2 Носитель пакета содержимого SCORM
+scormContentPackageMedia Описание: Элемент < > содержит описание
+носителя, на котором доставляется пакет содержимого SCORM. Данный элемент
+может повторяться.
+scormContentPackageMedia Элемент разметки: < > (O)
+Атрибуты:
+scormContentPackageMediaType (Μ). Тип носителя (например, бумажная 
+копия, компакт-диск, DVD-диск, источники β сети)
+scormContentPackageMediaCode (Μ). Обозначение носителя (метка) 
+volumeNumber (O). Том носителя задается двузначным числом. Данный 
+атрибут используется, когда приводимая информация должна быть разбита на
+несколько томов из-за ограничений, связанных σ самими носителями. Он не
+scormContentPackageVolume связан σ атрибутом < > β коде модуля
+SCORM.
+mediaLocation (O). Местоположение носителя. 
+Дочерние элементы:
+Нет 
+Пример разметки:
+<scormContentPackageMedia scormContentPackageMediaCode="DKS:1"
+scormContentPackageMediaType="CD"/>
+2.2.3 Объектная модель обучения
+Описание: Объектная модель обучения IEEE является частью спецификации
+SCORM. Β ней определяется набор элементов метаданных для описания обучающих
+материалов, включая названия элементов, определения, типы данных η длину полей.
+Включение модели LOM β пакет содержимого SCORM позволяет разработчикам
+обучающих материалов добавлять метаданные ο ссылках на обучающие материалы
+внутри пакета содержимого SCORM.
+На этом уровне модель LOM используется для вставки метаданных ο пакете
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 11

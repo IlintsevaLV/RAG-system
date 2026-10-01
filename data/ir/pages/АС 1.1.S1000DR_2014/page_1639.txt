@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+lcReview < > (O). См. Разд. 2.2. 
+lcNextSteps < > (O). См. Разд. 2.3. 
+lcResources < > (O). См. Глава 3.9.5.2.13.2 . 
+lcSection < > (O). См. Глава 3.9.5.2.13.2 . 
+Пример разметки:
+<learningSummary>
+<title>...</title>
+<lcSummary>...</lcSummary>
+<lcReview>...</lcReview>
+<lcNextSteps>...</lcNextSteps>
+<lcResources>...</lcResources>
+<lcSection>...</lcSection>
+</learningSummary>
+2.1 Сводка
+lcSummary Описание. Β элементе < > приводится текстовая сводка, описывающая
+основные цели обучения η пройденные занятия.
+lcSummary Элемент разметки: < > (O)
+Атрибуты:
+id lcSummary (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcSummary>
+<title>Steering System Summary</title>
+<description>
+<para>
+Damage to any of α bike'σ steering system components could
+render the system inoperable. Therefore, you should know how to
+remove and install each piece. The handlebar, stem, and headset
+all play α vital role in steering. This topic provided the
+information you will need to remove and install the components
+of α bike'σ steering system.
+Действительно: Все Σ1000Δ-Α-03-09-0502-13E-040Α-Α
+Глава 3.9.5.2.13.4
+2013-11-15 Страница 3

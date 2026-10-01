@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 miles</captionLine>
+</caption>
+</captionEntry>
+</captionRow>
+</captionBody>
+</captionGroup>
+<captionGroup cols="2" applicRefId="app-0002" changeMark="1"
+reasonForUpdateRefIds="chg-0002">
+<colspec colnum="1" colname="col1" colwidth="30mm"/>
+<colspec colnum="2" colname="col2" colwidth="30mm"/>
+<captionBody>
+<captionRow>
+<captionEntry colname="col1">
+<caption color="co02" captionWidth="30mm">
+<captionLine>SPEED</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 mph</captionLine>
+</caption>
+</captionEntry>
+</captionRow>
+<captionRow>
+<captionEntry colname="col1">
+<caption color="co02" captionWidth="30mm">
+<captionLine>DISTANCE</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 miles</captionLine>
+</caption>
+</captionEntry>
+</captionRow>
+</captionBody>
+</captionGroup>
+</para>
+</response>
+</challengeAndResponse>
+</crewDrillStep>
+</crewDrill>
+...
+</content>
+3.2 Комментарии по применимости
+Пример 1: Комментарий по применимости, основанный на модели, версии η
+критериях уровня технического обслуживания.
+Действительно: Все Σ1000Δ-Α-03-09-0503-00Α-040Α-Α
+Глава 3.9.5.3
+2013-11-15 Страница 15

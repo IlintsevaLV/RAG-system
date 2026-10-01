@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+multimediaAlts < > (O). См. Глава 3.9.5.2.1.7 . 
+foldout < > (O). См. Глава 3.9.5.2.1.7 . 
+table < > (O). См. Глава 3.9.5.2.1.6 . 
+Пример разметки:
+<descrCrew>
+<levelledPara>
+<title>Introduction</title>
+<para>Data about the bicycle and its control system is given in
+this document. This data will help you operate the
+bicycle.</para>
+</levelledPara>
+</descrCrew>
+3 Пример
+<crewRefCard>
+<crewDrill>
+<crewMemberGroup>
+<crewMember crewMemberType="cm02"></crewMember>
+<crewMember crewMemberType="cm03"></crewMember>
+</crewMemberGroup>
+<crewDrillStep>
+<crewProcedureName>
+<para>Tighten stem</para>
+</crewProcedureName>
+<if>
+<caseCond>Stem is loose</caseCond>
+<crewDrillStep><para>Tighten clamp bolt</para></crewDrillStep>
+</if>
+<elseIf>
+<caseCond>Handlebars twist in stem</caseCond>
+<crewDrillStep></crewDrillStep>
+</elseIf>
+</crewDrillStep>
+<crewDrillStep>
+<challengeAndResponse>
+<challenge>
+<para></para>
+</challenge>
+<response>
+<para></para>
+</response>
+</challengeAndResponse>
+</crewDrillStep>
+</crewDrill>
+</crewRefCard>
+Действительно: Все Σ1000Δ-Α-03-09-0502-06Α-040Α-Α
+Конец модуля данных Глава 3.9.5.2.6
+2013-11-15 Страница 23

@@ -1,0 +1,34 @@
+S1000DR-UACRU-01000-00
+hyperbolicCosecant Значение " " 
+hyperbolicCosine Значение " " 
+hyperbolicCotangent Значение " " 
+hyperbolicSecant Значение " " 
+hyperbolicSine Значение " " 
+hyperbolicTangent Значение " " 
+inverseCosecant Значение " " 
+inverseCosine Значение " " 
+inverseCotangent Значение " " 
+inverseSecant Значение " " 
+inverseSine Значение " " 
+inverseTangent Значение " " 
+naturalLogarithm Значение " " 
+secant Значение " " 
+sine Значение " " 
+squareRoot Значение " " 
+tangent Значение " " 
+CPF 2006-066US: 
+warningAndCautionPara • Новый элемент < > добавлен для ограничения
+схемы согласно спецификации. Новый элемент вводит следующие элементы:
+attentionRandomList Элемент < > 
+attentionRandomListItem Элемент < > 
+attentionListItemPara Элемент < > 
+attentionText Группа " " заново определена на основании группы 
+text " " для соответствия спецификации.
+CPF 2006-068US: 
+• Добавлены атрибуты секретности во все элементы, уже содержащие атрибут
+id и атрибуты изменений, и не содержавшие до сих пор атрибутов
+секретности.
+• Изменены группы атрибутов для облегчения обслуживания схем. Для
+Действительно: Все S1000D-A-07-03-0101-05A-040A-A
+Глава 7.3.1.1.5
+2013-11-15 Страница 9

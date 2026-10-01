@@ -1,0 +1,29 @@
+Σ1000DR-UACRU-01000-00
+...
+<commonRepository>
+<circuitBreakerRepository>
+<circuitBreakerSpec>
+<circuitBreakerIdent
+circuitBreakerNumber="CB9LW"></circuitBreakerIdent>
+<name>FMC-C PWR SPLY</name>
+<functionalPhysicalAreaRef systemCode="33" subSystemCode="2"
+subSubSystemCode="0" assyCode="00"/>
+<circuitBreakerAlts>
+<circuitBreaker altNumber="0001" applicRefId="appl-001"
+monitoredFlag="1" provisionedFlag="1">
+<circuitBreakerClass circuitBreakerType="cbt01"/>
+<location><zoneRef zoneNumber="121"/></location>
+</circuitBreakerAlt>
+<circuitBreakerAlt altNumber="0002" applicRefId="appl-002"
+monitoredFlag="1" provisionedFlag="1">
+<name>FMC-FAN PWR SPLY</name>
+<circuitBreakerClass circuitBreakerType="cbt01"/>
+<location><zoneRef zoneNumber="121"/></location>
+</circuitBreakerAlt>
+</circuitBreakerAlts>
+</circuitBreakerSpec>
+</circuitBreakerRepository>
+</commonRepository>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11C-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.2
+2013-11-15 Страница 11

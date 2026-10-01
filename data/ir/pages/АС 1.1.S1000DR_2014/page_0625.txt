@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+3.2 Файл CGM (версия 4)
+Β следующем простом примере показан фрагмент файла CGM (версии 4)
+иллюстрации, β котором представлен элемент APS, используемый для определения
+6 8 двух вхождений выноски σ номером " " η одного вхождения выноски σ номером " "
+id β качестве графических объектов. Значениями параметра APS являются
+hot001 hot002 hot003 6 " ", " " η " ". Необязательные имена объектов - это " " для
+6 hot003 обоих экземпляров выноски " ", β то время как " " не имеет имени, но
+имеет необязательные области захвата/выделения (непрерывная кривая Безье η два
+прямоугольника)
+BEGMF 'ICN-1Β-Β-291101-Μ-C0419-00571-Α-001-01';
+MFVERSION 4;
+MFDESC '"ProfileId:Σ1000Δ",
+"ProfileEd:2.3", "ColourClass:colour"';
+MFELEMLIST 'VERSION4';
+FONTLIST 'HELVETICA' 'HELVETICA_BOLD' 'HELVETICA_OBLIQUE'
+'HELVETICA_BOLD_OBLIQUE';
+CHARSETLIST STD94 'Β' STD96 'Α';
+VDCTYPE REAL;
+COLRPREC 255;
+COLRINDEXPREC 255;
+COLRVALUEEXT 0 0 0 255 255 255;
+MAXCOLRINDEX 255;
+INTEGERPREC -32767 32767;
+REALPREC -2147483647 2147483647 4;
+CHARCODING BASIC8BIT;
+MAXVDCEXT 13.0581,41.3273 173.8012,259.1455;
+BEGPIC 'Picture 1';
+SCALEMODE METRIC 1;
+VDCEXT 13.0581,41.3273 173.8012,259.1455;
+COLRMODE INDEXED;
+LINEWIDTHMODE ABS;
+EDGEWIDTHMODE ABS;
+LINEEDGETYPEDEF -22 5.75 10000 1333 111 1333;
+BEGPICBODY;
+LINECLIPMODE SHAPE;
+% %
+% All other primitives/elements deleted here %
+% %
+RESTRTEXTTYPE 2;
+CHARSETINDEX 1;
+ALTCHARSETINDEX 2;
+TEXTALIGN CTR BASE 0 0;
+CHARORI 0 1 1 0;
+CHARHEIGHT 3.2844;
+TEXTCOLR 1;
+BEGAPS 'hot001' 'grobject' STLIST;
+APSATTR 'name' "14 1 '6'";
+APSATTR 'region' "11 1 4, 16 26 88.757 66.1349 88.757 66.1349
+91.2264 66.1349 91.2264 66.1349 91.2264 66.1349 91.2264 70.0155
+Действительно: Все Σ1000Δ-Α-03-09-0502-01J-040Α-Α
+Глава 3.9.5.2.1.8
+2013-11-15 Страница 12

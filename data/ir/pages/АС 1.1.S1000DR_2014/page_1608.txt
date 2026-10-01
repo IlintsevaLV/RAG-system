@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<dc:title>Bicycle - Performance support</dc:title>
+<dc:subject>Bicycle - Performance support</dc:subject>
+<dc:publisher>06RT9</dc:publisher>
+<dc:contributor>06RT9</dc:contributor>
+<dc:date>2009-08-22</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>Σ1000DBIKE-AAA-Δ00-00-00-00AA-932Α-Τ-H31Α_001-
+00</dc:identifier>
+<dc:language>en-US</dc:language>
+<dc:rights>01_cc51</dc:rights>
+</rdf:Description>
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="932" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="H31" learnEventCode="Α"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo issueNumber="007" inWork="00"/>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2009" month="07" day="22"/>
+<dmTitle>
+<techName>Bicycle</techName>
+<infoName>Performance support</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus>
+<security securityClassification="01"></security>
+<responsiblePartnerCompany
+enterpriseCode="06RT9"></responsiblePartnerCompany>
+<originator></originator>
+<applic>
+<displayText></displayText>
+</applic>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="Α"
+infoCode="022" subSystemCode="0" infoCodeVariant="Α"
+disassyCodeVariant="Α" subSubSystemCode="0" itemLocationCode="Δ"
+assyCode="00" systemCode="00" disassyCode="00"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 124

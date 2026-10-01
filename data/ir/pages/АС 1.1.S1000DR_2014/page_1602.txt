@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcFormativeEvaluation < > (O). См. 2.6.1. 
+lcSummativeEvaluation < > (O). См. 2.6.2. 
+Пример разметки:
+<lcPerformanceEvaluation>
+<title>Performance Evaluation</title>
+<description>
+<para>The following information outlines the Performance
+evaluation.</para>
+</description>
+<lcFormativeEvaluation>
+<title>Formative Evaluation</title>
+<description>
+<para>Formative evaluation for this course is provided in the
+form of checks on learning that are spread out thoughout the
+lessons. In addition, the core lessons have quizzes that assess
+the content.</para>
+</description>
+</lcFormativeEvaluation>
+<lcSummativeEvaluation>
+<title>Summative Evaluation</title>
+<description>
+<para>The summative evaluation will be conducted at two time
+frames: first, immediately after the training takes place, and
+second, 6 months after the training was conducted.</para>
+</description>
+<lcImmediatePerformanceCompetence>
+<description>
+<para>The immediate performace change will be evaluated during
+the hands-on assessment conducted at the end of the training.
+This assessment will determine if the training had the desired
+immediate effect.</para>
+</description>
+</lcImmediatePerformanceCompetence>
+<lcJobTransfer>
+<description>
+<para>At α time of 6 months after the course is provided to the
+couriers, α survey will be taken to determine if the training
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 118

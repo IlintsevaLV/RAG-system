@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcInterventionImplementation>
+<title>Intervention Implementation</title>
+<description>
+<para>The implementation of this intervention will be composed
+of the creation and institution of α computer-based training
+program that works in conjunction with hands-on practical
+exercises.</para>
+</description>
+</lcInterventionImplementation>
+2.6 Оценка производительности труда
+lcPerformanceEvaluation Описание. Элемент < > является контейнером для
+технических данных, связанных σ требованиями κ инструменту или плану оценки,
+который позволяет определить успех воздействия.
+lcPerformanceEvaluation Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0036-001-01
+lcPerformanceEvaluation Рис. 24 Элемент < >
+Атрибуты:
+id lcPerformanceEvaluation (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 117

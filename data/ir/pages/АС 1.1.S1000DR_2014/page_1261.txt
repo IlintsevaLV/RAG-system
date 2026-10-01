@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+tire варианте устанавливается " " (строки 7-12), во втором варианте устанавливается
+brake light " " (строки 16-21), β третьем - " " (строки 36-41)).
+Первый элемент меню (строки 5-13) выбран предварительно (по умолчанию) σ
+ menuChoiceDefaultFlag 1 помощью атрибута со значением " " (True).
+enabledState Третий вариант содержит элемент < > (строки 24-34). Логическое
+ядро вычисляет выражение η определяет, является ли вариант активным (имеет
+значение TRUE) или отключенным (имеет значение FALSE) (выражение разрешения
+Environment equal "night"]). Β данном примере переменная состояния
+Environment предварительно установлена на "day". Третий вариант недоступен
+enabledState для выбора (окрашен β серый цвет), поскольку элемент < > для
+этого варианта имеет значение FALSE.
+Пример разметки меню пользователя σ одним вариантом выбора:
+Строка Разметка
+<dialog submitCaption="ok01" cancelCaption="ca01"> 1
+<title>Bicycle checkout</title> 2
+<menu choiceType="select" menuChoiceFlow="list" 3
+choiceSelection="single" mandatory="1">
+<prompt><paraBasic>Select the item to 4
+checkout:</paraBasic></prompt>
+<menuChoice menuChoiceDefaultFlag="1"> 5
+<prompt><paraBasic>Tires</paraBasic></prompt> 6
+<assertion> 7
+<variableRef variableName="CheckCondition"/> 8
+<expression> 9
+<stringValue>tire</stringValue> 10
+</expression> 11
+</assertion> 12
+</menuChoice> 13
+<menuChoice menuChoiceDefaultFlag="0"> 14
+<prompt><paraBasic>Brakes</paraBasic></prompt> 15
+<assertion> 16
+<variableRef variableName="CheckCondition"/> 17
+<expression> 18
+<stringValue>brake</stringValue> 19
+</expression> 20
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 25

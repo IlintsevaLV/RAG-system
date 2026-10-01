@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+463</installationLocation>
+<siblingPlugIdent>
+<functionalItemRef functionalItemNumber="Δ35153Π"/>
+</siblingPlugIdent>
+</installationInfo>
+</electricalEquip>
+<electricalEquip>
+<functionalItemRef functionalItemNumber="Δ35153Π"/>
+<installationInfo>
+<installationLocation installationLocationType="instloctyp02">
+463</installationLocation>
+<siblingPlugIdent>
+<functionalItemRef functionalItemNumber="Μ35001"/>
+</siblingPlugIdent>
+</installationInfo>
+</electricalEquip>
+3.2 Положение β сборочной единице вышестоящего уровня
+3.2.1 Соединитель
+Β следующем примере разметки показан соединитель Δ4532J, установленный β
+позиции 5 сборочной единицы вышестоящего уровня AC1650.
+<electricalEquip equipState="active">
+<functionalItemRef functionalItemNumber="Δ4532J"/>
+<installationInfo>
+<nextHigherAssy>
+<functionalItemRef functionalItemNumber="AC1650"/>
+</nextHigherAssy>
+<positionOnNextHigherAssy mountPosition="5">
+</positionOnNextHigherAssy>
+</installationInfo>
+</electricalEquip>
+3.2.2 Автомат защиты сети
+Β следующем примере показан автомат защиты сети CB0225, установленный на
+пересечении ряда C σ колонкой 7 сборочной единицы вышестоящего уровня Π320.
+<electricalEquip equipState="active">
+<functionalItemRef functionalItemNumber="CB0225"/>
+<installationInfo>
+<nextHigherAssy>
+<functionalItemRef functionalItemNumber="Π320"/>
+</nextHigherAssy>
+<positionOnNextHigherAssy mountRow="C" mountColumn="7">
+</positionOnNextHigherAssy>
+</installationInfo>
+</electricalEquip>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09E-040Α-Α
+Конец модуля данных Глава 3.9.5.2.9.4
+2013-11-15 Страница 21

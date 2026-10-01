@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+</frontMatterExternalPubEntry> </frontMatterSubList> <footnote>
+<para>The manufacturer'σ part No. or reference No. can be added
+by project decision.</para> </footnote> <footnote> <para>This
+publication is included in an Engine component publication
+distributed on α CD.</para> </footnote> </frontMatterList>
+</frontMatter> </content>
+3.2 Использование описательной схемы
+Пример модуля данных перечня публикаций по техническому обслуживанию при
+использовании описательной схемы (содержимое Табл. 3):
+<content> <description> <table frame="topbot">
+<title>Maintenance publications. Example</title> <tgroup
+cols="5"> <colspec colnum="1" colname="C1" colwidth="1.34*"/>
+<colspec colnum="2" colname="C2" colwidth="1.56*"/> <colspec
+colnum="3" colname="C3" colwidth="0.63*"/> <colspec colnum="4"
+colname="C4" colwidth="0.64*"/> <colspec colnum="5" colname="C5"
+colwidth="0.83*"/> <thead> <row> <entry><para>Publication
+code</para></entry> <entry><para>Title</para></entry> <entry
+rowsep="1"><para>Issue date</para></entry> <entry
+rowsep="1"><para>Publisher</para></entry> <entry><para>Media
+information</para></entry> </row> <row rowsep="1"> <entry
+colname="C2"><para>(Language)</para></entry> <entry
+colname="C3"><para>Issue No.</para></entry> <entry
+colname="C4"><para>Security classification</para></entry> </row>
+</thead> <tbody> <row> <entry> <pmRef> <pmRefIdent> <pmCode
+modelIdentCode="1Β" pmIssuer="Δ9460" pmNumber="00105"
+pmVolume="00"/> </pmRefIdent> </pmRef> </entry> <entry><para>Air
+vehicle maintenance planning</para></entry> <entry><para>2003-
+09-04</para></entry> <entry><para>C0419</para></entry>
+<entry><para>CD-ROM</para></entry> </row> <row> <entry
+colname="C2"><para>(English)</para></entry> <entry
+colname="C4"><para>Restricted</para></entry> <entry
+colname="C5"><para>1Β-Δ9460-00100-00-CD</para></entry> </row>
+<row> <entry> <pmRef> <pmRefIdent> <pmCode modelIdentCode="1Β"
+pmIssuer="Δ9460" pmNumber="00128" pmVolume="00"/> </pmRefIdent>
+</pmRef> </entry> <entry><para>Air vehicle
+maintenance</para></entry> <entry><para>2003-09-
+04</para></entry> <entry><para>C0419</para></entry>
+<entry><para>CD-ROM</para></entry> </row> <row> <entry
+colname="C2"><para>(English)</para></entry> <entry
+colname="C4"><para>Restricted</para></entry> <entry
+colname="C5"><para>1Β-Δ9460-00100-00-CD</para></entry> </row>
+<row> <entry> <pmRef> <pmRefIdent> <pmCode modelIdentCode="1Β"
+pmIssuer="Δ9460" pmNumber="01001" pmVolume="00"/> </pmRefIdent>
+</pmRef> </entry> <entry><para>IPD - Air vehicle</para></entry>
+<entry><para>2003-09-04</para></entry>
+<entry><para>C0419</para></entry> <entry><para>CD-
+ROM</para></entry> </row> <row> <entry
+colname="C2"><para>(English)</para></entry> <entry
+colname="C4"><para>Unclassified</para></entry> <entry
+Действительно: Все Σ1000Δ-Α-05-02-0120-00Α-040Α-Α
+Глава 5.2.1.20
+2013-11-15 Страница 9

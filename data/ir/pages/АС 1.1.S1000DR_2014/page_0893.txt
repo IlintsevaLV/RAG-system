@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<equipGroup>
+<equip><name>Bicycle</name>
+<identNumber><manufacturerCode>KZ555</manufacturerCode>
+<partAndSerialNumber><partNumber>Bicycle-
+001</partNumber></partAndSerialNumber>
+</identNumber></equip>
+</equipGroup>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+<timeLimitCategory/>
+<timeLimit>
+<limitType limitUnitType="lt07">
+<threshold thresholdUnitOfMeasure="θ06">
+<thresholdValue>1</thresholdValue>
+<tolerance toleranceType="plusorminus" toleranceValue="1"
+thresholdUnitOfMeasure="θ06" />
+</threshold>
+</limitType>
+</timeLimit>
+<timeLimit>
+<limitType limitUnitType="lt05">
+<threshold thresholdUnitOfMeasure="θ06">
+<thresholdValue>1</thresholdValue>
+</threshold>
+</limitType>
+</timeLimit>
+</timeLimitInfo>
+<timeLimitInfo applicRefId="appl-001" timeLimitIdent="002">
+<equipGroup>
+<equip><name>Brake pads</name>
+<identNumber><manufacturerCode>KT444</manufacturerCode>
+<partAndSerialNumber<partNumber>BR-PADS-
+001</partNumber></partAndSerialNumber>
+</identNumber></equip>
+</equipGroup>
+<reqQuantity unitOfMeasure="EA">4</reqQuantity>
+<timeLimitCategory/>
+<timeLimit>
+<limitType limitUnitType="lt05">
+<threshold thresholdUnitOfMeasure="θ03">
+<thresholdValue>1</thresholdValue>
+</threshold>
+</limitType>
+</timeLimit>
+</timeLimitInfo>
+<timeLimitInfo applicRefId="appl-001" timeLimitIdent="003">
+<equipGroup>
+<equip><name>Chain</name>
+<identNumber>
+<manufacturerCode>KZ555</manufacturerCode>
+<partAndSerialNumber><partNumber>Ch-
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 42

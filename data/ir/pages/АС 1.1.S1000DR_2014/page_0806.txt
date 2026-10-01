@@ -1,0 +1,28 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0510-001-01
+faultIsolationTest Рис. 10 Элемент < >
+Атрибуты:
+id faultIsolationTest (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+testType (Μ), имя типа проверки 
+testCode (Μ), код проверки 
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+testDescr < > (O), имя проверки η любые ссылки на описание проверки 
+testParameters < > (O). См. Разд. 2.5.3.1.3. 
+testProcedure < > (O), ссылки на процедуры проверки или любые связанные 
+сведения
+Пример разметки:
+<faultIsolationTest testCode="O-001" testType="Operation">
+<testDescr>
+<testName>Test the bulbs</testName>
+</testDescr>
+<testParameters from="1" to="1" unitOfMeasure="Days"/>
+<testProcedure>
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 24

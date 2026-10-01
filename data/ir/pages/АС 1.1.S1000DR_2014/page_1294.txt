@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+<externalApplication application="MMS">
+<paraBasic>Receive Maintainer Name</paraBasic>
+<receiveValue>
+<variableRef variableName="Maintainer"/>
+</receiveValue>
+</externalApplication>
+2.3.4 Элемент receiveByName
+receiveByName Описание. Элемент < > используется, если внешнее приложение
+возвращает данные β парах "имя/значение".
+receiveByName Элемент разметки: < >
+ICN-76301-Σ1000Δ0039-001-01
+receiveByName Рис. 7 Элемент < >
+Атрибуты:
+id receiveByName (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+returnedValueName < > (O), имя параметра, возвращенного внешним 
+приложением.
+variableRef < > (O), переменная таблицы состояний, β которую помещается 
+возвращаемое значение. См. Глава 3.9.5.2.10.1
+globalPropertyRef < > (O). См. Глава 3.9.5.2.10.1 . 
+receiveByName returnedValueName Элемент < > содержит элемент < >,
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Δ-040Α-Α
+Глава 3.9.5.2.10.3
+2013-11-15 Страница 13

@@ -1,0 +1,29 @@
+Σ1000DR-UACRU-01000-00
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+name < > (O), имя SRU. См. Глава 3.9.5.2.1.9 . 
+shortName < > (O). См. Глава 3.9.5.2.1.9 . 
+catalogSeqNumberRef Идентификация σ помощью одного из элементов < > 
+natoStockNumber identNumber partRef < >, < >, < > η
+functionalItemRef < > или их сочетания. См. Глава 3.9.5.2.1.9 η Глава
+3.9.5.2.1.10 .
+Пример разметки:
+<sru>
+<identNumber>
+<manufacturerCode>KT666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>TIRES-010101</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</sru>
+2.5.1.4 Локализация η ремонт/Локализация η ремонт LRU
+locateAndRepair locateAndRepairLruItem Описание. Элемент < >/< >
+содержит все задачи по локализации η ремонту η сведения ο неисправном LRU.
+locateAndRepair Элемент разметки: < > (Μ)
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 15

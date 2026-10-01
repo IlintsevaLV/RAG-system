@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+<refs>
+<dmRef xlink:actuate="onRequest" xlink:href="URN:Σ1000Δ:DMC-
+Σ1000DLIGHTING-AAA-Δ00-00-00-00AA-341Α-Α" xlink:show="replace"
+xlink:type="simple">
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="341" infoCodeVariant="Α" itemLocationCode="Α"
+modelIdentCode="Σ1000DLIGHTING" subSubSystemCode="0"
+subSystemCode="0" systemCode="Δ00" systemDiffCode="AAA"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+</testProcedure>
+</faultIsolationTest>
+2.5.3.1.3 Параметры проверки
+testParameters Описание: Β элементе < > содержится набор атрибутов, β
+которых хранятся параметры проверки.
+testParameters Элемент разметки: < > (O)
+Атрибуты:
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+from (O), начальное значение для диапазона значений 
+to (O), конечное значение для диапазона значений 
+unitOfMeasure (Μ), единица измерения для диапазона. 
+Дочерние элементы:
+Нет 
+Пример разметки:
+<testParameters from="1" to="1" unitOfMeasure="Days"/>
+2.5.3.1.4 Проверка для локализации неисправности - узел цеховой замены
+sruItem Описание. Элемент < > содержит сведения, необходимые для проведения
+проверки неисправного узла цеховой замены.
+sruItem Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 25

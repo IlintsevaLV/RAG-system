@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+9 Описательная информация
+<!DoCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ_4-1/xml_schema_flat/descript.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+10 Информация ο неисправностях
+<!DoCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ 4-1/xml schema flat/fault.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+11 Служебная информация
+<!DoCTypE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.σ1000δ.org/Σ1000Δ_4-1/xml_schema_flat/
+frontmatter.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+12 Обучающие данные
+<!DoCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.ω3.org/2001/xMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"http://www.sl000δ.org/Σ1000Δ_4-1/xml_schema_flat/learning.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+Действительно: Все Σ1000Δ-Α-07-03-0103-00Α-040Α-Α
+Глава 7.3.1.3
+2013-11-15 Страница 4

@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcTrainingType < > (O). См. 2.4.2.4.1. 
+lcLearningStrategy < > (O). См. 2.4.2.4.2. 
+lcDuration < > (O). См. 2.4.2.4.3. 
+lcRequiredFinances < > (O). См. 2.4.2.4.4. 
+lcRequiredPersonnel < > (O). См. 2.4.2.4.5. 
+lcRequiredFacilities < > (O). См. 2.4.2.4.6. 
+lcRequiredEquipment < > (O). См. 2.4.2.4.7. 
+lcLocalCultureConsiderations < > (O). См. 2.4.2.4.8. 
+Пример разметки:
+<lcTrainingComponent>
+<title>Training Component</title>
+<description>
+<para>The following information outlines the training
+component.</para>
+</description>
+<lcTrainingType>
+<description>
+<para>An online computer-based course will be used in
+conjunction with hands-on practices.</para>
+</description>
+</lcTrainingType>
+<lcLearningStrategy>
+<description>
+<para>This training uses α blended approach to teaching bicycle
+maintenance and repair.</para>
+</description>
+</lcLearningStrategy>
+<lcDuration>
+<lcTime>
+<description>
+<para>The computer-based courseware will take approximately 1.5
+hours to complete. The practical exercises will take
+approximately 2 hours to complete.</para>
+</description>
+</lcTime>
+</lcDuration>
+<lcRequiredFinances>
+<description>
+<para>All financial requirements will be covered by Speedy
+Couriers, Inc.</para>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 83

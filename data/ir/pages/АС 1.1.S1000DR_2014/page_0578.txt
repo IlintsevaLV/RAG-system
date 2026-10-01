@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+internalRefTargetType="irtt07"></internalRef>).</para>
+<levelledPara id="par–0001">
+<title>Cantilever brake</title>
+<para>The brake system (refer to
+<internalRef internalRefId="fig–0001"
+internalRefTargetType="irtt01"></internalRef>) has
+these primary components:
+<randomList listItemPrefix="pf01" changeMark="1">
+<listItem>
+<para>the brake lever (refer to
+<internalRef internalRefId="par–0003"
+internalRefTargetType="irtt07"></internalRef>)</para>
+</listItem>
+<listItem>
+<para>the brake cable</para>
+</listItem>
+<listItem>
+<para>the brake arm</para>
+</listItem>
+<listItem>
+<para>the brake clamp (also known as callipers)</para>
+</listItem>
+<listItem>
+<para>the brake pads (refer to
+<internalRef internalRefId="par–0002"
+internalRefTargetType="irtt07"></internalRef>)</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig–0001">
+<title>Cantilever brake with straddle cable</title>
+<graphic
+infoEntityIdent="ICN–Σ1000DBIKE–AAA–DA10000–0–U8025–00512–Α–03–
+1">
+</graphic>
+</figure>
+<para>Α cable that goes from the brake levers on the
+handlebars pulls the two levers on the brakes together.
+This presses the brake pads against the outer rim of the
+wheel, which decreases the speed of the bicycle.</para>
+</levelledPara>
+....
+</levelledPara>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01F-040Α-Α
+Конец модуля данных Глава 3.9.5.2.1.5
+2013-11-15 Страница 3

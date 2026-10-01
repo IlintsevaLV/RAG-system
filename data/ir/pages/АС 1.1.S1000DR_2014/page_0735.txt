@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<table frame="topbot">
+<title>Example table with footnotes</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<thead>
+<row rowsep="1">
+<entry><para>Col 1 Heading</para></entry>
+<entry><para>Col 2 Heading</para></entry>
+<entry><para>Col 3 Heading</para></entry>
+</row>
+</thead>
+<tfoot>
+<row>
+<entry namest="col1" nameend="col3"><para>This is footer
+information and spans the bottom of the table. The footer can
+give information about the table content such as "All units are
+measured in inches".
+</para></entry>
+</row>
+</tfoot>
+<tbody>
+<row>
+<entry><para>Row 1 entry 1 has α footnote
+<footnote id="ftn-0001">
+<para>This is α footnote for entry 1</para></footnote></para>
+</entry>
+<entry><para>Row 1 entry 2</para></entry>
+<entry><para>Row 1 entry 3</para></entry>
+</row>
+<row>
+<entry><para>Row 2 entry 1 continues on α second line</para>
+</entry>
+<entry><para>Row 2 entry 2</para></entry>
+<entry><para>Row 2 entry 3 uses the first footnote for the
+second time<footnoteRef internalRefId="ftn-0001"/>
+</para></entry>
+</row>
+<row rowsep="1">
+<entry><para>Row 3 entry 1 also has α footnote
+<footnote id="ftn-0002">
+<para>Second footnote</para></footnote>
+</para></entry>
+<entry><para>Row 3 entry 2</para></entry>
+<entry><para>Row 3 entry 3</para></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Λ-040Α-Α
+Глава 3.9.5.2.1.10
+2013-11-15 Страница 26

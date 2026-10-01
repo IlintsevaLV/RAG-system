@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+<name>Version rank</name>
+<displayName>series</displayName>
+<descr>Version rank</descr>
+<enumeration applicPropertyValues="1~3"/>
+</productAttribute>
+Пример 4: Содержательная часть из таблицы перекрестных ссылок по применимости
+для модулей данных по велосипедам η совмещение примеров, показанных выше.
+Объявлены четыре атрибута объекта, α также ссылки на модули данных РСТ η ССТ.
+<applicCrossRefTable>
+<productAttributeList>
+<productAttribute id="serialno">
+<name>Serial number</name>
+<displayName>SN</displayName>
+<descr>Serial number etched on the bicycle frame</descr>
+</productAttribute>
+<productAttribute id="model" valuePattern=".*">
+<name>Model</name>
+<displayName></displayName>
+<descr>Model of the bike</descr>
+<enumeration applicPropertyValues="Brook trekker|Mountain
+storm"/>
+</productAttribute>
+<productAttribute id="version" valuePattern="Mk(1|9)">
+<name>Model</name>
+<displayName></displayName>
+<descr>Model of the bike</descr>
+<enumeration applicPropertyValues="Mk1|Mk9"/>
+</productAttribute>
+<productAttribute id="versrank" valueDataType="integer"
+valuePattern="\δ">
+<name>Version rank</name>
+<displayName>series</displayName>
+<descr>Version rank</descr>
+<enumeration applicPropertyValues="1~3"/>
+</productAttribute>
+</productAttributeList>
+<condCrossRefTableRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" sub-subsystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Q" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef>
+</condCrossRefTableRef>
+<productCrossRefTableRef>
+<dmRef>
+Действительно: Все Σ1000Δ-Α-03-09-0503-01Α-040Α-Α
+Глава 3.9.5.3.1
+2013-11-15 Страница 13

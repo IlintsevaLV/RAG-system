@@ -1,0 +1,28 @@
+Σ1000DR-UACRU-01000-00
+3 Пример
+Β следующем примере иллюстрируется функциональный элемент, который зависит от
+конфигурации. Поскольку зона может отличаться от одного ассортимента продукции κ
+другому, было задано два альтернативных функциональных элемента.
+<commonRepository>
+<functionalItemRepository>
+<functionalItemSpec>
+<functionalItemIdent functionalItemNumber="40-MJ-49"
+functionalItemType="fit01"/>
+<name>Π/BSW-MANUA) INFLATION,(DOOR U3R</name>
+<functionalPhysicalAreaRef systemCode="52" subSystemCode="7"
+subSubSystemCode="1" assyCode="28"/>
+<functionalItemAlts>
+<functionalItemAlt altNumber="00001" applicRefId="appl-001"
+normativeComponentFlag="1">
+<location><zoneRef zoneNumber="292"/></location>
+</functionalItemAlt>
+<functionalItemAlt altNumber="00002" applicRefId="appl-002">
+<location><zoneRef zoneNumber="293"/></location>
+</functionalItemAlt>
+</functionalItemSpec>
+</functionalItemAlts>
+</functionalItemRepository>
+</commonRepository>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11Β-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.1
+2013-11-15 Страница 12

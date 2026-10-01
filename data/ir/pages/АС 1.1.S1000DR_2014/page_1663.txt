@@ -1,0 +1,65 @@
+<description>
+<para>headset/fork</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption id="ao_002"
+<lcAnswerOptionContent>
+<description>
+<para>fork/handlebar</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption id="ao_003"
+<lcAnswerOptionContent>
+<description>
+<para>handlebar/headset</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse
+</lcAnswerOption>
+<lcAnswerOption id="ao_004"
+<lcAnswerOptionContent>
+<description>
+<para>frame/handlebar</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+<lcFeedbackItemGroup>
+<lcFeedbackItem attemptMatch="1"
+<description>
+<para>Correct!</para>
+</description>
+<internalRef internalRefId="ao_003">
+</internalRef>
+</lcFeedbackItem>
+<lcFeedbackItem attemptMatch="2"
+<description>
+<para>You got it right
+</description>
+<internalRef internalRefId="ao_003">
+</internalRef>
+</lcFeedbackItem>
+<lcFeedbackItem attemptMatch="1"
+<description>
+<para>The answer
+incorrect. Try again!</para>
+</description>
+<internalRef internalRefId="ao_001">
+</internalRef>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ shuffle="1">
+ shuffle="1">
+lcName="lcCorrectResponse"/>
+ shuffle="1">
+ feedbackStatus="fbCorrect">
+ feedbackStatus="fbCorrect">
+this time. Good work!</para>
+ feedbackStatus="fbIncorrect">
+<emphasis>"headset/fork"</emphasis> is
+Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 20

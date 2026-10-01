@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+Нет. 
+Дочерние элементы:
+noInfo < > (Μ). См. Глава 3.9.5.2.15 . 
+sbSupportEquipSet < > (Μ). См. Разд. 2.2.1. 
+sbIndividualSupportEquip < > (Μ). См. Разд. 2.2.2. 
+sbExternalSupportEquip < > (Μ). См. Разд. 2.2.3. 
+para < > (Μ). См. Глава 3.9.5.2.1.10 . 
+note < > (Μ). См. Глава 3.9.3 . 
+Пример разметки:
+<sbSupportEquipsList>
+<sbSupportEquipSet>
+...
+</sbSupportEquipSet>
+...
+<sbIndividualSupportEquip>
+...
+</sbIndividualSupportEquip>
+...
+<sbExternalSupportEquip>
+...
+</sbExternalSupportEquip>
+</sbSupportEquipsList>
+2.2.1 Набор вспомогательного оборудования
+sbSupportEquipSet Описание. Элемент < > содержит сведения ο
+вспомогательном оборудовании, сгруппированном β набор η задействованном β
+сервисном бюллетене.
+sbSupportEquipSet Элемент разметки: < > (Μ)
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 17

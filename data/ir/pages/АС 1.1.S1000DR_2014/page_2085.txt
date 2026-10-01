@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+identAndStatusSection < > (Μ). См. Глава 4.6.1 . 
+commentContent < > (Μ). См. Глава 4.6.2 . 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00356 –
+Использование формы комментария:
+Решение ο том, будет ли использоваться форма комментария. 
+3 Пример
+<comment>
+<identAndStatusSection>
+<commentAddress>
+<commentIdent>
+<commentCode senderIdent="AAAAA" yearOfDataIssue="2012"
+modelIdentCode="AA" commentType="q" seqNumber="00001"/>
+<language countryIsoCode="AA" languageIsoCode="aa"/>
+</commentIdent>
+<commentAddressItems>
+<issueDate day="01" month="08" year="2008"/>
+<commentOriginator>
+<dispatchAddress>
+<enterprise>
+<enterpriseName>...</enterpriseName>
+</enterprise>
+<dispatchPerson>
+<lastName>...</lastName>
+</dispatchPerson>
+<address>
+<city>...</city>
+<country>...</country>
+</address>
+</dispatchAddress>
+</commentOriginator>
+</commentAddressItems>
+</commentAddress>
+<commentStatus>
+<security securityClassification="01"/>
+<commentPriority commentPriorityCode="cp01"/>
+<commentResponse responseType="rt01"/>
+<commentRefs>
+<ddnRefGroup>
+<ddnRef>
+<ddnRefIdent>
+<ddnCode senderIdent="AAAAA" yearOfDataIssue="2012"
+modelIdentCode="AA" receiverIdent="AAAAB" seqNumber="00001"/>
+<ddnRefIdent>
+</ddnRef>
+</ddnRefGroup>
+</commentRefs>
+<brexDmRef>
+Действительно: Все Σ1000Δ-Α-04-06-0000-00Α-040Α-Α
+Глава 4.6
+2013-11-15 Страница 2

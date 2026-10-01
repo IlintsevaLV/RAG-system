@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+Пример 2 - Вспомогательное оборудование из комплекта инструментов
+<supportEquipDescr id="seq-0001" materialUsage=”mu05”>
+<name>Tool kit 578015Τ01</name>
+<materialSetRef materialSetIdent="578015Τ01"
+materialSetIssue="00"></materialSetRef>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+<embeddedSupportEquipDescr id="seq-0002">
+<name>Screwdriver</name>
+<toolRef toolNumber="BSK-SCRDV-001" specific="0"/>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</embeddedSupportEquipDescr>
+</supportEquipDescr>
+2.5.1.1 Наименования единиц вспомогательного оборудования.
+name Элемент < > содержит наименование вспомогательного оборудования. Если β
+процессе авторской разработки использовался общий информационный репозиторий,
+то наименования вспомогательного оборудования необязательны, так как они будут
+подставляться β процессе публикации. См. Глава 3.9.5.2.1.10 .
+2.5.1.2 Короткое имя
+shortName Описание. Β элементе < > указывается сокращенное альтернативное
+название единицы вспомогательного оборудования, соответствующее элементу
+name < >. Эта сокращенная форма названия единицы предназначена для
+использования β описательной части модуля данных для упрощения восприятия
+текста. См. Глава 3.9.5.2.1.10 .
+2.5.1.3 Идентификация
+Для идентификации вспомогательного оборудования могут использоваться один или
+несколько элементов из перечисленных ниже.
+catalogSeqNumberRef < > (O), позиция β каталоге. См. Глава 3.9.5.2.7 . 
+natoStockNumber < > (O), номенклатурный номер НАТО.. См. Разд. 2.5.1.3.1. 
+identNumber < > (O), идентификационный номер. См. Разд. 2.5.1.3.2. 
+toolRef < > (O), ссылка на инструмент. См. Разд. 2.5.1.3.7. 
+materialSetRef < > (O), ссылка на набор материалов. См. Разд. 2.5.1.3.8. 
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 45

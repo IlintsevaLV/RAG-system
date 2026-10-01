@@ -1,0 +1,28 @@
+Σ1000DR-UACRU-01000-00
+dmAddress </dmAddress < >DMC-ACT catalog >
+<dmStatus>
+...
+<responsiblePartnerCompany>AIR data
+provider</ResponsiblePartnerCompany>
+...
+</dmStatus>
+...
+<content>
+<applicCrossRefTableCatalog>
+<productDefinitionRelationship>
+<externalAssert applicPropertyIdent=" " engineModel
+applicPropertyType="prodattr">
+<applicCrossRefTableRef><dmRef> DMC-AIR-AAA-XX-XX-XX-00AA-00WA-Α
+</dmRef></applicCrossRefTableRef></externalAssert>
+<associate associationType=" "> alias
+<externalAssert applicPropertyIdent=" " model
+applicPropertyType="prodattr">
+<applicCrossRefTableRef><dmRef> DMC-ENG-AAA-XX-XX-XX-00AA-00WA-Α
+</dmRef></applicCrossRefTableRef></externalAssert></associate>
+</productDefinitionRelationship>
+</applicCrossRefTableCatalog>
+</content>
+</dmodule>
+Действительно: Все Σ1000Δ-Α-04-14-0400-00Α-040Α-Α
+Конец модуля данных Глава 4.14.4
+2013-11-15 Страница 9

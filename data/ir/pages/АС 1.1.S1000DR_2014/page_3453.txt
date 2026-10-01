@@ -1,0 +1,51 @@
+Таблица 23 Пример
+Строка Разметка
+<!ENTITY AutoTest SYSTEM 1
+...
+<variableDeclarations> 2
+<variable variableName="Reading" 3
+<variable variableName="TestType" 4
+</variableDeclarations> 5
+...
+<dmNode> 6
+<dialog submitCaption="ok01" 7
+<menu choiceSelection="single" 8
+menuChoiceFlow="list"
+<prompt><paraBasic>Choose 9
+10
+<assertion> 11
+<variableRef variableName="TestType"/> 12
+13
+</assertion> 14
+</menuChoice> 15
+16
+<assertion> 17
+<variableRef variableName="TestType"/> 18
+19
+</assertion> 20
+</menuChoice> 21
+</menu> 22
+</dialog> 23
+</dmNode> 24
+<dmIf> 25
+<expression> 26
+<expression><variableRef 27
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+возвращения значений по Имени
+"multimeter/8842Α-9/8842α.exe">
+ valueType="real"/>
+ valueType="string"/>
+ cancelCaption="ca01">
+ choiceType="select"
+mandatory="1">
+the type of test:</paraBasic></prompt>
+<menuChoice><prompt><paraBasic>Automated</paraBasic></prompt>
+<expression><stringValue>Auto</stringValue></expression>
+<menuChoice><prompt><paraBasic>Manual</paraBasic></prompt>
+<expression><stringValue>Manual</stringValue></expression>
+variableName="TestType"/> </expression>
+Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 28

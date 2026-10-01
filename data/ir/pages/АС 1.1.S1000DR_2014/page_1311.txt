@@ -1,0 +1,50 @@
+<booleanOperator 15
+16
+ession>
+</expression> 17
+</applic> 18
+<applic id="wrongAnswer"> 19
+<displayText><simplePara>Inexperienced 20
+answer.</simplePara></displayText>
+<expression> 21
+<expression><variableRef 22
+<booleanOperator 23
+24
+ression>
+</expression> 25
+</applic> 26
+</referencedApplicGroup> 27
+<brexDmRef>...</brexDmRef> 28
+<qualityAssurance>...</qualityAssurance> 29
+</dmStatus> 30
+</identAndStatusSection> 31
+<content> 32
+<process> 33
+<variableDeclarations> 34
+<variable valueType="string" 35
+<variable valueType="integer" 36
+<variable valueType="string" 37
+<initialize>
+<expression>
+<stringValue>amateur</stringValue>
+</expression>
+</initialize>
+</variable>
+<variable valueType="boolean" 38
+variableName="tourCorrectAnswer">
+<initialize>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+booleanOperation="equal"/>
+<expression><booleanValue><trueValue/></booleanValue></expr
+ rider has the wrong
+variableName="tourCorrectAnswer"/></expression>
+booleanOperation="equal"/>
+<expression><booleanValue><falseValue/></booleanValue></exp
+ variableName="name"/>
+ variableName="age"/>
+ variableName="level">
+Σ1000Δ-Α-03-09-0502-10F-040Α-Α
+Глава 3.9.5.2.10.5
+2013-11-15 Страница 4

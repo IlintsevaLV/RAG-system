@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты :
+id detectedFaultAlts (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+authorityName (O) η authorityDocument (O), используются для указания на 
+управляемое содержимое β соответствии σ положениями Глава 3.9.5.2.1.11
+Дочерние элементы :
+detectedFault < > (Μ). См. Разд. 2.5.2. 
+Пример разметки :
+<detectedFaultAlts id ="fltc-001">
+<detectedFault id="flt-0001" faultCode="NYCJD00">
+<faultDescr>
+<descr>The rear wheel does not operate correctly</descr>
+</faultDescr>
+<detectionInfo detectionType="Major">
+<detectedLruItem>
+<lru>
+<name>Tire</name>
+<identNumber>
+<manufacturerCode>KT666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>TIRES-010101</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</lru>
+</detectedLruItem>
+</detectionInfo>
+<...>
+</detectedFault>
+<detectedFault id="flt-0002" faultCode="NYCJD01">
+<faultDescr>
+<descr>The front wheel does not operate correctly</descr>
+</faultDescr>
+<detectionInfo detectionType="Major">
+<detectedLruItem>
+<lru>
+<name>Tire</name>
+<identNumber>
+<manufacturerCode>KT666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>TIRES-010101</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</lru>
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 27

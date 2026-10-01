@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+functionalItemCode < > (O). См. Разд. 2.2.15. 
+functionalItemRef < > (O). См. Разд. 2.2.16. 
+skillLevel < > (O). См. Разд. 2.2.17. 
+reasonForUpdate < > (O). См. Глава 3.9.5.2.1.1 . 
+productSafety < > (O). См. Разд. 2.2.18. 
+remarks < > (O). См. Разд. 2.2.19. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00053 -
+Соотношение измененных/переизданных модулей данных:
+Решение ο пороге, после которого модуль данных считается переизданным, α не 
+измененным.
+Пример разметки:
+См. Разд. 3.
+2.2.1 Обозначение исходного модуля данных
+sourceDmIdent Описание. Элемент < > содержит обозначение исходного модуля
+данных, на котором основан текущий экземпляр модуля данных.
+sourceDmIdent Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+identExtension < > (O). См. Разд. 2.1.1.1. 
+dmCode < > (Μ). См. Разд. 2.1.1.2. 
+language < > (Μ). См. Разд. 2.1.1.3. 
+issueInfo < > (Μ). См. Разд. 2.1.1.4. 
+Пример разметки:
+<sourceDmIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="131" infoCodeVariant="Α" itemLocationCode="Α"/>
+<language languageIsoCode="en" countryIsoCode="US"/>
+<issueInfo issueNumber="004" inWork="00"/>
+</sourceDmIdent>
+2.2.2 Обозначение исходного модуля данных репозитория
+repositorySourceDmIdent Элемент < > содержит идентификаторы для
+дополнительных модулей данных общего информационного репозитория. Он должен
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 19

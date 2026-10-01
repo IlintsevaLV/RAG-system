@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+<dmNode applicRefId="wrongAnswer"> 145
+<proceduralStep> 146
+<title>Wrong answer!</title> 147
+<para>You will be given the introduction once again.</para> 148
+<para>Number of mistakes: <variableRef 149
+variableName="tourMistakes"/></para>
+</proceduralStep> 150
+</dmNode> 151
+<dmNode applicRefId="rightAnswer"> 152
+<proceduralStep> 153
+<title>Correct!</title> 154
+<para>You can now continue with the practical part of this 155
+manual.</para>
+</proceduralStep> 156
+</dmNode> 157
+</dmNodeAlts> 158
+</dmSeq> 159
+</dmLoop> 160
+</dmThenSeq> 161
+</dmIf> 162
+<dmNode> 163
+<proceduralStep> 164
+<title>Practical part</title> 165
+<para>Take the bicycle from the garage.</para> 166
+</proceduralStep> 167
+<proceduralStep> 168
+<para>Clean the bicycle.</para> 169
+</proceduralStep> 170
+<proceduralStep> 171
+<para>Sit on the bike.</para> 172
+</proceduralStep> 173
+<proceduralStep> 174
+Действительно: Все Σ1000Δ-Α-03-09-0502-10F-040Α-Α
+Глава 3.9.5.2.10.5
+2013-11-15 Страница 10

@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+Если модуль данных, зависимый от CIR, обновлялся после предыдущей 
+публикации. Для создания нового издания самостоятельного модуля данных
+публикации необходимо использовать новое издание модуля данных, зависимого
+от CIR. Затем необходимо разрешить ссылки на внешние общие
+информационные объекты. См. Параграф 5.2.3.4 .
+Если модуль данных, зависимый от CIR, не обновлялся после предыдущей 
+публикации. Самостоятельный модуль данных публикации необходимо
+продублировать, его номер издания увеличить, α статус изменить на "переиздан".
+Затем необходимо разрешить ссылки на внешние общие информационные
+объекты. См. Параграф 5.2.3.4 .
+7.5 Добавление внешних информационных объектов
+xxxRef Β самостоятельных модулях данных публикации разделы < > (например,
+warningRef < >), содержащие ссылку на внешние данные β модуле данных,
+xxx warning зависимом от CIR, должны заменяться на разделы < > (например, < >),
+которые содержат фактическое содержимое (например, текст предупреждения).
+Β следующем примере показано, как разрешить ссылки из модуля данных,
+зависимого от CIR, η модуля данных CIR, чтобы преобразовать модуль данных,
+зависимый от CIR, β самостоятельный модуль данных публикации.
+Пример 1. Модуль данных, зависимый от CIR
+<content>
+<warningsAndCautionsRef>
+<warningRef id="warn-0001" warningIdentNumber="warn-
+00525"><dmRef><dmRefIdent><dmCode
+modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="0Α3" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent></dmRef>
+</warningRef>
+</warningsAndCautionsRef>
+<proced>...</proced>
+</content>
+Пример 2. CIR предупреждений
+<commonRepository>
+<warningRepository>
+<warningSpec > changeType="modify"
+<warningIdent warningIdentNumber="warn-00525"></warningIdent>
+<warningAndCautionPara>Make sure that the bulb is cool before
+you replace it.</warningAndCautionPara>
+</warningSpec>
+...
+</warningRepository>
+</commonRepository>
+Пример 3. Самостоятельный модуль данных публикации (ссылки разрешены)
+Действительно: Все Σ1000Δ-Α-04-13-0100-00Α-040Α-Α
+Глава 4.13.1
+2013-11-15 Страница 15

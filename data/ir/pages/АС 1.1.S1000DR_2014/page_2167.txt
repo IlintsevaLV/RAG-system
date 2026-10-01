@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+0 • " " - нет, объект не должен использоваться β рассматриваемом контексте
+1 • " " - да, объект должен включаться β рассматриваемый контекст
+2 • " " (значение по умолчанию) - при необходимости объект может
+использоваться β рассматриваемом контексте, однако, β полном соответствии
+со спецификацией η Схемами
+id objectPath (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+Β следующем примере показано правило σ текстовым сообщением, касающимся
+использования элемента - использование элемента не запрещено η не является
+обязательным.
+<structureObjectRule>
+<objectPath
+allowedObjectFlag="2">//graphic/@boardno</objectPath>
+<objectUse>Responsible partner company code in ICN must be an
+uppercase Α</objectUse>
+</structureObjectRule>
+Β следующем примере показано, как сделать использование элемента
+systemBreakdownCode functionalItemCode < > или элемента < > (β
+статусной части) обязательным (точнее указывается, что оба не могут отсутствовать).
+<structureObjectRule>
+<objectPath
+allowedObjectFlag="0">not(//dmStatus/systemBreakdownCode or
+//dmStatus/functionalItemCode)</objectPath>
+<objectUse>The use of element systemBreakdownCode or element
+functionalItemCode is required</objectUse>
+</structureObjectRule>
+learnCode Β следующем примере показано, как сделать использование элемента
+β идентификационной части обязательным.
+<structureObjectRule>
+<objectPath
+allowedObjectFlag="1">//dmIdent/dmCode/@learnCode</objectPath>
+<objectUse>Learn code must always be included in the data module
+identifications</objectUse>
+</structureObjectRule>
+Действительно: Все Σ1000Δ-Α-04-10-0202-00Α-040Α-Α
+Глава 4.10.2.2
+2013-11-15 Страница 4

@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+Пример разметки:
+<retrofit>
+<modification authorizationIdent="K0378"
+modificationType="post">
+<modificationTitle>Improved suspension for Brook Trekker deluxe
+models</modificationTitle>
+</modification>
+</retrofit>
+2.2.11.4.5 Модификация.
+modification Описание. Элемент < > содержит обозначение заказа на
+модернизацию.
+modification Элемент разметки: < > (Μ)
+Атрибуты:
+id modification (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+используются для указания на изменение β соответствии σ положениями Главы
+3.9.5.2.1.1.
+authorizationIdent (Μ), содержит обозначение заказа на модернизацию 
+modificationType (Μ), тип модификации: предварительная, окончательная η 
+обоих типов. Этот атрибут может иметь одно из следующих значений:
+ pre • " ", указывает, что данные соответствуют исходному стандарту или
+стандарту до указанной модификации
+post • " " (значение по умолчанию), указывает, что данные соответствуют
+стандарту после указанной модификации
+prandpo • " ", указывает, что данные соответствуют стандарту, до или после
+указанной модификации
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+modificationTitle < > (O). См. Разд. 2.2.11.4.6. 
+Пример разметки:
+<modification authorizationIdent="K0378"
+modificationType="post">
+<modificationTitle>Improved suspension for Brook Trekker deluxe
+models</modificationTitle>
+</modification>
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 41

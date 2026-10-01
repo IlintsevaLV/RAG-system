@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+</description>
+</lcJobTransfer>
+2.6.2.3 Влияние на организацию
+lcOrganizationalImpact Описание: Элемент < > содержит данные, связанные
+σ требованиями κ инструменту или плану оценки, который позволяет определить,
+достигло ли воздействие желаемого результата β отношении общей эффективности
+работы организации.
+lcOrganizationalImpact Элемент разметки: < > (O)
+Атрибуты:
+id lcOrganizationalImpact (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcOrganizationalImpact>
+<description>
+<para>At α time of 6 months after the start of the training
+program, Speedy Couriers will evaluate the data in order to
+determine if breakdown service has decreased and on-time
+delivery has increased.</para>
+</description>
+</lcOrganizationalImpact>
+3 Пример разметки
+lcLearningPlan Ниже приводится полный пример разметки для элемента < >. Β
+нем описываются модули данных обучения, созданные для примера σ велосипедами.
+<? xml version="1.0" encoding="utf-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xlink="http://www.ω3.org/1999/xlink"
+xmlns:xsi="http://www.ω3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="flat_schema/learning.xsd">
+<rdf:Description>
+<dc:creator>U8025</dc:creator>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 123

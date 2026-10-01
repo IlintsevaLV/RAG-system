@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+2.4.2.1.3 Предпочтения β отношении учебного процесса
+lcLearningPreferences Описание: Элемент < > содержит сведения ο
+предпочитаемых целевой аудиторией методах или режимах обучения для
+рассматриваемой учебной темы.
+lcLearningPreferences Элемент разметки: < > (O)
+Атрибуты:
+id lcLearningPreferences (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcLearningPreferences>
+<description>
+<para>Given the physical and customer-oriented nature of courier
+work, the type of person attracted for such positions tends to
+be of the more assertive type and more emotionally responsive.
+This type tends to prefer less-structured activities, anecdotes
+and stories, interaction with others, taking action, and moving
+as fast as possible (borderline impatient).</para>
+</description>
+</lcLearningPreferences>
+2.4.2.2 Предварительные требования
+lcPrerequisites Описание: Элемент < > содержит требования, которые должны
+быть выполнены перед проведением обучения.
+lcPrerequisites Элемент разметки: < > (O)
+Атрибуты:
+id lcPrerequisites (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 80

@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+circuitBreakerRef < > (C), номер автомата защиты, действие автомата η 
+его тип. См. Разд. 2.2.4.1.3.
+name < > (O), имя автомата защиты. См. Глава 3.9.5.2.1.10 . 
+internalRef < > (O), перекрестная ссылка на точку доступа, представленную β 
+productionMaintData данных управления объектом, элемент < >
+accessPointRef < > (O), идентификатор точки доступа, которая позволяет 
+управлять автоматом защиты. См. Глава 3.9.5.2.1.10 .
+circuitBreakerLocation < > (O), местоположение автомата защиты на 
+панели АЗК путем ввода текста См. Разд. 2.2.4.1.4.
+footnoteRemarks < > (O), содержит текстовые замечания или ссылку на 
+сноску. См. Разд. 2.5.1.6.
+Пример разметки:
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerNumber="42RT"
+circuitBreakerType="cbt02">
+</circuitBreakerRef>
+<name>MMR-1 (ILS+GPS)</name>
+<circuitBreakerLocation>0867</circuitBreakerLocation>
+</circuitBreakerDescr>
+Пример разметки:
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerNumber="800RT"
+circuitBreakerType="cbt02">
+</circuitBreakerRef>
+<name>GLIDE ANT2 SWGT RELAY</name>
+<circuitBreakerLocation>SSPC</circuitBreakerLocation>
+<footnoteRemarks><footnoreRef internalRefId =”ftn-
+001”/></footnoteRemarks>
+</circuitBreakerDescr>
+2.2.4.1.3 Ссылка на автомат защиты
+circuitBreakerRef Описание: Элемент < > содержит сведения об автомате
+защиты (например, номер, действие η тип автомата).
+circuitBreakerRef Элемент разметки: < > (C)
+Атрибуты:
+id circuitBreakerRef (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 27

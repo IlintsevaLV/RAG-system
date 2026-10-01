@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<rcmd>REFER TO THE ENGINE MANUFACTURERS DATA FOR APPROVED FUEL
+ADDITIVES</rcmd>
+3 Примеры
+Β этих примерах демонстрируется комбинированное использование общего
+информационного репозитория характеристик расходных материалов η общего
+информационного репозитория требований κ расходным материалам.
+Β следующем примере демонстрируется общий информационный репозиторий
+характеристик расходных материалов. Β нем определяется два расходных материала
+η связанные свойства.
+<commonRepository>
+<supplyRepository>
+<supplySpec>
+<supplyIdent supplyNumber="BSB-DUROFIX_FIXATIF_UW_SPECIAL"
+supplyNumberType="sp01"/>
+<specGroup vendorFlag="0">
+<specDocument countryIsoCode="FR"
+specDocumentNumber="IPDA 28-05"/>
+</specGroup>
+<enterpriseGroup>
+<enterpriseInfo locallySuppliedFlag="0">
+<enterpriseRef manufacturerCodeValue="F8808"/>
+<shippingInfo>
+<packaging>1 AND 20 LITER (0.265 AND 5.3 GAL) CAN</packaging>
+<shelfLife>APPROX 4 YEARS AT 20 DEG C (68 DEG F)</shelfLife>
+<transport>FLAMMABLE LIQUID</transport>
+</shippingInfo>
+</enterpriseInfo>
+</enterpriseGroup>
+</supplySpec>
+<supplySpec>
+<supplyIdent supplyNumber="BSB-DUROFIX_FIXATIF_UW"
+supplyNumberType="sp01"/>
+<specGroup vendorFlag="0">
+<specDocument countryIsoCode="FR"
+specDocumentNumber="ASNA3572"/>
+</specGroup>
+<enterpriseGroup>
+<enterpriseInfo locallySuppliedFlag="0">
+<enterpriseRef manufacturerCodeValue="F8808">
+<shippingInfo>
+<packaging>1 AND 20 LITER (0.265 AND 5.3 GAL) CAN</packaging>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11J-040Α-Α
+Глава 3.9.5.2.11.8
+2013-11-15 Страница 14

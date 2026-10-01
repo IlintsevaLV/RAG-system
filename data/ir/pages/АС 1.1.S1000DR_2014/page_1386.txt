@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+(ACCELEROMETERS)</name></functionalItemRef>
+</accessTo>
+<fastener><fastenerType>SF</fastenerType><fastenerQuantity>008</
+fastenerQuantity></fastener>
+<fastener><fastenerType>SG</fastenerType><fastenerQuantity>002</
+fastenerQuantity></fastener>
+<hoursToClose>0,3</hoursToClose>
+<hoursToOpen>0,2</hoursToOpen>
+</accessPointAlt>
+<accessPointAlt altNumber="2" applicRefId="appl-002">
+<name>Forward Cargo Panel</name>
+<shortname>Panel</Shortname>
+<accessPointType accessPointTypeValue="accpnl01"/>
+<zoneRef>
+<name>Lower Deck Forward Cargo Compartment Right side</name>
+</zoneRef>
+<accessTo><functionalItemRef functionalItemNumber="4000-EM-2"
+functionalItemType="exact">
+<name>INTERNAL STRUCTURE, ELECTRICAL WIRING, CONNECTORS
+PLATE</name></functionalItemRef>
+</accessTo>
+<fastener><fastenerType>SF</fastenerType><fastenerQuantity>008</
+fastenerQuantity></fastener>
+<fastener><fastenerType>SG</fastenerType><fastenerQuantity>002</
+fastenerQuantity></fastener>
+<hoursToOpen>0,2</hoursToOpen>
+</accessPointAlt>
+</accessPointAlts>
+</accessPointSpec>
+</accessPointRepository>
+</commonRepository>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11F-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.5
+2013-11-15 Страница 14

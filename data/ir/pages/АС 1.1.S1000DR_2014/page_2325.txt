@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<extraResources>
+<!-- <figure>
+<title>Landing Gear</title>
+<graphic infoEntityIdent="γ1"></graphic>
+</figure>-->
+<!-- Only one (figure or mulitimedia) is allowed.-->
+<multimedia>
+<title>Landing Gear Up</title>
+<multimediaObject multimediaType="video" infoEntityIdent="v1"
+showPluginControls="show"></multimediaObject>
+</multimedia>
+</extraResources>
+<xPaths>
+<xPath xPath="DMC-ALMDSANAES1-Α-00-Π1-00-000-0100-Δ_001-
+00.xml/para1[1]"></xPath>
+</xPaths>
+</scoEntryContent>
+<!--This is α reference to another SCO used to make up the
+courseware.-->
+<scoEntry>
+<scoEntryAddress>
+<scoEntryCode modelIdentCode="DEE1Β2"
+scormContentPackageNumber="01132"
+scormContentPackageIssuer="C0419"
+scormContentPackageVolume="00"/>
+<scoEntryTitle>Landing Gear Hydraulics</scoEntryTitle>
+</scoEntryAddress>
+<scoEntryStatus>
+<qualityAssurance>
+<unverified/>
+</qualityAssurance>
+</scoEntryStatus>
+<scoEntryContent>
+<dmRef>
+<dmRefIdent>
+<dmCode systemDiffCode="AAAA" infoCode="921" subSystemCode="5"
+modelIdentCode="MODELIC" infoCodeVariant="Α"
+disassyCodeVariant="AAA" subSubSystemCode="0"
+itemLocationCode="Α" assyCode="00" systemCode="Α53"
+disassyCode="00"/><!-- assyCode=0000 -->
+</dmRefIdent>
+</dmRef>
+<extraResources>
+<!-- <figure>
+<title>Landing Gear Hydraulics</title>
+<graphic infoEntityIdent="γ2"></graphic>
+</figure> -->
+<!-- Only one (figure or mulitimedia) is allowed.-->
+<multimedia>
+<title>Landing Gear Up</title>
+Действительно: Все Σ1000Δ-Α-04-15-0300-00Α-040Α-Α
+Глава 4.15.3
+2013-11-15 Страница 6

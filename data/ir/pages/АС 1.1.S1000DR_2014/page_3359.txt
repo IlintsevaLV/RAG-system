@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+dc:creator dc:contributor dc:language элементы < >, < > η < > не 
+используются β сопоставлении
+Таблица 3 Сопоставление метаданных для перечня модуля данных
+Элементы DC Элементы η/или атрибуты перечня модулей данных
+dc:title Data Module List < > " "
+dc:subject Data Module List < > " "
+dc:publisher senderIdent < > < >
+dc:date year month day < > - -
+dc:type text < > " "
+dc:format text/xml < > " "
+dc:identifier dmlCode _issueNumber-inWork < > < >
+dc:language language _languageIsoCode-countryIsoCode < > < >
+dc:rights securityClassification_commercialClassification_ca < >
+veat
+или
+securityClassification_commercialClassification или
+securityClassification_caveat или
+securityClassification
+2.3 Сопоставление метаданных RDF/DC для комментариев
+Β Табл. 4 представлено сопоставление элементов η атрибутов Σ1000Δ σ
+rdf:Description метаданными DC элемента < > для комментариев.
+Исключениями из принципов, приведенных для модулей данных η модулей
+публикации β Глава 7.4.1.1 , являются:
+commentTitle dc:title элемент < > соответствует элементу < > η 
+dc:subject < >
+dc:identifier элемент < > содержит код комментария (элемент 
+commentCode < >)
+senderIdent dc:publisher элемент < > соответствует элементу < > 
+dc:language language элемент < > содержит язык (элемент < >) 
+dc:creator dc:contributor элементы < > η < > не используются β 
+сопоставлении
+Действительно: Все Σ1000Δ-Α-07-05-0300-00Α-040Α-Α
+Глава 7.5.3
+2013-11-15 Страница 3

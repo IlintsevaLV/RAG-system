@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+<networkAnalysisCode>01</networkAnalysisCode>
+<groupCode>Β</groupCode>
+</contactInfo>
+</fromEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+</wireGroup>
+3.7 Сведения ο проводе
+Β следующем примере разметки показаны сведения об экранированном η скрученном
+проводе типа TB сортаментом 002, который определен для конкретного проекта.
+Провод относится κ жгуту σ обозначением 2309VB. Далее, β примере приводятся
+элементы сведений ο проводе.
+<wireInfo>
+<wireCode>
+<wireType>TB</wireType>
+<wireGauge wireGaugeType="proj">002</wireGauge>
+</wireCode>
+<harnessIdent>2309VB</harnessIdent>
+<screenGroup>
+<screen>FC0342AH</screen>
+</screenGroup>
+<twistGroup>
+<twist twistingType="1">C%FC0342AH</twist>
+</twistGroup>
+<coaxialCableFlag>N</coaxialCableFlag>
+<triaxialCableFlag>N</triaxialCableFlag>
+<emcCode>E</emcCode>
+<length unitOfMeasure="mm">3000</length>
+<wireColor>Β</wireColor>
+<signalInfo>115V AC, 400Hz</signalInfo>
+<responsiblePartnerCompany enterpriseCode="K0999"/>
+<routing>
+<clippingPoint>271-11</clippingPoint>
+<clippingPoint>273-2</clippingPoint>
+</routing>
+<wireRoute>Λ1</wireRoute>
+<illustrationRef>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β" systemCode="91"
+subSystemCode="3" sub-subsystemCode="1" assyCode="10"
+disassyCode="00" disassyCodeVariant="Α" infoCode="051"
+infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+</illustrationRef>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 56

@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcFileSizeLimitations>
+<description>
+<para>This courseware keeps it file size to the bare minimum. It
+tries to keep all files below 100κ. If some files are larger
+than the 100κ, α pre-loader is attached.</para>
+</description>
+</lcFileSizeLimitations>
+2.4.2.6.13 Время загрузки
+lcDownloadTime Описание: Элемент < > указывает максимальное время загрузки
+β клиентской среде работы σ материалами.
+lcDownloadTime Элемент разметки: < > (O)
+Атрибуты:
+id lcDownloadTime (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcDownloadTime>
+<description>
+<para>Download time will vary due to the the users' computer
+specifications.</para>
+</description>
+</lcDownloadTime>
+2.4.2.6.14 Секретность
+lcSecurity Описание: Элемент < > описывает требования κ секретности β
+представляемых учебных материалах.
+lcSecurity Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 108

@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты:
+id expression (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+humanReadableForm (O), текстовая форма выражения, которая используется 
+при печати.
+Дочерние элементы:
+booleanOperator < > (O). См. Глава 7.6.1.4 . 
+numberOperator < > (O). См. Глава 7.6.1.4 . 
+setOperator < > (O). См. Глава 7.6.1.4 . 
+stringOperator < > (O). См. Глава 7.6.1.4 . 
+booleanFunction < > (O). См. Глава 7.6.1.4 . 
+numberFunction < > (O). См. Глава 7.6.1.4 . 
+setFunction < > (O). См. Глава 7.6.1.4 . 
+stringFunction < > (O). См. Глава 7.6.1.4 . 
+subStringFunction < > (O). См. Глава 7.6.1.4 . 
+booleanValue < > (O). См. Глава 7.6.1.4 . 
+stringValue < > (O). См. Глава 7.6.1.4 . 
+realValue < > (O). См. Глава 7.6.1.4 . 
+integerValue < > (O). См. Глава 7.6.1.4 . 
+setValue < > (O). См. Глава 7.6.1.4 . 
+noValue < > (O). См. Глава 7.6.1.4 . 
+variableRef < > (O). См. Глава 3.9.5.2.10.1 . 
+globalPropertyRef < > (O). См. Глава 3.9.5.2.10.1 . 
+assert < > (O). См. Глава 3.9.5.3 
+expression < > 
+Пример разметки:
+<expression>
+<stringValue>experienced</stringValue>
+</expression>
+<expression>
+<integerValue>0</integerValue>
+</expression>
+<expression>
+<expression>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Δ-040Α-Α
+Глава 3.9.5.2.10.3
+2013-11-15 Страница 5

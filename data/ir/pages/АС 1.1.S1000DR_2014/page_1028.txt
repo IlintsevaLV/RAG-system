@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+Β следующем примере разметки показана скрутка провода, выполненная вручную из
+одного или нескольких проводов. Все провода, скрученные вместе, имеют
+одинаковый идентификатор скрутки Τ%CM0005AA.
+<twist twistingType="2">Τ%CM0005AA</twist>
+2.2.1.4 Код установки провода
+Описание. Этот элемент содержит сведения ο подготовке η финишной обработке
+провода для целей соединения.
+wireInstallationCode Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+preparationInfo < > (O), сведения ο подготовке провода 
+finishingInfo < > (O), сведения ο финишной обработке 
+Пример разметки:
+Β следующем примере разметки показаны сведения ο подготовке конца провода. Β
+примере приведена инструкция по подготовке β закодированном виде PRE609 η дана
+ссылка на лист инструкции.
+<wireInstallationCode>
+<preparationInfo>
+<instructionIdent>PRE609</instructionIdent>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="1Β" systemDiffCode="Β" systemCode="20"
+subSystemCode="9" sub-subsystemCode="0" assyCode="16"
+disassyCode="09" disassyCodeVariant="Α" infoCode="010"
+infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef>
+</refs>
+</preparationInfo>
+</wireInstallationCode>
+2.2.1.4.1 Модель содержимого preparationInfo/finishingInfo
+Описание. Для проводов модель содержимого preparationInfo/finishingInfo задает
+preparationInfo finishingInfo дочерние элементы < > η < >.
+preparationInfo finishingInfo Элемент разметки: < > (O) η < > (O)
+Атрибуты:
+Нет 
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 20

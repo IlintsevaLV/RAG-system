@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+Используется согласно правилам Глава 3.9.5.2.2 .
+Пример разметки:
+<lcAnswerOption id="ao_003" shuffle="1">
+<lcAnswerOptionContent>
+<description>
+<para>handlebar/headset</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+<lcAnswerOption id="ao_004" shuffle="1">
+<lcAnswerOptionContent>
+<description>
+<para>frame/handlebar</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+2.4.1.3.3 Правильный ответ
+lcCorrectResponse Описание. (Пустой) элемент < > содержит правильный ответ
+lcOptionContent lcAnswerOption < > β < >.
+lcCorrectResponse Элемент разметки: < > (O)
+Атрибуты:
+lcName lcCorrectResponse (O), значение по умолчанию равно " " 
+lcValue (O), значение правильного ответа 
+Дочерние элементы:
+Нет 
+Пример разметки:
+<lcAnswerOption id="ao_003" shuffle="1">
+<lcAnswerOptionContent>
+<description>
+<para>handlebar/headset</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+2.4.1.4 Группа элементов обратной связи
+lcFeedbackItemGroup Описание. Элемент < > включает β себя содержимое для
+динамической обратной связи по ответам пользователя на оценочные вопросы.
+lcFeedbackItemGroup Необязательный элемент < > поддерживает организацию
+обратной связи на действия пользователя σ помощью внутренних ссылок.
+internalRef Разработчики оценки могут использовать дополнительный элемент < >
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 15

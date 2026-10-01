@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<hotspot applicationStructureIdent="HOT0001"
+applicationStructureName="1"
+id="fig-0001-gra-0001-hot-0001"></hotspot>
+...
+<hotspot applicationStructureIdent="HOT0006"
+applicationStructureName="6"
+id="fig-0001-gra-0001-hot-0006"></hotspot>
+...
+</graphic>
+</figure>
+<initialProvisioningProject
+initialProvisioningProjectNumber="KZ9990001"
+initialProvisioningProjectNumberSubject="BICYCLE"
+fileIdent="σ"/>
+<catalogSeqNumber systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" item="000" indenture="1">
+<itemSequenceNumber itemSeqNumberValue="00Α">
+<reasonForSelection reasonForSelectionValue="0"/>
+<quantityPerNextHigherAssy>REF</quantityPerNextHigherAssy>
+<manufacturerCode>KZ999</manufacturerCode>
+<partNumber>BICYCLE-001</partNumber>
+<partIdentSegment><descrForPart>Bicycle</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service>UKA</service>
+<sourceMaintRecoverability>XB</sourceMaintRecoverability>
+<modelVersion modelVersionValue="MB"></modelVersion>
+</locationRcmd>
+</locationRcmdSegment>
+<genericPartDataGroup>
+<genericPartData genericPartDataName="qre">
+<genericPartDataValue>2</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="xnt">
+<genericPartDataValue>SP</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="key">
+<genericPartDataValue>Bicycle</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="emb">
+<genericPartDataValue>KZ999:LNS10276051</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="nse">
+<genericPartDataValue>8145144345</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="dhy">
+<genericPartDataValue>F2408:1-4UD:02</genericPartDataValue>
+</genericPartData>
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 65

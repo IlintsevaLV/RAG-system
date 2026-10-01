@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+expression < >.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00248 -
+variableName variable Использование атрибута β элементе < > :
+Решение по соглашениям об именовании, которые будут использоваться для 
+имен переменных.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00249 -
+ variableType variable Использование атрибута β элементе < > :
+variableType Решение об использовании атрибута η правила выбора 
+определенных значений.
+Пример разметки:
+<variable valueType="string" variableName="name"></variable>
+<variable valueType="string" variableName="level">
+<initialize>
+<expression><stringValue>amateur</stringValue></expression>
+</initialize>
+</variable>
+2.2.1 Инициализация
+initialize Описание : Элемент < > используется для задания начального
+expression значения переменной σ помощью элемента < >.
+initialize Элемент разметки : < >
+ICN-76301-Σ1000Δ0034-001-01
+initialize Рис. 3 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+expression < > (O). См. Разд. 2.1. 
+Пример разметки:
+<initialize>
+<expression>
+<stringValue>amateur</stringValue>
+</expression>
+</initialize>
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Δ-040Α-Α
+Глава 3.9.5.2.10.3
+2013-11-15 Страница 8

@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+colname="C5"><para>1Β-Δ9460-01001-00-CD</para></entry> </row>
+<row> <entry> <pmRef> <pmRefIdent> <pmCode modelIdentCode="1Β"
+pmIssuer="Δ9460" pmNumber="01001" pmVolume="00" />
+</pmRefIdent> </pmRef> </entry> <entry><para>IPD - Air
+vehicle</para></entry> <entry><para>2003-09-04</para></entry>
+<entry><para>C0419</para></entry>
+<entry><para>Paper</para></entry> </row> <row> <entry
+colname="C2"><para>(English)</para></entry> <entry
+colname="C4"><para>Unclassified</para></entry> <entry
+colname="C5"><para>1Β-Δ9460-01001-00-Π</para></entry> </row>
+<row> <entry> <dmRef> <dmRefIdent> <dmCode modelIdentCode="F2"
+systemDiffCode="Α" systemCode="12" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" disassyCode="00"
+disassyCodeVariant="Α" infoCode="200" infoCodeVariant="Α"
+itemLocationCode="Α"/> </dmRefIdent> </dmRef> </entry>
+<entry><para>Servicing - No-step areas</para></entry>
+<entry><para>2002-10-04</para></entry>
+<entry><para>C0419</para></entry>
+<entry><para>Paper</para></entry> </row> <row> <entry
+colname="C4"><para>Unclassified</para></entry> </row> </tbody>
+</tgroup> </table> </description> </content>
+3.3 Использование схемы модуля публикации
+Пример полного LOAP при использовании схемы модуля публикации (содержимое
+Табл. 2-Табл. 5):
+<content> <pmEntry> <pmEntryTitle>Aircrew publications.
+Example</pmEntryTitle> <pmEntry> <pmRef> <pmRefIdent> <pmCode
+modelIdentCode="1Β" pmIssuer="Δ9460" pmNumber="00001"
+pmVolume="00"/> </pmRefIdent> <pmRefAddressItems>
+<pmTitle>Aircrew manual, Batch 1</pmTitle> <issueDate day="04"
+month="09" year="2003"/> <security securityClassification="02"/>
+<responsiblePartnerCompany>
+<enterpriseName>C0419</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode=""/> </pmRefAddressItems> <behavior
+linkActuate="onRequest"/> </pmRef> </pmEntry> <pmRef>
+<pmRefIdent> <pmCode modelIdentCode="1Β" pmIssuer="Δ9460"
+pmNumber="00002" pmVolume="00"/> </pmRefIdent>
+<pmRefAddressItems> <pmTitle>Flight crew checklist</pmTitle>
+<issueDate day="04" month="09" year="2003"/> <security
+securityClassification="02"/> <responsiblePartnerCompany>
+<enterpriseName>C0419</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="Paper"
+pubMediaCode=""/> </pmRefAddressItems> </pmRef> </pmEntry>
+</pmEntry> <pmEntry> <pmEntryTitle>Maintenance publications.
+Example</pmEntryTitle> <pmEntry> <pmRef> <pmRefIdent> <pmCode
+modelIdentCode="1Β" pmIssuer="Δ9460" pmNumber="00105"
+pmVolume="00"/> <language languageIsoCode="en"
+countryIsoCode="US"/> </pmRefIdent> <pmRefAddressItems>
+<pmTitle>Airvehicle maintenance planning</pmTitle> <issueDate
+Действительно: Все Σ1000Δ-Α-05-02-0120-00Α-040Α-Α
+Глава 5.2.1.20
+2013-11-15 Страница 10

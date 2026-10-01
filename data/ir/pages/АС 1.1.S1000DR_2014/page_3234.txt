@@ -1,0 +1,19 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-07030104-0-FAPE3-00014-Α-01-1
+partIdentSegment Рис. 16 Издание 4.0.1: < >
+ICN-Σ1000Δ-Α-07030104-0-FAPE3-00015-Α-01-1
+partSegment Рис. 17 Издание 4.1: < >
+itemSeqNumber 2.7.3 Номенклатурный номер НАТО - элемент < >
+natoStockNumber itemSequenceNumber Элемент < > удален из элемента < >.
+Теперь он находится β элементе
+itemSequenceNumber partSegment itemIdentData < >/< >/< >.
+changeAuthorityNumber 2.7.4 Номер изменения - элемент < >
+changeAuthorityNumber changeAuthority Элемент < > переименован β < >.
+Номер изменения должен указываться не β содержимом элемента, α β атрибуте
+condNumber changeAuthority . Элемент < > перемещен β элемент
+changeAuthorityData < >.
+ICN-Σ1000Δ-Α-07030104-0-FAPE3-00016-Α-01-1
+changeAuthorityNumber Рис. 18 Издание 4.0.1: < >
+Действительно: Все Σ1000Δ-Α-07-03-0104-07Α-040Α-Α
+Глава 7.3.1.4.7
+2013-11-15 Страница 12

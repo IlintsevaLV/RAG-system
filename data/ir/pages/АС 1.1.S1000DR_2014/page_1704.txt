@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<checkListPara><para>Pilot lube and static ports for
+obstructions and cleanliness.</para></checkListPara>
+</checkListProcedure>
+</checkListItem>
+<checkListItem>
+<itemNumber>1.4.1</itemNumber>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ51">
+<thresholdValue></thresholdValue></threshold>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ52">
+<thresholdValue></thresholdValue></threshold>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ53">
+<thresholdValue>Ξ</thresholdValue></threshold>
+<checkListProcedure>
+<checkListPara><para>Disconnect pilot/static lines from
+instrument ports. Remove drain caps from moisture traps.</para>
+</checkListPara>
+</checkListProcedure>
+</checkListItem>
+<checkListItem>
+<itemNumber>1.4.2</itemNumber>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ51">
+<thresholdValue></thresholdValue></threshold>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ52">
+<thresholdValue></thresholdValue></threshold>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ53">
+<thresholdValue>Ξ</thresholdValue></threshold>
+<checkListProcedure>
+<checkListPara><para>Purge pilot/static system with clean air
+pressure (10–60 PSI). Reconnect lines and caps and inspect
+system for leaks utilizing instrument test set.</para>
+</checkListPara>
+</checkListProcedure>
+</checkListItem>
+<checkListItem>
+<itemNumber>1.5</itemNumber>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ51">
+<thresholdValue>Ξ</thresholdValue></threshold>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ52">
+<thresholdValue>Ξ</thresholdValue></threshold>
+<threshold thresholdType="interval"
+thresholdUnitOfMeasure="θ53">
+<thresholdValue>Ξ</thresholdValue></threshold>
+Действительно: Все Σ1000Δ-Α-03-09-0502-14Α-040Α-Α
+Глава 3.9.5.2.14
+2013-11-15 Страница 16

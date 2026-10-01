@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+isolationProcedureEnd < > :
+independentCheck Решение об использовании атрибута , значений для него, 
+α также назначение подходящих определений.
+Пример разметки:
+<isolationProcedure>
+<preliminaryRqmts><reqCondGroup><noConds/></reqCondGroup>
+<reqSupportEquips><supportEquipDescrGroup>
+<supportEquipDescr id="seq-0001"><name>Tire pressure gage</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001-01</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity
+unitOfMeasure="EA">1</reqQuantity></supportEquipDescr>
+<supportEquipDescr><name>Specialist toolset</name>
+<identNumber><manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity
+unitOfMeasure="EA">1</reqQuantity></supportEquipDescr>
+</supportEquipDescrGroup></reqSupportEquips>
+<reqSupplies><noSupplies/></reqSupplies>
+<reqSpares><noSpares/></reqSpares>
+<reqSafety><noSafety/></reqSafety></preliminaryRqmts>
+<isolationMainProcedure>
+<isolationStep id="stp-0001">
+<action>Use the tire pressure gage (<internalRef
+internalRefId="seq-0001"
+internalRefTargetType="irtt05"></internalRef> to do α check of
+the pressure</action>
+<isolationStepQuestion>What is the tire pressure
+reading?</isolationStepQuestion>
+<isolationStepAnswer>
+<listOfChoices>
+<choice nextActionRefId="stp-0002">More than 2700 hPa</choice>
+<choice nextActionRefId="stp-0003">Between 100 hPA and 2700
+hPa</choice>
+<choice nextActionRefId="stp-0004">Less than 100 hPA</choice>
+</listOfChoices>
+</isolationStepAnswer>
+</isolationStep>
+<isolationProcedureEnd id="stp-0002">
+<action>Deflate the tire until the pressureis 2700 hPa</action>
+</isolationProcedureEnd>
+<isolationProcedureEnd id="stp-0003">
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 53

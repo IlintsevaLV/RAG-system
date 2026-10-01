@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk9"/>
+</evaluate>
+</applic>
+</referencedApplicGroup>
+...
+<crewDrill>
+<title>Computer</title>
+<crewDrillStep>
+<challengeAndResponse>
+<challenge><para>Computer Display</para></challenge>
+<response>
+<para>
+<captionGroup cols="2" applicRefId="app-0001" changeMark="1"
+reasonForUpdateRefIds="chg-0001">
+<colspec colnum="1" colname="col1" colwidth="30mm"/>
+<colspec colnum="2" colname="col2" colwidth="30mm"/>
+<captionBody>
+<captionRow>
+<captionEntry colname="col1">
+<caption color="co04" captionWidth="30mm">
+<captionLine>ALTITUDE</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 miles</captionLine>
+</caption>
+</captionEntry>
+</captionRow>
+<captionRow><captionEntry colname="col1">
+<caption color="co04" captionWidth="30mm">
+<captionLine>SPEED</captionLine>
+</caption>
+</captionEntry>
+<captionEntry colname="col2">
+<caption color="co51" captionWidth="30mm">
+<captionLine>0 mph</captionLine>
+</caption>
+</captionEntry>
+</captionRow>
+<captionRow>
+<captionEntry colname="col1">
+<caption color="co04" captionWidth="30mm">
+<captionLine>DISTANCE</captionLine>
+</caption>
+</captionEntry>
+Действительно: Все Σ1000Δ-Α-03-09-0503-00Α-040Α-Α
+Глава 3.9.5.3
+2013-11-15 Страница 14

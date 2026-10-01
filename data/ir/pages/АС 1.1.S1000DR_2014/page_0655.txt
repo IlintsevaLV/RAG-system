@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+circuitBreakerDescrSubGroup < > (C). См. Разд. 2.2.4.1.1. 
+footnote < > (O). См. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<circuitBreakerDescrGroup circuitBreakerAction="open">
+<circuitBreakerDescrSubGroup>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="42RT"/>
+<name>MMR-1 (ILS+GPS)</name>
+<accessPointRef accessPointNumber="2501VU"
+accessPointTypeValue="accpnl02"/>
+<circuitBreakerLocation>0867</circuitBreakerLocation>
+</circuitBreakerDescr>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="800RT"/>
+<name>GLIDE ANT2 SWGT RELAY</name>
+<accessPointRef accessPointNumber="2502VU"
+accessPointTypeValue="accpnl02"/>
+<circuitBreakerLocation>SSPC</circuitBreakerLocation>
+<footnoteRemarks>
+<footnoteRef internalRefId =”ftn-001”/>
+</footnoteRemarks>
+</circuitBreakerDescr>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="10CA1"/>
+<name> AUTO FLT/FMGC/1</name>
+<accessPointRef accessPointNumber="49VU"
+accessPointTypeValue="accpnl02"/>
+<circuitBreakerLocation>02 Β</circuitBreakerLocation>
+<footnoteRemarks>
+<footnoteRef internalRefId=”ftn-001”/>
+</footnoteRemarks>
+</circuitBreakerDescr>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="11CA1"/>
+<name>AUTO FLT/MCDU/1</name>
+<accessPointRef accessPointNumber="49VU"
+accessPointTypeValue="accpnl02"/>
+<circuitBreakerLocation>01 Β</circuitBreakerLocation>
+</circuitBreakerDescr>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="5TD"/>
+<name>DLS&/DLRB/SPLY</name>
+<accessPointRef accessPointNumber="121VU"
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 24

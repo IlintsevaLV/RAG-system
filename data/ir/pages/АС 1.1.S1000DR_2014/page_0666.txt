@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+Дочерние элементы:
+personCategory < > (O), см. Разд. 2.3.1.1. 
+personSkill < > (O), см. Разд. 2.3.1.2. 
+trade < > (O), см. Разд. 2.3.1.3. 
+estimatedTime < > (O), см. Разд. 2.3.1.4. 
+Пример разметки:
+<personnel numRequired="2">
+<personCategory personCategoryCode="Electrician"/>
+<personSkill skillLevelCode="sk01"/>
+<trade>AF901</trade>
+<estimatedTime unitOfMeasure="η">1,5</estimatedTime>
+</personnel>
+2.3.1.1 Категория
+personCategory Описание. Элемент < > содержит необходимую категорию
+сотрудника.
+personCategory Элемент разметки: < > (O)
+Атрибуты:
+id personCategory (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+personCategoryCode (C), категория сотрудника (например, электрик, 
+инженер-механик, специалист по обслуживанию). Этот атрибут должен иметь
+skillType такие же значения, что η атрибут β элементе
+taskDefinition < > β Схеме планирования ТО, если используются оба. См.
+Глава 3.9.5.2.5 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00145 - Значения
+personCategoryCode preliminaryRqmts атрибута β элементе < > :
+Решение ο перечне категорий (например, электрик, инженер-механик, специалист 
+по обслуживанию).
+Пример разметки:
+<personCategory personCategoryCode="Electrician"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 35

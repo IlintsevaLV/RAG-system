@@ -1,0 +1,33 @@
+S1000DR-UACRU-01000-00
+пользователей спецификации это изменение видимых последствий не имеет.
+CPF 2006-69US: 
+supersedure • Добавлен новый элемент < >.
+CPF 2006-75US: 
+reqTechInfoGroup • Добавлен новый элемент < >, содержащий следующие
+элементы:
+ reqTechInfo reqTechInfoCategory Элемент < > и атрибут 
+dmRef Элемент < > 
+pmRef Элемент < > 
+externalPubRef Элемент < > 
+reqCondCategory reqCond Атрибут элемента < > 
+ numRequired personnel Атрибут элемента < > 
+CPF 2006-077US: 
+PartCharacteristic • Новый атрибут добавлен элементу
+itemSeqNumber < > для идентификации типа детали.
+CPF 2006-079US: 
+lowestAuthorizedLevelGroup • Новый элемент < > добавлен к
+supplySpec элементу < > для включения уровня технического обслуживания
+в модель репозитория технических данных.
+CPF 2006-84US: 
+ pmEntryType pmEntry • Новый атрибут добавлен к элементу < >.
+CPF 2006-90US: 
+• Группа FFT преобразована в fmftElemGroup и добавлена к элементу
+dmNode < > для включения выбора рисунка в элементе
+proceduralStep < >.
+CPF 2006-95US: 
+maintAllocation • Элемент < > и необязательные элементы
+toolsList remarksList maintPlanning < > и < > добавлены к < > для
+включения разметки карты назначения ТО.
+Действительно: Все S1000D-A-07-03-0101-05A-040A-A
+Глава 7.3.1.1.5
+2013-11-15 Страница 10

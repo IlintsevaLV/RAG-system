@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+<variableRef variableName="level"/>
+</expression>
+</expression>
+<booleanOperator booleanOperation="equal"/>
+<expression>
+<stringValue>experienced</stringValue>
+</expression>
+</expression>
+<dmThenSeq>
+<dmNode>
+<dialog>
+<message>
+<prompt>
+<paraBasic>Inexperienced users may not access this
+data.</paraBasic>
+</prompt>
+</message>
+</dialog>
+</dmNode>
+</dmThenSeq>
+</dmIf>
+2.3.3.1 Результат ветвления модуля данных
+dmThenSeq dmElseSeq Описание. Элементы < > η < > идентичны η содержат узлы
+модуля данных, альтернативные последовательности, ветви или циклы, подлежащие
+dmIf прохождению β зависимости от значения элемента < > .
+dmThenSeq dmElseSeq Элемент разметки: < > (Μ) η < > (O)
+ICN-76301-Σ1000Δ0015-002-01
+dmThenSeq Рис. 14 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id dmThenSeq dmElseSeq (O), идентификатор элементов < > или < > . См. 
+Глава 3.9.5.2.1.2 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Β-040Α-Α
+Глава 3.9.5.2.10.1
+2013-11-15 Страница 26

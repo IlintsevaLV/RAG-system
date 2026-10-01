@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00030-Α-001-01
+sbEstimatedTime Рис. 15 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id (O), идентификатор планируемого времени. См. Глава 3.9.5.3 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+quantity < > (O). См. Глава 3.9.5.2.1.10 . 
+quantityUnitOfMeasure quantityValue • Атрибут элемента < > или
+quantityGroup элемента < > необходимо заполнить значениями (человеко-
+η )часов " ".
+Пример разметки:
+<sbEstimatedTime>
+<quantity quantityType="qty04">
+<quantityGroup>
+<quantityValue quantityUnitOfMeasure="η">1.5</quantityValue>
+</quantityGroup>
+</quantity>
+</sbEstimatedTime>
+Примечание
+quantityType qty04 =" " определяется как "время". 
+2.8 Дата исходного издания
+sbOriginalIssueDate Описание. Элемент < > содержит дату первого выпуска
+сервисного бюллетеня.
+sbOriginalIssueDate Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00031-Α-001-01
+sbOriginalIssueDate Рис. 16 Элемент < >
+Атрибуты:
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 21

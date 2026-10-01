@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcGapStatement>
+<description>
+<para>Bike couriers, on average, are taking 45 minutes longer to
+repair their bikes than required to ensure timely service to
+customers.</para>
+</description>
+</lcGapStatement>
+2.2.3 Анализ среды, β которой работает организация
+lcOrganizationalEnvironmentAnalysis Описание: Элемент < > содержит
+сведения, касающиеся внутренних η внешних факторов, которые могут влиять на
+способность организации реализовать свою стратегию, миссию, цели η задачи.
+lcOrganizationalEnvironmentAnalysis Элемент разметки: < > (O)
+Атрибуты:
+id (O), идентификатор элемента 
+lcOrganizationalEnvironmentAnalysis < >. См.
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcOrganizationalEnvironmentAnalysis>
+<title>Analysis of Speedy Couriers' Business Environment</title>
+<description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 30

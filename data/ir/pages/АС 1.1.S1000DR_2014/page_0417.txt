@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+См. Глава 3.9.5.2.1.2 .
+cautionRef < > (C), ссылается на предупреждение, хранящееся β общем 
+dmRef информационном репозитории предостережений, σ помощью элемента< >.
+См. Глава 3.9.5.2.1.2 .
+Пример разметки:
+warningsAndCautionsRef Β приведенном ниже примере показан элемент < > β
+модуле данных технического обслуживания η сопутствующих общих информационных
+репозиториях предупреждений η предостережений.
+Модуль данных технического обслуживания:
+<content>
+<warningsAndCautionsRef>
+<warningRef id="warn-0001" warningIdentNumber="warning-001">
+<dmRef><dmRefIdent><dmCode modelIdentCode="Σ1000DLIGHTING"
+systemDiffCode="AAA" systemCode="Δ00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" disassyCode="01"
+disassyCodeVariant="AA" infoCode="012" infoCodeVariant="Α"
+itemLocationCode="Α"/></dmRefIdent></dmRef></warningRef>
+<cautionRef id="caut-0001" cautionIdentNumber="caution-001">
+<dmRef><dmRefIdent><dmCode modelIdentCode="Σ1000DLIGHTING"
+systemDiffCode="AAA" systemCode="Δ00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" disassyCode="02"
+disassyCodeVariant="AA" infoCode="012" infoCodeVariant="Α"
+itemLocationCode="Α"/></dmRefIdent></dmRef></cautionRef>
+<cautionRef id="caut-0002" cautionIdentNumber="caution-002">
+<dmRef><dmRefIdent><dmCode modelIdentCode="Σ1000DLIGHTING"
+systemDiffCode="AAA" systemCode="Δ00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" disassyCode="02"
+disassyCodeVariant="AA" infoCode="012" infoCodeVariant="Α"
+itemLocationCode="Α"/></dmRefIdent></dmRef></cautionRef>
+</warningsAndCautionsRef>
+<procedure>
+<preliminaryRqmts>
+...
+<safetyRqmts cautionRefs="caut-0001 caut-0002"
+warningRefs="warn-0001"></safetyRqmts>
+Модуль данных общего информационного репозитория предупреждений:
+<content>
+<commonRepository>
+<warningRepository>
+<warningSpec>
+<warningIdent warningIdentNumber="warning-001"></warningIdent>
+<warningAndCautionPara>Make sure that the bulb is cool before
+you replace it.</warningAndCautionPara>
+</warningSpec>
+<warningSpec>
+<warningIdent warningIdentNumber="warning-002"></warningIdent>
+Действительно: Все Σ1000Δ-Α-03-09-0300-00Α-040Α-Α
+Глава 3.9.3
+2013-11-15 Страница 23

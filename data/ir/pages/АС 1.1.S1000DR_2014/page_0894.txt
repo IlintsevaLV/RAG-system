@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+001</partNumber></partAndSerialNumber>
+</identNumber></equip>
+</equipGroup>
+<timeLimit>
+<limitType limitUnitType="lt05">
+<threshold thresholdUnitOfMeasure="θ03">
+<thresholdValue>1</thresholdValue>
+</threshold>
+</limitType>
+</timeLimit>
+</timeLimitInfo>
+<timeLimitInfo applicRefId="appl-001" timeLimitIdent="004">
+<equipGroup>
+<equip><name>Hub bearings</name>
+<identNumber>
+<manufacturerCode>KZ555</manufacturerCode>
+<partAndSerialNumber><partNumber>HB-
+001</partNumber></partAndSerialNumber>
+</identNumber></equip>
+</equipGroup>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+<timeLimitCategory/>
+<timeLimit>
+<limitType limitUnitType="lt06" changeMark="1">
+<threshold thresholdUnitOfMeasure="θ03">
+<thresholdValue>6</thresholdValue>
+<tolerance toleranceType="plusorminus" toleranceValue="4"
+thresholdUnitOfMeasure="θ04"/>
+</threshold>
+</limitType>
+</timeLimit>
+</timeLimitInfo>
+</maintPlanning>
+3.2 Пример определения задачи
+<referencedApplicGroup>
+<applic>
+<displayText>Mountain storm Mk1 or Brook trekker
+Mk9</displayText>
+<evaluate andOr="or">
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Mountain
+storm"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr" applicPropertyValues="Mk1"/>
+</evaluate>
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr" applicPropertyValues="Brook
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 43

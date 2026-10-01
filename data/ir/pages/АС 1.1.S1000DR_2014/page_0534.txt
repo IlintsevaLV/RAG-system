@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+behavior < > (O), внешний вид/поведение целевого модуля данных или его 
+фрагмента. См. Разд. 2.2.3.
+Пример разметки:
+Β следующем примере показана ссылка на другой модуль данных, включая его
+название η номера издания.
+<dmSegmentRef targetPath="//mainProcedure">
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA2" subSystemCode="2" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="520" infoCodeVariant="Α" itemLocationCode="Α"/>
+<issueInfo issueNumber="007" inWork="00"/>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Handlebar</techName>
+<infoName>Remove procedures</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmSegmentRef>
+2.4 Ссылки на публикации
+pmRef Описание. Элемент < > содержит подробности ο целевом модуле публикации,
+на который указывается ссылка из некоторого контекста Σ1000Δ, например из
+модуля данных или другого модуля публикации.
+pmRef Элемент разметки: < > (O)
+ICN-Σ3627-Σ1000Δ0575-001-01
+pmRef Рис. 6 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости, представленные путем ссылки на 
+applic элемент < >. См. Глава 3.9.5.3 .
+id pmRef (O), идентификатор элемента < >. См. Разд. 2.1.1. 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменение. См. Глава 3.9.5.2.1.1 .
+Действительно: Все Σ1000Δ-Α-03-09-0502-01C-040Α-Α
+Глава 3.9.5.2.1.2
+2013-11-15 Страница 20

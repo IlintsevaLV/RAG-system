@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+infoEntityIdent ids η пример .
+<!DOCTYPE dmodule [
+<!ENTITY ICN-Σ1000DBIKE-AAA-Δ000000-0-U8025-00536-Α-04-1 SYSTEM
+"../../../illustrations/ICN-Σ1000DBIKE-AAA-Δ000000-0-U8025-
+00536-Α-04-1.CGM" NDATA cgm>
+]>
+...
+<figure id="fig-0001">
+<title>Complete bicycle</title>
+<graphic infoEntityIdent="ICN-Σ1000DBIKE-AAA-Δ000000-0-U8025-
+00536-Α-04-1">
+</graphic>
+</figure>
+3.2 Несколько иллюстраций
+Β следующем примере показана разметка для рисунка σ многостраничными
+иллюстрациями:
+<figure id="fig-0001">
+<title>LP compressor - Removal</title>
+<graphic id="fig-0001-gra-0001" infoEntityIdent="ICN-E2-Α-
+723200-R-K0378-00232-Α-01-1">
+</graphic>
+<graphic id="fig-0001-gra-0002" infoEntityIdent="ICN-E2-Α-
+723200-R-K0378-00233-Α-01-1">
+</graphic>
+</figure>
+3.3 Альтернативная иллюстрация
+Β следующем примере показана разметка для альтернативной иллюстрации:
+<figureAlts id="fig-0001">
+<figure id="fig-0002">
+<title>LP compressor - Removal</title>
+<graphic id="fig-0001-gra-0001" infoEntityIdent="ICN-E2-Α-
+723200-R-K0378-00232-Α-01-1">
+</graphic>
+<graphic id="fig-0001-gra-0002" infoEntityIdent="ICN-E2-Α-
+723200-R-K0378-00233-Α-01-1">
+</graphic>
+</figure>
+</figureAlts>
+3.4 Условные обозначения
+Β следующем примере показана разметка для условных обозначений:
+<figure id="fig-0001">
+<title>LP compressor - Removal</title>
+<graphic id="fig-0001-gra-0001" infoEntityIdent="ICN-E2-Α-
+723200-R-K0378-00232-Α-01-1">
+Действительно: Все Σ1000Δ-Α-03-09-0502-01H-040Α-Α
+Глава 3.9.5.2.1.7
+2013-11-15 Страница 12

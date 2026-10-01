@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<functionalItemRef functionalItemNumber="6QXA"/>
+<contactInfo>
+<wireConnectionCode>
+<screenOrder>1</screenOrder>
+<electricalPotential>
+<contactOrderValue>0</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+</contactInfo>
+<screenGroup>
+<screen screenLevel="02" screenType="03" screenStyle="01">
+</screen>
+</screenGroup>
+</fromEquip>
+<toEquip>
+<functionalItemRef functionalItemNumber="6QXA"/>
+<contactInfo>
+<wireConnectionCode>
+<screenOrder>1</screenOrder>
+<electricalPotential>
+<contactOrderValue>0</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+</contactInfo>
+<screenGroup>
+<screen screenLevel="02" screenType="03" screenStyle="01">
+6673VO</screen>
+</screenGroup>
+</toEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+<wire wireState="logconn">
+<wireIdent>
+<wireNumber>NC00002LC</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="6QXA"/>
+<contactInfo>
+<wireConnectionCode>
+<screenOrder>2</screenOrder>
+<electricalPotential>
+<contactOrderValue>0</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+</contactInfo>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 44

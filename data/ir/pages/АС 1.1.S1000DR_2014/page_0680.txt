@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<manufacturerCode>KZ666</manufacturerCode>
+2.5.1.3.4 Обозначение детали η серийный номер
+partAndSerialNumber Описание. Элемент < > содержит обозначения деталей η
+серийные номера.
+partAndSerialNumber Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+partNumber < > (Μ), обозначение детали. См. Разд. 2.5.1.3.5. 
+serialNumber < > (O), один серийный номер или диапазон. См. Разд. 2.5.1.3.6. 
+Пример разметки:
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001</partNumber>
+</partAndSerialNumber>
+2.5.1.3.5 Обозначение детали
+partNumber Описание: Элемент < > содержит обозначение детали.
+partNumber Элемент разметки: < > (C)
+Атрибуты:
+id partNumber (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<identNumber>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 49

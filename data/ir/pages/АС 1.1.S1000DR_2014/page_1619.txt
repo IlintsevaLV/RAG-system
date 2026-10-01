@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</description>
+</lcLocalCultureConsiderations>
+</lcTrainingComponent>
+<lcAssessmentStrategy>
+<title>Assessment Strategy</title>
+<description>
+<para>The following information outlines the assessment
+strategies for the Basic Bike Awareness course.</para>
+</description>
+<lcAssessmentComponent>
+<title>Computer-Based Assessment Component</title>
+<description>
+<para>The following information outlines the assessment strategy
+for the computer-based portion of the training.</para>
+</description>
+<lcMasteryScoreCriteria>
+<description>
+<para>80% mastery of all lesson tests</para>
+</description>
+</lcMasteryScoreCriteria>
+<lcPerformanceRubric>
+<description>
+<para>QUESTION: Which part of the steering system supplies the
+sideways swiveling action that allows the rider to steer the
+bike?</para>
+<para>ANSWER:Headset</para>
+</description>
+</lcPerformanceRubric>
+<lcScoringMethod>
+<description>
+<para>The lesson tests are scored using computer programming
+built into the training.</para>
+</description>
+</lcScoringMethod>
+<lcMinimumPassThreshold>
+<description>
+<para>The minimum passing score for the assessment is
+80%.</para>
+</description>
+</lcMinimumPassThreshold>
+</lcAssessmentComponent>
+</lcAssessmentStrategy>
+<lcTechnicalRqmts>
+<title>Technical Requirements</title>
+<description>
+<para>This section lists the technical requirements needed to
+complete the instruction.</para>
+</description>
+<lcBrowsers>
+<description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 135

@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+2.1.1 Объявления переменных
+Все локальные переменные, применяемые β процессном модуле данных, должны
+быть объявлены посредством использования элемента
+variableDeclarations < >. Каждая переменная должна быть обозначена η
+указываться по уникально определенному имени. Глобальные свойства объявлены β
+ACT η CCT η инициализированы β PCT. См. Глава 7.6.1.3 .
+Таблица 2 Пример объявления локальной переменной
+Строка Разметка
+<variableDeclarations> 1
+<variable variableName="OnStand" valueType="boolean"> 2
+<dialog submitCaption="ok01" cancelCaption="ca01"> 3
+... 4
+</dialog> 5
+</variable> 6
+<variable variableName="BicyclePartnum" valueType="string"> 7
+<initialize> 8
+<expression><stringValue>MC-168119</stringValue></expression> 9
+</initialize> 10
+</variable> 11
+</variableDeclarations> 12
+Таблица 3 Пример глобального объявления
+Строка Разметка
+<condTypeList> 1
+<condType id="conditionType" valueDataType="string"> 2
+<name>equipment condition</name> 3
+<descr>condition of equipment</descr> 4
+<enumeration applicPropertyValues=”fullyFunctional" 5
+enumerationLabel="Fully Functional"/>
+<enumeration applicPropertyValues=”partiallyFunctional" 6
+enumerationLabel="Partially Functional"/>
+<enumeration applicPropertyValues=”notFunctional" 7
+Действительно: Все Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 3

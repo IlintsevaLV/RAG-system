@@ -1,0 +1,66 @@
+Для представления нескольких 
+applicPropertyValues= •
+Для представления набора 
+15 999 " "-" ":
+applicPropertyValues= •
+Для представления нескольких 
+applicPropertyValues= •
+Для представления диапазона 
+applicPropertyValues= •
+Примечание
+При выполнении проекта
+диапазонов, значения β которых
+Диапазоны, состоящие из
+экране текста, предназначенного
+для восприятия η неверно
+3 Примеры
+3.1 Ссылочная применимость
+Β следующем примере показано
+referencedApplicGroup < >
+ η использование элемента
+<content>
+...
+<referencedApplicGroup>
+<applic id="app-0001">
+<displayText>
+<simplePara>Mountain storm
+</displayText>
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr"
+storm"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr"
+</evaluate>
+</applic>
+<applic id="app-0002">
+<displayText>
+<simplePara>Brook trekker
+</displayText>
+<evaluate andOr="and">
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+1 5 7 10 диапазонов целых значений: " "-" " η " "-" ":
+1~5|7~10 " "
+1 3 5 7 10 целых значений η диапазонов: " ", " "-" ", " ", " ",
+1|3~5|7|10|15~999 " "
+F/Α-18C F/Α-18Δ строковых значений " " η " ":
+F/Α-18C|F/Α-18Δ " "
+F/Α-18Α F/Α-18Δ строковых значений " "-" ":
+F/Α-18Α~F/Α-18Δ " "
+рекомендуется принять решение об использовании
+ не являются последовательностью чисел.
+буквенно-цифровых значений, при отображении на
+ для прочтения человеком, могут быть трудны
+истолкованы пользователями.
+использование элемента
+identAndStatusSection внутри элемента < >
+applicRefId внутри содержательной части:
+ Mk1</simplePara>
+ applicPropertyValues="Mountain
+ applicPropertyValues="Mk1"/>
+ Mk9</simplePara>
+Σ1000Δ-Α-03-09-0503-00Α-040Α-Α
+Глава 3.9.5.3
+2013-11-15 Страница 13

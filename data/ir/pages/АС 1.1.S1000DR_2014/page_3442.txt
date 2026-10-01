@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+Таблица 16 Пример меню
+Строка Разметка
+<variableDeclarations> 1
+<variable variableName="BicyclePartnum" valueType="string"/> 2
+...
+</variableDeclarations> 3
+...
+<dmNode><!--Part number dialog--> 4
+<dialog submitCaption="ok01" cancelCaption="ca01"> 5
+<menu choiceSelection="single" choiceType="select" 6
+menuChoiceFlow="list" mandatory="1">
+<prompt><paraBasic>Select bicycle part 7
+number:</paraBasic></prompt>
+<menuChoice menuChoiceDefaultFlag="0"> 8
+<prompt><paraBasic>MC-168119</paraBasic></prompt> 9
+<assertion> 10
+<variableRef variableName="BicyclePartnum"/> 11
+<expression> 12
+<stringValue>MC-168119</stringValue> 13
+</expression> 14
+</assertion> 15
+</menuChoice> 16
+<menuChoice> 17
+<prompt><paraBasic>MC-168120</paraBasic></prompt> 18
+<assertion> 19
+<variableRef variableName="BicyclePartnum"/> 20
+<expression> 21
+<stringValue>MC-168120</stringValue> 22
+</expression> 23
+</assertion> 24
+</menuChoice> 25
+</menu> 26
+Действительно: Все Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 17

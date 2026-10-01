@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+identExtension?, dmCode, language?, issueInfo, (
+issueDate, dmTitle ).
+dmRef refdm • Модель содержимого элемента < > (прежний элемент < >)
+заменена σ
+identExtension?, dmCode, dmTitle?, issueInfo?, (
+issueDate?, language? ) на
+identExtension?, dmCode, language?, issueInfo?, (
+issueDate?, dmTitle? ).
+pmAddress • Модель содержимого элемента < > (прежний элемент
+pmaddres < >) заменена σ
+pmCode, pmTitle, issueInfo, issueDate, language? ( ) на
+pmCode, language?, issueInfo, issueDate, pmTitle ( ).
+pmRef refpm • Модель содержимого элемента < > (прежний элемент < > η
+crefpm прежний элемент < >) заменена σ
+pmCode, pmTitle?, issueInfo?, issueDate?, language?, (
+… ) на
+pmCode, language?, issueInfo?, issueDate?, pmTitle?, (
+… ).
+techPubRef • Модель содержимого элемента < > (прежний элемент
+reftp < >) заменена σ
+…, pubCode, pubTitle?, pubDate?, … ( ) на
+…, pubCode, pubDate?, pubTitle?, … ( ).
+externalPubRef • Модель содержимого элемента < > (прежний элемент
+refextp < >) заменена σ
+(externalPubCode, pubTitle?, pubDate?, …) на
+(externalPubCode, pubDate?, pubTitle?, …).
+commentStatusSection • Модель содержимого элемента < > (прежний
+cstatus элемент < >) заменена σ
+commentIdent, commentTitle?, issueDate, (
+language?,... ) на
+commentIdent, language?, issueDate, (
+commentTitle?,... ).
+CPF 2004-060US: 
+step1 step8 • Структура шага/подшага (σ элемента < > до элемента < >)
+proceduralStep замещена рекурсивным элементом < >.
+para0 • Структура параграфа/подпараграфа (элемент < >, σ элемента
+subpara1 subpara7 < > до элемента < >) замещена рекурсивным
+levelledPara элементом < >.
+CPF 2004-067SE: 
+warningsAndCautions • Новый элемент < > добавлен β модели
+Действительно: Все Σ1000Δ-Α-07-03-0101-05Α-040Α-Α
+Глава 7.3.1.1.5
+2013-11-15 Страница 2

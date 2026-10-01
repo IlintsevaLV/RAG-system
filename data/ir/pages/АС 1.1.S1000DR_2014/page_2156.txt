@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+</structureObjectRuleGroup>
+</contextRules>
+<!-- Rules applicable to all schemas -->
+<contextRules>
+<structureObjectRuleGroup>
+<structureObjectRule>
+<objectPath
+allowedObjectFlag="0">//dmAddress/dmIdent/dmCode/@infoCode</obje
+ctPath>
+<objectUse>This BREX applies α small subset of information codes
+(actually, too small for practical purposes)</objectUse>
+<objectValue valueTailoring="closed" valueForm="range"
+valueAllowed="000~022">Use iaw Σ1000Δ Iss 4.1</objectValue>
+<objectValue valueTailoring="closed" valueForm="single"
+valueAllowed="920">Change</objectValue>
+<objectValue valueTailoring="closed" valueForm="single"
+valueAllowed="993">Neutralization of α bacterial
+substance</objectValue>
+</structureObjectRule>
+<structureObjectRule>
+<objectPath allowedObjectFlag="0">//changeInline</objectPath>
+<objectUse>Element changeInLine must not be used</objectUse>
+</structureObjectRule>
+<structureObjectRule>
+<objectPath
+allowedObjectFlag="0">//@changeType="delete"</objectPath>
+<objectUse>Change annotation value -delete- is not allowed.
+Deleted text must always be removed from the context, ie not
+just marked deleted using the attribute change set to -delete-.
+Change history must not be preserved in data modules (and other
+CSDB objects). This means that marked up changes in α data
+module issue must always only concern changes since last issue.
+For all non-editorial changes, reason for change must be given
+using the attribute reasonForUpdateRefIds on the element
+concerned</objectUse>
+</structureObjectRule>
+<structureObjectRule>
+<objectPath allowedObjectFlag="2">//refs</objectPath>
+<objectUse>The absence of the element refs will be presented
+with None.</objectUse>
+</structureObjectRule>
+<structureObjectRule>
+<objectPath
+allowedObjectFlag="0">//title/internalRef</objectPath>
+<objectUse>References in titles are not allowed</objectUse>
+</structureObjectRule>
+<structureObjectRule>
+<objectPath allowedObjectFlag="0">//title/dmRef</objectPath>
+<objectUse>References in titles are not allowed</objectUse>
+</structureObjectRule>
+Действительно: Все Σ1000Δ-Α-04-10-0200-00Α-040Α-Α
+Глава 4.10.2
+2013-11-15 Страница 6

@@ -1,0 +1,31 @@
+Σ1000DR-UACRU-01000-00
+ICN-1654N-Σ1000Δ0055-001-01
+scoEntryItem Рис. 10 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+lom < > (O). См. Разд. 2.2.3. 
+dmRef < > (O). См. Главу 2.3.1.10 . 
+scoEntry < > (O). См. Разд. 2.3.1. 
+Пример разметки:
+<scoEntryItem>
+<scoEntry scoEntryType="scot01">
+<scoEntryTitle>Steering Assessment</scoEntryTitle>
+<scoEntryItem>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA2"
+subSystemCode="0" subSubSystemCode="0" assyCode="00"
+disassyCode="05"
+disassyCodeVariant="AA" infoCode="960" infoCodeVariant="Α"
+itemLocationCode="Τ"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+</dmRefIdent>
+</dmRef>
+</scoEntryItem>
+</scoEntry>
+</scoEntryItem>
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Конец модуля данных Глава 4.15.1
+2013-11-15 Страница 18

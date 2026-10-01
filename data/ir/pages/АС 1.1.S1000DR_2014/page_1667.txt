@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+<title/>
+<lcQuestion>
+<description>
+<para>Select your answer, and then click NEXT.</para>
+<para>What is the function of the valve attached to α bike'σ
+inner tube?</para>
+</description>
+</lcQuestion>
+<lcAnswerOptionGroup>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Holds the inner tube in place</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Indicates the correct direction of rotation</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Allows inflation of the tube and tire to the correct
+pressure</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse lcName="lcCorrectResponse"/>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Protects the tube from damage</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+<lcFeedbackItemGroup>...</lcFeedbackItemGroup>
+</lcSingleSelect>
+2.4.3 Несколько вариантов ответа
+Описание. При взаимодействии σ несколькими вариантами ответа учащемуся
+представляется вопрос η три или больше возможных ответа, из которых два или
+больше ответов являются правильными.
+lcMultipleSelect Элемент разметки: < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 24

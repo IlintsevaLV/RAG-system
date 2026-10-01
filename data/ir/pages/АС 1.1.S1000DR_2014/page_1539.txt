@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+ICN-1654N-Σ1000Δ0028-001-01
+lcInterventionDefinition Рис. 12 Элемент < >
+Атрибуты:
+id lcPerfromanceAnalysis (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+ changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcNonTrainingInterventions < > (O). См. 2.4.1.1. 
+lcTrainingInterventions < > (O). См. 2.4.2. 
+lcLearningObjectives < > (O). См. 2.4.3. 
+Пример разметки:
+<lcInterventionDefinition>
+<title>Intervention Definition</title>
+<description>
+<para>The following information outlines the recommendations for
+addressing the identified gap.</para>
+</description>
+<lcNonTrainingInterventions>
+<title>Non-Training Interventions</title>
+<description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 55

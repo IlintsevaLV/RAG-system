@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcBrowsers < > (O). См. 2.4.2.6.1. 
+lcLms < > (O). См. 2.4.2.6.2. 
+lcNonLmsItEnvironment < > (O). См. 2.4.2.6.3. 
+lcPaperBasedMaterials < > (O). См. 2.4.2.6.4. 
+lcClassroom < > (O). См. 2.4.2.6.5. 
+lcOjt < > (O). См. 2.4.2.6.6. 
+lcAccessibility < > (O). См.. 2.4.2.6.7. 
+lcPlayers < > (O). См. 2.4.2.6.8. 
+lcGraphicStandards < > (O). См. 2.4.2.6.9. 
+lcViewers < > (O). См. 2.4.2.6.10. 
+lcResolution < > (O). См. 2.4.2.6.11. 
+lcFileSizeLimitations < > (O). См. 2.4.2.6.12. 
+lcDownloadTime < > (O). См. 2.4.2.6.13. 
+lcSecurity < > (O). См. 2.4.2.6.14. 
+Пример разметки:
+<lcTechnicalRqmts>
+<title>Technical Requirements</title>
+<description>
+<para>This section lists the technical requirements needed to
+complete the instruction.</para>
+</description>
+<lcBrowsers>
+<description>
+<para>This courseware is created to run in the Internet Explorer
+6.ξ Web browser.</para>
+</description>
+</lcBrowsers>
+<lcLms>
+<description>
+<para>Lesson content packages will be tracked in the Sum Total
+LMS.</para>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 98

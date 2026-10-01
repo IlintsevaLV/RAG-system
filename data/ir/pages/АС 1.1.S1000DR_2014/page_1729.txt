@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+commonInfo < > (O), используется для обычных сведений. См. Глава 
+3.9.5.2.1.12 .
+sbCompliance < > (Μ). См. Разд. 2.1. 
+sbTaskType < > (Μ). См. Разд. 2.2. 
+sbProductModificationList < >> (O). См. Разд. 2.3. 
+sbImpactList < > (O). См. Разд. 2.4. 
+sbConcurrentSbList < > (O). См. Разд. 2.5. 
+sbAccomplishmentLimit < > (O). См. Разд. 2.6. 
+sbTimeAssessment < > (O). См. Разд. 2.7. 
+sbOriginalIssueDate < > (Μ). См. Разд. 2.8. 
+sbApproval < > (O). См. Разд. 2.9. 
+sbApprovedDm < > (O). См. Разд. 2.10. 
+sbRemplacementSb < > (O). См. Разд. 2.11. 
+genericPropertyGroup < > (O). См. Разд. 2.12. 
+Пример разметки:
+<sbManagementInfo>
+<sbCompliance sbComplianceCategory="sbcc03"/>
+<sbTaskType sbTaskCategory="sbtc01"/>
+...
+<sbOriginalIssueDate year="2010" month="04" day="07"/>
+...
+</sbMabnagementInfo>
+2.1 Категории соответствия
+sbCompliance Описание. Элемент < > содержит категорию соответствия
+сервисного бюллетеня.
+sbCompliance Элемент разметки: < > (Μ)
+Атрибуты:
+id (O), идентификатор категории соответствия. См. Глава 3.9.5.2.1.12 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 4

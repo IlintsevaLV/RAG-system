@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001-15</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="Λ">1</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares/></reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>Do not get <internalRef
+internalRefId="sup-0002" internalRefTargetType="irtt04"
+xlink:actuate="onRequest" xlink:href="sup-0002"
+xlink:show="replace"></internalRef> into
+your eyes. If it gets into your eyes, wash them immediately in
+clean warm
+water.</warningAndCautionPara>
+</warning>
+<warning>
+<warningAndCautionPara>Do not get <internalRef
+internalRefId="sup-0003" internalRefTargetType="irtt04"
+xlink:actuate="onRequest" xlink:href="sup-0003"
+xlink:show="replace"></internalRef> into
+your eyes. If it gets into your eyes, wash them immediately in
+clean warm
+water.</warningAndCautionPara>
+</warning>
+<caution>
+<warningAndCautionPara>Do not use α <internalRef
+internalRefId="seq-0001"
+internalRefTargetType="irtt05" xlink:actuate="onRequest"
+xlink:href="seq-0001"
+xlink:show="replace"></internalRef> that has high pressure. Α
+water hose that
+has high pressure can cause some parts to become loose or full
+of water.</warningAndCautionPara>
+</caution>
+<caution>
+<warningAndCautionPara>Do not point the hose directly at the hub
+or at the
+bottom bracket bearings. This can cause damage to the
+parts.</warningAndCautionPara>
+</caution>
+<caution>
+<warningAndCautionPara>Apply <internalRef internalRefId="sup-
+0003" internalRefTargetType="irtt04"
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 74

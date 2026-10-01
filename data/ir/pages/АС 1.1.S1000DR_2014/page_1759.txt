@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+Решение ο том, допустимо ли использование элемента 
+sbIndustrySupport < >
+sbMaterialSet • непосредственно внутри < >
+• только внутри определений отдельных наборов материалов или
+• допустимо только непосредственно β определениях отдельных запасных
+частей, предметов поставки η вспомогательного оборудования.
+Пример разметки:
+<sbMaterialSet>
+<sbMaterialDescr>
+<sbMaterialSetRef>
+<internalRef internalRefId="mat-0001"
+internalRefTargetType="irtt15"/>
+</sbMaterialSetRef>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</sbMaterialDescr>
+<sbMaterialDescr>
+<sbMaterialSetRef>
+<internalRef internalRefId="mat-0002"
+internalRefTargetType="irtt15"/>Supply</sbMaterialSetRef>
+</sbMaterialDescr>
+<sbMaterialDescr>
+<sbMaterialSetRef>
+<internalRef internalRefId="mat-0003"
+internalRefTargetType="irtt15"/>
+</sbMaterialSetRef>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</sbMaterialDescr>
+<sbMaterialDescr>
+<sbMaterialSetRef>
+<internalRef internalRefId="mat-0005"
+internalRefTargetType="irtt15">Removed spare set</internalRef>
+</sbMaterialSetRef>
+</sbMaterialDescr>
+<sbMaterialDescr>
+<sbMaterialSetRef>
+<internalRef internalRefId="mat-0007"
+internalRefTargetType="irtt15">Modified spare</internalRef>
+</sbMaterialSetRef>
+</sbMaterialDescr>
+</sbMaterialSet>
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 8

@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+2.5.2 Возвращаемые значения
+Возвращаемые значения могут быть указаны β трех различных форматах, подробно
+описанных ниже. Для примеров возвращаемых значений по-прежнему будет
+использоваться пример инструмента локализации неисправностей провода, но β этом
+случае пользователю предоставлена возможность выбора номера дефектного
+провода, обнаруженного во время процесса локализации. Инструмент локализации
+неисправностей провода сообщит статус, номер дефектного провода Α1000Α26 η
+связки 20201.
+Β приведенных примерах инструмент локализации неисправностей провода
+возвращает следующее ХМL-сообщение:
+<wireToolResults>
+<status>Isolated</status>
+<wireNumber>Α1000Α26</wireNumber>
+<bundle>20201</bundle>
+</wireToolResults>
+2.5.2.1 Возвращение значений по порядку
+При данном методе все возвращаемые результаты регистрируются β порядке их
+получения.
+Таблица 20 Пример возвращения значений по порядку
+Строка Разметка
+<!ENTITY WireTool SYSTEM " " NDATA exe> file://Wired/Wired.exe 1
+...
+<variableDeclarations> 2
+<variable variableName="RtnStatus" valueType="string"/> 3
+<variable variableName="RtnWireno" valueType="string"/> 4
+<variable variableName="RtnBundle" valueType="string"/> 5
+</variableDeclarations> 6
+...
+<dmNode> 7
+<externalApplication application="WireTool"> 8
+<paraBasic>Isolate Wiring Defect</paraBasic> 9
+<send> 10
+<sendName>RefDes</sendName> 11
+<stringValue>52Π-H004</stringValue> 12
+</send> 13
+<send> 14
+15
+Действительно: Все Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 23

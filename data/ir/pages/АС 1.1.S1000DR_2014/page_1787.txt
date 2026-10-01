@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+name < > (O). См. Глава 3.9.5.2.1.9 . 
+shortName < > (O). См. Глава 3.9.5.2.1.9 . 
+Обозначение запасной детали σ помощью одного или нескольких элементов 
+catalogSeqNumberRef natoStockNumber identNumber < >, < >, < >,
+partRef functionalItemRef < > η < >. См. Глава 3.9.5.2.1.9 .
+reqQuantity < > (O). См. Глава 3.9.5.2.1.9 . 
+footnoteRemarks < > (O). См. Глава 3.9.5.2.1.9 . 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00292 -
+materialUsage Использование атрибута β элементе
+sbRemovedSpareDescr < > :
+materialUsage Решение об использовании атрибута , значений для него, α 
+также назначение подходящих определений для значений. См. Глава 3.9.6.1 .
+Пример разметки:
+<sbRemovedSpareDescr>
+<name>Fork</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>FK-1000</partNumber>
+</partAndSerialNumber>
+</identNumber>
+</sbRemovedSpareDescr>
+2.5.2.2 Взаимозаменяемость
+sbInterchange Описание. Элемент < > содержит сведения ο новой запасной
+детали, которой была заменена старая деталь (если применимо).
+sbInterchange Элемент разметки: < > (Μ)
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 36

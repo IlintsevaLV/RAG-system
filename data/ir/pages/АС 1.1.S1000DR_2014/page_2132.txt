@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+2.1.2.12 Причина обновления
+reasonForUpdate Описание. Элемент < > содержит краткое объяснение причины
+обновления модуля публикации. См. Глава 3.9.5.2.1.1 .
+reasonForUpdate Элемент разметки: < > (C)
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id reasonForUpdate (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+updateReasonType (O). См. Глава 3.9.5.2.1.1 . 
+updateHighlight (O). См. Глава 3.9.5.2.1.1 . 
+Дочерние элементы:
+simplePara < > (O). См. Глава 3.9.5.2.1.10 . 
+Пример разметки:
+<reasonForUpdate updateReasonType="urt01" updateHighlight="1"
+id="rfu-001">
+<simplePara>CPF 2006-47AA: Applicability structure change and
+addition of actref element</simplePara>
+</reasonForUpdate>
+<reasonForUpdate updateReasonType="urt01" updateHighlight="1"
+id="rfu-002">
+<simplePara>CPF 2006-48AA: Export control structure change,
+addition of container elements</simplePara>
+</reasonForUpdate>
+2.1.2.13 Примечания
+remarks Описание. Элемент < > используется для вставки общих комментариев,
+если это требуется β проекте. Под данным заголовком должна быть указана
+категория соответствия сервисного бюллетеня.
+remarks Элемент разметки: < > (O)
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+Дочерние элементы:
+simplePara < > (O). См. Глава 3.9.5.2.1.10 . 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00364 -
+Использование примечаний:
+remarks Решение об использовании элемента < >. Если используется, его 
+использование должно быть определено β правилах выполнения проекта η
+Действительно: Все Σ1000Δ-Α-04-09-0100-00Α-040Α-Α
+Глава 4.9.1
+2013-11-15 Страница 17

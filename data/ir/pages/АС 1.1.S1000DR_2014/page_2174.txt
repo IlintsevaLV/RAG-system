@@ -1,0 +1,14 @@
+S1000DR-UACRU-01000-00
+ICN-N4701-AASER00007-001-01
+nonContextRule Рис. 2 Элемент < >
+Атрибуты:
+id nonContextRule (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+simplePara < > (M). См. Глава 3.9.5.2.1.10 . 
+Действительно: Все S1000D-A-04-10-0203-00A-040A-A
+Конец модуля данных Глава 4.10.2.3
+2013-11-15 Страница 3

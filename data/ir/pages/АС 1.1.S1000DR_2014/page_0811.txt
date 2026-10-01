@@ -1,0 +1,32 @@
+Σ1000DR-UACRU-01000-00
+remarks < >. См. Глава 3.9.5.1 . 
+Пример разметки:
+<observedFault faultCode="NYCJD02" id="flt-0001">
+<faultDescr>
+<descr>The lights are set to the dim position.</descr>
+</faultDescr>
+<contextAndIsolationInfo>
+<isolationInfo>
+<lruItem>
+<lru></lru>
+</lruItem>
+</isolationInfo>
+</contextAndIsolationInfo>
+</observedFault>
+2.5.5.1 Сведения ο ситуации η локализации
+contextAndIsolationInfo Описание. Элемент < > содержит описание
+ситуации, β которой наблюдается неисправность, η сведения, необходимые для
+локализации неисправного изделия.
+contextAndIsolationInfo Элемент разметки: < > (C)
+ICN-Σ3627-Σ1000Δ0513-001-01
+contextAndIsolationInfo Рис. 13 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+faultContext < > (O), текстовое описание ситуации, β которой наблюдается 
+неисправность
+isolationInfo < > (C). См. Разд. 2.5.5.2. 
+Пример разметки:
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 29

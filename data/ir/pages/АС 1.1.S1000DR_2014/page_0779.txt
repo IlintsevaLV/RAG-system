@@ -1,0 +1,93 @@
+internalRefTargetType="irtt05"/>
+xlink:actuate="onRequest"
+xlink:href="#sup-0002"
+internalRefTargetType="irtt04"/>
+water.</para></proceduralStep>
+<proceduralStep><para>Clean
+sponge.</para></proceduralStep>
+<proceduralStep><para>Flush
+<internalRef
+xlink:href="#sup-0002"
+internalRefTargetType="irtt04"/>
+removed.</para></proceduralStep>
+<proceduralStep><para>Move
+to remove all
+<proceduralStep
+Bike</title><proceduralStep><para>Soak
+xlink:actuate="onRequest"
+0003" internalRefId="seq-0003"
+into <internalRef
+xlink:href="#sup-0003"
+internalRefTargetType="irtt04"/>
+water.</para></proceduralStep>
+<proceduralStep><para>Clean
+sponge.</para></proceduralStep>
+<proceduralStep><para>Soak
+xlink:actuate="onRequest"
+0003" internalRefId="seq-0003"
+into <internalRef
+xlink:href="#sup-0002"
+internalRefTargetType="irtt04"/>
+water.</para></proceduralStep>
+<proceduralStep><para>Fully
+sponge.</para></proceduralStep>
+<proceduralStep><para>Flush
+detergents are
+<proceduralStep><para>Move
+to remove all
+<proceduralStep><para>Lubricate
+xlink:type="simple"
+xlink:show="replace"
+DA4-10-00-00AA-241Α-Α"><dmRefIdent><dmCode
+modelIdentCode="Σ1000DBIKE"
+systemCode="DA4"
+assyCode="00" disassyCode="00"
+infoCode="241" infoCodeVariant="Α"
+Step></mainProcedure>
+<closeRqmts><reqCondGroup>
+<reqCondNoRef><reqCond>Make
+</reqCondNoRef></reqCondGroup></closeRqmts>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ into <internalRef
+ xlink:show="replace"
+internalRefId="sup-0002"
+ and
+ the bicycle with the soaked
+ the bicycle and make sure that all
+xlink:actuate="onRequest" xlink:show="replace"
+internalRefId="sup-0002"
+ is
+ the bicycle up and down on its tires
+water.</para></proceduralStep></proceduralStep>
+applicRefId="apMK9"><title>Wash the
+ the <internalRef
+ xlink:show="replace" xlink:href="#seq-
+ internalRefTargetType="irtt05"/>
+xlink:actuate="onRequest" xlink:show="replace"
+internalRefId="sup-0003"
+ and
+ the bicycle with the soaked
+ the <internalRef
+ xlink:show="replace" xlink:href="#seq-
+ internalRefTargetType="irtt05"/>
+xlink:actuate="onRequest" xlink:show="replace"
+internalRefId="sup-0002"
+ and
+ clean the bicycle with the soaked
+ the bicycle to make sure that all
+removed.</para></proceduralStep>
+ the bicycle up and down on its tires
+water.</para></proceduralStep></proceduralStep>
+ the bicycle (refer to <dmRef
+xlink:actuate="onRequest"
+xlink:href="URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-
+ systemDiffCode="AAA"
+subSystemCode="1" subSubSystemCode="0"
+ disassyCodeVariant="AA"
+itemLocationCode="Α"/></dmRefIdent></dmRef>).</para></procedural
+ sure the bicycle is dry</reqCond>
+Σ1000Δ-Α-03-09-0502-03Α-040Α-Α
+Глава 3.9.5.2.3
+2013-11-15 Страница 15

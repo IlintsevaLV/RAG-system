@@ -1,0 +1,34 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты:
+id taskDefinitionAlts (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+taskDefinition < > (C). См. Разд. 2.5. 
+Пример разметки:
+<taskDefinitionAlts>
+<taskDefinition taskIdent="31-010-01" taskCode="taskcd01">
+<task>
+<…>
+</task>
+<relatedTask taskIdent="23-050-02" relatedTaskDescr="Α" />
+</taskDefinition>
+<taskDefinition taskIdent="31-010-02" taskCode="taskcd02">
+<task>
+<…>
+</task>
+<relatedTask taskIdent="23-060-02" relatedTaskDescr="Β" />
+</taskDefinition>
+</taskDefinitionAlts>
+2.7 Информация ο ресурсах η сроках службы
+timeLimitInfo Описание: Элемент < > содержит подробные сведения ο
+временных ограничениях, периодичности η жизненном цикле оборудования или
+систем.
+Действительно: Все Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 26

@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+dmNodeAlts < > (O), повторяемый. См. Разд. 2.3.2. 
+dmIf < > (O), повторяемый. См. Разд. 2.3.3. 
+dmLoop < > (O), повторяемый. См. Разд. 2.3.4. 
+dmSeqAlts < > (O), повторяемый. См. Разд. 2.3.3.1.1. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00242 –
+independentCheck dmSeq Использование атрибута β элементе < > :
+independentCheck Решение об использовании атрибута η порядке его 
+использования.
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00243 –
+skillLevelCode Использование атрибута :
+skillLevelCode Решение об использовании атрибута η порядке его 
+использования.
+Пример разметки:
+<dmSeq>
+<dmNode>
+<proceduralStep>
+<title>Introduction</title>
+<para>Because you are an inexperienced user, you will be
+presented α brief introduction on how to operate α
+bicycle</para>
+</proceduralStep>
+</dmNode>
+<dmNode>
+<dmRef xlink:href="DMC_Σ1000DBIKE_AAA_Δ00_00__00AA_043Α_Α">
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="00"
+infoCode="43Α" infoCodeVariant="Α" itemLocationCode="Α"
+modelIdentCode="Σ1000DBIKE" subSubSystemCode="0"
+subSystemCode="Δ" systemCode="AAA" systemDiffCode="ALL"/>
+</dmRefIdent>
+</dmRef>
+</dmNode>
+</dmSeq>
+2.3.1 Узел модуля данных
+Описание. Узел модуля данных представляет технические данные, которые должны
+отображаться на экране. Экран может быть прокручиваемым.
+dmNode Содержимое элемента < > состоит из:
+ссылки на модуль данных 
+последовательности неограниченного выбора: 
+• рисунков, таблиц, мультимедийных объектов
+Действительно: Все Σ1000Δ-Α-03-09-0502-10Β-040Α-Α
+Глава 3.9.5.2.10.1
+2013-11-15 Страница 8

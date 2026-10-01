@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+zoneRef < > (O). См. Глава 3.9.5.2.1.10 . 
+accessPointRef < > (O). См. Глава 3.9.5.2.1.10 . 
+quantity < > (O), координаты панели доступа. См. Глава 3.9.5.2.1.10 . 
+installationLocation < > (O). См. Глава 3.9.5.2.9.4 . 
+Пример разметки:
+<location>
+<accessPointRef .../>
+</location>
+2.1.1.4.3 Ток срабатывания автомата защиты сети
+amperage Описание. Элемент < > содержит ток срабатывания автомата защиты
+сети.
+amperage Элемент разметки: < > (O)
+Атрибуты:
+unitOfMeasure (O), единица измерения тока срабатывания. 
+Дочерние элементы:
+Нет. 
+Пример разметки:
+<amperage unitOfMeasure="Α">10</amperage>
+3 Пример
+<referencedApplicGroup>
+<applic id="appl-001">
+<displayText><simplePara>SN: 1-5</simplePara></displayText>
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValues="001~005"/>
+</applic>
+<applic id="appl-002">
+<displayText><simplePara>SN: 6-19</simplePara></displayText>
+<assert applicPropertyIdent="serialno"
+applicPropertyType="prodattr" applicPropertyValues="6~9"/>
+</applic>
+</referencedApplicGroup>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11C-040Α-Α
+Глава 3.9.5.2.11.2
+2013-11-15 Страница 10

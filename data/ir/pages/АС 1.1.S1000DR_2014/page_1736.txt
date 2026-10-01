@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+выполнить до текущего сервисного бюллетеня.
+notPrevious • " ", указанный β ссылке сервисный бюллетень нельзя
+выполнять до текущего сервисного бюллетеня.
+Дочерние элементы:
+noInfo < > (Μ). См. Глава 3.9.5.2.15 . 
+refs < > (Μ). Ссылка на сопутствующий сервисный бюллетень. См. Глава 
+3.9.5.2.1.2 .
+sbProductModification < > (O). Ссылка на необязательную модификацию 
+объекта. См. Разд. 2.3.1.
+Пример разметки:
+<sbConcurrentSbInfo applicRefId="app-0001">
+<refs>
+<dmref>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="02" disassyCode="00" disassyCodeVariant="AA"
+infoCode="930" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmref>
+</refs>
+</sbConcurrentSbInfo>
+2.6 Срок выполнения
+sbAccomplishmentLimit Описание. Элемент < > содержит сведения ο
+рекомендуемом сроке выполнения сервисного бюллетеня.
+sbAccomplishmentLimit Элемент разметки: < > (O)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00022-Α-001-01
+sbAccomplishmentLimit Рис. 7 Элемент < >
+Атрибуты:
+id (O), идентификатор срока выполнения. См. Глава 3.9.5.2.1.12 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Β-040Α-Α
+Глава 3.9.5.2.15.1
+2013-11-15 Страница 11

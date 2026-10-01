@@ -1,0 +1,45 @@
+Σ1000DR-UACRU-01000-00
+</quantityGroup>
+ξ
+<quantityGroup quantityGroupType="nominal">
+<quantityValue quantityUnitOfMeasure="dega">45</quantityValue>
+<quantityTolerance quantityToleranceType="plusorminus"
+quantityUnitOfMeasure="mina">30
+</quantityTolerance>
+</quantityGroup>
+</quantity>
+.
+</para>
+Эта разметка, отформатированная согласно стандарту СИ, отображается следующим
+образом:
+"Chamfer both sides of rib 0,153 ± 0,005 × 45° ± 30´."
+Отображение данной разметки β формате британских единиц измерения может быть
+следующим:
+"Chamfer both sides of rib 0.153 ± 0.005 × 45° ± 30´."
+Пример 3: Количественные данные, содержащие только допуск:
+<para>Make sure that spacing is within
+<quantity>
+<quantityGroup quantityGroupType="nominal">
+<quantityTolerance
+quantityToleranceType="plusorminus">0.030</quantityTolerance>
+</quantityGroup>
+</quantity>
+on each side ...
+</para>
+Отображение данной разметки β формате СИ может быть следующим (разделитель -
+запятая):
+"Make sure that spacing is within ± 0,030 on each side ..."
+Отображение данной разметки β формате британских единиц измерения может быть
+следующим (разделитель - точка):
+"Make sure that spacing is within ± 0.030 on each side ..."
+2.1.5 Зона
+zoneRef Описание. Элемент < > содержит сведения ο зонах (одной или
+zoneRef нескольких), как описано β Глава 3.4 . Об использовании элемента < > σ
+общими информационными репозиториями см. β Глава 4.13.1 .
+Этот элемент доступен β данных управления объектом β элементе
+productionMaintData < > предварительных требований (см. Глава 3.9.5.2.1.9 ) η
+para β элементе < > описательных модулей данных.
+zoneRef Элемент разметки: < > (O), повторяемый
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Λ-040Α-Α
+Глава 3.9.5.2.1.10
+2013-11-15 Страница 18

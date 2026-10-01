@@ -1,0 +1,16 @@
+S1000DR-UACRU-01000-00
+applicRefId changeMark changeType • Добавлены атрибуты , , ,
+reasonForUpdateRefIds securityClassification , ,
+ commercialClassification caveat authorityName , , ,
+authorityDocument pmEntry в элемент < >.
+CPF 2009-097US: 
+pmAddressItems • Внутри элемента < > добавлен необязательный
+externalPubCode повторяемый элемент < >, содержащий альтернативные
+идентификаторы модуля публикации. В Глава 3.9.5.2.1.2 можно найти
+externalPubCode < >.
+CPF 2009-098US: 
+brexDmRef • Обязательный элемент < > был добавлен в элемент
+pmStatus < >.
+Действительно: Все S1000D-A-07-04-0201-06A-040A-A
+Конец модуля данных Глава 7.4.2.1.6
+2013-11-15 Страница 2

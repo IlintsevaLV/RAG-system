@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+<authorityInfoAndTp>
+<authorityInfo>20010131</authorityInfo>
+<techPubBase>Bike book</techPubBase>
+</authorityInfoAndTp>
+<authorityExceptions/>
+<authorityNotes/>
+</techStandard>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest"
+xlink:show="replace" xlink:href="URN:Σ1000Δ:DMC-Σ1000DBIKE-AAA-
+Δ00-00-00-00AA-022Α-Δ"><dmRefIdent><dmCode
+modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="022" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<issueInfo issueNumber="005" inWork="00"/>
+</dmRefIdent></dmRef></brexDmRef>
+<qualityAssurance>
+<firstVerification verificationType="tabtop"/>
+</qualityAssurance>
+<systemBreakdownCode>BY143</systemBreakdownCode>
+<functionalItemCode>AAI2392</functionalItemCode>
+<functionalItemRef functionalItemNumber="101HG1"
+manufacturerCodeValue="2Δ671"/>
+<skillLevel skillLevelCode="sk02"/>
+<reasonForUpdate updateReasonType="urt02">
+<simplePara>Revised to cover the requirements of Mod
+XYZ</simplePara>
+</reasonForUpdate>
+</dmStatus>
+</identAndStatusSection>
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Конец модуля данных Глава 3.9.5.1
+2013-11-15 Страница 52

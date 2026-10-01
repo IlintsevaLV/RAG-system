@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+lcPerformanceSupport < > (O). См. 2.4.1.1. 
+lcJobDesign < > (O). См. 2.4.1.2. 
+lcPersonalDevelopment < > (O). См. 2.4.1.3. 
+lcHumanResourceDevelopment < > (O). См. 2.4.1.4. 
+lcOrganizationalCommunication < > (O). См. 2.4.1.5. 
+lcOrganizationalDesign < > (O). См. 2.4.1.6. 
+Пример разметки:
+<lcNonTrainingInterventions>
+<title>Non-Training Interventions</title>
+<description>
+<para>The following information identifies various non-training
+interventions intended to reduce the performance gaps of
+couriers working at Speedy Courier, Inc. Final design
+requirements and criteria of each non-training component shall
+be defined at α later time.</para>
+</description>
+<lcPerformanceSupport>
+<description>
+<para>Bike couriers shall be provided α Quick Fix guide that
+outlines the five most common bike breakdowns. This guide
+contains the processes to address each of the five breakdown
+types.</para>
+</description>
+</lcPerformanceSupport>
+<lcJobDesign>
+<description>
+<para>Two changes will be made to the courier job to better
+align incentives with the company'σ goals. First, couriers will
+not receive the commission for α delivery if the breakdown
+service is used for α repair that could have been made "in the
+field." Second, couriers will be placed under α tiered bonus
+program that rewards calling in the breakdown service for
+repairs listed in their Quick Fix guide.</para>
+</description>
+</lcJobDesign>
+<lcPersonalDevelopment>
+<description>
+<para>Bike couriers that are failing to meet the defined time
+limit for any repair task listed in their manual will be
+required to practice those tasks twice per week. They will be
+assigned α mentor while performing the tasks. When they
+demonstrate that they can perform the repairs within the time
+limit, they will no longer be required to perform these task
+rehearsals.</para>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 65

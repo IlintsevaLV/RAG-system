@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<listOfChoices>
+<choice nextActionRefId="stp-0002">More than 2700 hPa</choice>
+<choice nextActionRefId="stp-0003">Between 100 hPA and 2700
+hPa</choice>
+<choice nextActionRefId="stp-0004">Less than 100 hPA</choice>
+</listOfChoices>
+</isolationStepAnswer>
+</isolationStep>
+<isolationProcedureEnd id="stp-0002">
+<action>Deflate the tire until the pressureis 2700 hPa</action>
+</isolationProcedureEnd>
+<isolationProcedureEnd id="stp-0003">
+<action>Inflate the tire as given in
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+assyCode="20" disassyCode="00" disassyCodeVariant="AA"
+infoCode="215" infoCodeVariant="Α" itemLocationCode="Α"/>
+</dmRefIdent>
+</dmRef></action>
+</isolationProcedureEnd>
+<isolationStep id="stp-0004"><action>To do α check of the tire
+for damage</action>
+<isolationStepQuestion>Is there damage to the
+tire?</isolationStepQuestion>
+<isolationStepAnswer>
+<yesNoAnswer>
+<yesAnswer nextActionRefId="stp-0005"/>
+<noAnswer nextActionRefId="stp-0006"/>
+</yesNoAnswer>
+</isolationStepAnswer>
+</isolationStep>
+<isolationProcedureEnd id="stp-0005">
+<action>Replace the tire (refer to
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+assyCode="20" disassyCode="00" disassyCodeVariant="AA"
+infoCode="921" infoCodeVariant="Α" itemLocationCode ="Α"/>
+</dmRefIdent>
+</dmRef>).</action>
+</isolationProcedureEnd>
+<isolationProcedureEnd id="stp-0006">
+<action>Replace the inner-tube (refer to
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 47

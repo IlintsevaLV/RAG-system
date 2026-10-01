@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+Таблица 2 Пример узла
+Строка Разметка
+<dmNode><!--Inspect bicycle--> 1.
+<dmRef> 2.
+... 3.
+</dmRef> 4.
+</dmNode> 5.
+Обработка узла:
+Β приведенном выше примере логическое ядро отображает ссылочный модуль
+dmRef данных, указанный элементом < >, η обработка будет приостановлена до тех
+пора, пока пользователь не использует функцию "Далее".
+2.2 Альтернативные варианты узла модуля данных
+dmNodeAlts Элемент < > представляет коллекцию узлов модуля данных, из которой
+на основании предварительных условий для узла отображается только один узел.
+Таблица 3 Пример альтернативных вариантов узла
+Строка Разметка
+<referencedApplicGroup> 1.
+<applic id="appl-001"> 2.
+<expression> 3.
+<expression> 4.
+<variableRef variableName="BicyclePartnum"/> 5.
+</expression> 6.
+<stringOperator stringOperation="equal"/> 7.
+<expression> 8.
+<stringValue>MC-168119</stringValue> 9.
+</expression> 10.
+</expression> 11.
+</applic> 12.
+</referencedApplicGroup> 13.
+... 14.
+<variableDeclarations> 15.
+<variable name="BicyclePartnum" valueType="string"/> 16.
+Действительно: Все Σ1000Δ-Α-07-07-0200-00Α-040Α-Α
+Глава 7.7.2
+2013-11-15 Страница 2

@@ -1,0 +1,28 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0507-002-01
+locateAndRepair locateAndRepairLruItem Рис. 7 Элемент < >/< >
+Атрибуты:
+id detectedLruItem (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+faultProbability (O), фактор вероятности, указывающий вероятность 
+неисправности конкретного быстросменного блока
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+lru lru < > (C). Несколько элементов < > разрешены только для указания 
+lru альтернативных вариантов < >. См. Разд. 2.5.1.3.2.
+repair < > (O). См. Разд. 2.5.1.4.1. 
+remark < > (O). См. Глава 3.9.5.1 . 
+locateAndRepairSruItem < > (O). См. Разд. 2.5.1.4.2. 
+Пример разметки:
+<locateAndRepair>
+<locateAndRepairLruItem>
+<lru>
+</lru>
+</locateAndRepairLruItem>
+</locateAndRepair>
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 16

@@ -1,0 +1,29 @@
+S1000DR-UACRU-01000-00
+ICN-83007-0000000030-002-01
+restrictionInstructions Рис. 6 Элемент < >
+Атрибуты:
+id restrictionInstructions (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+ changeMark changeType reasonForUpdateRefIds (O), (O) и (O) 
+используются для указания на изменение в соответствии с положениями Глава
+3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) и 
+caveat (O) используются для отметок о секретности и ограничениях в
+соответствии с положениями Глава 3.6 .
+Дочерние элементы:
+dataDistribution < > (M). См. Разд. 2.2.4.1.1. 
+exportControl < > (O). См. Разд. 2.2.4.1.2. 
+dataHandling < > (O). См. Разд. 2.2.4.1.3. 
+dataDestruction < > (O). См. Разд. 2.2.4.1.4. 
+dataDisclosure < > (O). См. Разд. 2.2.4.1.5. 
+supersedure < > (O). См. Разд. 2.2.4.1.6. 
+Принятие решения о правиле выполнения проекта BRDP-S1-00058 -
+restrictionInstructions Использование элемента < > :
+Решение о включении инструкций по управлению экспортом, обработке, 
+уведомлению об уничтожении и раскрытии информации.
+Пример разметки:
+<restrictionInstructions>
+<dataDistribution>To be made available to all S1000D
+Действительно: Все S1000D-A-03-09-0501-00A-040A-A
+Глава 3.9.5.1
+2013-11-15 Страница 23

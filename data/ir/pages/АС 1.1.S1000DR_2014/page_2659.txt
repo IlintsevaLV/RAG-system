@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+<responsiblePartnerCompany>
+<enterpriseName>Δ3309</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode="1Β-Δ3309-0008"/> </pmRefAddressItems> <behavior
+linkActuate="onRequest"/> </pmRef> </pmEntry> </pmEntry>
+<pmEntry> <pmEntryTitle>Component and support equipment
+publications. Example</pmEntryTitle> <pmEntry> <pmRef>
+<pmRefIdent> <pmCode modelIdentCode="1Β" pmIssuer="Δ9460"
+pmNumber="02009" pmVolume="00"/> </pmRefIdent>
+<pmRefAddressItems> <pmTitle>Component maintenance - Battery
+BATT-0045-Α0073 </pmTitle> <issueDate day="04" month="09"
+year="2003"/> <security securityClassification="02"/>
+<responsiblePartnerCompany>
+<enterpriseName>C0419</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode="1Β-Δ9460-02000-00-CD"/> </pmRefAddressItems>
+<behavior linkActuate="onRequest"/> </pmRef> <pmRef>
+<pmRefIdent> <pmCode modelIdentCode="1Β" pmIssuer="Δ9460"
+pmNumber="05017" pmVolume="00"/> </pmRefIdent>
+<pmRefAddressItems> <pmTitle>Aerospace ground equipment - Tire
+removal rig </pmTitle> <issueDate day="04" / 9567-223000-001
+month="09" year="2003"/> <security securityClassification="02"/>
+<responsiblePartnerCompany>
+<enterpriseName>C0419</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="CD-ROM"
+pubMediaCode=""/> </pmRefAddressItems> <behavior
+linkActuate="onRequest"/> </pmRef> <externalPubRef>
+<externalPubRefIdent> <externalPubCode>GAF Τ.O. 14Q1-1RUS2-1-
+3</externalPubCode> <externalPubTitle>Anti-Γ-Hose / ACME-004-
+BA34Ξ02 </externalPubTitle> </externalPubRefIdent>
+<externalPubRefAddressItems> <externalPubIssueDate day="24"
+month="05" year="1951"/> <security securityClassification="01"/>
+<responsiblePartnerCompany>
+<enterpriseName>K0999</enterpriseName>
+</responsiblePartnerCompany> <pubMedia pubMediaType="Paper"
+pubMediaCode="Λ7001214741"/> </externalPubRefAddressItems>
+</externalPubRef> </pmEntry> </pmEntry> </content>
+Действительно: Все Σ1000Δ-Α-05-02-0120-00Α-040Α-Α
+Конец модуля данных Глава 5.2.1.20
+2013-11-15 Страница 12

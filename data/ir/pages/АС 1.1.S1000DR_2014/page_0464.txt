@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+subScript < > (C). См. Глава 3.9.5.2.1.10 . 
+superScript < > (C). См. Глава 3.9.5.2.1.10 . 
+dmRef < > (C). См. Глава 3.9.5.2.1.2 
+randomList < > (C). См. Глава 3.9.5.2.1.3 . 
+Пример разметки:
+<copyrightPara>For Copyright information, refer to
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="Α"
+systemCode="00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="021" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef> and
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="Α"
+systemCode="00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="01" disassyCodeVariant="Α"
+infoCode="021" infoCodeVariant="Α" itemLocationCode="Δ"/>
+</dmRefIdent>
+</dmRef>
+</copyrightPara>
+2.2.4.2.3 Ссылка на политику безопасности
+policyStatement Описание. Элемент < > содержит ссылку на сведения ο
+политике безопасности.
+policyStatement Элемент разметки: < > (O)
+Атрибуты:
+id policyStatement (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+Нет 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00067 -
+policyStatement Использование элемента < > :
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 31

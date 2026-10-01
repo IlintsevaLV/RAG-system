@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+updateStatus < > (Μ). См. Разд. 2.2.2. 
+targetDmStatus < > (Μ), статус целевого модуля данных, который будет 
+извлечен из файла обновления данных. См. Глава 3.9.5.1 .
+Пример разметки:
+<dataUpdateFile>
+<updateIdentAndStatusSection>
+<updateAddress>...</updateAddress>
+<updateStatus>...</updateStatus>
+<targetDmStatus>...</targetDmStatus>
+</updateIdentAndStatusSection>
+<content>...</content>
+</dataUpdateFile>
+2.2.1 Адрес файла обновления данных
+updateAddress Описание. Β элементе < > содержатся идентификатор η дата
+издания файла обновления данных.
+updateAddress Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-04130202-Α-FAPE3-00003-Α-001-01
+updateAddress Рис. 3 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+updateIdent < > (Μ). См. Разд. 2.2.1.1. 
+issueDate < > (Μ). См. Глава 3.9.5.1 . 
+Пример разметки:
+<dataUpdateFile>
+<updateIdentAndStatusSection>
+<updateAddress>
+<updateIdent>...</updateIdent>
+<issueDate day="01" month="02" year="2011"/>
+</updateAddress>
+<updateStatus>...</updateStatus>
+<targetDmStatus>...</targetDmStatus>
+</updateIdentAndStatusSection>
+<content>...</content>
+Действительно: Все Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 5

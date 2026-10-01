@@ -1,0 +1,49 @@
+Таблица 15 Пример диалога
+Строка Разметка
+<expression>
+<expression> 18
+<expression> 19
+<realValue>0.0</realValue> 20
+</expression> 21
+<numberOperator 22
+<expression> 23
+<variableRef 24
+</expression> 25
+</expression> 26
+<booleanOperator 27
+<expression> 28
+<expression> 29
+<variableRef 30
+</expression> 31
+<numberOperator 32
+<expression> 33
+<realValue>90.0</realValue> 34
+</expression> 35
+</expression> 36
+</expression> 37
+</validate> 38
+</userEntry> 39
+</dialog> 40
+</dmNode> 41
+Обработка диалога σ вводом
+Β представленном выше фрагменте
+ядру отобразить диалог, содержащий
+65,0 значением " " (строки 11-15),
+front tire air pressure (PSI):" (Введите
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ σ вводом данных (Продолжение)
+numberOperation="lessThanOrEqual"/>
+variableName="TirePressureFront"/>
+booleanOperation="and"/>
+variableName="TirePressureFront"/>
+numberOperation="lessThanOrEqual"/>
+данных:
+dialog элемент < > предписывает логическому
+ поле ввода данных σ предварительно заданным
+ β котором пользователю выводить запрос "Enter
+ давление воздуха β передней шине (psi):)
+Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 15

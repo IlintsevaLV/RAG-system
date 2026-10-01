@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+Дочерние элементы:
+department < > (O). См. Разд. 2.5.2.1. 
+street < > (O). См. Разд. 2.5.2.2. 
+postOfficeBox < > (O). См. Разд. 2.5.2.3. 
+postalZipCode < > (O). См. Разд. 2.5.2.4. 
+city < > (Μ). См. Разд. 2.5.2.5. 
+country < > (Μ). См. Разд. 2.5.2.6. 
+state < > (O). См. Разд. 2.5.2.7. 
+province < > (O). См. Разд. 2.5.2.8. 
+building < > (O). См. Разд. 2.5.2.9. 
+room < > (O). См. Разд. 2.5.2.10. 
+phoneNumber < > (O). См. Разд. 2.5.2.11. 
+faxNumber < > (O). См. Разд. 2.5.2.12. 
+email < > (O). См. Разд. 2.5.2.13. 
+internet < > (O). См. Разд. 2.5.2.14. 
+SITA < > (O). См. Разд. 2.5.2.15. 
+Пример разметки:
+<businessUnitAddress>
+<street>heaven street</street>
+<postalZipCode>99999</postalZipCode><city>Saint Vitus</city>
+<country>UTOPIA</country>
+<phoneNumber>111 222 333 444</phoneNumber>
+<faxNumber>111 222 333 445</faxNumber>
+<email>customers_services@utopia.com</email>
+<email>info@utopia.com</email>
+<internet>www.utopia.customers.services.online.com</internet>
+<internet>www.utopia.online.com</internet>
+</businessUnitAddress>
+2.5.2.1 Подразделение
+department Описание. Элемент < > содержит обозначение подразделения.
+department Элемент разметки: < > (O)
+Атрибуты:
+Действительно: Все Σ1000Δ-Α-03-09-0502-11Γ-040Α-Α
+Глава 3.9.5.2.11.6
+2013-11-15 Страница 9

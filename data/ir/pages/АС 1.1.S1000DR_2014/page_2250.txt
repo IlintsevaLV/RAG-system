@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+multimediaAlts < > (C). См. Глава 3.9.5.2.1.7 . 
+applic < > (C). См. Глава 3.9.5.3 . 
+applicRef < > (C). См. Глава 3.9.5.2.1.11 . 
+Пример разметки:
+<dataUpdateFile>
+<updateIdentAndStatusSection>
+<updateAddress>
+<updateIdent>
+<updateCode objectIdentCode="UPF"
+modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="sx" countryIsoCode="US"/><issueInfo
+issueNumber="001" inWork="00"/></updateIdent>
+...
+</updateAddress>
+<updateStatus>
+<sourceDmIdent>
+<dmCode modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="en" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</sourceDmIdent>
+...
+</updateStatus>
+<targetDmStatus>
+...
+</targetDmStatus>
+</updateIdentAndStatusSection>
+<content>
+<update>
+<reinstateObjectGroup>
+<reinstateObject targetPath="//partSpec[@id='part-0021']"
+insertOrder="after ">
+<partSpec id="part-0022" changeType="add">
+...
+</partSpec>
+</reinstateObject>
+</reinstateObjectGroup>
+</update>
+</content>
+</dataUpdateFile>
+Действительно: Все Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Конец модуля данных Глава 4.13.2.2
+2013-11-15 Страница 29

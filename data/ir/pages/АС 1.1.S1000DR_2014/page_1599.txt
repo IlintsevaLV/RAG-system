@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+id lcObjectiveItem (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+title < > (O). См. Σ1000Δ-Α-03-09-0502-01F-040Α-Α . 
+description < > (O). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+lcContentIdentifierName < > (O). См. 2.4.3.1.2. 
+dmRef < > (O) Ссылка на содержимое, связанное σ элементом задачи, 
+dmRef dmRef обозначается элементом < >. Использование элемента < >
+обеспечивает связь β ХМL-данных между задачами обучения η соответствующим
+dmRef содержимым β обучающих материалах. Элемент < > используется β
+соответствии σ положениями Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+lcObjectiveItemGroup < > (O). См. 2.4.3.1. 
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00272 -
+dmRef Использование элемента < > :
+dmRef Решение об использовании элемента < > для организации ссылок на 
+содержимое, связанное σ элементами задачи обучения.
+Пример разметки:
+<lcObjectiveItem>
+<title>Enabling Objective for SCO 2</title>
+<description>
+<para>Describe the steps for installing and removing α bike'σ
+steering system.</para>
+</description>
+<lcContentIdentifierName>
+<description>
+<para>SCO 2 – Steering System Installation and Removal</para>
+</description>
+</lcContentIdentifierName>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="100" infoCodeVariant="Α" itemLocationCode="Τ"
+learnCode="Τ2Γ" learnEventCode="C"/>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 115

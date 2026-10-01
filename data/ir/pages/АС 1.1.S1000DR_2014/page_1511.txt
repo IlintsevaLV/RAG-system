@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+lcPlanObjective < > (O). См. 2.2.2.1.3. 
+lcJtaItem < > (O). См. 2.2.2.1.4. 
+lcGapStatement < > (O). См. 2.2.2.1.5. 
+Пример разметки:
+<lcGapItem>
+<title>Bike Steering Maintenance</title>
+<description>
+<para>Many couriers cannot correct mechanical problems with the
+bike steering system within defined time parameters.</para>
+</description>
+</lcGapItem>
+2.2.2.1.1 Утверждение ο желаемой производительности
+lcDesiredPerformanceStatement Описание: Элемент < > содержит
+измеримое выражение желаемой производительности.
+lcDesiredPerformanceStatement Элемент разметки: < > (O)
+Атрибуты:
+id lcDesiredPerformanceStatement (O), идентификатор элемента < >. 
+См. Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+ authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcDesiredPerformanceStatement>
+<description>
+<para>Ability to maintain bike in full working order by having
+the ability to troubleshoot breakdowns and perform repairs
+within an average of 30 minutes from the time of
+breakdown</para>
+</description>
+</lcDesiredPerformanceStatement>
+2.2.2.1.2 Утверждение ο фактической производительности
+lcActualPerformanceStatement Описание: Элемент < > содержит измеримое
+выражение фактической или текущей производительности.
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 27

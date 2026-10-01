@@ -1,0 +1,55 @@
+<env:Envelope
+envelope">
+<env:Header>...</env:Header>
+<env:Body>
+<π:refdes>52Π-H004</π:refdes>
+<π:pin>4</π:pin>
+</env:Body>
+</env:Envelope>
+Так как не существует принимаемых
+обработку после вызова внешнего
+данных, α после ее завершения
+возобновляет обработку.
+2.5.1.2 Переменные параметры σ именованной
+Запустить инструмент локализации
+обозначением η контактом,
+обрабатывать результаты.
+Таблица 18 Пример переменных
+Строка Разметка
+<!ENTITY WireTool SYSTEM " 1
+...
+<variableDeclarations> 2
+<variable variableName="MyRefDes" 3
+<variable variableName="MyPin" 4
+</variableDeclarations> 5
+...
+<dmNode> 6
+<variablePreSet> 7
+<assertion> 8
+<variableRef variableName="MyRefDes"/> 9
+10
+</assertion> 11
+</variablePreSet> 12
+<variablePreSet> 13
+<assertion> 14
+<variableRef variableName="MyPin"/> 15
+16
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+xmlns:env="http://www.ω3.org/2003/05/soap-
+ параметров, логическое ядро продолжает
+ приложения (строка 14) β текущем узле модуля
+ожидает использования функции "Далее" η
+ парой
+ неисправностей провода σ позиционным
+полученными из таблицы состояний, не надо
+ параметров σ именованной парой
+" NDATA exe> file://Wired/Wired.exe
+ valueType="string"/>
+ valueType="integer"/>
+<expression><stringValue>52Π-H004</stringValue></expression>
+<expression><integerValue>4</integerValue></expression>
+Σ1000Δ-Α-07-07-0100-00Α-040Α-Α
+Глава 7.7.1
+2013-11-15 Страница 20

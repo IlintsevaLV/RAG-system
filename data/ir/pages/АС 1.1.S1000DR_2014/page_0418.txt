@@ -1,0 +1,40 @@
+<warningAndCautionPara>Make
+before handling
+</warningSpec>
+...
+</warningRepository>
+</commonRepository>
+</content>
+Модуль данных общего информационного
+<content>
+<commonRepository>
+<cautionRepository>
+<cautionSpec>
+<cautionIdent
+<warningAndCautionPara>Do
+bulb.</warningAndCautionPara>
+</cautionSpec>
+<cautionSpec>
+<cautionIdent
+<warningAndCautionPara>Make
+installing it on the
+</cautionSpec>
+...
+</cautionRepository>
+</commonRepository>
+</content>
+Действительно: Все
+Конец
+
+Σ1000DR-UACRU-01000-00
+ sure the light glass is not broken
+it.</warningAndCautionPara>
+ репозитория предупреждений:
+cautionIdentNumber="caution-001"></cautionIdent>
+ not touch the glass of the
+cautionIdentNumber="caution-002"></cautionIdent>
+ sure that the glass is clean before
+light.</warningAndCautionPara>
+Σ1000Δ-Α-03-09-0300-00Α-040Α-Α
+модуля данных Глава 3.9.3
+2013-11-15 Страница 24

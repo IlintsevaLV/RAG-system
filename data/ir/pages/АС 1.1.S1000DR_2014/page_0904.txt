@@ -1,0 +1,76 @@
+<task><taskDescr><simplePara>To
+brakes</simplePara></taskDescr></task>
+</taskItem>
+<taskItem taskSeqNumber="002"
+taskName="Inspect brakes
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+<task><taskDescr><simplePara>To
+installation</simplePara></taskDescr></task>
+</taskItem>
+<taskItem taskSeqNumber="003"
+<refs><dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+<task><taskDescr><simplePara>To
+pressure</simplePara></taskDescr></task>
+</taskItem>
+<taskItem taskSeqNumber="004"
+condition">
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="Σ1000DBIKE"
+systemCode="Δ00"
+assyCode="00" disassyCode="00"
+infoCode="121" infoCodeVariant="Α"
+</dmRefIdent>
+</dmRef>
+</refs>
+<task><taskDescr><simplePara>To
+condition</simplePara></taskDescr></task>
+</taskItem>
+<taskItem taskSeqNumber="005"
+<refs>
+<dmRef>
+<dmRefIdent>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ do an inspection of the
+installation">
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+ do an inspection of the brakes
+ taskName="Check Tire Pressure">
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+ do α check of the tire
+ taskName="Inspect wheel
+ systemDiffCode="AAA"
+subSystemCode="0" sub-subsystemCode="0"
+ disassyCodeVariant="AA"
+ itemLocationCode="Α"/>
+ do an inspection of the wheel
+ taskName="Check headset bearings">
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 53

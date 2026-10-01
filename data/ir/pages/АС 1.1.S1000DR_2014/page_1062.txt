@@ -1,0 +1,41 @@
+Σ1000DR-UACRU-01000-00
+ICN-C0419-Σ1000Δ0206-001-01
+Рис. 9 Пример кода группы
+<wireGroup>
+<wire wireState="active">
+<wireIdent>
+<wireNumber>Ω-001</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="3000VN"/>
+<contactInfo>
+<contact contactIdent="Τ5"/>
+<wireConnectionCode>
+<electricalPotential>
+<contactOrderValue>1</contactOrderValue>
+</electricalPotential>
+<potentialConnectionsOrder>1</potentialConnectionsOrder>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+<groupCode>Α</groupCode>
+</contactInfo>
+</fromEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+<wire wireState="active">
+<wireIdent>
+<wireNumber>Ω-002</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="3000VN"/>
+<contactInfo>
+<contact contactIdent="Τ5"/>
+<wireConnectionCode>
+<electricalPotential>
+<contactOrderValue>1</contactOrderValue>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 54

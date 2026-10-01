@@ -1,0 +1,20 @@
+S1000DR-UACRU-01000-00
+faultReporting Элемент разметки: < > (O)
+ICN-S3627-S1000D0622-001-01
+faultReporting Рис. 2 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+commonInfo < > (O). См. Глава 3.9.5.2.1.12 . 
+preliminaryRqmts < > (O). См. Глава 3.9.5.2.1.9 . 
+и один из
+isolatedFault < > (O). См. Разд. 2.5.1. 
+isolatedFaultAlts < > (O). См. Разд. 2.5.2. 
+detectedFault < > (O). См. Разд. 2.5.2. 
+detectedFaultAlts < > (O). См. Разд. 2.5.4. 
+observedFault < > (O). См. Разд. 2.5.4. 
+observedFaultAlts < > (O). См. Разд. 2.5.6. 
+correlatedFault < > (O). См. Разд. 2.5.6. 
+Действительно: Все S1000D-A-03-09-0502-04A-040A-A
+Глава 3.9.5.2.4
+2013-11-15 Страница 6

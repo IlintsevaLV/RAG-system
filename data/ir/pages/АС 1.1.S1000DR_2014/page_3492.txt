@@ -1,0 +1,50 @@
+Σ1000DR-UACRU-01000-00
+<para>This step called Α is applicable to 1-50</para>
+<proceduralStep>
+<para>This step called Β is applicable to 1-50</para>
+<proceduralStep applicRefId="applic_1-10">
+<para>This step called C is applicable to 1-10</para>
+</proceduralStep>
+<proceduralStep applicRefId="applic_11-20">
+<para>This step called Δ is applicable to 11-20</para>
+</proceduralStep>
+<proceduralStep applicRefId="applic_11-20">
+<para>This step called E is applicable to 11-20</para>
+</proceduralStep>
+<proceduralStep applicRefId="applic_11-20">
+<para>This step called F is applicable to 11-20</para>
+</proceduralStep>
+<proceduralStep applicRefId="applic_11-20">
+<para>This step called Γ is applicable to 11-20</para>
+</proceduralStep>
+<proceduralStep applicRefId="applic_11-20">
+<para>This step called H is applicable to 11-20</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep applicRefId="applic_11-20">
+<para>This step called I is applicable to 11-20</para>
+</proceduralStep>
+<proceduralStep>
+<para>This step called J is applicable to 1-50</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>This step called K is applicable to 1-100</para>
+</proceduralStep>
+3.2 Вычисление комментариев по применимости
+3.2.1 Оценка комментариев-утверждений
+3.2.1.1 Текстовый комментарий-утверждение
+Приведенный ниже пример иллюстрирует текстовый комментарий-утверждение.
+Поскольку он не вычисляемый, результирующим логическим значением является
+"true".
+Комментарий-утверждение:
+<assert>in icy conditions</assert>
+Результирующее логическое значение: true
+3.2.1.2 Комментарий-утверждение значения σ результирующим логическим значением "true"
+assert Приведенный ниже пример иллюстрирует принадлежащий элементу < >
+applicPropertyIdent model атрибут проверки комментария со значением " "
+applicPropertyValues Brook для двух атрибутов со значениями "
+trekker Mountain storm " или " ". Выбранный экземпляр объекта имеет элемент
+Действительно: Все Σ1000Δ-Α-07-08-0000-00Α-040Α-Α
+Глава 7.8
+2013-11-15 Страница 10

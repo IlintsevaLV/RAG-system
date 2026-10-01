@@ -1,0 +1,72 @@
+или
+dc:rights < > = атрибут
+(такое сопоставление отражает
+securityClassification )
+2.6 Сопоставление метаданных
+Β Табл. 2 представлено сопоставление
+DC. Однозначного соответствия
+элементы метаданных Σ1000Δ 
+qualityAssurance элемент <
+элементы Dublin Core не имеют 
+dc:rights элемент < >)
+элементы метаданных Σ1000Δ 
+infoName < >)
+Таблица 2
+Элементы Dublin Core Элементы η/или
+модуля данных
+dc:creator originator < > < >
+dc:title techName < > < > -
+infoName < >
+dc:subject techName < > < > -
+infoName < >
+dc:publisher responsiblePartner < > <
+Company >
+dc:contributor originator < > < >
+dc:date year month day < > - -
+dc:type text < > " "
+dc:format text/xml < > " "
+dc:identifier dmCode < > < >
+-inWork
+или
+extensionProducer_ε
+xtensionCode_
+dmCode < >
+-inWork
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+securityClassification security элемента < >
+только использование атрибута
+ элементов η атрибутов Σ1000Δ σ элементами
+добиться невозможно, поскольку некоторые:
+ не входят β состав Dublin Core (например,
+>)
+ точного соответствия β Σ1000Δ (например,
+techName должны сливаться (например, < > -
+Сопоставление метаданных
+атрибуты Элементы η/или атрибуты модуля
+публикации/
+модуля пакета содержимого SCORM
+responsiblePartnerCompany < >
+pmTitle < >
+scormContentPackageTitle < >
+pmTitle < >
+scormContentPackageTitle < >
+pmIssuer
+scormContentPackageIssuer
+originator < >
+year month day - -
+text " "
+text/xml " "
+_issueNumber pmCode _issueInfo-inWork < >
+или
+extensionProducer_extensionCo
+de_ pmCode _issueInfo-inWork < >
+scormContentPackageCode _iss < >
+_issueNumber ueNumber-inWork
+или
+extensionProducer_extensionCo
+de_ scormContentPackageCode _ < >
+Σ1000Δ-Α-07-04-0101-02Α-040Α-Α
+Глава 7.4.1.1.2
+2013-11-15 Страница 8

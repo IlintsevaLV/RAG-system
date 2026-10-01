@@ -1,0 +1,37 @@
+Σ1000DR-UACRU-01000-00
+сведения во время выполнения, помогающие принимать решение ο том, какой 
+компонент модели содержимого предоставить учащемуся
+По этим причинам LOM добавляется β схему модуля пакета содержимого SCORM.
+Между LOM η метаданными из идентификационно-статусной части модуля пакета
+содержимого SCORM есть пересечения, однако LOM позволяет использовать
+дополнительные метаданные, специально разработанные для обучения, на которые β
+модуле пакета содержимого SCORM ссылок нет.
+2 Метаданные LOM
+2.1 Сопоставление метаданных
+Β Табл. 2 представлено сопоставление элементов η атрибутов σ элементом LOM
+lom < > для модуля пакета содержимого SCORM.
+Таблица 2 Метаданные для LOM β модуле пакета содержимого SCORM
+Элементы LOM Элементы η атрибуты идентификационно-
+статусной части
+lom/general/identifier DMC PMC ICN SMC SME , , , либо
+lom/general/title dmTitle pmTitle < > либо < >
+lom/lifecycle/version issueInfo issueNumber < >
+lom/lifecycle/contribute/date dmStatus issueDate < >
+lom/general/language language < >
+lom/annotation/entity responsiblePartnerCompany < >
+lom/annotation/entity originator < >
+lom/general/coverage applic < >
+lom/general/coverage systemBreakdownCode < >
+lom/general/coverage functionalItemCode < >
+lom/annotation/description reasonForUpdate < >
+lom/annotation/description remarks < >
+lom/technical/format scormContentPackageMedia <
+scormContentPackageMediaType >
+2.2 Прочие метаданные LOM
+LOM требуется для SCORM, следовательно, полное описание LOM можно найти
+здесь:
+http://www.adlnet.gov/capabilities/scorm/scorm-2004-4θ#tab-resources
+LOM подробно описана β модели накопления содержимого (CAM) См. Табл. 2.
+Действительно: Все Σ1000Δ-Α-07-05-0400-00Α-040Α-Α
+Глава 7.5.4
+2013-11-15 Страница 2

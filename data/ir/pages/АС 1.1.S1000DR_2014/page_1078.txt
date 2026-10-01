@@ -1,0 +1,20 @@
+Σ1000DR-UACRU-01000-00
+<routing>...</routing>
+<responsiblePartnerCompany>...</responsiblePartnerCompany>
+<functionalDescrRef>...</functionalDescrRef>
+<illustrationRef>...</illustrationRef>
+</harness>
+<harness applicRefId="app-0002">
+<harnessIdent>...</harnessIdent>
+<harnessInfo>...</harnessInfo>
+<routing>...</routing>
+<responsiblePartnerCompany>...</responsiblePartnerCompany>
+<functionalDescrRef>...</functionalDescrRef>
+<illustrationRef>...</illustrationRef>
+</harness>
+</harnessAlts>
+</harnessGroup>
+</wiringData>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Δ-040Α-Α
+Конец модуля данных Глава 3.9.5.2.9.3
+2013-11-15 Страница 13

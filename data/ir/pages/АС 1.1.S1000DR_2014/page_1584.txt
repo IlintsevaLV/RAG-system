@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+</description>
+</lcGraphicStandards>
+<lcViewers>
+<description>
+<para>This course will use RealPlayer and Windows Media
+Player.</para>
+</description>
+</lcViewers>
+<lcResolution>
+<description>
+<para>Although the courseware can be viewed using different
+resolutions, it is best viewed in 1024ξ768 resolution.</para>
+</description>
+</lcResolution>
+<lcFileSizeLimitations>
+<description>
+<para>This courseware keeps it file size to the bare minimum. It
+tries to keep all files below 100κ. If some files are larger
+than the 100κ, α pre-loader is attached.</para>
+</description>
+</lcFileSizeLimitations>
+<lcDownloadTime>
+<description>
+<para>Download time will vary due to the the users computer
+specifications.</para>
+</description>
+</lcDownloadTime>
+<lcSecurity>
+<description>
+<para>Security level is unclassified.</para>
+</description>
+</lcSecurity>
+</lcTechnicalRqmts>
+2.4.2.6.1 Браузеры
+lcBrowsers Описание: Элемент < > содержит перечень интернет-браузеров,
+подходящих для просмотра обучающих материалов.
+lcBrowsers Элемент разметки: < > (O)
+Атрибуты:
+id lcBrowsers (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+ securityClassification commercialClassification (O), (O) η 
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 100

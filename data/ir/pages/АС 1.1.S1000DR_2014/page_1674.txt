@@ -1,0 +1,47 @@
+Σ1000DR-UACRU-01000-00
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>
+Apply the glue.
+</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="6"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Reinstall the tube.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="7"/>
+</lcSequenceOption>
+<lcSequenceOption>
+<lcAnswerOptionContent>
+<description>
+<para>Reinstall the tire.</para>
+</description>
+</lcAnswerOptionContent>
+<lcSequence lcName="lcSequence" lcValue="8"/>
+</lcSequenceOption>
+</lcSequenceOptionGroup>
+2.4.4.2 Вариант порядка следования
+lcSequenceOption Описание. Этот элемент < > содержит группу пунктов ответа,
+которые нужно выстроить β определенном порядке β процессе оценочного
+взаимодействия.
+lcSequenceOption Элемент разметки: < > (C)
+Атрибуты:
+id lcSequenceOption (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Действительно: Все Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 31

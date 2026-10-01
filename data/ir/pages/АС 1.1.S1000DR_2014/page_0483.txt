@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+может содержать примечания, которые различаются на основании конфигурации
+Объекта.
+Пример разметки:
+<remarks>
+<simplePara>Incorporates repair instruction Ξ15526172-
+Α</simplePara>
+<simplePara>Incorporates repair instruction Ξ15526172-
+Β</simplePara>
+</remarks>
+3 Пример
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="Σ1000DBIKE" systemDiffCode="AAA"
+systemCode="DA2" subSystemCode="3" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="720" infoCodeVariant="Α" itemLocationCode="Α">
+</dmCode>
+<language countryIsoCode="US" languageIsoCode="sx">
+</language>
+<issueInfo issueNumber="005" inWork="00"/>
+</dmIdent><dmAddressItems>
+<issueDate year="2012" month="07" day="31"/><dmTitle>
+<techName>Headset</techName>
+<infoName>Install procedure</infoName>
+</dmTitle>
+</dmAddressItems></dmAddress>
+<dmStatus>
+<security securityClassification="01"
+commercialClassification="cc51" caveat="cv51"/>
+<dataRestrictions>
+<restrictionInstructions>
+<dataDistribution>To be made available to all Σ1000Δ
+users.</dataDistribution>
+<exportControl><exportRegistrationStmt>
+<simplePara>Export of this data module to all countries that are
+the residence of organizations that are users of Σ1000Δ is
+permitted. Storage of this data module is to be at the
+discretion of the organization.</simplePara>
+</exportRegistrationStmt></exportControl>
+<dataHandling>There are no specific handling instructions for
+this data module.</dataHandling>
+<dataDestruction>Users may destroy this data module in
+accordance with their own local procedures.</dataDestruction>
+<dataDisclosure>There are no dissemination limitations that
+apply to this data module.</dataDisclosure>
+</restrictionInstructions>
+<restrictionInfo>
+Действительно: Все Σ1000Δ-Α-03-09-0501-00Α-040Α-Α
+Глава 3.9.5.1
+2013-11-15 Страница 50

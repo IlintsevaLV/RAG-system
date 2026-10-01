@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+</assertion> 31
+</menuChoice> 32
+<menuChoice menuChoiceDefaultFlag="0"> 33
+<prompt><paraBasic>French</paraBasic></prompt> 34
+<assertion> 35
+<variableRef variableName="TireSizeMethod"/> 36
+<expression> 37
+<stringValue>french</stringValue> 38
+</expression> 39
+</assertion> 40
+</menuChoice> 41
+</menu> 42
+<userEntry mandatory="1" dataEntryFieldLength="6"> 43
+<prompt><paraBasic></paraBasic></prompt> 44
+<variableRef variableName="size1"/> 45
+</userEntry> 46
+<userEntry mandatory="1" dataEntryFieldLength="6"> 47
+<enabledState> 48
+<expression> 49
+<expression> 50
+<variableRef variableName="TireSizeMethod"/> 51
+</expression> 52
+<stringOperator stringOperation="notEqual"/> 53
+<expression> 54
+<stringValue>iso</stringValue> 55
+</expression> 56
+</expression> 57
+</enabledState> 58
+<prompt><paraBasic></paraBasic></prompt> 59
+<variableRef variableName="size2"/> 60
+</userEntry> 61
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 42

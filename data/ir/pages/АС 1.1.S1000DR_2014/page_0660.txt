@@ -1,0 +1,44 @@
+Σ1000DR-UACRU-01000-00
+refs < > (O). См. Глава 3.9.5.2.1.2 . 
+Пример разметки:
+<circuitBreakerRef circuitBreakerNumber="42RT"
+circuitBreakerType="cbt02">
+</circuitBreakerRef>
+2.2.4.1.4 Местоположение автомата защиты сети
+circuitBreakerLocation Описание: Элемент < > содержит текстовое описание
+расположения автомата защиты на панели АЗК.
+circuitBreakerLocation Элемент разметки: < > (O)
+Атрибуты:
+id circuitBreakerLocation (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+Нет 
+Пример разметки:
+<circuitBreakerLocation>0867</circuitBreakerLocation>
+2.2.4.2 Пример разметки - Необходимые условия, перечень АЗК
+Пример 1 - Идентификатор точки доступа, заданный элементом
+accessPointRef < >
+<reqCondCircuitBreaker>
+<reqCond>Make sure the circuit breaker is open, safetied/locked
+and tagged:</reqCond>
+<circuitBreakerDescrGroup circuitBreakerAction="open">
+<circuitBreakerDescrSubGroup>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="42RT"/>
+<name>MMR-1 (ILS+GPS)</name>
+<accessPointRef accessPointNumber="2501VU"
+accessPointTypeValue="accpnl02"/>
+<circuitBreakerLocation>0867</circuitBreakerLocation>
+</circuitBreakerDescr>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerType="cbt02"
+circuitBreakerNumber="800RT"/>
+<name>GLIDE ANT2 SWGT RELAY</name>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 29

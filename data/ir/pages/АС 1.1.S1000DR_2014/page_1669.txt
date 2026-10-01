@@ -1,0 +1,62 @@
+<lcMultipleSelect>
+<title/>
+<lcQuestion>
+<description>
+<para>Select all answers
+<para>Hard-to-clean areas
+</description>
+</lcQuestion>
+<lcAnswerOptionGroup>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Shift levers</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Spokes</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Brakes</para>
+</description>
+</lcAnswerOptionContent>
+<lcCorrectResponse
+</lcAnswerOption>
+<lcAnswerOption>
+<lcAnswerOptionContent>
+<description>
+<para>Stem</para>
+</description>
+</lcAnswerOptionContent>
+</lcAnswerOption>
+</lcAnswerOptionGroup>
+</lcMultipleSelect>
+2.4.4 Порядок следования
+lcSequencing Описание. Элемент <
+взаимодействия типа "определение
+определением порядка следования
+пунктов или действий, которые
+lcSequencing Элемент разметки: <
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+that apply, and then click NEXT.</para>
+ on your bike include:</para>
+lcName="lcCorrectResponse"/>
+lcName="lcCorrectResponse"/>
+> является контейнером для содержимого
+ порядка следования". При взаимодействии σ
+ проходящему оценку представляется перечень
+нужно расположить β правильном порядке.
+> (O)
+Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 26

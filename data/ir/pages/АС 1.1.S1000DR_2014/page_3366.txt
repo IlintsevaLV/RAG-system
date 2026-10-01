@@ -1,0 +1,61 @@
+<lom:format>image/ico</lom:format>
+<lom:format>image/jpg</lom:format>
+<lom:format>image/bmp</lom:format>
+<lom:format>image/png</lom:format>
+<lom:format>image/svg</lom:format>
+<lom:format>audio/wav</lom:format>
+<lom:format>video/quicktime</lom:format>
+<lom:format>video/ξ-ms-wmv</lom:format>
+<lom:format>video/ξ-msvideo</lom:format>
+<lom:format>video/mpeg</lom:format>
+<lom:format>audio/mpeg</lom:format>
+<lom:format>text/plain</lom:format>
+<lom:format>text/html</lom:format>
+<lom:format>text/xml</lom:format>
+<lom:format>text/xslt</lom:format>
+<lom:format>application/χ3-caa</lom:format>
+<lom:requirement>
+<lom:orComposite>
+<lom:type>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>browser</lom:value>
+</lom:type>
+<lom:name>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>ms-internet
+</lom:name>
+<lom:minimumVersion>6.0</lom:minimumVersion>
+</lom:orComposite>
+</lom:requirement>
+<lom:installationRemarks>
+<lom:string language="en">This
+browser to have α Macromedia
+installed.</lom:string>
+</lom:installationRemarks>
+<lom:otherPlatformRequirements>
+<lom:string language="en">Sound
+card and display: at least
+colors</lom:string>
+</lom:otherPlatformRequirements>
+</lom:technical>
+<lom:rights>
+<lom:cost>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>no</lom:value>
+</lom:cost>
+<lom:copyrightAndOtherRestrictions>
+<lom:source>LOMv1.0</lom:source>
+<lom:value>yes</lom:value>
+</lom:copyrightAndOtherRestrictions>
+<lom:description>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+explorer</lom:value>
+ activity requires the client
+ Flash plugin
+ card, Min. RAM: 256Mb, Video
+ 1024 Ξ 768 pixels ξ 16384
+Σ1000Δ-Α-07-05-0400-00Α-040Α-Α
+Глава 7.5.4
+2013-11-15 Страница 4

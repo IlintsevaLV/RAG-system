@@ -1,0 +1,52 @@
+Σ1000DR-UACRU-01000-00
+<definitionListItem>
+<listItemTerm>1</listItemTerm><listItemDefinition><para>Electric
+al plug 3MRa (5MRa)</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>2</listItemTerm><listItemDefinition><para>Screw</π
+ara></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>3</listItemTerm><listItemDefinition><para>Washer</
+para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>4</listItemTerm><listItemDefinition><para>Solenoid
+valve</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>5</listItemTerm><listItemDefinition><para>Locating
+pin</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm id="fig-0001-trm-0001">6</listItemTerm>
+<listItemDefinition><internalRef internalRefId="fig-0001"
+referredFragment="6" internalRefTargetType="irtt11">O-
+Ring</internalRef></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>7</listItemTerm><listItemDefinition><para>O-
+Ring</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm id="fig-0001-trm-0002">8</listItemTerm>
+<listItemDefinition><para>Hydraulic
+pump</para></listItemDefinition>
+</definitionListItem>
+</definitionList>
+</legend>
+3.4 Отдельная растровая графика
+hotspot Чтобы показать использование атрибутов элемента < > β случае
+применения отдельной растровой графики (не встроенной β CGM), предполагается,
+что предыдущий рисунок доступен только как файл формата TIF, CG4, GIF, PNG
+или JPG.
+hotspot Фрагмент модуля данных XML σ определением третьего элемента < >
+graphic внутри элемента < > выглядит следующим образом:
+<hotspot id="fig-0001-gra-0000-hot-0003" hotspotTitle="Hydraulic
+pump" objectCoordinates="134,48,134,52,136,52,136,48,134,48">
+<internalRef internalRefId="fig-0001-trm-0002"
+targetTitle="Explanation"
+Действительно: Все Σ1000Δ-Α-03-09-0502-01J-040Α-Α
+Глава 3.9.5.2.1.8
+2013-11-15 Страница 16

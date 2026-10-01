@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+Нет 
+Пример разметки:
+Β первом примере показан жгут σ обозначением 1310VB.
+<harnessIdent>1310VB</harnessIdent>
+Во втором примере показана разметка жгута Ω5250, смонтированного β панели σ
+номером Π1650-411 η поставленного изготовителем σ обозначением 01234.
+<harnessIdent contextIdent="Π1650-411"
+manufacturerCodeValue="01234" itemOriginator="orig02">Ω5250
+</harnessIdent>
+2.2 Сведения ο жгуте
+harnessInfo Описание: Элемент < > содержит сведения ο жгуте для его
+детального обозначения (например, обозначение компонента η альтернативные
+обозначения, которые могут использоваться для обозначения данного жгута).
+harnessInfo Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+partNumber < > (O), обозначение компонента жгута 
+altIdentGroup < > (O), перечень альтернативных обозначений жгута 
+harnessVariantIdent < > (Μ), обозначение варианта жгута 
+harnessVariantIssue < > (Μ), выпуск варианта жгута 
+harnessName < > (O), наименование жгута 
+emcCode < > (O), код классификации жгута 
+temperature < > (O), рабочая температура жгута 
+harnessEnvironment < > (O), сведения ο среде нахождения жгута 
+sleeveGroup < > (O), перечень муфт жгута 
+Пример разметки:
+<harnessInfo>
+<partNumber>J92101310-407</partNumber>
+<harnessVariantIdent>407</harnessVariantIdent>
+<harnessVariantIssue>Β</harnessVariantIssue>
+<harnessName>E ROUTE RH</harnessName>
+<emcCode>E</emcCode>
+</harnessInfo>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09Δ-040Α-Α
+Глава 3.9.5.2.9.3
+2013-11-15 Страница 4

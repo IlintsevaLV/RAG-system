@@ -1,0 +1,38 @@
+Σ1000DR-UACRU-01000-00
+security < > (Μ). См. Глава 3.9.5.1 . 
+dataRestrictions < > (O). См. Глава 3.9.5.1 . 
+responsiblePartnerCompany < > (Μ). См. Глава 3.9.5.1 . 
+originator < > (O). См. Глава 3.9.5.1 . 
+applicCrossRefTableRef < > (O). См. Глава 3.9.5.3 . 
+applic < > (O). См. Глава 3.9.5.3 . 
+scormContentPackageMedia < > (O). См. Разд. 2.2.2.2. 
+qualityAssurance < > (Μ). См. Глава 3.9.5.1 . 
+systemBreakdownCode < > (O). См. Глава 3.9.5.1 . 
+functionItemCode < > (O). См. Глава 3.9.5.1 . 
+personSkill < > (Μ). См. Глава 3.9.5.1 . 
+reasonForUpdate < > (O). См. Глава 3.9.5.1 . 
+remarks < > (O). См. Глава 3.9.5.1 . 
+Пример разметки:
+<scormContentPackageStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany enterpriseCode="AH019"/>
+<originator enterpriseCode="AH019"/>
+<scormContentPackageMedia scormContentPackageMediaCode="DKS:1"
+scormContentPackageMediaType=""/>
+<qualityAssurance>
+<unverified/>
+</qualityAssurance>
+<personSkill skillLevelCode="sk01"/>
+</scormContentPackageStatus>
+2.2.2.1 Идентификатор исходного пакета содержимого SCORM
+sourceScormContentPackageIdent Описание. Элемент < > сдержит
+идентификатор пакета содержимого SCORM.
+sourceScormContentPackageIdent Элемент разметки: < > (O)
+Атрибуты:
+Нет 
+Дочерние элементы:
+identExtension < > (O). См. Глава 3.9.5.1 . 
+scormContentPackageCode < > (Μ). См. Разд. 2.2.1.2. 
+Действительно: Все Σ1000Δ-Α-04-15-0100-00Α-040Α-Α
+Глава 4.15.1
+2013-11-15 Страница 10

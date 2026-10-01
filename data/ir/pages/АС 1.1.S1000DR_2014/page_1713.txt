@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+3.9.5.2.1.12 .
+sbManagementInfo < > (Μ). См. Разд. 2.3.2. 
+sbRevisionInfo < > (Μ). См. Разд. 2.3.3. 
+sbSummary < > (Μ). См. Разд. 2.3.4. 
+sbPlanningInfo < > (Μ). См. Разд. 2.3.5. 
+sbMaterialInfo < > (Μ). См. Разд. 2.3.6. 
+sbAccomplishmentInstructions < > (Μ). См. Разд. 2.3.7. 
+sbAdditionalInfo < > (Μ). См. Разд. 2.3.8. 
+Пример разметки:
+Модуль данных основного сервисного бюллетеня
+<content>
+<sb>
+<sbManagementInfo>...</sbManagementInfo>
+<sbrevisionInfo>...</sbRevisionInfo>
+<sbSummary>...</sbSummary>
+<sbPlanningInfo>...</sbPlanningInfo>
+<sbMaterialInfo>...</sbMaterialInfo>
+<sbAccomplishmentInstructions>...</sbAccomplishmentInstructions>
+<sbAdditionalInfo>...</sbAdditionalInfo>
+</sb>
+</content>
+Пример разметки:
+Модуль данных сервисного бюллетеня только со сведениями ο материалах
+<content>
+<sb>
+<sbMaterialInfoContent>...</sbMaterialInfoContent>
+</sb>
+</content>
+2.3.1 Сведения ο материалах β сервисном бюллетене
+Этот основной раздел сервисного бюллетеня посвящен сведениям ο материалах. См.
+Глава 3.9.5.2.15.2 .
+Примечание
+Если для сведений ο материалах предназначен один или несколько модулей
+sbMaterialInfoContent данных, β которых элемент < > используется
+sb непосредственно внутри элемента < >, такие модули данных должны иметь
+информационный код 934. Кроме того, модуль данных основного сервисного
+refs бюллетеня должен содержать ссылки (σ помощью элемента < > β элементе
+sbMaterialInfo < >) на модули данных, отведенные под сведения ο
+материалах.
+Действительно: Все Σ1000Δ-Α-03-09-0502-15Α-040Α-Α
+Глава 3.9.5.2.15
+2013-11-15 Страница 6

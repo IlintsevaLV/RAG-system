@@ -1,0 +1,61 @@
+Атрибуты:
+Нет 
+Дочерние элементы:
+remarkCode < > (Μ), 
+допускает текстовые данные
+ABC " ", " " или " " для идентификации
+remarks < > (Μ), текстовый 
+3.9.5.1 .
+Пример разметки:
+<remarksGroup>
+<remarkCode id="Α1">
+...
+</remarkCode>
+<remarks>
+...
+</remarks>
+</remarksGroup>
+3 Примеры
+3.1 Пример временного
+<referencedApplicGroup>
+<applic id="appl-001">
+<displayText>Mountain storm
+Mk9</displayText>
+<evaluate andOr="or">
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr"
+storm"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr"
+</evaluate>
+<evaluate andOr="and">
+<assert applicPropertyIdent="model"
+applicPropertyType="prodattr"
+trekker"/>
+<assert applicPropertyIdent="version"
+applicPropertyType="prodattr"
+</evaluate>
+</evaluate>
+</applic>
+</referencedApplicGroup>
+...
+<maintPlanning>
+<timeLimitInfo
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+идентификация для перекрестных ссылок. Элемент также
+β случае использования конкретного кода, например,
+ примечания β данных назначения ТО.
+комментарий ο данных. См. Разд. 2.4.1.2 η Глава
+ограничения
+ Mk1 or Brook trekker
+ applicPropertyValues="Mountain
+ applicPropertyValues="Mk1"/>
+ applicPropertyValues="Brook
+ applicPropertyValues="Mk9"/>
+applicRefId="appl-001" timeLimitIdent="001">
+Σ1000Δ-Α-03-09-0502-05Α-040Α-Α
+Глава 3.9.5.2.5
+2013-11-15 Страница 41

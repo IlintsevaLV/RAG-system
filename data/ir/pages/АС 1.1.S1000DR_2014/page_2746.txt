@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+Адрес поставщика 
+Коды модулей данных должны иметь следующую структуру:
+YY-Y-71-00-00-NNA-019Α-Α (17 символов)
+до
+YYYYYYYYYYYYYY-YYYY-Y71-00-0000-NNAAA-019Α-Α (37 символов)
+Таблица 3 Таблица кодов поставщиков - Пример
+NCAGE Поставщик
+C0202 Pall Filtrationstechnik GmbH
+Philipp-Reis-Strasse
+66072 Dreieich-Sprendlingen, Germany
+Δ2638 Elektro-Metall Expost GmbH
+Manchinger Strasse 1
+68070 Ingolstadt, Germany
+F0230 ABG-Secma SA
+BP 502 75725
+Paris Cedex 15, France
+00153 Edcliff Instruments, Inc
+1711 South Mountain Avenue
+Monrovia, CA 91016-4256
+00357 Van Dusan Aircraft Supplies
+Teterboro Airport, 500 Industrial Ave
+Teterboro, NJ 07608
+00624 Aeroquip Corporation
+Jackson Plant, 300 Σ East Ave
+Jackson, MI 49203
+01673 Airdrome Parts Company
+3251 Airport Way KP, PO Box 1867
+Long Beach, CA 90801
+…
+2.1.5 Расходные материалы
+Все расходные материалы, например, смазочные материалы, консистентные смазки η
+τ. δ., предназначенные для применения при сборке аварийных приспособлений η при
+проведении монтажных процедур, должны быть перечислены по наименованию,
+спецификации η назначению или сфере применения/ См. Табл. 4.
+Коды модулей данных должны иметь следующую структуру:
+YY-Y-71-00-00-NNA-017Α-Α (17 символов)
+до
+YYYYYYYYYYYYYY-YYYY-Y71-00-0000-NNAAA-017Α-Α (37 символов)
+Действительно: Все Σ1000Δ-Α-05-02-0205-00Α-040Α-Α
+Глава 5.2.2.5
+2013-11-15 Страница 5

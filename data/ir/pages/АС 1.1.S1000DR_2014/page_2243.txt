@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+<updateIdentAndStatusSection>
+<updateAddress>
+<updateIdent>
+<updateCode objectIdentCode="UPF"
+modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="sx" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</updateIdent>
+...
+</updateAddress>
+<updateStatus>
+<sourceDmIdent>
+<dmCode modelIdentCode="Σ1000DLIGHTING" systemDiffCode="AAA"
+systemCode="Δ00" subSystemCode="0" subSubSystemCode="0"
+assyCode="00" disassyCode="00" disassyCodeVariant="AA"
+infoCode="00Γ" infoCodeVariant="Α" itemLocationCode="Δ"/>
+<language languageIsoCode="en" countryIsoCode="US"/>
+<issueInfo issueNumber="001" inWork="00"/>
+</sourceDmIdent>
+...
+</updateStatus>
+<targetDmStatus>...</targetDmStatus>
+</updateIdentAndStatusSection>
+<content>
+<update>
+<deleteObjectGroup>
+<deleteObject>
+<partIdent partNumberValue="LRU1010"
+manufacturerCodeValue="KZ777"/>
+</deleteObject>
+</deleteObjectGroup>
+</update>
+</content>
+</dataUpdateFile>
+2.4.3.2 Идентификатор рисунка
+figureIdent Описание. Элемент < > позволяет идентифицировать рисунок.
+figureIdent Элемент разметки: < > (C)
+Атрибуты:
+id figure (Μ), идентификатор элемента < > для удаления. 
+Дочерние элементы:
+Нет. 
+Пример разметки:
+Действительно: Все Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 22

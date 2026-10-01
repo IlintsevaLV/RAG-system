@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+<title>Manufacturer'σ information:</title>
+<reducedPara>Greasy Bikes is α well-reputed bike manufacturer
+famous for its reliable bikes. However, if something goes wrong,
+don'τ blame us.</reducedPara>
+<reducedPara>Any complaint shall be sent to:
+<reducedRandomList>
+<reducedRandomListItem>
+<reducedListItemPara>AECME Bikes, Poste Restante,
+Somewhere City, Utopia</reducedListItemPara>
+</reducedRandomListItem>
+<reducedRandomListItem>
+<reducedListItemPara>Greasy Bikes, Off Road 66, Noway,
+Atlantis</reducedListItemPara>
+</reducedRandomListItem>
+</reducedRandomList>
+</reducedPara>
+</frontMatterInfo>
+2.3.1.15.1 Название
+title Описание. Элемент < > содержит название служебной информации η должен
+reducedPara представляться до содержимого элемента < >. Β качестве
+frontMatterInfoType альтернативы название можно брать из атрибута , если
+title элемент < > не используется.
+title Элемент разметки: < > (O)
+Атрибуты:
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Главу 3.6.
+Дочерние элементы:
+textElemGroup Включает тот же набор элементов группы , что используется β 
+para элементе < > β описательных модулях данных. См. Глава 3.9.5.2.1.10 .
+Принятие решения ο правиле выполнения проекта BRDP-Σ1-00302 -
+title frontMatterInfo Использование элемента < > β элементе < > :
+title Решение об использовании содержимого элемента < > или интерпретации 
+frontMatterInfoType значения атрибута β качестве названия блока
+служебной информации.
+2.3.1.15.2 Сокращенный параграф
+reducedPara Описание. Элемент < > содержит служебные сведения (например,
+сведения об изготовителе, отчеты об ошибках, заявления ο доступности или общие
+уведомления).
+reducedPara Элемент разметки: < > (C)
+Действительно: Все Σ1000Δ-Α-03-09-0502-16Α-040Α-Α
+Глава 3.9.5.2.16
+2013-11-15 Страница 23

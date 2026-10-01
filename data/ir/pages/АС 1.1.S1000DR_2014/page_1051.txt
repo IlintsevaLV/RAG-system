@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+</wire>
+<wire wireState="active">
+<wireIdent>
+<wireNumber>QX26QA</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+<functionalItemRef functionalItemNumber="6QXA"/>
+<contactInfo>
+<contact contactIdent="C"/>
+<wireConnectionCode>
+<screenOrder>5</screenOrder>
+<electricalPotential>
+<contactOrderValue>3</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>01</networkAnalysisCode>
+</contactInfo>
+<screenGroup>
+<screen screenLevel="00" screenType="01" screenStyle="00">
+</screen>
+</screenGroup>
+</fromEquip>
+<toEquip>
+<functionalItemRef functionalItemNumber="6712VR"/>
+<contactInfo>
+<contact contactIdent="C"/>
+<wireConnectionCode>
+<screenOrder>5</screenOrder>
+<electricalPotential>
+<contactOrderValue>3</contactOrderValue>
+</electricalPotential>
+</wireConnectionCode>
+<networkAnalysisCode>02</networkAnalysisCode>
+</contactInfo>
+<screenGroup>
+<screen screenLevel="00" screenType="01" screenStyle="00">
+</screen>
+</screenGroup>
+</toEquip>
+</wireConnection>
+<!-- ... -->
+</wire>
+<wire wireState="logconn">
+<wireIdent>
+<wireNumber>NC00001LC</wireNumber>
+</wireIdent>
+<wireConnection>
+<fromEquip>
+Действительно: Все Σ1000Δ-Α-03-09-0502-09C-040Α-Α
+Глава 3.9.5.2.9.2
+2013-11-15 Страница 43

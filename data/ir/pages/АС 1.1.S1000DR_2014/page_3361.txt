@@ -1,0 +1,51 @@
+Σ1000DR-UACRU-01000-00
+</dc:identifier>
+<dc:rights>01</dc:rights>
+</rdf:Description>
+...
+...
+</ddn>
+3.2 Метаданные RDF/DC для перечней модулей данных
+Β следующем примере показано сопоставление элементов η/или атрибутов перечня
+модуля данных σ элементами метаданных DC β контейнере RDF на языке XML:
+<? xml version="1.0"?>
+<dml xmlns:xsi="http://www.ω3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.σ1000δ.org/Σ1000Δ_2-
+3/xml_schema_master/dml/dmlSchema.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+<rdf:Description>
+<dc:title>Data Module List</dc:title>
+<dc:subject>Data Module List</dc:subject>
+<dc:publisher>Α0019</dc:publisher>
+<dc:date>1999-04-01</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>URN:Σ1000Δ:DML-1Β-Α0019-Π-1999-00003_003-00
+</dc:identifier>
+<dc:language>sx-US</dc:language>
+<dc:rights>01</dc:rights>
+</rdf:Description>
+...
+...
+</dml>
+3.3 Метаданные RDF/DC для комментариев
+Β следующем примере показано сопоставление элементов η/или атрибутов
+комментариев σ элементами метаданных DC β контейнере RDF на языке XML:
+<? xml version="1.0"?>
+<comment xmlns:xsi="http://www.ω3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.σ1000δ.org/Σ1000Δ_2-
+3/xml_schema_master/comment/commentSchema.xsd"
+xmlns:rdf="http://www.ω3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:xlink="http://www.ω3.org/1999/xlink">
+<rdf:Description>
+<dc:title>Window, LH Front - Installation (Job Completion)
+</dc:title>
+<dc:subject>Window, LH Front - Installation (Job Completion)
+</dc:subject>
+<dc:publisher>H2433</dc:publisher>
+Действительно: Все Σ1000Δ-Α-07-05-0300-00Α-040Α-Α
+Глава 7.5.3
+2013-11-15 Страница 5

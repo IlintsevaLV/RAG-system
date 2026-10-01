@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+</catalogSeqNumber>
+...
+<catalogSeqNumber systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" item="006" indenture="3">
+<itemSequenceNumber itemSeqNumberValue="00Α">
+<reasonForSelection reasonForSelectionValue="1"/>
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>KZ777</manufacturerCode>
+<partNumber>LRU1001</partNumber>
+<partIdentSegment>
+<descrForPart>Light system</descrForPart>
+<unitOfIssue>EA</unitOfIssue>
+<specialStorage>1</specialStorage>
+<physicalSecurityPilferageCode>J</physicalSecurityPilferageCode>
+</partIdentSegment>
+<partLocationSegment>
+<referTo refType="nha">
+<catalogSeqNumberRef modelIdentCode="Σ1000DBIKE"
+systemDiffCode="AAA" systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" itemLocationCode="Δ" item="040" />
+<catalogSeqNumberRef modelIdentCode="Σ1000DBIKE"
+systemDiffCode="AAA" systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" itemLocationCode="Δ" item="010"/>
+</referTo>
+</partLocationSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service>UKA</service>
+<sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+<modelVersion modelVersionValue="MB">
+</modelVersion>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+...
+</illustratedPartsCatalog>
+3.3.1 Содержимое иллюстрированного каталога деталей σ активными участками
+Если β проекте принято решение использовать универсальный механизм активных
+участков β модулях данных иллюстрированного каталога деталей, то предыдущая
+разметка будет выглядеть следующим образом:
+<illustratedPartsCatalog>
+<figure id="fig-0001">
+<title>Bicycle</title>
+<graphic infoEntityIdent="ICN-Σ1000DBIKE-AAA-Δ000000-0-U8025-
+00536-Α-01-1">
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 64

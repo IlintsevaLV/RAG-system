@@ -1,0 +1,24 @@
+Σ1000DR-UACRU-01000-00
+</expression> 16
+<numberOperator numberOperation="lessThanOrEqual"/> 17
+<expression> 18
+<variableRef variableName="Pressure"/> 19
+</expression> 20
+</expression> 21
+<booleanOperator booleanOperation="and"/> 22
+<expression> 23
+<expression> 24
+<variableRef variableName="Pressure"/> 25
+</expression> 26
+<numberOperator numberOperation="lessThanOrEqual"/> 27
+<expression> 28
+<integerValue>90</integerValue> 29
+</expression> 30
+</expression> 31
+</expression> 32
+</validate> 33
+</userEntry> 34
+</dialog> 35
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 34

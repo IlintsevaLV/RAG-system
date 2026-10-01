@@ -1,0 +1,61 @@
+Таблица 7 Соответствие элементов
+Текстовый Наименование Μ/O
+идентифика элемента данных
+тор
+элемента
+RFS Причина выбора O
+RTX Ссылка O
+SID Идентификация Μ
+предмета снабжения
+SMF Признак подбора или O
+изготовления
+SMR Код способов Μ
+получения,
+обслуживания, ремонта
+η утилизации
+SRV Обслуживание Μ
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+данных ο деталях (Σ2000Μ – Σ1000Δ) (Продолжение)
+Элемент/атрибут схемы
+</functionalItemRef>
+<reasonForSelection
+reasonForSelectionValue="..."/>
+<referTo>
+<initialProvisioningProjectRef
+initialProvisioningProjectNumber=
+"...">
+либо
+<referTo>
+<initialProvisioningProjectRef
+initialProvisioningProjectNumber=
+"..."
+responsiblePartnerCompanyCode="...">
+либо
+<referTo>
+<catalogSeqNumberRef
+modelIdentCode="..."
+systemDiffCode="..."
+systemCode="..." subSystemCode="..."
+subSubSystemCode="..." assyCode="..."
+figureNumber="..."
+figureNumberVariant="..."
+itemLocationCode="..."
+item="..." itemVariant="..."
+itemSeqNumberValue="...">
+Составной элемент данных, состоящий из кода
+производителя (MFC) η обозначения детали (PNR)
+<subjectIdent>
+<manufacturerCode>...
+</manufacturerCode>
+<partNumber>..</partNumber>
+</subjectIdent>
+<selectOrManufactureFromIdent
+selectOrManufactureValue ="...">
+<sourceMaintRecoverability>...
+</sourceMaintRecoverability>
+<service>...</service>
+Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 60

@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+observedFault < > (Μ). См. Разд. 2.5.4. 
+Пример разметки :
+<observedFaultAlts id ="ofc-001">
+<observedFault faultCode="NYCJD01" id="flt-0001">
+<faultDescr>
+<descr>The lights are set to the dim position.</descr>
+</faultDescr>
+<contextAndIsolationInfo>
+<isolationInfo>
+<lruItem>
+<lru></lru>
+</lruItem>
+</isolationInfo>
+</contextAndIsolationInfo>
+</observedFault>
+<observedFault faultCode="NYCJD02" id="flt-0002">
+<faultDescr>
+<descr>The lights are set to the high position.</descr>
+</faultDescr>
+<contextAndIsolationInfo>
+<isolationInfo>
+<lruItem>
+<lru></lru>
+</lruItem>
+</isolationInfo>
+</contextAndIsolationInfo>
+</observedFault>
+</observedFaultAlts>
+2.5.7 Взаимозависимые неисправности
+correlatedFault Описание. Β элементе < > содержатся сведения ο
+взаимозависимых неисправностях.
+correlatedFault Элемент разметки: < > (O)
+ICN-Σ3627-Σ1000Δ0515-001-01
+correlatedFault Рис. 15 Элемент < >
+Атрибуты:
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 32

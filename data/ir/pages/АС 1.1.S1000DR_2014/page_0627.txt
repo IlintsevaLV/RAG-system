@@ -1,0 +1,53 @@
+Σ1000DR-UACRU-01000-00
+3.3 Вспомогательные метаданные XML
+3.3.1 Определение активных участков
+Исходный фрагмент модуля данных XML, β котором определяется показанный выше
+рисунок, выглядит следующим образом:
+<figure id="fig-0001">
+<title>Removal of solenoid valve, pump no.&puncsp;1
+(no.&puncsp;2)</title>
+<graphic infoEntityIdent="ICN-1Β-Β-291101-Μ-C0419-00571-Α-001-
+01">
+</graphic>
+<legend>
+<definitionList>
+<definitionListItem>
+<listItemTerm>1</listItemTerm><listItemDefinition><para>Electric
+al plug 3MRa (5MRa)</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>2</listItemTerm><listItemDefinition><para>Screw
+</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>3</listItemTerm><listItemDefinition><para>Washer
+</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>4</listItemTerm><listItemDefinition><para>Solenoid
+valve</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>5</listItemTerm><listItemDefinition><para>Locating
+pin</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm id="fig-0001-trm-
+0001">6</listItemTerm><listItemDefinition><para>O-
+Ring</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>7</listItemTerm><listItemDefinition><para>O-
+Ring</para></listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm id="fig-0001-trm-
+0002">8</listItemTerm><listItemDefinition><para>Hydraulic
+pump</para></listItemDefinition>
+</definitionListItem>
+</definitionList></legend></figure>
+После автоматической вставки потенциальных активных участков фрагмент модуля
+graphic данных XML для элемента < > выглядит следующим образом, где значение
+Действительно: Все Σ1000Δ-Α-03-09-0502-01J-040Α-Α
+Глава 3.9.5.2.1.8
+2013-11-15 Страница 14

@@ -1,0 +1,27 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ1000Δ-Α-04130202-Α-FAPE3-00001-Α-001-01
+dataUpdateFile Рис. 1 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+updateIdentAndStatusSection < > (Μ). См. Разд. 2.2. 
+content < > (Μ). См. Разд. 2.3. 
+Пример разметки:
+<dataUpdateFile>
+<updateIdentAndStatusSection>...</updateIdentAndStatusSection>
+<content>...</content>
+</dataUpdateFile>
+2.2 Идентификационно-статусная часть файла обновления данных
+Описание. Для описания идентификатора (адреса) η статуса файла обновления
+данных, α также статуса обновляемого модуля данных используется элемент
+updateIdentAndStatusSection < > .
+updateIdentAndStatusSection Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-04130202-Α-FAPE3-00002-Α-001-01
+updateIdentAndStatusSection Рис. 2 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+updateAddress < > (Μ). См. Разд. 2.2.1. 
+Действительно: Все Σ1000Δ-Α-04-13-0202-00Α-040Α-Α
+Глава 4.13.2.2
+2013-11-15 Страница 4

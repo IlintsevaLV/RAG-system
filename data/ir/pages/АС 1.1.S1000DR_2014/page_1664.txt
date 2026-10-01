@@ -1,0 +1,66 @@
+</lcFeedbackItem>
+<lcFeedbackItem attemptMatch="1"
+<description>
+<para>
+The answer
+Try again!
+</para>
+</description>
+<internalRef internalRefId="ao_002">
+</internalRef>
+</lcFeedbackItem>
+<lcFeedbackItem>
+<description>
+<para> Correct!</para>
+</description>
+<internalRef internalRefId="ao_003">
+</internalRef>
+</lcFeedbackItem>
+<lcFeedbackItem attemptMatch="1"
+<description>
+<para>
+The answer
+Try again!
+</para>
+</description>
+<internalRef internalRefId="ao_004">
+</internalRef>
+</lcFeedbackItem>
+<lcFeedbackItem attemptMatch="2"
+<description>
+<para>
+The answer
+correct answer is
+</para>
+</description>
+<internalRef internalRefId="ao_001">
+</internalRef>
+</lcFeedbackItem>
+<lcFeedbackItem attemptMatch="2">
+<description>
+<para>
+The answer
+The correct answer is
+</para>
+</description>
+<internalRef internalRefId="ao_002">
+</internalRef>
+</lcFeedbackItem>
+<lcFeedbackItem attemptMatch="2"
+<description>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ feedbackStatus="fbIncorrect">
+<emphasis>"fork/handlebar"</emphasis> is incorrect.
+ feedbackStatus="fbIncorrect">
+<emphasis>"frame/handlebar"</emphasis> is incorrect.
+ feedbackStatus="fbIncorrect">
+<emphasis>"headset/fork"</emphasis> is incorrect. The
+handlebar/headset.
+<emphasis>"fork/handlebar"</emphasis> is incorrect.
+handlebar/headset.
+ feedbackStatus="fbIncorrect">
+Σ1000Δ-Α-03-09-0502-13F-040Α-Α
+Глава 3.9.5.2.13.5
+2013-11-15 Страница 21

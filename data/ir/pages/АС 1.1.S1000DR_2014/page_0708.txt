@@ -1,0 +1,49 @@
+Σ1000DR-UACRU-01000-00
+closeRqmts Решение об использовании элемента < > β процессных модулях 
+данных.
+Пример разметки:
+См. Разд. 3.2
+3.2 Примеры - Требования после завершения работ
+Пример 1 - Этот пример показывает разметку β случае, если требования после
+завершения работы отсутствуют.
+<closeRqmts>
+<reqCondGroup>
+<noConds/>
+</reqCondGroup>
+</closeRqmts>
+Пример 2 - Этот пример показывает разметку β случае, если требования после
+завершения работы необходимы.
+Примечание
+reqCond Применение нижеуказанного метода для элемента < > η элемента
+reqCondTechPub < > может препятствовать автоматической подготовке
+процедур технического обслуживания, принятых для данной ситуации.
+<closeRqmts>
+<reqCondGroup>
+<reqCondDm>
+<reqCond>The access panel is closed.</reqCond>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="Α"
+infoCode="740" infoCodeVariant="Α" itemLocationCode="Δ"
+modelIdentCode="AE" subSubSystemCode="0" subSystemCode="0"
+systemCode="10" systemDiffCode="Α"/>
+</dmRefIdent>
+</dmRef>
+</reqCondDm>
+<!-- Α reference to α non-Σ1000Δ publication -->
+<reqCondExternalPub>
+<reqCond>The access panel is closed.</reqCond>
+<externalPubRef>
+<externalPubRefIdent>
+<externalPubTitle>Component Maintenance
+Manual</externalPubTitle>
+</externalPubRefIdent>
+</externalPubRef>
+</reqCondExternalPub>
+<!-- Α required condition that has no reference -->
+<reqCondNoRef>
+<reqCond>The caps are installed on all orifices</reqCond>
+</reqCondNoRef>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 77

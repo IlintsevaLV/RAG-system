@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<locationRcmdSegment>
+<locationRcmd>
+<service>UKA</service>
+<sourceMaintRecoverability>XB</sourceMaintRecoverability>
+<modelVersion modelVersionValue="MB"/>
+</locationRcmd>
+</locationRcmdSegment>
+<genericPartDataGroup>
+<genericPartData genericPartDataName="qre">
+<genericPartDataValue>2</genericPartDataValue></genericPartData>
+<genericPartData genericPartDataName="xnt">
+<genericPartDataValue>SP</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="key">
+<genericPartDataValue>Bicycle</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="emb">
+<genericPartDataValue>KZ999:LNS10276051</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="nse">
+<genericPartDataValue>8145144345</genericPartDataValue>
+</genericPartData>
+<genericPartData genericPartDataName="dhy">
+<genericPartDataValue>F2408:1-4UD:02</genericPartDataValue>
+</genericPartData>
+</genericPartDataGroup>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber systemCode="00" subSystemCode="0"
+subSubSystemCode="0" assyCode="00" figureNumber="00"
+figureNumberVariant="Α" item="001" indenture="2">
+<itemSequenceNumber itemSeqNumberValue="00Α">
+<reasonForSelection reasonForSelectionValue="1"/>
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>KZ999</manufacturerCode>
+<partNumber>BICYCLE-001/1</partNumber>
+<partIdentSegment>
+<descrForPart>Frame assembly</descrForPart>
+<unitOfIssue>EA</unitOfIssue>
+<specialStorage>0</specialStorage>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service>UKA</service>
+<sourceMaintRecoverability>PAODD</sourceMaintRecoverability>
+<modelVersion modelVersionValue="MB">
+</modelVersion>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+Действительно: Все Σ1000Δ-Α-03-09-0502-07Α-040Α-Α
+Глава 3.9.5.2.7
+2013-11-15 Страница 63

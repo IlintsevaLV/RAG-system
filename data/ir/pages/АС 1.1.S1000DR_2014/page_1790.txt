@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+</sbReplacement>
+Пример σ модификацией детали
+<sbReplacement>
+<sbAlteredToPart>
+<partRef manufacturerCodeValue="KZ666" partNumberValue="BSK-AXS-
+2001"/>
+</sbAlteredToPart>
+</sbReplacement>
+2.5.2.2.2 Измененная деталь
+sbAlteredToPart Описание. Элемент < > содержит новое обозначение
+компонента, которое получает модифицированная деталь при ее повторной установке
+на объект после модификации.
+sbAlteredToPart Элемент разметки: < > (Μ)
+ICN-Σ1000Δ-Α-03090502-Β-FAPE3-00067-Α-001-01
+sbAlteredToPart Рис. 30 Элемент < >
+Атрибуты:
+id (O), идентификатор измененной детали. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+partRef < > (Μ). Ссылка на заменяющую деталь. См. Глава 3.9.5.2.11.3 . 
+catalogSeqNumberRef < > (Μ). Обозначение заменяющей детали β модуле 
+данных иллюстрированного каталога деталей. См. Глава 3.9.5.2.7 .
+sbAlteredToPartDescr < > (O). См. Разд. 2.5.2.2.3. 
+Пример разметки:
+<sbAlteredToPart>
+<partRef manufacturerCodeValue="KZ666" partNumberValue="BSK-AXS-
+Действительно: Все Σ1000Δ-Α-03-09-0502-15C-040Α-Α
+Глава 3.9.5.2.15.2
+2013-11-15 Страница 39

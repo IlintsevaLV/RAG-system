@@ -1,0 +1,24 @@
+S1000DR-UACRU-01000-00
+ICN-1654N-S1000D0030-001-01
+lcTrainingInterventions Рис. 14 Элемент < >
+Атрибуты:
+id lcTrainingInterventions (O), идентификатор элемента < >. См. 
+S1000D-A-03-09-0502-01C-040A-A .
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания на изменения. См. S1000D-A-03-09-0502-01B-040A-A .
+authorityName authorityDocument (O) и (O), указания об управляемом 
+содержимом. См. S1000D-A-03-09-0502-01M-040A-A .
+securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См.
+S1000D-A-03-06-0000-00A-040A-A .
+Дочерние элементы:
+title < > (O). См. S1000D-A-03-09-0502-01F-040A-A . 
+description < > (O). См. S1000D-A-03-09-0502-02A-040A-A . 
+lcTargetAudience < > (O). См. 2.4.2.1. 
+lcPrerequisites < > (O). См. 2.4.2.1.2. 
+lcRequiredEntryBehaviors < > (O). См. 2.4.2.3. 
+lcTrainingComponent < > (O). См. 2.4.2.4. 
+lcAssessmentStrategy < > (O). См. 2.4.2.5. 
+Действительно: Все S1000D-A-03-09-0502-13B-040A-A
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 71

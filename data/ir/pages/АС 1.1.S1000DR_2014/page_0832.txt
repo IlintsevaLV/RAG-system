@@ -1,0 +1,36 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0623-001-01
+wiringPossibleCause Рис. 21 Элемент < >
+Атрибуты:
+applicRefId (O), сведения ο применимости. См. Глава 3.9.5.3 . 
+id wiringPossibleCause (O), идентификатор элемента < >. См. Глава 
+3.9.5.2.1.2 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O); 
+используются для указания изменений β соответствии σ Глава 3.9.5.2.1.1
+Дочерние элементы:
+wiringPossibleCauseFrom < > (Μ), “начало” проводного соединения. См. 
+Разд. 2.6.1.1.3
+wiringPossibleCauseTo < > (O), “конец” проводного соединения (не 
+указывается, если возможная причина является отдельной точкой электрического
+соединения). См. Разд. 2.6.1.1.3.
+Пример разметки :
+<wiringPossibleCause id="pc2">
+<wiringPossibleCauseFrom>
+<functionalItemRef functionalItemNumber="59KD">
+<name> ECB-APU ELECTRONIC CONTROL BOX</name>
+</functionalItemRef>
+<contactIdentification contactIdent="AC/3"/>
+</wiringPossibleCauseFrom>
+<wiringPossibleCauseTo>
+<functionalItemRef functionalItemNumber="4926VC"/>
+<contactIdentification contactIdent="1"/>
+</wiringPossibleCauseTo>
+</wiringPossibleCause>
+2.6.1.1.2 Концы проводного соединения (начало/конец)
+wiringPossibleCauseFrom Описание : Концы проводного соединения (< > η
+wiringPossibleCauseTo < >), содержат сведения ο проводном соединении.
+wiringPossibleCauseFrom Элемент разметки : < > (Μ) η
+wiringPossibleCauseTo < > (O)
+Действительно: Все Σ1000Δ-Α-03-09-0502-04Α-040Α-Α
+Глава 3.9.5.2.4
+2013-11-15 Страница 50

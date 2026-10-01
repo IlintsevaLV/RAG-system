@@ -1,0 +1,24 @@
+S1000DR-UACRU-01000-00
+ICN-S1000D-A-07030104-0-FAPE3-00028-A-01-1
+tolerance Рис. 30 Издание 4.0.1: < >
+ICN-S1000D-A-07030104-0-FAPE3-00029-A-01-1
+tolerance Рис. 31 Издание 4.1: < >
+catalogSeqNumber 2.16 Позиция в каталоге - элементы < >,
+catalogSeqNumberRef < > и
+categoryOneContainerLocation < >
+ catalogSeqNumberValue Обязательный атрибут в элементе
+catalogSeqNumber < > разбит на несколько атрибутов:
+systemCode Необязательный атрибут 
+ subSystemCode Необязательный атрибут 
+subSubSystemCode Необязательный атрибут 
+assyCode Необязательный атрибут 
+figureNumber Обязательный атрибут 
+figureNumberVariant Необязательный атрибут 
+ item Обязательный атрибут 
+itemVariant Необязательный атрибут 
+catalogSeqNumberRef В элементах < > и
+categoryOneContainerLocation < > он разбит на эти же атрибуты, плюс:
+modelIdentCode Необязательный атрибут 
+Действительно: Все S1000D-A-07-03-0104-07A-040A-A
+Глава 7.3.1.4.7
+2013-11-15 Страница 18

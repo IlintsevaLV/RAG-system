@@ -1,0 +1,33 @@
+Σ1000DR-UACRU-01000-00
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+description < > (C). См. Глава 3.9.5.2.2 . 
+Пример разметки:
+<lcEntryBehavior>
+<description>...</description>
+</lcEntryBehavior>
+2.2 Продолжительность
+lcDuration Описание: Элемент < > является элементом-контейнером
+планируемой длительности обучения.
+lcDuration Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0046-001-01
+lcDuration Рис. 3 Элемент < >
+Атрибуты:
+id lcDuration (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Глава 3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Глава 3.9.5.2.1.11 .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См. Глава 3.6 .
+Дочерние элементы:
+title < > (O). См. Глава 3.9.5.2.1.5 . 
+lcTime < > (O). См. Разд. 2.2.1. 
+Пример разметки:
+<lcDuration>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13C-040Α-Α
+Глава 3.9.5.2.13.2
+2013-11-15 Страница 5

@@ -1,0 +1,35 @@
+Σ1000DR-UACRU-01000-00
+<description>
+<para>No significant causal factors were observed or uncovered
+during this analysis.</para>
+</description>
+</lcCapacity>
+<lcMotives>
+<description>
+<para>No significant causal factors were observed or uncovered
+during this analysis.</para>
+</description>
+</lcMotives>
+</lcKnowledge>
+</lcInternalFactor>
+</lcCauseAnalysis>
+2.3.1 Факторы среды
+lcEnvironmentalFactor Описание. Элемент < > содержит сведения ο причинах
+потенциального или фактического низкого уровня производительности, которые не
+связаны σ работником.
+lcEnvironmentalFactor Элемент разметки: < > (O)
+ICN-1654N-Σ1000Δ0026-001-01
+lcEnvironmentalFactor Рис. 10 Элемент < >
+Атрибуты:
+id lcEnvironmentalFactor (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+ securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 47

@@ -1,0 +1,28 @@
+Σ1000DR-UACRU-01000-00
+ICN-Σ3627-Σ1000Δ0636-001-01
+commentAddressItems Рис. 3 Элемент < >
+Атрибуты:
+Нет 
+Дочерние элементы:
+commentTitle < > (O), содержит название комментария β виде простой 
+текстовой строки.
+issueDate < > (Μ), содержит дату издания комментария или ответа. См. Глава 
+3.9.5.1 .
+commentOriginator < > (Μ). См. Разд. 2.1.2.1. 
+Пример разметки:
+<commentAddressItems>
+<issueDate day="01" month="08" year="2012/>
+<commentOriginator>
+<dispatchAddress>
+<enterprise>
+<enterpriseName>...</enterpriseName>
+</enterprise>
+<address>
+<city>...</city>
+<country>...</country>
+</address>
+</dispatchAddress>
+</commentOriginator>
+Действительно: Все Σ1000Δ-Α-04-06-0100-00Α-040Α-Α
+Глава 4.6.1
+2013-11-15 Страница 7

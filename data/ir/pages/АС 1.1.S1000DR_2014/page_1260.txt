@@ -1,0 +1,46 @@
+Σ1000DR-UACRU-01000-00
+Атрибуты:
+id dialogAlts (O), идентификатор элемента < >. См. Глава 3.9.5.2.1.2 . 
+altName (O), имя группы альтернативных вариантов. 
+securityClassification commercialClassification (O), (O) η 
+caveat (O) используются для отметок ο секретности η ограничениях β
+соответствии σ положениями Глава 3.6 .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O) 
+используются для указания на изменение β соответствии σ положениями Глава
+3.9.5.2.1.1 .
+authorityName authorityDocument (O) η (O), используются для 
+указания на управляемое содержимое β соответствии σ положениями Глава
+3.9.5.2.1.11 .
+Дочерние элементы:
+dialog < > (Μ), повторяемый. См. Разд. 2.2. 
+Пример разметки:
+Примеры аналогичной разметки см. β описании элемента
+proceduralStepAlts < >, Глава 3.9.5.2.10.1 .
+<dialogAlts>
+<dialog applicRefId="applic3">
+<userEntry dataEntryFieldLength="3">
+<prompt>
+<paraBasic>Enter your age</paraBasic>
+</prompt>
+<variableRef variableName="age"/></userEntry>
+</dialog>
+<dialog applicRefId="applic4">
+<userEntry dataEntryFieldLength="3">
+<prompt>
+<paraBasic>How old do you feel?</paraBasic>
+</prompt>
+<variableRef variableName="age"/></userEntry>
+</dialog>
+</dialogAlts>
+2.4 Примеры диалогов
+2.4.1 Пример разметки меню пользователя σ одним вариантом выбора:
+Приведенные ниже примеры разметки η диалога ИЭТП (См. Рис. 15) относятся κ
+меню σ одним вариантом выбора. Β примере пользователь должен выбрать один
+menu choiceSelection элемент меню, как указано β элементе < > σ атрибутом
+single 1 со значением " " η значением атрибута mandatory равным " " (true) (строка
+3, β примере разметки, приведенном ниже). Β примере меню содержит три (3)
+варианта выбора. Во всех вариантах предполагается одна η та же переменная
+CheckCondition состояния ( ), но ей присваиваются разные значения (β первом
+Действительно: Все Σ1000Δ-Α-03-09-0502-10C-040Α-Α
+Глава 3.9.5.2.10.2
+2013-11-15 Страница 24

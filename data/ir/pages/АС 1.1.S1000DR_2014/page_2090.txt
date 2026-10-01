@@ -1,0 +1,39 @@
+Σ1000DR-UACRU-01000-00
+Нет 
+Дочерние элементы:
+commentIdent < > (Μ). См. Разд. 2.1.1. 
+commentAddressItems < > (Μ). См. Разд. 2.1.2. 
+Пример разметки:
+<commentAddress>
+<commentIdent>
+...
+</commentIdent>
+<commentAddressItems>
+...
+</commentAddressItems>
+</commentAddress>
+2.1.1 Идентификатор комментария
+commentIdent Описание. Элемент < > содержит уникальное обозначение объекта
+комментария.
+commentIdent Элемент разметки: < > (Μ)
+Атрибуты:
+Нет 
+Дочерние элементы:
+commentCode < > (Μ). См. Разд. 2.1.1.1. 
+language < > (Μ). См. Глава 3.9.5.1 . 
+Пример разметки:
+<commentIdent>
+<commentCode senderIdent="AAAAA" yearOfDataIssue="2012"
+modelIdentCode="AA" commentType="q" seqNumber="00001"/>
+<language countryIsoCode="AA" languageIsoCode="aa"/>
+</commentIdent>
+2.1.1.1 Код комментария
+commentCode Описание. Элемент < > содержит код комментария, который включает
+до 29 буквенно-цифровых символов. Он имеет структуру, указанную β Табл. 2.
+Минимальная длина составляет 17 символов.
+YY - YYYYY - XXXX - NNNNN - Α (17 символов)
+до
+YYYYYYYYYYYYYY - YYYYY - XXXX - NNNNN - Α (29 символов)
+Действительно: Все Σ1000Δ-Α-04-06-0100-00Α-040Α-Α
+Глава 4.6.1
+2013-11-15 Страница 4

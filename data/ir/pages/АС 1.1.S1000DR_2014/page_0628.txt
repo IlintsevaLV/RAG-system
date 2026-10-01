@@ -1,0 +1,48 @@
+Σ1000DR-UACRU-01000-00
+fig001 id " " является содержимым атрибута родительского одностраничного
+figure элемента < >:
+<graphic id="fig-001-gra-0000"
+infoEntityIdent="ICN-1Β-Β-291101-Μ-C0419-00571-Α-001-01">
+<hotspot id="fig-0001-gra-0000-hot-0001"
+applicationStructureIdent="hot001" applicationStructureName="6"
+hotspotTitle="O-Ring">
+<internalRef internalRefId="fig-0001-trm-0001"
+targetTitle="Explanation"
+internalRefTargetType="irtt13"></internalRef></hotspot>
+<hotspot id="fig-0001-gra-0000-hot-0002"
+applicationStructureIdent="hot002" applicationStructureName="6"
+hotspotTitle="O-Ring">
+<internalRef internalRefId="fig-0001-trm-0001"
+targetTitle="Explanation"
+internalRefTargetType="irtt13"></internalRef></hotspot>
+<hotspot id="fig-0001-gra-0000-hot-0003"
+applicationStructureIdent="hot003" hotspotTitle="Hydraulic
+pump">
+<internalRef internalRefId="fig-0001-trm-0002"
+targetTitle="Explanation"
+internalRefTargetType="irtt13"></internalRef></hotspot></graphic
+>
+Этот начальный шаг определения может выполняться β определенной степени без
+ручного вмешательства посредством извлечения значений атрибута
+applicationStructureIdent η необязательного атрибута
+applicationStructureName из среды CGM η вставки их β экземпляр XML.
+hotspotTitle Β данном примере конкретное значение атрибута элемента
+hotspot legend < > извлекается из элемента < >.
+Примечание
+internalRefId Конкретное значение атрибута - это идентификатор XML,
+который указывает из графического объекта на соответствующий участок внутри
+legend элемента < >.
+3.3.2 Перекрестные ссылки
+Для перекрестного обращения из текста модуля данных на одиночный графический
+internalRef объект можно использовать элемент XML < > следующим образом:
+<para>See <internalRef internalRefId="fig-0001-gra-0000-hot-
+0003" internalRefTargetType="irtt11">item 8</internalRef></para>
+6 Чтобы одновременно адресовать оба графических объекта σ именем " ",
+internalRef используется атрибут target элемента < > (β дополнение κ атрибуту
+figure internalRefId, который указывает на элемент < >) β контексте элемента
+legend < >, как показано ниже (выделено жирным шрифтом)
+<legend>
+<definitionList>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01J-040Α-Α
+Глава 3.9.5.2.1.8
+2013-11-15 Страница 15

@@ -1,0 +1,30 @@
+Σ1000DR-UACRU-01000-00
+3 Пример
+<commonRepository>
+<enterpriseRepository>
+<enterpriseSpec id="C001">
+<enterpriseIdent manufacturerCodeValue="KZ444"/>
+<enterpriseName>UTOPIA plc</enterpriseName>
+<businessUnit>
+<businessUnitName>Customers Services Business
+Line</businessUnitName>
+<businessUnitAddress>
+<street>heaven street</street>
+<postalZipCode>99999</postalZipCode>
+<city>Saint Vitus</city>
+<country>UTOPIA</country>
+<phoneNumber>111 222 333 444</phoneNumber>
+<faxNumber>111 222 333 445</faxNumber>
+<email>customers_services@utopia.com</email>
+<email>info@utopia.com</email>
+<internet>www.utopia.customers.services.online.com
+</internet>
+<internet>www.utopia.online.com</internet>
+</businessUnitAddress>
+</businessUnit>
+</enterpriseSpec>
+</enterpriseRepository>
+</commonRepository>
+Действительно: Все Σ1000Δ-Α-03-09-0502-11Γ-040Α-Α
+Конец модуля данных Глава 3.9.5.2.11.6
+2013-11-15 Страница 20

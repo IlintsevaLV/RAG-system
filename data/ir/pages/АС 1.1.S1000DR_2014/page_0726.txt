@@ -1,0 +1,43 @@
+Σ1000DR-UACRU-01000-00
+должно соответствовать стандарту Ω3C XML для десятичных значений, который
+требует использования точки [.] для разделения целой η дробной части η не
+подразумевает разделения разряда тысяч. Формат отображения β коде XML не
+задается, но он должен соответствовать программным требованиям или требованиям
+конкретной страны κ представлению данных. Правила представления данных см. β
+Глава 3.9.1 .
+quantityTolerance Элемент разметки: < > (O)
+Атрибуты:
+quantityToleranceType (O), тип допуска σ допустимыми значениями. Этот 
+атрибут может иметь следующие значения:
+plus • " " - верхний допуск
+minus • " " - нижний допуск
+plusorminus • " " - верхний η нижний допуски
+quantityUnitOfMeasure (O), единица измерения. См. Разд. 2.1.4.1. 
+Дочерние элементы:
+Нет 
+Пример разметки:
+Пример 1: Количественные данные σ типом, значением, допуском η единицей
+измерения:
+<para>Holding nut, torque bolt to
+<quantity quantityType="qty05">
+<quantityGroup quantityGroupType="nominal" unitOfMeasure="N.μ">
+<quantityValue>20</quantityValue>
+<quantityTolerance
+quantityToleranceType="plusorminus">2</quantityTolerance>
+</quantityGroup>
+</quantity>
+.
+</para>
+Отображение данной разметки может быть следующим:
+"Holding nut, torque bolt to 20 ± 2 Nm."
+Пример 2: Количественные данные σ группами из нескольких значений η допусков σ
+различными единицами измерения:
+<para>Chamfer both sides of rib
+<quantity>
+<quantityGroup quantityGroupType="nominal">
+<quantityValue>0.153</quantityValue>
+<quantityTolerance
+quantityToleranceType="plusorminus">0.005</quantityTolerance>
+Действительно: Все Σ1000Δ-Α-03-09-0502-01Λ-040Α-Α
+Глава 3.9.5.2.1.10
+2013-11-15 Страница 17

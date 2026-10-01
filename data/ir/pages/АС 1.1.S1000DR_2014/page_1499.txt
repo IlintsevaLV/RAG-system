@@ -1,0 +1,54 @@
+Σ1000DR-UACRU-01000-00
+<description>
+<para>Promote the use of ecologically-friendly means of
+transportation and respect the existence of wildlife, animals,
+and humans when conducting business services.</para>
+</description>
+</lcValues>
+<lcGoalStatement>
+<description>
+<para>To become the number-one, lowest-cost messenger service in
+the city</para>
+</description>
+</lcGoalStatement>
+<lcObjectiveStatement>
+<description>
+<para>Achieve 98% customer satisfaction rating on all bike
+courier services.</para>
+</description>
+</lcObjectiveStatement>
+</lcOrganizationalAnalysis>
+<lcGapAnalysis>
+<title>Gap Analysis</title>
+<description>
+<para>Recently, there has been α rise in calls for "breakdown"
+pickups, because the couriers do not know how to fix mechanical
+failures. This problem leads to increased workload on other
+carriers and late deliveries and pickups, which in turn leads to
+unsatisfied customers.</para>
+</description>
+<lcGapItem>
+<title>Gap Item</title>
+<description>
+<para>Many couriers cannot correct mechanical problems with the
+bike steering system within defined time parameters.</para>
+</description>
+</lcGapItem>
+<lcGapItem>
+<lcDesiredPerformanceStatement>
+<description>
+<para>Ability to maintain bike in full working order by having
+the ability to troubleshoot breakdowns and perform repairs with
+an average of 30 minutes from the time of breakdown</para>
+</description>
+</lcDesiredPerformanceStatement>
+<lcActualPerformanceStatement>
+<description>
+<para>Ability to maintain bike in full working order is observed
+with the existing abilities to troubleshoot breakdowns and
+perform repairs. However, the average time to repair is 75
+minutes from the time of breakdown.</para>
+</description>
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 15

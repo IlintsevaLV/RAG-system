@@ -1,0 +1,42 @@
+Σ1000DR-UACRU-01000-00
+негативно влияет на способность выполнять свою работу η, таким образом, является
+причиной потенциального или фактического низкого уровня производительности.
+lcData Элемент разметки: < > (O)
+Атрибуты:
+id lcData (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+securityClassification commercialClassification (O), (O) η 
+caveat (O), отметки ο секретности η ограничениях. См.
+Σ1000Δ-Α-03-06-0000-00Α-040Α-Α .
+Дочерние элементы:
+description < > (C). См. Σ1000Δ-Α-03-09-0502-02Α-040Α-Α . 
+Пример разметки:
+<lcData>
+<description>
+<para>Job sheets with basic, step-by-step procedures for routine
+maintenance tasks are provided to all couriers with their
+company-issued handbook. The maintenance procedures are not
+illustrated and do not reference tools that should be used in
+any given step.</para>
+</description>
+</lcData>
+2.3.1.2 Ресурсы
+lcResources Описание: Элемент < > содержит сведения ο нехватке ресурсов,
+которая негативно влияет на способность выполнять свою работу η, таким образом,
+является причиной потенциального или фактического низкого уровня
+производительности.
+lcResources Элемент разметки: < > (O)
+Атрибуты:
+id lcResources (O), идентификатор элемента < >. См. 
+Σ1000Δ-Α-03-09-0502-01C-040Α-Α .
+changeMark changeType reasonForUpdateRefIds (O), (O) η (O), 
+указания на изменения. См. Σ1000Δ-Α-03-09-0502-01Β-040Α-Α .
+authorityName authorityDocument (O) η (O), указания об управляемом 
+содержимом. См. Σ1000Δ-Α-03-09-0502-01Μ-040Α-Α .
+Действительно: Все Σ1000Δ-Α-03-09-0502-13Β-040Α-Α
+Глава 3.9.5.2.13.1
+2013-11-15 Страница 49

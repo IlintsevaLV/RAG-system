@@ -1,0 +1,31 @@
+S1000DR-UACRU-01000-00
+ICN-S3627-S1000D0563-001-01
+reducedRandomList Рис. 10 Элемент < >
+Атрибуты:
+listItemPrefix Не должен использоваться ни один атрибут, кроме , 
+pf03 которому присваивается значение " ".
+Дочерние элементы:
+reducedElemGroup Включает элементы . См. Разд. 2.3.1.15.3. 
+и
+reducedRandomListItem < > (M). См. Разд. 2.3.1.15.5. 
+2.3.1.15.5 Элемент перечня
+reducedRandomListItem Описание. Элемент < > содержит элемент
+произвольного перечня.
+reducedRandomListItem Элемент разметки: < > (M)
+Атрибуты:
+changeMark changeType reasonForUpdateRefIds (O), (O) и (O), 
+указания об изменениях. См. Глава 3.9.5.2.1.1 .
+ securityClassification commercialClassification (O), (O) и 
+caveat (O), отметки о секретности и ограничениях. См. Глава 3.6 .
+applicRefId id authorityName Использовать , , и 
+authorityDocument нельзя.
+Дочерние элементы:
+reducedListItemPara < > (C). См. Разд. 2.3.1.15.6. 
+2.3.1.15.6 Параграф элемента перечня
+reducedListItemPara Описание. Элемент < > содержит элементы произвольного
+перечня.
+reducedListItemPara Элемент разметки: < > (M)
+Атрибуты:
+Действительно: Все S1000D-A-03-09-0502-16A-040A-A
+Глава 3.9.5.2.16
+2013-11-15 Страница 25

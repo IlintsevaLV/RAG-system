@@ -1,0 +1,68 @@
+<warning>
+<warningAndCautionPara>Make
+conditions
+that are given in <dmRef>
+<dmRefIdent>
+<dmCode assyCode="00"
+infoCode="012"
+infoCodeVariant="Α"
+subSubSystemCode="0"
+subSystemCode="0"
+systemDiffCode="Α"/></dmRefIdent>
+</dmRef>.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+2.9 Примеры - Предварительные
+Β следующем примере разметки
+Σ1000DBIKE-AAA-Δ00-00-00-00AA-258Α-Α.
+представлена β Глава 6.2.3.3 .
+<preliminaryRqmts>
+<reqCondGroup>
+<reqCondNoRef>
+<reqCond>The bicycle is
+</reqCondNoRef>
+</reqCondGroup>
+<reqPersons applicRefId="apMK9">
+<person man="Α">
+<personCategory
+<personSkill skillLevelCode="sk02"/>
+<trade>Bike cleaner</trade>
+<estimatedTime
+</person>
+</reqPersons>
+<reqPersons applicRefId="apMK1">
+<person man="Β">
+<personCategory
+<personSkill skillLevelCode="sk02"/>
+<trade>Bike rider</trade>
+<estimatedTime
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr
+<name>Water hose</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>BSK-TLST-001-09</partNumber>
+</partAndSerialNumber>
+Действительно: Все
+
+Σ1000DR-UACRU-01000-00
+ sure you read the standard reqSafety
+disassyCode="00" disassyCodeVariant="Α"
+itemLocationCode="Δ" modelIdentCode="AE"
+systemCode="00"
+ требования
+приведены предварительные требования для
+ Полная версия данного модуля данных
+outdoors</reqCond>
+personCategoryCode="Chemical technician"/>
+unitOfMeasure="η">1,0</estimatedTime>
+personCategoryCode="Operator"/>
+unitOfMeasure="η">1,0</estimatedTime>
+id="seq-0001">
+Σ1000Δ-Α-03-09-0502-01K-040Α-Α
+Глава 3.9.5.2.1.9
+2013-11-15 Страница 72
