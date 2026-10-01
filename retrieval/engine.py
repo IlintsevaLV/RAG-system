@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
-from core.text_norm import latinize_greek_lookalikes
+from core.text_norm import normalize_greek_lookalikes
 from retrieval.clauses import AdmittedPage, TextChunk, chunk_document, is_toc_page
 
 # Dotted clause numbers stay whole. Letter+digit codes (ARP4754A) stay whole too:
@@ -67,8 +67,13 @@ class BuildReport:
         }
 
 
+def folded_text(text: str) -> str:
+    text = normalize_greek_lookalikes(text).lower().replace("ё", "е")
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def tokenize(text: str) -> list[str]:
-    folded = latinize_greek_lookalikes(text).lower().replace("ё", "е")
+    folded = folded_text(text)
     return [tok for tok in _TOKEN.findall(folded) if tok not in _STOP]
 
 
@@ -243,10 +248,6 @@ class SearchIndex:
         )
 
 
-def _rrf(ranks: dict[int, int], *, k: int = 60) -> float:
-    return sum(1.0 / (k + rank) for rank in ranks.values())
-
-
 def _query_covered(index: SearchIndex, idx: int, tokens: list[str], asked: list[str]) -> bool:
     """Keep a hit only when the chunk is the named пункт or covers most query words."""
     if clause_bonus(index.chunks[idx].clause_id, asked) > 0:
@@ -261,7 +262,7 @@ def _query_covered(index: SearchIndex, idx: int, tokens: list[str], asked: list[
     return matched >= 2 and matched / len(unique) >= 0.5
 
 
-def search(index: SearchIndex, query: str, *, top_k: int = 3, pool: int = 30) -> list[Hit]:
+def _lexical_hits(index: SearchIndex, query: str) -> list[tuple[int, float]]:
     tokens = tokenize(query)
     asked = query_clause_ids(query)
     if not tokens and not asked:
@@ -274,58 +275,99 @@ def search(index: SearchIndex, query: str, *, top_k: int = 3, pool: int = 30) ->
         score = base + clause_bonus(index.chunks[idx].clause_id, asked)
         if score > 0:
             lexical.append((idx, score))
-    lexical.sort(key=lambda item: item[1], reverse=True)
-    if not lexical and not index.vectors:
-        return []
+    phrase = folded_text(query) if len(tokens) >= 3 and len(folded_text(query)) >= 20 else ""
 
-    use_dense = bool(index.vectors)
-    if not use_dense:
-        return [
-            Hit(chunk=index.chunks[idx], score=score, method="lexical")
-            for idx, score in lexical[:top_k]
-        ]
+    def _rank(item: tuple[int, float]) -> tuple[int, int, float]:
+        idx, score = item
+        if not phrase:
+            return (0, 0, score)
+        text = folded_text(index.chunks[idx].text)
+        if phrase in text:
+            return (1, -len(text), score)
+        return (0, 0, score)
 
-    dense_scores = _dense_scores(index, query)
-    dense_ranked = sorted(dense_scores, key=lambda item: item[1], reverse=True)[:pool]
-    lex_ranked = lexical[:pool]
+    lexical.sort(key=_rank, reverse=True)
+    return lexical
+
+
+def _as_hits(index: SearchIndex, ranked: list[tuple[int, float]], method: str, top_k: int) -> list[Hit]:
+    return [
+        Hit(chunk=index.chunks[idx], score=score, method=method)
+        for idx, score in ranked[:top_k]
+    ]
+
+
+def search(
+    index: SearchIndex,
+    query: str,
+    *,
+    top_k: int = 3,
+    pool: int = 50,
+    mode: str = "lexical",
+    query_vector: list[float] | None = None,
+    w_bm25: float = 1.0,
+    w_dense: float = 1.0,
+    rrf_k: int = 60,
+) -> list[Hit]:
+    """mode: lexical | dense | hybrid. Default stays BM25 even if vectors are loaded."""
+    lexical = _lexical_hits(index, query)
+    if mode == "lexical" or (mode == "hybrid" and not index.vectors and query_vector is None):
+        return _as_hits(index, lexical, "lexical", top_k)
+
+    dense_ranked = _dense_ranking(index, query, query_vector=query_vector)
+    if mode == "dense":
+        return _as_hits(index, dense_ranked, "dense", top_k)
+    if not dense_ranked:
+        return _as_hits(index, lexical, "lexical", top_k)
+
+    asked = query_clause_ids(query)
+    lex_rank = {idx: rank for rank, (idx, _) in enumerate(lexical[:pool], start=1)}
+    dense_rank = {idx: rank for rank, (idx, _) in enumerate(dense_ranked[:pool], start=1)}
     fused: dict[int, float] = {}
-    lex_rank = {idx: rank for rank, (idx, _) in enumerate(lex_ranked, start=1)}
-    dense_rank = {idx: rank for rank, (idx, _) in enumerate(dense_ranked, start=1)}
     for idx in set(lex_rank) | set(dense_rank):
-        parts = {}
+        score = 0.0
         if idx in lex_rank:
-            parts["lex"] = lex_rank[idx]
+            score += w_bm25 / (rrf_k + lex_rank[idx])
         if idx in dense_rank:
-            parts["dense"] = dense_rank[idx]
-        fused[idx] = _rrf(parts)
-    # Exact clause match stays ahead of a merely similar paragraph.
-    for idx in list(fused):
-        fused[idx] += clause_bonus(index.chunks[idx].clause_id, asked) / 12.0
-    ordered = sorted(fused, key=lambda idx: fused[idx], reverse=True)
+            score += w_dense / (rrf_k + dense_rank[idx])
+        score += clause_bonus(index.chunks[idx].clause_id, asked) / 12.0
+        fused[idx] = score
+    ordered = sorted(
+        fused,
+        key=lambda idx: (fused[idx], -lex_rank.get(idx, 10**6)),
+        reverse=True,
+    )
     hits: list[Hit] = []
-    lex_score = dict(lexical)
     for idx in ordered:
-        if clause_bonus(index.chunks[idx].clause_id, asked) <= 0 and lex_score.get(idx, 0) <= 0:
-            if dense_scores and dict(dense_scores).get(idx, 0) < 0.35:
-                continue
-        method = "hybrid" if idx in lex_rank and idx in dense_rank else (
-            "lexical" if idx in lex_rank else "dense"
-        )
+        if idx in lex_rank and idx in dense_rank:
+            method = "hybrid"
+        elif idx in lex_rank:
+            method = "lexical"
+        else:
+            method = "dense"
         hits.append(Hit(chunk=index.chunks[idx], score=fused[idx], method=method))
         if len(hits) >= top_k:
             break
     return hits
 
 
-def _dense_scores(index: SearchIndex, query: str) -> list[tuple[int, float]]:
-    if not index.vectors or not index.embedding_model:
+def _dense_ranking(
+    index: SearchIndex,
+    query: str,
+    *,
+    query_vector: list[float] | None = None,
+) -> list[tuple[int, float]]:
+    if not index.vectors and query_vector is None:
         return []
-    vector = embed_query(query, index.embedding_model)
+    vector = query_vector
     if vector is None:
+        if not index.embedding_model:
+            return []
+        vector = embed_query(query, index.embedding_model)
+    if not vector or not index.vectors:
         return []
-    scored: list[tuple[int, float]] = []
-    for idx, doc_vec in enumerate(index.vectors):
-        scored.append((idx, _dot(vector, doc_vec)))
+    scored = [(idx, _dot(vector, doc_vec)) for idx, doc_vec in enumerate(index.vectors)]
+    scored.sort(key=lambda item: item[1], reverse=True)
     return scored
 
 
@@ -339,16 +381,23 @@ def _e5_prefix(model_name: str, kind: str) -> str:
     return ""
 
 
-def embed_passages(texts: list[str], model_name: str) -> list[list[float]]:
+def embed_passages(texts: list[str], model_name: str, *, batch_size: int = 32) -> list[list[float]]:
     model = _load_encoder(model_name)
     prefix = _e5_prefix(model_name, "passage")
-    vectors = model.encode(
-        [prefix + text for text in texts],
-        batch_size=16,
-        show_progress_bar=False,
-        normalize_embeddings=True,
-    )
-    return [[float(x) for x in row] for row in vectors]
+    rows: list[list[float]] = []
+    total = len(texts)
+    for start in range(0, total, batch_size):
+        batch = texts[start : start + batch_size]
+        vectors = model.encode(
+            [prefix + text for text in batch],
+            batch_size=batch_size,
+            show_progress_bar=False,
+            normalize_embeddings=True,
+        )
+        rows.extend([float(x) for x in row] for row in vectors)
+        if total > batch_size:
+            print(f"dense {min(start + batch_size, total)}/{total}", flush=True)
+    return rows
 
 
 def embed_query(query: str, model_name: str) -> list[float] | None:
@@ -410,6 +459,99 @@ def _file_sha(path: Path) -> str:
     return digest.hexdigest()
 
 
+def chunk_text_sha(text: str) -> str:
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def _read_dense_cache(out_dir: Path) -> dict[str, list[float]]:
+    """Map chunk text hash → vector. A changed chunk is embedded again."""
+    ids_path = out_dir / "dense_ids.json"
+    npy_path = out_dir / "dense.npy"
+    if not ids_path.exists() or not npy_path.exists():
+        return {}
+    try:
+        import numpy as np
+
+        ids = json.loads(ids_path.read_text(encoding="utf-8"))
+        arr = np.load(npy_path)
+    except (OSError, ValueError, json.JSONDecodeError):
+        return {}
+    cache: dict[str, list[float]] = {}
+    if len(ids) != len(arr):
+        return {}
+    for row, vec in zip(ids, arr):
+        sha = row.get("sha256")
+        if sha:
+            cache[sha] = [float(x) for x in vec]
+    return cache
+
+
+def _load_aligned_dense(out_dir: Path, chunks: list[TextChunk]) -> list[list[float]] | None:
+    ids_path = out_dir / "dense_ids.json"
+    npy_path = out_dir / "dense.npy"
+    if not ids_path.exists() or not npy_path.exists():
+        return None
+    try:
+        import numpy as np
+
+        ids = json.loads(ids_path.read_text(encoding="utf-8"))
+        arr = np.load(npy_path)
+    except (OSError, ValueError, json.JSONDecodeError):
+        return None
+    if len(ids) != len(chunks) or len(arr) != len(chunks):
+        return None
+    for i, chunk in enumerate(chunks):
+        if ids[i].get("chunk_id") != chunk.chunk_id:
+            return None
+        if ids[i].get("sha256") != chunk_text_sha(chunk.text):
+            return None
+    return [[float(x) for x in row] for row in arr]
+
+
+def _write_dense(
+    chunks: list[TextChunk],
+    report: BuildReport,
+    out_dir: Path,
+    embedding_model: str,
+) -> None:
+    cache = _read_dense_cache(out_dir)
+    missing = [i for i, chunk in enumerate(chunks) if chunk_text_sha(chunk.text) not in cache]
+    fresh: list[list[float]] = []
+    if missing:
+        try:
+            fresh = embed_passages([chunks[i].text for i in missing], embedding_model)
+        except RuntimeError as exc:
+            report.notes.append(f"dense skipped: {exc}")
+            report.dense = False
+            return
+        if len(fresh) != len(missing):
+            report.notes.append("dense skipped: encoder returned the wrong number of vectors")
+            report.dense = False
+            return
+    elif chunks:
+        report.notes.append("dense cache hit, model not loaded")
+    rows: list[list[float]] = []
+    fresh_at = 0
+    ids: list[dict[str, str]] = []
+    for chunk in chunks:
+        sha = chunk_text_sha(chunk.text)
+        if sha in cache:
+            rows.append(cache[sha])
+        else:
+            rows.append(fresh[fresh_at])
+            fresh_at += 1
+        ids.append({"chunk_id": chunk.chunk_id, "sha256": sha})
+    import numpy as np
+
+    np.save(out_dir / "dense.npy", np.asarray(rows, dtype="float32"))
+    (out_dir / "dense_ids.json").write_text(
+        json.dumps(ids, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    report.dense = True
+    report.notes.append(f"dense embedded {len(missing)}, reused {len(chunks) - len(missing)}")
+
+
 def write_index(
     chunks: list[TextChunk],
     report: BuildReport,
@@ -418,25 +560,29 @@ def write_index(
     embedding_model: str | None = None,
 ) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
+    meta_path = out_dir / "meta.json"
+    old_meta: dict = {}
+    if meta_path.exists():
+        try:
+            old_meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            old_meta = {}
     chunk_path = out_dir / "chunks.jsonl"
     lines = [json.dumps(chunk.to_dict(), ensure_ascii=False) for chunk in chunks]
     chunk_path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
-    vectors_path = out_dir / "vectors.json"
-    if vectors_path.exists():
-        vectors_path.unlink()
+    legacy = out_dir / "vectors.json"
+    if legacy.exists():
+        legacy.unlink()
     if embedding_model and chunks:
-        try:
-            vectors = embed_passages([chunk.text for chunk in chunks], embedding_model)
-        except RuntimeError as exc:
-            report.notes.append(str(exc))
-            report.dense = False
-        else:
-            vectors_path.write_text(json.dumps(vectors), encoding="utf-8")
-            report.dense = True
+        _write_dense(chunks, report, out_dir, embedding_model)
+    model_name = embedding_model if report.dense else None
+    if model_name is None and _load_aligned_dense(out_dir, chunks):
+        model_name = old_meta.get("embedding_model")
+        report.dense = bool(model_name)
     meta = {
         "built_at": datetime.now(timezone.utc).isoformat(),
         "chunks_sha256": _file_sha(chunk_path),
-        "embedding_model": embedding_model if report.dense else None,
+        "embedding_model": model_name,
         "report": report.to_dict(),
     }
     (out_dir / "meta.json").write_text(
@@ -456,17 +602,12 @@ def load_index(out_dir: Path) -> SearchIndex:
             chunks.append(TextChunk.from_dict(json.loads(line)))
     meta_path = out_dir / "meta.json"
     meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
-    vectors = None
-    model = meta.get("embedding_model")
-    vectors_path = out_dir / "vectors.json"
-    if model and vectors_path.exists() and meta.get("chunks_sha256") == _file_sha(chunk_path):
-        loaded = json.loads(vectors_path.read_text(encoding="utf-8"))
-        if len(loaded) == len(chunks):
-            vectors = loaded
-    return SearchIndex.from_chunks(chunks, vectors=vectors, embedding_model=model if vectors else None)
+    vectors = _load_aligned_dense(out_dir, chunks)
+    model = meta.get("embedding_model") if vectors else None
+    return SearchIndex.from_chunks(chunks, vectors=vectors, embedding_model=model)
 
 
-def probe_recall(index: SearchIndex, *, limit: int = 100, top_k: int = 5) -> dict:
+def probe_recall(index: SearchIndex, *, limit: int = 100, top_k: int = 5, mode: str = "lexical") -> dict:
     """Ask the index with a sentence taken from a chunk. The label is that chunk."""
     pool = [chunk for chunk in index.chunks if len(tokenize(chunk.text)) >= 6]
     checked = 0
@@ -484,7 +625,7 @@ def probe_recall(index: SearchIndex, *, limit: int = 100, top_k: int = 5) -> dic
         if not query:
             continue
         checked += 1
-        found = search(index, query, top_k=top_k)
+        found = search(index, query, top_k=top_k, mode=mode)
         ok = any(
             hit.chunk.doc_id == chunk.doc_id
             and hit.chunk.clause_id == chunk.clause_id
@@ -498,6 +639,55 @@ def probe_recall(index: SearchIndex, *, limit: int = 100, top_k: int = 5) -> dic
             misses.append(f"{chunk.doc_id} п.{chunk.clause_id} стр.{chunk.page_start}: {query[:120]}")
     recall = (hits_ok / checked) if checked else 0.0
     return {"checked": checked, "hits": hits_ok, "recall_at_5": round(recall, 4), "misses": misses}
+
+
+def _gold_match(hit: Hit, item: dict) -> bool:
+    if item.get("doc_id") and hit.chunk.doc_id != item["doc_id"]:
+        return False
+    clause = item.get("clause_id")
+    if clause and hit.chunk.clause_id != clause:
+        return False
+    page = item.get("page")
+    if page is not None and not (hit.chunk.page_start <= int(page) <= hit.chunk.page_end):
+        return False
+    return True
+
+
+def eval_gold(
+    index: SearchIndex,
+    gold_path: Path,
+    *,
+    mode: str = "hybrid",
+    top_k: int = 5,
+) -> dict:
+    data = json.loads(gold_path.read_text(encoding="utf-8"))
+    items = data["items"] if isinstance(data, dict) else data
+    recalls = {1: 0, 3: 0, 5: 0}
+    rr_sum = 0.0
+    missed: list[str] = []
+    for item in items:
+        hits = search(index, item["query"], top_k=top_k, mode=mode)
+        rank = 0
+        for i, hit in enumerate(hits, start=1):
+            if _gold_match(hit, item):
+                rank = i
+                break
+        if rank:
+            rr_sum += 1.0 / rank
+            for k in recalls:
+                if rank <= k:
+                    recalls[k] += 1
+        elif len(missed) < 8:
+            missed.append(item["query"])
+    n = len(items) or 1
+    return {
+        "n": len(items),
+        "recall_at_1": round(recalls[1] / n, 4),
+        "recall_at_3": round(recalls[3] / n, 4),
+        "recall_at_5": round(recalls[5] / n, 4),
+        "mrr": round(rr_sum / n, 4),
+        "misses": missed,
+    }
 
 
 def format_hit(hit: Hit, rank: int) -> str:

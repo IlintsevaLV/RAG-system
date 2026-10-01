@@ -21,6 +21,7 @@ from core.config import get_settings
 from retrieval.checks import run_checks
 from retrieval.engine import (
     build_chunks,
+    eval_gold,
     format_answer,
     load_index,
     probe_recall,
@@ -70,13 +71,13 @@ def _cmd_build(args: argparse.Namespace) -> int:
         "пустой JSON: {empty_json}".format(**report.to_dict())
     )
     if report.dense:
-        print(f"Плотные векторы: {model}")
+        print(f"Плотные векторы: {model or 'cache'}")
+    elif args.dense:
+        print("dense skipped")
     else:
         print("Плотные векторы не строились. Поиск лексический.")
     for note in report.notes:
         print(note)
-    if args.dense and not report.dense:
-        return 2
     return 0
 
 
@@ -87,7 +88,20 @@ def _cmd_query(args: argparse.Namespace) -> int:
         print("Пустой запрос.")
         return 1
     index = load_index(_index_dir(args.index_dir))
-    hits = search(index, query, top_k=args.top)
+    if args.mode in ("dense", "hybrid") and not index.vectors:
+        print("Плотные векторы не найдены. Сначала: python -m retrieval build --dense")
+        if args.mode == "dense":
+            return 2
+        print("Используется лексический поиск.")
+    hits = search(
+        index,
+        query,
+        top_k=args.top,
+        mode=args.mode,
+        w_bm25=args.w_bm25,
+        w_dense=args.w_dense,
+        rrf_k=args.rrf_k,
+    )
     if args.json:
         payload = {
             "query": query,
@@ -101,9 +115,27 @@ def _cmd_query(args: argparse.Namespace) -> int:
     return 0 if hits else 3
 
 
+def _cmd_eval(args: argparse.Namespace) -> int:
+    gold = Path(args.gold)
+    if not gold.exists():
+        print(f"Golden нет: {gold}")
+        print("Пока его нет, самопроверка: python -m retrieval probe")
+        return 2
+    index = load_index(_index_dir(args.index_dir))
+    result = eval_gold(index, gold, mode=args.mode, top_k=args.top)
+    print(
+        f"n={result['n']} mode={args.mode} "
+        f"recall@1={result['recall_at_1']} recall@3={result['recall_at_3']} "
+        f"recall@5={result['recall_at_5']} MRR={result['mrr']}"
+    )
+    for miss in result["misses"]:
+        print(f"  промах: {miss}")
+    return 0
+
+
 def _cmd_probe(args: argparse.Namespace) -> int:
     index = load_index(_index_dir(args.index_dir))
-    result = probe_recall(index, limit=args.limit, top_k=5)
+    result = probe_recall(index, limit=args.limit, top_k=5, mode=args.mode)
     print(
         f"Пробы: {result['checked']}, попадания: {result['hits']}, "
         f"recall@5: {result['recall_at_5']}"
@@ -134,12 +166,24 @@ def main(argv: list[str] | None = None) -> int:
     query.add_argument("--top", type=int, default=3)
     query.add_argument("--json", action="store_true")
     query.add_argument("--index-dir", default=None)
+    query.add_argument("--mode", choices=("lexical", "dense", "hybrid"), default="lexical")
+    query.add_argument("--w-bm25", type=float, default=1.0)
+    query.add_argument("--w-dense", type=float, default=1.0)
+    query.add_argument("--rrf-k", type=int, default=60)
     query.set_defaults(func=_cmd_query)
 
     probe = sub.add_parser("probe", help="Самопроверка: предложение из чанка ищется обратно")
     probe.add_argument("--limit", type=int, default=100)
     probe.add_argument("--index-dir", default=None)
+    probe.add_argument("--mode", choices=("lexical", "dense", "hybrid"), default="lexical")
     probe.set_defaults(func=_cmd_probe)
+
+    ev = sub.add_parser("eval", help="recall@k и MRR по golden JSON")
+    ev.add_argument("--gold", default="data/ir/gold/retrieval_v1.json")
+    ev.add_argument("--index-dir", default=None)
+    ev.add_argument("--mode", choices=("lexical", "dense", "hybrid"), default="hybrid")
+    ev.add_argument("--top", type=int, default=5)
+    ev.set_defaults(func=_cmd_eval)
 
     check = sub.add_parser("check", help="Проверки нарезки и поиска на синтетике")
     check.set_defaults(func=lambda _args: run_checks())

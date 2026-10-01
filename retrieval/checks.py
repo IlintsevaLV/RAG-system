@@ -6,8 +6,8 @@ import json
 import tempfile
 from pathlib import Path
 
-from core.text_norm import latinize_greek_lookalikes
-from retrieval.clauses import AdmittedPage, chunk_document, heading_num, join_hyphens
+from core.text_norm import normalize_greek_lookalikes
+from retrieval.clauses import AdmittedPage, TextChunk, chunk_document, heading_num, join_hyphens
 from retrieval.engine import (
     BuildReport,
     SearchIndex,
@@ -45,19 +45,30 @@ def run_checks() -> int:
     alpha = "ARP4754\u0391"
     sigma = "NASA\u2019\u03c3 STI"
     eg = "\u03b5.\u03b3."
-    if latinize_greek_lookalikes(f"any {alpha} requirement") != "any ARP4754A requirement":
+    if normalize_greek_lookalikes(f"any {alpha} requirement") != "any ARP4754A requirement":
         _fail("Greek alpha inside ARP4754A was kept")
-    if latinize_greek_lookalikes("\u03b1 key part") != "a key part":
+    if normalize_greek_lookalikes("\u03b1 key part") != "a key part":
         _fail("Greek alpha in a Latin phrase was kept")
-    if latinize_greek_lookalikes(sigma) != "NASA\u2019s STI":
-        _fail(f"sigma in NASA was kept: {latinize_greek_lookalikes(sigma)!r}")
-    if latinize_greek_lookalikes(f"see {eg} above") != "see e.g. above":
+    if normalize_greek_lookalikes(sigma) != "NASA\u2019s STI":
+        _fail(f"sigma in NASA was kept: {normalize_greek_lookalikes(sigma)!r}")
+    if normalize_greek_lookalikes(f"see {eg} above") != "see e.g. above":
         _fail("epsilon.gamma abbreviation was kept")
     formula = "\u03c3 = \u03bc + \u03bb"
-    if latinize_greek_lookalikes(formula) != formula:
-        _fail(f"formula was latinized: {latinize_greek_lookalikes(formula)!r}")
-    if latinize_greek_lookalikes("\u03b1") != "\u03b1":
+    if normalize_greek_lookalikes(formula) != formula:
+        _fail(f"formula was latinized: {normalize_greek_lookalikes(formula)!r}")
+    if normalize_greek_lookalikes("\u03b1") != "\u03b1":
         _fail("isolated formula variable was latinized")
+    cyr = "changeType \u03b7 (O); \u03b2 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438 \u03c3 \u0413\u043b\u0430\u0432\u0430"
+    got_cyr = normalize_greek_lookalikes(cyr)
+    if "\u03b7" in got_cyr or "\u03b2" in got_cyr or "\u03c3" in got_cyr:
+        _fail(f"Cyrillic context kept Greek: {got_cyr!r}")
+    if "\u0432 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438 \u0441 \u0413\u043b\u0430\u0432\u0430" not in got_cyr:
+        _fail(f"Cyrillic twins missing: {got_cyr!r}")
+    code = "\u03a31000\u0394-\u0391-08-02-0700-00\u0391-040\u0391-\u0391"
+    if normalize_greek_lookalikes(code) != "S1000D-A-08-02-0700-00A-040A-A":
+        _fail(f"S1000D code: {normalize_greek_lookalikes(code)!r}")
+    if normalize_greek_lookalikes("\u03a31000DR-UACRU-01000-00") != "S1000DR-UACRU-01000-00":
+        _fail("capital sigma in S1000DR was kept")
     if tokenize(alpha) != ["arp4754a"]:
         _fail(f"identifier token split: {tokenize(alpha)}")
 
@@ -213,6 +224,113 @@ def run_checks() -> int:
     other = search(arp_index, "future ARP4754A applications", top_k=1)
     if not other or other[0].chunk.page_start != 193:
         _fail("second questionnaire item was not separated by its identifier")
+
+    phrase = "Please describe any ARP4754A requirement validation issues encountered"
+    short = TextChunk(
+        chunk_id="short",
+        doc_id="APR4754A application",
+        source_file="APR4754A application.pdf",
+        page_start=167,
+        page_end=167,
+        page_class="A",
+        clause_id="24",
+        part=1,
+        parts=1,
+        text="24 " + phrase + " during the review of this system.",
+    )
+    long = TextChunk(
+        chunk_id="long",
+        doc_id="APR4754A application",
+        source_file="APR4754A application.pdf",
+        page_start=139,
+        page_end=140,
+        page_class="A",
+        clause_id="178",
+        part=1,
+        parts=32,
+        text=(phrase + "\n") * 40,
+    )
+    ranked = search(SearchIndex.from_chunks([long, short]), phrase, top_k=1)
+    if not ranked or ranked[0].chunk.clause_id != "24":
+        _fail(f"long chunk outranked the short exact clause: {[h.chunk.clause_id for h in ranked]}")
+
+    hydro = TextChunk(
+        chunk_id="hydro",
+        doc_id="НЛГ-27",
+        source_file="НЛГ-27.pdf",
+        page_start=83,
+        page_end=83,
+        page_class="A",
+        clause_id="27.1435",
+        part=1,
+        parts=1,
+        text="27.1435. Гидравлические системы. Конструкция должна выдерживать нагрузки.",
+    )
+    other = TextChunk(
+        chunk_id="other",
+        doc_id="НЛГ-27",
+        source_file="НЛГ-27.pdf",
+        page_start=10,
+        page_end=10,
+        page_class="A",
+        clause_id="9.1",
+        part=1,
+        parts=1,
+        text="Обучение персонала проводится по отдельной программе аэродрома.",
+    )
+    para = SearchIndex.from_chunks(
+        [hydro, other],
+        vectors=[[1.0, 0.0], [0.0, 1.0]],
+        embedding_model="test",
+    )
+    paraphrased = search(
+        para,
+        "требования к прочности гидросистем",
+        mode="hybrid",
+        query_vector=[1.0, 0.0],
+        top_k=1,
+    )
+    if not paraphrased or paraphrased[0].chunk.clause_id != "27.1435":
+        _fail("hybrid missed the hydraulic clause on a paraphrase")
+    lexical_only = search(para, "требования к прочности гидросистем", mode="lexical", top_k=1)
+    if lexical_only and lexical_only[0].chunk.clause_id == "27.1435":
+        _fail("lexical unexpectedly matched the paraphrase; the test no longer separates the modes")
+    direct = search(
+        para,
+        "гидравлические системы 27.1435",
+        mode="hybrid",
+        query_vector=[0.0, 1.0],
+        top_k=1,
+    )
+    if not direct or direct[0].chunk.clause_id != "27.1435":
+        _fail(f"dense vector pulled the direct hit off rank 1: {[h.chunk.clause_id for h in direct]}")
+
+    import retrieval.engine as engine
+
+    saved = engine.embed_passages
+    calls: list[int] = []
+
+    def _fake_embed(texts: list[str], model_name: str, *, batch_size: int = 32) -> list[list[float]]:
+        calls.append(len(texts))
+        return [[float(len(text)), 1.0] for text in texts]
+
+    engine.embed_passages = _fake_embed
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp)
+            report = BuildReport()
+            write_index([hydro], report, out, embedding_model="intfloat/multilingual-e5-small")
+            if calls != [1] or not report.dense:
+                _fail(f"first dense build did not embed the chunk: {calls} {report.notes}")
+            again_report = BuildReport()
+            write_index([hydro], again_report, out, embedding_model="intfloat/multilingual-e5-small")
+            if calls != [1]:
+                _fail(f"unchanged chunk was embedded again: {calls}")
+            loaded = load_index(out)
+            if not loaded.vectors or loaded.embedding_model != "intfloat/multilingual-e5-small":
+                _fail("dense.npy was not reloaded")
+    finally:
+        engine.embed_passages = saved
 
     print("check: ok")
     return 0

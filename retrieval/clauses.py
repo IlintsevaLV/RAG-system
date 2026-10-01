@@ -10,7 +10,7 @@ from __future__ import annotations
 import re
 from dataclasses import asdict, dataclass
 
-from core.text_norm import latinize_greek_lookalikes
+from core.text_norm import normalize_greek_lookalikes
 
 MAX_CHUNK_CHARS = 1800
 
@@ -187,7 +187,7 @@ def _chunk_from_part(
     body = "\n".join(row[2] for row in part_lines).strip()
     if part > 1 and heading and clause_id and not body.startswith(heading):
         body = f"{heading}\n{body}"
-    body = latinize_greek_lookalikes(body)
+    body = normalize_greek_lookalikes(body)
     letters = _letter_count(body)
     if clause_id:
         if letters < 8:
