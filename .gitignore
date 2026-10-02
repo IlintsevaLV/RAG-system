@@ -56,3 +56,8 @@ data/ir/regions_*/
 data/ir/gold/renders_v2/
 data/ir/gold/renders/
 
+
+# Local temp scripts
+_*.py
+_*.ps1
+_*.png
