@@ -61,3 +61,7 @@ data/ir/gold/renders/
 _*.py
 _*.ps1
 _*.png
+
+_*.py
+_*.ps1
+_*.png
