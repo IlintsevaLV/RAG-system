@@ -138,6 +138,25 @@ def _download_greek(dest: Path) -> None:
     )
 
 
+def _download_cyrillic_server(dest: Path) -> None:
+    """The RapidOCR v3.9.2 catalog has no Cyrillic server recognizer.
+
+    It publishes cyrillic_PP-OCRv5_rec_mobile.onnx and ch_PP-OCRv5_rec_server.onnx.
+    The Chinese server model does not read Russian. If a Cyrillic server ONNX is
+    obtained elsewhere, put it in the model dir under CYRILLIC_REC_SERVER.
+    """
+    from ingestion.ocr_rapid import CYRILLIC_REC_SERVER
+
+    print(
+        f"No official file for {CYRILLIC_REC_SERVER}. "
+        "RapidOCR v3.9.2 lists cyrillic_PP-OCRv5_rec_mobile.onnx only; "
+        "ch_PP-OCRv5_rec_server.onnx is Chinese/English/Japanese."
+    )
+    out = dest / CYRILLIC_REC_SERVER
+    if out.is_file():
+        print(f"Local file already present: {out}")
+
+
 def _download_latin(dest: Path) -> None:
     _download_optional(
         dest,
@@ -151,6 +170,11 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Prepare offline RapidOCR models")
     parser.add_argument("--out", default=None, help="Target dir (default data/models/ocr)")
     parser.add_argument("--zip", action="store_true", help="Also write ocr_models.zip")
+    parser.add_argument(
+        "--rec-server",
+        action="store_true",
+        help="Also download cyrillic_PP-OCRv5_rec_server.onnx",
+    )
     args = parser.parse_args(argv)
 
     dest = Path(args.out) if args.out else default_model_dir()
@@ -184,6 +208,17 @@ def main(argv: list[str] | None = None) -> int:
             missing_opt = _copy_from_rapidocr_package_named(dest, [filename])
             if missing_opt:
                 downloader(dest)
+
+    if args.rec_server:
+        from ingestion.ocr_rapid import CYRILLIC_REC_SERVER
+
+        server_path = dest / CYRILLIC_REC_SERVER
+        if not server_path.is_file():
+            _download_cyrillic_server(dest)
+        if server_path.is_file():
+            print(f"  {CYRILLIC_REC_SERVER}  ({server_path.stat().st_size / 1e6:.1f} MB)  [cyrillic server]")
+        else:
+            print(f"  WARN: {CYRILLIC_REC_SERVER} not installed — rpd_server will fail")
 
     print(f"OK. Models ready in {dest.resolve()}")
     for name in REQUIRED_MODELS:

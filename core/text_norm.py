@@ -89,12 +89,15 @@ _GREEK_LOOKALIKE_TO_LAT = {
     "τ": "t",
     "υ": "y",
     "χ": "x",
+    "ι": "i",
     "Γ": "G",
     "Σ": "S",
     "Δ": "D",
     "Π": "P",
 }
 # Same shapes used inside Russian words: β соответствии → в соответствии.
+# Uppercase list markers in Russian headings: (Δ) Внешнее → (Д) Внешнее.
+# χ/δ/φ/γ are the Greek shapes standing in for в/г/ф/г in those headings.
 _GREEK_LOOKALIKE_TO_CYR = {
     "β": "в",
     "η": "и",
@@ -107,9 +110,44 @@ _GREEK_LOOKALIKE_TO_CYR = {
     "ε": "е",
     "ο": "о",
     "κ": "к",
+    "χ": "в",
+    "δ": "г",
+    "φ": "ф",
+    "γ": "г",
+    "ι": "и",
+    "Α": "А",
+    "Β": "В",
+    "Ε": "Е",
+    "Η": "Н",
+    "Ι": "И",
+    "Κ": "К",
+    "Μ": "М",
+    "Ο": "О",
+    "Ρ": "Р",
+    "Τ": "Т",
+    "Υ": "У",
+    "Χ": "Х",
+    "Δ": "Д",
+    "Γ": "Г",
+    "Θ": "О",
+    "Λ": "Л",
+    "Ξ": "Э",
+    "Π": "П",
+    "Σ": "С",
+    "Φ": "Ф",
+    "Ψ": "Ч",
+    "Ω": "О",
 }
+_CYR_ABBREV = (
+    ("τ.δ.", "т.д."),
+    ("τ.ε.", "т.е."),
+    ("τ.κ.", "т.к."),
+    ("τ. δ.", "т. д."),
+    ("τ. ε.", "т. е."),
+    ("τ. κ.", "т. к."),
+)
 _LOOKALIKE_CHARS = set(_GREEK_LOOKALIKE_TO_LAT) | set(_GREEK_LOOKALIKE_TO_CYR)
-_TRANSPARENT = set(" \t\n\r\u00a0.,;:!?\"'«»“”„()[]{}…·-/\\'’`´")
+_TRANSPARENT = set(" \t\n\r\u00a0.,;:!?\"'«»“”„()[]{}…·-/\\'’`´§¶№—–−•")
 _ABBREV_PUNCT = set(".,")
 _CODE_JOIN = set("-_/")
 _MATH = set("=<>≤≥≠≈±∓×÷·∙*^_~∼≅≡∝∞∫∑∏√∂∇∈∉⊂⊃∧∨¬|∥°′″")
@@ -158,8 +196,23 @@ def _lookalike_side(chars: list[str], index: int, step: int) -> tuple[str, int]:
             return "block", dist
         if "GREEK" in unicodedata.name(ch, ""):
             return "block", dist
+        # §, dashes and other signs are not a script. Keep walking to a letter.
+        if unicodedata.category(ch).startswith(("P", "S")):
+            j += step
+            continue
         return "block", dist
     return "edge", dist
+
+
+def _in_parens(chars: list[str], index: int) -> bool:
+    lo = index - 1
+    while lo >= 0 and chars[lo] != "(" and chars[lo] != ")" and (chars[lo] in _TRANSPARENT or chars[lo].isspace()):
+        lo -= 1
+    hi = index + 1
+    n = len(chars)
+    while hi < n and chars[hi] != ")" and chars[hi] != "(" and (chars[hi] in _TRANSPARENT or chars[hi].isspace()):
+        hi += 1
+    return lo >= 0 and chars[lo] == "(" and hi < n and chars[hi] == ")"
 
 
 def _in_abbrev_cluster(chars: list[str], index: int) -> bool:
@@ -200,14 +253,28 @@ def _in_code_cluster(chars: list[str], index: int) -> bool:
 def _map_lookalike(ch: str, left: str, right: str, left_dist: int, right_dist: int, chars: list[str], index: int) -> str | None:
     if left == "block" or right == "block":
         return None
+    # η has no Latin twin. A nearby English label must not leave it Greek.
+    if ch == "η":
+        return "и"
+    # (ι) is the list index i, including in a Russian heading: (ι) ОЦЕНКА.
+    if ch in "ιΙ" and _in_parens(chars, index):
+        return "i" if ch == "ι" else "I"
     if _in_code_cluster(chars, index):
-        return _GREEK_LOOKALIKE_TO_LAT.get(ch)
+        mapped = _GREEK_LOOKALIKE_TO_LAT.get(ch)
+        if mapped:
+            return mapped
     saw_lat = left == "latin" or right == "latin"
     saw_cyr = left == "cyrillic" or right == "cyrillic"
     if saw_cyr and not saw_lat:
         return _GREEK_LOOKALIKE_TO_CYR.get(ch)
     if saw_lat and not saw_cyr:
-        return _GREEK_LOOKALIKE_TO_LAT.get(ch)
+        mapped = _GREEK_LOOKALIKE_TO_LAT.get(ch)
+        if mapped:
+            return mapped
+        # δ, φ and the other letters that only have a Cyrillic twin.
+        if ch not in _GREEK_LOOKALIKE_TO_LAT:
+            return _GREEK_LOOKALIKE_TO_CYR.get(ch)
+        return None
     if saw_lat and saw_cyr:
         if left_dist < right_dist:
             prefer_cyr = left == "cyrillic"
@@ -225,18 +292,50 @@ def _map_lookalike(ch: str, left: str, right: str, left_dist: int, right_dist: i
             return _GREEK_LOOKALIKE_TO_CYR[ch]
         return _GREEK_LOOKALIKE_TO_LAT.get(ch)
     if _in_abbrev_cluster(chars, index):
-        return _GREEK_LOOKALIKE_TO_LAT.get(ch)
+        return _GREEK_LOOKALIKE_TO_LAT.get(ch) or _GREEK_LOOKALIKE_TO_CYR.get(ch)
+    # § 29.501(α) has digits and no Latin word: the list letter is Cyrillic.
+    # A lone α has neither, and stays a formula variable.
+    if _near_digit(chars, index) and ch in _GREEK_LOOKALIKE_TO_CYR:
+        return _GREEK_LOOKALIKE_TO_CYR[ch]
+    if ch not in _GREEK_LOOKALIKE_TO_LAT:
+        return _GREEK_LOOKALIKE_TO_CYR.get(ch)
     return None
+
+
+def _near_digit(chars: list[str], index: int) -> bool:
+    for step in (-1, 1):
+        j = index + step
+        while 0 <= j < len(chars):
+            ch = chars[j]
+            if ch.isdigit():
+                return True
+            if (
+                ch in _LOOKALIKE_CHARS
+                or ch.isspace()
+                or ch in _TRANSPARENT
+                or unicodedata.category(ch).startswith(("P", "S"))
+            ):
+                j += step
+                continue
+            break
+    return False
 
 
 def normalize_greek_lookalikes(text: str) -> str:
     """Map Greek lookalikes to Latin or Cyrillic. Formula letters stay Greek.
 
     Cyrillic next to the letter picks the Cyrillic twin (``β соответствии`` →
-    ``в соответствии``). Latin, or a digit code such as ``Σ1000Δ``, picks Latin
-    (``ARP4754Α``, ``ε.γ.``). ``σ = μ + λ`` is unchanged.
+    ``в соответствии``, ``(Δ) Внешнее`` → ``(Д) Внешнее``). ``η`` becomes ``и``
+    unless a formula sign blocks it (``§ 29.305 η 29.307``). Latin, or a digit
+    code such as ``Σ1000Δ``, picks Latin (``ARP4754Α``, ``ε.γ.``). ``τ.δ.``
+    becomes ``т.д.``. ``σ = μ + λ`` is unchanged.
     """
-    if not text or not any(ch in _LOOKALIKE_CHARS for ch in text):
+    if not text:
+        return text
+    for src, dst in _CYR_ABBREV:
+        if src in text:
+            text = text.replace(src, dst)
+    if not any(ch in _LOOKALIKE_CHARS for ch in text):
         return text
     chars = list(text)
     out: list[str] = []

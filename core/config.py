@@ -63,7 +63,9 @@ class Settings(BaseSettings):
     cd_fail_ocr_conf: float = 0.55
     vlm_timeout_s: float = 180.0
 
-    # RapidOCR
+    # RapidOCR. rpd = mobile recognizer (default). rpd_server = cyrillic PP-OCRv5 server.
+    # paddle / easy / tess are reserved and are not wired yet.
+    ocr_engine: str = "rpd"
     ocr_model_dir: Path = Path("./data/models/ocr")
     ocr_max_side_len: int = 4000
     ocr_band_trigger_px: int = 2800

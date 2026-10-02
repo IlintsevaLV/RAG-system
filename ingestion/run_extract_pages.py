@@ -83,8 +83,26 @@ def main(argv: list[str] | None = None) -> int:
         help="For C/D: do not fall back to RapidOCR if VLM unavailable",
     )
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument(
+        "--ocr-engine",
+        default=None,
+        choices=("rpd", "rpd_server", "paddle", "easy", "tess", "vlm"),
+        help="rpd is RapidOCR mobile (default). rpd_server uses the Cyrillic server recognizer.",
+    )
     args = parser.parse_args(argv)
 
+    if args.ocr_engine:
+        if args.ocr_engine == "vlm":
+            settings.enable_vlm = True
+            settings.ocr_engine = "rpd"
+        elif args.ocr_engine in ("paddle", "easy", "tess"):
+            log.error("ocr_engine_not_implemented", engine=args.ocr_engine)
+            _safe_print(
+                f"OCR engine {args.ocr_engine} is not integrated. Use rpd or rpd_server."
+            )
+            return 2
+        else:
+            settings.ocr_engine = args.ocr_engine
     if args.enable_vlm:
         settings.enable_vlm = True
     if args.no_ocr_fallback:

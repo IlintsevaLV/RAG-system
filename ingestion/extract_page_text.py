@@ -26,12 +26,25 @@ from ingestion.models import (
     PageRoute,
     PageTextExtract,
 )
-from ingestion.ocr_rapid import RapidOCRConfig, recognize_page_image
+from ingestion.ocr_rapid import RapidOCRConfig, rec_variant_for_engine, recognize_page_image
 from ingestion.page_classify import classify_page
 from ingestion.preprocess import process_page_image, save_preview
 from ingestion.source_analysis import analyze_page
 
 log = get_logger("extract_page")
+
+
+def _ocr_config(settings: Settings) -> RapidOCRConfig:
+    return RapidOCRConfig(
+        use_gpu=settings.enable_gpu_ocr,
+        max_side_len=settings.ocr_max_side_len,
+        band_trigger_px=settings.ocr_band_trigger_px,
+        band_height=settings.ocr_band_height,
+        model_dir=str(settings.ocr_model_dir),
+        enable_latin=settings.ocr_enable_latin,
+        enable_greek=settings.ocr_enable_greek,
+        rec_variant=rec_variant_for_engine(settings.ocr_engine),
+    )
 
 
 def _word_jaccard(a: str, b: str) -> float:
@@ -188,15 +201,7 @@ def _extract_ab(
                     / f"page_{analysis.page:04d}_ab.png"
                 )
                 save_preview(prep["image_bgr"], preview_path)
-            ocr_cfg = RapidOCRConfig(
-                use_gpu=settings.enable_gpu_ocr,
-                max_side_len=settings.ocr_max_side_len,
-                band_trigger_px=settings.ocr_band_trigger_px,
-                band_height=settings.ocr_band_height,
-                model_dir=str(settings.ocr_model_dir),
-                enable_latin=settings.ocr_enable_latin,
-                enable_greek=settings.ocr_enable_greek,
-            )
+            ocr_cfg = _ocr_config(settings)
             ocr_res = recognize_page_image(
                 prep["image_bgr"],
                 dpi=int(prep.get("dpi") or settings.render_dpi),
@@ -209,6 +214,9 @@ def _extract_ab(
             jac = _word_jaccard(text, ocr_text)
             provenance["ocr_agreement"] = round(jac, 4)
             provenance["ocr_lines"] = ocr_res.line_count
+            provenance["ocr_engine"] = (
+                ocr_res.lines[0].engine if ocr_res.lines else f"rapidocr:{ocr_cfg.rec_variant}"
+            )
             notes.append(f"ocr_agreement={jac:.3f}")
 
             # Escalate B → C/VLM path when layer strongly disagrees with OCR
@@ -453,15 +461,7 @@ def _extract_cd(
             ocr_fallback_used=False,
         )
 
-    ocr_cfg = RapidOCRConfig(
-        use_gpu=settings.enable_gpu_ocr,
-        max_side_len=settings.ocr_max_side_len,
-        band_trigger_px=settings.ocr_band_trigger_px,
-        band_height=settings.ocr_band_height,
-        model_dir=str(settings.ocr_model_dir),
-        enable_latin=settings.ocr_enable_latin,
-        enable_greek=settings.ocr_enable_greek,
-    )
+    ocr_cfg = _ocr_config(settings)
     ocr_res = recognize_page_image(
         prep["image_bgr"],
         dpi=int(prep.get("dpi") or settings.render_dpi),
@@ -474,6 +474,9 @@ def _extract_cd(
     ocr_fallback_used = True
     provenance["ocr_mean_confidence"] = ocr_res.mean_confidence
     provenance["ocr_lines"] = ocr_res.line_count
+    provenance["ocr_engine"] = (
+        ocr_res.lines[0].engine if ocr_res.lines else f"rapidocr:{ocr_cfg.rec_variant}"
+    )
     provenance["ocr_columns"] = ocr_res.n_columns
     provenance["short_fragment_ratio"] = round(ocr_res.short_fragment_ratio, 3)
     if ocr_res.reading_order_notes:
@@ -574,6 +577,7 @@ def extract_pdf(
                 doc_id=doc_id,
                 page=pno,
                 elapsed_ms=result.elapsed_ms,
+                ocr_engine=(result.provenance or {}).get("ocr_engine"),
                 page_class=result.page_class.value,
                 status=result.status.value,
                 text_source=result.text_source,

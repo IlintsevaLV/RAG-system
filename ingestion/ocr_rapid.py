@@ -32,7 +32,16 @@ REQUIRED_MODELS = (
 )
 OPTIONAL_LATIN_MODEL = "latin_PP-OCRv5_rec_mobile.onnx"
 OPTIONAL_GREEK_MODEL = "el_PP-OCRv5_rec_mobile.onnx"
-ALL_KNOWN_MODELS = REQUIRED_MODELS + (OPTIONAL_LATIN_MODEL, OPTIONAL_GREEK_MODEL)
+CYRILLIC_REC_SERVER = "cyrillic_PP-OCRv5_rec_server.onnx"
+REC_VARIANTS = {
+    "mobile": "cyrillic_PP-OCRv5_rec_mobile.onnx",
+    "server": CYRILLIC_REC_SERVER,
+}
+ALL_KNOWN_MODELS = REQUIRED_MODELS + (
+    OPTIONAL_LATIN_MODEL,
+    OPTIONAL_GREEK_MODEL,
+    CYRILLIC_REC_SERVER,
+)
 
 _LANG_REC = {
     "cyrillic": "CYRILLIC",
@@ -52,6 +61,8 @@ class RapidOCRConfig:
     model_dir: str | None = None
     enable_latin: bool = True
     enable_greek: bool = True
+    # mobile is the default. server is the heavier Cyrillic recognizer.
+    rec_variant: str = "mobile"
 
 
 def default_model_dir() -> Path:
@@ -79,6 +90,18 @@ def greek_model_available(model_dir: str | Path | None = None) -> bool:
     return (resolve_model_dir(model_dir) / OPTIONAL_GREEK_MODEL).is_file()
 
 
+def rec_variant_for_engine(ocr_engine: str) -> str:
+    """Map OCR_ENGINE to the Cyrillic recognizer. Default stays mobile."""
+    name = (ocr_engine or "rpd").strip().lower().replace("-", "_")
+    if name in ("rpd_server", "server"):
+        return "server"
+    if name in ("rpd", "rapid", "rapidocr", "mobile", ""):
+        return "mobile"
+    raise ValueError(
+        f"OCR engine {ocr_engine!r} is not implemented. Use rpd (mobile) or rpd_server."
+    )
+
+
 def _build_engine_for_lang(
     cfg: RapidOCRConfig,
     *,
@@ -97,6 +120,7 @@ def _build_engine_for_lang(
     from rapidocr import EngineType, LangDet, LangRec, ModelType, OCRVersion, RapidOCR
 
     lang_enum = getattr(LangRec, _LANG_REC[lang])
+    rec_type = ModelType.SERVER if "server" in rec_model_name else ModelType.MOBILE
     params: dict[str, Any] = {
         "Det.engine_type": EngineType.ONNXRUNTIME,
         "Det.lang_type": LangDet.CH,
@@ -105,7 +129,7 @@ def _build_engine_for_lang(
         "Cls.engine_type": EngineType.ONNXRUNTIME,
         "Rec.engine_type": EngineType.ONNXRUNTIME,
         "Rec.lang_type": lang_enum,
-        "Rec.model_type": ModelType.MOBILE,
+        "Rec.model_type": rec_type,
         "Rec.ocr_version": OCRVersion.PPOCRV5,
         "Global.max_side_len": cfg.max_side_len,
         "Global.model_root_dir": str(model_dir.resolve()),
@@ -123,10 +147,10 @@ def _try_build_engine(cfg: RapidOCRConfig) -> tuple[Any, str]:
     model_dir = resolve_model_dir(cfg.model_dir)
     missing = check_local_models(model_dir)
     last_err: Exception | None = None
+    variant = cfg.rec_variant if cfg.rec_variant in REC_VARIANTS else "mobile"
+    rec_name = REC_VARIANTS[variant]
     try:
-        return _build_engine_for_lang(
-            cfg, lang="cyrillic", rec_model_name=REQUIRED_MODELS[2]
-        )
+        return _build_engine_for_lang(cfg, lang="cyrillic", rec_model_name=rec_name)
     except Exception as exc:  # noqa: BLE001
         last_err = exc
 
@@ -161,12 +185,14 @@ def get_ocr_engine(
     use_gpu: bool = False,
     max_side_len: int = 4000,
     model_dir: str = "",
+    rec_variant: str = "mobile",
 ) -> tuple[Any, str]:
     return _try_build_engine(
         RapidOCRConfig(
             use_gpu=use_gpu,
             max_side_len=max_side_len,
             model_dir=model_dir or None,
+            rec_variant=rec_variant or "mobile",
         )
     )
 
@@ -273,8 +299,9 @@ def _merge_multi_head_rows(
     heads: dict[str, list[tuple[Any, str, float]]],
 ) -> list[tuple[Any, str, float]]:
     """Merge overlapping detections from cyrillic/latin/el heads."""
-    primary = heads.get("cyrillic") or next(iter(heads.values()), [])
-    others = {k: v for k, v in heads.items() if k != "cyrillic" and v}
+    primary_key = "cyrillic" if "cyrillic" in heads else next(iter(heads), "")
+    primary = heads.get(primary_key) or []
+    others = {k: v for k, v in heads.items() if k != primary_key and v}
     if not others:
         return primary
 
@@ -287,7 +314,7 @@ def _merge_multi_head_rows(
 
     for box, text, score in primary:
         xy = _quad_to_xyxy(box)
-        cands: list[tuple[str, float, str]] = [(text, score, "cyrillic")]
+        cands: list[tuple[str, float, str]] = [(text, score, primary_key or "cyrillic")]
         picked_idxs: list[tuple[str, int]] = []
         for lang, items in other_xy.items():
             best_i, best_iou = -1, 0.0
@@ -357,15 +384,17 @@ def recognize_image(
 ) -> list[OCRLine]:
     cfg = cfg or RapidOCRConfig()
     model_dir = str(resolve_model_dir(cfg.model_dir).resolve())
-    engine, engine_name = get_ocr_engine(
+    engine, _engine_name = get_ocr_engine(
         use_gpu=cfg.use_gpu,
         max_side_len=cfg.max_side_len,
         model_dir=model_dir,
+        rec_variant=cfg.rec_variant,
     )
+    head = "cyrillic-server" if cfg.rec_variant == "server" else "cyrillic"
     heads: dict[str, list[tuple[Any, str, float]]] = {
-        "cyrillic": _run_engine(engine, image_bgr),
+        head: _run_engine(engine, image_bgr),
     }
-    tags = ["cyrillic"]
+    tags = [head]
 
     if cfg.enable_latin:
         latin = get_latin_ocr_engine(
@@ -393,7 +422,7 @@ def recognize_image(
             except Exception:
                 pass
 
-    rows = _merge_multi_head_rows(heads) if len(heads) > 1 else heads["cyrillic"]
+    rows = _merge_multi_head_rows(heads) if len(heads) > 1 else next(iter(heads.values()))
     engine_name = "rapidocr:" + "+".join(tags)
 
     lines: list[OCRLine] = []

@@ -101,6 +101,7 @@ def _cmd_query(args: argparse.Namespace) -> int:
         w_bm25=args.w_bm25,
         w_dense=args.w_dense,
         rrf_k=args.rrf_k,
+        min_score=args.min_score if args.mode == "lexical" else 0.0,
     )
     if args.json:
         payload = {
@@ -170,6 +171,12 @@ def main(argv: list[str] | None = None) -> int:
     query.add_argument("--w-bm25", type=float, default=1.0)
     query.add_argument("--w-dense", type=float, default=1.0)
     query.add_argument("--rrf-k", type=int, default=60)
+    query.add_argument(
+        "--min-score",
+        type=float,
+        default=5.0,
+        help="Лексический порог BM25. Ниже него — «не найдено». 0 отключает порог.",
+    )
     query.set_defaults(func=_cmd_query)
 
     probe = sub.add_parser("probe", help="Самопроверка: предложение из чанка ищется обратно")

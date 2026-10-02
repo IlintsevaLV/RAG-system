@@ -248,8 +248,20 @@ class SearchIndex:
         )
 
 
-def _query_covered(index: SearchIndex, idx: int, tokens: list[str], asked: list[str]) -> bool:
-    """Keep a hit only when the chunk is the named пункт or covers most query words."""
+def _is_code_token(token: str) -> bool:
+    """ARP4754A-style token: letters and digits in one word."""
+    return any(ch.isalpha() for ch in token) and any(ch.isdigit() for ch in token)
+
+
+def _query_covered(
+    index: SearchIndex,
+    idx: int,
+    tokens: list[str],
+    asked: list[str],
+    *,
+    ratio: float = 0.5,
+) -> bool:
+    """Keep a hit when the chunk is the named пункт or covers enough query words."""
     if clause_bonus(index.chunks[idx].clause_id, asked) > 0:
         return True
     unique = list(dict.fromkeys(tokens))
@@ -259,20 +271,32 @@ def _query_covered(index: SearchIndex, idx: int, tokens: list[str], asked: list[
     matched = sum(1 for tok in unique if present.get(tok))
     if len(unique) == 1:
         return matched == 1
-    return matched >= 2 and matched / len(unique) >= 0.5
+    return matched >= 2 and matched / len(unique) >= ratio
 
 
-def _lexical_hits(index: SearchIndex, query: str) -> list[tuple[int, float]]:
+def _lexical_hits(
+    index: SearchIndex,
+    query: str,
+    *,
+    cover_ratio: float = 0.5,
+    accept_codes: bool = False,
+) -> list[tuple[int, float]]:
     tokens = tokenize(query)
     asked = query_clause_ids(query)
     if not tokens and not asked:
         return []
     lexical: list[tuple[int, float]] = []
     for idx in index.bm25.candidates(tokens or asked):
-        if not _query_covered(index, idx, tokens, asked):
+        covered = _query_covered(index, idx, tokens, asked, ratio=cover_ratio)
+        if not covered and accept_codes:
+            present = index.bm25.tf[idx]
+            covered = any(_is_code_token(tok) and present.get(tok) for tok in tokens)
+        if not covered:
             continue
         base = index.bm25.score(tokens, idx) if tokens else 0.0
         score = base + clause_bonus(index.chunks[idx].clause_id, asked)
+        if is_mush(index.chunks[idx].text):
+            score *= 0.5
         if score > 0:
             lexical.append((idx, score))
     phrase = folded_text(query) if len(tokens) >= 3 and len(folded_text(query)) >= 20 else ""
@@ -297,6 +321,29 @@ def _as_hits(index: SearchIndex, ranked: list[tuple[int, float]], method: str, t
     ]
 
 
+def is_mush(text: str) -> bool:
+    """Diagram or torn table: most lines are scraps, or the text has almost no punctuation.
+
+    ``likely_table`` is true on most of the corpus, so the decision uses the
+    lines themselves. A real пункт of a few lines is left alone.
+    """
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    if len(lines) < 4:
+        return False
+    short = sum(1 for line in lines if len(line) < 20)
+    scraps = sum(1 for line in lines if len(line) < 5)
+    if short / len(lines) > 0.5 or scraps / len(lines) > 0.3:
+        return True
+    punct = sum(text.count(ch) for ch in ".,;")
+    return len(text) >= 200 and punct * 1000 / len(text) < 2
+
+
+def _above_min_score(ranked: list[tuple[int, float]], min_score: float) -> list[tuple[int, float]]:
+    if min_score <= 0:
+        return ranked
+    return [item for item in ranked if item[1] >= min_score]
+
+
 def search(
     index: SearchIndex,
     query: str,
@@ -308,17 +355,24 @@ def search(
     w_bm25: float = 1.0,
     w_dense: float = 1.0,
     rrf_k: int = 60,
+    min_score: float = 0.0,
 ) -> list[Hit]:
-    """mode: lexical | dense | hybrid. Default stays BM25 even if vectors are loaded."""
+    """mode: lexical | dense | hybrid. Default stays BM25 even if vectors are loaded.
+
+    Lexical answers keep the strict gate (half the query words). Hybrid fuses a
+    softer list: a third of the words, or a technical code such as ARP4754A.
+    """
     lexical = _lexical_hits(index, query)
     if mode == "lexical" or (mode == "hybrid" and not index.vectors and query_vector is None):
-        return _as_hits(index, lexical, "lexical", top_k)
+        return _as_hits(index, _above_min_score(lexical, min_score), "lexical", top_k)
 
     dense_ranked = _dense_ranking(index, query, query_vector=query_vector)
     if mode == "dense":
         return _as_hits(index, dense_ranked, "dense", top_k)
     if not dense_ranked:
-        return _as_hits(index, lexical, "lexical", top_k)
+        return _as_hits(index, _above_min_score(lexical, min_score), "lexical", top_k)
+    if mode == "hybrid":
+        lexical = _lexical_hits(index, query, cover_ratio=1.0 / 3.0, accept_codes=True)
 
     asked = query_clause_ids(query)
     lex_rank = {idx: rank for rank, (idx, _) in enumerate(lexical[:pool], start=1)}
@@ -667,6 +721,15 @@ def eval_gold(
     missed: list[str] = []
     for item in items:
         hits = search(index, item["query"], top_k=top_k, mode=mode)
+        if item.get("relevant") is False:
+            rank = 1 if not hits else 0
+            if rank:
+                rr_sum += 1.0
+                for k in recalls:
+                    recalls[k] += 1
+            elif len(missed) < 8:
+                missed.append(item["query"])
+            continue
         rank = 0
         for i, hit in enumerate(hits, start=1):
             if _gold_match(hit, item):

@@ -9,10 +9,12 @@ from pathlib import Path
 from core.text_norm import normalize_greek_lookalikes
 from retrieval.clauses import AdmittedPage, TextChunk, chunk_document, heading_num, join_hyphens
 from retrieval.engine import (
+    is_mush,
     BuildReport,
     SearchIndex,
     admit_document,
     build_chunks,
+    eval_gold,
     load_index,
     search,
     tokenize,
@@ -69,6 +71,27 @@ def run_checks() -> int:
         _fail(f"S1000D code: {normalize_greek_lookalikes(code)!r}")
     if normalize_greek_lookalikes("\u03a31000DR-UACRU-01000-00") != "S1000DR-UACRU-01000-00":
         _fail("capital sigma in S1000DR was kept")
+    headings = {
+        "(\u03c7) \u0410\u0432\u0430\u0440\u0438\u0439\u043d\u044b\u0439": "(\u0432) \u0410\u0432\u0430\u0440\u0438\u0439\u043d\u044b\u0439",
+        "(\u03b4) \u0418\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u044f": "(\u0433) \u0418\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u044f",
+        "(\u03c6) \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435": "(\u0444) \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+        "(\u03b3) \u0421\u0438\u0433\u043d\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f": "(\u0433) \u0421\u0438\u0433\u043d\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f",
+        "(\u0391) \u0414\u0432\u0435\u0440\u0438": "(\u0410) \u0414\u0432\u0435\u0440\u0438",
+        "(\u0392) \u041a\u0440\u044e\u043a": "(\u0412) \u041a\u0440\u044e\u043a",
+        "(\u0394) \u0412\u043d\u0435\u0448\u043d\u0435\u0435": "(\u0414) \u0412\u043d\u0435\u0448\u043d\u0435\u0435",
+        "(\u03b9) \u041e\u0426\u0415\u041d\u041a\u0410": "(i) \u041e\u0426\u0415\u041d\u041a\u0410",
+        "\u00a7 29.305 \u03b7 29.307": "\u00a7 29.305 \u0438 29.307",
+        "\u03b2 \u00a7 29.501(\u03b1)(3)": "\u0432 \u00a7 29.501(\u0430)(3)",
+        "\u03b7 \u03c4.\u03b4.": "\u0438 \u0442.\u0434.",
+        "\u03c4.\u03b5. \u03c4.\u03ba.": "\u0442.\u0435. \u0442.\u043a.",
+    }
+    for src, dst in headings.items():
+        got = normalize_greek_lookalikes(src)
+        if got != dst:
+            _fail(f"lookalike {src!r} -> {got!r}, expected {dst!r}")
+    eta_latin = normalize_greek_lookalikes("(O), (O) \u03b7 caveat")
+    if "\u03b7" in eta_latin or "\u0438" not in eta_latin:
+        _fail(f"eta between Latin words stayed Greek: {eta_latin!r}")
     if tokenize(alpha) != ["arp4754a"]:
         _fail(f"identifier token split: {tokenize(alpha)}")
 
@@ -305,6 +328,71 @@ def run_checks() -> int:
     if not direct or direct[0].chunk.clause_id != "27.1435":
         _fail(f"dense vector pulled the direct hit off rank 1: {[h.chunk.clause_id for h in direct]}")
 
+    arp = TextChunk(
+        chunk_id="arp24",
+        doc_id="APR4754A application",
+        source_file="APR4754A application.pdf",
+        page_start=167,
+        page_end=167,
+        page_class="A",
+        clause_id="24",
+        part=1,
+        parts=1,
+        text="24 Please describe any ARP4754A requirement validation issues encountered.",
+    )
+    distractor = TextChunk(
+        chunk_id="soft",
+        doc_id="РМ-178B",
+        source_file="РМ-178B.pdf",
+        page_start=6,
+        page_end=6,
+        page_class="A",
+        clause_id="2.2",
+        part=1,
+        parts=1,
+        text="Выявлены недостатки в разработке программного обеспечения.",
+    )
+    code_index = SearchIndex.from_chunks(
+        [distractor, arp],
+        vectors=[[1.0, 0.0], [0.0, 1.0]],
+        embedding_model="test",
+    )
+    code_query = "трудности проверки полноты требований ARP4754A"
+    if search(code_index, code_query, mode="lexical", top_k=1):
+        _fail("strict lexical kept a query that only shares the code ARP4754A")
+    fused = search(
+        code_index,
+        code_query,
+        mode="hybrid",
+        query_vector=[1.0, 0.0],
+        top_k=1,
+    )
+    if not fused or fused[0].chunk.clause_id != "24":
+        _fail(f"hybrid dropped the chunk that contains the code: {[h.chunk.clause_id for h in fused]}")
+
+    with tempfile.TemporaryDirectory() as tmp:
+        gold_path = Path(tmp) / "gold.json"
+        gold_path.write_text(
+            json.dumps(
+                [{"query": "квантовая телепортация марсианского двигателя", "relevant": False}],
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        refused = eval_gold(para, gold_path, mode="lexical", top_k=3)
+        if refused["recall_at_1"] != 1.0:
+            _fail(f"absent question was not counted as a refusal: {refused}")
+        gold_path.write_text(
+            json.dumps(
+                [{"query": "гидравлические системы 27.1435", "relevant": False}],
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        leaked = eval_gold(para, gold_path, mode="lexical", top_k=3)
+        if leaked["recall_at_1"] != 0.0:
+            _fail("a question marked absent still scored when the clause was returned")
+
     import retrieval.engine as engine
 
     saved = engine.embed_passages
@@ -331,6 +419,79 @@ def run_checks() -> int:
                 _fail("dense.npy was not reloaded")
     finally:
         engine.embed_passages = saved
+
+    prose = (
+        "Каждая гидравлическая система должна выдерживать нагрузки.\n"
+        "Испытания проводят при расчетном давлении, без отказов.\n"
+        "Деформация любой части системы не допускается.\n"
+        "Рабочее давление превышает максимальное не менее чем в полтора раза.\n"
+    )
+    scraps = "\n".join(["FE& самолета", "систе", "P", "FTA& других", "x", "y"])
+    if is_mush(prose) or not is_mush(scraps):
+        _fail("mush heuristic misclassified a paragraph or a diagram")
+    mush_chunk = TextChunk(
+        chunk_id="mush",
+        doc_id="Руководство 4761",
+        source_file="4761.pdf",
+        page_start=20,
+        page_end=20,
+        page_class="A",
+        clause_id="1.1.2",
+        part=1,
+        parts=1,
+        text="Классификация самолетов\n" + scraps,
+    )
+    plain = TextChunk(
+        chunk_id="plain",
+        doc_id="НЛГ-27",
+        source_file="nlg.pdf",
+        page_start=83,
+        page_end=83,
+        page_class="A",
+        clause_id="27.1435",
+        part=1,
+        parts=1,
+        text="Классификация самолетов. " + prose,
+    )
+    mush_index = SearchIndex.from_chunks([mush_chunk, plain])
+    kept = search(mush_index, "Классификация самолетов", top_k=1, min_score=0)
+    if not kept or kept[0].chunk.chunk_id != "plain":
+        _fail(f"mush outranked the paragraph: {[h.chunk.chunk_id for h in kept]}")
+    refused = search(mush_index, "Классификация самолетов", top_k=1, min_score=1000)
+    if refused:
+        _fail("min-score did not drop a weak lexical hit")
+
+    from ingestion.layout_columns import reorder_spans_by_columns
+    from ingestion.models import TextSpan
+
+    def span(text: str, x0: float, y0: float, x1: float) -> TextSpan:
+        return TextSpan(text=text, bbox=(x0, y0, x1, y0 + 8), font_size=10)
+
+    width = 600.0
+    single = [
+        span("Необходимость", 40, 100, 160),
+        span("обеспечения", 170, 101, 280),
+        span("пожарной", 290, 100, 380),
+        span("безопасности", 390, 102, 520),
+        span("двигателя", 40, 120, 140),
+        span("обусловлена", 150, 120, 280),
+    ]
+    single_text, single_hints = reorder_spans_by_columns(single, width)
+    if single_hints.n_columns != 1 or "безопасности двигателя" not in single_text.replace("\n", " "):
+        _fail(f"full-width line was split: cols={single_hints.n_columns} {single_text!r}")
+    two = [
+        span("Левая", 40, 100, 100),
+        span("строка", 110, 100, 180),
+        span("Правая", 400, 100, 480),
+        span("колонка", 490, 100, 570),
+        span("Ещё", 40, 120, 90),
+        span("слева", 100, 120, 170),
+        span("Ещё", 400, 120, 460),
+        span("справа", 470, 120, 560),
+    ]
+    two_text, two_hints = reorder_spans_by_columns(two, width)
+    if two_hints.n_columns != 2 or two_text.find("слева") > two_text.find("Правая"):
+        _fail(f"two columns were read across the gutter: {two_text!r}")
 
     print("check: ok")
     return 0
