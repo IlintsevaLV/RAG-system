@@ -1,0 +1,31 @@
+CHAPTER 9
+THE EXTERNAL MAGNETIC FIELD ENVIRONMENT
+Elementary Considerations 9.1
+α If α long conductor is carrying current, I, and the return path is far
+removed, the average field intensity, Hav, at distance, ρ, from the conductor, as α
+shown in Figure 9.λ(α), is
+If instead of α solid wire the current is carried on α hollow tube of radius ρ,
+H, as shown in Figure 9.λ(β), the field intensity, at radius ρ is again
+and at the surface of the tube, where ρ ro, the field intensity is =
+I
+H = - (9.3)
+2nro
+<
+In the interior of the tube, ρ ro, the field intensity is zero, α concept that
+will be treated in more detail later.
+Since the circumference, of the tube is Π,
+Π (9.4) 2nro =
+it follows that the field intensity at the surface of the tube is also equal to the
+total current divided by the circumference.
+In all the cases the units of field intensity are amperes per meter if the
+radii are measured in meters.
+If the conductor is not cylindrical, as shown in Figure 9.λ(χ), the field
+intensity at different points on the surface will be different. However, the
+by the average field intensity will still be equal to the total current divided
+circumference:
+The actual field intensity will be greater than average at points where the radius
+than of curvature is less average; it wd1 be less than average at points where the
+9.2. For example, radius of curvature is greater than average, as shown in Figure
+the circumference of the fuselage of α typical fighter aircraft just forward of its
+μ. 5.5 000 wing is about Assuming α lightning stroke current of 3 0 Α to flow
+be through the fuselage, the average field intensity at the surface would

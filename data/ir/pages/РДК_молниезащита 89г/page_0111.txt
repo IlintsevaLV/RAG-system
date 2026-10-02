@@ -1,0 +1,111 @@
+fuel and other flight essential systems (FAR 25.954)
+and regulation new forthcoming Α 25.1309). (FAR
+companying advisory circular [5.41 will place further
+emphasis on protection of electrical and avionic sys-
+to pertaining of α regulation absence The tems.
+such mean that course, not, of does system specific
+parts be addressed, since all does not need to α system
+protection require- the basic fall under of the aircraft
+meat.
+The FAR'σ state only the functional requirements,
+and in the most general and broad terms. Translation
+technical design goals is of these terms to specific
+to the manufacturer of the aircraft or system, with
+in the FAAXor aidthority'vested review and, approval
+its Designated Engineering Representativeop (DER'σ).
+protection design and lightning environment for The
+the steps in §5.5 and is described certification purposes
+cer- and protection the lightning to complete necessary
+in §5.6. are described tasks tification
+Design for ing Environment Lightnd The 5.5
+and Verification
+lightning environ- Bofor describing the specified
+to how as is in order discussion some for aircraft, ment
+it evolved.
+Standards Lightning Early 5.5.1
+The first industry to experience lightning prob-
+lems, and to establish the need for standardization
+α lightning environment for design and test purposes,
+was the electric 'utility industry. Shortly after over-
+head power transmission and distribution lines became
+widespread, it was apparent that lightning would be
+severe problem., Power transformers, generators, mo-
+tors and switching devices experienced damage from
+voltage and current surges due to lightning strikes
+the power lines. Research progranms to quantify natu-
+ral lightning electrical characteristics were initiated
+utility companies and equipment manufacturers such
+as General Electric Company and Westinghouse Elec-
+tric Company.
+Shortly thereafter, standards emerged which de-
+fined lightning surge voltage and current levels to
+withstood by power system apparatus. Extensive lab-
+oratory test facilities were constructed to enable equip-
+meat to be tested to verify ability to tolerate these
+standards. As power transmission voltages increased
+and associated equipment became more sophisticated,
+improvements were necessary in lightning protection
+technology and the need for better information on the
+natural lightning environment continued. As α result,
+an extensive amount of research into lightning phe-
+nomenology and its effects on electric power systems
+and apparatus was carried out during the period 1920
+to 1980.
+
+6
+Insulation coordination: This research led to α corn-
+coordination, insulation called philosophy, prehensive ac-
+dealing with the lightning protection of electri power
+equipment. It incorporates standardized voltage lev-
+lev- standardized designed, is equipment els to which α
+and on apparatus proof tests for procedures els and
+equpment, performance of protective standards on the
+All ε.quipment surge arresters. lightning and such as
+associated with electric power transmission and distri-
+bution facilities is designed, tested and protected in
+accordance with these industry wide lightning stan-
+result is that whereas thousands of light- left dards:' The
+ning strikes occur drily to electric utility systems, very
+'to lightning. are now attributable few power outages
+I,
+for Lightning standards on aircraft: Early research
+The Lovettsville, α later date. emerged at aircraft
+re- 4 prompted Chapter in Virginia accident described
+aircraft on lightning of effects possible into the search
+upon called were laboratories %tility the of several and
+lightning expertise. Dur- test facilities and to provide
+involving accidents, years, several other next 15 ing the
+ignition of fuel vapors, were thought to have resulted
+test- and research Additional strikes. lightning from
+Most accidents. by these were Prompted ing programs
+Electric the General at was conducted of this work
+Mas- Pittsfield, in Laboratory High Voltage Company
+sachusetts and the National Bureau of Standards High
+Voltage Laboratory near Gaithersburg, Maryland, un-
+of der sponsorship of airciaft manufacturers, the Civil
+Aeronautics Board and the National Advisory Corn-
+mittee for Aeronautics (NACA), the predecessor of
+NASA.
+α
+airplane standards: Original The first airplane light-
+ning protection design and test standards were pub-
+to lished by the Federal Aviation Agency (FAA) in its
+[5.7] and by the US Depart- Advisory Circular 25-3
+MIL-Β- by ment of Defense (DOD) in military standard
+5087 [5.1]. Both of these documents appeared in the
+mid 1950'σ. reprinted somewhat later as AC 25-3, AC
+20-53, dealt exclusively with lightning protection of
+airplane fuel systems. MIL-Β-5087 dealt exclusively
+be with provision of electrical bonding in airplane struc-
+tures and apparatus. These were the areas of greatest
+concern at the time.
+Defined lightning threat: and MIL-Β-5087 AC 20-53
+each defined the lightning threat as α 200 kiloampere
+(kA) peak current with α unidirectional waveshape, α
+rate-of-rise of kA/ps and 100 α decaiy time to 50%
+5 0 of peak amplitude of about ps. This represented
+α severe first return stroke in α cloud-to-earth flash.
+also defined an intermediate and cont inuing AC 20-53
+current component, but MIL-Β-5087 included only the
+return stroke in its defined environment.
+94

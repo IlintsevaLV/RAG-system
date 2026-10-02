@@ -1,0 +1,51 @@
+706-202 AMGP
+N
+valve would cause large hydraulic forces. Speed other propeller designs incorporate an independent
+system The complete hydraulic system. hydraulic unless adversely be affected will acnsing-accuracy
+α following basic componenti: α sump, and flyweight contains the correspondingly large speed-set spring
+v&Ive, α relief valve, the such pump, α filter with α bypass To avoid the weigbt and size of forces are used.
+α design, α servo-type governor may be used. In this control valve, and the pitch change actuator. Sche-
+hydraulic piston is α linear the actuator α small matically, device positions the speed-sensing design,
+the linear piston with α meohanical device to convert only the flow to α servo pilot valve that controls
+piston, which, in turn, positions α servo valve that motion to rotary motion of the blade. The maximum
+may be 1200 valve setting) pressure (relief valve is operating Because the pilot the main oil flow. meters
+α system α simple systcm or up to 3000 psi for forces, ι; and the psi for isolated from strong hydraulic
+is critical. weight where sensitive. and light be made can speed-sensor
+Α schematic diagram of the complete control and
+54.3.2.1.2 Beta Contr" hydraulic system for α double-acting governor is
+With beta control, the input to the propeller con- shown in Fig. 5-42.
+trol is α signal calling for α desired blade angle. In re-
+cent configurations, the signal is transferred me- Auxiliary Fuidoam 5-8.3.2.3
+chanically to the rotating components, where it
+positions α distributor valve spool. The deeve of this
+control, some propellers provide various auxiliary
+valve is positioned mechanically α α function of functions. Two of these - feathering and pitch lock
+blade sngle and, if there is α disparity between desired
+and actual blade angle, the distributor valve directs are safety items. to α arc. feathered by turning their blades Propellers
+high-pressure oil to the appupnate side of the pitch 90-deg blade angle - ι.ε., edgewise to the relative
+change actuator. When the blades change pitch, the oi- propeller disabled α bring to order in - wind
+valve slekxc moves as well, until the desired β!ade τ .iiji α nuiin λ liop .ui
+angle is reached and the valve is closed. The pitch lock acts to prevent further decrease in
+54.3.21 Hydraulic System pitch travel when normal angle control blade is lost
+Some propeller control systems usc engine or gear- or preset maximum α rotational speed is exceeded.
+of hydraulic pressure ,α loss Without this feature, an extra in pressure by oil, boosted case lubricating
+the blades to drop to low pitch in flight, or oil from the aircraft hydraulic system. To could allow pump,
+minimize contamination and improve reliability, causing α dangerous windmilling ovcrspeed.
+DESI•ED RPM
+SIGNAL
+DECREASE
+BLADE
+PITCH ISP MOMENTSPEED
+RPM SRING SET - / -
+YOKE &
+0. TRNINfDOUBLE-ACTINGI -~
+GOVERNOR I I ROTATING
+_ FLYWEIGHTS IDECREASi_
+E TRANSFER BEARING PITCH FILTER AND
+Λ___ VALVE .BYPASS DECREASEI
+I I NUr PITCH
+_Α ACTUATOR
+PTHCHANGEWAEW SR6
+UATOR ACT I__ ____E___
+5-42. Fhgue Control Prpodeler Sebematk System
+5-67

@@ -1,0 +1,79 @@
+exterior interior interior
+~~12 II
+ι
+II
+U
+dipole
+dipole
+(α) (β)
+Fig. 12.2 Development of equivalent magnetic
+field dipole'
+(α) Actual magnetic field
+(β) Equivalent dipole
+Analytically, the problem has two parts; first, to
+dipole and second, of the equivalent find the strength
+For dipoles. those by produced fields the evaluate to
+the analyses to follow, assume an electric and α mag-
+retic field to exist on one side of an infinite conducting
+sheet containing an elliptical aperture; the geometry
+being as shown in Fig. 12.3. Because the surface is
+conducting, the electric field must be oriented at right
+angles to the surface, along the Z axis in this case. The
+magnetic field must be tangential to the surface. While
+it could be oriented in any direction in the plane, ξ, υ
+it can be resolved into two components, one along the
+Ξ axis and one along the Y axis. An elliptical aper-
+ture is considered because it is the most general of the
+elementary geometries. For this analysis the long axis
+of the ellipse will be taken to be along the Ξ axis and
+the origin of the axes to be at the center of the ellipse.
+From the reverse side of the sheet, Fig. 12.4, there
+is seen one equivalent electric field dipole, Π, and two
+magnetic field dipoles, Μ, and My, representing the
+and υ components of the tangential magnetic field. ξ
+The amplitudes of these dipoles are!
+21.AoamzHx (12.1) Mx =
+2 = poamyHy (12.2) My
+= 2eoa.,E, (12.3) Π
+where amr, amp and are polarizability α., tensor ele-
+ruents whose magnitudes depend on the size and shape
+of the aperture. For the elliptical aperture, and follow-
+ing the treatment of Taylor [12.6, 12.7]:
+7ρ λ3μ
+12 (μ) - E(μ) (12.4) μ
+EM) 12(μ) _
+amp= 12 (12.5) μ(1 Em)
+-12K(μ)-E(μ)
+336
+
+=_ λ(1 μ) -
+E(μ) (12.6)
+μ K(μ) elliptic where 1-(12/1)2 = and and E(μ) are
+integrals of the first and second kind respectively.
+Eqs. 12.4 - 12.6 may also be written as:
+α ξ (12.7) I = /13
+am Ξ (12.8) =
+Ξ Of 11 (12.9)
+I where am. , and are as given in Fig. 12.5. α,,
+υ
+0
+.
+I.
+Fig. 12.3 External electric and magnetic fields
+impinging on an aperture.
+Since the dipole strength is proportional to the
+cube of the length of the major axis of the aperture,
+it follows that large apertures will couple much more
+energy into an inner volume than will small apertures,
+the the strength of the dipole increasing as the cube of
+dimensions of the aperture while the area of the aper-
+ture increases only as the square of the dimensions.
+Using the dipole along the Ξ axis, Μ., as an ex-
+ample,the pattern of the magnetic fields in the interior
+region will be concentric closed loops lying in planes
+passed through the Ξ axis, Fig. 12.6. At any point Π,
+the total magnetic field can be represented as α vector
+normal to the radius vector ρ between the dipole and
+Π and lying in the plane defined by point Π and the
+Ξ axis.
+, 0

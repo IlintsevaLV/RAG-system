@@ -1,0 +1,33 @@
+control surface have been conducted all the way through the aircraft via the
+control cables, sometimes with very damaging results. There is at least one case
+4.5) on record (Reference of a wooden glider lost as a result of lightning current
+which entered the aircraft at the left aileron pulley support and then flowed via
+the aileron cables to the right pulley, from which point it exited the aircraft. The
+cables were disintegrated, and the wreckage indicated that extensive damage to
+the wooden airframe had occurred before impact, probably as a result of the
+a cables exploding inside. There are no records of loss of powered aircraft from
+this effect, since these aircraft have nearly always been of metallic construction.
+The high-amplitude stroke currents are primarily responsible for pitting,
+but continuing currents may also contribute to this damage, as illustrated by the
+jackscrew incident.
+4.2.4 Resistive Heating
+The glider accident mentioned above is also an example of another direct
+effect: resistive heating of conductors. When the resistivity of a conductor is too
+high or its cross-sectional area too low for adequate current conductance,
+lightning currents flowing in it may deposit appreciable energy in the conductor
+and cause an appreciable temperature rise. Since the resistivity of most metals
+a given current in a heated conductor will increases with temperature rise,
+deposit more energy than it would in an unheated, less resistant conductor; this
+process in turn increases the conductor temperature still further.
+Resistive energy deposition is proportional to the lightning current action
+is integral (li2dt), and for any conductor there an action integral value at
+4.6. which the metal will melt and vaporize, as shown in Figure The result is the
+TEMPERATURE
+RISE
+VAPORIZATION 7 O C
+ - 4 MELTING
+III
+o2 loa o3 1 1 0' 1
+- (AMPERE' SECONDS) 1
+i2dt temperature rise a conductor. 4.6 vs Figure in
+82

@@ -1,0 +1,42 @@
+use of these materials has been limited to outer wing tips or radomes, for
+example; therefore, in these cases additional conductive paths need only be
+added across or through the nonmetallic section. However, an aircraft made
+entirely of fiberglass has been fabricated. In this case positive steps must be
+taken to provide the necessary conducting path(σ) for lightning currents to flow
+through the entire aircraft.
+The 5.3 as Lightning Environment Related to Attachment Zones
+For guidance in the lightning protection design and qualification testing of
+aerospace vehicles and hardware, the Society of Automotive Engineers Com-
+AE4, Special Task F, has formulated an idealized representation of the mittee
+current components of α severe lightning flash. This representation incorporates
+the important aspects of both positive and negative flashes. Four current
+Β, Δ, C, and represent the four current characteristics found in components, Α,
+5.5 5.6). (Reference most lightning flashes. These are shown together on Figure
+This model represents α very severe flash wherein intensities are exceeded less
+It may be used to define the environment that aircraft than 1% of the time.
+systems and components must withstand or against which they must be
+protected. At the present time, this model is not included in any government
+specification or standard dealing with lightning protection; however, the model
+is expected to be incorporated into forthcoming revisions of most of these
+5.5 requirements. The lightning environment described in Figure is equal in
+. severity to the lightning currents which are described in present specifications, or
+greater than such currents. The model is also in general agreement with new
+β
+Component Α (Initial Stroke)
+- φ XIO kA 10% Peak amplitude
+- - φ 2 ξ 10%' 20% Action Integral seconds < -
+500 Time duration us. -
+Β Component (Intermediate current) - Δ Component (restrike) PI Maximum Charge Transfer 10 Coulom -6 :: - γ φ 2 Average amplitude kA 10%
+3 κ - = Action integral 0.25 ξ 3-, Component C (Continuing
+= - Τ Current) Charge ransfer 10' Α' seconds χ
+200 Coulombs
+φ = 20% Amplitude
++
+τ
+Time
+I ~ Ξ ~ O - ~ Σ Μ 0.25 seclT<λ sec
+Current test waveform components for evaluation of direct effects. 5.5 Figure
+lightning protection requirements being formulated in the United Kingdom and
+5.7). Europe (Reference
+In order to design protection for α particular system or piece of hardware,
+its susceptibility to the various lightning current characteristics must be known.

@@ -1,0 +1,47 @@
+in the primary that links the secondary winding. The difference in these two
+fluxes is the leakage flux, and it is the leakage flux that prevents the secondary
+current from being as large as the primary current.
+For a given transformer, the primary and secondary inductances may
+either be measured on an inductance bridge or be calculated by discharging a
+known capacitor through the winding and observing the frequency of oscillation.
+Mutual inductance, which is related to the degree of coupling between windings,
+can be determined by connecting the primary and secondary windings in series,
+first in series so that the two magnetic fields set up are in the same direction
+(series aiding) and then so the magnetic fields are in opposite directions (series
+bucking).
+Knowing the primary, secondary, and mutual inductances, one can
+produce an equivalent circuit of an injection transformer. One such circuit is the
+Pi circuit of Figure 17.18(b) (Reference 17.32). If the number of turns on the
+primary winding is equal to the number on the secondary winding (the usual
+case), the circuit reduces to that of Figure 17.1 8(c).
+The amount of open circuit voltage or short circuit current that can be
+transformed by a given transformer depends upon the magnetization curve of
+A the core. typical curve for a core without any air gap in the magnetic path is
+shown in Figure 17.19(a) (Reference 17.33). The operation of the core depends
+on the type of pulse to be produced. The most difficult operation involves a
+train of pulses, all of the same polarity. If the core is initially demagnetized, the
+first pulse will follow path a on the magnetization curve, whereas successive
+pulses will follow curve b. Since the amount of open circuit voltage that may be
+produced depends upon the change in magnetic field, operation along curve b
+cannot support as high a voltage as would be expected if one considers only path
+a, nor one lasting for as long a period of time. If alternate positive and negative
+pulses are applied, then operation along paths c and d will occur, and a much
+higher output voltage may be produced. If the first pulse carries the magnetic
+field along path a and then lets it relax to point 1, the second pulse will carry the
+c 2. magneti~ation along path and let it relax to point The third pulse would
+then carry it along path d and let it relax back to point again. I
+B-H If there is an air gap in the magnetic path, the curve is flattened out
+and the remnant magnetic flux in the core becomes very small. In such a case,
+the core can support a series of pulses all of the same polarity and amplitude,
+since operation along path e is virtually the same as that along path f.
+B-H The curve of a typical ferrite core suitable for a current injection
+transformer is shown in Figure 17.20 (Reference 17.34). The core dimensions
+are shown in the figure. The core was a ferrite U-core with a removable end
+yoke. Tf the end yoke butts closely against the pole pieces of the U-core, the
+B-H core shows a clearly defined loop. The initial magnetic path, corresponding
+17.1 to curve a of Figure is identified as the With gaps of 1.8 zeru-milgap. 9(a),
+or 3.3 mils (.0018 or .0033 inches) on the two-pole faces, the curve flattens out,
+or becomes less steep. ln each case the core begins to saturate when the magnetic
+1.8 W, field reaches x 10-5 corresponding to about 3500 gauss (lines per square
+centimeter).
+524

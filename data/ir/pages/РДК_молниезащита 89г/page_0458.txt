@@ -1,0 +1,42 @@
+grain boundaries. The volt-ampere characteristics of a Volt-ampere characteristic: The volt-ampere char-
+finished part depends on the size of the grains and the acteristic of a typical MOV device is shown in Fig.
+number in series, which for a given Sormulation of the 17.15 and an equivalent circuit in Fig. 17.16. The V-I
+bulk material, implies that the voltage clamping level characteristic has three regions: very low current levels
+becomes directly proportional to the thickness of the where capacitance C and leakage resistance doam- Roff
+finished part. Current handling capability depends on inate, very high current regions where bulk resistance
+how many grains are in parallel. or for a finished part, becomes important and the intermediate region of &R
+on its area. The volt-ampere characteristic of MOVs normal operation.
+thus derive from a bulk effect, which accounts for their
+large power handling capability. Leakage region: At low current levels the leakage re-
+sistance is high enough, on the order of ohms, 10i that
+leakage current is often insignificant for circuits ener-
+gized with dc. Leakage resistance is strongly depen-
+dent on temperature, as shown in Fig. 17.17. For
+CURRENT high voltage applications where MOV materials are en-
+solar to intense and exposed porcelain shells closed in ELECTRODES
+heating, leakage resistance may result in enough ad-
+"ditional heat and temperature rise to lead to thermal
+runaway, but such problems are not likely in aircraft
+applications. RONuLARY
+of leak- effects the ac, with energized circuits For *A
+age resistance are overshadowed by the effects of paral- d
+lel capacitance. Capacitance of MOV devices is fairly
+high, on the order of 1 - -10 nF for typical devices,
+nearly constant with frequency up to 100 kHz and lit-
+tle affected by temperature. Capacitance is not usually
+a problem for circuits operating at power frequencies
+and may even be valuable in that it helps shunt high
+frequency noise currents to ground. Its effects must be
+Fig. 17.14 Intergranular structure of MOV [17.1]. considered on circuits operating at high frequencies or
+d is the average grain size. reacting to rapidly changing pulses.
+LEAKAGE UPTURN
+REGION NORMAL VARISTOR OPERATION REGION
+I I
+5WG
+1000
+20
+(TYPICAL. V130LA20A )
+10 L
+10.6 10"'7 1e 10.6 10*4 10"8 10.1 10"1 10 lot lop 10"$ le CURRENT AMPER98E -
+Fig. V-1 characteristic 17.15 of MOV [17. 1]. •
+444

@@ -1,0 +1,33 @@
+While conductors external to a current-carrying cylinder, such as an
+aircraft fuselage, are not common, they are not unknown. An example might be
+the cables on a missile or rocket that run between a control assembly in the nose
+and the engine controls at the tail. Of necessity, such cables must run, as shown
+to the fuel and oxidizer tanks. If the cables are not in a in Figure 10.3, external
+shielded cable tunnel, they will be exposed to the external magnetic field.
+If the spacing between the wires and the surfaces of the vehicle is not
+large, Equation 10.5 may be somewhat simplified, since the magnetic flux
+density does not vary greatly with distance away from the surface of the vehicle
+and may be considered uniform.
+The Internal Loop Voltages 10.1.3
+Let us now consider the conditions internal to the cylinder, where
+conditions are very different. First of all, the magnetic field internal to the inner
+Let surface of the cylinder will be zero. This may be shown as in Figure 10.4.
+two there be passed planes parallel to the axis through any internal point, the P,
+planes separated by a small angle, The magnitudes of the currents in the two a.
+filaments are to each other as the ratio of the distances from point P.
+P Furthermore, the magnetic intensity effects of the filaments at have the ratio
+unity
+These two filaments then create no field at any internal point; nor does the tube
+as a whole, as it is composed of filament pairs.
+The second important factor is that the phenomenon of skin effect delays
+the buildup of current on the inner surface of the cylinder. The origin of the
+skin effect phenomenon is shown in Figure If a magnetic field line is 10.5.
+assumed to be suddenly established internal to the wall of the conducting
+cylinder, there will be induced eddy currents circulating around that field line.
+These eddy currents will induce a magnetic field of their own of polarity
+opposite to that set up by the external magnetic field. Only as the eddy currents
+decay will the magnetic field penetrate the wall of the cylinder.
+is The current density across the wall thickness at several times shown in
+Figure 10.5(b). Initially, the current density for a step-function input current is
+the current entirely confined to the outer surface. At a slightly later time, t 1,
+296

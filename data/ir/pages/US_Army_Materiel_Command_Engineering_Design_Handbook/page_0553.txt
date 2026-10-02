@@ -1,0 +1,76 @@
+The heat removod in cuoiing the water vapor or
+water from 103° to 90°F is very amell and can bc ncg-
+locted.
+Α-2.5.2 Fan Sise and Hont
+Ventilation fans and any otber fans moving air into
+the occupied space cool their own motors with the air
+they are moving. Many timce, ventilation fans are in-
+stallod in an exhaust mode. Wben this occurs, no heat
+is gairod by the occupiod space and fan heat is nog-
+Iactod. Air conlitioners may be δ..ven by compres-
+sor bloed sir from eitiser thc engine or an APU and
+no . roct hast is addod to the occupiod space. If thc
+air conditioner is driven electrically. boat will in
+goozral have to be addad tc tbe syatem. For the exam-
+pie casc, aaaunze thct:
+1. Ventilation fans are cr the input side, bringing
+frosh air into the cockpit at α rate of 6.75 Ib/min.
+2. Vortilation fans ere moving the rest of the
+coolcui air at α spoed v = 30 ft/min.
+3. Croos-soctiosal area Α for the cockpit is 32 ft.²
+The volume V. cf air to be moved is:
+- Av
+- (fn²) = [(R/mia) - (min/hr)} = ν/hr
+14/ευ 009'LS - (09Ξ0€)Κzε) =
+In addition, thc following amouns of fresh air ic in-
+troducod for ventilaticn (the densisy π of air at 103°F.
+95% RH, is 0.064 18/ν'):
+- WJ
+((:4//1] - [(q/α) · (/q)] -
+= τ/ar
+H(6.75Ξ(0)(1/0.064) = 6,328 R°/hr
+The total volume of air to be sircuinéed by the fan
+is
+δ = 57,600 + 6,328 - 63,928 Nt^/α.
+Α.ngtanse tibe follo
+8. Por foot of atrnight duct: 0.0σ-iu. of waier
+ожл
+4v'.
+Einteterto.
+
+AMCP 706-202
+2. Per 90-deg cibow: 1-in. of water
+3. Across fresh air inlct: 2-in. of water
+4. Acros air conditioner: 2-in. of water.
+Assunse further that thesc unit loesos rosult in α total
+loas in premure ∆π - 13-in. of water: akso, the fan
+motor efficioncy = - 0.8. The fan motor horsepower
+Π is thon
+π = Vaw(ΔP)/(33,000)] (Α-25)
+- (Α/min) · (Ib/R²)/(φ-lb/hp-ur) = bp
+/λ(ζ SXε1)Kc9/8ζ6'ε9) -
+[(33,000)(0.8)] - 2.7 bp
+since 1-in. of water = 5.2 Ib/φ².
+The equivalent heat of the fan motor is
+Q = (2.7Ξ2,545) = 6,872 Btu/hr
+since 1 hp = 2,545 Btu/hr.
+Α-2.5.3 Tem δ Re
+The total beat loaa to be removed from the cockpit
+to satisfy the desigu roquirement — asc pars. Α-2.4.4,
+(Α-23) Α-2.5.ι, and Α-2.5.2 — in:
+Qot - 17.411 + 1,264 + 13.860 + 6,872
+- 39.407 Mu/her
+- 39,40?/12,000 = 3.3 tons refrigers-
+cion
+Since 12,000 Btu/kr = 1 tom of refrigeration.
+(Λ-2)
+REFERENCES
+Α-1. Ω. H. Soverns and J. R. Fellows, Heating and
+Α ir-cumdlriseing Fu oals. Jobn Wiley and
+Soms, Inc., Now York, NY. 1954.
+Α-2. ASHRAE Henboek ef Fund nomtnds. Ameri-
+Socicty of Hesting. Refrigeration, and Α ir-
+inaun, Inc.. New York, NY.
+19Τ2.
+—
+Α-7

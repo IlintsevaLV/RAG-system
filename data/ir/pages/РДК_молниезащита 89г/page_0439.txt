@@ -1,0 +1,89 @@
+δ intern bus LRU
+(α)
+00'/...F77777
+Zin
+01//// /F.11.1 Z/ ζ /./ZZ
+grounding, point 16.5 Multiple Fig.
+Good (α)
+(β) Bad
+to on objected is sometimes Multipoint grounding
+it may loops" or that "ground that it creates the basis
+high voltages. to output circuits and subject input
+to deal it is easier but generally valid points, These are
+with multipoint residual problems associated with the
+point single with with those associated than grounding
+grounding.
+Wiring Interconnecting of Shielding 16.5.2
+to system immune make an electronic order. to In
+always necessary is almost it of lightning, the effects
+interconnect- on use of shielding make judicious to
+these of grou'nding provide proper and to ing wiring
+nf cable the performance governing Factors shields,
+15, but will in Chapter in'detail were discussed shields
+basic of the some 16.6 shows here. Fig. reviewed be
+ti /! ρ co_ considerations.
+&~LOW" WWI0
+1 α)
+ρ
+7-magnetic 1
+-:, (β) - ,----φ---...--'
+'F Imon
+"at ORO
+. ,"--
+(χ) -
+_" .
+(δ) -"
+of shield. 16.6 Types Fig.
+vs shielded Unshielded (α)
+Multiple-grounded (β)
+spiral wrapped braid vs Solid vs (χ)
+Conduits (δ)
+
+an unshielded 16.6(α) In Fig. conductors: Unshielded
+to the full magnetic field in- conductor, being exposed
+developed voltages have high will the structure, side
+terminations. across the high impedance
+shown of shield, types the different Of of shield: Types
+Fig. 16.6(χ), the solid shield inherently provides bet-
+spiral and α shield, α braided does than ter shielding
+in shield to α braided inferior shield can be far wrapped
+shields braided environments In severe performance.
+may gi,,ε shield- courses of braid two overlapping using
+wallcd of α solid that performance approaching ing shield.
+not Fig. 16.6(δ), should shown in Conduits: Conduits,
+effects against indirect upon for protection be relied
+electromagnetic not provide or may may since they
+shieldiig.
+for me- be used more tend to iluits in aircraft Coi.
+of protection for electrical than chanical protection
+con- is electrically Only if the conduit conductors.
+to carry it be able will aircraft structure to the nected
+conductors the for shielding provide and thus current
+frequently protection for mechanical within. Conduits
+gas- use rubber that in clamps mounted are physically
+Such vibration and wear. mechanical kets to prevent
+it and prevent the conduit insulate course, clamps, of
+capability. shielding any magnetic from having
+will not provide conduits nonmetallic Clearly,
+bhielding. electromagnetic
+of Shields Grounding 16.5.3
+at Shield grounded one end: The presence of α shield
+af- not significantly end will only one at grounded
+by changing induced voltage of the the magnitude fect
+against .nay protect α shield although fields,
+the keep may shield α While fields. electric changing
+com- allow the low, it will grounded end at the voltage
+high to be conductors signal the on voltage mode
+unshielded end. the
+at grounded Shielding against ends: both Shield
+at grounded be to shield the requires fi4lds magnetic
+it that order in 16.6(β), Fig. in shown as ends, both
+circulating the is It circulating current. α carry may
+produce that fields magnetic the cancels that current
+rommon mode voltages.
+always effects almost lightning indirect of Control
+provided with wiring be that interconnecting requires
+at shield be grounded the and that overall shield an
+(and can) that must conflicts doe" raise end. This each
+resolved. be
+425

@@ -1,0 +1,105 @@
+зо
+pull tube, adjuatments must be provided so that
+riem surface free play can be maintainod within speci-
+fed λ'mite.
+15-7 ELECTRICAL SUBSYSTEMS
+the slectrioal subaystom. Thaee roccptacios sbal/ con-
+form to MIL-C-7974 staaderds for cround power un-
+ita. Provialons for grounding the bolicopter and ex-
+upo ν npt ν in ν nd nAn inimum variety of ciect ical connectors should
+be ueed. Connector seiection will follow instructions
+containod in MIL-STD-1353. Provisions must be
+msd to prevent incorroct connections.
+Proviaions for Iubricating and coo'ing generators
+and electric motors will be included in the design. Ac-
+cnsribility to lubricating pointa, as well as for the in-
+terchange, of ganorator and motor trusbes will be
+providad.
+u qn
+special Γ. È requirod for its remnova! and in-
+steflation. If zickal-cadmiun batterics are usod, the
+designer stalf insure that water cannot be added to
+the battary without first removing the battory from
+das belicopoxr. (Thus procodure amures that watas will
+battery is fully charged.)
+The voltage rogulator sbouid be accossble to allow
+for interconnocting the roquired test oquipment and
+adjusting the regulator to the proucribed voleage level.
+All fuees and circuit breakors sbal be vieible and
+roudily accossiblc.
+The internal and uxternal lighting instaliation
+should provide easy aocees for instaflation of bulbs or
+tubca.
+Wiring rune must be designed to allow cesy accom
+for the mainimanos oi wiring. Simiiar wiring cun-
+noctions to idontical types of equipurent on α given
+belicopter sbosald be wsed to avoid errors ia wiring
+during installaticn, replucement, and maintanance. If
+thare is α pomibility of connecting α GsE cable con-
+necior to thg incorrori cable, the cable connoctor
+keying sbould preclude suchs haterconncction. Com-
+-oni aq pmoqe sorseuuco so eod Supeoq. vou
+vided for connoctions betwoen the helicopter wiring
+and the GSE.
+The basic deign considerations for the edectrical
+subaystem are deuribed in Chapter 7.
+15-3 AVIONIC SUBSYSTEMS
+Design considerations and requirements for
+avionic subuystoms are describod in Crapter 8. Only
+cnscotial VFR night conmuaication/navigation
+avioaics are considored in this paragraph.
+15-6
+
+:
+15-8.1 COMMUNICATION SYSTEMS
+Installations for the intercomm: rication se, com-
+munication radios, «gnal light, and flare lauocher
+must permit ready removal and replacoment of com-
+ponents.
+Wheu scif-test provisions are included, tost reaults
+dne
+justme τ cor trols must be rosdily accessible.
+For oquipmont that does not include self-tost
+foaturos, the doaign sbould permit external tost oquip-
+mant to be connocted roadily. Pug-in connoctors
+should bs used throughout the installation in order to
+avoid breaking circuits for tost and adjustment pur-
+poscs.
+Break pointe should be provided close to the trans-
+mitter and antenna equipment. The dosigner shouid
+consider the use of diroctional couplers to simplify
+maintenance. Whon tho directional couplers are used,
+calibration indicators should be visible without
+romoval of the units.
+Chassis slides, runners, and tilting mechanisms
+may be usod to facilitate sccssibility of avionic
+oquipment When usod, those mochanisms should be
+oquipped with devices for positive locking in both ez-
+tended and retrected poaition. Handles should be
+providod in ordar to simplify handling and removal.
+Withdrawal should be in thc diroction of available
+spacc. Cable lengths should be adoquate to permit
+slide operation. Adequate space must bs available for
+the inetallation and removal of mounting units and
+acrews. Screws and bolts roquiring accces for main-
+tenance should not be buried urder cablos.
+Installation and test requiremants for inter-
+communication systems and communication radio
+sets are containod in the applicable commodity speci-
+fications and data.
+154.2 NAVIGATION SYSTEMS
+The GSE intariace considerstions and roquire-
+meats sppticable to the communication system also
+apply to the navigation system. In addition, con-
+siderations must be given to the necessity for align-
+ing the direction finder antennas and indicators
+during maintenance. Sin arly, ths gyrosyn compass
+rysiem alignment roquirepentr must be considerod in
+the installation design.
+Spocific installation and test requirements for the
+navigation systonzs are contained in individual com-
+modity spouifications and data.
+15-9 HYDRAULIC AND PNEUMATIC
+SUBSYSTEMS
+The hydraulic and pneumatic subeystam design
+roquiremonts are discuieed in Chapter 9.

@@ -1,0 +1,105 @@
+AMCP 706-292
+16-2.3.5 Retnlalog Riogn
+Retaining ringa, or snap rings .— scloctod in accor-
+dance with MIL-STD-15I5 -- may be usod to rotain
+beuring: Os soals, and, in limited applications, to re-
+tain pi:s or boita. Tbe spplicetion of retaining rings
+to boarings and seeks is discused further in par. 16-
+3.7.2.
+Bech cxternul and intornal retaining rings are
+available aa taperod or reduced cross section types.
+The roduced croas secticn type has a lower load
+capability and, therefore, is vsed only in locations
+wbere the load is not critical and where the retaining
+rirg is not required to maintain a tight instaliation.
+When a taperod cross soction retaining ring is used to
+maiatain & tight joint, both the location and the
+widti: of the snap ring groove are critical.
+locatod groow in the shaft or pin. Internal retaining
+rings roquire that a groove be cut in the housing bore.
+The primary types and configurations of external
+and internal retaining rings are described in MlL-
+STD-1515. External retaining rings used as primary
+fasteners shali be safety-wired in accordance with MS
+33540.
+16-2.3.6 Clamps and Grommcts
+Clamps should be usod for holding wires, tubing.
+or hoeou that are to be removed froquently. Hinge
+clampe are preferred for mounting tubing or wiring
+on the face of a pane!, thus facilitating maintenance
+by supporting the weight of rhe tubing or wiring. For
+large, plug-in asscribiics, positive-locking clamps
+should be used.
+Grommets shall be usod wherever necessary to
+protect cables, tubes, hoae, and wiring from chafing
+und o
+els, or other structure through which they must run.
+Grommeus are available in a variety of materials,
+making it possible to select she correct material for
+sach application. Grommets are covered by Mli.-G-
+3036, -16491, -17594, ane -22529.
+14-2.3.7 Seif-reiainiag Fasteners
+Solf-retsining fasteners are used as & safety lock in
+aroas where a serious hazard would exist shculd a
+bolt be lout, or st zul: a jeint be broken following
+loes or feilure of the threaded connection. Thcir usc
+in helicopters is appiicable particularly to control
+systems and dynamic systems.
+Self-retaining fasteners are not to be confused with
+self-locking bolts. When the self-retaining fastener is
+ineortov into the holes of two surfaces to bc joined,
+mechanical safetying prevents it from being removed
+reedily. Thus, & semipermanent joint, which can be
+164
+
+opened thrsugh a specific artion on the part of the
+uner, is obtainod evon before the nut is atlached to thre
+ailow this type of fastener to fall froc. bolt. Vibration, for example, is sot sufficiont force to 275
+Self-retaining fasteners of the impedan . type are
+covered it: MIL-B-83050, and zelf-retaining. potitive-
+locking bolts are deacribed in MIL-B-23964.
+16-3 BEARINGS
+16-3.1 CENERAL
+Design and seloction of bearings for helicopter ap-
+pications demand the consideretion of several fac-
+tore: life requirements, loads and spceds imposed
+upon the bearing. available space envelope, and en-
+vironmental conditions.
+Determination of the allowable space envelope
+logically is the first step in the design of a bearing
+system. Maximum and minimum values should be
+obtained for the outer diameter and width, together
+with the preferred values within thasc ranges.
+Tne nezt, and most signifcart, design considera-
+tion is the required operating life of the bearing. "e
+life requirements are dependent upon the projectes
+component service life, the time between overhauls
+(TBO), and the level of reliability that must be main -
+tsincd Because bearing failures, and, hence, bearing
+lives, follow a definice statistical distribution, bearing
+lives are celculatad for a given survival rate. The
+bearing design life usualiy is given in tern-s of B-10
+lifc, which represents the operating time that will be
+excecded by 90% of the bcarings under given con-
+ditions of load and speed. In helicopter applications,
+critical bearings are designed for a 3000-hr minimum
+life, with the sciual value depending upon the
+helicopier sysiem specincation requirements. In
+determining the required B-10 ife, the designer must
+realize that the cquations uzed for life caiculations are
+based largely on data frorn fatiguc tests of bearings
+run under controlled and nearly ideal conditions.
+These equations do not take into account such
+adverse operating conditions as severe thern:al or
+contaminating environments, lubricant deterioration,
+or shaft misalignment. Where the potential for such
+conditions exists, thc use of a higher calculeted
+bearing life ix appropriate.
+The loads and spoed imposod upon a bearing are
+major considerstions in Jetermiaing the type and size
+of bearing to be used. Purely radial load- may be
+carried by cylindricel roller bearings. Combined
+radial and thrust loads require the use of ball
+bearings or tapered or sphericai roller bearings, cach
+of which may be uged cithes alonc or in combination
+with cylindrical roller bearings. For spplications in

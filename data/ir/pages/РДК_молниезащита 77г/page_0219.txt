@@ -1,0 +1,21 @@
+tests were made in α darkened area indoors; thus in Figure 7.15(α), in addition to
+the main discharge, streamers emanating from alternate points can be seen.
+Streamers also occurred at the same time from objects inside of the tank, and
+one of these succeeded in puncturing the tank wall, as is evident from Figure
+7.15(β). Here, both an external and air internal streamer reached the leader,
+causing some of the generator discharge current to follow the internal streamer,
+as evidenced by the reduced brightness of the external flashover. Since the tank
+no external diverters, the result illustrates the poor insulating capability of had
+fiberglass alone.
+Simulated lightning attachment tests of fiberglass fuel tank section. Figure 7.15
+(α) External flashover
+Simultaneous external and internal flashovers (β)
+If the test voltage applied between the electrode and the tank were to rise
+at α slower rate, the electric field might not become intense enough to puncture
+the fiberglass wall before α streamer coming from an external point reached the
+leader and collapsed the field. Thus, the rate of voltage rise (dV/dt) is also
+important in determining whether puncture or external surface flashover will
+occur.
+comparing the This important factor can be further explained by
+breakdown characteristics of solids and air. All insulating materials, timelag
+whether solids or gases, respond to high voltages and break down according to α

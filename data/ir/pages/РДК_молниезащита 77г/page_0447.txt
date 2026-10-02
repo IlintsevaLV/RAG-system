@@ -1,0 +1,19 @@
+OVERALL SHIELD (OAS)
+r 1
+INNER SHIELD
+(a)
+CONDUCTORS
+(b)
+(4
+OAS
+INTERNAL PIGTAIL
+(dl
+OAS
+(el
+Types grounding for shields. 15.5 of Figure
+pigtail is inherently longer and partly because it brings currents directly to the
+inside of the case. Such grounding of an overall shield should be avoided
+wherever possible and, in particular, must be avoided whenever the overall shield
+runs through a region where it will intercept a significant amount of energy from
+the external electromagnetic field.
+In no case should an overall shield be connected to a signal ground bus.

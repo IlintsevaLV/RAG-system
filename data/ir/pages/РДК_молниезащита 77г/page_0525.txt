@@ -1,0 +1,35 @@
+TERMINALS OF
+ISOLATING REACTORS SYSTEM UNDER TEST -
+0
+o---
+----+ TO OTHER CrYYYI 1
+EQUIPMENT
+/I
+0
+I
+TEST
+GENERATOR REFERENCE GROUND (0)
+TERMINALS OF
+SYSTEM UNDER TEST
+TEST
+GENERATOR
+Direct injection of transients. 17. Figure I 1
+Common mode (α)
+Differential mode (β)
+magnetic field in that core. If the core is placed around α cabIe interconnecting
+two pieces of electronic equipment, the magnetic field contained in that core
+induces current or voltage in the interconnecting wiring in α manner very similar
+to that produced by magnetic flux from an external lightning source. This type
+NEMP effects testing on the Β-1 (Reference of equipment has been used for
+17.26) and has also been specified for use in the Space Shuttle Lightning Criteria
+An (Reference 17.27), though only in principle, not in detail. Document
+example of the type of test waves that may be produced by α transformer
+pulse-injection circuit is shown in Figures 17.13 and 17.14 (Reference 17.28).
+The inclusion of more complex waveshaping elements in the pulse generator
+2) would allow other waveshapes to be produced. (shown dotted in Figure 17.1
+Some considerations regarding the capabilities of such transient injection
+follow. First, it should be remembered that the circuit under test is primarily
+exposed to the changing electromagnetic field confined in the core of the pulse
+injection transformer. If the circuit under test is α high-impedance circuit, the
+natural effect of that changing magnetic field is to induce an open circuit
+voltage, the magnitude and duration of which will depend upon the amplitude

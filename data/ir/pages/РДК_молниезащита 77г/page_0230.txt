@@ -1,0 +1,29 @@
+outboard end and to those metallic structural components at the inboard end
+which are capable of conducting lightning current on through the airframe.
+Protection against the lightning effects on fuel systems discussed in
+Chapter should also be accomplished. 6
+A variety of conductors for diverter applications may be considered.
+Selection of the one to use depends on such factors as weight, obstruction of the
+airstream, single- or multiple-strike capability, radar antenna pattern inter-
+ference, and cost. Brief descriptions of typical diverters follow.
+External Diverter Strap
+The external diverter strap, a simple metal bar, as shown in Figure 7.24, is
+mounted on an external surface. This type of diverter is designed to receive more
+than one stroke without sustaining significant damage and is intended, therefore,
+for permanent applications. External diverter straps are commonly used to
+protect radomes and wing tips, which receive frequent strikes. The straps are
+usually made of aluminum, with a rectangular cross section of at least 0.1 crn2
+x (20 000 circular mils) to permit conduction of 200 kA, 2 lo6 stroke A ~ - S
+currents without excessive temperature rise or elongation. In order to remain
+intact by minimizing melting, most straps now in use have areas larger than 0.1
+0.64 crn2. Thicknesses of up to cnl (0.25 in) and widths of up to 1.27 cm (0.5
+A in) have been used. common design is 0.32 cm (0.125 in) thick by cm 0.95
+(0.375 in) wide.
+External diverter strap. 7.24 Figure
+The straps are usually attached to the wall with steel screws or bolts; the
+larger dimensions allow holes and countersinks to be made in the strap without
+reducing to less than 0.1 cm2 the strap cross section. In nose radomes, the
+threaded portions of the screws are often surrounded by plastic inserts to
+prevent sparking from the screws to the radar antenna during lightning
+encounters.
+220

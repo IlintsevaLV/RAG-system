@@ -1,0 +1,33 @@
+Segmented Strips
+Segmented strips, sometimes called "button strips," are one of several
+developments in lightning protection technology. These segmented strips,
+developed by Arnason and Cassell of Douglas Aircraft Company (Reference
+51, consist of a series of thin, conductive segments, or "buttons," fastened to 7.1
+a strap of resistive material, which is then bonded to the surface to be protected,
+Figure 7.29. Instead of attempting to conduct lightning currents, as shown in
+these segmented strips provide many small air gaps that ionize and spark when
+an intense electric field is applied along the strip, as is the case when a lightning
+leader approaches. Since the small gaps are close together, the resulting
+ionization is nearly continuous. Thus the segmented strips provide a conductive
+path, initially for streamers to follow outward from the aircraft and, after these
+reach the leader, for return stroke and other currents to flow into the airframe.
+The construction of the strip and breakdown process are pictured in Figure 7.30.
+Segmented strips. 7.29 Figure
+Laboratory tests such as the one illustrated in Figure 7.31 show that the
+segmented diverters are nearly as effective in intercepting strikes and preventing
+punctures of fiberglass walls as are the solid conductors. Since ionization of the
+strips requires that an electric field be able to exist in the direction of their
+length, the segmented strips will perform best if oriented normal to conductive
+portions of the airframe rather than parallel to such structure. Also, the strips
+should not be positioned parallel to a conducting object lying beneath the
+nonmetallic surface. For example, the grounding tube within the radome of
+Figure 7.4 will reduce the electric field gradient along its length to nearly zero,
+so that a segmented diverter positioned near the tube may not ionize and an
+approaching flash may puncture the radome wall and attach, instead, to the tube
+itself. Thus, segmented diverters should be positioned on either side of the
+grounding tube but not directly over it. This positioning is also necessary to
+prevent inductive voltage along an ionized strip from puncturing the radome
+wall, as discussed in Section 7.3.1.2.
+The maximum spacing between segmented diverters--or the minimum
+permissible spacing between them and underlying conductors--is dependent,
+among other things, upon the amount of voltage required to ionize the

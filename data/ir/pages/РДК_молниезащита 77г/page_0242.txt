@@ -1,0 +1,23 @@
+found to be a result of temperature rise in the fdaments and cracking of the
+boron sheaths along the entire length of current flow. The appearance of a
+filament so damaged is shown in Figure 4.12.
+END VIEW BORON FILAMENT
+Electrical model of two boron filaments within a laminate. 7.34 Figure
+When the filaments in an outer layer fail by the transverse, or axial,
+cracking, the resistances of their tungsten substrates also increase (by cracking)
+and so does the voltage rise along this layer, until the breakdown level of the
+boron sheaths and resin between it and the next layer of filaments is reached.
+When this happens, the current enters this next layer of filaments, and the
+process continues. The depth of penetration, of course, depends on both the
+amplitude and duration of the lightning current and the number of filaments
+into which this current can distribute.
+In addition to the current conduction effects just described, the high
+temperature and blast forces from the arc have been found to cause substantial
+damage to a boron composite at the point of attachment; this, in fact, may be
+the only damage which is visible. Yet, because loss of strength also results from
+cracking of the embedded filaments, there may be little or no visible change in
+the outer appearance of a boron composite away from the arc attachment point.
+An example of this is the 16-ply boron composite panel (pictured in Figure 7.35
+kA simulated stroke. The action integral [Reference 7.211) after receiving an 88
+lo6 0.2 of this stroke was A ~ - s , one that might be expected from a restrike to x
+232

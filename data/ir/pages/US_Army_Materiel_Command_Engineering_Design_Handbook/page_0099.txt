@@ -1,0 +1,107 @@
+I...
+from relay. Acceleration is rapid to 90 speed I OD%
+APU, hoeemyhv yasfe av
+mcucteaclrto ;-cbten9 ν
+contol vlveto rgulae ir α beed α uncton o
+haust gas temperature. in the Α thermocouple
+tailpipec can signal α circuit componert, solid~statc
+which, in turn, gives α modulating signal to the
+control valve. he valve I will open so that maximum
+continuous exhaust gas temperature maintained. is
+Thus, maximum bleed air available from the engine
+obtained. Large shaft power requirements require
+careful examination of transient opt.-ation, because
+rupid response may be needed to avoid overtempera-
+ture shutdown. If the compressor is marginal
+the load stability. control valve may σ'heduled be
+small amounts of air during to bleed transients
+vent compressor stall.
+Output load controls for electrical, hydraulic,
+Icomponents.
+direct shaft power arc regulated aircraft by system
+3-8.3.1.4 Ilectirk-al Control Location
+APU-mouznted control components include
+driven enuinment: sensors for temperature. Dressure,
+and ignition components.- anti other ads!%ccd. valves
+components capable of withstanding control
+temperatures. Solid-state sequencing partment
+trols. suppily, load-contsol valve controls, π~ower
+miniaturized relays, and malfunction in~dicators
+airframe-mi tinted be so as to lai-it temperature;
+2001I or below. required, some these If compo- of
+nents can be mounted on 'he air inict collector
+other ducting temperatures %vhere cani be limited
+air. incoming to heat transfer
+Elecirk-all Μ3-.31.5 Prower Reqsareme ts
+the If aircraft can provide small amiounts ofeclectri-
+cal power, the APU system is simplified. About 4
+24 adequate V'is to operate most APU relay σ3-stemb,.
+Battery' systetms suffer from ambient temperature
+limitations in that the battery must be kept
+0 above) (0 F to permit or the -65OF APU
+required by MIL-Π-8686.
+no If batteries art available, APU-drivcn an
+and control tion generator can supply start and
+sequencing power. Such α system requires α stored-
+energy APU start, such as hydraulic or pneumatic.
+Voltage buildup must be very rapid so system that
+quencing can begin early to (5%) achieve low self-sus-
+~\ taining speed and good cold starting.
+") 3.3.2 Fue,! Sysiein Controls
+The fuel system must provide APU ý;ontrol%
+automatic starting. acceleration, and rated speed
+
+AMCP 706-202
+for governing throughout the operating dcrined envelope
+Techniques o for scheduling fuel may bc mechani-
+orpecidicatr
+ι, ithe 0% χ oniode Th lcrncsystemis at-
+ex sped cotro. prtectve retc requirequrdd ircuts
+APU In most cases, however, the system require- APU
+ments are simple an~δ are handled best by niechani- α
+load.- cal governor with aceic.ledtion fulnwshdldby
+, compressor discharge aure. vre'
+The APU fuel system cnitofhefuel supply
+is (common with the main engine(σ) ), airframe-
+mrounted boost pump, and fuel lines (with shutoff
+α and check valves) connected to the APU. An inlet
+filter of capacity, but small micron rating, large pro-
+on vides clern fuel at the APU fuel pump.
+to
+pre- R~ted Speed 3-8.3.2.1 Govevning
+The APU speed-regulation requirements genemitly
+or are satisfied droop by governing, as explained for the
+main enginc in Chapter 8, AMCP 706-201. speed Α
+band (droop) of' 2-4% through the load range is
+adequate for coitrol at 400 frequency Hz power. AC
+all Peovided bleed airflow and pressure requirements
+are ment, the speed band is not critical for bleed air α
+.ArU. Sopccd recovery and stability specified in bee %vill
+the model specification. It reqi'ired, APU isochro- ccm-
+con- nous gover ning to hold speed within α narrow bond
+can acccinplished (±0.25%) be null system. Top- by α
+shall ping speed adjustments should be provided to ac-
+to count for installation differences and deterioration of
+the efficiency of the or driven equipment APU
+overhauls. between oi
+by 3,3.2FlrngRjrmes
+eqieet Fitrn 3-...
+Filtering has been problem α on some military heli-
+comter installations, Combat situations have resulted
+in contamination beyond .fuel original expectations.
+Α, Servicing oi components in the field also can intro- duce contami nation, which must be considered.
+To keep required maintenance at α minimum.
+warm AI'U Filters should of be extr..-large capacity, or of
+starts self-purging configurationi. Α high percentage of fuel
+control, valve, ance nouzie failures results from con-
+igni- taillination damage. Sources of con~tamination in-
+run or component vlude line contamination duriing ser-
+vicing and wear products generated interiially in
+pumps and μ.)ving parts.
+se- Screens or filters inicronic shall placed α~τ ,χ he va
+aod nozzle enti ances to prevent passage ot pa! ticles
+during assembly, left installation, or field mainte-
+nance. Α PU fuel rump midi and ou- let fiPers.'Jiall he
+for stand;ard equipnicnt and of the throwauay type. The
+rated micron size of filters should as large as pussi- he
+3-:9Q

@@ -1,0 +1,39 @@
+AMCP 706-012
+ι PRESSURE
+4 ELECTROHYDRAULIC
+VALVE PIPE JET
+FEEDBACK
+SPRING
+RETURN
+PRESSURE--,,,=,--"
+TRANSDUCER LVDT
+- PRESSURE OPERATED
+PRESSURE__
+"(Α) ENERGIZED IB) ... DL-ENERGWZED
+Fipre 9.43. Typical Separate Servo Actuator
+areas shall require no more than removal of quick- izistallation damps is the soft or compliant type, with
+access doors. or blocks close erough to the component-attach
+devices RLS have ground-checkout capa- points so that excessive stresses do not develop. The shall
+esti- be designed with the known or to par. 9-2.6. Manual operating but- installation 1. 1). bility (refer shall
+tons may be provided, along with operating indi- mated vibration environment in mind so that sysum
+cators on each subsystem to indicate which sub- resonance does not oecr.
+system is shut off. Visual access to the operating in- Clamps and blocks may be used to advantage.
+θ' dcsirabc β- without ILI..ι.. rnoA dicators "hc -ie it ι, , ,v prefea-bly providud• ,oA Δ. skhl be Δ -
+for door opening. Access to the manual operating 994 discusses their use in deail.
+buttons may be through conventional access doors
+since their checkout will required only periodical- be 9-2.8.4 Momiti Campo"eu Ceacepts
+ly, Component instaalation can be cassified as fol-
+Access requirements are discussed in MII.-H-5440. lows:
+ι. Separate. independent components
+9-2.8.3 Hard Versus Soft Installations 2. Inw.4rated packages with cartridge components
+The tubing installations may be hard (rigidlj held in α common housing
+in• place) or soft (compliant). Each approach may 3. Α pressur-return manifold with 'rnount-on"
+cannot work satisfactorily; however, they be mixed components.
+successfully. The use of α hard point as α fitting in α The installation trend is to integration or mani-
+relatively noncompliant bulkhead - for instance, in folding. Primary reasons are tho resultant reduction
+cooun•tion clamps with some dist-nce away can in external points and the weight kak savings. An op. -
+disastrous. worst vibration condition, the timum approach may be an integrated pump-iescr- be 4.τ
+enough the clamps will allow motion of line to sevice that v,. ir package, separate α center that would in-
+flexure at the bulkhead fitting will result in excessive clude all othes components exctpt the control surface
+bending stresea•. and fatigue failures. The preferred actuation or any suosystem operating device. In
+9-26

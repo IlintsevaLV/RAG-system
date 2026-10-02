@@ -1,0 +1,33 @@
+However, the Wavefornzs and Techniques for Aerospace Vehicles and Hardware.
+50 kA intermediate current would deliver much more energy than would the 2
+Β kA intermediate current, represented by Component of Lightning Test
+Α 50 kA current decaying in as long as 2 ms would Waveforms and Techniques.
+be found only in the severest of positive polarity flashes, which occur very
+seldom. In any event, Table 7.2 shows that the 200 kA stroke current creates α
+much higher effective transient force, Pt, than does either of the other currents.
+7.2 EFFECTIVE TRANSIENT MAGNETIC FORCE Pt Table
+An example of how the table is used may be found in the case of the two
+parallel air pressure tubes 2 cm apart, for which α peak force, Po, of 100 000
+N/μ of length was calculated. Assuming that these tubes have an angular
+lo4, frequency of Table 7.2 shows that the effective transient force, Pt, would
+be
+Pt 0.45 Po (7.13) =
+or 45 000 N/μ (3084 Ib/ft) of length. This is the amount of force which should
+be used in performing mechanical response calculations or mechanical strength
+tests.
+James and Phillpott also conclude from Table 7.2 that
+Continuing current pulses do not give rise to α high effective force (α)
+λ2 and therefore the peak magnetic forces are too low. because
+1
+(α If as for relatively heavy flexible systems lo3) the = (β) 7<-
+Ω
+effective force is roughly proportional to ~ ~ Thus the fast and τ .
+intermediate components give about the same effective force
+although the peak forces are very different.
+1 - (α If as for relatively light stiff systems lo4), the effective = (χ) 7%
+Ω
+I ~ . force equals twice the peak force and is therefore proportional to
+For this doubling of the peak force to occur it is assumed that the
+1 -. <
+current rise time is
+Ω 1 - If the effective force is 45% of the peak force for the case of (δ) TZ α'

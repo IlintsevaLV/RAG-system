@@ -1,0 +1,38 @@
+6.6.3 Current Amplitudes
+Α wide range of current amplitudes appears in typical lightning flashes.
+These are discussed in Chapter 1; Figure 1.1, for example, shows that most of
+Α the charge in α flash is delivered by continuing currents at α rate of about 200
+and by intermediate currents at α rate of about 5 kA. The higher amplitude
+strokes are usually of too short α duration to deliver appreciable charge.
+Therefore, emphasis should be pIaced on the intermediate currents, which can
+occur to surfaces in Zone 2Α and which can deliver large amounts of charge at
+appreciable current amplitudes. Section 4.4.2.3 of the SAE report specifies that
+Δ Δ should be applied in Zone 2Α, with applied current components Β, C, and
+first, since it is α restrike, which would be expected to create α new dwell point.
+Components Β and C follow for whatever dwell time is expected--or for 50 ms
+if the dwell time is unknown and has not been determined from swept-stroke
+tests. This current is shown in Figure 6.22. If α dwell time of less than 5 ms is
+expected, an average current of 2 kA should be applied for the actual dwell time
+only.
+look*
+/;=
+Β AVG kA DELIVERING C IN 2 10 5 ms
+C DELIVERING 400 0.4 Α, oms ,/
+IIfII 8 III 50 5 10 15 20 25 35 40 45 0 30
+MILLISECONDS - time
+Current and charge expected at α Zone dwell point. 6.22 Figure 2Α
+Delivers 10 in first ms at any dwell point 5 C
+Delivers .04 C/ms thereafter (From Figure report) SAE 3.3
+Delivers 400 for all 50 if dwell time not known (Drawn rns Α
+with straight lines for explanation purposes only)
+The current amplitudes of Figure 6.22 are based on the SAE study of
+natural lightning data and in-flight damage reported by aircraft operators over
+the years. As such, these current amplitudes are α good representation of what to
+1 expect in α severe natural lightning flash, the type exceeded only or 2% of the
+time. It is recognized, however, that more severe currents, like those which
+sometimes occur in α positive polarity, cloud-to-ground flash, could appear at
+Zone 2Α dwell points. An example of such flashes, recorded β υ Berger
+(Reference 6.48), is shown in Figure 6.23.
+The current measurement was made at an instrument tower on the ground,
+and the long, upward-moving leader which extended from this tower to the
+cloud base accounted for the (approximate) 11.5 ms which elapsed before the

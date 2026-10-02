@@ -1,0 +1,11 @@
+each winding or, for that matter, with the same number of turns on the two
+17.2 7.22 17.35) 1 1 and (Reference give quaIitatively some of windings. Figures
+the ways in which turns on one winding or the other affect the results if the
+two windings are not equal. For instance, if the wire number of turns on the
+under test is looped through the core several times, a given excitation on the
+transformer will produce less short circuit current, more open circuit voltage,
+and a decrease in the frequency of the natural oscillatory mode of the cable
+under test. If there are more turns on the primary, there will be more short
+circuit current, less open circuit voltage, and a decrease in the frequency of the
+natural oscillatory mode of the pulse generator. There will also be a longer rise
+time of the current and voltage pulses.

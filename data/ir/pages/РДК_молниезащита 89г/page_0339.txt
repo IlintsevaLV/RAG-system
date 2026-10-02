@@ -1,0 +1,68 @@
+sector made of α lossy material having α conductivity
+of 220.4 mho/μ. The inner conductor is driven by
+axial voltage having the same waveshape as shown
+Fig. 11.23, but of 248 V/μ, the field that produces
+peak current of 1 ampere.
+The solution of the problem used the 2DFD
+with α cell having α thickness of 0.001 μ in the
+material and 0.01 μ elsewhere. The angular width
+the cell was 100 and the time step was 2.5 ps.
+lossy material
+0.21 μ
+metal
+0 2
+.1 /conducting
+.0shield
+Fig. 11.27 Structure having both metal
+and CFC sectors.
+Fig. 11.28 shows the current on the metal
+the lossy portions of the conductor. Initially, most
+the current flows on the lossy portion of the conduc-
+tor, but eventually all the current flows on the
+portion. The redistribution time can be defined
+the time when the currents on the two conductors
+equal; 400 ns in this case. Because the metal
+ductors are assumed perfectly conducting, the current
+never decays to zero, even though the voltage pulse
+of finite duration. If metal losses had been considered,
+the current would have eventually decayed to zero.
+1.0
+" ._--
+______U11.5
+0
+-0.1 .
+0 2600
+Fig. 11.28 Redistribution of current on structure
+shown in Fig. 11.27.
+
+The magnetic and electric fields at ρ = 0.05 μ and
+an 0 = 00 are shown in Figs. 11.29 and 11.30. The electric
+in field initially increases because of diffusion, but then as
+α redistribution occurs, it decays to zero. The magnetic
+field increases in amplitude and eventually approaches
+code α steady state value determined by the current distri-
+lossy bution on the center conductor and the inside surface
+of of the outer conductor.
+0
+-0.14
+and 0 2000 no
+of
+Fig. 11.29 Magnetic field at point indicated
+metal on Fig. 11.27.
+as 0.06
+are
+con-
+is
+-
+N
+ 0
+0 130 ns
+Fig. 11.30 Electric field at point indicated
+on Fig. 11.27.
+Implementation of Diffusion and
+Redistribution in 3Δ Models
+The two previous examples have illustrated how
+diffusion and redistribution problems can no be solved
+with 2DFD models. They can also be incorporated
+into 3Δ models. The following sections will illustrate
+323

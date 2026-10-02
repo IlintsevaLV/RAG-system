@@ -1,0 +1,79 @@
+SRd
+(14.5) ,χ
+while for lightning current of short duration the wire
+current is
+I., (14.6) = Vocdt
+-
+where
+- amperes I
+self-inductance of wire or cable - H = Λ
+open circuit induced voltage V - = V0,
+τ time-σ α =
+Multiple conductors: If there are several conductors
+in α bundle, all of the conductors will be subjected
+the same open circuit voltage and short circuit current,
+Wire shields: shield Α on the wire, if it is grounded
+only one end, Fig. 14.5(α), will not reduce the voltage
+or current to which the wire is subjected. If the shield
+is grounded at each end, as indicated in Fig. 14.5(β),
+it will reduce the voltage or current, but the degree
+of reduction will depend primarily on the resistance of
+the shield, as compared to the resistance of the aircraft
+and the resistance of the wire.
+ci14.3.2
+aThe R
+I (α) Λ -
+(β) Λ Rfollow,
+,α
+Fig. 14.5 Effects of α shield.
+(α) Grounded at one end
+(β) Grounded at both ends
+(χ) Equivalent circuit
+
+Example: The geometry shown on Fig. 14.6(α) is
+somewhat representative of α conductor used for dis-
+tribution of aircraft power. For the indicated lightning
+current, and are as shown on Fig. 14.6(δ) and I., V χ
+0
+(ε). The point of most importance is that the short cir-
+cuit current is controlled more by the wire inductance
+than its resistance and reaches its peak long after the
+aircraft current has begun to decay.
+Source impedance: Strictly speaking, source imped-
+ance would be found by taking the instantaneous val-
+ues of voltage and current,
+(14.7) .
+and would be α quantity that was time or frequency
+dependent. Often however, the ratio of peak values of
+to open circuit voltage and short circuit current is takcn
+to be the source impedance and, for the above exam-
+ple, is 0.32 ohms. The quantity is α useful measure of
+at the impedance of the circuit, but should be used with
+caution since it pertains only to the one waveshape of
+driving current.
+The illustration of Fig. 14.6 is somewhat oversim-
+plified, but it does illustrate the point that source im-
+pedance for resistively generated voltages is quite low,
+about the same as the resistance of the wire. This low
+source impedance is an important point that must be
+considered when applying surge protective devices, as
+discussed further in Chapter 16.
+Response to Magnetic Fields
+14.7(α), consider, Fig. to geometry simplest
+sur- adjacent to α metal placed is that of α conductor
+face and exposed to α uniform magnetic field oriented
+to produce maximum voltage in wiring. Single conduc-
+tors are rarely found in an aircraft; more commonly
+conductors are part of α bundle of wires, or one of the
+wires in α multi-conductor cable. For the analyses to
+the effects will be about the same for α single
+wire or for α group of wires comprising α cable or bun-
+dle. If the cable is fitted with α shield, the shield can
+be treated just as another conductor.
+Open circuit voltage: The open circuit induced volt-
+age between the wire and ground, or the common mode
+voltage of wires in α cable, will be
+!- = (48 Vd = HA H Α
+= =1
+where
+375

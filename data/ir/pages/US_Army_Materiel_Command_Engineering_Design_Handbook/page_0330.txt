@@ -1,0 +1,110 @@
+______________AMCP
+OVERLOAD PROTECI'ION .7-5Z,
+APPLICATION
+fuse Α preferred to fuses. breakers arc Circ,.-it
+replaced once be its current limit has betrn exceeded,
+and replazcement with an improper size or type
+Circuit shou~δ grouped possible. breakers in hi.
+'of function or usage, and should labeled be by
+tion for rapid ieifctn.They should located be
+in α protective panel, or covereii so as to eliminate
+possibility of hazard to personnel or contamination
+by forcign objects. The placement of circuit breakers
+in the crew area should avoided. be Or.:υ
+necessary in order to maintain safe flight should
+accessible to the flight crew, as any malfunction
+be corrected prior to reinstating the circuit.
+~quirements The installation -. foi fuses and circuit
+breakers are detailed in MIL- E-7080.
+7-6 ELECT'ROMAGNETIC
+(EMI/YMC:) INTERFERENCE
+GEENALaffc-;τ 7-61
+-
+describes (EMC) compati')iity Electromagnetic
+electronic/electrical equipment aircraft of the abliity ?
+/
+environracnits χ;-erational intended in its to perform
+without suffering or causing unacceptable δ'fgr~kda-
+tion as α result of unintentional electromiagnaetic
+ι.ε., electromagnetic or response, radiation
+(EMI1). ferenice
+or α varying electrical by EMI is generated
+netic field. As α result, almost any device carrying
+of interference, is α possible source electrical current
+cach bubsysterii sysiemn, α weapon within Likewise,
+generated interference. In α potential victimn of α
+course of qualification of α weapon system, EMIC
+response; to interference electrical equipment victim
+sources is defined and evaluated. The solution
+reducing the magnitude of by control the EMI
+or designing the the source, ference, isolating
+the EMI. to susceptible be 'ess to ceptor
+To achieve α compatible weapon system, the
+to environment, fromn intcrcircwit and intersystem
+trasystem. must considered following be by
+and state-of-the-art engineer- ference specifications
+ing designs. The samte results can achieved be
+and the best solution depends several mear.σ;
+upon the the cognizant angir'eer, and the judgment of
+particular time allowance of the budget and
+"~plication.
+JThis
+procedures the design outlines paragraph
+EMI levels. In, the determinatioai of acceptable
+of sources of interference tion, the identification
+
+706-202
+possible methods of compatibility correction or al-
+leviation are disacussed.
+REQUIREMENTS ACCEPTABILITY 7-6.2 must
+Unacceptable equipment responses to EMI levels
+aural, video, is are exhibited as or equipmenit mal-
+order functions. In cases, negative aural can sonme response
+indicates func- be acceptable if testing that it does not af-
+feet overall mission capability or ilight safety.
+the EMC tests are required to demonstrate control of
+the electronic intesrference environment. The detailed
+requirements for these tests be specified in the shall
+those contracto. σ control and test plan. See par. 9-li1
+be AMCP 706.203, for α discussion of the helicopter
+must system NIMC demionstrationi requirements.
+ý'ν τ~sting certoin equipment for example, ord- -
+riaoice φ!.ýρ u7 efss`rabic response, it is neccasary to -
+itwwuý 'the systemr functions within α wide safety that
+mo*'gin. Mib~τ.ýfry requirements state that an inter-
+ferev.-ε sigrei impressed upon the most critical point
+dB (20 -dB for 6 α subsy'ptem must at least be of
+level that would cause an un- explosives) below !he
+equipment that directly of dcsirif~χ resnonee. Items
+flight safety, or thut cause or lead to α uisa:--
+de- arc α mission, accomplish tc~ or to failure abort
+in- iss tests margin safety for the factcis termining
+in MIL-E-6051. dicatcd
+7-.INEFR CES CFCAOS
+7-. INEFRNEPCFCTIN
+tests that stfficient Military Specifications require inter-
+to insure or weapon systems of equipment made be
+they are compatible mag- that
+applicable to the Spocifications and standards
+necessary to and test procedures design reqaiiremenr~σ
+of θ.- electroniý controll is sk onvironmpnt ;nt~rfPr~nrCC
+NhilL-I MILLE-6031, helicopter are Mll.-Β-5087, thec
+and hilL- MIL-STD-454, MIL-STD-461, 16165,
+STD-462. Iii gentral, the most current spocification
+is to in force will the controlling factor for quuli- be EMC
+inter- fication.
+re-
+SOURCES INTER4FERENCE 746.4
+interference originates from either entire Electromagnetic
+in- natural or rnantrade~ sources. Natural sources include
+and lightning dis- inter- atmrospheric, precipitation, corona,
+EMI varies randomly with chargec noise. Natural
+operations, and seasonal time, geographical area of by
+affects τ type of interference generally upon conditions. Thi-
+band. range in the low-frequiency α broad frequency
+broadband or EMI are either Manmade sources of ap-
+evaluated be narrowband generators, and they must
+separately. bandied for and
+diatributes energy over α addi. Broadband interference
+frequency spectrum, and can either random be and wide
+7-21

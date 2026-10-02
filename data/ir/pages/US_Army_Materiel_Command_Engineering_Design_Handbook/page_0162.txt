@@ -1,0 +1,90 @@
+3. Bursting streus (internal toohed member) Sg:
+5 - 7.095 × 10°π(rD)} tan • рві
+xFR () - ]
+(4-58)
+ω.bere
+msjor diamoter of spline, in.
+Ds = cuteide diametor of spline toothn member
+- Δ, + 2 × (back-up rim thickness), in.
+χ rototional speed, rpm
+ρ material deneity, Ib/in.
+spline prossure angic, deg
+Limit and ultimate margins of safcty must bc cal-
+culatod using appropriate torque values in these
+equations and comparing the stresses calculated with
+Eqs. 4-56 and 4-57 with the allowablc yicld and ulti-
+mate shcar stresscs of the reapective parts. The
+stresses cslculatod by Ey. 4-58 arc compared with the
+ailowable yicld and ultimate tensiie siresses of the in-
+iernai tooined member.
+4-3.2.3.5 Drawing Design and Control
+Splines shouid be specified on thc enginccring
+drawing or other document in α manner similar to
+gear teoth. An enlarged, dimensioned soctional view
+and α data block should be included. An even
+number of teeth is preferrod for over/under wire in-
+spoction purposes and manufacturing case. To pre-
+vent involute undercutting and pcrmit usc of the
+maximum number of manufacturing technique op.
+tions, tooth numbers must be no lower than those in
+Fig. 4-33.
+The eniarged spline drawing (Δ./2 is α convenient
+acale) should present major diameter, pitch diameter,
+form diameter, minor diameter, minimum Aillet
+radius, cireular tooth thickness (external), circular
+space width (internal), tooth tip chamfcr, dimension
+over (external) or under (internal) gage wires, and
+surface finish.
+The data block should present number of tocth,
+diamctral pitch fraction α/β(where α repiesonts Π, -
+Δ /N and & is the vaiuc of Π, when it is expressod as
+the reciprocal of the addendum length). pressure
+angle, base diameter, total or composite index error,
+maximum deviation of parallclism tooth-to-tocth for
+given kength of engagement, and psrallelism limits
+with respect to part reference axis or surfaces.
+Involute profile tolerancs should be presented as
+data, for gage insp ction, or as α chart, for analytical
+inapoction. For gage inspection techniques, major
+diamcter and pitch diameter eccentricitics must be
+460
+
+ANN, MUNBER RE COMME NDEO F OR
+EASE OF MANUFACTURE ABSOLUTE BIN. *JMBER TO AVOIO
+UNDERCUFTIMG ANVOLUTE
+Σ2
+UNBER OF TEF.TH * 20
+15
+10
+25
+PRESSURE ANGLE 3, δ
+Figure 4-33. invointe Spiise Dain φ es
+absorbed within the limitations of the major dia-
+meter and effective tooth (or space) thickness
+tolerances. For externally gaged splines the maxi-
+mum effective and minimum actual circular tooth
+thicknesses must be spocified; while for internally
+gagod splines, the minimum effective and maximum
+actual circular space wicth must be determined.
+When inspection with gages is specified, the
+diameters of over-and-undes wires called for arc
+referenced data. With analytical inspection
+tochniques, tooth thickness and space width are given
+as actual minimum and maximum limits, and tooth-
+to-tooth spaling tolerances also must be specified. In
+addition, allowable tooth lead crror should be sub-
+stituted for parailelism error.
+The manufacturing method must be considered
+when detailing the spline. Shaper cut splines should
+have α minimum chip and cutter overrun gap equal to
+their total depth. The minimum relief diameter for an
+internal splinc should be equal to the major diameter
+plus one quarter of thc whole depth, and for an ex-
+ternul spline, the minor diameter minus one quarter
+of the whole depth. These diametral ciearance vglucs
+also may be used for broached splines. Hobbed or
+ground splines, of course, must provide overrun
+clesrance for the wheel or hob radius.
+4-2.2.4 Overrumiag Clutckes
+Certain overrunning (free-whecling) cluich require-
+ments were dascribed in par. 4-1.2.2. The lowest drive

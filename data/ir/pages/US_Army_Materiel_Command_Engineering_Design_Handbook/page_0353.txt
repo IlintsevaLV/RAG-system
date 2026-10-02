@@ -1,0 +1,110 @@
+reflections and currents in airframe. crows the The of
+polarized represents an component inefficiency or
+power loss, and is α consideration when selecting
+antenna lcamtion.
+,'The effocts of tribotlectric (friction) charging
+fluence the selection of antenna location. The
+copter airframec and nearby antennas are cha-
+electrostatically the by rotor downwash, and voltagat
+high enough to produce corona can result. The
+ona will occur on ahaip points. or on points of
+electrical stress concentration. these If arcas are
+antennas, oi are electromagnetically coupled
+antennas, the broadband noise generatod the by
+on: will introduced into be die receiver.
+Antenna location must insure that die antennas
+decoupled from each other; this is practicable for
+tennits operating in the same frequency range.
+Mutual coupling between antennas affects-their
+pedance and the radiation patterns individual of
+ments. High voltages can introduced be in passi-ic
+cuits if excessive mustual coupling exiists between
+transmitting and receiving antennas.
+Dcvelcpment of helicopter antennas depcnds
+~~~~~~.ne ~ ~ ~ ~ ~ ~ ρ~ne θ.~ oA~. yp.,.,.,,.α
+When employed with MIL-Α-25730. discretion,
+usc of scale models for antenna development
+vides the ability to predict suitability the ot unsuit-
+ability of an antenna location. Usually, the model
+technique is used on lar~ge prototype aircraft with
+model scald down to 1/20θ to facilitate manipu-
+lation. The scale factor is variable, and any scale
+tor maky be used provided that the resultant
+sain the by upward "ca.id be mumt (which quencies
+scale factor) are easily obtainablu.
+Frequencies in the Sgigahertz regpion are not easily
+scale. In addition, frequencies in the HF region
+often are not scaled. On 1/20-scale α model at
+MHz, for example, tht; model frequency must be
+MHz and thesw two frequencies inherently propa-
+gate differently. Theory is quite logical for
+models, but care must taken to be scale every detail
+affecting; antenna performance. For example, caling
+wire size in order to maintain identical current
+tributions must considered. The be model must
+isolated from its surroundings, and consideration
+must be given to ground reflection& and to radiation
+from connecting cables.
+The model measurcineats ame made in the scale
+dimensions and for orthogonal polarization.
+radiation patterns arm measured over the scaled
+quency range operation, of for varying positions
+the rotor and for different antenna locations. The
+timumn location of the antenna with respect to radia-
+tion patterns will result from these measurements.
+8-12
+
+im-K., Measurement impedance of mutual and
+α pedanoc is accomplished easily on tho beli- most
+the copter although α full-sc~ale mock-up, containing
+those portions of the helicopter within wave- several
+in- lengths of the antatnna, gives accurate results. AD
+heli- model measurements must verified be on full-scale
+god aircraft. This technique is analogous to aeodynamic-
+model testing in wind & tunnel.
+cor- present The range requiruanent for VHF-FM corn-
+having high munication 10-Ω power α output to non- α
+on matching antenna is 40 mi. This is α reasonable rang
+to when tested in the optimum condition.
+cor- When an antenna is to used over wide be α firequen-
+cy rangt, ι.ε., VHF-FM Mliz, 30-76 it must he
+are broadband if efficient operation is to the If result.
+an- transmitter/receiver mismatch is not too U great,.
+VSWR, reasonable efficiency will result. the Voltage -ý
+im- Standing Wave Ratio, it the criterion for acceptance
+of antenna ele- matching; it is determnined the ratio of by
+cir- forward to reflected power. The Radio Technkca
+Commission for Aeronautics (RTCA) aW chowe α
+VSWR of 5:1 as an applicable standard. However, α
+upon more stringent ratio is required in many came. Comn-
+.hst.,,Λ4 α VQlWA anta.,,na ι ,~trn hows-~ Aff Α-1 I
+the o. and trnusponder less. TACAN antennas should
+pro. have α VSWR of 2.3:1 or VSWR is less. compla. ok (
+ratio of incident powtv to reflected power as given by'-
+Eq. 8-I.
+the I Reflcted Powur
+Forward wr
+fac- VSWR :τ 5 10χ
+- freiv*~os
+o~ ored
+".3j IOA711rON AND INSTALLATION OF'
+ANTENNAS
+In most casta, thot types of antennas mveral
+15 that can be used for gliven item of communication any
+30 or navigational equipment. and final choice the Is de-
+pendent upon the requirements of the specifkicn-
+stallation. For additional information governing an- scale
+tenna installation and location, see MIL-STD477.
+During design the initial phase, incorporation of
+dis- system zero-drag or flush-mounted antennas must be
+be considered. It is extremely important to submerge the
+antennats, not only for increased flight efficiency, but
+also to minimize maintenanov problems.
+In mos τ case space limitations prevent the location
+of antennas far away from~ one another.
+The Specifications usually require α three-eighiths wave-
+ir length separation, but this unrealistic; therefore fre-
+of separation to the greatest de~.me possible should be
+op- made. An alternative solution is the multi;1sage Of α
+single antenna, with passive devices added to aid in
+multiplexing. An excellent example of this usage is α

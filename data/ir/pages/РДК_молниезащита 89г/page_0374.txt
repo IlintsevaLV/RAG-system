@@ -1,0 +1,35 @@
+Nj
+13.7. Values of RF and RR on Fig. throngh 'ýesistors, tesistor iW that it re•duces drawback tOa series One
+available the maximum current α given size surge 160 to 150 ohmsI are usua14 sufficient. The figure also trom
+generator. Another is that considermble, voltage devel- shows the current waveshapes ,obtained in the actual
+1 ops between the, aircraft and the return circuit. For test for which Fig. 13.4 showed calculatior.σ.
+Scalg safety, reasons of is, preferable that the return cir- 3τ 13.3.3
+cuit be grounded. Thus the aircraft potential rises and
+insulation under the wheels becomei necessary. In- The -asic prerise of pulse testing at other than
+sulation capable of withstanding several hunidred kV full amplitude is that the aircraft system is linear and
+cmn he provided, without undue diffloulty, sufficient for that results of measurements at low current levels can
+tests at current levels up to several thousand amperes. be scaled linearly to predict the response at full threat
+current level. As discussed in §13.2.2. aircraft are lin-
+oscillations retirn on the wires: Since the ear systems, at least as rega.'ds resistively and magnet- External
+aircraft canuot be completely enclosed by α cylindrical ically generated voltages. Some questions have arisen
+return conductor, magnetic and electric fields will leakl in the past as to what is the mcst important mode of
+throtigh the cage of return wires and couple to other interaction arid whether scaling should be on the, basis
+conductors outside, such as steel in the hangar floi'ρ relative of amplitudes or relative rates of rise.
+and walls. Energy coupled to these systems will cause Simplistically, one might argue that the dominant
+α secondary set of traveling waves to propagate on the mode of coupling is resistive and that only relative am-
+return wires, as well as the primary, set propagating plitsmdes of current are important. Equally simplisti-
+between the aircraft and the return wires. Reftections cally one might' argue that aperture coupling effects
+and that the induced volt- and refractions in the external systmns will Ghow up in are of primary importance
+the measurements made in the primary circuit, ages depend on rate of rise of current. On this premise,
+These oscillations can be controlled by conn-ecting one would scale measurerneut results ficcording to the
+both ends of the return conductors to building ground rate of rise of ,he surge cureent,
+Test 208 Test 209
+10OA/div lus/div 100Α/div Ss/div
+Λ 18 uml -
+C 1.5 UF -
+45 R al -
+kV E'- 25
+fl Rf- 120
+130 α R_
+13.7 on the return lines. Termination resistors Fig.
+359

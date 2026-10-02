@@ -1,0 +1,46 @@
+ventional camera, Generally an image intensifier sec- Switching impulses: Recent studies (from about
+tion is used to amplify the image and make it possible 1965) have mostly focussed on the mechanism of
+to display phenomena that are only faintly luminous, breakdown when electrodes are exposed to switching
+The focused beam can be moved by deflection plates impulses since it has been found that such impulses
+similar to those used in a cathode ray tube. cause flashovers at much lower voltages than do light-
+ning impulses. Positive impulses produce breakdown
+and have been than negative impulses at lower voltage
+on focussed have studies the Also, studied. most the mode streak in image
+the behaviour with voltages just sufficient to cause
+breakdown and have not dealt with the breakdown
+In overvoltages. to subjected is gap the when process mode framing in image
+this respect the studies have differed from eariy studies
+moving lens of breakdown with lightning voltages where the influ-
+ence of excess voltage on the speed of breakdown has
+of insulation. to design been important electrode
+developing Fig. 1.20, adapted from Fig. 10 of [1.1] and from
+breakdown [1.9], shows sketches of what would be revealed when
+film is sviewing, with a streak camera, the breakdown of a
+rod-plane gap when the rod is energized with posi-
+tive polarity surges of the indicated waveshape. Pho-
+groun tographs showing the phenomena in more detail ap-
+plane pear in [1.1.]. For some rates of rise of voltage the
+discharge proceeds fairly smoothly toward the ground
+electrode. If the rate of rise is lower the discharge
+Fig. 1.19 Streak and framing cameras, becomes more discontinuous. In general, the corona
+propagates from the developing leader towards the
+ground plane, as evidenced by the slope of the image 0
+produced by the developing corona.
+800 kV voltage collapses when
+leader contacts ground
+plane and develops
+into an arc
+0 20 us
+corona propagates from
+the leader toward the
+ground plane
+corona
+time
+kV 750 kV 900
+0 us 30
+-coonat- leader eader
+corona
+0 400 us
+Fig. 1.20 Influence of wave-front on the development of the leader stroke.
+Adapted from [1.11 and [1.9].
+12

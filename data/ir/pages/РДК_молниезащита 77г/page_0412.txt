@@ -1,0 +1,18 @@
+Mutualinductance. 13.31 Figure
+13.1 through 13.6. One end of the cable was grounded through a 33-inch length
+of wire, while the other end was connected to the ground plane directly. Voltage
+0.4 V V1 was increased from (Figure 13.6) to 13.5 solely because of the V
+inductive drop in the ground lead.
+There are two fundamental drawbacks to pigtail grounding. The first,
+shown in Figure 13.33(a), is that the shield current, being constricted to a path
+of small diameter, sets up a more intense magnetic field at the surface of the
+conductor than it would if the conductor were larger. Because of the higher flux
+A density, the self-inductance of the conductor larger. more intense magnetic is
+field of itself would not really be harmful if all the flux so set up would link the
+signal conductors as well, because then the mutual inductance would also be
+L high, and the difference, minus M, would be low. If the shield current is
+confined to a small-diameter path, the field intensity rapidly falls off with
+distance away from the conductor, and hence the mutual inductance will always
+be smaller than the self-inductance.
+on If the shield current is carried to ground a shell concentric with the
+402

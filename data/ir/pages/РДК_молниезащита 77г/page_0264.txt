@@ -1,0 +1,40 @@
+tasks are as follows:
+(α) Τ o determine the amplitude and waveform of the current on
+the exterior of the aircraft. This external current may or may not be
+the same as the undisturbed lightning current.
+(bj Τ o relate the internal response of the aircraft structure to the
+current flowing on its exterior. This internal response may be
+expressed either in terms of an internal electric field or an internal
+magnetic field.
+Τ o determine how the internal response of the structure affects the (χ)
+response of the aircraft'σ wiring. The response of the wiring may be
+expressed either in terms of voltages or currents induced on active
+electrical conductors or in terms of currents induced on shields.
+Τ o determine how these currents and voltages affect the electrical (δ)
+equipment in the aircraft.
+8.2 The Exterior Response the Aircraft Structure of
+The problem of how the aircraft as α whole responds to the passage of
+8.2. There are two parts of this problem, lightning current is illustrated in Figure
+one involving α direct flash to the aircraft and the other involving α nearby flash.
+While it is generally true that the indirect effects produced by α direct flash are
+by more severe than those produced α nearby flash, they are not necessarily so,
+since the response of the aircraft external structure is different in the two cases.
+Consider Grst α direct hit on the aircraft. The return stroke current enters
+the aircraft at one extremity, flows through it, and exits from the other end. As
+α result of the different impedances of the lightning channel and the aircraft, the
+current flowing through the aircraft may undergo some distortion in waveform.
+The result is that the waveform of the current leaving the aircraft may be
+different from that entering the aircraft. Typically, the exit current rises to crest
+α longer time than does input current. over
+8.3. Α waveform is shown The phenomena involved are shown in Figure
+Surge impedance is traveling along the conductor having surge impedance Z1.
+defined as
+Z where surge impedance (ohms) =
+Λ inductance (henries) per unit length =
+C capacitance (farads) per unit length =
+at the point under consideration. At some point the current encounters α
+Z1 transition point between the conductor having surge impedance and α
+At this transition point, part of the different conductor of surge impedance Z2.
+incident current is transmitted onto the second conductor, but part of it is
+reflected back in the direction from which it came. The magnitudes of the
+transmitted and reflected components of voltage or current at this transition

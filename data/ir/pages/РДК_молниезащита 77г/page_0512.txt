@@ -1,0 +1,17 @@
+. I ,us ,us 1
+Why duration of rate of rise is as important as rate of rise. 17.3 Figure
+(a) Circuit analyzed
+Current waveshapes (b)
+time the same reduces the rate of change of current. The initial rate of change is
+indeed reduced, but it is reduced in exactly the same ratio as that of the peak
+amplitude.
+Such considerations of scaling have led to the development and use of the
+transient analysis technique in which currents of waveshape similar to those
+produced by natural lightning, but of lower amplitude, are circulated through
+the aircraft. During such a test many measurements would be made of the
+transients induced on the wiring of the aircraft. These measurements, when
+scaled up to full-threat level, provide a measure of the transients to which
+An lightning would subject the individual pieces of electronic equipment.
+assessment of whether or not such transients might present a hazard to the
+equipment might involve additional tests on the individual pieces of equipment.
+17.5. Some of the considerations in such tests are given in Section

@@ -1,0 +1,76 @@
+N \
+FEid penetration of α zurfe..: conducting Ak sur-
+Ω face, Fir. 9.21, may be viewed α at ao*rbly of con-
+field ducting Ar lmgnetic line that attempts loops.
+to penetrate the surface induces α circulating current
+(eddy current) that acts to oppose. the penetrating
+high frequency under that is consequence The field.
+conditions α magnetic field incident on α surface can
+have only α taipgential component. Any radial com-
+ponent is, cancelled by an induced circulating current.
+Only as the 6lr(ulaiing currents die away because of re-
+sistance will the magnetic field penetrate the surface.
+It is this property of eddy currents that allows non-
+magnetic materials to provide substantial amounts of
+shielding against transient magnetic fields. That sub-
+ject is explored more fully in Chapter 15.
+itor
+I oas
+.determining diverted
+flux line .Concentric
+Fig. 9.21 Eddy currents in α conducting sheet.
+9.8 Electric Field Effects
+Changing electric fields also produce currents and
+voltages, particularly upon unshielded conductors.
+9.8.1 Evaluation of Capacitance
+Point charge: In the space around α charged point
+an electric field is established:
+E V/ρ. (9.88)
+V ;2 V-9"
+The field is directed radially away from the point.
+α on charge resides If the air): sphere (in Isolated
+the sphere outside electric field ρ the of radius sphere
+at were concentrated the charge though all will be as
+its center. Integrating the electric field from the sphere
+negligible (as at θ.! field is where point to α remote
+between the gives the total voltage difference infinity)
+ifphere and that remote reference point:
+' (9.89) =Volt..
+ρ vto 4
+
+Capacitance is defined as:
+C = (9.91) Q/V.
+The capacitance of an isolated sphere is thus:
+10-9
+= 41reor - farads. (9.90) C
+The capacitance of an aircraft could be found by
+estimating the radius of an equivalent sphere. As an
+example, an aircraft having α surface area about the
+same as α sphere of 5 μ radius would have α capaci-
+tance of about 556 pF.
+Electric fields are different from magnetic fields in
+α hence and α charge may have object isolated that an
+Attempt- of dimensions. capacitance, iegardless finite
+conduc- isolated of an the inductance evaluate ing to
+difficulties, and mathematical to conceptual leads
+arise with problems but no such in §9.7.3, noted
+body. isolated an capacitance of the
+Spheres: For concentric spheres, Fig.
+9.22, the capacitance is found by integrating the elec-
+tric field over the distance ρ, to ρ : 2
+[ I] = 4,re - farads. (9.92) C 0
+ρ2
+Fig. 9.22 Concentric spheres.
+Sphere Over α Ground 9.8.2 Plane
+If the charged sphere is located over α ground
+ground and in the charge induced will be plane there
+oppo- sphere of were α there is as though effect the
+ground, fields of The 9.23. Fig. below the site charge
+the two charges combine to give the total electric field,
+cancel horizontal components the ground plane At the
+right angles to net electric field is oriented at and the
+the ground plane. Evaluating the electric wield from
+the sphere to the ground plane gives the voltage be-
+tween the sphere and the ground plane and hence the
+ground. to capacitance
+259

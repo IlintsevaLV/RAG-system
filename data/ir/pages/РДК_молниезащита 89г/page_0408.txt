@@ -1,0 +1,16 @@
+Cookpit 0.21 μH 0.47 μH 10 HA 0.47 μΗ 1.66 μΗ 1Ω Hp 1.66 μΗ
+00000…
+10 100 21 31 pF $$
+E kΩ pF
+1.18 μΗ 1 Hc 1.18 μH Cargo Bay
+20 pF 100 kΩ V
+(a)
+2 350
+amperes 0 volts
+-2 -150
+0 5 us 0 5 us
+(b) (c)
+Fig. 14.33 Circuit modeled as lumped constants.
+(a) Equivalent circuit
+(c) V - cargo bay
+393

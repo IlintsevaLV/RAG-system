@@ -1,0 +1,14 @@
+;",
+PYLON
+I I
+NOT DETERMINED
+Pylon circuit open at pylon. A 14.3 Figure -
+Circuit orientation (a)
+Electrical details of circuit (b)
+(c) Open circuit voltage
+(d) Equivalent circuit
+the voltage developed across the resistance between the tank and the wing. The
+circuit would respond in some measure to some fraction of the wing resistance
+and to some fraction of the magnetic: field set up by the flow of current in the
+wing, but since the circuit was only capacitively coupled to the wing, the total
+coupling impedance should have been, and was, less than that of the circuit

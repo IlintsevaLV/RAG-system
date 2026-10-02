@@ -1,0 +1,100 @@
+Hn
+1.11*Αý 1. AH
+20 78 20 F;F
+VPF
+pF
+H 1 (α)
+"τ "" -
+0) Z - 142 Z = 142
+: 2.5μ I (8.2ft) 1 2.5μ =
+(8.2ft) (β)
+Δ run for impedance Equivalent 14.31 Fig.
+CThe in zone
+lne (α)rain
+line (α) Transmission constant Lumped (β)
+the cable will these illustrations For End impedances:
+impedance α low through grounded to be be assumed
+to be con- cargo bay in the and in the cockpit (1 ohm)
+shunted 500 pF capacitor α through to ground nected
+calculation of open cir- for 100 kilohms α resistor, by
+short circuit of calculation 1 ohm for and voltage cuit
+im- terminal the calculation In any actual capacitance.
+inspection by be determined have to would pedances
+by measurements supplemented perhaps the circuiIt, of
+capacitance. of stray
+equivalent Complete representations Two circuits:
+showing 14.32 Fig. shown; are circuit complete of the
+Fig. lines and on transmission based α representation
+Each constants. on lumped based one showing 14.33
+and but only sources, equivalent four shows them HA
+being and Hc calculations, in the used were EA H 6
+affecting not greatly perhaps, and, magnitude small of
+circuit. of the response the
+also 14.33 and 14.32 Figs. Calculated response:
+cal- current of the magnitude and waveshape show the
+cockpit the in grounded end the at to exist culated
+open end at the to exist calculated and the voltage
+oscillatory, is the responses bay. Each of the cargo in
+air- in actual circuits for real case the is generally as
+elec- changing by is excited response the craft, where
+the grounded at current The fields. magnetic and tric
+components superimposed frequency higher shows end
+At the oscillation. fundamental frequency on α lower
+oscil- higher frequency the bay cargo the in end open
+capacitor. shunt pF 500 the by out filtered are lations
+will intermediate points curreats at and Voltages
+filtered components frequency high not to have tend
+exam- as an Fig. 14.34, capacitance. out by terminal
+runs of cable at the junction the voltage ple, shows
+Δ. and
+
+short circuit current calcu- the 14.35 shows Fig.
+lated when the cable is grounded through α low imped-
+As predicted bay. in the cargo the end ohm, at 1 ance,
+oscillatory is less current the theory, elementary by
+circuit voltage. than the open
+made with were above calculations The Discussion:
+bit desk- using α 16 and in [14.8] described program the
+top computer running Et 8 MHz clock speed. Solution
+minutes. was α few time steps 1000 to 5000 time for
+compare solution time has been made to No attempt
+on programs circuit analysis with other or accuracy
+systems. computer other
+differences significant no show calculations
+line or transmission made using the results between
+constant representations. lumped
+of and Limitations Extensions 14.6.3
+Modeling
+of are probably circuits above equivalent The
+should that complexity degree of the minimum about
+actual are to have calculations results of if the be used
+modeling should include More sophisticated utility.
+between for coupling circuit, in the for losses provision
+for treat- and conductors, and different cable systems
+conductors between propagation of multi-mode ment
+bundle. in α cable
+no 14.33 and 14.32 of Figs. circuits the In Losses:
+circuit, of the losses the model to made was attempt
+os- circuits the to which the degree that reduce losses
+losses these to order approximation Α first cillate. of
+the cir- in resistance series by including be made could
+provided option the resistive by invoking either cuit,
+by includ- lines or transmission for [14.8] [14.5] and by
+of inductors with the series in resistances ing lumped
+frequency are very actual circuits Losses in Fig. 14.33.
+analy- in circuit to incorporate and difficult dependent
+done been has work considerable though programs, sis
+- 14.12]. [14.10 so of doing methods on
+of cou- Many problems coupling: Circuit-to-circuit
+by mod- be done can probably circuits between pling
+be- capacitance mutual and impedance mutual eling
+in calculat- the considerations of Some circuits. tween
+circuit all Almost in [14.9]. coupling are given the ing
+an al- as inductors mutual programs include analysis
+provi- include them of Some element. circuit lowable
+lines. transmission coupled for sion
+of Realistic calculation propagation: Multi-mode
+coupled conductors closely on and curremts voltages
+conductors between waves that requires recognition C
+prop- than waves slower at speeds propagate generally
+391

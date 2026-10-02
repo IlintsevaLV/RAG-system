@@ -1,0 +1,60 @@
+of 18 inches in accordance with traditional practice.
+Dielectric structures such as the radome, of course,
+were considered as being entirely within Zone 1
+though their length is often longer than 18 inches,
+in other cases the 18-inch criterion has been followed,
+For conventional aluminum skins, the line of
+marcation between Zone and 2Α (or between IA
+and 2 using the earlier definitions) is of little I
+tical importance, because most aluminum skins
+withstand even the first return stroke (SAE current
+component Α) with little damage.
+Composite structures: If the skin or structure aft
+α leading edge attachment point is made of advanced
+composites, or other poorly conducting materials,
+rearward extent of Zone IA becomes of critical
+portance. Many carbon fiber composites can tolerate
+the effects produced by the Zone currents without 2Α
+requiring additional protection, but the return (coin-
+ponent Α) designated for Zone 1 in the SAE criteria,
+can deliver eight times more energy than the re--strike
+current (component Δ) included in the Zone 2Α
+quirement, and the resulting damage can be extensive
+unless protective coatings or other methods 'have been
+applied.
+Most protective measures add weight and increase
+cost. Thus, α decision regarding whether to apply pro-
+α ZONE =
+3 ρ ZONE
+Fig. 5.7 Strike zones as
+in FAA 20-53.
+
+tection or not, (or even whether or not α composite
+should be utilized in the first place), may depend di-
+even rectly on the designation of the lightning strike zones,
+but and especially on α realistic determination of the rear-
+ward extent of Zone IA.
+de- The significance of the Α and Β designation can
+Zone be seen in the currents specified forZones 1Α and lB.
+prac- Due to the short hang-on time for an initial strike to
+can. α Zone surface, only 1Α current components Α and Β,
+are applied, but all of the current components will be
+experienced by trailing edge surfaces in Zone lB.
+of Arrival time of return stroke: Study of α number of
+instances of structural damage produced by in-flight
+the lightning strikes indicates that in some cases the re-
+im- turn stroke may not arrive until the lightning channel
+has swept considerably farther than 18 inches aft of
+the nose or other initial attachment point. This is
+because α finite period must elapse between the time
+the lightning leader initially attaches to α leading edge
+extremity and when the leader has reached its desti-
+re- nation and the return stroke is initiated.
+During this period the aircraft will have moved α
+certain distance and the leader channel will have been
+drawn aft alongside the structure, reattaching period-
+ically to spots in its path. This situation is illustrated
+in Fig. 5.9
+determined from definitions given
+(Now out of date.)
+10Α~

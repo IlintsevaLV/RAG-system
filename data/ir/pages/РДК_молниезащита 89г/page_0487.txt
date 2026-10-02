@@ -1,0 +1,75 @@
+practical generators will be inductive and short circuit
+current will have longer front and decay times than
+open circuit voltage.
+Present standards discuss generator impedance,
+or implied generator impedance, in terms of the type
+of waveshape to be applied, with certain waveforms
+having been chosen in an attempt to address the type
+of coupling mechanism involved. As examples, Wave-
+form 2 is primarily intended to address magnetic field
+coupling while Waveform is 5 intended to address volt-
+age rises in the structure of the aircraft.
+Linking generator impedance to waveforms is only
+an indirect method of addressing the generator imped-
+ance needed to evaluate the effects of different cou-
+pling mechanisms. As the art of indirect effects testing
+evolves, it might be better practice to discuss imped-
+ance directly in terms of the type of coupling mecba-
+nism being evaluated.
+18.4 Injection Transformers
+The most common method of performing indirect
+effects tests involves the use of injection transform-
+ers. Two basic modes of c ration are shown in Fig.
+18.14. One (a) involves ii.jection of current into
+shorted conductor and the other (b) involves injection
+of voltage into an open circuited wire. Most commonly
+the shorted conductor is provided by an overall cable
+shield grounded at each end.
+I:
+V
+Fig. 18.14 Transformer injection of transients.
+(a) Injection of current
+(b) Injection of voltage
+
+6
+Operation follows the same physical laws govern-
+ing any magnetic circuit, but the mode of operation is
+different in two respects from that normally involved
+in transformers. First, since the purpose is to inject
+transients into interconnecting wire bundles, there is
+a practical limit to the number of turns that can be
+placed on the core of the injection transformer. Most
+operation involves passing the bundle through the core
+only once, or at most a very few times, unlike conven-
+tional transformers which employ windings of many
+turns. Second, the transformer is generally energized
+with a driving current, unlike conventional transform-
+ers which are usually energized by voltage sources.
+Each current carrying conductor passing through
+the magnetic core sets up a magnetic flux. When in-
+jecting current into a shorted conductor the induced
+current tends to have the same waveshape as the driv-
+ing current and the two components of flux tend to
+cancel, leaving a small net magnetic flux in the core.
+When injecting voltage into an open circuited conduc-
+tor there is no cancelling flux. The amount of voltage
+that can be induced is limited by the amount of flux
+that can be supported by the core.
+18.4.1 Basic Principles of Magnetic Circuits
+a
+An elementary magnetic circuit is shown in Fig.
+18.15. Quantities that define the core include the
+length of the magnetic path, and the cross sectional 1,
+area, A, of the core. If the core has a large cross sec-
+tion, the average length measured around the center
+of the core is the quantity of interest. Scientific us-
+age generally uses rationalized units with dimensions
+in meters. Specifications relating to magnetic material
+commonly use unrationalized units with dimensions in
+centimeters. Inches are frequently used in engineering
+design.
+'magnetic path
+-- A
+N"
+Fig. 18.15 Factors governing magnetic circuits.
+474

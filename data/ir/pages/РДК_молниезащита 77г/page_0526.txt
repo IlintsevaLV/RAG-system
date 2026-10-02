@@ -1,0 +1,33 @@
+DEVICE - - . . . - - UNDFR
+TEST
+CURRENT VIEWING
+TRANSFO
+MAGNETIC
+.
+CORE Y
+ZENER DIODES LIMIT TO
+v
+GROUND PLANE OR CURRENT RETURN PATH
+Transformer pulse injection. 7.12 Figure 1
+and rate of change of the magnetic field in the core but which will not be
+significantly affected by the length of the circuit under test. If the circuit is of
+low impedance, however, the magnetic field wlll induce a circulating current in
+the circuit. The shape of this current will be of a duration longer than that of the
+open circuit voltage, and will be nearly the same as the duration of the current
+produced by the pulse gerlerator in the primary of the transformer. The
+magnitude of this current will depend upon the impedance of the circuit under
+test, and t h ~ s impedance will in turn depend upon the height of the circuit above
+a ground plane and upon the diameter of the circuit or bundle of wires in which
+current is injected, since these latter parameters affect the self-inductance of the
+complete specification of the test circuit must deal both with the circuit. A
+maxlmum open circuit voltage that may be produced and with the maximum
+short circuit current that may be produced. The inductance of the circuit under
+test is almost directly proportional to the length of the circuit, but proportional
+of only to the logarithm of the diameter the circuit or its height above the
+In the absence of any other specifications, it is suggested that the ground plane.
+pulse generator and core be such that the specified short ci~cuit current may be
+3 a a induced on conductor m long (about ft) and having diameter of 0.41 10 crn
+5 and spaced cm above a ground plane. Such a conductor may be provided by
+RG-58 the sh~eld of coaxial cable. Furthermore, it is proposed that the open
+circuit voltage be measured when the pulse generator is set at the ainplitude
+producing the specified short circuit current. Specifications have yet to be

@@ -1,0 +1,50 @@
+.
+Chapter 15
+SHIELDING
+Introduction 15.1
+If electronic equipment is to be operated in α re- are discussed in §15.3. The ultimate aim of the dis-
+gion where there are changing electromagnetic fields, cussion is to develop equivalent circuits relating the
+and if experience or analysis indicates that the currents voltage on conductors to the magnitude of the inter-
+and voltages induced by those fields may be harm-, fering current. Section 15.7 provides tabular data on
+ful, the most straightforward approach toward achiev- the transfer impedance of various types of cable.
+ing transient compatibility is through shielding, both In steady state or freauency domain analyses of
+of intercown.ecting wiring and of electronic equipment. radio frequency interferentce (RFI), shields are gener-
+Frequently the electronic epuipment will be inherently ally rated in terms of their shielding (SE) effectiveness
+shielded by enclosures,'thouigh there are practices that α quantity generally relating the voltages or current3
+can defeat the inherent shielding of metal enclosures on conductors with and without α shield, the definition
+and there are non-metallic enclosures that offer lit- of shielding effectiveness being
+on comment will follow that shielding. Discussions tle 1
+shielding provided by enclosures, but they will treat 2,0 voltage log (or current) without shield SE
+mostly with shields on cofnductors. voltage (or current) with shield
+Shielding 15.2 Effectiveness When discussing transient or analy- time domain
+be the most may not of SE above definition ses, the
+The degree to which α cable shield reduces the valuable concept because shields not only reduce the
+voltage induced on α conductor depends on the con- amplitude of interfering voltages and currents, but
+struction of the shield, solid tubular, braided, tape change their waveshape as well. The SE does not ac-
+wound, diameter, thickness, material resistivity etc. count for the changes of amplitude. It is better to keep
+All of these are factors that affect the resistance of the all analyses in the time domain and to discuss shield-
+shield. Braided shields for cables are almost universely ing in terms of the approach that transfer impedances,
+made from copper, but solid shields, such as conduits will be taken in the bulk of the material to follow.
+and enclosures are most commonly made from alu-
+Cable Grounding Effects minum. Aluminum has the virtue of light weight, but 15.3
+copper has the virtue of solderability and resistance to
+cold flow at pressure points. Magnetic materials, such In aircraft, shielded conductors are most com-
+as iron and steel, can provide more shielding effective- monly used to control low-level and low-frequency in-
+ness than either copper or aluminum, but are seldom terference signals. How to ground shields is often Π.
+either needed or used in aircraft. controversial matter, with one school recommending
+The above factors also affect the transfer imped- that shields be grounded at only one end and another
+ance and how the noise current flowing on the shield school recommending they be grounded at both ends.
+of the cable if relhted to the noise signals coupled onto
+the signal conductors. The concept of transfer imped- Single point grounding: The aim of the single point
+ance was previously discussed in §9.0.4 and §9.9, the ground concept is to minimize the flow of noise current
+quantity of most interest for this discunsion being the on shields and so minimize the voltage rise along the
+transfer impedance with external return, discussed in shields. The assumptions, often unstated, are that the
+§9.9.1. Transfer impedance of cable shields will also shields are short and that their function is to inter-
+be discussed in §15.6. The noise voltages are also af- cept low frequency electric field displacement currents
+fected by the way that the shield and conductors are and keep those currents from flowing on high imped-
+connected to ground and loads. The effects of these ance circuits. "Short" implies that the shield must be
+connections, discussed in §15.3, are often of more im- α small fraction of the wavelength of the interfering
+portance than the construction of the shield, signal, perhaps Λ/20. With 30 kHz, as an example,
+In this chapter, transfer impedances are discussed the wavelength is 10 km and any shield on an aircraft
+"short". would be connection effects important while the more in §15.6
+397

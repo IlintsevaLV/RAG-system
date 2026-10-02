@@ -1,0 +1,87 @@
+μ length of conductors - 11,2 -
+conductors - between distance inF - Δ
+ current in conductors Α - - 11,2
+δ , CONDUCTOR
+44 τ
+Τ
+dP,
+dPo
+tt CONDUCTOR '
+di, Σ0
+Fig. 6.9 Magnetic forces among parallel
+current-carrying conductors.
+These forces act to pull the conductors together
+when the currents in them are in the same direction
+and act to push the conductors apart when the cur-
+rents. are in opposite directions. In either case, the
+magnetic forces are strongest when the conductors are
+for exam- exist, case would such One together. close
+ple, in α radome-mounted pitot system in which two
+metal air pressure tubes are needed to convey both
+static and pitot air pressure to the flight instruments.
+If these tubes were mounted 2 cm apart and half of
+the Zone lightning I current (200 kA) were carried in
+each, the peak force in each conductor be:
+= 2 ξ 10- ξ 100 ξ 10σ ξ
+δ1 ,
+1 2
+100 ξ 10σ 2 ξ 10-2 ξ
+100, 000 N/μ of tube length -
+6,854 = lb/ft of length (6.14)
+This peak force, of course, will exist only at the instant
+when the lightning current is at its peak.
+The inertia of the conductors will keep them from
+moving much during the short duration of the high
+amplitude stroke current, but energy will be stored in
+the conductors and they will continue to move after the
+current has passed. If both tubes are assumed to be
+of the size in the thermal calculation given previously,
+then the mass of each tube will be:
+μ = DAI
+ 2 = 8.89 3 γ/cm ξ 0.138 cm ξ 100 cm
+122.7 γ/μ =
+0.1227 kg/μ. (6.15) =
+
+Since
+ma F
+and
+0.1227 kg 815 ξ 0 ρ/σ/σ
+: and the duration of the stroke is about 70 microsec-
+be will motion of the tubes onds, the
+2 1/2 at = ξ
+= 1/2 ξ 815 xxx (70 103 10-6)2
+2 mm. = (6.16)
+The velocity will then be
+Tvwtv at =
+10-6 3 = 815 ξ ξ 70 10 ξ
+μ/σ, 57.1 (6.17) =
+and the kinetic energy will be
+2 1/2 mvu = E
+2 0.1227 ξ57.1 =
+2
+200 joules. (6.18) =
+This energy will cause the tube to continue moving
+for some distance. The resulting deflection will de-
+pend on the degree of restraint provided by supports
+and the elasticity of the tube, but forces of the magni-
+tude predicted by Eq. 6.14 have caused tubes to slam
+together, leaving permanent deformations, which can
+disrupt the air data system.
+Effective transient force: Mathematical cakulation
+of expected deformations from impulsive forego such
+as these is difficult, and such ýalculation is further
+complicated by unknown mechanical factors. James
+and Phillpott [6.61, however, have defined an effective
+transient force, Pg, which, if applied slowly but contin-
+uoualy, results in the same stress as that produced by
+the peak magnetic force, Π., calculated by Eq. 6.14.
+This effective force, is PA, α function of the natural
+-angular frequency, ω, of the mechanical system being
+acted upon and of the electric current decay time con-
+stant, •.
+It is usually much easier to determine magnetic
+force effects by tests of candidate installations, rather
+than by calculations, and the results are more likely to
+be correct. Α discussion of test methods is presented
+in §6.8.
+125

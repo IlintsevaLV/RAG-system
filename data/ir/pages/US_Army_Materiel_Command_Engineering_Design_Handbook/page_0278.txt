@@ -1,0 +1,109 @@
+5-9.7.3 Biode Sersctaral Amnlyeie
+When blade sections, stiffness, and mass distribu-
+tion kave been sciogted and the externalily distri u-
+trd icads caiculated, the next task is to establish the
+sructural integrity of the blade. The internai strain
+(strcus) abtribution among the clements of the blade
+is co mputed: the resultant stress levels are comnpared
+with allowable icvels that test and/or expericnce have
+showa will preclude failure during the life of the sys-
+tani.
+There ar two gencrai cesegorics of design loading
+conditions coasidered in birde design: ultimate con-
+ditions and Irtigue cosditions. The blade mut have
+an ultimatc sirength :0% greater ti:an the bighest
+peak losd ansicipeted during the lifetime of ahe
+sysien. The Biade slao must bave fatigue xrength
+sialfcient tc prevent α failure ds lu alternating loads.
+Sxpericnce has shown thst fatigue usuaily is the more
+critical design condition.
+In fatigue analysis, α spectrum of ratigue loads and
+thei: expectea nuaube of occurrences ir: tix lifeime
+of τìε tezdkoy:ρ is devalopod. This in daved from α
+miss snalys tgy for all msneuver, tu:-
+bularz, cimbs. δ'yants, xi loa, sod ground-air-
+groun1 cycles (ae: CBapter 4. Ah!Cr 70o-20: and
+ChapA06-203).
+The fusg.: stiezgth of the conponent generally is
+1 :. γ
+date. The magnituds and shape of the curve are α
+function of material. stres concaatrg-ions, environ-
+mental conditions, and magnitude of conuuitrent
+steady nfress.
+The influence of steady stress on fotizus strengtn
+may te considereble and must be considered in
+fatigue analysis. In tail rotor bla des, the ztesdy si::-σ
+generally is equal to the altern.ting strec, α:σ
+reduces the allowsble alternating stress oy apFroxi-
+mately 20%, depending on the materia:.
+As with main rotors, tail -otor blade ácsign ι- ρ.u:
+iterative process of developing α blade with adequ,'ε
+acrodynamic, physical, and dynamic characteristics,
+and fatigue integrity. If. at any stage in the design
+proceas. an inadequacy is dercted. the design pro-
+cess begins once again until ali required character-
+istics are achieved.
+5-9.7.4 Asrociacticity
+Problems due io acroclasticity have becn en.
+cou.ntered in the instellation of tail rotors. These
+problems have resulted in undesirabie flying qualities
+at high specds. An example of such α problem.
+termed iail wagging". was encountertd on an ex-
+perimental helicopter. Tbe rotor was mounted on α
+Fin that projectod at ove the sail boomn. Α natural fre-
+
+:
+queacy of the Loons in torsion was couplud to tibs
+change in rotor tkruct due to lsteral vslocity (iwatlow)
+so that nogative dumping was cucoaniorod. Thas
+change in rail rotor thrus due to the motion is pro-
+portional to luteral fiapping β, and to the picts-fiap
+-ν gs σ yn γ punog eas 3τ ig um Jugdaon
+tive 8, was the best way to damp the sysigue. This type
+of problem can be avoided oniy througb caseful con-
+sideration of the dysemic characteristice of all com-
+ponents of the belicopter.
+5-9.7.5 Fluzter and Dhrergance
+Tail rotors are not scaled-down main roiors. There-
+forc, Alstter and divergence problems gunsally are
+not as severe as for the main sotors. Uaually. the tail
+rotor biades are much stiffer than those in main
+rotors due to the operating cnvironment. Aleo, tbe
+relative irsertia, as cxpreaeed by Lock number, is of
+thc order of 2.5 times that of thc main rotor. Finally,
+asprct ratios of tais rotor bis des are much lower.
+Aithough these factors reduce the tendency toward
+flutter and divergence, probleras with tail soiors bave
+occurred. so the proper combination of 3, and pitch
+Iink stiffnccs must be usod. The methods diecusses
+for the main rotor (par. 5-4) and tbe data in R.ef. 59
+mua: be used to determine the design dctails nocessary
+lo éliminate this problem
+REFERENCES
+1. Α. Ge ow an:δ C. Γ. Myers, Jr., Areodyaamics
+of he Hc'icopier. MacMillan Co.. NY, 1952.
+2. H. K. Heyson and Σ. Katzoff, Normal Compo-
+nent of Inauc:δ Velocity of α Lifiing Rotor Wiih Α
+Nom-ifoim Disk Louding. NACA TN 3690,
+Apri! 1956.
+3. R. I Liciten, "Som: Aspecis of Convertible
+Aircraft. Design". Jouna! af the Aeronantical
+Sciences (April 1956).
+4. F. Ξ. Wortinann und 3. Μ. Drecs, Design of Air-
+foils j: Rotors, presented at CAL/AVLABS
+Symposiurn on Aercdynamics of Rotary-Wing
+and V7OL. Aircrast, 1969.
+5. Δ. Σ Jonre, J. R. Oison, &nd . J. Landg.ebe, Α
+Keyississment of Rotor HNovering Performance
+Pred ctior Methods. presented ai the 23rd An-
+nual I: stional Meeting of the American Heli-
+cop:an Socicty. May 1557.
+6. Ω. v: Tanner, Charts fos Estimauing Rotary-
+Wing Perfonnarce in Hover and at High Forwcrd
+Sp-*σ. NASA Contractor Report CR-λ14,
+November 1964.
+7 E. Λ. Brown and Π. Σ. Schmidt, "The Effect of
+Rotor-Pitching Velocity on Rosor-Lift Capa-
+bility". Journsi of the American Helicopter
+Socicty, 8, No. 4 (October 1963).
+5-$3

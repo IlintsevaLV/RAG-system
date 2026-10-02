@@ -1,0 +1,56 @@
+Α true double exponential wave can only be pro- The breakdown voltage also depends strongly on
+duced by α surge generator having one type of energy waveshape. In general, long duration voltages will
+storage element, inductance or capacitance. If the gen.. cause breakdown of α gap at lower levels than will be
+erator has two types of energy storage element; 1,hat is., required if the voltage is of short duration. Short du-
+both inductance and capacitance, then α double expo- ration voltages may be sufficient to initiate the break-
+nential is only an approximation of the actual output down process and to produce intense ionization (and
+waveshape. Capacitive surge generators optimized for in the process draw large currents from the voltage
+high voltages usually have inductances sufficiently low source), but may not last long enough to cause α com-
+that the output can be described quite well by α double plete breakdown. Also, the current drawn by the de-
+exponential. veloping breakdown may be so large that α consider-
+able amount of the voltage initially applied to the gap
+Current impulses: Current impulses used for evaluat- will be lost in the impedance of the test circuit exter-
+ing low impedance surge protective devices often have nal to the gap. This loss of voltage may be sufficient
+waveshapes that cannot be described by double expo- to prevent the gap from breaking down.
+nentials, mostly because the inductance of the gener- Typical waveshapes that could be observed dur-
+ators used to produce the surges is not negligible. Α ing breakdown testing with lightning impulse waves
+common waveshape is shown on Fig. 1.10(β) and is are shown on Fig. 1.11. In the figure the shape of
+described approximately as the voltage actually developed across the gap is shown
+by the heavy line while the shape that the voltage
+Io •-etsin(wt). (1.6) would have if it were iiot interrupted by the break- I=
+down of the gap is shown dotted. This latter is called
+Frequently the nature of the device under test is such the prospective voltage. Accepted terminology defines
+that only the first half cycle of the current is produced. (FW) as those that do not lead to break- full waves
+Α waveshape commonly used has an 8 ps front and α
+20 ps tail. Α wave having that particular ratio of front
+to tail time is not one that can be produced by α dou-
+ble exponential surge generator, though it is routinely
+produced by discharging an energy storage capacitor
+(α)
+through an inductive circuit.
+No special attempt should be made to relate the
+shape of surges used for testing insulation to the shape actual voltage
+of the surges used for testing surge protective devices.
+The relationship has very little to do with prospective the physical
+characteristics of lightning or of naturally occurring
+'-,voltage
+surges; it is mostly α historical matter reflecting the
+early development of the high voltage testing art and
+the incorporation of common practices into standards.
+Also, one should not consider that these wave-
+shapes necessarily represent the shapes of natural
+lightning currents or the voltages produced by light-
+ning. They are intended to have the same general char-
+acteristics (fast fronts and longer tails) and have time
+scales typical of those produced by natural lightning,
+but they are only standardized waveshapes used for
+testing.
+(C) Curves Volt-Time 1.5.3
+Repeated applications of voltage do not always
+produce the same pattern of flashover and if the volt- Fig. 1.11 Voltage waveshapes.
+age is barely sufficient to cause breakdown, some ap-
+Full wave (α) others anl cause breakdown of voltage will plications
+will not. Breakdown is thus α statistical matter; if the (β) Tail chopped wave
+voltage is low the probability of breakdown is low and (χ) Front chopped or steep
+if the voltage is high the probability is greater, front wave
+8

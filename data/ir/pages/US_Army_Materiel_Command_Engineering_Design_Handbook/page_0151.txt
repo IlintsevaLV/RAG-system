@@ -1,0 +1,105 @@
+1o contrel unless the ring cross-sectional thickness is
+large enough for thc loading conditions involved.
+Ring creep is the σ'ow reletive (lagging) motion of
+the ring with respect to the shaft and eccurs in some
+instances as α result of sufficient fretting wear to re-
+Cuce the interference fit. Α relative rotational spced
+of as littie as 10-* × shaft speed may rezult in suf-
+ficiert wear over several hundred hours to redace the
+design interference. Often, creccp occure initially
+baausc of insufficient design interference.
+Spinning is α term used to dencte an advanced
+statc of creep that occurs in cases with loose fit up or
+no interference between the shaft ard the inner ring
+of the bcaring. With hardenec. and ground precision
+interface surfaces, polishing and advanced wear rates
+often resuit when the relative rotational speeds ap-
+proach 10 to 20% of shsast 3pecd under operating con-
+Citions not unlike thos- in α simp!χ slec-ε bearing.
+Fig. 4-27 (from Ref. 82) shows α wear vs time func-
+tion for α cylindrical roller bcaring application.
+There are α number of design practices that may be
+used to counteract these phenomena. They are
+described here in α descending order of preference.
+1. The extent of the inteiference dit nectsary to
+provide sufficicnt radial force to prevent creep may
+be calculateci and enployed in the design. Two fac-
+tors that must be considered gre:
+α. Circumferential stretch of the bearisog ring
+under applied rolling element loads which efectively
+increases the inside diameter (ID) of the ring.
+β. The influence of the temperature gradient
+from shaft to the bearing ring upon relative iherma!
+expansion. This gradient is α function of the cooling
+paths and of heat generation or friction loss.
+Ref. 6 presents α calculation technique suitable for
+interference fit determination. However, the
+calculations cited assuine α solil shaft and generous
+4.°0
+•.ek BEARINC DATL CV AORICAL RLLE9
+3.5H 207 §12τ CP .
+μ. 2 10′ ρ.sj .-
+INNER RING FIT, LOOSE 1.5
+1.0
+0.5φ
+— Ο
+0.5
+ино:- σ1
+:0 40
+OI'tRATING TIME N
+Figure 4-27. Creep Wear — Inner Ring
+Fit vs Operatileg Time
+
+AMCP 706-202
+ring sections such as sre found in 200 or 300 series
+bearings. Ther -fore, when dealing wiah application of
+this formula to lignier section bearings combinec
+with hollow shafts, it is necesacry to compensate for
+the reduead radial pressure per unit interferenco by
+the method ef elastic ing theory as defined in Ref.
+83. Uee of interference fits that produce surface ten-
+silc stresscs in *he circumferential diroction above 10.,-
+000 psi should be ap;roached with ceution beceusc
+the fatigue life of the race msy be reduced.
+2. Excessive thermaf grsdients should be avoided.
+Because the circulated Iubrication oil acts :o modu-
+late these gracients through forced convective
+cooling. an increase of oil flow to the shaft and
+bearing ofen can be used to slieviate thermul prob-
+lems.
+3. Very thin ring sections cs used in AFBMA sizcs
+for cylindrical roller-type bcarings shoula be svoid-
+ed for nigh-losd applications. Eliminaion of the in-
+lindrical roller applications is as effective mcans of
+avoiding the problem sltogcther.
+4. Hardeneri (κ_ob). ground, or honed journa!σ
+(roughness ≤Α.Α10) with dimensional tolerances
+equel to or cloßer than the rings of the bearing will
+assure attainment of desired calculated pressures and
+will withstand frequent assembly and disassembly
+and long service with minimal loss of interference.
+5. It is desirable to use 2/3 lip-depth shoulders,
+spacers, and clamp nuts that are square with the jour-
+nal surface and provide igid axial χ'amping. Positive
+nut lock devices σ!ways shouid be used because ring
+creep under high axial loading may rotete the nut.
+Because bearing ring creep results from α lag of the
+ring bchind the shaft rotational spscó, it is simple to
+deiermine whether such conditions will scrve to
+tighnen or loosen the nut.
+6. Copper or silver plating on thc shaft interfuce
+ducing or virtually eliminating fretting corrosion and
+thus prolonging component service life.
+7. Positive ruig-shaft interlocking with notched
+rings and keys have bocn employed to prevent crecp.
+However, satisfactory installations are difficult to
+achicve because sutficient fretting corrosion may oc-
+cnr between thc shaft-key-bearing ring surfaces to
+precipitate bending fatigue failure in one or sucre of
+ihe members.
+Outer ring (nonrotating load) diametral clearances
+and clamping require somcwhat lass diligent at-
+tention than dc the inner riags of bearings. How-
+evei. heavily loaded angular contact thrust draringe
+must bc well clamped and their outside diameters
+443

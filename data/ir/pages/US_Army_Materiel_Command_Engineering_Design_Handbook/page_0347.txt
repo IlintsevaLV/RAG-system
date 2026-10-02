@@ -1,0 +1,104 @@
+..LA ACP 206-202
+trisgers α ground transponder into sending back
+another signai to the aircraß on α slightly different
+frequency. The airborne trznsponder measures the
+total siapawd tims, divises by two, and conve:ts this
+fguze inio miles. The distance then is presentod to the
+pilot by meuns of α dial instrument or α digital dis-
+play. The antonna shouid be isolated from other an-
+tennas as much as poasible duc to the pulsed
+characteristic of the output.
+8-3.3.3 Tactical Air Navigation (TACAN)
+TACAN (Tactical Air Navigation) is ε military
+system that combines DME and α form of VOR (Sta-
+zion Bearing) so as to give the pilot α continuous posi-
+tion fix with respect to ≈ singic station, in tenns of
+distance and bearing to the station. Each ground
+TaCAN beacon consists of α tranamitter and an an-
+cenna. The transmittes operates in the UHF band,
+betoveen 962 and 1213 MiHz. The aisborne reveiver-
+transmitter sends out α chain of interrogation pulses
+and docodas the reply from the ground station
+TACAN is & linc-of-sight systenr, snd there is
+almost no chance of interference from statione bo-
+yond the radio horizon.
+8-3.3.6 Losg-reng: Navigstion (LORAN)
+Hyperbolic navigation is achieved when synchro-
+nized signals having α known velocity cf propa-
+gation are tra smitzed from at teast Fhree known
+points, and the relative times of arrival cf these
+signals are measured and interpreted. Standard
+LORAN is : hyperbolic navigation system that was
+developed primarily fos long-range navigation over
+water. It operates on one of several frequencics
+between 1750 and 2000 Hz, and its propagation
+characteristics are desermined primarily by soil con-
+ductivity and ionospheric conditions.
+The long puise length requires the use of carefu!
+matching techniques in order to achieve ressonable
+clude the impossibility of instantaneous fixing wi:η-
+out dual insial'ations, the presence at night of long
+tra ns of pulses refiected from the ionosphere, and the
+fact that ionospheric transmission is not homo-
+genous, so that the shapes of the sky-wave pulscs
+often are distorted and difficult to match.
+LORA.N C/Δ is ths latest inodei of this type of ait-
+borne equipment. The sccuracy is extrenely good
+when the set is operating within the range of highest
+accuracy of the iransmitting stations. The LORAN
+equipment operates in the HF region, so α relatively
+long, wire antenna is desirable. Except for reversal
+characteristics, the same considerations should be
+used in the placement of this antenna as are used for
+the ADF sense antenna.
+8-6
+
+8-3.3.5 Compamen
+abroad α helicopter. The most procige is the siaved di-
+rectional gyro (DG), that has two modes of opera-
+tion — frec diroctional gyro and slavod χœznpass. In
+the frce mode, it acts only as α directionel gyro: in the
+slaved mode, signals from α flux valve alave it to mag-
+netic north. Particular care must be uxed in the lo-
+cation of the flux valve; it must de as far as prao-
+ticable from any ferrous material, and any DC wiring
+in ciosc proximity must be two-wire twistod.
+The stand-by magnetic compass usually is located
+above the instrument pauel. Compeosaiion is inte-
+gral to the unit. If light wires are instalßed for thie
+compass, they roust be two-wire twistod.
+Intermittent fields should bc avoided for all com-
+pass sysiems.
+8-3.3,6 Doppler Navigation Systems
+Doppler systems measure velocity only, by the
+well-known Doppler effect in which radiation from α
+source in motion relatuve to the viewer is displacod in
+frequency. In practice, this mcans comparing the fre-
+quency of the returned ocho with α stable reference
+irequency; ine cifference between tnc iwo is α direci
+measure of the relstive velocity. Accuracy thus do-
+pends upon the echo quality. Echo quality from
+water, for example, often is poor.
+Doppler systesns dstermine location relative to the
+city vectors. Doppler accuracy reprsacnts an im-
+provement over airspoed-clock-compass dead rec-
+koning because the velocity vectors tueazured are
+relative to the ground. Generaily, the voctors in the
+direction of flight and normal to it (ξ and υ) are
+centage of ths distance travelled, as opposed to in-
+ertial systems whose accuracy is relative to the time of
+flight.
+Typical performance accuracy of Doppler systems
+for ground spced is 0.11% (rma) over 10 nmi, and 0.06
+deg (rms) for average drift. Reliability of actual in-
+stallations has typically boen 1000 to 1200 hr MTBF.
+Further iniormation on Doppler systems can be
+found in Ref. 4.
+8-3.3.7 Inertial Navigation Systems
+Inertial navigation systems (INS) have becn de-
+veloped primarily for use on fixed-wirg military ard
+commercial sircraft. Because of the requirement ihat
+an inertial platfor.ν be precise without ground ziation
+correction, this device is α valuable navigational stan-
+dard in forward areas. Countermcasures are vir-
+tually nonexistent,

@@ -1,0 +1,112 @@
+706-202 AMCP
+is at the proper phase. Both the SAS and the
+control system must retpond to this frequency.
+Ref. 21 discusses the theory that ν-per-rev
+brations may be reduced considerably by suitably
+the same frequency. phased control inputs of
+type of vibration suppression requires large amounts
+of power, and shortens the life of the control system
+considerably. such suppression is to be used, If
+control system and SAS frequency responses must
+approximately 15-20 Hz.
+When dual SAS actuators are inserted in vertical
+linkage, the mass of the actuators may induce
+control motions in response to vertical accelerations.
+In α specific case involving the collutive pitch
+with friction lock disengaged, the weight of the
+arm coupled with the vertical motion of the
+copter produced α sustained oscillation. Mass
+cing of the control linkage and/or the use cf viscous
+dampers are methods of curing these oscillations.
+Gust alleviation by means of control inputs
+sponsive to gust-sensing instruments still is
+developed. Closely allied to gust alleviation is
+frame load limitation by control velocity restriction.
+cos•trol However, the requirements of the two tend to
+conrlict iocau-. gust aaieviution requirv-ξ rapid
+Strol rcspons.ý. Becaue both programs have as
+objective the reduction of airframe loads, the
+alleviation system should perfonm the duties of
+Ultimateiy, the SAS will include the fun~ctions of
+alleviation and load limiting in addition to
+quality improvement.
+33SSRELIABILITY
+The expr-ssion for the fa.lure rate of Π,
+aggregate of components in α system, as shown
+Ref. 22, is
+'\λ / +(!Λ2 PA + - PI ν Π , hr-' ni 1+ !"2 = 2 2
+where
+Lumber ct ;nponents rt of nomcdundant
+failure rate Π, having the
+-number I of redundant components having nr
+the failure rate Π,
+nonredundant components of number - ν2
+having the failure rate Π
+2
+ number - of redundant components having ν'2
+the failure rate
+Π2
+Α mechanical SAS having fewer than α dozen parts,
+all of which have α very low failure rate, is u!trU-
+reliable compared with an electro-hydraulic SAS
+hundreds of parts. Oa the other hanm, the weight
+penalty of providing redundancy in critical parts
+the electrohydraulic system ii not great. As seen
+6-12
+ρ-~-
+
+7 ý,' -ý
+Α'
+_____-I....
+entire Eq. 6-1, the sggregatc failure rate is highly do-
+pendent largely upon the at-iount of redundancy,
+vi- given that the design insures that failure of one me-
+dundant component does not affeW the operation of
+the other. This
+6-3.3.1 Safety
+the The designer must be cognizant of the influences of
+be the inherent stability level of the helicoptcr and its
+SAS performance upon flight safety. Added stability
+margins can improve safety during night flying, or
+small during limited-visibility situations caused by the
+presence of dust or snow ,louds. During such
+lever operation-;, the provision of improved stability levels
+pilot'σ oilot allows χ¢ncentrate the to lesb upon flying the
+hell- helicopter and more upon other pilot duties.
+balan- The flignt control sys'em should be designed to
+allow the pilot to detect or diagnose α failure, disann
+the failed system, and effect corrective action. This
+re- requirement may involve soine for- ι of onlinc status-
+un- monitoriag for the variouL control system elements.
+air- Design compliance with the current Military Speci-
+fications does not preclude θ,- possibility of inad-
+vertent flight operationt with one channel of α dual-
+con- channel Izstion augmý sy:ni inopcra.v¢. In this
+their type of failurt, the differenct, in flying qialities is
+gust small enough to be undetectable by the pilot. Thus, "
+both. the pilot may enter α flight condition in which fail ,re
+gust of the remain;ng SAS channe! cannot be corr cLed
+Zasonable flying- within α reaction time.
+certait For critical situations, α need exiets for
+automatic control activation. vxainple, For electro-
+mtchaniLal SAS links should revert automatically to
+the α mechanical lock if hydraulic pressurr is los. .This
+in eliminates the possibility that α sloppy extensible link
+will create control difficulties while the pilot is at-
+tempting to cut off failed the system. Another exam-
+pie involves external cargo-handling -lowing or
+(6-1) operations, necesry where it may be for the load to
+release automatically if the applied moments exceed
+controllability. safe levels of
+6-- effect analysis (see par. rerul σ of the failure The
+2.3 of this volume and Chapter 3. AMCP 706-203),
+including any supportintz piloted simulations, should
+re.ults 5υ flight test. These and verified reviewed be
+then should be incorporated into flight handbooks in
+the form of wuning notes or flight restrictions for
+various failure conditions.
+6-3.3.2 SAS Faihnur
+with Α discussion of madu, SAS failure limitation of
+authority, and time delay criteria may be found in
+of par. 6-4.4, AMCP 706 201, and in par. 6-2.3 of thib
+in volume. Failurts of rotor-mounted. gyroscopic SAS'σ

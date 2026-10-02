@@ -1,0 +1,39 @@
+aircraft and the lightning arc. The currents on the sur- function, however, will be the current and the fields
+face of the aircraft may have an oscillatory component will be a consequence of that current. The concept of
+governed by the size of the aircraft, but the oscilla- shielding effectiveness (ratio of field outside to field in-
+tion will also be influenced by the characteristics of side) is not a particularly helpful way to evaluate the
+the lightning channel. response of the aircraft to the lightning current. It
+is more straightforward to base analyses of the effects
+The lightning current will produce electromag- of lightning on the concept of transfer impedance (ra-
+netic fields at the surface of the aircraft, and also fields tio of internal voltage to external current), a subject
+which propagate away from the aircraft. The forcing discussed in Chapters 9 and 10.
+12
+5 , VEHICLE
+PROGRAM 0O 09FING IHI'CLE
+STRTREQUIREMENTS PROGRAM
+YEIs ECIN
+i0ENTIFY KEY
+THREATS AND
+ENVIRONMENTS$ N IDENTIFY
+* UONNINGTHREATS AND N4N N NVIRONMENTS
+* P.STATIC
+* NEMP
+* IMIIEMC YES
+DEFINE ATTACHMENT
+CHARACTERISTICS N0 VEIL
+ZONES 1. 2. 3 DESCRITION
+TO COUPL.ING
+sEcrIONS aNI 7. &,No a. |SG
+I GOS [NiIRRTDO, R
+~ ~ ~
+0~~~ PRTETINuNS1 ASESMN
+EONPRONLIMS ANSES
+* MAINT|NANN
+-SLUTIONCNS
+VI L
+in indirect effects
+"--s
+P•T•CSICTIN 9|•
+0
+(Plow ch&,'t form)
+228

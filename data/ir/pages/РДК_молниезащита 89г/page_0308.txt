@@ -1,0 +1,104 @@
+Transfer Functions 10.8.3
+In the examples that follow, the shape of the light-
+ning current injected into the aircraft was determined
+by using the finite difference code to see what current
+was necessary to produce α calculated field matching
+one of the fields measured on the aircraft. The injected
+current was then used to calculate the responses at the
+other points at which measurements had been made.
+to the mea- fields were then compared The calculated
+degree of correspondence. sured fields to see the
+Determining the appropriate shape of the light-
+ning current involves the use of transfer functions.
+The transfer function, Τ.F., is α relationship in the
+frequency domain between α source function and α re-
+sponse function,
+.C(Output) - ξ C(Input) Τ.F.
+Laplace transform (10.51) £C
+and its use requires the system under study to be lin-
+ear. This requirement is satisfied by α linear finite
+difference code, but is, of course, not satisfied in α real
+interaction between an aircraft and α lightning flash
+where the impedance of the lightning flash changes
+with time and with current. The justification for using
+transfer functions is that the nonlinearity in the real
+situation is mostly confined to the lightning channel
+itself. The responses of the aircraft are usually linear
+functions of the lightning current that flows onto the
+aircraft, at least to within the accuracy with which
+lightning interaction calculations can be made.
+"Transfer functions are determined by taking the
+Fourier transforms of the current source and the re-
+sponse waveforms: σ) R()
+= (10.52) Τ(ω) R-ω'
+Here is the transfer function in the frequency Τ(ω)
+domain, is the transform of the response wave- R(ω)
+form, and is the Fourier transform of the current 1(ω)
+source waveform. Α transfer function can be calcu-
+lated (for given set of lightning channels) by assuming
+α current waveshape (time domain), making the cal-
+culations to determine the time domain response at
+α particular point and performing the transforms and
+calculations of Eq. 10.52. For the F-106 study the
+responses calculated were the rates of change of elec-
+tric field at the locations where electric field sensors
+(Δ-dot sensors) were located on the aircraft. Several
+transfer functions were calculated, one for each loca-
+tion where there was α sensor of the electric field, all,
+of course, for the same geometry of the lightning flash.
+Because the model is linear the transfer functions are
+independent of the characteristics of the source.
+
+0
+Current field waveshape: the from One way transfer
+functions can be used is to calculate for each of the
+points where measurements were made the waveshape
+of the current that would have produced that response.
+If the lightning channels assumed for the calculations
+were those followed by the actual lightning flash, and
+if all of the responses of the aircraft upon which the
+calculated transfer functions were based were correct,
+then all of the calculated lightning current waveshapes
+the calculations the same. If not, then would be
+performance was until satisfactory could be repeated
+reached.
+For this program α slightly different approach was
+used. The transfer function calculated for one point on
+the aircraft, and the response measured at that point,
+were used to calculate the lightning current flowing
+along the lightning channel assumed for the calcula-
+tions. Then the responses calculated at all the mea-
+surement points were compared to the responses mea-
+sured at those points. The degree to which the re-
+sponses agree is α measure of the validity of the mod-
+eling technique.
+Results of Calculations 10.8.4
+Two examples of calculations based on measure-
+ments made during actual lightning strikes will be 0
+given. In each, the field waveshape measured at one
+location was used to calculate the most probable wave-
+shape of the lightning current. That current was then
+used to calculate the field waveshape at other points.
+Measured and calculated field waveshapes were then
+compared.
+F-106Β: Results from the model for the F-106Β are
+presented in Fig. 10.27. They pertain to α trig-
+gered lightning flash attaching to the nose with an exit
+streamer coming from the tip of the vertical stabilizer.
+The transfer function and measured waveshape used to
+derive the waveshape of the current were derived for
+the longitudinal magnetic field sensor (Β-dot) located
+atop the fuselage, the waveshape at that sensor being
+shown on Fig. 10.27(α). The agreement between cal-
+culated and measured results only indicates that there
+were no numerical errors in the calculations.
+Responses measured and calculated for the other
+points are shown in Figs. 10.27(β) - 10.27(ε). The
+largest disagreement between measured and calculated
+responses is that for the tail, Fig. 10.27(ε). After the
+calculations were done, it was discovered that the ac-
+tual location of the sensor on the tail was considerably
+different from the location assumed for the model; in
+fact the calculations and measurements pertain to two
+different locations.
+292

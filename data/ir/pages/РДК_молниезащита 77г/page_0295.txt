@@ -1,0 +1,23 @@
+WIRES TENDING TO
+JOIN AT RIGHT ANGLES
+OSCILLOSCOPE MONITORING
+CURRENT DENSITY
+RRENT MEASURING
+TRANSFORME
+OSCILLOSCOPE MONITORING
+TOTAL CURRENT
+The wire grid model. I 9.1 Figure
+of Examples External Magnetic Fields 9.3
+The magnetic field within and around the cluster of wires can be
+determined by taking the proper summation of the magnetic field produced by
+MAGFLD each individual wire. The computer program provides such a
+summation.
+MAGFLD Some examples of calculations performed with will now be
+described. They will serve to illustrate some of the points discussed in previous
+sections. The geometry chosen for analysis is the fuselage of the hypothetical
+9.12. aircraft shown in Figure The aircraft, whose airworthiness is not under
+discussion, has a fuselage of elliptical cross section, two meters along the major
+axis and one meter along the minor axis. The fuselage is considered long enough
+A A 1000 that no end effects need to be considered. lightning current of is
+assumed to enter the nose and to exit through the rear of the fuselage. This
+by 48 is represented parallel conductors distributed in the elliptical fuselage

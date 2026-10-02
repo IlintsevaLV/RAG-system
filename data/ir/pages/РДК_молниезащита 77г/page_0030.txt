@@ -1,0 +1,46 @@
+With regard to aircraft the matter may be academic. Aircraft are struck
+underneath clouds by clear-cut cloud-to-ground flashes and by flashes within
+clouds. Based on the damage observed, the peak current sometimes is very high.
+cloud-to-ground Whether the high current was associated with the upper end of a
+flash or with a true intracloud flash makes little difference.
+In temperate regions about two-thirds of all flashes are intracloud flashes.
+In tropical regions, where there is more lightning activity, the ratio is higher.
+1.6 Measured Characteristics of the Lightning Flash
+Lightning flashes are quite variable from one to another. Peak currents,
+total duration, waveshapes, number of strokes in the flash, charge transferred,
+etc., may all vary over wide limits, and only in general terms can one find a
+correlation between different parameters. Data on the characteristics of lightning
+are best presented in statistical terms, the mode that will be used in the
+following sections.
+One item that needs to be emphasized is that virtually all the data on
+lightning comes from measurements made at ground level, and these measure-
+ments may be influenced by the growth of an upward leader. Very few
+measurements have been made of the amplitude and waveshape of lightning
+currents passing through aircraft. Most of the measurements that have been
+made were of strokes with lower peak currents and longer times to crest than
+those often observed at ground level. In part this may be explained by chance
+and in part by the fact that many of the flashes intercepted may have been
+intracloud flashes and not cloud-to-ground flashes. As noted earlier, intracloud
+flashes often lack the well-defined high-amplitude return stroke of cloud-to-
+ground flashes.
+The best summary of the statistical characteristics of lightning is that
+1.20). compiled by Cianos and Pierce (Reference They observed that many of
+these characteristics were nearly linear when plotted as a log-normal distribution.
+They then made a judgment as to the linear distribution that was the best fit to
+the experimentally observed data. The figures that follow are reproduced from
+their report.
+I ) 1 .I 8 1.2 Figure (Reference shows data on the peak current amplitude in
+lightning strokes. Regarding the damage that may be caused by lightning, this is
+one of the most important parameters. There are two curves shown, one for the
+first return stroke in a flash and one for subsequent return strokes. The first
+return stroke is generally of the highest amplitude. For engineering analysis,
+Cianos and Pierce have determined that subsequent return strokes may be
+represented as half the amplitude of the first return stroke. Marked on the curves
+98% are the amplitudes corresponding to the and probabilities. 2, 10, 50,90,
+The peak value of the current is related to the explosive, or blasting, effect
+of lightning. It is also relative to the maximum voltage developed across ground
+resistance and hence to the risk of side flashes occurring in the vicinity of objects
+struck (or, related to the maximum voltage developed across loading resistors
+struck (or, related to the maximum voltage developed across bonding resistance
+and hence to the possibility of sparking at structural interfaces).
+20

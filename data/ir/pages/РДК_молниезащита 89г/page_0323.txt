@@ -1,0 +1,94 @@
+Chapter 11
+THE INTERNAL FIELDS COUPLED
+Introduction 11.1
+fields and electromagnetic Lightning currents
+the outside of the aircraft couple to the inside through
+apertures and by the processes of diffusion and
+distribution. Speaking in broad generalities, coupling
+through apertures, which is the subject of Chapter
+is α high frequency mechanism, while coupling through
+subjects of this chap- diffusion and redistribution, the
+ter, are low frequency mechanisms. Diffusion refers
+the process by which electric and magnetic fields
+etrate through conducting materials. Redistribution
+by which the overall pattern refers to the process
+initial state where flow changes from an current
+fields to α final by magnetic is controlled distribution
+The by resistance. iZ is controlled state where
+diffusion and redistribution on metal tors that affect
+affect the electro- the same factors that structures are
+it might though of such structures, shielding magnetic
+redistribution are and diffusion to say that be better
+shielding the mechanisms by which electromagnetic
+obtained.
+In the context of this document, diffusion primar-
+build relates to the process by which electric fields ily
+up on the inner surfaces of an aircraft in response
+the external electric and magnetic fields produced
+electric fields most elementary terms In the lightning.
+of as those pro, be thought can by diffusion produced
+through the current passage of lightning duced by
+thorough discussion but α more of the aircraft, sistance
+and transfer imped- can be made in terms of surface
+9. in Chapter were introduced that ances, subjects
+to metal aircraft, apply concepts these Although
+fiber com- significant for carbon especially they are
+reality aircraft which are in posite (CFC) aircraft;
+is because materials. This of metal and CFC mixture
+orders three about conductivities have materials CFC
+If lightning aluminum. that of than less of magnitude
+(or high the early time aircraft, such an strikes
+will distribute current of the lightning parts quency)
+metal would on an all they manner as the same in
+craft. The late time (or low frequency) components,
+the resistance to according will distribute however,
+will be much more parts and there the structural
+there than α CFC aircraft of structure the inner on rent
+all metal aircraft. α comparable would be on
+
+BY REDISTRIBUTION DIFFUSION AND
+α CFC the subject is that Another way of viewing on
+aircraft will be much less effective at providing elec-
+re- tromagnetic shielding than an all metal aircraft. Mag-
+netic field shielding that might be inherent to, and
+12, taken for granted, on an all metal aircraft may have
+to be intentionally provided on α aircraft, usu- CFC
+impact on program costs and ally with an unfavorable
+to weight.
+pen- In the sections that follow, internal and external
+electromagnetic fields are first discussed so as to dif-
+concepts used for light- ferentiate somewhat between of
+electromagnetic shield- ning interactions and classical the
+then dis- voltage are Concepts of circuit ing problems.
+diffusion where only α circular cylinder cussed, first for fac-
+are encountered and then in terms of elliptical effects
+be consid- effects must cylinders where redistribution
+the discussion of also include α portion will ered. This
+produces magnetic external current which processes by
+such as equipment bays. Redistri- is fields inside cavities,
+complex for the more illustrated are then bution effects
+where recourse must be made to numerical structures
+analysis techniques.
+11.2 Internal vs. External Fields to
+by
+an which defines shows α metal sheet Fig. 11.1
+can the sheet discussions For these volume. interior
+or infinite extent as fiat and of either re- be considered
+large com- of curvature having α radius and closed
+On the outside to the thickness of the sheet. pared
+this field is impressed, sheet an electromagnetic of the
+the sheet. flowing in α current with associated being
+field will external electromagnetic of the Some portion
+couple to the interior through the sheet and α penetrate
+important sheet. Five regions defined by the volume
+ex- (α) the be defined: problem can the interaction to
+the 0), (χ) (ζ = surface the external (β) region, ternal
+(ζ surface the internal sheet, (δ) interior of the fre- = δ)
+are (α) and (β) Regions volume. the internal and (ε)
+the between the interaction in ones involved the main air-
+sheet and any impinging electromagnetic field. Re-
+that the in the way involved (δ) are (χ) and gions (β), of
+are in- ε sheet while regions δ and fields penetrate the cur-
+interior in the up build fields that the way in volved
+volume.
+307

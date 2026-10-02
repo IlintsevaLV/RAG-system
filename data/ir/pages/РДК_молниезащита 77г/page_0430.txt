@@ -1,0 +1,29 @@
+wires within these cable bundles because of limitations of measurement
+technique and because of the large number of wires within the bundles, it was
+possible to measure the total current flowing on the various bundles. This was
+done by clamping around the bundle a current transformer having a split core.
+Typical results of these cable measurements are shown in Figures 14.15 and
+14.16. The bulk cable currents were also found to be oscillatory, just as were the
+voltages on conductors described earlier. Since the flight control wiring did not
+make use of multiple ground points within the aircraft, it follows that none of
+in these cable bundles would exhibit any of the long time response the currents
+characteristic of multiple-grounded conductors.
+209 No. FAST
+BUNDLES
+LEADING
+TOWARD
+COCKPIT
+Cable bundIes within gun bay. 14.14 Figure the
+Figure 14.17 shows a statistical distribution of the peak amplitude of
+currents in all of the cable bundles upon which measurements were made. The
+shown both for the actual current amplitudes injected into the distribution is
+aircraft and in terms of what those currents would be if the results were scaled
+up to currents representative of actual lightning flashes. In terms of an
+30 000 A, the total current on most cable average-amplitude lightning flash,
+20 100 A. to bundles would have been on the order of
+Measurements were made of the amplitude and waveshape of the magnetic
+field at a number of points in and around the aircraft. One location upon which
+attention was concentrated was the cockpit, since the cockpit is an inherently
+unshielded region and one in which many control wires would be subjected to
+changing magnetic fields. The positions at which fields were measured, the peak
+amplitude of the fields, and the predominant orientation of the fields are shown

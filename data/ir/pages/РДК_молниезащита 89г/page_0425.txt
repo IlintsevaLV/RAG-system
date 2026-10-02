@@ -1,0 +1,89 @@
+71."
+conduc- the two between inductance The mutual
+is tore
+(15.11) nH/cm = 21Q Μ
+where the factor Q, shown in Fig. 15.24, is α func-
+to their of conductors I of the length ratio of the tion
+1, then δ < δ. If spacing
+(15.12 1
+Μ 21 [in + (1.12) + -1
+so defined should not be con- Mutual inductance
+fused with the transfer inductance referred to in $15.6.
+is α quan- = - Μ and inductance is Transfer Λ., Lt
+tity that one would normally want to be small. Thus
+one would normally want the mutual inductance, Eq.
+15.212, between two conductors to be large.
+Σ..
+. .
+I I
+"" I
+2.0
+Μ = nil/era 2Q
+_ Λ 21-γ Ls Μ- Q~~~~ ,
+(2j) φ .... 1.5 Q Μ=.1|log,,.λ+δ-
+.
+0 0.o 0.4 1.0 0.. 9.,
+ι δ
+Fig. 15.24 Mutual inductance.
+Numerical example: Α numerict.λ example will illus
+trate the problems associated with pigtail grounds.
+Assume α shield is carried, as in Fig. 15.23(χ), through
+α panel on α pigtail and α set of connector pins. As-
+sume the total length of the pigtail-pin combination
+to be 7 cm, the spacing between the pigtail and α sig-
+nal conductor to be, on the average, 0.05 cm, and the
+pigtail to be made from number 22 AWG wire hay-
+ing α radius of 0.0323 cm. The self-inductance of the
+pigtail would then be 74.5 ni, the mutual inductance
+between the two would be 65.0 nH, and the difference,
+the factor equivalent to the transfer inductance for the
+shielded cable, would be 9.5 nal.
+Α rather mediocre shielded braid would have an
+inductance on the order of nHi/μ, and α large di- I
+ameter, tightly woven braid might have an inductance
+on the order of 0.25 nH/μ. The amount of voltage
+
+flowing current by the circuit α signal into injected
+would then, short pigtail, relatively this one through
+signal conductor onto the coupled as that be as much
+braid. shield μ of cable to 40 by 10
+illustratcd be point may example: This Measured
+previ- series test of the an extension Fig. 15.25, by
+to Figs. 15.2 through 15.8. ously discussed in reference
+One end of the cable was grounded through α 33-inch
+length of wire, while the other end was connected to
+the ground plane directly. Voltage V1 was increased
+15 5 V solely because of the from 0.4 V (Fig. 15.7) to
+lead. rise in the ground inductive
+. an_ ..
+V |(I.V)
+I
+V2 0.3- - --
+O5Α - - Τ
+,
+*Τ
+TOV
+(β)
+0.5 -
+Fig. 15.25 Effects of inductance in α ground lead.
+Circuit (α)
+(β) Voltage
+Mrawbacks to grounding: pigtail There are two lun-
+grounding. The first, drawbacks to pigtail damental
+shown in Fig. 15.33(α), is that the shield curreut, be-
+ing constricted to α path of small diameter, sets up α
+more intense magnetic field at the surface of the con.
+ductor than it would if the conductor were larger. Α
+more intense magnetic field of itself would not really be
+harmful if all the flux so set up would link the signal
+conductors as well, because then the mutual induc-
+tance would also be high, and the difference, Λ - Μ.
+would be low. If the shield current is confined to α
+small diameter path, the field intensity rapidly falls
+off with distance away from the conductor, and hence
+the mutual inductance will always be smaller than the
+self-inductance.
+grounding: Peripheral The best type of connector (as
+regards transfer impedance) is one in which the shield
+currents are carried concentrically to the conductors
+410

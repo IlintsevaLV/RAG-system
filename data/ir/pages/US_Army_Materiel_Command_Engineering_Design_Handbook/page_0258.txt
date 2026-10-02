@@ -1,0 +1,107 @@
+The resulting blade loads can be calculated using α
+procedure like that used for calculating the response
+due to I Π-aerodynamic excitation. For this analysir,
+the load is α function of the mass distribution of the
+blade and is applied perpendicular to the plane of the
+propeller (out-of-plane). Like IP aerodynamic exci-
+tation, gyroscopic motion induces α IP-moment on
+the propeller shaft, which, for blades having three or
+more blades, exerts α steady bending moment Μ on
+the aircraft as expressed in
+,fA-lb (5-16) - Μ lp.,
+where
+4,
+ propeller mass, mass moment of inertia, -
+1 slug-ft
+propeller Ω speed, rad/sec
+Inertia loads result from the vertical load factor
+applied to the propeller. As in the gyroscopic analy-
+sis, the load is α function of the mass distribution of
+the blad,, but in this case it is applied inplane. The I Π
+on shear force F the shaft is simply
+(5-17) = F nzWp, Ib
+where
+ - weight of the propeller biades lb and hub, Wp
+There may be other special occasions where loads
+due to maneuvers should be considered. For instance,
+α tail propeller of α helicopter may be subjected to
+large precession rates in yaw while hovering.
+54.2.4 Stall Flutter
+Propeller blades must be designed not only to han-
+dIe the applied aerodynamic excitation loads and to
+have the appropriate dynamic characteristics, as dis-
+cussed in the pieceding paragraph, but they also must
+be designed to be free of flutter. Classical bending-
+torsion flutter is not of concern because of the large
+separation between the fundamental bending and tor-
+sional frequencies of propeller blades How- (Ref. 52).
+because of its po- flutter is α major concern ever, stall
+tentially destructive torsional vibration. There are
+two apparent causes of high torsionalblade vibra-
+tion: aerodynamic hysteresis and Karman vortices
+(Ref. 53). Aerodynamic hysteresis can cause diver-
+gent, self-excited torsional vibration and is, therefore,
+true flutter. The Karman vortex excitation, however,
+is not true flutter but α forced excitation. It neverthe-
+les is similar to hysteresis stall flutter and can caue
+large amplitudes of structural response and possible J
+failure.
+\ Torsional dynamic divergence due to stall flutter
+"Occurs because of the phase lag in the aerodynamic
+
+AMCP 705-202
+circulation variation with airfoil torsional motion.
+Beca.,ac the vortex formation must travel to infinity
+before full circulation develops, the airfoil angular
+motion tends to lead the aerodynamic mo- change in
+ment about the elastic axis. When the airfoil motion
+and phase lag combine appropriately, aerodynamic
+energy is into fed the structural system qnd sclf-
+excited divergent torsional blade oscillation occurs at
+the fundamental torsional frequency of the blade.
+Although methods have been developed for
+analytically predicting stall flutter (Ref. 54), expcri- I
+encc shows that α general understanding of stall
+flutter and empirical relationships usually is suffi-
+cient to evaluate whether α given blade design will be
+subject to this phenomenon. Tests and analyses have
+shown that stall flutter is dependent primarily upon
+three factors: the reduced frequency, the blade angle.
+and the airfoil Mach number (Ref. 55). The effects of
+Mach number can be combined with the reduced
+frequency to give the stall flutter parameter SFP.
+. β
+SFP , ,β, ,σ. SF, δ'less (5-18) , J
+aM'ω/1 - Ω
+where
+, naturai torsionai frequency,. ad/sec
+- local Mach number, dimensionless Μ
+ β, - blade semichord, ft
+α = speed of sound, fps
+When full-scale and model blade stall flutter test
+results for many propellers under static conditions
+are combined in α plot of versus blade angle, SFP
+points indicating the onset of flutter form α gener.λ
+trend, as shown in 1 Fig. 5-40. he envelope of these
+flutter points may be used as α design basis. Although
+Ref. 55 shows that α blade whose is greater than SFP
+riot 1.0 will flutter regardless of blade angle or power.
+Fig. 5-40 shows that, for !ow blade angles, α blade
+may have an of less .0 than I without being SFP
+susceptible to stall flutter.
+Because the design line in Fig. 5-40 is drawn
+without regard to such secondary effects as camber,
+twist, it is, sweep, and center of thickn'ess, planform,
+in general, conservative; ι.ε., although the of α SFP
+blade lies under the curve, the blade will not
+necessarily flutter. In general, increasing the camber
+and thickness and shifting the center of twist forwurd
+will increase the blade angle at which flutter occurs.
+The effects of planform are and sweep more difficult
+to assess, because the stability of the blade involvts
+the integrated effects over the entire blade. Thus.
+although some blade sections are stalled, the blade
+itself will be stable unlss the integrated energy fed
+into the blade is greater than the structural damping
+present.
+5-63

@@ -1,0 +1,82 @@
+configured so as to minimize internal inductance, with
+Fig. 6.60 showing α representative configuration. The
+maximum peak current available from α capacitor
+bank depends on the circuit inductance, part of which
+is internal and somewhat under the control of the bank
+designer and part of which is associated with the test
+object and the connecting leads. This latter depends
+on the size of the test object and may be the induc-
+tance that limits peak current available from α partic-
+ular generator. The external circuit inductance asso-
+that largely the reason large structures is ciated with
+are seldom at- aircraft tests on complete high current
+tempted.
+-
+internal •..-4- external load
+-
+10 R H '0.010 450 Α
+5.00
+ρ 40uH ._
+nF 100 I
+(stra)
+1.5 MV σ5H "" •" .02#F | ' =
+.sive. -------
+kA 10
+-
+-
+0 •,where
+10
+0 (β)
+SiO-- 0-.
+-3 kA-ι 0 10 us
+(χ)
+currents. circuit Short 6.59 Fig.
+Circuit (α)
+(β) 100 = ohms R
+(χ) = ohm 1 R
+162
+
+Since the external inductance is relatively large,
+the discharge switch can frequently be just α heavy
+duty sphere mechanically brought into contact with α
+metal plate. Generatore optimized for minimum inter-
+nal inductance should have more sophisticated switch-
+ing devices, such as those discussed in [6.30]. For α
+given generator and load, peak current is varied by
+adjusting the charging voltage of the surge generator.
+Peak current may not vary directly with charging volt-
+age because of the effects of arcing test pieces, but the
+are small. non-linearities
+un- commonly operated are most Surge generators
+derdamped in order to obtain maximum current. Un-
+derdamped, by definition, means that the output cur-
+rent is oscillatory, unlike the unidirectional currents as-
+sociaited with natural lightning and the unidirectional
+opti- generators from obtainable wavec ea.,ily voltage
+'rolt- impulst: magnitude of high for production mized
+ages. It also means that the front time of the surge
+At- time. front long rather α has inherently current
+am- high very of waves current unidirectional taining
+plitude with short front times is difficult. It can be
+done, but the machines become very large and expen-
+For direct effects testing, development of fast
+depends pri- damage since essential is not front times
+marily on peak current and current duration, not the
+front time of current. The front time of the current is
+important for evaluating indirect effects, but that is α
+different matter.
+With an undamped machine the maximum peak
+current is
+= μ. (6.26) "
+es ω
+V charging voltage =
+generator capacitance = C
+circuit inductance. = Λ
+The initial rate of change of current, at 0, is Τ =
+V dr 3-7dt (6.27)
+-
+and the frequency of oscillation is
+1 C φ =
+(6.28) 2IL
+Moderate damping does not have much effect on
+the above values.

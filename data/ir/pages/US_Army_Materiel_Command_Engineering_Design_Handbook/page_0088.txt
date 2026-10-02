@@ -1,0 +1,108 @@
+move δáfficuk to repair. By contrast, welds require
+loms sooling aad are repaired more esaily, but are
+more prone to melal fatigue because of ths metallur-
+gic changc in the weld area.
+To roduce pregaure losacs and thus obtain max-
+imum efficioncy, the exhaust system should aot make
+abrupt croes-sectional changes. Duct bends should be
+gradual and an adequate diffusion zugle must be
+maintained. les muitiengine belicopters, savings in in-
+interchangcabic czhaust ducrs ¿esirablc.
+3-2.6.1 Exthannt Ejertors
+Engine compartment/engine component cooling is
+discussed in pas. 3-6. However, engine installations
+requiring positive compastment cooling often use ex-
+haust ejecto:σ as air pumping devices. Although
+many ejector configurations are possible, two com-
+monly are usod for this purposc.
+The first configuration provides an annulus for
+momentum exchange at the downstream end of the
+cxhaust duct. The nacelle that forms the outer surface
+of the annulus extends beyond the exhaust duct to
+provide an adequate mixing length for this ejector.
+Care must be iaken io pieveni damagc io the nacelle
+through exhaust gas impingement. High-iempera-
+ture liners often arc used in this arca. The exhaust
+duct is of conventiona! design, mounted directly onto
+the enginc.
+The second configuration locates the momentum-
+exchange annulus ai the upstream end of the exhaust
+duct. the engine serving as the inner ring of the annu-
+lus and the duct as the outes ring. This method allows
+longer mixing lengths and more precise alignment o:
+thc annulus rings, resulting in higher operating eff-
+cicncies. Two basic dzsigns are possible. One sepa-
+ratcs the exhaust duct from the engine, therety
+reducing metal fatigue of the exhaust duct, which is
+supporied by the nacelle or airframe structure. The
+other uses standoffs to mount the exhaust duct on the
+enginc. The latter must be used when the engine in-
+stallation requires α exhaust-duct-imposed load to
+change engine natural vibration frequencies.
+Gererally, the selection of α method for providin:
+the necessary cooling airflow will have becn mad:
+during preiiminary design. As discussed in AMCP
+706-201. par. 8-2.4, this selection requires examina.
+tion of the weight penalty and pe ver loss ussociated
+with the alternative means. Design cons.derations
+pertin-nt to the integration of an exhaust eje.tcr into
+ihe cooling system are reviewed in par. ? 6. Includec
+are references to design procedures and requiremerls
+for design. documentation, and demonstration.
+3-2.σ.1 Jafrared (1R) Radiation Fugr Tloloc
+If the missions assigned to α belicopter nclur:.: the
+3-8
+
+μ ,1 : ;
+___
+possibility of expoaure to IR seckiag omapuns, aa 1R
+radiation suppression subeystam au:υ be ragaired.
+The cxsent and type of suppression rrzuisod wil fave
+boen de fined by the procuring activiry: aad inctudesf
+in the preliminary design. As ciscuppod in Chapter 8,
+AMCF N06-201. the IR suppression subuyssa4? 81ay
+be α part of the helicopter sr be 8 auparate &it. In
+either case, the supprowion of !R sadiazion requime
+reducing the temperature of the fcut sourors.
+The paragrsphs that follow discue oahy passive
+counsermcasures 10 IR weapons. Active counter.
+measures also may be requirod but, as discuascci in
+Chepter 8. AMCF 706-203, ti.ε qualification of suct
+systems by US Army Aviation Systems Command
+(USAAVSCOM) is lionited to the interiace brtween
+the belicopter and the subsystem.
+The principal heat sources are the csgine hot parts.
+exhaust duci, and exhaust plume. However. oince
+heat sources also may produas significant suxounts of
+energy in the 1R frequency band. Tka radiation frons
+other sources (χ.γ., heat exchangsr outiets snd solar
+reflection from windshiekis) aiso may have to be
+reduced to bring the total iR signature of the lseli-
+copter within ; escribed limits.
+3-2.6.2.1 IR Soppresaioce Requtrestencn
+The IR suppression requirements for α new Army
+tion. Typically. thc requ'rement will be stated in the
+examplc that follows.
+IR SUFPRESSION #EQUIREMENT
+(ехаmpiе!
+The maximum total IR radiavion signature of
+the helicopter sholl be suppressed to leveis nci
+to exceed σ (2 desirec) Ω/st in the 3-5 micron
+bandwidth. The toral 18 radiation signature is
+comprised of δ.rect (ι.ε, visible hot metal
+parts), indirect or relected, and exhaust piur.se
+racsation. Radietion from thr engine and tail-
+pipe and from all secondary soutces, such α3
+hcat exchangei outlets inrd fuselage areas
+washed β; exhanst, are inwiuded. The sup-
+pressed IR radiatico signäture requiremrnt:
+shall be based upon the Army Hot Day Atmo-
+sphere (ι.χ. 125°σ at sea le /χ1) and shal/ apply
+witk the enginc operaling at ipternsedigte power
+and with the heiicopter at the gross weigh: that
+rcsailts in the highest exhause gas temperasure.
+The signatar: shall be svaluated at lower hem'σ-
+phere. upper hemisphere, and coplanas viewing
+argles α-δ the required level of supp:ession
+shall apply to the viewing anglt thgt results in
+the maximum sigugture.

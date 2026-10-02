@@ -1,0 +1,71 @@
+LIIý
+ρ
+Σ•
+Ili-
+(α)
+(β) ρ(β)
+-φ -ι-oQ Wj
+Fi. 1-5.5 Shield grounded at one end.
+(α) Test conditions
+Voltages (β)
+(χ) Equivalent circuits
+(bSVlags(β
+Fig . η grounded at both ends: Grounding the shield
+at both ends and allowing it to carry current, as shown
+in Figs. through produces an 15.6 15.8, entirely dif-
+ferent response. The induced voltages are not only
+reduced in amplitude, but their waveshape is changed.
+If the shield is grounded at both ends, the voltage in-
+across appears field magnetic changing the by duced
+the inductance of the shield-ground plane loop. The
+result is α current through the shield, Fig. 15.6, one
+magnetic field.- having α shape like that of the
+dq• dH
+(15.2) = dO F,' =Α--
+I=-1IE'dt=V (15.3) -IH
+Λ
+where
+voltage = induced between ends of the shield E
+I current on the shield =
+shield the of = self-inductance Λ
+voltage: This shield cur- How shield current reduces
+signal the induced between voltage the reduces rent
+The 15.. in Fig. as shown ground, conductor and
+from well equally viewed be can voltage in reduction
+viewpoints. two different
+400
+
+I
+-," 'v_1 7', 77,
+-. ,,
+ZL
+* 1 (I....
+lop
+2 + 2 SWo
+(χ)
+Fig. 15.6 Shield grounded at both ends.
+(α) Test conditi(as
+(β) Shield current
+(χ) Equivalent circuit
+Sildcrrn
+/ • ",,
+,.
+V,
+ZP R.Y
+II
+Ω. .....
+(α)
+, V, --
+-/
+0.3V
+τ
+- - -
+~~(β) lp
+VIl
+-
+VI
+.7.Siel grounde at β-θ ends. Fig. (χ)'
+ends. both at grounded Shield 15.7 Fig.
+Test conditions (α)
+voltages Conductor (β)
+circuit Equivalent (χ)

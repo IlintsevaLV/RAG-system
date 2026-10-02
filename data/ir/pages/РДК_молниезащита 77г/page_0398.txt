@@ -1,0 +1,15 @@
+voltages are also shown in Figure More effects have been illustrated by a 13.23.
+series of measurements on a rather complex multiconductor cable. The overall
+makeup of the cable itself is shown in Figure 13.34. It consists of eight shielded
+quads surrounding a shielded center complex of nine conductors. The entire
+group of conductors is contained within an overall shield. The overall shield and
+the shields on the individual complexes are insulated from each other.
+Figure 13.25 shows the waveshape of the current injected onto the overall
+the shield of cable. This current was transformer-coupled to the shield, allowing
+the overall shield to be grounded at both ends.
+Figure 13.26 shows voltages measured on three of the different shielded
+INSULATING
+JACKET
+CONDUCTORS 4
+-
+Construction of a multiconductor cable. 13.24 Figure

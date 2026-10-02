@@ -1,0 +1,92 @@
+6. Cantrei peer'adjoqpeet de souengur supeipor
+Τ pd
+6-0.12 Mw
+MIL-H-8SD1 donigne ch θ
+sabtky of tihs Ieacioopior тыв
+for aach configasations rt on apquogkoe
+dgaz:
+1. CG linsts in the vortiund, inceral, and longi-
+ε aue sgueg CO) ege:aresed sogo pen conpuocnco
+function of groes weight for conveational bali-
+copters)
+2. Aslcwable rotor gpead varistions
+3. Exteraal lond configaration.
+Biscause seability is so dupundent upon the fuciors
+citeci, tieir afects shouid be evaluzsod throughout
+tioe develupament phugoe, asd during analyzic and
+sensiag. Compliance witk stability specifications
+sispuld be evaluatad, and ali the factors weighed as to
+naian ronquirinousia.
+6-1.1.3 Dasic Hallcopier Daia
+During analysis snd flight testing. dats on the
+stability characteristics of the basic, unaugmented
+airframe should be mnsabliched. Thc bedicopter syalcas
+is liktiy to uadergo wuny changes in its sutomntic
+conirois, but only limitod sirframe changes, during
+its life cycle.
+61.2 ANALYTICAL TOOLS
+There are two basic forms of mathematical rep-
+resentalion for asscssing vehscie trim and stability:
+anzall-periurbation equations and total-force cque-
+tions.
+The typical srasii-periurbation equations noted in
+par. 6-2. AMCP 706-201, expedite ihe asscameni of
+stability at one flight conditicen, and can incorporate
+nonlincar control loops readiy. These cquations also
+are sdeptable to paremetric studies using analog or
+digita! computers.
+Total-force equations con.pletely describe the ab.
+solute foroes acting upo. the helicupier. However,
+they raquire * rather lege complement of estha
+analog or digital computer equipment for their solu-
+tion. Tts type of solvtior. in memrary wies in-
+vostigaiing large variations in fligh. conditions qie.,
+apred, atsituer, asd larg: tuit ang.σ).
+Wind tunnol testing aboud β. conoucta. in orier
+to refine the mathemaucal moic. Imunspation cos.-
+cerning aarudyas raic charactoriakics o: the fusa σ*.
+
+:
+rotor Cuencecteristasar,
+3-4.3 ATION AND TESTINC $20
+arédware-in- mioe.
+fligia: taucing. Theer: tecte provide desa ж
+asaiyticel modui
+peeesary.
+Grousad-beaod, pilosiad Sighat simulasien provic
+an valuat on of man/macini
+and an cstacnate of the tiying qut,nluen prax do tos
+Bigsht of the proiotype. st aiap aisowe audasamst baa
+apuod fera o9 suormipos po sogorednud soj aug
+cops:ie of evaisating ssuny angacts of fught costrol ae
+discuped in Ref. 1.
+6-2 STADILITY SMECIFACATIONS
+Secaue tuch afort in apent evainatng the
+handiting qunitice oi α igisopier, iu is masaury io. (. *
+no singke desfinition, but bedicuapies dyrvamst siability
+certainly infiuencus thar pilot'σ abibity to coatiud tihe
+rosponacs to exteruel disturbenccs. Of agurial istarea:
+are the magnitudie of the σ-ponce, the rapidity witis
+whaich σ stcady attitude or trian is regained, and tht
+exisioace of any oscillations or lightiy dampod ro-
+actions. Enginoers work to quantify the rating of
+ae ε on an ε pn ge
+are able to provide futur: vehicles with deurehle
+stability and to make predictions or comparisons for
+existing helicopter. The latter includer preaction
+with sufficient accuracy to supplement fight tesling
+activities and to expand the engineer'σ under-
+standing of safety-of-ficht topics.
+8-2.1 CRITERIA AND METHOD OF ANALYG.Σ
+The following list presents the tuore significaua:
+topics relating to belicopter handling qualities:
+1. Contral powes, sensitivity, and interaxis coup-
+lιas
+2. Inherent or augmented static stability and
+Camping
+3. Characleristic rorts
+4. Typc Of sutonaiic contro! ayst-an and vatiabies
+coptrolied
+5. Fonve fecl
+6. Magnitude of response
+7. Inliunre of couurol acmpououto upou ssbility.

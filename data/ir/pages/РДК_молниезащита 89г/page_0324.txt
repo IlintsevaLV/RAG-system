@@ -1,0 +1,87 @@
+τ"shielding 00
+Α
+ε;'0. 6;
+" " -electric
+Is
+upon wave incident 11.1 Α plane Fig.
+surface, α shielding
+The penetration of fields to the interior is of-
+ten discussed in terms of "shielding effectiveness", but
+there are two different ways that the external electro-
+magnetic fields may be visualized. They can give rise
+to two very different measures of the "shielding effec-
+tiveness" of α structure.
+11.2.1 Impinging Electromagnetic Field
+In the most common treatment of electromagnetic
+shielding the field at the surface, region (β) above,
+is taken to be produced by some external source in
+region (α) that causes α field to propagate in α for-
+the incident When ward direction toward the surface.
+and reflected partially is it surface the at arrives field
+the reflected wave propagates back away from the sur-
+face. The sum of the incident and reflected waves,
+with proper regard for polarity, is what appears at the
+surface. If the sheet were α perfect conductor, the po-
+incident and reflected waves would be larities of the
+such that the resultant magnetic field would be tan-
+gential to the surface and the resultant electric field
+would be normal to the surface.
+de- field would resultant of the magnitude The
+its ori- sheet and of the conducting the shape pend on
+flat con- α With wave. incoming the toward entation.
+the to broadside oriented and extent of infinite ductor
+incoming wave, the tangential magnetic field would be
+double that of the incoming field and the electric field
+would become zero. For other angler of incidence the
+magnetic field would be less than double and α radial
+electric field would be developed. For curved surfaces
+the fields that develop at the surface might be several
+times the magnitude of the incoming field,
+
+Shielding effectiveness: For an impinging field, the.
+effectiveness" is usually taken to be the ratio
+of the external impinging magnetic field to the internal
+expressed as field, magnetic
+SE 201og [ dB. (11.1) =
+An effectiveness of shielding against electric fields
+could similarly be defined, though usually shielding
+against electric fields is an easier task than shielding
+against magnetic fields. The impinging magnetic or
+field is that which would exist in the absence
+of the sheet, and should not be confused with that
+which appears at the surface of the sheet.
+The shielding effectiveness can be taken to have
+three components; one due to reflection at the surface,
+sheet field through the of the one due to transmission
+fields build up on the one due to the way that the and
+internal volume. As defined in Eq. 11.1, the "shielding
+effectiveness" is largely determined by how well the
+surface reflects the incident electromagnetic field.
+11.2.2 Impinging Current
+In many lightning interaction problems, however,
+the magnetic field at the surface is the result of in-
+jecting current into α structure and can be determined
+directly from the current density. The shielding effec-
+tiveness is best defined in terms of the magnetic field
+that appears at the surface.
+FH--
+(11.2) SE dB. = 20log[HiJ
+This definition of shielding effectiveness treats
+only how the fields propagate through the sheet and
+how they couple to the interior volume. There will
+be an external field produced by the current, but any
+be of incident and reflected waves would discussion
+α roundabout way of determining the external field.
+Since the current is the independent variable which
+produces the external field there is no "surface reflec-
+effectiveness. the shielding in to include tion factor"
+has α effectiveness" the "shielding is that The result
+pro- is the current where case in the than value lower
+field. impinging an by duced
+11.3 Diffusion Effects
+The way that diffusion influences voltage on elec-
+trical circuits will first be illustrated for circular cylin-
+ders; partly because the effects are easiest to analyze
+and partly because cylindrical geometries are often en-
+countered in lightning interaction problems.
+308

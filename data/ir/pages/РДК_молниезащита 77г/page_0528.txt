@@ -1,0 +1,26 @@
+- - VERTICAL Α/div. 1
+HORIZONTAL ps/div. 1
+- VERTICAL V/div. 20
+- HORIZONTAL ps/div. 0.2
+Unidirectional current injected 17.14 Figure
+IsC (α)
+EOC (β)
+shown to be developed on the standard conductor (Figure that standard 17.12),
+conductor would be replaced by the actual cable into which transients were to
+be injected. The actual current induced in the cable could be monitored by the
+current-viewing transformer. Recording it as well should probably be one of the
+requirements of the test plan. The actual current, of course, may be lower than
+the standard short circuit current if the actual cable is terminated impedances in
+higher than zero. Conversely, if the actual cable under test is provided with an
+overall shield and that shield is connected to the ground structure at both ends
+and if it has α diameter larger than 0.41 cm, the actual short circuit current may
+be larger than the standard or specified current.
+Whether or not it is appropriate to measure the voltage actually induced
+on the individual circuits would depend upon the characteristic of those circuits.
+Connection of α voltage probe would certainly be more likely to disturb the
+α circuit and cause spurious response than would the insertion of current-viewing
+transformer.
+During the demonstration tests in which the waves shown in Figures 17.13
+and 17.14 were measured, the conductor was α 15-foot section of RG-58 coaxial
+cable lying directly on α metal-covered floor. One end of the shield of this cable
+was connected to the floor, and the other end could be left either open circuited

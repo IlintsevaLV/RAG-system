@@ -1,0 +1,27 @@
+Frequently a calculation made to determine the effects of coupling
+through apertures needs to take into account the presence of reflecting surfaces.
+'Ihe simplest case, shown in Figure 1.6, treats one reflecting surface of infinite 1
+dimensions and parallel to the surface containing the aperture. The total field at
+any point between the two surfaces is the sum of the fields produced by an
+infinite array of images of the original magnetic dipole. The field strength from
+each of the images would again be determined from Equations 11.6 through
+1 1.1 or 11.1 6 through 1 1.32. Fortunately, in most cases only a few of the 1
+images need be considered because of the dependence of field strength on the
+cube of the distance to the point under consideration. In principle, additional
+reflecting surfaces could be included in the formulation to define completely an
+interior volume. Such multiple reflecting surfaces are shown on Figure 11.7.
+Typically, one is concerned, not with the magnitude of the fields
+themselves, but with the effects of the fields on electrical circuits. typical A
+problem, as shown in Figure 11.8, might be determining the voltage produced by
+an aperture-coupled magnetic field between a conductor and a metal surface
+containing the aperture. That voltage would be determined the total magnetic by
+flux passing through the plane defined by the conductor and its projection onto
+the metal surface. This total magnetic field would be the summation, both along
+the length and across the width of the loop so defined, of the magnetic field
+strength normal to the loop. If the field strength were to vary considerably with
+position along the loop, it would be necessary to evaluate the field strength at a
+number of points across the area of the loop and to perform some sort of
+graphical integration to determine the total magnetic flux passing through the
+loop. The numerical calculations, while straightforward in principle, would be of
+sufficient complexity to make the problem insoluble in any practical sense if all
+the calculations had to be made by hand. In order to overcome the numerical

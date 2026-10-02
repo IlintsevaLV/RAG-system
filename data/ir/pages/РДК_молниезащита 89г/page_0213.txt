@@ -1,0 +1,104 @@
+Direct attachments: The preceeding discussion
+lates to joints located in Zone 3 which must conduct
+only a portion of the lightning current. Joints located
+in other zones can be struck directly by the lightning
+arc. It is possible for the lightning arc to remain
+tached to a single fastener or rivet. If that happens,
+the arc can melt or otherwise damage the rivet and
+rounding skin. If ignitable fuel vapors exist beneath
+such a joint , the joint may have to be larger
+would be otherwise required.
+Guidelines for joints: Some other guidelines which
+should be noted in designing integral tank joints
+as follows:
+among paths conducting electrically 1. Provide
+structural elements so that lightning currents
+be conducted among elements without excessive
+arcing, and without having to spark across non-
+conducting adhesives or sealants. Often this
+be via rivets or removable fasteners, which make
+metal to metal contact with joined parts. There
+sufficient areas of contact among all of must be
+fasteners in the current path to avoid excessive
+arcing, damage to the fasteners or surrounding
+structural material,
+2. Try not to put any insulating materials in places
+that would divert lightning current from straight
+and direct paths between entry and exit points
+the aircraft. Voltages which may cause sparking
+will build up wherever diversions in these paths
+the fasteners through diversions The exist.
+More acceptable. are Fig. 7.24 of stringer
+be. may not paths tended
+3. Account for aging and mechanical stress which
+may cause reduced electrical conductivity.
+tinued flexing of structures under flight load
+to the point eventually loosen a joint ditions may
+where arcing could occur. To evaluate this possi-
+bility, perform simulated lightning tests on joint
+samples which have been previously subjected
+tests. fatigue or environmental
+4. Coat all joints thoroughly with fuel tank sealant
+to contain any arcs or sparks which may occur.
+further discussion on sealing is found in §7.6.3.
+5, Do not depend on resistance measurements
+conduc- current lightning of adequacy the confirm
+plays path the of inductance The joint. a in tivity
+an equally important part. Resistance measure-
+ments (ac or dc) may be useful as a production
+quality control tool, but they are not useful for
+establishing the adequacy of the lightning current
+path through the joint.
+
+Connectors and Interfaces in Pipes and 7.8 re-
+Couplings
+Electrical plumbing lines within a fuel tank will
+at- usually conduct some of the aircraft lightning cur-
+rents since they provide conducting paths in contact
+sur- with conducting structures. The amount of current in
+plumbing depends on the resistance and inductance of
+than current po'hs in plumbing as compared with surround-
+ing structural paths. Currents in plumbing within
+metal aircraft may be small, a few tens or hundreds
+of amperes, but current in metal pipes inside non-
+are conducting or CFC structures may be very high.
+spark- may cause lines in these The current Problems: the
+can ing at pipe couplings where there is intermittent or
+poor electrical contact. Some pipe couplings, for ex-
+ample, are designed to permit relative motion between
+will the mating ends of a pipe to relieve mechanical stresses
+caused by wing flexure and vibration and this pre-
+cludes the tight metal to metal contact needed to carry
+electrically insulating coatings such as the current. Also,
+anodized finishes are often applied to the pipe ends
+and couplings to control corrosion. Relative motion
+and vibration may wear this insulation away, provid-
+ing unintentional and intermittent conductive paths,
+situations that lead to sparking. Therefore, particular
+on attention should be given to the design of fuel system
+plumbing.
+by plumbing: The mechanism in currents Lightning and
+of an interior to the diffuse currents lightning which ex-
+it is pointed 11. There Chapter in is discussed aircraft
+out that it can take many microseconds for lightning
+currents to become distributed through the aircraft
+changing currents distribute primarily Con- because rapidly
+con- according to the inductance of the paths while slowly
+according to resistance. currents distribute changing
+The high amplitude return stroke currents will not
+spread very deeply into interior structural elements or
+to other interior conductors because they are of silort du-
+ration, but will instead tend to remain in the metal
+a be some current. During Still, there will skins.
+NASA sponsored program [7.51] currents in the fuel
+A lines within a fuel tank with adhesively bonded alu-
+minum structural elements were measured. With a
+the current into the wing, 88 kA injected current of to inasaldmerfuliewthntetn ws10
+160 was tank the within line fuel diameter a small in
+amperes.
+The analytical procedures for determining how
+rapidly changing currents distribute, §11.4, are com-
+plex, but intermediate and continuing cu.rrents persist
+for times long enough for the distribution to be calcu-
+lated on the basis of the dc resistances involved.
+197

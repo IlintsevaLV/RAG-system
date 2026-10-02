@@ -1,0 +1,94 @@
+*γ: 706-202
+9-2.7.2 Hydranic Pumps
+The bydraulic pump is the heart of thc hydraulic
+ayuan. and. therciore, is of prime imporiance. It is.
+however. tbe primary sousce of system heat energy
+due to its inherent inefficiencies.
+The basic aitesuatives for pumps are the Fixed-dis-
+placement and the variabke-displacement, constant-
+pressure types. The fixed-displacement unit cen be
+ν ν
+valves or combination unloaser valve-accumulator
+sysiems, for pressure control. The fixed-displace-
+ment system is relatively heavy. In addition, τ tends
+to liave higher heat generation ievels than the vari-
+abic-displacement typc. Censequently, thc fixeá-dis-
+placement pump is not in general use except ι low-
+pressure-levei systems.
+The conventional variable-displacement pump has
+constant-llou capability through speeds up to the
+pressure control cut-in point. which is approxi-
+mately 2850 psi for α 3000-psi system. As the demand
+decicases beiow the full displacement capability, the
+control de-strokes the pump until, at zero output
+Now, the pressure is maintained at 3000 psi nomins!.
+Thc compe: sated pressure setting can vary from 2950
+τ5 3050 psi betw cen pumps. Fig. 9-29 shows these
+characteristics.
+Modifications of the basic control are available.
+One variation used for horsepower limiting is the
+soft-cutoff, relatively constant horscpower approach.
+Fig. 9-30 shows the control reducing flow at 1.500 psi
+F.On. σ OF FUL R.OP ю
+0 1000 осог ооа 4000
+жю 05Ξ€
+.90 1553
+Figur: Σ-29. Hydrsuiic Pump Fiow vs Pressure
+Characteristics
+1Δ EHAT CUPOA
+10% ρ1
+жытюю ю Γ , τ CONSTMT
+01 ю
+1
+σ ю 2000 3000 00.00
+PNEMAM po.
+Pigare 9-30. Hydreulic Punp Soft Cutoff
+Caracteristias
+9-18
+
+and continuing on α linear basis until it staches ste:
+sandard sharp pump levet. There, in rewerts ic sharp
+cutoff control. Superimpczed on 5ig. 9 30 is :
+cutoff and thet, when compares to the pen' 'one-
+power of & sharp cutoff pump, shows & sgaiicent
+reduction in the power required to drive the pump.
+This is α definite advantage where the drivisg Sorye-
+powcs is limissd, and significant waight can be saw:τ
+in, for example, an clectric motes. Howeser, some o:
+the weight savings is offsct by the larger lises required
+1o maintain subsysuem rstes with 1530 psi availeble
+for load and line loss versus the conventicna! 3ξ50.
+psi capability.
+Another type oi control offers α high respusse
+capability because of she large control vetve utga?
+with pump hanger feedback as required for stebilize-
+tion of the pump controi sysiem. The capability to
+respond to both on and off demards aliows the dele-
+tion of the accumulator. resulting in savings 88
+weight, maintenance, and servicing. In addition, 'he
+pump has better overshoot-undershooi chars xes-
+istics than has the conventional purmg-accur Di
+system. Tnereforr. pressure peaks &re Jower aa
+system fatigue life is impicved.
+Pump case drain characteristics are imsportae: tq+
+satisfactory system and pump operation. The zuxp
+shall have α minimum case drain flow as α functior. χ';
+back pressure. This is required in order to climi-pie
+pump overload and failure during operation in :à
+compensated or near-cempensated mode. An upper
+limit on case pressure buildup due to Nlow restriction
+is necessary in order to avoid φ.;3σ cf the system as α
+result of failure of the pump or case drain sy 3u-μ: as α
+pressure wassel Thçse .ninimum-maximum case dreit-
+characteristics arr shown in Fig. 9-31.
+Α BOY IT N/O V5
+APCIMMACTELETICS
+WAXM IAFIER QUALLFICATLONL
+MAXMUM
+SIAmLIZED Γ- ERATInNG
+POWTS IN Α SYSTEM
+. CHLAMACTERISTIC 'THICA PUMR
+100 00 ь
+CAE MERARE MMAL, ACTION PIUIBURE DO'
+Figere 9-31. Hydraallc Puamp Case Drsin Flow
+Ciarecteriotics

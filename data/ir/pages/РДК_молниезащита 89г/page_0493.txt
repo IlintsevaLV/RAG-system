@@ -1,0 +1,79 @@
+CONDUCTOR UNGIR
+TEST
+primary. on turns more of Effect 18.29 Fig.
+current - More short circuit
+open circuit voltage - Less
+of the natural in the frequency - Α decrease
+cable under test oscillatory mode of the
+the current pulse rise time of - Α longer
+Measurements 18.5
+frequencies, effects testing involves high Indirect
+Α few notes on mea- and high current. high voltage
+surement techniques follow. Additional notes on mesa-
+techniques are given in [18.41. surement
+Oscioscopes: should have Measuring oscilloscopes
+or order of 100 MHz bandwidth, on the sufficient
+in- be well shielded against They should also greater.
+and the circuit un- the surge generaton. terference from
+requires that they be housed der test. Frequently this
+as far from the and physically in shielding enclosure α
+dis- were previously as possible. Techniques test setup
+§13.4.3 and Fig. 13.20. cussed in
+impedance volt- probes: Conventional high Voltage
+1000 voltages of about are limited to input age probes
+to pickup of noise volts and are somewhat susceptible
+of the circuits under test voltages. Since impedances
+can be made voltage probes generally low, suitable are
+Wire as sketched in Fig. 18.30. from carbon resistors,
+because of excessive be avoided wound resistors should
+thousands of of several inductance. Total resistances
+resis- among several distributed ohms are satisfactory,
+watt carbon resis- on individual 1/2 tors, with voltage
+power volts. Instantaneous tors limited to about 1000
+the average may be high, but in the resistors dissipated
+power is low.
+of cur- Most measurements Current transformers:
+Transform- transformers. made using current rent are
+have wide band- shielded and that ers that are well
+available, but transformers are commercially widths
+can also be cus- for many purposes sufficiently suitable
+in cores, as shown on toroidal magnetic tom wound
+should be uni- The secondary winding Fig. 18.31.
+and the conductor upon arornd the core formly wound
+480
+
+the near kept should be are made measurements which
+also be made Transformers can center of the core.
+insertion onto con- simplify These cores. split using
+response. Α have poorer low frequency ductors, but
+of the response affecting discussion of the factors good
+appears in [18.51. transformers current
+Conductor under
+test
+aarbon resistors
+cable ohm 50
+()
+V
+R
+-= R +1
+50
+(β)
+for measurement 18.30 Resistive divider Fig.
+voltage. of
+ratio (α) Circuit
+(β) Evaluation of
+R-ρ@ Nurn
+ε.
+O
+I- I
+transformer. Fig. 18.31 Current
+α circuit of frequency response: An equivalent Low
+18.32(α). Pri- is shown in Fig. current transformer
+pro- voltage in the windings current induces α mary
+Because of the current. to the derivative portional
+windings the Λ, of the transformer of the inductance,
+resistor, R, is initially current applied to the viewing
+thus to of the voltage and to the integral proportional
+however prevents current. The resistance, the input
+is that the output and the result perfect integration
+the true wAveshape of departs from voltage gradually

@@ -1,0 +1,71 @@
+350
+~-160
+4J
+0
+-10 0 /
+-150
+( ) 5 us 0
+350
+0] 0
+-150
+,ysis
+5 us
+runs and C Δ.
+modeling line Transmission (α)
+modeling constant Lumped (β)
+REFERENCES
+14.1 Space Program Shuttle Lightning Protection Cri.
+tuna Document, JSC-07836, Revision Α, National
+Aeronautics Space and Administration, Lyndon
+Β. Johnson Spame Center, Houston, Texas (Novem-
+her 4, 1975) π. F-6.
+14.2 Μ. Σ. Amsbary, Γ. It. Read and Β. Λ. Gif-
+fin, "Lightning Protection Design of the Space
+Shuttle," Workshop on Grounding and Lightning
+Protection, U.Σ. DepaTtment of Transportation
+and Florida Institute Technology, α( Melbourne,
+1979. March, 6-8 Florida,
+
+1 12- cockpit cargo bay -
+4 17
+N 3
+(α)~ u
+1 17, 4 .us.-• 5 5, us 0
+-60
+0 (β) 5 ust5u
+Fig. 14.35 Short circuit currents.
+(α) Transmission line modeling
+(β) Lumped constant modeling
+14.3 F. H. Branin, Jr., "Computer Methods of Network
+vol 55, November 1967, Proc. IEEE, AAnalysis,"
+pp 1787-1801.
+14.4 Λ. 0. Chua, Pen-Min Lin, Computer Aided Anal-
+of Electronic Circuits, Prentice-Hall, Engle-
+wood Cliffs, NJ
+14.5 H. Dommel, "Digital Computer Solution of Elec-
+Multiphase and Single in Transients tromagnetic
+Nctworks," Power Apparatus and IEEE Tr•am. on
+Systems, vol PAS-88, April, 1969, pp 388-399.
+14.6 H. Dommel, Ω. Σ. Meyer, "Computation of Elec-
+tromagnetic Transients," vol 62, IEEE, Proc.
+983-993. pp 1974, July
+Rule (ATP) Transients Alternative 14.7 Progran
+K. Lwuven U. EMTP Center, KARD. Book,
+Mercier-lsan 94, Β-3030 Heverlee, Belgium or
+Tsu-huei Liu, 3179 Oak Grove Court, West Linn,
+Oregon, 9708.
+14.8 F. Α. Fisher, "Trancaic", Unpublished, Lightning
+10 Technologies Inc., Downing Parkway, Pitts-
+field, MA, 01201.
+14.9 F. Α. Fisher, Analysb and Calculation of Light-
+Interactions Aircraft ning wit" Fectrical Cir-
+cuits, AFFDL-TR-7Σ-106, Aug. 1978. Air Force
+Flight Dynamics Laboratory, Wright Patterson
+Air Force Base. Ohio, 45433.
+14.10 Α. Semulyn, Α. Dabuleanu. "Fast and Accurate
+Switching Transient Calculations on Transmission
+Lines With Ground Return Using Recursive Cal-
+culatioons," Μ on Power Apparatus and EE ns.
+vol PAS-94, March/April 1975, pp 5I- Systems,
+571.
+394

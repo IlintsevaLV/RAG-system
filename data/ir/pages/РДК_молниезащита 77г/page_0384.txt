@@ -1,0 +1,16 @@
+= CABLE LENGTH
+20 FEET
+= dc RESISTANCE
+R 0.024
+CURRENT VOLTAGE
+ps ps/div 0.5 ldiv 0.5
+Coupling from overall shield to center shield of α double-shielded 13.12 Figure
+cable.
+of transfer inductance the shield and an equivalent transfer capacitance. These
+effects may be expressed in terms of the equivalent circuits shown in Figure
+13.15. Figure 13.1 5(α) shows the equivalent circuit by which noise current on
+the shield of the cable may be related the voltage induced between the signal to
+conductor and the shield. In the frequency domain, this may be expressed as
+will be seen momentarily, the term Zd may frequently be treated simply as As
+of the dc resistance the cable shield, shown in Figure 13.1 Σ(β), in which case the
+relation between current and voltage becomes simply

@@ -1,0 +1,23 @@
+11.1 IN Table MAGNETIC FIELDS DIFFERENT ZONES
+SHUTTLE OF THE SPACE
+Aperture Fields Diffusion Fields
+(Aim) (Alm) Zone A-component Bcomponent
+*Payload
+**No payload
+The task of dividing aircraft into typical magnetic field zones and of
+to calculating and assigning the appropriate field strength each of the zones is
+probably of sufficient complexity that it should be done by specialists in the
+field.
+Analytical studies of field intensity could well be supplemented by
+experimental studies in which currents were circulated through an aircraft and
+the magnetic fields inside measured. Aircraft used for such studies should be in
+realistic condition in regard to the mechanical soundness of the structures,
+particularly relating to the access panels, but otherwise they need not contain
+complete electronic systems. They should not, however, have been cannibalized
+unduly, leaving an excessive number of empty bays where equipment niight
+normally have been expected to help provide some electromagnetic shielding
+capability. The use of older aircraft for such studies might well be realistic in
+that the electromagnetic shielding capability of a structure is in large measure
+determined by the electrical characteristics of the various access panels and
+fasteners. Because these tend to degrade with age, an older aircraft might be a
+more realistic test vehicle than a new and carefully maintained aircraft.

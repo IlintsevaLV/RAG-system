@@ -1,0 +1,108 @@
+AMCP 706-202
+c. Unsupported spans of 150-200 in. have
+operatod saticfactorily. However, cable idier pulleys
+in long straight runs minimizo friction oves fairlaads
+and grommets.
+d. Close spacing of cables shall be avoided.
+Cables should not pass within 3.0 in. of structure,
+equipment, or other cables.
+e. The angle between the centerlinc of the cable
+and the plance of the pulley should not exceed 0.5 deg.
+f. To the maximum extent practicable, cables
+should run along, or bc as close as possible to, the
+neutral axis of the airframe structure.
+g. Friction in a cable system should be
+minimized by:
+(1) Using a minimum number of pulleys
+(2) Using the largest practicable pufley size
+(3) Using the smallest cable diameter con-
+sistent with strength and rigidity requirements
+(4) Designing for the sma:lest practicable
+wrap angle consistent with maintt..ice of good
+cable contact and pulley rotation.
+h. The effect of charges in temperature can be a
+serious problem in controi cable systems, due to the
+difference berwee the coefficients of therma! ex-
+pansion of the aluminum airframe and the steel con-
+trol cable. The probicm is less severe in pulleyless
+missible. cable systems becausc higher rigging loads are per-
+i. Tension regulators may be instalied in quad-
+pansion &nd contraction of the cables without ap-
+preciable variation in rigging load.
+j. Nylon-covered cables can incrcase cable life
+by damping hig'-frequency vibrations.
+k. Cabl: guards shall be used at points of tan-
+gency of the cablc to the pulley.
+4. C hains. The use o1 chains shali be subject to the
+approval of the procuring activity.
+In spite of the inheren: advantages, &pplications of
+fly-by-wire teciniques to helicopter control have
+been siow to materialize. The substitution of fly-by-
+wire electrical signaling systems fer conventional
+linkages bctween cockpit and swashplate bas a
+number of potential benefits. However. before any
+for production, a high level of reliability must be as-
+sured.
+The advantages of an electrical control system will
+depend upon the type and size of the helicopter in
+which the system is installed. For example, some of
+the benefits to be cxpocted in large, heavy-lift he'li-
+copters sre improved flight safety reliability and re-
+ducod vulnerat ility, higher fidelity of control, and re-
+duced weight. The characteristics and capabilities of
+6-24
+
+a truc fly-by-wire system arc cor..parcd wi.. varic s
+alternate heavy-lift helicopter control systems in
+Rofs. 23 and 24.
+6-5.2.2 Power Actuator to the Swashplate
+Design requirements and standards for that por-
+tion of the helicopter fligh.l control system between
+the power actuator and the nonrotating swashplate
+arc defined by MIL-F.9490 and MIL.-F-18372.
+In addition to these requirements, iraportant con-
+siderations include fail-safe design, structural coni-
+pliance, and control system dynamics.
+Various fail-safe approaches are:
+1. Stand-by design. Two cqual-strength ioad paths
+are provided. The secondary load path is isolatcsi un-
+til primary failure occurs. The primary lcad path is
+visible durirg helicopter inspections. This approach
+r juires that each load path be designed for infinite
+ic t3 insure tnat the components of thc secondary
+will last between overhauts if the failure of the pri-
+ma:y path is not detected.
+2. Load-sharing Sesign. The component is made
+up of two or more sections or laminations that are
+joined mechanically. If one clement fails, the re-
+maining clements hiave fuil le ad-carrying capability.
+If the elemerts art bonded, the bcnding agent shall
+prevent a crack from propagating across the section.
+If the component is not bonded, other antifretting
+barriers must be employed. A section of the com-
+ponent consists of the maximum practicable number
+of laminatiens.
+3. Crack-detection design. Design techniques
+could include: pressure drop, oil or fluid leak, elec-
+trical detectors, and highly penetrating dye.
+Inadequate struc:ursl siiffness can affect the con-
+troi system in several ways. Deflections of the air-
+frame can introduce inputs to the control system, an
+effect that is minimized by routing the controls close
+to the neutral axis of the airframe. When the support
+structure is not stiff, the power sctuator slso can de-
+fect under load. If the control system output is
+sensed by the compliant structure, a limit cycle in-
+stabiity can occu- and ultimately may destroy the
+helicopter if it is allowed to proceed unchecked. The
+designer shall introduce compensating linkage or suf-
+ficient structural stiffness in order to assure that the
+control system is insenzitive to deflections.
+The primary flight controls are part of the com-
+plex servo system that deternines the transient and
+frequency responses of the helicopter. In this system,
+the mecharical controis play a small but significant
+role. In addition to the mechanical controls, per-
+formance of the servo system depends upon:
+1. Rotor dynamics and aerodynamnics
+2. Inherent helicopter stability

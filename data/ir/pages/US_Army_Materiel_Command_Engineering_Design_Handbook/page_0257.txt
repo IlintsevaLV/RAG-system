@@ -1,0 +1,109 @@
+706.202 AMCP
+energy dissipated through damping with the energy
+introduced by the excitation. Experience shows that
+the effective overall damping, aerodynamic plus
+structures, varies with the type of vibration mode,
+being about 0.02 to 0.04 of critical for reactionless
+modes, and about 0.04 to 0.06 for whirl and sym-
+metrical modes.
+From the response of the blades to the various
+aerodynamic excitations, one can determine the blade
+the finally, and, σ'iaft loads, and retentioq stresses,
+Certain ex- gearbox and aircraft. applied to the ',oads
+vibra- but not torque, put vibratooy citation orders
+tory bending moment, on the gearbox; others do the
+2Π-excitation on α four-way (four- opposite. Also,
+blade) propeller puts no load at all on the gearbox, as
+this is α reaction!ess mode, ι.ε., all the loads are
+reacted within the hub.
+Α propeller must have the structural capacity to
+withstand the combined loading from its response to
+all of the aerodynamic excitation orders super-
+imposed.
+Σ4.2.3 an Mamyer Gaw
+Gusth and μ.ineuvers can heve significant cffects
+upon propeller vibratory loads. The more obvious
+effects are caused by changes in the aerodynamic flow
+fields and the consequent excitations to whic'ý the
+blades are subjected. Secondary effects are the result
+forces. the Because inertia and motion gyroscopic of
+propel- the is vibratory loads the of basic frequency
+can be ac- cycles stress many speed, rotational fer
+maneu- or gust α during propeller the on cumulated
+ver. This is in contrast to nonrotating airframe corn-
+ponents, which are subjected to only one major load
+cycl during α gust Or maneuver.
+Sus' ca co .,eti --
+,-- ν lg-ν .... ....... lateral v. The directions: longitudinal, lateral, and vertical.
+longitudinal, tore-and-aft, or component essentially
+is parallel to the flight path of the aircraft, and, there-
+fore. subjects the propeller and airframe to α change
+in dynamic pressure. The steady torque and thrust on
+blades with α suddenness that the change depends *
+upon the rise time of the gust. These changes in load
+can be relatively high for the large propellers used in
+V/STOL aircraft because the blades of these propel-
+lers are operated at relatively low angles of attack.
+The change in dynamic pressure also has α direct
+effect on the Π excitation I factor, and the I Π-stresses
+are affected accordingly. Α longitudinal gust changes
+the lift on the aircraft, thus imparting vertical accel-
+erations &nd changing the wing circulation, which, in
+turn, has an effect on the flow field.
+The lateral component of α gust can be treated as α
+change in yaw inflow to the propeller. The yaw inflow
+5-62
+
+is added vectorially at right angles to the normally
+considered pitch inflow. Hence, the total 1 Π-inflow
+angle is affected. Likewise, the dynamic pressure is
+changed by the cross-flow component, but for the
+same gust velocity the wing lift is affected less by α
+lateral gust than by α longitudinal or vertical gust.
+Vertical gusts have direct effects upon the pitch
+dynamic pressure, component of the inflow angle, the
+and the wing lift. Each of these factors influences the
+and the excitations and, consequently, field flow
+the verticai α lateral gust, in :he case of loads. As
+air- the forward to vectorially is added component
+speed. This changes the magnitude and direction of
+the velocity inflow.
+The current method for determining propeller vi-
+bratory loads during gusts uses α quasi-steady-state
+analysis to evaluate the flow field and aerodynamic
+excitations. Although the propeller speed and blade
+angle may change, depending upon the rise time of
+the gust, it is expedient and conservative to assume α
+step change in the inflow to the propeller. In other
+words, the propeller is assumed to be placed suddenly
+in α different aerodynamic environment without any
+change in blade angle or propeller rotational speed,
+__ ,,- ,.. . . .. ,.,ι,,.δ .,. .Λ . π.
+in the manner discussed in the preceding paragraphs.
+Propeller vibratory loads incurred during maneu. '
+vers are determined by using essentially the same pro-
+cedures as for ma- gusts, with the exception that the
+in- ose toat limited are genral snayr neures
+factors. load volving vertical
+series) (MIL-Α-8860 speciications design Aircraft
+maneuver each of duration time the include not do
+nor α breakdown of the maneuvers as functions of airspeed. The maneuver spectrum (see par, 4-11I,
+AMCP 706,201) must be available to the propeller
+isav .. ...........
+,,,χ that he "tat u, Th.....-........... designer so can α-.,--- tc utuc ν ,iis the propeller compone,,Lb be satisfactory.
+In the design analysis, blade vibratory loads for
+maneuvers in~volvintg vcrtical load factors are calcu-
+lated using the procedures given in the preceding
+effective paragraphs and considering that the gross
+weight of the vehicle is its actual gross weight mul-
+the vertical tiplied by load factor.
+Maneuvers influence blade vibratory loads not
+only by changing the aciodvnamic flow fields but
+also by the resulting effects cfgyroscopic motion and
+inertia forces In α pullout or pushover maneuver, the
+angular velocity of precession is fl, equal to
+(ν, λ)γ -
+rad/sec V (Σ
+where
+ - load factor, dimensionless nz
+ flight speed, - fps V

@@ -1,0 +1,104 @@
+Measurements of induced voltages: Newman,
+and Stahmann [7.53] measured about 11 V on the
+quantity probe circuits routed inside α KC-135 wing
+fuel tank through which 50 kA strikes with 50
+rates of rise were being conducted. This voltage
+extrapolate to α maximum of 44 V at α severe
+amplitude of 200 kA. Plumer [7.54] measured up
+V in α fuel probe circuit routed inside the tanks of
+F-89J wing. The simulated lightning current in
+case was 40 kA, with α rate of rise of 8 kA/ps.
+these results he predicted that α 200 kA, 100 kA/jps
+lightning strike would induce 185 V in the same circuit.
+These voltages are not sufficient to cause
+sparking. These measurements were made on
+aircraft and similiar measurements on CFC structures
+would result in substantially higher levels.
+Routing of wires: The routing of the fuel probe
+can have α lot to do with how much induced voltage
+pears at apparatus inside fuel tanks. Α comprehensive
+discussion of shielding practices is given in Chapters
+15, and 17. 16
+7.10 Elimination of Ignition Sources
+The previous sections have described some of
+more likely potential sources of ignition and have
+scribed ways to prevent them. In the following
+tions, some overall design approaches are discussed
+which can be followed to reduce or eliminate poten-
+tial ignition sources. These approaches involve
+lection of basic structural materials, modifications
+the airframe structural design, and methods to
+vent contact between any remaining ignition sources
+and fuel vapors. Successful implementation of
+measures requires the lightning protection specialist
+to work closely with airframe and structures design-
+era and manufacturing technologists at α very
+point in the design cycle. Structural design modifi-
+cations to minimize lightning protection problems
+result in substantial savings in weight and cost penal-
+ties due to lightning protection. but these benefits can
+not be obtained unless the designs are incorporated
+early in the design cycle. Structures designs must
+isfy many requirements and some of the features
+would alleviate potential lightning problems may
+be compatible with these other requirements.
+The following design approaches should be
+lized, to the extent practical, to minimize potential
+ignition sources within aircraft fuel tanks.
+1. Designing the fuel tank structure to minimize
+number of joints, fasteners and other potential
+and spark sources in fuel vapor areaq.
+
+Robb, 2. Providing adequate electrical conductivity be-
+fuel tween adjacent parts of structures.
+Providing 3. α barrier to separate remaining arc or
+kA/ps spark products from the fuel vapor.
+would
+strike 4. Design of fuel system components to interrupt po-
+to 4 tential current paths and withstand potential dif-
+an ferences that may exist during lightning strikes to
+this the airframe.
+7.10.1 Tank Structures Design From
+As illustrated in the foregoing sections, most igni-
+any tion sources are associated with structural joints and
+metal fasteners of various kinds. As much as possible, joints
+and fasteners should be eliminated in fuel vapor areas.
+If they cannot be eliminated, they should be designed
+so that they do not spark. If sparks cannot be com-
+wires pletely eliminated, the fastener must be sealed so that
+ap- the sparks do not contact the vapor. Several design
+approaches are possible.
+Eliminating penetrating fasteners: Figs. 7.31 - 7.33
+show how wing spars and ribs can be rearranged to
+eliminate penetrations of fasteners into the fuel tank.
+This approach may eliminate possible fuel leaks at
+the fasteners as well as eliminating ignition sources,
+the though the possibility of leaks due to bowing of the
+de- closeout rib would have to be considered. Care must be
+sec- given to ensuring that the edges of spars and the rib-
+to-skin interfaces do not present arc or spark sources
+themselves. This is usually done by use of electri-
+se- cally insulating, corrosion resistant finishes, as well as
+in sealant materials between parts. Also, polysulfide type
+pre- sealant is sometimes necessary at fillets and edges, as
+discussed in §7.6.3.
+these The approaches illustrated in Figs. 7.31 through
+7.33 are applicable to CFC as well as to metal struc-
+tures. Lightning currents in fasteners in struc- CFC
+early tures may be higher than those in aluminum struc-
+tures because diffusion times in CFC are much shorter
+can than in aluminum and more current will seek to flow
+in interior structural elements such as ribs and spars.
+Also, it is usually more difficult to make arc free elec-
+trical contact between CFC parts. Thus these design
+sat- approaches may be more necessary in CFC airfraries
+that than for aluminum airframes.
+not Likewise, the lightning current densities in air-
+frames of small size, general aviation aircraft and small
+uti- rotorcraft, will be proportionally higher than the cur-
+rent densities in larger transport category vehicles ex-
+posed to the same total amount of lightning current.
+Design approaches such as shown in Figs. 7.31 through
+the 7.33 can be followed to eliminate potential ignition
+are sources in small integral tank structures.
+.02

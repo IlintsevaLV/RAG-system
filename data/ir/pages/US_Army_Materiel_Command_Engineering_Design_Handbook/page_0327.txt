@@ -1,0 +1,49 @@
+AMP 706-202
+•- -.φ ioq I
+I
+~
+CURRENT ACtJL TAKIING LAIN
+Ln TAKLOQEF AND
+'IIIPMN χ CLIMB
+I In E In 'ν nE1,ν5 o~ cE unI~C. oE χ:! I ,ν uCE 5 ''=:
+ζ 4 62 62 - o ρý - cn Ina cj 0,
+SIARtLH 1 150 0.5 150 ,
+-. RELAY-GAIlIER 1 0.7 0 C .71 0. 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 ().7 0.7 0.7
+INDICATOR LIGHTS 1 0.5 C 0.5 0.5 0.5 0.5 0. 0.5 5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 , β.
+INSTRUMENTS 1 0.5 C 0.5 0.5 0.5 0.5 0.5 0.5 0.β 0.5 0.5 0.5 0.5 0.1. 0.5 0.5
+POSITION LIGHTS 3 1.7 C 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0) 5.0 5.0 5.0
+INSTRUMENT LIGHTS 10 0.2 C 0.2 3.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2. 0.2
+LANDING LIGHTS 1 5.0 I(.4 8.4 8.4 8.4 8.4 8.4 8.4 8.4 8.4
+MISC. ELECTRICAL 1 Al.0 (.λ, 20.0 20.0 20.0 20.0
+CHECK OUTI
+RADIO RECEIVER 1 4.5 C 4.5 4.5 4.5 4.5 4,5 4.5 4.5 4.5 4.5 4.51 4.5 4.3
+RADIO TRANSMITTERI 1 10.5β 2.0 10.5 10.β 10.5 lo.β 10.5 10.5 10.5 ι 11).5
+. TOTAL UTILIZATION
+Figure 7-1Μ. Sa.mENpCe 7. VlOzat AL of Ut LoaT
+Igme.I.~μ~ -CSIGNIFILtS o ormv CONTINUOUS
+and current, resulting on- in α higher power Dc should provide hos for cas) acci. to remove
+greater torque at thease χ or o α startell batteri undwt eriesational conditions.
+necrod initially in parallel and then switched to series Battery installation is de-scribed in par, 7-7.8.
+after α predetermined time delay for completion of the start. VOLTAGE REGULATION 7/4 AND
+REVERSE CURRENT RELAY,:
+7-3.5 MAINTENANCE 7-4.1 DC VOLTAGE REGULATION
+Battery maintenance can pose α serious o~pc- DC aencratina .sy.titmn in raG!! η .elireonle con.•ι.τ '
+rational problem, Becausn of the necessity for of α starter/gen tor with α serias-field starter, vol- periodic addition of water to the cell electrolyte, the rage regulator, reverse-current relay, overvoltage '"
+battery generally is removed from the aircraft on α reluy, field relay, starter relay, and start-control relay.""
+scheduled basis, and operational delays thus are cn- One or more of these components may be supplied to
+countered, the contractor as Government-furnished equipment
+Operating water loss results from the two natural (GFE), and thus will establish some arc.% of the
+functions of evaporation and electrolytic dissocia- design.
+tion. Except at extremely high temperatures, water Military Specifications for α generating system -
+loss by evaporation considered can be unimportant. using carbon pile regulators and reverse current
+Dissociation occurs α at relatively constant rate, and relays- include MIL-C-5026, MIL-R-6106, MIL-Γ-
+is α function of voltage, current, and temperature. 6162, MIL-R-6809, MIL-R-9221, MIL-R-25078, and
+Higher voltage will increase the overcharge current MIL-R-26126.
+and gaising rate (Fig. 7-12). Higher temperatures will
+increase losses by evaporation and will lower the po- 74.1.1 Voltage Regulaior
+tential at electrolysis which occurs. Higher tempera- Α voltage regulator designed to incorporate all but
+tures also will increase the overcharge current when the line contactor functions, and having additional
+charging α at constant voltage, functions such as feeder fault protection and field
+The requirements for battery maintenance must be weakeiing for shunt starters, is available. The
+considered in locating the battery compartment. The Military Specification for voltage regulators of the
+7-18

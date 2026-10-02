@@ -1,0 +1,31 @@
+A
+ELECTRICAL CONTROL INPUT
+I
+I
+INPUT
+(A) SERIES MODE OF OPERATION
+.4
+K- rrenDAr�� I
+I LLULIflUII LIIIRV�UI..
+P1
+SEPARATE
+INPUT PARALLEL ACTUATOR
+SERVO
+(B) PARALLEL MOOE OF OPERATION
+Figure �-23. E�aa�ks �f Puralel and Seek. Couhol Med..
+dragging thc stick along with the surface during mo- load requires cons.de.ation in the decision on type ol
+tion. The augmentation and autopilot modes of valvc to be employed.
+operation use clectrohydraulic valves, which receive The master control valve that accepts the iwinual.
+signal is a rour-way. closed. electrical signals generally in pvoportion to the clectrical. or combrcd
+magnitude of the desired surface position change and cenler valve (Fig 926). For balanced-area cylinders
+then transsate the signal into a hydraulic command to in the cylinder port neutral the prewar.. are position,
+at one-half the system pressure the actuator. The electrical fcedback signal cancels generally established
+out the electrical command signal when thc Loritrol at the no-load positiwi. In unbalanced actuators, the
+surface reaches the commanded position. Flapper cylinder port neutral pressures are unbalanced in pro-
+and nozzle or jet pipe electrohydraulic control valves portion to the unbalance requiri�d to obtain as area
+are used. Figs 9-24 and present schematics the necessary force balance. The 9-25 of spool of this servo is
+preferred because an subject to particularly by thread-shaped the valves. The jet pipe is it hai jamming,
+inherently greater tolerance to contamination: how- which may have been scraped from wrfaces particl'�s
+ever, this type valve has a higher leakage rate than the of co.aponents by abrasives (predominately sand)
+flapper and nozzle type which increascs the hydrau- which arc introduced from she en�ironracnt. Sesis�e
+lic system heat load. This contribution to the heat scrupulous care during maintenance and servicing �o

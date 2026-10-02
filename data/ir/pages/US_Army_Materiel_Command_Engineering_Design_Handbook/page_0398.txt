@@ -1,0 +1,88 @@
+Military Spacifcations in order to keep veasols from
+sbattering under gunfire. Wire winding contributes
+added strength, but uaually is not regarded as a light-
+woight compoaite construction.
+Poeumatic-system veercis, which must be charged
+and diacharged several times daily, must withstand
+maay tbousands of cycles without failure. To insure
+that high-cycle lifs veasels will mect their require-
+mauts in rervice, factors such as stress level, choice of
+material, sbape of the vessel, surface conditions, joint
+design, heat treatment, and environmentel conditions
+during use must be coneidered. Thc ratio of test
+presure to service preaure is usuaily 1.67:1. How-
+ever, the ratio is governed by individual spociñca-
+tiona, and, in some casos, may range from 1.5:1 to
+2.0:1. The ratio of minimum burst presure to service
+ж preeure depends upon the design stross levels, but is commonly 2.22:1. Ratios of 2.0:1 to 4.0:1 often are
+indicatod by spocific cycle-life requirements and other
+sonive considerations.
+9-3.29 Ssbuyne
+Subeystem components are discussed in pars. 9-
+3.2.9.1 through 9-3.2.9.4.
+9-3.2.9.1 Acinators
+An actuator, as used in helicopter applications, is a
+power unit that produces a force or torque for
+positioning loads. Normally. pneumatic actuators arc
+of the linear-motion type, and are designed to in-
+dividual specfications. Among the types manufac-
+turod are specialized actuators of the piston type
+(with built-in dampers), used for the retraction of
+temperatiare piston units for both high and low
+preasures; cargo ar.d passenger door actuators; store-
+ejoction actuators; screw-jack actuators for high-tem-
+perature applicaion :, and air motor and screw-jack
+actuator assemblies that form a part of such systems
+as nosewheel storing. Advantages of pneumatic ac-
+tustors include speed of operation, simplified power
+requirements, and ability to withstand ambient tem-
+peratures to 500°F. The inherent limitations of pneu-
+matic actuators result prinarily from the elastic
+propertics of the compressed sir working fluid. Fig.
+9-62 illustrates typical lincar pneumatic actuators.
+in this single-scting actuator, the power stroke is in
+one direction only, and can be either the out-stroke
+or in-stroke. The return stroke is sccomplished by
+some cxternal means; a doubie-acting cylinder ran bc
+usod for this purpose by connocting the act sating
+fuid line to on!y onz port through a threc-way valve,
+leaving the other port open, Special single-acting
+cylinders are designed with piston-sealing devices
+
+y
+AMCP 706-202
+(A) SINGLE ACTIN..
+BAAAA7
+AAAAA
+(B) SPRING RETURN
+(C) DOUBLE ACTING
+sody
+that seel in one direction only. These cylinders have a
+port hole in one heud and & bleeder hole in the op-
+posite hesa.
+The spring-return actuztor is a single-acting cylin-
+der, with the re*arn stroke effected by a spring. The
+length of the cylinder in the retracted position is xt
+least twice the actual stroke length becausc of the
+spring Iength. The initial spring force, as well as the
+increase in spring force due to spring rate during
+compression, depcnds upon the amount of force
+required by the spring-actuated stroke.
+In the double-acting actuator, the cylinder has a
+power stroke in both directions. The actuating fuid
+line is connected to both heads of the cylinder, usual-
+ly through a four-way valve. Most standard catalog
+cyiinders are double-acting. The sealing aevices also
+operate in both directions.
+Rotary actuators rotate an output shaft through &
+fixed arc to produce oscillating power, converting
+fluid-energy input to mechanical output. They are
+compact, simnple in construction, and efficient, pro-
+ducirg high instantancous torque in either direction,
+and requiring only limited space and simple mount-
+ings. Rotary actuators consist of a chamber or
+chambers for containing the working fiuid, and a
+movable surface against which the fluid acts. The
+movable surface is connected to an output shaft to
+produce the output motion.
+9-43

@@ -1,0 +1,105 @@
+rangting and numbers ftom 0.50 to 0.75. Weight struc-
+tural conciderationh suggcst higher minimum valuts,
+suggtst and noise considerations lower maximum
+conpr'nise in - values resuliOi design α
+Iyetwecn Mach and 0.7. 0.6
+FLIGHT LEVEL HIGH-SPEED 5-2.2
+performance, flight level bigh-tpeed maximize To
+optimizing in as considered are metta patr same the
+ratio hover performance. in addition, the of
+hspeed to rotational tip speed, or advance ratio o, is
+traduced.
+design, In high-seed . the basic compoatase
+between advancing blade tip Mach number oad
+vbnce ratio. The advancing tip Mach number Man
+can be defined ts
+V + RR
+(5-5) ad I#,, α
+where
+fps sound, of speed Ω α
+fps airspeed, true - V
+tip speed, decreasing forward given α At
+bUia, δ us•ε that ι providing of amount __ecras•σ the
+more and because more force, propulsi've and lift
+accom- is effect This flow. reversed in is 4 11 θ,
+coefficients lift increased nocessarily, by panie&,,
+eventually which disk, the of part the "working" stall. of amounts signi•ficant lead to
+rotor increase to is approach The alternative
+advancing higher increasingly to leads This speed.
+divergence drag Eventually, numbers. Mach blade
+the advancing of portion α significan. over attained
+α α& requirements power increased with blade,
+of value given α with area blade Increasing
+coefficient lift blade the lower will speed tip mean
+advance higher at operation allow and, therefore,
+ratios.
+retreating the alleviate to tends Increasing twist
+also can result but point, α to up problem stall blade
+in negative lift on the advancing blade tip. The
+coefficients higher lift disadvantegeous because is
+must be achieved over the positive-lift portions of
+disk in order to compensate for the negative lift
+the advancing blade tip. Also, with large amounts
+blade twist, drag divergence - with an accom-
+panying increast in power required - may occur
+to high negative angles of attack on the advancing
+blade
+It is necessary to determine the cormbination of
+speed. solidity. and twist that results in the minimum
+power required for α given speed, or the maximum
+sp-ed for α given amount of power available,
+Normally•, the high-speed performance problem
+5-6
+
+cannot be divorced frori the hover and maneuver
+requirements. However, it is discussed as separate ξ
+given probklm here, where for α amount of power
+airpeed maximized, Initially. α fange available, is to be
+crn an source such Ref. used to determine an in- 6 be
+itial set of values for solidity, and tip speed. twist,
+and weight gross for values that requireiy source This
+6 Ref. assumed. be first area δ;,ag parasite vehicle
+linear α and section airfoil α particular assumes also
+flight twist distribution. From this starting point, modifi-
+in- cationt of section, blade tip airfoil planform shape,
+and twist can be made in order to achieve speed in-
+creases up to the limits of the power available.
+ad- To increase the advancing blade tip Mach number
+, at which drag divergence becomes critical, airfoil
+thickness can be reduced. For symmetrical airfoil&, reduction of thickness to vaiues les of than 12% nor-
+coeffi- mally results in α reduction of maximum lift
+cient. This is detrimental for thet lifting capability of
+in- by altered be can effect This blade. the retreating
+reduced of scction airfoil the into camber troducing
+for value an acceptable maintain to order in thickness
+diver- drag an increased attaining also while C,,,. apeed
+uI of _nt, ι-_,Ip _.μ -. Π 1_ρ... _=η .-- gpnp , ,_,ν ,-μ
+pitching undesirable blade in result will camber of
+numbers. Mach high level-flight at moments
+decrease to be employed can tip blauc the of Sweep over
+allowing higher thus number, Mach effective the can +I (V number tip Mach advancing of rctual values
+the compiassibility to due rise drag before OR)/α tip
+be unacceptably must care However, high. becomes
+and, area effect-ve of loss the avoid to exercised is
+capability. lift retreating-blade of therefore,
+opti- in assist may distributions twist Nonlinear rsult.
+available. power of amount α given for rizing speed rotor
+ι6ι det£iled invitIed α Ioto IIIUhM CzIVts Ve iTA
+and azimuthal radial of consideration by analysis
+No number. Mach and angle-of-attack of variations
+ap- only the is trkl-and-error offered; be can ρ, Its
+available. currently proach
+latter
+FLIGHT 5-2.3 MANEUVERING HIGH-SPEED
+the Achievement of the desired maneuver capability at
+on α given airspeed also may affect tat selection of final
+of values for the basic rotor design parameters. Because
+of increasing amounts of retreating blade stall, tht
+(for due higher the forward speed α given tip speed) the
+more difficult it is to achieve high maneuvering load
+factors.
+satisfactory tip To begin with, α static analysis is not
+for determination of maneuvering flight capability.
+As discussed in Ref. rotor pitch and roll rates are 7,
+involved in both symmetrical and turning maneu-
+vcrs, signifi- and can affmt load factor capability

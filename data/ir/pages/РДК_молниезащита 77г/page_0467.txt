@@ -1,0 +1,16 @@
+Rectifier Diodes
+Reference Diodes
+Point Contact Diodes
+Microwave Diodes
+0.001 0.01 0.1 10 100 1
+K Damage Constant,
+Range of pulse power damage constants for representative diodes. 16.4 Figure
+High Power Transistors
+Germanium Transistors
+Switching Transistors
+Low Power Transistors
+0.01 0.1 10 100 1
+K Damage Constant,
+16.5 Range of pulse power damage constants for representative Figure
+transistors.
+457

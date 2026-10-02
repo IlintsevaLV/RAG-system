@@ -1,0 +1,25 @@
+ELECTRICAL
+BONDING
+SAFETY WIRE
+COUPLING
+Electrical jumper across insulated coupling. Figure bonding 6.37
+IN 6.37 BONDING JUMPERS SUCH AS THOSE SHOWN FIGURE
+SHOULD NOT BE RELIED UPON TO PREVENT SPARKING FROM
+LIGHTNING CURRENTS!
+The reason that jumpers like this are unsatisfactory is that, when
+fast-changing lightning currents begin to flow in these jumpers, voltage rises
+occur along the inductance of the strap equal to
+E inductance voltage (volts) where =
+Λ bond strap inductance (henries) =
+I current in tube (amperes) =
+This voltage appears across all other possible current paths through the coupling.
+If there exists another possible but unintentional path, such as α safety wire, α
+retaining chain, or the coupling interface itself, this inductive voltage may be
+sufficient to force current through these paths and cause sparking if the
+Α the 20 portion of the conductivity is poor or intermittent. For example, if
+6.37 were to begin to flow in the bonding jumper of Figure current intermediate
+and this current were to reach its peak in 100 ps, its rate of rise would be if
+If the inductance of the bonding jumper is 0.1 pH, then the inductive
+voltage developed along the jumper would be
+By itself this voltage is too low to break down coupling insulation such as
+170

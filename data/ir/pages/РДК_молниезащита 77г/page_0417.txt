@@ -1,0 +1,42 @@
+14 CHAPTER
+EXAMPLES OF VOLTAGES INDUCED
+MEASURED ON AIRCRAFT
+14.1 Introduction
+There have been several sets of tests made on aircraft in which simulated
+lightning currents were injected into the aircraft and the resultant voltages and
+currents on the aircraft wiring measured. Space precludes giving in this report a
+con~prehensive summary of the test results, and the user is referred to the
+reports on the individual tests. A few examples of the measurements will be
+@en in the following sections, and an atternpt will be made to indicate the most
+important facts learned during the tests.
+F-89J 14.2 Wing from Aircraft
+in The first set of tests to be d~scussed (Reference 14.1) was one which
+F-89J aircraft. high lightning-like currents were injected into one wing of an
+During the test, represented in Figure 14.1, the wing was fastened onto a
+screened instrument enclosure, which may be viewed as representing the fuselage
+A 000 40 were injected into the of the aircraft. Lightning-like currents of up to
+wing or into the external wing tip tank from a high-current surge generator,
+allowed to flow along the wing to the outer wall of the screened instrument
+enclosure, and then to ground. An example of one of the types of current
+injected Into the wing is shown in Figure 14.l(b). In order to obtain maximum
+a mode that essentially allowed the current, the surge generator was operated in
+typical production of only one cycle of a damped oscillatory current, unlike a
+lightning current, which would rise to crest rather fast and decay at a much
+slower rate. The shape of the current wave must be considered when observing
+In the waveshape of some of the voltages that will be discussed. particular, note
+20 that at about ps there appears a major discontinuity in waveshape. This
+discontinuity in current waveshape is reflected in the induced voltages.
+Within the wing there were a number ofelectrical circuits, such as those to
+navigation lights, fuel gauges, pumps, relays, and switches indicating position of
+flaps. Some of these ran in the leading edge of the wing and were well shielded
+from many electromagnetic effects, while others ran along the trailing edge
+flaps. between the main body of the wing and the wing These latter were most
+All of the circuits were relatively exposed to the electromagnetic fields.
+independent of each other; they were not, as a general rule, bundled together in
+one large cable bundle, a practice that provides maximum coupling from one
+circuit to another and makes analysis difficult.
+The first circuit that will be discussed, shown in Figure 14.2, was a circuit
+supplying power to a position light mounted on the external fuel tank. An
+electrical diagram of the circuit, shown in Figure 14.2(b), shows that the circuit
+consisted of one wire supplying power to the filament of the position light with
+the return circuit for the light being through the wingstructure. Accordingly, if

@@ -1,0 +1,102 @@
+The program GEMAX (General Electro- GEMAX:
+magnetic Model for the Analysis of Complex Systems)
+a MOM integral equation solution for low frequen- uses
+cies and the geometrical theory of diffraction (GTD)
+for high frequencies [10.47 - 10.49]. For lightning inter-
+actions the frequencies are low enough that the integral
+equation approach is appropriate. The method has
+been used to study lightning coupling to a helicopter,
+the analyses being made in the frequency range 0.5 -
+10 MHz. The lightning stroke was modeled as a con-
+ductor 20 times the length of the helicopter, though
+since a lightning channel is actually much longer, do-
+ing so may lead to resonant behaviour not truly ap-
+propriate for interaction with lightning. No lightning
+transient results have been published, again perhaps
+because computation at all the frequencies required
+for a Fourier transform is too expensive,
+NEC: Another integral equation code which might be
+of some use for analysis of lightning effects is NEC
+[10.50 - 10.54], "Numerical Electromagnetic Code."
+The program is designed mainly for antenna and EMC
+work and no applications for lightning analyses seem
+to have been published.
+None of these frequency domain approaches have
+been mated to techniques for determining the fields
+coupled to the interior of the aircraft or for determin-
+ing the response of circuits inside the aircraft to such
+fields. They have only been used to determine the elec-
+tromagnetic fields on the surface of the aircraft, after
+which the fields coupled into the aircraft have been
+analyzed as a separate task.
+Codes Difference Application of Finite 10.8
+Modeling Linear
+finite of how the will show examples This section
+two research been used to model have codes difference
+aircraft; the F-106B operated by NASA's Langley Re-
+search Center [10.29, 10.30] and the CV-580 operated
+by Wright Patterson AFB and the FAA [10.31]. It will
+deal with linear modeling; that is the response of the
+aircraft to an assumed lightning stroke. §10.9 will give
+exampler of how the codes have been used to predict
+the response to triggered lightning.
+of the Aircraft Modeling 10.8.1
+The way the F-106B was modeled as an assem-
+blage of cells was previously shown on Fig. 10.22, that
+figure also showing the coordinate system and the lo-
+cation of several electromagnetic field sensors used on
+the aircraft. The large scale nature of the aircraft is
+well resolved, but it is clear that details, such as the
+nofe boom, are not well resolved. This can cause dif-
+
+ficulty when field distributions around such points are
+desired. In most cases, however, the model as shown
+sensors of a is adequate to predict the response at the
+given lightning event, partly because the sensors were
+with a large radius of intentionally placed on surfaces
+curvature, surfaces which are easily modeled.
+Problem space: The problem space (see §10.5.1) into
+which the aircraft was placed was about twice the size
+of the aircraft itself and was divided into a grid one me-
+ter in X dimension (fore and aft) and one-half meter
+in the wing to wing and vertical dimensions Y and Z.
+The temporal resolution of the model was 1 nanosec-
+ond. The nominal frequency resolution of the mesh,
+assuming a minimum of five cells per wavelength, was
+thus approximately 60 MHz. The model was placed
+in the problem space in such a way that all tangential
+electric fields were zero at all times. This implies that
+the aircraft was perfectly conducting, with no signifi-
+cant apertures which would alter the field around the
+aircraft. This is a good approximation except for the
+immediate vicinity of the cockpit.
+Representation of The three dimensional fi- CV-580:
+nite difference representation of the CV-580 is shown
+in Fig. 10.25 (10.56]. Also shown are coordinate axes
+and the locations where the electromagnetic fields were
+calculated, these corresponding to the locations where
+field sensors were located on the actual aircraft. The
+angles Band are used to specify the direction of 0 the
+ambient electric field for the nonlinear model discussed
+in §10.9. The spatial resolution of the model was one
+meter in all directions and the time step used was 1
+dimen- was of used space problem The nanosecond.
+of the extremities the cells, putting 41 x 22 48 x sion
+aircraft eight cells away from the nearest boundary.
+allows a separation that about the minimum This is
+problem. of the scattering satisfactory simulation
+10.8.2 Necessary Assumptions
+There are a number of assumptions that must
+be made when using the linear transfer function tech-
+nique. These are discussed individually below.
+Lightning attachment locations: The places where
+aircraft must be defined to the attaches the lightning
+in advance since they constitute part of the initial con-
+ditions. Also, they cannot change with time since time
+dependent geometry is not consistent with the assump-
+tion of linearity. Any realistic condition requires that
+there be multiple channel attachments, but only one of
+these can act as a source injecting charge onto the air-
+craft, though there may be multiple channels to drain
+charge away. Having more than one source does not
+290

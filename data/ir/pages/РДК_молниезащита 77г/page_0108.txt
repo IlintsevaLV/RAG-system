@@ -1,0 +1,43 @@
+these events result from disruption of the inlet air by the shock wave associated
+with the lightning arc channel sweeping aft along a fuselage. This channel may
+indeed pass close in front of an engine intake, and if a restrike occurs, the
+accompanying shock wave is considered sufficient to disrupt engine operation.
+The steep temperature gradient may also be important. These effects have been
+reported as occurring more often on smaller military or business jet aircraft than
+on larger transport aircraft. Thus, smaller engines are probably more susceptible
+to disrupted inlet air than are their larger counterparts.
+In some cases a complete flameout of the engine results, while in others
+there is only a stall or roll-back. There is no case on record, however, in which a
+successful restart or recovery of the engine to full power was not made while still
+in flight. Perhaps because of this, together with the impracticality of a
+laboratory simulation, there has been little research into the problem.
+Nevertheless, operators of aircraft with engines or inlets close to the fuselage
+should anticipate possible loss of power in the event of a lightning strike and be
+prepared to take quick corrective action.
+There are no reports of lightning effects on wing-mounted turbojet
+engines, since lightning strikes do not often occur near the inlets of these
+engines, and there are no reports of power loss of turboprop engines as a result
+of lightning strikes.
+Effects Indirect 4.7
+Even if the lightning flash does not directly contact the aircraft's electrical
+wiring, strikes to the airframe are capable of causing voltage and current surges
+in this wiring which may be damaging to aircraft electronics.
+The mechanism whereby lightning currents induce voltages in aircraft
+4.20. electrical circuits is illustrated in Figure As lightning current flows through
+an aircraft, strong magnetic fields which surround the conducting aircraft and
+change rapidly in accordance with the fast-changing lightning-stroke currents are
+produced. Some of this magnetic flux may leak inside the aircraft through
+apertures such as windows, radomes, canopies, seams, and joints. Other fields
+may arise inside the aircraft when lightning current diffuses to the inside surfaces
+of skins. In either case these internal fields pass through aircraft electrical
+circuits and induce voltages in them proportional to the rate of change of the
+magnetic field. These magnetically induced voltages may appear between both
+wires of a two-wire circuit, or between either wire and the airframe. The former
+are often referred to as and the latter as line-to-line col€ages common-mode
+voltages
+In addition to these induced voltages, there may be resistive voltage drops
+along the airframe as lightning current flows through it. If any part of an aircraft
+circuit is connected anywhere to the airframe, these voltage drops may appear
+4.20. between circuit wires and the airframe, as shown in Figure For metallic
+aircraft made of highly conductive aluminum, these voltages are seldom
+significant except when the lightning current must flow through resistive joints

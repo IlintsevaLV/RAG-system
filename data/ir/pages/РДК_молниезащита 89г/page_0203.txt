@@ -1,0 +1,48 @@
+sarface of the test object must, of necessity, move surfaces. Most of these coatings were electrically insu-
+faster than the arc. Air speed is thus not α perfect lating and thus required that the arc be further length-
+indicator of how fast the arc moves. In addition, there ened to allow the greater voltage buildup necessary to
+will be cooling of the arc by the faster moving air. pumcture the insulation and form the next aittachment
+This, perhaps, allows the arc voltage to rise at α faster point. Dwell times of up to 20 ms were recorded on
+rate than would occur normally, and so might create painted surfaces. Times undoubtedly depended on the
+α new attachment point sooner than had cooling not type and thickness of the paint, but precise records of
+occurred. Also, the behavior of the upper terminus of those conditions were not kept as their importance had
+the arc as it moves along the electrode probably has not yet been recognized.
+some effect on the behavior of its lower terminus at More recent dwell time data has been obtained
+the test object. from the inflight experience of -the NASA F-106Β air-
+Α more realistic simulation would undoubtedly re- craft [7.43]. This plane was instrumented as part of
+sult if the test object, like an aircraft in flight, could the NASA-Langley Research Center Storm Hazards
+be moved through α stationary arc. Plumer [7.41] at- Program to study lightning parameters and effects on
+tempted this by moving α wing tip fuel tank beneath aircraft. Spacings between burn marks on surfaces of
+α high-voltage electrode at α velocity of 15.5 μ/σ (35 the aircraft showed that dwell times were less than 2
+mph), the fastest speed that could safely maintained ms for unpainted skins and between 1 and 6 ms across
+in the test area. Α flash was triggered when the ap- the painted aluminum fuselage and wing surfaces. The
+proaching tank, carried atop α truck, sufficiently closed dwell times were determined from the spacings be-
+the airgap between the electrode and the ground. tween burn marks and the aircraft velocity, 182 μ/α
+Limitations of this technique were the low velocity (409 mph), during the thunderstorm penetrations.
+and the low (4 ampere) test current amplitude. Sub- Α tabulation of laboratory and in-flight strike
+sequent in-flight lightning strikes to two fuel tanks of data is shown in Table 7.4 for several surfaces corn-
+this type have confirmed the occurrence of the pre- monly found in swept flash zones (Zone 2Α).
+dicted attachment points and breakdown paths. The FAA User'σ Manual [7.26) for the updated
+Despite the lower velocity and lower current am- [7.27], recognizes that Advisory Circular AC-20-53Α
+surfaces and paints found on aircraft dwelled for the coati.ngs arcs in Plumer'σ tests also plitude, the
+*times of between 1 and 4 ms on unpainted aluminum can affect dwell times. It recommends that proposed
+surfaces, results closely parallel to those of the wind paints and finishes be compared with data bases such
+tunnel work. These parallel conclusions seem to indi- as those presented here to establish anticipated dwell
+avail- cate that the arcs in the wind tunnel tests may not times. New coatings for which little experience is
+have moved as fast as the wind itself, and, also, that able should be tested to establish dwell times and melt-
+current amplitude has relatively little to do with dwell through or hot spot ignition thresholds. Guidance for
+time. performing such tests is given in §4.2 of [7.281.
+been estab- dwell times have the expected Once and Newman Stahmann, coatings: Robb, Effects of
+(7.42] the amplitude necessary to determine it is then to de- lished, technique the wind tunnel have utilized
+these periods. during of the current or coated painted times on various arc dwell termine
+7.4 Table
+Lightning Dwell Times on Typical
+Aircraft Surfaces in Zone 2Α
+Aircraft Velocities
+μ/σ 103 μ/σ 58 Type 15.5 μ/σ Surface
+mph) mph) mph) (35 (130 (230
+ma 1.0 2.0 ms 4 ms to I and Aluminum
+titanium unpainted
+ms 2.6 4.8 ms anodized Aluminum
+ms up to 10 to 20 mn up painted Aluminum
+187

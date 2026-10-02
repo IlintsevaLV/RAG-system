@@ -1,0 +1,80 @@
+and Calculation of Voltage 14.5.2 Cument
+α ruling is that there are made assumptionA If the
+fields magnetic the that and zone particular α for field
+rates of (constant waveshapes changing have linearly
+simpliAed some derive to possible it is then change),
+between the magnetic field and the re- relationships
+sulting induced voltages and currents. The princples
+were reviewed in §14.2. As applied to the Space Shut-
+tle, additional assumptions were:
+and δ, diameter I, length of was conductor The 1.
+plane. spaced α height η above α ground
+produce max- 2. The magnetic field was oriented to
+voltages in the conductor. imum
+3. One end of the conductor was grounded.
+shown in 4. The magnetic fields were of the shape
+and tables that follow Fig. 14.18. The figures
+had be recalculated if the fields would have to
+waveshapes. different
+in §14.2. made assumptions the These are also
+200 kA
+(α)
+microsec 2 100 0
+(β)
+0 2 microsec 100
+(χ)
+600 300 0
+microsec
+Fig. 14.18 Waveforms used for Orbiter analysis.
+(α) Lightning current
+field, Α-component (β) Aperture-coupled
+(χ) Diffusion-coupled field, Β-component
+386
+
+TT'fhn
+voltegq: circuit Open was circuit voltage The open
+cou- aperture by the only developed be to assumed
+to rise assumed were all of which fields, magnetic pled
+Then: microseconds. in two peak their to lineatly
+(14.23) V., = 1KjhH
+where
+if I and η are in meters = 0.63 KI
+I = 0.63 ξ if and η are in centimeters 10-4 K,
+inches in are η and if I ξ 0.41 = 10-3 K 1
+per meter. In all cases H is expressed in amperes
+be would voltages open circuit of the waveshape The
+hence proportional to the derivative of the H field, and
+is likely to be oscillatory.
+Short circuit current: Short circuit current was as-
+sumed to be governed by the diffusion-coupled mag-
+end netic field and, for conductors grounded at each
+was
+(14.24) I~χ K2 = hH
+ac- 14.20, or 14.19 Fig. given by either was where K 2
+measurement of the con- cording to the units used for
+by the dimensions current was governed ductor. Since
+by its inductance, of the conductor, or more exactly
+η/δ, K was not constant, but depended on the ratio α
+magnetic field. oi the and fall times as the rise as well
+influence short circuit Conductor length does not
+current circuit of the short waveshape current. The
+incident magnetic the of that as same the be tends to
+field.
+α ground The height, η, of the cable bundle above
+the ground plane is plane is difficult to specify because
+bun- purely α plane surface and because cable seldom
+dles are frequently strapped directly to α supporting
+was assumed: of analysis it For purposes structure.
+sub- 1. That height η was measured to the nearest
+stantial metallic structural member.
+2. That if the cable bundle was laid directly on that
+one-half the cable diameter. member, η equaled
+was elevated above the 3. That if the cable bundle
+η structural metallic clear the equaled member,
+cable the one-half plun member the above height
+diameter. If the cable height differed along its
+was used. average height length, an
+Based on Eqs. 14.23 and 14,24, Fig. 14.18, and
+Table 14.1, the voltages and currents on typical wiring
+Orbiter were calculated. The re- in the Space Shuttle
+on Table 14.2 [14.1]. sults are shown

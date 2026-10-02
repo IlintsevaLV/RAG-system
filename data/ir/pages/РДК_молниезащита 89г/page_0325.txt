@@ -1,0 +1,93 @@
+Circular Cylinders DC Voltage on 11.3.1
+I, is current, α in which 11.2 Fig. Consider
+considered is cylinder The circular cylinder. α tering
+that there are dimensions, so to other long compared
+electrical to the compared short but effects, no end
+frequency components of wavelength of any of the
+is current the for path return The I. current
+away far sufficiently be to assumed is it but shown,
+effects. cylinder that there are no proximity from the
+(1) external one conductors, two are shown Also
+one internal (2) to the cylinder. These are connected
+that sufficiently massive considered to an end cap
+other the At cap. the penetrate fields electromagnetic
+mea- end of the cylinder are shown two voltages; V 1
+of conductor 1 to the external surface sured from
+conductor 2 to cylinder, and V measured from
+2
+inner surface of the cylinder.
+resistance dc α have will resistance: DC cylinder The
+Pe
+2α(11.3) R =
+Ahere 2circular
+π resistivity =
+ε length =
+Α = cross sectional area
+= radius ρ
+ρ). < thickness (α = α
+cylinder has the following dimensions If the
+is made from aluminum of the indicated resistivity,
+2 μ =
+ρ= 15.7 cm
+α 0.381 mm(O.015") =
+φ0-μ ξ 10- - 2.69 π
+ohms. 10- 1.43 ξ be will R, resistance, dc the then
+If the input current is 116 Α (α value chosen
+of cause it was used in an experimental verification
+concepts), α voltage
+ε = 116 ξ 1.43 ξ 10-4 0.0166 V (11.4) = = IR
+volt- same this and cylinder the developed along be will
+conductor external by α would be measured age rise
+to the cylinder. the cylinder or by one internal
+state condhions Until steady conditions: Transient
+to v equal not be will established, been have V,
+equal to the steady state and neither of them will be
+voltage V1, dc resistance voltage rise. Consider first
+of integral line the considered as Swhich be can
+
+Α,
+en-
+v,
+,
+I, the _
+not ON'Τ PMT oURwAU
+2o
+I
+. 1 and AONWWPAIPO I -
+(α)
+no
+100 4
+the
+5_
+the
+10.2
+(β) 0.σ 0.6 ,,°'2 0 0.4 4
+lin
+α around fields Magnetic 11.2 Fig.
+cylinder.
+Geometry (α)
+vs radius Field intensity (β)
+(for I 116 Α) =
+around the path tential (Chapter 9, §9.6.2) ABCD
+11.2. The voltage will have two components; of Fig.
+changing the to voltage due magnetically induced α
+α and loop the through ABCD passing flux magnetic
+voltage due to the surface impedance along the path
+to the dc For dc, that surface impedance reduces and CD.
+resistance discussed above.
+on Circular 11.3.2 External Voltage
+Cylinders
+sets of current flow the the cylinder to External
+intensity of field magnetic α up
+be- I
+the 2wr(
+where
+current I =
+ρ radius to =
+field strength, = H
+mag- 11.2(β). The shown in Fig. α pattern as having
+be: then will component of induced netically , V,
+2 ρ,• 1 δ( δ0
+(11.6) 1-δ" " φ Helog V
+1 dt δ= po-
+309

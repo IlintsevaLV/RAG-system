@@ -1,0 +1,37 @@
+constants accurate to within α factor of two. For planar devices, the junction
+area can often be measured directly on the silicon chip.
+K Factor Determined from Junction Capacitance 16.6.3 as
+The next most reliable method of detertiiining the damage constant is
+and breakdown voltage (VBD) of the from α knowledge of the capacitance (Cj)
+junction. For three different categories of devices, the relations are
+1 Category insufficient data
+-
+oJ K ξ 1 Category 2 4.97 Cj VBD 0.57 - =
+K ξ Category 3 1.66 λ o 4 Cj VBD 0.992 = -
+The different categories are
+1 Germanium diodes and germanium transistors Category -
+Category 2 Silicon diodes, all silicon transistor structures except planar -
+and mesa
+3 Category Silicon planar and mesa transistors
+-
+If the junction is α transistor base-emitter junction, the capacitance used should
+be taken at α reverse bias of approximately 1 V. If it is α collector-base junction
+or α diode junction, the value should be taken at the reverse bias of
+V. 5 approximately to 10
+K Factor Determined from Resistance Thermal 16.6.4 as
+Α third, but the least reliable, way of estimating the damage constant is
+from α knowledge of the thermal resistance of the junction, either the thermal
+resistance from junction to case (Bjc) or from junction to ambient (Bja). The
+empirical expressions for each category for each of the thermal resistances are
+Category 1 insufficient data for an accurate curve fit -
+>
+K (16.12) 2 Category 707 Bjc (Bjc 10.0) = -
+ξ Oja K ζ 4 . 1 1 lo4 (16.13)
+>
+K 707 (16.14) 3 8jc Category = (Bjc 10.0)
+-
+K '2.55 2.74 10' Oja (16.15) ξ =
+Normally Bjc and Bja are not given in the transistor data sheets but, rather, must
+be calculated from the maximum operating junction temperature, (Tj[max]),
+(Pd), the total power dissipation case temperature (Τ,), and ambient temper-
+ature (Tamb).

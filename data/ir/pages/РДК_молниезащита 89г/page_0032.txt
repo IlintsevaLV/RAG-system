@@ -1,0 +1,89 @@
+With negative polarities the discharge is even
+more discontinuous. Discharges frequently take place
+in the air beyond the head of the leader and propa-
+gate both forwards toward the grounded electrode and
+backwards towards the advancing leader. The sketch
+of Fig. 1.21, adapted from Fig. 17 of [1.1] and from
+[1.10], shows the phenomenon. Note that the curva-
+ture of the image due to the corona is opposite to that
+of Fig. 1.20. With this geometry α leader also grows
+from the grounded roQ towards the leader from the rod
+to which voltage is applied,
+Studies also show that with switching impulse
+waves the critical breakdown voltage depends on the
+front time of the voltage, there being α front time that
+voltage. This front time is minimizes the breakdown
+in the range 200-600 micro.seconds, but it depends on
+the gap, being longer for longer gaps. the length of
+red [the
+-- - -
+leader
+Μ
+cro
+ε
+corona
+Π ground 7 time >-
+plane
+Fig. 1.21 Negative polarity sparkover of 3
+meter gap rod to rod on plane gap.
+1.5/1000 microsecond wave
+[1.10]. Adapted from [1.1] and
+pointed
+electrode
+applied
+voltage
+VR
+Σ'I
+Π \ý%σ
+-electrode
+time kV/cm 25
+Factors 1.22 Fig.
+
+The above is still α rather superficial description
+of the breakdown process and some more discussion
+is in order. Consider first the initial corona. The ini-
+tial corona forms as soon as the electric field at the
+energized electrode reaches α critical gradient of 30-33
+kV/cm and continues to propagate as long as the elec-
+tric field is greater than about 25 kV/cm. If the gap
+is short or if the field in the gap is uniform the corona
+will bridge the gap and lead to complete breakdown.
+More commonly the corona bridges only α portion
+of the gap, the extent of the corona depending on the
+distribution of electric field across the gap, as illus-
+trated on Fig. 1.22. With α rod or pointed electrode
+the critical gradient will be reached at α lower volt-
+more rounded electrode were used, but age than if α
+electrode will be the highly stressed region around the
+than with α rounded elec- smaller with α rod electrode
+trode. The result is that with α rod electrode the initial
+corona forms at α relatively low voltage, does not ex-
+tend very far into the gap, and the initial velocity of
+leader is relatively low.
+Around α larger electrode with α more rounded
+ex- voltage, α higher at forms corona initial the tip
+"tends further into the gap and the initial velocity of
+the leader is greater. If the electrodes are sufficiently
+spherical electrodes, spaced with closely as rounded,
+the initial corona, when it forms, extends all the way
+to the other electrode and breakdown takes place in α
+fraction of α microsecond.
+Streamer gradient: The rate at which the stream-
+ers extend themselves depends on the average gradient
+across the unbridged portion of the gap. As the leader
+works its way across the gap and places more voltage
+on the unbridged portion of the gap the average gradi-
+ent across the unbridged portion of the gap increases
+with time and the velocity of the streamer increases.
+to propagate as In general, the streamers will continue
+long as the average gradient in the unbridged portion
+rounded electrode
+IIIfield
+IIlines SI
+II ro'iinded I
+corona \\ pointed
+- streamers
+..
+kV/cm 25
+corona. initial influencing
+13

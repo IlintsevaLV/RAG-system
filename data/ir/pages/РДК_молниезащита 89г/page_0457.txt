@@ -1,0 +1,87 @@
+other 'lton thait, spr•ads iilo the, simultaneously half,
+shorting the two conductors τ'gethe; and to ground.
+(α) Iproblems
+Fig. 17.13 Spark sgaps on α conductor pair.
+gaps gve high separate (α) Two
+voltage mode common
+terminal gap (β) Three
+and any Spark gaps, considerations: Appication
+other voltage limiting device for thi .τ matter, must be
+1
+rated to withstand the normal maximum voltage ex-
+pected on the circuit being protected. Provision must
+also be made to de-energize the circuit and allow them
+to regain their insulating properties. On power cir-
+cuits. this is most commonly done with fuses that are
+blown or circuit breakers that are tripped by the sys-
+tem current that flows once the gap has been caused
+to spark. Scircuit
+For protection of semiconductors and electronic
+boards, spark gaps may not be the most ef-
+fective type of protective device. In particular, it is
+not advisable to place them directly on circuit boards
+in close proximity to sensitive semiconductors since
+they spark ovei ýτ relatively high voltages and upon
+sparkover may be called upon to ca'rty high currents.
+from away kept be can currrents high these further The
+the sensitive equipment the better.
+Spark gaps might best bt considered as the first
+line of defense against high energy surges, placed well
+away from the most sensitive equipment, and used
+in conjunction with devices that have lower voltage
+clamping levels, but less ability to carry high surge
+currents.
+Failure mode: Most commonly, failure of α spark gap,
+either because of excessive surge current or because
+of excessive power system current following sparkover,
+will either shatter the case or burn away the connecting
+leads, causing the gap to fail open circuit,
+Advantages of spark gaps:
+1. Simple and reliable.
+2. Low voltag- drop during the conducting state,
+typically 10 to 20 V.
+
+3. Ga-filled Large power-handlinj capability. gaps
+have the highest peak current handling capabili-
+ties of any transient protection device, and almost
+"any gap can handle the maximum surge currents
+induced by lightning.
+4. High impedance and low capacitance. The low
+shunt capacitance and leakage current character-
+istics of gas-filled spark gaps minimize insertion
+for operating frequencies below 1 GHz.
+characteris- the same having operation, 5. Bilateral
+polatity. either on tics
+Disadvantages:
+voltage. sparkover Relatively high 1.
+2. Power system follow current must be extinguished
+by removing the voltage (circuit breaker of fuse)
+or by inserting resistance rapidly into the circuit
+by an additional element, such as α zinc oxide
+varistor.
+3. May have α large dependence of sparkover voltage
+on the waveshape of the voltage.
+4. Reflect more energy than they absorb.
+5. Rapid change of voltage on sparkover may excite
+circuit ringing.
+Resistors Non-Linear 17.4.2
+Non-linear resistors, or varistors, may be charac-
+terized by the expression
+I (17.1) KVN =
+where N and K are device constants dependent on the
+varistor material.
+Varistors may be constructed of silicon carbide,
+This sec- selenium, or metal oxide, usually zinc oxide.
+tion will concentrate on metal oxide varistors, MOVs,
+117.1] since in recent years they have almost completely
+supplanted the other materials. Zener diode type pro-
+tectors can be considered as another of the non- linear
+resistors since their volt-ampere characteristics also
+follow Eq. 17.1, but since their fabrication is much
+different from MOVs, they will be treated separately
+in §17.4.3.
+Formulation: Metal oxide varistors are formed from
+zinc okide grains, Fig. 17.14, which, when pressed
+together and sintered into ceramic parts, act as though
+there were non-linear semiconductor junctions at the
+443

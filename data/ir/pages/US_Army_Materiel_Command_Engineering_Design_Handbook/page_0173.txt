@@ -1,0 +1,110 @@
+Detection methods may be classificd as relsted to
+the internal oil system or external to the oil system,
+and include:
+1. Oil system dependent:
+α. Spectrographic oil analysis
+β. Electronic or electro-optical oil monitoring
+χ. Oil filter differential presure
+δ. In-line electrical resistance filter grids
+χ. Eloctric chip detectors
+φ. Magnetic chip collector plugs.
+2. Independent of oil system.
+α. Ncise analysis
+β. Vibration monitoring
+χ. Temperature mocasurement.
+Spectrographic oil analysis has proven expensive
+and relatively unreliable because poor correlation
+exists betwcen faisure severity and detection. Littlc is
+sctually known concerning failure, therefore, diag-
+nosis and prognosis sse impossiblc.
+Oil monitoring remains in the evalvation stage:
+some techniques have proven totally uscless whilc
+others show some promisc.
+Oil filter differential pressure can be correlated
+quitę weii witin iaiiure progrcssion raie of bcari.:γ
+when the sate of change of differential pressur is
+examinea. Uscfulness of this system is compremis.δ.
+however. by the accumulation of normgl tvear. dirt.
+and contamination partichs. Visual inspection of the
+filer element debris by ε. perienced tochnicians can
+detcrminc tbe generic failu:ζ mode bui not the lo-
+cation.
+Filter grids are best employel in = fastion similar
+to use of oil monitoring. The bugic dificrcnce is that
+the fiher grid panses siaiber consan.inant particles,
+bopefully retaininuy, only the lerger metal failure
+Nakes. The pesuertage ol grid cogging is detocted
+and may be coaverted clectrically to α ratc-of-change
+display.
+Chip Getections have bern used extensively in
+Army belicoptess for two decades. The debris par-
+licies are captured &.agnetir ally to bridge electrical
+contuct points, which, in tura, energize α caution
+fight. The usefuinens of this method is dependent
+upon the kocation of the detector and the resulting
+crew actioo. Failure indication often resuits from the:
+dow sccumulaticn of norma! wear debris, and al: too
+ofien the crew progsosis reaunlts in & crission abori to
+invpaxigase tbe cause.
+Use of chip coßlector plugs empiasises an atlanpa
+at botter dlisgo-seis in τàas generally α largs number of
+plugs with grester debris storage capaciy and ν:
+electrical caution pond light are uood to sid in locsi-
+zation of α failare to σ specific area vr moduie. In-
+epoctiou is sccomplished at daily os reriodic inter-
+
+Α#CP 706-202
+vals and sufficient debris colection is usually prescnt
+to permit an expericnced technician to identify the
+failure mode. Good euccess has been claimed for such
+α system on commercial air carrier flects, but uccess
+in helicopter adaptation is complctely dependent
+upon well-designed instailations that entrap and
+localize failure debris, convenient and acccasible de-
+tector locations, and experienced technicians to cor-
+relate findings with other available diagnostics and tc
+schedule maintenance accurately.
+Vibratio. monitoring and noisc analysis differ only
+in the sensing tochniquee. Accelerometers or other
+forms of contacting vibration sensorz memure vi-
+bration, while microphone sensors measure noisc.
+Substantial rescarch and devclopinent efforis are
+bcing mad. on these systems. Rujimentary go-no-go
+syste ms with α warning threshold signal requiring
+engine shutdown have long beers used in turbine
+engine instailations. The real chalknge lies in the
+electronic signal processing and its conversion into an
+identification and quantitative auscsament of the
+failure mode. Signal analysis is being investigated by
+such techniques as auto-correiations, Fourier trans-
+form analyais, power spactral density caamination,
+cross power spectral density, amplitude probability
+distribution, an.λ real time classification of wave-
+form by convolution of otber techniques (Ref. 107).
+The operational succcas of any such system is de-
+pendent upon its ability to isolate the faulty com-
+ponent signature from the background created by
+oiher interaal and external forced and resonant vi-
+brations, side: bauda, and beat frequencies, at an
+carlicr time than the chip detector, and to renain on-
+line to monitor the rate of progrenion of failure of
+the particular componçat. Ónly in this manner can
+ine remaining usefui safe ife be preáicicc, and mzin-
+tenance scheduled wisely. The uitimacc goal of these
+programs is sutomatic identificatioa and prognosis
+as well as detection. This goal requiras compre-
+ν ν
+dividually and in combination, along with improvod
+sonsor reliability and an analysis system haviag 8
+minimnum reliability an order of magniiude grester
+than that of the drive system being monitored.
+Temperature mcasurement sysicos, Iimited et
+precni to rdatively integratea! bulk semperature
+macasurement, seldonns can detocs other than very ad-
+vanaud (virtually omeigency condition) failrres.
+Capability improrsment roquires α muititude of in-
+dividuai componant aonsors combinos with rrto-of-
+change analysis correctad for tese line variation in
+bulk environepcnt temperaisiua.
+Rapid inprovemants iu diagnostis for brlicoptes
+4-71

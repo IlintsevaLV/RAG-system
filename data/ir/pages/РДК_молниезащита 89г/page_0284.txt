@@ -1,0 +1,80 @@
+Table
+in, Program BESSEL
+-Α Functions Hankel and Bessel
+1730 IO=I0+Nl(1)
+12-I2+Nl(2) 1740
+Il=I1+N2(1) 1750
+1760 (2) 13-I3+N2
+1770 V(1)=IO:V(2)=12
+1780 Ω(λ)-I1:Ω(2)=13
+10700 GOSUB 1790
+14-U(1) 1800
+15-U12) 1810
+1820 K0-K0+N1(λ)*Π(I)
+1830 K2-K2+Nl(2)*Π(I)
+KlmK1++N2(1)*(Π(I)+Π(I+!)) 1840
+1850 K3-K3+N2(2)*(Π(I)+Π(I+1))
+NEXT 1860 I
+1870 V(λ)-XR:V(2)-XI
+10180 to 'ρ 1880 GOSUB
+'loq(v) 10930 GOSUB 1890
+F1(1)-Π2*(U(1η-LOG(2)+ 1900
+F1(2)-Π2*U(2) 1910
+1920 V(1)-F1(1):V(2)-F1(2)
+Ω(1)-JO:Ω(2)-J2 1930
+'v*ω 10560 GOSUB 1940
+1950 F2(λ)-U(1):F2(2)inU(2)
+Ω(1)-J1:Ω(2)-J3 1960
+'V*Ω 10580 GOSUB 1970
+V(1)-U(1):V(2)-U(2) 1980
+1990 U(1)-XR:U(2)-XI
+11/u GOSUB 10640 2000
+:Ω(2)-Π2*U(2) 2010 Ω(λ)-Π2*U(1)
+'v-v 10530 GOSUB 2020
+F3(1)-U(1):F3(2)inU(2) 2030
+2040 V(1)=XR:V(2)-XI
+'ρ 10180 GOSUB 2050 tp,
+'log 10930 GOSUB 2060
+F4(1)-U(1)-LOG(2)+.5772156 2070
+F4(2)-U(2) 2080
+2090 V(1)in74(λ).,V(2)inF4(2)
+Ω(1)-I0:Ω(2)-12 2100
+'v*v 10560 GOSUB 2110
+1FS(2)in-U(2) 2120 F5(1)--U(1)
+2130 Ω(1)-I1:Ω(3)-13
+10560 GOSUB 'v'V 2140
+V(1)inU(1) IV(2)inU(2) 2150
+U(1)-XR:U(2)-XI 2160
+'1/u GOSUB 2170 10640
+:V(2)-I.(2) Ω(1)-U(1) 2180
+'v+v 2190 GOSUB 10460
+F6(1)-U(1)tF6(2)mU(2) 2200
+YO-F2(1)-Pa*yo 2210
+Y2-F2(2)-Π2*Y2 2220
+2230 Y1UF3(2)-Π3*Y1
+2240 Y3inF3(2)-Π3*Y3
+K0-F5(1).Ko 2250
+K2-F5(2)+K2 2260
+2270 K1-76(1) -K1/2
+2260 K3-F6(2) -K3/2
+
+9.4
+of,9 Calculation for BASIC,
+Complex ArgurnentU of
+(Continuation)
+I0(ξ) of part 'real
+of I0(ξ) part 'imag
+11(ξ) of part 'real
+Il(ξ) of part 'imag
+'v/ω
+I0(ξ)/I1(ξ) of part 'real
+I0(ξ)/Il(ξ) of part 'imag
+of KO(ξ) part 'real
+of KO(ξ) part 'jimag
+K1(ξ) of part 'real
+of Ki(ξ) part 'imag
+π v with
+.5772156)
+with π v
+(v)
+268

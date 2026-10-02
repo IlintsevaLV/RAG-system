@@ -1,0 +1,74 @@
+Τ
+TG
+.cuits 7
+.itive. V
+.. • ι,,• , ..•largely
+Fig. 18.8 Tests on circuit elements.
+used are generally studies upset such from Results
+during circuit development. They cannot be used in
+lieu of tests on full systems since there may be inter-
+actions among the interconnected circuits that cannot
+el- circuit protoype on individual by tests be revealed emeritas.
+18.3 Τ~ransient Generators
+of evaluation used for generators transient Most
+indirect effects employ charged capacitors which are
+discharged into waveshaping circuits. Much of the
+technology is basically similar to that used in the 1940σ
+and 1950σ for radar modulators and described in [18.3].
+Some generators for complex waveforms use waveform
+synthesizers and power amplifiers. Some generators
+are designed for only single shot operation, though
+some are designed to produce α series of similar pulses.
+Very few operate continuously. Almost all generators
+operate at power levels greatly exceeding those of nor-
+mal laboratory signal generators,
+18.3.1 Capacitor Discharge Generators
+unidirec- either for be designed may Generators
+tional output with α waveshape approximating
+= - (18.1) E Eo(-at C-τ)
+or for oscillatory output, with α waveshape approxi-
+mating
+470
+
+_TE
+(18.2)
+=Eo(ε-*τ)ain(2lrft)
+Specifications for oscillatory waves sometimes express
+the waveshape as
+Eo [ε-(wf'/Q)]sin(27rft) (18.3) = E
+with governing Q the rate of decay of the oscillations.
+Q Specifications commonly cite Q values of 6 to =
+24.
+Unidirectional transients: Basic unidirectional cir-
+are shown in Fig. 18.9. That of Fig. 18.9(α)
+uses series R and C to shape the front of the wave
+and has an output impedance that is largely capac-
+That of Fig. 18.9(β) uses series Λ and R to
+resistive. The component values are approx- shape the front and has an output impedance that is
+imately those required to produce the long duration
+voltage wave discussed in §16.6.2. Additional factors
+governing waveshape were discussed in §6.8.
++ DC-- Hg ih
+20 0 _ C
+rI. F ... 1,.Τ 0. F
+-I
+High DC
+7 ---! !Ξ,
+σ OOJAH v I
+CjL1I Flo
+.. ..
+Fig. 18.9 Generators for unidirectional transients.
+(α) RC waveshaping
+(β) LR waveshaping
+Both circuits assume the energy storage capaci-
+tor C to be connected to α charging supply through α
+resistance sufficiently high that the characteristics of
+the charging supply do not affect the waveshape. They
+also use α series switch Σ to connect the energy storage
+capacitor C to the waveshaping circuit and produce α
+positive output for α positive charging voltage. Re-
+versing the positions C of and Fig. 18.10, results in Σ,
+α negative output for α positive input.
+C
+_
+Fig. 18.10 Grounded switch configuration.

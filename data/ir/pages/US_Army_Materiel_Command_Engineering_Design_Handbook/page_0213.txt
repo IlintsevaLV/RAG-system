@@ -1,0 +1,112 @@
+-
+vibrations resulting from rotor oscillatory loading,
+Other considerations requiring attention indude
+namic stability, wught control, bearing applications,
+mechanical function, value analysis, materials,
+ding, and manufacturing processes, and the designer
+must rely upon specialists in many of these fields.
+3. The rotor stress group begins preliminary
+design with the development of section properties,
+These properties, in turn, are used for determination
+of the nominal stresses that result from the highest
+combinations of cenuifugal force (CF) and maneu-
+ver thrust )onditions. The bending .Ioments for
+conditions are computed in the steady-load portion
+of the rotor-load analysis (par. 5-4.1.2.1).
+Fatigue may be considered by an empirical method
+that provides α simple and reliable account or
+spectrum shape and severity in compo- relation to
+nerat fatigto strength in the initial stages of rotor
+component design (Ref. 18). This method uses
+flight :oads calculated for maximum level
+speed, the condition that usually produces the highest
+continuous (nontrans~eut) alternating loading. Α
+tor is applied to the calculated loads to obtain
+loads oroduce that will satisfactJev α fatiaue-life
+structure. This factor is α function of the material
+N curve, the maneuver spectrum severity, the loading
+frequency, and the fatigue life required by the
+* copter system specification. The design curves for
+factor are based on an analysis of several flight
+surveys.
+Natural frequencim also are calculated for
+rotor as defined at this stage of the design. Changes
+section properties and/or concentrated weights are
+used to produce α frequency distribution that
+principal resonances.
+•,. I~~ltn -;.• *•• eh.• Α-.τ;I __Λ-.- Α - -. SIR. U%,Α Z.--66,, ρ Π,,OR%,
+natural frequency placement insures the lowest
+oscillatory bk rotor loads; and rotor and fuselage
+quen.υ placement, isolation, and superposition
+"sur the lowest possible fuselage vibration. The
+characteristics be must such that low-frequency
+brations the of fuselage are avoided. High-frequency
+vibrations generally are not so critical and may
+corrected during the flight test phase.
+The aim of this continuous iteration is α
+optimized, or balanced, with regrd to performance,
+function, strength, life, weight, and vibration.
+an acceptable balance has been achieved, the design
+considered to be adequate, the drawings are
+pked, and rotor components are manufactured.
+However, further changes usually result from
+flight and fatigue tests.
+54.1.2.3 FM TeMt
+The design calculations made during the drawing
+,• -1Σ .
+
+.1.
+board phase incure that α rotor mects the static
+dy- strength criteria and has an infinite life for the low.
+cycl, high-stress variations associated with the
+bon- ground-air-ground cycle. However, because of the
+superimposed high-cycle, low-stress os.ilations,
+mcny rotor and control system parts will have finite
+fatigue lives. Design changes often are required to in-
+sure that the adp~luate component fatigue lives of all
+components are adequate. Flight and fatigue testing
+is required to determine these lives.
+the Prior to flight test phase, the strain gage in-
+these strumentation, the flight load survey tests, and the
+data reduction format be specified. The shall
+measured loads are used, along with the approved
+maneuver and frequency-of-ocurrence spectra, to
+load determine the fatigue lives of all fatiguc-critical com-
+ponents. The required flight load survey tests are out-
+lined in Chapter 8, AMCP 706-203.
+the The calculations made during the drawing board
+flight phase are effective in guiding the design so as to avoid
+excessive loads and vibrations at the lower fre-
+fac- quencies; however, additional tailoring of the rotor
+design and fuselage usually is required during flight test to
+minimize high-freouencv loads and vibrations.
+Σ- Measures taken include optimizing the amount ard
+location of the concentrated blade weights; changing
+heli- blade stiffness, such as through use of trailing edge
+this stiffeners; optimizing the pylon suspension pa- ι.
+load meters, and detuning the fuselage by varying stiffness
+and the location of certain concentrated weights, ε.γ.,
+the the battery.
+in
+5-4.1.2.4 Faidgue Tests
+avoids The determination of fatigue lives of components is
+discussed in Chapter 4, AMCP 706-201. The
+compo- rotV o requirements for fatigue testing of critical
+possi- nents are given in Chapter 7, AMCP 706-203. The
+fre- parts to be tested, the number of saniples, and the
+in- method of loading be specified. The samples arc shall
+rotor cycled to failure, or for α prescribed number of cycles
+vi- at several stress levels. The results usually are plotted
+as an Σ-N diagram. Basic information on the need,
+be methods, and interpretation of fatigue testing in the
+helicopter industry is presented in Refs. 18, 19, and
+design 20. By use of the fatigue test data and the frequency-
+of-ocurrence spectrum, the fatigue lives of the criti-
+When cal parts be determined by α method acceptable shall
+is to the procuring activity (Chapter 4, AMCP 706-
+com- 201). If one or more parts have lives shorter than
+required, the flight envelope may be restricted or the
+the parts may have to be redesigned and requalified.
+Failure to comply with the fatigue-life requirement of
+the helicopter system specification usually will result
+in α penalty being applied to the contractor.

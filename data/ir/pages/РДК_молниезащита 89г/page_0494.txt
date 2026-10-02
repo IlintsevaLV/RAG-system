@@ -1,0 +1,46 @@
+proportional coil is α Rogowski from The output generally specifications Transformer input current. the
+be integrated and must of current to the derivative 18.32(β). droop, Fig. as the rated this departure give
+integrators waveshape. Passive to yield the true for droop is not excessive be taken that the Care must RC
+chang- rapidly for suitable, particularly sometimes are core trans- Split observed. waveshape being pulse the
+Fig. integrators, active general, but in ing transients, on transformers small clan~π- the particularly formers,
+better. are 18.33(χ), to are prone 13.18(α), Fig. 13, Chapter in illustrated
+in- by α mutual are characterized coils Rogowski droop. have excessive
+coil. the of dimensions the to related Μ, ductance, such are amplitude length and If pulse coils: Rogowski
+ird)2 unsuitable, ere current tranfornmers conventional that
+(18.15) H ν(α coil, Μ ιýogowski Α alternative. = an are Rogowski coils where surrounding wire of coil helical α of consists 18.33, Fig.
+be measured. to the current
+length per unit turns = ν Λ
+of coil radius α =
+coil form of = diameter R =Md δ
+of time constant integrator an and coil, given α For (α)
+is output the IoRC, Μ droop - -••••• =ι =
+•• I(18.16) eo= Vl~ .... -" .....
+those particular Resistive shunts, shunts: Resistive
+measur- for useful are construction, coaxial α having τ No (β)
+for and α generator from current circuit short the ing transformer. current α in Droop 18.32 Fig.
+coils. Rogowski transformers and calibrating current
+current in- for measuring be used can seldom They
+Selectrostatic must because they under test into conductors duced
+ground. to connected terminal one with operated be screen
+Procedures for Pin Injection Σ18.6 Tests
+tests are performed primarily to Pin injection Α
+circuit upset for Checking damage tolerance. check for ohm 50
+cal •'- is difficult, principally because α direct connection of α
+generator to α wire drastically changes the topology of ----
+coml,3nents internal tests stress How the the circuit.
+configura- two generic factors, but on several depends
+grounded systems. and predominate; ungrounded tions
+to the applied types of voltage or not the Whether
+in service voltage observed the types of duplicate pins
+of this the scope be beyond that may α question is
+with made are the tests commonly Most Rdiscussion. screen electrostaic
+only as be viewed and should waveforms standardized - gap) (note
+α du- not as of lightning, the effects of an evaluation tuI •
+of the effects. plication
+Ungrounded systems 0oil 18.6.1
+The in Fig. 18.34. illustrated is This situation Α-Α (χ) seton (β)
+is grounded, test, EUT, under the equipment case of coil. 18.33 Rogowski Fig.
+including circuits are left ungrounded, but internal of windings (α) Configuration
+such that if they are buses planes or ground ground of shield Configuration (β)
+them between connection not α permanent there is integrator (χ) Active
+481

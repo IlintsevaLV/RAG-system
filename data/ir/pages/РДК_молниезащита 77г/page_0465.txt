@@ -1,0 +1,21 @@
+Expected time dependence of pulse power failure: threshold for an 16.2 Figure
+example W diode. I0
+10 oo0
+-
+No Failure o ,.
+-
+e loo0
+E 5
+2
+2 LY an
+loo
+10
+.O1 10 0.1 1 100
+TIME (Microseconds)
+Experimental data points for failure of the base-emitter: junction 16.3 Figure
+transistor for forward and reverse polarity voltage pulses. of a 2N-2222
+16.6 Damage Constants
+16.3, From curves, such as those of Figure the value of a damage constant,
+C), K (or can be determined and tabulated for a range of devices. The
+appropriate threshold damage curve can then be reproduced as desired from a
+K. It is convenient single damage characterization number, the damage constant

@@ -1,0 +1,20 @@
+WEAVE ANGLE, τ2 degrees -
+Variation of the eccentricity functions for braided-wire shields. Figure 13.19
+wound without any overlap because this case the entire cable current is forced in
+to spiral around the core. Vance analyzes α 1 cm radius cable wound with
+.25 mm thick, cm wide copper tape, the tape applied without overlap. The I
+dimensions of the cable are thus similar to those for the braided-wire shield
+shown in Figure 13.18. The mutual inductance of the tape-wound shield was
+3.9 lo4 calcuIated as pH/μ of the order greater than the mutual inductance
+obtained for α braided-wire shield.
+α The thin-waned tubular shield consists of metal tube of uniform cross
+section and uniform wall thickness. Coupling through the shield can occur only
+by diffusion of the electromagnetic fields through the walls of the tube. The
+transfer impedance of thin-walled tubes such as these, as derived by Schelkunoff,
+(Reference 13.8) is
+1 (λ+j)τ/6 za
+=- + 2nrut sinh (1 τ/6 j)
+where ρ is the radius of the shield, α is its wall thickness, is the conductivity of u
+8 the shield, and is the skin depth in the shield given by
+α, It is assumed that the wall thickness, is small compared to the radius, ρ, of the
+tube and that the radius, ρ, is small compared to the smallest wavelength of

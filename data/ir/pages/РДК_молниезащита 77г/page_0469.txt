@@ -1,0 +1,35 @@
+Generally, at least one of these thermal resistances may be determined from the
+manufacturer'σ data sheet.
+The accuracy of the damage constant as determined from either the
+junction capacitance or the junction thermal resistance is somewhat limited.
+Table 16.3 (Reference 16.8) gives some estimate of the accuracy within which
+the damage constant can be calculated.
+16.6.5 Oscillatory Waveforms
+Equation 16.6 is based on the assumption that the applied voltage,
+current, and power waves are rectangular in shape. While actual transients are
+very seldom rectangular, it is possible to derive equivalent rectangular pulses for
+more common types of transients. One such type of transient typically
+encountered is the damped oscillatory wave. Based on multiple pulse studies by
+Wunsch and others (References 16.9 and 16. lo), it can be assumed that device
+damage wilI occur, if at all, during the first half cycle of α damped sine wave.
+Therefore, the lower amplitude cycles may be neglected. Two cases may be
+considered, one in which one of the half cycles of the transient does not exceed
+the reverse breakdown voltage of the junction, Figure 16.6 (Reference 16.1 I),
+and one in which the reverse breakdown voltage is exceeded, Figure 16.7
+(Reference 16.12). In either case, one of the half cycles will bias the junction in
+α forward direction. Treating first the case in which the reverse breakdown
+voltage is not exceeded (Figure 16.6), the rectangular wave of the same peak
+V,, amplitude, and producing the same probability of damage as the sine wave,
+has α duration rP
+where
+of the sine wave. If the transient does exceed the reverse breakdown voltage, the
+duration of the equivalent transient depends upon the fraction of the time that
+the oscillatory transient does exceed the reverse breakdown voltage. The
+of by duration the equivalent rectangular wave is given the expression
+("ε)
+. I )'
+(+) Tp = Ts
+- I cos
+This expression is shown plotted in Figures 16.8 (Reference 16.13) and 16.9
+4). For oscillatory transients whose initial amplitude consider- (Reference 16.1
+ably exceeds the reverse breakdown voltage of the junction, Equation 16.19

@@ -1,0 +1,20 @@
+~ Λ ~ C K ; ~
+SHIELD CENTER
+SHIELD 0LUE
+No. 18
+PLJk
+0.5 )rs/div---
++--
+Signal voltage vs grounding signal shield: low source im- 13.29 of ure Fig
+pedance high receiving impedance.
+-
+Transfer Characteristics Actual Cables 13.5 of
+The transfer impedance of α shielded cable is not α factor commonly
+specified either by the manufacturer or by procurement specifications. Even
+among cables of the same nominal type, this transfer impedance may vary
+considerably between the cables supplied by different manufacturers. The most
+of straightforward method determining the transfer characteristic of α shielded
+cable, particularly the cable involves multiple shields and multiple load if
+impedances on conductors within the shield, is to make actual measurements of
+the conductor voltages that are produced by currents which are circulated
+through the shield. The techniques by which transient currents may be injected

@@ -1,0 +1,18 @@
+1 Α 0 . 7
+SHIELD CENTER
+No. 15
+-
+ps/div--- 0.5
+Signal voltages source connections. 13.26 vs Figure
+voltage between α signal conductor and ground at the right-hand side is then
+reduced to zero because the capacitive coupling between the center conductor
+and center shield tries to hold the center conductor at the potential of the center
+shield, which, of course, is zero. voltage of magnitude and waveshape as shown Α
+on oscillogram No. but of opposite polarity, would then appear at the 11,
+left-hand end of the cable.
+If both ends of the center shield are connected to ground, the voltage on
+the signal conductor is then held at zero at each end of the cable. Note that in
+this case α ground loop is formed between the two shields without the harmful
+effects commonly attributed to ground loops.
+Some additional considerations regarding the effect of connections to the
+signal conductors and the shield around the signal conductors are shown in

@@ -1,0 +1,35 @@
+Even at 1 0 Hz the current crowds to the edges of the ellipse and has α current
+I. 9.1 density given by Equation At 1 kHz the skin depth is about 0.25 cm,and
+10 at kHz it is less than mm. 1
+Thus, the region over which the current density changes from its uniform
+Hz. 1 dc value to the limiting ac distribution is to 10 The current density
+frequencies, probably until the remains at that value up to indefinitely high
+width of the cylinder becomes on the order of α tenth of α wavelength. The
+wall current density through the thickness of the cylinder remains constant over
+kHz 3 the range to (approx.). 0
+In many cases the external current density may be determined with
+accuracy sufficient for practical purposes by approximating the surface under
+consideration by an ellipse or ellipses. If such an approximation does not give
+sufficient accuracy, there are other techniques that may be used.
+9.2.2 Numerical Solution of Fields
+Analytically the solution of the field around α currentcarrying conductor
+may be determined by α solution of Laplace'σ equation:
+v2@ 0 (9.14) =
+the potential. where = @
+In rectangular coordinates Laplace'σ equation becomes
+For some geometries Laplace'σ equation can be solved analytically: an
+elliptical geometry is one of those cases The equations defining the field
+shows an example of the distribution will not be presented here, but Figure 9.6
+field around an elliptical conductor. This field may be viewed as the electric field
+around an isolated ellipsoid, the figure showing the field in one plane passing
+through the major axis of the ellipsoid or the field around an elliptic cylinder of
+infinite length. Alternatively, it may be viewed as the magnetic field around an
+infinitely long elliptic cylinder carrying current into the plane of the figure. If
+the field is viewed as an electric field, the flow lines represent the path along
+which displacement currents flow, and if it is viewed as α magnetic field, the
+equipotential lines define the paths along which magnetic flux lines flow. The
+return path for either the voltage maintaining the charge or the return path for
+the current is assumed to be sufficiently far away from the conductor that it
+does not influence the field around the indicated region.
+The indicated flow lines divide the region into sectors. At the surface of 44
+the conductor, the magnetic field strength is inversely proportional to the

@@ -1,0 +1,104 @@
+motors at high spoeds in order to obtain α high
+output (power equals the product of torque
+speed) pet unit volume. This, fundamentally,
+the majority of aircraft AC power systems operate Σ400 Hit rather than thj Ω0Ha power usually 40- forahr tndhsnrial 60nHzcowerial usea.
+plyayd for industrial and commercial uses.
+speed operation poses certain problems in
+and/or brush life, which, when couplea with the
+that the airframe itself has α relatively short life,
+suit in overhaul rates measured in hundreds of
+rather than in the 10-20-yzar life rates considered
+normal in industrial and commercial ground
+plications.
+High-speed, high-power-per-unit-volume
+lion points up the design parameter that usually
+termines the size of the helicopter electrical
+Increased losses follow increased power output,
+the size of the motor must be adequate to
+these losses without exceeding motor
+.temperature limits. It follows that the availability
+effective cooling directly affects motor size. High
+tudes, with low air density, will decrease the
+available from α fail. High ambient temperatures
+the the he.. urm,':fer and add to mofOr
+temperature. Also, there is α significant amouat
+beat generated in tlýχ rotating member of the
+during acceleration from standstill; and if
+starts are made, motor temperatures rise 5ignificant-
+Another ly. significant item is the effect of
+and/or frequency variation on motor life and
+These items must be accounted for in the design
+that, under the worst conditions, the motor
+to produce the required speed at the Tfied spv
+This means that, for all other conditions, the
+will be operating at high-speed, high-power
+win, high•" hg -'- . ., ε.
+of input power, the larger the motor that is
+The electrical motor also is Α torque device
+sense that speed and power input, etc., are results of the torque imposed by the load. This
+to use of motor speed torque curves. These
+arue, smplyothr sequilibrium opetiorquecu .
+motor. The peed, α current, power input, etc,
+those values that occur when the motor operates
+given torque.
+7-2.5 ELECTRICAL SYSTEM CONVERSION
+The typical helicopter requires both AC and
+power. Therefore, the ability to volnvert one to
+other as needed also is required. Various types
+vices are available by which this conversion can
+effected,
+7-14
+
+power 7-2.5.1 AC to DC Convetters
+and Devices for converting AC into MC are of two
+is why basic types: rotary and static. Rotary systems may be
+on either AC-driven motor-generators or synchronous
+em- ε Hm- converters. The latter are essentially DC generators
+High- in which slip rings have connected been to the arma-
+bearing ture winding by equidistant taps. The synchronous
+converter, fact in effect, combine the functions AC of an
+re- drive motor input with those of α DC-generator out-
+hours, put, although with less flexibility in voltage and
+power-factor control than the motor-generator com-
+ap- bination. Converters typically are cheaper, more ef-
+ficient, and more compact than corresponding
+opera- motor-gcnerat-'rs. It is important, however, that they
+de- operate as near to unity power-factor as possible
+motor. since their "rating", ι.ε., relative output, decreases
+and rapidly wiih decrease in power-factor. Table 7-1 dis-
+dissipate plays this relative output relationship for various
+material power factors and number of phases. Converters also
+of must be synchronized with the input AC supply.
+alti- The relationships between the AC and DC voltages
+cooling and currents are functions both of the power-factor
+re- and the number of phases (hence, number of Elip
+tot rings). Converters may bc singic-phnasc, il whiuia nb
+of there are two slip-rings und two slip-ring taps per
+motor pole pair; three phase, in which there are three slip-
+repeated rings and three taps per pole-pair; and so on.
+However, because of the sensitivity of the output to
+voltage the total number of phases, converters usually arc
+size. operated with six phases. With α sine-wave input vol-
+so tage, the DC voltage is the peak of the diametrical
+continues AC voltage, the latter being the voltage between any
+torque. two diametrically opposed taps.
+motor
+output At unity power factor and α typical 95% efficiency,
+the DC and AC currents are equal with three slip
+rings; required. with six slip rings, the DC current is twice the
+in the AC current.
+direct Static conversion firom AC to DC is accomplished leads by transformer-rectifier units (TRU). The rectifier
+curves concept essentially acts to block conduction during
+these cone-half of the reversing alternating current. Thus,
+are current is unidirectional, but only during one-half of
+α the sine-wave cycle. Β combinift, two units and α 3 at center tap from α ii transformer, rectification through-
+out the full sine-wave can be achieved. Α smoothing
+inductance connected in series with the load in such α
+device effectively smooths out the wave peaks to α
+τ relatively small pulsating ripp ε.
+In practice, most rectifiers χ.mploy bridge circuits
+DC to achieve such ful-wave rectification; however, the
+the active components of which may be diodes or
+of de- thyristors (silicone-controlled rectifiers). The output
+be rulti α are series square of current pulses, which
+together produce continuous α current output. Rip-

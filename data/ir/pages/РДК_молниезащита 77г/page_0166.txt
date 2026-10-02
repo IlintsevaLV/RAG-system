@@ -1,0 +1,45 @@
+may suffer dielectric breakdown (puncture) and allow the streamer to reach the
+approaching leader. This is most likely to occur when there is no external
+conducting object nearby from which another streamer could propagate and
+reach the leader first. Obviously, if a puncture occurs through an integral fuel
+tank wali, fuel is placed in direct contact with the lightning arc, and ignition is
+probable.
+It is believed possible that, even if a puncture does not occur, an internal
+streamer can ignite fuel b y itself. Protection against ignition therefore requires
+that two basic criteria be met:
+1. Punctures be prevented
+2. Internal streamers be prevented.
+These criteria are, of course, in addition to other requirements such as
+elimination of ignition from strikes to vent outlets, or sparking across joints
+discussed elsewhere in this chapter.
+Puncture of nonmetallic skins can be prevented, or at least greatly
+minimized, by placement of conductive diverters on the outside surface of the
+tank. These diverters must be placed close enough to each other or to other
+conductors to prevent an internal streamer from puncturing the skin. In
+theory this means that the diverters must be close enough together to greatly
+reduce the internal electric field and prevent internal streamer formation in the
+first place, because such streamers, once formed, will intensify the field about
+themselves as they propagate outward. Prevention of internal streamers by
+diverters is called electrostatic shielding, and successful accomplishment of this
+function is necessary to prevent skin punctures and, equally important, to
+prevent internal streamers from forming and becoming a source of ignition
+themselves. Types of diverters which have proved successful and criteria for
+placement and spacing of them are given in Chapter 7 (Structures Protection).
+Tests which may be used to verify diverter adequacy are also described in
+7. Chapter
+Because streamers form most readily from sharp conducting edges and
+corners, the number of metallic parts inside a nonmetallic fuel tank should be
+minimized wherever possible, and those that remain should be located as far
+from nonmetallic skins as possible and designed with smooth, rounded edges
+6.28 instead of sharp points. These concepts are illustrated in Figures and 6.29.
+Also metallic parts should be located as far from nonmetallic skins as possible.
+If a diverter protection system such as that shown in Figure 6.28 is used,
+the diverter should not be painted or covered with any other nonconducting
+material. The electrical insulation provided by most aircraft paints is nearly as
+good as that provided the fiberglass skin itself, so the paint will mask the by
+diverter and greatly reduce its effectiveness. Painting of the fiberglass skin itself,
+of course, is to be encouraged, as the added insulation provided by the ~ aint will
+further reduce the probability of skin puncture.
+6.53) has successfully tested a diverter arrangement of Plumer (Reference
+Figure 6.27, and similar arrangements have been the configuration shown in
+flown on some light aircraft with nonmetallic wing tip tanks.

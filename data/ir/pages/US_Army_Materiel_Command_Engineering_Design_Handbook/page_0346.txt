@@ -1,0 +1,107 @@
+8-3.2 TERMINAL MANEUVERING
+EQUIPMENT
+In addition to the basic flight instruments, α
+helicopter may have VOR, ILS, marker beacon, and,
+preferably, α radar altimeter.
+The helicopter VOR Antenna Array is mounted
+for horizontai polarization in an area that provides
+maximum performance and minimum rotor modu-
+lation. The basic ground signal is both frequency-
+and amplitude-modulated at 30 Hz, and the aircraft
+VOR receiver mcusures the phasc difference between
+these two signals in order to obtain the angular dis-
+placement to the station; accuracy of the VOR is
+about ±2 deg. Becausc the main rotor blade often ro-.
+tates at an angular ratc that is some subharmoniz.of
+3Q Hz, helicopter manufacturers have experienced α
+great deal of difficulty with rotor modulation of the
+VOR. Usually ihe rotor modulation can be seen in
+the escilation of the course nced!ε. In extreme coses,
+the coursc information will become unusable. :
+There are some experimental techniques available
+by which this rotor modulation can bc climinated.
+Essentially. inese gepend upon aetecting the rotor
+amplitudo-mnodulation on the subcarrier, inverting it,
+and summing it.with the modulation on the VOR
+recciver variabhe·phase channel - in effect, can-
+celling it out. While this principle bas been demon-
+strated, it also has been found.to introduce an ad-
+ditional error into the system. The small variation in
+whecl-tooth symmetry in the spinning tone wheel
+typically used to generage the subcarriers in VOR
+systems results in an amplitud: modulatior: of the
+subcarrier. When the modulation of the subcarrier is
+summed with the variable phase signal, the rotor
+compoaent is cancelled but these asymmetries im-
+pose α new AM component on the tone. Thus, the
+ment (Ref. 3).
+An instrument landing system: (ILS) is used to
+guide the aircraft to the ground. The ILS is composed
+of α localizer, which operates between 108 and 112
+MHz and uses the same antenna as the VOR, and α
+glidescope, which operatcs between 379 and 335
+MHz. When α localizer frequency is diaied, the glide-
+scope is channeled automatically to the proper fre-
+quency. Both the localizer and the glidescope use 90
+and 150 Hz to provide right-ieft or up-down signals.
+Again, rotor modulation has been α major problem
+in both these devices.
+An additional radio for usc with the VOR and ILS
+is the marker beacon recciver. The receiver opcrates
+ACAANS. path. at 75 MHz and is used to locate points along the ILS
+
+AMCP 706-202
+8-3.3 EN ROUTE NAVIGATION EQUIPMENT
+Navigational equipment used in en route flying
+may include ADF. DME, TACAN, LORAN, com-
+pass, Doppler radar, and inertial navigation sysiems.
+The miosion requirements dictate the daree of
+sophistication reguired.
+8-3.3.1 Automatic Direction Flader (ADF)
+This is α refinement of thc old radio direction
+finder, and employs both σ sense antenna and α lpop
+antenna on board the aircraft. The signals from tbesc
+two antennas are added vectorially and α cardioid
+pattern results. By means of circuitry within the
+Fadio, the system aiways socks the null of the cardioid
+and, by means of proper calibration snd instru-
+mentation, α pointer shows the relative bearing to the
+station to which the radio is tuned.
+· The equipment designer must be certain that the
+receiver antennas are selective, so that extrancous
+signals will not affect the operation of the unit. At-
+tempts have been made to install videband ampli-
+fiers in the loop and sense antenna circuits in order to
+try to improve the efficiency of α short antenna or α
+long cable ryn from antenna to radio; however, such
+attempts usually have resuited in additional design
+problems.
+: The sense antenna shouid be as far from the main
+rotor as possible in order τò prevent interference from
+triboclectric noise, and should be close to the elec-
+trical CG of the helicopter for good reversal
+charactéristics. The location of the sense antenna de-
+termines the reversal characteristics of the system.
+Empirically. it has becn shöwn that if the sense anten-
+na is located forward on the aircraft belly, an carly
+reversal (and. possibly, multiples) will occur; if it is
+mounted an on the belly, α late or post-reversal will
+result. If it is mounted forward on the top, α lates
+reversal wili occur; and if mounted aft on the top, an
+carly reversal will result.
+The loop antenna shouid be mounted so that it is
+symmetrical in the longitudinal axis fo: symmetry in
+calibration. Because the ioop is affected by large
+masses, consideration should be given to the location
+of deployable or disposable stores when placing the
+loop.
+The ADF never is to be considered as precision
+equipment. It is versatile, and its angular error varies
+inve:seiy witn distance and incrcases with at-
+mospheric noise level. It is vulnerable to counter-
+meastres.
+&-3.3.2 Distance-measuring Equipment (DME)
+Distance-mcasuring equipment has been in use for
+some years and is very accurate. It consists of an air-
+borne transponder that sends out α signal that
+8-5

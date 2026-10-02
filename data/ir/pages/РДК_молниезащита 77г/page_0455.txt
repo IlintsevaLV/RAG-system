@@ -1,0 +1,41 @@
+The disadvantages of forward-conducting diodes include the following:
+They are not bilateral. For protection of both polarities, two diodes
+in parallel must be used. Some vendors supply dipolar diodes for
+protection purposes.
+Conduction may occur on normal signals with attendant signal-
+clipping and frequency-multiplication effects. Diodes must be used
+in series to raise voltage levels.
+They have relatively high capacitance.
+Nonlinear Resistors 15.6.4
+This category includes nonlinear resistors (varistors) that may be character-
+ized by the expression
+K V ~ I =
+K where Nand are device constants dependent on the varistor material.
+Varistors may be constructed of silicon carbide, selenium, or metal oxide.
+15.1). This section will concentrate on the metal oxide varistor (Reference
+The advantages of metal oxide-based nonlinear resistors include the
+following:
+They are bilateral devices.
+They are of small size.
+They are easily mounted. One common configuration is very similar
+in appearance to α disk ceramic capacitor.
+They are self-extinguishing. When applied voltage drops below the
+voltage for which the device is rated, they conduct very little
+current.
+They have an inherently fast responsellow-impulse ratio.
+They provide high power-handling capability. The current- and
+energy-handling capability is second only to certain types of spark
+gaps. This device gives α higher ratio of energy absorbed to energy
+reflected than conventional gaps give. Morever, the energy is
+absorbed throughout the bulk of the material and not con- is
+Π-N centrated in α narrow junction.
+The disadvantages of nonlinear resistors include the following:
+They have low impedance and high capacitance. The zinc oxide
+varistor is characterized by high-shunt capacity, limiting its use to
+1 frequencies below MHz. While it has α much higher idling current
+than have either gaps or diodes, the standby power dissipation is in
+the milliwatt region and is usually not α significant limitation.
+20 30 V. τ o They are not suitable for operating voltages below
+Operating volt~ge is proportional to material thickness. Good surge
+protection of low-voltage circuits would require an impractically
+thin piece of material.

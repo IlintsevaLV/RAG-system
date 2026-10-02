@@ -1,0 +1,43 @@
+stoichiometric propane-air mixture by α 48 kA, 0.009 ξ lo6 Α ~ - Σ simulated
+direct stroke occurred only once in 34 shots with α 90-knot (46 μ/σ) airflow
+over the outlet and not at all after 200 shots in α 200-knot (100 μ/σ) airflow.
+When strokes of longer duration were swept across the vent outlet by the
+90-knot windstream, the effluent was ignited 11 times out of 15 runs, but when
+the airflow was increased to 200 knots, only 2 ignitions occurred in 46 runs.
+Nearly all of Newman'σ tests were performed under the most vulnerable
+effluent condition, which was found to be α 1.5 mls flow out of the vent outlet,
+such as might exist when an aircraft is climbing. Since more than half of all
+reported lightning strikes occur when the aircraft is either in level flight or
+descending and since most aircraft climb at well over 90 knots, the probability
+of an in-flight ignition from α stroke to α vent outlet must be remote. direct
+Newman'σ investigation, however, showed that α flash across the vent sweeping
+outlet might have α greater (2 in 46) chance of igniting an effluent, even under
+climb conditions at the more realistic speed of 250 knots. This result
+demonstrates the importance of locating vent outlets away from both direct and
+swept-stroke zones on the aircraft.
+6.4.2 Explosive Ignitions
+In the program just described, Newman and his colleagues conducted α test
+(Reference 6.18) in which α stroke to the vent outlet produced indications of
+unusually high flame velocities and severe deformation of the vent outlet,
+indicating much higher pressures than normal. They cite α similar case in another
+program in which flames traveling in excess of 300 μ/σ (1000 ftls) were actually
+measured. The implication of these findings is serious because an arrester or
+surge tank protection system capable of extinguishing the Iower velocity flames
+may not be able to stop flames traveling as fast as 300 mls.
+Kester and others (Reference 6.19) attempted to reproduce such speeds in
+α 14 cm simulated vent line, shown in Figure 6.9, but did not measure flame
+velocities higher than 20 mls (65 ftls) in this system, even when severe, 180 kA,
+1.0 ξ lo6 strokes were applied. These velocities were, in fact, comparable Α ~ - Σ
+to those measured in the Atlantic Research-LTRI program of 1964. Kester and
+his colleagues also reported one explosive ignition, when α stroke of 195 kA was
+delivered to the vent outlet. It was found that the 195 kA stroke current had
+induced α voltage in instrument wiring sufficiently high to spark over the
+insulation around several pressure probes inside the vent line. The vent outlet
+and parts of the surge tank were badly deformed, even though these parts were
+made of 0.64 cm (0.25 in) steel. Again, much higher than usual pressures were
+indicated. The explosion in the Kester program serves as α warning that α similar
+consequence might conceivably result from inductive voltages in an actual fuel
+system unless, by means of design, care is taken to eliminate such situations.
+The question of whether or not these explosive ignitions could occur in
+actual fuel tank vent systems was of such importance that the Federal Aviation
+Administration undertook yet another study of flame propagation in vent

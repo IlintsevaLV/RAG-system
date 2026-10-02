@@ -1,0 +1,93 @@
+voltage is typically 50 - 200 kV per stage. The partic-
+ular circuit gives α negative going output voltage for
+positive charging voltage, but other configurations can
+give positive output voltage,
+v output
+Σ
+4
+VVS
+2
+V
+-4V
+V
+(α) (β)
+generator. impulse circuit voltage 6.56 Marx Fig.
+charging While (α)
+erection After (β)
+In practice, the switches are spark gaps, usually
+spheres α few tens of centimeters diameter. Closure of
+Σ connects C and C, in series, which places 2V on 1 2
+C , which then sparks over placing C C1, C and in 2 3 2
+series, placing 3V on Σ . The process, called erection,
+4
+cascades until all capacitors are in series. Stray capac-
+itance from the various stages to ground is essential to
+the initial development of the overvoltages required to
+close switches other than the one initially fired. For
+air insulated generators, erection takes place in about
+ns, 10 10-α seconds.
+The initial switch closure can be effected by phys-
+ically moving the spheres together enough to allow
+to breakdown by α dc overvoltage or by inducing Σ
+1
+breakdown by α pulse applied to α trigger electrode, α
+trigatron spark gap. Α discussion of triggering mech-
+anisms is beyond the scope of this volume, but can be
+found in the literature. Reference [6.30] gives α good
+introduction to the matter and also provides additional
+references to the vast literature on pulsed power surge
+technology.
+Marx circuit voltage generators are usually rated
+in terms of their open circuit voltage capability be-
+cause they are used for testing insulation and other
+
+high impedance devices. Operatio. into low imped-
+α ance circuits is the exception, except in study of nu-
+clear EMP effects, in which case compactness and
+speed of erection becomes important. Such genera-
+tors are generally insulated with oil or insulating gases,
+such as sulfur hexafluoride, but the generators used
+during tests for lightning effects are most commonly
+air insulated.
+Voltage generators are also rated in terms of their
+stored energy,
+2 = nCgV, joules or watt-seconds. (6.23) Ω
+Α large machine for the electric power field might
+have an open circuit voltage of about 5 MV (5 ξ 106
+V) and α stored energy of 250 kilojoules. 10 MV is
+about the highest voltage that has been used for air
+insulated machines. Testing for aircraft applications
+5 Α energy. stored or voltages such for calls seldom
+MV machine can produce discharges through 10 or
+more meters of air, but standardized test practices for
+determining attachment points on aircraft seldom call
+for gaps more than about 1 μ in length.
+After erection, the surge generator can be treated
+as. α single capacitor of magnitude C. = C=τ.SIN
+corn- Α common V,, voltage to α charged as. NV.τ = 6 6
+compo- waveshaping circuit, including plete generator
+6.57. Fig. in shown is nents,
+Disregarding the stray inductance of the circuit,
+it produces open circuit voltages of double exponential
+waveshape, as discussed in §1.5.2 and §9.10.1. Front
+time is controlled by the charging time constant of the
+series resistance R. and the waveshaping capacitor C1.
+Tail time is determined by how long it takes and C,
+to discharge through the resistors to ground, C1 R 9
+and Rd. In practical circuits, Rd is frequently α re-
+sistive voltage divider to measure the output voltage
+and waveshape, though this can also be done by using
+the waveshaping capacitor C1 as the high voltage arm
+of α capacitive voltage divider. Α discussion of mea-
+suring techniques is presented in [6.31]. Some circuits
+dispense with either R, or Rd, but if α low resistance
+must be used to prevent the tail time from being too
+long, it is more efficient to use α high resistance voltage
+divider (R,) and α low resistance for R,.
+Approximate values of the front and tail times are
+Tfroat - (6.24) 3RC1
+Τ 97 R#(R, ( + Rj) -'fim
+Τ (6.25) R, + RR J =.1[Re-+
+In the high voltage power field the waveshape
+most commonly produced has α front time of 1.2 σ is
+160

@@ -1,0 +1,94 @@
+time domain,
+3. Inject low level (much less than full threat level)
+currents into the aircraft, measure the response
+in the time domain and extrapolate the results to
+full threat level.
+These three techniques are discussed further in
+Chapter 13. The technique of injecting low level pulse
+currents into the aircraft is called the Tran- Lightning
+(LTA) technique and is the one that has sient Analysis
+of the response of most measurements for used been
+threat level tests areW circuits. Full aircraft electrical
+seldom made on aircraft; equipment for such tests is
+very expensive and at the limit of the state of the art
+and in any case can not be performed until the aircraft
+has been designed and built.
+Sometimes of course, a designer does not have ac-
+cess to detailed analytical and experimental studies,
+or does not have the time or the funds to procure such
+studies. In recognition of this common problem Chap-
+ter 14 provides some very simplified tools with which
+to estimate the voltages and currents that might be
+induced on aircraft wiring. If the need is for guidance
+as to levels appropriate for conducting bench tests the
+tools may be sufficient for the job.
+Voltages Induced of Examples 8.7
+Aircraft on Measured
+tests wade on air- several aets of There have been
+craft in which simulated lightning currents were in-
+and jected into the aircraft and the resultant voltages
+measw~ed. Space con- currents on the aircraft wiring
+straints preclude giving in ýhis chapter a comprehen-
+re- summary of the test results, end the user is sive
+ferred to the reports on the individual tests. A few ex-
+will be given in the follow- amples of the measurements
+the general to illustrate primar.ly in order ing sections,
+nature of voltages and currents induced by lightning,
+Where appropriate, reference will be made to the sub-
+sequent chapters where the phenomena awe discussed
+in further detail,
+F-89J from Aircraft Wing 8.7.1
+The first set of tetzs to be discussed [8.11 wab one
+in which high lightilng-like currents of amplitude up
+to 40 000 were injected into one A w.ng of an F-89J
+aircraft. During the test, represented in Fig. 8.11, 'he
+.
+wing was fastened onto a screened instrument enclo-
+sure, which may be viewed as &epresenting the fuselage
+of the aircraft. The current was iwjected into the wing
+or into the external wing tip tank, allowed to flow along
+the wing to the outer wall of the screened instrument
+231
+
+enclosure, and then to ground. An example of cne of
+is shown in injected into the wing the types of current
+Fig. 8.11(b).
+STRUMEN
+WING TIP TANK INCLOSUILN-
+(a)
+§aERATOR
+(b)
+Fig. High current injection tests 8.11 on a wing
+from a fightertsircraftn
+from a) ghter aircraft.
+(a) Test arrangement
+(b) Waveshape of injected curreut
+In order to obtain maximum current, the surge
+al- essentially that mode a in operated was generator
+os- a damped of cycle one only of production the lowed
+cillatory current, the technique having having involved
+in as previously discussed resistor a series non-linear
+§6.8.1. The surge current was, of course, unlike a typ-
+ical lightning current, which would rise to crest rather
+fast and decay at a much slower rate. The shape of
+the current wave must be considered when observing
+be discussed. the waveshape of some voltages that will
+In particular, note that at about 20 ps there appears
+This discontin~u- major discontinuity in waveshape. a
+induced in the is reflected ity in current waveshape
+voltages.
+Within the wing there were a number of electri-
+cal circuits, such as those to navigation lights, fuel
+gauges, pumps, rclays, and switches indicating posi-
+tion of flaps. Some of these ran in the leading edge of
+electromag- many from shielded well were. and wing the
+netic effects, while others ran along the trailing edge
+between the main body of the wing and the wing flaps.
+These latter were the most exposed to the electromag-
+netic fields. All of the circuits were relatively simple
+and relatively independent of each other. They were
+not, as a rule, bundled together in one large cable bun-
+die, a practice that provides maximum coupling from
+one circuit to another and makes analysis difficult.
+The question of how location of wiring affLTŽts the
+lightniig induced voltages is discussed in Chapter 16.

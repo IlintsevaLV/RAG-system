@@ -1,0 +1,105 @@
+within the required limits. In specisl cases — χ.γ..
+structurcs that are redundant or subject to fatigue —
+it may be necescary to cmploy both methods.
+11-8.1 ANALYSIS
+As the deveiopment progresscs, substantiating data
+are prepared in accordance with the contract data re-
+quirements list (CDRL). Specific data requirements
+are coordinated with the Airworthincss Quali-
+fication Specification (AQS) prepared and approved
+for an individual helicopter program. The possible
+scope of these requirements is discussed in Chapter 4
+of AMCP 706-203. Chapter 9, AMCP 706-203, pre-
+sents α comprehensive discussior of the final quali-
+fication of the airframe. The analysis and testing per-
+formed during the design phase are discu sed in this
+paragraph.
+At the start of the detail design effort, desiga para-
+meters astablished during the preäiminery design ene
+confirmod or amended. The lsads applicable to ali
+airframe components unde: design fligia and ground
+loading conditions miast be established and tne
+critical design conditiors determined. Ir. Chapter à,
+AMCP 706-201, the design losding conditions ar=
+described and proccdures for il. determination oi ::-
+temal load distribations are discused. Lne o: α com-
+prehensive computer prograst such as NASTRA.N
+(Ref. 7) is racomn: ended.
+Following decermination of the leacings fhst are
+critical for individual parts, in many csses stresturai
+adequacy can be substantia:ed by ztress &selysis
+alone. Examples are parts thst involve cither 8 single
+load patt or simple retundancy, for which therefore
+the streas and anelysis it boitt simple and accuraze
+Other parts for which analysis sione is adequate are
+simple fittings for which dynamic (fatigue) loadings
+are not significant, and secondary structure and com-
+ponents that are classified as nonstruciural. How-
+ever, because the airframe structure generaliy in-
+cludes multiple load paths for which even the most
+sophisticated stress analysis methods often provicle
+unreliable resuits, substantiation is based largciy
+upon the results of structural tests.
+11-8.2 TESTING
+Portions of the structure will be tested after brief
+preliminary analysis. Thcsc include fatigue-losded
+primary structure, redundant structures, componenis
+manufactured using new proccsscs or materials, and
+castirgs with low safety factors.
+Other pCitions of the structure will require de-
+tailed analysis and backup testing. Ω'here expensive
+proc.sses and/or large, costly sructures arc in-
+volved, extensive analysis is nccessary in order to pro-
+
+AMCP 706-202
+quate by test. When both analysis and tosting are used, signifi-
+cant savings in weight can be obtained with dcsigns
+for which the analyais indicates α small negative or
+zero margin. During testing, the areas in which
+failures occur casi be strengthened. Some of thesc
+areas will have sufficitent strength as it. In this way,
+the minimum weight can Se achieved.
+Some portions of the airframe are deaignod with
+multiplc load paths. In the event that one path fails,
+the others will continue to carry expected leads. It
+will be neceasary to test these areas with selected load
+patha failed, and with the applicable fatigue spectrum
+applied, to demonatrate that the structure will con-
+tinue to support all loads urtil the next mandatory in-
+spection. It also is necessary that inapection of these
+arcas be possuble, and particularly that portions of
+structurc that are designed as fail-safe not be ob-
+scared. Chapters 7, 8. and 9, AMCP 706-203, des-
+crite component tosts, surveys, and demonstrations
+thgt are spplicable.
+Fysigue tcsting may be generalized in that only
+Pav: dais (such as Σ-N) are coliected. Statisticai
+analyses chat consider operating load frequency will
+insure acequate structural reliability. The number of
+tess conducted will determine the confidenc level
+for the design. Fatigue life determination is dis-
+cussed in: detail in Chapter 4, AMCP 706-201, and the
+rxquired tests are outlined in Chapters 7 and 8,
+AMCF 706-201.
+After the heiicopter prototype is manufactured,
+flight vest loads will be gathered as basic data to be
+usod for structural qualification analysis and testing.
+It may be necessary to redesign locally before quali-
+ficstion if the flight loads are in excess of those pre-
+dicted by analysis.
+REFERENCES
+1. Ω. Δ. Dotseth, Survivability Design Guide for US
+Ármy Aircraf!, (U), USAAMRDL TR 71-
+41Α(U) and TR 71-41Β(C). Eustis Directorate,
+VA, November 1971.
+2. 3. Ω. Turbow, et al, Crash Survival Design Guide.
+USAAVLABS TR 71-72, US Army Aviation
+Materici Laboratories, Fort Eustis, VA, October
+1971 (Revised).
+3. E. F. Bruhn ct al, Analysis and Design of Flight
+Vehicle Siructures, Tri-State Offset Co., Cincifa-
+nati, OH, 1965.
+4. Γ. E. Maddox, ct al, Stress Analysis Mamual.
+AFFDL-TR-69-42, Air Force Systems Com-
+mand, WPAFB, OH, February 1970.
+11-13

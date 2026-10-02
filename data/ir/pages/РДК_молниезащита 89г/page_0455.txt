@@ -1,0 +1,52 @@
+other The reflected energy 1. cran possibly appear on by gaps using carbon electrodes. Outline sketches of
+unprotected circuits. spark gaps are shown in Fig. 17.9.
+2. Multiple reflections may cause the transient to Electron avalanche: Conduction through a spark gap
+last loUger than it would otherwise. occurs beca,4se of ani electron avalanche process, as dis-
+gas den- Dielectric composition. cussed in Chapter 1.
+3. The spectral density of the energy 'in the surge sity and electrode geometry all affect sparkover volt-
+may be changed, either high or low frequencies age and the speed with which the avalanche develops.
+being enhanced. Interference problems en other Sparkover voltage depends on the waveshape of volt-
+circuits may well be increased even though the age; a surge voltage with a fast rate of change will
+risk of damage to the protected circuit is reduced. cause sparkover at a higher voltage than would a more
+(low gas density A low pressure gap slowly rising wave.
+voltage than a lower at will sparkover exactly) the more Most commonly devicis: protective for Locations
+appropriate type of transient prqtective device to be will a similar high pressure but the avalanche will gap,
+used depends on the amount of surge energy to be develop more slowly, and the dependence of sparkover
+dealt with. Generally, this energy decreases the further voltage on waveshape will be greater.
+rate of dependence of sparkover voltage on energy to The get3 from the stroke. The surge away one
+be expected can also be related crudely to the normal change of voltage partly relates to how long it takes,
+and start a free electron to appear on average, for involved. One would power of the circuit operating
+normally expect lower surge levels on low-voltage sig- the avalanche process. Commercially available spark
+nal circuits than on medium-power control circuits, gaps frequently contain minute amounts of tritium or
+dependence the reduce to elements radioactive other distri- power on main those than lower levels even and
+voltage waveshape. voltage on spaikover of surge sup- use might logically one buses. Thus, bution
+pression diodes on individual circuit, boards, varistors
+on terminal boards, and spark gaps on leads running
+to prime entry and exit points.
+,1mm for air- are suitable that devices protective Circuit
+craft applications and are commercially available in-
+clude gas-filled spark gaps, specially fabricated Zener
+diodes, and varistors. Each type has both advantages (a)
+and disadvantages.
+17.4.1 Spark Gaps
+gaps: Incidental spark Sometimes spark gaps are inci-
+dental to the construction of some other device, termi-
+nal boards and connectors being examples. Whenever 7m
+the voltage on the terminals becomes suffciently high
+there will be a spark across or through the dielectric
+and the voltage on connected devices will be limited. (b)
+Generally such sparkover is unplanned and undesir- (b
+able, particularly if it causes puncture and permanent
+failure of solid dielectric, but the existence of such in-
+cidental spark gaps should be recognized. Sparkover
+across the surface of a dielectric might be allowable
+and sometimes can be made to provide perfectly a&-
+ceptable surge protection at minimal extra cost. - rmni
+gaps: Intentional spark Usually, though, spark gaps Fig. 17.9 Outline sketches of spark gaps.
+are composed of two metal electrodes separated by
+a dielectric, held et a fixed distance from each other Sparkover voltage: Impulse sparkover voltages for
+and sealed in a container. Electrodes may be spheri- gaps with metal electrodes operating in air at stan-
+cal, but in sophisticated devices they are not. Not all dard atmospheric pressure will seldom be less than 1 -
+spark gaps use metal elecrtodes and not all are sealed. 2 kV, even with very small spacing between the e0ec-
+trodes. For commercial spark gaps, curves, such as Telephone circuits, for example, are often protected
+441

@@ -1,0 +1,104 @@
+had α circtmforential finish of 16 pin. and an axisl
+finish of 8 pin. Conroquertiy, both typas had identi-
+cal reduced finiah number &-valuos and bence vir-
+tually identical λ-valuos, but the croas-ground data
+exhibited markedly lower φ-valucs. The surface hard-
+nese was Rcoo-63 in both types, and the crous-ground
+disks were prepared using grinding tochaiquee nor-
+mally used for spur goar tooth manufacture. Α cons-
+tant ratio of v./v. - 0.556 was representod, and the
+lubrication was jat suppliod Μ1Λ-Λ-7808 at 190°F.
+Thereiore, α particular point on α gear mosh where V.
+- 55.6% of v, is roprescntod on this figere ue à
+lincarly increasod gear spoed (rpm) by moving from
+Icft to righat with incrcasing . Unfortunately, thonc
+data do not refloct α constant lond, but rather thc
+limit losa ss detined by scuffog.
+The designer shouid be aware that under fixed
+lubricunt condition there is littic be can do to control
+À at fow speods aside from refining the surface finish.
+Additionaî powe: loss sources of & transmission
+syglem include the acoessorics and the oif pump. Ac-
+cessory power reguirements are fixed by the indi-
+vidual helicopter roquirernents, the exact typc of ac-
+cossory Involvad, and the demand or duty cycle re-
+quired. Determination of scosssory power requirs
+ments is discussed in Chapters 7 and 9. Oil pump loss
+Π, is estima.od adoquatciy by the simpic equation:
+Fpk ,hp (4-19)
+пр
+where
+F oil flow rate, gpm
+ρ discharge pressure at pump outlct, psig
+κ conversion constant for units, 5.83 × 10-*
+efficiency of pump (generally from 0.5
+to 0.9). dimensionicss
+For α 20-gpm system with > reguiated dischsrge of 60
+psi, the pump outiet pressure would be 120 paig under
+typical conditions. For an assumed pump efficiency
+of 0.5, the loss would be:
+: (0.5) (20) (120) (5.83 × 10-) = 2.78 hp (4-11)
+4.1.2.1.1.3 Size
+Compact gearbox size is important in the achieve-
+ment of low subsystam wcight bocausc thc housing or
+casing that encloses the dynamic components con-
+tributes α significant proporticn of the total system
+weight. Howevor, compactioa should not be empha-
+sized to tho point of causing excessive oil churn and
+windage loascs to the detriment of efficiency. Ref. 21
+
+AMCP 706-202
+suggests that cide clearances of 0.5 in. or greator
+batwoen gcars and caeing walls result in negligible
+losses due to oil churn. The requirod clearance
+betwoen cnsing wail and gcar outaide diamerar in-
+crouses with incrcasing valuce for such variables as
+arc of conformity, spuod of gcar rotation, oil via-
+cosity, amount of oil jeuod on the gear mash, and tho
+amount of run-off or drainage oil in thc locetion st
+question. There are no formulas for calculating patis-
+fartory diametral cicarances, but some suoczasful
+design applications have amployod valuez of ap.
+proximaiciy 0.5 in. for 2000-fpm pitch line velocitics
+and 3.0 in. for 25,000-fpm ve'ocities for 180 deg of
+conformity and kinematic viscositics below 10 centi-
+stokes. Even at these clearances, it frequcatly
+becomas nocessary to provide scrapers or some
+means to retard vortex generation and localized re-
+circulation of the oil. When wet sump systems are
+employed, sufficient vertical space must δè provided
+to koep the operating oil level (including tha serared
+or foam layer) below the gears and bearings.
+4-1.2.1.1.δ Niotse Lerels
+The fourth performance criteria of low noibe ievet
+has reccives incarased attention af late. Tranemiasion
+noise is usuaily of imporcance osty ir relation to crew
+and passenger comtort levels, white rotos #nd engine
+noise are the principal contributo:o to thr aural do-
+tectability of the helicopter. The fundemental gear-
+meshing frequencies, which renge fsomn 40 to 22.000
+Hz in present-day gearboxes, are the primary sources
+of noise. Refs. 22 and 23 identify the magnitude of
+the problem for two helicopters. The overail heli-
+copter configuration and the resulting number and
+location of gearboxes dictate the areas affected by
+noise; χ.γ. α tandem-roîos helicopter may have its
+forward transmission focated above the crew com-
+partment, resulting in less ravorable noise conditions
+in the passenger arca, while the reverse may be true
+for α single-rotor configuration.
+Gear noise may emanate from the gearbox as σ
+result of forced or resonant vibration of the housing
+or cascs. It then reachas the. rew: ?ρ passengers eitbes
+through direct airborne paths (windows, access pan-
+els, or door seals) or through airframe structural
+pathways connectod to the gearbox mounting system.
+It is far more efficicnt and desirable to combat such
+noise at its source rather than to rely sokly upon tho
+use of insulating and soundpsoofing coatings or blan-
+kets in the crew of passenger compartrients. The
+latter measures generally add more weight than
+would be needed to make comparable improvement
+in the problem at its source. Sound insulation also in-
+crerses maintenance man-hours due to the nood for
+4.11

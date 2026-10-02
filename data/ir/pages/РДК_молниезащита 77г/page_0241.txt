@@ -1,0 +1,18 @@
+this fact emphasizes the desirability of distributing lightning currents throughout
+as many filaments as possible.
+To explain the process of current flow into the many boron filaments in a
+7.20) composite, Penton, Perry, and Lloyd (Reference formulated an electrical
+7.34. model of two boron filaments in a resin matrix, as shown in Figure Each
+filament is made up of incremental portions of the tungsten substrate resistance.
+These researchers found that the filament-to-filament breakdown voltage is
+V and that the insulation breakdown at this level is represented by about 300
+the back-to-back Zener diodes, which have a reverse conduction (Zener) voltage
+300 V. of
+A lightning current flowing in the outer filament, they found, would
+remain in this fiIament until the resistive voltage rise dong it exceeds the boron
+and resin breakdown voltage represented by the Zener diodes, at which point the
+in the electrical model conduct and permit current to enter the diodes
+neighboring filament. In most cases this would be a filament in the next
+laminate. While some material strength degradation undoubtedly occurs from
+the breakdown of the resin and boron sheaths, the major loss of strength was
+23 1

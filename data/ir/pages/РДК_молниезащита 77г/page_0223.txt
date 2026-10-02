@@ -1,0 +1,31 @@
+however, the weaker segments of α path such as this through different dielectric
+media break down first and allow the total voltage to become concentrated
+across the remaining, stronger, segments. Thus, in such situations, where both
+the internal and external surface flashover paths are long compared with the wall
+thickness, the presence of the wall makes little difference: punctures occur
+randomly together with external flashovers.
+FIBERGLASS WALL
+(FILAMENT-WOUND)
+(α) 0.5ps/div. SWEEP:
+90 kV/div. VERTICAL DEFLECTION
+Impulse voltage test of typical fiberglass wall. 7. Figure I9
+at Withstands and 125 (α) 110 kV kV
+Partial breakdown at 141 and complete puncture kV; (β) kV 157
+at 173kV
+An important point to remember is that the voltage withstand capability
+of α path through or along several different insulating materials, including air, is
+less than the sum of the separate segment withstand voltages. Thus, the
+breakdown voltage of α complex structure cannot be determined reliably by
+testing its components individually and adding up the individual withstand
+voltages. Laboratory tests of the complete structure, such as those of Figures
+7.15, 7.14 and offer the best method of determining breakdown voltages and, as
+α result, the need for protection.
+for 7.3.1.2 Protection Fiberglass Components
+The fiberglass punctures of Figures 7.14 and 7.15 indicate α need for
+will inhibit internal streamer formation and provide external conductors that
+external points from which streamers can originate. Such external conductors,
+diverters, also shorten the surface flashover paths. If properly placed, called
+diverters make puncture of α fiberglass skin unlikely. The following guidelines
+and tests should be followed to orient and space diverters properly on α
+fiberglass structure :
+213

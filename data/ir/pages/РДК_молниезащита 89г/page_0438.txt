@@ -1,0 +1,54 @@
+Instruments and wiring on the control panels are i
+thus in a region of inherently high magnetic field jj la
+load strength. Conductors that run from overhead control source
+panels (position A) to other instruments (position B)
+are often run along the windshield center posts. They (a) .AA•
+v are thus in a region of the most concentrated v magnetic • 7 - i-v
+fields likely to be found on an aircraft, and accordingly ground R
+they may have induced in them the highest voltages.
+Wiring 16.5 and Grounding Practices
+Practices should be chosen with forethought, prop-
+erly illustrated and implemented, and not be left to
+develop by chance. The design office should make sure (b)
+that everyone knows what the design practices are and
+all designs should be checked to ensure that they follow , ' ' ' ' ' '
+practices good for resistance to lightning effects.
+grounding. point Single 16.4 Fig. Practices Grounding Basic 16.5.1
+(a) Coupling of structural IR voltage
+voltage IR structural of Elimination (b) in- if necessary is equipment of grounding Proper
+direct effects are to be controlled, but there are many Problems with single point grounding: While the sin-
+factors to be considered. Best practice for one as- gle point ground concept avoids coupling of structural
+pect often conflicts with best practice for other as- voltage rises, it does have problems, particularly in
+pects. There is no single point on an aircraft that can regards to low level electronic circuits.
+be called "Ground" and compatibility problems are
+not resolved just by making a wire connection to an 1. It does not eliminate the high frequency compo. 0
+"equipotential ground plane." The closest approxima- nent of voltage rises.
+tion to an equipotential surface will be found on the
+inner surface of a shielding enclosure or the inner sur- 2. It eliminates the low frequency component of volt-
+face of a properly terminated wire shield, places where age rises only by subjecting equipment to a com-
+the of lightning induced noise currents is low. mon mode voltage. The common mode voltages density
+equipment. electronic for excessive be may follows: as are considerations basic Some
+Aircraft structure as return path: a Lightning current 3. Long ground leads may be involved. These leads
+flowing through the structure of an aircraft produces have impedance, resistance and inductance, and
+voltage rises which can couple to internal circuits. His. lightning current flowing through these leads pro-
+torically, experience has shown that the structure of duces dangerous voltages.
+metal aircraft can be used successfully as a return
+circuit for power distribution, but aircraft structure When investigations have been made of light-
+should never be used as a return path for signal or ning induced damage to electronic equipment it is fre-
+control circuits. Aircraft using large amounts of com- quently found that single point ground a concept has
+posite materials for the structure should use separate been carried to extremes, or that it was applied with-
+dedicated return wires for power circuits. out recognition of the common mode voltage problems
+that are entailed. For electronic circuits a multipoint
+grounding: Single point Single point grounding, Fig. ground concept is generally to be preferred.
+16.4, prevents the low frequency component of the
+grounding: voltage rises from coupling to circuits and should be Multiple point Shielding against electro-
+used where possible. It does though, subject equip- magnetic effects requires multipoint grounding. Mul-
+ment to high common mode voltages. It is most tipoint grounding, Fig. 16.5, requires that each LRU
+easily implemented for simple electromechanical de- case be the single point reference for all internal
+vices, such as motors, servos, solenoids, potentiome- circuitry. Each circuit or signal type is multipoint
+ters, lights and switches. All of these are devices that grounded to local reference planes and then each of
+0
+can withstand several hundreds or possibly a few thou- these reference planes is termoinated to the chassis.
+sands of volts between the internal circuits and the The chassis is then terminated to the nearest airframe
+case or frame of the device, ground plane.
+424

@@ -1,0 +1,89 @@
+.duplicates
+voltage most nearly of common mode Application
+where all wires entering the the condition
+point, EUT originate at a common
+testing: An evaluation hipot and low frequency DC
+and under test of device the type made of be should
+conducting cases, In many modes. failure possible the
+waveshapes surge various the all tests with of a series
+lightning environment standardized in the specified
+expense. Con- work and represent unnecessary may
+tests potential high low frequency DC and ventional
+if only particularly actually needed, that is may be all
+involved. devices are electromechanical
+systems Grounded 18.6.2
+Fig. 18.35(a). The is illustrated in This situation
+ground cir- grounded and internal case of the EUT is
+either be connection may cuits as well. The ground
+normal mode A, if that is the internally, path made
+B. If path A or externally, path of connection,
+tests grounding, then the the only mode of normally
+pin in order to injection onto the ground should include
+can carry the internal ground path whether determine
+path should be An external ground the surge current.
+pin. ground on the tests the after making only applied
+connection should normally ground An external
+not, as ground system and be made to the local
+to a remote ground through impedance Fig. 18.35(b)
+used on the EUT, ground is actually point. If a remote
+special study. the matter deserves then
+7 inter al
+surge
+generator
+groun inters.
+structure Ibe
+l
+-7 . ( .)
+",,internal.groud Z
+bus
+(b)
+on a grounded system. Fig. 18.35 Pin injection
+
+as in is basically the same The test procedure
+to each pin, one Tests should be applied §18.5.1.
+exception of any pin at a time, with the possible pin
+lo- ground bus to an external connecting the internal
+grounded internally, ground bus is ground. If the cal
+in or- pins, applied to grounded be should still pulses
+capable of carrying is wiring ground verify that der to
+currents. surge
+test stresses in- applied: This type of of stress Type
+also allows case, but and components sulation between
+ground bus, to the components to flow through current
+may provide a ther- thus 18.35, and shown in Fig. I as
+Whether or not such components as well. mal stress to
+of circuit and the type on flow depends does current
+powered or not. whether the system is may depend on
+it may make lit- types of circuit element For some
+buses not the internal ground difference whether or tle
+with the inductive Such may be the case are grounded.
+If a EUT is to top of Fig. 18,34. device shown at the
+and §18.5.2, it both conditions, §18.5.1 is be tested under
+the tests on such compo- better to repeat is probably
+the tests trying to analyze whether nents, rather than
+may be internal circuit be redundant. There might
+by inspection. not readily revealed paths
+may result loading: Circuit loading Effects of circuit
+lower developed on a pin being the voltage actually in in
+open circuit condi- than observed under in magnitude
+power level of response and the tions. This is a normal
+to compen- should not be adjusted the surge generator
+generator circuit may load the sate. It is because the
+is controlled. that impedance of generators
+Circuits Protected 18.6.3
+may be fitted with as in Fig. 18.36, Some circuits,
+with circuit protective and others may be fitted filters
+or metal oxide varistors such as spark gaps, devices,
+should these practice, general a As diodes. protective
+the test since one of the rea- left connected during
+to verify that the protective de- sons for making tests is
+when flow that currents surge the withstand can vices
+the devices operate.
+of if the EUT ap- devices: Even Status protective
+the test, some type of pears to function normally after
+inspection should be made to verify that the protective
+inspection been damaged. A visual devices have not
+are known if the test currents be sufficient, but may
+the protective device the limits of to have approached
+be appropriate. detailed inspection may a more
+483

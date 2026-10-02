@@ -1,0 +1,36 @@
+instrument capable of warning pilots of an impending lightning strike and
+providing information to the pilot for use in avoidance. Most such instruments
+are based on the principle of detecting the ambient electric field which would
+exist when a lightning flash is imminent (Reference 3.24). None of these
+instruments have been successfully tested in an aircraft, and because of the
+apparent wide variation of electric field magnitudes and directions which may
+exist at the aircraft surface just before a strike occurs, the prospects for success
+by the problems of field seem remote. The situation is further complicated
+interpretation and translation into advisory information to aid the pilot in
+deciding on an avoidance maneuver.
+Perhaps the most effective warning of imminent strikes available to flight
+crews is that which is readily available-the buildup of static discharging and (at
+night) St. Elmo's Fire (corona). Static discharging causes interference (insta-
+bility) in Low Frequency Automatic Direction Finding (LF-ADF) indicators, or
+audible "hash" in most communications receivers. St. Elmo's Fire is visible at
+night as a bluish glow at aircraft extremities where the discharging is occurring.
+Pilot responses to Lightning strikes (which may also be called or static discharges
+vary. Typical answers by pilots of one airline (Reference electrical discharges)
+3.25) to the question "Do you have any recommendations for avoiding electrical
+discharges?" were as follows:
+"From cruise speed, a reduction of 25% to 30% in airspeed will
+often allow the static buildup to stabilize at a lower maximum and
+dissipate rather than discharge. These buildups are generally
+VHF accompanied by a buzz-type static on high frequency] [very
+and {automatic direction finding] and a random swinging of ADF
+I ADF ADF needles though have observed the needles to hold a the
+steady error of up to 90O as the static level stabilized at or near its
+peak, generally just prior to the discharge or beginning of dissipa-
+" tion.
+"Climb and descend through the freezing level as quickly as
+" possible.
+"Avoid all precipitation. know of no way to predict accurately I
+where a discharge wiN occur."
+"Slow down to minimum safe speed, change altitude to avoid
+temperature of 20 ro 35 OF OF."
+'Not without excessive detour, both route and altitude."

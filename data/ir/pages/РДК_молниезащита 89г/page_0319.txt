@@ -1,0 +1,94 @@
+Fig.10.0 tna pscillathfor amodels .
+nose-to-tail oscillation.
+pulses Significance of lightning: Current triggered
+of a triggered development initial the with associated
+rise times. If fast to have are believed flash lightning
+if the impedances shown on Fig. 10.39 are so, and
+of a developing light- representive of the impedance
+shown might be rep- ning leader, then the oscillations
+what would be produced by a triggered resentative of
+lightning flash.
+with the In view of the uncertainties associated
+to be appropriate arc, it may of a lightning impedance
+of an calculations of the interaction view with caution
+a lightning channel. aircraft with
+the where place studies: LTA Resonances with One
+traveling waves current with associated oscillations
+is dur- important aircraft are on an and forth back
+an of tests (LTA) Analysis Transient ing Lightning
+by measurement, the voltages aircraft to determine,
+the on aircraft wiring. Interactions between induced
+govern the waveshape of aircraft and the test circuit
+the current that can be injected into the aircraft. The
+also such that the current on differ- oscillations are
+the aircraft may be different and also ent portions of
+from the current measured as being injected different
+is discussed further in into the aircraft. The matter
+Chapter 13.
+Aircraft Composite 10.11
+The emphasis in the preceeding sections has been
+which, as far as the external electro- on metal aircraft
+can usually be accu- magnetic field distribution goes,
+conducting. The distribu- rately modeled as perfectly
+from an initial state gov- tion of current does change
+fields effect to a final distribution erned by magnetic
+over which governed by resistance, but the time scale
+takes place is long compared to the the redistribution S
+The factors governing duration of lightning currents.
+in more detail in Chap- redistribution are discussed
+
+significant can have however, aircraft, 11. Some tcr
+material, (CFC) composite fiber of carbon amounts
+conductive less orders of magnitude are three which
+a mix- of consist which structures For aluminum. than
+takes the redistribution composites, metal and of ture
+and aircraft a metal on than rapidly more place much
+the in- and distribution external current the as a result
+issues. distinct as be considered cannot coupling ternal
+on aircraft of such interior to the penetrates Current
+duration as the same the about is which scale a time
+to coupled voltages result, As a currents. of lightning
+magni- higher have aircraft CFC of circuits internal
+than do component a resistive more of and have tudes
+voltages on metal aircraft.
+The external current flow patterns and redistri-
+for both in the simple 2D bution can be accounted
+more complex discussed in §10.7.1 and in the
+3 oes
+models. 3D
+Cylindrical 2D in Implementation 10.11.1
+Models
+of redistribution in the wire fila- Implementation
+models discussed in §10.5.3 is rather straightfor- ment
+low frequencies, defined as oc- ward. At sufficiently
+the when the skin depth is on the order of curring
+filamentary model such as shown in skin thickness, a
+for the resistivity by Fig. 10.12 and 10.13 can account
+with the induc- resistors in series appropriate inserting
+appropriate to is that The value of the resist-r tots.
+each filament. skin associated with volume of the the
+Fig. of that like look would model The resultant
+of variety a by solved be can circuits Such 10.13.
+SPICE, SCEPTRE, examples being codes; network
+EMTP. and ECAP
+m Models Implementation 3D 10.11.2
+redistribution can be included in both the Current
+finite difference time domain techniques and in the in-
+equation approaches. tegral
+im- The basic concepts of interest are the suriace
+Z,(w). ZR(w) and the transfer impedance pedance,
+in Chapter 11. These are discussed in detail
+finite difference method re- The 3D time domain
+11, it is quires a temporal representation. In Chapter
+of convo- Z.(w) an infinite series shown that becomes
+in the time domain. These can be implemented lutions
+3DFD code in a straightforward manner 110.261. in the
+required is not large and also de- The number of terms
+with time. creases
+possible to include in integral It is also Z.(w)
+one codes. For example, in a wire grid code, equation
+wires. can insert discrete equivalent impedances in the
+a way that These impedances are determined in such
+effect of the thin wire is to represent the the aggregate
+qnrface impedance. actual
+303

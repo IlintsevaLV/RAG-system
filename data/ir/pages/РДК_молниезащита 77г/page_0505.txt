@@ -1,0 +1,43 @@
+17 CHAPTER
+TEST TECHNIQUES FOR EVALUATION OF INDIRECT EFFECTS
+17.1 Introduction
+There are as yet few official standard tests or even generally recognized
+test techniques for evaluation of how well electrical and electronic equipment
+withstands the indirect effects of lightning. The purpose of this section is to
+discuss some of the existing test techniques, to discuss some of the philosophy
+behind some of the existing or evolving standards, and to suggest possible
+avenues of improvement in test techniques.
+The lightning current to which an aircraft may be exposed cannot be
+predicted beforehand except in statistical terms. Aircraft are thus designed to
+some type of model lightning flash--one which duplicates the essential
+characteristics of lightning, even though the chances of any particular lightning
+current actually having all those characteristics is vanishingly small. Α design
+model that has strongly influenced test techniques is the severe composite
+lightning model developed for the Program (Reference 17.1). This Space Shuttle
+model, with some revisions, seems to be emerging as α standard for aircraft
+design, testing, and certification. The model, as incorporated in present test
+1.36. practice (Reference 17.2), is shown as Figure
+As regards indirect effects, only the first and possibly the second return
+stroke are likely to be of consequence. The wave fronts of the initial return
+stroke and the restrike are not specified in Figure 17.1 (Reference 17.2), since
+they are not significant for the evaluation of direct effects. In theSpaceShzcttle
+MIL and in the earlier Program Lightning Protection Criteria Document
+specification Bonding, Electrical and Lightning Protection for Aerospace
+2 (Reference 17.3), the current is taken to rise linearly to crest in ps. Systems
+Dividing the peak amplitude of 200 000 Α by α front time of 2 ps yields an
+average rate of change of 100 kA/ps, α figure frequently quoted with respect to
+indirect effects.
+Ideally, for proof tests to determine indirect effects, α simulated lightning
+current having this waveshape (or at least the waveshape of the initial stroke
+would be circulated through the aircraft and the electronic equipment observed
+In practice this to insure that no harmful effects would be caused by the current.
+not done, since available surge generators do not have the stored energy is
+required to circulate this amount of current through the inductance that would
+be associated with α complete aircraft. Compromises with perfection have to be
+made, and these take the following three forms.
+Tests may be made on α complete aircraft, during which tests
+currents of high amplitude are circulated through the aircraft and
+the effects noted. In such tests the waveshape of the current may
+differ radically from the waveshapes of actual lightning currents.
+and are discussed in Tests of this nature might be called proof tests
+Section 17.3.1.

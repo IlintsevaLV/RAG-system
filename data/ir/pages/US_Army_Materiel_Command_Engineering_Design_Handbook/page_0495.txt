@@ -1,0 +1,97 @@
+еж
+which oniy thrust londs are preoent, spocial thrust
+For high-speod appiications, bali bearings or cylin-
+drical roller bearings should be givon first considora-
+tion since their speod capabiliti-σ are significar.tly
+greater than those of tapered or sphericel roller
+boarings. Where the motion between two members is
+oscillatory rather than rotary, consideration should
+be given to sliding spherical or journal bearings or to
+laminated elastomeric bcarings.
+ё Environmental conditions that must be considerod
+include op.reting temperature, possibility of con-
+tamination, and corrosive simosphere. Knowiedge of
+the operating temperatures to be encountered will aid
+in the definition of the bearing materials to be used.
+Bcaring steels usually can be stabilized thermally for
+α particular range of operstiag temperatures. En-
+vironments that can cause contamination or corro-
+sion may require that spocial scaling devices be incor-
+porated into thc bearing. Operation in highly cor-
+rosive atmospheres may require the use of corrosion-
+resistant bearing steels.
+Unce the design requirements are defined and the
+possible bearing configurationa selected, the designer
+should perform the necessary bezring life calcuia-
+tions. For rotating. rolling-element bearings, the
+basic Β-ι0 iife equation is:
+Lo 16,667 N (ζ) ,hr
+ог
+Λ'10 = 10 () rev
+where
+Ljo = Β-10 life, hr
+Λ'ιn = Β-10 life, revolutions
+Σ = basic dynamic capacity, 1β
+ρ = equivalent radial load, ib
+N = rotational speed, rpm
+ε = life exponent, 3 for ball bearings and 10/3
+for roller Searings
+The basic dynannic capacity C is defined as the
+radial load that α bcaring will endure for α Β-10 life of
+one million revolutions of the inner ring. with the
+outer ring stationary. This capacitv Cun be Cefined
+equivalentiy as the radial load that will yield α Β-10
+life of 500 hr at α shaft speed of 33-1/3 rpm. The basic
+aynamic capacities of their standard bearings are
+available from the bearing menufacturers. For new
+designs, the Anti-Friction Bcaring Manufacturers
+Association (AFBMA) has established procedures
+for calculating the capacity bascd upon internal
+
+AMCP 706-202
+bearing goomotry (Refs. 1 and 2). When comparing
+catalog capacitios q' oted by different manufacturers,
+definod similarty in terms of life and speod. Load
+ratirgs based upon livos and speeds other than 50) hr
+and 33-1/3 rpm can be converted to basic dynamic
+capacity C by:
+|1/
+C, (16,667) ,1β (16-3)
+where
+C, - load rating for lifc Λ, and speod N., 1β
+Λ = life, hr
+N\ρ$ = speed, rpm
+Thc equivalent radial load Π is definei as that
+radial load that yiclds α bcaring life oqual ro tie life
+resulting from the combination of redial and thruat
+loads actually imposod upon the bearing. It is
+caiculated by the relation:
+Π - XVR + YT , 1β (16-4)
+wiere
+R - radial load, Ib
+= thrust load, 1β
+χ,Y - radial and thrust factors, raspectively,
+dimensionlces
+υ = rotation factor, dimer ionieas
+(16-1) The radial and thrust factors Ξ and Y are basod
+upon internal bearing geometry and are given in
+Refs. 1 and 2. The rotation factor V is equal to 1.0 if
+thc inner ring of the bearing is rotsting with respoct
+(16-2) with respect to the radisl load. to the radial load, and 1.2 if the outer ring is rotating
+In most helicopter applications, the losds and
+speeds vary over α predictable spectrum. In such in-
+stances, the equivalent radial load Π can be expresed
+and is
+determined by:
+PN [ q(Π) lfe ,lb (16-5)
+where
+= prorated load for speed N, . 1β
+rotational speed at which the equivalent
+radial loa: is determined, rpm
+– load imposed on bearing for fraction of
+time 1,, lb
+N = speed imposed on bearing for fraction of
+timet,.rpm
+– fraction ef time, dimmensionless (the sum of
+fractions must be exactly 11
+16-5

@@ -1,0 +1,86 @@
+the points conductors of electrical context In the
+can be considered as the ends of current carrying fila-
+ments while the term "equal weight" implies that all
+carry equal current. In this context the the filaments
+of an irregular shaped conductor, or of α group GMR
+of conductors in parallel, is the effective radius. The
+concept is valuable since the self- inductance of any
+conductor is equal to the mutual inductance between
+two filaments separated by the That concept GMR.
+is discussed further in §9.7.3.
+Voltage and Current Concepts 9.6
+electrical of concepts some that shows Experience
+be, might they as well understood as not are circuits
+field the in specialists not are that those by especially
+im- more of the Some interactions. electromagnetic of
+portant points are reviewed in the following sections.
+Elements Constant Lumped 9.6.1
+The relationships between 'oltage and current for
+lumped constant circuit elements are well known.
+Resistance
+(9.42) ι= EIR
+Inductance
+E
+jwL
+E 1 (9.44) dt =
+J
+Λ
+(9.45) = di/dt Λ E
+Capacitance
+(9.46) jwC ι =
+(9.47) = ι C dE/dt
+(9.48) φ dt I = ECf
+of Integral Line the as Voltage 9.6.2
+Potential
+of po- The definition of voltage as the line integral
+tential is less well appreciated. Voltage and potential
+are different concepts. Α charged sphere, for example,
+Fig. 9.4, will establish α field E in the surrounding re-
+gion. The potential of the sphere cannot be established
+independently; it can only be established by defining
+some separate point as α reference potential. Com-
+
+of potential α reference is assigned "ground" monly
+zero and the potential of the sphere relative to α zero
+potential ground is found by integrating the field along
+Hypo- the path between the sphere and ground. Σ
+thetically the integration can be done by connecting α
+perfect voltmeter between the sphere and ground. The
+resulting deflection of the meter defines the voltage of
+the sphere, though for exactness, one should say that
+the meter indicates the voltage of the sphere relative
+to the ground.
++++
++ +
+q + +
++ +
++
+Σ
+7 7 7 7 7 7 ρ 7 7 / /
+Fig. 9.4 Voltage as total difference of potential.
+Importance of the Path of Integration 9.6.3
+Does the voltage depend on the path of integra-
+tion or upon the path taken by the leads connecting
+the voltmeter to the sphere and ground? This is not
+for importance fundamental of is it question; trivial α
+understanding how voltages develop in objects carry-
+ing current, such as an aircraft carrying lightning cur-
+rent.
+For dc con- elements: constant and lumped DC
+mea- the by taken path the that is answer the ditions
+suring leads does not influence the voltage, but for ac
+or transient conditions this is true only if the mea-
+electromagnetic of free region α traverse leads suring
+fields. As α practical matter this situation is found
+only when measuring the voltage across lumped con-
+electromagnetic the which in elements, those stant
+element. the within enclosed entirely is field
+As an example, the ac voltage developed across
+be measured with- the winding of α transformer can
+out regard to where one places the measuring leads
+because the magnetic field inducing the voltage in the
+windings is entirely (or nearly entirely) contained in
+the core of the transformer. The external magnetic
+field is negligible (ideally zero) and so not able to in-
+duce any voltage in the measuring leads.
+250

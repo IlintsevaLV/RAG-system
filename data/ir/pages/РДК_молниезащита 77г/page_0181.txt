@@ -1,0 +1,44 @@
+anodized or zinc chromate primer, but if it is applied across preexisting surfaces
+where these treatments have been worn through, this voltage may be sufficient
+to cause current flow and sparking.
+stroke As stated earlier, the fraction of which enters a bonding current
+produces are not known. It is quite probable jumper and the inductive voltage it
+that at least some stroke currents would produce even higher rates of current rise
+in the bonding jumpers than do the intermediate currents.
+6.8.3.2 Conductivity through Couplings and Interfaces
+Here again is an area where little electrical data is available. The extensive
+use of anodized coatings to provide noncorrosive mating surfaces in pipe
+couplings would seem to preclude arcing across the pipe interface, but relative
+motion between these surfaces can wear through the anodized coating, causing a
+conductive path. If there happens to be bare metal-to-metal contact within the
+coupling, this would probably represent the shortest path, and it is altogether
+possible that n o sparking would occur anywhere else in the coupling. A slight
+change in the relative position of the mating surfaces or in some other aspect,
+such as the tightness of its threaded assembly or introduction of dirt or residue,
+may drastically change the electrical conductivity of a coupling. In fact, it is
+probable that the electrical conductivity of a typical pipe coupling changes many
+times during a flight as a result of relative motion caused by structural vibrations
+and flexing.
+In the absence of definitive data on the electrical conductivity of pipe
+couplings under in-service conditions, it is advisable to take the following
+approach:
+Determine the fraction of lightning current expected to flow in a 1.
+particular pipe, by analyses similar to the analysis of Section 6.8.3.1,
+or, if available, a more authentic means.
+2. Inject this expected current through a sample of the desired
+coupling, under simulated in-flight vibration and contamination
+conditions.
+Perform this test in a darkened enclosure to enable inspection for 3.
+sparks. Repeat the test until a reliable result is established.
+sparking does occur in a coupling, a redesign is likely to be required for If
+be possible to provide adequate conduc- assured prevention; however, it may
+tivity with the addition of two or more short, wide braided jumpers or a braided
+sleeve, as shown in Figure 6.38(a) and (b).
+Alternatively, completely insulated couplings might be designed. If such an
+insulated coupling were used, a jumper as shown in Figure 6.38(c) could be used
+to conduct lightning currents and static charges, provided the length of the path
+through the jumper is not much longer than the path through the air along the
+surface or through the insulated coupler.
+Before using any one of these or any other protective method that has to
+be added to an existing coupling design, its adequacy should be verified by
+impulse current tests to check for sparking.

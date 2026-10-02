@@ -1,0 +1,64 @@
+F4
+BOUNDARY STABILITY
+VFR-MIL-H-5501
+SATISFACTORY THIS SIDE
+~j-0.6
+RADIUS EQUALS
+NATURAL UNDAMPED
+FREQUENCY
+*
+Cos-'4
+art
+-"3 -2
+REAL
+v"co~ν
+STABLE
+TOHAL AMLITDEsec STIM
+TIMETO ALFAMPLTUD, sc
+Figur 6-2.
+can asese be more effectively the roll by sub-
+sididnce thmc constant. For missions requiring agility,
+the timid constant should be minimized, ccr, sistent
+with other factors such as pilot accelaertion environ-
+ment and lateral pilot induced oscillation (PIO).
+In the twt rfercnct-,ý the low roll time constant
+ws obtained with α ri$jd-rotor vehicle. However, the
+same response =ν obtained be with α conventional,
+articulated rotor with stability augmentation. Root
+and trimient anialymt can indicate the augmenuttion
+
+fl,
+12 0.8
+τ
+0.7 1.4
+4:
+-1.6 0.6
+>-0.
+0.5 2.0
+3I
+ζ
+.0.4 -2.5 0
+0.3
+4.0
+STBE 0.2 ,5.0
+O
+0.1 __10
+tA HOVER
+pi06lkt δ20 N 12Δ kt
+= ". +1•
+ROOT PART OF
+I
+UN~ALE UNA
+10-.0 10.0
+χ DOUBLE AMPLITUDE
+Ota~racedestic Root Plot
+loops needed in order to reduce this time constant.
+Because of" the obvious requirement to minimize time
+delays, any lags in roll control azctuation also should
+he reduced as much as is praticablec.
+At speeds above 40 kt, other lateral modes of the
+helicopter are comparable to those of fixed-wing air-
+craft. Unfortunately, MIL-H-85O1 presents no VFR
+stability criteria. Poor, and even unstable, Dutch roll
+characteristics can occur with MIL-H-850 com-ν
+pliance. Π•or Dutch roll stability under conditions

@@ -1,0 +1,99 @@
+field: the is that The first of incident Cancellation
+tends to that field α magnetic produces current shield
+15.7(α). From this view- the incident field, Fig. cancel
+point the voltages between the signal conductor and
+the incident the difference between ground depend on
+land the cancelling fields.
+the reduction coupling: 'Alternatively, Transformer
+in voltage can be viewed as the effect of the mutual
+inductive coupling between the shield and the signal
+the by illustrated is approach latter This conductor.
+consid- is shield The 15.7(χ). Fig. of circuit equivalent
+as the primary of α transformer and tle conductor• ered
+at both Since ,the shield is grounded the secondary. \as
+ends, all the voltage developed on the shield appears
+transformers. The mutual of the the, primaries across
+coupling between the shield and the signal conductor
+is veryI nearly unity since there is only α small (idf'ally
+to the shield and 'o the zero) magnetic field internal,
+voltage induced in the secondary, or signal conductor,
+side of the equivalent transformer, is about equal to
+volt- The shield. the in originally induced voltage the
+age appearing between the ends of the conductor is the
+sum of that indticed in the conductor and that coupled
+through' the tran σ'former (rom, the shield. Accordingly,
+the voltages appearing at the ends of the conductor
+are lower than they ývould be if the shield could not,
+* carry current.
+Transfer impedance: The transformer equivalent cir-
+cuit of Fig. 15.7(χ) is not well suited to numerical cal-
+in- and mutual the self that it requires since culation
+trans- The high precision. evaluated with be ductances
+fer impedance of Fig. 15.8 is better since it involves
+of the shield and calculation the resistance of the only
+magnetic flux that leaks through the shield and so does
+not equally link both conductors. This flux can be re-
+duced to an equivalent transfer inductance The Λ . 12
+voltage induced on the conductor then depends on the
+shield current, R and How the voltage distributes Λ . 12
+depends on the loads at the end of the cable. In Fig.
+15.8 most of the voltage develops on the open end.
+Multiple Conductors 15.4 in Cable Shields
+If there are multiple conductors in the cable, each
+of flux be exposed to the same amount conductor will
+This equal voltage. in it an induced and will have
+holds true whether the conductor is located adjacent
+to the shield or in the center of the bundle of conduc-
+tors comprising the core. Stated another way, position
+of the wire within the shield has little effect on the
+magnetically induced voltage. Accordingly, the volt-
+age between any pair of conductors in the core will be
+small.
+
+of sufilcient not seem tools do Present analytical
+the magnitude assurance any with to predict accuracy
+best determined by voltages; they are of line-to-line
+actual measurement, Line-to-line voltages are much
+impedances to which strongly influenced by Aoad more
+the conductors are connected than by the position of
+the coniductors within an overall'shield.
+7/
+.. . -:"
+"...
+- , •
+(α)
+ , -. - -ρ- -.
+-
+,
+400'
+I V _ [" ,_
+.
+-' (β)
+I #,
+Τ
+, '•j.[•"[ • [• tVg
+(χ)
+Fig. 15.8 Shield groundei at both ends
+(α) Test conditions
+voltages (β) Conductor
+circuit (χ) Equivalent
+on Cables Multiple Shields 15.5
+One very common situation involving multiple
+conductors is α configuration in which α shielded con-
+ductor is itself contained in an overall shield. Fig. 15.9
+shows such α condition and shows some of the factors
+that must be considered when predicting the response
+of this two-cable network. They are the noise cur-
+rents on the outer shield, the internal field of the outer
+shield, the current induced on the inner shield, the in-
+ternal field of the inner shield and the coupling from
+the inner shield to the signal conductor. The inter-
+of the noise the outer shield is the product nal field of
+the outer shield. of impedance and the transfer current
+Inner shield grounded at only one end: If the inner
+shield is ungrounded at the right-hand end (switch
+Σ of Fig. 15.9(β) open), the internal field of the
+lI...., outer shield, E produces α voltage difference, _., 1
+at the right- hand end of the cable. Neglecting the
+distributed capacitance between the inner and outer
+401

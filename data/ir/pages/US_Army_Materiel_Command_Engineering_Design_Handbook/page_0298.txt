@@ -1,0 +1,104 @@
+~ AMCP 70620
+-
+need a "no-back" (a device to prevent the foed- for
+back of forces) located upstream of the SAS series
+tuator. A stick boost also will perform this function.
+if the helicopter is to be equipped with In addison,
+autopilot that introduces signals through actuators
+that move the cockpit controls in parallel with
+pilot, there is a requirement for compatibility amr.ong
+tVe inertia, compliance, and damping of the primary
+controls and of the parallel actuator. m.chanical
+6-4.5 VULNERABILInY
+exposes operations grounid of support close The
+and U cargo, utility, S Army's observation, the
+and automatic to arms small armed helicopters
+weapons fire, The unprotected, singlc-channel flight
+its entire over is vulnerable control length. system
+reduce vul- a number of There this are weys to
+nerability.
+naethod One so rugged the components make is to
+struc- losing their sustain a without that hit they can
+feasible, seldom this is However, tural integrity.
+must weight be controlled and space when pecially
+rigidly.
+will be pro- the cockpit, as areas, such Cert.,m safeguard armor piate tectec in order to with I
+to shield same armor can used te crew. The
+feasible However, it may not be mechanical controls.
+the swashplatc. way to all the plate armor to run
+cintrol A redundant system not only helps solve Wo
+also improves flight vulverability problem but the
+safety reliability. To be effective, redundant channels
+must be separated physically. Consideration must
+given to single-channel jams and disconnects, to ade-
+quacy of control if the remaining chann-.l goes to half
+gait, and to the question of whether the con-
+figuration should be active-active or active-standby.
+64.6 RELIABILITY
+The overall reliability of a flight control system
+pends upon the reliability of the individual com-
+ponents and upon their arrangement, which may
+either in series or parallel. If the helicopter system
+specification prcscribes a minimum acceptable value
+for flight safety reliability, this value may be so high
+as to require dual mechanical controls. The detail
+designer first must establish the single success path;
+then, if system reliability is inadequate (a value
+than required by the helicopter system specification),
+he must add redundancy, beginning with the least
+reliable componn'nts,
+The reliability of a component is a function of
+historical mean time between iailures (MTBF) of that
+component. When historical failuic rates arc used,
+similarity between the tav,ronment under which
+6-18
+
+data were taken and the environment in which the
+ac- new system will perform must be assured, or ap-
+propriate adjustment of the projected rates must be
+an made.
+Another rationale for duplication is based upon
+the failure considerations. power A actuator may pro-
+vide the required reliability; but if a failure of the ac-
+tuator is catastrophic, a redundant actuator is re-
+Further discussion of this subject is con- quircd.
+tained in pars. 6-5.2 and 9-2.
+MECHANISMS 6-5
+The rotating controls in the main rotor sytem nor-
+mally the include links, the pitch swashplate, rotating
+shown drive These the components are scissors. and
+in the Fig. 6-8. Functionally, arrangement in a typical
+shaft the rotor along translates swashplate rotating
+inputs. by any tilts in dictated control plane as and
+to arc transferred and tilt translation swajhplatc The es-
+and, links pitch the through horn the blade pitch
+ro.or thrust vector. The thereby, control the main
+con- the rotating of (a) fix tMe positionp scissors drive the • blades. and iu ihc and rotor ruoor rchaivc cruis 'haft
+of drive the load path for the conversion the (b) provide
+to in- the tangential force required shaft torque into
+controls. rotating in the motion duce rotational
+6-5.1.1 Design Factors
+be designed Structurally, the rotating system shall
+be to withstand the alternating (fatigue) flight loads in-
+troduccd by rotor blade torsional moments and the
+maximum loads introduced by severe flight mameu-
+vcra or during ground operations. The fatigue loads
+are periodic, and alternate primarily on the basis of
+once-pcr-rotor-tevolution. In other words, each time
+the rotor blades complete one revolution, the pitch
+de- link load completes one stress cycle. Therefore, a
+high-cycle fatigue evaluation is rcquired. The pri-
+be mary loads are discussed in pars. 4-9 and 4-10,
+AMCP 706-201. and the fatigue evaluation is dis-
+cussed in par. 4-11, AMCP 706-201.
+In addition to the primary Pisht loads, special con-
+sideration be given to socondary loads. Failure shall
+to evaluate secondary loads properly may lead to set-
+less vice problems. Among the secondary loads that shall
+be considered are frictional moments in rods and
+bearings, and bending moments created by centri-
+fotgal force. typical A pitch link rod end, with a self-
+the aligning bearing, is shown in Fig. 6-9.
+Bearing motions of -6 deg are not uncommon
+during each rotor revolution. The normal force (pitch
+coefficicnt the link aad) times the of friction produces a

@@ -1,0 +1,15 @@
+Pressure
+mm Hg of
+When determining the breakdown voltages of an object such as a fuel
+quantity probe, care must be taken to apply test voltage to all the electrode of
+combinations which may exist (this need not all be done simultaneously). In
+most cases both the "high" and "low" electrodes in such a device are insulated
+from "ground" (the airframe), as shown in the simplified drawing of Figure
+6.40, but there is always a mounting bracket which brings the probe in
+proximity to the airframe. Thus, the test voltage should be applied across each
+of the basic electrode combinations shown in Figure 6.40. Usually, the gaps to
+a the mounting bracket or airframe will be larger than the others and require
+higher voltage to cause sparkover. Typical impulse sparkover voltages to be
+3000 expected across these gaps, at a flight altitude of m, might be as shown in
+Table 6.7, where the "high" and "low" electrodes are defined as shown in Figure
+6.40.

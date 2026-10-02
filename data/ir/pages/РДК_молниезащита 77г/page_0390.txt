@@ -1,0 +1,25 @@
+The transfer admittance of the braided-wire shield, governing the degree to
+which the shielded cable may be affected by external electric field, is
+Yt (13.18) = j C 1 2
+is the capacitance per unit length between the internal conductors and the C1
+shield, is the capacitance per unit length between the shield and its external C2
+is the permittivity of the insulation inside the cable. current return path, and ε
+The preceding equations indicate that both the mutual inductance and the
+mutual capacitance depend on the weave angle of the shield. For α constant
+aMC coverage and for specific size cable, the variations of and with weave angle
+are as shown in Figure 13.18 (Reference 13.5). The mutual inductance per unit
+length increases rapidly with increasing weave angle, since, as explained earlier,
+apertures with their major axes oriented parallel to the lines of magnetic flux are
+-
+100 - TlI 1 Ill 1 1 IIlllC - -
+δ - - - - - 30° = - 0
+lcma = C 85 K 4% 42 = = - 6 3 δ μ~lr =
+N 10 = - C 89 5%, K 46 =
+-
+-
+-
+-
+C K 8%, 58 97 = =
+lo7 o5 1 -
+FREOUENCY Hz
+Transfer impedance of α braided-wire shield. 13.1 7 Figure

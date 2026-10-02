@@ -1,0 +1,112 @@
+fiMCP 705-202-
+auxiliary power unit is to be included. The
+analyses involved in system selection are E
+Chapter 7. AMCP 706-201. Approximate
+the various electrical system components or
+weights per unit output are presented with
+cussion. Only upon analysis of all secondary
+requirements and systen,μ will it be possible
+termine whether or not the requirements for
+starting, and other secondary power, would
+served by an APU or by an electrical source,
+In general, duplicate primary electrical
+sources will be required. The electrical
+load will be split betwetn the sources,
+tributed on two busses such that the total
+nri be I more than hAlf the capacity of the total
+Thus, in the event if failure of one source,
+paurP•.eling will enable the remaining source to
+all the electrical pows! required.
+In addition, an "euek:tial" bus must be
+All components vital to the safe operation of
+copter under night and instrument conditions
+be connected to this bus. In the event of the
+failure of the primary source, the emergency
+(battery) must provide power to this bus typically
+20. min of operation with α IL'* reserve. suoh
+fication for the oatttry powered emergency
+typically will require the insta'lation of α
+charger/analyzer in the system. This unit is
+to insure that the charge is maintained and
+toted and that the power from the primary
+distributed properly during normal
+between the utilization load and battery
+To illustrate the level of input detail given
+designer at the outset, the system specification
+delineate the electrical system for α
+helicopter - ι.ε., the primary AC power source shall
+208-V to 120- three-phase 400-cycle, two be
+gearbox, accessory on the mounted generators
+primary DC be supplied by two sll
+power emergency that rectifiers, and
+provided by α nickel-cadmium battery with
+ficient capacity to supply power for 20 min
+with α 10% reserve. This battery load includes
+verter to provide essential AC needs. Also
+nar the requirements for lighting, communications,
+navigation equipment, and other utilization σ
+meat components.
+Even with such characteristics predetermined,
+&mnains for the designer to select components
+meet the applicable, specification and to insure
+system the overall of chara-teristics electrical the
+form to the requirements of MIL-STD-704.
+shall include design system the of tiation
+MILE-716.4. analsisin acor~ncewit 7analysis 2rdtnce in with MIL-E-7016.
+7-2
+μ
+
+trade-off 7-1.3 LOAD ANALYSIS
+dis-ussed in The information and general format rmquired for
+weights of electrical load analysis are given in MIL-E-7016;
+typical however, the requirements may be modified slightly
+that dis- (particularly for automated systems) to each. pro- fit
+power gram. For instance, the specification requircs that the
+to de- form be as indicated, but this can be modified to fit
+engine- the format for automated equipment. One page can
+be better comprise the equipment list, equipment description,
+parts designation, and electrical ratings, while the
+power next sheets can obtain the acutal calculations, with
+utilization the pages folded such that the columns match the pre-
+being dis- ceding sheet when unfolded. Th,ý paragraph that per-
+load will tains to operating times can be revised to matc~ι more
+source. closely the modern generator overload times; ι.ε., 5
+automatic sec, 5 rain, and continuous instead of 5 sec, 2 min,
+supply and 15 min. MIL.E-7016 requires that phase-to-
+ground identification be Α-N, Β-N, C-N, etc., and
+provided, this can be modified to Α. Β, C, and Δ, with Δ being
+the heli- the neutral leg of α three-phase four (4) wire system.
+must However, an explanaeory note must be included; and,
+complete because dclta-conniocted loads arc rare in modern
+source helicopters, α code also can be established for this
+for situation and explained. MIL-E-7016 gives the for-
+α speci- mulp for powcr factor. Usually, this ihiformiation is
+bus obtained from the equ-pment manufacturer or by ac-
+battery tual measurement; however, the formula in MIL-E-
+daigned 7016 may be used. The formula for determining
+moni- single-phase and three-phase power factors ib; PF
+source is connected watts
+χ,#cration - (7-1) PF
+charging. (connected watts), (connected + VARS)'
+to thc where
+may VARS volt-amperes, reactive
+particu*4ρ The time intervals for the analysis can be modi-
+4.-ε ;, .... U rnfic -. ν in 'Ar, τ ,-*. . V~ . . ... AC .-
+of min ι. hundieths 5 second increments, of α tenths that
+α minute, and min in hundredths of α minute may 15 transformer-
+be used. be shall
+st'φ- 7.1.4 LOAD ANALYSIS PREPARATION
+of fligu.τ The load analysis, as defined by MIL-E-7016, can
+an in- be written, typed, or presented as an automated
+specified printout.
+From the beginning of α new helicopter dcsign, α
+complete elect.ical load file must be kept for each
+piece of equipment. Ideally, α printed file card should
+be made, allowing jpace it for the following informa-
+that tion:
+that I. Name of equipnent
+nui,,ber part Equipment 2. con-
+Substan-
+(normal operating) voltage Rated 3. α load
+or three- single- AC, (DC, voltage of Type
+pha)

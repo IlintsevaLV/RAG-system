@@ -1,0 +1,71 @@
+can The degree to which the MAGFLD program
+calculate the magnetic field in the space surrounding
+the aircraft fuselage, while interesting, may not be of
+aircraft great use for studies, since it is usually only
+the field intensity at the surface of the structure that
+of of is capable however, program, The interest. is
+calculating the field distribution in and around these
+simple geometries with sufficient accuracy for many
+purposes.
+Rdlstributlen: The filamentary method can be used
+to calculate redistribution effects by connecting in se-
+ries of α with each the inductors of Fig. 10,13 resistor
+operationsof matrix value. In the appropriate of the
+Eqs. 10.20 through 10.40 the values and Μ must\ of Λ
+replaced be by and jwM and the matrix oper. -. R+jwL
+ations carried out with complex number routines, but
+the process is otherwise as indicated. Standard circuit
+analysis routines, such SPICE, SCEPTRE, as NET-
+11 and can alao ECAP be used to evaluate the current
+in each filament. Fourier transform techniques could
+then be used to evaluate the response as α function
+of time. Some of the circuit routines can, of course,
+evaluate the response dirertly as function of time. α
+I.
+% \ ' ' ~
+,,ShA *
+Σ\ \ \ \
+F - ,\\ \% \ ,\
+π- \ξ\V \ \ ;,\
+\ \ ,v-•".."_\ ¾\ \
+'•
+¾GA
+/ , . iiiI .
+I
+Fig. 10.17 Field with equal current distribution.
+Μ8
+
+u.ml- \ - %' . -. *- I
+F-",,
+κ----.. \ \ \ , .
+',
+I
+" %' % " o' % *
+I -\ \
+'\ \ %
+IN
+' \ ' \ \ \ ' \ \ \ \\\ \ \\ [
+14
+' \ \ ι... \ o\ -- I o' "'μ
+\ \
+-
+\ 1Α, / "
+.
+I/ We 4CA~η !Λ . I ι
+[ " .
+ι
+- ,- ,- Λ
+" -- '--F-F- '-F'' *
+bays. Recessed 10.18 Fig.
+Nav SA
+UJA
+01"Ω υ.
+-.. - U
+0. As
+Α
+I. "'Α"
+.. ,*
+τ 010"4 0I 00I 0.
+Fig. 10.19 Current distribution and magnetic field
+strength at the surface
+(one quadrant only shown).

@@ -1,0 +1,41 @@
+(see Reference 6.25) for the particular lightning-strike zone in which the jettison
+or drain pipe is located.
+6.6 Hot Spot and Hole Formation in Integral Tank Skins
+Integral tank skins are those in which fuel is in direct contact with the
+outside skin of the aircraft. Tanks of this type are commonly found in the wings
+of transport and some general aviation aircraft, and in the wings and fuselages of
+modern fighter aircraft. External fuel tanks of the type carried on pylons or
+wing tips by military aircraft are also of the integral type.
+If integral tank skins are located in direct or swept-lightning attachment
+zones, the possibility of hot spot formation or meltthrough of the skin must be
+protected against. For the aluminum skins in common use, making the skin thick
+enough to dissipate the heat from the lightning arc before the skin can be melted
+completely through will assure protection because ignition will occur only with
+complete penetration and the resulting arc contact with the fuel vapor. This
+phenomenon depends on the fact that the ignition temperature of most
+(-1300 hydrocarbon fuel vapors "C) is higher than the melting temperature of
+aIuminum (-500 "χ); thus, ignition will not occur unless the skin is melted
+completely through to the fuel vapor by the hot Iightning arc, which can reach
+upwards of 30 000 On the other hand, the melting temperature of titanium "C.
+(-1700 and stainless steel skins is higher than the fuel ignition temperature,
+OC)
+so that, where this type is concerned, the skin need not be melted completely
+thkough for ignition to occur.
+The amount of lightning current required to erode or melt holes in aircraft
+skins has long been of interest, first, for the purpose of estimating how much
+lightning current actually was involved in the damage sustained by aircraft in
+flight and, second, for determining the minimum skin thickness required to
+prevent melt through of an integral fuel tank skin. Quantitative relationships
+by between electric arcs and typical aircraft skin metals were reported in 1949
+Hagenguth (Reference 6.26), who made laboratory measurements of the amount
+of continuing current necessary to melt holes of various sizes in various metals.
+He found α nearly linear relationship to exist between the amount of charge (Q)
+delivered to an arc attachment spot and the amount of skin metal melted away.
+And, although he reported that "the type of metal appears to have very little
+influence" (Reference 6.27) (α fact later found to be untrue), he determined
+that the size of α hole melted in α metal sheet of α given thickness can be (-4-0.9
+expressed by the following two equations:
+Q for Δ(τ<0.089 cm Α 2.53 =
+Q(&) -1.54 1 for 0.089<τ<0.38 cm Α = 2 4 5
+Α area of hole melted (square millimeters) where =
+136

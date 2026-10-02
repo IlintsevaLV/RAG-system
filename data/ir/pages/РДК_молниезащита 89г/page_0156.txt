@@ -1,0 +1,96 @@
+.The
+puncture voltage of some typical fiberglass skins
+used in radomes is shown in Table 6.3.
+Unprotected radomes are most often punctured,
+partly because of the low dielectric strength of non-
+conductive composites and partly because the radar
+antenna must, of necessity, protrude beyond any sur-
+rounding metal structure. This, in turn, means that
+the electric field is concentrated around the metal
+structure of the radar and that electrical streamers can
+most easily form there. The mechanism of puncture is
+shown in Fig. 6.27.
+Table 6.3
+Typical of Voltages Breakdown Impulse
+Fiberglass Skin Materials
+Skin Construction Total Breakdown
+Thickness Voltage
+fiberglass 0.163 cm 21 kV One sheet
+in 0.0o4
+filament-wound fiber- kV 180 Two 1.27 cm
+glass tape skins enclosing 0.50 in
+polyimide foam filler
+Two fiberglass skins cm 70 kV 0.99
+enclosing foam filler 0.39 in
+0
+electric field
+in radome
+internal
+s-- treamner S+Solid
+external
+Sstreamer
+Fig. 6.27 Mechanism of puncture of a radome.
+Protection of non-conductive composites: Whether
+or not a structure needs to be protected against light-
+ning depends both on its function and the conse-
+quences of damage. If loss of the structure does not
+create a serious hazard, then protection may not be
+required. For example, the loss of a small tail cone
+or empennage tip may not endanger the aircraft and
+these can be left unprotected and repaired or replaced
+in the event of a lightning strike. The loss of a nose
+radome during IFR conditions, however, would prob-
+
+ably not be acceptable since loss of the radome might
+also lead to the radar being disabled.
+There are two basic ways of providing protection
+for non-conductive composites. One employs diverter
+strips or bars on the exterior surface to intercept, light-
+ning flashes, while allowing the skin to be transparent
+to electromagnetic waves. This is the approach used
+for protection of radomes and some antenna fairings.
+The other method is to apply an electrically conductive
+material over the exterior of the structure. This latter
+method provides the most effective lightning protec-
+tion and should be employed whenever possible. It
+also provides improved protection of enclosed systems
+effects. against indirect
+With Diverters 6.3.3 Protection
+There are two types of diverter: solid and seg-
+mented. If properly applied, either type significantly
+reduces the number of lightning related punctures (of
+a radome for example), but they are not 100% effec-
+tive. Occasional punctures of protected radomes will
+still occur. Application of diverters will be discussed
+with particular emphasis on radomes, because that is
+where they are most commonly used, but the discus-
+sion is equally applicable to any insulating structure,
+such as wingtips made from non-conducting compos-
+ites.
+Solid diverters: Solid diverters are continuous metal
+bars placed on the outside of a skin to intercept a
+lightning flash and conduct the current to an adjacent
+metallic structure. They also provide some electro-
+static shielding from the external electric field for ob-
+jects under the skin, and thus they tend to inhibit the
+growth of streamers from these internal objects. Fig.
+6.28 shows solid diverters mounted to the outside of a
+radome.
+diverters should be designed to conduct,
+without damage, the lightning current of the zone in
+which the part is located, 2 typically 200 kA, 2 x 101 A s
+"for diverters on a nose radome in Zone 1A. Solid di-
+verters are usually made of aluminum, with a rect-
+angular cross section sufficient to permit conduction
+of the current without excessive tmperature rise. For
+mechanical reasons, and to prevent holes for fasteners
+from unduly reducing the cross-sectional area, most
+ 2 diverters have cross-sectional areas of about 0.5 cm
+2 (0.08 in , though some are larger. A common design
+is 3.2 mm (0.125 in) thick by 12.7 mm (0.50 in) wide,
+but thicknesses of up to 6.4 mm (0.25 in) have been
+used. The diverters are usually attached to the skin
+with screws spaced approxjmately 15 cm (6 in) apart.
+It is important that the diverters be securely fastened
+to the skin to prevent their loss due to rain erosion
+139

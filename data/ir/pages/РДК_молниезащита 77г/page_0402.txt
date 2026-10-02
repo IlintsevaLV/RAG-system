@@ -1,0 +1,24 @@
+SHIELD CENTER
+No. 14
+2
+Λ3
+\ >
+μ
+0
+-
+ps/div--+ 0.5
+Signal voltage vs grounding of signal shield: high source 13.28 Figure irn-
+pedance high receiving impedance.
+-
+13.29 Compare oxillogram No. 18 in Figure to oscillogram No. 12 in Figure
+13.28.
+The significant feature of these measurements is that rather complex
+of phenomena can occur on multiple-shielded cables when the grounding the
+inner shield is different from the grounding of the overall shield. Furthermore,
+the voltages on signal conductors can often be significantly lowered if the
+internal shield is grounded at each end, and the corresponding voltages are
+scarcely reduced at all the inner shield is not grounded at each end. Most if
+for commonly, of course, an inner shield is grounded at only one end control of
+low-frequency or low-level interference. Multiple grounding of the internal
+shields and the production of ground loops, then, is not automatically harmful;
+it may, in fact, be helpful.

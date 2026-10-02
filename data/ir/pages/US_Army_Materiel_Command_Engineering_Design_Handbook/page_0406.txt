@@ -1,0 +1,105 @@
+7. Low fuel quanrtity (20-min warning)
+Fuel filter bypass operatins (for each 8.
+9., Oil filter bypw opeating (for each filter)
+10. Chip detector (engine)
+II. Chip detector (accesory section)
+I1. Chip detector (transmission)
+13. Chip detector gearbox) (tail rotor
+14. Engine inlet icing (if applicable)
+icing IS. Other detectors (where appropriate)
+16. Electrical system faihart (both AC and
+Essential I. AC bus OFF
+1. Main transmission oil pressure
+19. Main transmission oil temperature
+20. APU low oil pressure (if applicable)
+21. APU high oil tumperature (if applicable)
+22. APU rotor speed (low/high) (if applicable)
+23. SAS failure
+cooter 24. Oil bypas operating
+25. Low oil level for each independent oil
+sytem
+26. Drive system overtorque (if engine rating
+sfignificantly higher than drive system),
+20-24.3 U Σ Ad'Isry
+Advisory should litSht ini.lude, but not be
+to, the following information:
+I. diengagc AFC5
+2. Pilot heat ON
+3. Parking brake ON
+4. Anti-ice ON (if applicable)
+5. External power ON
+& Starter ON
+7. Rotor brAke (if applicable)
+8. APU ON (it' applicable).
+j•3 INSTRUMENTS Λ Τ
+10-3.1 GENERAL
+Helicopter flight instruments are basically
+to those of fixed-wing aircraft although frequently
+are they optimized or provided with additional
+features to make them more suitable for helicopters,
+This paragraph dia.ussca preferred arrangements
+characterihaics and other for the selection of
+copter flignt instruments. The detail specifications
+will define when multiple installations art required.
+10-3,2 AIR SPEED) INDICATORS
+In view of the ability of the helicopter to fly at
+low airspeeds, including hover, airspeed indicators
+/ suitable for use in fixed-wing aircraft are not -
+ceptable for installation in helicopters. Instruments
+having increased accuracy in the low-airspeed \
+have been qualified, shal and be specified for
+\
+
+AMCP 70-202
+copter installation. Airspeed systems that are capable
+filter) of measuring and displaying both the magnitudz and
+direction of the relative wind should considered be
+relative when accurate wind data are required to im-
+prove weapon or navigation system accuracy, or
+when relative wind limitations during hover are
+critical.
+1033 ALTIMETERS
+DC) Barometric altimeters installed in Army heli-
+copters be of the countei-drum.puinter con- shall
+figuration. Α maximum altitude reading of 30,000 ft
+is adequate for use in helicopters. One of the alti-
+meters in each helicopter provide encoded alti- shall
+tude information to the transponder compatible with
+tkl, CONUS air traffic control system.
+Sonm mission applications may require an altitude
+display that providts an accurate and direct in-
+sub- dication of relative altitude or height above the
+terrain. In these cams, radio or radar altimeter will
+is be specified in addition to barometric altimezeis.
+10-3.4 TURN-AND-BANK INDICATORS
+The turn-and-bank indicator provides rate of turn,
+limited and/or needle and bail sideslip information. in some
+cases, the turn-and-bank indicator should be corn-
+bined with the attitude indicator. However, the turn
+rate gyro and the attitude gyro be provid3δ with shall
+independent power sources.
+10-3.5 ATTITUDE INDICATOR
+The attitude indicator provides the pilot with α
+substitute for the real horizon as α rclerence for main-
+taining desired aircraft pitch and roll attitude under
+all flight conditions. Α typical attitude indicator is the
+IND-Α5-UHI. This device is an electrically driven
+(400 Hz) 5-in. gyro that is housed in α standard in-
+strument case, α size that is preferred fcr ease and ac-
+similar curacy of reading and Because interpretation. of the
+magnitude of instrumentation required in μ-,., Army
+helicopters, the basic attitude indicator #_enerally is
+replaced with α mo.ε highly integrated display such
+as α vertical situation indicator (VSI). The VSI, if
+heli- spocified, provide the following as α minimum: shall
+attitAde (pitch and roll), rate of turn, inclinometer in-
+formation (slip and skid), FNI homing and station
+passage, glide slope, pitch and roll trim, and weak
+signal flag alarm. When α flight director system is
+very provided, command bars are added to the above re-
+suiting in an instrument referred to as an attitude
+ac. director indicator (ADI). An example of an ADI
+which has been optimized for helicopter application,
+range including α coll;ctive pit.η command, is shown in
+heli- Fig. 10-1.
+10-3

@@ -1,0 +1,21 @@
+1w
+AT
+OC
+10
+1 5
+- AREA cm'
+that the use of several conductors of small cross section would be advantageous,
+since the total amount of metal required for all of them would still be less than
+that required for one large conductor. This conclusion is sound, but there are
+two factors that should be given careful consideration before any decision to
+utilize several thin conductors instead of one thick one to conduct lightning
+currents is reached:
+As a result of vibration or corrosion stresses, thin conductors may 1.
+break sooner, leaving a situation which the remaining conduc- in
+tor(~) may be greatly overstressed by lightning currents
+2. The magnetic forces which act upon parallel current-carrying
+conductors may cause excessive damage to these conductors.
+On the other hand, magnetic forces may sometimes be reduced sufficiently
+by separating the conductors a sufficient distance from each other (See Section
+7.2.4).
+193

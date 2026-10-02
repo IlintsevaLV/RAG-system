@@ -1,0 +1,58 @@
+'Σ~.j~ι.-ι ~ ZuJ.~ *J~κ 4;
+< - .
+AMACP 706-202
+results. In addition, the modulation is in α nonsinu- based upon heat rise can developed for be various
+be soidal manner and the harmonic content is high. The critical ambient tenmperature situations. It must re-
+variable and reference modulation in α VOR is 30 Hz anari o vial ntegon Iebrdta
+is and thc localizer and glidescope frequencies are or when the helicopter hovering; therefore, either 90 I
+and 150 Hz; these are convenient all harmonics. This, auxiliary air from outside the aircraft or engine bloed
+coupled with the fact that helicopter rotor air must used to meet speed be cooling requirmecnts.
+is be often such as to give harmonics of and 30. 90. 150 α particular helicopter if is to multiuse α air-
+Hz creates prublek-as for avionic system designers. craft, requirements applicable to the various uses
+Techniques have been developed, as discussed in par. must considered. α single airframe be If is to used be
+of for phase inversion and cancellation 8-3.2, the for two or more different types of missions, the
+modulation. This technique shows promise of solving avionic configuration design must accomplish all
+the problem. However, the characteristics of certain requirements economically.
+existing ground "aci~ities are such that when this Environmental test requirements should be foiiiiu-
+techniqusv is used one error sitaply is exchanged for lated during the initial helicopter planning phase and
+should another. In any case, it is essential that nmanu- consider enviro.nmental conditions to all be
+encountered. helicopters incorporate facturers, of equipment for
+very narrow bana filters into their equipment, and
+π'-ocurement should be based 8-2 upon COMMUNICATION this criterion. In EQUIPMENT
+addition, antennas must be decoupled from the main
+8-2.1 GENERAL insofar as is possible. rotor
+In general, helicopter avionics do not have to be Army helicopters coutairt many combinations of
+desit~ned to withstand the altitude er~tremes that communication equipment. Because of the rapid de.
+fixed-wing avionic systems do. velopment of new devices and the chanzges in nouier-
+Dust and sand are more of α problem to helicopter clature, no specific radios are referenced in this
+avionic equipmcri to whan fixcd-wing Cquipmontn. chceLer.
+) Diiit can pack up in voltage regulators, iotating The typts of communication eq'ripmen! currently
+equipment, relays, switches, and othei critical de- in use include high frequercy, HF (3-39 MHz) -very
+vices and cause malfunctioas, If these components high frequency, VHF (FM') (30-75.9 MHz); VHF
+cannot be hermetically scaled, they must have: (Α.Μ) (118-150 MHz); ultra high frequency, UHF
+shrouds or other protective covering, and they will re- (AM) (225.400 MHz); and millimetei wave. typical Α
+quirt additional mrintenance, communication block diagram is shown in Fig. 8-I.
+Helie'opter vibration must considered be bas'4 Guidelines for the radio installaiwn iaicludcl:
+upon the installation of all equipment. The addition Tlae transmitter 1. should be mounted in close
+of equipinent, particularly in the it~struriicnt panel, proximity to the antenna in eirder to preclude line
+affects the frequencies and amplitudes of vibrietion. losses.
+rr!ι ;ρ.: With the &aJvcnt of solid-state components, vibration 2. The control head shoulti bv -. I te. pro-
+prob~lems have beecn reduced, but most internal Comn- vide ease of access for the flight clew.
+ponents sitill are, vulrerable to vibration fatigue. Routing 3. of audio wires should such be asIQpe
+While avionic manufacturers qualify their products vent crosstalk and feedback.
+to α specification, the applicable specification cannot 4. Power leads should of sufficient be size to per-
+duplicate absoluttly the situations enc ountered in the mit fUl generator/battery voltage to appear at the
+actual in.,taliation. Therefore, it is desirable to dc- radio under transmit conditions.
+sign for α minimum level of vibration. 5. Componenns should mounted be in an area
+sufficient cooling will be avaik~ble. ranges may severe. dependine wheic be Temperature
+areas low-vibration area should provided for 6. Α β-- upon ambiznt conditions. Because of the large
+of trinsparent. windihielO or canopy, solar heat can mounting. The vibration limitations for communica-
+become α problem when the doors are closed and the tion equipment are identified normally in the ap-
+helicopter is on the groanrd. Avionic packages are plicable equipment installation specification (SCL-I-
+good lieo.' sinks; they will absorb α great deal of heat OOXX).
+of these guidelines contributes to die re- and will kot dissipate it for some .imc after be- Each
+coming airborne. Some ground tcniperatur! con- liability of the overall system, and, thicieforrr, is cs-
+ditions 4re worse than conditions in flight. sential lor helicopter mission accomplishment.
+temperature survey it an important design Α con- Transmission lines, usually coaxial cables, are used
+sidcration for avionic equipment installation. Data to cai the transmitted signal ρ) to the antenna and the
+8-3

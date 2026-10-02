@@ -1,0 +1,19 @@
+OF TABLE CONTENTS
+. . . . . . . . . . . . . . . . . . . . . . . 16.7 Failure Mechanisms.. Capacitors 463
+. . . . . . . . . . . . . . . . . . 16.8 Failure Mechanisms.. Other Components 464
+. . . . . . . . . . . . . . . . . . . . 16.9 Examples of Use of Damage Constants 465
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . References 492
+. . . . . . . . . . Chapter Test Techniques For Evaluation of Indirect Effects 495 17 .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17.1 Introduction 495
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17.2 Waveform Definitions 496
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 17.3 Tests on Complete Vehicles 498
+. . . . . . . . . . . . . . . . . . . . 17.4 Tests on External Electrical Hardware 504
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 17.5 Tests on Internal Equipment 505
+. . . . . . . . 17.6 Design Notes for Transformer Pulse-Injection Equipment 520
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . References 530
+. . . . . . . . . . . . . . . . . . . . . . SR-52 Appendix 1 Calculations Conductor 533 . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . 535 Appendix 2 SR-52 Calculations Tube
+. .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Appendix 3 Program 539 MACFLD
+.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Index 545

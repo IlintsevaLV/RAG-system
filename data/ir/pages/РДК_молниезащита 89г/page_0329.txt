@@ -1,0 +1,86 @@
+and ξ 0 at the inner surface In Eq. 11.24 = δ ξ =
+is injected. The curxnt at the surface where current
+is given surface where current is injected density at the
+evaluating Eq. 11.24 at ξ by δ. =
+1 Ja= .2(φ--/ρ -..
+/ I. \
+(11.25)
+is given at the other surface The current density
+11.24 at ξ 0. = by evaluating Eq.
+Z τ) I[1_2(eu/ρ_,τ/__/ lst/?,....J]
+(11.26)
+the α step function applied current In response to current density along the inner surface builds up as
+shown on Fig. 11.7 and produces an incremental volt-
+and of the current density age which is the product
+The voltage along the resistivity of the surface. the
+the incremental path AB is then given by integrating
+the path is the Since the voltage along voltages. AB
+it follows that will V Vi only component of voltage , 1
+as shown on rise to the dc resistance following α path
+Fig. 11.7.
+Diffusion Response Characteristic 11.3.5
+re- α called diffusion-type is curve response This
+situations of types many of characteristic is and sponse
+dis- α through on energy the transmission involving
+transfer An example would be the tributed medium.
+flux were suddenly ap- heat into α block if α heat of
+be the plied to one face of the block. Another would
+or energy through an transmission of electrical R/C
+examples, with network. Fig. 11.8 shows ladder LIR
+as the best illustrative 11.8(β) often being used Fig.
+example of the phenomenon of skin effect,
+1.0
+o
+0 Λ--- Λ-
+0 Τ 7•
+to response Diffusion-type 11.7 1ig.
+function, α step
+
+might be Two important observations Waveshape:
+the shape of the response curve shown made about
+initially The first is that the response on Fig. 11.7.
+thus has α zero first deriva- changes only slowly and
+has α exponential response, which tive, unlike α simple
+The second is that the response finite first derivative.
+approaches its final value much more slowly than does
+response, In three time constants α simple exponential
+has reached Eq. 11.23) the response (as defined by
+99% point final value, but the rise to the 90% of its
+an expo- time constants. In contrast, takes nearly 20
+of its final value in three nential response reaches 95%
+constants and reaches 99% in 4.65 time constants.
+Eout Ein Rn (ν sections)
+• ,,I-,..λ , .ν• φ'- (α
+"
+'
+(ν sections) out I In Λ
+ι ,pw
+' "
+(bF
+networks displaying Fig. 11.8 Ladder
+α diffusion-type response.
+network (α) RIC
+network (β) Λ/R
+Eq. 11.22, it With respect to Influence of material:
+is penetration time constant should be noted that the
+directly proportional to the permeability of the ma-
+of the to the resistivity terial, inversely proportional
+to the square of the and directly proportional material
+material. The relative permeability thickness of the
+of structural materials used in aircraft is always very
+can vary resistivity and thickness but unity, nearly
+ranges. over wide
+Fig. in plotted 11.21 is shown Eq. reference, For
+11.9 as α function of material thickness and resistivity
+of the material. The resistivities of some typical met-
+were shown in §9.4.3. As an example, if we assume &Is
+an aluminum alloy with α resistivity of 2.69 ξ 10-σ
+skin thick- of copper) and α ohm-meters (twice that
+ness of 1.016 mm (0.040 inches), the penetration time
+function of current If α step 3.9 jus. be would constant
+it would metal, such of outside the on established were
+take 11.7 ps for the current density on the other side
+to reach 90% of its final value. If the duration of the
+ps, 11.7 to compared short were pulse current injected
+voltage. full IR the reach never would response the
+313

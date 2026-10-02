@@ -1,0 +1,44 @@
+Use Through 15.6 Circuit Protection of Protective Devices
+Circuit protective devices can sometimes be used to limit the amount of
+electrical energy that a wire can couple into a piece of electronic equipment.
+While one can seldom eliminate interference through the use of circuit protective
+devices, circuit protective devices judiciously used can virtually eliminate
+physical damage to electronic devices. "Judicious use" usually means that
+protective devices must be incorporated into a piece of equipment at the time it
+is built, not added after trouble has been experienced.
+There are two basic types of overvoltage or transient protection devices
+(TPD): those which, on sensing an overvoltage, switch to a low-impedance state
+and thus cause the impressed voltage across them to collapse to a low value; and
+those which, on sensing an overvoltage, tend (by virtue of their nonlinear
+voltage-current relation) to maintain the voltage at that level but do not tend to
+collapse the voltage. Examples of the first type are spark gaps or arcing dielectric
+devices. Examples of the second type are Zener diodes and varistors. There are
+also devices which, on sensing an overvoltage, interrupt the power flow to the
+load. If this interruption is accomplished by electromechanical means, they
+should not be considered transient protection devices because they are
+inherently slow to respond.
+Switching devices inherently offer greater surge-power handling capability
+than do the Zener or varistor types of devices. The instantaneous power
+dissipated in a transient protective device is the product of the surge current
+flowing through the device and the voltage across the device. For a constant
+surge current, a switching device like a spark gap, across which the voltage is low
+while in the conducting state, will have less power released in it than a device
+like a Zener diode, across which the surge voltage remains high. For a given
+surge-power handling capability, a spark gap will thus be smaller physically than
+a Zener diode or varistor device.
+Another fundamental difference between switching devices (spark gaps)
+and nonswitching devices (Zener diodes or varistors) relates to their recovery
+characteristics after the surge has passed. If a line is protected by a spark gap and
+if that line is connected to a source of energy (a power bus, for example), that
+energy source must be disconnected from the line before the spark gap can
+switch back from its low-impedance conducting state to its high-impedance
+nonconducting state. Generally this requires opening a circuit breaker on the
+A line. Zener diode or varistor effectively ceases to conduct as soon as the
+voltage returns to its normal value. Operation of remote circuit breakers is not
+required.
+All types of overvoltage protection devices inherently operate by reflecting
+a portion of the surge energy to its source and by diverting the rest into another
+path, all with the intention of dissipating the surge energy in the resistance of
+the ground and interconnecting leads. The alternative to reflecting the energy is
+to absorb the surge energy in an unprotected load. Reflection and diversion of
+the surge energy are not without their hazards. Some are the following:

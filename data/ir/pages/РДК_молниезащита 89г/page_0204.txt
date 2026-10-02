@@ -1,0 +1,104 @@
+Ways to reduce dwell time: The foregoing discussion
+makes clear the importance of lightning arc dwell time
+in establishing whether or not ignition resulting from
+strike to α skin is likely to occur. Dwell time is perhaps
+the only lightning characteristic over which the
+gral fuel tank designer has any control. The objectives,
+of course, should be to minimize dwell time at any
+spot and to spread the arc attachment among many
+different spots. Α bare metal external finish will
+achieve these aims, since most paints and other coat-
+ings aft to concentrate the attachment at more widely
+separated points for correspondingly longer times
+does α bare surface,
+If paint must be used, lightning dwell times
+be reduced by making the paint partially conductive,
+Robb and others [7.42] have demonstrated that
+minum powder is effective in increasing the conduc-
+tivity of polyurethane paints, thereby increasing
+ability of the are to reattach to new points as the
+craft surface moves beneath the arc. Since no para-
+metric data relating dwell time to amount of additive
+is available, it is advisable to make laboratory deter-
+minations of the degree of improvement afforded
+particular combinations.
+McClenahan and Plumer (7.44] have shown that
+small diameter metal wires intermingled with carbon
+yarns in CFC skcins act to disperse the electric
+and reduce damage at attachment points. This effect,
+which has been termed arc in §6.2.1, root dispersion
+is due to intensification of the electric field and punc-
+ture of non-conductive finishes above the wires. The
+extent to which this treatment shortens swept flash
+dwell times has not been evaluated.
+7.5.2 Cumuat Auplituda
+The high amplitude return strokes of the lightning
+flash are too short in duration to deliver appreciable
+charge and cause significant melting metal -. )φ skin ma-
+terials. Most of the charge in α flash is delivered
+continuing currents of several hundred amperes and
+by intermediate currents of several kiloamperes.
+of swept analyses stroke effects, emphasis should be
+placed on the intermediate and continuing currents,
+Components Β and because thewe can deliver large C.
+amounts of charge.
+There is. of course, α time dependency. as was
+shown in Fig. 7.13. Currents of 200 - 300 Α will melt
+through at lower emlomb levels than either higher or
+lower currents, This is relatd to the current density
+in the arc channel. The density. Α/ml, is limited
+at higher currents, the diameter of the arc channel ex-
+panda. This can result in multiple arc roots which
+spread out the current, rather than leaving it concen-
+trated at α single point. This reduces the damage.
+
+practical terms, 300 amperes for 10 milliseconds will
+produce more damage that 3000 amperes for 1 millisec-
+α ond, even though the charge transferred, 3 coulombs,
+is the same in either case.
+inte- For example, for design and tests of swept flash
+effects, §4.1.2.2 of [7.281 specifies that current corn-
+one ponents and Δ should be applied in Zone C. Β, 2Α.
+with Δ applied first, since it is α restrike current which
+best would be expected to create α new dwell point. Corn-
+ponents Β and C are then applied for whatever dwell
+time is expected, or for 50 ms if the dwvell time has not
+than been determined from swept flash tests or is otherwise
+unknown. This current is shown in Fig. 7.16. If α dwell
+may time of less than 5 ms is expected, an average current
+of 2 kA should be applied for the actual dwell time
+alu- only. It should be noted that even though the stan-
+dard specifies that testing be conducted in this man-
+the ner, nature is not restricted to the test environment
+air- and can deliver currents in any sequence. If Compo-
+nent C applied for the entire dwell time is more sevece
+than α combination of Component Β and C, thea that
+threat must be considered.
+by
+0 Δ IOOkA
+1000] Β Av 2 - 10 Α -α in 5μ
+arc 0- delivering 0.4 Α 'σ/ms 4Α
+1000 o10
+oo100.
+0 0 51 IS 15 0 25 30 35 40 45 50
+time - Milliseconds
+Fig. 7.16 Current and charge expected at α
+Zone 2Α dwell point.
+Drawn with straight lines only for purposes
+of explanation
+by
+In
+The environment for Zone JA includes current
+components Α and Β, but no portion of component
+C. Component Α applies α higher action integral and
+more intense shock wave, which can puncture unpro.
+tected CFC and some thin metal skins, as described
+in Chapter 6. Meltthrough of metal skills, howe'ver,
+is due primarily to charge transfer from intermediate
+and continuing currents. Since many fuel tank skins
+so are, in fact, within Zones lA and 2Α. they should be
+detigned to tolerate the most damaging components
+of each, that is, stroke current component Α combined
+with components Β and the portion of that would C
+In be applicable in Zone 2.4.
+188

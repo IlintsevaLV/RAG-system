@@ -1,0 +1,110 @@
+α particular establishod for steady load at α minirain
+. ξ 5 cycles 101 without failure.
+71-Α obj'!Y-ivz of the coupon is to establish teW.
+verify the endurance linit of α material for
+combinations alternating of steady and
+would Because it be waconservative to extrapolate
+equivalent alternating gtrcs from combined α
+and alternating for reinforced plastics, stres α
+of curves similar to those shown in Fig. 5-32
+required to evaluate fatigue damage.
+5-7.2.3 SbvcWW Members
+Following the establishment of material endurance
+limits from coupon test data, those parts that
+primary and secondary oscillatory loads should
+tested. Components such as the blade spar,
+may one continuous be member or α built-up
+should be tested thoroughly prior to their incorpora-
+tion into the complete assembly. Testing of such
+and subassemblies will provide test data valuable
+further adjustment and refinement of the streas
+grams obtained from coupon tests. Additionally,
+tcting oC critical structural members such as the
+reduces the cost of testinl full-size blades or
+sactions. Τ he discussion follows that supplements
+test requirements delineated in Chapter 7,
+706-203.
+In many blade configurations, α full-length
+ber such the as spLa. lends itself to electromechanical
+vibratory testing or other simple loading methods
+volving minimum fixtures. The extreme fiber stress
+due to flap bending often is experienced directly
+the spar, while - because of α location close
+neutral axis in the chordwise bending plane -
+effect of loading in this plane may not be significant.
+To obtain usable data. the part or subassembly
+be instrumented and calibyated to known load
+ditions prior to conducting the fatigue test.
+Α minimum of three specimens of each signifimant
+structural member should be tested to ascertain
+fatigue strength ;ν the manufactured condition.
+extrermely important that the processing of
+"specimens be identical to that of the final production
+unit.
+The data gcaerated from part or subassembly
+will compare wi0ι,, coupon data discussed previously,
+The shape Σ-N of the curve for most metals is
+in MIL-HDSK-Σ. Α rational method of curve
+such as is described in Chapter 9, MIL-HDBK-5,
+steaI be used when no reference curves are available,
+The diata obtained by using an electromechanical
+machine would be simple alternating strem (zero
+steady strut). These data can be used to refine
+Goodman diagrams in α manner similar to
+5-56
+
+' .
+shown it Rcf. 45. Additional data from tsts of other
+parts of ilih same material may be used to define
+or further thI allowable fatigue envelope.
+sevc-ral In many instances retention thde holes of the root
+loads, blade fittiag receive special processing. Tert data to
+an substantiate the endurance limit of the root retention
+steady fitting can be obtained by testing the individual fit-
+family tinS rather than the entire blade or root section. The
+will be effect of bearingizing, (α special rolling treating of the
+bearing surface of α hole) shot peening, or other such
+treatment to improve the fatigue life should be
+evaluated at this time. Component tests of specimens
+selected as beyond normal tolerance also can be used
+carry to provide data to assist ir. the establishment of limits
+be of allowable defects and of overhaul and repair
+whicn criteria. To the maximum extent possible, tect loads
+section, simulate the condition(σ) experienced in flight shadl
+test and be considered in the analysis. However,
+parts where well-.!efined stress diagrams exist, α combina-
+for tion of steady and alternating loads that may be con-
+dia- verted to an equivalent alternating stress condition
+should be selected.
+spar Testing of the extreme section af member, whether
+blade or not it includes α trailing edge strip or other rein-
+she iorccmint at air icrminua oi the skin. ikucwalc wial wec
+AMCP piovide valuable data for service life prediction.
+Because this μ,.mber experiences the maximum fiber
+mere- stress in the chordwise bending plane, tension-tension
+fatigue loading will provide acceptable data. Due to
+in- the relatively sharp contour presented by the trailing
+edge, failure may be precipitated tt α relatively low
+by stress level by α small nick or scratch. Although the
+to the principal stress is due to bending, the critical stress
+the may Wx simulated as'α tensile stress due to the emall
+gradient. practicable, it !φ is advantageous for the test
+must loads to duplicate the predicted stress combination in
+con- the trailing edge.
+Additional parts or subassemblies peculiar to α
+specific design may warrant special endurance limit
+thet testing Among such parts are the tip and/or inertia
+It is weight attachment fittin3σ. These parts may be sub-
+them jected to high-aniplitude, low-cycle fatigue resulting
+from the start/stop centrifvgal force and the atten-
+dant secondary mmnent and/or shear loads. The en-
+tests durance limit for the fittings ann attachments may be
+confirmed by duplicating the load coaidions cxperi-
+shown enced in service. Other components and/or subas-
+fitting semblies should be tested whenever the construction
+of the blade does not permit accurate or reliable
+analysis.
+test
+5-7.2.4 Determlaane" of Fatigue Life
+the Endurance limit testing provide the fatigue shall
+that data ib necessary permit the deteinirnation of α ser-

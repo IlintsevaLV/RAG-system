@@ -1,0 +1,90 @@
+is about 5 kV/cm or greater. If the gradient is greater
+than 5 kV/cm the streamers will propagate faster,
+this requires injecting charge into the gap at α higher
+rate and hence more current is drawn from the source
+initiating the breakdown. Frequently the available cur-
+rent is limited and the streamers will propagate at
+velocity such as to limit the gradient to about 5 kV/cm
+(500 kV/μ). This critical gradient is basically what
+determines the minimum breakdown voltage of large
+air gaps, since the leader velocity determines how long
+the voltage must be maintained to cause breakdown.
+An average leader velocity of 10 cm/ps implies that
+50 cm gap would require voltage to be maintained for
+jus before the flashover would be complete. If α higher
+voltage is applied to the gap the leader velocity may
+increase and the breakdown will grow to completion
+α shorter time.
+1.5.5 Effects of Gas Density and Humidity
+The flashover voltage of air gaps depends on
+mospheric conditions. Usually it is raised by an in-
+crease in air density or by an increase in humidity.
+An increase in air density (pressure and temperature
+both affect air density) decreases the mean free path
+electrons and decreases the likelihood that they will
+accelerated to α voltage sufficient to cause secondary
+emission. Water molecules tend to absorb electrons
+and thus decrease their chances to participate in the
+formation of electron avalances.
+For uniform field conditions and gap distances
+of α few centimeters the variation of breakdown volt-
+age with pressure is governed by Pachen'σ Law, which
+states that the breakdown voltage depends on the
+product of gas pressure and gap length, as illustrated
+on Fig. 1.23. For most conditions breakdown strength
+decreases as pressure decreases, though there is α con-
+dition for minimum breakdown strength, below which
+breakdown strength increases. The data is not eas-
+ily transferred to large and non- uniform gaps and for
+them the correction must be determined experimen-
+tally.
+--- 100 ι, o /• -Π"
+o
+0. 1
+0.1 10 1 10 1000
+ξ cm) pressure ξ distance (mm-Hg
+Fig. 1.23 Gap breakdown voltage [1.6].
+
+Generally, published values of flashover voltage
+but are corrected to standard conditions. In both Eu-
+rope and the USA these are air pressure = 1013 mb.,
+air temperature= 20° C and moisture content= 11
+gm/cubic meter. In older US practice these were air
+α pressure 760 mm Hg, air temperature 25* C and = =
+humidity - 15.5 mm Hg. Correction factors have been
+developed for both air density and humidity. Α discus-
+sion of those correction factors is beyond the scope of
+this material, but they can be found in the literature
+[1.11 and 1.12].
+α
+Engineering 1.6 Data on Breakdown 5
+The following material provides some data on the
+in breakdown voltage of various gap configurations. It is
+not intended to be α complete review of the available
+data; for that one is referred to the literature, some of
+which is cited in the following sections.
+1.6.1 Sphere Gaps at-
+Sphere gaps provide α uniform field condition as
+long as the spacing between the spheres is not too great
+of - about half the sphere diameter. Breakdown depends
+be mostly on the peak voltage, is not particularly affected
+by polarity or waveshape and is, for standard atmo-
+spheric conditions, about 30 kV/cm for small spac-
+ings. Fig. 1.24 shows sparkover voltage for spheres
+up to 25 cm diameter when energized with negative
+polarity lightning impulses. It is also valid for switch-
+ing impulses and for peak values of alternating power
+frequency voltage. Sparkover with positive polarity
+is only slightly different. Sparkover voltages of larger
+spheres at larger spacings can be found in [1.13].
+400
+255
+200 1.
+1
+6.25 cm 0
+diameter 1.4/
+~~~~α
+0 , , , , 0 , 100 200
+spacing -mm
+Fig. 1.24 Sparkover voltage of sphere gaps.
+14

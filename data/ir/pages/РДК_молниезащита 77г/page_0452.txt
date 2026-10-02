@@ -1,0 +1,44 @@
+The reflected energy can possibly appear on other unprotected
+circuits.
+Multiple reflections may cause the transient to last longer than it
+would otherwise.
+The spectral density of the energy may be changed, either high or
+low frequencies being enhanced. Interference problems on other
+circuits may well be increased even though the risk of damage to the
+protected circuit is reduced.
+Most commonly the appropriate type of transient protective device to be
+used depends on the amount of surge energy to be dealt with. Generally, this
+energy decreases the further away one gets frotn the ~troke. The surge energy to
+be expected can also be related crudely to the normal operating power of the
+circuit involved. One would normally expect lower surge levels on low-voltage
+signal circuits than on medium-power control circuits, and even lower levels than
+distribution buses. Thus, one might logically use Zener those on main-power
+diodes on individual circuit boards, vari~tors on terminal boards, and spark gaps
+on leads running t o prime entry and exit polnts.
+There are basically four generic types of transient protective devices
+applicable to lightning hardening of aeronautical subsystems. These types are
+gas-filled spark gaps, Zener diodes, varistors, and arcing dielectrics. The latter are
+currently in development, but the others are readily available commercially.
+Each rype has both advantages and disadvantages.
+Spark Gaps 15.6.1
+Spark gaps are generally composed of two metal electrodes separated by a
+dielectric and held at a fixed distance from edch other. The gap may be sealed in
+a container. Electrodes may be spherical, but in sophisticated devices they are
+not. Sparkover voltage is determined by dielectric composition, density, and
+electrode geometry. Sparkover voltage is also dependent on voltage waveshape.
+If the voltage wave is increasing rapidly, the sparkover voltage will be higher than
+it is on a slowly rising wave. Commercially available spark gaps frequently
+contain minute amounts of tritium or other radioactive elements to reduce the
+dependence of sparkover voltage on voltage waveshape.
+The advantages of spark gaps are as follows:
+They are simple and reliable.
+They have very low-voltage drop during the conducting state. When
+the gap is carrying maximum current, the voltage across the gap is
+I0 20 V. typically to If more current tries to flow, the arc channel
+4 low arc-drop increases in diameter and holds the same arc-drop.
+indicates relatively low power absorption during the conducting
+phase.
+They have large power-handling capability. Gas-filled gaps have the
+highest peak current-handling capabilities of any transient protection
+device, and almost any gap can handle the maximum surge currents
+induced by lightning.

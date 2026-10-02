@@ -1,0 +1,44 @@
+magnitude to the total internal electric field along the length of the shield. This
+simple type of coupling is valid for low-frequency or slowly changing external
+noise currents. For noise currents sufficiently slow that this model applies, the
+waveshape of the internal electric field is the same as the external noise current,
+being related by Ohm'σ Law:
+E =IR (1 3.3)
+Phenomena Physical 13.3.1
+Generally the coupling is not as simple as this. If the overall shield is α
+solid-walled cylinder, as shown in Figure 13-9, the internal electric field depends
+upon the product of the resistivity of the shield material and the density of the
+current on the internal surface of the shield. As discussed in Section this 10.1,
+internal current density, Ji, will not, in general, be the same as the density of the
+current on the external surface of the cylinder. Because of the phenomenon of
+skin effect, the current density on the inner surface of the shield will rise more
+slowly than does the external noise current. The rate at which the current
+density on the inner surface increases will be directly proportional to the
+permeability of the field material and to the square of the wall thickness and
+inversely proportional to the resistivity of the wall material. Cables with
+solid-wall shields and cable trays of solid metal with tightly fitting covers will
+typically exhibit this type of behavior.
+different type of behavior is commonly observed on cables with braided Α
+shields, shown in Figure 13.10. The shields do not provide α perfect conducting
+cylinder, for they have α number of small holes which permit leakage. The holes
+between the individual bundles of wire forming the shield can be approximated
+as α group of diamonds, the size and orientation of which depend upon the
+weave angle of the braided shield. The long axis of the triangles may be oriented
+Α along the shield, as at end of the cable shown in Figure 13.10(α), or, if the
+weave angle is great, the long of the hole may be oriented circumferentially axis
+to the cable, as at end Β of the cable. The external noise current produces α
+circumferential magnetic field around the outside of the shield. As α first
+approximation, one may visualize the external field lines looping in and out of
+the holes in the braided shield. There will be more leakage in holes with long
+axes oriented circumferentially to the end of the shield (end Β of the cable, large
+weave angle) than there will be if the long axes of the holes are oriented along
+Α the shield, (end of the cable, small weave angle). Viewed from the end of the
+cable, as in Figure 13.10(β), the field that leaks into the cables produces α net
+magnetic field circumferentially around the inside surface of the shield. This
+magnetic field produces an internal electric field of an amplitude dependent
+upon the degree of leakage into the shield and upon the rate of change of the
+magnetic field. The rate of change of this internal magnetic fieId is to α first
+approximation proportional to the rate of change of the external noise current.
+The total internal electric field, then, is proporti.onal to the resistance of the
+cable shield, to the rate of change of external noise current, and to the number
+of holes in the cable.

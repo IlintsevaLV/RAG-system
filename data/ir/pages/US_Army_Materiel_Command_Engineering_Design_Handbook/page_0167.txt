@@ -1,0 +1,104 @@
+эй
+requirements of MIL-Σ-8698. Tne critical design cri-
+telton gencraliy is the satisfactio-ai of the static test
+requirements. Because the integrity of α casting or
+forging is governed by the type of quality control es-
+tablished by applicable dirawings and specifications,
+it is imperative that required static tests be per-
+formed on the least acceptable specimens. The radio-
+graphic scceptance stsndard ASTM E-155, as well as
+other inspection eriteria, tner may be basced upon
+these static test results.
+Recent Army helicopter RFP requiremrnts have
+emphasized inc ascd crew safety through more
+crashworthy deugn in accord with the recom-
+mendstions of Ref. 100. Limit load conditions are
+based upon +3.5 and -0.5 maneuver load factors at
+the helicopter CG and ultimate load conditions upon
+normal load factors of +20/- 10. and lateral or
+longitudinal load factors of ±2τ. Combination
+loading also must be considered as the simultancous
+occurrence of loadings in accordance with any of the
+three conditions that follow:
+Condition
+Longitudinal ±20 ±10
+Verticai +ι0/5+20/-ι0 +16/5
+Lateral ±10 ±10 ±20
+Where α structural support case is of relatively sim-
+ple configuration, forgings are preferred to castings
+because of the superior strength-to-weight ratio and
+thc inherently lower variability in strength of the
+former.
+The four design deficiencics found most fre-
+quently in current Army helicopter housing com-
+ponents are:
+1. Insufficient attention to corrosior protection.
+Success in attainment of recuirad component life is
+highly dependent upon :voraing corrosion. Housing
+designs must avoid trag: for water from rain, wash-
+down, or conJensasion. Open upward-facing traps.
+such as stud or bolt counterbores or scal enclosure
+cavities. must be provided with effective drains. Ex-
+ternal size of casc joints shouid be mismatched, with
+the upper member bring larger so α to eliminate
+standing water. Such joists may be seaicd externally
+with relative ease by nunnardening. filket-forming
+compounds. Sharp edges and oxxgh surfaces must be
+eliminated by chamfering. pois: ing. or tumbl
+(slurry) de-burring to avoid inadkquate resin or pa.nt
+coverage due to surface tensi: : ε "Tects. Caihodic par-
+ticles must be remove 3 compkie:υ from casting sus-
+faces by thorough ckeaning rrior to resin impreg-
+nation.
+Galvanic corrosion protertins in ihe form of resin,
+acrylic, or zine chromate afalr-nikn should be used
+
+τ χ
+AMCP 705-202
+between all metals exccpt thosc immediately ad-
+jacent in the sctivity serice (MiL-STD-889). Ex-
+cessive steady tensile stresses due to assembly clamp
+ing such as use of bolted clevis lugs without spacers)
+should be avoided to reducr the susceptibility to
+stress corrosion.
+2. Lack of attention to differential thermal ex-
+pansion. Stecl bcaring clamp nuts and similar de-
+vices installed in magnesium or aluminum threaded
+bores often iose thcir entire sxial clamping force at
+operating temperatures. Such applications either
+must have an initial deflection that is greater than the
+amount of thermal relaxation or eise threaded steel
+liners must be snserted in the case bores. Static
+bearing and hoop stresses should be checked
+throughout thc possible ambient temperature range
+alloy cascs are joined with piloted flanges. Thern.ally
+fit steel liners in ailoy cascs should have α nominal
+300°F interference arsd the bore of the light alloy ring
+section surrounding the liner also should show α
+positive margin on limit stress at –65°F. Where stecl
+bearings are installed in the liner, their line-to-line fit-
+up temperature and outer ring cross section must be
+considered in celculating ! limit stress. The hoop ton-
+sion in thc housing bore fiber at —65°F ass ming the
+bearing fit is line-to-line at α temperature of + ?2°F
+may be taken as:
+Σ, (α2 − α,) (χ2 + 2) χ 365
+(δ - 2) +1
+μ,
+E (σ)
+β
+502 137 7(4-61)
++1 (6) \α) +1
+E ()- E (Gy-1
+wherc
+α bearing outer ring bore, in.
+ь = bearing OD, in.
+σ * liner OD (steel), in.
+ρ - light alloy -ection OD. in.
+Ε - Young'σ modulus, psi
+α = lincar coefficient of thermal expansion.
+in./in.-F
+μ = Poisson'σ ratio, dimensioniess
+Subscript 1 = steel properties
+Subscript 2 - light alloy propertics
+4-65

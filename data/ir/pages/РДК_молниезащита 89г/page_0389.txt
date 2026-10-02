@@ -1,0 +1,71 @@
+id
+Τ
+η
+.14.3.1 7
+ground plane. α Fig. 14.1 Wire above
+io0
+δ•
+Tand Τ
+IL
+tLo 0. 02 .1 . σ(
+-1o 0,.η
+cmi I
+wires. of Inductance 14.2 Fig.
+ ,,,,Μ ,..0 ,.0 o2 - 0.,
+Α 10-
+Τ
+O0
+Σ...............(α)
+wires. of Capacitance 14.3 Fig.
+(14.3) 60ln(!-) ohms Z =
+300 is conductors on such propagation of velocity The
+μ/ps, the speed of light.
+ Short Wires Mechanisms - 14.3 Response
+mechanisms will be reviewed first The response
+can short enough that the response for conductors
+in terms of lumped constant elements, be treated
+not strictly qual- in aircraft do wiring systems Many
+enough they are long since this treatment, ify for
+but lines, as transmission treated better they are that
+
+illustrate the gen- lumped constant approach does the
+line or dis- nature of the response. Transmission eral
+tributed constant considerations are discussed further
+in §14.4.
+Voltage Rises Response to Resistive
+circuits are shown in The elementary equivalent
+Fig. 14.4. R. represents the resistance of the aircraft,
+of the aircraft under con- or more precisely the portion
+R. and Λ, represent the resistance sideration, while
+inductance of the wire. The most severe case in-
+the airframe volves conductors that are referenced to
+points. Power distribution systems are at one or more
+so arranged. the conductor is grounded If frequently
+at only one end, Fig. 14.4(α), the quantity of most
+interest is the open circuit voltage developed at the
+wire are grounded, Fig. other end. If both ends of the
+short circuit is the of interest quantity the 14.4(β),
+current.•
+)DoO
+Λ
+.- V - --- -- ) (α I-
+6σ
+=- IL - (β)
+to resistive voltage. Fig. 14.4 Response
+V..!
+produces lightning current Il Α circuit voltage: Open
+an open circuit voltage
+(14.4) V.ý liR.. =
+will not affect the volt- Wire routing or wire resistance
+age.
+the current: If the wire is connected to Short circuit
+through airframe structure at each end, the current
+wire, its will depend on the resistance of the the wire
+of the lightning cur- inductance and the waveshape
+be α nor- Such α connection may not appear to rent.
+α limiting case if mal condition, but it does represent
+the volt- surge arresters are being employed to limit
+and the airframe. conductor between α age appearing
+for lightning the wire current R.,, Assuming < R.
+is duration of long currents
+374

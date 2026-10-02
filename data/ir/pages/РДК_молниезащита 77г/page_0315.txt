@@ -1,0 +1,38 @@
+own, and the intensity of the eddy current will be of α nature such that the
+magnetic field produced is exactly that required to cancel the normal
+component of the exterior field. If, as shown in Figure 10.9(χ), α number of
+lines of magnetic flux attempt to penetrate the surface of the elliptical cylinder,
+α the eddy currents produced by each line of flux combine to produce
+circulating current. In an elliptical cylinder of this nature there will be four
+regions of circulating current, two on each of the two sides. These circulating
+will be of α nature such as to increase the current density at the edges of currents
+the cylinder and to reduce it along the center. They also cancel any penetrating
+magnetic field, forcing the field around the cylinder to be entirely tangential to
+the surface, at least initially.
+The eddy currents cannot exist forever, since energy will be lost as the
+currents circulate through the resistance of the metal sheet. Accordingly, the
+current density at all points will vary with time, eventually becoming uniformly
+distributed in structures having uniform thickness and made of uniform
+resistivity materials. Figure 10.10 shows the manner in which the current density
+will vary. As the circulating current shown in Figure 10.10(χ) decays to zero,
+the current at the edge will decay from its initial high value to the final
+resistively determined value, and the current at the center will increase from its
+initially low value. The current densities will change according to an essentially
+exponential pattern, though the transient increase in surface resistance produced
+by skin effects will prevent the circulating current from following α true
+exponential decay.
+One expression giving the magnitude of this redistribution time constant
+that has appeared in the literature (Reference 10.1) is:
+Α enclosed area of structure where =
+Π peripheral distance around the structure =
+The thickness of the wall, α, is assumed to be very small compared to other
+dimensions. For α rectangular box of sides height η and width δ, Equation 10.15
+becomes
+physical treatment of the redistribution time constant can also be given. Α
+the decay is treated as exponential, the factors governing that decay are the If
+characteristic inductance and resistance of the path through which the
+1. circulating currents flow. These factors are illustrated in Figure 10.1 The
+circulating currents may be viewed as flowing in one direction along α strip along
+the edge of the cylinder and back along another strip towards the center of the
+cylinder. The rate at which the circulating currents decrease is governed by the
+inductance and resistance of the pair of hypothetical strips. Such α pair is shown

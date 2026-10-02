@@ -1,0 +1,70 @@
+100 us
+/ 00 ,, , *
+"/
+10 ps
+las 1
+σ .1. -λ
+1 0.1 0.001 .1
+Inches
+constant. time penetration vs thickness Skin 11.9 Fig,
+Response to other waveforms: The response to other
+waveforms can be obtained by application of the con-
+volution, or superposition, integral:
+ ρ)(τ)dr. - (11.27) [φ(τ, 1(τ),ρ] (τ
+1.7 τ Ed
+-0
+Graphically, the elements of Eq. 11.27 are shown
+in Fig. 11.10. Just as an arbitrary waveform can be
+considered as the summation of α series of elementary
+step functions, the response to that arbitrary wave-
+form can be considered as the summation of α series
+of step function responses. The process is described in
+many textbooks on circuit theory, such as [11.3]. The
+process, along with α computer routine for handling
+numerical data, was also described in [11.4J. Convolu-
+tion assumes linear conditions, such as would prevail,
+for all practical purposes, in metals. CFC materials
+be suffi•ciently nonlinear as to render convolu- might
+tion calclations suspect.'
+Fig. 11.10 Α wave approximated as α superposition
+of step functions.
+
+1.8(β) network of Fig. Equivalent circuits: The LIR
+effects is α valuable way of representing diffusion be-
+cause it can be directly solved with α variety of network
+analysis computer programs, most of which allow for
+driving functions other than step functions. The in-
+by ν the surface is represented ternal inductance of
+series while the dc resistance inductors in incremental
+in parallel. incremental resistors 1 is represented by ν +
+long circular the 2 meter consider an example, As
+induc- The exact internal cylinder treated in §11.3.2.
+tance of such α cylinder is
+(11.28) = henries. - log[-]
+ρ 2ρ
+or, for non-magnetic materials such as aluminum
+- 2 ξ I0- log[ρ.] henries. (11.29'
+An approximate expression applicable to thin
+tubes is
+(1130) δ
+2vrr* 1.0 Litd. -
+For α flat sheet of 1 meter width, length I and
+thickness δ, the internal inductance would be simply
+Λ -/uld.
+Using the dimensions given earlier, ri = 0.157 μ and
+ρ, = 0.157 + 0.000381 μ. Li 9.695 ξ =: 10•0 henries.
+An equivalent circuit can be obtained by divid-
+ing this inductance into four equal parts, each 2.424 ξ
+10-10 henries, as noted on Fig. 11.11. The incremen-
+tal resistance on the figure is the 1.43 ξ 10-1 ohms
+calculated in §11.3.1 and divided into five sections.
+internal ~volume
+shield •' _ '.-0
+LLi lin Λ Λ
+Fig. 11.11 Equivalent circuit representing
+propagation through α shield.
+Λ = 9.695 ξ 10-4 Hy
+= 2.860 ξ I0-5 ohm R
+= I I0-6 Hy Ξ Li
+= 1 ξ 10' ohm Α
+314

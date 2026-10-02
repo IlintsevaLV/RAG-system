@@ -1,0 +1,107 @@
+AMCP 706-202
+genareted (sce Ref. 4 and Chapter 5, AMCP 705-
+201). This curve dascribes * center of instability by
+defining. as α function of biade propertics, the razio
+of rotor rpm to undamped airframe rigid-body
+natural frequency that leads to instability. Α band of
+instaoility on either side of the center of instability is
+superimyosod using Coleman'σ technique (Ref. 4).
+The analytical technique cotablishes instabilixy in the
+absence of oleo or roior blade damping. Α cc%ι-
+parison with the resu'ts of Step I determines what
+conditions of rotor rpm and strut and tire sifneeses
+lecd to instavility.
+3. Stabilize the system τ: reducing the width of the
+inst.bility band to zero through the introduction of
+both rotor bub domping and oieo damping.
+Deutsch'σ criteria (Ref. 5) specify the produc: of
+blade and o'eo damping neccisary to reduce the un-
+stable range to zero. Required strut damping is ob-
+tained from Eq. 6, Ref. 5. Strut damping will be non-
+lincar with respect to stroke and soad if & tapered
+metering pin is used, resulting in α variablc orifioe
+area. Here, the damping airould be defined as the tan-
+gent to the force/velocity curve at cach discrete com-
+. binatioa of strut loading. The conditions for which
+ground rsonance must be avoided (see par. 5-3.5,
+AMCP 706-201) include: one blade damper in-
+operative and the combinstion, on & single strut, of
+flat tire(σ) and flat strut (shock absorber pressure at
+zero). These cases are discussed in R.ef. 5. The
+methods of anglysis aiso are discussed in Chapter 5.
+AMCP 706-201, while substantiation requirements
+are given in Α.MCP 706-203.
+12-4 WATER-LANDING CAPABILITY
+12-4.1 GENERAL
+The design criteria applicable to water landings are
+α sink spcod of 8 fps in ccmvination with 2/3 rotor
+lift, and appropiate head moment and drag at θ-
+tasic structural design gross weight. Specific landing
+conditions to which thesc criteria apply are:
+1. Zero forward speed
+2. Forward speed of 30 kt
+3. Asymmetrical drop, with the huli rollec 10 deg
+and no forward speed
+4. Α forwpr 1 speed of 30 kt and α yaw anglc of 15
+deg
+5. Α forward speed of 30 kt and nzse-up pitch
+angles of 3, 6, nd 9 ceg
+Wien deterin.ng the lateral stability of the heli-
+copter, the following lateral imbalances must be con-
+sidered:
+1. Lateral displacement of the helicopter CG from
+the centerline as inherent in the corstruction of the
+helicopter
+12-12
+
+2. Eficct of partially empty fuel tanks
+3. Placemnent of passengers, crew, anu cargo
+4. Rotor biade lead-lag effect.
+For helicopters with α water-takooff capability, α
+minimum clearance of 6 in. bet veen the rotor blades
+and the water must te provided at the roquirod sea
+state with rotor shut down. This procludes possible
+damage to the blades whils the belicopter is rolling
+and drifting during engine sbutdown.
+Sea state is α condition that compriscs beight of
+waves, wind velocity, und wave iength. Current prac-
+tice is to use significant wave-bcighi valuee, which are
+considered conservative, for &esign. Α graph of wave
+height versus wind velocity for different sca statos is
+shown in Fig. 12-10.
+When calculating the buoyancy of σ fiont, it is
+customary to consider the weight of fresh water as
+62.4 1β/ft'.
+Inverted V-type huil shapes arc preferrod over flat
+or round shapes. Inverted V hulis have low water
+resistance and reasonable serodynamic characteris-
+tics, whereas floats with circular bottom sections tend
+to stick and to exhibit undesirable spras characteris-
+tics. Methode to prevent spray from obecuring the
+pilot'σ vision or damaging the biades during landing.
+takeoff, or taxiing should be incorporated in the in-
+itial decign stage. Spray deflectors arc α possible solu-
+tion, but they result in increased drug, ι.ε., poorer
+performance. Buoyancy of float hulls is dictated pri-
+marily by interior cabin size, with the reault that hull
+helicopters generally have substantial amounts of
+excess buoyancy.
+12-4.2 PRIME CAPABILITY
+For water-bazed helicopiers, the basic fictacion
+design will consist of metal floats or hull-snaped fuse-
+lage with. somne form of ovtriggers for stability. The
+tight compartments so that, with any single compart-
+ment of the hall or float flooded, the buoyancy of the
+helicopter still will provide sufãcient stability to pre-
+vent capsizing in the ses state in -hich it is to operate.
+The high CG inherent in helicopter design.
+together with the large droop of the biades, make
+helicopter operatior: in the open occan sca state dif-
+ficult without the imposition of large performance
+and weight renaltics to obtaint the required stabiltiy
+and blade clearance (Fig. 12-10). The use of α sca
+archor to meintais α heading into the wind and
+waves is one approach to improving tse roll siability
+for cperation in this sea state.
+12-4.3 ADDITIONAL CAPABILITY
+Many helicopters are primarily land based, with

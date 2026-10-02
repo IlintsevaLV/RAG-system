@@ -1,0 +1,85 @@
+n(argitrary units)3
+2
+0
+I Ii
+current
+Fig. 1.32 Arc voltage vs. arc current.
+The shape of the curve suggests that the diame-
+ter of the arc column expands as the current increases,
+thus lowering the resistance of the column. For cur-
+rents on the order of a few amperes the cross sectional
+area of the arc expands faster than the arc current.
+With high currents the current density in the conduct-
+ing channel reaches a limiting value and the cross sec-
+tional area expands about in proportion to the current
+in the arc. The result is that the arc voltage rises with
+current, but only slowly.
+The arc voltage is a function of pressure, Fig. 1.33
+[1.17] showing an example of measured data. Arcs in
+gases intentionally pressurized are not of concern as
+regards aircraft, but pressure on a confined arc will
+increase just due to the heating produced by the arc
+itself. The increased pressure results in an increased
+arc voltage which, for a constant arc current, increases
+the energy released into the arc column, which in turn
+causes a further increase in arc pressure. It is for this
+reason that a lightning arc flowing in a confined re-
+gion, such as inside the wall of a house, can produce
+so much damage. The regenerative increase of arc volt-
+age, arc energy and pressure continues increasing until
+the pressure is relieved by fracture of the containing
+structure.
+300
+200 '1981.
+Olaf"
+so irz
+6 1
+Pressure (k At•a)
+Fig. 1.33 Arc voltage vs. pressure [1.5].
+
+References
+1.1 T. E. Allibone, The Long Spark, Lightning, Vol-
+ume of - 1, Physics Lightning, R. H. Golde Edi-
+New York, 1977, and London Press, Academic tor,
+Chapter 7, pp. 231-280.
+1.2 Les Renardieres Group, "Research on Long Air
+Re- 1973 at les Renardieres, Gaps Discharges
+sults", Electra, pp. 49-156. No. 35, July 1975,
+1.3 Les Renardieres Group, "Positive Discharges in
+Long Air Gaps at les Renardieres. 1975 Results
+and Conclusions",Electra, pp. No. 53, July 1975,
+31-153.
+1.4 Les Renardieres Group, "Negative Discharges in
+Long Air Gaps at lea Renardieres", Electra No.
+74, pp. 67-216. January 1981,
+1.5 J. D. Cobine, Gaseous Dover, New Conductors,
+York, 1958
+1.6 Line Reference and Transmission Book, 345 kV
+Above, Electric Power Research Institute, Palo
+Alto, Ca., 1982
+1.7 Reference Data for Radio, Electronics, Engineers:
+and Communications, Computer, Seventh Edi-
+tion, Howard W. Sams and Co., Indianapolis, In-
+diana, 1985, p. 48-4.
+1.8 IEEE Standard Techniques for High Voltage Test-
+Institute of Electrical and ing, IEEE Std. 4-1978,
+Electronic Engineers, New York, 1978, pp. 47-55.
+1.9 G. N. Aleksandrov et al, "Peculiarities of the Elec-
+tric Breakdown of Extremely Long Air Gaps,"
+Dokl. Nauk SSSR, Vol 183, 1968, p. 1048. Akad.
+1.10 I. S. Stekolnikov, A. V. Shkilev, "The Develop-
+ment of a Long Spark and Lightning," Interna-
+tional Gas Discharge Conference, Montreux, 1963,
+pp. 466-481.
+1.11 IEEE pp. 23-26. Std. 4-1978,
+1.12 Reference Book, pp. 528-530. Transmission Line
+1.13 IEEE pp. 107-121. Std. 4-1978,
+1.14 H. Dorsch, Uberspannunen und Isolationsbemes-
+sung bei Drehstrom-Hochspannungalanlagen
+("Overvoltages and Insulation Measurements dur-
+ing Severe Current and High Voltage Discharges"),
+Siemens Ankiengesellschaft, Berlin and Munich,
+1.15 Transmission Line Reference p. 505. Book,
+1.16 Cobine, Gaseous Conductors, p. 299.
+1.17 Cobine, Gaseous p. 297. Conductors,
+18

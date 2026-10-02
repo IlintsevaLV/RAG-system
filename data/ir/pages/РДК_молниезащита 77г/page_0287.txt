@@ -1,0 +1,19 @@
+spacing between the flow lines. Since the average field strength around the
+surface is
+I
+H = - (9.16)
+Π
+it follows that the field strength at the surface between any two flow lines is
+1 - -
+7) (9.1 "surface
+FLOW LINES
+EQUIPOTENTIAL LINES
+field around an elliptical conductor. The Figure 9.6
+In only the simplest geometries is it possible to calculate the field
+analytically. Usually one must resort to some numerical or graphical method of
+determining the field. Numerically, the field may be determined by α numerical
+9.7 Π shows α conductor at potential solution of Laplace'σ equation. Figure
+To 0. surrounded by α return conductor, α circle in this case, at potential this
+geometly is fitted α rectangular grid, shown here as α very coarse grid.
+Initially, all the grid points that lie on the conductor would be assigned α
+277

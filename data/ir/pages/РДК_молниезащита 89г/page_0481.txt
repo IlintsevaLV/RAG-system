@@ -1,0 +1,50 @@
+of the transient on the actual system. Such α situa- distortion caused by saturation of the transformer.
+ýion oc'-.rs whr-" τ system must be evaluated for up- Factors affecting the performance of injection trans-
+,. F, olves α pulse- formers are discussc- in §18.3.
+generator. -,'Agie ' [ " :)" '' τ'•. 'ρ "... tranaformer 1 through passed is ttor Cauren pu ...... te 01.1
+"α primary winding on α magnetic core and sets up
+"α magnetic field in that core. If the core is placed
+around α cable interconnecting two pieces of electronic
+contained field magnetic concentrated the equipment,
+in that core induces current or voltage in the intercon-
+necting wiring in α manner very similar to that pro- 2 Tnformer
+duced by distributed magnetic flux from an external
+lightning source. 11
+Generator Transient (TG)
+/77ectio
+Tnanormer Fig. 18.3 Injection into several cables simultaneously.
+IAt Z18.2.3 Capacitive Injection
+For injection of high frequency voltages and cur-
+(α) rents, capacitive injection, shown in Fig. 18.4, can be
+Transient Generator (TG) considered as α simulation of electric field effects. Dis-
+crete capacitors, Fig. 18.4(α), are appropriate for in-
+jection into individual conductors. Where connection
+ι tof α discrete capacitor might upset the circuit, an al-
+for ternative would be to use α distributed capacitor, Fig.
+I I 18.4(β). The distributed capacitor is also appropriate
+EUT : NUTZ for injection into α group of conductors. Tests may be
+Q _done either to check for system upset or to check for
+............ . system damage.
+(β) Transient Generator (TG)
+Fig. Tfransformner 18.2 injection. () TasetGnrtr(Γ
+(α) Injection of voltage
+(β) Injection of current discrete
+Τ,, cur- and voltages of injection involve may Tests
+rents into unshielded cables, Fig. 18.2(α), or injection IUri U
+of currents into the shields of cables, Fig. 18.2(β). J _
+Some tests involve injection of transients into several
+( cables simultaneously, Fig. 18.3. Tests may either be .............................
+done either at levels appropriate to check for system Tr α τ Generator (TO)
+upset or at higher levels to check for system damage.
+When injecting current into several cables of an inter-
+connected system there may be problems of how to
+control the division of current among the various ca- distributed
+bles. Some of these problems are discussed in §18.7.1, "pacitor
+but deal- for procedures not yet standardized there are
+-__________
+ing with interconnected systems.
+(β) .................. Procedures for conducting transformer injection
+tests are discussed further in §18.6. Fig. 18.4 Capacitive injection.
+"Transformers work best for injection of current. 4(α) Discrete coupling capacitors
+Injection of voltage transients may be hampered by (β) Distributed coupling capacitance
+468

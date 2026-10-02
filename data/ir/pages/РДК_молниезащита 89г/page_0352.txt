@@ -1,0 +1,54 @@
+~-~~-
+--. γ- --
+jM Ξ+........,
+illuminating dipoles Equivalent 12.4 Pig.
+an interior volume,
+3.0 -netic
+2.0
+V
+1.0
+C.
+0
+0 1.0 0.1 0.0
+ε /ε 2 1
+Fig. 12.5 Shape factors for elliptical apertures.
+dipole Μ. the to due field magnetic the Likewise,
+can be defined as α vector lying in the plane defined
+Yaxis. the and by Π
+The pattern of the electric field due to the Π
+dipole will be concentric loops originating at the dipole111
+and terminating on the plane containing the aperture.
+The above describes the pattern of the static
+fields. If the fields change with time there will also
+
+- R
+Α. Ω .
+Fig. 12.6 Field patterns produced by α dipole
+lying along the Ξ axis.
+be magnetic fields produced by the changing electric
+fields and electric fields produced by the changing mag-
+fields. In the frequency domain, and following
+the treatment in [12.8], the electric and magnetic fields
+can be described succinctly as
+ξ ] + VG! VGf [Π" ξ jwpioM! ξ 1--V
+(12.10)
+jxV (12.11) Hf = [Π ] Gf [Μ! VGf, V ξ
+(12.12) -- =! ρ/41rr
+ρ = the distance to the point of observation
+= propagation υ constant(§9.4.6) (12.13)
+= electric dipole Α
+fMj the total magnetic dipole =
+(the sum of Μ. and Μ.)
+V vector differential operator. =
+and are vector quantities. Π!, Μ
+1
+In the time domain, E H and are given by
+Eot. δ tm . the
+Et 4_-Vxx = u, Ur Ξ λ1 Ur Ξ LP - I φ vr 4~re
+ρ 0
+(12.14)
+Fl
+Ξ + U], H/τ 4V 1IA ξ =- Π)tu, Ξ Up 7
+ρ
+(12.15)
+337

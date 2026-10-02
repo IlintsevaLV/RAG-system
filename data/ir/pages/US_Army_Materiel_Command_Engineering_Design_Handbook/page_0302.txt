@@ -1,0 +1,51 @@
+AMCP 706-202
+ilrrnine that distribution. The location and type of in-
+strumentation sAdl he the same as is employed in the
+flight load survey.
+-
+6-5.112.1- Quantity sad Selection of Sedmens
+A minimum of six specimens of each component is
+- - required for definition of an curve. Where S-N
+tolerance ;s a significant factor, specimens should be
+selected from those at the adverse end of the RADIAL TANGENTIAL I - tolerance band. Dimensional tolerances of critical BENDING BRIDGES •' - ENDING BRIDGES
+parts generally are tightly controlled; therefore,
+special selection on the basis of dimensions usually is
+not required. However, selectivity on the basis of
+more highly variable quantities, such as rod end fric- 614 u Drive Scissors
+tion, is required.
+6-5.1.2.1.4 Interpretathon of Data 6-.1.2.21 Required Imstrmenmatiou
+If all significant secondary loads are accounted for Pitch link axial load and drive scissors bending mno-
+loads in primary are the of rotation the p!ane nent in and endurance curve an testing, during bench S.N
+meuued. be must and system, the rotating control primary of the a functioi, as be established can limit
+pitch are measurement requiring loads Secondary be based must limit endurance The load. alternating
+least At bending. radial drive scissor and bending link to ac- so as data of test statistical reduction a upon
+de- in order to am required two bending bridges further reduction cases, a for scatter. In some count
+order ly-Ity.i --- t termnine the distribution of each of the . moments. f........ L- -L count for a secondary effect not included in the Typical instrumentation of a pitch link and a drive original test program. The preparation of an scissors S-N is shown in Figs. 6-13 and 6-14. As a rule,
+curve from fatigue test data for a limited nunlbcr of each of the pitch link• ts instrumented with a tension
+gage in order to determine whether or not there are specimens is described in par. 4-1l, AMCP 706&201.
+any differ:nces between the loads from the in-
+blades. dividual Flight Tests 6-5.12.2
+The characteristics of the alternating loading on 6-5,1.2.2.2 Flight Coadid-t
+fatigue-critical components are detemniried by a flight Flight loads be obtained for all mission pro- shall
+load survey. A statistically significant data sample file conditions at the most adverse altitude(d) and
+should be obtained for each flight condition represen, helicopter configuration(s) within the anticipated
+tative of helicopter usage, i.e., for each condition operating regime (see par. 8-2. AMCP 706-203).
+,within he mission profile. "e requirements ior a Loads in t~ie rotating control system generally are
+flight load survey are described in detail in par. 8-2, noncritical in unstalied flight. They do, hower,
+AMCP 706-203. react to the onset of moment stall and, therefore,
+usually establish the structural envelope for stalled
+conditions. Consequently, as a minimnm, control
+loads should be measured at the conditions most con-
+ducive to stall. These are:
+I. Maximum gross weight
+BENDING IDGE Most extreme TENIN2. CG
+A- AXIAL TENSION 3. Maximum altitude
+Minimum rpm 4.
+5. High load factor.
+6-5.2 NONROTATING SYSTEM
+The location of push rod& and cables must be de-
+rwmined early in the duign of a helicopter, prior to
+Ithe selection and location of other large equipment,
+so that it will not be necemsry to route the control
+F! re 6-13. Iarmemr Pitch LUsk sytem #round this equipment.
+6-22

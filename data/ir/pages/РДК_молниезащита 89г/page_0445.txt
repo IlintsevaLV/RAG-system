@@ -1,0 +1,107 @@
+Equipment transient design level: The ETDL con-
+trolling the type of circuit or circuit protection tech-
+niques used, and assigned to the avionics designer,
+would be higher than the transient control level by
+margin reflecting how important it was that lightning
+did not in fact interfere with the piece of equipment
+under design. A margin is necessary because any sin-
+gle lightning flash might produce an actual transient
+level higher than the assigned transient control level,
+which would have been derived for a predicted average
+in spite of the cable designer's good intentions. Pre-
+diction of actual transient levels is an imperfect art.
+Vulnerability and susceptibility levels: The job of
+the avionics designer would be to ensure that the vul-
+nerability and susceptibility levels of the equipment to
+be supplied would be higher than the assigned tran-
+sient design level. The vulnerability level is that level
+of the transient which, if applied to the input or out-
+put circuit under question, would cause the equipment
+to be permanently damaged. The susceptibility level
+is defined as that level of transient that would result
+in interference with or malfunction of the equipment.
+The vulnerability level by definition, then, would have
+to be at least as high as the susceptibility level.
+Ways of setting levels: Some fundamental points
+about the setting levels are: of
+1. Levels must be compatible with the existing state
+of the art of providing protection by shielding and
+grounding of interconnecting wiring.
+2. The levels must be compatible with the perfor-
+mance of existing surge protective devices. The
+minimum level of voltage to which protective de-
+vices can clamp surges is frequently several times
+the normal operating voltage of the system being
+protected.
+There are several ways in which the levels might
+be set. In the first, the system integrator would set
+the desired transient level, then set the required mar-
+gin, which in turn would set the transient control level.
+Whatever the rationale by which the system integrator
+sets the transient design level, that level would become
+a part of the purchase specificrtions and would, pre-
+sumably, not be subject to variation by the vendor of
+the avionics.
+As an alternative, the avionics designer might de-
+. termine by suitable testing the vulnerability and sus-
+ceptibility levels of his equipment and provide a guar-
+antee as to the level of transients that his equipment
+could withstand. That level would then be the tran-
+sient design level. After the system integrator had set
+
+the desired safety margin, the appropriate transient
+control level for the cable designer would have been
+established. One approach to the setting of margins
+a appears in [16.81.
+and Open circuit voltage short circuit current: The
+magnitude that would be assigned to the transient de-
+sign level probably should be expressed in terms of
+the maximum voltage appropriate to a high imped-
+ance circuit (open circuit voltage) or the maximum
+current appropriate to a low impedance circuit (short
+circuit current).
+Test levels: In order for the TCL philosophy to have
+most impact, there should be a limited number of lev-
+els. One set of levels that has been proposed [16.12]
+is shown in Table 16.1. With each level there was as-
+sociated an open circuit voltage and a short circuit
+current; the two being related by the transient source
+impedance shown in Fig. 16.10 [16.121.
+Table 16.1 Possible Transient Control Levels
+Open Circuit Short Circuit
+Level Voltage Level Current Level
+Number (vol ts) (amperes)
+1 60 2.2
+2 150 5.4 300 1]. 3
+4 600 22
+1500 5 54
+6 3000 110
+7 6000 220
+Source impedance: If impedance is not defined in
+transient specifications there is the risk of a specifi-
+cation being worded so as to require that a specified
+voltage be developed regardless of the character or im-
+pedance of the object under test. A specification that
+can be taken, rightly or wrongly, as requiring that a
+test voltage of 1000 volts must be developed across a
+spark gap that flashes over at 500 volts and shorts an
+input surge to ground is clearly deficient. Likewise, a
+specification that can be read as requiring that a spec-
+ified current be developed, regardless of impedance, is
+deficient.
+Transient test specifications for aircraft and elec-
+tronic equipment usually avoid such problems by defin-
+ing both open circuit voltage and short circuit current.
+The intent is that if a circuit has a high impedance
+it is appropriate to define the voltage that should be
+developed and if the circuit is low impedance it is ap-
+propriate to define the maximum surge current.
+If only voltage is defined, and not current, situa-
+tions can arise in which design and test effort is totally
+wasted. An example might be for designers to place
+impedance in series with a spark gap so that, by brute
+force and the flow of enormous current, a specified volt-
+age can be developed across a protected circuit. Such
+an effort would be totally contrary to the purpose of
+using a spark gap in the first place.
+431

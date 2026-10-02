@@ -1,0 +1,57 @@
+discussed further in §11.4.
+The redistribution phenomenon also leads to the --- u
+internal currents flowing for much longer times; longer
+even than the duration of the lightning current. The
+overall result is that indirect effects in α aircraft[ CFC
+can be more severe and harder to deal with than in α
+metal aircraft. Tests on α test bed fuselage for α CFC\
+aircraft showed that by the time an external injected
+current had decayed to half value (82ps), 90% of the
+injected current was flowing on metal objects inside
+the fuselage. (α)
+Because CFC aircraft are relatively new, only α
+few test programs have been undertaken to measure 50 us--
+1
+the voltages and currents induced by lightning. Α few ....-
+examples of voltages and currents will be given here,
+mostly and to illustrate the redistribution effects to
+illustrate the time scale over which they take place. : : . :.: .
+illustrations proprietary, the data is Since the source
+and §8.7.2. as those in §8.7.1 will not be as extensive
+of the aircraft Aircraft structure: The general nature
+- -
+structure for which the following measurements were
+taken is shown in Fig. 8.31. The main shell of the (β)
+aircraft was made from laminates. CFC In the nose
+of the aircraft was an avionic equipment bay built Fig. 8.32 Waveshape of current injected into
+with aluminum shelves upon which the equipment was aircraft. CFC
+wave of (α) Front contact good electrical made shelves These mounted.
+of wave (β) Tail the fuse- part of In the main fuselage. CFC with the
+lage were metal rails upon which seats were mounted
+and various electrical power wires and metal tubing. Current on metal members: Current flowing on one
+of the metal tracks used to hold the seats is shown in
+Fig. 8.33(α) and current on an aluminum duct carry-
+ing air for heating is shown on Fig. 8.33(β). If the
+injected current were 200 kA, there would be 11 kA
+gr/ε fuselaee and 6.2 kA, respectively, on these members. These
+encountered be would than higher much currents are objects metallic
+mem- particular on these flow They aircraft. in α metal & aft fore Sfbers ρ running
+because they are the ones that have α fairly low
+meas'ured current resistance. The currents themselves present no haz-
+ard to those objects since the current flows for only
+α short time, but allowance must be made to ensure
+that the current can flow without any sparking. The
+Fig. 8.31 General nature of CFC aircraft upon current is also seen to reach its peak long after the
+which tests were made. injected current has begun to decay. This is because
+the inductive time constant, ρ = is longer than LIR,
+the corresponding time constant of the fuselage of the
+Waveshape of Injected current: The aircraft was aircraft.
+tested by injecting current pulses into the nose and
+taking the current off the rear. The current, Fig. 8.32, Current on power α bus: Current on one of 28 V
+had α double exponential waveshape with α time to power return wires is shown on Fig. 8.34. If the cur-
+peak of 6 ps and α decay to half value of 84 Vari- ps. rent injected into the aircraft were 200 kA, there would .
+ous peak amplitudes were used, ranging from kA 1 to be 2.04 kA flowing in this wire. This is also α current
+10 kA. Fig. 8.32 shows α current pulse with α peak considerably higher than would flow in α comparable
+of I kA. This waveform is nearly identical to current circuit on α metal aircraft. The current did not reach
+Component Α. its peak until nearly 300 by which time the injected ps,
+241

@@ -1,0 +1,108 @@
+ucP 706-293
+Spherical control bearings commonly are retainod
+in & oontrol rod by staking thair outer rings. This
+method uaee a circumferential, V-shaped groove
+machinod into the bearing outor ring. as ahown in the
+detail of Fig. 16-4. After the boaring is pressod into
+the housing. a spocial tool is usod to roll the portion
+of the outer ring outboard of the groove over a
+chambor in the base of the housing. This providas
+positive axial retontion of the bearing. and permits
+tho baaering to be removod from the assambly by
+applying a heavy axial load. Bocause loading of thcoc
+boarings is primarily rodial in diroction, the staking
+procodure has boon found to be satisfactory fos most
+helicopter applications of spherical control bearings.
+164 ELECTRICAL FTTTINGS
+164.1 GENERAL
+The design of clectrical systems is discussod in
+Chapter 7. Thie paragraph discusscs the fittings used
+in thcoc cloctrical systoms.
+Elctrical fittings should be selectod for reliability
+and case of maintenance. Therefore, several dasign
+principlos should be observod:
+1. Mounting hardwere should be connocted par-
+manantly to the part baing mounted.
+2. Featuros stiould be providod to prevont in-
+corroct aseembly.
+3. Right- and left-hand parts cither should be iden-
+tical or should be incapable of being interchanged.
+4. Components should be protected against in-
+correct use of attachments.
+5. Universal mounting fcatures should be incor-
+porated whcre possibis.
+6. The use of dissimilar metals in intimate contact
+Mall be avoidod (soe MIL-STD-889 and MIL-STD-
+454. Roquirement 16. for definitions of dissimilar
+metsls). An interposing compatible material shail be
+uaod if combinations must be axsemblod.
+7. The number of wire and cable junctions shouid
+bo minimized. and only approved devicer shall be
+used where junctions arc requirod.
+8. The usc of identical connoctors in adjucent
+locations should be avoidod.
+9. Junctions should be accassible for inspoction
+and maintenance.
+10. Terminals and junctions should be spacod a suf-
+ficiont distance apart to prevent arcing ard detri-
+mental current lcakage betwoen circuits.
+Becausc of the number and varicty of switchas, ter-
+minal blocks, connoctore, terminals, and insulating
+nusterials available, manufacturers' data and the
+referencod Military Specifications should be con-
+sutted for additional information not presented in
+this chapter.
+16-16
+
+Marking requirements of selatod clecurical azd
+cloctronic parts are defined in MiIL-STD-1285. MIL-
+E-70e0 contains the reneral roquirements for sir-
+borne electrical oquipment.
+16 4.2 CONNECTORS AND CABLE ADAPTERS
+Conuoctors are usod for joining a cabie to other
+cables or for joining cabics to oquipment in casca
+where froquent disconnect is roquired. The most com-
+monly used connoctors have boen the circular and the
+rack-and-panel types. MIL-W-5088 doex not state a
+requirement for a spocific type of connoctor. but
+roquires that selection and use shall be in accordance
+with MIL-STD-1353. Although there are more than
+30 Military Specifications dealing with connectors,
+the designer should roduce the quantity of connactor
+varistions and limit the sclection to those which lend
+themselves to common termination methods; i.c.,
+common contacts, common bacl: hardware, and
+common assembly tools. This discussion is limitod to
+those connoctors most commonly used in heli-
+copiers. Tablc 16-8 provides a roady reference t0
+these types. along with their general descriptions.
+Table 16-9 lists additional spocifications to be used
+where spacial requiramenis exisi.
+Connector is a generic term usod to denote both an
+electrical plug and a roceptacie. A plug is a con-
+nector that normally is attachod to a froo-swinging
+ciectrical cable. A receptacle is a connector that nor-
+mally is attached rigidly to, or is an integral part of, a
+supporting surface. Each connect or sha! be sclected
+to make the "live" or "hot" side of the cwnnoctor the
+socket member to minimize possible shorting when
+the junction is disconnecied. The dead side of the cir-
+cuit is the pin member. Therefore, depending upon
+the individual circuit, a plug may contain either pins
+or sockets. The mating receptacle, of course, will con-
+tain the opposite.
+16-4.2.1 Connector Selectivn
+A multitude of connector designs, with specific
+capabilitics, are available. Morcover, many of the
+features of thesc designs overlap. Thereforc, the re-
+quiremen:s pertinent to the task for which the con-
+nector is intended should be Jentified and then co.A-
+pared with thc fcatures of thosc available.
+Information necessary for the selection of :!
+proper connector includes the following:
+1. Specific types of connectors, if any, designated
+in the contract
+2. Appiicable envinonmental conditions
+3. Maximum voltage and current for cach circuit
+4. Number of circuits to be accommodatod plus
+spare contacts

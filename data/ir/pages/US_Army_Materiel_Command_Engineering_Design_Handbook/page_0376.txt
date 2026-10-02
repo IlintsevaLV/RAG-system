@@ -1,0 +1,92 @@
+redicf vaives for protoction of tisc zubsysiem in the
+event the roducer fails. The performance or regula-
+tior msy be «bsoluta (beoed om aimospheric presure)
+or differentigl (maiatenance ef α spocific pressure
+level gbove the return preceure at the reducer in-
+stallation point).
+9-2.7.7 Filcers
+Adequate filuration is esvential io sotisfaciory
+operation of the hydrauiic zysam. MiL-F-8815
+covers the detail reguirements for the housings and
+esrsaents. Filter elements are discussed in per. 9..
+2.6.4.3.
+The Girt-holding veraus differential-pressure char.
+acteristics are shows in Fig. 9-34. They are quite non-
+linear. ι.ε.. α significant amount of contamination
+will be retaincd before there is σ noticeable increase in
+differential pressure. Differential pressure indicators
+are reguired in order to signal that the ckement is
+loaded with consnmination and requires replace-
+menl.
+Mll-F-8815 requires that an automatic shutoff be
+jsoj ii piay jo junoiue nuiuiu = iqi oi papiaojó
+when the element is removed.
+Thermal lockouts are used to keep thc difterential
+pressure indicators from operating below α specificd
+Nuid cemperature kevel. This allows cold starts. in
+which the high-viscosity fiuid would cause high-
+presure drops across the clernent. thus causing ihe
+differential pressure indicaior to operate.
+Α time delay is used to keep the differential
+pressure indicator from operating as α result of tran-
+sient pcak flow pressures. The contamination-
+holding capability then is referenced to steady-state
+Row pressures, and the clement life thus is inereased
+without penalty to the system.
+100
+PRESSURE DROP ACROSS ELEMENT, OSI 80 60 40 MAXIMUM RATEO FLO*-
+20
+CE1021 011 01 06 08 6Λ 09 0Σ 0 0ε 0Z 010
+DIRT - HOLDING CAPARILITY,
+Figere 9-34. Flter Eleonen Dirt-toiCing
+Characteristias
+
+Le
+Α bypase redier is voad to limit she diferential
+preasure acrocs the filier clement so that sysicm per-
+formancr dagradatioes is controilod during transient
+Icw-lompurature operation.
+The interactions oi the relief vatve, tberma!
+lockout, differential presoure indicator, and element
+clean-dirty diffcrential pressure charectcristics are
+importaat. The various requirements must compie-
+ment cach othar if che fitiratioa is to function effec-
+tively. Fig. 9-3σ shows α typical composite perforra-
+ance curve. This curve muat be moed as α lool during
+desigs in ordes to detrmpaine the various perform-
+ence roquinensents and · inssee they are comple-
+mentury.
+The requirecacna fos aa eisment differentie!
+preszurt indicator in covereó in NiIL-F-σ815, and
+cails for 70 ± 10 pai differential capebiliey fos α 3000-
+pai synierr. element.
+PAigration of the fluid filtes mudia is not accep.
+tabie. This facet must te concicerod during selection
+of the rredia to be used. If neveasery. additional
+testing sheli be conducied so as to confira that the
+media is aoqur 'ε.
+9-2.7.8 Cleck Valsee
+Check valve requirements are coveret by BilL-V.
+25675. and AN check vaives are available ihut meet
+Type I (160°F max) sygtem requirements. Miris.
+turize: check valves are available for Type Il synems
+(275°F max). and provißε = wcight and cost savings.
+Nonstandard cartidge check vaives that can be used
+in integrated packages also are available.
+120
+F2.FLOW RELIEF VALVE
+100 CHARACTERISTICS
+AESEAT.
+OIATY ELSMENS
+80і HARACTERIST ICS
+PRESSUSE ORCF, OS1 60 NOMINAL
+40 OPERATING PANG: 1Π INDICATOR
+DESIGN POINTS
+CLEAN ELFYENT
+CHARACTERISTICS
+20 THEAMAL LOCROUT
+SENINC PANGE
+-40 0 40 80 120 160
+TEMPEPATURE. °F
+Flgure 9-35. Flter Esemcnt Perforizeace
+9-21

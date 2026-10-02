@@ -1,0 +1,46 @@
+represents the lightning-related current passing through a lightning arrester after
+it has been caused to spark over internally by a voltage surge of different
+waveshape. Both the voltage and current waveshapes represent transients that
+may be produced by basically simple laboratory test equipment. They do not
+necessarily represent the shape of the current or voltage transients produced by
+natural lightning.
+At one stage in the development of the Space Shuttle Criteria Document,
+there was an allowance made for two basically unidirectional transient test
+waves. While those test waves had some deficiencies and have been largely
+superseded, discussion of them is still appropriate, since that discussion will
+illustrate some of the problems inherent in waveform specifications.
+2 The first of these specifications dealt with a transient rising to crest in ps
+and decaying to zero in 100 ps. The intent of this test wave was to dupIicate in
+some manner the effects produced by magnetic flux leaking through apertures.
+The waveform had its basis in the ANSI test waves. These waveforms permitted a
+backswing, a feature characteristic of transformer-coupled surges. The backswing
+amplitude was required to be less than of the initial amplitude, but the 25%
+duration of the backswing was left uncontrolled. The test waveform was not
+overdamped wave was intended to be interpreted as requiring a backswing. An
+perfectly satisfactory. If an overdamped waveform was used, there would be no
+clearly defined time to zero. In such cases the decay time was intended to be
+taken as one-half the indicated value (50 ps instead of 100 ps) and measured to
+the time at which the wave had decayed to 50% of its initial amplitude. The
+ANSI test waveform derived for tests waveform was thus similar to the standard
+2 2 on high-voltage apparatus. The front time of ps reflected the ps front time of
+the basic lightning design current. The transients themselves were specified as
+V A open circuit and 10 short circuit. having amplitudes of 50
+The second specification related to a long-duration transient representing
+the effects produced by magnetic flux diffusing through the walls of cavities.
+Such flux would have rise and decay times much longer than those of the
+lightning current. The specification called for a short circuit current of 5 A and
+V, an open circuit voltage of 0.5 both taking 300 ps to reach crest and another
+300 ps for decay to zero. The specification of equal times to crest and from crest
+back to zero is incompatible with the response of real physical elements. In
+practice, any waveform with a rise time of 300 would have a decay time pi
+longer than 600 ,us.
+One common deficiency of the above specifications was that both the
+short circuit current and open circuit voltage had the same waveshape. In
+practice the open circuit voltage would be of a duration shorter than that of the
+short circuit current.
+In the original paper in which the concept of transient control levels was
+first presented (Reference 17.17), Fisher and Martzloff proposed a test wave
+that was primarily unidirectional. The open circuit voltage was characterized by
+a fast rise to crest and then a decay to zero in 5 ps, or greater. To allow for
+transformer coupling of the transient, a backswing was allowed after the
+transient had decayed to zero. The character of the backswing was not

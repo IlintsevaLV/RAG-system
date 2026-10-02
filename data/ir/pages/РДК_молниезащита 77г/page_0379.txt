@@ -1,0 +1,29 @@
+13.3 Transfer Quantities
+If the mutual inductance between the shield and the signal conductor were
+equal to the self-inductance--unity coupling--the flow of current on the
+shield of the cable would not cause any voltage to be developed between the
+shield and the signal conductor. This section of the report will now discuss the
+factors that prevent the coupling between shield and signal conductor from
+being perfect. Consider first α shield in which only resistance effects are treated,
+13.8. In this condition an external noise current flowing shown in Figure
+through the resistance of the cable shield produces an electric field on the
+internal surface of the shield. The nature of the coupling between this internal
+field and the signal conductor depends upon the connections at the ends of the
+cable and upon the distributed inductance and capacitance of the circuit internal
+to the cable. As α simple case, imagine the left-hand end of the signal conductor
+to be shorted to the cable shield. The internal electric field would then be
+completely coupled to the signal conductor, and the voltage between the signal
+conductor and the shield at the right-hand end of the cable would be equal in
+Λ CONDUCTOR
+- -------
+------ ------
+Α - - -
+INTERNAL ELECTRIC FIELD
+INTERNAL ELECTRIC FIELD / ( - - - - - - -
+NOISE CURRENT
+0
+0
+time
+Coupling resulting from resistance effects. 13.8 Figure
+(α) Current and field polarities
+Current and field waveshapes (β)

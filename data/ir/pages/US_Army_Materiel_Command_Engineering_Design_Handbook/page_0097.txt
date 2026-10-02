@@ -1,0 +1,57 @@
+FUEL FLOW PARAMETER CORRECTION:
+Ω/8 CORR. = Ω/8
+WHERE
+Wf/δ Wf/δ
+ΔP INLET
+δ
+1.0
+2 0.8
+OUTPUT POWER PARAMETER DECREASE PEP UNIT PRESSURE LOSS Δhρ!δ ΔP/δ 0.6 0.4
+0.2 0 10 20 30
+1.0
+0.8
+INLE: DUCT PRESSUSE LOSE, pS: 0.4і 0.3
+0.2
+0
+0.2 0.4 0.6 0.8 1,0
+EXHAUST DUJCF PRESSURE LUSS, PSI
+Figure 3-7. Aliowable Comabined Inlet and Exhaust
+Duct Pressure Losses
+possibly stabilized εnd directed by splitters or bafes.
+The APU will have channels to provide controlled ac-
+celeration of air from the collector int 3 the inducer
+
+AMCP 706-202
+(Π-AP INLET . Ib/hr
+α
+Wf/8 CORR. :: FUEL FLOW PARAMETER CORRECTED FOR INLET LOSS . Ib/hr
+FUEL FLOW: PARAMETER WITH ZERO LOSSES, ID.hr
+AMBIENT PRESSURE, psia
+INLET PRESSURE LOSS, in. H20
+Pg/14.7
+INLET LOSS
+EXHAUST LOSS
+40 50 60 70 80 90 100 110
+OUTPUT POWER PARAMETER WI TH ZERO INLET & EXHAUST LOSSES, hp/δ, hp
+Figure 3–6. Ferformance Corrcetions for Duct Losses
+inlet. The airframe ducting should include α straight
+section of severa! diameters in length leading into the
+APU collector. This will reduce the effects of ram air
+stratification and cavitation in the ducting.
+If α device is incorporated to protect the inlet
+against dust or forcign object damage (FOD). this
+may affect the velocity profile and the resultant pres-
+sure losses must be coordinated with the APU manu-
+facturer so that model specification performance is
+maintained. One technique is to use directionsl
+changes of the total duci system for separation of
+larger particles (>200 microis).
+An intake screen shall be used for FOD pro-
+tectior. This may be Iscated at fuselage entry. APU
+1.2 collector entry, or compressor entty. The discussion
+of the engin: air induction subsystem in par. 3-2.5 is
+equally applicab': to the APU inlet.
+3-8.2.3 Exhgust Ducting
+Exhaust áucting design wilß be related it AP'J
+compartment cooling arrangements. The gas-exit ve-
+3-17

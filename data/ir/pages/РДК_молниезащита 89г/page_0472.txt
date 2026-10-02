@@ -1,0 +1,46 @@
+tion thermal resistance is somewhat limited. Table Two cases may be considered, one in which one
+17.6 gives some estimate of the accuracy within which of the half cycles of the transient does not exceed the
+the damage constant can be calculated, reverse breakdown voltage of the junction, Fig. 17.30,
+Waveforms 17.5.10 Oscilatory breakdown voltage is ex- the reverse and one in which
+case, one of the half Fig. 17.31. In either ceeded,
+Eq. 17.9 is based on the assumption that the ap- cycles will bias the junction in a forward direction.
+plied voltage, current, and power waves are rectangu-
+lar in shape. Actual transients are very seldom rectan- Reverse breakdown not exceeded: Treating first the
+gular, but it is possible to derive equivalent rectangular case in which the reverse breakdown voltage is not ex-
+pulses for more common types of transient. ceeded, Fig. 17.30, the rectangular wave of the same
+One such type V0, of transient typically encountered peak amplitude, and producing the same proba-
+is the damped oscillatory wave. Based on multiple bility of damage as the sine wave, has a duration rp,
+pulse studies by Wunsch and others [17.15 and 17.16], where
+it can be assumed that device damage will occur,
+if at all, during the first cycle of the damped sine (17.20)
+5 cycles may be lower amplitude wave. Therefore, the
+the sine wave. of neglected.
+Table 17.5 Typical Transistor Damage Data [17.11, 17.26 - 17.28J
+Device K BV BV 8V
+Number EBO CBO CEO
+2N43, A .28 5. 45. 30.
+2NI17 .15 I. 45. 45.
+2N118 .15 45. 1. 45.
+2N128 .017 10. 10. 4.5
+2N1158 .499 30. 60. 60.
+2N176 .46 40. 30.
+2N 189 .17 25. 25.
+2N190 .58 25. 25.
+2N243 .05 I. 60. 60.
+2N244 .05 60. 1. 60.
+.38 2N263 45. 1. 30.
+2N264 .36 45. 30.
+2N274 .0076 .5 35. 40.
+2N279A .047 45. 30.
+2N297A .499 40. 40. 6').
+.21 20. 2N329,A 50. 30.
+2N332 .45 I. 45. 30.
+2N333 1. .32 45. 30.
+2N335, A 1. .55 45. 45.
+4.-2N335A
+2N336 .55 I. 45. 30.
+2N337 .12 45. 1. 30.
+2NI38 I. 45. .12 30.
+55. 2N339 I. 2. 55.
+2N34 I . 125. 1 U.
+458

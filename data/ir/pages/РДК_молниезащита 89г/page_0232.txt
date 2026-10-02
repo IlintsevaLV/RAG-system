@@ -1,0 +1,100 @@
+prevent the ignition of fuel vapor within the system.
+Tests are usually needed to verify that the possibility
+of α fuel tank explosion has beer. minimized. These
+tests can be performed on panel specimens represen-
+tative of sections of the full scale fuel tank as well
+on individual plumbing hardware items such as α
+quantity probe or fuel line couplings. Once these
+have been performed and the lightning protection
+sign proved, further tests on α full scale tank can
+performed for certification. This may not be practi-
+cal for all cases. Certification in these cases may
+based on the results of the panel specimen and plumb-
+ing hardware tests as well as on analyses and similarity
+to previous designs.
+Tests which may be performed on panel specimens
+or plumbing hardware include the following, with
+tests performed in accordance [7.28].
+Skin thickness: The exterior tank skin should
+tested by high current direct attachment tests to
+ify that the skin thickness and/or protection design
+sufficient to prevent melt-through of α metal skin
+primers, fillers, typical All skin. α CFC of puncture
+and paints should be applied to the skin surface since
+their presence is α factor in the degree of damage which
+occurs. The dwell time of the test can be determined
+by analysis or by swept stroke tests.
+Access doors: Α typical access door configuration
+should be fabricated into α panel specimen and tested
+by high current arc attachment to determine if arcs
+door. This the of side interior the on or sparks occur
+specimen panel the attaching by accomplished be may
+to one end of α light-tight chamber, as shown in Fig.
+7.49, with cameras located within the chamber at the
+opposite end. With the chamber sealed, the simulated
+lightning arc is discharged to the specimen surface dur-
+ing which time the camera shutters are open to record
+any arcs or sparks which may occur. Following
+test, the shutters are closed, the film removed, devel-
+oped and then examined for light spots that would
+indicate the possibility of arcs or sparks. It is helpful
+to use both Polaroid and 35 mm cameras, since
+Polaroid pictures provide instant data and the 35 mm
+film can be processed after the test series is complete.
+Are entry tests should be applied to the center
+of the access door as well as to several door fasteners.
+These tests will show the adequacy of the access door-
+to-adapter gasket seal as well as the seals of the door
+fasteners/dome nuts to prevent arcs and sparks from
+entering the fuel vapor space. These specimens may
+also be tested with α flammable fuel/air mixture
+the chamber but, should an ignition occur, it would
+be difficult to locate its source.
+Vent outlets: Simulated strikes to α vent outlet should
+
+0 be performed to determine if fuel vapor ignition can
+occur, especially if the outlet is located in α direct
+strike attachment zone on the aircraft. This may be
+accomplished by striking α vent outlet structure which
+as contains α flammable vapor mixture. If an ignition oc-
+fuel curs, an investigation should be made to determine the
+tests cause of the ignition. Possible corrections should be in-
+de- vestigated, such as incorporation of α flame arrestor in
+be the design if one does not exist. If no ignition occurs,
+the vapor should be ignited manually, by α spark plug
+be for example, to verify that α flammable vapor did exist
+during the test. The tests should be repeated several
+times to obtain additional information as to the ex-
+pected probability of an ignition.
+all light-tight chamber
+be under tpe
+ver-
+is high
+or current
+generatr
+/
+return
+ρ
+tank fuel for chamber cight-tight Α 7.49 Fig.
+tests. spark and arc skin and component
+Drain valves: Α typical drain valve/skin interface
+panel should be fabricated and tested. These tests
+may consist of the flamnmable vapor technique in which
+α successful test result is the absence of fuel ignition or
+the by the light-tight chamber technique in which the ab-
+sence of visible light on the Polaroid and 35mm films
+indicates the lack of an ignition source.
+filler the Fuel caps: Α panel should be fabricated which
+includes the fuel filler cap, its mating adapter, and
+the adjacent fuel tank skin. All gaskets and sealants
+associated with the filler cap and its adapter should
+be present. The cap may be tested with α flammable
+vapor; however, the photographic technique is used
+more often since it is difficult to determine the exact
+cause of α failure when α flammable vapor ignition has
+occurred. The test, involves striking the cap directly
+in by high current arc entry.
+Fuel Me esspNlians: As mentioned previously, some
+fuel line couplings can conduct currents without arc-
+ing ot sparking at current levels of less than 2500 am-
+216

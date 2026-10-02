@@ -1,0 +1,34 @@
+These expressions are based upon the further assumption of a pure dipole and, as
+with Equations 11.6 through 11 .I 1 for the magnetic field formulation, would
+indicate infinite field strengths as one approached the plane of the aperture,
+whereas in fact the field in the plane of the aperture would be one-half the field
+strength that would exist at that point if the aperture were absent. A power
+series expansion of the field from a dipole of finite size could be prepared but, as
+of this writing, has not been. The bookkeeping routines necessary to handle
+electric fields are virtually identical with those used for magnetic fields and
+could be incorporated into the APERTURE program, although, as of this
+writing, they have not been so included.
+11.3 Field Magnetic Zones
+From the foregoing it can be seen that the task of mapping the magnetic
+field inside a vehicle and actually calculating the voltage on any particular circuit
+could be a formidable task. A possible solution to the problem lies in recognizing
+that aircraft, or at least aircraft within a particular category, tend to possess
+characteristic zones. On a fighter aircraft, for example, the cockpit can be
+regarded as a magnetically open zone exposed primarily to aperture-coupled
+magnetic fields. Within reasonable limits, all fighter aircraft probably have
+approximately the same magnetic field in the cockpit. Another type of
+equipment zone characteristic of fighters would be equipment bays located in
+the forward section and behind the radome. All such equipment bays tend to be
+alike, the differences, perhaps, relating mostly to the type of fasteners used to
+hold the covers in place. The structure within a wing is a type of magnetic field
+structure fundamentally different from either the cockpit or the forward
+equipment bays. Accordingly, it would seem possible to divide an aircraft into a
+relatively small number of typical zones, to assign a ruling or charactxistic
+magnetic field intensity to those zones, and to provide rather simplified tables of
+nomograms listing the characteristic transient likely to be induced in wiring of a
+given length.
+This concept of dividing an aircraft into shielding zones was first used on
+-6). (Reference 11 The zones so defined are shown in Figure the Space Shuttle
+11.13 (Reference 11.7). The electromagnetic fields assigned to each of these
+zones were initially determined by "seat of the pants" engineering by a group of
+engineers knowledgeable in the field. These magnetic fields were then refined

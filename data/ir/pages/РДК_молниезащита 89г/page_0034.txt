@@ -1,0 +1,73 @@
+1.6.2 Rod Gaps
+Sparkover voltage of rod-rod gaps exposed
+lightning impulse voltages is given in Figs. 1.25 and
+1.26. For long gaps the sparkover voltage is about
+5.5 kV per centimeter of spacing. Positive polarity
+sparkover voltage of rod-rod and rod-plane gaps as
+function of gap length and waveshape is given on Figs.
+1.27 and 1.28. The data, from [1.14] is again given as
+average gradient. Note that the gradient falls as low
+as 3 kV/cm for certain waveshapes. Note also that the
+front time for minimum breakdown voltage increases
+with increasing gap length.
+1.6.3 Sphere-Plane Gaps
+Typical sparkover voltages with positive polarity
+switching voltage are shown on Fig. 1.29 [1.15].
+0
+_VIIIgillIn _0
+____ _
+0.5 .-
+00 Β u2 %
+00 .~ .
+200 -
+τ•
+-lIo MoitcaiF 100
+20 Λ Ll Α I Ill aAa Ail III 1
+2 λ 5 20 10 50 100 spacing - inches
+Fig. 1.25 Lightning impulse sparkover of rod to
+rod gaps --Positive polarity.
+__ooo ________Rod-rod
+0.Σ . 6
+~
+I~~~ up. oi
+10 to o 20 50
+spacing - inches
+to of rod impulse sparkover Lightning 1.26 Fig.
+polarity. Negative - gaps rod
+
+Gases Other 1.7 Than Air
+to Some gasses, particularly sulphur hexaflouride,
+have better insulating properties than air, largely be-
+cause they tend to absorb free electrons. They will not
+be discussed further since they are not germane to the
+α protection of aircraft from lightning, other than their
+possible use in lightning simulators.
+Properties of Arcs 1.8
+An electrical arc is α self-sustaining discharge
+having α low voltage drop and capable of supporting
+large currents. Its characteristics depend on the mate-
+rials of the electrodes from which the arc forms and the
+composition of the gas in which the arc bums. This
+discussion will deal only with arcs in air at atmospheric
+pressure.
+the context of aircraft and lightning protec-
+tion, arcs form most commonly in response to an ini-
+tial breakdown brought about by excessive voltage ap-
+plied to the gap between two electrodes. In other sit-
+uations, such as electrical switches and circuit break-
+ers, they may also form between current carrying elec-
+trodes that are initially in contact and then separated.
+--
+6 .... ν . - - -
+_ - 6-- -. 2 1
+4.0
+2 - - -
+-(Μ).
+Fig. Volag grdet ts 1.27 kover. 1 2 5 10' 2 6 U,2 2 5 10 2 6 Oslo,
+gaps, positive polarity [1.16]
+2-
+1 10' 2 5 002 2 H Α0j
+-
+sparkover. at gradient Voltage 1.28 Fig.
+(1.16] polarity gaps, positive Rod-plane
+15

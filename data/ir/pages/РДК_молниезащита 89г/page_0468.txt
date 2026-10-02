@@ -1,0 +1,89 @@
+sqtu•re pulse of magnitude
+I ε -o θ
+"δ the total energy piduced is
+ft
+Ω Pdt (17.5) =IVt =
+that the is sufficient level that the power Assume
+pulse. Both experimental fails at the end of the device
+power re- the that indicate analyses theoretical and
+the wi4lth: on pulse depends failure to cause quired
+narrower the pulse, the greater the power required
+"lo typi- range of times, Over α broad cause failure.
+ps cally between 0.1 and ps, the power 100 required
+the square to proportional is inversely failure to ,'.use
+the power durations pulse very short time. For root of
+to proportional inversely cause failure is to required
+Μ the power pulse durations for very long time, and
+These relations is α constant. failure, to cause quired
+equations: the following by be expressed may
+(17.6) To < = τ C Pt
+2 (17.7) < <tf 1004σ To K ptl/ =
+(17.8) > 100 us K To α τ, = petl2
+φ Coastant Π 100 π (17.8) />
+where To generally lies between 10 and 1 Fig. ns os.
+17.26 shows an example for α 10 Ω diode. The most
+important region is the center regionm where
+(17.9) 2 Π Kt-11 =
+Sditions.
+V V9
+)
+-
+V.
+(β)
+Fig. 17.25 Voltage and current through α diode
+junction [17.91.
+Forward bias case (α)
+(β) Reverse bias V came, > VBD
+454
+
+Effects bias: of Junctions are less susceptible to
+burnout when operated with forward bias: first, be-
+lower is current α given by produced power the canse
+when flowing through the low forward bias voltage
+than when developed across the higher reverse bias
+breakdown voltage, and, second, because the VBD,
+current is more uniformly distributed across the junc-
+it requires Accordingly, direction. the forward tion in
+direction to cause failure. the forward mtore power in
+tran- 2N2222 The 17.27. in Fig. is shown An example
+speed switch. high- silicon NPN Ω is α 0.5 sister
+Damage Constants 17.5.5
+and 17.26 Figs. thosi of as such curves, From
+can (or C), K constant., value of α damage 17.27, the
+devices. α range of for tabulated determined and be
+curve cau then be threshold damage The appropriate
+charac- single damage from α reproduced as desired
+is con- K. It constant damage the number, terization
+5 venient to express K in since the value of kWMpsa* ,
+to numerically equal becomes then units these in K
+square by α dissipated failure, for necessary power the
+of 1 duration. pulse ps
+If this point is located on α log-log graph, as
+shown in Fig. 17.26. then α curve of slope, -0.5. drawn
+through this point reconstructs the curve fit to the
+data for α particular device, and the power for fail-
+ure at other pulse durations can be read directly from
+such α graph. Ideally, the K factor should be known
+for both the forward bias and the reverse bias con-
+Generally. only the K factor for the reverse
+bias condition is known. This limitation gives coner-
+vative answers, since K for the reverse bias condition
+is almost always lower than is K for the forward bias
+condition.
+The magnitude of the damage constant depends
+upon the type of junction under consideration: broadly
+speaking, it is larger for large junctions and smaller
+for smala junctions. Figs. 17.28 and 17.29 show the
+range of the damage constant for typical diodes and
+transistors.
+Detemination 5. Experimeua of
+-.
+Experimentally the K factor is determined in- by
+jecting power pulses into the semniconductar junction,
+starting at low levels and increasing the levels until ei-
+of the junction degradation significant or failure ther
+occurs. Devices would normally be pulsed in both the
+forward and reverse directiom.
+The K factors and breakdown voltages for some
+representative semiconductors are given in Ta"le 17.4
+and 17.5. The tables are intended only to show the

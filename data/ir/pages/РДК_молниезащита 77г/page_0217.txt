@@ -1,0 +1,35 @@
+large hole in fiberglass skins such as the skin of the nose radome shown in Figure
+1. Each of the component materials, glass and resin, has relatively good 4.1
+voltage withstand capability; however, the many interfaces which exist between
+the glass fibers and the plastic resin when the two are put together create voids
+and seams which will withstand much less voltage stress before ionization and
+charge mobility (breakdown) begin. Thus, an external conductor, or diverter,
+must usually be placed on the outside surface of a fiberglass skin to provide a
+can to which lightning flashes attach. The need for such a diverter and the place
+guidelines for its proper design and location can best be understood by reviewing
+the lightning attachment mechanism itself.
+. l . 1 Lightning Attachment to Fiberglass Materials 7.3
+1, In Chapter Section 1.2.4, we described the basic lightning breakdown
+process, and in Chapter 2, Section 2.2, we considered how this process causes
+attachment to an aircraft in flight. As noted there, when the intense electric field
+created by the oncoming leader reaches the ionization potential of air in the
+neighborhood of extremities and sharp edges on the aircraft, ionization occurs
+and streamers propagate outward from the aircraft in the direction of the
+oncoming leader. Since fiberglass has no electrical conductivity, the electric field
+passes directly through it, which phenomenon can cause streamers to originate
+from objects inside as well as outside of the fiberglass structure. What happens
+may be viewed as a race between streamers propagating from conducting objects
+7.13. inside and outside of the fiberglass structure, as shown in Figure
+FIBERGLASS
+LEADER
+Streamers induced approaching leader. by Figure 7.13
+Streamers occur from objects inside and outside the fiberglass
+structure.
+Examples are wing tips, external fuel tanks, and radomes.
+Both the voltage withstand capability of the fiberglass and the distances
+along alternate breakdown paths are important in establishing whether puncture
+or external flashover will occur. Usually, of course, a higher intensity electric
+field is necessary to permit the internal streamer to puncture the fiberglass wall
+and contact the leader than would be necessary merely to draw the external
+streamer through the air to the leader. As the leader approaches, the field
+intensity increases until one of the streamers reaches and joins the Ieader. The

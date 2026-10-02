@@ -1,0 +1,111 @@
+chordwise CO corrected is by transferring
+between the chordwise positions. The limits of
+justment are reached when either attachment is
+pletely empty or is completely flled with weights.
+To establiah individual dynamic balance, !%oth
+spanwise and product moments must be controlled
+maintain α common dynamic axis for all blades
+particular model. The dynamic axis Ξ!is expressed
+it follows:
+J xydm
+,in. Ξ
+NOR!
+where
+- increment of blade mass, slug dm
+= location of flapping hinge from the center
+-
+of rotation, in.
+μ, " mass of spanwise increment at inboard
+end of blade (ε). slug
+- mass of spanwise increment at nmk
+end of blade (R), slug
+- blade radius, in. R
+ξ = chordwise distance from blade
+edge to centroid of mass increment, in.
+υ - spaunwise distanct flapping φ(oun
+centroid of mass increment, in.
+Eq. 5-8 implies that the weight of each element
+component must be rigidly controlled. However,
+practice this is not necessary because α system can
+established to match rclativ'tly heavy parts with
+that are on the light side of the tolerance scale.
+Because it would be quite cumbersome to match
+select each and every part of the blade assembly,
+those components that make up the bulk of
+weight need be considered. This method of
+assembly blade four divides rotor intt, the main
+ponents or groups: the spar or spar assembly;
+leading edge material, including ballast; the aft
+tion skins and stabilizing material; ared the
+edge reinforcement. These four major components
+are selected bemuse they comprise the basic structure
+of α blade and extend the full length of the
+span. Variations in the weights of τ'ε remaining
+have little si3nificanoe in the total weight and
+of the complete blade.
+54-.3.2 Comneeet Lunit Weigtts
+By selecting the major components on the basis
+weights and moments relative to their respective
+Uaveilcble weight adjustments, virtually all blades
+be balanced to α master balance blade. The
+- variation in each part be determined by shal!
+available capacity of the attachments for adjustable
+weight. Weight limts for each part may be
+" ed by assuming that all other parts are of
+
+AMCP 706-202
+weights weight and that one of the weight attachments is
+ad- completely empty or full. When two tip weight at-
+com- tachnients are used. the acceptable weight tolerance
+on forward components (ε.γ., spar and abrasion
+the strip) is lim.ited by the forward tip weight capacity,
+to whereas the weight tolerance on aft components (ε.γ.,
+of α trailing edge and skins) is limited by the aft tip weight
+as capacity.
+When this method of weight adjustment is used,
+the limit weight for each component may be obtained
+by the solution (5-8) of simple pairs cf simultaneous
+equations. The equations are iet up in terms of span-
+wise and chordwisc (or product) moments where the
+sims of the moments of empty or full attachments
+and the two unknown weights arc equated to the
+sumns of the nominal ,nomente on the same compo-
+ν.nts, aF shown in Table 5-2.
+The steps that follow (using data from Table 5-2)
+outboard show the solution for the minimum and maximum
+weight for one part (an abrasion strip):
+1. Minimum al'owablc weight (forward attach-
+leading ment assumed full):
+α. Spanwise moment is:
+hinsc to 0.19(155.50) + 82.6. WJ.., + 155.50Ω, 459.30 +
+15.55 + 15.55
+or β. Product moment is:
+in 0.19(155.50) (0.75) + (82.61)(0.558)Wjm,, +
+be (155.50) (2.35) 256.30 11.66 + + 36.54 Ω. -
+those χ. Sol-.ing these two equations will give Ω,,•.
+the minimum allowable weight for the abrasion strip.
+or if lb, all other componcnts remain at nominal weight
+only 2. Maximum allwwable weight (forward attach-
+the ment assumed empty):
+selective α. Spanwise momeqt is:
+cam- 82.41 15.50 459.0.+ χ ω _Λ ul ν + '+
+the 15.55 + 13.55
+acc- β. Product moment As:
+trailing 0.0(155.50) (0.75) + (82.61) (0.558)WIR• (155.5) +
+(2.35Ω ) 256.30 + 1.1.66 + 36.54 - 1
+χ. Solving these two equations will give Ω- ...
+1
+blade the maximum allowabhl weight for the abrasion strip,
+parts if all other components remain at nominal weight. In
+balance both the solutions the valwts Ω, and WJ, the aft and
+forward adjustable weight•, respectively, must be
+:50.19 lb. the maximum capacity of the adjustable
+weight attachment. Α sind;ar set of simultaneous
+of equations is solved for each of the other three critical
+the components.
+can Nomograms can be prepsred for convenience in
+weight the selection of the four oi more critical weight com-
+the ponents. These nomograms combine into α single
+graphical format all the mininim and maxitpum
+calculat- χ&'imponent weights deterwii~ed by the procedure
+nominal stated previously. Similarly, θ.se results can be com-

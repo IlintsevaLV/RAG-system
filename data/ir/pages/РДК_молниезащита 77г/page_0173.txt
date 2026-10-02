@@ -1,0 +1,44 @@
+eliminating possible sources of ignition, regardless of the expected flammability
+conditions in the tank.
+If any doubt about the protection capability of the particular design
+exists, the cap should be tested as described in the SAE report Lightning Test
+(Reference Waveforms and Techniques for Aerospace Vehicles and Hardware.
+6.57).
+6.8.1.2 Ligh tning-Pro tec ted Access Doors
+Newman also reported sparking at access door interfaces when the mating
+surfaces had O-ring seals or phenolic or anodized clamp ring surfaces which were
+electrically insulating. It was found (Reference 6.29) that the application of a
+modification (SB-1955) successfully prevented this Boeing Service Bulletin
+sparking when the access doors were directly struck. The modification consisted
+of the following:
+Removing phenolic and anodized coatings from the clamp ring (1)
+Removing anodized coating from faying surfaces of the access door (2)
+Sealing of the door to the surrounding skin adapter with conductive (3)
+grease consisting of 35% by weight of aluminum powder and 65% by
+weight of Aeroshell 14 grease.
+Other modifications in access door seal design have proved equally
+effective in preventing sparking. In some cases anodized clamp rings or insulating
+gaskets have been acceptable when sufficient metal-to-metal conductivity exists
+via the bolts or fasteners alone. The door requiring the SB-1955 modification
+described above to resist sparking had only 23 bolts, whereas other doors having
+over 40 bolts have been found to resist sparking even if insulating finishes or
+or paints such as anodize zinc chromate remain on the mating surfaces.
+A recent survey of different manufacturers' access door designs showed a
+wide range of different materials and sealing practices in use and relatively little
+If documented lightning test data upon which to judge their adequacy. access
+1 doors are located in Zones or 2, where direct or swept strokes may attach
+directly to them, they should be tested with direct strokes in accordance with
+the SAE report for Lightning Test Waveforms and Techniques Aerospace
+(See Reference 6.57). Even if these doors are not located Vehicles and Hardware
+in direct or swept-stroke zones, they are likely to be involved in conducting
+some lightning current, since this current passes along the aircraft surface
+between other attachment points. This report also describes appropriate tests to
+be performed (for Zone 3) to evaluate this possibility.
+The importance of adequate electrical conductivity between access doors
+and their surroundings can not be overemphasized, especially in cases where the
+access door is itself a large part of the aircraft skin and where this skin encloses
+fuel. Such a case is illustrated in the small fighter aircraft of Figure 6.33, in
+which several large access doors cover a fuselage fuel tank. The doors cover a
+large area and are located in Zone 2A, a zone that requires them to be designed
+A ~ - s . to safely accept strokes up to 100 kA, 0.25 x lo6
+163

@@ -1,0 +1,92 @@
+. •cations.
+(α)
+(β)
+-"..WT4AL~u UN
+(χ) .
+•the 4
+. --
+(δ) [''
+,.ouo _φ π,.ι.. ST_
+(ε) ..... . (ε)
+1 Λ . 1
+Fig. 8.1 Steps in controlling indirect effects.
+(α) Determining the external environment
+(β) Determining the internal environment
+(χ) Determining the response of cables
+(δ) Determining the response of terminal
+equipment
+(ε) Conducting verification tests
+Loose coupling: The stages in the analysis can be
+separated because the aircraft and the wiring in it are
+only loosely coupled; meaning only that lightning af-
+fects the electrical wiring, but that the exact response
+of the wiring has no practical reverse effect on the am-
+plitude or waveshape of the lightning current. There
+are situations where this may not be completely true
+and these are discussed in Chapter 10.
+Status standards of and specifications: The arts of
+analysis and control of indirect effects are still evolv-
+ing. Accordingly, the analytical procedures to be de-
+scribed are not as simple or as well developed as might
+be desired. Test practices, test procedures and test
+specifications likewise are still evolving. One result
+of this is that specifications for design and test are
+frequently incomplete, or stated in such α way as to
+force unnecessary or overly expensive design and test
+practices. Some of them neglect important aspects of
+lightning interactions with α result that systems may
+be put into practice without real lightning problems
+having been addressed. Some examples of these will
+be given in later chapters, along with discussions of
+
+good and bad points of typical standards and specifi-
+8.4 Lightning vs Nuclear EMP
+The art of analysis of lightning interactions has
+into NEMP and protective influenced by research been
+measures and test techniques have likewise been influ-
+have certain NEMP. Lightning and NEMP enced by
+similarities in their effects, but there are differences
+as well. Many of the practices that might be adopted
+for control of effects would also be good for NEMP
+control of lightning indirect effects (and visa versa)
+but it should not be assumed that the practices are
+same. Certainly it should not be assumed that α
+design proven satisfactory for one phenomenon would
+necessarily be satisfactory for the other phenomenon.
+Some of the similarities and differences are discussed
+below and in the literature [8.1, 8.2].
+NEMP: Ideally, can be considered as α phe- NEMP
+nomenon to which an aircraft will never actually be
+subjected.
+If it should occur, it would consist of α single elec-
+tromagnetic field pulse, or possibly several pulses if
+reflections are counted. The pulses would be of short
+duration (about 1 microsecond would ), propagate in
+free space and would engulf an aircraft that is also in
+free space. When the pulses contact the aircraft they
+will be partially reflected and scattered with the re-
+suit that there will be α certain electromagnetic field
+developed at the surface of the aircraft. These surface
+electromagnetic fields will be associated with currents
+on the aircraft and the currents would probably prop-
+agate back and forth, at α frequency determined by
+the size of the aircraft structure.
+The surface currents, however, would be best
+thouglhit of as α response to the electromagnetic field;"
+that is, the field is produced first and it is the forcing
+function that causes the surface currents. It is logical,
+therefore, to base analyses on the response of NEMP
+the aircraft to electromagnetic fields. The most impor-
+tant response involves how much of the external field
+couples to the interior of the aircraft, α subject that is
+naturally addressed in terms of shielding effectiveness
+of the aircraft.
+Lightning: Lightning to an aircraft is also α rare event,
+but does in fact occur sufficiently often that it should
+be regarded as something that sooner or later is al-
+most certain to occur, It would differ from α NEMP
+event in that it is of longer duration (perhaps on the
+order of α second), involves many pulses in rapid suc-
+cession, some of amplitude much higher than induced
+by and involves α direct contact between the NEMP
+225

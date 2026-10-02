@@ -1,0 +1,13 @@
+13.6 An alternative form of the equivalent circuit of Figure is shown in
+There are two parts of the circuit, one relating the magnetic field to Figure 13.7.
+the current flowing on the shield and one relating the current on the shield to
+the voltage developed on the conductor. Both the measurements and the circuit
+indicate that voltage on the center conductor is affected by the relative
+A impedance of the loads on the ends. low impedance at one end pulls the
+M12 R voltage at that end down but raises the voltage at the other end. and
+of represent transfer quantities, the values which depend upon the type of
+shield.
+Shield grounded at both ends. 13.7 Figure
+(a) Test conditions
+Conductor voltages (b)
+Equivalent circuit (c)

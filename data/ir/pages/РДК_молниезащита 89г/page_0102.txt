@@ -1,0 +1,103 @@
+4.7 Indirect Effects
+if the lightning flash does not directly Even
+tact the aircraft's electrical wiring, strikes to the air-
+frame are capable of inducing voltage and current
+surges in this wiring,
+Upset or damage of electrical equipment by these
+induced voltages is defined as an indirect effect. Indi-
+direct effects be considered along with rect effects must
+electrical the vulnerability of aircraft in assessing
+as systems. Flight critical systems such electronics
+full authority engine control system illustrated in Fig.
+4.20 are potentially susceptible to indirect effects,
+careful attention must be given to protection design
+and verification.
+electronics state solid advent of the Until Reports:
+in aircraft, indirect effects from external environments
+static were and precipitation as lightning such
+much of a problem and received relatively little atten-
+trou- of however, evidence, increasing is There tion.
+blesome indirect effects. Incidents of upset or damage
+to avionic or electrical systems are showing up in air-
+line lightning strike reports. Table 4.1 summarizes the
+reports of interference or outage of avionic or electrical
+equipment reported by a group of U.S. airlines for
+period 1971 to 1984 [4.22].
+Table 4.1 OF INDIRECT EVIDENCE EFFECTS IN
+COMMERCIAL AIRCRAFT
+strikes) (214
+Outage Interferenm
+let communication HF
+communication 27 3 VHF set
+S 2 VOR receiver
+9 22 Compams (all types)
+2 - Marker beacon
+Weather radar 3 2
+6 system landing instrument 7 6 finder Automstic direction
+Radar altimeter 6 -
+SpUS flow Fuel 2
+I - gauge quantity Fuel
+gaugs Engine rpm 4
+Engine exhaust temperature gal 2 -
+I gauge air temperature Static
+Windshield 2 heater -
+Flight director computer I -
+Navigation light - I
+generator tripoff Instances ac (6
+of tripoff
+Autopilot I-
+The incidents reported in Table 4.1 occurred
+20% of the total of 851 lightning strike incidents
+ported during the period. U.S. military aircraft have
+
+had similar experience. This experience is probably a
+result of the increasing sensitivity of miniaturized solid
+trend which state electronics to transient voltages, a con-
+necessarily would not have posed a problem in older,
+less sophisticated equipment. In any one incident, only
+a few electronic components are affected; others are
+not. Yet lightning induced voltages actually occur in
+all aircraft electric wiring at once. Thus it is evident
+in some circuits than surges reach higher values that
+of are less tolerant others or that some electronics and in
+the such surges than others.
+and Trends: While indirect effects have not historically
+been a major safety hazard, there are four trends in
+aircraft design and operations which could increase the
+following: the include These problem. potential
+1. Increasing use of composite structures in place of
+aluminum. not
+electronics state solid of miniaturization 2. Further
+3. Greater dependence on electronics to perform
+flight critical functions
+4. Greater congestion in terminal airways, requir-
+the ing more frequent flight through adverse weather
+conditions at altitudes where lightning strikes fre-
+quently occur.
+of these One of the consequences Consequences:
+trends is that protective measures which in older gen-
+eration metal aircraft largely "come for free" must, in
+the future, be explicitly provided, usually with an ad-
+verse effect on aircraft weight and program cost.
+Demarcation line: The demarkation line between di-
+in arbitrary somewhat be may effects and indirect rect
+a lightning might involve An example instances. some
+flash terminating on a wing tip navigation light. In
+light to the damage burning or blasting the case, this
+fixture would be considered a direct effect of the light-
+ning. If the lightning flash were to contact the filament
+of the bulb and inject current into the wiring, electri-
+cal would be produced ranging from overvoltage effects
+b
+of to tripping at the socket breakdown of the insulation
+remote circuit breakers or upset of equipment; effects
+of the resulting surge voltages on the power system.
+All of these effects will be considered indirect effects
+in this discussion, even though the initiating event was
+the direct injection of current into the filament.
+Another hypothetical possibility would involve a
+lightning flash that passed close to but did not con-
+in tact the aircraft. The changing electromagnetic field
+re- produced by that flash might upset electronic equip-
+ment. The circuit upsets produced by such a flash
+84

@@ -1,0 +1,44 @@
+The developers d o report (Reference 7.17) that the segmented strips
+C remain undamaged after passage of a 170 kA stroke and 200 continuing
+currents. This capability has been confirmed bv the authors, who have found the
+strips capable of sustaining two strokes of 180 kA and 2 lo6 (Component x A ~ - S
+A) before destroying their ability to ionize another time. The authors have also
+found the segmented strips to be capable of sustaining a much larger number of
+the more common 50 kA strokes. Other investigators, including Conti and Cary
+200 (Reference 7.1 8), have reported the strips to be severely damaged after one
+kA discharge or one "high coulomb" continuing current discharge has been
+delivered, a finding that has aroused controversy over the effectiveness of the
+delivered by Conti and Cary, strips. The continuing current charge (500 C )
+however, is more charge than that conveyed by any natural lightning discharge
+yet measured.
+The segmented strip design might be modified to lower the ionization
+voltage or to improve durability; however, the basic principle is sound, and there
+are many applications where the presently available strips will afford lightning
+protection improved over other methods, while not interfering with radar
+performance. The present lack of strip performance data simply means that the
+proper location of the strips can not yet be determined analytically but, instead,
+must be accomplished with the aid of laboratory tests of candidate arrangements
+on the particular structure being protected.
+The selection of protective devices and the arrangement of them on a
+fiberglass structure comprise a major part of the protection task. The best design
+can be completely undone, however, if other, seemingly innocuous, features of
+the structure are left unchanged. Figure 7.32 illustrates some particularly
+troublesome situations. They usually arise when practices perfectly acceptable in
+metallic structures are continued without modification in nonmetallic structures.
+The several ways of providing protection for the fiberglass wing tip of
+Figure 7.30 should include the following:
+Remove paint from the diverters
+Electrically bond the lamp housing directly to the diverters
+Enclose the lamp power wires in a conduit or braided shield inboard
+to the metal rib
+Electrically bond the diverters to metallic structure.
+7.3.2 Advanced Composites
+Advanced composites, consisting of boron- or graphite-reinforced plastics,
+are being used increasingly often as replacements for aluminum load-bearing
+applications in aircraft. The high strength-to-weight characteristics of these
+materials make them attractive for structural applications, but because they are
+nonmetallic, they are inherently more vulnerable to lightning effects.
+of In contrast to aluminum, which by virtue its electrical and thermal
+conductivity suffers few direct effects of lightning and which provides excellent
+electromagnetic shielding, the advanced composites are neither good conductors,
+228

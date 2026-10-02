@@ -1,0 +1,82 @@
+AMCP 706-202
+loads are applied. The orifice area then docreases
+further on in the stroke and more energy is aboorbod
+at lowar load levels. However, this type of strut is
+more complex and the implications of increased
+weight and cost relative to a strut with fixed orifice
+must be weighed.
+The desigi: of air-oil struts shall be in accordance
+with MIL-L-8552. with two exceotione:
+1. A scal other thar the standard O-ring to avoid
+spiral failure
+2. A spocial scraper ring that is more effective in
+keeping out dirt than the specified MS 33675 scraper
+rings. The latter have no means of preventing dirt
+from entering the ztrut past the outsic's of the scraper,
+which fits looscly.
+The first step in the design of the oleo strut is to
+determine the size of the piston. The static load and
+static preasure define the arsa, and consequently the
+diamoter, of ti.e piston rod. Tbe static pressure is
+determinea from an isothermal air compression-
+stroke cuive developed for the 3trut. A pressure of
+3000 pai can be assumed at the compreusod position,
+with provision in the strut deaign ior a maximum of
+4000 pai to ailow for growth (incrcased gross weight)
+from the static to the compressed position commonly
+is applied during preliminary deaign, with the vaiue
+selected being dependent upon the landing load fac-
+tor. Thus, the static air preasure uaed in the deter-
+mination of piston diemeter will te in the range of
+1000 to 3250 pai.
+To avoid full exiension of the gcar when thc heii-
+copter is lightly loaded, the pressure in the extended
+4G00 MAXIML'M STRU) GAON IHI
+3000 COMPRESSED POSITION
+NORMAL AIR CURVE
+AIR PRESSURE, psi 2000
+1000 POSITION STATIC
+250 EXTENDED POSITION
+0 0 25 50 66 83 100
+STRUT STROKE,
+Figure 12-4. Typical Istrerme: Shock Strut
+Air Coumpcasdon Curve
+12-6
+
+position is sot at approximately 25% of the static
+prosaure. The static position is sct betwoen 66 and
+85% of the strut stroke, with 83% providirg smcothar
+taxiing. As an example, for a strut with & total stroke
+of 12 in., tho static position would be 10 in. (83% of
+12 in.) from the fully extendod position. A typica?
+shock struz compression curve is shown in Fig. 12-4.
+When the static positions of the individual struts are
+being seiectod, the overall landing gear configuration
+also must be examined to assure that all applicable
+ground clcaranoe requiroments, including flat tire
+and fla. strut conditions, are mez.
+As previoualy noted, the piston arca is dotermined
+by the static load and the static premure. The wall
+thickness of the piston rod is determined by the cri-
+tical combination of bending moment and compres-
+sion load. Of the ground loads spocified (pars. 4-5
+gnd 4-6, AMCP 706-201) the braking conditions 0r
+obstruction load condition probably will produce the
+maximum valye of bending moment in the piston
+rod, which occurs at the point that the piston enters
+the lower beari.ng. Materials with ultimate tonsile
+strength of 260,000 psi or greater should be con-
+sidered for th- piston :od, subject to the approval of
+the procuring activity (MIL-L-8552). The ratio of
+piston rod diameier to wali ihickness siso musi be
+examined to assure that the design is neither un-
+neccusarily heavy nor impractically difficult (bencs
+expensive) to manufacture. Should the wall thickncus.
+as determined by the critical loading condition, pro-
+duce an unacceptably beavy strut, the conditions
+governing the static position should be re-cvaluatod.
+There are two ways in which a shock normally is
+mounted. cantilever and universal (Fig. 12-5). The
+CANTILEVER ARTICULATING GEAR WITH
+UNIVERSAL —MOUNTED STRUT
+Figure 12-5. Centlever aad Ueirersal Strats

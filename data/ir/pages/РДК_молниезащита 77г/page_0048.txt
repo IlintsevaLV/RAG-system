@@ -1,0 +1,26 @@
+\
+Aircraft influence on stepped-leader direction. Figure 2.1
+electrical potential of its location. Since the aircraft is α thick conductor and all
+of it is at this same potential, it will divert and compress adjacent equipotentials,
+thus increasing the electric field intensity in the vicinity of the aircraft, and
+especially between it and other charged objects, such as the leader. If the aircraft
+is far away from the leader, its effect on the field near the leader is negligible;
+however, if the aircraft is within several tens or hundreds of meters from the
+leader, the increased field intensity in between may be sufficient to attract
+subsequent leader propagation toward the aircraft. As this happens, the
+intervening field will become even more intense, and the leader will advance
+more directly toward the aircraft.
+The highest electric fields about the aircraft will occur around extremities,
+where the equipotential lines are compressed closest together, as shown in Figure
+2.2. Typically, these are the nose and wing and empennage tips, and also smaller
+protrusions, such as antennas or pitot probes. When the leader advances to the
+point where the field adjacent to an aircraft extremity is increased to about 30
+kV/cm, the air will ionize and electrical sparks will form at the aircraft
+extremities, extending in the direction of the oncoming leader. Several of these
+sparks, called usually occur simultaneously from several extremities of streamers,
+the aircraft. These streamers will cont~nue to propagate outward as long as the
+7 2.1). field remains above about kV/crn (Reference One of these streamers will
+meet the nearest branch of the advancing leader and form α continuous spark
+from the cloud charge center to the aircraft. Thus, when the aircraft is close
+enougii to influence the direction of the leader propagation, it will very likely
+become attached to α branch of the leader system.

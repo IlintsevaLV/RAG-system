@@ -1,0 +1,94 @@
+following: the include slowly, repeated pulses
+thermal the evaluate better pulses test 1. Multiple
+of pulses Multiple test. under objects on duty
+objects that fast sufficiently occur lightning actual
+between pulses. off cool do not
+partic- in analog systems system, of types Some 2.
+rapidly of effect cumulative to the ular, respond
+disturbances. applied
+phys- to susceptible more are of device types 3. Some
+cycle. Semi- a in points certain at damage ical
+to susceptible most are in particular conductors
+state to from one changing are they when damage
+another.
+mo- to susceptible more are device of types 4. Some
+Digital a cycle. in points certain at upset mentary
+upset most susceptible to are particular in devices
+state. changing are they when
+up- to susceptible more are system of types Some 5.
+cir- when interface cycle in a certain points at set
+inter- periodic at refreshed or sampled are cuits
+vals.
+generated be can pulses multiple the Sometimes
+a that so networks charging impedance low by using
+dis- and be charged can storage capacitor energy single
+do, particu- to difficult be may This rapidly. charged
+charging instantaneous since levels, power high larly at
+be may of amperes or thousands of hundreds currents
+laboratory. the feeding mains power the from drawn
+energy many to use is technique alternative An
+dis- and then slowly, them charge capacitors, storage
+under test. into the circuit them one by one charge
+number total regarding pulsing: Questions Random
+resolved. being are still rate repetition and of pulses
+tests stroke multiple for practice common most The
+circuit, the into pulses 24 injecting requires presently
+two to exceed not period a over spaced pulses the with
+the that made been have suggestions Some seconds.
+prob- any avoid to distributed irregularly be pulses
+clock cycles. computer with synchronization of lems
+a implies random but used, has been random term The
+ques- the raises and mathematical distribution, certain
+obtain to repeated be must tests the often how of tion
+distribution. a truly random
+that only is really concern the Most commonly
+precisely or time, in spaced precisely be not pulses the
+frequency. clock digital particular to any synchronized
+only require and random term the to avoid is best It
+
+of period over a certain be distributed pulses that the
+time.
+importance be of critical not may matter The
+any spe- without may, in generators gaps spark since
+scale the on irregularly, or switch jitter, cial attention,
+timing switch the basic though even microseconds, of
+milliseconds. of a scale on is fixed
+the question with deal not presently do Standards
+degree of randomness. the or spacing between pulses of
+dis- be it should importance, of actual is matter the If
+plan. test in the cussed
+Generators Impedance of Source 18.3.5
+circuit open certain specify standards Present
+explic- not do but currents, circuit short and voltages
+tran- impedance of source required the with deal itly
+the an example, as 16.2 Table Taking generators. sient
+as follows. are impedances generator implied
+is representa- which 16.12), 1 (Fig. For Waveform 1.
+the and apertures, voltages IR by coupling tive of
+ohms. 0.3 - 0.1 range the in should be impedance
+proportional has a shape 2, which Waveform For 2.
+repre- and is 1 derivative of Waveform the to
+into induced magnetically voltages of sentative
+5 be should impedance the unshielded circuits,
+ohms.
+of somewhat typical is 3, which Waveform 3. For
+air- into induced actually and currents voltages
+on a wave- superimposed (perhaps wiring craft
+25 should be impedance the or 2), 1 like form
+ohms.
+of typical which is somewhat Waveform 4, 4. For
+shielded wiring, induced onto currents and voltages
+ohms. 5 should be impedance the
+represent to intended is 5, which Waveform For 5.
+redistributing and diffusing of current effects the
+imped- the structure, aircraft a resistive through
+ohms. 0.5 of order on the be should ance
+oscilla- for 16.3 Table in given specifications The 6.
+impedance source a imply waveforms burst tory
+25 the different from impedance an ohms, 100 of
+16.2. Table in implied ohms
+the ra- only represent so defined impedances The
+and current circuit short to circuit voltage open of tio
+impedance the that implying as taken be not should
+of impedance the Most commonly, resistive. be must
+473

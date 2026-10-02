@@ -1,0 +1,77 @@
+*in the shield, Fig. 15.26(β). This can be done with
+grounding fingers of the type commonly used for single
+conductor coaxial connectors such as the type N series.
+introduce much less voltage into the Such connectors
+conductois for the following reasons:
+the path through which the shield 1. The length of
+current must flow is shorter.
+U2. The field intensity external to the shield is reduced
+by virtue of the inherently larger diameter of the
+path upon which the current flows.
+nearly shield is low, inside the field intensity 3. The
+zero.
+path current diameter, larger shorter, and The
+implies less self-inductance. The absence of magnetic
+flux within the shield implies that the signal conduc-
+tors are exposed to as much flux as is the shield: the
+is nil. transfer inductance
+IMAL PRAIUOWe
+MO MD 1Α0510C LWa NM
+HP40MUMTALHOWMCAMCIN OW
+SUONAL
+(α) •.•τ•field
+PNGTAP.
+(α) ID
+AX N•OTAA CAURS
+SML$WCURENT PA14 U'4,•,OW"Al.UIU
+= Zh5
+(β)
+UTtMA 0*10"Response Τ !CCCUMV2N, oN
+Fig. 15.26 Grounding of shields,
+(α) Pigtails
+(β) 360" peripheral
+Shielding of Enclosures 15.10
+Shielding performance of enclosures is usually dis-
+Scus"δ in terms of the the frequency domain, with
+shielding effectiveness related to materials, thicknesses,
+411
+
+gaskets and openings. Discussions of these effects are
+given in many sources and will not be repeated here.
+What will be discussed (in qualititive terms only, not
+is the response to time domain magnetic quantitative)
+duplicates some of the fields. Some of the material
+more rigorous discussions of Chapters 11 and 12, but
+is repeated here for completeness.
+Origin of magnetic shielding by non-magnetic ma-
+terials: Α magnetic field line that attempts to pene-
+trate α conducting sheet, Fig. 15.27(α), induces cir-
+culating currents that induce an opposing magnetic
+field. The result is that α transient magnetic field ini-
+only and sheet, Fig. 15.27(β), around the tially goes
+field penetrate of the α portion will progresses as time
+is α place even if the sheet sheet. This effect takes the
+as aluminum. such non-magnetic material
+conducting
+sheet
+tOALcirculating
+currents
+line
+goes around
+shee
+(β)
+Fig. 15.27 Magnetic field intersecting α
+conducting sheet.
+(α) Penetrating flux
+Tangential flux (β)
+an enclosure: of If α metal box is exposed
+to the field, Fig. 15.28, current that flows around the
+box is induced. In cross-section the field patterns will
+be as shown in Fig. 15.29. As time prcgresses, the
+field will penetrate the box, starting at the corners
+and eventually passing directly through.
+Internal current: In response to α step function mag-
+netic field the induced current density on the inside
+surface of the box will have the diffusion waveshape
+discussed in §11.3.5 and illustrated in Fig. 15.30(δ).
+The current density, multiplied by the resistivity of the

@@ -1,0 +1,45 @@
+Chapter 1
+INTRODUCTION AN TO HIGH VOLTAGE PHENOMENA
+Introduction 1.1
+and the distance physical dimensions of the electrodes phe- and high current is α high voltage Lightning
+nomenon and those who would deal in protection between them.
+against it should have some basic understanding of the Under the influence of light and other radiation,
+physics involved. This chapter is intended to introduce such as Ξ-rays, cosmic rays or radioactive decay, elec-
+the reader to the general physical nature of electrical trons will be emitted from the negative electrode, or
+sparks and arcs, and to provide some data on spark cathode. Electrons may also be released in the gas
+breakdown characteristics of various electrode config- by the radiation. At low levels of voltage, or electric
+urations. Partly, the material is given to introduce field, all the electrons will drift towards the positive
+the subject of lightning phenomena and partly to il- electrode, or anode, and be collected. For α consider-
+lustrate some of the factors that must be considered able range of voltages, region 2 of Fig. 1.1, the current
+during tests to simulate the effects of lightning. An will remain constant, but the discharge will not be self-
+understanding of high voltage phenomena is also im- sustaining since the current will cease if the ionizing
+portant when discussing when and where aircraft are illumination of the cathode is removed.
+struck by lightning and an understanding of high cur-
+rent arc phenomena is important when designing air-
+craft surfaces to withstand the effects of lightning.
+The literature on high voltage phenomena is vast
+and no attempt will be made to give α comprehensive anode pub- in found be to are works the of Most review.
+. Some industry. power at the electric aimed lications
+specific works that deal with the subject will be cited, +
+but since the following material is only α review, no source
+attempt will be made to cite references for each point gsionization
+discussed. Some specific works that might be reviewed .
+include [1.1] for α general review of the mechanism of .................
+breakdown through long air gaps, [1.2 - 1.4] for α very
+comprehensive review of recent investigations on the (α) cathode
+subject, [1.5] for α general review of gas discharge phe-
+nomena and [1.6] for α review of breakdown voltages
+of long air gaps.
+σ llapse C o Initial Ionization Effects . 1.2 self sustaining voltae arge isch δ
+In the study of gas discharges, it is customary to
+non-self sustaining general types: those two into the phenomena divide
+that are, and those that are not self sustaining. Com- /I,,/ disoharge
+plete breakdown of α gas, or the formation of α spark -,
+between two electrodes, is α transition from α non- . I
+self-sustaining discharge to one of several types of self- 1 , 2 1 3 1
+v (β) , , with explosive Usually it occurs discharge. sustaining v, phenomena in- the of some illustrate To suddenness.
+volved, consider Fig. 1.1, which shows how the current Fig. Current-voltage 1.1 relations in
+between two electrodes immersed in α gas depends on pre-spark regions.
+space be- In the the electrodes. voltage between the
+configuration Electrode (α) E field an electric be will there electrodes, the tween
+V-I characteristics (β) voltage, the proportional to the applied magnitude of

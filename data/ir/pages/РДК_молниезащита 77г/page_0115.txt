@@ -1,0 +1,38 @@
+5 CHAPTER
+DIRECT EFFECTS PROTECTION
+Successful protection of an aircraft against the direct effects of lightning
+depends upon protection of each of its various systems or coniponents that may
+be susceptible either to direct lightning attachment or to current flow between
+lightning attachment (entry and exit) points. Components located in different
+sections of the aircraft are likely to experience different degrees of susceptibility
+the to lightning, and they may be vulnerable to different components of
+lightning flash. In this chapter we present the basic steps which should be
+followed in eslablishing lightning protection by discussing the varieties of
+lightning susceptibility and the designing of suitable protective measures against
+arc entry and current flow-through damage. We explain how the lightning-strike
+zones and lightning current environments are established, since environmental
+conditions in the zones are those under which specific protective measures must
+perform. We then call attention to those airworthiness regulations which apply
+to lightning protection. In subsequent chapters we present specific protection
+techniques for aircraft fuel and structural systems exposed to the direct effects
+of lightning strikes.
+5.2 Basic Steps in Protectio~i Design
+5.2.1 Establishment the Ligh tnilig Susceptibility of
+Design of successfill protection usually involves taking the following basic
+I , lightning strikes co~nmonly attach to an aircraft steps. As described in Chapter
+nose, wing tips, vertical fin tip, horizontal stabilizer tips, and to other
+appendages, such as propellers, pitot booms, antennas, or pylon-mounted
+external stores. These are the places where the hot lightning arc attaches directly
+to the aircraft and thus the places of initial concern as far as direct effects are
+the aircraft skin and concerned. However, lightning currents must flow through
+structural members between these arc entry and exit points, and it is possible for
+these currents to damage components along the way if safe conduction paths are
+not provided. Thus, the lightning protection designer's job is not completed
+when he has adequately treated only the attachment points. Instead, he must
+also look throughout the aircraft at other components that might be vulnerable
+in one way or another to direct effects from current flow through the aircraft.
+The susceptibility (degree of exposure to lightning effects) of components
+on their location on or within the aircraft. Thus it is helpful to depends greatly
+2 to establish the lightning utilize the lightning-strike zone definitions of Chapter
+environment which each particular component experiences. Once this has been
+established, the vulnerability (if any) of the component to its own environment

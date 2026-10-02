@@ -1,0 +1,26 @@
+minimum induced voltages. One might best assume that the magnetic field at
+any point will always be oriented in the worst case.
+Some measurements of the magnetic field within the gun bay housing the
+backup control system and the interface electronics package are shown in Figure
+14.20. Clearly, the magnetic field inside the gun bay compartment was of lower
+amplitude than that of the field external to the gun bay. The waveshapes
+of the field are more difficult to understand. First of all, it must be kept in mind
+that the probe was responding to the rate of change in magnetic field after about
+4 ps and was responding to the field itself for times shorter than about ps. 4
+Accordingly, the oscillograms displaying the field inside the gun bay indicated
+that there was, first of all, α component of magnetic field that rose to its crest
+about as fast as did the outside field. From then on, the field continued to
+increase at α slower rate, the final value of the field not being indicated by the
+oscillograms. The fact that the field continued to rise, but at α slower rate, was
+in agreement with the behavior predicted in Section 10.2.4, where it was
+predicted that the field would increase with α time constant characteristic of the
+VIEW LOOKING FORWARD
+I I CURRENT FLOW FWD TO AFT No. 388
+30Α 'μ/div. 2ps/div.
+EXTERNAL FIELD
+0.15Α/μ/div. 432 Sps/div. 0.3OA/μ/div. No. 440 lOps/div. No.
+PROBE AGAINST INSIDE PROBE IN MIDDLE OF
+LEFT GUN BAY-POS. Β OF DOOR-POS. Α
+INTERNAL FIELD
+Magnetic fields inside gun bay. 14.20 Figure
+424

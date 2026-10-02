@@ -1,0 +1,77 @@
+the principle, In objects: dimensional Three
+be solved also may objects three-dimensional around
+Eq. 10.19 to include by extending numerically
+Α α central point. points on α cube surrounding
+object not tion of the field around three-dimensional α
+amounts large requires symmetry rotational involving
+calcula- of computer storage and running time if the
+in all are to define the field satisfactorily tions
+dimensions.
+of Fields Plotting Hand 10.5.2
+be deter- may also any geometry fields around The
+process in which cut-and-try by α mined graphically
+the lines are drawn on flow lines and equipotential
+subdivision always ometry and adjusted until repeated
+flow and equipotential small squares and the yields
+angles. Cut-and- at all points at right lines intersect
+an imperfect is 10.11 Fig. of which plotting, field try
+and liberal use example, may with care, patience,
+α field pattern of α soft pencil and eraser yield
+desired accuracy.
+! "•
+Fig. 10.11 Cut-and-try field plotting.
+Wire Filaments Calculation Using 10.5.3
+density, current to determining approach Another
+on the premise that in Fig. 10.12, is based shown
+as geometry can be represented two-dimensional
+10.6]. If the current array of parallel wires [10.5,
+density along is known, the average current each wire
+will be the average surface defined by any two wires the
+the spacing divided by on the two wires the current of
+wires. the between
+that so length, infinite of all are wires the If
+connected all are and considered, be need effects end
+current which in manner the ends, their at together
+with calculated be may wires the among divides
+elements the program computer simple α of aid
+below. which are discussed equations of
+Inductances: and mutual Let the location Self
+rectangular coor- be defined in terms of the the wires
+
+the conductors radius of let the and yi, xi and dinates field
+each wire of length unit per The self-inductance be rl.
+eight is:
+solu-
+(10.21) 2 ξ IO-TlnI-- = Λ
+LrlJ
+as the In this equation R is defined henries per meter.
+or from the group of con- distance from the conductor, three
+path. The numerical ductors, to an arbitrary return
+be calculated to distribution current the of accuracy
+to assigned value the upon critically not depend does
+20 times of 10 to the order be of it should R, but
+being mod- the structure of dimension the greatest
+will be α any two conductors, ij, there ge- eled. Between
+mutual inductance
+In (10.22) 2 Ξ = 10-7 [ R MJ
+LriJ
+The spacing between conductors, of henries per meter.
+from the coordinates of the any rij, can be determined
+conductors.
+(o •)ε. €om~cm'
+,/ .'
+1\/
+of wires. array as an defined Α structure 10.12 Fig.
+(α) The array α
+location (β) Coordinates defining an
+of the return path (χ) Definition in
+for current
+conductors, of group If α of current: In terms Voltage
+consid- is 10.13, Fig. in as current, α carrying each no
+and of inductances mutual and self- if the ered, and
+across voltages the are known, conductor each between
+an- for be, will conductor each of self-inductance the the
+follows: as 1, ω frequency gular and =
+fnin Μ, ι Λ, of + Μ3is ι V = .... - - 2 2 1 3 -•
+(10.23)
+282

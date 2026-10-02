@@ -1,0 +1,44 @@
+A one of the external surfaces than it is to any of the other external surfaces.
+typical cavity would be a gun bay or an electronic equipment bay located dong
+the fuselage of the aircraft and accessible through access panels. For the moment
+the effects of the access panels will be ignored. The geometry is shown in Figure
+10.2qa).
+The cavity may be viewed as being formed from one face exposed to the
+external magnetic field and the current producing that field, and with its other
+faces formed by metal sheets, which, like the exposed surface, may be assumed
+to extend toward infinity. Mirrored in the reflecting surface defining the back of
+an the cavity will be image of the face of the cavity exposed to the magnetic
+D, field. The image will be spaced a distance, behind the face carrying the
+the image the reflection of the external current will be of current, and in
+opposite polarity. The electric field produced on the inner surface of the face
+exposed to the external current, shown in Figure 10.24(c), will act to force a
+current, Icirc, around the interior of the circuit defining the cavity. The length
+of the loop involved will be the same as the length of the cavity, and the width
+will be twice the depth of the cavity. The internal voltage gradient will be
+proportional to the product of the inner current density and the resistivity of
+the face carrying the external current and, as described earlier, will exhibit the
+characteristic pulse penetration buildup described in Figure 10.6. This voltage
+may be viewed as impressed across a loop or cavity inductance, Z
+The resistance and inductance will both be governed by the effective
+characteristics of the loop defining the cavity.
+Typical current paths and their characteristic impedances are shown in
+Figure 10.25. Some cavities may be viewed as being sufficiently long and narrow
+that they may be defined by parallel strips. Others are basically of rectangular or
+circular shape, or of some simple shape that may be approximated by an
+equivalent circular cylinder. The inductance and resistance of each configuration
+are shown. Each of the inductance equations (Reference 10.3) has a correction
+F', K-- k, or that relates to the shape of the enclosure. These factor--loge
+correction factors are shown in Figure 10.26.
+If the cavity is provided with a removable cover, and if this cover is in the
+external current flow or is exposed to the external magnetic field, the effects are
+as illustrated Figure 10.27. If the cover is assumed to be of the same material in
+and thickness as the rest of the face upon which it is mounted, the principal
+effects relate to the resistance of the fasteners used to hold the cover in place.
+The covers will seldom make good electrical contact to the rest of the surface
+except at the fasteners themselves. Accordingly, the external currents flowing in
+the face will be constricted in the vicinity of the fastener and pass from that face
+onto the cover through the fastener. The major effect of this constriction of
+current flow is to introduce a lumped resistance into the electrical circuit,
+although there is a certain amount of inffuence on the inductance of the circuit
+be whenever the current is constricted. It will seen, then, that the greater the
+322

@@ -1,0 +1,93 @@
+()return wirse
+Q~ returo wins.-
+7
+'- [- Q 'return
+~
+(β)
+wires•[(13.3]
+(χ)
+circuits. Return 13.2 Fig.
+- bad wire Single (α)
+Coaxial (β) wire - good C α wirew gwas ()
+(χ) End view
+is return grid the further the theory, In Diameter:
+but more better, aircraft the the of the surface from
+spaciug increases the impedance of the test circuit and
+adversely affects the ability to generate the desired cur-
+rents through the aircraft. Best simulation would in-
+volve having the aircraft suspended with wheel well
+doors closed. Since this is seldom practical, the spac-
+ing to the wires cannot be more than the one or two
+meters that the wheels support the aircraft above the
+ground. Also, in theory, the more wires in the re-
+turn path the better, but studies [13.21 have shown
+that about eight conductors arranged more or less uni-
+formly around the aircraft are adequate.
+Impedance: Inductance and surge impedance can be
+estimated by calculation. Treating the aircraft and the
+return circuit as coaxial cylinders of the dimensions
+on Fig. 13.3 gives an inductance of 0.18 pH/μ shown
+or 2.7 pH for the indicated length. Inductance of an
+actual installation will be larger because the outer con-
+ductor is α cage of wires. For typical systems it runs
+%bout 0.5 pH/μ, and is best dettnvmned by measure-
+ments on actual ins'allatlons. One approach to mea-
+surement is to discharge α known capacitance into the
+circ, it and obwe the ringing frequency.
+The surge impedance of the transmission line
+and formed by the aircraft return circuit of Fig. 13.3
+calculates to be about ohms, 55 but for actual instal-
+lations the impedance varies over the length of the
+aircraft since the aircraft geometry changes over its
+length. Typically it will in the be range of 75 to 125
+ohms and is best evaluated by time domain reflectom-
+etry techniques.
+
+Σ..................
+aII2
+Fig. 13.3 Coaxial approximation of
+circuit.
+constant Lumped example: Fig. 13.4 shows typical
+waveshapes that might be expected when treating all
+elements as lumped constants. The generator circuit
+shown was one used in an actual test of an aircraft
+and 13.4(α) on Fig. shown the waveshapes and
+(β) closely match those obtained in the actual test, as
+will be shown in Fig. 13.7. The inductance of the air-
+craft and its return circuit was not measured during
+cal- by matching 8 uH estimated the the tests, but
+typical is waveshapes culated and measured current
+of actual circuits. The intent of that particular test
+to obtain α current having α front time of several
+microseconds and inductance of the aircraft wts not
+to the generator was added inductance since critical
+waveshape. the desired obtain to
+Lumped constant circuits are sufficient to esti-
+mate the peak current obtainable from α particular
+generator. For this circuit. and during the tests of
+[13.3], α current of 500 Α was obtained with α genera-
+tor charged to 25 kV. Obtaining α full threat current
+of 200 kiloamperes would have required α generator
+charged to 10 megavolts.
+The circuit can be configured to obtain higher
+currents by reducing the series impedance, but doing
+so precludes obtaining the desired double exponential
+current wave. Reducing the series resistance increases
+the time at which the current reaches its peak. If the
+series resistance is reduced sufficiently the cusent be-
+comes oscillatory. Fig. 13.4 shows the current wave-
+eries resistance is reduced. as shapes
+13.3.2 Traveling Wave Effects
+It is not really sufficient to analyze interactions
+between aircraft and surge generators using lumped
+constant circuit techniques since the aircraft structure
+is large enough that traveling wave effects must be
+considered. The aircraft and the return circuit form
+α sho.lt transmission line and when the switch iL the
+generator is closed, α steep frmted voltage wave is in-
+Jected into the aircraft. Associated with it will be α
+steep fronted current wave.
+At the end of the transmision line formed by the
+aircraft and return conductors, reflected voltage and
+current waves are launched of polarity such that the
+355

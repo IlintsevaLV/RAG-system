@@ -1,0 +1,14 @@
+Voltage and current through a diode junction. 16.1 Figure
+(a) Forward bias case
+>
+Reverse bias case, Vg VBD (b)
+important region is the center region, where
+less Junctions are susceptible to burnout when operated with forward bias:
+first, because the power produced by a given current is lower when flowing
+through the low forward bias voltage than when developed across the higher
+VBD, and, second, because the current is more reverse bias breakdown voltage,
+uniformly distributed across the junction in the forward direction. Accordingly,
+An requires more power in the forward direction to cause failure. example is it
+2N2222 W 16.3 NPN 16.4). 0.5 (Reference The transistor is a shown in Figure
+silicon high-speed switch.
+454

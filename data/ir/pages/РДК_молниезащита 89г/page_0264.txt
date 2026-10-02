@@ -1,0 +1,76 @@
+con- because of resistive partly the material, through
+displacement, because of capacitive partly and duction
+conduction: resistive For
+(9.20) ti o
+conduction: For capacitive
+(9.21) = ι jwEe.
+con- resistive which one in is conductor good Α
+and α poor (α we) predominates current duction >
+dis- capacitive is one in which or insulator conductor
+dis- α). The (we predominates current placement >.
+on frequency. may depend tinction
+Depth 9.4.5 Skin
+conducting of α surface the to is applied If current
+the and into the material penetrate it will material
+density drops to current the relative at which depth
+is α term Skin depth skin depth. defined as the 1/ε is
+and transfer surface for in the expressions that appears
+further in §9.9. as discussed conductors, of impedances
+It is:
+(9.22) 1/2μ. 6=
+is: expression useful Α numerically
+0 5 1/2 _1 _I
+6 = (9.23) [.
+Constant Propagation 9.4.6
+α con- or α material of constant propagation The
+prop- signals which with velocity the defines ductor
+For attenuate. they which at rate the agate and
+is: propagation constant the material
+7 (9.24) [jw1(α = + ,we)]ι12
+(9.25) + wy(α j) jwe)]ι/2 (1+ =
+constant propagation the κ for use notations Some
+as: it define and
+=[(α+ 3)]/.(9.26) κ
+j-υ, by Eq. 7 is &fined where κ notation, that Using =
+9.25.
+and has real propagation constant the In general,
+parts: imaginary
+
+(9Μ.27) j. α + -Y
+where
+~ +
+-ι
+ω
+Between the attenuation. part, α, defines The real tv-o'.
+o0 cu re•at, vo"trge apart bignal, α. meters I points at-
+part, 0, defines" iniaginary nepers. The, by al tenuates
+α meters apart I two piintV shift. Between the phase
+hase shift unJrg&! σ π frequen•υ signal of angular ω
+',
+•elabJl is closely tcnstant radians. The phase of wl to
+pwopagate. signals which at velocity the
+(9.30) V
+the dis- good conductivity having In α material
+thtp. is negligible, current placement
+2 +j) (1
+co. is the reciprocal (1 + quantity multiplying The j)
+9,22. Thus: depth, Eqs. the skin
+( . 2 + j 1
+=(9.32)
+7-Y v 45 deg. (9.33)
+6
+phase con- attenuation and the In α good conductor
+It is 45 degrees. is angle phase the equal; are stants
+various to evaluate need the to leads that property this
+deg:ees. of 45 argument complex α with functions α
+current conduction insulating material the In an
+thus: negligible, is
+ (9.34) 2 1 1 7 Jw(/2) /
+(935) 7 ω..
+medium. the in propagation of velocity the is v where
+propagation α also have will wire conducting Α
+ant, const
+/ (9.36) = [ZY]/. (7
+is length unit per impedance series the where
+(9.3Τ) + jwL = R Z
+248

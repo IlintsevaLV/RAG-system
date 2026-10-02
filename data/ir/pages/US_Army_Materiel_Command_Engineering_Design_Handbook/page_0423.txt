@@ -1,0 +1,66 @@
+AMCP 706-202
+the craah event. These curves are darivod by inte-
+gration of tbe rospoctive sxcleration curves in Fig.
+11-7(Α). Bocause it is under α lcuser acceloration, the
+cargo must move slightiy fartber than the fusclage
+during the pariod of the accaleration puisc. This ad-
+ditional distroce is the distance through 'vhich the
+lond-limiter nuust defloct, and is determinod by into-
+grating the two velocity-time curves (cargo and air-
+frame) to find the distance cach-travels during the
+avont, and then finding the difference betwoen the
+distances. Eq. 11-1 can be usod by the designer to de-
+termine load-limiter stroke requirod, assuming α tri-
+angular acceleration input pulse:
+- (++ν (1-1) rok=H -2+ξ+2-1) ν (1)
+whcre
+H = pulse peak acceleration, number of γ'σ, di-
+mensionless
+= acceleration due to gravity, 32.2 φ/sec²
+κ - acccleration ratio α,/ H, dimensionless
+aΛ - limit cargo acceleration, number of γ'σ, di-
+mensioniess
+ь - time to reach peak duration, sec
+20
+CLASS Α CARGO
+15
+LONGITUDINAL ACCELERATION 10
+5 LOWER (BASE) CURVE
+-
+0 5 10
+11-10
+
+This equation is derived from Ref. 5.
+The load-limiting cargo restraiat concept has beon
+developed to the prototypo stage. Cost and waight
+permitting. it is rocommended that consideration be
+given to incorporating such devioes into the baaic
+dosign of new belicopters. Such loed-limiting re-
+straint fittings would provide α maxinum degres of
+crashworthinen. Details of load-limiter design and
+application are availeble in Raf. 6.
+Wben specifying load-limitars, the craigrer must
+make & trado-off betwoen rated strengtn and load-
+limiter stroke. Fig. 11-8 sbows the various ways of
+achieving adequate rostraint of Class Α cargo in α
+90θ-percentile crash, using load-limiters having
+different encrgy «bsorption characteristice.
+It can be soon by referring lo the sample curves that
+an additional resiriction on the performance of tbe
+load-limiter is that the load-deflocticn curve must
+avoid the shadod area below the basc curvc. This base
+curve indicates the load below which the losd-limiter
+must act as α rigid link in the tiodown chain. This
+load should define the ratod yicld strongth of the
+limiter. An optimum load-limiter. from the stand-
+point of weight and number requirod, would be one
+Ξ CONTROLLEO DEALECTION
+AIRCRAFT FLOOR
+LECTION)
+LEGEND FOR SAMPLE CURVES:
+FAILURE POINT
+ACCEPTABLE PERFORMA ICE
+UNACCEPTABLE PERFCRMANCE
+15 20 25 30
+CONTROLLED DEFLECTION Ξ. in.
+Figure 11-8. Clans Α Cargo Forward Load-deflectioe Envelope

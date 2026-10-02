@@ -1,0 +1,20 @@
+This current distribution does not hold for dc currents where the current density
+over the surface is determined by the dc resistance. If the conductor were an
+elliptical cylinder of uniform thickness, the current density would be uniform.
+The region over which α transition takes place between the uniform distribution
+of current governed by resistance and the nonuniform distribution governed by
+1) 9.1 is indicated as follows: magnetic fields (Equation
+where width β =
+depth δ =
+depth, is The classical skin 6,
+resistivity where = π
+permeability π =
+angular frequency o =
+an example of the frequency range over which the transition takes As
+2.69 @ place, consider an elliptic cylinder made from aluminum = xam )
+1 1 with width (β) μ, depth (δ) 0.25 μ, and α wall thickness of mm. The skin
+depth and value of the term
+is given in Table 9.1.
+Table DEPTH Α SKIN AS FUNCTION OF FREQUENCY 9.1
+Skin Frequency depth
+φ 6

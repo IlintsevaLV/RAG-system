@@ -1,0 +1,34 @@
+to fail. The test may be applied in α common mode, as it is in Figure 17.1 1(α)
+(Reference 17.3,5), or in α differential mode, as it is in Figure 17.11(β).
+Depending on the nature of the circuits under test, it may be appropriate to
+couple the transient into the terminals of the device through coupling capacitors.
+Direct injection of transients into the terminals of α device has the
+drawback that the device becomes connected in α manner different from its
+normal connections. As α result, it may not be possible to check the device to
+see whether the transient interferes with the normal operation of the device. One
+be checked is to discharge the test way the operation of the device may
+generator into shields placed over interconnecting cables, if there are such
+shieids, or into the cases housing electronic equipment. In either case, the
+generator would be used to generate α short circuit current, and that current,
+C1 = Mica type
+2% 9 3 turns no wire on in. diameter form Λ1
+IMR 50pH
+OUTPUT dc
+CHARGING
+VOLTAGE 0.25pF
+-
+> (β) rTbA
+* LOW INDUCTANCE
+& **LOW INDUCTANCE NON POLARIZED
+-"--J--= . - ~
+ω v
+R2
+-- χ2 Rl dc
+OUTPUT CHARGING 75R -?- F-
+VOLTAGE
+- 0.03pF PF 1 - (4 > -PaA
+= FRONT TIME 3R2C 2 + = (C, TAIL TIME 0.7 R1 C2)
+Representative transient generator circuits. 17.9 Figure
+(α) test circuit .5 oscillatory I SWC MHz -
+Revised test circuit 100 oscillatory TCL kHz (β) -
+(χ) Unidirectional 1.2 ξ 50 ps -

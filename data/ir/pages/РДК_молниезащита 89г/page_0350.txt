@@ -1,0 +1,89 @@
+.
+Chapter 12
+FIELDS THE INTERNAL
+12.1 Introduction
+The most important mode by which electromag-
+netic energy couples to the interior of aircraft (metal
+aircraft at least) is through apertures, These are open-
+ings in the skin of an aircraft, examples of which in-
+dude cockpits, wheel wells, bomb bays, seams, joints
+and covers on access panels. There are several reasons
+for the importance of aperture coupled fields. One
+that apertures are effectively the only means through
+which external electric fields may penetrate to the inte-
+rnor of the aircraft. Another is that some apertures are
+Also, un- α prime example. large, windows being quite
+metal surfaces, diffusion through coupled by like fields
+but interior field is not retarded, the waveshape of the
+external electric tends to be the same as that of the
+and magnetic fields. The most important consequence
+of the coupled fields relates to the voltages induced by
+apt is more intensity peak of given Α field fields. such
+than if quickly to its peak if it rises trouble to cause
+in fact, apertures, Small distorted. and delayed it is
+of the coupled rate of change accentuate the tend to
+high at coupling efficient they are more that is, fields;
+frequency components of the external electromagnetic
+components. coupling low frequency field than at
+been of con- aperture coupling has The subject of
+siderable theoretical interest since the time of Lord
+and Since literally hundreds of papers Rayleigh [12.1].
+on the subject, no attempt articles have been written
+this review. Instead, be made to give α complete will
+chapter will discuss the basic points of aperture cou-
+pling and make reference to the literature for addi-
+tional details. Simple techniques will be given to es-
+timate or bound responses. Also, numerical methods
+will be discussed which may be used to obtain more
+accurate results. For α more complete treatment of the
+reader the coupling, aperture of aspects mathematical
+is referred to some of thf review articles that have
+appeared [12.2 - 12.5]. Ref. [12.2] is particularly rec-
+ommended.
+Α distinction was made above between large and
+small apertures. One way to distinguish between large
+and small apertures is to relate the physical size of
+the aperture to the wavelength of the frequencies of
+flash in α lightning the energy most of interest. Since
+= (Α below 50 MHz in the frequencies is contained
+μ) it follows that most apertures on aircraft are small
+with respect to wavelength.
+
+THROUGH APERTURES COUPLED
+Another way to distinguisb between large and
+small apertures is to relate them to the size of the
+aircraft. With α small aperture one may logically as-
+sume that the calculations of the external response of
+the aircraft (Chapter 10) and the calculations of how
+much energy propagates through an aperture may be
+is treated separately. However, if the aperture is large
+with respect to the aircraft, then it will have an ef-
+fect on the external response of the aircraft and the
+calculations of external and internal response must be
+in- apertures may Examples of large done together.
+doors on α or dielectric windows in α cockpit clude the
+wells on open bomb bay doors or wheel helicopter, or
+aircraft. α conventional
+Basic Concepts 12.2
+through couple fields magnetic and electric Both
+to de- is convenient it small apertures, For apertures.
+electric the external of in terms this coupling termine
+aperture exist at the fields which would and magnetic
+con- α perfectly closed by were if the aperture location
+ducting surface. These fields are referred to as the
+along with and H.,, which, circuit fields, E,, short
+to determine of the aperture are used the geometry
+the magnitude of hypothetical electric and magnetic
+which are placed just in- dipoles (equivalent antennas)
+The process is shown in side the shorted aperture.
+and 12.2. Figs. 12.1
+-[
+- exterior interior interior
+dipole
+,I
+(α) (β)
+electric of equivalent Development Fig. 12.1
+dipole. field 6
+(α) Actual electric field
+(β) Equivalent dipole
+335

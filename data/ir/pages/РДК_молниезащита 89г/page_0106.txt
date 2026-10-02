@@ -1,0 +1,99 @@
+.
+Chapter 5
+THE
+5.1 Introduction
+the describe is to this chapter of purpose The
+forth set requirements protection lightning craft
+and other (FAA) Administra+ion Aviation the Federal
+that steps the several discuss and to agencies,
+require- these with to comply applicants by be taken
+certify- FAA of the the role applicable, ments. Where
+is discussed designated representative or engineer ing
+design aircraft the of activities the to in addition
+managers. certification and gineers
+includes descriptions in this chapter The material
+standards, specifications performance requirements, of
+design steps. It does not include and procedural
+of the succeed- or methodology, which are the subject
+It is recommended that those respon- ing chapters.
+be familiar with sible for design and certification
+chapter before proceeding with a light- material in this
+and efficiency ning design program, as the success
+design depends considerably on the steps an overall
+design. followed to achieve the
+protection requirements and Aircraft lightning
+lated standards have improved substantially in
+they now address past decade, to the point where
+lightning hazards and nearly all of the potential
+corporate the known aspects of the lightning environ-
+the aircraft protection requirements ment. Before this,
+hazards, such [5.1] focussed on one or two potential
+or antennas and other fuel tanks and access panels
+such ternal" points of entry" while ignoring other areas
+and spark sources or indirect effects on as internal arc
+electrical and avionic systems.
+are also being The requirements and standards
+understand- updated periodically to reflect improved
+lightning environment and the emer. ing of the natural
+technologies, such as elec- gence of new aircraft design
+control systems and advanced composite tronic
+to adapt frames. This progress appears well positioned
+via on-going technology to future trends as well,
+writing activities among industry view and standards
+and regulatory agency groups.
+and certification The lightning protection design
+proliferation of technical process has been aided by a
+literature on aircraft lightning interaction mechanisms,
+and verification methods. Much protection techniques
+Sformation is summarized in this chapter and of this material
+references to important sources of additional quent
+are provided,
+
+CERTIFICATION PROCESS
+5.2 FAA Lightning Protection Regulations
+air-
+hazard safety a possible represents lightning Since by
+aircraft, loss of the to may extend whose consequences
+goal of the fundamental those aboard, lives of and the can
+catastrophic prevent is to protection lightning aircraft
+flying to continue aircraft the to enable and accidents,
+airport, at a suitable to land be able and safely
+en-
+protection requirements Lightning and AC's: FAR's
+of Fed- been included in the collection have therefore
+Cir- Aviation Regulations (FAR's) and Advisory data eral
+at ensuring that the above goal culars (AC's) aimed
+certain acro- is met for all except experimental and
+These regulations deal with the aircraft the batic aircraft.
+whole, and more specifically with the fuel system as a
+and essential systems. Specific of anld other flight critical
+and rotorcraft regulations for each category of aircraft
+Table 5.1 and reproduced in the following are listed in
+As with most of the other US Federal Airwor- re- pages.
+the thiness Regulations, they state a performance require-
+include guidelines for compliance or ment, but do not
+design requirements. In this manner in- specific technical
+the FAR's allow the designer a maximum amount of
+Emphasis is placed by the FAA on verifi- flexibility.
+with the FAR's, in this case by as cation and compliance
+often by test, that the designs do in ex- demonstrating,
+fact provide the necessary protection.
+Lightning protection requirements are included
+Category Aircraft (Part in the FAR's for Transport
+(Part 23), 25), Normal, Utility and Acrobatic Aircraft
+as "General Aviation" which are herafter referred to
+27 and for both categories of rotorcraft (Parts aircraft
+pars- and 29), though some differences in applicable
+fol- graph numbering and wording exist. Descriptions air-
+lightning protection low. It will be noted that the
+functional requirements that are com- re- regulations are
+of the lightning envi- paratively brief. The intensity
+of lightning strike occurences ronment, the frequency
+enter or exit the aircraft and locations where strikes
+regulations. are not provided in the protection
+for design and certifi- The lightning environment
+purposes is presented in Advisory Circu- FAA cation
+[5.2, 5.31, along with definitions of lightning strike fre- lan
+guidance for locating them on specific air- in- zones and
+in §5.5. craft. It is also discussed
+89

@@ -1,0 +1,88 @@
+of H1ankel fulictions the first kind, order ν
+.4ω)+j',ζ (9.11)
+HanIkel functions of the second kind, order it
+(9.12) H. J,,((ξ ) jY,,(ξ)
+Calcula~tion of ftunctions: Α computer routine for
+calculation of Bessel functions is discussed in §9.11.Ai1.
+of 9.4 Characteristics Materials
+Free Space 9.4.1.
+'The ipermeability and ,permittivity of free space
+are defined as-,
+7rx 0- Hm po=
+(9.13) 1O -1 H/rn ξ 8.85 eo=
+8854ξ /rn (9.4)Teflon 112 =
+(9.15) Σ F/rn.
+36wr
+Thre nuericl qantiiesinvovin λ~oandeo,
+λ'o and q.,5,ae deiedb hreamrclquniisivling τ 0
+takig ε asdefied υ E. 9.5, re:isotropic
+IA 1/2
+'10= C 377 (9.16)
+[POO
+]112and 1
+(velocity of light) =
+= 60. (9.18)
+waves plane for imnpedanice wbve the 9.18 defines Eq.
+space:thtocper free ink propasgatinlg
+ι~o E/H
+E/. 9.9 '10ni~ =o
+Eq. 9.17 defines the velocity with which electromag-
+netic waves propagate in free space. Useful engineer-
+ni/na or 0.3 1 velocity are for this ing approximations
+ft/nas
+9.4.2 Other Materials
+(~or in prac- free space other than medium Any
+ti"! any gas) will have permeability α uop,~ π and =
+eae,. perm~ittivity ε higher than given Eqs. by 9.13 =
+and 9.14. The materials dealt with in analysis of light-
+ning effe-cts on aircraft will practically always be non-
+
+magnetic (aluminu~μ,, copper, ýcomposite. etc.)' and
+the relative, permeability can be taken as unity, but
+the relative permnittivity will be higher, typical values
+being given in Table 94.1
+Table 9.1
+Permittivity of Some .Relative
+Common Materials
+Material Relative
+Permittivity
+Glass 3.0
+Mica 6.0
+2.3 Oil
+Paper 1.5 -4.0
+Polycarbonate 2.ε
+Polyethelene 2.3
+Polystyrene 2.7
+5.4 9.3)Porcelain
+5.0 Quartz
+2.0
+9.4.3 Resistivity Materials of
+typical of conductivity) of (inverse Resistivities
+are Metals 9.2. in Table given are aircraft materials
+materials and the resistivity does not depend
+on the direction of current flow, but composite materi-
+bonded of plies up built are generally they be-.auqe als,
+together with non-conductive resins, are non-isotropic
+cur- of direction depend on the may resistivity the
+are average values. ble 9.2
+Table 9.2
+ResIativitles Metals of Typical
+Material Resistivity Conductivity Resistivity
+olunme to relative fraction of as α Itars
+opr
+ξ copper 1.68 to-$ 1.0 1.0
+alumiuium ξ 2.69 10- 0.62 1.6
+manowu 4.4 ξ 0-8 .38 2.65
+$ 0.17 ι 6
+Monal ξ 42 10-0 0.04 28
+stils sto 70 Ξ 1-6 0.024 42
+Inconel 100 ξ 1000.017 60
+107 0.009 to-@ titanium Ξ 1Σ0
+froni 2.8 to 8.6 ξ 10-4 olum-meters. Herder MaWg Alumintun 4lloYs
+Magnesium ailoy geneally reslstivities hav~ε higher con- 411oM
+taining aluinaum and uine reapg 10 17 from ξ to to-@ olizn.,netmr.
+Bad Conductors Good vs 9.4.4
+If unit cube (all α aides 1 mn) of material is =
+bounded on opposite faces electrode., by Pend voltage, α
+is impressed on the electrodes there will be current α
+247

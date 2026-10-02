@@ -1,0 +1,45 @@
+bonding straps or wires of this cross-sectional area could, theoretically, be
+Δ. utilized to conduct current Components Α and If one of them had worked
+loose, however, all of the current would have to flow through the other one. If
+the same equations are used this circumstance, the total action integral of in
+ξ lo6 would cause α calculated temperature rise of over 200 "C, α 2.25 Α ~ - Σ
+temperature that should be considered excessive.
+In fact, it is prudent to keep conductor temperature rises below 100 "C in
+order to avoid explosion where flammable materials or vapors may exist and also
+to avoid mechanical stresses resulting from thermal expansion (See Section
+7.2.3). The temperature coefficients of resistivity which are given in Table 7.1
+"C remain reasonably constant only through the range of -50 to +I00 "C; thus,
+calculations that are based on these coefficients and which produce temperatures
+above 100 "C should not be considered accurate.
+Consideration of temperature rise effects in conductors carrying lightning
+currents is most important where all or α large fraction of the stroke currents
+need to be carried in individual conductors. Examples include radome diverter
+straps, bonding straps (or conduits or cable shields, ground wires jumpers),
+passing through plastic radomes or wing tips, and certain hydraulic or control
+lines which may become exposed to lightning-strike currents.
+Figure 7.3 presents calculated temperature rises for conductors of the
+metals of Table 7.1 as α function of cross-sectional area for action integrals of
+Α ~ - σ . ξ lo6 0.25, 2.0, 2.25, and 3 These curves may be used to determine the
+expected temperature rise structural elements, diverter bars, bond straps, or in
+other conductors expected to carry lightning currents. The temperature rises
+determined from Figure 7.3 should be added to the ambient temperature of the
+conductor to determine the actual temperature.
+- If the reader desires to calculate the temperature rise for action integrals
+other than the four of Figure 7.3, he may do so manually by using Equations 7.1
+and 7.5, or he may use the computer program written for the Texas Instruments
+SR-52 in programmable calculator included Appendix 1. The program requires
+the action integral, resistivity, specific heat, density, and cross-sectional area of
+the conductor as inputs from which it calculates temperature rise. The program
+also calculates the elongation that takes place the metal as α result of the in
+temperature rise.
+2 Α separate SR-52 program is provided in Appendix for calculation of
+temperature rise and elongation in tubes and pipes. This program accepts
+dimensions of the outside diameter and wall thickness, thereby saving the user
+the need to calculate manually the cross-sectional area of the pipe wall.
+If several parallel conductors of the same length and cross-sectional area
+are present, the current may be expected to divide equally among them; the
+action integral associated with each portion of the current will be
+$ρ2 dt (total)
+JI' dt (each conductor) = δ
+N where is the number of parallel conductors. This distribution would suggest
+192

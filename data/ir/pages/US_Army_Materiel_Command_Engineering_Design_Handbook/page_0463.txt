@@ -1,0 +1,87 @@
+140 LIST OF SYMBOLS
+presontod aroa
+Λv = vuinereble aroa - singly vuinerable area of componont ι of α
+sysiem
+AVT - zingly vulnerable area of α systom
+FrH - conditional kill probability
+of α systom
+141 INTRODUCTION
+As dcacribod in Chapier 2, AMCP 706-201, and
+ADS-11. the coacopt of belicopter survivability is
+broed and complex. However, the efiocts of arma-
+mant and protoctive matarials can be evaluatod in
+torms of throe basic moaas of coping with α bostite
+cavironment (vbethor the bostility is man-made or
+natural):
+1. Avoiding it
+2 Neutralizing ι8
+3. Enduring it.
+Avoidance piacos cmphasis upon vehici: perform-
+ance. To avoid α spocific eurvironment, α helicopter
+roquires the ability to fly above it, or around it, or to
+outrun it. Armor and armament bave α negative
+effuct upon this aspoct of survivabibity, bocause they
+add weight and serodynatnic drag. From & military stancpoint, neutralizing tise en-
+viroament requires destroying the source of houtility
+or hazard, or otherwise rendtring it harmices. This
+onn un qge
+not involve the systom being protocied. However, α
+capebility to corroct α bostile environmcat may be
+oohp
+standoff wecpone (armament) or countermeasures.
+Enduring the bostile environmont places ceaphasis
+upo : such arons as redundancy and scperation,
+abicding of ρ sion-criticc' components with struc-
+ture or compononts that are las critical, concentra-
+tion of criticel componeate in α singie place within
+the vohicle cone in ordkr to decrease the sotal area
+proseated to the hazard, and sddition of dendweight
+proletuon such as armor.
+Armor and armameat, axpecially thc latter, must
+be avaiuntod in coutexis other tiann survivability. For
+
+AMCP 706-202
+CHAPTER 14
+ARMOR, ARMAMENT, AND
+PROTECTIVE SUBSYSTEMS DESIGN
+attack hoticopters, the ability to survive ε bostife on-
+vironment, although cusentiai for mission com-
+plction, is not in itself σ true moasure of the worth of
+the vehicloo" armamont. In ntber words, the pomible
+trade-offs among porformance, anmor, and arma-
+mont always affact survivaSility, but albo may involve
+-ed sogqeu gr Arepd seqo ns Aura
+formance (σ0ε Chapter 2, AMCP 706-201).
+pojd qqo-ν φ
+prior to the start of dotail deeign. Alhough those
+trade-offs should be updaiod continuously through-
+out the deaign proce cees as more complote and procise
+data bacome availabie, α discuasion of their nature
+and deecription is buyond the scope of this chapter. α
+However, it is osential that the designar retain α con-
+sietent, balanoed approech so tine ovarai efiucir oi
+detail design decicions rogurding location, inetalse-
+tion, selection, and uae of armament. Thcsc roletion-
+shipe are subtle and, in many instanoss, are difficult
+to quantify. As α rosult, much of the material coa-
+tained in this chapter is quaätative, with specific ro-
+lationships being included only in inetances in which
+gonaral physical relationahips are known.
+14-2 ARMAMENT SYSTEMS
+Ageg
+dividual instediations of guns, guided -nimios, or free-
+fight rockets. The nuaber and type of installutions,
+and the mix of guns, missilce, or rockeis, are
+doecribod by ti.ε governing bedicopter detail specifi-
+cation. This chapter containe thr beeic helicoptar
+deuign guidelines, considerationsand requirsscuts
+that apply to tha instaliation of armament systeeme.
+14-2.1 GUNS
+Guns of the number and culibar deacribod by the
+governing helicopter dotail specification shalf be in-
+stallod in the roquired positions. An ammunition
+supply of the quantity and type dictated by the detail
+14-2.1.1 Typa
+o
+uac. They include air-cooled, gas-oparatad 7.62 μ
+14-1

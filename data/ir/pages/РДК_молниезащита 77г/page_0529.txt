@@ -1,0 +1,44 @@
+or shorted to the floor. Measurements were made only of the open circuit
+voltage or the short circuit current on the shield of the cable. Measurements
+were not made of either the current or the voltage induced on the signal
+conductor within the shield. The short circuit current is seen to rise to crest in
+about 1 ps and to oscillate at a frequency of 123 kHz. The peak current
+23 obtained with this configuration was about A.
+If the conducter was left open at one end, the magnetic field that was then
+produced in the core of the transformer induced an open circuit voltage of about
+V. 210 The voltage rose to crest in about 0.2 ps and oscillated at a frequency of
+91 kHz. The frequency was different because the inductance seen by the
+capacitor in the pulse generator was different, depending on whether or not
+there was a short circuit on the secondary of the transformer. The higher
+frequency oscillations on the front of the open circuit voltage were caused by
+the stray inductance and capacitance of the conductor under test.
+Significant points to observe here are that the open circuit voltage will
+invariably rise to crest faster than does the short circuit current and that the
+open circuit voltage will typically oscillate at a lower frequency than does the
+short circuit current. When the conductor under test is shorted, the inductance
+seen by the pulse generator is lower than it is when the secondary is open. This
+difference in oscillatory frequencies should be either recognized and allowed for
+in test specifications or corrected by adjusting the capacitance of the pulse
+generator used to excite the transformer.
+When a unidirectional current was injected into the transformer (Figure
+A 17.14), the short circuit current rose to a crest of about 5.5 in about 0.5 p.
+The rise time was greater and the amplitude less because of the damping resistor
+that was required to be in series with the primary winding. The open circuit
+voltage again rose to crest more rapidly than did the short circuit current. If an
+equal number of turns are used on the primary and secondary windings, there
+will be less current in the secondary winding than in the primary. With the
+of the primary transformer core used, the secondary current was about 65%
+current. The factors that affect the performance of puke-injection transformers
+are discussed in more detail in paragraph 17.5.4.
+As an alternative to transformer coupling, it is possible to discharge the
+pulse generator into a wire run parallel to the cable interconnecting the two
+pieces of equipment. This technique is less efficient in coupling low-frequency
+energy into the cable under test than is the transformer technique, but it may be
+more effective in coupling high-frequency energy.
+Equipment for Generation of and Magnetic Fields Electric 17.5.4
+The test equipment described so far has been aimed at the injection of
+current or voltage pulses into the terminals of electronic equipment. There is
+sometimes a need for subjecting an entire piece of electronic equipment to an
+engulfing electric or magnetic field, principally to check for magnetic field
+leakage of a cabinet. Sometimes these effects are checked with a wire-wrap
+technique in which a coil of wire is wrapped around the item to be tested and

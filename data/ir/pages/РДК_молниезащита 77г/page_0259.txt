@@ -1,0 +1,33 @@
+The voltage withstand capability of polyurethanes and similar materials
+considered for this application is very high, a characteristic that may permit large
+as spans of the materials to exist between conductors in laboratory tests, such
+those of Figure 7.45. The withstand capability of these dielectrics is drastically
+as reduced, however, if their surfaces become scratched or cracked, might occur
+in service. Thus, if a dielectric protection scheme is considered, it should be
+given the lightning tests described in Lightning Test Waveforms and Techniques
+for nonmetallic materials in Zone the test sample has been exposed 2A-dfter
+to vibration, temperature cycling, abrasion, and any other environment that is
+likely to degrade the condition of the dielectric coating. Even then, such a
+protection system may become damaged by unexpected contact with a foreign
+object and its degraded status go unnoticed until a lightning strike occurred.
+These coatings contrast with conductive coatings, which may sustain many
+abrasions or cracks with much less, if any, degradation in their protection
+capability.
+Dielectric coatings, at their present stage of development at least, should
+not be considered, therefore, for protection of flightcritical composite
+an structures except where a puncture of the coating would not create
+unacceptable hazard. Rather, dielectrics are likely to be most beneficial when
+they are used to supplement the performance of a primarily conductive
+protection system, such as the closely spaced foil strips discussed previously.
+In addition to protecting composite surfaces, it is necessary to provide a
+means to safely conduct lightning currents through joints, as discussed in Section
+7.3.2.3. If the composite is protected by a conductive coating and bolted joints
+are used, the coating should be extended into tapered bolt holes (to make good
+electrical contact with the bolts) and the bolts used to transfer current through
+the joint. If adhesive bonding joints are used instead, a conducting additive
+should be added to this adhesive; otherwise a different conducting path should
+be provided.
+If a composite is to be used in a flight-critical application, in every case the
+performance of its lightning protection system should be verified by the
+Report simulated lightning tests described in SAE Lightning Test Wavefomzs and
+Techniques for Aerospace Vehicles and Hardware.

@@ -1,0 +1,89 @@
+AMCP 706-292
+trade-off procedurc, it should de possible to obtain α
+blade sirfoil that represents an optimum configura-
+tion for the specific halicopter mission.
+Blade tip geometry has been found to fave impor-
+tant effocts upon overall rotor performance. Early
+studies genc-ally used constant chord sip covers wiih
+flat, semiround, or other types of curvature. These
+sudics indicatod that limited performance benefit
+was obtainod with tip covers that had complicated
+curvatures and were thus difficult to manufacture.
+The major performance gain of thesce tip covers. as in-
+dicated by the rotor ift to drag Λ/Δ usually could bc
+traced to an increase in rotor radius. More recent
+studics have explered ewept Icading and trailing
+aiges in ai effort to reduce the tip vortex velocity and
+strength. Thesc results have shown that α planform
+LOCATICN OF
+MAXIUM THICKNESS RATIO * Vc
+THICKNESS
+LEADING ME AN CAMGER F,INE
+RADIUS CHORLY INE
+CHORD C
+LOCAVION CS
+MAWM - MAXIMLM CAMBER
+CALABER
+$TANDARD AIRFOIL-NACA 0012
+THIN AIRFOIL-NACA 0006
+SHARP NOSE AIRFOIL-NACA 632015
+SLAB SIDE AIRF OIL
+CAMBERED AIRF OIL
+DROOP NOSE AIkFOIL
+Figure 5-28. Typical Helicopter Rotor Biade Airfoiis
+5-40
+
+tapered blsda tip doas reduas he tip vorigs aad hanoe
+both θ: corrcaponding noiae and the osclflatory
+loads originating rear the tip of the blade. In ackition.
+the aft swecp of ths leading edge dalays the effocts of
+compressibility. as with σ fixod wing. This allows an
+increase in forward spsed fo. fixed values of rotor
+speed and available power. Other attempts at blade
+tip grometry modification to docrease the tip vortex,
+suct: as installing slots or holes, have no: proved
+succcssful.
+The applicability cf standerd. two-dimensional air-
+foil data in rotor anaiysis is crestionable whenever
+the shed tip vortex aj proaches the following blade.
+Becausz the blade tip gcomctry has such α strong in-
+Nuence on the tip vortex, the all:wable spatial rela-
+tionship between the vortex and bisde for future
+high-speed helicopters shou!δ br analyzed for various
+tip configurations. Recent flight tests have indicatad
+that thc oscillatory airloads tend to be concentrated
+at the blade tips. Most harmonics are character-
+ized by higher lo&ding at the tip due to the knpul-
+sive sature of tip vortex interference. In nonsteady
+maneuvers, the local conditions vn the following
+biadc tip are changing rapidiy due to the vortex effect
+on the angle of attack. Therefore, this radial segment
+of blade does not behave as two-dimensional wind
+tunnel data woald suggest, and time-dependent air-
+foil section characteristics should be uscd in the ana-
+lysis of aerodynamic loads and rotor perforn:ance.
+Two-dimensional static tests show that ie low
+Mach nurnber stall of thick airfoils of ærtain series is
+α leading-edge phenomenon. This stall is character-
+ized by α sudden separation of fiow over the entire
+upper airfoil surface, and resuits in an abrupt change
+in the lift curve slope. Also associate with this effect
+is an instantancous nosedown pitching moment. No
+warning occurs that would in ticate stall is inminent.
+This instantanecus effect does not occur in two-di-
+:nensional tests of thin aitfoils. Rather, α gradual *
+change in lift curve slopc rakes piace, along with α
+more gradual incrcasc in nosedown pitching .noment
+due to stall. Many investigaions have been con.
+ducted as to the effects of nonsteady aerodynemics
+on various airfoil sections. These tests indicate that,
+in the dynamic environnrent of increEaing angle of er-
+tacx with time, stall as indicated by α lous .. list &:cs
+not occur in the manner predicted fsom static tests.
+When α sharp loss of lift coes occur due to leacig-
+adge separation, the resulting impact is highly
+coupled to the dynamic response of tie biade in tor-
+sion. For instance, α fixed impuls: duc to & sudaen .
+loss of lift on thc retreating blade muy bgvt & greuter ...
+effect on & rotor sy:'em heving both & bow control
+stiffness and α torsionally soit blade. The tora:3nal

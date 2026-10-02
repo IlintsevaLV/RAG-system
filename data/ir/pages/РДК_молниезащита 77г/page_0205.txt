@@ -1,0 +1,40 @@
+homogeneous material will elongate proportionately, but frequently only one
+dimension is of much concern. The most significant expansion in a part such as
+the pressure tube would be along its length.
+Based on the coefficient of linear expansion for copper given in Table 7.1
+o ' ~
+x L, 2 1 1°C) and the assumption that the tube has a length, of m as 0.1 64 (1
+when "cold," a 67 "C temperature rise would cause an elongation of
+If the tube is fastened rigidly, this elongation may cause sufficient stress to break
+clamps or force the tube to bend. Thus, the tube supports should be designed to
+accept this elongation without undue stress.
+Thermal elongation calculations may be made for other conductors by
+SR-52 using Equation 7.9 or the programmable calculator programs in
+2. Appendices 1 and These programs calculate the elongation in millimeters per
+centimeter of conductor length for the basic conductors and in inches per foot
+of conductor length for tubes, since dimensions of tubes are commonly
+presented in inches.
+The temperature rise and elongation expressions described this and in in
+the previous section have been closely confirmed up to 100 "C by laboratory
+tests in which simulated lightning currents of known action integral are passed
+through conductors whose temperature and elongation are measured. Temper-
+ature rise is most easily measured by temperature-sensitive tapes or by an
+optical pyrometer. Elongation can be measured by a mechanical deflection
+indicator attached to the specimen. Calculated results above 100 "c, however,
+will begin to diverge from the actual because of physical property changes at
+higher temperatures.
+7.2.4 Magnetic Force Effects
+mentioned earlier, there are situations in which several conductors As in
+in parallel may carry lightning currents and, such cases, each conductor will be
+acted upon by a magnetic force proportional to the product of the currents in
+each conductor. One such case is shown in Figure 7.5.
+,
+dl,, CONDUCTOR 1
+0 $ 7 44 -
+dP,
+D
+2 CONDUCTOR
+) '
+dl2
+2 J.
+Magnetic forces among parallel current-carrying conductors. Figure 7.5

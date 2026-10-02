@@ -1,0 +1,43 @@
+13.4 Multiple Conductors and Shields
+If there are multiple conductors in the core, each conductor will develop
+nearly the same voltage between that conductor and the shield. This holds true
+whether the conductor is located adjacent to the shield or in the center of the
+bundle of conductors comprising the core. Accordingly, the voltage between any
+pair of conductors in the core will be small. Present analytical tools do not seen1
+of sufficient accuracy to predict with any assurance the magnitude of line-line
+voltages; they are best determined by actual measurement. Line-line voltages are
+much more strongly influenced by load impedances to which the conductors are
+connected than by the position of the conductors within an overall shield.
+13.4.1 Physical Phenomena
+One very common situation involving multiple conductors within an
+overall shield is a configuration in which a shielded conductor is itself contained
+in an overall shield. Figure 13.22 shows such a condition and shows some of the
+basic considerations with which one must deal in order to predict the response
+of this two-cable network to a noise current flowing on the outer shield. The
+total circuit response is a combination of the internal field of the outer shield
+and the internal field of the inner shield plus the coupling from the internal field
+of the inner shield to the signal conductor contained within the inner shield.
+These internal fields are created by noise current flowing on the outer shield plus
+noise current flowing on the inner shield. The noise current on the inner shield
+depends upon the internal field of the outer shield and on the impedance
+presented to signals traveling on the outer surface of the inner shield and
+returning along the inner surface of the outer shield.
+The most important factor concerning this latter impedance is whether or
+not the internal shield is grounded at both ends. Figure 13.32(b) shows the
+internal shield connected to the outer shield at the left-hand end and a switch
+would allow connection to be made between the shields at the right-hand that
+end. It is furthermore assumed that the impedance of any connection between
+shields is zero, a situation that definitely may not be true in practice.
+If the inner shield is not grounded at the right-hand end, the inteinal field
+of the outer shield (Ei-os) produces a voltage difference, Vis.os, at the right-hand
+end of the cable. Neglecting the distributed capacitances between the inner
+shield and the outer shield, the noise current on the inner shield, Iis, is then zero.
+If the inner shield is connected to the outer shield at both ends and the switch,
+S, is closed, the voltage difference between the two ends of the cable is reduced
+to zero. The internal field of the outer shield, however, will induce a circulating
+current, Iis, between the inner shield and the outer shield. The magnitude of this
+current is governed by the strength of the field Ei-,, and the impedance around
+the loop between the inner shield with return on the outer shield. This
+impedance, at least for many cables, is predominantly inductive. The waveshape
+Iis, of the current on the inner shield, is then proportional to the time integral of
+the voltage developed along the inner surface of the outer shield. The current on

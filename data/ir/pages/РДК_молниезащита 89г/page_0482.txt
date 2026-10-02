@@ -1,0 +1,43 @@
+Fig. 18.7. Test cells can be is frequently used for evalua- test cells, as sketched in Capacitive injection
+hold several pieces of equipment, yet become widely made large enough to tion of NEMP effects, but has not
+cables. along with the necessary interconnecting used for evaluation of lightning effects.
+Strip line test cells are most appropriate for evalu-
+coupling to items in free space and are not widely Circuit Injection ating 18.2.4 Ground
+used to evaluate lightning indirec& effects inside air-
+ohms is, in general, not 377 ef- craft, where α simulation of the This might be considered E/H
+are discussed briefly of the air- Field immersion techniques fects of voltage rises that occur in portions
+the aircraft. in §18.8. craft when lightning current flows through
+technique, illustrated in Fig. 18.5, involves apply- The
+the and allowing the EUT case of to the voltage ing α
+the to distribute among voltages and currents transient
+leads. Leads from the EUTr-- various interconnecting
+vicinity of the EUT TGE that are normally grounded in the
+to the EUT for the test. are connected TE
+12~~
+EUT TG
+Fig. 18.5 Γ round circuit injection. , . . . . . . . 7. 7 ρ Π 7
+is one that is generally (β) Fig. 18.6 Field immersion. The giround injection test
+(α) Electric fields system, either to check for upset made on α functioning
+(β) Magnetic fields Test procedures are discussed or to check for damage.
+further in §18.7.
+18.2.5 Field immersion wave testspropagatng
+EZ I TGEUTI arise because problems transient Mast lightning
+being coupled into interconnecting wires. of energy
+the injection tests de- For assessing this interaction
+Combined electric and magnetic fields. They do not, however, Fig. 18.7 scribed above are appropriate.
+for leakage of electromagnetic fields into directly check
+housing electronic equipment. These leakage the cases
+by immersing α case in an elec- effects can be checked
+Elements the elements of the test 18.2.6 Tests on Circuit tromagnetic field simulator,
+in Fig. 18.6. Checking for electric field being shown
+necessary to evaluate break- involves placing the case between Tests are sometimes effects, Fig. 18.6(α),
+of individual circuit el- applied of magnitude down voltages and currents two plates to which α voltage is
+electrome- ements, such as resistors, capacitors, and to develop the required electric field. Check- sufficient
+or to evaluate interface protec- effects, Fig. 18.6(β), requires chanical components, ing for magnetic field
+are for more complex circuits. Test connections the case α current sufficient to gen- tion circulating around
+are beyond 18.8, but test techniques sketched in Fig. magnetic field, erate the required
+also be used tests can Such of this material. the scope magnetic and that electric tests require Some
+various trnn- active circuits respond to to study how the ratio often with simultaneously, fields be developed
+and given in [18.1] studies are of such sients. Examples propagating with α wave ohms associated = 377 E/H
+[18.2]. witli strip line can be made Such tests in free space.
+469

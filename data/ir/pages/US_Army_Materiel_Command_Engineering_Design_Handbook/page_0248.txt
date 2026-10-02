@@ -1,0 +1,108 @@
+It has been determined that rotor blades
+vulncrable especially to lightning. To avoid
+to blades oubject to lightning strikes, provision
+be made for low-resistance paths for the high
+that are characteristic of lightning. The basic
+ning pro:cction requirements for all
+systems are given by MIL-Β-508'. For blades
+structed cf composite materials - inherently
+conductors or even those of all-metal bon ded -
+structio., adequate protection against
+damage be demonstrate4 by test (see par. shall
+AMCP 706-203.) Valuable preventive design guide-
+lines are given in Chapter 7, AFSC DH 1-4.
+5-7 ROTOR SYSTEM FATIGUE
+5-7.1 GENERAL
+Critical helicopter components are sub;ε.τ
+load spectrum characterized by α relatively high-fre-
+quency oscillating load content. Characteristically,
+the rotor system - particularly the main rotor
+produces and endures the hi3hest cyclic loading.
+fundamcntal design requiremont is long life of
+system components. Resor.ant conditions
+Elumi. dn levCes Bywu.. ua11wnig stcss V1agho )
+contponrnt must be avoided. However,
+with these requirements can be verified only
+the correlation of flight test and component
+test data. The discussion that follows supplements
+description of fatiguL life deterinnnation given
+4-11, AMCP 706-201.
+Corrosion has α rapidly degrading effect
+fatigue strength, and related life, of α particular
+ponent and this effect is difficult to predict in
+curate quantitative manner. Corrosion-resistant
+terials ani/or proven corrosion prot•,ction
+thus should be used to cbviate the necessity of
+sidering corrosion in the daternn.iation of
+system component fatigue life,
+metal failure rf the Fretting is the erosive
+small displacernents of heavily the result of ias
+methods parts. All preventive mating
+and development employed in the dasign should :ε
+fretting betwe.ν to preclude the occurrence of phase
+components, particularly crifical, highly stressed
+blado/hub retention areas. Fretting occurs
+ly in areas such as tenwon-torsion strip
+bearings, (particularly low-angle oscillating applica-
+tions), ι•.vtntion hole bushings, and blade/hub
+tachment fittings. The degree of sucrxss in
+"venting the occurrence of fretting is J
+through careful inspection of various components
+that have been subjected to fatigue tests thnt
+actual installations and loads,
+\~
+
+are Rotor system components with long lives can be
+damage attained by implementing α combination of tech-
+must niques in the initial design. Preliminary calculations
+currents of rotor system natural frequencies and loads can be
+light- made with α reasonable degree of accuracy for α pre-
+acrospac4 scribed number of representative vehicle flight con-
+con- ditions. The mission profile specified for the vehicle,
+poor coupled with load calculations for spicific flight con-
+con- ditions, can define α preliminary load spectrum, con-
+ightning sisting of load magnitude and frequency, as well as
+8-9.4, frequency of occurrence. Thes data, when combined
+with section property and theroctical stress concen-
+tration factors foi α component design, cast be con-
+"Yerted to steady and oscillatory (stress Σ-N versus
+LIVES com- number of cycles) data. Therefore, preliminary
+ponent life can be determined based upoa cumu!α-
+tive Oaniage and notched and unnotched material or
+to α similar fatigue test data. Coupon fatigue test data
+must be used with cure aince these data usually will
+not reflect accurately the effects of manufacturing
+- processes that aic peculiar to α specific component
+Α design. Σ-Α' test data for components of similar
+rotor design and manufacturing process are more useful in
+thai pro- the preliminary detcrmination of component life (see
+within α pa;. AMCP 4-!, 706-201).
+compliance Although the previously described method can be
+through employed in the prelimihary design phase to predict
+fatigue component life, α mote rigt•'ous analysis of :ompo-
+the ρ.ent fatigue and flight test data must be performed to
+in par. determ;ne the final life of the component. In the lab-
+oratory fatigue test it is necessary to simulate the ac-
+or the tual combined loading conditions, particularly in
+com- areas of local attachment or where actual load paths
+an ac- may be in question. For example, tkt ,,•/ρ blade ρ
+ma- root-to-hub attachment, α meanie.1φ: .j] .-
+methods tion of the fliaht condition ia¢hnokc ct•ν- χ
+con- flap and chordwise momaents and shears pa vaixtio
+rotor superimposed or the centrifugal force. Because, is 'I
+not feasible in many caste to include all associated -Nr
+is test, it often in the fatigue influencing components surface
+by to simulate loca: flexibilities offered loaded important
+in- to simulate local force bearings, etc., or flexures, practicable
+offered by pivot article such as those puts to the test
+or lead-lag dampers. point friction
+The failure data acquired for an assembly quite
+common- often will involve the failhre of only one component
+packs, of that assembly IThis component then becomc the
+limiting factor in the life of the α&scrmbly. If such α
+at- component is α replaceable item, it can be replac"δ
+pre- periodically during testing, as failures occur, in order
+determined to acquire failure date for the longer-life conipo-
+nents. Although the individual components o! the
+simulate assemhly can be tested separately under simulated
+loading conditions. 'esting of τ~ε complete assembly

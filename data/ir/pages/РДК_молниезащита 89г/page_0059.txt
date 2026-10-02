@@ -1,0 +1,52 @@
+.
+Chapter 3
+AIRCRAFT LIGHTNING ATTACHMENT PHENOMENA
+Introduction 3.1
+This chapter will deal with the circumstances un- of interest since the beginning of powered flight be-
+der which aircraft are struck by lightning and the cause lightning and other thunderstorm effects, such as
+question of whether aircraft can trigger lightning or turbulence and icing, are to be avoided if possible. To
+whether they just happen to be in the path of a natu- learn about these conditions, various lightning strike
+rally occurring flash. It also deals with how the light- incident reporting projects have been implemented.
+ning flash interacts with the aircraft surfaces and de- Beginning in 1938, the Subcommittee on Meteorolog-
+fines the lightning strike zones within which these sur- ical Problems of the National Advisory Committee
+faces fall. Methods for locating the zones on specific for Aeronautics (NACA) prepared and distributed a
+aircraft are discussed in Chapter 5. sixteen page questionnaire to airlines and the Armed
+Statistics on lightning strikes reported by aircraft Forces [3.1]. Pilots filled out these questionnaires after
+pilots seem to indicate that no aircraft is likely to re- each lightning strike incident and forwarded them to
+ceive more than one or two lightning strikes in a year, the NACA subcommittee for analysis. The question-
+but that some types of aircraft receive more strikes naire was evidently too long for widespread use, how-
+than others. Compared with exposure to other haz- ever, and was discontinued by 1950. Nevertheless, the
+ards, such as hail, birds and turbulence, which are also program provided important data for the first time on
+encountered during flight, the exposure of aircraft to the meteorological conditions prevailing when strikes
+lightning strikes seems relatively infrequent. Because occurred and the resulting effects on the aircraft.
+O
+of this, incorporation of lightning protective measures Following that, programs were conducted by the
+in the designs of some aircraft has been considered, by Lightning and Transients Research Institute (LTRI)
+some, unnecessary. The question also arises: "If light- [3.2], the FAA [3.3] and Plumer and Hourihan of Gen-
+ning strikes do in fact occur infrequently, can they be eral Electric, together with five US commercial air-
+avoided altogether?" Because some types of aircraft lines [3.4]. This latter project is known as the Airlines
+seem to experience more than their "fair share" of Lightning Strike Reporting Project. Anderson and
+lightning strikes, a related question also arises: "Why Kroninger of South Africa [3.5], Perry of the British
+are some aircraft (seemingly) more susceptible than Civil Aviation Authority [3.6], and Trunov of the
+others?" USSR National Research Institute for Civil Aviation
+To answer these questions a considerable amount [3.7] have also conducted studies. More recent data
+of research into the effects of such factors as aircraft from the Airlines Lightning Strike Reporting Project
+size, engine exhaust, and microwave radar emissions has been reported by Rascb et al of FAA and Lightning
+on lightning strike formation have been undertaken Technologies Inc. [3.8;.
+over the years. Much of this research has been aimed Strike incidence data, based largely on turbojet or
+at answering the question of whether or not an air- turboprop aircraft, is usually summarized according to
+craft can in fact somehow produce its own lightning the following categories:
+strike, or if it can trigger an impending flash from a
+1. Altitude. are incon- findings of the some cloud. While nearby
+clusive, others have provided definite answers to some 2. Flight path; that is, climbing, level flight, or de-
+of these questions. In this chapter we summarize what scent.
+has been learned about the aircraft's influence on light- 3. Meteorological conditions.
+ning strike occurrence and dispel some other miscon-
+ceptions about this phenomenon. We also examine 4. Outside air temperature
+how other factors, such as flight and weather condi-
+tions, affect lightning strikes and conclude with why it 5. Lightning strike effects on the aircraft
+is important that lightning protection be incorporated Altitude, flight path, meteorological conditions,
+into all new aircraft designs. and air temperature are topics discussed in this chap-
+The atmospheric and flight conditions prevailing ter. Lightning strike effects on aircraft will be dis-
+when aircraft have been struck by lightning have been cussed in the succeeding chapter.
+41

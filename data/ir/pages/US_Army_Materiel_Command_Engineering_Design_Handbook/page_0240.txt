@@ -1,0 +1,107 @@
+for ail or part of the ipan of tha biade. A more cona-
+moa type is a relatively ahort tab locsted in tse vi-
+cinity of 75% spaa. For blade tracking. tri tabe are
+adjusted by bending them upward or duwnw.srd as
+neconeary to equalize the pitohing meoment charac-
+toriatics of the indiv.duni Slades.
+5-4.2.6 Tuaine Welghts
+Many forms of tuning weights are used internally
+at various locstions along the span of the blade. Tbey
+are refarred to as "antinode" wcights because they
+are placod at the point of maximuin deflection ampli-
+tude of the biadc ss it vibrates in various harmonic
+modos. The purpoee is to change the natural fre-
+quency of the ülade to avoid rosonance with any
+posible forcing froqucncics, particularly rotational
+speed. The weighia may be bonded, riveted, or boltod
+to intarnal structur J members of the bladc, or may
+be suspendod at the end of a cabic, strap, or rod that
+is retained at tbs root end. The laiter method of
+retention precludes high local stresses in the basic
+blade structure due eitber t. holos, or to contrifugal
+force bocausc of the concentrated mass. It also pre-
+cludes high stresscs in the weight itsolf from inducad
+bending, and permits the weight to bc made of high-
+density, nonstructural metal.
+5-6.2.7 Design Reguiremsats
+Regardioss of the method of construction of a
+rotor biade, the detail design and the selection and
+distribution of material must satisfy a number of in-
+depondent and intarrelated requirements. The blade
+geometry baving boen established, as discussed in
+par. 5-6.1, additional major considerations are
+strengtb, vibration, weight, mass moment of inertis,
+scrviccability, and cost.
+As a rulc, a rotor bladc that is designed to have a
+reasonablc life under the applicablc fatigue loading
+conditions will be structurally adequate for any static
+conditions. Thereiore, major eunphasis must be
+placod on deeign feature that roduce the alternating
+stressss and make the structure as insensitive as possi-
+bic to thosc stiessca. Alternating stresscs are induced
+by response of the blader to the periodic airloads,
+which, in turn, are afiected by the blade motion. Thc
+blade responsc is dependent aimost entirely upon the
+mass and stiffaess distributions. It is excremely im-
+portant that those distributions be such as to avcid
+any bending or t prsional natural frequencics that are
+near resonance s. th any forcing functions (sce par. 5-
+4.2).
+The blade vibration frequencics may be broken
+Jown into flapwise, chordwise, -and torsional fre-
+quoncics; these may coupie together unfavorably to
+
+cause bigh amplifia of motion and strus. To
+avoid mucds to bs
+abie to changs tihe
+Similariy. it ie deiral
+wiae mcas distvibution
+the chordwies CG. For exampla. a aparwice anti-
+node weight, if inproporty located in the blado, mey
+corroct a flapping netural froquoncy, but may change
+a torsional frequency so as to cause it to pouple
+strongiy with a chordwise bending frequency. Such
+coupling ofton results in high-froquency stress ampli-
+fications that can seriously limit the lifo of the rotor
+blade; but if the vibrations are not transmittod to ths
+sircraft, the condition may not be apparent to the
+occupants.
+This control of natural frequoncies is equally is t-
+porta.t in avoiding excossivo vibration of the aircraft
+and high loads in the conirol system. Wbether or not
+the rotor blade vibrations will be transmitted to the
+fixed system is dependent upon the mode of vibra-
+tion relative to the nun ber of blades in the rotor.
+Thus, it is necessary to consider the entire systom
+when designing a rotor blade for opuimum natural
+frequency.
+In spite of all efforts to avoid amplifications of
+bending moments by control of natural frequencics,
+alternating streases always will exist. It is of prime im-
+portance, therefore, that the detail design maximize
+the tolerance of a rotor blade io thesc stresses.
+Materials sclected, whether metallic or nonmetallic,
+must be capable of providing high fatigue strength.
+To this end, any form of stress raiser — e.g., notch,
+hole, o: sudden change of soction — must be avoided
+in areas of even relatively low alternating stress.
+Techniques have becn developed that now make
+welding * viabie meihod for fabricaiion of rotor
+blades. However, care must be exercisod in the place-
+ment of the weld, and adoquate quality control over
+the process must be sssurod. Holes in areas of high
+streos also can be avoide. through the use of achesive
+bonding. When the joints are designed with care,
+stress concentrations virtually can be eliminated.
+tion of a crack frory one structural member to
+another. In all of the blade configuretions discussed
+in the carlicr parts of this paragreph, adhesive bon-
+ding generally is the principal method of joining.
+5-6.2.8 Toeling end Qusiliy Coutrol Roquiremeats
+Two principal categorics of tooiing for the con-
+struction of rotor blades are the tools for fabricating
+the main vomponerts and thosc for assembling the
+biade. In the case of moldod fiber-reinforcod-plastic
+blades, thcse may bo combinod, and the spar, skins,
+5-45
+. :

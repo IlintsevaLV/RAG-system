@@ -1,0 +1,32 @@
+timelag curve of the shape shown in Figure 7.16. Timelag effect means simply
+this: the shorter the time for which α voltage is applied across α given insulation,
+the higher that voltage must be to cause breakdown; and conversely, the longer
+the time, the lower the voltage necessary to cause breakdown. There is, of
+course, α voltage level below which breakdown will not occur at all, even if the
+voltage is applied for α long time. Most solids show α flatter timelag
+characteristic than do air or surface flashover paths, as shown Figure 7.16. in
+TO BREAKDOWN Time
+Breakdown timelag curves solids and air. 7.16 for Figure
+In general, for fiberglass components, such as the radome of Figure 7.14
+and the fuel tank section of Figure 7.15, an oncoming lightning flash has
+alternate paths to α metallic conductor. One is via α puncture of the nonmetallic
+skin to an internal metallic component, such as the radar dish. The other via is
+surface flashover to the nearest exposed metal. While the path via the puncture
+may be much shorter than that along the outside surface, the added insulation
+provided by the solid skin often compensates to some degree for this, making
+both paths viable alternatives. The significance of voltage rate of rise now
+becomes evident. Because the timelag curve for the alternate paths cross each
+other, there are voltage waveforms that will intersect either timelag curve, as
+shown Figure 7.17, where both α "fast" and α "slow" voltage waveform are in
+superimposed on the breakdown timelag curves of Figure 7.16.
+From Figure 7.17 it is evident that the faster rising test voltage is the more
+severe in terms of increased probability of puncture. Thus, for attachment tests,
+7.15, such as those of Figures 7.14 and α test voltage with the fastest rate of rise
+expected from α natural lightning leader is desirable.
+No time-domain measurements have as yet been made of the electric fields
+surrounding an aircraft during the lightning-strike formation process because
+such measurements present formidable instrumentation problems. However, in
+o5 ξ 2 Chapter Section we state that the leader advances at about to I I 1.2.3, 1,
+5 μ/σ, which would result in an average of to 10 ys for the leader to travel α
+1 500 distance of μ. Since about kV are required to break down α 1 μ air gap in
+210

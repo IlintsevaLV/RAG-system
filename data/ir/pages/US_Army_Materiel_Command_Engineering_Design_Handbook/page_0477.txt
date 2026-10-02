@@ -1,0 +1,96 @@
+components may include:
+α. Engine compremor
+β. Fuel control
+σ. Engine oil-cooler
+δ. Transr:ission oil-cooler
+σ. Hydraulic modeale and ruarvoir
+φ. Fuel cross-over valve
+Fuel cell sumpe
+η. Control linkage and bell cranks
+ι. Acuatort
+j. Crew ι. Drive shafts.
+2. Kill Definition. Attrition, Forced Landing.
+Mission Abort.
+3. Kill Criteria. For convenicnce of analysis, the
+helicopter generelly is divided into distinct systems
+(ι.ε., crow, propulsion, fuel, fight controks, rotor.
+power train, ctc.). Esch system contains components
+that are vital io the succssful operation of the
+syéem. Damage to α singie component is said to be
+singly vulnerable. Components of α set are said to bc
+mukiply vulurrable in α given kill category if damage
+10 las than (π- 1) membors of the set docs not result
+in α belicopter kill, but damage to at lesst ε members
+of the set does result in α balicopicr kil. Although the
+primary vulnerability analysis is conducted for the
+aircraft in forward flight, thc list of vital components
+shall show the level of kill for damagc when thc heli-
+copter is in α hover mode of flight (soe Table 14-3).
+4. Probability of α Kill Given α Hit (Px !H) 1or
+Each Component. The designer assigns the Pr |H'σ
+ε ee ν ε
+proval so Ballistic Rescarch Laboratorics (BRL) at
+Abardoca Proving Ground, Maryland. Π. \H'σ are
+bacod on experimental firings on subjoct item. or like
+itcms.
+3. Presented Area (Ap). Once the conditional kili
+probabilitics for cach component bave bcen ascer-
+tained, it is necessary to roconsider the target tech-
+nical description to determine component presented
+areas. Onc of the icast complex and most frequently
+uscd means of obtaining presented areas of nelicop-
+ter components employs α planimeter to measure
+them from scale drawings made for cach of the prin-
+cipal views to be considered. Several computer pro-
+grams, notably the MAGIC (used at BRL) Program
+and thc SHOTGUN progrem, have been developed
+for obtaining prerented arcas, as wcll as shielding for
+the components. During this prcceas of obtaining
+presentod arene, it is nocessary to consider the space
+orientation of thc incividual components and evalu-
+ate the masking or shielding provided to cach com-
+ponont by the rest of the helicopter. !ν gencral, any
+shiclding provided to α particular compe.rent by the
+
+reut of the aircraft will be ruflected σ α rod
+tbe: conditional kill probabilities for that coc
+δ σ og sgp po sos oey
+or viaws. Thic reductioe uf condinional kill prota-
+jo suace so ge sog pisusdanoo sunq soj segdche soreq:4
+tibc velocitics for α particutar viow or viowe. Thbis
+reduction of conditional kill prel is not as-
+ity of the tharont afler it bes perforutad uise
+for some or ali of its preeagiad aren for ome or mers
+of tihe viows coasidored. If this oocura, tibe pre
+arem of the сой spomant for thaas vioms am
+roducod correpondingly. Whea armor is pu
+to protoct aircraft componenta, the affect τ Μ-
+ror is analyzad as meseking.
+nog peuncoos sg tgn epogo pregd-pangeg porejoy
+ι.χ., number, weigar, velocity. and diractice of piaces.
+(For some new types of arnsor, new firing deta will be
+roquirod.) Data on saaterint abialds
+contained in the clacsified date on maieriel "Tior"
+scrios of reporia. Coanuie BRL concurning this sub-
+ject 6. Vulnerable Ares (4υ). Antar the conditional kill
+nents of the belicopter and the prosented aroee of
+theac components bave bean desrminod, vuluerable
+areas of thosc components are gonerated. For α given
+threat, striking velocity, and view, the vuinerr ble aroe
+of α componcnt is obtainod from Eq. 14-1.
+Av = Ap ·Px \ H (14-1)
+whare
+Av = vulnerable area of component
+- prcscntcu ares of compoñcni
+Vulnerablc areas generally are classifiod as onc of
+abie arca for singly and multiply vulnerabie compo.
+nents. The singly vulnerable azes Avr of tbe system is
+the sum of the singly vuinerablc arees Av, of abe com-
+ponents of the sysiem.
+τ = ρ. - ∴ (Px H), (14-2)
+Only α limited amount of subtotaling may be ac-
+complished in α sysiem of multiply vuinerable com-
+ponenta. If, for examplc, vuinerabic areas wore com-
+puted for σ multiply vuinerabie sct of components
+forming α propulsion systens which containod two
+1415

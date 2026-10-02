@@ -1,0 +1,43 @@
+other points on the aircraft. As α result, the maximum field stress to which most
+100 points of the aircraft can be raised is probably on the order of kV/μ. This
+electric field will be radial with respect to the metal surface of the aircraft. In
+places where there are apertures, the electric field lines will pass through the
+apertures and will produce electric fields on the inner surface of the aircraft.
+The response of α conductor to α suddenly applied electric field is shown
+12.4. in Figure If α conductor is α height, η, above α metal surface upon which
+will an electric field is incident, the conductor assume the potential of the field
+at that point:
+This holds true only if the conductor is isolated from ground. If the conductor is
+completely grounded, as shown in Figure 12.4(β), the voltage on the conductor
+will be zero. If we were dealing only with static electric fields, any ground on the
+conductor would reduce the conductor voltage to zero. However, here we are
+dealing with conductors having distributed inauctance and capacitance, and
+exposed to α suddenly applied electric field. Accordingly, the electric field
+will raise the conductor to the voltage ε hEi, and the voltage applied at point 1 =
+will maintain itself at that level until such time as α voltage wave has had time to
+to the ground conductor at the left and back to point 1. propagate from point 1
+Thus, at point 1 the conductor experiences α square-wave voltage lasting for
+twice the travel time required for the wave to travel from point to the 1
+2 grounded end and back. The electric field applied at point likewise raises the
+2 conductor at point to ε hEi, and it again remains there until α wave has had =
+time to propagate to the grounded end and back. Since less of the conductor is
+involved, this voltage lasts for α shorter period of time. Nearing the limit, the
+field applied at point can raise the conductor to α voltage of ε hEi for only α 4 =
+very short period of time.
+waves the voltage that are produced return to the open end of the As
+conductor, they again experience α reflection. The voltage waves reflect back
+and forth between the open and grounded ends, reversing their polarity at the
+grounded end and doubling in amplitude at the open end. Thus, the voltage at
+the open end is oscillatory (Figure 12.5), the amplitude of the oscillation
+decreasing with time as energy is lost in the resistance of the conductor or
+radiated into surrounding objects.
+Associated with these traveling waves of voltage are traveling current
+waves. The degree to which the waves are excited depends not only upon the
+magnitude of the incident electrical field but upon its rate of change. Fields with
+longer rise times are proportionately less effective in exciting oscillations. If the
+12.4 conductor of Figure is viewed as the shield on α group of wires, the current
+and voltage on the shield will be oscillatory. The commonly accepted practice of
+grounding shields at only one end is based on the premise that the electric fields
+to which the shielded conductors will be exposed are of such low frequency that
+all points of the shield may be held at ground potential with only the one
+ground point. When the rapidly changing electric field associated with lightning

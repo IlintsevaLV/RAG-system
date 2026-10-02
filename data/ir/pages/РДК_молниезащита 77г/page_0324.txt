@@ -1,0 +1,40 @@
+C-D. resistivity of the material along the path To these potentials must be added
+the voltage induced magnetically by the changing magnetic flux passing through
+B, D. C, and If the spacing of the conductor to the loop defined by the points A,
+C-B and D-A become zero, there will the wall is made vanishingly small, so that
+V1 be no magnetic flux; hence the voltage between points A and D will be only
+C-D. the resistive voltage drop along the path As in the cylindrical geometry
+case, the voltage for a step-function current injected into the exterior of the tube
+10.6. will build up according to the pattern shown in Figure Its magnitude will
+be greater than the dc resistance drop by the ratio to which the initial current
+density on the exterior along the end of the ellipse exceeds the steady state
+current density.
+V2 a will again be the sum of a resistive voltage drop and magnetically
+induced drop, this time along the path E-F-C-D. The resistive component will be
+V1, identical to the resistive component of the resistance drop along the path
+C-D. V2, For however, there will be a nonzero magnetic component of voltage
+a finite amount of magnetic flux through the finite produced by the passage of
+loop EFCD. The magnetically induced component of voltage will be given by
+K is a proportionality constant relating the flux produced in the loop where
+EFCD to the internal current. In Equation 10.26, however, it was shown that
+the internal current was proportional to the integral of the internal resistance
+drop. This leads to the rather unusual observation that the magnetically induced
+component of voltage has, initially at least, the same waveshape as the
+component of voltage produced by the flow of internal current density through
+the resistance of the material. The long term response of the magnetically
+induced voltage will be different from the resistively generated component,
+since, as steady state conditions are reached and the internal magnetic field
+reaches its final value, its rate of change of the internal magnetic field will
+decrease to zero.
+The amount of the magnetically induced voltage will depend upon the
+location of the conductor and upon the degree to which the initial distribution
+of magnetic flux around the outside of the cylinder differs from the final
+distribution of magnetic flux. Since the difference between the initial and the
+final flux patterns is greater for cylinders of high eccentricity than it is for
+cylinders of low eccentricity, it follows that the flatter the cylinder, the greater
+will be the influence of the magnetic component.
+10.2.4 Experimental Verification
+In order to demonstrate the above principles, a test was made in which
+current was injected into an elliptical cylinder and the voltage on several internal
+conductors measured. The physical arrangement of the test setup is shown in
+10.18. 47 Figure The cylinder had a major axis of cm, a minor axis of cm 9.4

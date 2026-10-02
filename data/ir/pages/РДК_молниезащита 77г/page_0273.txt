@@ -1,0 +1,19 @@
+E ext
+Aperture-type electric field coupling. 8.8 Figure
+(a) External field patterns
+Internal field patterns (b)
+The host easily understood mechanism by which the passage of lightning
+current gives rise to voltages on aircraft electrical circuits is that in which the
+current, flowing through joint resistances, produces a voltage by the elementary
+IR 8.9. voltage drop. Such a case is shown in Figure Here lightning is shown
+contacting a wing tip navigation light. The lightning current flowing through the
+resistance of the mechanical mounting structure of the lamp housing produces a
+voltage across that resistance. The voltage drop across the resistance will have the
+same waveform as that of the lightning current. The voltage at some remote
+point, however, may not have the same waveform, since the distributed
+inductance and capacitance of the wire supplying power to the filament of the
+light will be set into oscillation by the suddenly developed voltage. The result is
+that at remote points there probably will be an oscillation superimposed upon
+IR the basic voltage.
+8.10 shows two other examples of cases in which resistive voltages Figure
+might be encountered. The first would be at the pylons for mounting external

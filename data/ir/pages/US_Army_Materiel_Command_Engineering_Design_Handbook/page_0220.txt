@@ -1,0 +1,92 @@
+*
+Tbis gust alleviation factor Α. is given as α function
+of rotor disk loading, and is equal to unity for disk
+loadings grater than 6 lb/φ², as shown in Fig. 5-19.
+At high spoeds and for disk loadings grcater than 5,
+gust load factors computed in accordance with MIL-
+Σ-8698, including thc gust alleviation factor, are very
+high. When mançuver loads are sup-rimposed on
+thesc gust loads. an uarealistic situation results. On
+the other hand, studics indicate that the thrust
+capability o. rotor actually decreases with in-
+creasing advance ratio. The aerodynamic limit shown
+in Fig. 5-20 is calcuiated by α digital method based on
+Ref. 36 which includes thc effects of stall and com-
+pressibility. Also shown in Fig. 5-20 is α practical
+jimit for thc same rotor bascd on flight test data. The
+practical limit is α resuit of oscillstory rotor loads and
+stall flutter effects, and is the controlling limit on
+rotor thrust capability at high advance ratios. This
+conclusion is supported by Ref. 30.
+Unloading the roter by adding α wing would give
+the rotor α greater margin to accept gusts. The advan-
+tage, however, is not as great as might be expected,
+because the rotor usually will assume the larger share
+of the lift increase resuiting from gusts, as shown by
+tests with an AVLABS-Bcll high-performance heii-
+copter. The gust alleviation factor given by MiL-Σ-
+8698 was found to be unrcalistically low for α rotor
+unloaded in this manner.
+An early attempt at treatment of gust effects on
+rotary-wing aircraft is reported in Ref. 33. Sine-
+squared gust stapes were considered instead φ
+sharp-edged gusts, and α mass ratio comparablc to
+that used in fixed-wing anaiysis replaced disk loading
+in the determination of thc gust alleviation factor.
+Fig. 5-21 shc ws the results of that study. It suggests α
+gust alleviation factor considerably smaller than that
+given in MiL-Σ-8698. The scope of the study, how-
+ever, was insufficient to Jefine requirements for all
+types of rotary-wing aircraft. Furthermore. gradual
+penctratiot into the gusts, nonsteady serodynamics,
+1.0
+0.8
+0.6
+GUST-ALLEVIATION FACTOR 0.2 0.4 MIL-Σ-8698
+ο 1 3 6
+DISK LOADING, psf
+Figure 5-19. Cust-slleviation Factor (MIL-Σ-8698)
+
+*
+AMCP 706-202
+and' aeroclastic feedhack were not considered. Sub-
+sequent studics (Refs. 34 and 37) attclapted to
+remedy thesc deficiencies and to include unsteady
+acrodynamics as well as additional variables'auch as
+gust shape anid intensity, forward speed, dist loeding.
+thrust cocfficicnt-solidity ratio, and advancing tip
+Mach number. The design considerations derived
+fron: these studies are reviewed in par. 5-4.6.2.
+5-4.6.2 Gust Design Considerations
+From the studics in Refs. 34 and 37 several prin-
+cipal conclusions can be drawn. The gust alleviation
+factors K, given in MIL.-Σ-8698 are too conservative.
+The use of α rotor mass ratio μ. to determine Ξ, by
+analogy with the fixed-vving approach, as suggested
+in Ref. 33, also does hot give satisfactory results.
+Nevertheless. gust loads cannot be ignored in rotor
+design. Pending preparation of criteria to replace the
+gust load requirements of MlL-Σ-8628. alernative
+methods for determination of gust load factors may
+be used, subject to the prior approval of the pro-
+curing activity.
+IHEORE TICAL AEPODINAVIC MAXIVIN: DLEP SIAL
+0 20χ Δ HUEY COBRA (AH-1(
+CGEFFICIEN*- 0.15 Λ >Δ MA EUVERING
+ο NASA-AMES TESTS
+0.10φ Δ Λ
+0 05 ! PRACHICAL LINII
+ol.
+ο 2 0 6 08
+ADVANCE RALIO »
+Figure 5-26. Roior Limits as ε Function of
+Advance Ratio
+xe 1 α NT: - Σ-Bu4):
+υδ FOR Σ" ET DIAME TER
+GUST ALLE VIATIQR. FACTOR ο (1 4 SUEY RE SULTS IKEf. 331
+ε
+4 σ 8 lo
+RUTUR MASS RATIO !' γ
+Figure Σ-2σ. Results or α Lond Gust Stuáυ Compared
+With Military Specification Requirements
+5-25

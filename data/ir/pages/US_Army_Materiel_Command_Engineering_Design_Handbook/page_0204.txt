@@ -1,0 +1,96 @@
+, decription in par. AMCP 3-3.3. 706-201, and the
+Chapter 5, presntation of theoretically oriatted
+AMCP 706-201.
+CONTROL HELICOPMTR $-3.2
+Inflight control of the helicopter, using the rotor
+types cited. is provided by:
+1. Momenta acting upon tho rotor hub
+2. Tilting the resultant rotor lift vector
+3. Α combination of these.
+for I he control moment source each type is illus-
+trated in Fig. Σ2. Fom the gimbaled rotor, α given
+rotor tilt produces α corresponding tilt of the lift vcc-
+tr, which, in turn, produces α control moment about
+the helicoptcr CG. An additional control mon~elit
+exists in an articulated rotor as α result of the hub
+shear force acting at the flap hinge to produce α mo-
+ment at the hub. In the case of the hingelcss and flex-
+hinge rotors, the structural spring at the equivalent
+hinge provides an additional component of control
+moment et the hub.
+The conventional metbod of achieving rotor con-
+trol is through collective and cyclic pitch changes at
+the blade roots. These changes arc accomplished
+throiugh cntril Ignkagc between the rotating blades
+lecmcnt (α and α swashplate structural thai con-
+α pitch as blade the defines that plane fixed α stilutts
+mounted arc blades Individual azimuth). of function
+spindles on that provide feathering freedom for con-
+trol. Collective pitch of the blades is introduced by α
+scissor niechanism or by raising or lowering the
+swashplate; cyclic pitch, required to produce α tilt of
+the rotor disk plane, is accomplished by tilting the
+swashplate.
+Blade pitch changes also arc made in some rotor
+systems by connecting the swashplatc to α servo tab
+o α or. or .... .. ... . ...... . ..... kc. ...
+servo rotor or gyro bar that in turn acts as α swash-
+(or plate the main rotor,
+5-3.3 ARTICULATED ROTOR
+The kinematics of an articulated rotor with an out-
+board lag hinge are illustrated in Fig. 5-3. Veitical
+motion of the pitch link in response to swashplate tilt
+as the blade travels awound the azimuth produce,
+pitching rotation at corresponding the pitch bearings
+to the cyclic pitch of θ-. rotor. The position of the
+pitch bearings with respect to the blade lag freedom
+varies with the rotor system design. In the example
+(Fig. 5-3), the pitch bearing of the rotor system is in-
+board of the lag axis, whereas that of the CH-46 rotor
+is outboard of the lag hinge.
+As shown in Fig. 5-3, the lag hinge allows the blade
+to move, leading and lagging, in the disk plane. Lag
+
+202 706 AMCP
+LAG
+HINGL
+PITCH
+LAG DAMPER
+N - HINGE
+,1λ, HUB ROTATION
+|;igrc 5-3. Artlculaled Rotor Schematic
+freedom of the blade is necessary in this particular
+so design that the steady chordwise bending moment
+at the blade In cquilibrium root is reduced. the lag
+the pe.τ~inn of blade, the chordwise moment due to
+lag the drag loads on the blade is balitcd at the
+centrifugla the due to moment opposite an by hinge
+in- blade. the of displacement lag the force and
+dividual blade lag dampers are required to provide
+energy dissipation adequate mechan- to conrol the
+ical instability associated with the coupled rotor/air-
+frame system as dcacribcu in par. (also see 5-4,3
+Chupter 5, AMCP lag 706-201). The rigid-body
+natural frequency of articulated rotors usually is
+betwoen 0.20 and 0.40 times the rotor speed.
+Blade flapping freedom in the articulated rotor is
+J which is close located rnia ihar me, ro-δ-δ ky.
+cntcrline to the rotor in order to minimize the flap
+,' bending of the rotor hub (Fig. 5-3). The steady ioo-
+1
+"ment about the flap hinge thr from centrifugal fore
+acting through the moment arni of the blade - vcrti-
+cally displaced by the blade coning above the dirk
+plane - is balanced by α moment of the same magni-
+tude. β':τ in the opposite direction, due to the steady
+4he lift on blade. The natural flapping frequency of an
+articulated design near resonance with the rotor is
+shaft speed. However, aerodynamic damping in the
+rigid flap mode approaches 50% of critical damping.
+with the ruult that the near-resonat conditioa pro-
+vides an acceptable design.
+Coupl;ng between flap and pitch motions is &ν im-
+portant dcsigrn consideration for α rotor control
+systkm. Generally, the rotor should be designed so
+that, as the blade flaps upward, the mechanical pitch
+5-9

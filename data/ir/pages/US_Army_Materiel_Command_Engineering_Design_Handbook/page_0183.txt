@@ -1,0 +1,109 @@
+4-32.3 Sbmfthfg
+pri- concerned is itself shaft drive the of Design
+fitting selections. end and size, material, marily with
+For high torque applications, where tube wall thick-
+may mechanism drive similar or α spline permits, ness
+drive other or couplings to shaft the adapt to used be
+components. With thin wall tubes, an adapter with α
+thicke ione. mboron
+thicker section must be attached to the tube to per
+couplingt
+wall to thin bonded .Idhesively be may Adapters
+be proportioned must joint adapter The tubes.
+concentration at the stress excessive avoid to properly
+bond interface. This can be done by machining the
+end fitting bore and shaft OD in α tapered or para-
+bolic shape so that the angle of twist is constant. if
+the section modulus is constant over the length of the
+bonded joint, the distribution of shear stress in the
+bond material will be even. If the joint were not so de-
+signed and an abrupt change in section modulus were
+encountered at the end of the fitting, α differential
+shear α severe causing occur twist would of angle
+The material. in the bond concentration stress
+lower be considerably joint would of such α strength
+than intended.
+larger the to effectively riveted be fittings can The
+of margins adequate with drive shaft tubes diameter
+safety. The stress concentration effects normally as-
+sociated with riveted joints must be taken into ac-
+count in the design of this type of assembly. Bolted
+joint designs are similar to the riveted joints.'
+Welded joints can be made effectively when ferrous
+materials are used both for tube and adapter. Normal
+efficiency factors for welds must be used when sizing
+the joint for steady torsional load and the effects of α
+metallurgical "notch" or stress concentration must
+be included in the fatigue analysis. Brazed joints also
+are effective fo. some designs. Induction brazing is
+developed easily and is α cost-effective method. The
+heat affected zone in the brazed joint normally is
+tempered, and the torsional strength of the joint must
+be based on the minimum allowable strength of the
+tube or adapter in the tempered zones.
+Machining may be necessary subsequent to the at-
+tachment of the end fitting to provide parallel and
+concentric mounting surfaces so that the drive shaf-
+ting runs true.
+Materials used for drive shafting include steel,
+aluminum, titanium, and nonmetallic composite
+structures. Steel shafting is used for engine-to-
+transmission applications and other areas defined as
+fire-zones. Aluminum, titanium, and composite shaf-
+ting are suitable for interconnect shafting and tail
+rotor drive shafting. Mill run tube stock can be used
+
+AMCP 706-202
+in loxv-spi:δ applications where balance require-
+and bar stock, stock Tube stringet. not are ments
+for higher used are machned, and completely bored
+speed application where straightness and true run-
+balancing tolerance meet close to, necessary are ning
+fabri- are usually materials Composite requirements.
+cated by laminating epoxy preimpregnated carbon or
+filament at zero, 45 deg and 90 deg lay to the
+shaft axis and curing in an autoclave. The composite
+shaft has α very high strength to weight ratio but the
+materials. other for than higher considerably is cost
+the for stringent less are requirements Balancing
+specific weight to the lower due composite shaft
+material, but machinable material should be added at
+approximately one third span positions to facilitate
+dynamic balancing when required. Large diameter
+(3.0 σ OD) thin-watlled ahlminuce tubes have demon-
+strat exce δ len ballsti to leranc ε toandi
+velocity, frod tumbled 7.62-mm bullets. Torque trans-
+mitting capability is somewhat reduced following α
+hit by this, type of projectile, but he vibration charac-
+subcritical for adversely affected teristics are not
+exhibits ballistic shafting Composite shafting.
+of alumi- bullets similar to that tolerance to 7.62-mm
+velocity lower to tolerance the although shafting num
+handling or tool, α dropped of impact projectiles,
+reduced. is considerably damage
+LUBRICATION SYSTEMS 44
+Α helicopter gearbox can be designed to meet load
+and speed requirements but the useful life of the gear-
+box is α direct function of the lubrication and cooling
+system. The amount of power loss as heat is governed
+by the design of the heat generating elements in the
+gearbox. The lubrication system assures attainment
+and maintenance of α minimum value of heat loss as
+well as minimum wear. The concurrent function of
+the lubrication system is to carry away heat.
+Heat transfer occurs between bearing outer rings
+and housings by conduction and from housings to at-
+mosphere by convection. This mode of heat transfer
+is minimal compared to the heat transferred directly
+to the inside walls of the housings by the cascading
+oil, with convection again taking place. The τ6ird
+means of heat rejection is by direct transfer to fo:ced
+air in an air/oil or, in rare cases, fuel/oil heat
+exchangers (oil coolers).
+During stabilized operation α balance is main-
+tained between heat transfer by conduction/convec-
+tion/radiation from the gearbox cases and the heat
+exchanger, if one is provided. Some gearboxes are de-
+signed for continuous operation without an external
+heat exchanger. In this case the surface area (external
+4-81

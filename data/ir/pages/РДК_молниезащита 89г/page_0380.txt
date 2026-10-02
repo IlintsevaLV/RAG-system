@@ -1,0 +1,83 @@
+criteria projection cycle, when design in the stage early
+of earlier version an Sometimes established. are being
+physical dimen- with available, is aircraft α derivative
+similarity to enable of sufficient materials sions and
+to be measured transients park" "ball representative
+wire routes. in typical
+from obtained can be data useful Occassionally,
+fuselages wing, as such subassemblies of major tests
+cases, test currents sections. In these empennage or
+measure- and the subassembly through circulated are
+that in wires induced of transients are made ments
+for specifically the subassembly in installed have been
+test purposes.
+13.4.2 Measurement Transducers
+usually measured are voltages induced Lightning
+the aircraft under located inside with oscilloscopes
+to the points under mea- test. These must be coupled
+surement with voltage and current probes.
+would one Ideally, measurements: to make Where
+the wiring at voltage induced on aircraft the measure
+at the boxes" "black in the components semiconductor
+sel- This is 13.16(α). in Fig. as the wires, of ends
+circuit under disturb the it would since practical dom
+In "noise". to susceptible is too it and because test *
+the volt- measure is to can do best one the practice
+Sometimes Fig. 13.16(β). pins. at the connector age
+boxes and on breakout make measurements one must
+avoided if at but this is to be cables, Fig. 13.16(χ),
+is very that it indicates since experience all possible,
+of noise amount up excessive avoid picking to difficult
+cables. breakout such on
+Fre- measurements: circuit and short circuit Open
+the tests is to study full vehicle of the objective quently
+than how rather on wiring harnesses, intrinsic pickup
+is cases it In such devices. with terminal they interact
+the de- from harnesses the to disconnect appropriate
+ground. to the conductors one end of to short vices and
+between be measured then would voltage cizcuit Open
+the har- of ends Next, both and ground. end the other
+circuit current short groanded and the be would ness
+measured.
+Measurement probes voltage impedance High
+fairly sophisti- requires voltages induced lightning of
+to compared large, These are quite owilloscopes cated
+as be placed can seldom and boxes" avionic "black
+would as one investigation under the devices to close
+Σ
+influ- more, much, or are as they Furthermore, like.
+the air- as are fields and magnetic electric by the enced
+
+oscilloscope that the means This "black boxes" craft
+which in- fields, magnetic from the shielded must be
+even more. requirement the space creases
+to enough close be placed can oscilloscope If the
+impedance conventional high test, object under the
+signal to the couple the be used to probes can voltage
+com- long are - 3 μ leads 2 Probes with oscilloscope.
+available. mercially
+scope
+wiring Α/C
+(β)
+(χ)
+box
+made. can be measuremants Where 13.16 Fig.
+(α) Ideal
+(β) Sometimes practical
+avoided be To (χ)
+placed must be the oscilloscope If probes: Resistive
+im- low through must be coupled it away, then further
+untermi- through cables. Connection coaxial pedance
+low imped- for satisfactory is only coaxial cables nated
+measurements. low frequency and for circuits ance
+must cables the are involved frequencies If higher
+under then the circuit ohms, but in 50 be terminated
+be re- can Loading excessively. be loaded may test
+the mea- series with in α resistor connecting duced by
+the that drawback has the this but cable, surement
+is oecilloscope measurement to the delivered voltage
+is and voltage signal original the of fraction only α
+higher The pickup. by noise contaminated easily more
+smaller the but the loading, lower the resistance, the
+If α 4950 the oscilloscope. to transmitted signal the
+365

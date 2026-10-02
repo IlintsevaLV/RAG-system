@@ -1,0 +1,39 @@
+Table DWELL POINT SEPARATIONS FOR TYPICAL LIGHTNING 6.4
+DWELL TIMES AND AIRCRAFT VELOCITIES
+Velocities Aircraft (v) I Dwell
+112 67 mls mls Times (td)
+Δ=13.4cm 2.0 ms Δ=22.4cm
+(8.8 (5.3 in) Unpainted in)
+surface 1 IID=32.2cm Δ=53.8cm 4.8 ms
+(12.7 Painted in) (21.1 in) I
+surface
+Because spacings of this order are often observed along aircraft surfaces,
+the dwell times predicted by the Brick tests are realistic. The later work of Oh
+and Schneider (Reference 6.45) basically confirms these results for uniform
+airflow conditions but shows that conditions which cause the airstream to leave
+the surface may force the arc to dwell longer at the last attachment point before
+the airflow is diverted. Oh and Schneider also demonstrate that higher aircraft
+velocities result in shorter arc dwell times, since the arc is stretched greater
+distances, allowing sufficient voltage to build up along it to break down the
+insulation at its heel (see Figure 6.21) at an earlier time.
+Validity of the wind tunnel technique for simulating swept strokes along
+metallic surfaces has sometimes been questioned because the airstream is used to
+blow the arc along the surface of the test object, whereas in flight both the air
+and the arc are stationary. It might be expected that the moving air would carry
+the arc along at an equal velocity, but in practice this doesn'τ quite happen. In
+addition, there must be cooling of the arc by the faster moving air, which allows
+it to build voltage that in turn might create α new attachment point sooner than
+had cooling not occurred. Also, the behavior of the upper terminus of the arc as
+some it moves along the electrode probably has effect on the behavior of its
+lower terminus at the test object. The scope of these effects and the extent to
+which they cause departure from an authentic simulation of natural lightning has
+not been investigated.
+Α more realistic simulation would undoubtedly result if the test object,
+like an aircraft in flight, could be moved through α stationary arc. Plumer
+α 6.46) (Reference attempted this by driving wing tip fuel tank beneath α
+15.5 (35 high-voltage electrode at α velocity of mls mph) Α flash was triggered
+when the approaching tank, carried atop α truck, sufficiently closed the airgap
+between the electrode and ground. Limitations of this technique were the low
+velocity and the low ( 4 Α ) test current amplitude. Nonetheless, subsequent
+in-flight lightning strikes to two fuel tanks of this type have confirmed the
+146

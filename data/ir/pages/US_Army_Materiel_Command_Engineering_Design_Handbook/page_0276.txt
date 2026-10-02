@@ -1,0 +1,90 @@
+χ
+100
+80
+NOISE LEVEL, dR 80
+α
+300 400 500 600
+TAIL ROTOR TIP SPEED. tps
+Α VS :
+Nala Levad
+Α
+between Nlade chord aad bade numsber. Uraally. is
+best to kop the vaive of individue.ι biada solidity
+α = χ/β betwecc 0.03 and 0.06 fur ranoas of struo-
+ture and reication. The blade number β cos be say
+raluc.
+Tbe rotos solidity roquired depande upon tip spaedi,
+disk losding. maximum thrust roquirod, apd the sir-
+foil soction choscn. The chpice of the airfoit affocts
+the mazimum operating Cr. thss direcily infauencing
+the solidity.
+The product (χ.β) of the roquirec blade chord ε,
+times tine biade numt ar β can be found froon Eg. 5-22,
+knowing the maximum operating tip spsod, tresicop-
+ter yaw rate, fan blockage effoct, and thrus: requirz
+tent: 6K
+cb Cr π(8R)'Q
+rhese χ ξ .φ. (5-22)
+β = number of tail rotor blades
+8 - blade tip los fccior, dimensionkees
+= effc.xive blade chord, nt
+- poig: moi:tent ofisertis per tiadc, lug-ft²
+K - retio of togal seil rotor itrusi to pot tai
+1 Jio: thrust, Cimensionkoss
+R - tail roto: radius, At
+tail rotor thrust to compensaic for main
+rotor torqe
+Ξ - distance fron comierline of wain rotor to
+centerline of tail rotos, ft
+
+ψ.
+air domidy, samg/R'
+- yaw rade, rad/oec
+- yas δ 2 - tadl raior rointionel 1 spoed, rnd/sac
+Eq. Σ-22, wibich is derivnl from Ref. 58, censider
+σäbe blade lifs roquriv prired for tail rotor precenpiou and to
+previde α cp sion in yaw.
+50.54 Toies
+Made twrist decronoiag fre μ isboard to outioand is
+nead to improve sbr spanwios lond discributicn (and,
+thrafone, psopuisive efciancy) of the Lail roior in
+to saaxinias propalsive affcicacy becomec greaior the sladic or low-apeod Sligbt ceese. Tie twist raquirad
+wish incraasing diak Jomding. Howeues, adthougi
+apung 'scereyog.ed sogo: Sagegugdo ν mye
+con have sdvese clfacte on the revosae thruet charac-
+OCL soristics of α ginps rotor.
+5-9.5.5 Biude à rilodd Bacelss
+The choice of the airfoi section iafluenices overall
+sizs and porformance. Maxiesum tk: ure ie deser-
+asised by thc maximaas opua.ing lift coeficient of
+the toion, cod the sottisa Groice wualiy is banel
+upon pitcising mozent characteristics. Maay ta.δ
+rotors uae NACA 0012 and 0015 sirfoil sections,
+onez Agregoseso Jo proaom Segqprd : saq qoeq
+cvpe the usual ogerating reagc.
+Becausr tbe rize and weigkt of tail rotors are diroct-
+ly dependont upon the maximum operating lift coef-
+ficinna, the uvz of cambered airfoiks is bring cou-
+side:zd. The inore important characteristics of two
+camba:od scctions conzidered auitable #ur tril rotors
+are showva :ν Tabic Σ-Σ aiong with the cha. ucteriuäics
+of thr &yt getric NACA 00ι: for comgarison.
+The NACA 23012 sirfoil is typicel ci α class of air-
+foil ssctiors «hove camsber is primarily over the for-
+ward soction ·.: ths airfoil. Compared with the syms- ! ε ν et an
+with only : 3umüλ :nczeasc in pitching moraent cocffi-
+cicnt Cy. The NACA 64,-412 iz typica! ot thic lami-
+nar-flow air:oile (NACA 63, 64, 65, ans 66 scries)
+evolved to provice low vaives of pinimum section
+drag coefficient Coat: ty mainteannce of laminar flow over muc: I their *u:fao:, along with gt
+high-spued lift and drog charazatristics. Due to θ.
+fact that the car: er is disnbuteó over θ: eiine
+chord, the pitching monstst coefficicnt is quite intg.
+as chown in Tabie 5-5.
+Th.ε vaiues of Czacx are showo for comparisen on-
+ly. Valucs eari to icigo most include costecion fo:
+opareting vzio : of dia.en and Reynolds numbern ara
+for leading odge rougdnrsa. Failon to Epr'υ nocia-
+sary crsections to airioil secxion dusos wil ressl isi
+deficient taif roior capability.
+54: σ

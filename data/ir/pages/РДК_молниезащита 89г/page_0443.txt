@@ -1,0 +1,107 @@
+magnitude about the was made specification No
+the short circuit current. Martzloff or waveshape of
+and Howell show a test circuit cvpable of injecting the
+where, since the output transient onto 120 V ac lines
+the impedance of the circuit is basicaJly 150 resistive,
+be about the short circuit current would shape of the
+voltage, of the open circuit same as that
+been have circuit test this and waveform This
+in re- example is fields. One in some accepted widely
+[16.7]. ground fault interrupters to lation
+NEMP: Test practices for simulation of NEMP effects
+were being developed about the time the TCL phi-
+losophy was evolving. Particularly valuable was the
+practice of injecting transients into conductors using
+transformer coupling. The waveshapes in use were
+most commonly oscillatory with frequencies of several
+MHz.
+NASA Space Shuttle: The present TCL philosophy
+was first proposed in [16.8] and later presented in
+(16.9].
+At one stage in the development of the Space
+. there was an allowance Shuttle Criteria Document,
+made for two basically unidirectional transient test
+waves. While those test waves had some deficiencies
+and have been largely superseded, discussion of them
+appropriate, since that discussion will illustrate is still
+some of the problems inher7ent in waveform specifica-
+tions.
+Wavoshapes for aperture effects: The first of these
+specifications dealt with a transient rising to crest in
+2 and decaying to zero in 100 Ms. The intent of this pa
+test wave was to duplicate in some manner the effects
+produced by magnetic flux leaking through apertures.
+The specification gave only straight line represen-
+tations of the waves, it being understood that actual
+test waves would have more complex waveshapes. Un-
+fortunately, some groups misunderstood the intent of
+the specification and attempted to design, at great
+expense, pulse generators that produced triangular
+waves.
+pernitted waveforms on specification The Shuttle
+transformer- of characteristic feature a a backswing,
+coupled surges. The backswing amplitude was re-
+quired to be less than 25% of the initial amplitude, but
+the duration of the backswing was left uncontrolled,
+to be interpreted not intended waveform was The test
+as reqitiring a backswing. An overdamped wave was
+satisfactory. perfectly
+would there used, was waveform an overdanped If
+be no .learly defined time to zero. In such cases the
+decay time was intended to be taken as one-half the
+indicated value (50 ps instead of 100 and mea- ps)
+429
+
+to wave had decayed which the the time at sured to
+The waveform was thus 50% of its initial amplitude.
+test waveform derived similar to the standard ANSI
+for tests on high-voltage apparatus. The front time of
+2 reflected the 2 front time of the basic lightning ps aus
+speci- themselves were current. The transients design
+and 10 50 V open circuit amplitudes of fled as having
+circuit. short A
+a long-duration was for specification The second
+mag- by effects produced the representing transient
+netic flux diffusing through the walls of cavities. Such
+flux would have rise and decay times much longer than
+those of the lightning current. The specification called
+for a short circuit current of A and 5 an open circuit
+voltage of 0.5 V, both taking 300 to reach crest and ps
+another 300 for decay to zero. The specification of ps
+equal times to crest and from crest back to zero is in-
+compatible with the response of real physical elements.
+In practice, any waveform with a rise time of 300 ps
+would have a decay time longer than 600 ps.
+One common deficiency of the above specification
+was that it did not clearly distinguish between tran-
+sient voltages and transient currents, and did not sat-
+isfactorily account for the effects of transient source
+impedance. Both the short circuit current and open
+circuit voltage had the same waveshape. In practice
+the open circuit voltage would be of a duration shorter
+than that of the short circuit current.
+Original TCL proposals: In the paper in which the
+concept of transient control levels was first presented
+[16.10], Fisher and Martzloff proposed a test wave that
+was primarily unidirectional. The open circuit voltage
+was characterized by a fast rise to crest and then a de-
+cay to zero in 5 or greater. To allow for transformer pa,
+coupling of the transient, a backswing was allowed af-
+ter the transient had decayed to zero. The character
+of the backswing was not specified-only that its ampli-
+tude should be less than 50% of the initial amplitude.
+The rationale behind this voltage waveform con-
+cept included the following aspects:
+to the proportional measure in some be It should 1.
+a by produced field magnetic the of derivative
+current. lightning
+2. The duration of the transient should be long
+enough that possible failures of semiconductors
+would not be strongly affected by the waveshape
+dura- transients of since, with transient, of the
+tion shorter than about a microsecond, the failure
+by affected strongly of semiconductors are levels
+waveshape.
+3. The duration of the transient should be roughly
+comparable to the (then existing) duration of
+clock cycles in digital equipment.

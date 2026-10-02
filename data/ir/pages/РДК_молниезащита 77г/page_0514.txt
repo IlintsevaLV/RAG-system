@@ -1,0 +1,25 @@
+I
+LOWER CURRENTS OF SAME WAVESHAPE
+-
+I
+KEEPING INITIAL RATE OF RISE
+I CONSTANT GIVES Α DIFFERENT WAVESHAPE AND
+/ HENCE Α DIFFERENT TYPE OF RESPONSE
+(β) λ φ 2
+Considerations regarding amplitude scaling. 17.5 Figure
+(α) Correct scaling
+Incorrect scaling (β)
+level. Such extrapolation requires an assumption of linearity--that
+Α. 10 Α is, 10 produces times the response of While such linearity 1
+can usually be relied upon, there are some nonlinear effects involved
+in the indirect effects of lightning.
+It is not α proof test and hence has no pass or fail criteria.
+17.4 Tests External Electrical Hardware on
+The test techniques described so far have dealt with determining how the
+wiring and equipment within the aircraft respond to the passage of lightning
+current through the aircraft. There are, however, some types of equipment
+containing electrical hardware, or containing wiring that connects to electrical
+hardware, that are frequently mounted on the exterior of the aircraft. Some of
+Α these are likely to be struck by the lightning flash. pitot boom containing α
+deicing heater and the electrical wiring to supply power to that heater is an
+excellent example. An externally mounted navigation light is another example.

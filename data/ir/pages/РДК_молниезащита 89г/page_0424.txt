@@ -1,0 +1,40 @@
+shield voltage is α minimum, so that excitation of Grounding to remote point: Sometimes shields are
+the internal conductors by the transfer admittance not connected at all to the panel on which the con-
+is small, even if the transfer admittance itself is not nector is mounted, but instead are connected to some
+small. remote "system ground" point, Fig. 15.23(χ). Such
+for Shields Connections Ground 15.9 intro- it because avoided be always should practice
+duces enough impedance to completely destroy the ef-
+The transfer parameters of Table 15.2 refer only fectiveness of the shield. Such α practice reflects α
+to the properties of the connector itself. Additional misunderstanding of the role of "ground" connections.
+transfer impedances may be produced by the manner
+in which the cable shield is connected to the connec- Calculation of effects: The coupling introduced by
+tor or by the manner in which the cable connector is any of these configurations can be studied in terms of
+mounted to α bulkhead. Even slight inattention to the self-impedance of the conductor used for the pig-
+detail may introduce into the circuit transfer imped- tail and the mutual inductance between α portion of
+ances far greater than the impedance of the connector the pigtail and the conductors in the connector. The
+or possibly far greater than that of the rest of the cable flow of current through the self-inductance of the pig-
+shield, tail produces α voltage
+Pigtail grounding: Α common treatment of α shield V (15.9) = jwL
+at α connector is to insulate the shield with tape and
+connect it to the back shell through α pigtail. Such This voltage, less that induced in the mutual in-
+treatment is shown in Fig. 15.23(α). Equally common ductance between the pigtail and the conductors in the
+practice is to insulate α panel connector from α panel connector, will add directly to that produced by the
+with an insulating block and to ground the panel con- flow of current along the shield.
+nector either to the panel through α pigtail or, more The self-inductance of conductors was discussed
+commonly, to an internal ground bus. Α very com- in §9.7.3. There, Eqs. 9.57 and 9.75, the inductance
+mon treatment of α shield at α connector, shown in of α straight conductor of non-magnetic material was
+shown to be to one to be connected the shield 15.23(χ), is for Fig.
+of the connector pins and grounded internally through 2 = 10-7ln Ξ [In (15.10) Λ -
+Λ ρ the panel or to an internal ground α pigtail, either to
+bus. where I = length and ρ radius of the wire. The -
+inductance of α typical pigtail will not be significantly
+different even if it is not straight.
+owSnAATW
+PANK PAO
+SO~iC~aSPSOT"Π
+(δ)
+(χ)) ,δ.
+Fig. 15-23 Commo treatment of shields at connectori.
+(α) Pigtail connection α to backshell Shield (χ) carried on connector α pin
+Pigtail (β) grounding to α panwl connector (δ) grounded Shield to remote point
+409

@@ -1,0 +1,68 @@
+arated into real and imaginary components. The real
+part is α measure of resistance and the imaginary com-
+ponent is α measure of the internal inductance or the
+magnetic flux within the conductor. At dc the internal
+impedance of the conductor is just its resistance.
+impedance internal
+α mthe
+ι(β) conductor
+6 air gap
+return path impedance•
+Α
+/ Λ - Ω - _
+external impedance
+impedance. of Components 9.7 Fig.
+The external impedance is α property of the space
+between the conductor and the return path, that is,
+the size and shape of the conductor, the separation
+from the return path and of the material (insulation)
+between the two. With high frequencies the capaci-
+tance of the insulation must be included in the insula-
+tion impedance and it may also be more appropriate to
+treat the insulation losses as α shunt resistance. Fig.
+9.7(α) shows the external impedance resolved into
+series connection of resistance and inductance, while
+Fig. 9.7(β) shows it resolved into α set of parallel ad-
+mittances.
+Another circuit concept is that of transfer imped-
+ance. With α hollow conductor, Fig. 9.8, the electric
+field on the inner and outer surface will, in general not
+be the same. The transfer impedance of α conductor is
+the quantity that relates the conductor current to the
+electric field along the inner surface of the conductor;
+as opposed to the external impedance which relates the
+current to the electric field along the external surface.
+ι0 E
+Fig. 9.8 Transfer impedance.
+
+Evaluating these various impedances can be done
+just as α mathematical manipulation of equations, but
+it seems best to present some of the physical phenom-
+ena involved. This is done in the following three sec-
+tions. Inductance and related magnetic field effects
+are covered in §9.7 and capacitance and related elec-
+tric field effects are covered in §9.8. Both sections deal
+with subjects other than the impedance of conductors.
+formulations in mathematical with deals 10 Chapter
+time domain of surface and transfer impedances.
+9.7 Magnetic Field Effects
+Magnetic field effects are probably the major rea-
+son why voltages are induced on aircraft wiring by
+Vlightning currents flowing on the aircraft. Situations
+usually to be ineffective are where shielding proves
+those where magnetic field effects have been over-
+looked. Capacitive effects are, of course, also of im-
+§9.8. in discussed are those but portance,
+9.7.1 Field External to α Conductor
+Infinite conductor: In the space around and exter-
+of nal to α conductor of infinite length, Fig. 9.9, the
+magnetic field is:
+H Α/μ. (9.49) =
+-
+I
+The return path of the current is assumed to be
+so far away that it does not contribute to the magnetic
+α field.
+positive I
+Fig. 9.9 Magnetic field ofk an infinite contductor
+252

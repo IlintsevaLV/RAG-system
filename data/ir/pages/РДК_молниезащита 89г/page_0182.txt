@@ -1,0 +1,72 @@
+uH 0.5 ohms 2.5 uH 1.6
+ohms Σ0.01
+0 0100.
+H ; u 3 σ μ •o σ : hmoh
+uF 25 Load
+oa kV 100
+0
+kA 100
+SCompound circuit
+0 100 •(β)
+6.64 Waveshape improvement by
+co circuit. δ
+(α) Circuit improveLentub ig ject
+(β) Calculated waveshapes
+capacitors: Peaking Another compound circuit, Fig.
+6.65(α) employs α low inductance peaking capacitor,
+energy main the when charged rapidly is which C.,
+dis- is then This [6.37]. is discharged storage bank
+auxiliary spark when the the test piece charged into
+gap Γ2 is fired. Fig. 6.65(β) shows calculated wave-
+and without the peaking capacitor, though forms with
+not been optimized elements have the indicated circuit
+to give the best waveshape,
+peaking ca- that the concept is of the virtue Α
+pacitor can be charged to α voltage higher than the
+by bank, storage energy the main of voltage charging
+the main when that takes place oscillation of the virtue
+peaking capac- on the Higher voltage is closed. switch
+initial current. supply more that it can itor means
+its induc- best when works peaking capacitor Α
+are path of the discharge tance and the inductance
+capacitor plate peaking parallel α small. Sometimes
+mesh from α being formed capacitor be used, the can
+the test ob- plane ω.θ α ground held above of wires
+overhead grid, though this is underneath the Σ jct being
+
+ohms 0.01
+(closed) ,Gap uN 0.5 1.6 ohms"- uH 2.4
+5 F3u uF 25
+Load Capacitor
+.. . . . . . . .. . . . . . . .... . . . . . . . . . . . . . . . . . ..... .
+peaking no u
+capacitor With peaking ." [
+"' "
+improvement by 6.65 Waveshape Fig.
+capacitor. peaking
+Calculated waveshapes
+only practical for large outdoor generators. Numerical
+or physical experimentation may be necessary to de-
+ε.verav"'topa termine the circuit elements that give optimum wave-
+shape.
+generators: are Rating of current Current generators
+most commonly rated in terms of their stored energy,
+current of the the duration and current maximum their
+ofra surge measure One piece. to α test deliver can they
+as Integral, defined is its current Action
+0
+ldt (6.30) : Al
+(
+If load resistance were constant, the action integral
+current, by the eftergy delivered define the would
+(6.31) = Alx Ω R
+is not, how- but it useful concept, is α Action integral
+current ability of α test the wasure of α perfect ever,
+perfect measure of the energy or α damage to cause
+test samole. into the generator from the transferred
+in be rated would generators Ideally, current
+α test piece. cause damage to to their ability terms of
+high volt- would be current generators ideally, Also,
+of injecting capable devices high impedance age and
+As into α load of any impedance. α specified current
+165

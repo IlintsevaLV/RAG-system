@@ -1,0 +1,16 @@
+Fields coupled through an aperture. 11.1 1 Figure
+Major axis oriented vertically
+aperture) m (0.4 x 0.2
+1.2 Fields Electric 1
+Unlike magnetic fields, which may penetrate into an interior region either
+through apertures or by diffusion through continuous walls, electrical fields, as a
+practical matter, can couple only through apertures. Any metallic surface
+provides sufficient shielding against electric fields that considerations of direct
+penetrations of the field through a metal surface can be neglected. Electric fields
+of practical consequence can exist only perpendicular to a metallic surface, since
+a manner analogous to penetrating magnetic fields, electric fields of oblique in
+incidence have all but the perpendicular component of the field shorted out by
+the low impedance of the metallic surface. The appropriate geometry for electric
+field coupling is then as shown on Figure 11.12. The electric fields of the
+interior region may be calculated as though they were produced by an electric
+dipole of strength (Reference 1.5): 1

@@ -1,0 +1,99 @@
+Α Π
+•-detail design. Such require ments -- without
+Ssideration of their relative importance include -
+Sfoimancc, reliability, maintainability, and surviva-
+bility.
+--•
+4-1.2.1.1 Perfoima|ε'
+The contribution of the drive system to heclicoptecr
+performance can defined in be various ways. lHow-
+ever. the folluwing factors predominate:
+Weight 1.
+2. Efficiency
+Size Σ3.
+4. Noise le' el.
+Subsysitem Weight 4-1.2.1.1.1
+system and drive the transmission of Weight
+toge~her size to compact attention by minimized
+for dynamic materials use of with the high-strenlgth
+material of the use make maximum that components
+pr-rmissibic the limits of within available properties
+requirements Superior reliability and rates failurc;
+~ ~ ~ ~q . oLc .~ . . = . . .. . . o . λ Μ:. , ..... α it . . - -Α..
+housings or cast for forged aterial -δ ensity μ low
+because import-.nt is latter The necessary. :'%•are
+~ ~~box λ•_-• housings comr.prise from 20 to of total trans- 60%
+designs.4-.112TrnmsinEfcey current in weights mission -
+SExcessively stage generally per ratios gear large
+determined primarily size is The pinion weight. •'••.•add
+Slisted
+-- ? the torque. transmitted by and is relatively
+Spendent of the the weight but star ratio; o1' the member increases roughly us the square of the ratio.
+Large ratios per stage usually also are inefficient.
+mConsidering the sib of support structure and bear-
+ings, as well as of the gears thmselves, the gear
+themselvgs increasing weight and power by
+1.(for approximately equal gtaon ratios) in the
+ing manner: drives: or planetary Th Concentric epicyclic devices
+falr4α4 ν ciblt eurmnsSpro
+Star reversing rotation. β. - 2. Parallcl-axis drives: spur, helicalo and horring- ~uiiycotrlinpr~~sngad
+*Ii'!
+bone
+flterslwing-axis 3. drives: spiral bevel and
+This ordering reflects the effects, in addition to intended speed change per stageW of additional
+.que vector translations and rotations. The
+Σ|centric torque axis; does not alter tht dri-'€ drive requires α translation of output .paralll vector
+with respect to itruto and the intprsrcting-axis
+introduces new coordinate tfrough α tht rotation
+the output vtttor with ocspect to input.
+The selection of drive types should follow the given
+ranking, beginning at the ouput drive. Also, the
+plargst reductions should bw•ith kn cloto to the
+
+-0τ&- -.
+con- output, with smaller amiounts of torque being carried.
+per- as the distance from the output incmueses. The wecight
+of any gear reduction stage is proportienal to the se-
+cond or third power of the torque. Therefore. itorth-
+while weight savings can be made using by drives in
+the order ranked concentric -- drives near thc out-
+put, parallel-axis types at intermecdiate or conmbining
+stages, and intcrsecting-axis types nearest the engine
+if drive direction changes arc required. "
+There are occasional instances where these rules -
+may not apply: high reduction ε.γ., ratio may un- be
+desirable at secondary-lcvcl power outputs, such as
+tail rotor or auxiliary propellers. because of the long
+distance from the helic:optcr Althou~gh CG. thc total
+less with α low'cr tur- weight may be drive subsystemn
+dif- becoine it may shafting, by being carried qie is
+to the due location CG satisfactory α to obtain ficufqt and
+higher ratio of the weight extra of the larger nmoment
+stage. reduction final
+main helicopter of current weight,% specter- The
+J for re- Ih/hp 0.50 to 0.30 from in range gearboxes
+ext -1 ) . Then ( F ig . 4 to 7 4 :1 o φ 1 5 :1 u χ tio nra tio δ
+oin.. .... dr " ... this lrndlcx uly ω il . U ||uuubtic uc •:auc also
+0Z2 level. the gear-
+4-IZl. TnmsonEfcey(
+is power transmission efficient for requirement The
+those other than types that gear such importance of
+in pai. 4-1.2.1.1.1 seldom are considered ind¢-•
+drive re-Ain po%%cr to the for application sc~iou.;υ gear
+oor
+types η-
+worder ris loss
+follow-cri.τ u
+pt prl- xd
+gabxsi ag rm03 o05 bh o ε
+= sg ν itrct-atr ducionrtoom51τ 4: H.4I.Ten
+φ
+hypoid.reurd
+the /,/ " tor-thcs χ-rules*Δ
+con-
+""--AH'IG vhe dre on Q,
+β of τ driveo-ellers,
+of
+TActEOFF lopt PO*FCR 10"
+F jure 4-1. Helicopter Main Gearbox
+os final Weight Takeoff Power

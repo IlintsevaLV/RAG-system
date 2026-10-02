@@ -1,0 +1,95 @@
+within α par- that aircraft, or at least aircraft ognizing
+zones, characteristic tend to possess category, ticular
+discussed should not be con- though the zones to be
+in the lightning strike zones discussed fused with the
+effects of lightning. dealing with direct chapters
+consider of α magnetic field zone, As an example
+aircraft. It can be regarded of α fighter the cockpit
+exposed primarily α magnetically open region as
+aperture-coupled magnetic fields. Within reasonable
+all fighter aircraft probably have approximately limits,
+cockpit. the in field magnetic same the
+characteristic zone of equipment type Another
+for- located in the bays equipment would be fighters
+behind the rtdome. All such equip- ward section and
+perhaps, ment bays tend to be alike, the differences,
+the type of fasteners used to hold relating mostly to
+α wing pro- in place. The structure within the covers
+of magnetic field fundamentally different vides α type
+bays. either the cockpit or the forward equipment from
+to divide possible seem would it Accordingly,
+of typical zones, into α relatively small number aircraft
+inten- field magnetic or characteristic ruling α assign to
+simplified rather provide to and zones, those to sity
+transient bles or nomograms listing the characteristic
+be induced in wiring of α given length. likely to
+This concept of dividing an aircraft structure into
+assigning α ruling different magnetic field zones and
+magnetic field strength to each zone, while imper-
+dif- formulated at present, is fundamentally no fectly
+practice of designing ferent from the civil engineering
+α standard (generally worst α structure to withstand
+may differ loading the wind While loading. case) wind
+the structure, the task widely at different points on
+every strac- the wind loading on each and calculating
+expensive member would probably be sufficiently tural
+offset the savings that one might realize that it would
+each structural member to its own specific by tailoring
+wind loading.
+as Applied to the Space 14.5.1 Zones
+Shuttle
+shield- into an aircraft of dividing concept This
+[14.1]. Shuttle the Space on first used was zones ing
+The so defined are shown in Fig. 14.17. The zones
+to each of these zones electromagnetic fields assigned
+knowl- initially estimated by α group of engineers were
+These magnetic about lightning interactions. edgeable
+during the course of an exten- fields were then refined
+investigation. sive analytical
+amplitudes assigned to each The magnetic field
+on the analytical study, are given these zones, based
+two corn- The fields were divided into in Table 14.1.
+
+to ,.
+Α EXIT POINTS THROUG MOS PROBABLE LIGHTNING ARC ENTRY AND .
+SHUTTLE ZONES
+SAY PAYLOAD 6 DECK FLIGHT of SAY 7 AFT EQUIPMENT EQUIPMENT BAY 2 CENTER
+ENGINE COMPARTMENT EQUIPMENT BAY CLOWER I
+VERTICAL 9 STABILIZER FORWARD TOP 4
+wIN σ FORWAR C-TE 10
+vehicle. Fig. 14.17 Shielded zones within the Orbiter
+Table 14.1
+Fields in Different Zones Magnetic
+Orbiter Shuttle Space the of an
+Fields Diffusion Fields Aperture
+(Α/μ) Β.component (Α/μ) Α.component Zone ta-
+800 1200 1
+60 200 2
+200 0 -3
+1]Σ 4 so
+100 50 1
+280 300* 6
+150*
+570 50 7
+680 8 200 of
+200 3700 9
+65 300 10
+*"No payload
+referring to fields coupled ponents, an Α-component
+referring to apertures and α Β-component through
+through metal surfaces. The fields coupled by diffusion
+tend to have the same Α-component of the field would
+magnetic changing waveshape as the external rapidly
+α much have would component the Β- while field,
+waveshape. slower
+the waveforms of the In the Space Shuttle study
+as shown on components were taken to be different
+case the field intensity was Figure 11.14. In each
+current passing α worst case 200 kA lightning based on
+field amplitudes of the Orbiter vehicle. The through
+the maximum amplitudes calculated Table 14.1 were
+entry or exit the possible lightning current for any of
+be claim for accuracy can of points. While no particular
+the Orbiter, made about any individual point within
+least seem reasonable. the field amplitudes at
+385

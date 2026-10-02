@@ -1,0 +1,109 @@
+design, speed rang, beatings, hrushts and cooling
+also are applicable here. It is suggested that reference
+be made to MIL-Γ-6162 as α guide for specification
+preparation.
+Α typical blast-cooled DC generato., is shown
+Fig. 7-8.
+7-.3.3 DC Starters
+With the advent of the DC starter/generator,
+DC starter now has limited application. In the
+the majority of applications were found on
+copiers employing reciprocating engines, and,
+fore, these starters were designed for crankink
+vice rathcr than for the type of starting service
+quired by the turbine engine. For cranking. the
+starter operates at α nearly fixed speed until engine
+ligh,-off. Present-day starters are designed for
+ting the turbine engine, and the starter operates
+α speed range of 0-20,000 rpm.
+The DC starter/motor is quite similar, electro-
+mechanically, to both the DC generator and the
+starter/generator. Ordinarily, often three windings
+are used, as opposed to the five windings often
+empioyed in gcncriurb. Th, 5tt ai of' ",I ioII v ii,
+main field with the armature and interpole winding
+') provides the highest torque per ampere of current,
+- and lends itself to use with battery power supplies,
+As in the starter/generator and generator,
+starter/motors employ grease-lubricated ball
+ings. Brushes usually are .of the low-contact
+type, and contain α high percentage of metal so as
+minimize voltage drop at the high currents required
+by the starting cycle. Because of the short duty
+requirements, an integral fan provides required
+cooling,
+Thc DC starter/motor serves no function
+starting the engine; therefore, design provisions
+disconnect it from the engine accessory drive must
+made. This usually is accomplished by α mechanica!ly
+or electrically operated jaw engaging and
+engaging mechanism.
+Α turbine engine starter is shown in Fig. 7-9.
+7-22.4 Boost Starting System
+Modern military practices dictate the use.
+turbine-powered helicopters for α variety of reasons,
+one of which is their ability to use completely unpre-
+pared terrain for takeoff and landing. Therefore,
+ployment of helicopters away from airfield support
+functions is common. Deployment in hcO or
+temperature environments having no APU or ground
+ ~, requires τ.Oat batteries not lose power facilities
+- engine-start (apabilities. gas turbine
+temperature on the energy The effect of cold
+
+AMCP 706-202
+lease rate of storage batteries is α matter of common
+practical knowledge. The engine.startilSg cApability
+of α fully chariged battery in α 70°F environ.ntnt is re-
+duced to 27% after the battery has been stabilized in α
+in commonly experienced -25°F environment.
+Experience has shown that the probability of α
+successful 0*F start capability decreases rapidly as
+the level of the battery charge decreases.
+the Gas turbine starting problems are not restricted
+past, solely to the low end of the temperature spectrum. Α
+heli. less obvious, but very real, problem is encountered at
+there- the high end of tha temperature range. The hot start,
+sCr. in which the temperature within the turbine exceeds
+re- the safe operating rantije for turbine materials, is en-
+countered all too frequently in high ambient tempera-
+tures during the starting sequence of gas turbine-
+star- powered helicopters. The hot start can caused be by α
+over number of conditions. Α battery that is not charged
+sufficiently and improper fuel control adjustments
+are two conditions that can lead to critical hot-start
+DC problems. Another cause of hot starts is the time-
+lapse needed to accelerate the engine from light-off to
+ille speed. The net result of hot starts, whatever the
+τ"' cause, is premature engine failurc. Evmi thiigh α ' α1',
+start might not result in an imanediate and catas-
+trophic engine failure, it will shorten the times
+between engine overhauls, thereby increasing heli-
+copter operating costs.
+bear- The characteristics of electrical starting systems
+drop (and starter/generator systems) for turbine engines
+to generally are such that maximum torque is delivered
+from the starter/motor to the turbine upon the initia-
+cycle tion of the starting sequence. Starter/motor output
+torque decreases approximately as α straight-line
+function at increased turbine speeds, with the
+after starter/mr3tor torque reaching α very low value at
+to starter/motor cutoff. The starter/motor is designed
+be to have α stall torque capability exceeding the torque
+limit of !he engine accessory drive system.
+dis- Adding α boaot feature to the electrical starting
+system provides an additional supply of starting
+energy for extraordinary starting situations. Con-
+χ-ptually, the boost power is obtained from α com-
+bination of gas generator and gas motor, and by
+of coupling the gas motor with the electrical starter/
+motor. This boost feature is α supplement to, and in
+no way is intended as an alternative for, the electrical
+de- starting system. Even though the added feature is
+used only occasionally, the components added to the
+cold electrical starter, or starter/generator system, never-
+theless must be taken into account, and their effect
+upon such elements as overhand their must established be
+operation of the moment, vibration characteristics,
+mode, and the overall physical re- system in α generating
+7-Il

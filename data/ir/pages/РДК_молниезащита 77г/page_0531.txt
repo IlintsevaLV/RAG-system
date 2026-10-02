@@ -1,0 +1,27 @@
+Possible test chamber evaluating electric and magnetic field for 17.15 Figure
+effects.
+17.16 (Reference 17.30). This pulse generator is basically the shown in Figure
+one used to produce the waveforms shown in Figures 17.13 and 17.14. The
+C, energy storage element is capacitor which is charged through D2 to a voltage
+determined by the ratings of transformer T2 and the setting of the variable
+TI. autotransformer Charging of the capacitor would take place on the positive
+half-cycle (b) of the supply voltage. During this time the discharge switch, RYI,
+a relay with mercury-wetted contacts, would be unenergized and resting on
+contact During the negative half-cycle (a) RYl will be energized through b.
+Dl diode and closed to position a, thus discharging the capacitor during the
+half-cycle when there is no voltage being applied through diode D2. Because of
+mechanical inertia, the switch armature does not necessarily operate in phase
+with the ac drive signal, and, consequently, during a portion of the positive
+In charging half-cycle, the contact may remain closed to point a. order to
+prevent excessive power drain from the transformer or excessive power
+R3, dissipation in the series resistor R2 is used to limit the charging current
+drawn from the transformer.
+The capacitor would be discharged into a single-turn primary on a
+transformer core. If a unidirectional pulse were desired, switch S3 would be
+open and resistor R2 inserted in the discharge circuit to provide damping. If S3
+were closed, the capacitor would oscillate through the inductance of the
+A transformer. parts list for the pulse generator is shown in Table 17.3.
+Higher voltages could be obtained by increasing the ratings of T2, D2, and
+C1. If the charging voltage were appreciably higher, the mercury-wetted contact
+relay RYI used for switching the charged capacitor into the transformer would
+1 52

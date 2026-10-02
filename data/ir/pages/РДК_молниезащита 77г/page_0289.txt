@@ -1,0 +1,42 @@
+A determination of the field around the conductor then involves assigning
+field values at all of the points between the conductor and its return path, and
+adjusting the value of these points until Equation 9.19 is satisfied everywhere
+9.3 within the grid. The literature (Reference and 9.4) indicates a number of the
+numerical techniques by which the potentials at the points may be adjusted to
+their final values. While the process is tedious, it is not completely impractical to
+d o by hand. Usually the process is done by computer routines that solve the
+field equations. In addition to tabulating the numerical values of the field at the
+grid points, frequently such computer routines allow one to plot the flow and
+equipotential lines.
+Any solution of Laplace's equation will also allow the pattern of coupling
+through an aperture, as well as the external field pattern, to be calculated. Most
+computer routines deal either with two-dimensional problems or problems with
+rotational symmetry. In a twedirnensional case, the aperture would run the
+length of the conductor being studied. This is not necessarily a disadvantage,
+since some important geometries and apertures are basically two-dimensional.
+An important aperture is that which may exist on the trailing edge of a wing
+when the flaps have been extended. Since it is a convenient region to reach,
+wiring is often placed in this region. Electrically it is a poor place, since the
+aperture is near a region where the magnetic fields external to the wing are high.
+Another important set of apertures that may be approximated as a continual
+opening is that formed by the windows in the fuselage of a transport aircraft.
+In principle, the field around three-dimensional objects may also be solved
+numerically by extending Equation 9.18 to include 8 points on a cube
+surrounding a central point. Solutions of the fields around three-dimensional
+objects not involving rotational symmetry are seldom attempted because of the
+great increase in the amount of computer storage locations required to define
+the field satisfactorily in three dimensions.
+9.2.3 Hand Plotting of Fields
+The fields around any geometry may also be determined graphically by a
+cut-and-try process in which flow lines and equipotential lines are drawn on the
+geometry and adjusted until repeated subdivision always yields smalI squares and
+the flow and equipotential lines intersect at all points at right angles.
+Cut-and-try field plotting, of which Figure 9.8 is an imperfect example,
+may with care, patience, and liberal use of a soft pencil and eraser yieId a field
+pattern of any desired accuracy.
+CaIculation Using Grids 9.2.4 Wire
+Another approach to determining current density, shown in Figure 9.9, is
+based on the premise that a two-dimensional geometry can be represented as an
+array of parallel wires. If the current in each wire is known, the average current
+density along the surface defied by any two wires will be the average of the
+current on the two wires divided by the spacing between the wires.

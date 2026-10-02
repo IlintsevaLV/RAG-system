@@ -1,0 +1,61 @@
+Table 9,4
+of Calculation for inBASIC Program -Α BESSEL
+Bessel and Hankel Functions of Complex Arguments,
+(Continuation)
+u(5) 10350 RETURN 'returns u(1) -
+10360 ------------------ '
+10370 'π is u(3) and u(4) ρ with u input to
+10380 US COS(U(4)*PI/λ8O):U9 SIN(U(4)*PZ/lSO) - -
+10390 U(1) U(3)*U8: U(2) - -U(3)*U9
+10400 RETURN 'returns u(1
+-UMS
+10410 '----------------------------------
+10420 to ρ with 'π v input is and v(4) V(3)
+US 10430 COS(V(4)*PI/1SO):U9 SIN(V(4)*PI/1Σ0) - -
+10440 V(1) V(3)*U9 V(3)*U8:V(2) = -
+V4 v(1) 'returns 10450 RETURN -
+10460 '-------------------------------
++ 10470 ω needs v(λ) and v(2) plus ω(1) and Ω(2) 'v 10480 U(1) V(λ) Ω(1) V(2) :U(2) Ω(2) + + - -
+GOSUB 10280 10490
+10500 RETURN U(Μ 'returns u(1 -
+10510 '------------------------------
+10520 ω needs v(1) and v(2) plus ω(1) and ω(2) 'v-
+Ω(1):U(2) 10530 V(2) U(1) Ω'(2) - - - -V(1)
+10540 GOSUB 10280
+10550 RETURN 'returns u(λ)
+-u(5)
+'------------------------------- 3.0560
+v(1) and v(2) 10570 needs plus ω(1) and ω(2) 'v*v
+10580 U(1) V(1)*Ω(1) V(2)*Ω(2) - -
+10590 U(2) V(2)*Ω(1) V(1)*Ω(2) + -
+10600 GOSUB 102800
+10610 RETURN UMS 'returns u(1 -
+10620 μ--------------- '------------------
+needs 10630 u(1) u(2) and '1/u
+10640 US U(1)*U(1) + U(2)*U(2) -
+10650 U(1) U(1)/US:U(2) -- U(2)/US -
+10660 GOSUB 10260
+u(1) 10670 RETURN u(5) $returns -
+10660 '---------------------------------
+needs v(1) and v(2) plus v(1) 10690 and ω(2) 'v/v
+N(1)*Ω(λ) Ω(2)*V(2) 10700 US + -
+10710 U(1) (V(λ)*Ω(1) V(2)*Ω(2))/US + -
+10720 U(2) (V(2)*Ω(1) V(1)*N(2))/US - -
+10730 GOSUB 10280
+10740 RETURN 'returns u(1) u(5) -
+10750 ------------------.................. v 10760 and needs all parts of v and ω ω 'reverse
+10770 US TO 4Ω1.9 V(Ug):V(US) λ(U8) FOR I. - - -
+10780 V(US)-U9iNEXT US
+10790 RETURN 'returns all parts of v and ω
+10800 μ----------------------- '----------
+10810 v Α(fl9)
+U(3) V(3)-N9:U(4) 10820 V(4)*N9 - -
+10830 GOSUB 10360
+'returns u(1) 10840 RETURN -u(4)
+10850 '-------------------------------------
+and 10860 v(2) (2.71828 .... )Av needs ε v(1)
+10670 US 2.71Σ291geAv(1) -
+10680 U(1) U8Σ'SN(V(2)) UG'COS(V(2))tU(2) - -
+10890 10260 GO8UB
+10900 RETURN 'returns u(1 UM(Σ) -
+2Μ0

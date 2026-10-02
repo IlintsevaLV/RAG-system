@@ -1,0 +1,93 @@
+tbe operating spood range with at lcast a 10% :n argin.
+Because the vaiuos of critical spoed charge with
+biado anglo duc to the blade twist and contrifugal
+effocta, bladc angle shouid be considerod in the evait-
+ation of reactionloss mode critical spood relative to
+the operating range. Also, the effective retention
+stiffnoss differs for the three kinds of propeller modcs
+ahown in Fig. S-39 because of structural coupling
+within the hub. This effoct must be includod in dy-
+namic and response calculations for the blade. In
+general, the reiention suiftyzas Is lowest for the ro-
+actionless modes and hignest for the symmetrical
+modos.
+Propeller acrodynamic excitations with a frequen-
+cy order of one grcater or onc Ies than integer mul-
+tiplos of the number of propeller blades combine at
+the propeller hub to produce backward or forward
+whirl modos of the propeller, respectively. Because of
+this whirling action and the rotation of the propeller,
+these serodynamic excitations appcar on the gear-
+box-aircraft system as rotating shcar and moment
+loads at froquencies corresponding to multiples of the
+number of blndos. For example, in e throc-bladod
+propeller, excitations at frequencics of 2P ard 4P are
+feit by inc gcarbox as a 3P-whiri.
+This interaction of the propeller dynamic system
+with the aircraft system must be taken into account in
+calculating the propeller blade whirl mode critical
+ONLY OUT-O?-PLANE
+MOTIONS SHOWN IN
+THE LOWEST AL ADE
+BENDING MODE.
+WHIRL
+SYMMETRICAL
+REACTICNLESS
+Figure 5-39. Propelicer Vibrtioe Modes
+
+AMC? 706-202
+spoods. This can be done by a complote couplod ana-
+lysis of a rctating. floxible propeller attachad to a
+stationary aircraft dynamic systom. It abo can be cal-
+culatod by first determining the variation with fre-
+" npeeo oo
+angular and radial dofloction oi the propediar shaft
+for unit shear and moment whirt loads, and then in-
+cluding the aircraf impodances in the propeller
+critical spood analysir.
+Aerodynamic axcitations at froquencias that are
+n e
+ler in a symmetrical modo, producing vibratory fore-
+and-aft and torque loads at the same fre quency on
+the goerbox-sircraft system. Just as with the whirl
+modes, dynamic characteristics of the aireraft and
+transmission system must be included when sym-
+metrical mode propelier critical spooás are computed.
+Agsin, this can be done with a coupled analyais, or by
+the impodance tochnique discussoc previoualy.
+Because the torsional impodance of a tranamission
+system usually is low, symmciricel blade modes that
+are primarily inplane (putting vibratory torques on
+tse shaft) will have considerably higher criticai speoda
+than would be calculatod for a fixod hub.
+Beceuse of tbe centrifugal stiffening effoct and tbs
+twist of the blade, propelier critical spoods will vary
+with blade angle. Tbis effoct must be considerod in
+piacing the critical spcods properly. In general, it is
+enn
+metrical critical spoods at lcast 5% out of the normal
+operating range. Leas margia is ncoded for thesc
+critical speeds than for the reactionless modrs
+bocause of the much groater damping suppliod by
+structural interaction with the aircraft system.
+Once the dynamic characteristics of the propeller
+system have boen delermined, the magnitude of the
+response to the various propeller serodynamic exci-
+tations can be determinod. For modes that are being
+excited weli balow their critical spoeds, a real-vari-
+- e
+always is possible for 1P-acrodynamic excitatior and
+sometines for 2P.
+System response of the higher order acrodynamic
+excitations mnay te determined by an energy method,
+uaing the caiculatod normal modes of the propelhr
+and assuming the structural and aerodynamic damp-
+ing from expcrienco. Another method is to use
+reeponse analysis, such as given in Refs. 50 and 51,
+with complex variablas so as to include structural and
+aerodynamic damping. The former (energy) method
+uses the normat mosos and natural froquencics ob-
+tainod from dynami: analysis of the propeller system,
+and Jetermines the tasponse of the blade to ai parti-
+cular acrodynamic excitation order by oquating the
+5-61

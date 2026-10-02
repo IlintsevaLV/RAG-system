@@ -1,0 +1,107 @@
+AMCP 706-202
+standard sca level conditions which is 0.00238
+slug/φ'. However, for tAlL-Λ-7808 cit at normat
+operating temperaturcs ρ * 1.748 slug/ft'. Consc-
+quently, if the helicopte: designer cans estimate or
+experimentally determine the oiliness of the .ns-
+mission atmosphere, an average ρ may be employed.
+Ref. 4 suggests & 34.25:1 air-oil ratio in which casc
+Fu. 4-1 can te expressed 8σ
+Π - 2.18 10" (ν'DLo.)) ,hp
+Methods of gear mesh oiling also affect windage
+losses Differences of virtually 200% have been re-
+ported to exist between in-mesh and out-of-mesh
+oiling for α large. single-reduction gear set (Ref. 5).
+The torquc or load-scnsitive ccntribution of thc
+transmission to powes loss is duc almost entircly to
+the rolling/sliding load-carrying bearing and gear ele-
+ments.
+Good first-order approximations for antifriction
+bearing iosses at moderate speeds are given in Ref. 6
+and with α little greuter precision in Ref. 7. However.
+wherc very accurate determinations arc required or
+where high-speed applications exist, the prediction of
+thesc losses requires an understanding of the more
+complex factors involved (Ref. 8). For optimizstion
+studics and examination of the effects of external de-
+fections and asymmetrical loading. there is no sub-
+stitute for α good Jigitat computer program of the
+basic equations such as is presented in Ref. 9.
+In general. the significant power losscs in bcarings
+occun in regions of appreciable contact zone slip.
+Censequently. simple, wcil-guided cylindrical roller
+buafunps &re the most efficient for most applicstions.
+Radizliy loaded ball bearings are lower in efficieney.
+while ungular vontact (thrust loaded) ball bearings
+ε.hidit signifs. ntiy greater friction losses. When the
+rower loss characteristics dcteriorate sharply as ex-
+cessive :entrifug.il and gryroscopic forces affect ball
+kiemstics. Standard taperet soller bearings (coni-
+cal tolling ciements) are the kaast efficient of these
+fou: typcs. in-Ect; decavse cf ihe heavily loadef cone
+rib ihat ι. in siding contaet witit ihe large end ci the
+sonical roller. Α nen ype of snguen contact cyhn.
+drical rei.er (Ref. ι0) may offer advant uges when ful-
+υ deveioped. In this type, te cone .ib load is theo-
+retically reduced. bst uxreasco sliding resuhs at onc
+or tuth of τ'ε :ace-roller contaces. Expeticine is ι:τ-
+suffcient for tvalueriaon of its relative heat genr-
+ration. but irdicatio..σ are tha! st wil! prov: to ba
+ore eff:ient than tht staicard taperes sofer and
+46
+
+2-ζ._
+that its osses will approach those of the anguler co.)-
+tact ball bearing. The plain journal bearing is un-
+suitable for heavily toaded pow.ρ transmission ap-
+plications (sc par. 4-2.4.2), although it may have
+satisfactory application in lightly loaded uccessory
+uscs; the power loss with this typc of bcaring is at
+lcast twice as great as for any of thc previously men-
+tioned types (Ref. 11). The hybrid toost bearirg
+(hydrostatic plain thrust bcaring in series combi-
+nation with the stationary or rotating ring of an an-
+(4-2) gular contact ball thrust bearing) has boen evaluated
+experimentally (Ref. 12), Eut no helicopter experience
+is known. Thc experimental work indicated α friction
+torquc for the hybrid ocaring of roughly twice that
+for the simple ball thrust bearing.
+The accuracy of the calculated losses for bearings is
+dependeat upon proper installation and application
+design. Excessive preload, duc to instrllation and/or
+thermally induced, cun easily result in doubling thc
+friction torque and also will have detrimental effects
+upon fatigue life and reliability.
+Thc power loss in gcaring is quite an involved and
+controversia! subject. However. the specific veighe
+rankings listed carlicr in thts paragraph hoid truc foi
+busic efficiency also. There are reasonable ranges of
+geur ratio for which specific types of genr drives ure
+best suited: when θ upper limits are excecúec, the
+resultant power loss is api to increasc to α level where
+superior overall efficiency may be obtuined by re-
+verting to two stages of lower ratio. The suggested
+optimum ratio ranges are:
+1. Concentric -- epicyclic. 3:1 to 5:1
+2. Pcrallel axes — straight spar. 8:τ to 2.5:1
+-- single helicals, 1:1 to 3:1
+— doubic hciicais, (hereingbonc).
+1:φ tc 10:1
+3. Intersecting axes — spiral bevel. 1:1 to 3.5.1.
+Α number of assumptious are inciuded in these
+suggested ranges. The lower limit for the epicyclic
+assumes α simple (soureversing) design. The planet
+gears become excessively small so that the sun driver
+tend: to uct like α specd-incrrasing drive with α long.
+incfficicnt arc of approach. At these low ratios the
+epicyclic system becomes planct-bearing-capacity
+limited in that it is difficult to fit sufficientiy large
+bearings to carry the necessary load if the gear tecth
+are stressed to satisfactory levels.
+The upper limit for ihe epicyclic represents u
+reasonabiy designed, four-planet idler systen whose
+weak point is the tendency for pitting of the sun gear.
+Becausc the designs is sun-pinion-diameter limited (to
+acccptabic Hertzian stress levels) and ihe planet gears
+arc ¿our tin:es the diameter of the sun. the system is
+rapidiy beconting inefficient from α weight stand-

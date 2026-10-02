@@ -1,0 +1,92 @@
+of orientation The field: magnetic of Orientation
+H field vector is always at right angles to the direction
+gaps in the struc- current vector. While small of the
+the gap, current around 10.4) direct the ture (Fig.
+directly except unaffected, field is virtually magnetic
+com- is small scale that length on α and on the surface
+interrupting the the gap of dimensions to the pared
+current flow.
+I ON H IS HIGHEST
+LEADING TRAILING AND
+Emost
+LOWEST H
+H
+SHIGHEST
+with field strength Variation of magnetic Fig. 10.3
+aircraft radius of curvature,
+•at 'τ \ ~
+'•
+\ '
+Α . •transients, -
+SHINGE
+AILERON
+\-SLOT INTERRUPTS
+~; FLOW CURRENT \ WING WU Titself,
+CURRENT
+il STREAMLINES
+(α)
+I /to
+HSI Hhundreds
+H
+'Fig.
+(
+Fig. 10.4 Current flow and magnetic field around
+structural gaps.
+(α) Current entering typical wing
+virtually field magnetic Resultant (β)
+unaffected by slot interrupting flow
+of current
+
+cur- average the show to 10.6 suffices Eq. While the
+rent density, and thus the average intensity of the mag-
+current is dis- it does not show how the netic field,
+must be This distribution the surface. tributed over the
+resistive voltage rises both the it affects known since
+or elec- of magnetic the amounts and α structure inside
+apertures. through penetrate which tric field
+Redistribution of current: Only for direct currents
+de- conductor of α at the surface density is the current
+termined by the dc resistance of the conductor. For
+transient conditions the distribution is primarily
+controlled by magnetic effects. The magnetic distri-
+bution of current density can be calculated in simple
+geometries. Around the periphery of α cylinder, for
+example, the current density even for alternating cur-
+rents is uniform, at least Ls long as the return path for
+that current is far removed from the cylinder - greater
+cylinder. of the diameter the ten times than
+For anything other than α cylinder, the phenome-
+current to force an alternating non of skin effect tends
+to crowd toward the edges, making the current den-
+sity and magnetic field intensity higher than average
+places with α small radius of curvature (leading and
+trailing edges of α wing for example) and less than av-
+erage at places with α large radius of curvature. With
+the skin effect forces the current to initially
+concentrate at the edges in α manner that results in
+the magnetic field being tangential to the surface, as in
+Fig. 10.5(α). The current then gradually redistributes
+with the distribution ultimately becoming con-
+trolled by the resistance of the structure. This resistive
+distribution leads to some of the magnetic field pene-
+trating the surface, Fig. 10.5(β). The rate at which the
+current redistributes over the surfacc is governed by
+the ratio of inductance (α measure of magnetic fields)
+resistance of the structure. It takes place faster
+for high resistance structures, such as those fabricated
+from graphite-epoxy, than it does for low resistance
+structures, such as those fabricated from aluminum.
+The time required for the current to redistribute from
+α pattern governed by magnetic field effects to one
+governed by resistive effects can be surprisingly long;
+or thousands of microseconds.
+One geometry for which these effects can be cal-
+culated analytically is the elliptical cylinder shown in
+10.6. Under high frequency conditions the cur-
+rent density or magnetic field intensity at the center
+= 0, ±δ/2), is: = (Ξ Y
+(10.9) H -=
+7
+0) and at the edge (Ξ ±β/2, = Y =
+(10.10) H
+277

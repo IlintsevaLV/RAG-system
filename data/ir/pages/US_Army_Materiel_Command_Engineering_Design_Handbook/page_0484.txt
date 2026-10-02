@@ -1,0 +1,53 @@
+2. Appropriate valves must bc providod to permit 3tallation of engine(σ), transmission(σ), rotor(σ), and
+safe servicing in cam where pimsure is maintained, propeller(σ).
+in as pneumatic and hydraulic systems. To the extent practicoble, the helicopter design
+3. Electrical connectors must be keyed to pre- should permit complete preflight inspection without
+elude incorrect interconnection, and the installation the use of special stands or ladders. Integral nonskid
+must prevent arcing and exposure of hot pins, steps, handholds, and work platforms %hould be in-
+4. Ground receptacles must be provi&δ to insure corporatod to facilitate maintenance. Similarly, utili-
+α common ground and to eliminate any electrical po- ty syftems should have quick-accees provisiorsi so
+teatial difference between the helicopter and GSE. that they can serviced be without special GSE. pre-
+5. Guards and warnings must be providod in situa- ferably from wround 3evel.
+tions where explosive devices are installed or where Arraniements that require special tools or re-
+high electurical potentials are present or for other po- moval of other equipment to accomplish an aviation
+tmntially sudden and serious hazards. unit level interchauge (removal and replaceni-cnt)
+6. Interlock switches and devices must be pro- should avoided. be If it is necessary to place o--ε unit
+vided as necessary. behind another, the unit requiring !as-fr•vuent
+7. Connections should be quick δ'sconnect type. access should Ze located to the rear. Except for pro,
+vibration proof, and not require safetywire. tection, or other valid reasons, equipment requiring
+periodic inspection, serice, or replaorment shoulo
+15-2.2 ACCESSIBILITY not be placed behind or uider structural members or
+The designer should emphasize ease of servicing, other items that arc difficult to remove or that can be
+testing, removal, and replacement of all equipment. damaged readily. Equipment should be isolated from
+Inaccessible and complex structural arrangements sources of fluids or dir*.
+must ,voided. be Moreover. the designer should con- The designer should provide built-in check points
+sider sectioning #.he helicopter structure for ease of to simplify the connection of fault-isolating tnsi
+ν ntl II . ,IW 64^11ρ.
+field. service and maintenance personnel :o accomplish
+Except where weight, structural integrity, or stiff- their tasks without working in awkward positicis.
+nous are overriding considerations, assemblies sub- Maintenance at the intermediate suppout and de-
+ject to pc.riodic removal should be attached with pot levels will involve the use of automatic test equip-
+quaick-ι nnect fasteners of an approved type ment (ATE) %-hen this ir feasible and cost-effective.
+rather than with bolts or screws. Tool clearance must The helicopter system equipment and components
+be provided for installing and removing lines, nuts, must contain the necessary teqt points to interface
+bolts, and other fasteners. Where the use of tools is with ATE. End items of equipment should be de-
+restricted because of remote locstion, temperature, or signed to have the test woints required to permit per-
+other factors, fasteners such α self-locking plate nuts formance evaluation and diagnostic tests - oon-
+or anchor nuts sbould be used to allow single sided sistent with the policy of returning the helicopter to
+If lubrication is required, fittings must be located placement of modules limited piece-part replace- -
+where accas is possible using standard Army OSE ment, and repair of designated direct exchaage (DX)
+without the need for special α-lapters. If positional modules by replacement of external parts or use of
+adjustments are needed, the design should permit un- authorized repair kits. In tur., modules should have
+obstructed adjustment over the complete range of sufficient test points to permit performance evalua-
+component movement. tion and diagnostic tests in accordatice with Army
+Accessibility for the 5θ to 95θ maintenance per- policies 3nd practices for depot rcpairs.
+sonnel should be provided for items subject to pro-
+STANDARDIZATION 1&-23 emphasis Similarly. servicing. inspecions and flight
+should be placed upon accessibility of all coin- Ground supl on equipment interface designs
+ponents subject to normal maintenance. Such items should consider two levels of szondsrdization; include and fill drain plugs, filter elements, valves, I. Equipment lev•;. Standard GSE Items (MIL-
+switches, and other field-replaceable assemnbies. HDBK-300 and DA Pamphlet 700-20).
+Large, quick-opening acces doors and ample 2. Parts and Materials lavel, Military Standard
+space should be provided for servicing of engine ac- (MS, AN, AND, etc.), Military Specification
+cemories and replacement of components. The de- Qualified Products Lists (QPL).
+signer also should provide for quick removal and in- Such standards should be used in preference to
+15-2

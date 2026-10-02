@@ -1,0 +1,47 @@
+There is no hard-and-fast rule for the number of fasteners per meter of
+joint (density) which are necessary to avoid sparking. After all, a single No. 8
+AWG copper or aluminum wire is capable of conducting 200 kA, lo6 A ~ - S x 2
+a strokes, so single fastener of this or larger diameter would also, by itself, be
+capable of conducting this much current. Any sparking usually occurs at the
+interfaces between the fastener and surrounding metal, and the occurrence of
+such sparking depends on other physical characteristics, such as skin metal
+thickness, surface coatings, and fastener tightness. Tests in which simulated
+lightning currents are conducted through the joint should always be made on
+of samples joints involving new materials or designs. The type and amount of
+lightning current to be applied for these tests and diagnostics to be used, should
+be as described in Lightning Test Waveforms and Technques for Aerospace
+for Zone 3. Vehicles and Hardware
+The foregoing relates to the case where the joint is in Zone and must 3
+conduct some portion of the lightning current, but other zones can be, and are
+likely to be, struck directly by the lightning arc itself. In direct and swept-stroke
+(1 A, 2A) and hang-on zones (IB, 2B), it is possible for the lightning arc to zones
+attach directly to a single fastener or rivet. If it persists, the hot arc may melt or
+(Reference 6.60) shows an otherwise damage surrounding skin. Figure 6.35
+1 example of the damage that can be done at such a place. Here, a cm-diameter
+rivet head and much of its surrounding aluminum skin have melted away. If an
+arc persists long enough at such a spot, it may melt completely through the skin,
+beyond the inside member. Such penetration occurred at the point shown in
+Figure 6.35. The danger involved may require that, if ignitable fuel vapors can
+swept-stroke zone (]A, 2A), the skin may have to be exist beneath any joint in a
+thicker than that required on the basis of swept-stroke dwell times only; or some
+other provision may have to be made to prevent complete meltthrough near a
+rivet.
+Some other guidelines which should be noted in designing integral tank
+joints are as follows:
+1. in joints which may have to carry lightning Avoid use of anodizing
+currents. Anodizing is usually applied to prevent corrosion and results in a hard
+oxide surface which is nonconductive and difficult to break down at less than
+about 300 V. Thus, when breakdown eventually does occur, the resulting spark
+will be more energetic than if a poorer insulator were present. The best coating
+of all for lightning protection is, of course, coating. no
+2. because lightning Design short, direct lightning current paths flow
+currents want to flow in straight, direct paths between entry and exit points on
+the aircraft. Voltages which may cause sparking will build up wherever diversions
+in these paths exist. The diversions through the fasteners and stringer of Figure
+6.34 are acceptable. More extended paths may not be.
+3. to confirm the adequacy of Do not depend on resistance measurements
+lightning current conductivity in a joint. The inductance of the lightning current
+flow path through the joint plays an equally important part, but this inductance
+a microhenry) and difficult to measure. is rather small (a few hundredths of
+Resistance measurements (ac or dc) may be useful as a production quality
+166

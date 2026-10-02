@@ -1,0 +1,44 @@
+fibers, but the mechanisms differ for these two types of composites. The current
+flow processes and degradation mechanisms for each type are reviewed in the
+following paragraphs.
+7.3.2.1 Boron Composites
+Because of initial interest in boron composites for aircraft structural
+applications and because of their higher resistivities, the lightning current
+degradation mechanisms for boron were studied first. Fassell, Penton, and
+Plumer (Reference 7.19) began with a study of the degradation process in a
+single boron filament. These filaments were formed by deposition of boron on a
+0.13 mm (0.0005 in) diameter tungsten filament called the The boron substrate.
+sheath, which provides the filament's strength, was about 1.3 mm (0.005 in) in
+diameter. The tungsten substrate is a resistive conductor, but the resistance of
+the boron is much greater by several orders of magnitude. Thus, electric currents
+entering a boron composite will want to flow in the tungsten substrates instead
+of in the boron. Tungsten has a positive temperature coefficient of resistivity,
+which means that, as its temperature increases, its resistivity increases as well,
+and it becomes even hotter as current flows. When temperature rise is calculated
+as a function of current action integral by Equation 7.5, the temperature rise
+curve of Figure 7.33 results. The quantity $12dt is, of course, equal to the unit
+energy dissipation in the substrate (per ohm of resistance) and is dependent
+solely upon the lightning current amplitude and waveform.
+Figure 7.33 shows that very little temperature rise occurs as $12dt is
+increased to 20 x A2-s. However, increases beyond this value cause
+A2-s result in moderate temperature increases, and increases beyond 100 x
+extreme temperature rise. Fassell, Penton, and Plumer injected currents beyond
+100 x A2-s into single filaments and found them to become severely
+mechanical strength. Correspondingly, filaments exposed cracked and to lose all
+to pulses with $ ~ ~ values of d t 100 x lo6 A2s or less exhibited little or no
+evidence of degradation. The mechanism of filament failure was found to be
+transverse and radial cracking of the boron sheath, presumably caused by
+excessive thermal expansion of the tungsten substrate. (Examples of cracked
+filaments are shown in Figure 4.12.) Thus, the calculated temperature rise is a
+significant indication of filament failure onset.
+In comparison to natural lightning currents, it is noted that when
+distributed over several thousand filaments, a stroke of several thousand amperes
+may provide only A of current per filament. If this current exists for ps, it 1 100
+will indeed provide an $12dt of 100 x A2-s in a single filament; if this
+x current exists for 20 ps, it will provide an jI2dt of 20 A2-s in a single
+filament, etc.
+WhiIe the previous example illustrates the manner in which lightning
+currents may cause mechanical property degradation of composite materials, it
+also illustrates the relatively flat region in which increasing dues of $ ~ ~ do d t
+rise. not result in corresponding increases in temperature For protection design,
+230

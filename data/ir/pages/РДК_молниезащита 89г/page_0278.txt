@@ -1,0 +1,75 @@
+Table 9.3
+Equivalent Area and Induced'
+Current Short-circuit Equations'
+for α Uniform Electric Field. 9.51
+aI' miste area, mis indured equhvaleat 'Not$: Sa te
+sbal-citcit cuirrent.
+SlinMs, v/Μ 8in 1.-J.ESU-EI(3λ'0).
+rThe sphere pround induced on α Current above
+η 4ω
+I Α 21 4 o 7 η ; .Π 7 fwI
+Hneere erun the1 er 2Mt
+H pbt on θ ms (2)
+Σ - 3rA 1 (2 -
+grounod above Cylinder
+(I ereh>3(3 2Π) '+ κ2
+Half cylincler an tbegrond
+~ Σ- AN + 2(Α +0) +iN > Σ
+Rectatilllar emnrlsa soid.
+85- Σ/(Α/5)'/'0 (1.4 (6 AS(I + +
+0'7I(u/R) +poses, (0IH5''+
+0.0λ((H/5)/(Α/5))')) 0,0(11/8)' +
+ft plte, opktallems Remasla,
+lus. .~mIelectomagnetic ist Issisidar
+ Μ Α5(λ 3 3/(AIB)'/ ) (.3(Μ/8)10 +. .9 3(7) OANS 0.4(1/5) .01(11/5)λ + + + N-ρ
+(Α4/5))σ) ((11/8) / Π"".7.7
+VW 01 IN τ
+- for 6. (3).-
+rift(Α+1Irl 1JEq.
+~ 7Λ
+7 in
+9.9.1 Τ~buVmr Ceaductwoeqal
+MMhmnalitly the siPlest geometries are for
+coaxial tubular conductors.
+with external returns In Internal Iqmpdanc,
+9.28 current Fig. laong tubular α conductor and Bos
+returns through external an path, here taken coax- as α
+262
+
+jal cylinder so that the distribution of current o4, the
+surface of the tube is uniforin. 'the analysis would be
+the same if the retursi path were. single conductor σ,
+as connected far aw~ay from the. tube. voltmeter is Α
+the shown with leads flush with the surface (see §9.6.3)
+and so responds only to the voltagel produced the, by
+the fl9ω current in of material of the tube. The ratio
+of voltage to cursrent defines the internal impedance of
+The, product return, with external conductor the Zj..
+of this impedance and the conductor current gives the
+surface electric field previously shown on Fig. 9.6. E,,
+functions, as defined expression uses Bessel exact
+§9.3.3. in
+.2ρ .ý- Io( -yb)K ( + -ya) K o(υ jb)Ii(-,'α) 9 1 5 1
+Z.=2irbo' 1 ('yb)K Qvya) -Ii(-ya)Ai(-yb)κ.05 1 1
+the The arguments of the function, and are α, -1 β,
+theconductivity, propagation constant and skin depth
+as discussed in §9.4.6.
+Fig. 9.28 Internal impedance with external return.
+Approximations are good enough for most pur-
+small compared especially if the wall thickness is
+the radius of the tube, as is the case with most prob- to
+or effects of lightning analysis encountered during
+shielding.
+coth(-yT) (9.100) MR υ-'yT Zia -C (Τ α)
+2ub
+1- (9.107) ,zR > (α 6) Τ-χ
+(9.108) (ujT)
+9.106 is the general cawe. Eq. 9.107 will
+tube, be recognised the resistance as de thin aud of α
+Eq. 9.108 is the high frequency case where the real
+imaginary components and transfer impedance of are
+Eq. 9.110 Eq. 9.111 is will the general case.
+as the de resistance be od recognised α thin tube, and
+Eq. is 9.112 the high frequency case where the real
+imaginary and coemponients transfer of impedance are
+equal.

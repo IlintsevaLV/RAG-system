@@ -1,0 +1,26 @@
+Positive flash of type 6.23 4. Figure
+Above: photograph on fast-moving film
+Below: oscillogram of stroke current
+return stroke appeared at the ground. Not all of this delay, therefore, would
+have occurred had the measurement been made on an aircraft in flight
+intercepted by this flash. But the several milliseconds which still would have
+elapsed between initial leader attachment to a forward extremity of the aircraft
+and the occurrence of the return stroke may have allowed the arc to move over
+Zone 2A. The positive polarity stroke of Figure 6.23 would have delivered about
+C 20 to this dwell point during the of 2 ms of time it would have minimum
+dwelled there. According to the data of Figure 6.17 meltthrough of a 0.1 6 cm
+is (0.063 in) aluminum skin possible under these conditions. There are reports of
+holes melted in 0.102 cm (0.040 in) skins from in-flight strikes in Zone 2A areas,
+2A but holes in 0.16 cm aluminum in Zone have not been reported, a fact that
+demonstrates the apparent rarity of the high-energy positive polarity flash in
+Zone 2A areas. Because of the lack of positive evidence that these flashes have
+struck aircraft in critical zones, they have not been fully accounted for in
+present test current waveforms.
+6.6.4 of Determination Skin-Thickness Requirements
+With the establishment of methods to predict the lightning current
+amplitude and charge, as well as dwell time, sufficient information is available to
+7, utilize the charts of Figures 6.1 6.18 or Tables 6.2 and 6.3 to determine the
+skin thicknesses which will or will not be melted through.
+For example, let us assume that a bare aluminum skin is planned for an
+integral tank in Zone 2A, and that it is desired to determine how thick this skin
+should be to prevent meltthrough. Further, let us say this aircraft will fly at

@@ -1,0 +1,44 @@
+Flame-Sprayed Aluminum
+An equal weight of flamesprayed aluminum offers approximately the
+same protection as that of aluminum foil. It has sometimes been difficult to
+control the thickness of flame-sprayed coatings, a phenomenon that could create
+inconsistencies in the protection afforded by this type of coating, but
+flame-sprays may be easier to apply to some contoured surfaces than are foils.
+Diverter Straps and Foil Strips
+One might wonder if the metal diverter straps or foil strips recommended
+for protection of fiberglass in Section 7.3.1.2 are also applicable for advanced
+external composites. As discussed in that section, these devices provide an
+conductor from which a streamer may originate, reaching an approaching leader
+before a streamer from an internal conductor has a chance to puncture the
+fiberglass wall. The electrical conductivity of the strap, in contrast to the
+surrounding nonconductive fiberglass, is depended upon to assure that this
+streamer will come from the strip and not from some other place.
+Advanced composites, of course, have electrical conductivity-- some
+enough to supply the few milliamperes of current needed for a streamer. Thus, a
+metal diverter on a poorly conducting surface is not nearly as effective as it is on
+a nonconducting surface. This fact has been demonstrated repeatedly on nose
+radomes protected by diverters but with partially conductive antistatic paints
+EM1 also applied to their outside surfaces to reduce from P-static charge
+buildups on the radome surface. Streamers have occasionally initiated from the
+antistatic paint instead of from a diverter, causing the ensuing stroke to attach to
+the painted surface and destroy a large part of the radome while finding its own
+path to metal structure.
+Lubin and Dastin (Reference 7.33) report that, in laboratory tests, closely
+spaced aluminum foil strips did keep strikes from attaching to the boron
+composite surface of a horizontal stabilizer. Their tests--which are the most
+extensive yet reported of conducting strips on a composite--showed that 2.54
+(1 cm in) wide, 0.2 mm (0.008 in) thick aluminum foil strips had to be spaced
+(2.5 6.35 cm in) of each other to keep strikes from hitting the boron within
+(2 6.35 composite surface between them. A simdar spacing was necessary for cm
+half in) wide strips that were as thick. Wider spacings permitted some strikes to
+terminate on the boron composite surface.
+It is likely that such strips would not work as well as this over a graphite
+composite, which is more conductive than boron. The performance of strips on
+either composite, of course, would be enhanced if the composite surface were
+covered with a dielectric (insulating) material that would inhibit streamer
+formation. system in which a dielectric film is first applied to the entire A
+composite surface, with the conducting strips then applied over the dielectric, is
+likely to work best, since this would also help to keep lightning currents in the
+foil strips from entering the composite. No thorough tests of such a system have
+been reported, however.
+247

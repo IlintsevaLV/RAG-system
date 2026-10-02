@@ -1,0 +1,54 @@
+AMCP 706-202
+namic pressure distribt.tions. Drag coefficients are es- COMTO 'lENT INPLANE
+tahlished consistent with the body shapes in the OF INDUCEV VELOCITY
+wake, and θ-ι vertical drag is calculated by α strip VELOCITY (SWIRL)
+analysis. One weakness of this method is the relative Α-VELOCITY SEEN BY
+inaccuracy of the wake geometry described in Rcf. 2. OLADE ELEMENT
+Improved accuracy of vertical drag calculations is
+desirable although this mnay require wxtesrsive devel-
+opment analyses. tets of more refined wakc Model AXIAL
+can be perfornied with scaled rotor and airframe COMPONENT VLI
+models. However, Reynolds number effects on data OF INDUCED AL .. EFFECTIVE covninl VELOC ITY ROTAIIONA Λ'"- .. " --.
+from these tests can significant, be For conventional (DOWNWASH) VELOCITY
+helicopter shapes (without wings) and values of disk
+loading, dowrnload is normally about 4-6% the (φ
+Hover In of Swirl Vector Diagram Flprt 5-1. gross weight. vehicle
+Hovering induced power also is affected by blade
+twist. Tdiij effect is due primarily to altcrptions in spanwise load distribution as α result of twist. Ref. I wh-re details twist effects for the "ideal" rotor. Twist sele- mean rotor profile drag coefficient, di- - tion for the actual rotor is covered in pat. "-2.1.5. Rrns ι us ,
+rotor radius, ft The "swirl", or inplane component of induced ve- R -
+slug/ft! air density, - power. induced that affects factor is another locity
+rad/sec velocity, rotor angular in the omitted is frequently component This inplane -
+is α (" cocfficient drag profile rotor mean The in the rotor of power the induced of determination
+in the lift coIficient the mean blade function of work reported 5-1. based on axial flight. Fig. hover or CL.
+1) "ideal" = (Ref. the case that shows 3. Ref. effectively in CL 6Ct° swirl velocity
+rmdu, the magnitudc of the rotational velocity σ.cn ( C Τ
+1
+by the blade element. For lightly loaded rotors, this (5-3) u o.rR~π(flR)
+swirl component can be considered insignificant, but
+and rotors loaded heavily the more in substantial be it can
+used today. In general, swirl effects should be in- C-ρ -
+cluded in hovering-power-required computations un- α ap(1tR)" -4)
+less disk loading ω 3.5. <
+where
+5-2.1.2 Blade Loading thrust coefficicnt, dimension;ss C =-
+lb thrust, blade of unit per rotor by α Τ produced thrust The =
+fps speed, tip rotor be can parameter This BL. fiR loading blade the is area =
+and tip losses case, where the more realistic For of disk loading ω the sirnnlv terms defined most in
+ZrL can be described other effects are considered, solidity χ. and the rotor
+more accurately as (see par. 3-2, AMCP 706- 7Cr/χ
+lb/ft ω 201). Also, α single curve BL of airfoil seocion lift and (5-1) - o drag coefficients cl and characteristic of the section cd
+where case, rotor the actual of representative is not where
+are effects compressibility and lb/flt' number Reynolds disk loading, - ω
+Srotor solidity, blade area/disk arma, di- significant. When there are spanwisc variations in
+actual *."! -'.... airfoil and/or planform blade mensionless
+deviate even More meaningful than this parameter is the niirr, values of these characteristic coefficients
+from the ideal. furthe; can be ut-ed coefficient This blade lift coefficient eL'
+to define the aerodynamic operating point for the The rclationship between •τ and o can be
+rotor blade airfoil sections and, therefore, to det(Τ- developed from flight tests of rotor configurations
+in the drag coefficient. The profile power required similar to the one being designed (ι.ε., similar mine
+is HPo proportional to the mean drag coefficier,ý if, Mach number, twist, and airfoil secticas); or it may
+and can expressed be as be developed from detailed power-required calcu-
+lations that include the spanwise variation of para- all
+HP hp - (5-2.) meters. 0 -,
+4400 The optimum value of mean blade lift cotfficient
+5-4

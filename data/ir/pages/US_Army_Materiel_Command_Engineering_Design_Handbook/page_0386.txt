@@ -1,0 +1,57 @@
+AM 7 202
+meal housing strength, shaft capability, and pressure corrected by installing a fast-acting miniature check
+conditions during the pump qualification testing. valve in the return line.
+Water hammer limiting is discussed ;n par. 9-4.2, Soft seals or poppets that depend upon assembly
+AMCP 706-201. compression to prevent secondary leak paths around
+the material may leak duc to distortion or compres-
+sion under operating pressures. This can be pieventcd
+9-2.9.10 Resenolr 1[)Ip 0 by incorporating static rings to protect secondary
+Bootstrap reservoir design shall incorporate suffi- leak paths (Fig. 9-51).
+cient piston force, in a static, no-pressure condition, The designer shall avoid use of self-locking nuts to
+to facilitate reservoir servicing and bleeding. hold spring-loaded adjustments.
+Reserv.iru be designed with the air bleed vent Part concentricity be dependent upon shall shall not
+and high the suction outlet low. The overboard relief thread concentricity.
+flow capability be sufficient to prevent reservo3ir Flow paths within valves shadl shall be considered.
+damage during improper or emergency operations, Indexing radial holes in spools or placement of
+such as system operation with an ovcrfilled reservoir springs can affect flow paths. Poppets with flutes can
+or overfilling during reservoir servicing. rotatc with flow, and thus may be desirable in some
+The designer should avoid the connection of two or designs.
+more drain or vent lines together, to a common over- Inadequately designed spring guides may allow
+board vent, where back pressure can cause back flow spring lands to cock spools. Center point loading at
+through the second vent system. both spring ends is rec'immended. Reduction of load
+With hydraulic power present in one system only, upon springs that are heat-soaked while loaded must
+high rates of motion in large, tandem actuators can be a dcsign consideration. The designer should avoid
+pump the fluid from the unpowered section back to tension and plated springs. For springs immersed in
+Sthe return system fluid without recovering equal from fluid, etc., 17-4 PH spring material should be used
+)provisions "the preuture side of the unpressurized system. Unless (refer to MIL-HDBK-5).
+exist to dimp the rttur-ed fluid at a low Low-operating force valves, such as solenoid-vaive
+pressure, damage to the reservoir and other low- pilot sections, should be designed with poppets since
+contamina- subject to sticking from alternative to spool valves are pressure nomponents can occur. An 17-
+dumping is to equip ground test carts with multiple tion (silting, etc.).
+connections so that both systems may be pressurized Vent holes between two seals of differential areas,
+simultaneously during checkout. incorporated such as arc ,. return-line dampers and
+Test reservoirs be representative of the actua! inline balancei relief valve designs, be multiple shall shall
+.system reservoir. This will allow viscosity, fluid tern- or indexed te insure that a leakage trap does not oc-
+and pereture, fluid settling, flud aeration test con- cur. Urit malfunction may result if the vent chamber
+ditions to be realistic, betomes filled with fluid that is not readily discharg-
+able through a small vent hole.
+eDirect-operated solenoid valves have ade- shall
+valves Chock t d squate return spring force to overcome silting act.on shalbeis
+~~~~Check 0•2 valves be installed ir subsystem return (hpsern) shall
+shearing). (chip return high from pressures back prevent to as so lines
+POTENTIAL diff-rential cylinder locks, acting upon flows from
+LEA K PATH cylinder areas, and return cavities in components that
+may fail under repeated return transient pressures.
+The miniature check valve should be used for this
+application since it has a faster response time than the
+standard AN type. In addition, balanced areas for
+lock devices are recom nended.
+Check valves be install d in the pressure lines shall
+of subsystems where airloads can cause a flow revet- - r
+sal when system pressures are reduced because of an
+II ADD SEAL operational demand upon the system. A relief check
+considered shall valve be if overloading can occur at
+hg) ih speeds.
+. - Reguleaed pressure can be affected by transient
+baick pressuues at the valve return port This can be Figure 9-51. Secondary Leak Path Seal
+9-31

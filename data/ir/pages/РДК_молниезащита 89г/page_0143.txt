@@ -1,0 +1,91 @@
+Angular frequency: In most practical applications
+natural angular frequency ω of the conductor will
+between about for 10 heavy, flexible systems and
+for light, stiff systems. James and Phillpott give rela-
+tive values of These are shown in Table 6.2 PA/Π..
+each of these frequencies and for three lightning cur-
+rent waveforms. The 200 kA and 1 kA currents
+resent α return stroke and continuing current of
+same magnitude as those represented by Components
+Α and C of However, the 50 kA inter- AC 20.53Α.
+mediate current would deliver much more energy than
+would the 2 kA intermediate current, represented
+Component Α current pulse of 50 kA amplitude, Β.
+and decaying in as long as 2 ms, would be found only
+in the most severe of positive polarity flashes. These
+occur very seldom. In any event, Table 6.2 shows that
+the 200 kA stroke current creates α much higher effec-
+tive transient force, Pt, than does either of the other
+currents.
+An example of how the table is used may be found
+in the case of the two parallel air pressure tubes 2
+apart, for which α peak force Π0 of 100 000 N/μ
+length was calculated. Assuming that these tubes have
+an angular frequency of 10', Table 6.2 shows that
+effective transient force, Pe, would be
+0.45Π, (6.19) = Pt
+or 45 000 N/μ (3084 lb/ft) of length. This is
+amount of force which should be used in perform-
+ing mechanical response calculations or mechanical
+strength tests.
+James and Phillpott conclude that:
+(α) The continuing current phase of α lightning flash
+does not give rise to α high effective force because
+and therefore the peak magnitude force, is too 12,
+low.
+Effective
+I Pt Coulombs
+(Α-σ) (kA) (mi) (C) 106
+200 0.1 20 2.0
+(Stroke)
+50 2.0 100 2.5
+(lnt)
+1.0 200 200 0.1
+
+the (β) If ρ 1/ω, as for relatively heavy flexible Sys- <
+be tems 101), the effective force is roughly pro- = (ω
+10' portional to 12τ. Thus, the fast and intermediate
+components give about the same effective force,
+for even though the peak forces are very different.
+rep- (χ) If ρ as for relatively light stiff systems > 11ω,
+the 104), the effective force equals twice the peak (ω -
+force, and is therefore proportional to For this 1.
+doubling of the peak force to occur it is assumed
+that the current rise time is 1/ω. <
+by
+(δ) If ρ the effective force in 45% of the peak φ 11ω,
+force for the case of the fast component, with
+= 104. This alternative also gives the highest ω
+effective force because the high value of more 12
+than compensates for the effects of α small value
+of ρ.
+James and Phillpott also conclude that "the effect
+cm of magnetic forces on current-carrying components is
+of influenced by α large number of parameters, but the
+contribution from the continuing current is negligible."
+the Concurring with the authors of this book, they also
+conclude that future studies of or tests on components
+likely to be damaged by magnetic forces should be per-
+formed with simulated lightning currents having values
+of and action integral similar to Components I Α or
+Δ, depending on the zone in which the installation is
+the located.
+Examples of magnetic damage: Secondary airframe
+structures and control surfaces sometimes become
+badly damaged by magnetic force effects. One exam-
+ple is the wing tip trailing edge shown in Figs. 4.4, in
+which the upper and lower surfaces of this wing were
+made respectively of 0.71 mm (0.028 in) and 0.80 mm
+(0.031 in) aluminum. Hacker ([6.7] has made α very
+interesting analysis of the magnetic forces acting upon
+Table 6.2
+Transient Magnetic Force Pt
+π Ptp (Re Pt
+0
+(Relative
+4 Ω- Ω-10 WE Units) Ω104 0 1Ω
+OAS 16.0 0.05 08 7.2
+1.0 0.75 1.73 1.73 0.75
+0.0004 2.0 2.0 0.0008 00008
+1(Cont)
+126

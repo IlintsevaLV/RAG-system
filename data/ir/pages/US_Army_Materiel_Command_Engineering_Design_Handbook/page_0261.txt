@@ -1,0 +1,107 @@
+AMCP 706-202
+5-8.3.1.2 Leading Defiaition
+In designing the barrel for α specific configura-
+tion, the various loads described in the preceding
+paragraph mast be defined for the applicubic aircreft
+mission profile. Loadings involvsd ins demonstration
+and qualfication tests aiso must be 'onsicered.
+Applicable specifications shall be defined by the pro-
+pelle: procurement spacificstion.
+From the analysis of propcller design paran.eters
+and dynamies, à summary of significant loads is
+prepared for sclected conditions. These loads are the
+basis for ti:ε siructural analysis of the barrel.
+5-8.3.ι.3 Berret Structurel Teoêσ
+Afler the barrel has been manufactured, the
+stresies at critical locations are mcasured under
+various load conditions to sssurc structural integrity.
+The barrel is strain-gaged, and an experimental stress
+analysis is performod with axial loads applied to
+simulate centrifugal loads and bending nioments,
+besh static and vibratory.
+An asaembly with cylinderical test bars instcad of
+bladas is 'emed Ayaamaically to deicrmine its natural
+frequency, so itat the reiention sprirg rate can be
+&educed. Y'his is compased with the calculated valucs.
+Ths barrel abo is fatiguc tastod to determine its ac-
+tual margin of ssfety under tbe desigr. loads.
+.3.2 Preglan Actamians and Contrels
+Propeller pitch chrage sctuators and control
+sysems σájust and maiatain binde angk scoording to
+one of several conarol modes, as roquired by aircraft
+and engine operating coaditions. One control mote
+commonty used is consiant-spced governing. in
+which α slectod propeier rotational speed ≈σ belt
+conatant by α governor that raises or lowers biade
+angic in respoua: to chaarges in forward spoed or
+appied power. This is the contrgi modc used aimoet
+uaiversally in Night operation of convestional air-
+craft, wiar: it allows she pikos to sciect the most effi-
+cicnt cembination of propeiler snd egine operuting
+conditions. The otber common control mode is bets
+control, in = hich ibe conirol scts α sckected biade
+angke β, in response to direct pilot control er to the
+output of α coordicated engine or arcra.? flight con-
+trol syster. Beta control Γ.tan is used for propeller
+reversal during landing. in low-thrust groued opera-
+tion. and for propelicas uped as primary aircraft flight
+controls, wuch as in VTOL aircraft. Many propellers
+bave α combination control systen that uscs citber
+constant-speed govering os beta control as required.
+The pich contro! system bas two basic com-
+ponenis: ihe control and tbe actuator. The control
+receives signals from tbe pilot or anotber control
+5-66
+
+system or from the propelier itself. and transmits α
+signal to the actuator to change blade angle at
+hocesssry. The actuator converts this signal into α
+mechanica' action to move and maiatain the blade
+ungic.
+5-8.3.2.1 Coctrol Coufigurations
+Several arrangements are used for control compo-
+nents. In one common configuration, the conirol
+assembly ir nonrotating and mounted near the pro-
+peller on the gearcase or surrounding the barrel teil-
+shaft. The output of the control is α hydraulic flow
+that is transferred to the pitch change accuator in the
+barrel assembly through transfer bearings. The rate
+of fow controls the rate of blade angle motion. In
+another configuration, ths siationary portions of the
+control produce α mechanical signal directly related
+to the desired blade angle. This signal is transferred
+to the barrel assembly through & mechanicai bearing
+or σ differential gear train, and the rotating asscmably
+contains the hydraulic valves and pumps required to
+Grive the pitch change σ-tuator.
+5-8.3.2.1.1 Cusstaut-speed Govermors
+The input to α constant-spoed governor is & signal
+calling for α desired propelier spced. This signal may
+come directiy ftom the pilos or from another control
+system, such α α synchronizei or α coordinated
+power management control. The desired speed is
+compared with the actual apced by α device such as α
+speed-sct spring balanced against α sct of rotating fly-
+weights driven by the propeller or engine. If aa off-
+speed condition occurs, tic device puts out an error
+signal, commonly in the form of à pilot valve dis-
+piscenent. The valve displacement, in turo, meters
+oil to the pitch change octuator, raising or lowering
+the bisde angk to siow down or speed up the pro-
+pelicr to correct the off-speed.
+In forward-thrust operation, blade twisting mo-
+ment always is toward low pitch. and the actuator
+loads always are in one diroction. The governor, thcn,
+nocas to metes high-pressure oil only to onc side of
+the actuator piston to raise the blade angle; ketziag oil
+drain back to the sump permits the twisting moment
+to lower the blade sngke. Α gorernor with only this
+function is calied : singlc-acting governor.
+Α double-acting governor can direct high-preszure
+oil to cither side of the actuator piston. This cap.
+bility is required if the biades are to bc controliod in
+reverse thrust operalioa or to be unfeatbered.
+In many constant-spead governors, the pilot vaive
+positioned by the spoed-sonsing device matiers ac-
+tustor oil flow directly. Fos some deaigns. boreres,
+large oil fious are roquirod and usc of : simple pilot

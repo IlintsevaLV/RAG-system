@@ -1,0 +1,79 @@
+1860
+-450
+8- (α)
+24
+0
+/•Ω
+-12.2
+Us 1.28 0 (β)
+CV-580. - current injected Calculated 10.29 Fig.
+(α) Current
+(β) Rate of change of injected current
+10.9.1 Air Conductivity
+The details of the nonlinear model have been de-
+scribed elsewhere [10.29 - 10.31] and only α summary
+of the basic ideas is presented here. In this model,
+air conductivity, which can change by several orders
+of magnitude during air breakdown, is calculated and
+included in the finite difference equations. The sub-
+sequent flow of induced current during the breakdown
+constitutes the initial event of triggered lightning.
+The calculation of the conductivity of air is based
+on α three species air chemistry model; electrons, pos-
+itive ions and negative ions. The model calculates
+their densities by using continuity equations and the
+measured rates for various physical processes. These
+processes include electron avalanching, electron at-
+tachment to neutral molecules, recombination between
+electrons and positive ions and recombination between
+negative and positive ions. The conductivity of the air
+is determined by summing all the conducting particles:
+(10.53) + ν+pj), + ν-pi q(np, α -
+where q is the electronic charge (1.6 ξ 10-19 coulombs,
+* ν. ν-, and ν+ are the numbers of secondary elec-
+
+cubic me- per ions positive and ions negative trons,
+electron and ion mobilities and π. and are the pi ter
+2 in mr /volt , sec. The mobilities of positive and neg-
+ative ions are assumed to be the same. The particle
+densities are calculated from the continuity equations:
+on + V. (nv,) + [On+ + Γ] α- = Q(τ) (10.54)
+O + V. (ν.v_) + bn+ν_ acne (10.55) =
+Gn, + = + Pnn+ + V. (ν+v+) -- + Q(τ) 6ν+ν_
+(10.56)
+ 1 where α is the electron attachment rate (sec- ), is Γ
+ 1 the electron avalanche rate (sec- ), is the Π electron-
+ 1 ion recombination coefficient (mssec- ), 6 is the nega-
+3 tive-positive ion recombination coefficient (μ sec-1)
+and Q is the ambient ionization rate. These rate coef-
+are mobilities, ion and electron the as as well ficients,
+functions of the electric field intensity, the percentage
+of water vapor in the air, and the relative air density.
+The formulae for these coefficients were obtained by
+curve fitting to measured data, as discussed in [10.58].
+are used particles of the mobilities the For simplicity,
+to calculate their velocities:
+v, = (10.57) -pE.
+In the implementation of the model into the finite dif-
+ference code, the conductivity of air is calculated for
+every spatial cell at the same time point as the mag-
+netic field calculation; that is, the electric field from
+the previous time step is used to calculate the air con-
+ductivity which in turn is used to advance the electric
+field in time.
+Calculation Process 10.9.2 Steps in the
+The first step is determining the static field distri-
+bution about the aircraft. This could be determined
+from calculation knowing the distribution of all the
+charges, both in the cloud and on the aircraft, or it
+can be determined just by assuming α given field. In
+any case it will be α static field since the rate at which
+the field builds up is very much slower than the rate
+at which the field collapses once air breakdown starts,
+build-up being measured in seconds, and breakdown
+being measured in nanoseconds.
+Iitial of the initial the calculation For COnditolSS
+conditions, four basic electrostatic solutions are either
+computed or assumed. Three of these are to deter-
+mine the electric field oriented along each of the coor-
+295

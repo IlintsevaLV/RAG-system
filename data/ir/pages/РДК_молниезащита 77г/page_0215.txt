@@ -1,0 +1,39 @@
+Damage such as this occurs only when a hinge or bearing has a single point
+of contact through which most of the lightning current must pass. In such cases
+the point(s) of hinge contact may be damaged. Hinges with multiple points of
+mechanical contact are usually able to safely withstand lightning currents with
+only minor pitting or erosion. For example, a piano-type hinge such as that
+shown in Figure 7.12 may be considered as self-bonded provided the dc
+R resistance across the hinge is less than 0.01 (Reference 7.10). In hinges where
+a excessive damage occurs, additional conductivity should be provided to carry
+major portion of the lightning current across the hinge to relieve it from
+excessive lightning current flow. Flexible bonding jumpers of the type shown in
+Figure 7.1 1 have often been installed across hinges for this purpose. In most
+cases, however, these jumpers have provided little or no increase in conductivity
+for lightning currents. The reason is that they almost always offer a longer and
+more inductive path than do the paths directly through the hinges, even though
+the resistances of the latter are high. Because of their fast rates of change,
+lightning current paths are governed much more by inductance than by
+7.1 1) resistance. Stahmann (Reference has demonstrated that bonding jumpers,
+fact, make little or no difference in the amount of superficial pitting that in
+occurs on typical piano-type control suifaces or door hinges, such as those
+shown in Figure 7.12. Stahmann found the same to be true of ball joints and
+other hinges utilized on control surfaces or landing gear doors, even when the dc
+resistance through the hinge was as high as several ohms. No binding or other
+adverse consequences were found to occur from the small amount of pitting that
+did occur in Stahmann's tests of piano-type hinges and ball joints.
+AIRFRAME
+I
+MOVABLE
+CONTROL SURFACE
+Piano-type hinge. 7.12 Figure
+Often capable of conducting lightning stroke currents without
+need for bonding jumpers.
+To be sure of the ability of a particular hinge design to safely conduct
+lightning currents, a test similar to Stahmann's, in which simulated lightning
+currents were conducted through prototype hinge, should be performed. The a
+test waveforms and current described in and Waveforms Test Lighbzirzg
+for the zone in whlch the hinge is located should be used. If Techniques
+excessive pitting, binding, or welding of the hinge is found to occur, additional
+conductivity may be necessary. The most satisfactory way of providing this
+additional conductivity may be to provide additional areas of contact in the

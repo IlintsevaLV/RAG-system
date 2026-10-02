@@ -1,0 +1,42 @@
+adverse effects lest safety of flight be endangered.
+In this chapter we first review lightning effects on metal structures and
+discuss how to design protection for the few situations where special protection
+is necessary. We then review the expected lightning effects on nonmetallic
+materials such as fiberglass and the advanced composites.
+Concern for the potential hazards has prompted a large number of
+laboratory studies of lightning effects and protection techniques for these
+materials. We summarize the important results of these studies and discuss those
+protective techniques and devices which appear most promising. Our discussion
+emphasizes the electrical performance, leaving to the structures designer (who
+himself is best equipped to answer them) questions of compatibility with other
+requirements or manufacturing methods.
+7.2 Metallic Structures
+Because of their inherently good electrical conductivity, conventional
+aluminum aircraft structures have rarely suffered serious damage from lightning
+strikes, and few protective measures have had to be added. The metal skins, ribs,
+spars, stringers, and other substructures may themselves be utilized to provide
+the safe conducting path for lightning currents between possible attachment
+points called for as a basic protection principle in Chapter No special 5.
+conductor dedicated only for lightning currents need be added to conduct
+lightning currents through the aircraft, as long as care is taken in the design of
+basic skins and structures. It would, in fact, be highly impractical, and even
+dangerous, to design a separate "lightning conductor" to be run through a metal
+aircraft. No further mention of such a conductor will be made.
+Thus, in accord with the principle of providing a safe conductive path for
+lightning currents, metallic skins and substructures should be designed to provide
+this conductive path and to minimize, or safely tolerate, the following lightning
+effects:
+Melting at lightning attachment points
+Resistive temperature rise
+Magnetic force effects
+Arcing across bonds, hinges, and joints
+Ignition of vapors within fuel tanks.
+Techniques to assess these effects and design protection, if needed, are discussed
+the following paragraphs. in
+7.2.1 Points Melting at Lightning Attach~iient
+The quantity of metal melted away at a lightning attachment point has
+been shown to be most closely related to the charge carried into the point by the
+lightning flash together with the type of metal and its thickness. Most of the
+charge is delivered by intermediate and continuing current components of the
+a flash, and the amount of this charge that is necessary to initiate hole (i.e., a
+6.6 pinhole) in a metal skin has been discussed in Section of Chapter The 6.

@@ -1,0 +1,85 @@
+EXAMPLE OF Α
+AND
+HEATING AND VENTILATION Α-I
+ANALYSIS
+α heating and an example of following is The
+lating system.
+DESIGN Α-.1I REQUIREMENTS
+of be capable system heating The I. shall
+occupied spaces of in 60"F α tempcrature taining
+where the outside air temperature is or -65'F
+of system be capable 2. The ventilating shall
+livering no less than 2.25 of fresh air per min lb
+each occupant.
+ducts within temperature of the 3. The surface
+. ... ...... AAI 6-., in _υ-Anc__τ somn-.
+1800F.
+DESIGN Α-ι.2 ASSUMPTONS
+33: is the aircraft in occupants of number The I.
+in thc cockpit and in the cabin. Metabolic 30
+rate for α sc.wted person (writing) is 400 Btu/hr
+occupant.
+at -65"F to solar radiation 2. Heat gain due
+negligible.
+3. Outside air infiltration rates are: cockpit, cfm. 300 cabin, and cfm;
+4. Humidity effect at -65"F is negligible.
+5. The heating system heat loss is equivalent to
+deg F.
+6. The blower volume flow rate is α constant.
+7. Mechanical heat sources and fan work are
+gible.
+8. The cabin ceiling and upper 3.5 ft of the
+walls arc covered with 3 in. of insulation. The
+mal 0.Γ7 coefficient U of the insulation is Btu/hr-*F-
+ft'.
+9. Heat transfer coefficients:
+2 Surface U. Btu/hr-*F-ft
+Transparent areas 1.69
+Floor 0.7
+Uninsulated wall 1.85
+0.07 wall Insulated
+10. Electri:,δ equztpment uses 0.225 kVA
+"11. Air:o χ, 0.24 Btu/lb-eF τ0 - lb/ftV, -
+
+AMCP 706-202
+Α APPLNDIX
+PRELIMINARY HEATING, COOLING,
+VENTILATION ANALYSIS
+aromw 12. Kcat transfer
+Α
+Cockpit windshield vcnti- so0.
+50.0 akin Cockpit
+Cockpit floor 50.0
+Cabin rear ramp (uninsulated) 60.0
+26.7 windows Cabin mvn-
+225.0 Cabin floor
+above. Cabie walls (uninsulated) 180.0
+259.0 walls (insulated) Cabin de-
+Cabin ceiling (uninsulated) 105.0 to
+225.0 (insulated) Cabin otiling
+of
+Α-ι3 HEAT LOSS•Σ
+Α-13.1 Cockpit
+The heat losses result from convection and infil-
+ι.ε., tration, 3
+beat
+per + (Α-1) Qanm. ,α.
+Conectim is Α-1.3.1.1
+The heat loom are through the transparencies, un-
+100 insulated skin, and floor, ι.ε.,
+" .,, ,v. + qj α -ql, wj
+20 + (Α-2) qflw
+where
+negli- (Α-3) UA AT -
+ 2 (Btu/hr-*F-ft ) (*F) (ft') * - Btu/hr * -
+side (λ.69Ξ50)[60 - (-65)] - 10.5Ω
+ther- Bnu/kih
+-u,.,,dj (I.85Ξ50)[60 - (-65)] - 11,560 q,τ,,
+Btu/hr
+4,380 - (0.7)50)[60 - (-65)) - qf,
+Btu/hr
+By Eq. Α-2, the cockpit total convection heat loss
+is:
+10,560 + 11,560 + 4.380 26.500 Q,1,, ,0 Μ -
+Btu/hr
+Α-I

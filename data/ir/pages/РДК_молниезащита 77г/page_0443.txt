@@ -1,0 +1,44 @@
+2, conductor located on the inside of the trailing edge, would be better placed.
+and 4, in that order, would be in the regions of lowest magnetic Conductors 3
+flux. A conductor that could be run inside a major structural member, as shown
+4, by conductor will be exposed to a minimum amount of magnetic flux.
+5, located at the forward edge of the wing, would be in a well- Conductor
+shielded region if the forward edge of the wing were metal, but it would be in a
+high field region and therefore vulnerable if the forward edge were a nonmetallic
+5 would not be covering. However, even if the covering were metallic, conductor
+4. in as protected a region as that of either conductor or conductor 3
+15.3, Windshield posts, shown in Figure tend to concentrate the current
+flowing on the exterior surface of the vehicle, particularly if a flash is swept
+back, contacting the windshield post directly or the eyebrow region above the
+windshield. Since the current is concentrated, the magnetic field intensity inside
+by the crew compartment tends t o be very high. The situation is aggravated the
+fact that the windshields, unlike other regions where the field might have to
+diffuse through the metal surfaces, act as large apertures and so allow the
+internal magnetic flux to build to its peak values very rapidly. Instruments and
+wiring on the control panels are thus in a region of inherently high magnetic
+field strength. Conductors that run from overhead control panels (position A) to
+B) are often run along the windshield center posts. other instruments (position
+They are thus in a region of the most concentrated magnetic fields likely to be
+found on an aircraft, and accordingly they may have induced in them the highest
+voltages.
+1 5.4 Improvement Through Shielding
+In order to make an electronic system immune to the effects of lightning,
+it is almost always necessary to make judicious use of shielding on interconnect-
+In 15.4 shows some of the basic considerations. Figure 15.4(a) ing wiring. Figure
+an unshielded conductor, being exposed to the full magnetic field inside the
+structure, will have high voltages developed across the high-impedance
+terminations. The presence of a shield grounded at only one end will not
+significantly affect the magnitude of the voltage induced by changing magnetic
+fields, although a shield may protect against changing electric fields. While a
+shield may keep the voltage at the grounded end low, it will allow the voltage on
+the signal conductors to be high at the unshielded end.
+Shielding against magnetic fields requires the shield to be grounded at both
+ends, as shown in Figure 15.4(b), in order that it may carry a circulating current.
+It is the circulating current that cancels the magnetic fields that produce
+common-mode voltages. There is some merit in grounding such a shield at
+multiple points, since frequently the cable will be exposed to a significant
+amount of magnetic field over only a small portion of its total length. If the
+shield is multiple-grounded, the circulating currents will tend to flow along only
+one portion of the cable whereas, if it is grounded at only the two ends, current
+is constrained to flow the entire length of the cable. There is likewise some
+virtue in staggering the spacing between multiple ground points on a cable shield,

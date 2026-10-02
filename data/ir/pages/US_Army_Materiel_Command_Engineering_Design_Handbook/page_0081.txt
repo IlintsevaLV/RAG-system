@@ -1,0 +1,85 @@
+CHAPTER 3
+PROPULSION SUBSYSTEM DESIGN
+3 LIST OF SYMBOLS
+Λ- Α, - arca of inket, inside dismeter, in.² maximum inket frontal area, in.²
+ambient pressure, paia maximum volocity siong Icading cdge sur-
+facc, fps
+inlct velocity. fpe
+free stream veiocity, fps
+fuel flow, Ib/hr
+AP inlct pressure lous, pai
+8 Π./14.7, dimensionless
+31 INTRODUCTION
+liminary design of the hezicopier after the enginc χ? engines have bcca selectod, and their location in the
+airframe has boen choeen. This chapter is conczrne? with the detaii amign of tie various possibk propul-
+sion sysien configurations. The propulaioes sysiam consists of the cnginc or
+engines, air induction sub.ystan, cxhause subsysicm,
+fucl and lubrication subsysiems, starting subsyzicn,
+controls, transmission subaysem, auxiliary power
+unis (if applicable), and infrared radiatioa suppres- sion subsysiem. It also shali includc cooling and fire
+protoction subsysicms. The air induction subaystem
+also shall include inlet protection. In the paragraphs that foliow, engine installation
+considerations. propuloion control requirernents, fuel
+and lubrication suboystem requiremenas. compari.
+ancnt cooling. axpessorics, and APU (auxiliary power
+unit) deaiga ruquirensenis are discueeco. Thc truns-
+mission subsysiom is discussod in Chapter 4.
+3-2 ENGINE INSTALLATION
+3-2.1 GENERAL.
+are poesibie: front drive, roer dr've, side by side for Many differag enginc instalistion arrangemenis
+multienginc bclicopters, otc. Enginc locations noay be
+selected so as to control the owerall CG of the hcli-
+sdpou
+meiry. All ths subeysams zhall function uedi in-
+dividualiy and sogaber as an intogral propuision
+syMem. Enginc instaliations usually fall within onc of three
+cutogories: the cuaploicly subuerged inst aitation, tic
+somi-expcend installation, and tic esposed installa-
+tioa..
+
+AMCP 706-202
+3-3.1.1 Subaerged Inststiation
+The submerged engine installation places the
+enginc completely within the airframe. This arrangc-
+ment, an examplc of which is shown in Fig. 3-φ.
+requires curefui consideration to insure adcquate
+uccessibility for maintenance. Removabic firewall sections often arc used. but
+this requires attention to the detail design of sculs and
+socuring devices to insure that the fire protoction of adjacent components and crew stations will not
+diminish with repcated removal of thc firewalls.
+Although it may be difficult to service submerged engines because of limited accessibility, their location
+ofien makes it possible for mainterance personnel to
+work from ground Ievel or from the cabin floor,
+eliminating ihe nced for built-in service platforms. Becausc the enginc may be located deep within the
+airframe. engine air induction and exhaust ducts
+usually are greater in kengih and more complex than
+foi any oiter configuration. However. (his innerent
+inefficiency may be offsct by the cxte mal clcanliness
+of the aircraft.
+32.12 Icmtallatioen
+The scmiexposed installation usually instiles the
+engine between tbe main gearbox and the top of the
+fusclage. The cngine is mounted directly on the air-
+frame. Tbis method, an examplc of which is shown in
+Fig. 3-2. requires only superficial structure to com-
+picic the engine cnclosure.
+Thc baight of the engine in this type of installation
+usually requires built-ia service platforms. These
+platforms oftan are built into the cowling. so that the
+work platform automatically is availabic when the
+cowl is opencd. When this is impoesible and separste
+platforms are providod. the engine cowling can be
+much lighter becausc it ncod nor be structural.
+The closeness of the rotor to the engine installation
+roquires that careful consideration be given to the
+cowt-locking mechanism. It shouid be casily operabic
+by onc man aad capabik of teing inspoctod frons
+ground levei for adequate security. The scmiexposod instailation Icnds itself well to the
+uae of cither front- or rear-drive cngines borauac the
+engine can be locatod cithier forward or aft of the
+main gancbox. The rear-drive encine muay resuli in
+very sbort cngiae air isduction subeysiens that can
+be anti-iond efficientty by mnst bcaling systems..
+Front-drive enginec may result irn nrore compiex in-
+duction subrysioms, and, becauase of tbeir com-
+3-1

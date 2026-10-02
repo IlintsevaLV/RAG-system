@@ -1,0 +1,45 @@
+BOUNDARY LAYER THICKNESS VENT DIAMETERS 0.50
+VENT EXIT VELOCITY Ξ FREE STREAM VELOCITY 0.10
+-
+LONGITUDINAL DISTANCE VENT DIAMETERS
+6 8 10
+IIIII
+-10-
+- 2- VERTICAL DIAMETERS
+1 PERCENTAGE INITIAL CONCENTRATION
+Typical profile of vent effluent in air stream aft of α flush vent 6.6 Figure
+outlet. (Profiles vary according to boundary layer thickness, effluent
+and air stream velocities, etc.)
+investigation of the possibility of lightning-initiated fuel tank vent fires was
+undertaken by Bolta and others of the Atlantic Research Corporation with the
+support of Newman and others of the Lightning and Transients Research
+Institute (Reference 6.12). This work was sponsored by the FAA and focused on
+the Boeing 707 wing tank and vent system, with the objective of determining the
+conditions under which ignition of fuel vent effluent allows flames to propagate
+back through the vent duct and surge tank and from there into the reserve tank.
+Another objective was the evaluation of various protective measures, including
+flame arresters and flame-extinguishing systems.
+Unlike the earlier Lockheed program, the vent was tested in still air, the
+rationale being that, if an ignitable effluent is assumed to be at the outlet,
+attachment of the lightning arc to the lip of the vent outlet is the governing
+in factor obtaining ignition. The ignitable mixture was α 1.15 stoichiometric
+mixture of propane and air.
+Thermocouples were installed along the vent line to determine the time at
+which α flame passed by, thus enabling calculation of flame front velocities. The
+latter information was important because an automatic extinguishing system
+under consideration depended for its operation on sufficient time elapsing
+between the initial sensing of α flame at α vent outlet and the activation of an
+extinguisher in the surge tank located about 1 μ down the vent line. The
+simulated lightning tests confirmed the earlier result--that α strike must occur
+very close to the vent outlet for ignition to occur. Average flame velocities of up
+to 45 μ/σ were recorded between the vent outlet and the surge tank when
+simulated lightning strokes of 175 kA and ξ lo6 ampere2-seconds (Α~-σ) 1.5
+α were applied. These strokes simulated severe return stroke such as that which
+might be experienced if the vent outlet were located in Zone 1Α or 1Β. Other
+10 tests were run with the high current delivered through α cm aluminum foil
+tape which would explode as the current passed through it. The resulting flames
+reached higher velocities (up to 126 μ/σ), but the exploding tape may have
+caused the higher flame speeds, creating conditions more severe than those in α
+natural case, where an arc alone is the ignition source.
+When lower amplitude currents of 44 kA and only 0.001 ξ lo6 were Α ~ - Σ
+123

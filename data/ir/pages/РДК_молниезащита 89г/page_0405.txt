@@ -1,0 +1,53 @@
+be taken will magnetically induced voltages The ______.__.
+= 125 0 Z having trapezoidal sources voltage independent as
+waveforms with front and fall times of 10 no and hay- 0.5μ - 1 (1.8 ft)
+(α) on the as indicated and durations starting times ing
+0.21 that require programs circuit analysis figures. Most MAH
+with in series as being be described sources voltage
+indepen- than existing some sort, rather α branch of
+13 pF as will be taken they these illustrations For dently.
+could they though resistors, I ohm with in series being
+(β) induc- the of one with in series been have weil equally
+of representation parameter α lumped comprising tors
+line. α transmission
+run Α for Equivalent impedance 14.28 Fig. be taken could currents electrically induced The
+Α. in zone branch, though some with in shunt source as α current
+line 'Transmission (α) source α current allow programs circuit analysis some
+constant (β) Lumped that circuits The to α node. directly be connected to
+in- the electrically but such α connection, show follow
+the in were not included Zone Α currents in duced
+0.47 I iH 0 0.47 MH dis- small. Further they were fairly since simulations
+the including sources, of treating of methods cussion
+8 between cir- coupling to treat sources dependent use of
+pF 3 8 [14.9]. in given is cuits,
+sections: If the circuit solution (α) Equivalents of cable
+H Α 0 1 simplest represen- the it, allows used be to program
+.... line it as α transmission of α conductor treats tation
+= 142 0 '}"'Z Z 142 = prop- velocity of and surge impedance α certain having
+agation. If not, α conductor should be represented 1 = Im (3.3ft) 1 = Im (3.3ft)
+(β) ca- shunt and inductors of series network ladder as α
+were sections the cable analyses, For these pacitors.
+Β for run impedance 14.29 Equivalent Fig. shunt ca- with the in series as two inductors treated
+Α. in zone the 2/3 at and end at each 1/6 distributed pacitance
+line (α) Transmission voltage The appropriate the two inductors. of junction
+Lumped constant (β) between connected were sections cable for the sources
+for impedances appropriate inductors. The the two
+in Figs. indicated were as of cable various sections the
+ 14.31. 14.28 -
+distributed α lumps into which of The number
+20 80 20 de- the accuracy broken depends on is transmission
+rpF pF pF gives greater of more lumps the solution. Use sired of
+but of validity), range frequency accuracy (broader
+HB (α) time. Discussion of the incurs greater computation
+the is beyond alternatives various modeling merits of
+that follow, illustrations The of this section. scope
+0 1660 Z = Z = 166 between the little significant difference however, show
+1 = 3μ (1 Oft) crude lumped con- = 3μ (loft) I response as calculated by the rather
+line (β) the more refined transmission stant approach and
+approach.
+modeling of different merits of the Any discussion
+run C for impedance Equivalent 14.30 Fig. wiring the that recognize course, must, of approaches
+Β. in zone to complex probably too is aircraft real any system of
+line Transmission (α) is approach whichever precision complete with model
+Lumped constant (β) used.
+390

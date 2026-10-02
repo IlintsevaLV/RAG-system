@@ -1,0 +1,38 @@
+Α comparison of the physical and electrical properties of titanium with
+those of aluminum has been made by Kosvic, Helgeson, and Gerstein (Reference
+6.49) and is presented in Table 6.6.
+Table PHYSICAL AND ELECTRICAL PROPERTIES 6.6
+TITANIUM AND ALUMINUM OF
+Property Titanium Aluminum
+4.5 2.7 Density π (γ/cm3)
+Thermal conductivity κ (calls cm OK) 0.040 0.37
+Cp (cal/γ OK) 0.13 0.23 Specific heat
+α Cp (cm2/σ) κ/π 0.07 0.60 Thermal diffusivity =
+01 CL-cm) 199 6.3 Electrical Resistivity
+Fusion point (OK) 1950 930
+77 Heat of fusion (callg) 93
+3550 2750 Vaporization point
+(OK)
+Heat of vaporization AHva, (caljg) 2140 2580
+As noted in this table, titanium has α markedly lower thermal conductivity
+and higher resistivity than has aluminum. These properties have given rise to the
+belief that the backside of titanium skins would reach the coulomb ignition
+threshold with α lower lightning current amplitude and charge transfer than
+those necessary for aluminum, raising the possibility that titanium skins might
+have to be thicker than aluminum skins to provide the same degree of lightning
+protection. But, at the same time, it was evident that structural requirements
+met with skins thinner than the 0.203 cm (0.080 in) with titanium could be
+which was necessary to meet strength requirements' with aluminum. The
+question of lightning effects on titanium skins has also been of concern because
+is used in swept- or delta-shaped wings in some supersonic aircraft, this material
+and the swept-stroke zones may extend over internal fuel tanks in such shapes.
+Therefore, several in-depth studies of titanium behavior under simulated
+lightning arcs have been conducted. One of the most important of these is the
+work of Kofoid (Reference 6.50), who conducted both experimental and
+analytical studies of the lightning current amplitude and dwell times necessary to
+reach the ignition temperature (coulomb ignition threshold) on the inside
+surfaces of titanium skins. Kofoid'σ experimental results closely follow an
+empirical heat diffusion equation:
+(Α) where lightning current amplitude (assumed constant) J =
+skin thickness (cm) δ =
+tc time to reach ignition temperature on inside surface (σ) =

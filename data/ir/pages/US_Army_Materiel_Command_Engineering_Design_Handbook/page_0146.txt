@@ -1,0 +1,92 @@
+AMCP 206-302
+3 high retained sustenite) caso carburizod Α MS 6265
+operrxing in the aame lubricant (Ref. 71).
+The reduction in. Τ. with an increusc in E, is due to
+che complex intaraction of V, and Vp. For constant
+Vr. Τ. falls sharply and then leveis off as V. is
+incrcezod, while ' increases axponentially with Vr
+wion F is hald constant. Bocause the ratio V./V, is
+constant for α given gear design, thesc opposite ef-
+fects tend to cancel sach other over common ranges
+of gear oparating spceds and loads, producing α rela-
+tively constant value of Τ..
+When actual friction data for ε given lubricant-
+metal combination are not available, thc trends
+shown in Fig. 4-24 (Ref. 71) are heipful in design
+review and evaluation.
+From α practical viewpoint, when overpower tests
+show that scoring risk is marginal, the problem may
+tions ae:
+3. Improving the run-in cycle by u.:.:γ longer runs
+at increased load and reduced spced to reiue the
+opcrating surface finishes
+2. Reducing the manufactured surface roughness
+through better grinding practice or the use of gear
+tooth honing where possiblc
+3. Reducing the value of Τ, through incrcased
+lubricant flow or cooler lubricant sipply.
+When such mcasures prove inadequate, the lubricant
+and the metallurgical microstructure should bc
+evaluated. If neither can be improved, it may be
+possible to improve the involute modification or pro-
+file and the tooth spacing error.
+_INLET OIL TEMP. - 140-F AMS 660 DISXS (4.0 μ. 01α )
+OMA.-708. OIL MIL-Λ-23695Α OIL
+V, + V, 5250 11 8ν - SAE Δ STRAIGHT MINERAL O:Λ
+FALUME LIAD. * 2000
+1000
+1500 2000 2500 3000
+V, - v, R
+Flgure 4-24. Scuflag Load vs Ixbricant —
+Unaynchronized Diacs
+444
+
+4-2.2.1.2.3 Piting Fallure
+There are severa! pitting failure modes that in their
+advancad states produce the sarne end result: exten-
+sive spalling and tooth fracture. Only three of these
+modcs are relevant to the type of gcaring usod in
+modern helicopter drive subsystems. They may be
+classified as casc failure, classic or pitch-line fatigue,
+and wcar-initiated failure.
+4-2.2.1.2.3.1 Caxe Failure
+This mode results simply from inadequate depth of
+case to support the operating load. It may be avoidod
+by adjustment of either unit load or casc depth to ob-
+tain α ratio of subsurface shear stress to shcar yield
+strength in excess of α particular critical valuc. Ref.
+79 recommends that α value of 0.55 for this ratio not
+be cxcecded; however, for high-quality belicopier
+E caring transient operations at values between 0.55
+and 1.0 should not resuit in failurc. Extendod opera-
+tion above the critical ratio will cause subsurface
+cracks to occur near or in the case-core transition
+area as α result of the repetitive subsurface shear .
+stressing. These subsurface cracks soon spread to the
+tooth profile surface and generafiy resuit in numerous
+brittle longitudinal fractures in the general area of the
+single-tooth contact zone. Total mutilation of the
+tooth profile then results from only α few additional
+cycles of load application.
+The variation of subsurface shear stress with depth
+may be calculated in α straightforward manner. The
+magnitude of the subsurface shear for α given depth is
+α function of Σ. and the Hertzian contact band
+semiwidth β. The calculation should be made for the
+lowest point of single tooth contact (LPSTC) on the
+pinion involute surface (unlees the gear momber is
+considerably weaker) becausc this produces the
+maximum value of Σ.. Σ. may be calculated in
+accordance with the methods shown in par. 4-
+2.2.1.2.3.2. The effective tootn load Ω,' and the radii
+of curvature should be adjusied for the LPSTC. The
+Hertzian semiwidth & is relatod to Σ. in the following
+manner:
+β = (2.50× 10-)( уз ј σ. in. (47)
+where , and ρ. are, as defined pre-jously, the radius
+of curvéture of the pinion and gear tooth, respective-
+3503 Iy.
+Table 4-5 next should bc usa3 to catc & late values of
+shear stress Σ, at 12 depths. These values then may be
+plotted along with the allowable σ:ress as shown in
+Fig. 4-25. The allowablc values shown are 55% of the

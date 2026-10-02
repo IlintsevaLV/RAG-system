@@ -1,0 +1,25 @@
+Figure 1.19 (Reference 1.22) gives a distribution of the time for the
+current to reach its peak amplitude. This time is subject to considerable
+interpretation for any particular lightning stroke, since there is seldom a clearly
+definable time at which the stroke starts. Lightning strokes typically have a
+concave front, starting out slowly and then rising faster as the current gets
+higher. Thus, the effective rate of rise of the lightning current is not directly
+obtained by dividing the peak current by the front time. The best summary of
+1.13). of (Reference The rate the effective rates of rise is given on Figure 1.20
+rise of a lightning current is an in~portant factor in determining how much
+determining how many voltage is induced into electrical equipment, and in
+lightning conductors are needed and how they sliould be placed.
+90 60 2 5 95 98 99 99.9 99.99 50 0.01 0.1 10 20 30 40 70 80 1
+> ORDINATE %
+Distribution rates of rise. Figure 1.20 of
+The duration of the stroke current affects the distance across which side
+flashes may develop, and affects how severely metal structures may be deformed
+by magnetic forces or the explosive libelation of energy. This distribution 1s
+1.24). shown in Figure 1.2 (Reference The duration of the stroke, which is 1
+measured in tens of microseconds, should not be confused with the total
+duration of the lightning flash. The total duration, shown in Figure 1.27
+(Reference 1.25), is frequently on the order of a second. The duration of the
+total flash is influenced by the number of return strokes in the flash (Figure 1.23
+1.261) [Reference and the time interval between strokes (Figure 1.24
+). [Reference 1.271
+1.28) Figure 1.25 (Reference gives information on the total charge

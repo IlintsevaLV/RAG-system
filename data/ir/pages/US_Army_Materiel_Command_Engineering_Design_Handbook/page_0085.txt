@@ -1,0 +1,108 @@
+shaft and coupling inspection and overall mainte-
+nance. With this configuration, it is imperative that at
+least one of the drive shaft couplings be capable of
+providing adequate axial displacement.
+The positive gimbal or ball joint may be replaced
+by an elastomeric element that supplies vibration iso-
+lation in addition to the flexibility of mechanical
+joints. Isolation mounting systems are discussed in
+the paragraph that follows,
+ISOLATION ENGINE VIBRATION 3-2.3
+engine an that specifies 706-203. AMCP 8. Chapter
+determine the to conducted be survey vibration shall
+dilona tst lanstell e pepaedandgrond nd and ground and prepared, be shall plan test a dition.
+flight tests conducted to verify that the engine vibra-
+lion environment is satisfactory.
+of flow a require will design helicopter Successful airframe the manufacturer. engine the among data
+danufacta a ng the engine r. ma acture The ing afre . s
+manufacturer, and the procuring activity. This flow
+8. Chapter in defined are data required the and S
+required andthe dtype
+As pointed out in AFSC DH 2-3. a mounting sub-
+system be designed so that the fre- natural shall
+quencies of the engine(s), when installed in the heli-
+) copter, do not exceed a certain limiting frequency in
+those modes of motion that may be energized by the
+vibratory-forcing functions generated during the
+operation of the helicopter. The natural frequencies
+exceed 70% of the lowest frequency shall of the not
+forcing function,
+IFIREWALLS 3-24
+To provide for isolation of fires, zones that contain
+both combustible material and a source of ignition
+must be defined and be separated from the rest shall
+of the aircraft by firewalls. The firewall must with-
+stand a 2000°F flame for min. 15 Sources of ignition
+be may hot engine surfaces or electrical connections.
+High pressure ratios and increased cycle tempera-
+tures have made virtually the entire engine surface an
+ignition source. Consequently, the practice of
+defining the entire engine compartment as a fire zone
+has evolved.
+Stainless steel, at least 0.015 in. thick, is the most
+commonly used firewall material. However, in appli-
+cations employing a structural firewall, im-
+provements in weight and cost-effectiveness may be
+realized by the use of titanium or other suitable
+material. In such applications the structural
+requirements usually are predominant, and the
+material thickness required is easily capable of pro-
+viding the necessary fire protection.
+Firewalls provide the most effective protection
+when they are kept free of sharp protuberances such
+
+as angles. clip%. and brackets. This allows the fire-es-
+tinguishing system to operate efficiently. more
+Engine installations incorporating sualy nacelles
+require that only the interface to the airframe be ffre-
+proof. This area, therefore. should be kqx to a mini-
+mum to achieve minimum firewall weights.
+Side-by-side ertinc installations require a common
+center firewall, which can be made removable to
+enhance engine accessibility. When is this done. care
+seal. rugged to insure a tight-fitting. must be taken
+this for attractive most appear seals All-metal
+lapped. or butted either seals, Pliable application.
+firewall the reducing thereby deteriorate, eventually
+removable section provides the seal Thb. integrity. with a certain amount of inherent support, facili-
+rtating removal or installation. Side-by-side engine in-
+stallations are not desirable due to vulnerability and
+sirations. sualion
+considerations. survivability
+On each face of firewalls. and immediately adja-
+cn hrtuesol emd fmtraso
+a or materials of made be should use thereto. cent
+that will not ignite as a result of heat transfer
+from flame on the opposite side of the firewall. Com-
+bustible fluid-carrying lines that traverse a firewall
+be equipped with shutoff valves. shail
+3-2.4.1 Fire Detectors
+Three basic types of detection systems are used: in-
+frared, continuous wire, and spot (thermal sensors).
+The infrared or surveillance fire-detection system
+provides extensive fire zone coverage.
+AContinuous wire fire-detection systems are of two
+types: those in which the resistance across a eutectic
+salt filling an annular space between two conductors
+is monitored continuously, and those in which in-
+creasing pressure of a gas trapped within a sealed line
+pneumatically actuates a switch. Each of these types
+is routed throughout the fire zone in the areas where
+temperature changes caused by fire are likely to oc-
+cur. The continuous-wire elemert is subject to vibra-
+tion and maintenance damage, which can result in
+false fire alarms. However, continuous-wire systems
+are not vulnerable to false alarms from sunlight.
+The spot type of fire detector, or thermal sensor,
+actuates a switch to trigger the master fire-warning
+circuit. This type inherently is more rugged than
+continuous-wire detectors, but has very limited
+coverage. As a result, spot detectors in reasonable
+numbers can be used only in fire zones oý limited
+volume, such as combustion heater compartments.
+MIL-D-27729 covers volume surveillance types of
+flame and smoke detection systems. MIL-F-7872
+covers continuous-type fire and overheat warning
+systems. MIL-F-23447 covers radiation-sensing (sur-
+type) veillance fire warninp systems.
+3-5

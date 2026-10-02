@@ -1,0 +1,21 @@
+I
+PASSBAND 01 RECEPTOR
+ENERGY SPECTRUM
+LIGHTNING OF
+INTERFERENCE
+frequency (a
+f IR.
+Frequency considerations. Figlrre 15.6
+to couple lower volt:rges in the signal path. It rnust not be forgotten, however,
+that the use of twisted-pair t~.ansmission lines does not eliminate the common-
+mode voltage to which electronic systems may be subjected. Comtnon-mode
+voltages applied to the unbalanced transmission path, as in Figure 15.7(b), can
+may at times be as high as the common-mode lead to line-line voltages which
+voltage.
+Differential transmission and reception devices, shown in Figure 15.7(c),
+can offer a many-fold improvement in the ability to reject the con~mon-mode
+voltages produced by lightning.
+In general it is preferable that wiring interconnecting two different pieces
+of electronic equipment not interface directly with the junctions of semicon-
+ductors, as shown in Figures 15.7(a) and 15.7(c). Even modest amounts of
+resistance connected between the junctions and the interfacing wires, shown in

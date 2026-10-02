@@ -1,0 +1,37 @@
+are involved factors that Lead several The of MOVs: of Rating overshoot of alleged Most instances effects:
+us- be illustrated MOV device will α rating of in the to lead inductance due are usually protectors MOV
+series V130LA Electric the General an example ing as ma- the varistor to really intrinsic are not and effects
+in Tables are shown of which characteristics device, surge pro- or any other MOVs, When applying terial.
+available from are devices Similar 17.2 [17.1]. 17.1 and any short to keep should be taken device, care tective
+be taken not should illustration and the other vendors currents changing or rapidly high which through leads
+device. Ap- of brand of any particular endorsement an the inductance developed across Voltage might flow.
+adds to the voltage developed across the plication of MOVs should be based on manufacturers of such leads
+varistor material. As an example, Fig. 17.19 shows catalog data.
+two installations of MOV devices such as might be
+size: used on α 115 VAC power circuit, one using the min- Device The most common packaging configura-
+tion for MOV devices is α disk with wire leads. The imum practical lead length and one with leads about
+15 cm (6 in) long, along with the voltages developed column listing the device size refers to the diameter of
+by half sinusoidal current waves. For α current wave the disk. Thickness depends on the voltage rating of
+with α 10 ps front time the voltage is about the same the device and will be given in outline drawings, but
+with the two lead lengths, but for α current with α 0.5 not in tables of specifications. Larger diameter disks
+ps front the voltage was nearly double with the longer have greater current carrying capability than smaller
+leads. disks.
+Excessive lead length is α problem irrespective of
+the type of protector. Leads should always be kept as
+short as possible and, wherever practical, surge ar-
+three terminal devices. be treated as resters should
+Fig. 17.20 shows examples of good and bad practice. AREA 22 0 CMZ
+2 PROBE VOLTAGE cm 0.5 AREAa
+FRCM COPPER Τ]BE OUTPUT LEAD
+~PAT SURROUN ING GENERATOR TRANSIENT 11 PROBE CURRENT VOLTAGE
+VARISTOR CURRENT
+PATH
+.VARISI"OR
+(α) Minimal loop area Excessive loop area (β)
+-- •----1160 V
+=22cm 2 Α
+(χ~ι •" (δ)
+Fig. 17.19 Lead effects [17.11.
+(α) Short leads it) Current rise of 8 ps
+(β) Long leads (δ) Current rise of .is 0.5
+446

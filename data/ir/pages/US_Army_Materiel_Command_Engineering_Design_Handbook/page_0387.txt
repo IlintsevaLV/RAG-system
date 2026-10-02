@@ -1,0 +1,111 @@
+AW 70&202
+avoided should be solenoids (holding) Split-coil
+valve desijln. Upreliab,lc operation, caused
+aettings starting-coil switch and malfunctions,
+usually solenoids. This problem in overheated
+weight lower rides such desirable features as the
+split-coil designs.
+Servo-valve-cover deflections or shocks can
+valve manfunctions if the cover ih mounted upon
+semro valve motor instead of the main valve
+Adequate clearance between cover and motor
+effects be provided in order to minimize of
+dents. Covers should be of ungged design.
+Hydraulic presure surges du- to valve spool
+may prevented be by the use of slow valving
+band) quate dead or electric time delay.
+valves, operated of eloa.trically case In thr
+sideration given be to valve positioning, and shall
+the effect upon the system should electrical power
+applied inadvertently to two electrical inputs doe
+shorting, etc. Relays can insure predictable operation
+this abnormal situationpower in
+hyd in eme abnormaulc odesign uen.υ
+Hydraulic emergeno cy oveboard dump pssal vaiv
+have sufficient flow cap&city to avoid back pressure
+divert can dsigns, system. some in θ-τ, buildup
+and valves selector through reservoi. the to
+result may reservoir to the fluid Directing valves.
+reservoir overpressurization and failures under
+taD conditians.
+SDifferential arca vent sc~λ wear ad leakage can
+cur fron plunger normal fnation system fiuiring
+pressure fluctuations. Long-li;ε seals, or valve designs
+incorporating little or no plunger motion during
+are desirable, fluctuation, pressure system mal
+leakage internal valves, half.trail of case the In
+when in the neutral half-trail position should
+evaluated for its effects upon subsystem operation.
+When leakage from cylinder pressure to blocked
+is greater than leakage from block cylinder port
+return, pressure buildup in the blocked circuit can
+cur, resulting in unwanted loads motion or in
+blocked circuit. Excessive leakage from the blocked
+cylinder port to return can result in unwanted motion "• external loads. from
+from xteral lads.The High-pressure tests with return ports capped
+result in overpressurization of components.
+return proof pressure rquirement should be
+patible with system operating pressure,
+-ρ -π
+Lubrcation 9-2.9.12
+Experience indicates that graphite-loaded grease
+tends to dry up in high-temperature antifriction
+bearing applications, leaving α residue of hard graph-
+function. proper bearing with itc that interferes
+9-32
+
+_____________________
+Λ protected. .ala/λ and be labri-ated joints All critical in
+compatible by The lubricant must be with oiling.
+results Lubrication of mechanisms that located in α Are
+jemmlWg as α can result in area over- high-temperature
+of result of burned oil carbon.
+component Left- and right-hand lubrication fit-
+shall cause tings shall be multiple, or be located so as to be
+the accssible.
+body. Long lubrication paths result in frozen irease and
+should blocked fittings.
+minor- Unclamped monoball bearirigs must have two
+grease fittings in order to insurv proper lubrication
+ID and OD. shift on both
+(ade-
+SYSTEMS PNEUMATIC 9-3 con-
+to 9.3.1 PNEUMATIC SVSTEM DESIGN
+be Te decision to us α compressed ε rather than gas
+pressurized liquid as to α working medium in fluid α
+during poer tediminafy lisysemas α
+during the preliminary system is made ontrol
+phase. The various tradc-offt to be considered
+in making the choice are presented in Chapter 9,
+AMCP 7 The paragraphs that 7-201, follow describe pneumatic- α for onsiderations design detail the fluid
+check
+system. in
+cer- 9-3.1.1 Systo Analysis ι
+The design and aialysis of α pneumatic system
+oc- become considec'ably involved when nonlinearities
+are considered. The derivation of α mathematical
+model describing the physical phenomena of corn-
+nor-
+fluid the where -- system α through fluid prssible
+in changes epansionu, restrictiorfc through passes
+dire, tion, etc. proves difficult and results in cume- --
+be . •_ε.uat.o. .
+For example, the flow within the system, or the
+port pressure drop, will vary between the extremes ofadia-
+to batic Pfow (no heat transfer) and isothermal flow. The
+oc- basic for formulas adiabatic and isothermal flow are
+the given in par. 9-5.5, AMCP 706-201. The formula for
+calculating the mrximum ms flow of ai: within α
+paragraph. same the in pr-tended is system
+calculation of flow through novIxcs, orifices can Tecluaino lwtruhnzls rtws
+The piping, valves, and fittings may be simplified by use
+The of charts and graphs for expansion factors, orifice
+coefficients, iftical pressure ratioc for zzles, and
+. relative roughness and friction factors Zoi π .hng and
+tubing. Familiarity with the simplified χ4uations of
+Refs. 2 and 4, and use of the tables, graphs, and
+charts cont'iined therein, will allow α good analysis of
+an entire system or component to be made. -o
+venfication rhe of the design through actual
+operational test of the system or component per-
+goal. ultiinatc is the designer'σ formance

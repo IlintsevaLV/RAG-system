@@ -1,0 +1,24 @@
+reached α large fraction of its final value. In three tinie constants the
+diffusion-type response reaches 90%', while the exponential response reaches
+95% of its final value.
+SECTIONS) R/ν (ν
+SECTIONS) (ν I ouf
+(β)
+10.7 Ladder networks displaying α diffusion-ty pe response. Figure
+R/C (α) network
+(β) Λ/R network
+10.13 it should be noted that the penetration With respect to Equation
+time constant is directly proportional to the pernieability of the material,
+inversely proportional to the resistivity of the material, and directly proportional
+to the square of thickness of the material. The relative pernieability of structural
+material used in aircraft is almost always very nearly unity. Thickness and
+resistivity can vary over wide ranges.
+For reference, Equation 10.13 is shown plotted in Figure 10.8 as α
+function of material thickness and the resistivity of the material. The resistivities
+10.1. As an exarnple, if we assume an of some typical metals are shown in Table
+aluminum alloy of resistivity twice that of copper and α skin thickness of 0.040
+inches, the penetration tinie constant would be 3.9 ps. If α step-function current
+were established on the outside of α sheet of such metal, it would take 11.7 ps
+the current density on the other side to buildup to 90% of its final value. for
+V2. The Returning to Figure 10.5, we are now in α position to evaluate
+fundamental definition of the voltage between any two points is

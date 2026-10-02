@@ -1,0 +1,38 @@
+Zone 2. Surfaces of the vehicle across which there is a high probability of
+a lightning flash being swept by the airflow from a Zone point of direct 1
+flash attachment
+Zone 3. 3 Zone includes all of the vehicle areas other than those covered
+1 and Zone regions. In Zone there is a low probability of any by Zone 3 2
+direct attachment of the lightning-flash arc, but Zone areas may carry 3
+substantial amounts of electrical current by direct conduction between
+some pairs of direct or swept-stroke attachment points in other zones.
+BFI definitions further divide Zones and into A and regions The Task 2
+depending on the probability of the flash hanging on for any protracted period
+of time. An A-type region is one in which there is low probability that the arc
+will remain attached, and a B-type region is one in which there is a high
+probability that the arc will remain attached. Some examples of zones are as
+follows:
+Zone Initial attachment point with low probability of flash hang-on, 1.4.
+such as a nose
+Zone IB. Initial attachment point with high probability of flash hang-on,
+a tail cone such as
+ZA. Zone A swept-stroke zone with low probability of flash hang-on, such
+as a wing mid-span
+Zone A swept-stroke zone with high probability of flash hang-on, 2B.
+such as a wing trailing edge.
+The Task F definitions are not in conflict with the FAA criteria but,
+rather, are broader in scope and consider the complete aircraft in addition to
+those areas of importance to the fuel system, which is the system primarily
+FAA AC 20-53. addressed by
+F In accord with the Task criteria, typical lightning effects and test criteria
+(described in subsequent chapters of this book) have been categorized according
+to each of these zones. The actual boundaries of each of these zones on a
+particular aircraft can never be exactly determined, but they can be established
+with sufficient accuracy to enable adequate lightning protection to be designed
+for the aircraft.
+Initial lightning attachment points (Zone IA) can usually be established by
+inspection and comparison with other aircraft in-flight experience. Locations of
+in the other zones can then be deduced from the locations of Zone lA,
+accordance with the definitions. Alternately, simulated lightning flashes can be
+B) 1 (A and fired in a laboratory to a model of the aircraft, and the Zone
+attachment points determined photographically; however, the validity of such

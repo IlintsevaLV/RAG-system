@@ -1,0 +1,40 @@
+4. Determine the voltages and currents developed by sections by those fields. To simplify the illustrations to
+the fields. These will be used to drive the equiv- follow, only the magnetically induced voltages shown
+alent circuits. in Figs. 14.26 and 14.27 will be considered.
+5. Develop equivalent circuits of cable sections.
+6. Identify end impedances, perhaps limited to opens
+and shorts.
+7 Develop complete equivalent circuits.
+8. Calculate response.
+14.6.2 Example of Modeling
+The above steps will be illustrated for the hypo-
+thetical aircraft of Fig. 14.21. It should be viewed
+only as illustrating the steps in the modeling process, diameter 1.5 cm
+and not as α representation of an actual circuit in any
+realistic aircraft. The illustrations will assume that IQ the aim is to 4 cm
+develop an equivalent circuit that can be solved with "α time domain circuit analysis program that accepts[(_8 • ////"'
+cm 8 "α and nodes its of terms in circuit the of description
+branches. Several programs that do so are ECAP,
+(χ) (β) are described of which principles SPICE and EMTP,
+6 in the literature' [14.3 - 14.7]. The illustrations that
+were performed follow using α program [14.8] based
+on the principles described in [14.5]. Fig. 14.22 Cable in zone Α.
+(α) Lengths
+(β) Position for run Α
+cockpit Position for run Β .(χ)
+zone Bbay
+Fig. 14.21 Hypothetical aircraft.
+diameter 1.5 cm =
+Breaking into sections: For this illustration the air-
+craft will be assumed divided into the three indicated ! ,___ I, .I .....
+zones. Α cable runs from the cockpit to the cargo bay,
+with no intermediate branches. average II
+height em =6
+Cable geometry: The cable geometry, heights and dis-
+tances from ground planes, will be assumed to be as
+shown in Figs. 14.22 14.24. - MEH and The fields: electric and magnetic fields in the
+0
+different zones will be assumed to be as shown in Figs.
+14.25 - 14.27. The figures also show the currents and
+voltages that would be developed in the various cable Fig. 14.23 Cable in zone Β.
+388

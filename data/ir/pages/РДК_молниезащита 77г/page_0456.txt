@@ -1,0 +1,43 @@
+15.6.5 Surge Protecting Connectors
+At least two lines of activity have been pursued with the aim of
+incorporating surge protective devices directly in electrical connections. One
+15.2) approach (Reference incorporated spark gaps between the connector pins
+and the connector shell. Α high dielectric material, rutile, was used to stimulate
+internal flashover and to achieve α protective level of about 1100 to 1300 V with
+an impulse ratio nearly unity, even with voltage rates of change of 10 kV/π.
+(100 This design withstood extremely large currents to 250 kA). The work on
+U.Σ. this device was performed at Sandia Laboratories and supported by the
+Atomic Energy Commission.
+Another line of approach uses zinc oxide varistor material to hold the pins
+α connector. This work is being done by General Electric Company for the in
+U.Σ. Army Harry Diamond Laboratories. Neither of these protective connector
+designs is yet available commercially.
+15.7 Improvement Through Transient Coordination
+α Transient coordination is concept which, when reduced to its simplest
+to terms, implies that targets relative transients will be assigned both to those
+that design electronic equipment ("black boxes") and those that design wiring to
+interconnect those black boxes. The task that is to be assigned the designers of
+black boxes is to produce equipment that will be able to withstand transients on
+all of the input and output wiring. The targets that form α part of the task will
+be specifications describing the type of transients that the equipment must
+withstand and to which it will be subjected as part of an acceptance or proof
+test. The task that is to be assigned to the groups designing interconnecting
+wiring is that no external threat, such as lightning or switching of inductive
+devices, shall produce on the wiring transients larger than those which the black
+box was designed to withstand. The target numbers to which the wiring designer
+must work will be maximum amplitudes of current, voltage, and surge energy.
+α referee who The assignment of such tasks implies that there must be
+assigns the appropriate target numbers and oversees the work to ensure that both
+parties fulfill the tasks assigned. This referee may be called the system integrator.
+15.8. The aims of The transient coordinator philosophy is illustrated in Figure
+transient coordination would be the following:
+Insure that the actual transient level produced by lightning (or any 1 .
+other source of transient) will be less than that associated with the
+transient control level number assigned to the cable designer. The
+cable designer'σ job would be to analyze the electromagnetic threat
+that lightning would present and to use whatever techniques of
+be circuit routing or shielding would necessary to ensure that the
+actual transients produced by lightning did not exceed the values
+specified for that particular type of circuit.
+The transient design level controlling the type of circuit or circuit 2.
+protection techniques used, and assigned to the avionics designer,

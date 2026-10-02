@@ -1,0 +1,63 @@
+Fig. 11.32(a) shows the magnetic field (or current
+density) at the center of one of the faces formed from
+CFC, while Fig. 11.32(b) shows the field at one of
+metal sides, the solid lines showing the waveforms for
+the box with CFC sides and the dashed line showingD
+the waveforms for the box composed entirely of
+At early times, the currents divide uniformiy between
+the sides made of metal and CFC material, and the
+magnetic fields at the two surfaces are the same.
+those early times the distribution of current is
+that the internal magnetic fields are zero, as sketched.-
+on Fig. 11.33(a).
+0
+-12
+-
+12- - Ps 3.4 0
+(a)
+11.2
+0
+a.4 (b) 0 us
+Fig. 11.32 Tangential H fields.
+(a) Above a composite fe
+(b) Above a metal face
+As time goes on. the current transfers from
+CFC sides to the metal sides. As a result the magnetic
+field at the CFC side decreases while it rises (for
+times indicated on the figures) on the metal sides.
+is accompanied by a buildup of magnetic field on
+inside of the box, as sketched on Fig. 11.33(b).
+Fig. 11.34 shows the electric field along the
+side. This, along with the internal magnetic fields,
+O would act as a driver for conductors located inside
+box.
+
+composite
+the
+metal metal
+metal. composte
+(a)
+For
+such
+(b)
+field patterns. 11.33 Magnetic Fig.
+(a) Early time
+(b) Late time
+-
+1.36
+0 8.4 Ps
+Fig. 11.34 Electrical H field above a composite face.
+11.3.2 Redistribution On a Wing Box
+So far, the examples which have been presented
+are for idealized geometries, but the numerical meth-
+the ods also work when applied to realistic configurations
+encountered in aircraft. An example is the aircraft
+the wing box shown in Fig. 11.35, calculations and mea-
+This surements for which were reported in [11.61.
+the
+DimnWsone: The wing box was 2.6 m long, 0.7 m
+CFC wide, and 0.1 m thick. The top and bottom skins, the
+side, the internal spars and one of the ribs were made
+the of CFC. One rib, four strips and the ends of the box
+were made of aluminum. Thicknesses were as follows:
+325

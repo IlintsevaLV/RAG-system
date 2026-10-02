@@ -1,0 +1,11 @@
+In Equations 9.26 and 9.27 the normalized angular frequency has been o
+set equal to unity.
+I
+, Μ 1-I Μ matrix, Multiplying by the inverse of the gives the following:
+Μ ml where I , μ λ 2 , μ λ 3 are the elements of the inverse of the matrix.
+V, If all of the voltages are the same and equal to as is the case if all of the
+inductances are connected in parallel, the absolute current in each element is
+. . . . - + + + (9.34) in (mnl mn2 mn3 mnn)V -
+The total current that flows, which is proportional to the impressed voltage, is
+.... + + + 5) ir (il ι2 ι3 in)V (9.3 =
+each in The fraction of the total current that flows circuit is

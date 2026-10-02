@@ -1,0 +1,90 @@
+doors, in which case, )ong thin open slots are created.
+The coupling through such seams is on the borderline
+between the %perture coupling described in this chap-
+ter and the diffusion coupling described in Chapter
+Coupling into seams may be discussed in terms
+of Fig. 12.19, Which shows α lightning current of den-
+sity flowing acrose the seam. The current, flowing J.
+through the transfer impedance of the seam creates
+imped- Tfransfer interior surface. rise on the voltage
+awi typically has two components: α resistive compo-
+nent due to the flow of current through resistive films
+or through resistive fas' eners and an inductive compo-
+nent due to leakage of magnetic fields. The resistive
+component generally predomiuates when overlappiag
+metal surfaces are joined permanently with rivets K
+bohs. With surfaces that are easily separable, such
+bays, to equipment entry panels providing as access
+An may predominate. inductive component the
+pedance proportional to the square root of frequency
+is frequently observed if the faying surfaces make good
+metal-to-metal contact and the seam' is fastened with
+multiple tightly fitting rivets [12.15]. Such an imped-
+ance is characteristic of the diffusion coupling mecha-
+nism discussed in Chapter 11.
+- seam impedance
+....
+.
+() χ12.11
+RCL
+ JS 7- - (β)
+* RESISTIVE SEAM: V smands
+3
+Vs,, Las SINDUCTIVE SEAM:
+=TRANSFER , RESISTANCEN Transfer
+INOUO'TANCE--'" TRANSFER ε ' Impdmncg !Z
+ACTS - Vg AS Α SOURCE WHICH DRIVES INTERIOR OF
+SHIELDED VOLUME
+Fig. 12.19 Seams and joints,
+
+Seam impedances have amplitudes in the range
+to 1 0. μ, with typical values on the order of 10-6
+μ. The lowest resistance is, of course, asso- 10' Qi.
+11. ciated with the most tightly joined contacts.
+12.10 Incorporation of Seam Impedances into
+Numerical Solutions
+α
+be impedances can easily concept of seam The
+used to calculate internal fields in cavities with the 3Δ
+finite difference technique. For example, for α seam
+with resistive and inductive components, the potential
+across the seam is:
+(LOJ./.τ + RJ,)
+or (12.75) Et -
+where
+the joint electric field in = transverse im- Et
+seam inductance = Λ
+= seam resistance R
+Α. finite difference cell size =
+These values of E in the seam aperture create α
+boundary condition on electric fields which is used to
+of Because equations. difference finite Maxwell'σ solve
+fields the code, of type this in needed cell size finite the
+not are the aperture from away cells one or two within
+accurately modeled, but the fields further than that
+examples of com- modeled. There are are accurately
+parisons of this method to experiment for nuclear elec-
+tromagnetic pulse coupling to shelters, with excellent
+agreemenit [12.16 - 12.18).
+Analysis of Complex Apertures
+Classical methods (integral-equation techniques,
+small hole theory) of analyzing apertures are con-
+founded by the presence of irregularly-shaped cavities
+conductors. It appears that numerical which contain
+techniques provide the best hope for solving realistic
+geometries. These techniques, such as the finite differ-
+pos- Α geometries. irregular solve can method, ence
+resolve to order in that, is however, limitation, sible
+small geometrical features, small grid size and time
+steps must be used, which may place unreasonable de-
+on computer resourcev,
+which can be used are techniques, however, There
+to solve the aircraft external interaction response with
+α large grid, and then use the large grid results to
+aircraft the of aperture) an (ε.γ., subset small α solve
+with α smaller grid which can resolve the geometrical
+details. Three approaches are presented here: α tech-
+nique based on the equivalence principle; an approxi-
+mate technique based on the uniqueness theorem; and
+α nested subgrid approach.
+340

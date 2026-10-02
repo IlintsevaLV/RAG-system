@@ -1,0 +1,106 @@
+of the propeller, the detrimental effects ef propelier
+rougbness can be minimized. The importance of pro-
+pelier baiance and bigher order excitation to aireraßτ
+design and its integration with the overali aircraft dy-
+namic system, which determines the damping and
+transmissibilisy of thesc excitation loads to the air-
+fraune.
+58.3 PROPELLER HUBS, ACTUATORS, AND
+CONTROLS
+The design methods described in this paragraph
+relaie primarily to the propeilers of one tnanufec.
+turer. In these propellers, pitch change actußion is
+hydraulic, bus many of the design aspects apply to
+aimost asy configuration. The discussion is limited in
+scope inasmuch as propeller design, development,
+and manufacture usually are performed under sub-
+contract, or u:der separate prime contract, and pro-
+vided as Governmens-furnished equipment (GFE).
+5-8.3.1 Propeller Barrel and Blad: Retentiotes
+The shape of the propaller basre! is determineu by
+ihe biaoss. Α spiit, or two-piect, barrcl is ased for
+high power propclcrs with solid aluminum blades; α
+one-piece barrel with α single integral blade retention
+race is used for low power propellers with soli: alu-
+minum blades; α on:-piece barrel witf, multipie inte-
+gral rac:σ is used fer propelleis whose biades are
+made with α steel core and α Fiberglas shell. The last
+type gunerally is used nor helicopter installation and is
+the τ/pe that is discus:sd.
+The barrel assembly cousists o: the barrel, biade
+retention balls, seals, and clampr. 3 he barrel itself is α
+one-piece, vacuum-melte δ stecl forging icorpos-
+ting the besting race tor biade retention. The tafi-
+shaft of ihe Jarrel extends into the gearcase and is
+driven directly through α splined joint. Th:ε tailshaft
+is supported cn two radial roiler barings — front
+aud rear -- se that psopeller momen*σ aro reacted
+disctly into the gearcust iousing. Propeller thrust
+loads are reacted through an angular coniast becring
+at the front of the tailshaft.
+5-8.3.1.1 Banrel Loading
+The following loads sre considered when designing
+α propeller barrel:
+1. Centrifugal force. Blade centrifugal force is
+transmitted to the retention, barrel arm, aud tront
+and rear rings, where it is reacted clsstically witnin
+the barre!. For purposes of analysis, the barre! is con-
+sidered to contain α front and σ rear structural ring.
+2. Steady bending moment. Steady bending ino-
+ment is due to aerodynamic loading on the blade, or
+
+AMCP 705-202
+to the blads being offset from α sadial linc. The mo-
+ment is transmitied from the blade to the retention,
+to the basrel arm, to the front aud rear rings, and into
+the tailshaft. The inplarc comp:nent is reacted by the
+spined joint, and the out-of-plaie component is
+reacted elastically within the barrel.
+3. Propeller thrust. Thrust is transmitted from
+the blade to the retention, to the Siadc arm, to che
+front and rear rings, and to che tailshaft where it is
+reacted ty the tailehaft thrust bearing.
+4. Propelles torque. Torquc is transmitted from
+the blade through the retention to the blade arms and
+into the tailshaft, where it is rcacted through the drive
+spline.
+5. 1Π-aerodynamic bending moment. The inplane
+component of 1F-vibratory loading is transmitted
+from the blade to the retention, to the barrel arm, and
+into thc front and rear rings. There, because of the
+unsymmetrical load phasing among tt.ε blades, is is
+reacted clastically within ihe barrel. Tne out-of-plane
+comnponent contributes to α combinect bending sno-
+ment on the tai!st aft, reacted by front and rear rudial
+bearings.
+6. 1Π-aerodynamic side force. This force is trans-
+mitted like 1Π cut-of-plane moment end is reactec by
+the tailshaft radial bearings.
+7. Higher-order vibratory loads. Moments and
+forces at higher orders (2Π. 3Π, 4Π, etc.) combine in
+various patierns depending upon the load phasing
+among the biudrs. Accoiding to theis patterris, these
+liads may be reacted elasticaily withis the bsrrel or
+transmitted to the tailshsft bearings and resctes as α
+bending moment or α forc-und-aft ur side force. They
+also combine in α vibratory torque.
+8. Gyroscopic moment. Bending moment ftom
+gyrescopic action affects the Sarrel like 1Π-aerody-
+namic moment.
+9. Fropeller effcctive weight. The side force from
+propeller weight, multiplied dy the aircran vertical
+load facic.ρ, affects the barrel like IP-areodynamic
+side for:χ.
+10. Bearing pressi.τ loads. The tailshaft bearings
+are pressfit onto the tuslsheft and irapose α compres-
+sive load locally.
+11. Axial preioac. Tensile load is imposed on the
+tailsinaft by axial prelouding of the shaft bearing
+agsinst α shaft shouldei.
+12. Blade tovi: ting moment. Α combination or cen-
+trifugal, frictional, and aerodynamic effects, pro-
+δ.ccs α twisting moment eround the blade pitch
+change axis. This is tranzferred indirectly to the
+barre: as α couple between the biade retentior anc the
+pitch change actuaior.
+5-65

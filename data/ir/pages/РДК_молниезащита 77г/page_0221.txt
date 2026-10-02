@@ -1,0 +1,38 @@
+5 ps, an appropriate rate of voltage rise to use for attachment tests might be the
+following:
+APPLIED VOLTAGE WAVEFORMS
+ζ γ
+8
+0σ
+Α
+α 0
+E >
+μ
+BREAKDOWNS
+Time TO BREAKDOWN
+Fast and slow applied voltage waveforms superimposed on break- 7 7.1 Figure
+down timelag curves for solid and air breakdown paths.
+Higher voltage rate of rise intersects solid curve and puncture
+occurs.
+Lower voltage rate of rise intersects air curve and surface flash-
+over occurs.
+On the other hand, if it is remembered that the actual breakdown of α single step
+of the leader is itself α series of smaller step breakdowns and pauses, it is likely
+that the rate of voltage rise across segments only α few meters long might be
+faster (or slower) than the average. Thus, to encompass the worst case, α rate of
+SAE voltage rise 10 times as fast, or 1000 kV/π, has been prescribed in Report
+for attachment tests of aircraft Lightning Test Waveforms and Techniques
+components.
+In practice, the timelag curves representing different paths through solid
+and air insulation are flatter and closer together than those drawn in Figures
+6 and 7.17, and the point where the solid and air curves cross is less clearly 7.1
+defined. Thus, α relatively wide difference in applied voltage rate of rise exists
+as between waveshapes causing breakdowns 100% of the time along one path
+compared with waveforms causing all breakdowns to occur through the other
+path. This fact is additional support for the selection of 1000 kVlps as the rate
+of rise for qualification test purposes. This waveform should create α faster
+(but not excessively fast) rising electric field than most natural lightning flashes
+create. In cases where α comparison between the results of laboratory tests using
+this rate of rise and subsequent in-flight lightning attachments to the same
+fiberglass component has been made, the laboratory tests have accurately
+predicted the in-flight attachment points and breakdown paths.

@@ -1,0 +1,84 @@
+0LIST OF SYMBOLS
+8 = acccleration due to gravity, ft/sec'
+= truc pressure altitude, ft
+H = measured pressure altitude, ft
+dH/dt = change in pressure altitude with time at
+standard sca level conditions, ft/sec
+H 'H - height difference, ft - altimeter position error correction, ft
+Π = static pressurc, psi
+Π - measured static pressure, psi
+= total prexsure, psi
+= measured pitot pressure. psi
+Π - prezsure difference, psi
+ρ irue atmospheric pressure, psi
+= true irapact pressure, psi
+= meusure impact pressure, psi
+= true airspeed, maph
+= calibrated airspeed, kt
+ΔΥ. ст = mcasurcd calibrated airspced, kt = airspxed position error co:rection, kt
+Psl - density at standard sea ievel conditions.
+slug/ft'
+9-1 INTRODICTION
+Chapter 9. AMCP 706-201, describes the many
+design trade-offs necessary in the final selectior of
+secondary power subsystems. This chapter deals with
+the detsil design of the hydraulic and pncumatic sub-
+systems.
+Hydraulic applicstions primarily include flight
+control and usility functions. Flight control func-
+tions include servo control of cyclic pitch, collective
+pitch, and directional surfaces. Utility functions may
+include part or all of the following:
+1. Personnel/cargo hoists
+2. Cargo hocks
+3. Loading ramps
+4. Doors
+5. Landing gear
+6. Gun turrets and drives
+7. Rotor braking
+8. Whcel braking and sicering
+9. Enginc starting
+10. Fluid dampers.
+Pneumatic applicstions, while not as widely used in
+helicopters as arc hydraulics, may include such func-
+
+σ
+ANCP 706-202
+CHAPTER Σ
+tions as engine starting, auxiliary utility systems, and
+used for auxilisry power unit (APU) starting.
+9.2 HYDRAULIC SUESYSTEMS
+9-2.1 FLIGHT CONTROL POWER SYSTERIS
+Hclicopter flight control systems may vary in com-
+plexity from the relatively simple power boost system
+with manual reversion to nultiredundant systems
+where cach sysiem is designed to provide the full
+powe: requireg tc operatc tne flight conirol func-
+tions throughout the vchicle performance envelope.
+The πultiredurJant systan is discussed in this
+chapte: because it contains the basic elements of all
+typcs of systems. This typr system shall be employed
+unles ihe aircraf can be ccutrolled without boost. Α
+schematic of α typical centra! hydraulic system is
+presented in Fig. 9-1. The system shown contains its
+own fluid power generation. fluid transmission, and
+fluid supply components.
+9-2.1.1 Central Hydraulic Systen:
+Hydraulic power is gene.ated by varisble-dis-
+placement pumps that aie compenssied for α
+nominal system design pressure. Fluid mny be
+supplied to the pumps from gas-pressurizal χ: buot-
+strap reservoirs. The pumps are oriven by an
+accessory gearbox, which, in turn, is drivas, by ihe
+iransmission whcn ihr roior(σ) is teming and by an
+VENT
+ACCUMULATSR F ILTER
+AND CACE RE SLPYOIR
+BRANCHES FROM 3VSTEM SUPPL
+TO SYSTEM PRESSURE TRAMSMITTER LCASE DRAIM
+MAMIF OLD C OVE*504RD
+SAUABER PuMP RE TU ALEEO AMDFILL
+SRELRE VALVE TELTER
+GROUNO TEST
+Figure 9-1. Ceatral Hydraulic Sysiem
+1-6

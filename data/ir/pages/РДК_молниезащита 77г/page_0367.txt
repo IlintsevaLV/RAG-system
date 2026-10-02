@@ -1,0 +1,22 @@
+Oscillatory response excited by α suddenly applied electric field. 12.5 Figure
+is present, frequently this condition is not met.
+12.3 Aids for Calculation of Voltage and Current
+In Section 1.3 there was introduced the concept of magnetic field zones, 1
+according to which in any particular area of the aircraft the total magnetic field
+may be viewed as the direct superposition of two components, one the result of
+coupling through apertures and the other the result of diffusion-type coupling. If
+the assumption of α ruling field is made, there may be derived some simplified
+relationships between the magnetic field and the resulting induced voltages and
+currents. Additional assumptions are the following:
+Q, The conductor is of length diameter δ, and spaced α height, η,
+above α ground plane.
+The magnetic field is oriented to produce maximum voltages in the
+conductor.
+One end of the conductor is grounded.
+The magnetic fields are of the shape shown in Figure 11.14.
+These are the same assumptions as those illustrated in Figures 12.1 and 12.2, and
+upon which Equations 12.1 and 12.2 were based. Under these assumptions
+where KI Q 0.63 if and η are in meters =
+Q 0.63 if and are in centimeters η ξ lo4 K1 =
+0.41 Qxlo 3 if and η are in inches K1 =
+357

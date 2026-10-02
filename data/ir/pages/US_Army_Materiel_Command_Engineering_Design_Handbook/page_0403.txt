@@ -1,0 +1,108 @@
+AMP7W6202
+Static vents located so that no moisture Alsllbe
+enter t~,e openings under any service condit'ons.
+Static vent plate shauld heated be if there is a pro~.i-
+ability that ice could over the static vent. Other aeal
+pertinent design information for flush static vents
+obtained be MIL-1-6115S and MIL-P-26292. #'vrnn
+9-3A PIWftdcTabu1957.
+On recent helicopters, the pitot and static pr'essure
+sources have boan combined into a pitot-static zube.
+This tube ciui be straight boom for mounting, or
+shiaped f mounting directly the fuselage. ýr to Accep-
+tible mounting locations are on a boom ahead short
+the nose the of helicopter a stationary of on hub
+the top of the rotor, and the top of on the cabin
+toward th: front, yet near the rotor hub. L jcations
+on the forward sides of the fuselage also are accep-
+table. However, lo% locations on the bottom of
+fuselage usually are susceptible to ground damage.
+the tube is located at the rear of the fuselage, right-
+and left-mounted units should b,. used in order
+reduce the influence of sideslip on the static pressure
+measurement. For redundancy, two pitot-static tubes
+zmummonded for an heiicopters having mui ýwo
+of flight instruments. Pilot-static tubes also rnan
+designed with two sets of static ports if additional
+static sources are required.
+Minimum requirements for pitot-static tubes
+specified in MlL-P-31 136. It is recommended that
+pitot-static tubes bc capable of completely deicing
+and anti-icing under the most severe envitonmental
+conditions likely to be encountered in flight. Place-
+ment of the static ports on pitat-static a tube
+assures adequ~ate deicing of the static vents.
+Pitot-static tubes offer the possibility of aerody-
+nainic compensation for static-pressure errors. This
+accmiplished selectively by designing the shape
+the tube and the location the of static pressure ports.
+general A description of aerodynamic compensation
+is given in Ref. 13. The concept is used extensively
+conventional aircwafP, both commercial and military.
+MIL-P-83207 applies straight-boom-mounted, tor
+aerodynamically compensated pilct-static tubes,
+MIL.P-83206, covers L-shaped, compensated tubes,
+Placement of the static ponts or the pitot-static
+tube and away from the fuaclRSe skin also can reduce
+errors caused by skin irregularities iocal in the vicini-
+ty of flush static vents. An extensive investigation
+surface irregularities and nonreproducibility has
+peaformned for conventional aircraft (Ref. 9).
+REFERENCES
+Blackburn, Reethoff and Shearer, Eds., 1.
+Power Control, The M. T. Press. 1.
+9-48
+
+can 2. B. W. Anderson. Analysis twSs of Deuignv 77e
+The Pnewmatic John Sysiut Wiley and Son*, Inc., ,t
+NY, 1967.
+Michlne 3. Designv. Fluid Power Reierence Isaue.
+can Sept. 22, 1966.
+4. FRow of Fluids Throulh l'alw~s, and Pipe. Fittings
+Engineer Division of Ctane Co., Chicago, IL,
+5. U. S. Standard Atnsophere. Prepared Under
+Sponsorship National Aeronautics of and Space
+L- Administration, United States Air Force, United
+Weather Bureau, States Washington, D-C,
+December 1962.
+Sadie 6. P. Livingston and Gracey. William Tables onl
+of Airspeed, Altitude, and Mach Number Basedon -
+Latest International I'aluesfor At:mospheric Prop-
+and Physical Consta.,ts. NASA Technical ere
+the Note August D-822, 1961.
+If 7. Russel M. Herrington, et al., fl7ight Test Engi-
+neeting Handbook, AF Technical Report No.
+to 6273, Air Force Flight Test Center, Edwards Air
+Force Base, CA (AD-636 392), January 1966.
+8. Richard 1>,Lco. V. Peter Cannon, Floyd J. and
+sets W. Hagen., Evuaiaadoa of New Aes'hod~i fo Flighi
+be (- Calibration of Aircraft Instniment System,. Part
+IP Analysis of Altimeter. Airspeed, and Free-Air-
+Temperature Systems. Wright Air Development
+are Center Technical Report (Rosemount En- 59-295
+all gineering Company Report 6591). June 1959.
+9. Richb.id V. DeLeo. Floyd W. Hagen, Robert R.
+Kooiman, and Donald Thompson, Evaluation 1.
+of Factors Affecting the Calibration Accuracy of
+also Aircraft Static Pressure Systems. USAF Tech-
+nical Report SEG-rR-65-35, Air Foroe Systems
+Command, (Rosemount VWPAFD. OH-,
+Engineering Company Report 66227). June 1962. is
+or 10. Floyd W. Hagen and Richard V. DeLco. Flight
+Calib atlon of Aircrat Static Pressure Systems,
+Federal Aviation Agency, SRDS Report No.
+for RD-.4i-3. ("losemount Engineering Company
+Repart 76431) February 1966.
+William Gracey. William 1I. Letko. and Walter R.
+and Russell, Wind-Tunnel Investlgauioai of a Number
+of Total-Pressure Tubes at High A ngles A of ttack.
+Subsonic Speeds. National Advisory Committee
+for Aeronautics Technical Note 233 April 1. 195 1.
+R. Johnson, C. 12. Averaging of Periodic Pressure
+of Pulsations by a Total-Pressure Probe, National
+been Advisory Committee for Aeronautics Technical
+Note 3568. October 1955.
+Richard 13. V. DeLeo and Floyd W. Hagen, The Use
+of Aerodynamically Compensated Pitot-Spatic
+Fluid A Tubes on ircraft. Rcsamodnt Engineering Coin-
+pany Report 2686C. Minneapolis. Mi.

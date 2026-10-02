@@ -1,0 +1,83 @@
+current would have decayed to nearly zero. This long
+time constant results from the low dc resistance of the
+copper power cable, and its relatively high inductance,
+The tests showed that high voltages could be
+produced on power buses. The bus voltages can be
+claxnped to levels that do not present α hazard to
+equipment on the bus, but currents similar to that on
+Fig. 8.34 would then flow through the protective de-
+vices. This question of current that can flow through
+prntective devices, and the analyses that must be made
+to be sure that the devices are properly rated is dis-
+cussed in Chapter 17.
+- - -pleat
+,EMP _.
+......... or..
+/tory
+(α) ---- 100 ----
+(β) 1- 0
+members metal through flowing Currents 8.33 Fig.
+rail seat α on Current (α)
+tube nir an on Current (β)
+ - - -
+Σ....... .Electricity
+.... # ...
+2 o50 U..
+Fig. 8.34 Current flowing on α 28 V power
+return wire
+
+Significant conclusions: The most important point
+shown by tests on CFC aircraft are that fairly large
+voltages can be developed on wiring and that fairly
+large currents can flow on metal objects inside the air-
+craft. Large currents also can flow through protective
+devices when they act to limit overvoltages, particu-
+larly if the protective devices are connected between
+line and aircraft structure' Stated another way, this
+means the surge impedance of the circuits in air- CFC
+craft may be very low.
+REFERENCES
+8.1 K. Σ. H. Lee, Editor, "EMP Interaction: Prin-
+ciples, Techniques and Reference Data Coin- τ'Α
+Concatenation of Technology From The
+2-1," Interaction Notes) EMP Interaction
+Labora- Weapons Force Air AFWL-TR-80-402,
+(NTMT), Albuquerque, NM, December 1980.
+Protection, "Atmospheric Electricity Hazards 8.2
+AFWAL-TR-61- I. Executive Summary," -Part
+Part I, AFWAL, Wright-Patterson Air 3025,
+Force Base, OH, June 1987.
+8.3 "Atmospheric Electricity Hazards Protection,
+Part II. Assessment, Test and Analysis - F-14Α,"
+Part II, AFWAL-TR-87-3025,
+AFWAL, Wright-Patterson Air Force Base, OH,
+June 1987.
+Protection, "Atmospheric Electricity Hazards 8.4
+Part III. Assessment, Test And Analysis - ACAP
+Helicopter" AFWAL-TR-87-3025, Part III,
+AFWAL, Wright-Patterson Air Force Base, OH,
+June 1987.
+Protection, Electricity Hazards 8.5 "Atmospheric
+AFWAL- Vehicles," Air for Guide Design IV,. Part
+Wright-Patterson AFWAL, Part IV, TR-87-3025,
+1987. June OH, Force Base, Air
+Protection, Hazards Electricity "Atmospheric 8.6
+Part V. Qualification and Surveillance Tests and
+Analysis Procedures," AFWAL-TR-87-3025, Part
+V, AFWAL, Wright-Patterson Air Force Base,
+OH, June 1987.
+0. 8.7 Γ. Olson and Μ. Μ. Simpson, "Atmospheric
+Hazards Direct Effects Protection
+Evaluation," Δ180-27423-43, Flight Dynamics Lab-
+oratory, Wright Patterson Air Force Base, OH,
+September 1985.
+8.8 "Lightning Test Waveforms and Techniques for
+Aerospace Vehicles and Hardware,", Report of
+Committee (the "Blue Book"), June SAE AE4Λ,
+1978.
+Assessing and Techniques for 8.9 "Test Waveforms
+6
+the Effects of Lightning Induced Tfransients," Re-
+port '"Yellow Book"), SAE of Committee AFAL,
+December 1981.
+242

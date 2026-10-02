@@ -1,0 +1,18 @@
+The spacing between conductors, ri,, can be determined from the
+coordinates of the conductors. If α group of conductors, each carrying α current,
+(Figure 9.10) considered, and if the self- and mutual inductances of and is
+between each conductor are known, the voltages across the self-inductance of
+each conductor will be as follows:
+I
+CONDUCTOR ι
+\
+/ (4
+structure defined as an array of wires. 9.9 Figure Α
+(α) The array
+Coordinates defining location (β)
+Definition of the return for current path (χ)
+.... V λ / uLlil - Μ ι 2 ι 2 - Μ I 3 ι 3 -Mlnin (9.22) =
+. . -Μ (9.23) . . Λ2ι2 MZ3ι3 -Μ2,,in 1 21 ι - τ = V 2 / u
+. . . . - - (9.24) -Mj Mj2ι2 Ljij -Mjnin , ι , = V31u
+- . . . (9.25) -Μ nl ι -Mn2ι2 Mn3ι3. Lni ν 1 = V V / α
+Equations 9.22 through 9.25 may be placed in matrix notation follows: as

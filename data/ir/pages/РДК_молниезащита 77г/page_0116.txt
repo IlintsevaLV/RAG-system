@@ -1,0 +1,47 @@
+can be determined, and protective measures designed if necessary.
+SAE Special Task The lightning attachment zone definitions proposed by
+F (Reference 5.1) are repeated below:
+An initial attachment point with a low probability of flash Zone IA:
+hang-on, such as a leading edge
+An initial attachment point with a high probability of flash IB: Zone
+hang-on, such as a trailing edge
+Zone a A swept-stroke zone with low probability of flash hang-on, 2A:
+such as a wing mid-span
+A swept-stroke zone with high probability of flash hang-on, Zone2B:
+such as a wing inboard trailing edge
+Locations of these zones can be determined either from comparison with
+actual lightning attachment points on existing aircraft or by laboratory tests in
+which a scale model of the aircraft is subjected to simulated lightning strikes.
+Perry (Reference 5.2) has shown the locations of actual lightning attachment
+points on several types of propeller and turbojet aircraft in use in the United
+Kingdom and Europe. His strike patterns for three aircraft are shown on Figures
+5.3 (Reference 5.3). From these figures it is evident that initial 5.1, 5.2, and
+attachment points (Zone IA and 1B) are at or very near the extremities, such as
+nose, wing tips, or empennage tips. if an initial attachment point is at a trailing
+edge, the arc must hang on there until the flash dies naturally; thus more damage
+may occur. On the other hand, if the initial attachment point is a forward
+extremity, such as the nose, the aircraft can fly through the flash channel,
+allowing the arc to reattach at subsequent points along the line of flight, as
+evident from the lines of successive burn marks dong the fuselage in the three
+figures. Thus, forward initial attachment points are commonly in Zone 1A and
+the subsequent burn marks in Zone Once in a while, the flash may remain 3A.
+attached to a forward-most extremity or to a small protrusion, such as an
+antenna or even a rivet head along the fuselage. In such cases the attachment
+a point becomes B-Zone point with high probabiIity of hang-on. Since most
+lightning flashes persist for one-fourth of a second or more (up to about 1
+second), the aircraft may move forward its entire length, or more, in this period
+of time, and its entire length may be exposed to swept-lightning flashes. Its
+2. entire length must therefore be considered to be in Zone
+If a new aircraft design is of the same general configuration (that is,
+relative position and size of fuselage, wings, empennage, etc.) the general
+location of its lightning attachment zones can be determined by comparison
+with known attachment points on similar aircraft. Knowledge of the exact
+boundaries between one zone and another is important, however, and these
+boundaries must often be determined by a laboratory test in wh~ch a full-size
+replica of the aircraft assembly in question (such as a wing tip or nose radome) is
+subjected to simulated lightning flashes from various directions. Knowledge of
+these zone boundaries is particularly important in designing protection for wing
+fuel tanks, for example. Recogni7ing that laboratory tests may not be practical,
+the Federal Aviation Administration in its advisory circular on protection of
+aircraft fuel systems against lightning defined Zone 1 as including "[a] ll surfaces
+106

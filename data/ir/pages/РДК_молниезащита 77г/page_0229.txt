@@ -1,0 +1,42 @@
+should be repeated with the diverter moved another centimeter away, and so on,
+until α puncture occurs and the arc terminates on the conducting object beneath
+the skin instead of on the diverter. When this point has been reached, the
+Σ, diverter is no longer effective, and the largest spacing, at which no punctures
+occurred defines the maximum displacement distance. If more than one diverter
+to be used, the diverters should be arranged so that the conducting object is is
+this between them. In case their maximum separation must not exceed 2Σ, as
+shown in Figure 7.23.
+ρ
+4
+4 I
+DIVERTER DIVERTER
+Σ Σ STRAP STRAP
+IIII NONMETALLIC SKIN
+6-
+Σ MAXIMUM DIVERTER DISPLACEMENT CONDUCTING =
+OBJECT
+Arrangement of multiple diverter straps maximum separation. 7.23 Figure for
+in One such test was run by Plumer on α section of the wing tank shown
+Figure 7.21, with the aluminum vent line imbedded in the upper tank wall and
+the capacitance probe along its side wall, as recorded in his report. The diverter
+6.7 was found to be effective within α spacing, Σ, of cm; but α spacing of 9.2 cm
+caused the arc to puncture the skin and terminate on the'vent line beneath.
+cm Thus, allowing for α margin of safety, the diverter should be no more than 5
+away from α line directly above the vent tube.
+From the same test performed for the capacitance probe, it was found that
+the diverters could be over 15 cm away before puncture occurred. The reason
+for this difference is that the capacitance probe was farther away from the upper
+skin; hence more voltage was required to puncture the skin and allow
+termination on the probe. Since the probe was angled, however, and did come
+5 cm closer to the tank surface farther outboard, it can be concluded that the
+criterion determined for protection of the vent tube should also be applied for
+the capacitance probe. Since in this tank the capacitance probe and vent tubes
+are about 25 cm apart, two diverter straps (or perhaps α single strap 15 cm wide)
+would be required to provide adequate protection. Straps would be required on
+both the top and bottom of the tank for prevention of punctures to the
+capacitance probe, but only on the top surface to prevent punctures to the vent
+tube, since the vent tube is located just beneath the top surface. Fabrication of
+the vent tube from nonconducting material would therefore eliminate the need
+15 for α strap as wide as cm.
+Each diverter strap utilized should adhere to the outer skin surface and
+should be electrically bonded to the wing tip doubler or diverter assembly at the

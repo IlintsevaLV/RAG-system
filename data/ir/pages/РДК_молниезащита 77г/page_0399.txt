@@ -1,0 +1,30 @@
+PEAK 18A
+Current on overall shield. 13.25 Figure
+complexes within the overall shield. Measurements were made on the shields of
+two of the eight shielded quads and on the shield of the center complex. With
+high-impedance terminations at each end of the cable, the voltage from each of
+the individual shields to ground was the same. Voltages on individual conductors
+within the shielded groups would be the same as the voltage on the shield of that
+group. The position of a conductor within an overall shield thus has only a
+secondarder effect on the coupling from the internal electric field of the shield
+to the signal conductor.
+13.27 Figure shows shield voltages measured with a low-impedance load
+47 connecting the center shield to ground. load impedance of approxi- A 52
+mately matches the surge impedance of the transmission line existing between
+any of the shields on the internal groups and overall shield. It prevents the
+development of oscillations which would otherwise be superimposed on an
+underlying waveform, like those shown in Figure 13.26. Note that the voltage on
+the center shield is now increased to nearly twice what it was with a
+high-impedance load on the ends of the shields. Note, furthermore, that the
+voltage on the other shields remains nearly the same as it was with all shields at
+the left open circuited. The slight increase of voltage noted on the unconnected
+shields results from capacitive coupling at the left end between the unconnected
+shields and the one center shield that is held nearly at ground potential by the
+47 load. Oscillogram No. 11 on Figure 13.28 shows the nature of these 52
+superimposed oscillations if the shield on the center complex is grounded
+V, directly. The voltage, shown measured at the right-hand end of the cable was
+in fact measured on one of the conductors within the center complex. The same
+voltage would be measured on any of the other conductors or on the shield
+itself.
+the ground on the center shield is moved to the right-hand side, the If
+389

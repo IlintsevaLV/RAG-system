@@ -1,0 +1,104 @@
+progressively skidding lea tendency and
+signed with adequate radial clearance for
+operation without need for auxiliary positive
+features. Thermal growth due to fail-safe operation
+bearins angular contact duplex ball can be
+by moduted providing adequate internal
+initially (minimv'μ contact anglt of say 30 deg)
+initially preloaded, by mounting the bearings
+to-back (DB). back---back mounting allows
+gvow ra:ially net rings to and axially
+generating additional prelad, ι.ε., radial
+tends to increase pveload while axial growth
+preload.
+4.2-2.2 Life Anulysis
+fatiguc of for calculation techniques Modern
+pioneeri.ι are upon the based bearings
+engineering and statistical analyses of Refs.
+87. Certain empirical constants in these analyzes
+determined by evaluation of experimental
+hence, it may be argued that the effects of
+physical phenomena not specifically addressed
+this is α valid argument, it follows that the bearing
+in an application that dilers substantialiy from
+laboratory conditions could vary significantly
+the calculated value. Fortunately, the
+model used modification (α of the function originally
+general to sufficiently in Ref. 88) is presented
+as modes of faiiurc interpretation meaningful
+burnout, filament bulb 1ght mortality. as human
+Conscquently, tooth spalling. gear wear-initiated
+can experience service field test and valid
+modification factors life to add satirfactorilv
+distribution Weibull to the corrected dispersions
+prognosis. bearing lIfe
+Limitations ".42.2,.7.1 Asutptioos and
+The basic AFBMA life calculations commonly
+used in the U.Σ. based are upon Refs. 86 and
+hence contain certain key assumptions
+limitations:
+I. The failure mode is subsurface-initiated
+or spalling. Cracks beqin at microscopic weak
+most probably at the depth of maximum subsurface
+orthogonal shear beneath the Hertzian contact.
+developed solution, therefore, is based upon
+volume theory. However, it has bw.ν indicated
+4-2.1.1) that α preponderance of the failures
+analysis of helicopter bearings at oveih,- were
+/
+face initiated, Σ"•γ is 2. Hertzialn stre•σ theory based upon :.he
+coprcssive deformation of contacting bodies
+co~ν",4-55
+
+AMCP 706-202
+de- effects are hence ignores any possible of gross elastic
+fail-safe changes of shape in thew bodies.
+coefficents driving 3. Empirical used in the AFBMA for-
+in mulas reflect the characteristics of air-melt AISI
+accom- 52100 steel of Rc6O nominal hardness operating in
+clearance medium-viscosity mineral oils at relatively low
+or, if temperatures and moderate speeds and loads.
+basik- 4. Any effects speed upon life caused by of rota-
+the in- tion are omitted.
+without Σ. The calculated lives are based upen the number
+in 10% of the growth of cyclic stressings to produce failure
+relaxes population of α statistically significant sample size.
+sources 6. Bearings manufactured by different arc
+assumed to belong to the same statistical population.
+to Life Approach Factor Modification 4-2.2.2.2.2 life of
+Prediction theoretical
+useful and Π6 Α method η&σ been advanced (Ref. 89) to ac-
+were count for many variables common in modern design
+aata; applic.tions. An adjusted life is calculated as the LA
+certain product of adjustment, environmental and/or design
+in the calculated factors, and the AFBMA life Lio.
+life
+the - hr (4-53) LA DEFGHLo,
+from
+statistical
+where permit
+steel actual (reflecting factor material - diverse Δ
+dimensio~nless and purity), chemistry or
+for CEVM factor (accounting processing - E
+practices, thcrrno- melting other and be used
+grain forging working, mechanical metal with
+clc- and absolute and orientation, flow for
+dimension- hardness), differential ment
+less
+Α lubrication factor (considerineg lubricant F
+EHD film formation and relative surface
+roughnesses), dimensionless
+87 and Γ speed - effects (considering centrifugal ac-
+and celeration and slip conditions), dimen-
+sionless
+pitting - misalignment factor (applicable to crown- H
+points, ed and cylindrical roller bearings), di.
+mensionless
+The It is not uncommon in helicopter bearing design for
+stressed the value of the factors multiplicative group of to
+(par. vary between 0.3 and 18 due to the range of con-
+in the ditions and requirements encountered. Digital corn-
+stir- puter programs often are used to define factors Γ. F.
+and while factors Δ and are assigned values H; F
+local whether the life calculation is by simple AFBMA
+and equation solution or by computer analysis.

@@ -1,0 +1,20 @@
+LIGHTNING CURRENT- 1,
+(β)
+I,,, -EXTERNAL CURRENT
+I I (4
+Indirect effects. 8.1 Figure
+(α) The total system
+(β) The internal response of the structure
+(χ) The response of cables
+The response of piece parts (δ)
+/3 by point are given the values of transmission and reflection operators, and α
+for voltage and and for current, shown in Figure 8.3(α). 6 η
+If there are two discontinuities, as in the case of Figure 8.3 (β), there will
+be reflections at each discontinuity with currents traveling back and forth, and
+thus oscillating, in the intermediate conductor. The amplitudes of these
+will diminish as energy is transmitted from the intermediate oscillatory currents
+conductor to the conductors on either end.
+8.3(β) approximates that of α lightning current The geometry of Figure
+entering an aircraft, since the surge impedance of the lightning channel is higher
+all the than the surge impedance of the aircraft. When account is taken of
+reflections and transmissions at the various transition points, the result is that

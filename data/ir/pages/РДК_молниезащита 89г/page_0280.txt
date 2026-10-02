@@ -1,0 +1,73 @@
+plate with exter- of an infinite impedance Internal
+9.30(β). is shown on Fig. The geometry nal return:
+of large α hole as surface treat the is to approach One
+as in Fig. 9.30(α). diameter,
+(9.121)
+Ho")(j'υ2η) -jy' Zg=
+4irhu ')(j-φ2η) H 1
+(9.122) 2η) we) > < (α (6 λ+j Zg=
+4wh6α
+6 ν '4 jw ""+ Z,,=
+8 27ρ . V27-oh
+(9.123) 2η) (6 >
+(9.124) ... 1.781 (yo ) =
+. .
+.. .. . o o... .. *,,, . . . .. .. .. ,. ,. . . o.... ....
+.... .....
+....... ........
+,..o.,.,............... ,.........°..°......
+ι
+(β)
+φ -ý " '•Internal π
+Λ
+Fig. 9.30 Internal impedance of the return path.
+(α) Conductor in α large hole
+(β) Complex ground plane approach
+geometry the is this field power electric the In
+that pertains to transmission line conductors above
+earth and the impedance is generally evaluated from
+Carson'σ equations, [9.71. An alternative formulation,
+the "complex ground plane" is due to Deri, Sendyn et al, 19.81. Since it is both simple and resonably
+accurate it will be outlined here. Strictly speaking it
+ground applies only to infinitely thick planes, but it
+is also applicable to finite ground planes as long as
+the skin depth is small relative to the thickness of the
+plane.
+
+above of α conductor series impedance The total
+or earth, is taken ground, imperfectly conducting an
+as:
+(9.125) 2irfL Z. = = jwL
+where
+-- In 2(η + (9.126) Λ(= π)
+2v ρ
+and
+surface ground the above conductor height of = η
+conductor the of radius ρ =
+depth. complex = π
+The complex depth, so called because it has both
+real and imaginary components, is:
+(9.127) π=
+where is the skin depth in the earth. Skin depth α' was
+covered in §9.4.5 and Eqs. 9.22 and 9.23 are as appli-
+cable to earth as to any other material. Frequently η
+is small compared to π and can be ignored.
+Since log(α + log and being as 0 jb) = C + jo, C
+discussed in §9.3.1, it can be shown that:
+Λ [log(α/ρ) = Λ - jir/4] (9.128)
+2 10-7 φ + 4φ ln(α/ρ)] (9.129) Z. [ir =
+impedance sheet: of α thin The impedance
+consists of the impedance of the sheet (02,ε2) in par-
+allel with the impedance of the medium in which the
+ξ sheet is placed (0o, ε0), hence the quantity that ap-
+pears in the following equation:
+Z, υ,. cosh(-,.δ) - ξ sinh('υ.δ)
+ 1) - Ξ(cosh(j'nd) - sinh(yd) α
+where
+Ξ (9.131)
+-
+Μ -Ω2 poeo (9.132) 7-
+(9.133) (Wr jwps - +jwe ) μ 2
+For lightning interactions the medium is air, the im-
+pedance of which is far greater than the impedance
+264

@@ -1,0 +1,28 @@
+voltage wave at ,that point goes to zero and the cur- The first effe(, is that the current in the aircraft
+rent doubles. When the reflected waves return to the builds up not in an exponential manner, but in α series
+input end &-φ the aircraft other reflected waves are gen- of steps as current propagates bark and forth along the
+erated. The waves combine to produce α current that aircraft, reflecting at the discontinuites at the ends.
+increrses in α sirtes of jumps and α voltage that os- The second is that the current is different at different
+χ)liatem, as illustrated in Fig.13.5. On the figure the points on the aircraft and the steps are least noted at
+α&rcraft was treated as two transmission lines each of the point of connection to the surge generator.
+26 ft, lengtli (6.1 μ) and having surge impedances of These traveling waves preclude developing current
+100 ohms ain, propagation velocities 80% that of the waves having exactly the shape of the idealized waves
+spetmd of light. The representation is overly simplified discussed in Chapter 5. They also influence the cou-
+*iii that it makes no allowance for the non-uniform ge- pling of voltages and currents into the aircraft wiring.
+* wnetry of the aircraft, but it does illustrate the basic
+effects.
+Rswitch aircraft and
+oh circuit return uH •=2
+700 700
+0 0
+-300 -300
+0 lO)IS 0 50 us (β) (χ)
+4000 -____5000_________
+00
+-5000 -100
+0 50 ls (ε) 0 50 us
+(δ) Fig. 13.4 Lumped constant representation.
+(α) Circuit
+(β) R = 45 ohms (χ) R = 45 ohms
+δ)R ohms = 5 (ε) R 0.5 ohms
+356

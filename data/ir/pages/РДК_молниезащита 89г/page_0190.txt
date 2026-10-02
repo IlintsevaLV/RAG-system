@@ -1,0 +1,57 @@
+Nitrogen inerting systems have been developed developed by a lightning strike. It is easy to see how
+and flight tested on the USAF C-141 and C-135 air- even a small portion of this energy entering the fuel
+craft [7.6] among others. Foaming and extinguishing system can result in fuel ignition and a safety of flight
+systems have been incorporated in the design of sev- hazard.
+eral fighters to provide protection against fuel ignition
+due to enemy gunfire. None of these systems have been 0.00 , , . . 1 -oi, 9 09.09
+used on any of the commercial aircraft fleets because (a) -
+of potential cost and weight penalties. no on
+Ignition thresholds: [7.7], stud- "0 548 Lewis and Von Elbe in
+ies made in the 1950's and 1960's for the US Bureau
+of Mines, found that the minimum ignition energy of pro"
+j,
+most light hydrocarbon fuels (methane, propane, pen-
+tane, etc.) was 200 microjoules, a figure which is the
+basis for the present fuel system protection specifica- '" ,3,
+tions and test procedures. o., I t of i.0 W s6
+More recent investigations by Crouch [7.8] to de- 0.01 0.1 1 510 40 so 9.0 9 30 0o 0009 09.9
+h~ydrocar-I of the ignition thresholds termine minimum T I
+bon fuels commonly found in aircraft fuel tanks have (b)
+above which energy level there is no specific shown that 19.0
+ignitions will always occur and below which they will 00 [
+never occur. In particular, it was found that the 200
+It
+microjoule criterion would not always cause an igni-
+tion. Test results showed that under optimum condi-
+tions, with the oxygen content at 20%, spark ignitions
+from an electrical spark dissipating 200 microjoules of 46
+energy occurred at a rate of between only 1 ignition o.
+(X) a P""mut WWU tests 000 10 in ignition 1 and (0.1%) tests 1000 in
+energy. spark versus ignition of Probability 7.4 Fig. (0.01%).
+stoichiometric 1.2 oxygen, 20% (a) Propane, of mixture 1.2 stoichiometric a for data, test The
+propane with 20% oxygen, is plotted in the graph of (b) Propane, 30% oxygen, 1.2 stoichiometric
+of several with sparks 7.4(a). Tests were made Fig.
+energy levels. The horizontal line at each pnint rep- Current-time threshold: While the minimum en-
+resents the range of probability of ignition among the ergy concept helps greatly in evaluating the hazard
+individual sparks at a given nominal level. Levels with from sparks. most lightning data are described analyt-
+no ignitions (0%) or all ignitions (100%) are shown as ically or experimentally in terms of current waveforms,
+lines on the left (0%) and right (100%) margins which rather in terms of energy. Attempts have been made
+indicate the probability that would result if an addi- to evaluate probability of ignition in terms of current.
+tional test had resulted in an ignition or non-ignition. Fig. 7.5 presents one investigators [7.91 conclusions,
+not it does that indicate, of that data review but a is of ignition probability of a 50% criterion a si
+of in terms evaluations and that be reliable appear to to be in is seen level required energy then the used,
+en- than rather waveshape), and (magnitude current microjoules. to 800 700 of the range
+useful. simplistic to be ergy, are too also increased by of ignition was The probability
+raising the oxygen content of the mixture. Crouch The foregoing data illustrate the necessity of pre-
+found that a 200 microjoule spark would ignite a venting any electrical arcs or sparks from occurring 30%
+oxygen nmixture between 70% and 80% of the time as within an aircraft fuel tank. since even very small per-
+shown by the test data graph of Fig. 7.4(b). centages of the total lightning current might produce
+incendiary arcs or sparks. microjoule a 200 if that appear would ThL.., t
+7.3 criterion is required, tests must be conducted using an Vent Outlets
+enriched oxygen mixture. If a standard 1.2 stoichio-
+metric mixture is used, then sparks of less than 700 to The temperature of a lightning channel far ex-
+800 inicrojoules will not likely be detected, ceeds that required to ignite a flammable fuel-air rnix-
+Although a 700 to 800 microjoule level is 3.5 to 4 ture: therefore, any direct contact of the lightning flash
+times the criterion presently in use, it is still extremely with such a mixture must be considered an ignition
+low compared to the thousands of joules that can be source. Since fuel tank vents are the primary means
+174

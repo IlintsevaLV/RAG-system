@@ -1,0 +1,95 @@
+.@
+Chapter 6
+DIRECT EFFECTS
+According to legend,'protection of aircraft
+tures was important even to the ancient Greeks.
+was not easy, however, to escape from It
+Crete, since Minos kept all under his ships
+military guard, and now offered large re- a
+ward apprehension. But Daedalus for his
+made a pair for himself, and an. of wings
+for Icarus, the quill feathers other of which
+were threaded together, but the smaller ones
+held in place by wax. Having tied on Icarus'
+pair him, he said with tears in his eyes: for
+"My son, be warned! Neither soar too high,
+lest the sun melt the wax; nor low, sweep too
+lest the feathers be wetted sea!" Then by the
+arms into his pair he slipped his own of wings
+and they me closely," he flew off. "Follow
+cried, not set your course." "do own
+they sped away the island in a As from
+north.easterly direction, flapping their wings,
+the fishermen, shepherds, and ploughmen who
+gazed upward mistook them for gods.
+and Paros They had leftNaxos, Delos,
+behind them on hand, and were the left leav-
+ing Lebynthos and Cclymne behind on the
+right, when Icarus father's in- disobeyed his
+structions and began soaring towards the, sun,
+rejoicing in the sweeping lift of his great
+wings. Presently, when Daedalus over looked
+he could no longer see Icarus; his shoulder,
+but scattered feathers floated on the waves
+sun had melted the below. The heat of the
+wax, and Icarus had fallen into the sea and
+drowned. Daedalus circled around, until the
+corpse rose surface, and then carried it to the
+nearby island now called Icaria, where to the
+he buried it.
+Robert Graves, The Greek Myths I (Balti-
+more: Penguin Books, 1955):312-13.
+Introduction 6.1
+The materials from which an aircraft is made and
+the methods used to hold these materials together,
+forming the aircraft structure, are factors as important
+in protecting a modem aircraft from hazardous natu-
+Stion
+ral environments as they were for the mythical Icarus.
+Conventional aluminum airframes of riveted construc-
+have, by virtue of their excellent electrical conduc-
+115
+
+PROTECTION
+struc- tivity, rarely suffered critical structural damage from
+lightning strikes; and these structures have provided
+excellent protection for vulnerable systems, as well as
+for personnel, carried within. There are some impor-
+tant lightning problems that must be considered, such
+as protection of fuel systems and protection of avionic
+systems from indirect effects, but such protection has
+seldom had niuch of an impact on the basic aircraft
+structure.
+But the day of all-metal aircraft is ending. Air-
+craft are being constructed using fiber-reinforced plas-
+tics which have desirable high strength and light
+weight, but these materials have much less electrical
+conductivity than aluminum. Some of these materials
+are being joined together with adhesives, which have
+essentially no conductivity. Whereas the designer of
+the all- metal structure needs to add little, if anything,
+to the design of the structure to achieve adequate light.
+ning protection, the designerv of nonmetallic struc-
+tures must pay particular attention to the lightning
+environment, taking positive measures to provide con-
+ductive paths to ensure safety of flight.,
+-This chapter reviews some basic lightning effects
+on metal structures, including metal objects com-
+mon to all types of aircraft, objects such as bond-
+ing jumpers, hinges and light fixtures. It then re-
+views lightning effects on non-metallic materials such
+as fiberglass, ararnid fiber and carbon fiber composites
+and concludes by discussing direct effects test tech-
+niques and practices appropriate for all categories of
+aircraft. The discussions will emphasize performance
+as it relates to the electrical effects of lightning.
+Direct 6.2 Effects on Metal Structures
+The direct effects of lightning on metal structures
+were described in Chapter 4 and include the following:
+Melting or burning at attachment points. 1.
+temperature Resistive 2. rise.
+3. Magnetic force effects.
+4. Acoustic shock waves.
+5. Arcing and sparking at bonds, hinges, and joints.
+6. Ignition of vapors within fuel tanks.
+This section will focus on protection against these ba-

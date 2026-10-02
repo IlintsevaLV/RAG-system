@@ -1,0 +1,56 @@
+"AMCP 706-202
+angle of the blade remains the same or decreases. The
+kinematic coupling that varies the feathering, or
+pitch. angle of the blade with flapping is defined as 63,
+and the standard notation is that an increase of pitch PITCH
+with an increase of flapping angle is positive. Flap-
+pitch coupling can be introduced mn!chanically by a
+skewed flap hinge, or by radial location of the attach-
+ment of the pitch link to the pitch arm inboard N or
+outboard of the flap hinge. Negative 63 generally is
+AM (see rotor the of improve stability to required
+AMCP 5, 706-201). Chapter
+FLAP produce hinge lag the of outboard bearings Pitch .
+mechan- the blade changes that oupling kinematic
+ical pitch with blade lag motion. This conflija- HINGE aihgle
+ration has the potential for unstable pitch-lag blade
+motion.
+Fig. 5-4 illustrates the general arrangement for a HUB ROTATION
+rotor with coincident flap and lag hinges. This rotor
+has a compact arrangement of &ap and lag hingcs Figure 5-4. Coincident Flap and Lag Hinge Rotor
+exactly like universal joint. Flap hinges located P
+further outboaad provide greater control power, but
+also increase the flap bekiding moment at the hub.
+The location of the lag hinge closer inboard results in PITCH ARM
+a lower lag natural frequency, with increased damp-
+aing heing to required prevent ground resonance.
+-
+5-3.4 GIMBAi (TEETERING) ED ROTOR
+5-5 a schematic of a.gimbaled rotor 0 Fig. provides
+system, only two blades of a four-bladed rotor are
+shown, although any number cLf blades may be used.
+Each blade is mounted on a spindle attached to a
+yoke that interconnects the blades. The yoke, which
+"defines the rotor disk plune, is ginbal-mountcd to the " YOKE
+YOK) In a shaft). the rotating top of (the helicopter mast
+gimbaled rotor, no cyclic pitch motion of the blades
+occurs relative to the spindles for any steae; hovering
+condition, regardiss of CC, location or flapping
+rclative to the mast.
+The phase relationship of the orie-per-rev excita-
+tion of the primary inplane bending mode is such that Flgure &-5. Gimbaled Rotor Schematic
+the blade root moments are reacted internally in the
+yoke, leaving the rotor hub undisturbed. The yoke
+structure must be stiff enough that the natural fre- moment on the mast in the direction of rotor tilt that
+quency of the blade cantilever mode is sufficiently varies at a frequency of two-per-rev.
+greater than the rotor speed to avoid excessive ampli- A sketch of a teetering rotor system is shown in
+fication of one-per-rev loads. Fig. 5-7. This rotor is connected shaft to the by a
+For two-bladeci, or teetering, rotors (Fig. 5-6), the hinge, the axis of which passes approximately
+gimbal mounting of the blades may be replaced by a through the CG of the rotor in order to minimize vi-
+single tectcring hinge that allows only seesaw or flap- bratory hub and control loads. The stabilizer bar pro-
+ping motion of the blades. Cyclic and collective blade rides stability by increasing the lag time between
+pitch oc :,rs about the yoke spind!es. For rotor tilt shaft tilt and rotor tip T path plane tilt. he stabilizer
+relative to the' shaft, forced the blades are by the trun- bar is connected to the blades through mixing levers
+nion out of their ideal position in the cone of the bctwecn the sides of the bar. The inner ends of the
+rotor twice This each revolution. results in a bending mixing levers are pinned to the bar, the outer ends are
+5-10

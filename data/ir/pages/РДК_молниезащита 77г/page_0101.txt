@@ -1,0 +1,44 @@
+probes are designed to preclude such occurrences, and laboratory tests
+4.21) have shown that the voltage required to spark a typical (Reference
+capacitance-type probe is many times greater than that induced in fuel gauge
+circuits by lightning. However, other situations involving unenclosed circuits,
+such as externally mounted fuel tanks, exist wherein induced voltages may be
+much higher than those found in circuits completely enclosed by an airframe.
+The accidents mentioned above prompted extensive research into the
+lightning effects on and protection of aircraft fuel systems. Tmproved bonding,
+lightning-protected filler caps and access doors, active and passive vent flame
+suppression devices, flame-retardant foams, and safer (i.e., less flammable) fuels
+are examples of developments which have resulted from this research. In
+addition, government airworthiness requirements now include lightning protec-
+tion for aircraft fuel systems and specify requirements and tests that must be
+passed to demonstrate compliance prior to aircraft certification. As a result of
+these safety measures, lightning strikes present fewer hazards t o the fuel systems
+aboard modern transport aircraft than to those of older aircraft, and properly
+certificated aircraft may expect to experience lightning strikes with no adverse
+effects on fuel systems. Continued changes in airframe designs and materials,
+however, make it mandatory that care and diligence in fuel system lightning
+protection not be relaxed in the future.
+4.5 Electrical Sys terns
+If an externally mounted electrical apparatus, such as a navigation lamp or
+antenna, happens to be at a lightning attachment point, protective globes or
+fairings may shatter and permit some of the lightning current to enter associated
+electrical wiring directly.
+In the case of a wing tip navigation light, for example, lightning may
+shatter the protective globe and light bulb. This may in turn allow the lightning
+arc to contact the bulb filament so that lightning currents may flow into the
+electrical wires running from the bulb to the power supply bus. Even if only a
+fraction of the total lightning current enters the wires, they may be too small to
+or conduct the thousands of amperes involved and thus be melted vaporized.
+The accompanying voltage surge may cause breakdown of insulation or damage
+to other electrical equipment powered from the same bus. At best, the initial
+component affected is disabled, and, at worst, enough other electrical apparatus
+is disabled along with it to require evacuation of the crew and loss of the
+aircraft. There are many examples of this effect, involving both military and civil
+aircraft. Externally mounted hardware most frequently involved includes
+navigation lights, antennas, windshield heaters, pitot probe heaters, and, in
+earlier days, the trailing long-wire antennas that were deployed in flight for
+high-frequency radio communications. The latter were quite susceptible to
+lightning strikes, and, since these wires were too thin to conduct the ensuing
+currents, they were frequently burned away. The high-frequency radio sets
+feeding these antennas were also frequently damaged, and cockpit fires were not
+uncommon.

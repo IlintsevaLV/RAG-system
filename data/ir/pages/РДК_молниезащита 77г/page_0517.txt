@@ -1,0 +1,32 @@
+Information relating to amplitude and to the conditions under which the
+transient was measured has deliberateIy been omitted, since the intent of the
+figure is merely to illustrate the broad diversity of waveforms that might be
+encountered.
+The question of what waveforms to specify for transients used during tests
+related to indirect effects is another subject for which there are as yet only
+evolving standards. Some of those standards, or evolving standards, that have
+are been used outside as well as inside the aircraft community summarized in
+Tables 17.1 (Reference 17.14) and 17.2 (Reference 17.1 5). Specifications
+relating waveforms that are basically unidirectional will be discussed first.
+TABLE 17.1 SPECIFICATIONS RELATING TO
+UNIDIRECTIONAL TRANSIENTS
+Peak Crest Decay Amplitude of
+Backswing Amplitude Time Time
+A1 T1 T2 A2
+Component 1 Space Shuttle -
+2 10 A Ps 100 ps
+V 2 50 1s 100 ps
+Component 2 Space Shuttle -
+5 A 300 ps 600 ps
+V 0.5 300 ps 600 ps
+Standard ANSI Test Waves
+(depends on Ps 10 ps 4
+application) 1.2 ps 50 ps to half value
+Fisher and Martzloff
+I.ls not specified not specified 5 (depends on
+<
+application) 0.5 A1 A2 0.25 5 Ps p
+The waveforms of longest standing are the American National Standards
+Institute (ANSI) waves relating to lightning effects on high-voltage apparatus
+6). (Reference 7.1 These call for current waves of 4 ps to crest and 10 ps to half 1
+value, and voltage waves of 1.2 ps to crest and 50 ps to half amplitude. Although

@@ -1,0 +1,18 @@
+DIODE DAMAGE DATA (CONCLUDED) Table 16.1
+v~~ Reference Device Number K
+CM 1.71 SV1035 26.
+P S SV2092 2.6
+SV2183 S P 2.6
+S P TM7 20. 70.
+200. P S TM21 18.
+SP 200. 20. TM27
+800. TM84 S P 11.
+TM 124 1200. S P 11.
+SP 200. 242 2.6 UT
+SP SAP-I Computer Listing from SAP-I (un- Code ilfut~ual Conlputer
+-
+U.S. 1972. Air Force Weapons Laboratory, published),
+DX Experimental data from (Defense Atomic Support Agency) DASA -
+(See Reference Handbook 16.3)
+DASA 16.3) DE Estimated data from (See Reference Handbook -
+CM 16.7) Computed data (Reference -

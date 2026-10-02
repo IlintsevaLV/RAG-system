@@ -1,0 +1,109 @@
+REFERENCES
+in α Flat Effect Skin "The Lateral V. Belevitch, 10.1
+32, 6/7/8/ Technical Review, Conductor,"Phihps
+(1971): 221-231.
+von "Uber den Verlustwiderstand 10.2 H. Kaden,
+Resistance of High-δ (On the Hochfrequenzleitern,"
+fur Elektrotech- Archiv Frequency Conductors),
+28 (1934): 818-25.. nik,
+Anal- Mathematical Scarborough, Numerical 10.3 J. Β.
+Johns Hopkins University 6θ ed.(Baltimore: ysis,
+Press, 1966).
+Finite-Differ- and Ω. R. Wasow, 10.4 Γ. E. Forsythe
+Differential Equations for Partial Methods ence
+1960). and Sons, York: John Wiley (New
+and Π. Plumer, Fisher, J. Α. F. Α. J. Maxwell, 10.5 K.
+of "Computer Programs for Prediction R. Rogers,
+in Aircraft Electrical Lightning Induced Voltages
+April 1975 Circuits," 1, AFFDL-TR-75-36,Vol
+of Light- and Calculations "Analysis F. Α. Fisher, 10.6
+Cir- Electrical with Aircraft Interactions ning
+1978 August cuits," AFFDL-TR-78-106,
+Protec- Plumer, and J. Α. 10.7 F. Α. Fisher Lightning
+# Reference Publication NASA tion of Aircraft,
+1008, October 1977
+10.8 F. J. Eriksen, Τ. H. Rudolph and R. Α. Per-
+ala, "Atmospheric Electricity Hazards Analyti-
+Vol ι11, Applications, Development and cal Model
+Modeling of the Light- Coupling Electromagnetic
+Event," EMA-81-R-21 ning/Aircraft Interaction
+1981. August also AFWAL-TR-81-3084, and
+Eriksen, "State-of-the-Art Perala and R.J. 10.9 R. Α.
+In- the Electromagnetic for Computing Methods
+presented Aircraft," of Lightning with teraction
+Proc. of Tech- and published in the the Lightning
+22-24, 1980. VA, April in Hampton nology Conf.
+FAA-RD-80-30, 2128, Publication Conf. NASA
+Technology. Lightning
+for Arbitrary Analysis Licking, "Capacitance 10.10 Λ.
+Application to Electro- Cylindrical Geometries:
+Ca- Subsystems through Coupling into magnetic
+May SC-RR-72 Laboratories, bles," Sandia 0299,
+1972.
+for the - Α Package "POTENT C. Λ. Thomas, 10.11
+Magnetic Fields," and of Electric Computation
+Laboratory, Group, Culham Research UKAEA
+1972.
+the Nu- for Package - Α "POTENT Thomas, C. Λ. 10.12
+in General Problems of Potential Solution merical
+Regions," Dimensional Two UKAEA Research
+1973. Culham Laboratory, CLM-Π339, Group,
+C.Α. Luther, and Π. Pownall C. Burrows, Β. J. 10.13
+Model in α Wing Effects Flux) "MTF (Aperture
+Development of 3Δ Prediction Techniques and the
+
+Culham Calculations," (21Δ) on POTENT Based
+Unit Memo December No. 34, Lightning Studies
+1975.
+Shielding "Electromagnetic Β. J. Burroughs, 10.14
+Light- Epoxy Panels to of Graphite Properties
+September 1980. ning," NADC-890237-20,
+of the "Computation Α. E. Feather, C. R. Paul, 10.15
+Capacitance Inductance and Line Transmission
+Ma- Capacitance the Generalized from Matrices
+Compati- on Electromagnetic Trans. trix," IEEE
+1976. No. 4, November Vol. EMC-18, bility,
+Τ. Adams, Paul, and Α. C. R. J. C. Clements, 10.16
+Capacitance Matrix for "Computation of the the
+Cylindrical Conduc- Systems of Dielectric Coated
+Compat- Electromagnetic IEEE Trans. on tors,"
+1975. November Vol. EMC-17, ibility,
+H. Hall, and Δ. Β. Γ. Melander, C. R. Paul, 10.17
+"Lightning Current Redistribution," Proceedings
+of the on Lightning 1986 International Conference
+June 1986. Electricity, Dayton, Ohio, and Static
+"The Experimen- and J. Δ. Robb, R. Α. Perala 10.18
+Techniques of Circuit Modeling tal Verification
+Current Distribu- Lightning to Determine Used
+Shutle Vehi- NASA Space Applied to the tion as
+cle," IEEE International Symposium on Electro-
+Seattle, WA. August magnetic 2-4, Compatibility,
+1977.
+Perala, and R. Α. Τ. H. Rudolph, Τ. H. McKenna, 10.19
+of Surface and Representation "Α Time Domain
+of Ad- Useful for Analysis Transfer Impedances
+Aircraft," Proceedings vanced Composite of the
+conference and Ground Aerospace International
+FL. Orlando, and Static Electricity, on Lightning
+1984. June 26-28,
+and F. Eriksen, R. Α. Perala, Τ.H. Rudolph, 10.20
+with of Lightning Interaction "Electromagnetic
+Corn- Electromagnetic Trans. on Aircraft," IEEE
+1982. No. 2, May EMC-24, patibility,
+Field R. F. Harrington, 10.21 by Moment Computation
+New York, MacMillan, 1968. Methods,
+Harmonic Electromag- Time R. F. Harrington, 10.22
+1961. McGraw Hill, New York: netic Fields,
+Differ- R. Fisher, "Finite Merewether, and 10.23 Δ. E.
+EMP Equations for of Maxwell'σ ence Solution
+22, 1980. April EMA-79-R-4, Applications,"
+Bound- Solution of Initial "Numerical 10.24 K. Σ. Yee,
+Maxwell'σ Equation Involving Value Problems ary
+& Ant. Trans. IEEE Media," in Isotropic Propa-
+302-307. pp. 1966, May AP-14, gat.,
+Cou- EMP Free-Field Α " THREDE: R. Holland, 10.25
+Nuc. IEEE Code," and Scattering pling Trans.
+1977. NS-24, December Vol. Sci.,
+Three-Dimensional Lee, "Α and K.Μ. K. Σ.Kunz 10.26
+the External Re- Finite-Difference Solution of
+304

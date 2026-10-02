@@ -1,0 +1,110 @@
+r,
+" . -.
+AMCP 706-20',t
+design the trim circuit so that when the pilot de-
+presses the trim button, the trim force for any control
+axis that is out of 'rim is trimmed to zero force. If
+is out of trim, all axes than one control axis more
+detent would be trimmed simultanrously to zero. A
+the zero disengages the actuator when arrangement
+spring force has been reached.
+both the rate at which the actuator operates and
+the authority, or maximum value, of the feel force
+provided by the continuou3 trim syhtem are sig-
+nificant in determining the acceptability of the
+system No specific requirements are giveii by MIL-
+H-8501.
+Trim Series and Parallel 6-5.3.3.
+Artificial feel forces may be trimmed to zero with
+both parallel and series trim. Parallel trim involves
+the repositioning of the neutral (zero force) point of
+the unit; thus, a new trim position for the entire con-
+trol system is created. Both the magnetic brake and
+the continuous trim systems afc parallel. Fig. 6-7
+shows the parallel trim actuator in the schematic of
+an artificial feel system.
+Series trim involves the insertion of an exiendabie
+link in the control system between the feel unit and
+the power actuator, and produces control surface
+motion with no stick motion.
+means and alternate wings fixed with Helicopters
+of producing thrust may require trimming of un-
+boosted aerodynamic control surfaces. Elevators,
+ailerons, and rudders may be trimmed by driving a
+geared trim tab through electrical trim motors with
+mechanical override provided. In addition, the pitch
+control may be trimmed by adjusting the incidence
+an&:e of the stabilizer and the elevator.
+Trim is provided in order to balance, or reduce to
+zero, the steady-state control forces that arise from
+changes in helicopter configuration and flight con-
+by the primary The vehicle is flown normally ditions.
+flight controls from one flight condition to another;
+to it is trimmed for stabilization, allowing time after
+to change from control To use the trim hands-off. fly
+one flight condition to Another is a misuse of the trim
+results mineuverc into 'chicle the Trimming system.
+flight normal n to the to retui the capabilit) in loss of
+in loss as weli as controls are released, attitude if the
+maneuver being ac- feel for the particular of the
+complished.
+Constant use of the trim system when it is not
+required will lower the system MTBF. Failures may
+occur at extremes of control travel or in an un-
+comfortable helicopter attitude. An inoperative trim
+system can create unusual stick forces. Runaway
+parallel trim produces abnormal control forces, and
+6-26
+
+• S :r..
+runaway series trim causs a change in both the con-
+trol position and the fVcroe necessary to maintain
+trimmed flight. The magnitudes depend upon tLc au-
+system. thority of th, trim
+In addition to trimming steady-state control forces
+for trimming bf a trim system may be used to zero,
+aerodynamic forces and moments (series trim). Trim
+at the incidence of the horizontal stabilize! may be
+used in single-rotor loelicopters, trim of the longi-
+tudinal cyclic pitch in taneein-rotor helicopter, and
+trim of the wing incidence angle in rotorcraft
+equipped with wings. This aerodynamic trim may be .
+programmed automatically or operated manually
+Fig. 6-6 shows the installation of an automatic cyclic
+actuator pitch trim
+SYSTEM DEVELOPMENT 6-6
+6-6.1 GENERAL
+Design and development of the helicopter flight
+control system should include several forms of
+testing. Objectives of this testing are to improve the
+validity and accuracy of analytical mathematical
+models, to insure proper consideration of the human
+pilot as a controllcr, and to perr-it refined develop
+ment under a full-scale environment.
+IMPROVEMENT
+In general, the mathematical model used for analy-
+zing the helicopter during the preliminary design
+phase considers first-order effects or characteristics
+and incorporates data or approximations based upon
+prior experience with similar systems, subsystems, or
+devices. A margin of tolerance, again based upon
+available experience, is applied to these results prior
+to their assessment with respect to specification com-
+pliance. During detail design, it is necessary to im-
+prove the accuracy and validity of the inathcmatical
+insure credible and cost-effective. model in order to
+compliance with specifications. In this regard, wind
+tools for are proper bench tests and hardware tunnel
+application. engineering
+Test Tunnel Wind 6-6.2.1
+of the total and moments forces aerodynamic The
+with together components parts, and its helicopter
+variables respect to many of the their derivatives with
+required for stability and control studies (e.g., at-
+titude, control deflection, and rotor thrust), can be
+obtained in the wind tunnzl. Primary interest should
+focus upon the static stability derivatives and N9, M.,
+4; the damping derivatives and the Z,; M., N,, L.,
+control derivatives and Z,; the speed M , L , Nv,
+6 6
+3tability derivative M.. and the flow field character-

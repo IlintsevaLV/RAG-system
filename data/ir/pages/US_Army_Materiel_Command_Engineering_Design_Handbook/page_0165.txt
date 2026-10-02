@@ -1,0 +1,103 @@
+copter rotor brakes have included the following
+requirements:
+1. Shal! stop rotor ftom 100% apced in 30 sec
+2. Shall allow 1000 stops without part te-
+placement
+3. Must hold rotor stopped against 45-kt wind
+while helicopter is not in usc
+4. Must hold rotor stopped while eugines are st
+idìε
+5. Must not be located on α main driveshaft, or
+where lining debris could cause FOD to engines or
+APU
+6. Activation and control shall be fail-safe.
+Safeguards are required to prevent inadvertent acti-
+vation. Engine control interlock required with
+positive retersion in lock and unkock modes.
+Development and performance historics of
+helicopters aiso suggest the following guidelines:
+1. The best (in simplicity, rekisbility, and safcty)
+hydraulic system is α manual hydrostatic type. If
+operated from or boosted by pump/accumulator
+systems, these systems should be divorced com-
+pietely from flighi control or sarvo actuator systems.
+2. Autcmetir self-adjustment is undesirabic be-
+cause it compronises reliability. Sufficient fluid
+should be provided to accommodate the ascful wear
+life of the linings; manual hydrostatic, dual-level,
+mochanical advantage systems have bean developed
+to accomplish this requicmnent (Ref. 99).
+3. The disk should be stifly coupled. Α short, tor-
+sionally stiff takcoff Gaive on the main rotor trans-
+mission is often desirs ble. Soft mounted disks (such
+as on intermediate or tail rotor gearbox drive-shaft
+hangers) invariably become α vibration and antinode
+cillatory ioads on disk and/or puck attachments.
+These loads may causs intermittent brake chatter, dy-
+nansic system overloads, or crew annoyance.
+4. The puck or caliper assembly should have α
+high spring rate mouning that is stiff in all loading
+voctor component directions.
+Fron. α practica! viewpoint, there may be imi-
+tations that place two or more of thesc requirements
+into conflici. Often, specification compromise or
+multimode brake activation systems sre θ result.
+For example:
+1. Short stop time, high rotor inertis, and landing
+gear skid friction limits may combine to cause ground
+loop.
+Braking torque Q. is
+Qε = Μ3,15-φ (4-59)
+
+3
+Α4CP 706-202
+wherc
+*rotot inertta, slug-ft²
+Ω = roicr (&ngular) deccleration, rad/sec?
+and skid torque Qs is
+Qs = Wfd, lb-ft (4-60)
+where
+Ω * helicopter weight carried on cach braked
+wheci, 1β
+eifoctive coeffcient of friction, gear to
+ground, dimension!σ
+δ irack of braked whecis, ft
+For α stop time of 15 sec, rotor ineriia 1 = 7500 sitg-
+φ² and Ω = 250 rpm rotor speed, Qs = 13,090 lb-st
+(ignoring aerodynamic rotor decay). If cach of the
+braked whecls is loaded to 4000 1β, the whcel-track is
+80 in.., and φ = 0.4 (rubber sliding cn asphalt), the
+skid torque Qs - 10,667 ib-ft. and therefore, α
+dangerous ground loop potential wouid exist. The
+minimum stopping time under such conditions would
+be 18.4 sec. Α safe limit for θ.ε pilot-activated rotor
+brake mode would apply aboui 9800 I5-ft of torque
+to the main rotor mast (equivaleat to α 20-sec stop).
+2. Although the static breakaway friction for the
+disk/puck brake may be somewhat higher than that
+for dynamic conditions, the severe consequences of
+inadvertent rotor rotation during engine idle opera-
+tivn suggest the nocd for an additional safety mar-
+gin. This can be provided by use of the lower value oi
+friction coefficient in design calculations. Thus, α
+typical pair of engines might deveiop the equivalent
+msin rotor turque of ι2,000 Ib-ft at 60% gas
+generator speeds. If the safe pilot-activated rotor
+stopping moce is limited to α nain rotor torque of
+9800 Ib-ft in accordance with Item 1, & second brake
+niode witt increased pressure (interlock-protected for
+engine start szquence only) would be indicated.
+4-2.2.Σ.2 Desigs asd Asalysìσ
+Two basic determinations arc required for the cal.
+culation of safe brake performance: (1) limit energy
+rate per unit ares to yicld satisfactory wear lie and
+preciude disk scuffing. and (2) disk heat cink capa-
+city.
+Surface energy rate varics with such lining and disk
+properties as thermal conductivity, difusivity, con-
+vective cooling. and critical temperature. Solid stecl
+disks in helicopter applications have been operated
+successfully at an energy dissipstion rate En of 25
+Btu/in.²-min. The referenced arca is the swept area
+under the ρ'uck. The energy to be diasipatcd is the
+4-63

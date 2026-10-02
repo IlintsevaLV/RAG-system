@@ -1,0 +1,104 @@
+AMCP 706-202
+kinetic energy of the rotor at timne of brske applica-
+tion less any applicable rotor acrodynamic decay in-
+crement. Wcar life for common brake puck materiais
+is dependent upon surface temperature, pressure, and
+velocity. Existing rubber-asbestos lining materials
+have Scmonstrated wear rates of appreximately
+0.0004 in.³/stop at pressures of 240 1β/in.³ for mean
+rubbing velocitics of 6000 fpm over 20-sec stop
+periods.
+The second determination involves the heat sink
+capacity of the disk. For stops on the order of 20 to
+30 sec, stecl disk thicknesses in excess of 0.5 in. offer
+little hc!π in reducing peak surface temperatures at
+the end of α stop aue to thc limited thermal con-
+ductivity of stecl. Current systems operate well with
+vaiues ot energy/pound- of-disk ncar 100,000 ft-λù/lb
+°F.
+Other mnaterials such as beryllium and carbon
+graphite recently have been empleyed with selative
+success for hrake applications. The greatest improve.
+ment scems to be avaiiable with α configuration
+which uses α proprictary low modulus structural
+graphitc compcsition for both the disc and puck
+between äie graphite lining and the hydraulic siave
+cylinders. The saddie or caliper assembly :. fabri-
+cated from aluminum. Such brakes have been suc-
+cessfully constructed and tested with disc thicknesses
+to 1/5 in., puck diameters of 5 in.., and disc dia-
+meters of ι8 in. Considerable incrcasc in energy
+storage, allowable opcrating tempcrature, and wear
+life has been demonstrated. Safe disc temperatures of
+3000°F (incandescent white light) and α thermal
+capacity of 300,000 ft-tb/ib of graphite εrc
+characteristic of the design. Approximetely 20% of
+wear. The puck material also serves as α ht at sir.κ and
+may be considered in the thermal design capacity.
+The advantages due to these characteristics seem to
+indicate that weight savings on the order of 50% and
+wear life increascs of σ00% relative to conventional
+steel/ rubber-asbestos sysiems are obtainable. These
+factors are probably sufficiant to offset the initiai
+tsigh cost to the extent that α life cycle cost reduction
+can be achieved.
+Disadvantages lic in initial costs and structura!
+limitations of the graphite material. Although
+ballistic impact characteristics are satisfactory and
+ο
+graphite cannot compare with steci. Through bolt or
+spline attschments cannot be used for the graphite
+disc — α high pressure squeeze plate or friction drive
+altachment is reguired. Similariy, the disc cannot be
+4-64
+
+drilled locally to achieve dynamic balance require-
+ments. However, α stecl reinforcing ring may bc used
+for this purpose. The structural graphite material
+costs about 5400/1β as of this writing (1975) —— future
+costs may be significantly less with adequate produc-
+tion volume.
+4-2.3 STATIC COMPONENTS
+Static or nonrotating components of the trans-
+mission and drive system include the gcarbox
+housings, liners, quills, mounts, studs, and dowels
+that serve to enclosc and support the dynamic com-
+ponents. This paragraph addresses only the most
+significant components; ι.χ., cases and housings, and
+quills.
+4-2.3.1 Cases and Housings
+Helicopier gearbox cases and housings are fabri-
+caied aln.est exclusively from lightweight aluminum
+alloys and castings and forgings or from magnesiusn
+sand castings. These materials exhibit excellent ther-
+mal conducti-ity and ultimate strength-to-wcight
+ratios, are rcadily machinable, and in many in-
+stances may be saivaged by welding and stress
+relieving with litile tesultant loss o strengih proper-
+tics. Although the general approach to casting and
+forging design is well covered in available literature,
+plications are summarized in the paragraphs that
+follow.
+4-2.3.1.1! Desien α Amayals
+Housiligs assd cases may be classified as primary
+structural load paths (rotor mast support or control
+systens reaction member) or simpfy as gear housings
+for which externally applied losds are sot signif-
+cant. This distinction is fundamental in the selection
+of the design and analysis mcthods employed. Criti-
+cality classifications of castings and forgings are de-
+fined in MIL-C-6021 and are interpreted in AMCP
+706-203.
+In most instances specified crash load factors and
+limit maneuver loads wili require ultimate and yicló
+strength Ievels in primary structural cases and
+housings of such mragnitude as to permit design def?
+nition by siatic analysis as opposed to fatigue analy-
+sis. Facigue analyais wilf be used to define only the
+rotor control reaction portions of the cases and, oc-
+casiol.aily. the gearbox support or mounting lugs
+when rotor vibratory loads or dynamic reaction loads
+frem ground resonance or larding conditions are suf-
+ficieni to causc conoern for low-cycle fatigue.
+Static and fatigue tost requirements are outlined in
+AMCP 706-203, which deicribes basic design lond

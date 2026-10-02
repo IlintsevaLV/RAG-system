@@ -1,0 +1,108 @@
+• 1 •
+locations where flight test inhtrumcntation will be
+placed. Thesc calculations should cover the complete
+ground-air-ground cycle, including landing, taxiing,
+and towing. In such α sequecnce, all of the static, tran-
+sient, and oscillatory stresses and vibrations should
+be compasted.
+3. The stresa and vibration calculations should be
+reviewed to determine where design optimization
+should start. If the performance, stresses, vibrations,
+handling quaaities, and other rotor characteristics
+meet but do not exceed the specification require-
+meats, then the preliminary design may represent an
+optimum configuration. if the helicopter greatly
+exceeds requirements in one or more of these arcas,
+weight penalty generally results. Design changes
+should be made and at least α portion of the analysis
+based upon the maneuver spectrm should be recom-
+puted. If tht design fails to meet the specifications in
+certain arew ,, the design must be improve I 'nd α por-
+tion of the maneuver spectrum analysis should be
+rccomputed to demonstrate compliance,
+At the end of the iteration, thi detail design should
+start with α sat of loads for static and dynamic stress
+calculation, and α reasonable assessment of vibra-
+,
+tion
+The detail design of the rotor system should be in-
+itiated by making dimensional drawings of all parts.
+The designer should follow the preliminary design as
+closely as possible. However, compromises often may
+be required, some of which can aiter the dynamic
+chepracteristics significantly. As the design pro-
+greases, section properties, weights, inertias, and
+stresses should be computed for the detai! parts. As
+soon as the first design iteration is completed, the
+rotor natural frequencies, loads, and stresses should be recomnuted. These stresses should be used as the
+.basis for α fatigue analysis, which should be guided
+"additionally by experien= from the test histories of
+it'milar parts ana idealized material samples. Depen-
+ding upon the outcome of this first design iteration,
+the design should be accepted or another iteration
+started.
+Significant advances have been made with heli-
+copter flight simulations. For example, Ref. 14
+describes α recently developed analytical tool for
+computer "flight testing" of VTOL designs. Steady-
+stawe flight, maneuvers, and gust response effects are
+included so that cornfiguration required changes can
+be made readily during the preliminary and detail
+design stages. This objective is achieved by detailed
+) reprewentation of the aircraft, including rotors, wings,
+- auxiliary propulsion, and control systems. Complete
+blade element analysis of the main rotor(σ), tail rotor,
+and propeller(σ), as applicable, are performed
+
+AMCP 7Ω6202
+through α maneuver, and are based upon the In-
+stantaneous aerodynamic and dynamic environ-
+ments. Time histories of rotor blade loads and bend-
+ins moments are calculated. The basic equations and
+programming procedures are presented and discussed
+rnd in Ref. 14. The representation of airframe rotor
+parameters, the types of maneuver inputs, and the
+available output formats also are discussed in detail.
+Typical case studies are given. This analysis is
+capable of evolving into α generalized procedure with
+the additiou of details such as elastic pylon and fuse-
+lsge, and α fully aeroelastic rotor. Complete docu-
+mentation of this particular method can be found in
+α Ref. Comparable 15. met':ods have been developed
+by other contractors.
+5-4.1.2 Oscillatory Load Design Comiderations
+Oscillatory loads are α major factor in rotor design;
+but the calculation of oscillatory loads is not yet suf-
+ficiently accurate for life prediction and design
+assurance. Therefore, rotor design is guided by cal-
+culatcd natural frequencies, static loads, and factored
+oscillatory loads. The final demonstration of design
+adequacy comes from flight and fatigue testing.
+5-4.1.2.1 Rotor Oscillatory Load Calculation
+Most current procedures for computing rotor
+natural frequencies and loads are based on Mykle-
+stad'σ development of the dynamics of α rotawing
+beam (Ref. 16) and on simplified, two-dimensionl
+aerodynamics (Ref. I). Typically, such analyses can
+1 5 used to compute natural frequencies and airloads
+separately; ther the two analyses are combined to
+compute the forced steady-state response. Many ver-
+sions of this procedure have been rit!χ ecito developed. foeaattowi.hhos Α
+been used for designing two-bladed rotors for nearly
+α decade, is given in Ref. 17.
+5-4,1,2.2 Drawing Board Phase
+As noted previously, the drawing board phase of
+the rotor detail design is an iterative procedure and
+typically involves several groups of engineering speci-
+alists. The procedure is best explained by briefly
+describing the functions of several elements:
+I. Τ'he areodynamics group sizes the rotor,
+de',clops the blade contours, and helps determine the
+static load spectrum during the preliminary design
+phase. Often this work carries over. with little
+change, into the first step of detail design.
+2. The rotor design group starts itera- the design
+tion by laying out the preliminary rotor design and
+developing dimensional drawings for the detail parts.
+The designers must be cognizant or the stresses and
+5-17

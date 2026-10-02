@@ -1,0 +1,15 @@
+coupling mechanism might be defined as a resistive voltage drop. In some cases a
+definite resistance will be involved, though frequently the resistance will be of a
+distributed nature and pwbably frequency- or time-dependent.
+EXTERNAL MAGNETIC FIELD Hex,
+INTERNAL MAGNETIC FIELD
+Eext EXTERNAL ELECTRIC FIELD
+INTERNAL ELECTRIC FIELD
+Coupling mechanisms. 8.6 Figure
+(a) Resistive
+Magnetic fields (b)
+(c) Electric fields
+The second coupling mechanism involves magnetic fields in the interior
+volume of the aircraft. The most common and important type of magnetic field
+is that drawn through apertures from the outside of the aircraft to the interior,
+1 26

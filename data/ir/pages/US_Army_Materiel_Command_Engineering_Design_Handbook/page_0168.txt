@@ -1,0 +1,99 @@
+Μ9CP. 216-202
+3. Improper attention to joint and fastener se-
+quiremonts. Sufficient flange thickness must be pro-
+vidad to distribute loade uniformly smong the pro-
+loaded tension fastontrt (bolte or studs) use 3 on case
+flange joints. Fastoner proload must be sufficioni to
+maintain tension st -65*F. proclude strees reversals
+during normal oscillatory loading. and maintain
+designod flanges with compatible faste.er spacing. α
+conservative value for fastener tonsion londing Π, for
+moment-loadod cylindrical joints is given by
+NaE Σ.Μ ib (4-62)
+wherc
+Μ - mosnent, in.-lb
+Dsc = bolt circle diamciar, in.
+N - number of bolts or studs (oqual spacing
+aseumod)
+Tbe yield and uitimate streagths given in MIL-
+HDUK-5 for standard AN studs represent he
+minimum valur obtained with proper instaliation.
+Howovor, manufacturing characteriatics ofen have α
+more deicierious cffect upon the installed sincngths of
+qua og sae;ε sep uodn wq ppe NV sguus
+maximum practicabic perpendicuiarity for tapped
+bolos, tise conxbined effecis of taper and squarcncas of
+'u!-8/E sq qns pueq Anpuag aonpu! Som pugof
+sorios studs domonsarate icasile failure at 90% of
+handbook ssiscinsume values. Thc significancr of thie
+is protably betier demcastratod by thac fact that
+trpicut 7/16-in. dismsicr studs peually demonatrate
+double the inrialied teosilc strength of comparable
+3/τ-is. Ciasel : studs with approaisate cast and
+waight penaltic. of 10% asd 25%, reapectively.
+Biind tappod boles for siuc installation saust be
+vented.
+When torquc must be transferred throu.η α fiange
+joint, & orque capecity Q, is the aboarce of external
+bension londs is givens by
+1.25 Q.ND (4-63)
+Dro
+Q. σ8ad torque. ib-in.
+N = aumber of siude
+Dro. Dac - bot cicke diameter, in. - stad pitch diametar, ist.
+ond tihis velug, dowels, keya, or othsr mechaaical
+lscking devious abouid be ueed to prevan: bending
+
+and shoar loadiag of the studs. Although it is com-
+mon to consider stud shear strengih in determining
+ultiruate joint strength, chis factor should pot be
+reliod upon for normai dosign torque analysis.
+The joiz: canfiguratson theorctically pooessery to
+mout the strength roquirements having boen de-
+torminod, it boconsos imperative to assure com-
+putibie detail deeign of tbe machined surfaces for tibe
+fastoners. Fracture resistance as well as fatiguc con-
+siderations roquire careful ationtion to secmingiy leu уп:
+significant dotail. Genorouz Silct rudi snust be pro-
+vided in spotfaces, coupterborss, and keyways. All
+abarp corrers maust be chamfored, and fcather edges
+musi de removed to minimizs sireee cunccniration.
+Smooth bleading of intersoctions on critical
+machinod surfaces is also α. xeesary to minimize stress
+concentration. Additionally thc counierbore or spot-
+face size maust be adoquate to provide wre.ich clear-
+α.sce for pormal mainicnance operations.
+4. Failure to consides doflection and loading in
+contiguous structuze. Many record instances of gear-
+box mouating lug failure are sttributabic to ex-
+tornally induced Joade that vere ignored in the design
+analysie. Tbe east &earbox structurc. wh: ' often iz
+stifier tbas tbse aicirame struciure lo wnici it is
+mounted, may provide α load path for bending and
+for torsion reactions present in the airfragie structure
+due to kodisg gear, roior tkrust, or vibratory re-
+sponees. Examples are the atluchment of α four lug
+aapposory gvarbox to α deck structure that bae verti-
+cal bending modes, or the similar mounting of ass in-
+tarsuaciate geerbos oe tail boom structure that un-
+dargoes torsional defiections vith largr tail rotor
+piach inputa. Becauee it is dasirable to obcairs tiae saíε-
+ty isberent witin mounting rodundancy. it is usunlly α
+aned practias eithar to pror: de gresthy stiffaned air-
+fromc strusture locally or τ : introduce sdôtional
+compliance at oue of mof. gearbox altachment
+puisis by uae of elastomeric memburs. Boefing up the
+guarbox ofieal mereiy modifies tihc faihure modc.
+4-2.3.8.2 Moseriads and Pre
+Magncsium kas: feilan into disfavor Compared to
+aleamisum for cases and bousiags becave shortaring
+of sesvice life dase to corrosicn has become α
+significant maintanance and spases repioccment ex-
+penae to tbe Army. Decauce mngresiuaa is as: sdic
+with rapect to ali other metals, failure to cmploy
+adequase das ign. procns, and preventive main-
+tenence meusures has caused an overenphasis of the
+dodiciencios of thc material. Dare magnucisun ac-
+trally is effoctod less by expoaure to snarine at-
+monplere tsan is uaprcieciad miid stael (Ref. 101).
+Homgver, corrucion of megnesiuen allovs can be

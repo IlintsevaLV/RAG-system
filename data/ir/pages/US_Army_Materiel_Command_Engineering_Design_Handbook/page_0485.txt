@@ -1,0 +1,108 @@
+*
+special commercial parts or designs serving the same
+formance is not compromisod, belicopter design
+should permit servicing and maintenance at all levels
+with equipment standardizad fo: Army usc. Electrical
+connectors, fill plugs, fittings, and other interfacing
+items shouid permit connection of standard GSE
+without the usc of special adapters.
+Where items require modification in order to per-
+form the required function, the designer should speci-
+fy tools and tooling that will comply with Govern-
+mental specifications and Jocuments relating to
+materials, proceses, equivalent toleral.ces, and size.
+The designer sho.ld climinate, where possible, the
+requirements tor new or special tools for use on new
+helicopter sysiems.
+Ths designer should reflect docisions ef Optimum
+Repair Level Analysis, basod on Army main-
+3 tenance/support policy in the maintenance and GSE
+interface design. Equipment should be designed for
+testing at the indicated levels, giving considerstion to
+the in:trface with standardized Army test equip-
+ment.
+The design of individual black boxes should per-
+mit their serviceability on the helicopter to bc de-
+termincs by means of seli-containad. gu/no-go test
+circuitry. The circuit loops of multi black-box sub-
+systems shouid be contained in α single box. This will
+climinate the nsed for calibration adjustments at the
+helicopter level and will perrsit the use of simple,
+* light weight, go/no-go circuits.
+15-2.4 HUMAN ENGINEERING
+training and relatively low skill levcle, andi some-
+times working under adverse climatic and caviron
+mental conditions, are employed to provide ihe
+needed service, maintenance, and repa:- of the heli-
+copter and installed systems. Therefore, designs must
+be basod upon the proper allocation of ma:-
+equipment perforniance for system operation, main-
+tenance, and control. Thus, designs should ailocate
+functions τ9 optimize performance, mioimize
+operationa! constraints, and minimize operating and
+maiutenance costs. Hunan Factors Engine ring
+(HFE) design criteria principies and practices may be
+found in MIL-STD-1472 and MIL-H-46855. Goals
+to achizve include:
+1. Achieve satisfactory performanc: by operator,
+control, and maintenance personnel.
+2. Reduce skill requirements and training time.
+3. Increase the reliability of personnel-equipment
+combinations.
+4. Foster design standardization within snd &-
+mong systems.
+
+α і
+Α ACP 706-202
+Human enginocring apocialists should interpret the
+design to define HFE problom areas and provido
+solutions.
+Populations for douign stould be spocifiod. During
+the iterative procecs of design, existing critical mais-
+tenance tazks shal/ be defined and, when poasible, eli-
+minated.
+AFSC Personnel Subsystems 1-3 provide epocific
+criteria for human engineering design roquirements.
+15-2.5 INSPECTION, TEST, AND DIAGNOSTIC
+SYSTEM
+The need for increased tactical mobility reqvire* ef-
+ficient methods for inspection, test, diagrosis, and
+prognosis in the tactical operating environment. Α
+design objective, when requested by the procuring ac-
+tivity, is to provide an automatic inspection, test, and
+diagnostic system capable of diagnosing malfunc-
+tions automatically, warning of impending
+mechanical failures, minimizing maaual inspections,
+and permitting helicopter components to be changod
+on the basis of condition rather than of time. This
+objective may be modified by state-of-the-art, mis-
+sion, and weight/volume restrictions.
+The automatic inspection, tast, and disgnostic
+system shouid serve the foliowing wlements:
+1. Engine(σ) and sccessorits
+2. Fuei subaystem
+3. Oil subsystem
+4. Rotor group, includng main and tail rotor
+transmissions, propellers
+5. Flight control subsystem
+6. Electrical subsysuem
+7. Escntiai avionics
+8. Hydraulic subaystem
+9. Airframe (critical stress area)
+10. Amzament subsyaem.
+Appropriate sen sors should be installed per-
+manentiy in the helicopter and in major system com-
+ponents, *σ applicasie. Sensor media may include,
+but are noi limited to, temperature, presure, vi.
+bration, acceleration forces. liquid flow. electrical
+continuity, eicctsonic cheracteristics, and vapor de-
+tection. Sensor ouiputs sheuld terminate in α quick-
+disconnect outict in thc väcinity of the ground power
+connoctor terminal. The sensor outet will interface
+with GSF capabk of processing senzor data outputs
+automatically.
+15-3 FROPULSION SUBSYSTEM IN-
+TERFACES
+15-3.1 GENERAL
+Α pr julsion aystem consists of the engine or
+15-3

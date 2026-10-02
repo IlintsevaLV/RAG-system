@@ -1,0 +1,20 @@
+-,-1
+ribs end Metal strips Metal
+spers oCFC
+Metal rib
+Lower CFC skin
+Fig. 11.35 Wing box analyzed with 3DFD technique.
+Upper skin and details of installations omitted for clarity.
+Top and bottom CFC skins 6 mm During tests, current was injected into one end
+CFC spars 2 mm of the wing box, the test geometry being as shown in
+Aluminum spas 2 mm Fig. 11.36. Voltages and currents were measured at
+CFC rib 2 mm. the points shown in Figs. 11.37 and 11.38, Voltage and
+The wing box included a fuel pipe, fuel pipe bell current probes were built into the test object when it
+and cable conduit, these being numerically modeled as made, the current was density in skin materials being
+perfect conductors. The insulated fuel pipe couplings measured by passing some of the skin material through
+gaps. were modeled as The cable conduit was con- Rogowski coils, a form of culrent transformer.
+nected to the box at both ends and In the middle with
+~straps, bonding assumed in the nu-aerical model to be
+perfect conductors.
+Fig. Setup for 11.36 tests on wing box.
+6

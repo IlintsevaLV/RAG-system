@@ -1,0 +1,32 @@
+location, but the aircraft will move forward a significant distance during the life
+of the flash. Thus, whereas the initial entry and exit points are determined by
+the mechanisms previously described, there may be other, subsequent, attach-
+ment points that are determined by the motion of the aircraft through the
+relatively stationary flash channel. In the case of a fighter aircraft, for example,
+when a forward extremity such as the pitot boom becomes an initial attachment
+point, its surface moves through the lightning channel, and thus the channel
+2.8. This appears to sweep back over the surface, as illustrated in Figure
+occurrence is known as the phenomenon. As the sweeping action swept-stroke
+occurs, the type of surface can cause the lightning channel to attach and dwell at
+If part of the surface, various surface locations for different periods of time.
+such as the radome, is nonmetallic, the flash may continue to dwell at the last
+metallic attachment point (aft end of the pitot boom) until another exposed
+metallic surface (the fuselage) has reached it; or the channel may puncture the
+nonmetallic surface and reattach to a metallic object beneath it (the radar dish).
+Whether puncture or surface flashover occurs depends on the amplitude and rate
+of rise of the voltage stress created along the channel, as well as the
+voltage-withstand strength of the nonmetallic surface and any air gap separating
+it from enclosed metallic objects. When the lightning arc has been swept back to
+one of the trailing edges, it may remain attached at that point for the remaining
+duration of the lighting flash. An initial attachment point at trailing edge, of a
+course, would not be subjected to any swept-stroke action.
+Tn FLASH
+TI T2
+Typical of swept-stroke attachment 2.8 points. Figure path
+The aircraft cannot fly out of, or away from, the channel. This because is
+the potential difference between charge centers (cloud and earth or another
+cloud) is sufficient to maintain a very long channel until the charges have
+neutralized each other and the flash dies. The aircraft is a very small (and highly
+conductive) part of the channel and cannot move sufficiently far away from the
+vicinity of the channel to become detached from it during the brief lifetime of a
+lightning flash.

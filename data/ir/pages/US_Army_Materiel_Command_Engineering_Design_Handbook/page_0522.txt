@@ -1,0 +1,106 @@
++γ.
+MCP 706-202
+16-9.4.1 Cable Strength
+The brocking strengti of a cable is determinod by
+the not mstallic cron-toctional area and ius materiai
+pmpertios. The net motallic cross-sectional area
+oquals the zum of the croes-ectionzi areae of all of
+the individual wires, and, therefore, varics, for a
+given nominal cable.
+16-3.4.2 Cabke Dcfloction
+The total cable deflcction may recuit from either
+constructional stretch or elasic stretch. The maxi-
+mim surstch allowod by MiL-W-5424 is 2% rhen the
+cable is loaded to 63% of its broaking stre-gth.
+Constructional stretch varies from cable to cabie.
+and reeults from the small spaces prestnt between thc
+wires and the strands, ans betwoen tie strands ar 3
+the ccre afor fabrication. Cables usod in contro!
+gystems, and where large initiai deflectiors cannot be
+toleratod, are proof-loaded to remove this stretch.
+The cable siouid 5e loaded to a minimum of 60% of
+its breaking strength in accordance with MIL-C-
+5688. This procedure also is uscì for proof-testing
+cabic assemblics.
+Elastic stretch results from the elong-tion of the in-
+dividusi wires as thc ioad is appiicd. As tne ioad is
+released, the wires return to their original length.
+provided the clastic limit of tem&terial has rot boen
+excceded. The elastic stretch is determined from the
+product of the load times the cable length divided by
+the product of the metallic cross-sectiosal area and
+the modulus of clasticity.
+16-9.4.3 Operating Charscteristics
+The operating characteristics of a cabie are de-
+pendent upon the tyre of construction and the u-
+stallation. A friction-preventive compound may be
+appliod during fabrication to reduce the friction of
+the cable when it is bent. The number ct bends, the
+radius around which thc cablc is bent, ard the pulley
+configuration in which the cabie operates all affect
+the ope ating characteristics.
+16-9.4.4 tVtre Material
+The compaaition of wire used in the fabrication of
+co rosion-rcsistant steel wire rope is given in MIl.-W.
+5424 and MIL-W-5693. The physical properties are
+determined by the snanufacturer in o.der to mect the
+requirenents f the Military Specification. Many
+othcr types of materials are available, but their usc
+should bc consicerecl only with the approval of the
+procuring activity. Oil.er types of cable include gal-
+vanized carben steel (MIL-W-6940 and MIL-W.
+1511) and no: magnetic corrosion-resisting cabies
+(MIL-C-18375).
+16-32
+
+16-9.4.5
+The construction of the cable can take many forms
+to obtain the results dosirad, as divcunesd in par.
+16-8-3. The type of construction used should be
+matchor with the operating rocuirements for the
+cable. A system might bc designed using segments of
+cables with different constructicn. Aircraft cable
+measuring 7 by 19 (7 strands of 19 wiras cact) is pre-
+ferred for aircraft controis because of its high
+strength. good flexibility, and bending fatigue re-
+sistance — which aliows it to be operated ove: rela-
+tively amall sheavos.
+The 7 by 7 (7 strands of 7 wires) sircraft cabic is noi
+as filexible ss the 7 by 19. Since each strand is made up
+of only seven wiros, each wire is larger in diameter.
+Therefore this type of construction has more ability
+to withstand abras:on than docs 7 by 19.
+The 1 by 19 aircraft strand is considred non.
+flexiblc. It shouic be usod only as a straight run soc-
+tion because its minimum stretch resuite in increased
+rigidity in controi sys:ems. It also is used for bracing.
+etc., where its compact structure, high strength, and
+minimum stretch all provide added benefits.
+Othcr sirciaft and commercial cable types are
+avaiiabic. Some sre designod for high cnergy ab-
+sorption — as in launching and arresting systems,
+towing. etc. Other configurations include plastic-
+coated cable, particularly desirable for use as a hand-
+hold or guard rai.; and as coniplex assemblics used
+for communicetions, where electrical conductors
+with insulatior: are provided inside the loaa-carrying
+outer members.
+16-9.5 SAFETY WIRE AND
+COTTER PINS
+Pins always should be madc safe. In main struc-
+tural members, safety can be achieved by drilling a
+hole and using 8 cotter pin or safety wire. As an ad-
+ditional safety measurc, bolts end pins should be in-
+serted with their large end, or head, uppermost in
+order to reduce the possibility of their falling out
+should they not be properiy safetied.
+In general, safety wirc should be used only where
+self-locking fasteners or cotter pins are not adequate
+to withstand the expected vibration or stress. Safety
+wire should be attached so that it can be removed in
+accordance with MS 20995. Inconel (uncoated) and
+Monel (uncoated) wire should be used for all general
+lock-viring purposes. Copper wire that hrs bee!.
+cadmium-plated and dyed yellow should be used for
+shear and seal wiring in order to allow operation or
+actuation of emergency devices. Aluminum alloy

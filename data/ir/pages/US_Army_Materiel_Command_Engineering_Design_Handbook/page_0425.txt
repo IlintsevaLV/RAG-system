@@ -1,0 +1,106 @@
+Α#CP 705-202
+flections of the opening should not be large enough to
+cause failure of the glaze-supporting ayste.ν.
+Thicknt#σ of tise glaze .-. determined by analysis or
+test - should be adequate to support the pressure
+and impact tosdings. In addition. the glaze ma*erial
+must satisfy any ballistic-resistance requirements
+contained in the system specificatior.
+et 11-6 DEVELOPMENT
+The iterative procesz of design, build, test, and re-
+deigaa is calied development. Several different ver-
+sions of the same airframe component may be de-
+15 signed, built, and tested to determinc trade-off para-
+Meters such as weight, strength, and cost. With these
+data avaiiabie, α decision can be made as to which
+structure besi fits the requirements.
+Development, includirg tcstung of alternative
+manufacturing mcthods, is & costly process. It should
+be used ouly for redundant structures, where &nalysis
+is either more costly or is impossible to accomplish
+within the alloted schedule, or for new construction
+techniques in which experi.nentai manufacture is se-
+quired to prove feasibility and to deicrmine costs.
+For purposes of this discussion, devclopmant does
+not include the testing of parts to deitrmine points of
+lc cal failure and the changes necessary to obtain adr-
+quste sirength. This testing, rework, and retesting is
+considered α part of the denonstration of structurai
+aScquacy &nd is discuesed in par. :1-8.
+11-7 MANUFACTURE
+The dezigner has the responsibility to provide an
+aitframe requiring as low α manufacturing cost as is
+possibie. Gencraliy, tite must casily manufactured
+cirframe also is the lcast costly one. Α reasonable
+number of subassemblies shou:δ be planned to allow
+case of manufacture.
+Acressibility to all areas of the structure usually re-
+sults 1ν lower cost, because more worl:ers can be ap-
+plied during α given period of construct:on.
+The structure should be designed to permit usc of
+υ automated machines (χ.γ., riveters) and numerically
+3 controlicd machine tools during manufacture in
+order to minimize production costs.
+In Chapter 4, AMCP 706-201, the consideration
+for practical production tolerances is discussed. The
+preliminary design will have considered the
+solera-ces that can be achirved during mnanufacturc
+and will have been thr basis for design selection. The
+example used in Chapter 4, AMCP 706-201. is the
+preliminary design ot the soors and hatcnes.
+During detail design the exact production
+tolerances required must be established. The
+11-12
+
+tolerances cliosen will be the result of many con-
+siderations. Thesc include:
+1. Number of units. The total number of heli-
+copters to be produced influences the type and ex-
+tent of the tooling that can be used. Α large pro-
+duction run will permit intricate tooling with co.:ts
+that can be spread over many units.
+2. Fabrication method. The way the helicopter will
+be fatricated on the production line influences the
+tolerances. If thc helicopter is fabricatoed from many
+components that have becai subcontrected to many
+different vendors, there is α ueed for cioser tolerances
+than if the helicogter is entirely fabricated on one
+production line.
+3. Assembly mcthod. Therc are various methods
+of assembly that have different tolerance re-
+quirements. Close tolerances will per mit complete in-
+terchangcability of parts without addicional work.
+Selective assembly will permit lces strict tolerances. Α
+large productior run v.ill make parts availabie for se
+lective matching with adjacent partz. If assembly
+methods and production time is availahl, the saw to
+suit, file to fit, appronch may be thbe best.
+4. Performance. The noed for fiushness and gap
+an influence on production toleranoes.
+5. Interchangeability and replsocability. The ex-
+tent that parts and componente should be inter-
+changeabk and how they shuuld be replaceahle have
+α direct influence on production tolerances. Re-
+placment requirenients at the lower maintenance
+echclons will require tole:anves that will permit re-
+placement with α minimum amount ef match fitting.
+6. Cost. Cost production tolerances where they arc
+not required result in added expense. Loose
+tolcrances that present assembiy probiems also may
+resuii in addicd cxpensc.
+Careful consideration must be given to production
+tolerances. The final tolerances used will be the result
+of coordination between the procuring activity.
+engineering. manufacturing, and purchasing.
+See Chapter 31, AMCP 706-201, for preliminary
+design treatinent of accessibility/interchange-
+ability/replsccability.
+11-8 SUBSTANTIATION
+In addition to design, development, and manu-
+facture of en airframe, it is necessary to demonstrate
+ihat the structural subsystem ν.cets the design
+requirement. ? wo methoáσ are used to demonstrate
+the structural adequacy of the airframe: analysis and
+testing. Generally, it is acceptable to use cne or the
+other method to prove that strength and de-
+formation, utility, dynamics, and weight and CG are

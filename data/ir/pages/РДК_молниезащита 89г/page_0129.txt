@@ -1,0 +1,97 @@
+currents. Therefore, test- designed to conduct electric
+lightning direct effects used to evaluate ing must be
+and verify protection design of such complex struc-
+tures.
+Similarity: Verification of direct effects protection by
+similarity means that current-carrying structures and
+joints must be shown to have equal or greater cross-
+sectional areas and interface surface areas than the
+designs to which they are similar, and that other de-
+sign features are also sufficiently similar so as not
+respond differently to other lightning effects such as
+shock waves and magnetic forces.
+'Demonstration of similarity includes comparisons
+of detailed design drawings, parts lists and installation
+details, combined with such analyses as are necessary
+to show that dissimilarities do not result in unforeseen
+hazards.
+verified by simi- that can be of designs Examples
+larity are:
+ Skins. -
+Hinges and bearings,
+ Landing gear. -
+ Flight control surfaces. -
+Windshields.
+Joints, interfaces and couplings,
+Test: Many subsystems or components will be veri-
+fled by test. The environment will be determined by its
+physical location on the system and the lightning strike
+zones that are applicable. More than one zone may
+apply, that is, all components must conduct the light-
+ning current away from the attachment point in addi-
+tion to withstanding the thermal, blast and magnetic
+force effects of direct lightning attachment. Thus all
+subsystems or components must withstand the Zone
+3 environment in addition to the other zone require-
+ments.
+Lightning direct effects are usually limited to the
+near vicinity of the attachment point. In most struc-
+tures, the current will diffuse radially away from the
+attachment point and as the current density decreases,
+the physical damage also decreases. This indicates
+that the specimen size for test can be small compared
+to the size of the total structure or component.
+verification direct effects for conducting Methods
+tests are described in Chapter 6.
+Verification indirect effects of protection: Indi-
+rect effects protection designs are usually verified by
+demonstrating that the induced transients appearing
+
+I (LRU) harness interfaces at the Line Replacable Unit
+and that the than the established TCL'σ, are less
+equipment can tolerate the ETDL'σ at their interfaces.
+by test, be accomplished Verification can again
+verified systems to previously analysis or similarity
+and equipment, or by combination of these methods.
+Further discussion of these methods is presented in
+Chapters 8 through 18. Appropriate margins will be
+required to account for uncertainties.
+Certification plans 5.7 to
+Experience has shown, particularly on aircraft
+employing major amounts of advanced composites or
+full authority electronic control systems that prepara-
+tion and the submittal of α certification plan early in
+the program is desirable. FAA concurrence with this
+certification plan should also be obtained. This plan is
+because and the FAA the applicant to both beneficial
+resolution of the defines an acceptable it identifies and
+critical issues early in the certification process. As the
+process proceeds, analysis or test results may warrant
+modifications in protection design and/or verification
+methods. As necessary, when significant changes oc-
+cur, the plan should be updated. The plan should
+include the following items:
+Description of the system: There should be α de-
+scription of the system, covering such things as its
+installation configuration, any unusual or unique fea- tures, the operational aspects being addressed, zone
+locations, lightning environment, protection design
+level(σ) and approaches.
+Description of the protection: There should be α de-
+scription of the method of protection and the methods
+to be used to verify the effectiveness of the protection.
+Typically, the verification method includes α combina-
+tion of analytical procedures and tests. If analytical
+procedures are used, the methodology for verification
+of these procedures should be described.
+Pass/Fall Criteria: The pass/fail criteria should
+be identified and will apply to testing and analysis
+of lightning protection of fuel systems and electri-
+cal/electronic equipment and systems. The pass/fail
+criteria for an electronic system, for example, might
+include the following:
+level (ETDL). design transient The equipment Α.
+Β. The transient control level (TCL).
+4
+C. The margin between ETDL and TCL.
+Δ. Interference with analog or digital data due tc the
+112

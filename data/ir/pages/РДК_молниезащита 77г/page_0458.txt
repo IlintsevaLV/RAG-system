@@ -1,0 +1,27 @@
+that level of transient that would result in interference with or
+malfunction of the equipment. The vulnerability level by definition,
+then, would have to be at least as high as the susceptibility level.
+There are several ways in which the levels might be set. In the first, the
+system integrator would set the desired transient level, then set the required
+margin, which in turn would set the transient control level. Whatever the
+rationale by which the system integrator sets the transient design level, that level
+and would become α part of the purchase specifications would, presumably, not
+be subject to variation by the vendor of the avionics. As an alternative, the
+avionics designer might determine by suitable testing the vulnerability and
+α guarantee as to the level of susceptibility levels of his equipment and provide
+transients that his equipment could withstand. That level would then be the
+transient design level. After the system integrator had set the desired safety
+margin, the appropriate transient control level for the cable designer would have
+Space been established, One approach to the setting of margins appears in the
+15.3). (Reference Shuttle Lightning Criteria Documei~τ
+The numbers that would be assigned to the transient design level probably
+should be expressed in terms of the maximum voltage appropriate to α
+high-impedence circuit (open circuit voltage) or the maximum current appro-
+priate toa low-impedance circuit (short circuit current). In order for the
+transient coordination philosophy to have most impact, there should be α
+limited number of levels. One set of levels that has been proposed (Reference
+15.4) is shown in Table 15.1. With each level there is associated an open circuit
+voltage and α short circuit current; the two are related by α standard
+transient-source impedance, shown in Figure 15.9 (Reference 15.5)
+Short circuit current resulting from transient source with (ISC) 15.9 α Figure
+open circuit voltage and source impedance. 50ν/50pHz VOC

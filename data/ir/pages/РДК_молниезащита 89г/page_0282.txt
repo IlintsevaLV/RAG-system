@@ -1,0 +1,51 @@
+the fast determines how Q Expo- The damping factor Two of Sum the of Reciprocal 9.10.2
+by for called £actors damping Typical decays. waie nentials
+1 α shows 9.32 Fig. 24. to 6 from range specifications
+of 10. factor damping α with wave oscillatory MHz wave exponential double the of Α characteristic
+1.0 rate of and its highest discontinuity that it has α is
+exist not do waves Discontinuous 0. = τ at change
+numerical for undesirable sometimes are and nature in
+responses. spurious stimulate they because simulation
+discon- the avoids that [9.10] waveform alternative An
+attention, more deserves and thus 0, = τ at tinuity
+] is
+EE(9.144)
+τ τ 9ε( - 7) + E+α(τ-)
+and 4.4/0 be would 90%) - (10% time rise The
+2.3/α. + to be would 10% to decay to time the
+to -0.81 andEj and for Pi values of α, Using the same =
+us 10 0 as shown on is waveshape the §0.10.1, in used as ps 10
+9.31. Fig.
+wave. oscillatory Damped 9.32 Fig. Sinusoids Decaying 9.10.3
+Routines Computer 9.11 os- are frequently lightning by induced Transients
+An decay. exponential less or more α with cillatory
+are BASIC in written computer routines Two is sinusoid decaying idealized
+9.3 Table on BESSEL, 9.5. and 9.4 Tables in given
+Bessel various the of values the find to be used can (9.145) - El sin(wt)ε-*' E
+9.5 Table on EXPON, §9.3.3. in discussed functions
+double expo- the for the constants find to used be can
+outputs Sample 9.144. Eq. by described wave nential
+and 0.5Λ4J°) jO.3536 + 0.3536 = (ζ BESSELL for (9.146) -2ω
+9.7. and 9.6 Tables on are shown EXPON = (9.147) α irf/Q
+9.4 Table
+of Calculation for BASIC In Program Α - BESSEL
+Arguments Complex of and Bessel Functions Hankel
+(Partial)
+Functions Bessel calculating for program 'Α 1000
+argument. complex 'of 1010
+Fisher Α F by 'Written 1020
+Inc. Technologies Lightning 1030
+Parkway Downing 10 1040
+01201 NA PittsfJeld, 1050
+499-1015 (413) 1060 ' 1989 7, January date Program 1070 '
+1080
+Α-H,J-Z 1090 DBFDDL
+XR(20),XI(20) DIN 1100
+Δ1(20),Δ2(20),Π(21) 1110 DIN
+Π3-1/PI : Π2-2/PI 3.1415926#: PI- 1120
+- Δ1(0)-1:Δ2(0)-1:Π(O),1:Π(1) 1130
+actually) (λ/Δ factors Δ the 'calculate 20 TO FOR 1140 1-1
+Δ1(I)Δ,1(I-λ)/((2*I)"2) 1150
+Δ2(I)-Δ1(I)/(2*"I2) 1160
+I NUT 1170
+266

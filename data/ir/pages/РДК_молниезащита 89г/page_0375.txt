@@ -1,0 +1,87 @@
+Standardized threat: These two premises, combined
+with early visualizations of α standardized lightning
+threat, underlay studies ja~ly of lightning interactions
+currents. oscillatory ariplitude high relatively using
+The standard lightning threat was taken to have an
+amplitude of 200 kA and also to be associated with
+peak rate of change of current of 100 kA/ps. While
+of current were not rate of change amplitude and
+was that tacit understanding the explicitely linked,
+α standardized lightning threat, fbr indirect effects,
+could be represented as shown in Fig. 13.8.
+200
+kA ι
+Ssl6pe kA/us 100 =
+ι_
+0 2u
+the of view early An 13.8 Fig.
+standardized environment,
+to felt were effects Resistive amplitude: by Scaling
+(or even entirely) on the amplitude depend primarily
+any current α case, In such current. of the lightning
+suffice kA would 200 of amplitude peak α reached that
+in an air- voltages generated the resistively predict to
+for performing the justification then was craft. This,
+kA) oscilla- 200 high (preferably tests with verification
+tory current waves, even though the front time of such
+α wave was much longer than the 2 ps of Fig. 13.8.
+amplitude α peak 13.9, had Fig. surge current, If the
+by be scaled would results then the 200 kA, than less
+the amplitude of current.
+200
+sandard kA threat
+Al
+current
+0
+Fig. 13.9 Scaling amplitude. by
+Scnkg by rato-of--ins: Inductive effects were felt to
+depend primarily (or even entirely) on rate of change
+of and that any current current that had α high (prefer-
+ably rate of chaige would 100 kAM/σ) to pre- suffice
+dict the inductively generated voltages. the surge If
+current, Fig. α lesser rate of 13.10, had change, the
+results would scaled in proportion be to the rate of
+change of current.
+
+200 standard threat
+kA slope kA/us 100
+Α2 = slope
+Α2
+α
+0
+current
+Fig. 13.10 Scaling by rate-of-rise.
+had scaling and testing to approach This Advantages:
+approached the test amplitudes providing some merit
+that of the full threat. For resistively generated volt-
+ages it also had an advantage, real or supposed, that
+fre- high by obscured were typically voltages response
+quencies at early times, but not at later times. If the
+test current was oscillatory, the late time oscillatory re-
+sponse voltage could reasonably be considered "real"
+be could component frequency high time early the and
+considered "noise" in the measurement circuit.
+Present thinking, however, is that much of the
+early time high frequency component of voltage also
+voltage. response "real" α represents
+objection to simplified The biggest Disadvantages:
+frequently was process the is that concepts scaling
+justifica- is no there Fig. 13.11, far. In too pushed
+(χ) as α predictor (β) or using either waveform tion in
+(α). waveform response to of the
+(α)
+(β)
+Α
+Fig. 13.11 Unjustifiable extrapolation.
+(α) Full threat
+(β) Front too short
+(χ) Duration too short
+Constant waveshape: Scaling is most justifiable if the
+test current has the same waveshape as the standard-
+ized threat current, but has α lower amplitude, Fig.
+Then 13.12. questions related to scaling by amplitude
+or rate of change become moot since both amplitude
+and rate of change are related the by same scale factor,
+200
+(13.1) Α.-
+360

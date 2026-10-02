@@ -1,0 +1,25 @@
+Fuol Probo - Shin Strain Gaugo · Srin
+Fuel Pipe Coupling Fuel Ball Mouth - Skin
+Fig. 11.37 Locations where voltages were measured.
+Ξ
+0
+UEPE Encnal2=ue
+Side Side Spar intornal Top Skin Shrcud
+Cable
+Internai internat Conduit Shroud
+Fig. 11.38 Locations where currents were measured.
+Test and analysis conditions: Analysis and tests were Low level: Δx = 10 cm
+done for two different conditions: Δy = 4 cm
+Δz = 2.6 cm
+Low level test: 400 Α peak Δt = 50 ps
+0.25 με rise time Volume = 60,680 cells
+1.0 με decay time Number cf time steps = 60,000
+High level test: 200 kA peak Simulated time = 3με Bandwidth = 700 MHz
+10 με rice time 150 μs decay time High level: Δr = 20 cm
+Δy=icm
+The analyais was done with the SDFD techniques Δ÷ = 4 cm Δt = 100 ps
+pedances were modeled by implementing Eqs. 11.41 described earlier. The CFC surface and transfer im- Volume = 17,600 cells
+and 11.42, tiough modißed somewhat to conserve Number of time steps = 30,000
+computer time. The time and space resolution for the Simulated time = 30μs
+two cascs were: Bandwidth = 350 MHz
+327

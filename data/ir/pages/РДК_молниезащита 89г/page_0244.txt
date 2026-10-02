@@ -1,0 +1,89 @@
+of the wire supplying power to the filament of the
+will be set into oscillation by the suddenly developed
+voltage. The result is that at remote points there prob-
+ably will be an oscillation superimposed upon the basic
+IR voltage.
+•nG
+MUOM4 wIo
+is
+V, Τ χ-use WMM
+(α)
+_ _ _ _in
+(β)
+(χ)
+-the
+Α'
+(δ)
+Fig. 8.5 Resistive voltages.
+(α) Physical structure
+(β) Current waveshape
+(χ) V1
+(δ) V2
+cases of examples other two shows 8.6 Fig.
+which resistive voltages might be encountered. The
+first would be at the pylons for mounting external
+stores, shown in Fig. 8.6(α). If lightning current were
+to contact such external stores, it would have to flow
+through the pylons to enter the aircraft. The pylons,
+not generally designed as current carrying members,
+and being points where the lightning current would
+be concentrated, might have α high voltage developed
+across them. Another example might be the structural
+bolts attaching α large segment of the airframe, such
+as the vertical stabilizer shown in Fig. 8.6(β).
+(β)
+α
+-
+Fig. 8 Ther empyles fof exernistares
+ThJyoints (α) fotruxternal steres
+(β) Joints in structural members
+
+0
+light Effects of grounding: The effects of joint resistance on
+circuits are strongly influenced by the manner in which
+circuits are grounded, as shown in Fig. 8.7. Current
+flowing across the joint resistance, R, produces α driv-
+ing voltage V = IR.
+Since the circuit across which is measured V em-
+1
+ploys the structure as α ground-return path, the cir-
+high. be Vi would thus this voltage; all of couples cuit
+Α circuit employing α single-point ground does not in-
+-WM clude this resistive drop; hence would be low. The V
+2 of α single-point ground, however, does not erim-
+inate the voltage, since in this latter case the voltage
+at the source end of the circuit, 13, would be high.
+Structural IR voltages are of particular concern
+aircraft made from carbon fiber composite, CFC,
+may the end to end resistance materials because then
+flowing current 200 kA Α milliohms. as 60 much be as
+through that resistance would produce 12 000 volts.
+Equipment located in the front of the aircraft and
+rferenced to α point in the rear would be subjected
+to that high voltage, either on the circuits or between
+equipment and the local structure.
+,
+TT
+in I"
+Fig, Effects 8.7 of grounding.
+Fig 87Ef ctsrof rounding.
+Single-point (β) ground, V2 low =
+(χ) Single-point ground, V3 lo =
+(χ) Single-point ground, V3 IR =
+Limitations: These elementary descriptions of joint re-
+sistance should not be relied upon to predict coupling
+into circuits extending throughout the entire aircraft.
+The more massive the joint and the lower the dc resis-
+tance, the greater will be the dependence of resistance
+on the waveform and frequency content of the lightning
+current, and the greater will be the proportionate ef-
+fects of changing magnetic fields. While these effects
+will be discussed in more detail in other sections, one
+common oversimplification, shown in Fig. 8.8, should
+be pointed out here. If the total end-to-end resistance
+of the aircraft were 2.5 mr and α lightning current of
+200 kA were flowing through the aircraft, the end-to-
+end voltage on any circuit could not be depended upon
+to be less than 500 V, the product of the lightning cur-
+rent and the de resistance.
+228

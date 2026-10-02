@@ -1,0 +1,56 @@
+calculated. The cable top end of the wire were is that it is at the of the approach ments. The disadvantage
+finite difference was incorporated by standard that the boundary bundle approximation which assumes an
+run for The example was wire techniques (12.20]. on the presence thin not significantly depend fields do not
+all injected at the waveshapes, the degree three lightning-current the aperture. Considering or absence of
+tail, and of peak mag- of the aircraft, exiting the produced by lightning are nose to which the external fields
+had rise times of nitude 53 kA. The three waveshapes place (as opposed to precisely truly known in the first
+200 ns. 90, and 30, diffi- practical of a be much not this may calculated)
+culty.
+analytical procedure con- Steps in the process: The
+is to short main steps. The first step sists of three
+external to the aperture and solve for the fields the
+finite- This is done with a three-dimensional aircraft.
+At each a rather coarse gridding. difference code using
+on a surface finite-difference code, the fields step of the
+aperture are the eventual position of the surrounding
+to determine These stored fields are necessary stored.
+the aperture is opened. conditions when boundary
+down step is to shrink the gridding The second
+(a) dow modeling to a size that is compatible with adequate
+it should be fine enough that of the aperture. Hence
+aperture. fall within the now open several grid points
+--- -- -- - - space problem con- boundary as serve one step a from fields The stored
+2 ditions for the finer grid.
+The cockpit the grid introduces two problems. Shrinking
+first is that the finer grid has more points on its bound-cal
+is neces- I window grid that was stored, so it ary than the coarse
+for the additional points. Secondly, sary to interpolate 2
+step time smaller a usually demands gridding finer the
+I" be- thus interpolation difference process; finite in the
+e 21 is necessary. time steps stored tween
+5 to is procedure analytic the in step third The
+(b)
+.----- inside the cavity in a finite- again solve for the fields - --
+(b) stored, and the grid finer the fashion using difference
+The uniqueness interpolated boundary conditions.
+Geometries to illustrate coupling fields are correct, Fig. 12.22 theorem implies that the internal
+cockpit. into a does not the aperture presence of that the assuming
+external environment (a) To determine the boundary fields. This approxi- significantly affect
+window (b) To determine coupling through is kept far from should be valid if the boundary ination
+the aperture.
+be the largest response would It was expected that
+its because 30 ns pulse cockpit for the inside the seen the done employing have been Calculations Example:
+pene- easily components should most high-frequency inside response a cable solve for to theorem uniqueness
+Fig. the case. to be proved This the aperture. trate ex- The [12.21]. by lightning struck C-130 aircraft a
+while wire of the end the top at voltage the shows 12.23 The the cockpit. in a cable is for here presented ample
+re- only the For clarity, current. the shows 12.24 Fig. a three- is fields external for the to solve used code
+Since shown. are no currents and 90 to 30 no sponses in [12.21]. discussed code difference finite dimensional
+in be terminated to wire the calculation assumed the in Fig. is shown example for the chosen The boundary
+high, is quite voltage the resistance, its characteristic hatched is the aperture window the cockpit and 12.22
+a nearly arc through an that in fact high sufficiently differ- finite A three-dimensional the figure. in area
+actually that voltage were be expected air could foot of points various fields at solve for used to code was ence
+cable bundle to be developed. cockpit, and incorporated a inside the
+any since not occur do such arcs aircraft In real cock- in the vertically running in diameter inches two
+that shields and wires have would bundle realistic cable resistors Matching the window. meters behind 1.3 pit
+Fig. on shown current The circuits. short form would and current voltage and the the ends, on placed were
+348

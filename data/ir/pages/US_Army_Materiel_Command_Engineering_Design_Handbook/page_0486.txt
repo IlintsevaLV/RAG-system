@@ -1,0 +1,101 @@
+cqre penoqe °gAngne
+ticn subsyatome, sxarting subsysiem.
+controle, trenmmiasd lon susbaystom, and APU (if ap-
+doable). Interfaon design considarations outlinod in
+par. 15-2 sball apply. Speciflc design attention must
+be girea to maintainability objectives and must in-
+clude quick-change capabilities and accessibility for
+visual inapections, maintenance, and servicing. Ad-
+ditdonal propulsion systom dosign criteria are avail-
+able in Chapter 3 and in Chapter 8, AMCP 706-201.
+15-3.2 INTERCHANGEABILITY/QUICX-
+CHANGE
+Only onginc components and sccesaories shall be
+mountod on the engine. Design objoctives include
+component and accussory arrangomenis that facili-
+tate interchangoability. Eugine compononts and ac-
+comoriws chat vary vith installations will be ro-
+movabie in kit form to schieve interchangeability at
+mininun maintonance cost. Interchangeability ro-
+quiraments are outlinoá in MIL-I-8500.
+Holicoptor oparational availability is sensitive to
+engine change roquiremonts. Therefore, engine 8: -
+ceeeory pecks or moduies should bs designod for at
+* tachment to the cngine to forin α complete engine as
+sombly. The design of tbe balicopier must allow foi
+5 installation and ronoval of the engine asembly as α
+singie unit. To roduce lifo-cycle auaintonance coats,
+case of romoval and reinstallation of the engine ao-
+pal dasign objoctive. Quick-change capability should
+be achieved with α minimum of spocial tools.
+15-3.3 CONNECTORS AND DISCONNECT
+POINTS
+Approved, standard, quick-disccnooct mechanical
+and ciectricai coupings snaii be ussa as roquirod.
+Automatic shutoff couplings in accordance with
+MIL-C-"413 shall be amployod with fluid lines to ro-
+duce apis age aad contamination during propulsion-
+8,stam maiateoance. For case of alignmont and μ.-2ι-
+max quick-change times, MS 28741 flexible boec, 0ρ
+the equivalent, skould be used for fluid lines betwen
+the propulsion systom and the firewall. MiL-11-25579
+appties to bocus for high-temperaiure locations. The
+naumber of connector and coupling types shalf be
+sinimizad. Seleccion of eloctrical coanoctors is dos-
+cribod in MIL-STD-1353.
+:534 INSPECTION AND TEST POINTS
+Sensors incorporated within the propuision sys-
+ν rt- ν
+and subeystom(σ) condition, performance, and ef-
+ficiency. Sonsors sball be providod at additional
+154
+
+points as requirod to accomplish diagnostic tosting
+compatible with tbe overall heiicoptor tost and diag-
+nostic systom (par. 15-2.5).
+15-3.Σ OIL, FUEL, AND LUBRICATION
+Oil system drain valves shall ailow gravity drain-
+age cloar of the helicopter. In addition, tse valves will
+be self-locking to preclude accidental loss of fluid.
+The design of fuei-servicing aroe: shall permit casy
+and thorough clouning. Areas shall be marked clear-
+ly "for fuel only" and designatod as to type or typos
+of fuol as appropriate. Filler connoction designs will
+proclude the accidental connoction of water hoecs
+with thosc carrying other fluids. All fuel tanks must
+be capable of being drained completely and purged
+while on thc ground.
+Pormanantly lubricated hardwase will be usod
+wicrever poszible. Required grease fittings should be
+deuignod in accordance with MIL-F-3541, MS 15000,
+15001, and 15002.
+15-3.6 GROUNDING
+Α static electricity discharge path to ground must
+be provided through the Ianding gear or, for whocled
+landing gear. an external ground wirc. An MS 33645
+rexptacle for grounding the refueling nozzie should
+be installed not more than 42 in. nor leas than 12 in.
+from the filler opening for gravity fueling systems on-
+ly. Provisions must be made to ground the airframe
+through skids or other mcans prior to any servicing.
+refueling/roarming, stc.
+15-3.7 STARTING
+Α self-containod engine-atarting system is requirod
+for most Army helicopters.
+Externai cioctricai power ior ground starting wili
+be furnishod through connectors and receptacies in
+accordance with MIL-C-7974. The turbine jet-
+storting receptacle, if installed, will comply with MS
+25018 if α split bus system is used. The standard con-
+noction for DC is MS 3506; for AC, 400 Hz 120/208
+V 3-phasc, MS 9τ362 will be used.
+15-3.8 GROUND HEATERS
+The designes shall provide α 12-in. opening for σ ъ
+ndnns
+engines below 350 hp) in the acccssory section, for-
+ward of the firewall and closc te high-temperature-
+demanding units such as gcarboxcs and oil-system
+componants. Α beater duct opening behind the fire-
+wall also is desirablc to facilitate cold-weuther main-
+tenance and sorvicing.
+Hot air should not be directed onto electrical har-

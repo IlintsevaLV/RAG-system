@@ -1,0 +1,26 @@
+0.641.
+0 0
+-1.42 -1.06 1 0 us _1.06 0 1.06 ts 0 1.06 uis (β)
+(α)
+2.6 1.22
+Σ0 VAAU)
+(C.0 1.06 us -2.2 us 1.06
+(χ) (δ)
+Fig. 10.36 Calculated and measured response of CV-580 to triggered lightning.
+(α) Aft fuselage Δ-dot sensor - calculated
+(β) Aft fuselage Δ-dot sensor - measured
+(χ) Right wing Β-dot sensor - calculated
+(δ) Right wing Β-dot sensor - measured
+Lattice diagrams: The nature of the oscillations can not independent of each other either. For example,
+be calculated graphically by the lattice diagrams de- α wave traveling nose to tail would have two compo-
+10.58] scribed in the literature 110.57, or by time do- nentn as shown on Fig. 10.40; one that propagated
+main computer routines capable of representing dis- back and forth along the fuselage and one that crept
+along tributed constant transmission lines (10.59 and 10.60]. the wings. Speaking broadly though, the ring-
+ing frequencies will be given by the length of the path
+to tail length of 20 aircraft with α nose involved. An
+modes Osclhation on aircraft: Similar oscillations can meters would have α ringing frequency about 5 Mhz.
+be excited on aircraft, though the nature of the oscil- The actual ringing frequencies can be determined by
+lations are more complex. One reason is that there test or can be calculated by the two and three dimen-
+are several modes of oscillation that can be excited, sional time domain analytical techniques described in
+such as nose to tail and wing to wing. The modes are the preceeding sections.
+300

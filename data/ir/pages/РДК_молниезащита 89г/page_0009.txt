@@ -1,0 +1,97 @@
+the to Determining 8.6 Approaches
+8.7 Examples of Induced Voltages
+8.7.1 Wing From F-89J Aircraft
+8.7.2 Digital Fly-By-Wire (DFBW)
+8.7.3 Carbon Fiber Composite
+REFERENCES
+9 Chapter
+ELEMENTARY ASPECTS OF INDIRECT
+9.1 Introduction
+9.2 Symbols and Units
+9.3 Mathematical Operations
+9.3.1 Complex Numbers
+9.3.2 Trigonometric and Hyperbolic
+9.3.3 Bessel and Hankel functions
+9.4 Characteristics of Materials
+9.4.1 Free Space
+9.4.2 Other Materials
+9.4.3 Resistivity of Materials
+9.4.4 Good vs Bad Conductors
+9.4.5 Skin Depth
+9.4.6 Propagation Constant
+9.5 Geometric Mean Distances
+9.6 Voltage and Current Concepts
+9.6.1 Lumped Constant Elements
+9.6.2 Voltage as the Line Integral
+9.6.3 Importance of the Path
+9.6.4 Internal vs External Impedances
+9.7 Magnetic Field Effects
+9.7.1 Field External to a Conductor
+7.2 Fields 9 Within Hollow Conductors
+9.7.3 Inductance
+9.7.4 Practical equations for inductance
+9.7.5 Magnetic Induction of Voltage
+9.8 Electric Field Effects
+9.8.1 Evaluation of Capacitance
+9.8.2 Sphere Over a Ground Plane
+9.8.3 Symmetry of Expressions for
+9.8.4 Displacement Currents
+9.9 Surface and Transfer Impedances
+9.9.1 Tubular Conductors
+9.9.2 Circular, but Solid Bodies
+9.9.3 Flat Surfaces
+9.10 Analytical Descriptions of Waveshapes
+9.10.1 Difference of Two Exponentials
+9.10.2 Reciprocal of the Sum of Two
+9.10.3 Decaying Sinusoids
+9.11 Computer Routines
+REFERENCES
+
+230 of Circuits Response
+Measured on Aircraft 231
+231
+234
+240 Aircraft
+242
+EFFECTS 245
+245
+245
+245
+246
+Identities 246
+246
+247
+247
+247
+247
+247
+248
+248
+249
+250
+250
+of Potential 250
+of Integration 250
+251
+252
+252
+253
+254
+257
+and Current 258
+259
+259
+259
+Inductance and Capacitance 260
+260
+261
+262
+263
+263
+265
+265
+Exponentials 260
+266
+266
+273
+v

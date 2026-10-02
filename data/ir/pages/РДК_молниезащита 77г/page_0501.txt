@@ -1,0 +1,33 @@
+16.4 Table NONSEMICONDUCTOR RESULTS DAMAGE TEST
+Manufacturer'σ
+Manufacturer Part Roperties Test Resutts Device Type Number
+Cornell-Dublier OOK pF Capacitor Cl 10
+CK62 500 Capacitor Series Cornell-Dublier 4700 Vdc pF, No change capacity in
+200 96Π Sprague Series Capacitor Vdc 1 or resistance leakage pF,
+fl, WES CAP 600 KF223KM Vdc 0.022 Capacitor
+} 240-2524-00 Coil 220 Collins No change in inductance pH
+Hz pH Coil Colhs 542-09 lo3 16-002 resistance 2 or
+) Filter 21-0526-00 Notch400and1200Hz No change Bundy in
+Hz Var o Filter Bandpass 400 954-0429400 frequency response
+λ
+Potentiometer Computer lnsts. Μ18-178105
+Potentiometer !2 51917-1 250 Ohrnite No changes
+nmn Ohrnite 25 0 5 1927-3 Potentiometer
+Relay Babcock RP11573-GZ Resistance increase: Armature ,
+7 625 Q 629 C&
+C. Relay* Π. Clare Α5245-1 Armature Resistance increase:
+σ2 418 St>425 I
+' Relay Hathaway 63862 Magnetic Reed Resistance increase: 2.5%
+< Potter Brurnfield Relay FLBQOO2 Magnetic Latching 1 % Resistance decrease:
+Relay Dunn Struthers FC4-365 Armature No changes
+\ Dektronics Transformer Audio Frequency Δ78Z223
+Dektronics Transformer Power, Μ8Z225 Isolation resistance No change in
+Transformer Freed 667-0386-00 Audio Frequency or voltages, no arcing
+Varo Transformer 950-1 623-200 Power. Isolation during pulse
+Transformer Varo 197-700 999-0 Power. Isolation, Stepdown
+τ
+v 6BX7 Vacuum Tube Med Twin No change in
+UHF Vacuum Tube 5876 High characteristics π
+Med Vacuum Tube 6BC4 Twin Transconductance ~1
+decrease, 35%
+700 'Arcing present continually for V pulses.

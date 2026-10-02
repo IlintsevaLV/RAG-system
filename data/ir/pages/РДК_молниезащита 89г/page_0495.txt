@@ -1,0 +1,83 @@
+circuits case. If internal ground and the equipment
+case, then to the connected fact, permanently are, in
+applicable. is not the configuration
+internal
+surgs
+generator -- t
+""V
+st r
+system. on an ungrounded injection Pin 18.34 Fig.
+test procedure is: The
+ground local to the the EUT of the case 1. Ground
+system.
+to other EUT the connecting cables all Remove 2.
+power supplying those possibly except equipment,
+to the unit.
+and power leads, input the Questions regarding
+spe- powered, deserve should be EUT the whether
+power the system of If the voltage cial attention.
+applied voltage, than about 10% of the is greater
+is best solid state devices, it or if the unit includes
+since the with the EUT powered to make tests
+that test can change the way power connections
+the EUT. A full discussion current distributes in
+the scope of this chapter. is, however, beyond
+generator and of the surge Adjust the power level 3.
+voltage is of the correct verify that open circuit
+set, the power and waveshape. Once magnitude
+all should remain fixed for level of the generator
+at that nominal level, tests
+correct source has the 4. Verify that the generator
+impedance.
+to the output may be done by connecting This
+imped- to the specified generator a resistor equal
+load that the voltage under ance and observing
+It may also half the open circuit voltage. drops to
+that the output and observing done by shorting be
+current flows, specified short circuit the
+482
+
+or relays to connect close switches 5. If applicable,
+of the con- to the pins components circuit internal
+relays wiring across Temporary under test. nector
+switches is allowable. and
+6. Apply the specified surge to each pin, one pin at
+a time.
+some connections between pins may make Internal
+all pins to- but connecting redundant, of the tests
+all pins simul- applying the surge to gether and
+permissible, except for generally taneously is not
+very simple circuits.
+7. Monitor and record applied voltage and current.
+of in- small unless breakdown Current should be
+be not should voltage and takes place sulation
+voltage. open circuit the from different greatly
+fit- to circuits apply not does observation This
+These are devices or filters. ted with protective
+§18.5.3. in discussed
+the ini- of be made records should Permanent
+per- making but and waveshape, magnitude tial
+ap- every and each document to records manent
+unless be superfluous, probably would plied pulse
+is observed. breakdown
+the energize has been completed, the test After 8.
+is normal operation whether observe equipment,
+any abnormalities. record if not, and,
+and These should polarity of surges: applied Number
+practice is still discussed in a test plan, but testing be
+of opinion there is not yet a consensus evolving and
+to best prac- laboratories and organizations as among
+should made that each pin Suggestions have been tice.
+of the spec- of each polarity for each receive 10 pulses
+ified test waves.
+that the taken in specifications Care should be
+of two unwieldy. The product test does not become
+Y pins and Z waveforms X pulses per pin, polarities,
+can become excessive.
+This type of test is most com- stress applied: of Type
+common mode voltages and done by applying monly
+components and insulation between primarily stresses
+current, r in the in Fig. 18.34. Some case, V as shown
+circuit components, may flow through internal figure,
+direct metal small because there is no but it will be
+side of the generator. connection to the return

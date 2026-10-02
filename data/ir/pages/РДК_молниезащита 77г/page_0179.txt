@@ -1,0 +1,26 @@
+Assume that the leading and trailing edge sections of the wing in Figure
+6.30 are nonconductive or sufficiently isolated as to be unavailable for
+conduction and that the remaining wing box comprised of skins and spars has
+6.36. chordwise dimensions as shown in Figure The cross-sectional area of the
+135 spars and skins forming this box is cm2. The tank also contains α 0.05 cm
+O.Δ. I.Δ., 10 cm aluminum vent pipe which is electrically bonded to the
+1.57 structure at each end of the tank. The cross-sectional area of this tube is
+cm2.
+Hypothetical wing box with integral fuel tank. 6.36 Figure
+Assuming an intermediate stroke whose average amplitude is 2 000 Α for α
+5 Β duration of ms (in accordance with component of the SAE report Lightning
+Test Wavefoms and Techniques for Aerospace Vehicles and Hardware) the
+current in the pipe can be calculated as follows:
+1.57 cm -137- (2 000 Α) 22.9 Α - = 'tube
+This current would flow for as long as the lightning intermediate current
+5 Β flows, which is ms if component is assumed to be representative. The ability
+of currents of the order of 20 Α to cause α spark at pipe interfaces and couplings
+presently used in aircraft is not known, but the sparking that commonly occurs
+at similar current levels between other conductors in relative motion (such as
+battery clamps and motor commutators) raises α distinct possibility of sparking
+at couplings where relative motion and/or poor electrical conductivity exists.
+Electrical bond straps are sometimes installed across poorly conducting
+pipe couplings, as shown in Figure 6.37.
+These bond straps are usually intended to equalize static electrical charges
+such as those carried into the tank during refueling operations.
+169

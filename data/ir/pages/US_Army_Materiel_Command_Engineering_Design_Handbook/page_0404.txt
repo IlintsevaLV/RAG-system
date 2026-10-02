@@ -1,0 +1,100 @@
+1O1 INTRODUCTION
+Thie chapter discunes the instrumentation neces-
+sary in the helicopter cockpit to permit assignod mis-
+sions to be performed. Because missions must be con-
+* ducted at night, or ur.der IFR conditions, the roquire-
+ments for lighting of the instrutrent and control pan-
+els α2σ included.
+The instruments required in order to provide the
+pilot with the information neccssary to conduct as-
+signed missions normaily should be grouped by func-
+tional categorics. Includod are flight, pavigation, heli-
+coptor subsystem, and weapon system instruments.
+Instaliation roquirements for instrumentation are dis-
+cussed soparately. Because of the bigh vibration en-
+vironment in which helicopter inst.uments operate,
+they shall be designod and qualified to survive curve
+Μ (5Γ'σ) of method 514 of MIL-STD-810Β.
+The definition of the total helicopter instrumen-
+tation package shall include the arrangement of all
+displays and controls in the cockpit. Aircrew station
+instruments and displays shall bc located in ac-
+cordance with MIL-STD-250, unless unique mission
+requirements and supporting human factors en-
+gincering (HFE) analysis dictate otherwisc. Displays
+for other crew stations shall be arranged to provide
+good control/display compatibility, along with mini-
+mum workload and minimun opporturity for
+human error. The most satisfactory method of as-
+suring that thcse goals are achieved is by α systematic
+HFE analysis which shouid bc accomplished as esrly
+in the design phasc as possible. It is discussed in more
+detail in par. 13-3, AMCP 706-201. Formal mock-up
+review and evaluation are discussed in Chapter 5.
+AMCP 706-203. The formal function of the aircraft
+mock-up is not limited to the evaluation of the in-
+strument subsystem.
+10-2 INSTRUMENTATION LIGHTING
+REQUIREMENTS
+10-2.1 GENERAL
+The lighting concepts in use today vary from rod to
+white in the color spectrum, and from direct lighting
+to diffused indirect lighting techniques. Α number of
+solid-state, light-emitting instruments recently have
+boon developed, and thesc may be appropriate for usc
+in helicopter cockpits. Such app'ications have used
+cicctroluminescent (EL) lighting. liquid crystals, and
+light-emitting diodes (LED).
+
+€, . 3. *
+AMCP 726-202
+CHAPTER 10
+INSTRUMENTATION SUBSYSTEM DESIGN
+The lighting concept shall consider the total cock-
+pit instrumentation requiremeata rather than in-
+dividual nceds. Tho nocessity to consider all reguiro-
+ments cannot bc overemphasized. Also, brcausc the
+airframe deveioper usually procures cockpit in-
+strumentatio: from many different sources, he musi
+recognize his role as the cockpit lighing integrator
+carly in the de:ail design process or the resulting
+cockpit lighting will suffer from problems of varying
+colors, imbalance, and unevennass cven though all
+vendors ars designing to the same requirements. Con-
+trol of cockpit glare and reflections aiso must be ad-
+dressod by the airframe developer.
+Except for the primary instrument lighting, the
+cockpit lighting for all helicopters shall be designed in
+accordance with the applicablc provisions of MIL-Λ.-
+6503. Integrally lighted instruments having α white
+lighting syotemn shall be designod according to MIL-
+Λ-27160. MIL-Λ-25467 shall br used if operetor re-
+quiramenis diciaic ihe use of red iignting. Aji
+switches, radio controls, auxiliary controls, and cir-
+plate, edgc-lighted panels, as specified in MIL-Π-7788
+and MIL-Λ-81774 for red lighting or MIL-Π-83335
+for white lighting. The secondary instrument pane!
+lighting system shall provide α minimum of ι0 ft-
+candles of either red or white illumination on the sur-
+face of the main instrument panel.
+10-2.2 LIGHTING INTENSITY CONTROL
+Unless Ctherwise specified by the procuring ac-
+tivity. the instrumenis shall be grouped on con-
+tinuously variable lighting intensity controls
+follows:
+1. Side-by-side:
+α. Pilot'σ basic flight and navigation displays on
+main instrument panel
+6. Co-pilot'σ besic flight and -avigation dis-
+plays on main instrument panel
+χ. Propulsion and other subsystem dispiays on
+main instrument pancl
+δ. Center console
+χ. Overhesd console
+φ. Secondary panel lighting
+2. Tandem:
+α. Pilot'σ basic flight and navigation displays on
+main instrument panel
+β. Pilot'σ propulsion and other subsystem dis-
+plays on main instrument panel
+10-1

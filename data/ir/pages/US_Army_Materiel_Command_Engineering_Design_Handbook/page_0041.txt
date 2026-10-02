@@ -1,0 +1,53 @@
+.. • , AMCP 7_06-202
+CHAPTER 2
+MATERIALS
+2-1 INTRODUCTION factors, standard mill products, and cost data. tl,.IL-
+HDBK-5 is α source of mechanical properties data
+This chapter addresses the properties of the various and provides additional detail design data. For
+materials used in the construction of helicopters, technical data and information pertaining to wrought
+These materials include ferrous and nonferrous iron, carbon steels, and low-alloy steels, an exccllent
+metal. nonmetallic materials, composite structures, N4IL-IIDBK-723, source is which covers some of the
+adhesives and seplants, paints lubri., and finishes, more practical aspects of -ecta! forming and joining.
+cants, greases, and hydraulic fluids. Among the for Finally, design data and metallurgical details, the
+ferrous me:als are carbon steel, stainless steel, and al- designer should consult the various American Society
+:oy steels. The nonferrous mttals include aluminum, of Metals (ASM) Handbooks.
+magnesium and titanium alloys, beryllium, copper, Because of weight considerations, it is desirable to
+brass, and bronze. Thermoplastic and thermosetting restrict the heavier ferrous metals to those applica-
+plastics, elastomers, woods, fabric, and fluoroplas- tions where very high strength, α high modulus of
+are tics reviewed. Composite structures, including rigidity, high resistance to fatigue, and high modulus
+filament laminates, fabric laminates, and filament of elasticity are reqaired.
+wound, and honeycomb and sandwich construction The more expensive high-performance steels often
+ake discussed αý are the adhesives used for bonding of are more economical in terms of weight, cost, and
+primary structure, honeycomb and compo3ites, fatrication processes lower-cost than are the ferrous
+γ1.σ; and products. fahris, rbhhr, ε'astomers, rlastics. Anplications for these materials include
+) Sealhng compounds, such as putty and pastc;, also are high-sirt-ss parts such as rotor drive shafts, masts,
+de.ai!ed. Α discussion of paints and coatings, special hubs. vertical hinges, flapping hinges, tie cables,
+finishes, plating, and tapes is included, as well as re- α ti'bular frames, an6 control cams, keys, gears, and
+view of θ,. most commonly used lubricants and their hydraulic cylinde-.σ.
+applications.
+The designer will find that α good working re- 2-2.1.2 Carbon Steels
+lationship with vendors wii! help him to keep abreast The carbon steels are iron-base α broad group of
+rtiatvrials new of and processes with possib!τ appli- alloys hav ing small amounts of carbon as their prin-
+to cations helicopters. New materials are being iii- cipal alloying element. Commonly, the carbon con-
+troduced continually, and new processes alter the tent falls between 1.2%. 0.03 and The American Iron
+cost and performance relationships among older and Steel Institute (AISI) codt usually is used for
+designating ι.ι..ι σ•ate Tins ystm , -. . .. ,. ... Uup.. α Or fuui-- to conform one or more Government specifications, five-digit number to designate each alloy, with the -' -: and many manufacturers take step, to keep their first digits referring to the alloy and the last two digits
+products on the qualified-products lists, where such giving the carbon content in points of carbon. where
+are requiret. Propei regazd for and awareness equal of one point is to 0.01%. Thus, 1045 steel is one of
+these concerns in design callouts will simplify pro- α series of nonsulphurized carbon steels and has
+curernent, fabrication, and qualification of hard- 0.45% carbon. σ.ies Other carbon steel II are the XX
+•arc. series, which are resulpherized; the BIIlXX series,
+which are acid Bessemer resulphurized, and the
+2-2 METALS 12XX series, which are rephosphorizcd. Low-carbon
+medium- carbon, to 0.30% 0.05 from stee'σ range FERROUS METALS 2-2.1
+carbon steels range from 0.30 to 0.60% carbon, and
+2-2.1.1 General high-carbon steels range from 0.60 to 0.95% carbon.
+Thik dis•:ussion provides α brief review of ferrous The machinability of low-carbon steels is poor.
+metalk and their application to the construction of They tend to drag and smear and to build up on the
+helicopters, some as well as of of the parametcrs cutting edges of tzols, generating heat considerable
+go)vernling the choice of α particular ferrous metal for and decreasing cutting cffiricncy. Medium-carbon
+specifi as α steels machine .better, although the cutting pressures
+R" AP•'','•, moreconpreheisivc discussion, as well as detail are higher. High-.arbon steels are too hard for good
+\,dcsign data, will be found in Chapter 9, AMCP 70%- machining, but they are used where fine finish and di-
+hich describes such items as mater'al selection accuracy mensional are required. Hot- and cold-
+ρ accrac 27I

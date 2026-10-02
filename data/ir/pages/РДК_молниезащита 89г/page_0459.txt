@@ -1,0 +1,85 @@
+OL (lead induettmaei)
+τ (00 π α0 (0
+- (0.002,F) ι to 0) (10001111)
+tthrough
+,R ON
+(10)
+(typical VI301Α20Α)
+Fig. 17.16 Equivalent circuit of MOV [17.1]
+1.--.- -
+,χ , : -. . - -- -σ
+,
+-"20
+. -
+1 " ti 1 1 1
+11
+io- 1
+.Λ.).
+I* 1, I -I
+.. iNTO. 0UR.,NT (AM.ES, 0€
+Fig. 17.17 Leakage current vs. temperature [17.1].
+The capacitance of any particular MOV device
+may be measured with conventional bridges, providing
+only that the bridge voltage is not high enough to cause
+non-linear conduction.
+Normal varistor region: In this region current is dom-
+inated by the non-linear resistor R. having the char-
+acteristic
+= I (17.2) KV*
+The exponent α is on the order of 20 - 50, implying
+that changing current by four orders of magnitude will
+result in α 25% change (or less) of voltage,
+.
+Upturn region: At high current levels, several hun-
+dreds to several thousands of amperes, bulk resis-
+tance becomes important and limits the varistor per-
+formance. Operation in this region should be avoided,
+either by limiting the surge current with series resis-
+445
+
+tance, by using larger MOV packages or by operating
+in parallel. MOV devices
+Waveshape dependence: Varistor performance is
+best discussed by treating surge current as the inde-
+pendent variab!ε. Varistors are sometimes denigrated
+as having poor pulse response, or being subject to
+overshoot, that is, having excessive clamping voltage
+in response to rapidly changing surge currents. If α
+half-sinusoidal pulse of current, Fig. 17.18, is passed
+α varistor, the voltage developed will be prac-
+tically rectangular. Α faster rising sinusoidal pulse will
+also produce α rectangular pulse voltage, but one of
+somewhat higher magnitude. The difference in volt-
+age for slowly rising current pulses, 10 > ps, and for
+rapidly rising rising pulses, 0.5 is ps, seldom more σ
+than 10 - 20%. It is most noticable for large disks of
+MOV material than for small disks.
+0 4 8 12 16
+0till 0
+9 /26π σ
+V, 4 . 0
+5
+IIIII ,
+0 1 1 1 ! 0- λ
+I~σ 0.6/41as - 2
+40- V Μ
+5
+LV(WV)
+6 0
+Fig. 17.18 Time dependence of MOV.
+(α) Slowly changing current
+(β) Rapidly changing current
+Adapted from [17.3]
+Studies of large MOV disks, such as are used in
+power transmission systems [17.2, 17.3], have shown
+the overshoot to be largely α matter of diffusion of
+current into the varistor material. Studies of small
+disks, such those as used for protection of low voltage
+equipment [17.1] have shown the time dependence of
+voltage to be only α few tens of percent, even for surge
+currents having fronts of α few nanoseconds.
+The fact that surge currents of moderate steep.
+ness result in rapidly changing MOV voltages should
+be recognized in circuit design. Circuit oscillations re-
+suilting from the rapid change in voltage may give rise
+to unexpected interference problems.

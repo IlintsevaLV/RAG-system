@@ -1,0 +1,81 @@
+AMXCP 706-203
+Α-1.5.3 Heater Size
+The nearest available heater size to satisfy the heat-
+ing roquirement of 445,132 Br3/hr is α 600.000-Btu/
+hr heater.
+Α-1.6 BLOWEr SIZE
+The blower must provide air for both ventilation
+and combustion of fuel tc heat the air, ι.χ.,
+OgqA + -
+Α-§.6.1 Votumx of Air te be Delivered
+The weight of vestifating air from par. Α-1.4.2.3 is
+120.2 1β/min.
+To determinc the combuztion sirfow, assume:
+1. Heat tranafec efficicncy π = 0.65
+2. Fuel with higher boating value HHV – 18.400
+Btu/lo
+3. Fud-airratio Ws/Ω. - 1/15.
+Tlapn the airflow roquired for the 445,137 Btu/hr out-
+put is:
+[UCMPAXHH)]
+(Btu/ht)/[(Btu/IS) · (Ω /Ω)ν] =
+- (445,132)/(18,400Ξ1/15)(0.65)
+- 558 1β/hr = 9.3 lb/min
+By Eg. Α-13, *he tota! airflow required is:
+Wa,oad = 120.3 + 9.3 = 129.6 1β/min
+or in terms of cim
+Waucd = 129.6/ρ = 129.6/0.1
+= 1,296 cfm
+Α-1.6.2 Preacare Drep
+Aasume ibe following preasure lossce:
+1. Per foot of strnight duct: 0.05-in. of water
+2. Per 93-deg eibow: 1.0-in. of water
+3. Fresh air inka: 2.0-in. of water
+4. Across thc heaier: 2.0-in. of water.
+Α blowes with α preasure ∆π risc of 13-iss. of water is
+roquirod, spplying theee unit lones.
+Α-2 COOLING AND VENTILATING
+ANALYSIS
+The following is an example of α cooling and ven-
+tilation analysis.
+Α-4
+
+ο
+Α-2.1 DESIGN REQUIREMENTS
+The design condirion is to maintain 90°F, 40%
+reiative humidity (RH) gaximum during • MIL-
+STD-210 hot day (103°F and 95% RH) in the cockpit
+oniy.
+Α-2.2 DESIGN ASSUMPTIONS
+For solar radiation effocts it is assumod that thc
+(εI-V) helicopter is heading due south at 1400 hours in the afternoon of August 1. Other considerations remain
+the su me as for the heating ansiysis. No heat etfect
+dve to mechanical sources will be considered.
+Α-2.3 DETERMINATION OR EFFECTIVE
+TEMPERATURE DIFFERENCES
+SURFACES OF THE HELICOFTER
+Α-2.3.1 Esfective Solar Temperatures
+The outz:de surface temperature is dependent upon
+(Α-14) portion α of solas radiation / which is absorbed, and the outside heat transfer film coefficient fa the
+ib/hr the outsiac amdient temperature To. The reiation- ship for this effective surface temperature ι. (solar
+temperaiure) as given in Ref. Α-1 is:
+σ = To + allfaF (Α-15)
+where
+α - fraction of solar radiation absorbed, dimen-
+sioniess
+fo -/γ () =
+1 = solar rudiation, Btu/hr-ft²
+For this case. fe = 13, Τ. - 103, and α = 0.8; there-
+fore, from Eq. Α-15:
+τ, = 103 + 0.81/13 = 103 + 0.0617.°F (Α-16)
+The temperature for cach surface of the helicopter
+depands upon the sun angle, which affars I. Thn: fol-
+lowing values of I are taken fromn Ref. Α-2 for the
+conditions of this exempie:
+Surface Is Btu/η7-ft
+lEms, Versical 25
+Iweat. Vertica 180
+INorih. Versical 16
+ISewh. Vemical 105
+IHovizoasat. Top 250
+IBecsonu 16

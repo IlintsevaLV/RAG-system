@@ -1,0 +1,16 @@
+shield and conductor at the grounded end loads the signal conductor, just as did
+R 50 the resistor on Figure 13.3.
+,,~,~/~-=,/,//,
+(4
+4-, I
+I
+/
+Unequal load impedances. Figure 13.2
+(α) Test conditions
+Voltages (β)
+(χ) Equivalent circuits
+shown Figure 13.5, Grounding the shield at both ends, as produces an in
+entirely different response. If the shield is grounded at both ends, the voltage
+induced the changing magnetic field in the shield produces α flow of current by
+through the shield.
+363

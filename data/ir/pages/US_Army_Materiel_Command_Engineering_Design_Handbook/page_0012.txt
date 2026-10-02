@@ -1,0 +1,102 @@
+AMCP 706-202
+Paragraph
+5.9.4.5 Engint Exhaust
+5.9.5 TAIL ROTOR DESIGN PARAMETERS
+5-9.5.1 Tail Rotor Disk 1 oacing
+5.9.5.2 Tail Rotor Tip Speed
+5-9.5.3 Blade Numoer and Solidity
+5-9.5.4 Twist
+5.9.5.5 Ilade Airfoil Section
+5-9.6 TAIL ROTOR PERFORMANCE:
+5-9.7 STRUCTUR Λ CONSIDERATIONS
+5-9.7.1 Structural Dynamies
+5.9.7.2 Structural Loading
+5-9.7.3 Blade Structural Analy sis
+$-9.7.4 Ae-pelasticity
+5-9.7.5 Flutter and Divergence
+REFERENCES
+6-0 LIST OF SYMBOLS
+6-1 GENERAL
+6-1.1 DESIGN METHOD
+6-1.1.1 Point of Departune
+6.1.1.2 Mission Requirements and Fligh: Envelope
+6-:.1.3 Basic Helicopter Data
+6-1.2 ANALYTICAL TOOLS
+6-1.3 SIMULATION AND TESTING
+6-2 STABILITY SPECIFICATIONS
+6-2.1 CRITERIA AND METHOD OF .AN'AI YSIS
+6-2.1.1 Contro! Power and Damping
+6-2.1.2 Characteristic Roots
+6-2.1.2.! Root Plots
+6-2.1.2.2 Modes and Required Damping
+6-2.1.2.3 Inherent Airframe Stability
+6-2.1.2.4 Varation of Parameters
+6.2.1.3 Type of Control
+6-2.1.4 Transient Response
+6.2.1.5 Other Factors
+6.2.2 AUTOROTATION ENTRY
+6.2.3 SYSTEM FAILURES
+6.3 STABILIFY AUGMENTATION SYSTEMS
+6-3.1 GENERAL.
+6-3.1.1 Be!λ Stabilizer Bar
+6-3.1.2 Hiller Servo Rotor
+6-3.1.3 Mechanical Gyro
+6-3.1.4 Lockheed Control Gyro
+6-3.1.5 Electrohydrauhc SAS
+6-3.1.6 Fluidic and Hydrofluidic SAS
+6-3.1.7 Flapping Moment Feedback
+6-3.2 CRITERIA FOR SELECTION
+6-3.2.1 Augmentation Requirements
+χ
+
+TABLE OF (ONTENTS (Contimued )
+Page
+5.80
+5-89
+5.80
+5-80
+.5-81
+18-Σ
+5-81
+5-32
+5-82
+5-82
+5-82
+Σ-83
+5-83
+5-83
+5-83
+CHIAPIER 6
+FLIGHT CONTROL SUESYSTEM
+6.1
+6-ι
+6-1
+6-1
+6-2
+6·
+6-2
+6.2
+6.2
+6-
+6-3
+6-3
+6-4
+6-4
+9-9
+6-6
+6.6
+9-9
+6-7
+6-8
+6-8
+6.9
+6.9
+6-9
+6-9
+6-4
+6.10
+6.10
+6.10
+6.10
+6-10
+6-10

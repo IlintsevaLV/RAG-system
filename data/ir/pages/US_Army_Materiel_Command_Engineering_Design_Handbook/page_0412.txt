@@ -1,0 +1,107 @@
+)
+to prt-.ude indicator current from activating ar-/
+weapon or suspension and Mease component. If wa.-
+hwd coatinuity monitoring is required, the moni-
+toinSg cumrnts be limited to α value below that σ"Ill
+which will activate tie most sensitive component. In-
+dicator circuits that are integral to control circuits
+canau. meet tWis reqietnemnt, and thus, should be
+avoided.
+4. Indicator systems be designed so that in- suadil
+di.. -ρ power is not available to any part of the
+weapon sytem unless it is turned on intentionally by
+the operator.
+shall be possibie in flight, in- Indicator tests 5.
+of tiii indicator-related components. dependent
+6. shall The operatir be provided with visual in-
+indication This condition. τ-lger of α "hot" dication
+should be in tLdc operator'σ direct line of sight. The
+most conmmon indication is the use of an amber light,
+which alerts the operator to use caution when the
+weapons rmr armed.
+shall The operator be provided with α visual 7.
+condition indication (miv~ile launched aural missile
+signal. or being launched)
+or mis- indication of hangfires 8. Immediate visual
+ρ ρ . 'In mumI pruviuc-ζ. zrc DL 5
+employed to be arc indiestions visual Identical 9.
+whether live or training missiles are aboard the heli-
+all times crew acts at that the will insure copter. This
+aboard. wae live missiles though as
+be fully indicators and fuzing Arming 10. shall
+the furmtion, and Excpt for the-power-on automatic.
+fJncdiona, test~ng of the monitor feature pres-to-test
+For multi- be required. should operatiot, no manual
+pie carriage, each weapon should be monitored in-
+either se- be accomplished This may dvidually.
+continuously, or lectively
+the during if iz occurs malfunction, Weapon 1I.
+presrm cycle, be indicated. shall
+10".3 WEAPON SELECTION
+CONTROLLER/PROGRAMMER
+Α weapon selection controller and programmer
+be required tor helicopters canrying α .ariety jhall
+ordnance. This unit also is required for con-
+figurations incorporating selective or automatic ill-
+terval sequence launching of wistiiif and rockets
+from alternate xides of the helicopter.
+""ε controller provides the operator with α choice
+of type and quantity of ordnance. If necessary, the -
+controller als can provide controls for .iissile
+guidance operations. The programmcr port this ,φ
+unit stores basic information about store α' ailability
+and ammunition depletion status, in addition to per-
+
+forming weapon selection sequencing at corn- the
+mand of the controller.
+The controller/programmcr unit(σ) must be
+mounted in α readily accessible area, but not
+ι-. oassarily in tie control pane I area. However in the
+case of α guidance control system for nissiles, lo-
+cation in the panel area may be required. The con-
+troller/programmer function may be divided between
+any reasonable number of subunits. The subunits
+may be mounted in functionally convenient
+locations, ε.γ., one per store location; or the entire
+functien may be handled at one or two units mounted
+por- central area. In alh cases, the programmer in α
+must be easily accessible during ordnance tion(σ)
+loading. The programmer porion(σ) of the unit(σ)
+the programming into of means some shaul provide
+unit the type of ordnance loaded into the various
+stores locations. This input may be provided by
+switches, keypunch, patchboard, or any other
+suitable means. Based upon the information pro.
+controller por- or vided by the programiffer unit(σ), the
+shall or ordnance selec- tion(σ) provide the function
+the required), and and guidance (when tion, firing,
+operator. delivery as selected by the rate of ordnance
+utimnlifif order in •,in renuirements, nortions
+dur;..γ be accessible not nufct which controller the oi
+may located wherever be normal usage of the system
+The controller the aircraft. on conenient shall
+fired electrically of all ground an effective provide
+only during shall lifted be ground ordnanct. This
+that must the controller/programmer Parts of firing.
+on stub ε.γ., rocket regular basis - on α be accessible
+inside the be mounted -- may the helicopter wing of
+edge of the stub wing. This would require box leading
+in. at each 3 Ξ 4 Ξ to approximately sizes limited 10
+location.
+10-7 TYPES OF !NSTRUI•1ENTS
+The type of ument insti to be used depends upon
+the condition that the instrument is recording and the
+required ease of interpretation on the part of the
+crewmernbet monitoring it. The designer con- shall
+of sider: the beat type of display for the information to
+be provided (qualitative, quantitativc rate, trend,
+etc.); proper scale design to cover the required range,
+yet provide adequate discrimination in critical
+ranges; proper alphanu-meric design to assure read-
+ability under low-level illumination and in α typical
+helicopter vibration environment and the reliability/
+maintainability features of potential designs. In addi-
+tion to MIL-STD-1472 and AFSC #DH Refs. 1-3, I,
+2. and ι should be reviewed for additional in-
+formation.
+10-9

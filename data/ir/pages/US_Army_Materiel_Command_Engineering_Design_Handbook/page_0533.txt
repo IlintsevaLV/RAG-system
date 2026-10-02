@@ -1,0 +1,88 @@
+AMCP 706-202
+filler metals, there is α best joint cloarance. Valucs
+below the minimum clearance are weak because the
+alloy doas not flow into the joint. Clearances beyond
+the maximum also reault in joints with lower
+streuigth. The normal range of clearanco is 0.002 to
+0.010 in.
+Brazing materials and processes, with approved
+specifications, are listod in MIL.-Β-7883.
+17-4.2.3 Solderiag
+Tho principles and tochniques for soldering are
+much the same as for brazing. except that soldering
+alloys are primarily tin-lcad basc alloys that melt
+beiow 800-F. Soldering is restrictod primarily to
+joining shoot-metal surfaces and wiring for cloctrical
+connoctions. Copper and stoel surfaces, and surfaces
+coated with copper, tin, zinc, or other compatible
+materials, may be soldered. Aluminum and siainless
+scel are cxamplcs of metals which are difficult to
+selder. Clcanliness and proper selection of the solder
+and the flux in relation to the surfaces to be joined are
+of utmost importance. No porosity can be tolerated
+in soldered joints. Electrical continuity and complete
+scaling against fluids are normal requirements.
+174.3 MECHANICAL FASTENING
+Bocausc of thc conveniencc of mechanical
+fastening, parts that need never be dissssembler often
+are joined mechanically, with resultant poor istri-
+bution of stresses and increased weight. Such parts
+brazing. or adhasive bonding
+There also is the queetion of which of the hundreds
+of types of mechanical fasteners to usc. The result
+often is overdasign. with pocr strragth balance
+betwoen the fasteners and the parts joinod. More-
+over, there is little in the literature to guide the dc-
+signer in making broad choices in mechanical
+fasiening. However, there are more than 20 Military
+Spxafications on specifie fasteners, and Mil-F.
+:9700 ard MS-17855 contain general specifications
+and sandards for screw threaded fasteners. Follow-
+ing is α discussion of various methods of rnechanical
+fastening.
+17-4.3.1 Rlvets
+Fos sll aircraft applicstions, particularly where dis-
+primer. Often an adhesive is piscod beiween the parts
+being riveted in order to dampen vivrations and to
+minimize failure due to fatigue.
+Important items of rivet joint desigr are pitch, the
+spacing between rivet centers; back or iransverse
+pitch, the specing betweon centerlines of rowe of
+17-10
+
+rivets; diagonal pitch, the spacing botwoon the nonrest
+rivet centers of adjacent rows: and margin, the
+spacing between the odge of α part and the contarline
+of the nearost row of rivets.
+For structural and machine member joints, the
+pitch should be such that the tensile strongth of the
+plate in the distance betwoen rivets in the outer row is
+oqual to the shear strength of the repesting sections
+of rivots. The rivot diamater δ is seoctod so shat δ =
+1.1Τ to δ = 1.4φ wbare I is the thicknow of the
+plato. Good danign practico calik for placing tke
+conter of the first row of rivets α minimum of one and
+ono-hnlf rivet diamatess away from the edge of the
+piste. For multiple rows, the transvarce pitch is 1.75 δ
+(sos Fig. 17-7). It is also roquirod that:
+1. Bearing stross of rivei and plate be uniformty
+distributod over the projoctod area of thc rivct
+2. Tensile strous be uniform in the mstal betwoen
+rivets
+3. Shearing stress be uniform scrons the rivet
+4. Accumulation of stresses on rivets be mini-
+mizod.
+Rivet holes usually are made everal thousandths
+of an inch larger than the nominsi diameter of the
+rivei. On comprosion, the rivat expands to fill the
+hole while also forming the driven bead. Yunching
+operations may cause dsgradaton in the strength of
+the plate surrounding the hole. An anncaling opera-
+tion may be desirabie to restore strength in thcse
+areas. Structural and machine mamber rivets usually
+are made of wrought iron er soft steei; but copper,
+aluminum alloy. Moncl, and Inoned rivets may be
+1.75δ 1.75α
+1.54
+Ξ=FITCH DISTANCE
+Pigere 17-7. Kivet Spacag

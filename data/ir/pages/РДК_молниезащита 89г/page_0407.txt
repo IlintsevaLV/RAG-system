@@ -1,0 +1,29 @@
+agating between the conductors and ground. In partic- cult analysis progrms (14.17, 14.18]. 'reatment of
+complicates calculations and prob- propagating inside shielded the effects greatly ular this is true for waves
+should be considered at the edge of the modeling the analysis problem might involve ably conductors, where
+determining the currents propagating on the outside of art.
+α shield and from that determining the voltages and Some discussions of equivalent circuits for shielded
+currents induced on the conductors inside the shield, conductors are given in Chapter 16. Those circuits
+Multi-mode propagation is discussed in the literature can be used with dependent current sources to provide
+[14.13 - 14.16] and is, to some degree, available in cir- some degree of modeling of the coupling into shielded
+circuits.
+τ21 1 0Α ,1420 0.21AzH τ
+Σ3.33=ft
+Rn 3. φ 00 I I1 Run -.
+C Rune } - E
+1421 _λ ¢-ν , 142Γ
+.' .. ft.... 15 0 ft 2~1
+10κ
+12 H in 142
+φ
+0
+-150
+-2
+0 5 us 0 us 5
+(β) (χ)
+Fig. 14.32 Circuit modeled as transmission lines.
+(α) Equivalent circuit
+(β) - cockpit I
+(χ) cargo bay - V
+2
+392

@@ -1,0 +1,70 @@
+The factor Α for the hemicylinder is thus 2. The
+current intercepted by several other geometries was
+shown on Table 9.5, and values of for them could be K
+calculated. Values of K for conductors above α ground
+plane can readily be calculated, as will be discussed
+shortly.
+Open circuit voltage: Open circuit voltage is most
+easily obtained by integrating the displacement cur-
+rent in the known (by measurement or calculation)
+capacitance of the conductor.
+Voc (14.16) = -',Icdt.
+C Jbe
+Recognizing that is proportional to the rate of I,,
+change of electric field, the open circuit voltage of the
+isolated plate of Fig. 14.10(β), for example, is
+VEo=- (14.17)
+C
+where is the capacitance of the plate. C
+Conductor above ground: For the case of an iso-
+lated conductor above ground, Fig. 14.13(α), the open
+circuit voltage would be
+(14.18) E., hE..
+E
+Λ_
+Cc δ η.
+I oad
+(β)
+he ---
+XC .....
+(χ)
+Fig. 14.13 Eqcuialent circuit. for electric field
+coupling to elevated conductors,
+(α) Gemnetry
+(β) Equivalent in terms of V. and C,
+(ρ) Equivalent in terms of V and CA
+
+One equivalent circuit, Fig. 13(β), treats this
+open circuit voltage as being connected to α load
+through the capacitance of the conductor, the capaci-
+tance being as given by Eqs. 14.2 and 9.99. The short
+circuit current is then
+1 C'C dt
+Another equivalent circuit, Fig. 14.13(χ), is more
+convenient for inclusion in circuit analysis programs.
+In place of an "lectric field, α fictitious surface at α
+height is assumed, the surface being connected to α he
+voltage η.E. The open circuit voltage can then Ve =
+defined in terms of the actual physical capacitance
+and Cc an equivalent coupling capacitance C,:
+. (14.20) Voc = V C
+If < 1, η, may η be taken as unity, in which case
+(14.21) Ch= C2 (1 η η)
+K factors: For isolated conductors the factor K as
+used in Eq. 14.11 can be calculated by equating short
+circuit currents as expressed by Eqs. 14.11 and 14.19.
+2v = K η (14.22)
+ln(4η/δ) δ
+α function of is shown in Fig. 14.14. K as hd
+δ
+0.5
+η/δ
+conductors. elevated for K Factor 14.14 Fig.
+Example: Fig. 14.16(α) shows the conductor of Fig.
+14.6 exposed to an electric field having the magnitude
+and shape given by Fig. 14.15(χ). The equivalent cir-
+cuit of Fig. 14.13(β) was derived as shown in Fig.
+14.13(χ) and Eq. 14.21, with η, taken as unity. The
+open circuit voltage and short circuit current would
+then be as shown in Figs. 14.15(δ) and (ε).
+381

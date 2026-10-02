@@ -1,0 +1,26 @@
+manner shown in Figure Figure 9.13 also shows the current density, or 9.13.
+magnetic field strength, at the surface of the cylinder, both as determined from
+the program MAGFLD and analytically according t o Equation 9.1 1.
+hypothetical fuselage to be modeled a wire grid. 9.12 A as Figure
+One quadrant of the elliptic cylinder is shown on Figure 9.14. This figure
+shows the magnetic field strength both within and around the wire grid as
+calculated by MAGFLD. The orientation of the magnetic field is shown by the
+direction of the arrows, and the strength both by the length of the arrows and
+by the indicated contour lines. The magnetic field strength inside the grid is
+much smaller than that outside, since on the inside the fields from each of the
+filaments tend to cancel, whereas outside the grid they tend to add. In Figure
+the fields inside the grid are largely the result of the finite number of wires 9.14
+defining the elliptic cylinder. If the cylinder were defined by more conductors,
+the fields inside would be smaller, presumably vanishing if the number of wires
+were to become infinite. Figure 9.15 shows a similar plot with one important
+difference: the current was forced to be equal in each wire. The magnetic field
+pattern produced here would be that determined by the resistive current
+distribution, the pattern that represents the final stage after currents and current
+density have become uniform. The orientation of the field external to the grid
+shows only relatively slight differences from that in Figure 9.14, but those
+differences are sufficient to account for the increased field intensity in the
+third example of field distribution, shown in Figure 9.16, interior of the grid. A
+assumes that on each side of the fuselage there is a recessed cavity. Such a cavity
+would be an approximation of the equipment bays for electronic equipment
+frequently found on military aircraft. Figure 9.16 again assumes the current in
+286

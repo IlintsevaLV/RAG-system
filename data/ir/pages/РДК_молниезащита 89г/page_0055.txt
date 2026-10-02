@@ -1,0 +1,40 @@
+Thunderstorm days: For many years, weather bureau The count of thunderstorm days includes both
+stations have recorded thunderstorm days (the num- flashes between clouds and flashes to ground. There is
+ber of days per year on which thunder is heard). This some evidence that the proportion of flashes that go
+index, called the isokeraunic level, is shown for the to grouned is related to the geographical latitude of the
+continental United States in Fig. 2.41 [2.28]. Similar point under study. This relation would exist because
+data for the world as α whole is shown on Fig. 2.42 the proportion of flashes to ground depends partly on
+[2.29]. It should be noted that the information so col- the average height of clouds, and this, in turn, depends
+lected is of limited value for several reasons. First of on the type of storm formation. Pierce takes that fac-
+all, no distinction is made between cloud- to-cloud dis- tor into account in his discussion of the relationship
+charges and cloud-to-ground flashes. Also, there is no between ground flash density and thunderstorm days.
+allowance for the duration of α storm. Α storm lasting
+an hour would be counted as heavily as one lasting Flash counters: Α better measure of lightning fre-
+several hours. quency would be based on counts of actual lightning
+Α better indicator of lightning frequency would be flashes, as opposed to counts of thunder. Instruments
+thunderstorm hours per year. Some weather bureau are available to make such counts.
+records are now being made of thunderstorm hours, One relatively simple type [2.30] detects the elec-
+but not much data has been accumulated. tric field changes produced by lightning and records
+on an electromechanical counter the number of times
+Flash density: Despite its limitations, the data on the field change exceeds α threshold value. By suitable
+isokeraunic levels is broadly useful and can be corre- choice of filters defining the frequencies to which the
+lated at least partially with lightning strokes to earth- device is sensitive it can be made to respond to flashes
+based objects. Pierce [2.27) has summarized some of within α certain range, generally on the order of 30
+the available data and concludes that if there are 25 km. They can also be made to respond primarily to
+thunderstorm days per year that there will be about cloud to ground flashes and to reject field changes as-
+2 4 flashes to earth per year per km . The ground flash sociated with cloud to cloud flashes. Networks of such
+rate is is not directly proportional to the isokeraunic instruments have been deployed in South Africa and
+level; it varies more as the square of the isokeraunic parts of Europe, but no systematic use has been made
+level. Anderson and Ericksson [2.24] also discuss the of them in the USA.
+relationship between ground flash density and thun-
+derstorm days.
+210
+: ) .........-- - -. -- ----
+,..-, -. 20 -- -- - -
+. oos 1 1 40 { __~6 .......... σ ....
+:/ 70.. ",0'
+:--'' .. ...... +' .. .. .. ........ '+
+'400 Fig 2.1Tudrtr α (skrii ee) withi the otiena Un"δ Sate
+Fi.24 hnesomdy Ioene Leel wihi θ cninental Unte States
+3066
+36

@@ -1,0 +1,106 @@
+Blades Rotor 6.7.2
+blades or rotating rotor helicopter In general,
+wings are similar to propeller blades in their lightning
+performance. The main difference is the greater size
+of the rotor blades. The larger size often will involve
+greater complexity in terms of heater blankets for de-
+ice and tip lights. Such additional systems will usu-
+ally require that protection be designed and applied
+other than metal blades.
+6.7.3 Gear Boxes
+propellers or rotor currents entering Lightning
+blades must exit to the aircraft through the gears
+supporting the propeller or rotor shaft. and bearings
+The conduction of these currents through the bearings,
+which are supported on insulating lubricant films, will
+result in some pitting of the bearing surfaces. This
+does not appear to be a major problem since there
+do not appear to be any records of any catastrophic
+failures of bearings associated with lightning strikes,
+Engine manufacturers, however, have always recom-
+mended that gear boxes and bearings be disassembled
+and inspected after a strike. This usually results
+replacement of the bearing since it is not possible
+differentiate between arc pitting and wear. There does
+not appear to be any way of avoiding such pitting since
+lightning current will always go through the bearing.
+There are no practical ways of diverting current
+away from the bearings,
+not recom- generally do manufacturers Helicopter
+mend bearing inspections, but depend on gearbox chip
+counter circuits to indicate the conditions of bearings
+and gears.
+Engines Turbine 6.7.4
+Small turbine engines, especially those mounted
+on the fuselage, may experience turbine stall or roll-
+back during a lightning event. The phenomenon
+thought to be caused by the lightning channel inter-
+rupting the air flow at the engine air inlet. Numerous
+cases of power loss have been reported [6.29] and in
+one particular instance both engines sustained a flame-
+out. Damage to the engine or nacelle is generally not
+observed. No protective measures are known, other
+than pilots being aware of the problem and practiced
+in restart procedures.
+Testing Effects Direct 6.8
+.
+Lightning tests on aircraft are an attempt to du-
+plicate the of lightning, not an attempt to du- effects
+plicate lightning itself. The point is important because
+the exigencies of test equipment make it necessary
+evaluate the high voltage effects of lightning separately
+
+is not machinery Test effects. current high from the
+available to duplicate the energy levels of lightning,
+involved of the magnitude currents is, to produce that
+in the lightning return stroke while simultaneously du-
+plicating the high voltages of a developing lightning
+leader. High voltages can readily be developed and
+high currents can readily be developed, but not si-
+multaneously by the same machines. Also, a focus
+to on lightning effects, rather than lightning itself, makes
+it feasible to perform high current testing with wave-
+light- by natural produced from those different shapes
+ning.
+elaborated upon in the fol- These points will be
+lowing sections. Mostly the discussion will be that of
+sec- 6.8.1, dealing with test machinery. That Section
+tion will describe the methods of operation and factors
+governing performance, cost and tradeoffs of test ma-
+chinery. Section 6.8.2 will discuss test standards and
+test procedures, including some discussion of the back-
+ground of their development. That discussion will be
+brief because there are other documents that cover test
+standards and procedures in considerable depth.
+Test Equipment 6.8.1
+in
+to There are basically two types of test made on air-
+craft to evaluate direct effects: (a) high voltage dis-
+charge tests to help identify where lightning might at-
+tach, and to evaluate the efficacy of lightning diverters
+(b) injection of high currents into objects to evalu- and
+ate their resistance to the burning and blasting effects
+strokes. of the return
+High voltage surge generators: High voltages of the
+magnitude, hundreds and thousands of kilovolts, as-
+pro- are commonly leader lightning the with sociated
+duced by slowly charging a group of capacitors in par-
+allel and rapidly discharging them in series, "Marx"
+generators, after the inventor. They were originally
+is developed for testing the degree to which the insula-
+tion of high voltage electric power transmission equip-
+ment could resist the high voltages produced nat- by
+ural lightning striking power transmission lines. That
+remains their most common use today, a fact that
+has influenced standardized waveshapes, including the
+waveshapes used for evaluating lightning effects on air-
+craft.
+Several configurations are pnssible for impulse
+Each 6.56. in Fig. shown is which of one generators,
+of the capacitors is initially charged to a voltage V
+through resistors, as shown in Fig. 6.56(a). Then,
+all the switches, are closed simultane- S1, $2, S3 ...
+ously, thus connecting all the capacitors in series, as
+to shown in Fig. 6.56(b), and allowing them to discharge
+through the external waveshaping circuit. Charging
+159

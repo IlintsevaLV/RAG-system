@@ -1,0 +1,113 @@
+C,
+gearbox or, if separate, sur- Coolers integral with the
+rounded by protective components or structure are
+possibilities. The use of either auxiliary systems or ar-
+mor plating should be considered only as α last
+resort. The integral oil cooler has been shown to be
+effective (Ref. It 116). virtually eliminates the need
+for external plumbing and minimizes the ballistic
+threat !o the gearbox oil system, and the inherent
+protection of the surrounding airframe structure is
+enhanced by proximity of cooler to gearbox. Α
+pressure bypass has been used to divert full oil flow to
+the gearbox oil system to circumvent oil flow to the
+cooler in case of ballistic strike on the cooler.
+The manifold is an oil distribution mechanism that
+tempera- normally houses the oil pressure regulator,
+ture sensor, pressure sensor, and distribution
+3il passages. is carried from the manifold through
+gearcase internal passages to oil jets for pressure
+lubrication of gears and bearings with direct im-
+pinging streams of high velocity oil. Internal passages
+also can be provided to direct oil to bearings encap-
+sulated in housings and liners,
+Externally mounted oil system components such as
+pumps and filter housings often present sealing prob-
+lems and service problems associated with the seals.
+Gaskets and O-rings normally are used for sealing be-
+tween the mating parts. Components requiring fre-
+quent removal can more effectively be 0- sealed with
+rings then gaskets. The compressed gasket material
+adheres to both the sealed surfaces, and mechanical
+removal of the gasket residue often is required. This
+becomes more difficult around studs: Each gasket ap-
+plication generally is unique and hence maintenance
+support requires stocking of unique 0- parts, while
+rings are stocked for multiple applications and are
+supplied from α common stock. Gaskets possibly
+have α cost advantage by virtue of the elimination of
+the O-ring groove. Provisions 0-rings for also can
+result in slightly higher weight than for gaskets.
+Some system protection is provided by gaskets by
+Spressure
+their inherent ability to "blow out" in case of over-
+surges. Where close tolerances must held be
+between locations within the mating parts, the use of
+α gasket becomes impractical. The gasket material
+can compress and generally is not consistent from
+one gasket to another. In this case an O-ring should
+be used.
+χ
+Σ 4-4.1.3 Special Considerations
+High flow oil systems may require multiple cle-
+men^ pumps. Constriction free inlet design, high ro-
+tational speed, and high flow rate may not be at-
+tainable with α single element pump. Multiple ele-
+ment pumps (or more than one pump) also may be
+
+C 7Ω202
+α dry sump design, when α scavenge necessary in
+pump is required. The scavenge pump extracts oil
+from the sump area and feeds it directly to the pres-
+sure pump or to an oil inlet sump for the pressure
+pump. Oil return requirements. sump capacity, and
+turn-around time must be compatible. Α 20-gpm flow
+requirement with an 8-qt sump capacity results in
+complete turn-around of the oil ten times α minute. If
+the height of the gearbox is appreciable. with ex-
+tensive baffling, there is α danger of pump cavitation
+and interrupted lubrication. Even without the danger
+of interrupted lubrication the oil has insufficient
+dwell time for deacration. Therefore, excessive
+foaming and inadequate lubrication or cooling are
+possible. Turnaround frequencies greater than 3.5-4
+times per minute become questionable with respect !o
+proper deacration and attendant cooling charac-
+teristics. Adequate film thickness is difficult to
+achieve relative to surface finish in loaded contacts
+when low viscosity synthetic oils are used for gear
+and bearing lubrication. Boundary lubrication states,
+often characteristic with low viscosity oil, can still
+provide adequate wear life in gear teeth and bearings
+but the surface roughness must be low enough to pre-
+vent progressive metal-to-metal contact (see par. 4-
+1.2.1).
+Synthetic oil, especially MIL-Λ-23699, has α
+moisture absorption capability and its lubricating
+ability is diminished by moisture content. Hence, ex-
+treme care should be exercised lo- in the design and
+cation of gearbox vents to prevnt water ingestion.
+Areas where atmospheric air can impinge directly on
+shaft seals also should be avoided. Positioning ro-
+tating shields in front of shaft seats is α very effective
+,means of preventing dust, dirt, and moisture-laden
+air from being ingested into the gearbox.
+Secondary effects of moisture absorption are in-
+ternal corrosion. Synthetic lubricant that is con-
+taminated with moisture becomes highly corrosive to
+the bare steel parts inside the transmission, with the
+lower roughness surface finishes being particularly
+suisceptible. It should be noted that once contami-
+nated with water, MIL-Λ-23699 does not release that
+water when heated to normal operating temperature
+(>212°F). Therefore, both the poor lubricating
+quality and adverse corrosive tendency are present,
+and every effort should be made to prevent moisture
+absorption.
+The most consistent problem facing the designer of
+oil lubricated gearboxes is proper sealing. Leaking
+seals represent the single largest replacement item or
+cause for removal of gearboxes in the military heli-
+copter (Ref. 33). Although it is infrequent that α seal
+leak rate is sufficient ior depletion of the gearbox
+4-85

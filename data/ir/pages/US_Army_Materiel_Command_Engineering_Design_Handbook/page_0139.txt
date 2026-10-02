@@ -1,0 +1,107 @@
+7)AMP
+load Determination of the goam tooth
+relatively strvg~htforward. For α first
+it ius
+NWt IC
+,β
+DPN
+we:torque, ltu-in. N
+number of driven gecars in mesh with Ω Μ
+driver, dimensionless
+For precibe calculations the pitch radius Π,,/2
+be replaced the by radius to the highest point
+tooth loading (HFSTL) an determined by the
+contact rotio' for spur gears or by other
+*Aiderations for helical and bevel gcars. These
+siderations are discussed further in α
+paragraph in conjunction with discussion of
+metric shape factoi J.
+The overload factor is included in Eqs. K.
+pulsationi the torque for 4-25 to account
+for roughness of the transmitted power, and
+.Σ.Im..u Q VMSW-=tc; asac.. I&HAis toD ;OuK53535@ ~ result from the power source, the driven
+K
+the response of the elastic drive subsystemn
+Because the bending stress must be Σ,
+fatigue endurance limit of the material, K.
+overloads for occasional used to account be
+cumulative cyclic duration unless the design
+is relativey low; ι.ε., less than cycles. 10'
+examples of measured values are K.
+2.0 first gear drive from gix-cylinder, K,, - -
+rociprocaiti α&, four-stroke
+horizontally opposed
+sine
+1.25 gear set adjacent to high K,- -
+Hooke'σ joint installation
+1.15Σ gear set K. adjacent to typical -
+rotor drive-shaft
+1.2 third-stage gearing K,, six-cyli ixi - -
+reciprocating engine
+1.0 turbine engine K,, speed - -
+Sear drive.
+The mibalignmcnt factor in the tooth K.,
+stress equations take: into account the lengthwise
+axial distribution on load the the loadod face of
+mesh. Three primmy~ sources, which generally
+ditivc, contribume to misalignment:
+1. Initial misalignment due to manufacturing
+curacy or dcflectdc of rotation axes due to
+load, external or thermal gradient load,
+2. Toeth slope deviations lead due to inaccuracy
+gear manufacture
+
+4 7,
+is of Elatic 3. deflecaioas sAMUa, gear wabs and rims, Ω,
+approximation and support bearings.
+The generally accepted rel-ationa~shi for the mis-
+~rc aligned facto& K. for spur and hdlita gears
+(4-26)
+δ'less, - K. - (4-27) frFor9 2F
+di-esa K. , US~ for F' F .,Σ >F (4-27)
+the (/)' - ' ' whore
+should face -~ width of gear tooth. in. F
+of single average value of effective F., face width - F.,
+profile for given loading condition, in.
+con- The ave.rage face width in those equations is that F.
+con- width which con be considered 1.o remain in contact
+subsequent under &ν fezinive tooth load where, from 4-25 Eq. ef Ω,
+the geo-
+(4-.29) lb Ω,' -K,,Ω, +Ω,
+4-24 and
+are for expressions Empirical or waveform Fm
+ρ
+hence is
+1/2 -1ω~
+(4-30) "α [- ' J in mecmber, or
+-eL'J itself.
+wvithin the for spur gears, and for helical gears
+should not 1'
+/2'~ low of
+Fe K4 life itself 2 - (4-31) = F.
+SomeJ
+where
+pitch plane misalignment (net), in./in. ε -
+cycle, -lengthwise tooth stiffness constant, π: Γ
+aircraft en-
+κ line- incdi-istinn = enntar-τ (Re~φ fskrtnr All~
+dimensionless
+angle pitch, in. bas Π6 =
+Z total - transverse length of lint of action.
+tailin
+The value of the tooth stiffness constant in Γ thewe
+equations usually is 'nder 2.5 Γ 106:! :5 Ξ !10'.
+applicat.-On The correct value for for "poikit-contacts" such Km
+teduction as those in spiral bevel gears may be considerably less
+than the values for spur or helical gears due to the
+bending conformal axial curvature and curvature mismatch
+or used to localize the contact pattern within the tooth
+boundaries. It γ", is common practice to use. value of α
+are aa- for aircraft spiral 1.1 bevel gears. This low K., -
+value is particularly jusuticid for straddle mountings
+inac- used in conjunction with so-called -small-cutter
+gearset tooth developments". Use of cutter (and grind-wheel)
+diameters equal to the mean coite distance at low
+in helix angles and equal to than less ice the Λ% cone dis-
+tance at high helix aigles is an example that would
+4-37

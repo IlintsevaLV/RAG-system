@@ -1,0 +1,85 @@
+13-0 LIST OF SYMBOLS
+K - spring rate of suspeision, Ib/Rt
+κ = total spring rate of two-spring system,
+1β/
+- spring rate of first spring. Ib/ft
+- spring rate of second apring. Ib/ft
+length of suspoasion, ft
+Μ mais of belicopter, slug - mas of external losd, slug
+N - yaw restoring moment, Α lb/dec
+Ω - weight of external load, Ib
+= distance betweon suspension attach points,
+χ - longitudinal distance in case of four-point
+suspenision, ft
+points, ft
+υ four-point suspension, ft - natural froquency of suspenaion system, Hz
+ω
+13-1 INTRODUCTION
+This chapter addrosees the requiroments for per-
+sonnel accommodatiors and cargo provisions to τ
+incorporsted in ths detail derign of hejicopiers. The
+discuasion of the cockpit includes the pertinent re-
+quirements for crew station geometry, passcnger
+compartment arrangements. saaie and rastraint syz-
+tams, control/dispiay arrangoments, map and data
+cases, atc. Also included is α discusion of the inter-
+face criteria pertineot to the iastallation and cmploy-
+ment of cargo handling and survival equipment.
+Design roquiremente for environmental control syc-
+tans ard lighting gvidelines arc included.
+The basic design of personnel and cargo ac-
+commodations is determined during preliminary dc-
+sign. The dotail designer should adopt an integrated
+sonnel and cargo in such α way as to obtain maxi-
+mum mission effectiveness. To acccmplish this goal,
+the detail decigner will consider parameters such as
+tbe exact location of displays, controls, mission
+equiprvnt, and emergaucy equipment and must opti-
+mize on the basis of anthropometric data and α
+human factors enginoering analysis of crew tasks. He
+
+AMCP 206-202
+CHAPTER 13
+CREW STATIONS AND CARGO PROVISIONS
+must recognize existing design boundaries es spoci-
+fiod by the preliminary de: gn and the appropriate
+cations are listod within the chapter where ap-
+plicable.
+13-2 PERSONNEL
+ACCOMMODATIONS
+13-2.1 COCKPIT
+There is α growing body of literature, mcthocs, and
+practices which provide guidance in the arplication of system enginoering to the development of cock-
+pits. Howçver. there are few perrranent, specifsc, ab-
+solute roquirements. The missicn profile. the vchicie
+constraints, function analysis, time-linc analysis, link
+enalysiz, and the deveiopment of new muicriais aná
+components must be conaidered in determining cock-
+pit design.
+In additios: to design handbooks and manuais —
+χ.γ., Reis. 1 and 2 —.reference should be made to
+MIL-STD-250, MIL-$TD-850, MIL-STD-1333,
+MIL-STD-1472, Ref. 3, AFSC DH 2-2, and pars. 13-
+3 α1.δ 4.5 of AMCP 706-201.
+The general cockpit dimensions, scating arrange-
+ments and exteraal vision envelopc will have been de-
+tennined during preliminary design. The trado-offs
+available to the detail designer include standardiza-
+tion of dimensions and controls versus opportunities
+dynamic shape. The gcal of maximumn vision in all di-
+raciions may compete with instrument panel lo-
+cation, airframe sveight, comfort, armor protection,
+and acrodynamie shape.
+The detail designer mus consider the entire
+anthropometric rauge of user population for which
+the crew station is cxigned. The reach and body
+clearance envelopes must consider the heaviest
+clothing. survival, and protective equipmen: likely te
+β worn or used, Guidance for the application of
+antiropometric factors is contained in Chapter 13,
+AMCP 706-201.
+Crew station arrangement and geometry shall bc in
+80::rdance with MIL-STD-250 and MIL-STD-1333
+unica: otherwise spacifiod by the procuring activity.
+Deviation from these spocifications, or the location
+13-1

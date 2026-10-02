@@ -1,0 +1,106 @@
+manually operated α selector valve. Self-displacing
+accumulators can used to in.ure be that the asm)o-
+ciated hydraulic system reservoir is kept to α
+minimum size and weight.
+due The cold start is α primary design point to high
+line-loss charactebistics with -65*F fluid tempera-
+tures. The motor requirements for equivalent warm
+oil output torques are not increased appreciably by
+-65"F fluids; however, flow rate will be greatly
+reduced until fluid temperature has increased.
+Instantaneous or fast opening of the manual con-
+trol va;ι'χ can cause hydraulic motor shearing shaft or
+oth-.ρ damage duc to the high-π asure shock wave.
+The control valve design should include features to
+provide for slow buildup of pressure (0.5 to 1.0 sec is
+reasonable). At high temperatures, the extra fluid
+enrgy as available losses α result of decreased line
+may require control if the APU or turbine engine is
+aoceleration-limit,_ α corn- due to α characteristic of
+gear porent or the basic train.
+Claracteriscs Rejectwo Heat System 9-2&. 9.•
+,,-nr :υ,_ . ,,,-,o•vci .. - τ-- MA --. -
+or less) less, and low flow of Σ gpm or generally do
+Large. equipment. cooling special any require not
+relatively in operating systems high-power-loevl
+heat require may regions temperature warm ambient
+temperatures fluid to maintain order iii exchangers
+2750F. of limits upper !1 the Type below
+The performance specification for the heat ex.
+changer includes the following requirements:
+I. Media maximum inlet and outlet temperatures
+allowed
+2. Media minimum and maximum mass-flow rates
+and outict mnCLi .nriMaum IIJIM 1WrMAIMlaUnM U
+allowable temperatures
+4. Hydraulic fluid minimum and maximum mass-
+flow rates
+5. Allowable pressure drops in both the media and
+hydraulic sections.
+exchan•er The heat specify qualification test σ"all
+the following basic requirements in addition to α
+demonstration of performance:
+Realistic impulse 1. testing as α pressure vessel so
+as to insure adequate fatigue life
+2. Environmental tests, iacluding vibration, shock,
+and corrosion testing.
+9-2.6.10 System Awslysis
+"The system performance analysis necessitates
+definition of the requirements of each of the sub-
+systems in terms of output requirements and resuling
+"input needs. Flight control subsystems and utility
+\ subsystems are the basic divisions. Par. 9-4.6, AMCP
+
+706202 AMCP
+706-201, discusses the analysis or determination of
+power requirements for both types of subsystems.
+Where there are several subsystems, the maximum
+simultaneous need must be detc; ntined in order to
+define the peak output capability. As α part of the
+performance analysis, line-sizing criteria based upon
+to maximum allowable transients must be used insure
+that MIL-H-5440 and practical limits are met.
+In order to insure that performance goals in- -
+cluding combat-damage tolerance and single- and
+α dual-failure tolerances - are met, failure mode and
+effect analysis (FM EA) must be conducted. This sAW.
+conducted be in as much detail as is practicable. This
+be analysis prepared in accordance with the sAWll
+system safety program plan of Chapter AMCP 3.
+706-203.
+MIL-H-54,0 defines the hydraulic system dat and
+reports that are rcquired. including:
+I. System requirement studits data
+Design 2. selection data
+3. Developmental data
+data Production 4.
+5. diaRram Schematic
+6. Hydraulic system design report
+componenrt nonstandard system 7. Hydraulic
+drawings. assembly cross-sectional
+specifica- detail helicopter of the requirements The
+requirements, MIL-H-54,0 the tion, with together
+re- report system hydraulic basic θ- constitute shall
+quireten,.
+9-2.7 HYDRAULIC COMPONENT DESIGN
+SELECTION AND
+The detail ν for the various compo-
+nents needed to complete the hydraulic system are
+discussed in the paragraphs that follow.
+9-2.7.1 Actulors
+Actuators may be separated into two basic classes:
+flight control and utility. These two classes may be
+divided into rotary and linev- output types. The flight
+be control actuaors may dual- or single-system types
+with manual, mechanical, pilot control input signals.
+In addition, some units include an integrated control
+augmentation system (CAS), α stability augmenta-
+tion system (SAS), and/or an autopilot system. The
+controls - manual and electronic generally are -
+combined oith the electrical control mode, either in
+the series or in parallel with (Fig. manual mode 9-23).
+The series mode provides limited authority and
+flight control surface motion without motion feed-
+the back to pilot'σ control stick. The parallel mode or
+operation provides unlimited authority: in effect.
+9-13

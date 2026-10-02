@@ -1,0 +1,45 @@
+Chapter 17
+CIRCUIT DESIGN
+17.1 Introduction
+This chapter deals on α circuit level with some still be taken to ensure that lightning induced voltages
+of the factors involved in minimizing damage and up- on the power circuits are controlled within acceptable
+set of avionic equipment and will offer, where possible, limits, possibly with the aid of voltage limiting devices,
+examples of good and bad practice. Two subjects are as discussed in §17.4.
+treated in detail; surge protective devices and compo- On aircraft fabricated with poorly conducting
+nent damage analysis. composite materials, power return through the air-
+In general, practices good for control of lightning frame should be avoided. Α separate return wire
+indirect effects and for control of steady state elec- should be used.
+tromagnetic interference (EMI/EMC) are similar and
+what is good for one is good for the other. There are Single ended transmission: If single ended transmis-
+conflicts, however, some more apparent than real, and sion over α shielded wire is used, with the shield used
+it does not necessarily follow that α design proven to as α return path, Fig. 17.2, any noise current flow-
+be satisfactory for control of steady state EMI, or that ing in the shield will produce α voltage that adds to
+meets other standards for will EMC be satisfactory for the signal voltage. Having the shield grounded at each
+control of lightning indirect effects, end allows noise currents to flow and it is for this rea,
+son that wire sh!elds are often grounded at only one
+17.2 Signal Transmission end. Lightning current in the structure of the aircraft
+would be one source of noise current and could result
+Most problems involving indirect effects originate in large voltages being coupled into the signal circuit
+with the coupling of lightning energy into the wiring in the event of α lightning flash.
+of the aircraft with direct induction into the cases of
+LRUs running α far distant second. Proper choices
+"C Α prob- such eliminate help transmission signal about
+lems. Basic considerations about circuit design and
+signal transmission are shown in Figs. 17.1 - 17.7. (α)
+as Aircraft α C return: signal First, as shown on Fig. KR
+17.1, signal circuits should avoid the use of the aircraft
+structure as α return path. If the structure is used as
+α return path, the resistively generated voltage rises
+will be included in the path between transmitting and
+Α-
+receiving devices.
+( β ) VlsAR
+Fig, 17.2 Single ended transmission. MUMS
+(α) Generation of error voltage
+(β) Generation of common mode voltage
+Fig. 17.1 Structural IR voltage.
+Grounding the shield at only one end, however,
+Power circuits frequently use the airframe as α re- does not solve all the lightning problems because
+appear turn path. With metal aircraft, experience has shown excessive voltnge can still between the un-
+to be generally satisfactory, but provisions should grounded end of the shield and *thiu the adjacent ground
+437

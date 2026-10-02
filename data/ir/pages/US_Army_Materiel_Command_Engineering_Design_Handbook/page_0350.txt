@@ -1,0 +1,105 @@
+as is practicable to minimize serodynamic intrr-
+fereeos and local flow variations duo to the influorice
+of the main rotor(σ). Senoor accaracy levsis sbouid be
+selected for compatibility with fire control sccuracy
+reguiremenis.
+Sensors locatod internal to tke helicopter shal! be
+protected againet the vibrstios shock and power load
+environments associcted with the spocific Iclicopter
+design. In general, any sonsing oquipment locatod
+within the srew compartment must be capable of
+withstanding craah loed factors without detaching
+from its mountings. Vibration isolation should be
+provided in accordance with MIL-E-Σ400 and MIL-
+STD-810. Power requiroments (including number
+and siae of electrical wires), the nocessity for
+ahialding. and/or thc usc of nonstandard electrical
+oonnectors should be considerod in the dosign of the
+internal mountiag structure. Mounting provisions for
+all sansor units should provide for easy romoval of
+fastoners and coanectors, and for structural clearance
+adequate to permit rapid romoval and/or repair
+during maintenance operations.
+Sensors uaing clectro-optical or eloctromagnetic
+energy should be iocated in regions where they will
+axperience minimum electrical interference from
+other aircraft equipment. This principie applies to
+both the intarnal and the external (transmitting) por-
+tions of the oquipment. The electrical power require-
+nsents of thosc equipment typcs can be significant. In
+order to minimize transmipsion losscs and clectrical
+intorference, it is nocessary to: (1) locate the sensor
+copler power source, and/or (2) minimize the sepa-
+ration betwser the sensor unit and the point of air-
+crast transnission. In addition, care should be taken
+to avoid potential hazards to the aircrew during
+opesation of tbe equipment.
+84.Σ COMFUTERS
+The airborne fire control computer is α special-
+purpose device that accepts quantitative in-
+formation, trrangce it, performs α mathematical cal-
+culation, and provides qualitative output in-
+formation. This definition describes α simple eloc-
+trical computing circuit as well as α digital computer.
+The specific roquirements for the compuier are es-
+tablished by the degrec of fire control accuracy de-
+sirod. In addition to supposting fire control compu-
+tation, the airborne computer may be employed to
+assist in fligbt control, navigation, and communi-
+cation tasks.
+The specific dosign requirements of the computer
+systom shall be in aocordance with the governing
+design requirements of the fire control systam for
+
+AMCP 706-202
+sharing belicopter na: gation-avionic computation
+functions.
+puter dosign roquiremonts. Compuier vibration iao-
+lation will be roquired ss specifiod in the dazign re-
+quirements. In mocting compuier acccss require-
+mo-nte, consideration must be givon to removal, safe-
+ty, roplscoment, aná component iuspoction.
+8-4.6 FIRE CONTROL ACCURACY
+Guns and rockets shouid have adequate structural
+support in order to minimize helicopter structural de-
+flections during firing or launching. Optical sights
+should be located so α to avoid the sighting
+aberrations of canopy distortions. Sights should be
+installed upon rigid mounts, but without inducing
+undue sight-line vibrational distortion. Locations of
+sights and armament should be such as to avoid the
+probability of excessive parallax errors in the fire
+control computation. The sight and armament sub-
+systems should be installed with suitable adjustment
+and lock devices for proper boresighting and nar-
+monization. Electronic equipment should be pro-
+τ cted from the noisc generzied by helicopter power
+equipment (and by any other componenis likely to
+generate clectronic noise). Data sensors and ballistic
+computer: should be chosen so as to provide com-
+ponent accu acy characteristics consistent with the
+syztem accuracy roquirements of the governing heli-
+copter specification.
+8-4.6.1 Iawrtiad Stablizatiou
+For some applications, stabilization of the sight
+rsticke is uaed in order to remove helicopter motion
+dynamics as α source of sighting error. Stabilization
+is also incorporsted in automatic target tracking
+equipment. This equipment typically is designed as
+part of the sighting station, but remote auxiliary com-
+ponent location may be ruquired. Auxiliary com-
+ponents shouid be installed in accordance with design
+practices specified by the sight supplier.
+8-4.6.2 Fire Costrol Datum Plane
+Α physical reference surface shouid be established
+σ0 as to relate sight and armament equipment for
+basic alignment and harmonization of the fire control
+system with the aircraft structure.
+In α fixed weapon system installation, the weapon
+firing line generally is aligned so as to be parallel to
+the aircraft datum line. The designer should conçider
+weapon characteristics, such as tangential projoctile
+throw and/or barrel cant, during the alignment
+process. If the systemn is radar-diroctod, the radar linc
+must be aligned parallel to aircraft datum.
+8-9

@@ -1,0 +1,53 @@
+on the right wing. This required is to determine the electric breakdown occurred dinate axes and the fourth
+wing to wing. the aircraft. These may the ambient field to be oriented field produced by charge on
+be combined to give the total field. The basic solu-
+720 equation, Poisson'σ solving by calculated can be tions
+differ- modifications, the finite but with some slight Q ι
+can also be used to yield the desired ence equations
+static solution. The latter approach is used here.
+the non- The input parameters for Input parameters:
+linear model are: the relative air density (α function 0 - -[I.Α
+of altitude), water vapor content of the ambient air,
+the aircraft. charge on the net field, and the ambient
+parameters completely nonlinear modeling, these For
+lightning environment. define the
+To get α static solution for α given initial ambient -520
+are used (α)0 .76 field, equivalent sources on α Huygens' surface us
+along one of the volt/meter of one α field to obtain
+coordinate axes. Numerically, the charges are assumed 920
+an oscillating causes This appear instantaneously. to
+α run until code is so the and aircraft of the response
+steady state is reached.
+Examples of Calculations 10.9.3
+If one can find α set of initial conditions that V
+α response that matches measured data for produce
+believe α given lightning event, then there is reason to
+that the ambient environment assumed for the calcu-
+-840 to rise that gave conditions to the similar was lations
+.76 us nonlinear character of 0 (β) the actual event. Because of the
+(β study method, it is not possible to make α simple the
+scaling of calculated results to measured results and Fig. 10.30 Calculated and measured response of
+so come up with α better estimate of the initial condi- F-106Β to triggered lightning
+longitudinal Β-dot sensor. just make α comparison between the tions. One must
+calculated for α specific set of conditions and (α) Calculated response
+ξ - 2 V/μ ambient electric field 10 produced by the actual event. the response
+- oriented nose to tail
+net charge 1.35 mC - are F-108Β for the comparisons of F-106Β: Examples
+(β) Measured - Flight 82-038, Run 7 shown in Figs. 10.30 through 10.33. Of particular
+the comparisons is the double pulse charac- interest in
+10.34 through 10.37 show calculated and in Figs. 10.30, 10.31 and 10.33. Thiscorre- Figs. ter shown
+These were calcu- different places, but measured results for the CV-580. sponds to an air breakdown at two
+lated for an ambient field of 50 kV/μ, net charge of at different times. This is the same type of phenome-
+of 0.5. events. 1.35pC on the aircraft and α relative air density non observed during actual triggered lightning
+good, about the same quality initial breakdown The agreement is quite The first pulse corresponds to the
+and as for the F-106Β. (usually at the nose boom) the second pulse oc-
+and onto the aircraft flows as charge curs elsewhere
+Aircraft 10.10 raises the electric field strength elsewhere. resonances
+CV- the for obtained been also have Results C-580:
+en- conductor on α traveling Waves Waves: 580 Traveling such to define [10.32) study limited Α response.
+inductance the by given surge impedance α counter dis- previously the strike for was done an environment
+of the conductor, and capacitance attached strike this that It is known in §10.8. cussed
+α trig- most probably it was and that wing the right to
+(10.58) gered flash. With this information, the ambient field -
+so thatvC adjusted were aircraft on the charge the and
+296

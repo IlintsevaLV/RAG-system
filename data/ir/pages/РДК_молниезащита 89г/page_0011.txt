@@ -1,0 +1,46 @@
+11.5.1 Redistribution on a Rectangular Box 324
+11.5.2 Redistribution On a Wing Box 324
+11.6 Diffusion and Redistribution on CFC Structures 329
+11.7 Fields Within Cavities 329
+REFERENCES 332
+Chapter 12
+THE INTERNAL FIELDS COUPLED THROUGH APERTURES 335
+12.1 Introduction 335
+12.2 Basic Concepts 335
+12.3 Apertures of Shape Other than Elliptical 338
+12.4 Treatment of Surface Containing the Aperture 340
+12.5 Fields Produced by the Dipoles 340
+12.5.1 Complete Formulation - Frequency Domain 340
+12.5.2 Low Frequency Approximation 341
+12.5.3 Limitations 342
+12.6 Reflecting Surfaces 343
+12.7 Coupling From an Aperture to a Cable 343
+12.8 Slots 345
+12.9 Seams 345
+12.10 Incorporation of Seam Impedances into Numerical Solutions 346
+12.11 Analysis of Complex Apertures 346
+12.11.1 Equivalence Principle 347
+12.11.2 Uniqueness Theorem 347
+12.11.3 Nested Subgrids 349
+12.12 Resonance Modes of Cavities 350
+REFERENCES 351
+Chapter 13
+EXPERIMENTAL METHODS OF ANALYSIS 353
+13.1 Introauction 353
+13.2 Basic Assumptions 353
+13.2.1 Defined Threat 353
+13.2.2 Linearity 353
+13.3 Time Domain Pulse Tests 354
+13.3.1 Basic Test Circuit 354
+13.3.2 Traveling Wave Effects 355
+13.3.3 Scaling 359
+13.3.4 Approaches to Pulse Testing 361
+13.4 Conduct of LTA Tests 364
+13.4.1 Objectives 364
+13.4.2 Measurement Transducers 365
+13.4.3 Noise and Shielding 367
+13.5 Low-Level Swept Continuous Wave 370
+13.6 Safety 370
+13.6.1 Personnel Safety 370
+13.6.2 Fuels Safety 371
+vii

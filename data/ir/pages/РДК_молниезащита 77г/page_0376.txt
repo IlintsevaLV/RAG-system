@@ -1,0 +1,16 @@
+the canceling fields. Alternatively, the reduction in voltage can be viewed as the
+effect of the mutual inductance between the shield and the signal conductor.
+is This latter approach illustrated by the equivalent circuit of Figure The 13.6(χ).
+voltage between the ends of the conductor is the sum of that resulting from the
+E, through voltage induced in the signal conductor, and that coupled the mutual
+inductance between the shield and the signal conductor. Since the shield is
+to grounded at both ends and able carry α current, the voltage appearing across
+- SHIELD 2
+ - I I
++ -
+~ ι \ (4
+CONDUCTOR
+Shield grounded at both ends. 13.5 Figure
+(α) Test conditions
+Shield current (β)
+(χ) Equivalent circuit

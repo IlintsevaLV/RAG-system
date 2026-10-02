@@ -1,0 +1,44 @@
+0.000~ 0.0003
+V.
+ι
+'-Α
+I.41 U)
+1 V\,
+0 0
+- . 0 0 1 -0 .000
+ns -0 900 ns 0900
+- Fig. 11.24 Electric field variations at points Fig. 11.25 Vertical component of magnetic field
+indicated on Fig. 11.22. at points indicated on Fig. 11.22.
+An interesting feature of Fig. 11.24 is that the 0. 00004 . . .
+waveforms cross each other. This indicates that differ-
+ent time constants are dominant at different locations. 0 This can be explained by noticing that, if the wall were \ .--- •-
+discretized into α set of N filaments, the current in each
+filament would be of the form:
+Sfilament (11.39) Ake
+Π κ=1 /
+/ Therefore, each filament response contains the same
+time constants (related to the system poles) How- I .
+ever, the coefficient (residue) depends upon loca- Α 5
+tion, so different time constants (or poles) dominate
+at different locations. It is clear that for the real sys-
+. ... tem, there is actually α continuous spectrum of time -0.00028 /
+constants (or poles) and coefficients (residues), which 0 900 ns
+are only approximated by α discrete spectrum for any Fig. 11.26 Horizontal component of magnetic field
+discretized analysis procedure such as α filamentary at points indicated on Fig. 11.22.
+model or finite difference model. α mixture of metal and CFC materials. The struc-
+Finally, at late time, the electric fields become tures are sufficiently complex that there are no simple
+uniform and equal to the product of total current and analytic formulas to estimate the redistribution time
+resistance per unit length. constants. Three dimensional solutions of Maxwell'σ
+The vertical and horizontal magnetic fields at equations can be used to solve this type of problem,
+points and C are given in Figs. 11.25 and 11.26. Α, Β but engineering estimates can frequently be obtained
+The field is highest at the comers, showing the field if one has sufficient physical insight.
+lines to be penetrating the conductor. The fields peak
+at approximately the calculated line: redistribution time, Metal and CFC transmission Α simple example
+but there is some variation depending on location, of redistribution on α mixed metal/lossy structure will
+illustrate the principles involved. Fig. 11.27 shows an-
+11.4.6 Redistribution with Both Metal and other coaxial transmission line of which the outer con-
+Composite Materials ductor is assumed perfectly conducting and only used
+to bound the space in which the numerical solution
+Α so called "composite aircraft", which has large taken place. The inner cylinder has α 20* sector made
+amounts of CFC material in its structure, is really of metal (assumed perfectly conducting) and α 340*
+322

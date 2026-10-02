@@ -1,0 +1,105 @@
+AMCP 706-202
+locity can be used as the primary jet for an ejector.
+Stcondary air is taken from the APU compartment.
+Also, the ducting is α substantial heat source and should be located to minimize effects on compart-
+ment temperature.
+If compartment ventilation must be limited due to
+fire: hazards, high-temperature bellows can be used to
+seal ducting. Also IR radiation suppression may be
+needed for the APU exhaust. Compartment and duct
+cooling methods used on the main engines will apply
+equally hete and aro discussed in pars. 3-2.6 and 3-6.
+3-8.2.4 APU Bleed Air Dwting
+In the α case of bleed air type of APU, α collc(tor
+arrangement will be integral with the unit. The APU
+control valve can be mounted directly on the APU
+bleed collector flangc. If installation ,pace limita-
+tions cxist, or valve weight will overload the APU
+flange. the valve may be line-mounted.
+flexible Α bellows can be used to minimize flange
+loads, thus accommodating vibration, thermal
+'owth. and installation tolerances. Α quick-
+disconnec' type of connection is desirable for main-
+tainability. Attention must be paid to duct pressure
+loads. APU model specification perfovmance is based
+on pressure, flow. and temperature α' the APU bleed
+collector flange.
+3-8.2.5 Cooling
+Surface temperature limits be specified will in the
+model specification. During APU .)pcration, the
+compartment cooling shall system compart- cool the
+mcnt adequately. Temperature transients should not
+exceed the limits specified in the model specification.
+APU firewalls are identical to the main engine
+requirements discussed in par. 3-2.4.
+The reduction drive, accessories, and lubrication
+onsiderable heat. sore at reprent υ.en. Pon .
+be dissipated into compressor inlet air or into the
+APU compaitment. An oil (to air) cooler may be
+needed to maintain system oil temperatures within
+acceptaole limits.
+about 150 may reject bleed air APU Α typical small
+Btu/μ:ν to the lubrication system at sea level pros-
+surc 130'F. and An exhaust ejector could provide α
+cooling airflow rate of about 5 lb/ min. Compartment
+cooling is discussed further in par. 3-6.
+3-4.3 APU SUBSYSTEMS
+mrnasniach as APU) .ubsystems ai similar to those
+previously discu•ad in this chapter for the main
+only that discuss follow paragraphs the nigine(σ),
+to the APU. peculiar characteristics those
+3-8.3,1 Electrical Controla
+APU elec•ricisi coatiols are categorized as se.
+quencing. protectivc, and toad, or output, controls.
+3.-18
+
+Some components arc APU-rnounted othcrs and are
+airframe-mounted. Electrical power to activate the
+system may be provided by the aircraft system or by an APU-driven generator. APU controls shall be
+qualified concurrently with qualification of the APU
+in accordance with MIL-Π-8686.
+Σ most δ anedAg σ
+"ihe most advanced APU sequencing is done with
+solid-state electrical equipment. Α speed signal is ob-
+tained from the gearbox or power section by mcanm of α frequency signal from α magnetic pickup, ta-
+chometer generator, output alternator, or mech-
+anical spced switch. Α frequency-sensitive sequencer
+then actuates relays slarting for and APU accclcra-
+tion.
+The start is initiated by α switch that actuates the
+APU starting system, This may be electrical or hy-
+draulic (par. 3-8.3.5). The APU will begin rotation
+without fuel or ignition to provide α momentary air
+purge of the air and gas passages. Fuel and ignition
+subsystems must be actuated at the lowest possible
+speed, perhaps 5% or below, to insure good starts at
+both cold and hot extremes of ambient temperature.
+Actuation can be accomplirhed by α fuel pressure
+α switth, timc dclay relay, or speed signal. Some I
+combustion systems require separate start and main
+(or run) fuel systems. At 10-20% speed, the main fuel
+valve will be opened. Α third speed point can be used
+to turn off the starter. At approximately 90% speed.
+start fuel and ignition will be turntA off. This signal,
+with α time delay relay, also can arm the aircraft load
+circuits. Α fifth sequencing 110% point at speed pro-
+vides for protective shutdown.
+38.3.:.2 Protective Controls
+confine Protective controls arc required to mal-
+functions to the APU and, thereby, to protr.τ the
+helicopter.
+Protective devices may include overspeed, exhaust
+ovcrtcmpera- and compartment overtcmpcrature,
+in the thermocouple sensor ture Α simple subsystems.
+feeding the APU tailpipe, to solid-state circuit con-
+trol (sequencer), provides APU overtemperature pro-
+tection. Similarly. thermocouples within the com-
+partment can signal the sequencer as fire protection.
+Built-in test equipment should be used only to the
+extent necessary to indicate an APU failure. In-
+dicating shall lights be used for pilot advisory pur-
+poses. Audio annunciators can be adapted for the
+desired. if APsu
+3--.3.1-3 Output Controls
+The -1 elect-' load-control circuit usually is armed
+by ed the 90% sequencing point and α time delay

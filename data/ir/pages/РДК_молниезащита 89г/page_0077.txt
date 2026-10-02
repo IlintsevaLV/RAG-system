@@ -1,0 +1,68 @@
+.
+from the charge center. At the very low altitudes 2 (rd
+kim) where the breakdown strnngth of air is greater the
+trigger region is only a few hundred meters across. In
+fact, because the charges are really extended and not
+point sources, it is possible that at tinse low altitudes
+triggering is not possi ble.
+141
+12- 4I
+10 volts per metert
+10 jo~(a)
+10
+10
+108 10
+Lightning
+In elementary terms the response of an aircraft is
+illustrated on Fig. 3.23, which shows the F-106 air-
+charge center. directly toward a positive craft flying
+will be- to the ambient field The aircraft, in response
+come polarized; that is, electrons will be pulled from
+the aft end towards the nose. Thus it will accumulate
+"a negative charge (surplus of electrons) at the nose and
+"a positive charge (deficiency of the electrons) at the aft
+end, though the net charge on the aircraft will remain
+unchanged. The field strength at the surfaces of the
+aircraft will be the sum of that due to the incident
+electric field and the fields due to the induced charges,
+which is to say that field will be enhanced by the t0e
+presence of the aircraft. The electric field at the nose
+will point towards the fuselage and at the aft end will
+point away from the fuselage, the polarity of the fields
+being as defined in §2.2.2. the orientation F. - shown,
+the enhanced field will be largest at the nose of the
+aircraft.
+As the aircraft flies towards the charged regions
+the electric fields at the surface of the aircraft will
+slowly increase; that is, become more negative at one
+59
+
+end and more positive at the other end. Eventually the
+enhanced field at the nose will become large enough
+to cause a burst of corona, the electrons at the nose
+flowing off into the air ahead of the nose. This will
+reduce the field at the nose (make it less negative) and
+ultimately arrest the discharge.
+Eemblest
+OBSERVATION POINT
+(d) (e)
+Fig. 3.23 Expected behaviour of triggered
+oriented lightning for nose to tail
+electric field.
+(a) Observation point
+(b) and (c) Electric field
+(d) and (e) Magnetic field
+The flow of electrons from the nose can equally
+well be viewed as a flow of positive charge from the air
+onto the aircraft, thus leaving the aircraft with a net
+positive charge. This additional positive charge will
+enhance the field at the aft end, eventually causing an-
+other breakdown there. That discharge may be viewed
+either as transferring positive charge into the air aft of
+the aircraft or as transferring negative charge from the
+air into the aircraft. Not every discharge at the nose
+will cause a simultaneous discharge at the aft end, but
+on balance all the negative charge transferred into the
+air at the nose will be balanced by charge transferred
+into the aircraft from a discharge at the aft end. The
+net result is a pulse of current flowing through the air-

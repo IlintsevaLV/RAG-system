@@ -1,0 +1,89 @@
+as than repre. strips: Rather charged Representation
+group of filaments each carrying α serting α surface as
+of α group as the surface can represent one α current,
+then One density. charge α certain having each strips,
+[10.8, 10.9], calculate can, through matrix techniques
+of the strips. Since current the charge density on each
+charge flowing past α point per can be defined as the
+technique also gives the charge density. unit time, the
+to which the technique Fig. 10.20 shows α structure
+in applied, point C representing α wire bundle was
+distribution (for 1 am- the trailing edge. The current
+Fig. 10.21. While the current) is shown on pere total
+too small to C and Δ are at points current densities
+obtained been could have graph, they on the discern
+computed results. from α numerical printout of the
+the to determine can be used The technique
+determine and also to current on the cable amount of
+inductance of the cable; properties transmission the
+impedance and surge capacitance per unit length and
+[10,10].
+0.__, _, _, _,
+.8 o., in (,gfo, at.ι.jn
+04V
+-1. 0.4 0.8 ε -1. -0. -0.4
+μ~re~,
+with CAPCODE. Fig. 10.20 Α structure modeled
+1.760
+Currnt 1.1
+Density,
+Am .
+.616
+.430
+I 6 o χ 4 Α
+. 2oi 0 on airfoil Fig. 10.21 Current distribution
+urrnt.source forI aper toal for 1 ampere total current.
+literature contains several ref- Calculation codes: The
+of representing α two dimensional erences to techniques
+among them (2Δ) surface by paralleled subsurfaces,
+and CAPCODE [10. 10], POTENT being the programs
+was used to cal- INDCAL (10.11 - 10.14). CAPCODE
+
+programs use similar tech- culate Fig. 10.10. Other
+and inductance niques to determine the capacitance
+multiconductor along propagation governing matrices
+- 10.17]. [10.15 bundles cable
+into technique of subdividing the surface The
+be used with the Method of Moments strips can also
+accuracy when (MOM) [10.17] that has shown good
+to analytic solutions and scale model tests. compared
+these 2Δ example of an application to which One
+was calcula- calculation techniques have been applied
+that would flow through different. tion of the current
+be struck by Shuttle were to struts if the U.Σ. Space
+lightning [10.18].
+Equations 10.6 Maxwell'σ
+prob- interaction of all lightning The foundation
+in the time given here equations, is Maxwell'σ lems
+form: domain differential
+(10.41) π/eo V = E
+V. 0 (10.42) = Β
+(10.43) xE= Μ, - O
+(10.44) V ξ = + J,+ H aE
+all vector quantities. Eq. and Δ are E, Β, Μ.
+of lines of electric flux that the nurr•'er 10.41 states
+leaving α volume is equal to the amount of charge
+contained in that volume. Eq. 10.42 states that the
+flux entering α volume number of lines of magnetic
+states to the number leaving it. Eq. 10.43 is equal
+to an electric that α changing magnetic field gives rise
+of sources three there are that states 10.44 Eq. field.
+field; conduction currents (aE), externally α magnetic
+currents produced currents (J.) and the displacement
+be by α changing electric field. It should produced
+current produced magnetic the externally that noted
+inserted to source Μ, in Eq. 10.43 is α fictitious source
+symmetry to the equations. Physically, there provide
+it in the equations is no such source, but including
+sources equivalent defining of means useful α provides
+problems. scattering and interaction for certain
+lightning that the assumes If one premises: Starting
+with the injection of an interaction problem begins
+0,ε the aircraft, then current into external lightning ~ q suc emfrteitrcini ι , V: Eq. in J, is the interaction for term 8
+of and the boundary cons. From α knowledge J.
+the aircraft geometry) electromagnet' tions(that is,
+everywhere. fields can, in principle, be calculated
+however, the lightning interaction Sometimes,
+the injection of lightning problem does not start with
+of trig- In particular, this is true for analyses current.
+286

@@ -1,0 +1,101 @@
+15-1 INTRODUCTION
+This chapter contains basic guidelincs, considera-
+tions, and soquirements that must be followed by the
+twoen the helicopter and its roquired maintenance
+ground support equipment (GSE). The design guide-
+lises presented herein are basod upon Army circu-
+lars, rogulations, and policy manuals related to
+operation and maintenenace support of supplies and
+equipment.
+GSE interface design must consider standard items
+of GsE and the maintenance personnel capabilitics
+available within the Army'σ system, and must be in
+consonance with the Army'σ maintenance support
+policy. Spocific maintenance and GSE interface
+design provisions should use built-in-test equipment
+(BITE), wbere feasiblc, and must irnprove efficienzy
+in the wac of GSE at cach maintenance level. Wi.en
+incorporated, these interface design considerations
+and requiranents wili minimize thc time required for
+turn-around servicing, maintenance, and repair; thus,
+maintainability of the helicopter will be improved.
+As used in this chapter, the term GSE includes all
+equipment ncor'od to service, inspect, test, adjust,
+calibrate, fault isolate, mcasure, azsemble, disas-
+semble, handle, transport, safeguard, store, repair,
+overhaul, maintain, and operste the helicopter and its
+installed subsystems but excludes personnel equip-
+ment, office furniture and equipment, &nd common
+production tools and tooling.
+15-2 DESIGN CONSIDERATIONS AND
+EEQUIREMENTS
+The requirements for GSE interfaces mnust be con-
+sidered from the inception of the helicopter design.
+Relability, maintainability. scrviceability and self-
+test features must be designed into the helicopter and
+its installed subaystems to minimize the costs of
+maintenance facilitics and manpower.
+Human factors considerations, safety, and accessi-
+bility must be included in the initial desigr. Simi-
+larly, standardization of equipment parts must be
+emphasized, beginning with design inception.
+Designs should cenform to the human engineering
+principles ans criteria of MIL-STD-1472.
+Equipment arrangements shouid minimize the
+nood for removing cquipment when servicing is per-
+formed. Design considerations should include analy-
+sis of the operational deployment requirements,
+
+AMCP 706-202
+CHAPTER 15
+MAINTENANCE AND GROUND SUPPORT
+EQUIPMENT (GSE) INTERFACE
+along with related climatic and environmental fac-
+tors. Helicopter and subsystem installations sbould
+be dosignod to permit persoanel wearing hoavy glovos
+and clothing io perform maintenance in cold cli-
+mates. Instruccion markiags should be legible and
+placvd so that they are viewed casily. The dasign
+should permit ground servicing by maintenance per-
+sonnel with α maximum of safety and ε minimum of
+skill. The design must assure that porsonnel with
+minimum training and average mochanical abilities
+can perform the roquired servicing. Giainzenance, and
+repair of the belicopter and installed equipment.
+Sharp projections that may injure personne during
+operation or servicing mnust be eliminatod. Vital com-
+ponents must be protectod to prevent damage during
+servicing.
+15-2.1 SAFETY
+Safety is α principal consideration in the design of
+GSE interfaces into the helicopter system. GSE inter-
+face design shall coaform to system safety criteria,
+principles, and techni jues as definod in MIL-STD.
+882 and Chapter 3, AMCP 706-203. The objoctives
+ν ν
+tional roquirements; control of bazards to protect
+personnel and equipment; and identification, elim:ι-
+nation, or control of hazards asociated with cach
+system, assembly, cr subasse:mbly. These con-
+siderations shouid include, but not be limited to. the
+following:
+1. Human factors
+2. Levei of training requireú foi safe servicing and
+maintenence
+3. Ct.aracteristics of fucls and hydraulic fluids,
+and their hazard levels during storage, transporta-
+tior, and handling
+4. Contuinment of electrical and radio frequency
+energy and appropriate waroings 5. Protection of pressure veasels and associated
+piping
+6. Classification of hazards resulting from α-
+sential usc of explosives.
+Particular attention must be given to possible :ral-
+functions that could create hazards, and approp.iate
+design features must be incorporated to climinate or
+control thesc hazerds.
+General rules to be foliowed in safsty design are:
+1. Clearances must be providod to permit the in-
+terconnection of fuel and/or oil fill lies, tlong with
+electricai connoctiors.
+15-1

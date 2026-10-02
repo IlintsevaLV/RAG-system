@@ -1,0 +1,91 @@
+lates to α series of tests made on tantalum electrolytic
+capacitors of value 0.470 pF, 0.047 pF, •and 0.0047 pF
+with α voltage rating de of 350 V 117.24]. The data in-
+dicate that failure (defined as α mubsta-tial increase in
+the leakage current at voltages of less than 350 V) can
+in- which time during with the be associated generally
+ternal conduction occurs. For these components, con-
+duction was initiated 3 to 4 times the voltage rating. at
+Leakage current increased .ontinuonisly with time of
+from conduction, initial values of α few nanoamperes
+through milliamperes.
+the capacitance determines how The value of
+quickly the voltage across the capacitor reaches the
+breakdown voltage range. 90 to 140 V, which then re-
+lates to the time of conduction and the extent of dam-
+age. Fig. 17.37 shows the data for" the nine 0.0047
+capacitors tested. pF For α particular pulse duration
+of 5 Ms. an increase in leakage current is expected; for
+ior pulses of 150 to to 150 V and pulse voltages of 100
+200 V, an increase in leakage current to milliamperes is
+possibie. It is cautioned that this behavior may not be
+or materials of different to capacitors extended readily
+insufficient remains data capacitor construction. The
+to draw general conclusions as to system implications
+at this time.
+α.10us width !.Ous Pulle
+100
+.
+"10
+τ-
+ao 0o0 1o1 μ no 0
+Holis'μ PUill
+Fig. 17.37 Pulse test data for 0.0047 pF tantalum
+electrolytic capacitors [17.25).
+17.7 Failure Mechanisms-Other Components
+Α limited amount of pulse test data is available
+for various non-semionductor electronic circuit corn-
+ponents. These data were mostly obtained by testing
+with α square-wave pulse input of 1 to 10 dum- jus
+tion and up to kV peak. As I would be expected, not
+all such components are invulnerable to pulses of this
+shape. The test results for several kinds of compo-
+nent are presented in Table 17.7. The test conditions
+
+corisisted of an 8 ps, 1 kV pulse applied 10 times to
+each device. In the case of multiterminal components,
+several pairs of terminals were tested in this manner.
+Table 17.6 Accuracy K of Factor. Determined
+[17.141 Methods Indirect by
+Doayc. K BV 5V BV ReFerence
+coo Numibr CEO fSO Source
+4.5 Τ1487 SP 6. 80. 60.
+.3 7. Sp .01 15. 7IXMIO1
+SW3042 .. .1 .. Dx
+SP - SAP-1 Computer listing from SAP-1 Computer
+Code Manual, U.Σ. Air Force Weapons Labors-
+tory, 1972.
+DX - Experimental data from DASA (Defense Atomic
+Support Agency) Handbook [17.9].
+Accuracy Conditions
+2 of 50<9fi <200 Factor
+200< <SoF
+of Factor > Σ00 is 30
+Kca" 3 Factor of
+of 10 ii Vhd < Factor 30
+Factor 10 < Vbd < 20Δ of 1O
+ 200 < Vbd < 20DO Factorot 1
+Kamb - α K determined from 8ja
+KCAN " K as determined from Oj,
+SK•U :: K determined from juntion capacitance
+17.8 Examples of Use of Damage Constants
+Some examples follow of how the preceding mate-
+α given not or whether to determine used be may rial
+transient wil. cause damage to semiconductors.
+Relay: The first circuit chosen for analysis. Fig. 17.38,
+is α simple remote-controlled relay. Acros the termi-
+nals of the relay coil there is α diode which would be
+exposed to the same transients as those to which the
+coil is exposed. The analysis approach that will be
+taken is first to calculate the curreut level that would
+cause the diode to fail and then to whether or not wse
+the transient voltage source could supply that current.
+It will be assumed that the oscillatory pulse is tran- ta
+uient of 1 MHz frequeticy or I period. At this fre- ps
+quency the inductive reactance of the relay coil would
+be sufficiently large that the relay could be neglected.
+The cuent required to cause failure at time, τ,
+would be
+Kt-τ/2
+I 8 Π (17.22)
+461

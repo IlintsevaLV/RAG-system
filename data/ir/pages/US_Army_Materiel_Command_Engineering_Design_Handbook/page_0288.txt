@@ -1,0 +1,98 @@
+ABCP 706-202
+Sility degradation from scif-induced disturbances
+cloee to the ground during hover or low-speed
+operations. This phenomenon, often termed "akit-
+tishness". is believed to be causea by the rotor wake
+reflecaing from the ground and reimpinging upon the
+fusclage or winga. or being reingested as rotor in-
+flow. With certain combinations of vchicle con-
+figuration and flight operating variables, this re-
+impingement and reingestion becomes oscillatory.
+and results in large random responses. If the flight
+control system is forced to suppress skittishness, the
+designer must insure that satisfactory stabiisty aug-
+mentation and control margin levels are produced.
+TABLE 6-1. MAXIMUM AMPLITUDES OF
+LIMIT-CYCLE OSCILLATIONS
+AXIS OSCILLATION OSCILLATONS ANGUI AR Li:VE AR
+ANGLE FIA TE ACCE:ERATIONS
+PICH - 3 mly NII.F -8786 -0 5 deg sm USAAML-1Α-65-45
+ROLL 3μ·1, Μ:Λ-F 8185 MI F-949)
+YAW 3 .0 10 deq sec
+MI1-5-8765 MIl F-9490
+LATEHAL .0.91 γ
+IDAJE TO MI 1.9490
+OSCILLATIONI
+VERTICAL 0.02 9 MIL -F .94')
+1008 15 OSC:LL ATIONI .0 05 υ
+MIL -F -ε785
+'DISREGARD FOR PURE F'ILLIÜOPIER ENVIRONMENT
+jos
+рсі
+hATE tHIT EL!RA1LON
+RA
+ANGULAP 1u: SA:ISCA.Τ:RY
+:2 : E !.
+0.0
+FRE UEM;υ,ν3.!
+.E
+Figure 6-3. Aflowable Pitch Control System
+Residual Osciliations
+6-2.2 AUTOROTATION ENTRY
+Most lbw-disk-loading helicopters have the capa.
+bility for stabilized autorotation in the event of power
+6-8
+
+failure but the vehicle characteristics must allow safe
+entry into this condition. During entry, the character-
+istics of the vehicle shall provide α reasonable pilot re-
+action fime from the point of power failure to initial
+corrective action (1 sec minimum, 2 sec desired), and
+should permit α pilot of average ability to maintain
+control with adequate margin. Once stabilized in
+autorotation, the vehicle should be capabie of mild
+mancuvers.
+MiL-H-8σ0λ siates that the rotor speed shall noe
+fall below α safe value, including that needed to mair-
+tain hydraulic and electrical power, during entry into
+autorotation. Other factors to be reviewed in con-
+nection with this maneuver are:
+1. Margin of control power available to overcome
+disturbances, especially near zero load factor and for
+vehicles with fixed wings
+2. Restriction due to blade stress limits
+3. Flapping and blade clearance with respect to the
+airframe
+4. Hufieting due to wing wake
+5. Interaction of stability augmentation system
+6. Magnitude of control trim change resulting
+from coiiective piich reduciio. necessary to enter
+autorotation.
+Simulation provides an excellent method of evalua-
+ting the average pilot'σ ability to effect the auto-
+rotation maneuver, and of defining potential im-
+provements.
+Refs. 5 and 6 describe the difficulties of obtaining α
+satisfactory time delay in the event of total power
+failure at an arspeed near 200 kt. With dual engine
+installations — where the probability of sudden,
+simultaneous (less than 2 sec) failures is extremely
+remote — it may be reasonable to consider only
+single-cngine failures.
+6-2.3 SYSTEM FAILURES
+When α stabilitv augmentation system (SAS) is
+used — whether it is electronic, fluidic, or mechanical
+— the potential hazard of α hard-over component
+failure exists. MIL-H-8501 requires that the pilot bc
+able to delay α corrective control input for 3 sec
+without the response exceeding an argula: rate of .0
+deg/sec or α ±0.5 γ change in normal acceleration.
+The influence of Night conditions and CG position
+upon the severity of the response to an SAS failure
+should be reviewed. Frequently, an aft CG position
+coupled with Nlight operation near the blade or rotor
+limits is the most critical situation. Stress levels upon
+recovery from α failure may be an additional factor in
+the ability to satisfy the failure requirements.
+Responses to SAS failures can be seduced in
+magnitude by the following methods:

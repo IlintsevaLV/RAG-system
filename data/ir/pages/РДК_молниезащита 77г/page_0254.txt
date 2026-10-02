@@ -1,0 +1,29 @@
+The box was placed in an impulse-type H-field with amplitude and waveform as
+shown in Figure 7.44(α) (Reference 7.29). This field has α rise time of
+ys and α decay time of approximately 60 ps, such as would be approximately 2
+produced by α lightning-stroke current with the same rise and fall times.
+SAE F of the report). Its amplitude of 150 Α/μ is of the order (Component
+produced by α typical lightning-stroke current (discussed in Chapter 9).
+ONE LAYER OF ALUMINUM FOIL CONDUCTIVE CARBON
+1 1 1 I I
+-0.22 ~BATTENUATION
+uLLI - - λ _Λ_Λ_LI
+(4
+(χ)
+H-field shielding effectiveness of various conductive coatings on 7.44 α Figure
+cube. μ 1.2
+Figure 7.44(β), (χ), and (δ) shows the actual field strength within the
+0.18 center of the box when coated with each of the three materials. The mm
+flame-sprayed aluminum gave an H-field attenuation of 5.2 dB produced by α
+0.025 mm thickness of aluminum foil. Conductive paint gave practically no
+attenuation.
+The numerical data presented in Figures 7.42,7.43, and 7.44 are of course
+appIicable only for the coil spacing used in these tests, since the coil spacing
+affects the impedance of the magnetic field and the shielding is determined in
+part by the impedance mismatch between the field and the shielding material.
+However, implications of the data are quite clear:
+1 . The shielding effectiveness of both graphite-epoxy and boron-epoxy
+much less than an equivalent thickness of aluminum. materials is
+Α thin piece of aluminum foil has much greater shielding effective- 2.
+ness than has even α mm panel of graphiteepoxy. 3
+244

@@ -1,0 +1,45 @@
+current associated with the initial development of the leader to α current of
+perhaps 100 kA as the return stroke becomes fully developed. It is α
+characteristic of an arc channel discharge that if the current through the arc is
+increased, the arc channel expands in diameter, keeping α fairly constant current
+density across the channel. This channel cannot expand instantaneously, since
+energy must be put into the channel to cause the channel to heat up sufficiently
+to force it to expand. Accordingly, if the current through the arc channel is
+increased suddenly by α large magnitude, as in Figure 1.12(α), the longitudinal
+voltage gradient of the channel must suddenly increase. Since the rate at which
+energy is injected into the channel is the product of the current and the
+longitudinal voltage gradient, the increased longitudinal voltage gradient may be
+taken as the mechanism forcing the arc channel to get hot enough to expand to
+the diameter required to carry the high currents. It is not known what the
+maximum longitudinal voltage gradient would be in α lightning channel, but it is
+known from studies of arcs in laboratories that the gradient will fall to values on
+the order of 100 kV/μ in α fraction of α microsecond. Presumably in α few
+microseconds, the channel dianreter will have expanded to its final value, and the
+longitudinal voltage gradient will have decayed back toward values on the order
+of to 10 kV/μ. The longitudinal resistance, then, would fall from values on the 5
+order of 40 ν / μ to values on the order of α small fraction of an ohm per meter,
+in times on the order of α few microseconds.
+This collapse of longitudinal resistance, however, is far from instantaneous.
+The initial resistance of the leader is sufficiently high to retard the development
+of the upward-going return stroke and hence reduce its velocity of propagation
+below that of the speed of light. Presumably, leaders which lead to the
+formation of high-amplitude lightning currents either have α sufficiently low
+longitudinal resistance begin with or the longitudinal resistance is reduced to to
+low values sufficiently fast by the high-amplitude return strokes that the
+longitudinal resistance presents less of an obstacle for the upward-going return
+stroke than it does for the flashes which involve lower peak currents,
+An additional factor that affects the velocity of the return stroke and is
+the second reason that the velocity is less than the speed of light is shown in
+in Figure 1.13. As explained earlier, the leader deposits its wake α column of
+electrical charge with diameters on the order of several meters. At the center is α
+highly conducting core, which has α diameter of α few millimeters for the leader
+and which expands to α few centimeters during the passage of the return stroke.
+The inductance of this return stroke is determined by the diameter of the highly
+conductive central core, and the capacitance by the diameter of the column of
+electrical charge. The lightning stroke may then be modeled as shown in Figure
+α 1.13(β), in which highly conductive central conductor is fastened onto α series
+of projecting splines, much like the backbone of α fish. Α better analogy might
+be to view the lightning flash as α piece of tinsel rope for decorating α Christmas
+tree: α central piece of string is surrounded by α tube of fine filaments projecting
+radially away from the central core. In either case, the radial filaments can carry
+α radial current, ι,, but cannot carry an axial ~urrent, ia. Accordingly, the

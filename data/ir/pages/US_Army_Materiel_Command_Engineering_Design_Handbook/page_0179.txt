@@ -1,0 +1,83 @@
+number arf taminates reduces ihe angular misslign-
+ment capability of the particular design. An ad-
+ditional relationship exicts betweer the nurnber of at-
+tachment points and the torque capacity. and mis-
+alignment cspability. Α four-point attachment (two-
+bolt shaft adaptes) provides the maximum misalign-
+ment capability and also is the least expersive to
+Manufacture. Thc flerible disk is capeble of smali
+axial dutiections, and where predicted axial motions
+are Icw, *his coupling serves well. No lubricetion is
+requirso.
+Tnomas couplings often are used in serics with α
+shding involute spline to eccomincuate vaciations in
+initial shaft assembly length due to accumulation of
+manufecturing tolerancer. Howvever, wixen axial de-
+faction occurs under operating tosquc, the slip re-
+siscance of the spiine is so great that appreciable axial
+forcc will be spplicd to the disk laminates. For splines
+of θ is type the breakaway slip force Fü rarcly is lcss
+thian:
+$bs = 0.4 Q/Dp.16
+where
+= torque, Ib-in.
+π, = pitch ciameter, in.
+In σóme spccial cases where certain dry φüμ lubri-
+cations are applied to the splines (Ref. 93) break-
+away forces of half this value may be realized.
+2. Flexible diapt om (Bendix tyre) couplings.
+This coupling (.ec Fig. 4-38) λ:gs bas ased on the
+OH-6 hel:copter. This type .: couplirg is generally
+capable of α maximum &ragular misalignmeat of
+abont ι deg per diaphragm pair, but very little axial
+dafectior capability and therefore naust be used in
+series wirh α siiding spi:ne. Recirculating daii splines
+gererally are pieferved for minimunn breakaway slip
+force F.. Aiss, the diaphragm stack is ve:υ sensitive
+to fatigue failure due to osciliatory axial deflections
+σ:ace θ.: weakest nember of ihe stack will often oil-
+ca. ar.δ provice rauriy all of the axial deflection.
+Under suck conditions it may de necessary to pro-
+vide α stif-aligning monoball (or similar type) bearing
+at the inendec fiexure center of the stack :o transter
+aial loads into the supporting adapter and to force
+the ball spline to move. Alttough thcoretically it is
+Possiblc τ obtain very low Dreakaway slip forces
+wish the dall sprine, practical considerations with re-
+spect to tainin:tm fength of the bail track grooves,
+μ'mbers of balls. and seel provisions usually limi:
+these forces to & minimum of
+Fb. = 0.15 C/Δ, Ib
+259 γ ρ
+
+WELO JOINTS
+FLEXIBLE DIAPHRAGN
+SELF-ALIGNING MONOBALL
+DRIVE SHAFT
+(4-66)
+DRIVE FLANGF.
+Figure 4-38. FicxBie Diapbragas Cocpliag
+All too often, the vibratory forces due to imbalance
+and roior vibrations lead to false brinelling of the ball
+track grooves, which resuits in turn in much higher
+axisl forces wiih increasing service time.
+Although the fiexible diaphragm elemeuts need no
+lubrication, the splines and the monoball oc-
+casionally require lubrication
+3 Axial:υ loadcd straight eiement flexible
+coupling (Bossler coupling). This coupling (Fig. 4-39)
+requires no lubrication and has the abiity to accom-
+moda.ε combined axial motion, misalignment, and
+torque. Α series stack of warped rectangular plates
+with α certrally located rectangular cutout leaving
+siender sides characterizes the coupling. Opposed
+corners of these plates are boited to adjacent elements
+and to end fittings or adapters. Design characteristics
+of this coupling arc defined in Ref. 111.
+Applications to date havs becn Icrgely experi-
+mental with some flight time accumulated on the
+Hv-2 nvlicopter (Ref. 112) and UH-1 helicopter. Tic
+engular μ isal.gament capability appears to be sbout
+0.5 deg per plate element. However, an increese in the
+(467) nu.nber of ε'ensents usod results irn & reductiou in first
+4-77

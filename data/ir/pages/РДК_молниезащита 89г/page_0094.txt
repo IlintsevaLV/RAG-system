@@ -1,0 +1,26 @@
+Non-conducting composites: Some of these mate- Conductive composites: Plastics reinforced with car-
+rials have begun to replace aluminum in secondary bon or boron fibers do have some electrical conductiv-
+structures, such as nose, wing and empennage tips, tail ity, and, because of this, their behavior with respect to
+cones, wing-body fairings and control surfaces, and on lightning is considerably different from that of noncon-
+several occasions the entire aircraft has been fabricated ductive materials. Carbon fiber composites (CFC) are
+of fiber reinforced composites. employed extensively in secondary structural applica-
+Often the nonmetallic material is used to cover a tions and occasionally in primary structures as well.
+metallic object, such as a radar antenna. If this coy- Boron reinforced composites were the subject of
+ering material is nonconducting, such as is the case extensive development efforts in the 1970's, but failed
+with fiberglass, electric fields may penetrate it and to find applications in airframe design and, with a few
+initiate streamers from metallic objects inside. These exceptions, have disappeared from use.
+streamers may puncture the nonmetallic material as To date, most CFC materials in lightning strike
+they propagate outward to meet an oncoming light- zones have been provided with suitable protection
+ning leader. This puncture begins as a pinhole, but, from lightning strike effects. Some in-flight lightning
+as soon as stroke currents and accompanying blast and strikes have occurred, with superficial damage that has
+shock waves follow, much more damage occurs, not become a flight safety hazard.
+An example of a puncture of a fiberglass honey- Simulated lightning tests which have been per-
+comb radome is shown on Fig. 4.11 (4.111. In this case formed on CFC materials in the laboratory, however,
+a streamer evidently propagated from the radar dish have shown that unprotected composites may be dam-
+or some other conductive object inside the rviome, aged. The lightning damage is due to resistive heating
+puncturing the fiberglass-honeycomb wall and rubber of the carbon fibers, which vaporizes and ignites the
+erosion protection boot on its way to meet an oncom- binding resin and leaves the fibers in disarray, as shown
+ing lightning leader. Most of the visible damage was in Fig. 4.12. Further damage results from the shock
+done by the ensuing stroke current. wave that accompanies the return stroke currents, and
+Fig. 4.11 Puncture of a fiberglass-honeycomb radome.
+76

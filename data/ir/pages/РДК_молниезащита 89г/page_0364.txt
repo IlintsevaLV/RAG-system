@@ -1,0 +1,70 @@
+12.24, however, is probably a realistic estimate of the
+current that would flow on such short circuits.
+at frequen- are oscillatory voltage and current The
+cock- cies that can be related to the dimensions of the
+the response appears in than one frequency pit. More
+different several cavity can exhibit cockpit since the
+modes of oscillation. Cavity oscillations are discussed
+further in Section 12.12.
+4U
+-20
+III
+Time (ns)
+Fig. 12.23 Voltage on wire inside cockpit.
+. •f~RT . |0
+too.,
+"Vl-
+-u. -
+", !00 ISO mIN
+Time (no)
+Fig. 12.24 Current on wire inside cockpit.
+Subgrids Nested 12.11.3
+A third way to solve these types of aperture is
+to use a nested subgrid approach. In this approach,
+the aperture is gridded with a finer mesh than the
+rest of the aircraft. This results in a coarsely grid-
+ded large problem space in which is "nested" a finer
+gridded volume. This nested volume resolves the fine
+features of the aperture and is solved simultaneously
+and self consistently with the larger volume. Thus,
+no inherent approximations to the physics am made.
+.
+The approach is numerically difficult, because of the
+requirements of interpolating in time and space at the
+interface of the nested subgrid with the main program.
+No application of this technique to apertures has
+been published in the open literature as far as is
+349
+
+known, but it has been applied with good results to
+the resolution of fine structures on aircraft for the ex-
+concept - 12.24]. The problem [12.22 ternal coupling
+is illustrated in Fig. 12.25 , which shows the finely
+more nested within the of a Learjet gridded wing tip
+[12.22]. gridded volume coarsely
+Fig. 12.25 Nested subgrid.
+Brute force approach: It should also be noted that
+a "brute force" approach can be applied, in which the
+aperture, cavity, and aircraft are all solved in the same
+problem space with a small enough grid to resolve the
+aperture and cavity. This is feasible with sufficient
+computational resources and has been done for an air-
+craft cockpit [12.25]. The technique has been applied
+to an aperture in a cylinder and favorably compared
+to measured data [12.26].
+other one Finally, solution: 2D to corrections 3D
+approach to the cavity-backed aperture problem that
+has been used is to apply a three dimensional (3D)
+correction factor to a two-dimensional (2D) aperture
+[12.26]. In this approach, a cavity-backed aperture
+(e.g. a cockpit) can be modeled in two dimensions by
+a Laplace's equation method and a field distribution
+can be obtained. Measurements of 3D apertures with
+the same cross section dimensions (in 2D) can give a
+correction factor which relates the 3D-aperture excita-
+tion to the 2D-excitation. Thus, a family of curves can
+be developed and a solution for future apertures car.
+be done in 2D along with application of a correction
+factor. This method could give a good approximation
+to the low- frequency or late-time solution, but cavity
+or aperture resonances would not be included.

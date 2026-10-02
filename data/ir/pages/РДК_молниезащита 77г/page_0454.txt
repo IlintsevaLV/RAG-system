@@ -1,0 +1,44 @@
+They are self-extinguishing. When applied voltage drops below the
+Zener level, they cease conduction.
+They exhibit low volt-time turnup, or impulse ratio.
+The disadvantages of Zener diodes include the following:
+They may be expensive.
+They are not bilateral. To protect against both polarities, two diodes
+in series back-t~back configuration are necessary.
+Diodes have relatively high-junction capacitance; therefore, they
+may cause significant signal loss at operating frequencies above 1
+MHz. Special diode assemblies may extend the useful frequency to
+MHz. approximately 50
+They do not switch state between a conducting and a nonconducting
+mode. The voltage across the diode does not switch to a low value
+when conducting but remains at the Zener voltage. This character-
+istic accounts for their ability to cease conduction when the voltage
+disadvantage thermally. falls below the Zener level, but it has a
+During conduction, the power absorbed by the diode is the product
+of the current through the diode and the voltage across the diode.
+The power absorbed for constant current, thus, is directly propor-
+tional to the diode voltage.
+Partially offsetting this disadvantage, however, is the phenom-
+enon that surge energy absorbed in the diode is energy that cannot
+be reflected back into the system to cause trouble elsewhere.
+They provide lower energy capabilities than do spark gaps. Since the
+P-N junction, the mass of Zener action takes place across a narrow
+the protecting junction is small and hence cannot store much energy.
+As a result, diode networks cannot be used where extremely high
+transient current or energy is predicted. For most hardening
+applications, this is not a serious limitation, since the induced
+100 I A surge-current levels are the to range at those locations in
+where Zener diodes are most likely to be used.
+5 They are not available for voltage below about V.
+They are not normally available for voltages above a few hundred
+volts.
+Forward-Conducting Diodes 15.6.3
+a In a forwardconducting state, diode conducts little current below about
+V V 0.3 for germanium and for silicon. They can, as a result, be placed 0.6
+directly across a low-voltage line and afford substantial protection.
+The advantages of forward-conducting diodes include the following:
+They are of small size.
+They are not costly.
+They provide protection at very low-voltage levels.
+*
+They have excellent surge-current ratings.

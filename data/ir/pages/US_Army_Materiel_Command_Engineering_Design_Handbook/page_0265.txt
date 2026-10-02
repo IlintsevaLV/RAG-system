@@ -1,0 +1,98 @@
+CP 706-202
+Ne CHANGE IN PHOPELLER TOAOJE Ω: TH N,
+'Ne - CHANGE IN ENGINE TORQUE WITH N,
+δ0 CHANGE. IP: PROPELLER TORQUE WITH SLADE ANGLE
+не
+LAPL.ACE OPERATOR
+Ne. Ne
+1
+ge
+5ir,Σ+11 *γ (ρ, σ + 1
+Figure Σ-44. Linearized Prapeller Control Blsck
+Disgram
+dynamic performance and blade stress are schieved.
+For efficiency and apead, these anelyses are per-
+formed with the heip of = higi-speed digiiai com-
+puizr,
+Of the secondary details, thickness and planform
+are the most important to propelker sirength and
+weight. The choice of blade thickness and its disiri-
+burion along the blade is affected by structurs:)
+capacity requirements and also by considerations of
+vibration-critical specd location. The serodynamic
+requirement to minimize profile drag losses puts α
+constraint on blade thicknens, and special probiems
+such as tip compressibilsty also may affect τãε design.
+The cnoice of blade plenform shape is affected by the
+choice of bisde materiel and construction; with spar-
+and-shell Fiberglas blades. α tapered planform (wider
+inboars) lends itseif to doth miuimum weight and
+reducesi noise. The selected activity factor usuo!".
+limiss the emount of taper — the bigher the activity
+factor, the less the taper. For solid aJuminuin blades,
+α planform with an elliptical or rotnd tip often is
+used for reduced noise.
+5-8.4.2 Bdnde Cazatructios
+Viewed as α siructure, α propciler biade is σ ro-
+tating. cantilever beam subjoczod se two major classas
+of loading: inertial forces and acrodynamic forces.
+The inential forces consist of steady cestrifugal loads
+and vibratory resctione; the sercdynantic forces are
+botl sicady and periodically vesying. Stcady loads
+ase imporiant so the biade dasign. but vibratory
+loading uzunlly is the dominant iafizence. Even
+
+.6
+without dynaenic mzgetecstion, vibratory loading at
+ons cycle per revolution (1Π) cao be very significant. •
+In addition, if the freguency of serodynamic Icad
+variation approaches one of the natural frequencics
+of the propeller, considerable magnification of the
+cyclic loading in thc blade can result. Much effort is
+spent in blade structural design to limit this dynamic
+megnification by properly positioning the bendiag
+and torsional frequencics.
+In generul, there are six major structural aspees
+that must be considered in cesigning propeller blades:
+1. Axisl load capacity
+2. Bending capacity
+3. Bending stiffness
+4. Bending frequencies
+5. Torsional stiffness
+6. Torsional frequency.
+The ot jective of the structural designer is ξ3 cbtain,
+by judicious use of various maicrials and configura-
+tions, the lightest and best structure possible within
+the geometric constraints defised by aeroáynamic
+requiremeats.
+5-8.4.2.1 Types af Bladc Conriructins
+The simpicsi connirucion is the solio biace, as
+shown in Fig Σ-4.ξ(Α). Wich the prope: choice of
+material, this constrection bas provióed an aorxp-
+table balance of weght snd structure for many years
+on conventional aircsaft. Its advantsges arc simplici-
+ty and lowv cost. fts discdvantages are inclficien: usr
+of matesial in thre center of the cross section, particu-
+larly in bendiag, and the fact that the primary struc-
+ture is exposod to service-inflicted foreign object
+damage (FOD). Unfortunately. propsiicer blades
+often are subjocted to thc impact of varionss objscts.
+ranging from sand and dust to stones and birds.
+Many of there impacts are capable of inflicting sur-
+face damage that propagaics as fatigue cracks
+because of the cyclic strzsscs cauzed by the unsteady
+loadings. Recognizing the potential of FOD has buxen
+shown repcatedly to be cosential to acceptable service
+perfcrmance. With solid construction, the designer
+must select materials with low notch sensitivity and
+low crack propagation ratcs, and must observe con-
+scrvative streas limits.
+The simplest form of hollo.:-dlade construction is
+shown in Fig. 5-φ5(Β). Thsis is α fully stressed skin of
+monocoque consiruction in wtich the centrai
+material of the bisde soction, wkich contribute. little
+to beam surength or siffnese, is abcent. The simple
+hollow bisde construction bas the potential for sub-
+stential weight reduction, but two significant prob-
+lems have interfereri with reulizing this potential.
+First, foregn objacts that only gouge the suzface of

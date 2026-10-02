@@ -1,0 +1,55 @@
+The mutual inductance between two filaments of For all practical cases there are no end effects and the
+any arbitrary orientation is calculable and while the inductance is directly proportional to length.
+expressions are too long to include here they can be If there were two conductors at α spacing Σ, both
+found in the literature [9.2, 9.3]. surrounded by α coaxial return path, Fig. 9.14(β) and
+While the inductance of an isolated conductor is the radius of the coaxial return path large compared
+an important. concept it must be used with care since to Σ, the mutual inductance would be:
+an isolated conductor cannot actually carry current.
+Current can flow only if the conductor is part of α 2 = ξ 10- In[2ρ2] (9.62) Λ12 Hm.
+larger circuit and so the inductance of an isolated con- Σ
+ductor should then be viewed as part of α larger prob- 2ρ,
+lem, one in which the self and mutual inductances must
+together. considered be
+I go or the external give only formulae of these All
+high frequency inductance. At low frequencies there (α)
+will also be magnetic fields within the conductor, α return
+subject treated in later α, section.
+Σ transient Under inductance: of dependence Time
+conditions one must also consider the retardation ef-2ρ_
+fects associated with the finite velocity of propagation go #.
+of an electromagnetic field, since if α current is sud-
+(β) # denly applied to α conductor, the field will not initially Α2
+extend to infinity. Instead it will propagate away from - -
+return amount total The light. of speed the at conductor the
+of magnetic flux established in the space around the Fig. 9.14 Coaxial conductors.
+conductor will vary with time, becoming larger with (α) Single conductor
+time as the fields propagate farther from the conduc- (β) Parallel conductors
+tor. The implication is that the inductance of α con-
+ductor will be less for short duration transients or high Conductor pairs: Two parallel conductors can also
+frequencies than it will be for long duration transients be connected as α "go-return" pair. Two connections
+or low frequencies. In an engineering sense the effect is are possible, the connection in which current goes on
+of more importance for long conductors than for short one conductor and returns on the other, Fig. 9.15(α),
+conductors. In 1ius α field will propagate 300 μ. For being the most common geometry. The configuration
+α conductor one meter long jis might be considered 1 of Fig. (9.15(β) is impractical for straight conductors
+as "dc" conditions, but that would not be the case for since the magnetic field of the connecting leads would
+α conductor 1000 meters long. For aircraft analyses influence the result, but it is practical for conductors
+frequency dependence of external inductance because bent into α circle since that is the geometry of α helical
+of retardation effects would not normally be α factor coil.
+to consider since the various coaiductors of necessity The inductance of the pair involves four conduc-
+azv close together. tore; the two self inductances and the two mutual in-
+ductances:
+Coaxial conductors: Most commonly inductance
+(9.63) + + (Λ In α coaxial "go-rtturn" circuit. evaluated for α is Λ ). (Λ + Λ ) LT = 32 2 1 11 12
+system the center conductor (the "go" conductor) is
+surrounded by α concentric "retum"conductor, Fig. If the conductors are about the same diameter Λ
+12 are the conductors even if are nearly equal, and Λ21 the found by evaluating inductance is and the 9.14(α),
+equal will be Lit and Also, close together. fairly The cur- ρ2. ρ, and the limits between field intensity Λ22
+same. Thus: are the if the diameters not path does return on the cylindrical flowing rent
+need to be considered sitice it does not produce any
+(9.64) + 2(Λ situa- in any practical field. Since Λ ) internal magnetic LT = 11 12
+tion #he length is long compared to the diameter of
+Evaluating the individual Eq. 9.63 both the inner and outer conductors the field may be inductances in
+evaluated from Eq. 9.59. gives:
+(Lr)
+ In H + 1] (9.φ6) - 4 ξ1-1[In H/μ (9.61) = 2 ξ 10- ln(!!2 Lr Lit = -
+255

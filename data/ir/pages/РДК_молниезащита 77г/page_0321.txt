@@ -1,0 +1,21 @@
+eie = on effective driving voltage
+reloted to the initiol non-
+uniformity of external current
+Final equivalent circuit governing increase of internal circulating 10.15 Figure
+circuit.
+If the internal voltage were not α step function but were governed by some other
+function of time, such as the pulse penetration predicted by Equation 10.9, the
+internal current would be
+The convolution integral of Equation 10.25 need not be evaluated analytically,
+since only the early time rate of change of current is important. So long as the
+is small, the voltage across the resistive part of the circuit will be small current
+and the voltage across the inductive part will be equal to the internal resistance
+drop. Under these conditions the internal current will be
+The internal magnetic field will follow the same time pattern as that of the
+buildup of the internal circulating currents.
+10.2.3 Loop Voltages Internal
+We are now in α position to evaluate the voltages on conductors contained
+in α cylinder of noncircular geometry. Figure 10.16 shows an elliptical cylinder
+with two internal conductors, one adjacent to the surface and one in the center.
+Both are connected at one end to an end cap sufficiently massive that no voltage
+drops will appear along its inner surface. The other ends are open circuited. The

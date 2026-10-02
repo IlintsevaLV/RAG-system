@@ -1,0 +1,29 @@
+I
+SIGNAL CONDUCTOR
+-
+SHIELD
+zd Μ12 - I ν
+(0)
+1
+I
+SIGNAL CONDUCTOR
+vs
+SHIELD
+I/ SIGNAL CONDUCTOR
+SHIELD
+Equivalent circuits. Figure 13.15
+(α) Transfer impedance
+Transfer impedance simplified (β)
+(χ) Transfer admittance
+PNd Nd NdC F Fill: = = =
+aaW sin 4na cos
+- K F~ 2F Optical coverage: (1 3.9) =
+2
+Volume of metal: v ν adF (13.10) =
+K, The optical coverage, relates to the size of the small holes not covered
+by the carriers. The greater the optical coverage, the smaller the total area of the
+holes with respect to the total area covered by the shield and, other things being
+equal, the better the electrical performance of the shield. The weave angle
+affects the orientation of the diamond-shaped holes. Since holes oriented along
+the axis of the cable are less effective in coupling energy into the interior than
+are holes oriented circumferentially around the cable, it follows that, other

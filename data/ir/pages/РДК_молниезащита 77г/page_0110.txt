@@ -1,0 +1,44 @@
+IN 4.1 EVIDENCE INDIRECT EFFECTS Table OF
+COMMERCIAL AIRCRAFT
+14 (2 strikes)
+Interference Outage
+5 HF communication set -
+3 2 7 VHF communication set
+2 5 VOR receiver
+9 22 Compass (all types)
+-
+2 Marker beacon
+2 3 Weather radar
+6 Instrument landing system -
+6 7 Automatic direction finder
+6 Radar altimeter -
+2 Fuel flow gauge -
+1 - Fuel quantity gauge
+4 - Engine rpm gauges
+2 - Engine exhaust gas temperature
+1 Static air temperature gauge -
+2 - Windshield heater
+1 Flight director computer -
+1 - Navigation light
+instances (6 ac generator tripoff
+of tripoff)
+1 Autopilot -
+The incidents reported in Table 4.1 occurred in 20% of the total of 214
+U.Σ. lightning-strike incidents reported during the period. military aircraft have
+of had similar experience. This experience is probably α result the increasing
+sensitivity of miniaturized solid state electronics to transient voltages, α trend
+which necessarily would not have posed α problem in older, less sophisticated
+equipment. In any one incident, only α few electronic components are affected;
+4.29) have shown that others are not. Yet laboratory tests (Reference
+lightning-induced voltages appear in all aircraft electric wiring at once. Thus it is
+in evident that surges reach higher values in some circuits than others or that
+some electronics are Iess tolerant of such surges than others.
+2Ω/ρ of all the incidents reported, Indirect effects were evident in about
+while outages were reported in only about of all incidents. Since severe 10%
+20% strokes also occur only about 10 to of all flashes, it is probable that α in
+severe stroke may be required to cause noticeable effects.
+While the indirect effects are not presently α major safety hazard, there are
+four trends in aircraft design and operations which could increase the potential
+problem. These include the following:
+Increasing use of plastic or composite skin
+Further miniaturization of solid state electronics

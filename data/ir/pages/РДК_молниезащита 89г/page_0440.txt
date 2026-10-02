@@ -1,0 +1,102 @@
+Multiple ground points: There is some virtue in stag-
+gering the spacing between multiple ground points on
+α cable shield, since it is theoretically possible that
+uniform grounding can lead to troublesome standing
+waves if the shield is illuminated α sustained fre by
+quency interference source. Also, the cable may be
+exposed to α significant amount of magnetic field over
+only α small portion of its total length. If the shield is
+multiple-grounded, the circulating currents will tend
+to flow along only one portion of the cable whereas,
+if it is grounded at only the two ends, current is con-
+strained to flow the entire length of the cable.
+Possible conflicts: The requirement that α shield in-
+tended for protection against lightning effects must be
+grounded at both ends raises the perennial controversy
+about single-point versus multiple-point grounding of
+circuits. For many reasons, usually legitimate, low
+level circuits need to be shielded against low fre-
+quency interference. Most commonly, and usually le-
+gitimately, the shields intended for such low frequency
+interference protection are grounded at only one end.
+Α fundamental concept often overlooked, how-
+ever, is that the physical length of such shields must
+be short compared to the wavelength of the interfering
+signals. Lightning produced interference, however, is
+usually broad band and includes significant amounts
+of energy at quite high frequencies, frequencies higher
+than those the typical low frequency shields are in-
+tended to handle.
+conflict: Resolution of The conflict between the prac-
+tices best for shielding against high frequency, light-
+ning produced interference and those for shielding
+against everyday, low frequency interference is usually
+too great for both sets of requirements to be met by
+use of only one shield system.
+Most commonly both sets of requirements can
+be met only by having one shield system to protect
+against low frequency interference and α second shield
+system to protect against lightning-generated interfer-
+ence. The lightning shield can usually consist of an
+overall braided shield on α group of conductors with
+this overall shield being grounded to the aircraft struc-
+ture at least at the ends. Within the overall shield may
+be placed whatever types of circuit are needed.
+Frequently these circuits will have α shielded con-
+ductor of their own. In α coordinated shielded system
+the designers of individual circuits should have the
+option of grounding such inner shields as their own
+requirements dictate, but they should not have the
+power ot dictating tihe treatment ot the overall stuela.
+Such an overall shield (OAS) is shown in Fig. 16.7.
+426
+
+overall shield (OAS)
+.
+inner
+shield χ IS)
+I Fig. 16.7 Overall shield.
+1/
+Ground Connections for Shields 16.5.4
+The method of grounding an overall shield can
+have α great impact on its effectiveness in protecting
+against lightning generated interference. Figs. 16.8(α)
+through 16.8(ε) show several methods of grounding
+such α shield when that shield is placed over α group
+of conductors being brought into an equipment case.
+degree 360 grounding: For best performance the OAS
+should be terminated on the back shell of α connector
+specifically designed for such termination. The shield
+should make α 360 degree circumferential connection
+to the back shell of the connector and the connector
+shell itself should be designed to have low dc resistance
+to its mating panel connector.
+Most commonly, such low resistance mating re-
+quires the use of grounding fingers within the connec-
+tor shell. Connectors without such grounding fingers
+frequently have high resistance between the mating
+shells, since the shells are frequently coated with an in-
+sulating coating to reduce problems of corrosion. The
+shell of the panel connector should also provide α 360
+degree peripheral connection to the metal equipment
+case. Providing such α connection frequently requires
+that paint or other coatings on the case of the equip-
+ment be removed and the bare metal exposed.
+Pigtail grounding: In the absence of α 360 degree con-
+nector, an external pigtail is often used for grounding
+the OAS, as shown in Fig. 16.8(β). Such pigtails are
+definitely inferior to the 360 degree connector because
+they force an interfering current on the shield to be
+concentrated through the pigtail, and hence provide α
+much greater degree of magnetic coupling to the core
+conductors than does the distributed flow on α prop-
+erly designed connector back shell. If such α pigtail is
+used, it should be as short as possible and should ter-
+minate on the outside of the equipment case. Α pigtail
+of only α very few inches in length may introduce more
+leakage from the shield onto the inner conductors than
+does α several foot section of the shield itself.
+α Grounding to remote point: Cable shields should
+be gro'znded to the case upon which the connector is
+mounted and should not be grounded to α remote "low
+noise' ground point, as shown in Fig. 16.8(χ)

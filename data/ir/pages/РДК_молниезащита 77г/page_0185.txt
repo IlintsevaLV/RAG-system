@@ -1,0 +1,26 @@
+J
+CONDUCTIVE TUBES
+----------
+-+ TERMINALS
+Possible breakdown of gaps in capacitance-type probe. Figure 6.40
+to Low High 1.
+to Airframe High 2.
+Low to Airframe 3.
+TYPICAL EMPULSE SPARKOVER VOLTAGES Table 6.7
+FOR A CAPACITANCE-TYPE PROBE
+Figure 6.40
+m 000 Electrode Pair 3 Altitude Sparkover Voltage at
+3 to Low kV High
+High to
+6 Airframe kV
+Low to
+Airframe kV 8
+6.40 illustrates that the proximity of the probe to the airframe Figure
+structure on which it is mounted is very important in determining breakdown
+voltages to the airframe. Because of this, design of adequate insulation between
+the active elements of the probe and the airframe may not be entirely within the
+probe designer's control.
+BY CARE MUST TAKEN THE FUEL SYSTEM DESIGNER TO SEE BE
+THAT ADEQUATE GAPS ARE MAINTAINED BETWEEN THE ACTIVE
+AND ELECTRODES OF THE PROBE THE AIRFRAME.
+It is particularly important that sufficient insulation be provided between

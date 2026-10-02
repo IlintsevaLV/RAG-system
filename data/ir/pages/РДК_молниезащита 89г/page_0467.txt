@@ -1,0 +1,101 @@
+this section will be limited to semiconductors. Ca-
+pacitors and some other components ate discussed in
+§171. ,aud §17.7.
+17.5.1 Theoretical Models
+Theoretical models have been developed which re-
+late significant changes in the properties of a semicon-
+ductor PN junction to high temperatures generated in
+the junction region during application of a high voltage
+pulse. Theoretical models based on thermal analysis
+the junction region yield a mathematical relation be-
+tween junction temperature and power dissipation in
+the junction region. This relation can be used to de-
+fine a constant characterizing the operation in a given
+time domain of each device,
+17.5.2 Empirical Models
+just de- correlations to the theoretical In addition
+the have been used in data the experimental scribed,
+obtained are which relations of empirical development
+from two models of semiconductor junction device- the
+junction capacitance model and the thermal resistance
+model. These models provide a framework from which
+the power failure threshold of an untested device can
+be estimated from the quantities listed in a data sheet
+description prepared by the manufacturer for a diode
+or a transistor.
+17.5.3 Limitations
+The assumptions made about junction heating
+the models in the derivation of and transfer of heat
+limit their applicability to the region of pulse dura-
+tions of approximately 0.1 to 20 ps. For longer times
+appreciable heat transfer may take place away from
+the function area during the pulse input. For short
+pulses the power levels are so high to (1 10 kW) that
+very large currents flow; consequently, the joule heat-
+ing in the bulk material is appreciable. The transition
+behavior between these three regions of pulse duration
+(regions that will be more precisely described later in
+this section) is not well defined and may vary from
+one device type to another. Examination of available
+data indicates the transition region generally occurs
+between ns 100 and I ps.
+Still another limitation is fundamental to the work
+summarized in this section: it applies only to junction
+burnout. Other modes of device failure, such as ruetal-
+lization burnout and internal arcing, are not treated.
+Based on the results obtained in studies of junction
+burnout, it would seem that other effects, such as met-
+Stion. allization burnout, occur at higher power input levels
+than those input levels sufficient to damage the junc-
+
+17.5.4 Failure Mechanisms-Semiconductors
+The two principal breakdown modes for semicon-
+ductor PN junctions are the following:
+1. Surface damage around the junction as a result of
+arcing.
+2. Internal damage to the junction region as a result
+of elevated temperature.
+of Surface refers to the establishment of a damage
+high-leakage path around the junction which effec-
+tively eliminates any junction action. The junction
+itself is not necessarily destroyed, since, if it were pos-
+sible to etch the conducting material away from the
+surface, the device might be able to return to its nor-
+1mal opera.irg state. This is not practical, of course, in
+an operational semiconductor. It is equally likely that
+be the path would leakage any surface of the formation
+the bulk of the development in of excessive heat result
+typically be an irreversible would this and material,
+phenomenon.
+It is very difficult to predict theoretically the con-
+ditions which will lead to surface damage because they
+depend upon many variables, such as the geometrical
+design and the details of the crystal structure of the
+surface. The theoretical prediction of surface arciig
+under pulse conditions is not practical 7.7]. [1 It should
+be cautioned thbst surface damage, in the general case,
+may occur in devices at power levels which are orders
+of magnitude below those sustainable by devices in
+17.8]. 1 bulk damage occurs which
+Bulk damage, which results in permanent change
+in the characteristic electrical parameters of the june-
+tion, indicates some physical change in the structure
+of the semiconductor crystal in the region of the june-
+tion. The most significant change is melting of the
+junction as a result of high temperatures. Other types
+of change may involve the impurity concentrations, the
+formulation of alloys of the crystal materials, or large a
+increase in the number of lattice imperfections, either
+crystal dislocations or point defects.
+Example: The simplest structure to analyze is a diode.
+Consider Fig. 17.25. In this diode a current is ascumed
+to flow as a result of some outside stimulus and, in do-
+ing so, to produce a voltage across the diode. This
+voltage may be the forward bias voltage (0.5 to 1.5
+V), or it may be the reverse breakdown ioltage if the
+biased outside stimulus has the diode in the re
+direction. Assume that I is a square wave and that
+V is not a function of time, as it might be if V de-
+pended upon the junction tempeiature. The instan-
+taneous power dissipated in the diode is then also a
+453

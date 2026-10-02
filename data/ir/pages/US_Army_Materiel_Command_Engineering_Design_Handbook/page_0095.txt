@@ -1,0 +1,106 @@
+power roguirencuts for funs aiso are given in Ref. 4.
+Compliasce of tikc engioc
+subsystemn must be drmonstrelod by tost. Ia additicn
+lo the otiher tcmperaiure inaits, al surfacas ex-
+cceding soo* F shadf be proteciod from fuei apiliangs.
+Aq do saoung aup jo son Ag pergedmcoce sq tsus sal1
+Cooding tihe surfaons to α temperature bolow σ00"F.
+Thc requiremants for α propuieion sysiqm Ibmpera-
+lure survcy ane giveu in Chepicr 8, AMc.Π 706-203. Α
+propuiaion sysicm temperature demcastration,
+deacribed in Chapier 9 of AMCP 136-203, may
+require furthpr testing in addition lo τäsc tcaperalure
+survey.
+3-7 ACCESSORIES AND ACCESSORY
+DRIVES
+Helicoper design requiremcnts resuit in minimum
+engine accessory drive requirceaents. Exccpt for tbc
+engine starter and tachomeiers, mosd acccasories are
+driven directiy from the main gearbor. This is to take
+advantagc of thc ability of the hclicopier to autoro-
+latc in thc event of enginc fsilure. If enginc failure oc-
+curs, accesory power docs not fail because the main
+-jonug :2nod fpdds pus wim: 0: saugues coqums
+Intion of belicopter sccessories is discussed in
+Chapler 4.
+3 AUXILIARY POWER UNITS
+(APU'σ)
+38.1 CENERAL
+The requirement for an APU will be established
+during preliminary design. The paragraph describes
+design *nd installation requirements for APU'σ and
+refers to pertinent qualification requirements.
+Emphasis is placed upon the singke-shaft APU con-
+figuration becauze of its wide use. Duc to the trend in
+helicopter design touard such items as pneumatic
+main-engine starting. air conditioning. avionic
+cooling. IR radiation suppression. purging of main
+engine inket-protection sysiems, air supply for anti-
+icing. and the availability of air-driven accessory
+motors (boost pumps. ctc.) aoditional emphasis is
+piaced upon the blced sir typc of APU. New helicop-
+ter designs have favored this typc brcausc of lower
+overall system weight. despite thc lower cnergy-trans-
+mission efficiency of the pneumatic main engine-
+sturting system. The bieed air type of APU usually in-
+corporates an integra! gearbox capable of driving
+small electrical generators and pumps and, thercfore.
+Several APU configurations can be selected 10
+supply pneumatic power (combined with small
+aiounts of shaft power). Four configurations are
+comparcd in Table 3-1 as to gcomctric shape. weight.
+
+AHCP N0Σ-2ξ
+cost, and reliabifity. Seloction of cunfiguration bnsed
+upuc shape will dcpead upon helicopter space avail-
+abie. Weight and volume are compurable: but cost.
+relinbility, maintaicability, and life cycle costs favo.
+Ihe single-shaft combination biced APU lype.
+Moderu singie-stage centrifugal compresrors can
+produce 4.0:1 and bigher preasure ratios with α wide
+range of filow betwcen choke and stall.
+Although the driven compresor may produce
+higher presaurcs, variable inlec guide vanes or dif-
+fuser vancs may be nocessary to obiain thc requirod
+flow range.
+J1 APU INSTALLATION DETAILS
+In considering the detail design for installation of
+Iie APU. all inserfaces with thc bcli ptesr stoll bc
+treated. Thcce include APU mouating: inlct. cxhaust
+*nd biced air ducting: compartment cooling. anc sp-
+proprizic APU subsystems.
+3-4.21 Π Metbod ef Meyatla
+The APU mounting subaysiem stal! be capabic of
+withstanding all flight maancuver forces. providing for
+thermal growih. isolating vibration (=hcn required).
+and being arranged for ease of maintenance (especial-
+iy for rapid installation and removal).
+Driven equipment usually is APU-mounted, thus
+removing the problem of alignment. In some cases.
+however, = straight-through external drive shaft is
+used to transmit shaft power into an auxiliary or
+combining gearbox. In such cascs. α fexiblc coupling
+must be provided.
+The APU often can be supported rigidly. This is
+donc conveniently by means of α thrce-point support
+arrangement. Two pin-type mounts on cach sidc of
+the APU limit vertical, axial. and horizontal motion.
+but provide laieral frecdom for thermal expansion. Α
+single gimbal then is used to support vertical loads.
+while giving thermal freedom radially and axially.
+In most helicopter applications. vibration isolation
+has not been required becausc the APU is able to
+withstand fight loads and vibrations without shock
+mounts. Experience has shown that frequencies up to
+500 Hz are significant. but that APU susceptibility is
+highest from 5 to 100 Hz. The APU must be capable
+of withstanding the complete aircraft vibration spec-
+trum in both operating and nonoperating modes.
+When the APU is not opcrating, normal loads are not
+available to stabilize parts in position. Hence, it is
+possible for external vibration to cause unusual mo-
+tion of internal parts, thus resulting in excessive wear
+and premature failures. APU components of par-
+ticular inierest in this regard are the combustor liner
+assemblies. the aerodynamically located internal
+3-15

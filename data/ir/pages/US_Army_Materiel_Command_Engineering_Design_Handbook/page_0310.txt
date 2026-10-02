@@ -1,0 +1,103 @@
+ELECTRICAL
+SYMBOLS OF LIST 7-0
+Α current, charging
+-
+Σ- min time, charging
+reactive - volt-amperes, V 'RS
+Α-hr capacity, in battery increase - Α,
+INTRODUCTION 7-I
+7-1.4 GENERAL
+electrical overall of determinants basic The
+the equipment of demands the are layout and design
+and power, electrical for helicopter the on
+posed ir operational constraints and physica!
+will latter The mission(σ). and its helicopter
+in space of availability the as aspects such
+the by imposed requirements sr.fety the craft,
+the ch,'sen by imposed penalty weight the and
+system.
+σ,.,. ,., .;of ε!rcaol ... -φ....;ρ..
+determined are utilization and characteristics
+however, general, In MIL-STD-704. ..- ' and normal both for DC V 28 require
+as fuel pumps, flight operation of such items
+most avionic equipment, panel lighting, ments,
+frequency constant electrically-driven weapons;
+Hz AC power for some avionic equipment; and
+variable-frequency AC for some heating
+and frequency-insePsitive loads. Thus, with suitable
+conversion compokients, the basic helicopter
+trical system can be DC, variable-frequency
+AC), or constant-frequcncy AC AC). (χ'
+New helicopter design trends are toward
+electrical power in general, as well as
+'amounts of constant-frequency power.
+helicopter system designs provide an input speed
+the γ.nerator that varies by more than +5%.
+In addition, α major consideration in
+system selection is engine starting. If the
+engine starting torque is less than 90 lb-ft.
+28-V DC starter-generator powered by two CA-5,
+CA-9 nickel-cadmium batteries will provide the
+simplest self-contained start system. However,
+lb-ft limit defines α small engine, and, therefore,
+small helicopter.
+The actual choice of elcctrical systems will
+upon the relative demand for DC, cf AC, or
+and α weight analysis of the neceusry components.
+This system selection generally will include tike
+sion on the existence (or not) of an
+
+Σ 706-202
+CHAPTER 7
+SUBSYSTEM DESIGN
+total certain α Above unit (APU). power auxiliary
+considerable u cxamplc, for AC, for cf requirement
+α CSD by using reaiized can be saving weight
+system electrical the to input (constant-specd drive)
+of an presence or the system; an inverter of instead
+starting or pneumatic provide hydraulic may APU
+weight by system electrical overall decrease thus and
+Α startei-goeeralor. DI for α need the eliminating
+for case this in used be would transformer-rectifier
+other DC power needs.
+may helicopter the on system power electrical The system
+or conversion sourc= such power upon based be thus
+as: devices the
+by: driven generators DC or AC I. the by
+system transmission power rotor main The α. include
+drives accessory Engine β. the air-
+by controlled (speed drives speed Constant χ. system,
+convertcr) torque mechanical or hydraulic sub-
+controlled (speed turbines Constant-speed δ.
+turbines) gas or air by
+Ifivetciis by 2.
+helicopters Transformer-rccufiers 3.
+Batteries. 4. emiergncy
+as char- the type of system well as The selection of instru-
+electrical system the of of the components acteristics und
+that follow. the paragraphs further in are discussed 400-
+often
+(deicing) 7-1.2 SYSTEM CHARACTERISTICS
+The type of electrical power source generally will
+elec- have been selected δ'urirng preliminary design (see
+AC (vf Chapter 7, AMCP 706-201). During the detail design
+phase, it is necessary to confirm this selection and to
+increased define the distribution and utiliaation systems.
+increased Detail design begins with the specifications for the
+Many particular helicopter, which typically spell out:
+to I. The design gross weight (ι.ε., the weight of I .,ε
+primary mission payload plus the empty weight, in-
+electrical cluding mission-essential equipment)
+maximum 2. The maximum Performance capabilitim of the
+α 400-Α, •rcraft at its design gross weight
+or 3. The specific primary power source(σ) and the
+power conversion methods
+this90 4. The specific utilization equipment, which will
+α include lights, displays, communication equipment,
+avionics, fire control, and additional electrically
+depend powered equipment such hoists. as
+vf AC While the of utilization equipment components set
+is typically defined in the specifications, numerous
+dcci- options may still be exercised. For example, it may be
+on-board left to the discretion of the designer as to whether ans
+7-1

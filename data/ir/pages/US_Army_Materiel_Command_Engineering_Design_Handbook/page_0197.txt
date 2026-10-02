@@ -1,0 +1,112 @@
+AMCP 706202
+V average velocity of contacting surfaces, -
+fpm
+kt airspeed, indicated φ
+fps velocity, induced
+=
+V. vertioal airspeed, fps
+art uste lb weight, Σ
+aft adjustable - weight, lb Ω
+Ω/ forward adjustable lb weight.
+proprller Ω weight, lb
+maximum Ω allowable weight for abrasion
+lb strip.
+sr minimum allowable weight for abrasiob
+strip. lb
+2 =disk loading, β/ft ω
+= distance bet~wen center of main rotor and Ξ
+ft moment arm, rotor-antitorque tail
+Ξ" dynamic axis, in. =
+Α clearance between main rotor and tail =
+ft bladc tips, rotor
+leading blade from chordwise distance = ξ
+in. increment. mass of centroid to edge
+=spanwisc Y distance from flapping hinge to
+centrois of mass increment, in.
+onlf mass rntroi incrment, in.that , Σ =
+rotor blade ogn , dvice
+ι propnler = blade angle, deg
+• = Taprp (Cblade
+=Tt''( ICL)
+6, = pitch-flap coupling angle, positive if pitch
+is decreased when the blade flaps up, deg
+6 rotor blade angle, de8 = Σ- advance ratio, dimensionless
+coefficient of friction, dimensionless
+mass ratio rotor =
+1 slug/ft = air density, π
+= standard deviation, defined the root- Π.σ Ir
+Σ....... β.- dviations the of
+the mean and points data individual tween
+dimensionless solidity, = rotor
+$Τ
+psi stress, bending blade =
+rotor = blade solidity, dimensionless
+4' propeller inflow angle, deg
+4' yaw rate, rad/sec =
+2 acceleration, rad/sec yaw 4, -
+9 = rotor angular velocity, rad/sec
+velocity, rad/sec = tail rotor angular Σ;,
+fps tip speed, = rotor
+R11
+ precession velocity, rad/sec -
+ propeller - speed, rad/sec
+= natural torsional frequency, rad/sec
+natural frequency of α rotating beam, =
+rad/scc
+5-2
+
+INTRODUCTION 5-1
+mcchani- arc propellers and rotors all general, In
+3 accelerating by thrust produce to devices used cal
+fluid mass. They range in sophistication from simple
+two-bladed, fixed-pitch configurations to coaxial
+counterrotation systzms with individual rotor colicc-
+tive and cyclic pitch control The analytical tech-
+niques for all types arc very similar. However, there
+are minor variations in the definition of rotor-pro-
+poller nondimensional parameters whi,:η prove to be
+unimportant once it is realized that data can be
+transposed readily from one format to another.
+The overall performance of α rotor or propeller
+may be described by its tip speed, airfoil character-
+in- Rotational loading. disk and ratio, solidity isWics,
+ertia also is important to rotor design because it
+affects helicopter autorotational performance. Based
+the detail parameters, these for vialues selected upon
+optimizing the of α task is largely the rotor of design
+flap- of blades, number the of in terms configuration
+ping and inplane freedoms, dynamic response to
+externally applied cyclic forces, and the assurance
+the hardware can be built with α fatigue or ser-
+life compatible with the design requirements.
+The paragraph addressing "esign parameters re-
+views those preliminary design factors which will be
+converted to useful hardware in the design of the
+convertemn
+rotor system.
+on The paragraph rotor system kinematics dis.
+cubses the blade motions to be accommodated in the
+detail design; in particular, the flapping, leading, and
+cc- systemi motions. rotor Typical blade-feathering
+ful- teetering, by means of commodat, mctions these
+ly articulated, or hingeless hubs. The paragraph also
+provide both for that of methods α number describes
+blades. of individual collective feathering and cyclic
+addresses dynamics rotor system on The paragraph
+of the distributions and mass stiffness internal the
+rotor blades, and the relative effects of these factors
+on aeroclastic stability, vibration response, flutter,
+ground resonance, and other phenomena related to
+Also functions. forcing and periodic damping system
+covered in this paragraph are rotor responses to such
+loadings. gasts excitations as and acoustic transient
+the include. retentions of blade discussion The
+blades to the rotor various means of attaching the
+hub. Among these are elastomeric bearings, tension-
+torsion straps, and antifriction bearings. Also de-
+scribed are auxiFaiy devices used at the hub to alle-
+viate blade forces associated with blade pitch, and the
+lag hinge dampers used to dissipate the excess energy
+of the inplane motion of the blades. Blade-folding
+provisions, both manual and powered, arc discussed
+as well.

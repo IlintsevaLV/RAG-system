@@ -1,0 +1,107 @@
+The an sunt of axial motion that must be ac-
+commodated usually will determine the type of strivc
+shaft couplings used. All known drive shaft sysiems
+offer α resistance or damping force opposite to the δ:-
+roction of axial motion whilc trensmitting torque.
+The maximum acceptable valuc for such forces usugl-
+lation system or the engine PTO dasign specification
+limits. Damping force characteristics for various
+couplings and spline combinations are discussed in
+par. 4-3.2.1.
+Other input driveshaft design criteria arc governed
+by maintainability, vulncradility, and reliability
+requirements and by additional engine PTO design
+and specification limits.
+Maintsinability considerations require that the
+engine-to-gearbox shaft contain "quick-disconnect"
+featur σ. Easc of accesibility also is required to facili-
+tate drive shaft inspection and servicing. and engine
+or gearbox replcement. Since these tasks must be
+performed at the direct support ievel, thc absolute
+minimum of special tools, fixtures, and skills should
+be required.
+Although vulnerability and reliability have been
+digcussed previousiy, it is important to conside: the
+consequence of drive shaft failure. The large kinetic
+enangy ef the input driv shaft categorizes it as α
+potentially bazardous o: kethal object should it
+separate at eitbe: or both of thc engincs and gearbox
+adapters. The use of antiflail devices, ι.χ., secondary
+components or structuse capable of capturing α failed
+drive shaft, is highly desirablc.
+In addition to limaits on axial force specification at
+tbe cngine PTO pad, allowablc moments and sieady
+and oscillatory radial kcads are usually specifiod.
+Since engine-to-gearbox shaft rotation speeds are in
+the range 6000-20,000 spm, compliance with thc 06-
+cillatory load limits generally roquire kinematic and
+dynanic balancing of the individual clcments of the
+drive shaf! ansembiy. When positioning or locating
+tolerances between mating aurfaccs of ckanents such
+as couplings, adapters, and shatts cannot be con-
+troliod adequateiy. it may bocom= noocssary to
+balance the compicte asscmbiy to eliminatc excessive
+vibratioa.
+4-3.1.2 Endercax sect Skulting
+An interconnect shaft syo an for muf. pie main (or
+lifing) rotor belicopiars tranamits power bet woen the
+engine geardoa (or the coloctor gcarbox in mutti-
+engiac Ielicopters) and the mein rolor gearbox(au)
+wbie alao esaiataining phaar reiationskip beiween
+roiors. The primary considerstions for such an inter-
+vonnsct shaf. system sre reliability and survivabiliy.
+
+AMCP 706-302
+as funciional failure of the shafting becomcs α catas-
+trophic failure almost immediately, with α collision of
+the intermeshing rotor blades. Ächievemem of the
+nacessary level of reliability requires detailed con-
+sideration of operating stresscs and margins of safe-
+ty, critical speod margins, number and type of dy-
+namic components (such as bearings, hangars
+dampers, couplings, and splines), redundanay in
+mountiuig and support structure, and ease of in-
+spection. Criticality of the interconnect system allows
+little latitude for reliability trade-offs and compro-
+mise with weight, cost, and maintainability goals.
+Optimization of dcaign, then. must be in the di-
+rection of minimum numser ci parts, low streas (high
+margin of safety), and high tolerance to ballistic
+damage. Therefore, the drive shaft tubes will be rela-
+tively large diameter, thin wall, and long (within α
+safe buckling) length/diameter (Λ/Δ) ratio and criti-
+cal spocd limit. Intermediate bearing hanger design
+must permit relubrication, with ready access to the
+whole hanger for visual inspcction. The selection of
+drive shaft tubs material can neessitate further con-
+sidcrations of axial motion due to differential cx-
+pansion between the airframe (generaily aluminum)
+and ine Criveshaft (steci, aluminum, titanium, er
+composite). Airframe deflections duc to fight
+maneuvers or load distribution also can contribute to
+the axial delections of the drive shaft. These de-
+floctions will necessitate couplings capable of ab-
+sorbing the anticipated motion. If axial deflections
+sre small, then flexible disk couplings frequently are
+the choice; for larger axial defloctions, ihe geared
+coupling or ball-apline disk combinations are batier
+suited. Under any spocific set of requirements, the
+primary deaign emphasis must be reliability and
+ready-accen for scrvice and inepection.
+4-3.1.3 Tall Reter er Propeller Sheftinc
+The drive shaft systom u: sd on α sisgke main rotor
+heicopter to power the tail or antitorque roior, spas
+between the main gearbox and the tail rotor gear- box. This sysiem must provide pomer to the tai roioc υ-
+from the main rotor in the eveat of loss of drive from
+the enginc(σ). In sormal oparation, the engine(σ)
+drive through α frcewhecling diatch to the main gear-
+box. During auiorotatioa, wben the free-whoeling
+unit is overrunning, tail rotor power is cxtractod from
+tbe maie rotor autorotationai, or kinctic flywibecl, in-
+ertia.
+Tail rotor drive shafting will be subjocted to severc
+transicnt loads and cyclic torsional oscibatioos as
+-gs bo sndus anbs ye pemu
+ments for most fight conditions are moderase ia
+nature, with saximua sierdy lorque roquirod during
+473

@@ -1,0 +1,56 @@
+It is α characteristic of an arc channel discharge that α few millimeters for the leader and which expands
+the current density remains fairly constant. if the cur- to α few centimeters during the passage of the return
+rent through the arc is increased, the arc channel ex- stroke. The inductance of this return stroke is deter-
+pands in diameter. The channel cannot expand instan- mined by the diameter of the highly conductive central
+taneously however, since energy must be put into the core, and the capacitance by the diameter of the col-
+channel to cause it to heat up sufficiently to force it umn of electrical charge. The lightning stroke may
+to expand. Accordingly, if the current through the arc then be modeled as shown in Fig. 2.15(β), in which α
+channel is increased suddenly by α large magnitude, highly conductive central conductor is fastened onto α
+as in Fig. 2.14(α), the longitudinal voltage gradient of series of projecting spines, much like the backbone of
+the channel must suddenly increase, α fish.
+the injected into is which energy rate at Since the - -- -
+channel is the product of the current and the longitu- - - -
+dinal voltage gradient, the increased longitudinal volt- .. ... - - -
+age gradient may be taken as the mechanism forcing . Z.. ..
+the arc channel to get hot enough to expand to the _ -- -
+diameter required to carry the high currents.
+It is not known what the maximum longitudinal (α)
+voltage gradient would be in α lightning channel, but
+it is known from studies of arcs in laboratories that the
+gradient will fall to values on the order of 100 kV/μ in / - σ
+α fraction of α microsecond. Presumably in α few mi- I 1 α /
+AI. croseconds, the channel diameter will have expanded ,ρ.
+C gradient voltage the longitudinal value, and to its final I
+will have decayed back toward values on the order of 5 5- - ,-,- - ,--- - -, '-- '
+to 10 kV/μ. The longitudinal resistance, then, would (β)
+fall from values on the order of 40 Q/μ to values on
+the order of α small fraction of an ohm per meter, in Fig. 2.15 Effect of corona cloud on velocity
+times on the order of α few microseconds. of propagation.
+α surrounding charge Distributed (α) however, longitudinal resistance, of collapse This
+is far from instantaneous. The initial resistance of the highly conductive central core.
+leader is high enough to retard the development of the (β) Highly conductive central conductor
+upward going return stroke and hence reduce its ve- fastened onto α series of projecting
+locity of propagation below that of the speed of light. splines.
+of lead to the formation leaders which Presumably,
+lightning to view the might be better analogy suffi- Α have α currents either lightning high amplitude
+ciently low longitudinal resistance to begin with or the flash as α piece of tinsel rope for decorating α Christ-
+longitudinal resistance is reduced to low values suffi- mas tree: α central piece of string is surrounded by
+ciently quickly by the high amplitude return strokes α tube of fine filaments projecting radially away from
+that the longitudinal resistance presents less of an ob- the central core. In either case, the radial filaments
+stacle for the upward going return stroke than it does can carry α radial current, it, but cannot carry an ax-
+for the flashes which involve lower peak currents. ial current, ia. Accordingly, the lightning return stroke
+per inductance high α and capacitance α high both has would that work little been have to seems There
+α solid from respect it differs In this length. of unit longitudinal gra- of estimates above the substantiate
+α possessing while which, diameter of large conductor α along voltage the since fact unfortunate an dient,
+pos- simultaneously length, unit per capacitance high to importance of considerable is channel conducting
+follows It length. unit per inductance low α sesses sub- α times, dwell strokes and swept of question the
+of in- ratio the governed by impedance, surge the that 3. in Chapter further discussed ject
+ductance of capacitance, is high while the velocity of
+An additional factor that affects the velocity of propagation, governed by the product of inductance
+the return stroke, and is the second reason that the and capacitance, is less than that of the speed of light.
+velocity is less than the speed of light, is shown in
+Fig. 2.15. As explained earlier, the leader deposits
+Impedance in its wake α column of electrical charge with diam- of the Wagner flash: [2.21] concludes that
+eters on the order of several meters. At the center the surge impedance of the lightning flash is of the
+is α highly conducting core, which has α diameter of order of 3000 ohms for return strokes of large ampli-
+26

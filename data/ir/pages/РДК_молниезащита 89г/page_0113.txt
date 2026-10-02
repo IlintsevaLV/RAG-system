@@ -1,0 +1,55 @@
+zone definitions did not distinguish between surfaces data was available in the 1972-1975 time period on
+which were trailing edges and those which were lead- cloud-to-cloud or intra-cloud flashes, although these
+ing edges or frontal surfaces, even though the duration were generally believed to be loss intense than the
+of lightning attachment to these types of surfaces is cloud-to-earth variety upon which the new standard
+significantly different. It is well known, for example, was based.
+that lightning currents frequently melt holes in trail- Recognizing that the physical damage to aircraft
+ing edges where the flash may hang on for prolonged structures, including arcing among structural joints in
+periods, whereas holes are infrequent in frontal or side fuel tanks, was more dependent upon peak current am-
+surfaces of an aircraft, plitude and overall time duration than upon the ac-
+tual waveform of stroke currents, and that generation
+and Test methods indirect effects: Finally, the early of α unidirectional 200 kA first return stroke current
+standards failed to define acceptable test methodb, and was not likely to become feasible, the new specifica-
+did not address indirect effects on aircraft electrical tion allowed for application of either unidirectional or
+and electronic systems. Lightning related accidents damped sinusoid currents as long as the peak ampli-
+continued to occur, even to aircraft protected in ac- tude, action integral and overall time duration were
+cordance with and MIL-Β-5087. adhered to. Subsequent studies undertaken by the AC 20-53
+SAB Committee AE-4Λ (Lightning) 5.5.3 committee showed that physical damage is indeed re-
+lated to these parameters, while not to the specific
+waveform. and FAA the deficiencies, above the Recognizing
+DOD in 1972 requested the Society of Automotive En-
+gineers (SAE) committee on electromagnetic compati- Action integral: The Action Integral, is the time Al,
+bility (SAE-AE-4) to form α subcommittee to develop integral of the current squared and represents the abil-
+improved aircraft lightning protection design and test ity of the current to deposit energy in α resistive object.
+standards. The new subcommittee included lightning The expression for action integral is given by Eq. 5.1.
+phenomenologists and specialists in aircraft lightning
+2 protection design and testing. The committee was des- Α σ (5.1) =φ AI ι2(τ)dt
+ignated special task F and later given the permanent J
+designation, AE-4Λ (lightning). This committee has where
+functioned continuously since 1972 and has become the
+of and standardization point for development US focal
+- Α stroke current varying lightning time protection requirements. aircraft lightning ι(τ) =
+time σ τ -- - ac- task first The components: current Δ and C Β, Α,
+complished by the SAE lightning committee was to de- Action integral, multiplied by specimen resistance
+velop α standard lightning environment for design and (assumed constant), gives the energy dissipated in the
+test purposes, synthesized from the available natural specimen, as shown in Eq. 5.2.
+lightning data. The result, which was first published
+in 1975 as α committee report entitled (5.2) Lightning Test Ω AI ξ R =
+and Waveforms and Techniques for Aerospace Vehicles
+[5.8], included α standard severe lightning Hardware
+flash current waveform comprised of four current com-
+ponents, designated Α, and Δ and illustrated in Ω energy - joules or watt-seconds Β, C =
+Fig. 5.2, together with α set of test methods for utiliz-
+ing the standardized currents. One of the important specimen or structure resistance ohms R = -
+sources of natural lightning data drawn upon by the
+Electric SAE Committee in formulating this standard was the field waveforms: The new SAE lightning en-
+compendium of world-wide cloud-to-earth lightning vironment also included several voltage waveforms in-
+data published by Cianos and Pierce [5.9]. tended to represent the electric field surrounding an
+Component Α represents the first return stroke aircraft immediately preceding lightning attachment.
+of α cloud-to-earth flash and component Δ is α single These waveforms, designated voltage waveforms Α, Β,
+subsequent stroke. Components Β and C represent in- C and Δ, are used in tests to evaluate possibilities of
+termediate and continuing currents. The electrical pa- puncture of dielectric (non-conducting) materials such
+rameters comprise α severe version (but not the most as radomes, windshields and canopies. Other tests
+severe possible) of each of these important character- were designed to evaluate fuel vapor ignition due to
+istics of cloud-to-earth lightning flashes. Very little corona and streamers occurring near fuel vent outlets.
+96

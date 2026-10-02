@@ -1,0 +1,106 @@
+Mll-Σ-6:61 rgoirndaes ave tpecifinl in tonmes at
+the tieme maugouery for tibe mstion te cinuu ie as asapis-
+tude or to sclisve balf esrpliude, asrs tberoiore are
+adapnak' reschil; to symens annlgas tocimiques.
+Solstion to tie bincariass vusicte equmations of mo-
+tioa axlaibii boch fregusncy aced rete of docay charac-
+teriatics isodopanunat af tihe musger in wlictk tihe veisi-
+cle is disturiod. Caaugins the typar of cisaurimace
+changos only thne mngsitudie of she rougausor: thu fie-
+-3σ (fguz3 jo co) Árp o 9γ gge Axnb
+main unciloctod. The chevacttristic roots of tire
+aqantions of motion are α anemure of this siadskity.
+and may be plotted on the consplax piar. Tacac plots
+have the aaine format as Jo root locus plots uocd by
+aurvo systom analysis.
+6-2.1.2.1 Row Fiees
+Α cnaracteristic root pict fo: an unaugmented heli-
+coptar is shown in Fig. 6-2. 1he vertical scale is the
+damped natural frequcecy or complex par of the
+roor, tbe Ieft balf (ncgative abscises) dcaignates the
+sabic real par of the rovt witi: the tine to half
+anpliude as scalod, and the righ. balf (posicive mcione) dignes an wmevie nre iaauon win
+time to couble ansplistade as indecas.si.
+The VFR coterion boundars given in MdIL-H-8501
+abao is plotod in thas figurc. Root locatiot σ :o the kett
+of thr boundary bac setiat υ uae spcaficator. uzitcria.
+Thee sooo-ordaz systan damping ratx. anx sither
+tbc undamped ov tennpec nsaural frequeacies of tixe
+ploued root., Ale obiainabie. The undaraped nauurz.:
+fnquency σ, is the. magnitud. of the raunus vecto:.
+Expat.en.al oata or coanp.ites soi ticns oi tn
+equauons of motcnn may be π coited χ reily is. this
+forma. so as to inçucate systes. proxirz. υ ro α spe: +-
+fication timit. Experimentai data are est.smated eith=σ
+by Beog α step response and extracting be dampiz-8
+and frequenc (by assuming α second-oreer system,.
+er by α.iulog onpater matening.
+Typica! pious ure shown in Fi. 6-2 for α range 3ι
+arspoeds fron. tover to cruising. ign:. Ir. spo ve tne
+heucopie: exnions an unstable osc.datory raose of
+sec to aoune ampliude, ana α single canverge:..
+ajerodi; roor. As θ. airzpees inacreases. be sing
+rost moves to the right and! become:- α diver,. α.. ro.
+wnuite the other oscillatory root becones stpne auag
+drcreaues in froquency.
+-2.1.2.: Mode sac Raqaured Dampatg
+The Gan ping tequrenen fos eitner VFR or IFK
+frequentiy may be ercesde: al: only mino: ma-
+plication ac inurcast in os. Ths dumping mby de
+inxroand lpt sivroc rousons:
+1. Gestraly, weli-daanpec: roots sre less likely to
+6-
+
+couple sitik oélsr sxuree of rupoute, or to respond
+edhenp irqg an wq 'soseqmp spogod o
+'poce
+2. Good danping raducus pilet workiond.
+3. Augsocatasion systenus beving good damging
+suritaat miaor subayntam duierioratioa.
+Δ'anping rogairoments scualty are aseocicied wvi:ie
+goq sog sooq pare 'sesocas go sooen seqnagreal *
+copurers ace alrsoet iduntical to thone for fixed-wisg
+aircraft, excapu for the hover conditiune.
+Α belicopier with stsbility augmeatatizn exbibits
+in hover & longitudiual, short-penod raodk, vibichs is
+prodicusinansly σ pisching responsc. The seode should
+be aloqaataly castpes since it is thr piloe'σ prione
+costroi moaic both in kover and in forward figiht.
+The piloi ruruly wili rate the vehicke ss satinfactory
+(Couper Rating of 3.5) unleas the modal darqping is
+greauter than 0.3, aszd will wocept α valuc of 0.3 only
+whon thc frequescy is the asost favorable for α given
+flight iest experiment.
+Thcse is no targe vaiue for the short-pariod
+natural freguency: tain might be cuablishod besi in
+simulsirons anú protolype flighi tcst. Thare ate spper
+limits, however, becsust inereasing the frequcncy
+sends to sggravate sny existizeg control crose-
+cupling or coupliag into otbar modes.
+There shall be no objectionatie Aligite characteristic
+attributable so poor spoed scabiliay (phugoid mode).
+Any long apxriodic or kona-period (esreier than 10
+soc) osciliatory divergcnces, ss allowert in: she present
+Aail-H-8501. compromise spced stability axid thus
+π.ace al. added workioad on the pilo:. Suick-fixed
+σ cd stability demands that all roots exhibrit stable
+durapung. Helicopter laterai-directional figtit dy-
+na nics generaliy exdabit roli subsidense, apivai, and
+Dr. ch roil modes similar to those of fixed-wing air-
+cra :. The spirai snd Dutch roll modes mnay oocur at
+two or morc frequencias in helicupters with lateraf
+axis siability augmentation.
+R. δ subsiaence is an apreriodi: response, with the
+ame consiant set primarily β; thie aonnt oi roll
+damg ag The higher the Ganiping. tite shorter the
+tuxe cons ant. Tue requirement for minimnn Gamp-
+ing is set by MiL-tt-8σ01, ε.γ for α typical, light
+(25.0-τ3) veincle uncer IFR conditions, tine require-
+mer.. is α C3-se. tu:me constant. For cargo heli-
+o pt irs. the IlR spcuificatior aisows time constants
+ir. ε xa. of 1 sec. Test resuits fron. α nap-of-the-carth
+flhgh ty,xcal of α we-pos: α reconnaissance heli-
+copte sh 3ω α distinct advan.age ν reducing the roll
+conus. 1 tn.ac conatan: from C 3 & 0.12 soc. This test
+and σ ppluzuental data on ro. control response are
+daa.ε. in Refa. 2 and 3. Thc valu: of roli damping

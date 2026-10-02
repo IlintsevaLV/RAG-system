@@ -1,0 +1,33 @@
+10.2.2 Eddy Currents and the Internal Magnetic Field
+As the circulating currents die out and the external lines of flux penetrate
+the walls of the cylinders, there will be set up an internal magnetic field oriented
+as shown in Figure 10.13. In its latter stages the rate at which the internal field
+builds up will be dependent upon the rate at which the externally induced
+circulating currents die away. For an elliptical cylinder made of aluminum of
+axis 9.4 47 cm, α minor of cm, and α thickness 0.038 cm, having α major axis of
+98.7 peripheral distance of cm, the internal field will build up with α time
+constant of the aforementioned 480 MS.
+FINAL FLUX ORIENTATION
+INITIAL FLUX ORIENTATION
+ttI
+/
+/
+The internal magnetic field that arises as α result flux Figure 10.13 of
+pentration.
+The early time buildup of the magnetic field will be strongly influenced by
+the phenomenon of skin effect, and the initial rate of buildup of magnetic field
+will now be seen to have an important effect on the voltages induced on circuits
+contained within such an elliptical cylinder. Figures 10.5 and 10.6 showed how
+an electric field will be built up along the inner surface of α circular cylinder. In
+α similar manner, an electric field will be built up along the inner surface of the
+elliptical cylinder, but, unlike the circular cylinder, the electric field intensity
+will be different at different points on the internal surface of the elliptical
+cylinder, since the initial current density on the outer surface is not uniform.
+The internal electrical field will be essentially proportional to the current density
+on the exterior surface, but delayed and distorted as result of the pulse α
+penetration time produced by eddy currents (shown in Figure 10.6). The
+internal electric field, Ei, being different at different points on the inner surface,
+may to circulating currents on the inner surface. The currents again will give rise
+as be visualized flowing on paired strips. There will be four pairs of strips, two
+on each of the sides of the cylinder. Each of these strips will have associated
+with it an inductance and resistance which may again be calculated from the

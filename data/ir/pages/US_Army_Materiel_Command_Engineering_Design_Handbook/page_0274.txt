@@ -1,0 +1,91 @@
+5-9.4 INSTALLATION CONSIDERATIONS
+During design of the tail rotor, consideration shall
+be given to the actual installation on the vehicle in
+determixing the roquired thrust. The rotos may be
+designod to operate with the tail fin downstrcam
+(tractor configurvion), or with the fin upstream
+(pusher configuration). The rotational axis of the tail
+rotor also may be canied with respect to the fin to ob-
+tain α life component from the thrust vector. The
+locetiou of the rotor wil! have been selccted to pro-
+vide adequate clearance from the ground and othes
+pats of ihe helicopter, and with provisions for the
+safety of ground personnel (see Chapter 13, AMCP
+706-201).
+5-9.4.1 Tractor Coafiguration
+In the tractor configuration, the fin produces α
+blockags that causcs α thrust loss. Teats (Ref. 58) in-
+dicate that the net thrust available to satisfy helicop-
+ter requirements may be cstimaicd from
+Tar = ρ(1 0755) 4
+Τ- thrust for control and antitorque, Ib
+Σ/Α*= ratio of disk arce blocked by the fin te
+total disk arca, dimensionless
+5-9.4.2 Parber Configuration
+In the pusber installation, the production of thrust
+creates negative pressures on the řν and tail boom on
+the side adjacent to the rotor. The integral of thesc
+pressures over the affocted arca produces α force that
+must be subtracted from the rotor thrust. This force
+can run as high as 20% of the tail rotor thrust, but can
+be reduced by incrcasing thc axial distance between
+the rotor and the fin. At α distance corresponding to
+60% of the tail rotor radiue, this lcss is only :-2%. The
+effect of distance for both tractor and pusher config-
+urations is shown in Fig. 5-51, taken from Ref. 58.
+It is possible to dasign the pusher configuration
+with lower losses than occur in the tractor installa-
+tion. However. because of flow blockage, rotor per-
+effocts. Therefore, the pusher configuration should be
+usod with caution.
+5-9.4.3 Operational Consideratione
+Whag the tail rotor is opersting at σ yaw rat., 8
+moment is roquirod to procras the gyroscopic forces.
+This moment is α function of yaw rate . tail rotor
+anguiar velocity 8, and polar moment of inertia Ip.
+and muat be produced by aerod namic forces applied
+90 dog sbrad of the Girection oi precession in the casc
+of rotors with flapping blades. This is accomplished
+
+AMCP 706-202
+by α lag of the tip path plane with respect to the con-
+trol axis, which producs an equivalent to cyclic
+feathering. As α result, one side of the disk is loaded
+more highly than the other; if biade stall is cr.-
+countered, the additionai preceasional moment muat
+bc produced by the unstalled side. This effectively
+roduces the thrust capability of the tail rotor. The
+rotor blade mnuet be sized to operate at lift coeffi-
+cients below the value for stali throughout the
+opcrsting range. Thc increased loading caused by
+rotor preccssion must be provided for in this sizing.
+The effocts of operation sn α side wind alsc must be
+considered on the basis of α uniform variation of
+thrust with pedal position. When rotor-induced ve-
+locity approaches sideward velocity, the rotor will en-
+counter the vortex ring state. This characteristic,
+shown on Fig. Σ-52 (froin Ref. 58). gives undesirable
+flying qualities and generally is avoided by pilots. It is
+prcferablc that the induced velocity (disk loading) be
+sufficiently high that the vortex ring statc is not ap-
+proached until sideward valocity excceds 35 kt.
+(5-21) 5-9.4.4 Direcition of Rotation
+When the helicopter is in rearward flight ncar the
+ground, the characteristics of α tail rotor installation
+designed with ihe top biadc moving forward produce
+undesirable flying qualities. The tail rotor can en-
+counter α large ground vortex produced by the main
+rotor, which causcs ncarly α 20% decreasc in tail rotor
+AH-1Γ - 25
+Σ/Α = 0.264
+20
+-15 AH.1Γ
+UH-1C Σ/Α = 0.140 10 FIN FORCE, % THPUST
+UH-1C
+UH-1Δ
+Σ/Α = 0.136 5
+UH-1Δ
+0.8 0.4 0 0.4 80
+TRACTOR PUSHER
+Figare 5-Σ1. Fin Separation Distance/Rotor Radius
+5-79

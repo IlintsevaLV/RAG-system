@@ -1,0 +1,33 @@
+-- -- --- -
+------ --
+-INTERNAL E FIELD RESULTING FROM-
+RESISTANCE COUPLING
+I EXTERNAL NOISE CURRENT
+EXTERNAL FIELD LINES
+WALL OF CABLE SHIELD ( 0 )
+INTERNAL FIELD LINES
+/ - - - - -
+INTERNAL ELECTRIC FIELD
+EXTERNAL NOISE CURRENT
+I \
+\ ,I (4 (β)
+Magnetic coupling giving effect of α negative coupling inductance. I 13.1 Figure
+(α) Current and field polarities
+Direction of field (β)
+(χ) Current and field waveshapes
+ground structure. External impedances between the signal conductor and the
+shield, as well as the inherent capacitance between the shield and the signal
+conductor, force the signal conductor to assume nearly the same potential as the
+shield. Because the signal conductor is then at α potential different from the
+surrounding ground, dielectric flux can pass from the signal conductor through
+the shield and to ground, the dielectric currents again giving rise to α the holes in
+voltage between the signal conductor and the shield.
+In most cases the effects of magnetic leakage are probably more important
+than the effects of capacitive leakage.
+Calculation of Transfer Quantities 3.3.2 1
+The factors that affect the voltage which may appear between α signal
+conductor and the shield of α cable, as distinct from the voltages that may
+appear between the signal conductor and ground, are, then, the resistance of the
+shield, the degree to which the shield allows magnetic fields to leak to the inside,
+and the degree to which the shield allows electric fields to leak to the inside.
+These latter two characteristics may be expressed in terms of an equivalent

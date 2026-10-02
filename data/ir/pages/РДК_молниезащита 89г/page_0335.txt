@@ -1,0 +1,90 @@
+of such α components will be circulating current These
+edges δ&nsity at the the current nature as to increase
+center. They it along the and to reduce of the cylinder
+also cancel any penetrating magnetic field, forcing the
+field around the cylinder to be entirely tangential to
+the surface, at least initially,
+From the viewpoint of component currents, the
+circulating currents produce an internal magnetic field
+that initially has the same pattern as that produced
+so as to polarity, opposite but of current, dc by the
+initially reduce the internal magnetic field to zero.
+Transition to conditions: DC The eddy currents can-
+not exist forever, since energy will be lost as the cur-
+rents circulate through the resistance of the metal
+sheet. Accordingly, the .current density at. all points
+becoming uniformly eventually time, vary with will
+distributed in structures having uniform thickness and
+made of uniform resistivity materials. Fig. 11.18
+shows the manner in which the current density will
+vary, As the circulating current shown in Fig. 11.18(χ)
+decays to zero, the current at the edge will decay
+from its initial high value to the final resistively deter-
+mined value, and the current at the center will increase
+.current from its initially low value. The current densities will
+change according to an essentially exponential pattern,
+though the transient increase in surface resistance pro-
+duced by diffusion effects will prevent the circulating
+from following α true exponential decay.
+.... .-- - --
+-- ,-_)\
+-...-
+(.-
+30' (β) Ste rsT
+, .. π. δ shin #Owlsface, Will:
+Fo.
+10 0 le tim J ι,. 1.
+Fig. 11.18 Variation of current density with time.
+(α) Current components defined
+(β) Edge and center currents
+(χ) Circulating currents
+
+the approx- One expression giving constant: Time
+time constant of the redistribution imate magnitude
+[11.5] is: the literature appeared in that has
+uAa
+.ρ = (1135)
+where
+Α = enclosed area of structure
+structure. θ. around ι1istance peripheral Π =
+The thickness of the wall, α, is assumed to be very
+small compared to other dimensions. For α rectangular
+box of sides height η and width δ, Eg. 11.36 becomes
+'ρ u da(. φ
+2 ( π(η+dY
+These equations define the approximate redistribution
+times, but the actual time constants will depend on the
+geometry and will be somewhat different for different
+portions of α structure.
+For an elliptical cylinder made from aluminum of
+thickness 0.0381 cm, having α major axis of 47 cm, α
+minor axis of 9.4 cm, and α perimeter of 98.7 cm (es-
+sentially α flattened version of the circular cylinder dis-
+cussed in §11.2) the redistribution time constant pre-
+dicted by Eq. 11.35 would be 745 ps. As will always be
+the case, the redistribution time constant will be mudc
+longer than the pulse penetration time constant.
+11.4.2 Eddy Currents and the Internal
+Magnetic Field
+As the circulating component of current dies out
+and the external lines of flux penetrate the walls of
+the cylinders, there will be set up an internal mag-
+netic field oriented as shown in Fig. 11.19. In its
+which the internal field builds latter stages the rate at
+up will be dependent upon the rate at which the ex-
+ternally induced circulating currents die away, with α
+time constant about equal to the redistribution time
+constant.
+The early time buildup of the magnetic field will
+depend on the rate at which the eddy currents build
+build currents The eddy surface. along the inner up
+"up in response to the electric field on the inner sur-
+but are also governed by the inductance of the
+path through which they circulate, according to the
+formula: elementary
+(11.37) Edt. :1
+Since the internal surface voltages are retarded by
+the diffusion effect, it follows that the internal circu-
+lating currents, and hence the internal magnetic field,
+will build up even more slowly.
+319

@@ -1,0 +1,110 @@
+(between the pilot'σ stick and the actuaton). In
+tice, if both hydraulic .ad electrical power are
+available, the gytos SAS arm made as small as
+ble and their output signals are amplified (electrically
+and/or hydraulically) to the power level required
+provide inputs to the control actuators. Dual or
+electrcal SAS'ι can be provided below the final
+control actuator with less weight than α single
+system. mechanical
+6-3.2.3 Type of Rtor System
+It is possibk to use the stabilL-er bar Bell or
+servo Hiller rotor with rotor systems having
+than two blades (Ref. some 20). However, of the
+xcure refinements or relationships kinematic
+essary for the success of the system may be
+looked. For example, the orientation of the gimbal
+pivots on the Bell rotor is critical in order to prevent
+driving torque from acting about the feathering
+In the Hiller system, the amplitude and phase of
+feedback of blade flapping into the cyclic pitch
+trol of the paddles servo rotor are very important
+) the effectiveness of the system,
+gyro, The Lockheed control which is processed
+forces applied thiough springa, is applicable only
+hingelems rotors or those with an equally high
+joing natural frequency. In order for α flapping
+upon teetering rotor to exert α momeot the fuselage,
+it would have tc, tilt relative to the rIotr shaft. To
+tain this tilt, the control gyro would havc to be
+by β an equal or greater amount, depending upon the
+linkage ratio. This control gyro tilt, 90 deg out
+phase with the swashplate tilt, would alter the
+of the maximum spring-applied force upon the
+trol gyro, causing it to nutate toward the saahplate
+tilt, and eventually to line up parallel to the swash-
+plate. In the case of hingeless rotors, with their
+control power, the required amplitude and/or
+tion of control gyro tilt are too small to permit
+noticenable gyro prew ione
+Ini general, whenever α rotor-mounted SAS
+.... modified from its origin form, an extensive
+grim of developmental and qualification testing
+necessary. The internally mounted electronic,
+draulic, or fluidic SAS'σ, which are more flexible
+less dependent upon rotor dynamics, are more
+table to any rotor system. The electronic SAS
+are adjustable individually in pitch, ro!λ, and
+directions; can Ω. made variable with airspeed;
+can be cro.•-coupled if eesired to compensate
+- adverse airframe crou-coupling,
+H emode.
+-, 6-3.2.4 Helicopter Coafgraion
+ingle'rotor helicopters can be equipped with
+
+AMCP 705-202
+prac- type of SAS that is compatible with helicopter size
+ani the type of rotor used. This is because pitch and
+possi- roll controlled attitudes both arc cyclic by pitch in-
+puts to the main rotor. The yaw SAS, if used,
+to operates collective by controlling the pitch of the tail
+triple rotor. Thus, each SAS input to the helicopter control
+rotor system ι3 independent.
+On the other hand, tandem-rotor helicopters ob-
+trin longitudinal control by use of differential collec-
+longi- tive pitch of the two rotors. Obviously, any
+tudinal SAS will be required to change the thrust of
+the one or both rotors. Rotor-located, mechanical SAS'σ
+more - such as those that are used by Bell, Hiller, and
+ob- Lockheed and that affect only cyclic pitch - are not
+nec- adaptable readily to tandem-rotor helicopters. The
+over- necessity for mixinL all controls from the cockpit of α
+tandem helicopter before they are impressed upon the
+rotor makes it more straight-forward to introduce
+axis. SAS control inputs in series with the cockpit con-
+the trols before mixing. However, in large helicopters
+con- that contain many linkagas in the control system,
+to even normal amounts of play in these linkages may
+detract from SAS performance. Therefore, the SAS
+by output signals for the respective axes should be mixed
+to eicatricaiiy in the same mannvi and α" arc tiOrt ippici
+control flap- the mechanical controls. Then the SAS in-
+or puts may introdu~xd at the be input to the upper
+rotor control actuators.
+sus-
+tilted 6-3,2.β Suppression Structurl of Rotor and Mode
+Responses, Vibrations, or Gusts
+of Helicopters whose blades have an inplane natural
+phase frequency below the rotor speed consequently have
+con- high response to horizontal pylon forms at fre-
+quenhies of rotor speed plus lag frequency ( - If wt).
+τ ao either flexible que.χ. rotor speed pus α gvifrateon
+high or rigid body, has α natural frequency that is near the
+dura- aforemnntioned sum or difference, α there will be
+any tendency for annoying, large, transient reGponses to
+gusts or sudden lateral control motions. In the case of
+is resonan=- at the difference frequency (01 = Wr), self-
+pro- cited destructive oscillations can occur in the Wir or
+is on the round. In some cases, the SAS roll axis ha&
+hy- coupled ρ-sonance with the and aggravated it. Thus,
+and steps be taken either to eliminate SAS res[ onse rhall
+adap- to the mode or to make use of the SA3 in st ι-
+gains pressing it Unless α epecial design effort is mad,, the
+yaw total lag of SA, sensors, signal shaping, and ac-
+and tuators at the high frequencies of the transient os-
+for cillations is liable to shift phase respons, into α region
+that caurts divergence rather than attenuation of the
+It may be necessary to install separate sensors,
+filtered to respond only to the pertinent fhequuncy
+any and then phase-adjusted so that the final SAS output
+6-11

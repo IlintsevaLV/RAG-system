@@ -1,0 +1,111 @@
+APU operating life may be demonstrated to :iny
+given model specification requirement. Α test plan
+may be chosen from MIl-Σ7Δ-781. Typically, if α
+mean time between failures (NTBF) of 1500 hr is
+specificd, α test with seven APU'σ, cach opcrated to
+300 hr without failurc. would he recommended
+Othe: combinations of run time and number of
+engines may bc chosen. χ.γ., thrcc APU'σ with cach
+tunning 750 hr without α reizvant fsilere.
+High installed reliability can te obtained by speci
+fying α timc betwecn overhauls (TBO) close to the
+specified MT8F. However. this results in ≈ con-
+siderably higher life-cycle opcrating cosi. Lcwest cost
+is obtained by using ihe reinove for failure (RFF)
+philcsophy, wher. APU'σ are repaired or removed
+only in cvent of & melfunction.
+À failurt mode and cfcct analysis (FMEA) for the
+APU shall be specificd to show the consequences of
+cach probab.χ trilure. This will assist in reliability
+prediction. choice of scheduled snaintenance inter-
+vals, and the determination of RFF versus TBO piri-
+losopnics.
+Several problem areas have been experiesced by
+operation of the APU in the belicopter. These α/aus
+inciuce vibration, recircuiation oi expaust gares,
+FOD, etc. They point up the importance of careful
+delincation, in the quality assurance proviaicns of the
+APU model specification, of design and tesi con-
+aitions that simulate thc helicopter environment.
+The vibration environment is priniary. The profle
+of amnplitude and frequencies at the APU installation
+must be defined. The arnplitude and frequencies of
+ihe AFU-generated vibralion also should be speci-
+fied to anticipate airframe structural problems.
+APU air inlet temperature limits arc specified, and
+the APU installation must be designed to prevent re-
+circuistion of main engine or APL exhaust gas.
+Careful attention must be given to this problem
+because it is impractical so stempt to iimit hencop
+ter opcration. in undesirab!ρ wind directions. Irlet
+duct locations either must be remote from exhaust
+outlets, or safety shutdow.σ senso:σ must be pro-
+vided.
+Similar arguments apply concerning FOD, susd,
+or dust ingestion. Genereily, high inlet duct locatiors
+are preferable because concen!rstion & φ dust in hover
+is stratified vertically.
+Many APU servicr problems cas: be traced to fuel
+system components. Scme of these re ult from heli-
+copter fuel system contamination. Additional
+emphasis sheald be given to filration, and to pre
+vention of main cank con:amination by proper fuel-
+handligg methods.
+Α mujor sou:ce of reliability problenis &rises from
+
+ARCP 706-202
+muintenunce requirements cither scheduled or un-
+scheiuled. For example. more contamination is in-
+troduced into oil systems (causing excessive wear and
+carly bcaring failure) through frequent oil level
+checks, oil additions, anc oil changes than through
+scals an.φ vents during normal running. APU design
+should stress minimum scheduled ρ.aintenance,
+throwaway filters and components, scalcd systems.
+and automatic controls requiring no adjustment. This
+approach not only will increase reliability. but also
+will decrcase net lifc-cycle AFU costs.
+3-8.5 SAFETY FROVISIONS
+Goud APU safety dcsign must inciude provisions
+to prevent α failure frorn causing helicopter damage.
+and. if pessibic. to permit naission completion in
+event of α failurc. Thus, the APU instalßetion shall bc
+designed so tha: firc, APU rotor failure. and crash
+damage arc contained within the APU compartment.
+APU-rotor containment is sn important safety
+consideration, and can be hancled in sevcral ways.
+Structurt can be designed to withstand and hul α
+rotor tri-hub burst at overspeed trip conditions
+(assuming α fuel control failure), but this causes an
+underirable weight penalty. Alicrnatively. rotor in-
+tegrity can be demonstrated by mcans af cpecialized
+tests to measure stress levels under operating con-
+ditions. Furttier, systems can be arranged to
+gvarantec that blade failures occor fi:st (ε.γ., stress
+grocves). but that ssailer mass blace failures can be
+contanned wishin the casing structure.
+Fucl and ignition sources sas. bc separa:ed by
+means of the compartment design. On° philosophy is
+to put the entire APU into α fireproof cenipastment.
+Α second philosophy seel-σ to prevent fire by con-
+fining (ue) sources and by segrigating the hot section
+with α bulkhead. The APU contru!σ and oil sump
+should be housca in fireproof contairers. Elcctrical
+subsy-iem ignition source: should be rouied or
+housed away fiom fucl lines. APl. inlet air should be
+ducied from outside the helicopter to prevent recir-
+culation in case ot comyartment fire. Fire detectors
+and fure extinguishing equip.ant shall be us =δ to pro-
+iect against fire within the compartment (sce par. 3-
+2.4)
+All APU fucl systenr components shall be crash-
+worthy. Fuel lines shall be niade o: Texible hosc with
+stecl-breided outer sheath, with the minimum
+number of ouplings. At bulkheads, the hosc siould
+be run through uncut, using fresigible hose stabilizer
+fittings. When lines go through α tirewall, seif-
+sealing. breakaway couplings shall be used. All line
+supports should be frangibie. Lines shali be 20-30%
+longe: than necessary to accommodate structural dis-
+piacements. Routing shall be aiong the heavy basic
+3-21

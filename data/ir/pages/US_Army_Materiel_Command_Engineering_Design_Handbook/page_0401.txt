@@ -1,0 +1,100 @@
+AM!C 7OW2O
+The design and installation of the altimeter system
+such te that the error in indfated pressure alti- shdal
+tude at sea level in standard atmosphere, excluding
+calibration instrument error, does not result in α
+ft reading ft mere than 30 high nor more than 30 low
+in the level flighi speed range from 0 mph to 0.9 times
+the maximum speed obtainable in level flight with
+rated rmm and power.
+9-3.4.2 Rate-of-edlml ladlcator
+the same static The rate-of-climb indicator uses
+pressure source as the altimeter. Α calibr'sted flow
+restriction is placed in the unit to restrict the passage
+of air into the instrument case when the measured
+static pressure changes. The time lag associated with
+this pressure change is used to obtain α pressure dif-
+* .• ferential on two sides of α diaphragm. This pressure
+in change as mechanically displayed is differential
+sea "pressure standard at with time altitude dIIdi
+level conditions. The re:ationship is in accordance
+with the hydrostatic equation for small differences.
+lb/ft" 9 2 τ pa,(Α AP ), - - )
+where
+2 ac.leratinr due to gravity. ft/sec ε-
+ height ditferencc, - ft AH
+2 lb/ft Α Π pressure difference, -
+ density at standard PSI - sea level conditions,
+slug/Its
+The slow response time of those basic mechanisms
+is now generally corrected by the incorporatior of ac-
+celerometers which provide an artificial boost of air
+for an instantaneous needle movement.
+9-3.4.3 Airspeed Iickators
+True airspeed V is the velocity of the helicopter
+α.ρ wits' τ#- rcapc ,. through which is τ flvin. it ι% .,,
+difficult to measure true airspeed directly. Instead,
+calibrated airspeed is measured. V, Calibrated air-
+speed is determined froin the difference be'ween total
+Bernoulli'σ pressure and static pressure using corn-
+pressible equation for frictionless adiabatic (isen-
+tropic) flow. Calibrated airspeed is the adopted stan-
+and dard reading of an airspeed indicator, is the same
+conditions. level sea standard under airspeed true as
+The difference between total pressure Π, and static
+pressure is called true impact Π pressure q.
+(9-3) , psi Π- q,
+where
+psi pressure, static - Π
+- total pressure, psi Π,
+psi pressure, - impact true cc
+6 as of is given ir. Ref. of q, function ρ Α tabulation Vc
+τ oth. with α complete derivation of tIar. equations
+9-46
+
+used in establishing the table. Airspeed indicators are
+calibrated according to tese relationships.
+similar In operation, the airspeed indicator is to the
+altimeter. However, instead of being evacuated, the
+is inside of the capsude connected to α total-presure
+source and the case to the static-pteuaure source. The
+senses instrument then the differencs between
+capsule μ%asured pitot (totul) pressure within The Π,,,
+and measured static pressure outside as shown in Π,
+Fig. 9-64. The pressure differential (Eq. 9-4), q, as
+indicator when correted measured by the airspeed
+for instrument errot, will correspond to measured
+calibrated airspeed Vo,..
+ Pt. - Ps Π,'. (9-4) qo. -
+where
+ measured static pressure, psi Π,, -
+psi premure, pitot measured Π,.
+psi presu'ire. impact measured
+In general, this will vary from the correct calibrated
+airspeed because of pitot and static pressure errors,
+and an airspeed position error correction Α must V,
+be added to to obtain V,. V,.
+ V,,, kt (9-5) Α - - V, V,
+whee,
+ VP - cal.brated airspced, kt
+- measured ., calibrated airspeed, kt
+Α airspeed - position error correction. kt V,
+evalu- To determine its significance, this correction is
+ated by flight testing of the entire airspeed system.
+Specifications have been written to establish the
+acceptable coastruc- instrument errors and general
+tion ot airspeed indicators. Table 9-2, AMCP 706-
+203, specifies requirements for airspeed indicatots.
+Because of the ccmplex flow patterns around the
+helicopter be in flight, the airspeed system must flight
+" ..
+- - - -
+-
+- -
+STATIC PRESSURE
+(Π.)
+." •
+...
+TOTL R SUR
+PR(ISSuE TOTAL
+Figre 944. Alrope lUllater Σ*bsalek

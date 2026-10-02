@@ -1,0 +1,44 @@
+When the hole is melted through a fuel tank skin or other enclosure
+of flammable materials
+When the hole is melted through the wall of a pressurized enclosure
+When the hole sufficiently degrades the mechanical strength of a
+flight-critical component to cause failure
+The problem of hole formation in fuel tank skins has been dealt with in
+Chapter There have been no reports of holes having been melted through the 6.
+walls of a pressurized container, except for the very small (less than 0.1 cm dia)
+holes sometimes found at swept-stroke dwell points along the surface of a
+pressurized fuselage--holes that have been far too small to cause depressuriza-
+tion problems. Since trailing edge areas are usually not pressurized, the larger
+holes melted by longer duration currents hanging on to trailing edges have also
+not posed a depressurization problem, although the possibility of this event
+should be considered in any design that involves pressurization of a trailing edge
+section.
+The structural integrity of a traiIing edge closeout member or other
+loadcarrying part may be degraded if a significant portion of metal is melted
+away by a lightning arc hanging on for a prolonged period of time. For design
+in accordance with the SAE purposes the worst case should be taken as 200 C,
+report A Lightning Test Waveforms and Techniques for erospace Vehicles and
+(Reference 7.2). Estimates of the amount of metal to be melted away Hardware
+C by 200 of charge entering a hang-on point may be made from Figure 7.1 or by
+6.2 6.1 6.6. the use of Equations and of Section
+7.2.2 Mechanical Property Degradation of Structural Metals
+Aside from the burning of holes at attachment points, the flow of
+lightning current will not degrade the mechanical strength properties of metal
+skins and other basic structures unless temperature rises approaching the melting
+temperature occur. Except within a centimeter or two of the points of entry,
+lightning currents will normally spread out sufficiently so as not to produce a
+noticeable temperature rise.
+A case in which an excessive temperature rise may occur is one in which
+lightning current remains in a single conductor, such as a bond strap or pipe. In
+this case, the action integral ( ~ 1 ~ d t ) of the lightning current and the resistance of
+the conductor may both be high enough to allow sufficient energy to be
+deposited in the conductor to raise its temperature appreciably. Since the
+resistance of most metal conductors increases with temperature, an even higher
+amount of energy will be deposited in the conductor as its temperature rises
+during current flow, and this, in turn, will increase the temperature even further.
+all If the action integral is high enough, the conductor will be unable to absorb
+of the energy and will explode. This will happen for currents whose action
+integrals are sufficient to raise the conductor temperature above its melting
+point.
+It is therefore important to be able to determine the expected temperature
+rise which lightning may produce in conductors of small cross-sectional area and

@@ -1,0 +1,39 @@
+1 1 CHAPTER
+THE INTERNAL FIELDS COUPLED THROUGH APERTURES
+MagneticFields 11.1
+The most important mode by which magnetic fields are coupled from the
+exterior of the aircraft to the interior is coupling through magnetic apertures.
+There are two major reasons for the importance of aperture-coupled fields. The
+is that some apertures may be quite large, windows being a prime example. first
+The second reason is that, unlike fields coupled by diffusion through metal
+surfaces, the waveshape of the interior field is not retarded, but tends to be the
+same for small apertures as that of the external magnetic field. The most
+important consequence of the coupled magnetic fields relates to the voltages
+A induced by such fields. field of given peak intensity is more apt to cause
+trouble if it rises to its peak quickly than if it is delayed and distorted.
+Physically, the basic problem is as shown on Figure 11.1. An external
+magnetic field tangential to a metal surface passes across an aperture. At the
+aperture some of the lines of magnetic force leak into the interior region.
+Analytically, the problem is to be able to determine the field strength at any
+point in the interior volume, preferably to be able to determine both the
+magnitude and the direction of the magnetic field.
+Often the analytical problem is best solved by placing in the plane of the
+aperture an equivalent magnetic dipole, the fields around which may then be
+determined from dipole theory. The strength of the equivalent dipole is
+determined by the strength of the external magnetic field and by the size, shape,
+and orientation of the aperture. A geometry amenable to mathematical analysis
+11.2) (Figure is that of an elliptical aperture in a conductive sheet of a size large
+enough to separate completely the interior volume in which the fields are to be
+calculated from the exterior volume in which the basic magnetic field exists. In
+the following analysis we will treat only fields tangential to the conductive
+as surface, since, explained in the previous sections, a magnetic field with
+components perpendicular to the conductive surface induces circulating currents
+that initially cancel the penetrating component.
+Mathematically the problem is most directly solved if the external
+magnetic field is resolved into two components, Hx and Hy, lying along an axis
+directed through the major and minor axes of the elliptical aperture. These field
+components give rise to two equivalent magnetic dipoles, M, and My, again
+oriented along the major and the minor axes of the aperture. The strength of
+these dipoles is a function of the strength of the external magnetic field that
+would exist in the plane of the aperture if the aperture were absent. The
+I I governing expressions (Reference .I) are

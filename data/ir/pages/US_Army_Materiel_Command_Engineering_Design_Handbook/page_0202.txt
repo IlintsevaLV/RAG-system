@@ -1,0 +1,108 @@
+• J-.
+the cnglo-of-attack aler rates maneuvei These cantly.
+obtained steady-state flight at distribution during
+rotor thrust level. givtn and speed
+capability, high maneuver to α,;hieve In general,
+ι ε., nor- flight, steady-state in trimmed loading blade
+factor, be Load low. 1.0, must nZ - factor mal load
+to be related can capability maneuver, or (CT/ra), ,/-
+with design rotor for α given 1.0. Thus, - (CT/u)Iwz
+cotffi- thrust the trin lower the known (CT/χ),,,
+factor load the the greater blade loading), (or cient
+control decgn -,:rn under other The capability.
+caps- maneuver for variables The major (C'/),.
+and twist "or section, ratio, airfoil bility are advance
+ratio. solidity given
+decreases increases, ratio As advance (CT/O)Ω-
+in- flight speed, an α given for Therefore, 8). (Rcf.
+How- increases speed rotoi tip crease in (Cr/χ),,.
+Pdvan- of value α maximum flight, level as for ever,
+be exceeded, must not Mach number cing tip blade
+if the be encountered stall can blade shock Advancing
+too high. Mach number is
+The magnitude of for α given advance (CT/ι)6
+lift the maximum stetion strong function of ratio is α
+is not ne.essarily blade tip. This near the coefficient
+sction, funct-so or two-dir,,-enioal, of the dircta
+cl., because lift coefficient section maximum
+oscil- flow and such as spanwise complicating factors
+good general it is α lating effects. However, airfoil
+will the tip section of χ,.. iii that an increase rule
+capability, theust the rotor maneuvering improve
+occurs first, generally blade stall retreating Because
+retreating blade cl. at the of the magnitudis . 1
+New airfoil important. number also is quito Mach
+the α tailoring of 4) allow (Ref. design developments
+at value of sction obtain the peak profile to
+Mach numbr. dosirod
+capability twist also affects maximum thrust Blade
+by controlling the lift distribution at the retreating
+only determined twist is tip. Optimum blade
+major maneuvers including analyses of the detailed
+However, opti- pitch and roll rates. effects such as
+case usually the maneuver of twist for mization
+performance, to level-flight of α omprot- mdetrimental
+Computation of helicopter ig required. miae o.een
+is discussedin erformanM C more flight 3 ancuvering
+AMCP 706-201. par. -. , detail in
+•",
+5-Λ4 INERTIA
+era in autorotative Ro τ Rotoratertics
+and velocity angula Rotor characteristics. landing
+kinetic energy the rotational uniquely define inertia
+of used in the development rotor "an be that of the
+in α zero- velocity to arreqt descent force - decelerating
+of ro- landinli. amount The or partial-power power
+
+AMCP 70τ-2022
+as is defined energy kinetic tational KER
+α (Σ I ) Α I
+(0-o) fi-lb KER , -
+where
+rotor. of the of inertia mass momcent - 'R
+2 slug-ft
+rotor the represent fl,,δ ad fl,,,ι symbols The
+the end of and beginning at the velocities angular
+deter- However, the respectively. maneuver, flare
+(fi,1 new α for value for acceptable mination of an is
+than the more with little judgmental, is largely rotor
+the to assure that available experience α designer'σ
+the flare. throughout remains controllable rotor
+perfor- autorotativc of helicopter Computation
+3-5.1. in par. detail further in discussed is mance
+an 706-201 AMCP par. 3-5.3, In 706-201. AMCP
+values Acceptable is developed. index autorotativc AI
+are also inertia, the rotor henctc of and this index, of
+discussed.
+5.3.1 GENERAL α
+be 0. gim- as articulated, can described Rotor systems
+(sometimes referred to hingeless (or teetering), of baled
+and flex-hinge. as "rigid"),
+at- system are articulated rotor blades of an The
+allowing hinges, hub with mechanical tached to the
+swing and down, and to flap up blade froedon, the
+The disk plane. lag) in the forth (lead and back and
+to the hub are attached rotor of the hingeless tip blades
+lead-la- flapping or mechanical hinges for without
+enploys rotor notion. or strap-hinge, The flex-hinge,
+blade to the structural attachment of the α flexible α
+. IS, Λ,,, I . η,,,•,,,•u -,,η!u- η hub .,.
+and the low stiff- of the hingeless rotor high stiffness
+ness of the articulated or gimbaled system. '
+been will have of rotor system the type Generally, by
+In par. 3-3.3. design. during preliminary selected
+is types of rotor system each of the AMCP 706-201,
+is by which each the methods together with is dcribed,
+control of to provide in turn is used and controlled
+includes α simplified discussion helicopter. The the
+flapping flapping (fully motions of α the summary of
+of rotor the dynamics while rotor, articulated)
+systems are described in detail in Chapter AMCP 5,
+106-201. The descriptions of the several types of
+dis- include 7dti 201, AMCP 3-3.3, in par, rotors
+of disadvantages advantages and of the cussions
+for siLes of the heiicopter with α review each, together
+most appropriate. each may be α which
+and kinematics systems of rotor The discussion
+introductory the supplements controi which follows
+5-7

@@ -1,0 +1,78 @@
+Fig. 37.10, ars generally supplied to relate sparkover
+voltage to rato of change of voltags. Catalog apecif-
+cation sheets generally cite the sparkover voltage for
+very slowly changing voltages. Rated sparkover volt-
+nnn
+about 100 volts. Sparkover voltages for rapidly chang-
+ing voltages may be substantially higher.
+Normally, one should not consider spark gaps as
+the primary means for coutrol of surges unless the
+equipment to be protected can withstand several hui-
+dreds oi volts.
+10030
+5c00 Surgo Batas oL Biae
+2000 AOOS
+Volts
+1
+Voltage 1000
+Striking 500
+200
+10 10- 10 10-* 10 10
+Reuponse Time - Seconds
+Fig. 17.10 Volt-time curve of a spark gap.
+Recevery: Once a gap has sparked over, the current
+in the gap will be governed by the impedance of the
+circuit and the normal operating voltage. Current wil!
+continue to flow as long as the circuit is energized at a
+voitage greater than a fow tcns of volts. Gaps used for
+industrial macninery and commercial power syste:ns
+can be made self-extinguishing for applied voltages up
+to about 100 V by using magnetic feld-. :o blkw anc
+cool the arc, but they are not applicable for aircraft.
+use.
+Current rating: Small spark gaps generally can carry
+peak currents of several thousana amperes for surges
+
+.lasting a few tens of microseconds and several hun-
+dreds of amnperes fct surges lasting a few milliseconds.
+Catalog shests do not always cleariy state the dura-
+tlon of surge ciurent for which the specifled peak cur-
+rent applies, but for airçraft protection the matter is
+of little importance sincs: amost any gap caui casry all
+the surge current likely to appear on internal aircraft
+wiring.
+Spark gaps intended primarily for telephone cir-
+cuits may bo called upon to carry power system cur-
+rent for some period of time if the vires have comne
+into contact with power lines: The allowable current,
+ard its duration, are commonly şpecified by a curve,
+of which Fig. 17.11 is an example. Some gap assem-
+blies are provided with thermal links which cause the
+circuit to be permanently shorted if current fows for
+an excessively long time. Such thermal lirks are not
+likely to be of value in aircraft applications.
+12f 1 (Amps, rms)
+Current 10 -
+в
+4
+2+
+2 10 14 18 22
+Discharge Time Duration t (sec)
+Fig. 17 11 Allowable ampere-tin.e curve
+frr a spark: gar.
+Residual voltages: Until such time as a spark gap
+ionizes, it has no effect on circuit voltage. Some resid-
+ual surge voltage, Fig. 17.12, may be passed onto the
+rest of the circuit. Should this residual surge voltage
+be a problem it can often be suppressed with metal
+oxide or zener diode devices.
+Fig. 17.12 Residual voltage.
+Sometines spark gaps are applied to a pair of con-
+ductors, ar in Fig. 17.13(a). Ideally, in response to a
+common mode surge, the two spark gaps should ionize
+at the same time. If separate spark gaps are used, one
+of them may ionize before the other, resulting in a high
+voltage between the conductors, as in Fig. 17.13(b).
+Tc minimize this problem, three-electrode spark gaps
+are available. Sparkover of one half results in ioniza-
+442

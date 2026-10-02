@@ -1,0 +1,56 @@
+.have
+their origin in the electric power field, to which and decay time, definitions of front and tail time being
+most studies of breakdown strength of air gaps have given by industry standards [1.8]. The virtual front
+been directed. For continuity, the terms will be re- time is taken to be 1.25 times the time between the
+tained here, though they are not particularly apt in 30% and 90% points. For many purposes this virtual
+relationship to aircraft. front time is α better characterization of the effects of
+Surges having front times measured in α few mi- the impulse than the time to actual peak because it
+croseconds and decay times measured in α few tens also defines the effective rate of rise of the impulse.
+of microseconds are commonly called lightning surges It is defined by the 30% and 90% points rather than
+since surges induced on power lines by lightning have the 10% and 90% used in electronic practice since the
+such waveshapes. Other mechanisms can, of course, initial toe of the impulse is frequently distorted be-
+also produce surges of such waveshapes. cause of the characteristics of the impulse generator.
+Switching surges, as their name implies, arise on The distortion is of little importance as regards the
+power lines through the operation of switches and cir- effect of the impulse, but can lead to controversy as to
+cuit breakers. They are characterized by front times when the impulse reaches its 10% point. Decay time
+measured in tens and hundreds of microseconds and is usually taken to be the time to decay to 50% of
+decay times measured in hundreds and thousands of the peak aaplitude. It is seldom characterized by the
+microseconds. Such times are also involved as α light- time to decay to 37% (ε-folding time), both because
+towards or away from an aircraft, the 50% point is easier to determine and because the ning flash propagates
+of impor- is seldom below 50% the impulse shape of to 5o relate voltages primarily frequency Power
+characteristics. breakdown of in studies tance will and lines of transmission energization 60 Hz or
+commonly used in the electrical in- in the following Α waveshape be given only passing consideration
+ξ 1.46 α which for wave, 104 us 50 ξ 1.2 α is dustry = material.
+sec- in being measured time ξ 10σ, 2.475 = 0 and mea- to surges lead may NEMP, effects, Nuclear
+front 1.2 ps with α α wave yield constants The onds. the are beyond but they of nanoseconds, in tens sured
+scope of the following material, as defined by industry standards, not the time to
+for determining Procedures peak voltage. surge absolute made between the terms is also Α distinction 0
+in §9.10.1. refer α, and E in Eq. 1.5 are given 0, impulse. Accepted practice is to use surge to and
+0
+to α voltage produced at random by nature and im-
+pulse to refer to α voltage or current produced under
+controlled conditions in α laboratory. For even more 1.0 -
+0.9 precision the terms lightning impulse and switching
+impulse are used.
+1.5.2 Waveform Definitions 0.5 -
+Voltages and currents tend to have different wave-
+front virtual
+shapes, both because of the nature of physical pro-
+time
+ceases and because of the intrinsic behavior of testing 0.
+machinery.
+time "tail (α) volt- high in used impulses Voltage impulses: Voltage
+age testing and research most commonly have double
+exponential waveshapes, as illustrated on Fig. 1.10(α).
+They are described approximately by an equation of
+suppressed tail
+the form
+=EF(ε-' ε-α"'). (1.6) - -
+(β) Double exponential waveshapes are used because they
+have the general characteristics of natural surges (fast
+front times and slower decay times) and can be pro-
+duced by basically simple (though expensive) capaci-
+tor and resistor networks. Principles of such machines Fig. 1.10 Waveshapes for testing.
+ame described in §6.8. Double exponential waveforms (α) Double exponential wave
+are characterized by their peak amplitude, front time (β) Suppressed oscillatory wave
+7

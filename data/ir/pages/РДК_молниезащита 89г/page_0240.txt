@@ -1,0 +1,105 @@
+were concepts protection aircraft, to presented threat
+prepared were specifications and protection reviewed
+α aircraft and fighter F-14Α an aircraft, testbed for two
+any re- fund did not program The helicopter. YUH-61
+devel- materials collected it activities. Instead, search
+work- various sponsored programs, other under oped
+them into assembled and material the review to shops
+which of each 8.6], - [8.2 reports of series part five α
+volume, this of readers the by be studied should
+ef- indirect with mostly dealt program AEH The
+excluded been having effects direct lightning, of fects
+to be understood were effects Direct charter. its from
+cautioned were the reports of readers and important
+ef- direct with of dealing necessity of the aware to be
+[8.7], made was effects of direct review Α limited fects.
+data engineering develop to made was attempt no but
+effects. direct to relating
+has been that group Α activities: Committee SAE
+prac- test and design lightning with reviewing charged
+doc- advisory and standards developing and with tices
+(SAE) Engineers Automotive of Society is the uments
+have committee this of Members AE4Λ. Committee
+air- US the areas of all from representatives included
+certifying the military, manufacturers, industry; craft
+included also It has and test laboratories. agencies
+the of counteiparts European the from representatives
+coordinating of aim the with this industry; aircraft US
+agreement promoting and activities and European US
+between various certifying agencies.
+doc- draft been to has charter SAE of the Part
+FAA Advisory as issued ultimately are that uments
+document such One standards. military and Circulars
+di- with connection in cited been previously has [8.91
+[8.101. and [8.9] include documents Other effects. re,,,
+been has activities the SAE from the material of Much
+[8.11]. Standard Military α into incorporated
+and have NASA and FAA research: Both NASA FAA
+As effects. indirect toward funded research oriented
+[8.12] development initial the funded NASA examples,
+tech- test (LTA) Analysis Transient Lightning the of
+induced on currents and voltages to determine nique
+sponsored has FAA The lightning. by wiring aircraft
+tech- test several using results compare to [8.13] tests
+LTA technique. including the niques,
+Program Control α in Steps 8.3
+requires generally effects indirect of the Control
+elec- and electrical aircraft the of portions subjecting
+laboratory. the in tests controlled tronic systems to
+re- analysis or by by done only be cannot control The
+of than control more any experience, liance on field
+by only be controlled can problems other EMI/EMC
+the aircraft inter- aircraft systems and analysis; the
+
+tasks the of One that. complex for too are actions
+levels appropriate determining is done be must that
+aircraft equipment, the of tests conduct to which at
+levels design transient equipment called these being
+ex- is aircraft an in equipment Electronic (ETDLs).
+lightning the of energy the of α portion to only posed
+lightning the how Analyzing effects. full not its flash,
+called be can manifested) is it how (and energy divides
+universally not is term the though process, α flowdown
+recognized.
+indirect of control and problem of analysis The
+can analysis fortunately, but, complex one, α is effects
+illus- are stages stages. These several into divided be
+determine is to task overall The 8.1. Fig. in trated
+and to voltages leads current, lightning the how IL,
+individual tasks The wiring. internal on the currents
+of lightning effects indirect the control to in α program
+follows: as divided be can
+the of waveform amplitude and the 1. Determine
+to the fields external current and electromagnetic
+aircraft.
+in- the and voltages IR structural the Determine 2.
+fields. electromagnetic ternal
+air- the of wiring the response of the Determine 3.
+deter- is, that fields; and voltages those to craft
+the on induced currents and voltages the mine
+wiring.
+4. Determine the response of electrical equipment to
+identify circuits that is, and currents; the voltages
+damage. or to either upset susceptible
+measures. protective and incorporate Design 5.
+immunity. prove tests to laboratory Conduct 6
+Broadly speak- chapters: subsequent of Organization
+item 2 10, in Chapter is discussed item 1 above ing,
+13 Chapters 4 in 3 and items 12, and 11 Chapters in
+in 6 and item 16 and 15 Chapters 5 in item 14, and
+process, reduced the in steps various The 18. Chapter
+8.2. Fig. in shown are chart, α flow of form the to
+AEHP the to figure refer the on numbers section The
+[8.14]. guide design
+mis- of α number are There material: Background
+mathemat- and electrical regarding points cellaneous
+effects indirect of in analysis involved concepts ical
+0, Chapter in consolidated and reviewed are these and
+chap- in later piecemeal introduced being rather than
+par- 9, Chapter in discussed the points of Some ters.
+for included are operations, mathematical ticularly the
+in analyt- they are encountered reference since general
+electromagnetic phenomena. with works dealing ical
+that the chapters in explicitly used them are of Not all
+4 follow.
+224

@@ -1,0 +1,56 @@
+p"'A) . rie. to p, h occurrences, and craft. Externally mounted hardware , most frequently e
+labor-•ory tests j4.15] have snown that the voltage re- involved includes navigation lights, antennas, wind-
+quired to spark a typical capacitance type probe is shield heaters, pitot probe heaters, and, in earlier days,
+many times greater than that induced in fuel gauge cir- the trailing long wire antennas that were deploy, i in
+cuits by lightning. However, other situations involving flight for high frequency radio communications. The
+unenclosed circuits, such as externally mounted fuel latter were quite susceptible to lightning strikes, and,
+the light- wherein induced voltages may be much since these wires were too thin to conduct tanks, exist
+burned away. The currents, they were frequently completely enclosed ning higher than those found in circuits
+high frequency radio sets feeding these antennas were by an airframe.
+also frequently damaged, and cockpit fires were not
+uncommon.
+Outcome of research: The accidents referenced above
+prompted extensive research into the lightning ef- Illustration of damage: Damage may be increased
+fects on and protection of aircraft fuel systems. Im- when an electrical assembly is mounted on nonmetal-
+proved bonding, lightning protected filler caps and lic portions of the airframe because some lightning cur-
+access doors, active and passive vent flame suppres- rent may have to use the assembly ground wire as a
+sion devices, flame retardant foams, and safer (i.e., path to the main airframe, as described in §4.2. That
+!ess flammable) fuels are examples of developments the resulting damage can be extensive is exemplified by
+which have resulted from this research. In addition, a strike to a small single engine aircraft with fiberglass
+FAA airworthiness requirements now focus attention wing tips which included fuel tanks, the type pictured
+on lightning protection for aircraft fuel systems, as in Fig. 4.15.
+noted in Chapter 5. As a result of these safety mea- The details of this incident [4.15, 4.16] will illus-
+sures, lightning strikes have presented fewer hazards trate several of the strike effects described in this see-
+to the fuel systems aboard modern transport aircraft tion.
+than to those of older aircraft, and properly certified This aircraft, flying at about 900 m (3000 ft), was
+aircraft may expect to experience lightning strikes with experiencing light rain and moderate turbulence when
+no adverse effects on fuel systems. Continued changes it was struck by lightning. The pilots had seen other
+in airframe designs and materials, however, make it lightning flashes in the vicinity before their aircraft
+rmandatory that care and diligence in fuel system light- was struck, and embedded thunderstorms had been
+ning protection not be relaxed in the future. forecast enroute, but there had been no cells visible
+on the air traflic control (ATC) radar being used to
+4.5 Direct Effects on Electrical Systems vector the aircraft, which had no weather radar of its
+own.
+If an externally mounted electrical apparatus, The strike entered one wing tip and exited from
+such as a navigation lamp or antenna, happens to be the other. It sounded to the pilot reporting like a rifle
+at a lightning attachment point, protective globes or going off in the cabin, and the cabin immediately filled
+fairings may shatter and permit some of the lightning with smoke. Other effects follow.
+current to enter associated electrical wiring directly.
+In the case. of a wing tip navigation light, for ex- 1. The No. 1 VHF communication set burned out.
+ample, lightning nmay shatter the protective globe and 2
+were circuit breakers five percent of the Seventy the lightning chan- may in turn allow light bulb. This .
+later. reset be could 50% only which of tripped, cur- lightning that so filament the bulb contact to nel
+rents may flow into the electrical wires running from 3. The left wing tip fuel tank quantity indicator was
+the bulb to the power distribution bus. Even if only a disabled.
+fraction of the total lightning current enters the wires,
+they may be too small to conduct the thousands of am- 4. The right main fuel tank quantity indicator was
+peres involved and thus will be melted or vaporized, badly damaged
+as described in §4.2.
+out. burned were lights instrument Several 5. break- may cause surge voltage accompanying The
+down of insulation or damage to other electrical equip- 6. The navigation light switch and all the lights were
+ment powered from the same source. At best, the burned out.
+initial component affected is disabled, and, at worst,
+enough other electrical apparatus is disabled along The aircraft, nevertheless, was able to land at a
+"wi'l to impair flight safety. There are many exam- nearby airport. Subsequent inspection showed exten-
+is effect, involving both military and civil air- sive damage to the right and left wing tips and to their
+79

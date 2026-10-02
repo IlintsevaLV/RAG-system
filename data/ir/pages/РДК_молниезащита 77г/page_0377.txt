@@ -1,0 +1,14 @@
+1 1
+(NEARLY) (NEARLY)
+?/////////////////////////////////////////////////////////
+Shield grounded at both ends. 13.6 Figure
+(α) conditions Test
+Conductor voltages (β)
+Equivalent circuit (χ)
+E' the primary inductance of the equivalent transformer is equal to the voltage
+induced between the ends of the shield by the incident magnetic field. Since the
+mutual coupling between the shield and the signal conductor is very nearly
+unity, the voltage induced in the secondary, or signal conductor, side of the
+equivalent transformer is about equal to the voltage originally induced in the
+shield. Accordingly, the voltages appearing at the ends of the conductor are
+much lower than they would be if the shield could not carry current.

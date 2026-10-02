@@ -1,0 +1,32 @@
+12 CHAPTER
+WIRING VOLTAGES AND CURRENTS INDUCED ON
+Elementary Considerations 12.1
+The fields by themselves are of little concern; of primary concern are the
+voltages and currents produced by the changing magnetic fields. In principle,
+these may be calculated from the geometry of the aircraft wiring and knowledge
+of the strength and orientation of the internal magnetic and electric fields. While
+calculation of the voltages and currents on actual wiring in aircraft may never be
+practical, because of the mechanical complexity of the wiring harnesses,
+calculations may be performed for simplified geometries. Such calculations will
+illustrate the scope of the problem and indicate the direction of practices that
+minimize the voltages and currents, and hence minimize the risk of circuit
+damage or upset.
+The simplest geometry to consider is that of α conductor, or group of
+conductors, placed adjacent to α metal surface and exposed to α uniform
+magnetic field oriented to produce maximum voltage in the wiring. The
+12.λ(α). geometry is shown in Figure
+If only common-mode voltages are considered and only cable systems
+short enough that transmission line effects need not be considered, the induced
+voltage will be
+Α where area of the loop involved in meters squared =
+ξ in henries per meter (permeability of free space) 4ν = po
+total flux linked in webers @ =
+magnetic field intensity in amperes per meter H =
+in seconds τ =
+ε in volts =
+Expressed in inch units:
+*
+of II where length cable bundle in inches =
+height above ground plant. in inches η =
+H magnetic field intensity in amperes per meter =
+τ in seconds =

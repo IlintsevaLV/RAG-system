@@ -1,0 +1,76 @@
+Calculation of shield performance: Vance [15.6] gives
+equations relating resistance and transfer inductance
+to the construction of the shield. Fig. 15.17 shows
+example of how transfer inductance depends on weave
+angle. In the frequency domain the transfer imped-
+ance is generally dominated by the resistance below
+about 1 MHz and by the transfer inductance at higher
+frequencies. The reference to mutual capacitance will
+be discussed shortly under electric field shielding.
+E
+N .o
+δ maktbaiuae 6.2mi
+C-*12
+2 ι 2 FO- '1-
+- - -Fig.
+I~ C24 -
+MI, InI4Im)
+1Α 1
+01
+20 40 10 30 in so 70 σ0
+ANGLO.I δ~pU WEAYS
+Fig. 15.17 Mutual inductance and mutual capacitance
+vs weave angle [15.3].
+Flexibility weave vs. angle: Shielding effectiveness
+can be improved by making the shield more dense,
+Small shield. the of flexibility the reduces that but
+diameter shields can be made with α small weave angle,
+but on large diameter cables the weave angle must
+large to maintain flexibility.
+layers construe- An alternative of braid: Overlapping
+tion involves two overlapping layers of braid, Fig.
+layers of braid will reduce the 15.18. Using two similar
+double the weight of two (and by α factor resistance
+of the shield), but can reduce the transfer inductance
+by α much greater factor, frequently to levels below
+0.1 nH/μ. Resistance can be calculated, but transfer
+inductance is best measured.
+Purpolsing: Sometimes cables exhibit α phenomenon,
+shown in Figs. 15.19(α) and (β), in which α change in
+external noise current induces an internal electric field
+of the opposite polarity. This is due to α phenomenon
+
+called porpoising. It occurs because braid wires loop
+back and forth between the inner and outer surfaces
+one of the shield, carrying current to the inner surface by
+conduction rather than by diffusion. As shown in Fig.
+15.19(χ), wires carring axial current on the inside sur-
+face of the shield produce α magnetic field oriented
+oppositely to that which leaks in through holes. Mea-
+surements in the frequency domain would not show
+the effect unless they also included α measurement of
+phase as well as of magnitude. As α practical matter,
+porpoising is α phenomenon likely to be found only on
+poorly shielded cables.
+braid layer 1
+islation
+Sconductor
+15.18 Doubly shielded cable.
+tNMM OUC Cý &AGWWO ? MAOO FRII lON F Ω4136 I
+MW I 0411MAL
+,
+0Α*,
+be (β)
+giving Magnetic coupling 15.19 Fig. effect of
+α negative coupling inductance.
+(α) Current and field polarities
+(β) Direction of field
+(χ) Current and field waveshpaes
+lectric fGld leakage: Another source of coupling is
+via caparStive leakage through the holes in the shield,
+as shown in Fig. 15.20. the If shielded cable is sub-
+jected to an external and changing electric field, dielec-
+tric flux will pass through the holes in the cable from
+the external source and onto the signal conductor.
+The flow of these dielectric, or displacement. currents
+406

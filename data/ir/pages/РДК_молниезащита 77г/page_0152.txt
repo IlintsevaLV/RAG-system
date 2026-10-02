@@ -1,0 +1,35 @@
+Coulomb ignition thresholds for stainless steel have not been studied as
+thoroughly as have those for aluminum and titanium, but they have been
+A determined for currents of 80 to 130 by Kester, Gerstein, and Plumer
+C C (Reference 6.40) to be 4.4 for 0.051 cm (0.02 in) skins, for 0.102 cm 12
+(0.04 in), and 41 C for 0.152 cm (0.06 in) stainless steel skins. comparison of A
+Kester and his colleagues for aluminum these thresholds with those found by
+and titanium skins of the same thicknesses is shown in Table 6.2. The times
+required for ignition to occur in several of the tests reported in Table 6.2 are
+Listed in Table 6.3 (Reference 6.41).
+Table 6.2 COULOMB IGNITION THRESHOLDS FOR VARIOUS SKIN
+1.5 METALS. STOICHIOMETRIC PROPANE-AIR MIXTURE
+Stainless steel Titanium Aluminum Material
+(2024T-3) (Series 304) Thickness (Ti4AI-1 MO-IV)
+Coulombs Coulombs Coulombs
+0.051 cm
+not determined 4.4 (0.020 in) 5.5
+0.102 cm
+(0.040 in) 5.75
+0.152 cm
+(0.060 in) 1001125
+Table 6.3 DISCHARGE AND IGNITION TTMES AT
+COULOMB IGNITION THRESHOLD
+Dis. Ign. Cou- Dis. Ign. Cou- Dis. Ign. Thick- Cou-
+time time lomb time time lomb time time ness lomb
+(ms) (ms) (ms) (ms) (ms) (ms)
+cm 0.05 1
+(0.020 in) 6.0
+0.102 cm
+(0.040 in) 8.0
+0.152 cm
+(0.060 in) 107.0
+*Above threshold level
+The charges and times given in Tables 6.2 and 6.3 for ignition to
+commence are somewhat greater than those associated with the lowest coulomb
+ignition thresholds (bottoms of the curves) of Figures 6.17 and 6.18 because the

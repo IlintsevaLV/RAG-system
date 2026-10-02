@@ -1,0 +1,107 @@
+is considerably loms for the name intcrference fit-up.
+cilficuit to control. • …: Consoquently, fretting and ring creep also are more
+4-2.2.2.1.4 Skddding Coutrod
+Lightly loaded high-spoed bearings tnay operate
+with groes sliding betwoen the rolling element com-
+ploment and the rotating inner race. Such operation
+can produce smearing or raco surface failures not un-
+like those cauaod by gaur tooth scuffing. The contri-
+fugal aaxeleration prescnt at high apcod creates α con-
+siderabie rolling element/outer race load, with
+braking traction forces exceoding driving traction
+fcrces at the rolling element/inner race contact. Re-
+tainer drag forces and lubricant viscoeity also play an
+important part in determining load-speed-slip con-
+ditions. Hiatorically. this distress mode has been 8
+greater problen with cylindrical roller bearings than
+with ball bearings. Calculation of slip-critical con-
+ditions is relatively uncertain, but some uscful insight
+may be gained from Ref. 8.
+One method for preventing groas alip is to main-
+tain at the inner race/rolling dement contact the load
+required to obtain suffcient driving traction. This
+may be accomplished on Db or DF anguiar contact
+β arings witk internal preload. Α preioad spring may
+be required with single-row bali angular contact
+bearings.
+There are several methods for controlling gross slip
+with cylindrical soller bearings:
+1. Out-pf-round outer roceways may be cmployed
+to produce α pinch effoct upon installation. Installa-
+tin oriontatioa is roquirod such that the external
+geer loads are ortbogonal to the pinch load plane
+(Raf. 84).
+2. Α small aumber of oversized radially tight,
+boilow rollers may be dispersed at even intervais
+throughout the complement. This method requires
+careful sizing of the holiow rolicrs to proclude bend-
+isg fatiguo failures (Rof. 85).
+3. When the coafiguration permits, the roller
+bearing may be mountod vary slightly off-center with
+respoct to the shaft axis. If the shaft is positioned by
+an additional pair of hearinga, sufficient radial pre-
+Voad may be effectod to provide the necessary traction
+.doad.
+4. Out-of-round liaors have boea cmployed to pro-
+duce the same reault as in Itan 1. The primary dis-
+.advantags to this technique is the increasod difficulty
+in asounbly and disasembly.
+· To minimize skidding tendencies in high-spoed
+bearinga, tbe amalicst acceptablc diamciors shouid be
+cle of the comploment of rolling clements. Retainers
+.4-54
+
+may roquire balancing to obtain satisfactory opera-
+tion. As in elernent skidding. α criticsl spoed exists;
+the centrifugal acceleration at this spced will dispiace
+an out-of balance retainer off center until all land
+contact occurs in α single local zone of the retainer.
+This may, in turn, cause rapid retainer wear at the
+pockets as well az the guiding tails. Oncc started, thc
+wear rapidiy acccierates until failure occurs — ofien
+in 20 hr or less.
+However, α dichotomy often exists with respect to
+clesrance requirements. While controliod roduction
+of internal clearance to minimal values tends to re-
+duce the skicding tendency of lightly loaded bearings,
+it comprisas their ability to operate without lubrica-
+tion, ι.χ., fail-safe opcration (scc par. 4-4.3, Emergen-
+cy Lubrication). Normal heat distributior within α
+bearing with inner ring rotation reaults in α negative
+temperature gradicnt from inner ring through rolling
+clements and outer ring to the housing with the inner
+raceway operating broadly from 50 deg to 100 deg F
+hotter then the outer raceway. The shaft and inncr
+ring heat flow paths offer Icss rejection capability
+than the outer ring and housing paths. This, coupled
+with the customarily higher heat generation rate
+etsendant with inner racs siiding veiocitics and
+counterformai contacts, results in the higher inaer
+race operating tomperatures. Under normal opera-
+ting couditions, the lubricant removes the bulk of the
+heat and maintains thermal stabilization within this
+gradiont. However, when the cooling effect and the
+friction reducing characteristics of the lubricant are
+absent, temperature stabilization can only occur at
+the higher gradients dictated by the incrcased friction
+and reduced heat rejection. If internal clearances are
+sufficient to accommodate the expansion attendant
+with thc new gradient and incrcascd cverall tempera-
+ture, then stable fail-safe operation is theoretically at-
+tainable. However, if inadequate internal clearance
+exists, α radially tight condition resuits. This in turs:
+leads to α divergent increase in temperature until
+bearing seizure or shaft faiiure occurs.
+As described previously, thc mechanical means of 2
+providing positive rotation for the rolling ckements in
+order to roduce skidding tendency can be applied in
+conjunction with greater interna! clearance to affect α
+dasign without skidding and with fait-safe opcrating
+capability. Since the skidding tendency is highest in
+lightly loadod high spced bearings, it is pousible to in-
+sall nonload-carrying hoilow rollers in cylindrical
+roller besrings without loss of nocdcd cupacity. This
+offers the driving feature required to defcat skiading
+"nile providing adoquate radial clearance to accom-
+modate thermal growth during fai-saf operation.
+Bearings with lower spood and highes loads exhibit

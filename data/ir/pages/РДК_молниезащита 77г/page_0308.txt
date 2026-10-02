@@ -1,0 +1,18 @@
+Cylindrical tube current. Internal magnetic field intensity 10.4 of is Figure
+zero.
+density will still be high near the outer surface, but a small amount of current
+will have penetrated to the inner surface. As time increases, the current density
+and the current density on the finer surface will on the outer surface will fall,
+increase, until at tfinal the current density will be uniform across the surface of
+the wall. any time, the area under the current density curve multiplied by the At
+peripheral distance around the cylinder will equal the input current. The resistive
+voltage drop along any surface (including any line internal to the wall of the
+be equal to the product of the current density at that point times cylinder) will
+the resistivity of the material. Accordingly, the voltage drop along the inner
+surface must folldw the curve defining the buildup of current density on the
+inner surface.
+10.1.4 The Characteristic Diffusion-Type Response
+The nature of this response is shown in Figure 10.6 and is governed by the
+following equation :
+a 10.6 Figure is plotted in terms of characteristic time constant, sometimes T ,
+called the penetration time constant.

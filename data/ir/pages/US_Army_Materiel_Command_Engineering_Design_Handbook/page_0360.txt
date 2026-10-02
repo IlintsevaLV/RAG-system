@@ -1,0 +1,96 @@
+9-214 Brakes Wheel
+brakes wheel Hydraulically powered srWl
+accordance The designed in with circuit MIL-Π-8585.
+represents braking system shown in 9-τ Fig. I α
+differential control. Each brake provides pedal
+direct input to master brake cylindt Hydraulic α .
+pressure may bc reduced at necessary for brake
+also should operation. Parkinig brake capability
+indicator provided shall be incorporated. warning Α
+signify "ON". parking biakes are when the to
+9-2.3 HYDRAULIC SYSTEM RELIABILITY
+Good hydraulic system reliability cani be obtained
+the probable weik links during best recognizing by
+system must the initial design. Because the
+within the constraints of weight and designed cot
+fIilitary Specifications, and must meet appropriate
+must be optimized. aspects of the design reliability
+9-2.3.1 CostOe Redowlasey MWgh
+The most critical hydraulic failures are those
+to operate los the capability of ultimately cause
+prmnary flight MIL-H-5440 requires oontrols.
+whcrvtý hydraulic powcr is u=-δ for the primary * )
+~flight controls, α completely σ"prate system σ/sol
+for provided that purpose. Further, it is required
+if direct mechanical contro' is not suffickiet to allow
+controllability as defined in Μ IL-F-8785 in event of
+hydraulic failure, an emergency power source shalil
+provided in ordc- to supply the kwne4esry
+trollability.
+As. cmu of mieeting α. the redundancy require-
+several design merits, techniques may be considered:
+an Α gi primary 1. control Right system with
+dianic-al reversion. This method is simple
+relatively lightweight, and can used be if opeiating
+lout are above pilot and/or bot structural
+abilities.
+TO,9-23.3
+U
+TIO.
+Flpw Wheel 9.11. Syssem Dbab
+
+2. single Α primary flight control system with inte-
+grated, electrically powered hydraulic backup. The be
+survivability characteristics of this design are good
+installation. It with but may result in α heavier and costly
+α also may present rejection problems. beat
+Dual flight controls. This may the best ap- 3. be
+proach if high powtr must delivered to the flight be:
+control actuators. Dual or tandem actuators can be be
+However, this used to enhance reliability further.
+more wcight, more compo- type of system involves
+nents, arnd, therefore. higher cost than other -ap-
+proaches.
+4. single flight control system with active utility Α
+an approach which should be system backup. This is
+suf- the utility system can supply power be considered if
+as well as ap- ficient for the normal utility functions.
+mnoment requi.-od proximately two-thirds of the hinge
+Use priop ity valves of for the flight control functions.
+in the utility system should considered be in order to
+insure that priority is given to the flight controls in
+that the event of loss of the independent flight control hy-
+system. the draulic
+that. 9-2.3.2 Utility System Redimilaacy
+In utility Sccr~ieas, functions are not crAical in-
+be dividuaily to the of the helicopter; 'control therefore.,
+that total system redundancy need not considered. be
+However. specific functions within the utility systeir.
+α may be critical during emergency conditions. If so,
+be emergency or alternate modes of operation should be
+con- considered. Usually, the least reliable component
+within the system is the hydraulic pump, due to its
+relative complexity, high operating loads, and con.
+tinuous operation. The use of two system u~tility
+me- pumps can provide add'tional reliability. Each pump
+and can be sired to provid one-half of tin. maximum
+system power demand, thereby providing α good
+cap- weight and cost trade-off in comrarison with α single.
+large system pump. If one of the two pumps fails,
+systan performance is reduced, but only the failure o(
+both pumps can cause total system los.
+Relia~lely Α*spet Mlaesimemu
+The key to high systemn reliability is reduction of
+the effects single-point of failures or elifflniation of
+their cause. Major types of recurring failures are:
+External component leaks, causing 1. loss of
+system flstid
+2. Leakage of precharVed accumulator gas into the
+hydraulic fluid, causing pump cavitation or dumping
+of fluid overboard.
+The effects α.^ component Ickap can alWe be
+viated significantly use by of isolation α leakage
+device in each flight control syutar circuit. brands
+The various types of sudh device discumied in wre
+9-4.5.4. par. AMCP 706-201.
+9.5

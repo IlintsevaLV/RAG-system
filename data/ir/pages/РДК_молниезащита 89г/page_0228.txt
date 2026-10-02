@@ -1,0 +1,39 @@
+plete replacement of metal fuel or vent lines by elec- Magnetic field Intensity: Α comparison between the
+trically non-conductive lines, magnetic field intensities occurring within an alu-
+If electrically non-conductive lines are used, the minum wing and those occurring within α CFC wing
+material from which they are fabricated will need to be was made during tests conducted for the previously
+doped to provide α minimal level of electrical conduc- mentioned NASA program [7.61). The magnetic fields
+tivity (high resistivity) for static charge dissipation, in the CFC wing were 3.0 to 3.7 times larger than in
+The resistivity of the material should be of the order α comparable aluminum wing.
+of 106 ohm-centimeters. If this is not done, high speed
+refueling and rapid fuel transfer operations could build Direct are attachment: The problems described
+up static charges on these lines resulting in spark dis- above must be addressed during the design of both
+charges within the tank, aluminum and CFC fuel tanks but are more difficult
+Fuel and vent lines which conduct currents should to solve for CFC tanks. In addition, the designer must
+be carefully designed at their interfaces with the struc- also solve the problem of direct lightning arc attach-
+ture to contain arc and spark products which may oc- ment to the fuel tank external skin. The problem of α
+cur. The performance of these interfaces should be possible skin melt-through faced by the designer of α
+verified by tests performed at the maximum current meral fuel tank becomes the problem of α skin punc-
+level expected. ture for the designer of α CFC~tar•.
+The CFC material is composed of graphite yarns Induced voltages: The third problem faced by the fuel and epoxy resin. Since the melting point of graphite
+tank designer of α CFC tank is that of voltages induced 2060°C (3735'F) is much higher than the temperature
+on electrical wiring within the tank, such as those as- at which pyrolysis of resin occurs 0 160°C (315 F), at-
+sociated with the fuel quantity probes. As discussed in tachment of the lightning arc damages the CFC by
+§7.7.5, induced voltages can appear between all of the pyrolysis and, usually, ignition of the resin, which in
+incoming wires and the airframe. Since the shielding turn causes gross delamination. Burning of the resin
+effectiveness of the CFC skin is lower than that of an then leaves the entire composite in disarray; however, aluminum skin, additional care must be taken by the damage is generally limited to that which is visible at
+designer to ensure that adequate gaps are maintained the attachment point.
+between the active electrodes of the fuel quantity probe
+and the airframe.
+ι ι total Aluminum total CFC
+Tank Tank
+(α) 6Jo 6 8 7o0 Als
+ι structure j structure
+(β) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 70- σ rI I&0
+ι plumbing ι plumbing
+Fig. 7.45 Lightning currents in plumbing within alu-
+minum and CFC tanks.
+(α) Total current
+(β) Current in structure
+(χ) Current in plumbing
+212

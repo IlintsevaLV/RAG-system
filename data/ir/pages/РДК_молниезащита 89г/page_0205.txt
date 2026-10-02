@@ -1,0 +1,94 @@
+Fuel tank skins in Zone 1Β, such as external tanks
+o on rotorcraft, must tolerate all four current compo-
+nents, and Δ, assumed to enter the skin at Α, Β, C
+any spot in that zone. This will usually preclude use
+of integral skin tanks, unless such skins have multiple
+layers, as in sandwich construction,
+The standard lightning environment described in
+[7.28] and Chapter 5 is based on the known aspects
+of cloud to earth flashes, as discussed in Chapter 2,
+combined with studies of in-flight damage reported
+by aircraft operators over the years. As such, these
+current amplitudes are α good representation of what
+to expect in α severe natural lightning flash. It is rec-
+ognized, however, that more severe currents, like those
+which sometimes occur in α positive polarity, cloud-
+to-ground flash, could appear at Zone 2Α dwell points.
+Berger [7.45), such flashes, recorded by An example of
+7.17. is shown in Fig.
+_unpainted _ _
+Fig. 7.17 Positive polarity flash with delayed
+starting time.
+The current waveform measurement shown in that
+figure was made at an instrument tower on the ground,
+and the long, upward-moving leader which extended
+from this tower to the cloud base, accounted for the
+11.5 ms delay which elapsed before the return stroke
+appeared at the ground. Not all of this delay would
+have occurred had the measurement been made on an
+aircraft in flight intercepting such α flash. Several mail-
+liseconds of delay still could have elapsed between ini-
+tial leader attachment to α forward extremity of the
+aircraft and the occurrence of the return stroke over α
+return stroke The positive polarity tank surface. fuel
+could have delivered about 20 Α.. (coulombs) to this
+attachment point during the 2 ma of time it would
+Fig. 7.13, to the data of there. According have dwelled
+melt-through of α mm (0.063 in.) aluminum skin 1.6
+could be possible under these conditions.
+Σ
+There are reports of holes melted in 1.02 mm
+(0.040 in.) skins from in-flight strikes in Zone 2Α
+189
+
+areas, but holes in 1.6 mm aluminum have not been
+reported, α fact that demonstrates the apparent rat-
+ity of the high-energy positive polarity flash in Zone
+areas. Present standards and test practices do not 2Α
+account for these flashes due to lack of evidence that
+they have struck aircraft in critical zones.
+7.5.3 Required Skin Thicknesses
+Assuming that current amplitude, charge and
+dwell time have been established, the graphs of Figs.
+7.13 and 7.14 allow the designer to determine the thick-
+nesses of aluminum or titanium skins required to en-
+sure that the skin will not be melted through or over-
+heated causing α hot spot by lightning.
+that α bare skins: As an example, assume Aluminum
+tank in Zone an integral is planned for aluminum skin
+will fly at veloc- assume that the aircraft 2Α. Furthez,
+ities as low as in/σ mph), which is typical for 58 (130
+!approach to landing.
+From Table 7.3 the expected dwell time for this
+skin would be 2 ms. From Fig. 7.16, an
+average of 2 kA would flow into the dwell point during
+this period, delivering 4 Α.σ of charge. On Fig. 7.13
+parameters intersect at α point-about half-way these
+between the coulomb ignition threshold curves for 0.51
+and 1.02 mm (0.040 in) aluminum skins. mm (0.020 in)
+the thinnest nun (0.032 in) is This indicates that 0.81
+skin that should be considered. Since there would be
+little margin of safety if α skin of this thickness were
+actually used, it would be prudent to select α greater
+thickness, such as 1.02 mm (0.040 in) if at all possible.
+as paint, will usually cause Kurface coatings, such
+the dwell times to be longer than they would be on
+unpainted skins. The type and thickness of the coat-
+ing both affect the dwell time. Generally, the thicker
+the coating, the longer the dwell time and the thicker
+the skin must be to avoid melt-through. Consider,
+for example, the longest dwell time, 20 ms, recorded
+by Robb, Stahmann, and Newman [7.42] for α painted
+surface. During this period the current of Fig. 7.17
+would deliver 16 C. These parameters intersect at α
+point just above the 2.29 mm (0.090 in) curve in Fig.
+7.13, indicating that even the 2.03 mm (0.080 in) thick-
+ness advised by some design guidelines would be in-
+suflicient to prevent ignition where certain paints are
+be used, it is advisable if paints must used. Therefore,
+to perform swept flash tests, or to refer to in-flight
+experience, if applicable, to establish the actual dwell
+neces- required skin thickness and, therefore, the time
+sary to prevent melt-through.
+Titanium skins: By using the graph of Fig. 7.13, it
+is possible to determine titanium skin thicknesses in α

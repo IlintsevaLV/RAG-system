@@ -1,0 +1,45 @@
+but may be high for most electronic equipment, particularly for equipment
+located in shielded locations. The waveshape, while not unreasonable, is
+sometimes difficult to inject into circuits by transformer coupling. This test does
+not treat in any way the short circuit current that would flow on a shorted
+conductor connected to a low-impedance load or flow upon the shield of a
+6 ps cable. The specification that the envelope decay to 50% in no less than
+implies a lower loss test circuit than may be found in practice. The
+recommended test generator circuit is somewhat uncontrolled, using an
+untriggered spark gap firing virtually at random at the crest of an ac charging
+voltage, though the waveform itself does not imply any particular generator test
+R circuit. The specification does call for a 150 source impedance. The question
+of source impedance deserves serious consideration and 150 may not be the 52
+optimum value.
+This test (and waveform) is one of the few that have been formally
+approved by an industry standardizing group.
+Martzloff and Howell (Reference 17.19) proposed a test wave with a
+0 8 to kV. The wave was intended frequency of 100 kHz and a voltage range of
+V for the duplication of transients found in residential circuits on 120 ac lines.
+The damping was specified such that the ratio of successive half-cycles should be
+greater than 0.6. This also may be somewhat high, particularly if the transient is
+to be coupled into equipment through transformers. No specification was made
+about the magnitude or waveshape of the short circuit current. Martzloff and
+Howell show a test circuit capable of injecting the transient onto 120 V ac lines
+R where, since the output impedance of the circuit is basically 150 resistive, the
+shape of the short circuit current would be about the same as that of the open
+circuit voltage.
+This waveform and this test circuit have been widely accepted in some
+fields. One example is their use in relation to ground fault interrupters
+(Reference 17.20).
+In answer to response from readers and users of the original Fisher and
+Martzloff paper (Reference 17.21) on the transient control level philosophy,
+Crouch, Fisher, and Martzloff have proposed test wave somewhat different a
+from the original one (Reference 17.22). The revised voltage wave, shown in
+Figure 17.8, emphasizes the oscillatory nature of the wave, rather than
+deemphasizing it, as did the original test wave. The front time was raised to 0.5
+ps, the course of the wave after crest being defined in terms of its oscillatory
+frequency of 100 kHz and the decrement specified by requiring that the ratio of
+successive half-cycles be greater than 0.6. The voltage wave thus becomes nearly
+identical with that proposed by Martzloff and Howell.
+The proposed waveshape should be viewed in relationship to its com-
+panion short circuit current. The current, similar to that from natural transient
+sources, is essentially the integral of the voltage.
+17.5.2 for of Equipnlent Direct Injection Transients
+Surge generators capable of producing the types of transients described
+51 1

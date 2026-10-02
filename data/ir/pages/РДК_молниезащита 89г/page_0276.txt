@@ -1,0 +1,72 @@
+10-9
+9[1/ρ 1/(ρ- 2η)]
+QrT DrThus
+I
+Fig. 9.23 Sphere over α ground plane,
+Isolated Fig. charged conductor, Α conductor:
+9.24, with coulombs per meter may be viewed as an qo
+assemblage of charged points. Α rod of finite length,
+though, presents mathematical difficulties because the
+electric field intensity at the ends becomes infinite.
+This is overcome by approximating the rod as an el-
+and 2β with minor axes 2α having major and lipsoid
+then: is capacitance The vr'•. χ =
+C/α
+4ianCc/α) farads (9.94) C =
+tnW (χ/α)
+or
+pF (9.95) 222C
+ν[(λ χ/α)/(, + χ/α)] C = -
+EiW
+an .pacitance.
+Fig. 9.24 Is' ,,.ted conductor.
+Coaxial conductors: Evaluating the electric field as
+given by Eq. 9.95 between and ra gives the capaci- ri
+tance:
+) farads/meter (9.96) C
+or
+5-5$.6
+(9.97) pF/μ C
+ln(ρ2/ri)
+Conductor over α ground planes The electric field
+is foud by taking the vector two um of fields; onr
+due to the conductor and one due to its image the in
+ground plane. At the ground plane, Fig. 9.25, and
+for conductor α in air, the field is perpendicular to the
+ground plane and has α magnitude:
+260
+
+(.8 Vr. 90 η
+E='o V/Μ (9.98) 7ρ(9.93) τ
+The capacitance is:
+2ρ'eo
+C ln(2η/ρ) F/μ. (9.99) =
+55.6
+55.6 (2C pF/μ (9.100)
+ln(2η/ρ)
+Ii
+0
+/φ
+0
+'.
+Fig. 9.25 Conductor over α ground plane.
+Expreuuons 9.8.3 Symmetry of for
+Inductance and Capacitance
+good of The above expressions show α deal sym-
+metry betweeu the expressions for ca- inductance and
+This merely refiects the fact that the geo-
+metrical conuderatiomn that determine inductance also
+determine capacitance. In fact it can be shown that:
+π (9.10!) LC =
+and that, if one knows one the quantitites of (induc-
+tauce or capacitance) of α structrure. om can determine
+the inductance the other. In fact, one can determine
+of α structure or set of conductor by measuring the
+capacitance. This holds true only for cams where the
+mys- conductor In practical dielectric is homogeueous.
+diele-tric the total conductors, insulated using ternm
+space betwee conductors is not homogeeous.
+Dplaseinut C'mrnts 9.Α.4
+α If capacitor is connected to α changing voltage
+the current that flows throtgh the capacitor is propor-
+tional to the derivative of the voltage:

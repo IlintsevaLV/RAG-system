@@ -1,0 +1,20 @@
+DIRECTION OF FIELD
+τ
+EQUIPOTENTIAL LINES
++
+Compression of electric field around an aircraft. 2.2 Figure
+When the aircraft is attached to the leader, some charge (free electrons)
+will flow onto the aircraft, but the amount of charge which can be taken on is
+limited by the aircraft size. The measure of the aircraft'σ ability to store charge is
+as The capacitance of α con~plex object, such an aircraft, is its capacitance.
+impractical to calculate but may be estimated by comparing it with the easily
+calculated capacitance of α sphere of equivalent surface area in an infinite field
+in which no other charge centers are present. The capacitance of such α sphere is
+given by
+where
+[F] ) C capacitance (farads =
+α radius (meters) =
+Σ surface area (meters2) =
+eV absolute dielectric constant (=10-~/36ν for vacuum) =
+er relative dielectric constant with respect to vacuum =
+1 for air) (=

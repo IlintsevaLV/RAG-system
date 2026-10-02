@@ -1,0 +1,84 @@
+plete information o, charactiktics, curves similar V-I
+to Fig. are supplied. 17.15
+MOV devices used for ac power Large, high energy
+clamping volt- rated in terms of the systems are often
+amperes, and such devices age when carrying 10 000
+are niov becoming available for aircrift use.
+MOVs in series: MOV devices of the same cross sec-
+prob- may be connected in series with no tional area
+thickness or volt- not have the sane lems. They need
+rating. age
+MOVs in parallel: When high energy surges must be
+suppressed, MOVs are sometimes connected in paral-
+lel, but care must be taken to match the char- V-I
+acteristics, as shown in Fig. 17.21. If not, one device
+may carry most of the surge current, defeating the pur-
+may in parallel. Exact matching pose of using devices
+not be necessary since by the time r.arrent becomes
+high enough to require parallel devices, the bulk resis-
+tance may dominate the performance and force current
+sharing. Use of one larger diameter disk, however, is
+preferable to using several small disks in parallel.
+Devioe #2
+Amperes
+of MOVs. operation Parallel 17.21 Fig.
+Wear-out: Specifications for MOV devices some-
+times specify a maximum allowable number of surges
+of specific amplitude. This is sometimes taken as in-
+their "worn out", loose that MOVs become dicating
+non-linear properties and are no longer capable of pro-
+tecting against surges. not The factor that This is so.
+may change after many surges is the leakage current
+at operating voltage. It may increase, but the MOV
+still retains its non-linear characteristic and its ability
+to protect against surges.
+Turn-on voltage: Sometimes the characteris- V-I
+made and discussions linear plots on tics are presented
+about the "knee" of the curve or the voltage at which
+are misleading MOV "turns on." Such discussions the
+since the so- called "knee" is an artifact of the scale
+used for plotting current. The current is an exponen-
+tial function of voltnge and plotting the same function
+
+to a different current scale would ir licate a different
+"knee." Also, discussions of "turn-on" imply a switch-
+which the mechanism of conduction by ing mechanism
+a There is no more from one state to another. changes
+for an MOV device than there "switching" mechanism
+is for a semiconductor diode.
+Failure mode: In response to a massive surge current
+fail open circuit. More MOV disks may shatter and
+excessive con- fail by they are caused to commonly,
+the disk and current that fuses voltage and tinuous
+causes it to fail shorted. Sometimes the heat is suffi-
+cient to melt the solder holding the leads to the MOV
+disk and the device fails open circuit. Whether fail-
+open or fail-short is the preferred mode depends on
+the designer's preferences and requirements.
+varistors: Advantages of metal oxide-based
+1. Bilateral devices.
+2. Small size.
+3. Easily mounted. One common configuration is
+very similar in appearance to a disk ceramic ca-
+pacitor.
+drops Self-extinguishing. When applied voltage 4.
+below the voltage for which the device is rated,
+they conduct very little current.
+5. Inherently fast response time.
+and capability. The current power-handling 6. High
+energy handling capability is second only to cer-
+tain types of spark gap. MOVs gives a higher
+ratio of energy absorbed to energy reflected than
+do conventional spark gaps. Moreover, the energy
+is absorbed throughout the buik of the material
+narrow P-N junction. not concentrated in a and is
+Disadvantages:
+1. High capacitance.
+2. Not too suitable for operating voltages below
+about 10 volts. Minimum clamping voltages are
+on the order of 30 volts.
+17.4.3 Zener-Tyrpe Diodes
+This category includes all single-junction semi.
+conductor devices such as rectifiers, in addition to the
+Zener type diodes. While other semiconductor devices,
+448

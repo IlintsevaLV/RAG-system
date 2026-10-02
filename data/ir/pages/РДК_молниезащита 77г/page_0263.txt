@@ -1,0 +1,44 @@
+8 CHAPTER
+BY VOLTAGES AND CURRENTS INDUCED LIGHTNING
+Definition and Elementary Considerations 8.1
+effects The term of lightning refers to the damage to or indirect
+malfunction of electrical equipment that results from lightning flashes. These
+effects may range from tripped circuit breakers to computer upset, to physical
+damage to input or output circuits of electronic equipment. There may be other
+indirect effects of lightning flashes that pertain to aircraft safety, such as flash
+blindness of the crew or acoustic shock waves. These effects, however, are not
+treated in this chapter. Included in this definition and discussed here are the
+voltages and currents induced by lightning on the electrical wiring of the aircraft,
+regardless of whether or not such voltages and currents cause damage or upset of
+electrical equipment.
+The demarkation line between direct and indirect effects may be
+somewhat arbitrary in some instances. An example might involve a lightning
+flash terminating on a wing tip navigation light. In this case, the burning or
+blasting damage to the light fixture would be considered a direct effect of the
+If the lightning flash were to contact the filament of the bulb and lightning.
+inject current into the wiring, there would be produced electrical effects ranging
+from overvoltage breakdown of the insulation at the socket to tripping of
+remote circuit breakers or upset of equipment, effects of the resulting surge
+voltages on the power system. All of these effects will be considered indirect
+effects in this discussion, even though the initiating event was the direct
+injection of current into the filament. Another hypothetical possibility would
+involve a lightning flash that passed close to but did not contact the aircraft. The
+changing electromagnetic field produced by that flash might upset electronic
+equipment. The circuit upsets produced by such a flash would clearly be of an
+indirect nature, since there was no direct involvement of the aircraft with the
+lightning flash. Usually, however, the indirect effects of concern are produced by
+flash that contacts the aircraft. a
+In this section as a whole we shall attempt to explain some of the electrical
+phenomena involved and to discuss some of the analytical techniques through
+which indirect effects may be analyzed, some of the measurements that have
+been made on aircraft to determine the nature of the indirect effects, and some
+of the measures one may take to control the indirect effects of lightning.
+The arts of analysis and control of indirect effects are embryonic at
+present. Accordingly, the analytical procedures to be described are not as well
+developed as might be desired. Neither can very many examples of successful
+protective measures be given, since protective measures against indirect effects
+are as yet seldom included in aircraft design.
+The problem of analysis of indirect effects is a complex one, but,
+fortunately, analysis can be divided into several stages. These stages are
+8.1. illustrated in Figure The overall task is to determine how the lightning
+leads to voltages and currents on the internal wiring. The individual current, IL,

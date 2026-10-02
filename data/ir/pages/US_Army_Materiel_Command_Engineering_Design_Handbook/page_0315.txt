@@ -1,0 +1,50 @@
+LOAD OR ANCHOR START AND WARMUP
+PELSAS EQUIPMENT PAM DESIGNATION SGLON SH Λ TA WAITS VARS WATTS VARS
+65 ы 15Μ 5Σ 18Μ 55 6.Μ 15Μ55
+3 GUN SYSTEM E0Γ285ε3 116 SC.0 •
+, 02 PNEU. PRESS. ND. 2808-22 2 115$ 0.20 3.0 σ 1.2 5.9 5.9 6.9 1.2 1.2 1.2 5.9 6.8 5.9
+τ Δ182(PxY. OTY. INDICATOA AENVO 64-001 2 115 0.71- 1 16.8 16.8 16.8 16.8 15.8 15.8 15.0 15.8 15.8 15.8 16.8 15.8
+2 E32 NAV. COMPUTEH 6712-23 15 0.81- 00.3 χ 197.6 97.5 97.5 60.0 50.6 50.5 97.5 97.5 87.5 50.050.0 50.6
+2 TF418 VENTUAI HEAYER 29036-32-5 1 115 1.0 600
+3 TFS22 LEAD CCMPUTING SET AN/ASG-33 , 200 0.0 300 Δ
+2Μ 101 SEAT ADURST DML Β06185 1 2 115 0.80. 393 σ 630 63 8.4 472 47.2 6.3 630 63 472 47.2 6.3
+1 TOTALS
+2 TOTALS
+3 TOTALS
+Figure 7 4. Example AC Losd Analysis Format
+mina! blocks and/or connector restrictions, The exciter functions so as to supply DC to the
+temperature-altitude environment, availability, and main field winding. The poles are on the stator and
+characteristics of air or liquid cooling on α disturbed winding in elots on the ρ: or. Both
+8. Adequate systenn growth — designer mnust con- mombers are laminated, as in the main _encrator.
+sider future growth when selecting & power scurce. Thc exciter is an AC gencrator, and providas DC to
+the main field through ≈ bridge of rotating rectifiers.
+7-2.2 AC GENERATORS (ALTERNATORS) In order to &chieve α self-sufficient generator —
+An AC power source capable of insuring α power ν ν
+quality equal to, or better than, that specified by —
+MIL-STD-70σ can be ochieved best by utilizing the citer completes the electsical portion of the AC
+attributes of the conventional salient-pole, synchron- generator. This gencrates cither polyphase or single-
+ous alternator. phase AC power, which is rectified either within the
+The helcopter AC gonerator is comprised of the generator (stationary rectifiers mounted within the
+main generator, an exciter, and, in the majority of generator case) cr in the voltage regulator (par.7-4) to
+cases, α permanent-magnet pilot exciter sharing α provide DC excitation power to the exciter. De-
+common housing and shaft. Modcrn-day alternators pending upon system requirements, the magnetic
+are brushlazs; ι.ε., no brushes, slip rings, or commu- pilot exciter may provide controi power, protective
+Cators are canployed. circuitry, or operational power necessary for proper
+functioning of the distribution system.
+7.2.2.1 Electrical Desigr:
+The main generator consists of α stator and α rotor. 7-2.2.2 Mechanical Design
+The stator is built of steel laminations that are uni- AC generators are housed in either aluminum or
+formly stotted on the inner periphery and contaan the magnesiuns housings. The sclection of housing
+output windings. These windings are connected in α material is dictated by weight and/or vibration
+normal threc-phase, four-wire manser, and are dis- requirements. Lamination steel for the magnetic cir-
+placod so as to minimize distortion of the output cuit is cither α silioon or cobalt alloy. The latter con-
+voltege waveform. The rotor or field consists of lami- struction resuite in α relativciy expensive generato.,
+oon but provides α weight advartage o. almost 30% over α
+nunber of poles and the rpm fix the output fre- syatem using silicon stecì punchingo.
+quency. The main ficld wirding is wound on the rotor Praccical generator spoeds range from 6000 to 12,--
+poles and is excitod with DC. Thie provises the 000 rpm for 400-Hz output. Variabic-frequency
+magnetomotive force neceasary to provide sufficient machines in ratings to 120 kVA are prectical to
+lines of force (flux) in the magnet circuit of the main speods of 20,000 rpm. Applications of &000 to 12,000
+ganerator for adequste, all-losd-condition, voltege rpm require grearz-lubricated ball bearinga with
+gereration. braring lives of 5000 kr in an average helicopter en-
+76

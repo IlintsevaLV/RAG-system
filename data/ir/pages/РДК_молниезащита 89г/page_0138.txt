@@ -1,0 +1,77 @@
+where
+Amperes I=
+seconds = τ
+C cal/γ/degree heat specific = - '
+3 γ/cm - density Δ =
+cin • π = resistivity-ohm
+area. =.cross-.sectional Α
+proportional to the Temperature rise is directly
+propor- inversely current and lightning the of square
+square of the cross-sectional area of the tional to the
+equa4ion is expressed in terms of unit conductor. The
+uniformly along the, length. Energy will be deposited
+in α uniform tern- length of tlie condutctor, resulting
+length. perature rise along the
+shortcom- As it stands, however, Eq. has two 6.3
+ings:
+ι. It assumes there is no heat loss from radiation.
+with not change does resistance that It assumes 2.
+temperature.
+be lost during the short du- Since little energy will
+α has first shortcoming the flash, of α lightning ration
+tern- the predicted accuracy of on the negligible effect
+on temperature, perature rise. Resistance does depend
+the amount afects also resistance and, since however,
+in the con- be deposited that can energy of electrical
+for this dependency. important to account ductor, it is
+as α function resistivity done by expressing This can be
+temperature, of
+and Electrical Physical
+Aluminum Copper
+2.8 ξ 1.72 ξ 10-6 10-6 Resistivity
+fl-cm
+0.00429 0.00393 Temperature coefficient
+resistance, Α of
+(1/dve C)
+10-4 ξ 10-' 0.164 ξ 0.254 coefficient Thermal
+(1/degree C)
+0.215 0.092 Specific heat
+cal/lgmi degree C.
+2.70 8.89 Density (γ/cmn) .
+1084 Melting point 660
+(degree C)
+
+(6.4) Π201 π= + AAT]
+where
+20*C resistivity at = Π20
+of resistivity. coefficient Α = temperature
+6.4 into Eq. 6.3 gives: Incorporating Eq.
+AT 0.2389pcD[1 +,\AT] (6.5) idt I -
+cDAJ
+everything but in Eq. is α constant, AT 6.5 Since
+by combining the conductor it is most easily solved
+specified action dimensions, material properties and
+α constant, in the following expression: integral into κ,
+(6.6) AT κ[1 + •AT] =
+κ - (6.7) AT
+1 -Ak
+is given by the right side of Eq. 6.5. where κ
+for rises temperature calculated shows 6.6 Fig.
+of action integral of the as functions various metals
+has been calculated from Eq. the current. The data
+design purposes. used for may bi and 6.5
+needed in Eqs. properties electrical Physical and
+metals and electrical structural 6.6 and 6.7 for common
+The melting in Table 6.1. are provided conductors
+are also provided. of these metals points
+Table 6.1
+Properties Common Metals of
+Silver Titanium Stainless Magnesium
+(304) Steel
+ξ 4.45 ξ 1.59 ξ 10-6 10-ι 10-6 42 ξ 72 10-6
+0.001 0.0165 0.0041 0.0035
+10-' 0.019 ξ ξ 0.025 ξ 10-' 0.120 ξ 10" 0.085 10-'
+0.245 0.058 0.124 0.120
+7.90 1.74 10.49 4.51
+650 962 1670 1150
+121

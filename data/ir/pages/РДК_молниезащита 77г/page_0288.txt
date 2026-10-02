@@ -1,0 +1,7 @@
+= 0 POTENTIAL
+9.7 rectangular grid for evaluation of Laplace'σ equation. Α Figure
+Π, potential and all the grid points that lie on the return path would be assigned
+α potential zero. Laplace'σ equation in two dimensions can be shown to be
+approximately
+From this it follows that Laplace'σ equation is satisfied if the numeric values at
+four points surrounding α central point have values that satisfy the equation

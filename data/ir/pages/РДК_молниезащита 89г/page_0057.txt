@@ -1,0 +1,88 @@
+fact that storms usually can be, and are, avoided. Air-
+craft constrained to operate at low altitudes and along
+fixed corridors tend to be struck more often. Military
+aircraft tend to be struck less often than commercial
+aircraft, since they are flown in training flights, which
+are usually scheduled during good weather, much more
+often than in combat.
+The question of how often aircraft encounter light-
+ning is discussed further in Chapter 3.
+Engineering 2.7 Models of Lightning
+27E ee rg Μ1987.
+Flashes
+current the of models several gives in [2,.26] Pierce
+flashes. lightning severe and typical both in flowing
+the to which models the lightning influenced These
+in it and [2.34] 2.44, Fig. designed, was Shuttle Space
+presently models the lightning influenced strongly turn
+certification of aircraft. These are dis- used for the
+ideal- are of these All chapters. cussed in subsequent
+As ized models for purposes of design and analysis.
+ef- (usually worst case they duplicate the effects such
+fects) of lightning, but the chance of any real lightning
+flash producing currents of this exact shape is usually
+zero. The models shown in [2.26] should not be used
+as specifications for purposes of testing since it may be
+very difficult and expensive for them to be produced in
+α testing laboratory. Waveforms to be used for speci-
+fications and testing are discussed in Chapter 5.
+8 So kA
+irst F
+return LF
+sre7 kAI
+"C I kA
+First stroke 400
+intemnediate • Δ
+ent
+Cont,,inng χ
+phase first
+uret
+MS inms5 5 σ 100 16 σ 2 ps
+~ ~~~τ J al 17μ sTO 2 = μ σ 3)0
+Tine increasi,,γ
+Fig. 2.44 Lightning model
+
+REFERENCES
+2.1 R. H. Lightning, Volume 1: Physics of Lightning,
+Golde - Editor, Academic Press, London and New
+York, 1977. Volume 2 of the series deals with
+lightning protection.
+2.2 Μ. Α. Uman, Lightning, McGraw Hill, New York,
+1969.
+2.3 Μ. Α. Uman, Vol. 39 in The Lightning Discharge,
+International Geophysics Series, Academic Press,
+2.4 Environment, National The Earth'σ Electrical
+1986. DC, Press, Washington, Academy
+Long the and "Lightning Basil Schonland, Sir 2.5
+Spark," Electric 19, of Science Advancement
+306-313. pp. 1962, November
+Problems," Thunderstorm "Some Wilson, 2.6 C.Τ.R.
+Vol. 208, 1, Journal of Institute. the Franklin
+1-12. pp. 1929, July
+Dis- 2.7 C.Τ.R. Wilson, "Investigations on Lightning
+the Electrical Field of Thunderstorms," charges on
+Se- Proceedings of the Royal Society of London,
+ries Α, 221, 1920, pp. 73-115.
+2.8 Sir George Simpson, "The Mechanism of α Thun-
+derstorri," Proceedings of the Royal Society of
+London, Series Α, 114, 1927, pp. 376-99.
+2.9 E.Α. Evans and K.Β. McEachron, "The Thun-
+derstorm," Review, September General Electric
+4 1 3 25 1936, pp. - .
+First stroke
+Second return stroke ----
+kA 25
+3.5 kA
+Sectnd Second stroke Second stroke RI Setr intermediate continuing
+j-AIII current current 1%. 1 Surgke
+Α
+410 K F
+--
+current second Ph-ase continuing First stroke
+ins 39
+•- - - - ' ' - τ -- -
+0σ=O 2 .σ lOO1As Sins 165
+τ --
+IS
+for the Space Shuttle [2.30].
+38

@@ -1,0 +1,39 @@
+pconductor
+0 1 250,1ns 5 μ2.5 em
+Negative Swca vresh α pe streamer streamer Trichel cusw enth Π
+-mA 2
+Fig. 1.7 Negative corona.
+electrons positive Positive Corona Processes 1.4.2
+positive ions drawn into
+Positive corona occurs when the electric field at electrode +• +-• .channel
+++ + the surface of the electrode is positive, either because +
++ + + the electrode is energized with positive voltage or be- .; - + cause it is grounded and in the electric field produced
+by an electrode energized with negative voltage. It has
+many of the same characteristics as negative corona,
+but the electrons and positive ions are accelerated in positive irs sweep from gap
+the opposite direction. The mechanism is illustrated
++ + + + on Fig. 1.8. The amplitude of the current pulses .+-
+++ + + + + is generally much larger than occurs with negative 1+
+corona, but the pulses do not occur with as high α rep- " " " -
+etition rate. The initial electron is drawn towards the
+positive electrode and the positive ions formed by colli-
+sion are repelled away from the positive electrode. 'Ihe
+field strength at the surface of the electrode diminishes Fig. 1.8 Motion of ions for positive corona.
+and the discharge stops until the charged particles are
+swept from the space around the electrode. The elec-
+tric field beyond the cloud of positive ions is enhanced The maximum repetition rate is about 200 Hz for large
+because it responds both to the positive charge on the electrodes and 2000 Hz for point electrodes. The some-
+electrode and to the positive space charge. In this re- what longer rise and decay times might imply that the
+spect it is unlike the negative case where the positive pulses produce less radio interference than negative
+space charge acts to lower the intensity of the field pro- corona pulses, but the higher amplitude of the current
+duced by the negative charge on the electrode. This pulses makes the absolute interference levels higher.
+enhanced field helps α positive streamer to propagate As the voltage is increased the corona glow forms
+farther than would α negative streamer, an ionizing layer (Hermstein'σ glow) and the discharge
+The positive coronas have three distinct forms; current consists of small ripples at α frequency of up to
+Hz onset pulses, Hermstein'σ glow and positive streamers. 2 ξ 106 superimposed on α quasi-dc current. As the
+Onset pulses appear as streamers in α stem with some voltage is increased still further the streamers rapidly
+branching, and α high repetition rate gives the corona extend even further, the velocity of propagation being
+α brushlike appearance. From an 8-mm sphere cur- 20 to 2000 cm/ps.
+and rent amplitudes have been measured at 0.25 Α. Mean Sketches of positive corona the current wave-
+rise time is 30 ns and mean decay time is about 100 no. shapes are shown on Fig. 1.9.
+5

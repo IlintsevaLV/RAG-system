@@ -1,0 +1,78 @@
+through the external load impedances produces α volt-
+age between the signal conductor and the shield. An
+alternate source of coupling, shown in Fig. 15.20(β),
+involves the voltage on the shield itself. Noise currents
+flowing through the external impedance of the shield
+may, if the shield is not perfectly grounded, produce
+α voltage between the shield and any external ground
+structure.
+------- O----R
+Σ0 0
+_ ,' ... - Α
+-------- -
+(β). ..
+Fig. 15.20 Coupling via capacitive leakage
+through holes,
+(α) From an external source
+(β) From voltage on the shield
+shield Leakage due to voltage: External impedances
+between the signal conductor and the shield, as well
+an the inherent capacitance between the shield and
+the signal conductor, force the signal conductor to as-
+sume nealy the same potential as the shield. Because
+the signal conductor is then at α potential different
+from the surrounding ground, dielectric flux can pass
+from the signal conductor through the holes in the
+shield and to ground, the dielectric cu,-rents again giv-
+ing rise to α voltage between the signal conductor and
+the shield.
+for Equivalent circuit capacitive leakage: An equiva-
+lent circuit for capacitive leakage, Fig. 15.21, is simply
+α transfer capacitance, (or transfer admittance, C ,
+12
+in the frequency domain). It depends on jwC,,, the
+total area of the holes in the shield and on the capaci-
+tances between the shield and the conductor, and C ,
+12
+the shield and the ground return path, Cy. The trans-
+fer capacitance is not very sensitive to weave angle, as
+was ihown in Fig. 15.17.
+
+C
+codtr
+shield
+Fig. 15.21 Equivalent circuit for caacitive leakage.
+1
+Determination of leakage capacitance: Vance [15.6]
+also gives expressions relating transfer capacitance to
+shield construction. Some cables use α layer of metal
+foil, or α layer of metallized Mylar under the braid to
+improve the optical coverage and to reduce the transfer
+admittance. The transfer properties of such shields are
+best determined by measurement.
+Relative order of importance: In most cases the ef-
+fects of magnetic leakage are probably more important
+than the effects of capacitive leakage.
+shown as shields, Tape-wound shields: wound Tape
+in Fig. 15.22, are often used where flexibility of the
+shielded cable is required. The shield may be formed
+either from α narrow metal sheet spiraled around the core or from α carrier of fine wires, again spiraled
+around α core. Flexible armor and flexible conduit,
+which is normally used primarily for mechanical pro-
+tection, may also be analyzed as tape-wound shields.
+The tape-wound, or spiral-wound, shield is α rather
+poor shield for preventing coupling of current from the
+shield onto the internal conductor becaus the shield
+tends to behave as α solenoid wound about the internal
+conductors. There is thus α rather large transfer cou-
+pling term relating the internal voltage to the shield
+current. This is particularly true if the tape is wound
+without any overlap because in this case the entire ca-
+ble current is forced to spiral around the core.
+Fig. 15.22 Tape-wound shield.
+Vance [15.6j analyzes α cm I radius cable wouvd
+with 0.25 mm thick, I cm wide copper tape, the tape
+applied without an owrlap. The dimensions of the ca-
+ble are thus similar to those of the braided-wire shield
+used for the calculations of Fig. 15.17. The transfer
+407

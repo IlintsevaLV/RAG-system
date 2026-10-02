@@ -1,0 +1,43 @@
+oo τ Data -Test 500 - ..----.-.. :* :00..... E.trapolated
+200/
+70
+.. .... . .. ...... ..
+10
+10
+0.0001 0.001 0.01 0.1 1 10
+TO TIME FUEL IGNITION - THRESHOLD Second@
+Fig. 7.12 Coulomb meltthrough and ignition threshold for aluminum skins (2024 Τ3).
+Pressure effects: All the data reported on melt- of titanium is higher than the fuel ignition tempera-
+through of fuel tank skins has been taken on test pan- ture, it is not necessary for α hole to be melted corn-
+els in ambient conditions, that is, equal pressure on pletely through for ignition to occur, but only that α
+both sides of the panels. Many aircraft fuel systems hot spot be formed on the inside surface. The lower
+maintain some air pressure in the tanks. Fighter air- thermal conductivity of titanium prevents rapid heat
+craft use pumps to supply pressure which is used to transfer away from the arc attachment point and ac-
+force fuel flow under extreme atitudes and manuvers. counts for the generally lower coulomb ignition thresh-
+Most other aircraft fuel vent systems use ram air vent olds than those for aluminum.
+systems which provide some level oressure on the tank.
+Pressure inside the tank on which burn-through Ignition thresholds for skins: There CFC are several
+tests are being made makes α big difference in the level mechanisms which .nay result in ignitions of fuel va-
+at which α hole appears. Α lightning arc may heat the por beneath carbon fiber composite (CFC) skins. One
+surface to α point where metal is nearly molten, but if of these, discussed in Chapter 6, is the punch through
+there is no pressure, the surface tension prevents the caused by ohmic heating of the CFC fibers resulting
+molten metal from flowing away and leaving α hole. in pyrolosis of the resin, and the shock wave accompa-
+Α very modest amount of pressure, however, suffices nying high peak currents, such as SAE Components Α
+to push the molten metal away and leave α hole. Re- and These Δ. effects can punch comparatively large
+cent tests, not yet released for publication, showed that holes in CFC skins, producing large areas of contact
+with α gauge pressure of 34.5 kPa (5 psig) holes could between fuel vapors and the hot lightning arc. The
+be burned in α 2.3 mm (0.090 in) aluminum skin by α other mechanisms include hot spot formation and fiber
+23 C discharge. With no pressure, C was 66 required breakage.
+to produce α hole. There have been fewer temperature measurements
+This problem has not yet been addressed in the made on interior CFC skins than on aluminum. An-
+requirements for testing fuel systems, and was not con- alytical studies by Lee and Su are described in [7.35].
+sidered in the data presented above. This phenomenon Tests conducted by Schulte [7.36] on 0.125 inch thick
+remains to be investigated more thoroughly. It is not aluminum and CFC panels showed that for the same
+α factor that was considered in previous tests to deter- applied test, temperatures of 100 to 150*C were reached
+mine burn-through thresholds. on the interior surfaces of CFC panels while aluminum
+Ignition thresholds of titanium skins: Oh and Schnei- panels of the same thickness reached teperatures of
+der have similarly determined the coulomb ignition 160 to 200*C. Panels of 0.25 inch thickness reached
+thresholds for titanium skin materials of various thick- temperatures of 70 and 80*C respectivily. The major
+difference was noted in the time to reach peak tem- nesses, as shown in Fig. 7.13 [7.341. They and other re-
+The CFC panels responded 100 times slower confirmed that, since the melting point perature. searchers have
+183

@@ -1,0 +1,109 @@
+I
+rismn critical structural menbar, and reduces the
+that single pirobability will any projectile stafagbal
+hit them, but it also may increae the vulnerability of
+helicopter the to any projectile that does penetrate
+the citical cot .
+4aign A that buries w.rienutrations of sensitive
+components u aide the beL*pler core. or even hides
+thern layer behind a single protection, of structural
+may affect servic-bility. maintenance and Analy-
+tical procedares for evaluai•g these trade-offs are
+well known, but !he importance that should be
+anigned to the various•values in the analysis is not so
+firmly established,
+Ballistic resistance is the construction of critical
+components such that they are massive enough to
+defeat the stated threat; for example, a control rod
+constructed out of steel armor material. opposed As
+to this. ballistic tolerance is the construction of a
+component such that the projectile passes through
+sill but the iten functions: for example, a multipivot
+point bellcrank of a nonshattering composite materi-
+al.
+Since vulnerability reduction by inherent design is
+discussed under the appropriate subsystems, par. 14-
+3 generally concentrates on the armoring method.
+14-3.2 DEVELOPMENT OF VULNERABILITY
+REDUCTION SYSTEMS
+Designing for vulnerability reduction, irrespective
+of environment, involves an analytical procedure that
+begins with a study of effects of enemy weapons. The
+designer then determines how the existing or pro-
+posed helicopter system couples into, or responds
+when exposcd to, these effects. The uncertainties in
+the first group of data are minor since weapon effects
+are usufdly well documented; but in the area of
+system coupling, they are very great, especially for
+systems in the early sPages of design.
+be ballistic vulnerability reduction program A shall
+assess development program to with the conducted
+effects of design concepts, and provide analysis and
+guidance for controlling and reducing vulnerability
+by the most effective means. A vulnerability analysis
+of the complete aircraft is conducted as outlined. The
+definitions, criteria, and general methodology have
+been standardized by triservice agreement.
+14-3.2.1 Vulerability Analysis
+The vulnerability analysis is presented in the form
+of vulnerable area as a function of striking velocity
+for each threat and each category of kill. The key
+threats to be considered in this study area are general-
+ly 7.62 mm API, and 23 mm HEI, (low and mid-
+
+AMCP 7o6-202
+intecrity threats). The striking velocities to be con-
+expected en- velocity, velocity at sidered are muzzle
+gagement range, and velocity at maximum effective
+stated. otherwise range unless
+which The categories of il11 are mutually exclusive
+are attrition, forcud landing, and mission abort. Each
+is defined:
+1. Attrition. Damage to the helicopter which
+causes the helicopter to crash and become a complete
+ki after the terminal balistic damqg occurs.
+2. Forced Landing. Damage to the helicopter
+whkh "aum the land pilot to (powered or un-
+powered) because he receives some indication of
+damage red light, (a low fuel level warning, difficulty
+controls, in operating loss o" power, etc.). The extent
+of damage may be such that very little repair would
+be required to fly the helicopter back to base; but, if
+the pilot continued to fly, the aircraft %ould be
+destroyed. The forced landing kill category includes a
+forced landing at any time damage occurs after
+(within specified design minion duration).
+Mission 1. Abort. Damage to the aircraft which
+causes the unable aircraft be to to complete its
+defined mission.
+following The procedure and methodology are
+used in :hc vulnerability analysis.
+I. Target Technical Description. Detailed infor-
+mation on the construction and operation of all the
+systems, subsystems, and components form the major
+portion of the target technical description. The
+description includes a tabulation of comn all critical
+ponents, listing their title and function along with the
+failure mode; and the cause and the effect of a failure
+on the components, subsystem, and system (see Table
+14-2). All potential damage mechanisms are con-
+sidered as well as secondary damage effixts such as
+fires, explosions, and leaking fluids. Scik drawings
+with dimensions of the aircraft configuration with
+components and their its major systems locations of
+of these presented areas determine the are used to
+components for up to eighteen (18) attack directions
+elevation 0,0; 45,0; 90,0; 135,0; 180,0; (i.e., azimuth,
+225,0; 270,0; 315,0; 0, -45; 45, -45; 90, -45; 35,
+-45; 180, -45; 225, -45; 270, -45; 315, -45; 0
++90; and 0, -90). Normally, the number of aspects
+used are restricted to the cardinal views (frorst, rear,
+left side, right side, and bottom); more views used anre
+where required for improved accuracy. If a computer
+is used, these drawings can be used to determiie the
+input data for tGe computer. The drawinp also
+should provide data concerning the shielding offered
+to individual target components by other portions of
+the vehicle. Additional detailed drawings may be re-
+quired for critical components. citical Examples oi"
+14-13

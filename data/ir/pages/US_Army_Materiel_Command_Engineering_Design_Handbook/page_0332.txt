@@ -1,0 +1,109 @@
+Σ'qk
+types used wit 4 Pro.:
+itaxim.urn 5. in- or of antennas separation -patiai
+cables tet fetrencproduc'iog
+away equipment nonintcrferinig of Cr]tOaling 6.
+sources. ý;nowvn interference from
+Satirce Suppresslon and SRsceptibity Reduc- 74.5.3
+tion
+routing to aid cable using physical isolation After
+for EMI additional techniques maximum extent, the
+reduction include: source and susceptibility
+Grounding and bonding Λ.
+2. Cable and cquipment shielding
+3. Filtering,
+of ap- Source suppression is the application
+or filtering at the bypassing, decoupling, propriate
+at α point of maximum sus- source of interference or
+ceptibility.
+7-6.5.3.1 Groundlig and Bonding
+helicopters is the fundamental requirement for Α
+low-impedance of α well-bonded, establishment
+. %ν;- ,,ρ-...ll! Α exte•ν•δ• all τ ground pOmni τ,
+re- plane prevents EMC problems potential ground
+ground and potentials ground from unequal suiting
+of equip- loop currents, and reduces the possibility
+energy undesired or rmceiving ment transmitting
+applications are and filter that shield while insuring
+effective,
+sub- various in which method to the refers Bonding
+integrated or conneced are or structures systems
+the de- avoids Bonding mechanically. and electrically
+potentials between adjacent velopment of electrical
+of flow hl,mogenous provides and parts, metallic
+between currents subsysiteis and radio frequency
+provides detail requirements MIL-Β-5087 structures.
+systems. aspects of airbornt for all bonding
+7.6.5.3.2 Stdelding
+suppression in- of practic.λ EMI Α major area
+or cable of component the application volves
+requires investi- use of shielding Effective shielding.
+of of the nature signals, and interference gation of the
+the of whether The question sl.ielding. metallic
+or re- rt ceptor is prvented from radiating source or
+attention. deserves equel signals undesited ceiving
+;nter- the upon dependent is Metallic shielding
+ε.γ., the electrical or mag- sgnal component, fering
+for which α desired The lowest frequency nctic field.
+"shielding of determines the type required normally is
+) shielding material.
+to can be used High-permeability materials im-
+prove shielding effcctiveness for low-frequency, low-
+magnttic fields. Aluminum, copper, or impedance
+
+MqP 706-202
+audio above shielding will provide materials ferrous
+fields). (electrical frequencies
+is de- interference used to contain Shielding
+attenuation (absorption) primarily upon the pendent
+an becomes loss Reflection the shield. of properties
+important consideration for exclusion interfering of
+signals.
+enclosure can: pro- Discontinuities in α shielded
+radiation. Venti- path for EMI vide an entry/exit
+dial access χ*vers, panel meters, lation openings,
+containment switches are possible EMI shafts, or
+problem areas.
+Interference coupling of electronic subsystems can
+be reduced by careful selection of interconnecting
+to cables. Types of interconnecting cables available
+twisted pair, unshielded wire, the designer include
+(single or double), twisted shielded pair, shielded wire
+multiple shield). (single or aid coaxial
+cables to reduce The selection of interconnecting
+interference coupling and audio crosstalk will be, de-
+the operating fre- upon physical isolation of pendent
+level&. the power and susceptibility range, and quency
+protection wire provides α shielded In general.
+the twisted pair re- against eietricatl fiellds, whilz
+fields. to magnetic susceptibility duc-σ
+from cn- maximum EMI shielding To achieve
+to termi- necessary it is shielded cables, and closures
+unipotential to the helicopter cffectively natc them
+single-point and Both multipoint plane. ground
+design features. certain provide systems ground
+pro- may (floating shield) grounding Single-point
+of inter- possibility where the the best approach vide
+cir- sensitive low-frequency ference coupling with
+in cable, α shielded When concern. of is α matter cuits
+the orircit, is ground-δ at both ends for α sensitive
+plane in the ground circuits, power frequencies return
+signal interference in the induce audio frequency can
+wires.
+equipment is dis- When electronic and electrical
+shown that areas, experience has tributed over large
+for RF frequenries. multipoint grounding is superior
+at shield grounding involves Multipoint grounding
+points at immediate all cables, and ends of all both
+through equipment. runs the cable where
+for in- of proper shielding techniques Α ,plikation
+in the be performed should alleviation terference
+areas: following
+component source or sensitive I. The radiation
+bonded metallic in α properly should be installed
+limited openings. with housing
+field should directed away be 2. The magnetic
+by low- use of components or wiring from sensitive
+reluctance, high-permeability matarial.
+shielded, or shielded and twisted cable 3. Twisted,
+7-23

@@ -1,0 +1,61 @@
+and the shunt admittance per unit length is
+Y = Γ + jωC. (9.38)
+For α conducting wire in α horsogeneous medium the
+two propagation constants will be equal at the surface
+of the codueter.
+9.5 Geometric Mean Distances
+Geometric mean distances and radi [9.1] are α
+mathematical concept of particular use when evaluat-
+ing the impedarice of conductors or groups of conduc-
+tors. They wili be introduced here as α mathematical
+device and the results used later when discussirg in-
+ternal impedance af conductors.
+The geometric mean distance, GMD; from point
+Π to the three points 1, 2 and 3 of Fig. 9.1 is defined
+as:
+GMD = (Σ1Σ2Σ3)ι/3. (9.39)
+If there were ν points, the GMD would be
+GMD = (Σ1SSz ·.Sn)1/ν. (9.40)
+Α circle can be considered as an infinite number
+of points on α line, while an annulus or disk can be
+consicered as an infinite number of points over an area.
+If all the points haye equal vreight, the GMD can be.
+considered as an effective distance from the assembly
+of points to an external point. For circular geometries
+the GMD to an external point is the distance from
+the point to the center cf the circle.
+Σ
+Σ 2
+3
+3
+Fig. 9.1 Geometric mean distance.
+The concept of GM Δ can also be extended to de-
+fine the effective distance of all the points from each
+other. That distance is called the geometric mean ra-
+dius, GMR. With regard to Fig. 9.2 the GMD is:
+GMD = [(ρ…ρ)1/(Σ2513σ1…Σ)]/ν (9.41)
+The GMR of some common geometries is given
+in Fig. 9.3.
+
+2ρ,
+σ 12
+er 2
+$13 Σ in
+2ρ 3
+2ρ α
+Fig. 9.2 Geometric mean radius of α group of
+conductors.
+2R GMR=R
+cirole
+2R GMR = R !ν(1/4) = 0.7788R
+diak
+2R1 2R2
+annulu»
+GMR = Rj ln(R1) - R ln(R2) 1 2
+GMR=nrR(ν-1)j1/ν
+equally spaoed
+GM R = 0.2235(α + 6) − very nearly
+reotangle
+Fig. 9.3 Geometric mean radii of some
+common geometries.
+249

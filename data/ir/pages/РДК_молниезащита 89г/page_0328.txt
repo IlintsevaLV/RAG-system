@@ -1,0 +1,46 @@
+Variation with frequency: Figs. 11.6(α) and 11.6(β) 100 6
+show how these impedances vary with frequency. Fig. 0-Z1
+11.6(α) relates to α carbon fiber composite (CFC) sheet
+0.25 inches (6.35 mm) thick and having α resistivity 10-2
+5 ξ 10-5 ohm-meters, α resistivity typical of CFC ma-
+terials, while Fig. 11.6(β) relates to an aluminum sheet 10-3 *
+0.05 inches (1.27 mm) thick and having α resistivity of 1-
+(π = 2.69 ξ 10-8 ohm-meters) 10-
+Inspection of the equations and the figures show -
+that at low frequencies 5 both impedances reduce to α • 10-
+ 6 dc 10- value
+96
+1 Z, = Zt 10-7 thickness (11.18) 0.25 in -= .
+_ conductivity This low frequency or dc value has the units of ohms, =5 10-8 20 000 mho/μ ι
+but is generally specified as "ohms per square", that 10-0 1 1 1 1 1 1 1
+is, the impedance between opposite sides of α square 0 1 2 1 λ 5 6 1 7
+of any size. 10 10 10 10 10 10 10 10 10
+At higher frequencies the surface impedance rises (α) frequency - Hz
+and the transfer resistance falls. In the limit, the sur-
+face impedance approaches the value 100 IIj τ10-, thickness 0.05 in = Z, .(1.)
+10-2 conductivity =
+An alternative formulution is 7 3.72 ξ 10 mhos/mZS-
+Z 10 1 + (11.20)
+6
+o-5 where the 6 is the skin depth as defined in §9.4.5 by ' -7
+Eqs. 9.22 and 9.23.
+The surface impedance thus approaches the in- 10-6
+trinsic impedance of the material, has equal resistive •,
+. ZT
+and reactive components and has α magnitude that 10- .
+varies as the square root of frequency. The phenome-
+non is frequently referred to as the "skin effect." F
+Time domain formulation: and are de- Z.(ω) 100-0 ZI(ω)
+0 7 to 8 loU τ06 £06 fined τ0 in Eqs. to 11.15 and 11.16 by the poles, given 101 108 wI, 104
+by Eq. 11.17. The first order pole, given by (β) frequency - Hz
+(11,.21) 1 2 1
+Fig. 11.6 Frequency dependence of surface and
+is used to define the diffusion or penetration time con- transfer impedance.
+stant, ρ, according to (α) CFC sheet
+'δ)' (β) Aluminum sheet
+= • (11.22) - Μ ' In response to α step function of injected current, 4
+The penetration time constant can also be given as I. the current density J at any point ξ in the sheet
+(11.21: as given be then can -Λ
+where~~~(Z= (η1essaneo1tesufceadL4σ) 1RiF
+ι -(3-)11.25(
+312

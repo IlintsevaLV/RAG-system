@@ -1,0 +1,11 @@
+Oscillatory current injected. 17.13 Figure
+(a) ISC
+EOC (b)
+EOC (different time base) (c)
+developed as to what this open circuit voltage should be in terms of the
+corresponding short circuit current, although suggestions are given by Fisher and
+17.29). Martzloff and by Howell and Martzloff (Reference If the open circuit
+to modify the pulse generator voltage is too high, there are two alternatives: ( 1 )
+so as to reduce the rise time of the current pulse in the primary of the
+(2) to use a Zener diode or other clipping device on an auxiliary transformer, or
+winding on the transformer core. After the required short circuit current was

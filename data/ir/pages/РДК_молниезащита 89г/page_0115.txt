@@ -1,0 +1,109 @@
+Shortly thereafter, activities of the SAE committee.
+Shuttle document, α companion Verifica- Lightning
+published JSC 20007, was designated tion Document,
+document set forth the requirement This [5.12].
+It design. protection of the adequacy verifying
+evaluating for and methods waveforms test scribed
+indirect effects, against direct and protection equacy of
+methods to be used and also included certain analysis
+sections of effects evaluations. Some for indirect
+issue of initial in the included had been 20007
+07636.
+Shuttle environment: The lightning envi- lilhtning
+ronment contained in was also based upon 07636 JSC
+the known cloud-to--earth environment described
+Cianos and Pierce in [5.9]. The Shuttle lightning envi-
+ronment differed somewhat from the later SAE stan-
+dard in that several additional components were
+cluded in the idealized current waveform. The peak
+amplitude of the first return stroke (200 kA), total
+charge transfer and other key aspects were nearly
+same.
+in waveform described The idealized JSC 07636
+was intended for purposes of analysis and the intent
+was never to require that it be duplicated for tests, per-
+missible test waveforms being described in JSC 20007.
+It was also described, for ease of analysis, by straight
+line segments between specified break points. Some
+have ascribed undue importance to the segments
+breakpoints, even to the point of calling for test gener-
+ators that produce straight line waveforms. Such was
+never the intent of the idealized waveform.
+Because of the immediate need to translate light-
+ning standards into hardware design features, empha-
+sis in the NASA Shuttle Document Lightning Criteria
+was placed upon specific design guidelines. Less em-
+phasis was placed on test methodology, as this tech-
+nology area had not yet advanced to the point where
+standardized methods could be described.
+and ETDL'σ: The Shuttle lightning criteria TCL',
+and verification documents were applied in design and
+verification of the major Shuttle elements (Orbiter,
+External Tank and Solid Rocket Boosters). These
+documents placed α major emphasis on protection
+against indirect effects, and required the establishment
+of Transient Control Levels (TCL'σ) and Equipment
+Transient Design Levels (ETDL'σ) for flight critical
+electrical and avionic systems. The TCL/ETDL con-
+cept, described in [5.13] and [5.14] is an attempt
+provide α lightning protection philosophy for electronic
+equipment similar in concept to the insulation coordi-
+nation philosophy used in the electric power industry.
+This methodology is becoming more widely used
+in aircraft lightning protection design and certification
+programs and establishment of TCL'σ and ETDL'σ
+
+called for in the forthcoming ad- one of the procedures
+of electrical and electronic on protection visory circular
+is the key to successful This procedure systems [5.4].
+fully is discussed more systems, and protection of these for
+15. in Chapter de-
+con- were analyses and of testing large amount Α ad.
+transient to establish phase the design during ducted
+wiring expected to occur in inter.-connecting levels
+vehicles and to ver- α lightning Atrike to the during JSC
+this tolerate could equipment critical that flight ify JSC
+environment.
+This was the first time that such α comprehensive
+standard and set of specifications had been developed
+and applied to α major aerospace program and this
+by standardization activity was largely successful. Ba-
+sic protection requirements such as electromagnetic
+shielding of inter-connecting cables, electrical bonding
+in- of critical structures, isolation of certain flight critical
+circuits, separation of critical wiring types, and other
+features flowed into contractor design and quality con-
+the trol specifications from the Shuttle lightning criteria
+and verification documents.
+Recent Standardization Activities 5.5.5
+After α period of industry-wide experience in the
+late 1970'σ, DOD and FAA formally adopted the SAE
+lightning criteria in several standards and specifica-
+and tions pertaining to military and civil aircraft. In 1980,
+DOD issued 757 [5.61 which embodied the MIL-STD-1
+same lightning environment as published earlier in the
+SAE report Lightning Test Waveforms and Techniques
+Hardware [5.10]. The doc- for Aerospace Vehicles and
+ument also discussed tests and test methods. In 1983
+was reissued as revision Α with an ap- MIL-STD-1 757
+pendix which contained additional discussion of each
+test method. Shortly thereafter, in 1984, FAA issued
+α revised version of designated Revision Α AC 20-53,
+[5.2] which also embodied the SAE lightning criteria.
+This advisory circular addresses lightning protection
+of aircraft fuel systems.
+MIL-STD-1795: In 1986 DOD issued its new MIL-
+STD-1 795, Military Standard Lightning Protection of
+and Hardware [5.5], which defines Aerospace Vehicles
+lightning protection requirements for military aircraft.
+This document supercedes the brief lightning require-
+ments contained in MIL-Β-5087 referred to earlier.
+Also, it places equal emphasis on indirect and direct
+to effects protection and incorporates double exponential
+descriptions of each of the lightning current compo-
+nents for use in evaluation of indirect effects.
+In 1985, FAA announced the proposal to estab-
+lish α new regulation requiring lightning protection for
+flight critical/essential electrical and avionic systems
+is referred to in §5.3. Supporting this new regulation
+08

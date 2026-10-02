@@ -1,0 +1,14 @@
+Effects of inductance in α ground lead. 13.32 Figure
+(α) Circuit
+Voltage (β)
+conductors within the shield, shown Figure 13.33(β), there is much less in
+voltage introduced into the conductors for the following reasons:
+The length of the path through which the shield current must flow is
+shorter.
+The field intensity external to the shield is reduced by virtue of the
+inherently larger diameter of the path upon which the current flows.
+The field intensity inside the shield is low--nearly zero.
+The shorter, and larger diameter, current path implies less self-inductance.
+The absence of magnetic flux within the shield implies that the signal conductors
+Μ Λ, Λ Μ and minus 0. are exposed to as much flux as is the shield: that = =
+403

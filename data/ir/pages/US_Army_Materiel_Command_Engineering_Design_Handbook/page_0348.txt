@@ -1,0 +1,111 @@
+9
+INS oporatiork is governed two basic by
+priciple lb. gravitational pull of the earth -
+gyroscopic the principle. Essentially, the is INS
+musnory, of stable platform, up a a computer, a
+outputs from presentation. Many t~an derived be
+unit true. north, a e4g., velocity and direction, -
+angle. and autopilot signals all necessary to
+determine flogt track.
+The only requirement necessary for installation
+inertial navigation equipment is the provision
+precise iongiudinol for Wis reference.
+EMliEMC procautions also must be taken.
+8-3.4 JNTERDICFION EQUIPMENT
+Because of security considerations, this discussion
+necessarily is limited. Generally, a specific electronic
+countermeasure (ECM) device will live quadrature
+information (general location of the equipment
+surveillance), frequency, pulse width (if pulsed),
+peak cycle, and everage power, and repetition rate.
+ECM The is designed to provide other types also
+as information i! required. ECM is desirable -.
+lion equipment, not only to provide the helicopter
+crew with information. but to telemeter the
+bion back to secondary forward anaiysis armas.
+In addition to ECM, roay desirable be to it
+laser optical or ranos..flsders, ranging gunlaying
+to radar, or other devices aid the interdiction
+in performing its mission and to pinpoint targets
+ground forward artillery. Communications,
+secre, will form a part of the systent.
+part While not actually a of the interdiction
+snout, the electrical characuteistics of the helicopter
+must be considered be part a of the mission. to
+Acoustic noise, radar reflctivity, and infrared
+sianatarp moist minimived In hp sditio;dn, th-
+craft mssonwilspecify radio frequenc~y
+sian owa.
+8-3.5 L0W-LIGHT-LEVEL NAVIGATIONAL
+EQUIPMENT
+This equipoent is unique. and required only is
+are specific missions. There three basic types of
+The equipment. first type is low-light-leve!
+sion. In is simplest foirm it nothing more is
+dlosed-circuit TV employing a c~mea that is
+tive. partic~ularly to low light levels.
+The second type is an adaptation of the
+9 used ' device 'mnouperacope or nultiplier
+World War stabilization 11. Optical and )
+&iction techniques have bein refined, and the
+system has proved some unique advantages,
+system is The third, mad most prosnisiag, the
+a (13.) detection type. It consists of fhare
+--
+
+AMCP 706-2022
+physicuii a signal conditioner, a power supply, and aa scaInner,
+and video The display. scnsor responds to a spec- selected
+viade trum in the 1K region, and operates in total dark-
+and a extremely ness. is sensitive Rt and can discriminatea
+such bttween sight temperature differences. The system
+to include very accurate -%rab definition. cao ht designed
+pme- and thec resultant display on a dark night can dupli-
+cato daylight a TV picture.
+of These low-li~ht-lcvel devices are used in activities
+of a that caii for radio silence, acoustic silence, low radar
+Normal reflectivity, znd low iR signature. Flight techniques
+iinportat. also are
+8-3.6 STATION-KEEPING EQUIPMEN4T
+Thie c~uipmcsnt geinerally is used for maintaining a
+position directli 'wer a point on the earth and for for-
+mation flying. The systems usually are employod on
+under larger, load-carring helicopters requiring precision
+duty positioning for pickups and drops.
+In applications requiring loading and unloading
+of from a hover, Doppler radar is the most rcadily
+nterdic- aviiable andl precise type of station-keeping equip-
+rnent. Most conventional Doppler navigational
+informa- rnivip na'ngnti. n- nsvteniq S*dinett d-n nsMa an tn arre
+the frequencies are rlatively high 4nd accurate. At
+include zcro velocity. the Doppler shift will be zero, and
+determination of movement is difficult; however, re-
+aircraft cent developments by avionic manufacturers effec-
+for tively have permitted zero error during hover. This
+usually type of system is recommended for station-keeping
+for loading situations.
+equip- Doppler syttems require specific antennii
+locations. Generally, three- or four-beam patterns art
+used. Some manufaciurers incorporate all functions
+(IR) into one antenna. Certain types of equipment require
+tha antnn air- 1h .1 ib~dlruibizunp
+5
+tranamis- poses. Provisions antenna for location must be made
+during the early dtsign phase in order to maximize ef.
+in ficient use of tht area the fuselage belly.
+For station-kaeping during formation flying, many
+techniques have been used in the past and are
+for satisfactory under both VFR and IFR conditions.
+such Cost-effectivenecss decisions will determine equip-
+televi- ment selection. Radar, together with beacons,
+than a LORAN, or special IR, may be considered.
+sensi-
+8-4 FIRE CONTROL EQUIPMENT
+photo-
+GENERAL 6-4.1 during
+intensi- The airborne fire control system selectively per-
+imn- forms the of Weks establishing (1) that the weapon is
+aligned Properly to hit tie target, and (2) driving and
+in- holdinS the weapon platform to a commanded Pon'-
+sensor- Lion.
+8-71

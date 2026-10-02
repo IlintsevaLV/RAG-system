@@ -1,0 +1,57 @@
+K
+EP-705-2Δ2
+drag spring to react the centrifugal self-energization 4-2.2.4.3 Self-energlzing Spring Clutches
+during slip conditions, and may producv con- Although there have been kio applications of spring
+siderably lower overall drag forces at intermediate clutches in production helicopter systems, con-
+slip conditions. The single-cage design frequently em- siderable interest has developed in them because they
+ploys an integral rib on the sprag which contacts the have the potential advantage of reduced weight and
+adjacent sprag ard thus limits sprag overload rock size for α Liven torque capacity. The principal de-
+angle. torrent to the use of spring clutches in helicopters has
+The overload failure modes of the two types also been their poor release characteristics in over-
+differ. The double-cage design fails by sprag turn- running. Recent design improvements feature α
+over (with resultant pernmanent loss of drive) while tapered-width helical spring of rectangular cross sec-
+the design with ribbed sprag and α single cage fails by tion and cylindrical outside diameter (Ref. 97). The
+slipping. However, both failure modes gen-rally ex- torque transmission is between α cylindrical outer
+ceed the 2 Ξ limit torque requirement by corn- race and the outside diemeter of the spring. The de-
+fortable margins. The single-cage clutch usually has α vice may servo-actuated be with an energizing pawl
+higher torsional spring rate than the double (for that contacts the small end of the spring or self-
+equal envelopes) along with α greater tolerance for energized by friction forces between the spring end
+oscillatory loading conditions. and the outer race. Recent development and test cx-
+Proper lubrication of either type requircs coin- perience is reported irn Ref. 98.
+plete oil immersion. This often is accomplished by
+use of full-depth cirrular dams on both sides of the
+unit. σ;rag 4-2.2.5 Rotor Brakes
+AMCP 706-201 describes the basic requirements
+for rotor brakes, while AMCP 706-203 presents the
+E.Λ2.4,Z Ra-π and Roller Cl minimum qualification test requirements. Thi dis-
+Ramp and roller clutches also have found cx- cussion, therefore, is confined to typical detail re-
+tensive successful application in existing helicopters. quirements and limitations and to basic design and
+Such designs employ α cylindrical outer race as in analysis procedures.
+sprag clutches, but use cylindrical (hollow or solid) While this paragraph treats only hydraulically ac-
+rollers in lieu of spra•σ, plus α multiple-cam-surface tuated disk- and puck-type brakes, the basic analyti-
+injier race to provide α wedging action on the rollrrs cal techniques presented are sufficiently general to
+upon engagement. O,,errunning usually produces aid in the development of design criteria for other
+roller complement roli.; contact with the outer race types of rotor brakes. The disk brake has become vir-
+and sliding with the inmu... Consequently, most tually the standard for helicopters due to its relahve
+moderate- to high-speed applications feature inner simplicity, ease of inspcction and maintenance, and
+overrunning. input outer ρ~acc desion reliability. ρ*ε.re with This
+may require forced feed (pressure) lubrication Α rotor brake differs significantly from α wheel
+through the inner race to obtain satisfactory full- brake both in failure modes and in functional '
+sneed overrunning, requirements. The catastrophic failure mode for α
+Spring-loaded cages or individual roller springs are wheel brake is failure to engage, or failure to stop the
+used to force the rollers into the wedge to secure reli- aircraft. Puck clearances are nil, contact speeds are
+able and rapid engagement upon race speed syn- moderate, significant cooling may occur during and
+chronization. Α thorough analysis of the dtsign after use with disk ventilation assisted by rotation,
+geometry and speed characteristics of these clutches and repetitive use with short operating cycles and in-
+is givea in Ref. 96. terva!α is common. The catastrophic failure mode for
+Due to the rcduced radius of curvature in the roller α rotor brake, on the other hand, is unintentional
+as compared to the spra8 cam, roller clutches have operation. Puck clca-ances must be very large, con-
+lower torque capacities than sprag clutches of com- tact spreds may be very high, the primary cooling is
+parable size. Ovcrrunning drag torque also is gteater provided by the disk heat sink, and iepetitive use in
+at high speed& for the roller clutch. Failure mode of less than α 5-mmn time interval is virtually im-
+this clutch type at oveytorque is slip, if the cam/iuce possible.
+components arc sufficiently strong to preclude their
+fracture, drive capability is not lost. In most instal-
+lations, the roller clutch has shown α superior 4-2.2.311 Requirements and Limitations
+tolerance to oscillatory torquc-induced ω-ar. Recent performance specifications for Army heli-
+4-62

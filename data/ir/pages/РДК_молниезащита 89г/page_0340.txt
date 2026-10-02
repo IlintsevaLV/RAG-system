@@ -1,0 +1,85 @@
+tech- and then illustrate the how they are implemented
+incorporating applied to an aircraft wing box niques as
+both CFC and metal members.0
+defini- to the regard equations: With of Derivation
+decompo- one can form α in Eq. 11.10, tion of Z.(ω)
+term into each transform and then of the series sition
+sequence in an infinite This results domain. the time
+time domain in the equations differential of ordinary
+as follows:
+1
+E°(ω) -;J(ω) =
+Gd
+1
+-J(τ) E°(τ) =
+2 j 1 + = <=> J(ω) 2- E (ω)
+ad ω+jw
+2 dJ(τ) δ E1(τ)+wEl(τ)
+δ Τ= dt τ
+<=> J(ω) 2 jw E"(ω) =
+ω, + jw ad
+2 dJ(τ) δ
+(11.40) dt +δ dt
+and time domain frequency are the J(τ) and J(ω)
+density. The current of the impressed representations
+equations are differential ordinary of these solutions
+an is then electric field domain The time analytic.
+of convolutions: series infinite
+"step 00
+E(τ) E"(τ)
+Wf.
+(11.41)
+in Eq. of definition the to respect With Zt(ω)
+the can one 11.16, follow outlined procedure same [J~~~τ(β +
+field transmitted domain electric The time above.
+1= 1Π τ 0 written as an infinite the layer can also be through
+of convolutions: series
+= EUt).
+2 •-(-1)- Α dt'ε-""(τ-*Jt') + 1 J(τ)
+ν=1
+( 11.42 )
+
+oc) 0) O(ν 1, 2,... and where once again E"(τ = = =
+0. = 0) J(τ =
+Implementation in numerical codes: Implementation
+α 11.42 in and Eqs. 11.41 expansions in series of the
+solution difference approximation domain finite time
+of components tangential of the storage back requires
+in- external or the order to compute fields in the H
+at at least materipl, through the lossy coupling ternal
+to converge both solutions late times, times. At early
+the dc resistance condition, E(τ) ,:, J(τ)/(ad).
+calculation, the of bandwidth the on Depending
+and thickness of the lossy mate- and the conductivity
+for the transfer impedance rial, the series expansion
+terms at less than 20 with may converge (Eq. 11.42)
+imped- surface the for expansion series The time. early
+to 200 terms requires approximately ance (Eq. 11.41)
+converge for calculations with 100 MHz bandwidths.
+Box α Rectangular on Redistribution 11.5.1
+described of the technique As α demonstration
+external and internal electromag- above, the results of
+are Fig. 11.31, to α box, by lightning coupling netic
+are faces the of two and bottom, top, The presented.
+the and conducting metal of perfectly assumed made
+graphite-epoxy of assumed made are faces two other
+and mm) (0.762 inch 0.03 thickness with composite
+calculations Comparison mho/μ. 15 000 conductivity
+per- of made faces all box with α for also made were
+of the box was the top metal. Into conducting fectly
+α with peak amplitude 200 kA current of α injected
+decaying expo- 1 ps and crest in rising to sin2 front
+The current of 50 ps. α time constant with nentially
+For the calcula- removed from the opposite face. was
+α time of 1 μ in all directions and tions, α grid size
+of 1.75 ns were used.
+μ
+........ tI.:.' ý' .... - • " - ii .
+11 on..3Dobjct dit R•, ι.
+R dum-(
+kA 2N ft" (α)
+Π)Μ.
+object. on α 3Δ Redistribution 11.31 Fig.
+(α) Structure
+(β) Waveshape of injected current
+324

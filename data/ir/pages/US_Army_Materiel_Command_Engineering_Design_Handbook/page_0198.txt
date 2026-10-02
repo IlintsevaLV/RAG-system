@@ -1,0 +1,104 @@
+The paragraph on rotor blades discusses trade-offs
+in blade geometry, section such as airfoi! and root-to-
+tip taper and twist, and their relationphip to the cor-
+responding parametric analyses discussed in AMCP
+706-201. Design considerations that provide for
+manufacturing simplicity, inservice adjustments of
+blade balance and track, and the blade materials and
+joining techniques needed to position masses and Sstiffnesses properly, are addressed. Also discussed are
+Th paragraph rotor on propellers deals generally system fatigue lives. with
+the design requirements for propellers and develops
+considerations design in the same manner as do prior
+paragraphs for roturs.
+The paragraph on antitorque rotors reviews the
+knowledge gained in recent years concerning the
+desirable direction of rotation, the flapping freedom
+required, the merits of pusher versus tractor con-
+figurations, etc. The advent of "flat-rated" engine-
+capability high-altitude systems with transmission
+has placed additional demands on tail rotor control
+power. Additionally, the airspeeds encountered in
+normal operation have increased markedly, creating
+adverse environmental conditions for tail rotors.
+problems, Th.. , rn et are discussed in light of niher
+the lastest knowledge.
+5-2 DESIGN PARAMETERS
+The selection of rotor parameters is quite complex,
+interrelate-s with all other vari- as each major variable
+ablcs. The basic analytical procedure for determining
+rotor performance arc outlined in Chapter 3, AMCP
+706-201. Included is a discussion of the tyne of para-
+metric analysis required to optimize a rotor * fj'
+given group of perfoimance requirements. The dis-
+cussion herein supplements that description of pre-
+emphasis upon liminary design procedures, with the
+considerations pertinent to the detail design phase.
+The parati etots that are considered in connection
+with rot,.r performance include:
+Uisk loading 1.
+2. Blade loading
+3. Blade tip Mach number and advance ratio
+4. Number of blades
+5. Blade twist
+6. Airfoil section(s).
+For an Army helicopter that will be requirel to
+operate in the nap-of-the-earth and in combat, com-
+plianc only with specified performance requirements
+will not produce an acceptable design. Additional
+design criteria that may or may not be defined quan.
+titatively for a particular helicopter rotor include:
+I. Maneuverability
+2. Noise
+
+section 3. Radar cross
+against 4. Damage tolerance
+a. Striking a solid object such as tree limb
+b. Being struck by weapon fire, either solid or
+HE
+5. Repairability
+Fatigue 6. life
+7. Weight
+cost 8.
+Specific ably values or the will performance parameters have been prob- .. selected during preliminary .
+design. CornpliaricL with the operational criteria is
+dependent largely upon the materials and method of
+manufactume, which will be selected during detail
+design.
+The design problem initially is broken down into
+the requirements for hover, flight, high-speed level
+and high-speed maneuvering and each is discussed in-
+dependently. The considered total problem then is
+offered. approaches are and some
+5-2.1 HOVER
+Selection of the optimum hovering rotor involves
+all the performance related parameters listed previ-
+ously. with the exception of advance ratio. Hover
+power is divided into "induced power" (thi chs.-ge-
+able to lift) providing and "profile power" ithat
+to blade profile drag). chargeable
+Induced Power Loading and Disk 5-2..l
+The relationship between induced power and disk , -
+loading is described in Chapter 3, AMCP 706-201. And:disk
+more extensiv, discussion can be found in Ref. I.
+Disk loading frequently is determined by factors
+other than performance. Fo" example, a requirement ,
+for air transportability may dictate a fuselage length
+ih'witation t ' . imit the rotor diameter. l inur
+Rotor downvasi and wake effects also are involved
+because induced velocity is pioprotional to the .•*e'•:
+square root the disk loading. ef Thus, the higher the
+disk loading, the higher the induced - or hovering
+downwash - velocity, which will result in increased
+ground erosion and greater difficulty for personnel
+and cargo operations in rotor wal'e areas.
+Another flcect of disk loading on performance
+concerns vertical drag, or download. Vertical drag
+results from the impingemen, of the wake upon the -.
+horizontal fuselage, tail, and wings (if any). The effect
+of vertical drag appears as an increment of rotor
+thrust required over and above the vehicle weight.
+However, evaluation of vertical drag is not precise.
+One of the methods described in par. 3-2.1.1.9,
+AMCP 706-201, employs wske velocity distribu-
+tions, such as those given in Ref. 2, to obtain dy.
+"5-3

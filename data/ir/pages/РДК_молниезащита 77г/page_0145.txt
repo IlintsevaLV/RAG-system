@@ -1,0 +1,20 @@
+WING
+'HERE -
+FUEL JETTISON PlPE
+Fuel jettison pipe--α possible lightning attachment point. 6.12 Figure
+Good electrical bond between pipe and airframe desirable at
+point α, rather than forcing all lightning current to enter fuel
+tank wall at β.
+In every case α good electrical bond must be provided at β.
+BARE-METAL CONTACT BETWEEN PIPE INSULATING PAINT BETWEEN MATING
+= = SURFACES SPARKING HERE N O SPARKING FLANGE AND TANK WALL \ \
+- -
+PlPE
+BEST WORST
+Bonding of fuel dump pipes to fuel tanks. 6.13 Figure
+Bond straps have too much inductance to prevent sparking
+across the shorter path.
+about the adequacy of α particular bond, the bond should be tested with
+at the simulated lightning currents to assure that sparking does not occur
+interface. The test currents to be applied should be those recommended in
+Lightning Test Waveforms and Techniques for Aerospace Vehicles and Hardware

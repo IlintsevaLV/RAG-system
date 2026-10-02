@@ -1,0 +1,95 @@
+It is performance. good shielding of getting the price
+(but not cable measurement bring the to preferable
+Fig. the box, α hole in through shield) external the
+car- the signal for connector bulkhead but α 13.20(α),
+13.20(β). If Fig. satisfactory, is frequently cable rying
+should shield overall used the is connector bulkhead α
+on the not the connector, around α shell on terminate
+over- the Grounding 13.20(χ). Fig. itself, connector
+13.20(δ). Fig. α pigtail, through to the box all shield
+avoided, be should
+mii-1, cable measuring the on shield overall The
+against to protect in order end each grounded at be
+discussed is shields Performance of fields. magnetic
+15. in Chapter more fully
+. -il &U .
+ω
+•whereby •• ' τ~τ
+we
+(δ)
+α into cables bring to How 13.20 Fig.
+shielding enclosure.
+Best (α)
+(β) Good
+Poor (χ)
+(δ) Worst
+dif- Measurements with measurements: Differential
+the ef- to minimize way are another amplifiers ferential
+Two cables. measurement into noise induction fects of
+to point the measurement from are brought signals
+one from oscilloscope, in the amplifier α differential
+from α the other and investigation the point under
+in Fig, as shown to that point, point adjacent ground
+are sub- two signals the the owillowcope At 13.21.
+be induced on both noise will Since the mime tracted.
+same follow the they measurement cables (assuming
+noise free. should be the result they should). path, as
+γ" Uft*
+WA _may
+.
+Ω
+Differential anmplifier,. Fig. 13.21
+
+and not α panacea are measurements Differential
+mea- Differential in order. are of caution words some
+mode of common in terms are rated surement systems
+the or of balance measure is α which ratio, rejection
+get and signals noise identical two to subtract ability
+are commonly of 10,000:1 ratios Rejection zero output.
+if that This means pre-amplifiers. for differential cited
+of the input to are applied signals 10 volt identical two
+be dis- will 1 millivolt than no more that the amplifier
+guaranteed only usually is ratio rejection This played.
+differen- to balance The ability frequencies. low for
+and frequencies at higher harder becomes tial circuits
+high at less be much may rejection common mode the
+too is common mode voltage the if Also, frequencies.
+into α be driven or saturate may amplifiers high the
+be can operation differential No operation. non-lin.ar
+those conditions. under obtained
+only ob- ratios α-re mode rejection High common
+for differ- constructed specifically in amplifiers tained
+provision Many oscilloscopes have α operation. ential and the can be inverted of two signals one
+is same as is not the operation Such α4ded. results
+for dif- configured specifically by an amplifier provided
+voltage limit mode The common operation. ferential
+re- common mode and the voltages at lower is reached
+jection ratio is seldom as good as obtained in true dif-
+performance differential the Still, amplifiers. ferential
+purposes. most for adequate perfectly is
+the oscil- performance of differential the Finally,
+measure- the external if can be compromised loscope
+all Considering balanced. probes are not well ment
+fre- the high count on not normally one should factors
+than being better ratio rejection quency differential
+100:1. about
+be must oscilloscope The measuring dcrcuts: Trigger
+from dis- resulting voltages display the to triggered
+of several ways are There generator. the LTA charging
+way is The preferred on Fig. 13.22. as shown doing so,
+and the LTA generator signal from α trigger taking by
+cable, coaxial along α oacilloscope it to the carrying
+carried into signal is to be If the trigger Fig. 13.22(α).
+Fig. 13.22(β), isolating transformer, an aircraft, the
+Al- cable. with the trigger in series be connected must
+can be signal the trigger 13.22(χ), Fig. ternatively,
+along generator optic link. The LTA carried α fiber
+emit enough high frequency noise to allow one
+from an electric the measuring oscilloscopes to trigger
+field antenna. Fig. 13.22(δ). of This method trigger-
+as not provide but may simplicity, virtue of ing the has
+meth- previous as the consistent triggering or reliable
+to be triggered oscilloeope allow the it may ods. Also,
+electromagnetic interference. of other sources from
+may have to techniques, delay With any of the
+368

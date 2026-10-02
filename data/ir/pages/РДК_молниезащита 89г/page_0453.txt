@@ -1,0 +1,57 @@
+semiconductors: Resistance in series with Where the megahertz and multimegahertz region to cause in-
+possible, resistors should be used to limit the surge terference. The energy that is available for damage
+may well be concentrated in certain current into semiconductor junctions from input and or interference
+response of the by the characteristic con- frequeocy bands amounts of. resistance wires. Even modest output
+the aircraft. wiring within aircraft or the wires, and the interfacing the junctions nected between
+shown in Fig. 17.6(β), can greatly improve the ability
+of semiconductors to re-jist the transient ι'oltages and
+Μ
+currents. Section 17.5 on component damage mech- [ /Σ
+anisms gives examples of the degree of improvement
+that may be obtained through the use of series resis-
+tors. Resistors should be as large physically as possi- uMOwsuCvu
+resistors are better than quarter-witt. ble. Half-watt
+_ (β) (α) balanced (α) lines transmission through Transmission φ
+and transformers, coupled with input protection for
+semiconductors, probably provides the greatest ar.ount
+of protection against the transients induced on control
+wiring.
+-
+DC coupling: Where possible, coupling that can pass
+dc should be avoided. AC transmission through iso- (χ) (δ)
+lation transformers offers onc means of avoiding dc
+coupling paths and ,;olation via optical isolators is
+another. Optical isolation is particularly appropriate'
+for digital circuits, but optically isolated operational ii
+amplifiers are available where analog signals must be I \
+/
+transmitted.
+DC coupling paths in power supply circuits can α.
+employ DC-DC converters using an intermediate iso- (ε)
+lation transformer. Fig. 17.7 Frequency considerations.
+Fiber optic transmission: Fiber optic transmission
+lines do not intercept lightning induced voltages or cur- Without reference to auy specific frequency re-
+rents, but transmitting and receiving equipment ,%τ the gions, however, the energy spectrum of the lightning
+generated interference on electrical wiring within an ends could be susceptible to interference or damage.
+aircraft will still be α broad spertrum. receptor Α
+will 17.7(α), in Fig. Bandwidth shown band, Circuit pass α broad 1Τ.3 with
+inherently collect more energy than will α receptor
+One of the most import ant considerations in with narrow pass band, shown in Fig. 17.7(β). The
+the control of lightning- related interference through narrower the pass band, the better. In this respect
+proper circuit design lies in the fundamental observa- analog circuits have an inherent advantage over dig-
+tion that α devine with α broad bandwidth can inter- ital circuits, since α narrow-pass band digital circuit
+cept mote noise Energy than can α narrow bandwidth is almost α contradiction in terms. If possible, circuits
+device. Some of the considerationb that derive from should not have α pass band that includes dc, shown in
+this observation are shown in Fig. 17.7. The noise Fig. 17.7(χ), because, when dc is excluded, the circuits
+produced by ightning has α broad frequency spectrum. will inherently be able to reject more of the energy as-
+Considering for the momeut only the spectrum of the sociated with the flow of current through resistance of
+lightning current, the observation is frequently made the structure.
+that most of the energy associated with the lightning
+current is contained in the low-frequency region, below Typical frequencies- The Milatory studies of types
+or 20 kHz. 10 of interference produced in aircraft by the flow light- of .
+Before any sense of security is derived from that ning current have shown that the lightning energy ex-
+observatim. it should be remembered that equipment cites oscillatory frequencies on aircraft wiring, partic-
+iN damaged or caused to malfunction in accordance ularly if the wiring is based on α single-point ground
+with the total amount of energy intercepted. In α concept. Those characteristic frequencies have tended
+lightning flash there may be plenty of energy left in to be in the range of several hundred kilohe "- to α
+439

@@ -1,0 +1,59 @@
+...
+tl
+AMCP 706-202
+Ampere wire 5. per
+AC V
+operating) Volt-amperes (normai 6. us No 5 No 2 1
+Power factor (normal operating)7111 7.
+OJE
+"8. operating) Watts (normal
+PANSFQUALj
+Volt-amperes 9. (emergency conditions, if ap- plicable)[ , "- -I ,,151200 -' 200V' 15
+] ap- I conditions, if (emcrgt.ncy Power factor 10. N.2 BUS AC I- *<1 plicable)
+(emergency condition, applicable) II. Watts if
+I 12. Opcrating time
+13. Source of the above information
+INVERTER INV It from can be obtained data the prctcJing Most of _o NoX I 2
+menoufacturer. the equipment In addition, the manu-
+equiiment re- facturer of each piece of should be
+quired to supply α component load analysis.
+manufacturer-provi&:δ After data are recorded.
+the remaihing information can be calculated. For α
+nonautomated sysiem, the calculations can be made
+28 DC 28VDC V
+individually and recorded on α file card. For an auto- .US 2 NBUS N0 N,,
+mated systcin, α computer can do the necessary cal-
+culations as α teparate run, or they can be submitted λ
+rtabulation print-out. Ifom the
+After the lilt is as complict as possible, it then is
+cE-η necessary to assign component α power bus in POIN, Ek-
+Lf2 * _ sIyaS.Clil~It*~lll IlII1 MhiU U *UiI aIn'Ck1'. SIAARIth,6ENL•"0Α PYACtLJ it -.- -. - Sportent ε referer, item number.
+FIgure 7-1. DC Power Typical Dlstribudts System
+7-1.5 MANUAL FORMAT
+When preparing α manual load analysis, the figare
+examples of MIL-E-7016 can be used.
+FORMAT 7-1.6 AUTOMATED in is shown distribution systtm sample power Α
+Figs. and 7-2. The generator moanting and drive For an automated format, 7-1 the same information is
+self- data and power source output data examples are required. The program may be written so that cal-
+explanatory. culations done automatically as the load analysis are
+The load AC equipment and power source uti- is β,-Ing processed. The information then AC can be
+be,$ lization analysis charts frum MIL-E-7016 can be and τ.,ι, chaM.kL. , giv,-, . Α - ,-','';
+7-5. combined on one chart for each helicopter power typical automation flow AC chart is shown in Fig.
+bus. Figs. 7-3 and 7-4 for sample AC See load I. this example, α two-card system is used. The
+analysis charts. The equipment components are to be first card contains the following information:
+I. arranged alphanumerically. Bus
+The typical transient nnalysis is requ'red only for 2 System
+loads, extreme transient and, with modern generator 3. Item number
+ratings, may not be required at all 4. Equipment name
+The engine starting requirements data must 5. Part number β.
+shown even though the helicopter is started only on 6. Volts
+ground power and data does not appear in the "Start 7. Power factor
+and Warm up" columre of the load anslysis chart. The 8. Volt amperce.
+information will be used to determine the ground The second card contains:
+starting power supply requirements. Bus 1.
+If σ battery is used in the helicopter, α chart must 2. System
+shows be included that theoretical charging factor 3. Item number α
+versus time of operation. This chart wil! depend upon 4. Number of units
+the type and size of the battery to be used, as well u 5. Phase assignment
+the design of the battery charger. 6. Notes.
+7.3

@@ -1,0 +1,47 @@
+less, because a few bad accidents attributed to lightning strikes continued to
+happen, in 1938 the Subcommittee of Aircraft Safety, Weather and Lightning
+Experts was formed b y the National Advisory Committee for Aeronautics
+(NACA) to study lightning effects on aircraft and determine what additional
+B. protective measures were needed. Dr. Karl McEachron, Director of Research
+at the General Electric High Voltage Laboratory, was a key member of this
+committee, and during its twleve-year existence he performed the first
+man-made-lightning tests on aircraft parts. During and subsequent t o this period,
+other organizations, such as the U.S. National Bureau of Standards, the
+University of Minnesota, and the Lightning and Transients Research Institute,
+also began to conduct research into lightning effects on aircraft.
+For a long time the physical damage effects at the point of flash
+attachment to the aircraft were of primary concern. These included holes burned
+in metallic skins, puncturing or splintering of nonmetallic structures, and
+welding or roughening of movable hinges and bearings. If the attachment point
+was a wing tip light or an antenna, the possibility of conducting some of the
+lightning current directly into the aircraft's electrical circuits was also of
+concern. Today, these and other physical damage effects are called the direct
+Since present-day military and commercial aircraft fly IFR (Instrument effects
+Flight Rules) in many kinds of weather, protective measures against direct
+effects have been designed and incorporated into these aircraft so that hazardous
+consequences of lightning strikes are rare.
+In recent years it has become apparent that lightning strikes to aircraft
+or to equipment located elsewhere in may cause other effects, indirect effects,
+the aircraft. For example, the operation of instruments and navigation
+equipment has been interfered with, and circuit breakers have popped in electric
+power distribution systems when the aircraft has been struck by lightning. The
+cause of these indirect effects are the electromagnetic fields associated with light-
+ning currents flowing through the aircraft. Even though metallic skins provide a
+high degree of electromagnetic shielding, some of these fields may penetrate
+through windows or seams and induce transient voltage surges in the aircraft'b
+electrical wiring; these surges in turn may damage electrical or electronic
+equipment.
+To date, few aircraft accidents can be attributed positively to the indirect
+effects of lightning, but there are two trends in aircraft design which threaten to
+aggravate the problem unless new protective measures are developed and
+utilized. The first of these trends is the increasing use of miniaturized, solid state
+components in aircraft electronics and electric power systems. These devices are
+more efficient, lighter in weight, and far more functionally powerful than their
+vacuum tube or electromechanical predecessors, and they operate at much lower
+voltage and power levels. Thus, they are inherently more ~ nsitive to overvoltage
+transients, such as those produced by the indirect effects of ;ightn~ng.
+The second trend is the increasing use of reinforced plastics and other
+nonconducting materials in place of aluminum skins, a practice that reduces the
+electromagnetic shielding previously furnished by the conductive skin. This
+reduced shielding may greatly increase the level of surges induced in wiring not
+76

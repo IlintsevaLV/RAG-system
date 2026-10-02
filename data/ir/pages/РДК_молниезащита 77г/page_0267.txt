@@ -1,0 +1,16 @@
+(4
+Surge propagation at transition points. 8.3 Figure
+(a) single transition point A
+Two transition points (b)
+Waveshapes (c)
+The current amplitude at any point is then the algebraic sum of the
+reflected and transmitted components at that point. For example, the current
+leaving the intermediate conductor is 0.556 at 1At after the current enters the
+left-hand portion of it, 0.803 after 2At, and 0.913 after 3At, etc. The exit current
+thus rises more slowly than does the incident current. At the center of the
+low-impedance intermediate conductor, the current is oscillatory.
+step function a current wave of finite rise time encounters If instead of a
+the transition, there will be a less pronounced oscillation of current in the
+intermediate conductor and less difference between the waveforms of the
+entering and exiting currents.
+257

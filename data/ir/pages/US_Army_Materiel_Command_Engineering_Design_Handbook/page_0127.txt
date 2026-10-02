@@ -1,0 +1,55 @@
+τ .. . . xt ,7 * ,, -, . -0
+AMCP 20
+rotor gearboxes each feature α sih0lc spiral bevel and simply to achieve longer life of drive system cor-
+two planetary reduction stages with final output At ponents. Sufficient cycles will be accumulated at the
+230 rpm. Thaccessori¶ arc located service all at the aft 5-mirn rating during the life of the drive sub-
+main rotor gearbox and consist of oil cooler bir.wcr, system to require the same bendiutp fatigue gear
+two gciucrators, and two hydraulki pumps. design, ι.ε., infinite life, as would required be for α ckctrical
+continuous ratig at the same red-line limit.
+4-11.23 Compomi HICellOpl Drive Systems Although α 5-min drive system rating does not usual-
+Compound helicopters arc those that use cuxiliary ly impair the operatianal capability of α helicopter
+propulsion devices other than the main liftng rotors with α typical speed-power relationship (Fig. 4-17),
+I in the forward flight mode. The majority of such current Army specifications include α continuous
+- designs have featured α single main lifting rotor, an drive sytem rating. Α typical requirement would be α Λ
+tither antitorque rotor, and turbojet engines or shaft- continuous rating of the main transmnission equal
+driven propellers for auxiliary propulsaon. either to 120% of the power required to hover out-of- ι'
+The only compound helicopter to undergo ground-effect (HOGE), zero wind, at the density alti-
+development test or Army use has been the AH-56. tude defined by 4000-ft pressure altitude and 950F, or
+It was powered by α single 3450-hp engine driving to 100% of the intermediate power rating of the
+into directly the main rotor gearbox. Α spiral bevel engine(σ) at sea level and 95°F. The effects of power
+gear stage, α compound planetary, and α simple selection ratings upon life, overhaul, and of standards
+planetary provide the reduction gearing for the main are discussed in the paragraphs that follow.
+rotor. Α spur takeoff located at the engine input to
+tuteatleo, Power/Wfe 4-13.1 shaft running along drove α gearbox the main rotor
+the top of the tailboon,. This shaft drove the pusher The mechanical failares of interest to the drive sub-
+propeller at the ead of the tailboom directly; and system designer usually exhibit α definite relationship
+through α 90-deg shaft angle spiral bevel gear set also between life and power. The life-limiting failure mode
+drove the antitorque rotor. Accessories were mount- of primary concern for α developed and serviceable
+ed at the main rotor gearbox and consise.δ of two hy- gearbox is pitting or spa,:,iig of the gears and
+draulic pumps and α high-speed generator. bearinbs (par. 4-2.1). However, the life/power re-
+lationship for this mode of failure is not reckoned
+"4-1.3 TRANSMISSION DESIGN AND RATING with easily due to the many tacters that govern the
+CHARACTERISTICS
+['I
+All elements, components, and subassemblies of .41! - 1_ the transmission and drive system are subject to
+- varying degrees of wear, abuse, fatigue, and other en- 35')-
+- - - vironmental hazards. many instances, ,tandard In
+components will provide acceptable performance for _00 I..__ κ
+α given drive system design at α savings in cost, ease C0- Τ- 2
+specially designed components. However, the • 0'•-" 5
+designer must have α thorough understanding of the .
+likely failure modes o; standard components (pars. 4-
+." life- ow life-load pertinent the and 4-2.2) and 2.1
+enviromrment reldtionships.
+I 5Δ limit for torque input an to specify customary It is -
+α helicopter main rotor gearbox. Indicated to the ,
+pilot by α torquemctcr red-line, this limit may be
+lower than the sea-level-standard rating of the engie~σ.._ ) GROSS Τ DESIGNj - -
+engine(σ). -MAX. GR Ω ALT.
+Depending upon such factors as helicopter type .. .
+and design mission, the red-line torque usually is
+specified as α continuous rating, or, in rare instances,
+α 5-min rating. Α 5-min limit may be specified for , 0o ISO 90 6 210 ISo 120 operation •energency only. Α time limit is imposed AIRSPft.. ki
+because sufficient cooling capacity is not available for
+extended operation, lubricants may be degraded, or Figure 4-17. Typical Speed-Power Function
+4-25

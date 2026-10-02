@@ -1,0 +1,92 @@
+Table
+Waveform Idealized
+Intermediate Severe
+current Stroke
+(Component 5) (Conponent Α) (Conmbnent Paraseter
+218,810 11,300 (Α) Z0
+700 11,354 α(Γ"1)
+2,000 O(ω1) 647,265
+folloving produce equations These the charaoteristicas
+1 200 Α 4,173 kA peak
+max) ξ 1011 1.4 (di/dt
+at (Α/$)
+τ sea 0+ -
+1011 1.0 NA Ξ di/dt
+at (Α/α)
+τ 0.5 us .
+Ξ 2.0 NA 106 Action
+Znjaegral
+and, Design in Protection 5.6 Steps
+Certification
+successful the most shown that has Experience
+certification programs design and protection lightning
+logical conducted in α work is when the have occurred
+achievement success means In this case, of steps. series
+with and compliance design protection of α satisfactory
+on over- impact α minimum all with the regulations,
+and order specific steps cost. The and all weight
+one program vary somewhat from may occurrence
+ba- the following include but most programs another,
+sic steps.
+α lightning strike zones: De- Step - Determine the
+where lightning or zones, surfaces, the aircraft termine
+to the aircraft is probable, and the strike attachment
+cur- which lightning through of the airframe portions
+rents must flow between these attachment points.
+environment: lightning the Establish - β Step
+flash lightning component(σ) of the total tablish the
+strike lightning in each to be expected environment
+be protected that must the currents These are zone. aganst.
+compo- flight critical/essential Identify Step χ -
+nents: that might and components systems Identify
+to interference or damage from either be vulnerable
+indirect efrects damage) or (physical direct effects the
+produced by lightning. (electromagnetic coupling)
+the Determine protection criteria - Establish δ Step
+be protected, that need to and/or components systems
+or mainte- mission reliability based on safety-of-flight,
+pass-fail protection Establish lightning factors. nance
+criteria for those items to be protected.
+
+5.3
+u Parameters
+Continuing multiple Stroke
+halt Restrike of Current Burst
+(Component Δ) (Component Δ) (Component Q) ι)
+54,703 10,572 109,405 400
+187,191 23,708 22,708 NA
+19,105,100 1,294,530 1,294,530 14Α
+10 MA 50 okA Α 100 Α 400
+2 Ξ 1011 Ξ 1011 0.7 Ξ Nh 1011 1.4 MA
+MA 1011 Ξ 0.5 1011 1.0 Ξ MA
+at at
+τ us 0.25 τ WO.Σ - uas
+106 Ξ NA 0.0625 Ξ 106 0.25 MA
+ε light- Design protection: lightning Step - Design
+ning for measures protection systems of the each
+need of protection. in and/or components
+the ade- Verify adequacy: protection Step Verify φ-
+pre- similarity with designs by the protection quacy of
+simulated lightning tests proven designs, by viously.
+is utilized, analysis When acceptable analysis. or by
+for to account may be required margins appropriate
+Develop- techniques. in the analytical uncertainties
+when be used for certification may test data of mental
+coordinated with the certi- and documented to properly
+fication agency.
+Variations in the above set of steps in use for de-
+of fuel systems and electrical and sign and certification
+respec- and [5.4], [5.21 are presented in systems avionic
+The steps to be followed for fuel and avionic tively.
+are listed below: systems
+[5.21 systems Fuel Es-
+zones. lightning strike the α. Determine
+environment. the lightning β. Establish
+χ. Identify possible ignition sources.
+criteria. Establish protection δ.
+adequacy. Verify protection ε.
+[5.41 aed systems ν Lectermi vionics
+for lightning environment Establish the external β.
+zones. the
+χ. Establish the internal environment.
+103

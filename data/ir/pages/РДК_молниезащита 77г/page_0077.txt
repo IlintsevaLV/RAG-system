@@ -1,0 +1,24 @@
+00272 TIME:
+28 ALTITUDE: 000 FT.
+RANGE MARKS: 10-MILE
+"
+ANT.: UP 1
+255" TRUE HEADING:
+CONTOUR: ON
+Same as Figure with contour to show very steep rain 3.10 3.9 Figure but
+gradient of each cell.
+Specifications:
+3.2 cm (X-Band) through 5.6 cm (C-Band) Wavelength:
+12-inch or larger (X-Band); 25-inch or larger (C-Band) Antenna Size:
+10 (X-Band) or higher; (C-Band) or higher kW kW 75 Power (Peak):
+Policies:
+When the temperature at flight level is "C or higher, avoid all 0 1.
+echoes exhibiting sharp gradients by 5 nautical miles.
+When the temperature at flight level is less than avoid all 2. O°C,
+echoes exhibiting sharp gradients by 10 nautical miles.
+23 When flying above 000 feet avoid all echoes, even though no 3,
+sharp gradients are indicated, by 20 nautical miles.
+Weather radar, however, is not a foolproof means of detecting and
+avoiding thunderstorms because situations exist in which radar is not capable of
+distinguishing a thunderstorm return from ground or other precipitation returns
+in the same vicinity. Such a case is illustrated in Figure (Reference 3.22). 3.1 1

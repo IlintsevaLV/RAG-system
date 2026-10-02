@@ -1,0 +1,43 @@
+8.-.3.4 Very H1g0 Frqme~y (VHF) taning omnidirectional coverage sometimes can be
+The marker beacon receiver operates at 75 MlIz. overcome by using two anennas. If the radiation
+The antenna radiation pattern must be downward- patterns of the two antennas are complomontasy and
+looking, and must be polarized parallel to the axis of the antennas arc isolated from each other, they can be
+the helicopter. There are several antennas that will driven in parallel with appropriate impedence
+meet the radiation requirements. One is a balanced matching.
+antenna mounted under the airframe. Other suitable
+designs are loaded half loops and flush-mounted "-3.5 Ultra Foo.SCy High (UHF)
+cavity elements mounted in the same location. UHF communications operate in the frequency
+The glidescope receiver operates in the frequ:ncy :ange of 225.400 MHz. Monopokl-derived con-
+range of 329-335 MHz. The glidescope antenna must figuratiods are used as both UHF and flush-mounted
+designed be for reception of horizontal polarized types, such as the annular slot. The gmeral require- V4
+signals with minimum reception of vertically ments for VHF location and intallation pertain to
+polarized signals. The antenna must be located for- UHF as well.
+ward on the aircraft for proper glideslope reception.
+The VOR operates in the frequcncy range of 112- 8-53.6 Special Puopue
+118 MHz and requires a horizontally polarized, There are other types of equipment that require an-
+omnidirectional antenna. The ILS receiver operates tennas, but these are limited in use. The con-
+in the frequency range of 108-112 MHz and uses the sidcrations for location and installation oC' these an-
+same antenna as does the VOR. The location of the tennas depend upon individual system requirements.
+VOR antenna is critical due to rotor modulation ef- Doppler radar antennas, for example, always are
+fects. The VOR determines the phase difference mounted flat in the bottom of the aircraft. general, In
+between two received signals modulated with 30 Hz, the same restrictions discussed heretofore apply to all
+which is about the third harmonic of rotor-induced types of antennas.
+modlation; if irttilfetreijc iu too gSrat, tht VOR is
+inoperable. A loop mounted on the undcrside of the REFERENICES
+airframe and configured with a vertical axis is
+suitable for the VOR antenna. Location of any an- I. USAECOM Manual, Interfereuce Reduction
+senna on the underside can result in airframe shadow- Vols. Guide and I for Dejign I!. AD fgineers,
+ing in some direction. The rem's horn (a modified 619 666.
+dipole), stacked dipoles, folded dipoles, and Push- 2. AMCP 706-125, Engineering Design Handbook,
+mounted cavities also aJ! are suitable designs. Electrical Wire and Cable.
+Communication equipment operates in the 3. John G. Mast, Efimintaon of Sixgl VO.R Rotor
+frequency ranges of 30-76 MHz and 118-150 MHz. Paper 924, Modulation, 31st Annual National
+Some form of monopole is used most often for com- Forum of the May Ameriam Helicopter Society.
+munication. The position of these antennas is de- 1955.
+termined by the necessity of obtaining omni- 4. Myron Kayton and Walter Fry, Avionics Naviga-
+directional radiation patterns. The antennas must be John Wiley and Sons, NY, lion Systems, 1969.
+designed to prevent corona discharge, and shculd be Turnbow et ni., 5. TR Cra'h Survival Design Guide.
+decoupled from triboelectric discharges that would 71-22, USAAMRDL Fort Eustis, VA. Revised
+introduce noise into the receiver. The difficulty of ob- October 1971.
+I
+8-14

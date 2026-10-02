@@ -1,0 +1,108 @@
+AN.1E 206-202
+used. The various types of nonstanderd srals are dis-
+cus:cd in pot. 9-4.4.6. Α34CF 795-201.
+Α uscful techriqut involves ihe u:ε of dual seals
+with the srction beiwse? the scals vented to the return
+side of the tystcm. The first siüige is then the high-
+pressur:. na). znt the recond stage must seal only ihe
+Iower retamn pressures Restricior: raay be used in the
+ventral sectior: in order tc int-bit large. short-circuit
+leaksge lows.
+Uist o. truly reúuncan' scals is α pew technique.
+This invalves use of two seals in serics without vent-
+ing in between. The desirner should, η. wever. insure
+thet fluid canrot be trapped betw-en seals or that
+:η.erm.τ effects will not cause fasure.
+Backups for standard O ring seals may be eitier
+stan fard scarfed or unscarfed (solid). The unscarfed
+bacl.up shall be used whenever possible in licu of τ.ε
+standard scarfed types.
+Surfuce finish is important to seal life, and shouls
+oc kept belo. 8 µin. Α 16-uin. finish may bc accep-
+table for short-life applications,
+Static seals generally in use are the MS standard O
+rivgs with MiS standard scarfed backups. As with the
+dynamic seals, unscarfed (solid) tackups are pre-
+ferred uherc the diameter is large enough so that they
+can be installed without damage. Α 16- to 32-uin.
+fnish is requirea φ- .ε O-ring glar?σ.
+The types o: seals currenitv ip usc are discussed in
+par. 9-4 %.6, AMCP 706-20
+9.2.7.1.4 Materials and Stress Considerazio.σ
+Actuator st:ess considerations inchude conttol of
+stress raice*σ and use of apprcpriate riterials with
+proven stress corrosion resistance and precictable
+fatigue λ:fe. [Jse of adequate internal and external
+radius is highly desirabte. The finish must 5ρ kept in
+ine range of ?2 rms or belcw. Α significantly rougher
+πnish can off.er generous radii by introducing many
+ρ.o-radius σ res: raisers.
+Stechs generally have better, more consisteit
+fatigue-lise characteristics than does aluminuns, an.,
+.vrefore. shzif be uscd where long life is mandato.υ
+anc fight safety imporart. Μ1Λ-C-Σ503 is apphca-
+ble in éτ.σ easr. anc contains detail requirements in-
+“luding environmental and life tests.
+The lapoes spool-sieeve control valve matur'ats
+may Oe ciher SAE 52100 seties steel. or cocroston-
+resis.ant ste:ls such as Typc: 44ν stainiess. Tuese
+μ.:ç-: Ix have π•oven suti-factory in service usage.
+tat 94. C siainleas mmust Se cold stabilized to insure
+unmensional stab.uty in erder to avcit suoscquent
+jammirg.
+-16
+
+9-2.7.1.5 Geueral Reqpiremza35
+This discussion applies primarily to flight control
+acivators with integraied CAS. SAS. or sutopilot
+medes of opcration. For satisfactory scrvice usage, it
+is desirable that the necessary control linkage be im-
+mersed in fluid inside the actuator. Jemming. corro.
+sion, high friction, anc unaccepable control system
+slop due to wear are problems that are climinated
+and/or minimizet by this method. It also allows the
+use of α rotary low-pressure dynamic seal as the
+access from the external manuel control system to the
+actuator internal linkage. Such α seal is considered
+superior to α lincar seal bucause more efficient sexling
+minimizes introduction of contaminants to the sesi.
+Mechanical override of σ jammed scrvo soziuffte α:τ
+appropriate margin of yicid/failure sirength in the
+consrol linkage. Reliability of override supcess
+depcnds upon the severity of the jam, which, in turm.
+varies in some manner with size, ahape, and material
+ot the jamming particle. Dependanre on mechanical
+override (as the sole back-up for α jammed servo) is
+not an aoceptabie techrique exozp: for small (iigh:
+controi force) helicopters. Hyársulic rajundancy is
+the prescribed method for lerger helicopiers.
+The linkege and the 'crcc input capaoility shali be
+designed so tha: chnips that may get to the control
+valve can be shcared, thus α: oiding catastropht: jam-
+ming of the actuator control. Generally, α 1000-lb
+force at the valve spool centerline is used lo define the
+Jltimar: loas-carrying capability of ihe control
+system linkage between the pilot input point and the
+valve spool. This is conservative, but usuaily deficc-
+tion and other criteria are such that no weight pen.lty
+is involved.
+For stable cont:ol system operation, both with
+power on and with power off, actuator stiffness can
+be umportanc. The Nluid spring rate capabiity of the
+aciuator is α prim.: factor, because it is generally the
+softest portir.ν of the total accuator spring rate capa-
+bility. Adequate stiffness may be attained in several
+wa;σ. The actuator arez may be increased beyond
+-uι o1 se os sssodined serurpose 10; palrbal leuy
+crease the fluid spring rate. Another alternative is to
+use hydraulic damper: in conjunction with actuato:
+capability. Power off damping may require the ust of
+separate dampers in an: eveat.
+Dual actuator eperation ot α single system may re-
+quire : hydrauhc bypass or anticavitation featrre.
+This preve nts the pumping of fiuid bach to the sy stem
+reservoir, α.δ α resulting requirerrent for α larger.
+heavier rese:ve ir. Another benefn is α significant
+reduction in the caergy required from the semaining
+opcrative system in order to circulate fluid in the
+failed system. Anticavitation can be aceomplished

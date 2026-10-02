@@ -1,0 +1,24 @@
+in The foregoing examples have illustrated the case which the magnetic
+forces are attractive (when parallel currents flow in the same direction). Cases
+exist, however, where currents in adjacent conductors, or in adjacent legs of the
+conductor, flow in opposite directions. When this happens, the magnetic same
+force acts to separate the conductors, α fact that may create α problem for the
+unwary designer. One such case is the folded protective foil splice shown in
+Figure 7.8.
+Reverse current paths through joint. 7.8 Figure
+Α splice of this sort was considered (Reference 7.7) for joining two plastic
+laminates protected with aluminum foils. An aluminum edge wrap was utilized
+to provide electrical conductivity between the foils on the lower and upper
+laminates. This arrangement, however, forced the lightning current to travel in
+opposite directions through the edge wrap, as shown in Figure 7.8. When α 100
+kA simulated lightning current was passed through α sample of this joint, the
+-
+edge wrap pulled away from the fasteners as shown in Figure 7.9.
+7.8) Π, Jacobsen (Reference gives the force, per unit length of current
+Ξ, path, δ, acting to repel two parallel plates whose separation, is small compared
+I, to width, β, and which carry current, opposite directions as follows: in
+5) where π = 4 nxIO - ~ H / ~ (7.1
+(4 Assuming the aluminum edge wrap of Figure 7.8 was 0.1 μ in) wide,
+kA the peak force for the 100 test current would have been
+δ: For α length of current path, of 0.013 μ (0.5 in) through the edge wrap
+200

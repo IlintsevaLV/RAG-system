@@ -1,0 +1,43 @@
+system. Grounding at both ends removes the volt- twisted pair wires, as shown in Fig. 17.5, allow the
+ages to ground, but allows noise currents to flow in the shield to be grounded at both ends since residual noise
+shield and allows circuit voltages to develop. Which voltages produced by current in the shield is rejected.
+represents the greater hazard, common mode voltages
+or circuit voltages, depends on the circumstances of Junctions with semiconductors: In general it is
+wiring interconnecting two different preferable that individual cases.
+Two ways to resolve the dilemma are shown in pieces of electronic equipment not interface directly
+Fig. 17.3. One way is to limit the voltage on the un- with the junctions of semiconductors, as shown in Figs.
+grounded end with a surge protective device, leaving 17.6(a).
+the shield, in effect grounded at only one end for nor-
+low when light- at both ends operation and grounded mal
+the circuit to flows. This does subject ning current
+temporary error voltages when lightning current flows,
+but the risk of permanent damage from high common
+mode voltages is reduced. still high
+Fig. 17.4 Twisted pair transmission.
+(a)N ( il ... ....1 .. ....
+low -----
+transmission and reception. Differential Fig. 17.5
+Fig. 17.3 Elimination of common mode voltage.
+(a) Surge suppression device
+(b) Overall shield
+better method A of minimizing error voltages is to
+cover the signal shield with an overall shield grounded
+at each end. This minimizes both circuit and common
+mode voltages. It also separates the functions of pro- (a)
+viding for lightning protection and providing for noise
+free tranmmission under normal circumrtances. The ..
+overall shield must, of course, be grounded at both
+ends.
+Twisted pairs: Signal transmission over a twisted-pair
+circuit with signal grounds isolated fromn the aircraft
+structure, Fig. 17.4, tends to couple lower voltages
+because the resistive rise in the shield is not in the s-g.
+nal path. It must not be forgotten, however, that the
+use of twisted-pair transndssion lines does not elim- (b)
+inate the common-mode voltage to which electronic
+%" minimized is voltage That be subjected. may systems
+only by grounding the shield at both ends.
+4 Sig. 17.0 Cotmection to semiconductor junctions.
+reception: Differential end transmoisson Differential (a) Direct connection - bad
+transmission and reception devices, used along with Current (b) limiting resistor - good
+438

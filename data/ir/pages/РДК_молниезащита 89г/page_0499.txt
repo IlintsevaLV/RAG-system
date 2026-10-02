@@ -1,0 +1,51 @@
+generator of the surge power level Increase the only for ad- 3. calls This procedure approach: Modified
+is obtained current either (α) the specified until to α specified voltage magnitude justing the induced
+maximum value. Α separate adjustment is not made or the setting is reached. (β) Σ,
+for short circuit current since the current would be re-
+requisite number of pulses. of generator 4. Apply the lated to the voltage by the specifications
+impedance.
+The open circuit voltage is measured on α single
+Procedures for Oscillatory Waveforms 18.7.3 turn calibration winding on the injection transformer
+and the surge generator power setting is increased un-
+til the specified voltage is obtained, at which point the
+are injecting oscillatory currents Procedures for The waveshape of the setting is noted. Σ,, generator
+test 1 and 2, but same as for waveforms basically the be noted. The imped- voltage should also open circuit
+at number of frequencies to the differ as practices and injection transformer of the characteristics ance
+surge generator are assumed to oe basically sound if which tests must be made.
+the requisite voltage waveshape is obtained.
+"Yellow book" approach: Early guidelines [18.8] rec-
+The test procedure is as follows: ommended making tests for assessment of damage at
+two frequencies, 1 MHz and 10 MHz. More recent
+1. Connect the various pieces of equipment under proposals [18.9, 18.10] call for assessment of upset at
+test with suitable cables, multiple frequencies between 1 and 50 MHz of systems
+that might be susceptible to upset or damage at other
+not frequencies. of test procedures do Present drafts [18.9]
+that can be developed, and the of what is suitable, The waveforms clearly address the question
+but evolving practice suggests using the actual ca- ratio of voltage to current, are more strongly influ-
+ble configuration if possible. If the length or con- enced by impedances of the test circuit than in the
+Cable impedance and the case of waveforms 1 and 2. cables is not known then struction of the actual
+are both important. of the test generator the best estimate impedance tests should be made using the
+SAE AE-4Λ requirements on the source imped- of the actual lengths or construction. If the actual The
+generator and injection transformer ance of the surge test program, are too long for α practical cables
+into together they be capable of delivering of shorter length may be used, are that then test cables
+but the method of shielding and termination of an open circuit α specified voltage and deliver into α
+shields should replicate the actual cables as far short circuit α specified current. The ratio of voltage
+as it is practical. Specially fabricated test cables to current (peak values) is to be 25, but there are no
+should be α minimum of two meters long, this be- specific frequency characteristics specified. Many gen-
+ing α reflection of test practices. erators have α resistive frequency characteristic, but EMI/EMC
+be resis- to is not constrained impedance the source
+2. Position the injection and monitoring transform- tive.
+ers as shown in Fig. 18.38.
+The test procedure would be es follows:
+Transient Remove the injection transformer from the test 1. Generator cbe
+cable. probe-- injection
+circuit the desired open the generator until 2. Adjust β cable under test voltage is obtained, as measured on α single turn
+calibration winding. Record the setting, of the Σ. monitor probe
+generator.
+3. Clamp the injection transformer to α short cir-
+cuited loop of wire and measure the short circuit
+Oscilloscope current. The ratio of voltage to current should be
+25, within an agreed upon tolerance.
+Fig. 18.38 Test setup for injection of waveforms
+or if the correct, is not current short circuit If the 4. 2. 1 and
+486

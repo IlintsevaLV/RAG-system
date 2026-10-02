@@ -1,0 +1,53 @@
+AMCP 706-202
+δ~ps system voltage severe could in be experienced. the AC generator is applicable generally to the DC
+Wihregard tovoltage regulation, whnaspeed starter/genierator as.Ioretochvethe lightest
+range approaches approximately or exceeds 2.5:1, possible weight without sacrificing mechanical in-
+high-speed instability χ~ν result. Because the regu- tegrity, both aluminum τ.nd magnesium used are for
+lator is called upon to overload adjust from an at low housing materials, the choice being related directly to
+τ noloadoWading sped power factor loads high at θ:ehria nvironinefltrequirements.
+orde 5:1.portnce.Theweight of advantage of α DC starter/
+gnrtremp3oying this high-permeability material,
+7-43 SrARmF/GENERATORS, DC cmaetoaunit employing silicon stiedl punchings,
+CKNERATORS AND STARTERS is of the order of 20*.
+Stawe-of-thc art systanms for helicopter ap- The DC starter/generator normally operates from
+plications are designed for operation at α nominal stand-still 28 to speeds of rpm in 6000 irelation to starter
+V. with power quality defined in accordance with the mode operating For genefator operation, speeds. it
+requirsmnuas of MIL-STD-704. For the majority of ordinarily '-overs α range speed of approximately 2: 1.
+applications, advantage is taken of the volumetric with ef- ryi. ι the usual 3000 minimum speed. and seldom
+ficiency and lightweight properties of is applied the DC whta- maximum speeds exceed 12,000 rpm.
+starter/generator. Nevertheless, there exiit many State-of-the-art DC istarter/generators generally
+applications that, for various reasons, eniploy both, α employ greasL-lubricated ball bearings. For hcli-
+DCgenerator and starter: DC. copter usage, thz bearing life generally falls between
+1000 and 3000 hr.
+The brushes that ride on the commutator and cn
+Τ he construction the startcr/generator DC ι, duct the current from the pwe surc in the case of -
+~comprised of α rotating artnature and stationary of the starter and to the load in the case of the - - ' field.δ The armature is constructed of Aistack of steel generator are made normally of carbon and -
+uniformly slotted on the outer peri- copper. Because of altitude requiriements, the brushes α"laminations
+phery; the power windingV art connected to the coin- are treated with u compound (such as molybdenum
+mutator and placed are into the slots. The stationary disulfide) in order to provide the necessry filming
+LOn field consists of laminated main poles, interpoles, and characteristics under χ jnditions of low oxygen and
+solid steel α field ring to which the poles arc attached moisture. For starter/genecrators, brush life is limited
+on tlhe Imner peziphery, to 5Μ00Δ10 hr, depending upon the severity of thec
+the main poles are wound the main field win- start. For those applications requiring Senerrtor
+dinga, connected either in parallel (shunt) or in series operation only, brush lives of up to 2000 hr arc po. si-
+with the armature winding. The interpole coils are he..
+conn, -led in series with the armature. Α fourth win- Air cooling of the DC starter/generator and
+ding distributed in slots, placed in the pole faces, generator is standard prazf~ice. Contan~ι~nn" pro. -
+and connected in series to tht armature serves to tection of this cooling air ic required. This cooling -
+support the main field and to overcomec the do. may be accomplished by integral fan (self-cooling),
+magnetizing effects of an armature of reaction to the blatt by cooling, or by α combination the two. Pre.-
+magnitic field up set by load currents flowing in the cautions are necessary in order to define the cooling
+* armature winding. This winding is termed the coin- conditions adequately. Becmuse of the problem of
+pensatieg winding, and generally is employed with providing adequate heat transfer from the-brushes
+gencertor ratings of 200 or more. Α and commutator to the oil, oil cooling seldom is em.
+The starter/generator nornuilly require α fifth Pioyod.
+winding consisting of single turn α in stries with the Following is checklist α minimum of in'.ormatic
+armature and wound on the main, poles. This win- noo.esaary in order to dcfine ad1equately & stafter/
+ding, during starter operation, aids in increaing the generator for α given application:
+torque output per limpere of input current. Some Engine 1. type and manufactukcr
+manufacturers leave thii, winding connected during 2. Intended installation
+geerator operation an α differential compound win- Envelope 3. requirements (diameter and length)
+aids Maximum digthat in the tagulation over load and fte 4. allowable weight
+Maximum alIawabke overhand snpeedi range. moment 5. -
+discussion mechianical the The of construction of 6. Engine mounting details
+7-9

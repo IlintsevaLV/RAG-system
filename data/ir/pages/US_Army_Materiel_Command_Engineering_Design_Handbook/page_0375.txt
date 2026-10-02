@@ -1,0 +1,109 @@
+• : As
+0-2.7.4 oarein
+-smad eg gnns dnd onl saxoany
+uon, siore fiuic frorn sssbzystean difiercntial venumes,
+peovide for thernal expansioa and costractior. aad
+mrovise for accaptablc gxternal Seakage at dynemix
+soals Surieg syeiosn operatior. Tkere are several types
+of reaervoirs, inchuding bootatrap. separated-sir
+siaqi pecumeaid sgo-pepastoruoe pue 'porsmsvesd
+tyau are discussed in sxore drtail in par. 5-4.4.2.
+ARiCP No-20I. The various dstign requisesents
+snd features of the reazzvoirs are Giscuosod in Μöfl-
+R-Σ52 2nd Μ1Λ-R-Σ931.
+η
+the pump auction requirements. Then requirements
+involve both Suid sccaleration and ihe prescure
+nequieed to ciminats cavitation st the maximus:
+speed, ρ aximupe Now, and nvinimum operatirg tem-
+parature points. The pump characteristics must be
+defined before the reservoir and pump suction line
+can be analyzed and Gegigned. MiL-H-Σ440 defines
+generel suxtion requirements: however, tx specific
+pump requirements may override these.
+Ths scals in the bledder eng diaparegm reservoite
+ase: not conzidered dynamic in the sensc of α piston
+seal. Fhe ciaphragm and blsdder do have relative
+motion between themselves ans the rercrvoir. The
+bootstrap reservoir does incorporate piston seals.
+Where the wcignt penalty is acceptable, bellows are
+preferred to dynamic scalt for the low-pressure side.
+Where dynamic seals crc used, friction and life ex-
+pectancy are primary consicerations. The friction
+level shall be estimated conservatively and is to be
+uscd in designing the reservoir to meet the accelera-
+tion an-1 anticavitation requirements.
+The reservoir shall include, as an integrated or
+separate cicment, α relief vaive for protection sgainst
+overil), in conjunction with accepting the maximum
+flow back to the rescrvoir as α resu!: cf system differ-
+ential during operation.
+Fill provisions shall be in accordunce with Mll.-R-
+5520. Filling is α function primarily of the type of
+reservoir. The oper: or air-pressurizcd reservoir may
+bc fillzt by hand with Aluid poures froin α can. How-
+evcr, this meihod Fas obvious disadventages in that
+contaminated fuid casily could be poured into the
+sysiem. Scparate uir-fuid reservoirs and bootstrap
+reaservoirs cannot te filled conveniently and casily by
+pot :ing. Thcy require fill carts, ot equipment such as
+'and pumps that can generaic positive flow at low
+pressure This typc of filling normally is ac-
+complished through the systen: return filter. This is
+desirable because contamineted fuid will be filtered
+prior tu reaching the pump iniet.
+9-20
+
+*
+Tbe uec of HCd tochsiquee caecks as RLS afiste the
+reaarvoir coguiramases (refer to pars. 9-2.6.1 saxl 9-
+2.6.1.1). Mactianiccily. ihe Rls unis snua be iott-
+grated into the derige in the optimuo manaer:
+minimem extarnal dynsraic seaks, lightweigint. relie-
+bie operatana, cic. Functionally. volone muas te
+addrd, depending upon the specific subejrtem chy.
+acteristics, to alicar for the scarco snd favit ieolation
+(prccrraes.
+The saction outlet should te &: the bottoan of, or
+no higher these the msiidse of, the cecervoir, relative to
+normal fuli leveis. In the casc of ponaeparsted reaer-
+voirs. provisiuas for cegative γ-transient operation
+Mgi de maie.
+Fluif level indicstion stalf be in accordance with
+Mil.-R-SS2C and Getail specifications.
+For buotstrap reecrvoirs, the high-preuure side
+passeges shali be large cnough to mgantain the transi-
+enis due to rescrvoir high-volume change rate from
+exoreding 3750 pai.
+Provisions shals be included for an air bleud at the
+highest point of the reservoir as it is installec in the
+helicopier. Manun!-operation capability is required.
+Conider ton shall be given to tise possibility of
+autonrati. biced on startup in addition io the manual
+bleed.
+0-2.7.Σ Pressure Railet
+Sysiem relief valves are required to provide for
+possibic pump control failurc. The requirements are
+covered in MAIL-V.8813, and α IMilitary Standard
+(MS) series of qualified valves is available. However.
+MS vaives arc in scparate housings: where integrated
+modules and setvice centers are chosen. the func-
+tionsl parts of the MS valve may be integrated into
+the package. Consideration shoulc be given to
+routing the relief flow through the hydraulic system
+cooier. 'This could prevent syste.ν overheat under
+conditions where the relief valve on the pump com-
+pensator malfunctions. The stanc'ard system reiief
+valve rarely operates, and therefore can be quite sim-
+ple in design.
+Where high &esponse, frequent operation, and/or
+narrow rescat-full-flow requircments dictate α non-
+stancard design. consideration must be given to the
+dynamic performance characteristics. This will in-
+clude damping provisions, such as α hydraulic
+dashpot.
+9-2.7.6 Pressure Regulatios
+Pressure regulators or reducers generally are used
+to step the systen: pressure down for use in α specific
+subsystem. The detail sequirenents for these units ar-
+covered by Mll-v-8566. The rai:cers may inciude

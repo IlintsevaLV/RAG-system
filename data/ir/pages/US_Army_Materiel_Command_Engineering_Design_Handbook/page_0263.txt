@@ -1,0 +1,108 @@
+ARICP 706-202
+5-8.3.3.4 Comtred Perfo aasre
+A propeller control, in combisation with the
+ongine conitol. must sot and mainisia the operating
+conditions directed by the pilot. It must raspend
+quickly and accurataiy to pilot commands and be un-
+affected by undesisatse Cisturbances. Control per-
+formanox is summarized in thrce parameiers: ac-
+curacy, stability. and transient response. In order to
+define thex characteristics, it is nacssary to study
+the behavior o. the entire propulsion system over its
+complete operating sange, using various analytical
+techniques.
+nonlinear dynamic simvlation of t'he overall system.
+This involves detailed nonlinesr dynamic equetions
+for the engine and the engine contro!, as weli as for
+the propeller control. This simulatign roquires inputs
+that define the ambient condition. surrounding the
+engine and propeller — such as pressure, tempera-
+ture, and fight spced — and the pilot-initiated inputs
+that specify the desired operating point. This type of
+prograin provides estimatas of thrust, propcller
+spood, engine speed, fuel low, and many other vari-
+abies as a function of timc for various types of pilot
+command signais or excernai disturbances.
+Fig. 5-43 shows a simplified block diagram of a
+turboprop propulsion system and indicates some of
+the typical input parameters to the engine and pro-
+peller controls. Each of the blocks contains a matrix
+of nonlinear differuntial equations that are used to
+define the stcady-state and transicnt behavior of that
+component.
+A sisnpler analysis, provicing a good insight into
+the basic control requi ancuiz, can be made by line-
+arizing ine importan. -ysuem parameiars at various
+discret: operating cunditions and examining the
+systein bchavior for small disturbances around these
+operating points. This pezmits the application of
+classical servomechanisni theory to the dezign of the
+control system.
+Fig. 5-44 shows a typic.l linsariced block diagram
+for constant-speed conurol of a tursine-driven pro-
+peller system. This integrsi control sysiera will move
+the blade angic until the spood arré-r goes to zero, thus
+essuring that senecd spond is equal to desired speed
+under sieady-staic conditic.:. Tbe governor shown
+in Fig. 5-42 is such a coolot:.
+Whenever rapid transient response is important,
+the conteol dasigner may provide lcac compeasatioe
+to improve the spood of respoasc and ibt stability
+charocteristics of the syatesn. Ti: lead characterictic
+compenaates for the kg tics: constnt betweco biade
+angie change and speod change. In efuct, it provides
+5-68
+
+со -
+cn anticipatory sugnal fos control tbat baipe to mini-
+m.-E overshoots and providcs good system siabilily.
+5-8.3.2.5 Control Relladticy
+Becausc control maifunctions can causc serious
+trouble, reliability is a vita! part of propeller costrol
+design. There are two different philosophies involved
+in design for reliabiity: safo-life and fail-safc.
+The safe-life theory requires that the probability of
+a catastrophic malfuncion be exccodingly renote.
+The deaign musz have & sufficient margin of safety for
+all opersting condisions, both normeal and abnormal.
+Proof that a system enjoys this levei of reliability
+requires extensive testing and thorough analysis of
+service experience.
+The sscond method, fail-safe, requires that no
+reasonably probable single malfunction be allowed to
+cause uneatisfactory operation. The design must ier-
+clude safety devices and redundant components in
+order to tolerate single failures. Sonse propeilers have
+dual hydraulic systems, both controls and ac uaiors,
+to provide fail-safety. This is the case espeaally for
+propellers ussd for primary aircraft control as well as
+fo: propulsios.
+An important part of design for reiisbility is the
+Failure Mode and Effect Analysis (FMEA). Such an
+analysis will help to reveal arcas noeding baiter sefety
+features. It also will provide an improves under-
+standing of possible malfunctions so that their con-
+sequences oi aircraft operation can be appraiaod
+jointly by the airframe designar and the propeiler
+manufacturer.
+5-8.4 PROPELLER BLADES
+5-8.4.1 Biade Coosetry
+As expiained in pa: 5-β.i, she serortynamic size of
+ere
+metric performance #udas in which the treods of
+performance and weight are evaluates for various
+combinations of characteristics. For the parumetsic
+studics, a number of important but accoodary aero-
+dynamic design detaike are assured to be in a "stan-
+dard" condition, to be evaluatod later.
+For the compiate blsde deaign. the sucondary ano-
+dynan. : dctails 3.c., thikness, planform, twics,
+airfoil typc, and camuar - are chosca firat from past
+experience. Major consideration is given to the an-
+ticipated severity of structural loading and rhe type of
+blade material and construction piaaned. Then — for
+the specified operuting conditions — serodynamic
+performance aud loading. aad the biade sructural
+response to the loads, are computod. Wizh theae
+rosultes, changes are m.de in tioc decign cetails aad the
+analyses ar repcaiod until the dacired levais of acro-

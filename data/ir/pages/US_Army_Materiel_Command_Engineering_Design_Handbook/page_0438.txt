@@ -1,0 +1,105 @@
+landing. allowing the ski froodom to sek its ovn
+position on the anow. Α spring or bungoe cord some-
+timos is uaod to koep thc aki clear of the ground on
+aow-froe runways, although some designs favor α
+castor wheei at tbe aft end.
+12-2 LANDING LOAD ANALYSIS
+Tbe operational envirenment to which Army heli-
+copters are exposod is sufficicntly scverr that it has
+boen found neceseary to increese the sinking speod ro-
+quiroments spocifiod in MIL-Σ-8698. The applicable
+deaign cr eria are given in Chapter 4. AMCP 706-
+201. The roquirements for boih symmetrical and
+ssymmetricai landing conditions are discussed
+thorein, irasmuch as α comprehensive dasign analy-
+sis of the landing gear subsystom is requirod uuring
+the preliminary design of α new model of helicopter.
+Landing loads shall be determined by α rational
+procuring activity. One such procedure is outlined in
+MIL-Α-8862. The adoquacy of the landing gear sub-
+sequently will be demonstratod by drop test. The
+qualificution requirements, including the drop tost,
+are dacribed in Chapter 9, AMCP 706-203.
+In addition to the landing loads, the loaas created
+by taxing over obstructions, turning, braking.
+torving and backing aiso must be determined using
+the design criteria of Chapter 4, AMCP 706-201. Thc
+landang and ground-bandling loads then are distri-
+tutod as sbear loads, and bending aid torsion
+moments at seloctod points on the helicopter. Thc
+shear loads and moments resulting from fight loads
+are distributed similarhy, and the critical loads st cach
+point are determinod.
+Normally. the cncrgy-absorbing capability o1 the
+innding srar is dcignci so thni tie ianding anú
+ground-hanating Joads are critical only for the land-
+ing gour sttachaent and support points. Should the
+spesifiod landing or ground-handling Iaads exceod
+ts flight londs, it usually is appropriate to revise the
+landing guar enargy-abeorbing system to reduce the
+load factor at the CG. and/or the local loads. The
+airframe is overwsight and structurally inefficient if
+the landing leads are critical. As with othes charac-
+teristica, it is necessary to examine the trade-off
+hetwocn cnergy-absorbing-system weight and air-
+frame structural wuight.
+12-3 AVOIDANCE OF GROUND
+RESONANCE
+Ground resonance occurs due to coupling between
+the main rotor blades oscillating about their lag
+hinges and the airframe excited at its rigid-body
+
+AMCP 706-202
+natural frequency in the roll, lateral, and/or pitching
+modes. Instability can result in oecillations which
+buildup suffciently to deztroy the helicopter in α
+matter of seconds. Because the thoory is understood
+(Refs. 5 and 6), the problem can be approachod ana-
+lyticaliy during Cataif design.
+The fartors governing stability are & combination
+of rotor and landing gear parameters. Several of the
+pa.ameters zre fixed by basic constraints beyond the
+control of the landing gear designer. The critical pa-
+rameters are:
+1. Blade mass, offar*, and moment of inertia
+2. Number of blsdes
+3. Blade damping about the lag hinge
+4. Rotor rpm
+5. Fuselage mass
+6. Fuselage polar mass moment of inertia about
+the lateral and longitudinal axrs
+7. Landing gear geometry
+8. Tire vertical and lateral -pring rate
+9. Oleo strut damping
+10. Structural spring rate of gear.
+Items 3,7, 8, 9, and 10 offer the most fexibility in
+assessing ànd resolving ground resonanse.
+following factors:
+1. Nonlincar variation of the tire and oieo spring
+rates cauged by changes in helicopter gross weight or
+2. The percentage of gross weight supported by the
+rotor
+3. The effect of improper servicing on the spring
+rates of the struts and tires
+4. The efiect of α flat or soft tire on the spring rate.
+Α detail design approach for assessing stability and
+determining the parameter changes roquired to
+resolve the probiem includes the following proxe-
+: иnp
+1. Determine the lateral, roll, snd longitudinai
+rigid-body natural froquencies of the airframe, con-
+sidering Items 5 through 10 plus the aforenicntioned
+nonlinearities. Operational considerations will deter-
+mine the range of availabic parameters in some cascs.
+Α range of oleo spring rates is est -biichcd by the de-
+cele:α'ion loads inposed spo: the airframe and by
+the ratio among static, extended, and compressed
+lengths. Tire selection is dictated by terrein, load, and
+CBR, leaving some latitude in tire vertical and lateral
+spring rates. The ranor of oleo-strut damping is es-
+tablished by the exessity for an efficient energy-ab-
+sorpticn curve. The possible rigid-body natural fre-
+quencies, and the extremes of the ratio of rotor rpm
+co rigid-body natural frequency, should be tabulated.
+2. Α ground resonano: stability plot should be
+12-11

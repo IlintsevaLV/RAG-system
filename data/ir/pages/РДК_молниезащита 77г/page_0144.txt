@@ -1,0 +1,43 @@
+Α Figure flame arrester at this location will certainly reduce the possibility 6.8.
+of flames entering the surge tank, although there is no assurance that the arrester
+will stop all flames here. And if an arrester is located anywhere in the vent
+system, the possibility of its free air passage becoming blocked with ice must be
+evaluated, preferably by in-flight tests under the expected environmental
+conditions.
+(STP) 4. Surge tank protection systems, the purpose of which is to sense
+flames initiated at vent outlets and extinguish them before they reach fuel tanks,
+are available and should be considered if the vent outlet must be located in or
+2. close to Zone or Since the time required from sensing of the flame to 1
+dispersion of the extinguishant is several milliseconds, there is α possibility that
+STP flames traveling at sonic velocities will outrace the system. Thus, while an
+STP system will unquestionably improve overall safety, it must not be relied
+upon to provide absolute protection of the vent system.
+Ninetydegree bends in the vent lines should be avoided because they 5.
+expand the turbulence and surface area associated with propagating flames and
+thereby increase the velocity of propagation. Instead, straight or smoothly
+curved ducts should be utilized to minimize the possibility of explosive flame
+propagation.
+Location of the fuel vent outlet in an ascertained Zone area will 6. 3
+provide the highest degree of protection of any of the methods described above.
+Α recessed or flush outlet is greatly to be preferred over α protruding tube
+outlet, which could become α source of corona or streamering when the aircraft
+is flying in α strong electric field.
+6.5 Fuel Jettison and Drain Pipes
+On some aircraft provision exists for dumping (jettisoning) fuel overboard.
+Often this provision consists of α pipe extending into the airstream from α fuel
+6.12. Α tank, as shown in Figure normally closed, electrically operated valve is
+inserted into the pipe, so that it is unlikely α flame could travel past this valve
+into the fuel tank. Even if the pipe were struck by lightning while jettisoning
+fuel, it is improbable that flames could propagate through the full pipe into the
+tank.
+Α more likely hazard--if not guarded against in design--is that electrical
+sparks will occur from lightning currents flowing across α poor electrical bond
+between the pipe and the fuel tank wall, since the wall is frequently coated with
+an insulating, corrosion-resistant paint. Bonding jumpers installed across such
+joints may be adequate to equalize static charge differentials which sometimes
+occur in fuel systems, but these usually have too much inductance to prevent
+some lightning current from breaking down insulation and sparking at the
+interface between the pipe and tank wall. Clearly the best way is to make the
+This may be shortest path also the conductive one, as shown in Figure 6.13.
+by done by making the faying surfaces of clean, uncoated metal and/or
+providing bare metal-to-metal contact via the rivets or bolts. If there is doubt

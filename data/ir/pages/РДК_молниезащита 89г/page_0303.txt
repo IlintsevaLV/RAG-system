@@ -1,0 +1,103 @@
+gered lightning. For that, the source term is the cur-
+rent aE conducted into the air from the aircraft.
+The of analysis could be starting point in this type
+distributed, is charge electrical way of the knowledge
+both on the aircraft and in the air surrounding the air-
+craft, because these suffice to calculate the electric field
+surrounding the aircraft. If all the charges are station-
+ary then Eq. 10.41 collapses into Poisson'σ equation:
+V20 (10.45) = -π/eo
+whence
+0(10.46) =
+-Eqs. E
+Generally, however, one does not try to calculate
+the electric field from any knowledge of the charges in
+the clouds; one simply makes an assumption as to what
+the electric field would be in the absence of the aircraft
+and calculates the response of the aircraft to that field,
+including, if necessary, the effects of any pre-existing
+charge on the aircraft. Calculations are made to de-
+termine the way electric charge is distributed on the
+aircraft. From these one can calculate the electric field
+strength at the surface of the aircraft and so calculate
+the current conducted into the air. oE
+Air conductivity: The conductivity of the air is
+course, nonlinear; poorly conducting until the electric
+field gets high enough to cause breakdown and very
+highly conducting as breakdown occurs. The result is
+that there is only α negligible current conducted into
+the air until breakdown occurs, but considerable cur-
+rent afterwards. That current then acts as α souzce of
+charge onto the aircraft, which affects the electric fields
+and may set in motion events that lead to α complete
+triggered lightning flash. Calculating the response of
+the aircraft to the current, though, is done in the same
+way as for α naturally occurring lightning flash.
+Impinging third type of source is that in- fields: Α
+volved when the electromagnetic field from α lightning
+designated Lightning Electromag- channel, commonly
+aircraft. Then the upon impinges Pulse (LEMP), netic
+charges currents and the calculate is to the problem
+This is by the incident LEMP. induced on the vehicle
+problem and classical electromagnetic scattering the
+equa- Maxwell'σ to evaluate techniques special requires
+equations Maxwell'σ to cast is approach One tions.
+field the electric such as [10.20], form integral into an
+field integral or the magnetic (EFIE) equation integral
+(MFIE), whose frequency domain forms are equation
+given by:
+EFIE
+η η 2 I{-ω poeoJ.(ρ')- xAx Eo(ρ,ω)
+2wjweo
++ (V'•)((V'. J.(ρ)]}da' (10.47)
+
+MFIE
+,
+V')O)da' ξ ξ 2Α = ξ J,(ρ'ω + Ho(ω) ω) J,(ρ,
+2 (10.48)
+where represents 0 ε"kR)/R.
+In these equations, Eo(ρ,ω) are the and Ho(ρ,ω)
+incident electric and magnetic fields, R is the vector
+between the observation point (ρ) and the integration
+den- current surface induced the is and (ρ') point J.
+in integration The solution. desired the is which sity,
+air- 10.48 is over the surface of the 10.47 and
+craft. Strictly speaking, these equations are only true
+for perfect conductors, but approaches have beer de-
+veloped to include lossy elements in integral equation
+formalisms.
+Note that the integral equations have the un-
+known appearing in the integrand. The solutions are
+typically obtained by the Method of Moments (MOM)
+[10.21].
+Another approach to solving the scattering prob-
+lem is to invoke the equivalence principle [10.22]. In
+this approach the scattering object is completely sur-
+rounded by an imaginary closed surface. On this sur-
+of face, one defines equivalent electric and magnetic cur-
+rent sources J, and Μ, for use in Maxwell'σ equations.
+These sources, called Huygen'σ sources, are tangen-
+tial to the closed surface and are derived solely from
+the incident field which would exist in the absence
+of the scattering object. Therefore, if one knows the
+sources and Μ,, Maxwell'σ equations can be used J.
+to calculate the electromagnetic response everywhere
+in space, given the appropriate boundary conditions.
+This approach is commonly used to solve the scattering
+problem in the time domain finite difference method
+[10.23].
+Survey of Interaction Models 10.7
+are models interaction available this section, In
+finite classes: two important fall into They surveyed.
+solutions. equation integral and solutions difference
+Difference Finite Domain Time 10.7.1
+Approaches
+the response implies that time domain The term
+is calculated as α function of time, as con- of α system
+trasted to the frequency in which the response domain
+do- time All frequency. of function α as calculated is
+main solutions calculate the response of α system at
+at α previous time steps, uaing the response specific
+time step to calculate the response at the next time
+step.
+287

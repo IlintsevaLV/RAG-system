@@ -1,0 +1,48 @@
+OPERATING SPEEDK ii-NORMAL
+NORMAL FRLCKJJCY
+-NATURAL
+OPERATING rb FREQUENCY OF FIRST
+SYMMETRIC INPLANE RANGE
+MODE 3ENDING 0 200.9
+20
+0
+SMINIMUM ROTOR
+1.β O IN
+J K STEADY FORCE RESONANCE
+BLADE MINIMUM ROT04_ ", F REQ >: 1. 151λ- /• • MAST7
+.0 1 Τ 1ST MECHANICAL INSTABILITY )
+8 1Τ SAFTLOWER BOUNDARY
+CRTCi
+I I
+1. 11500" '' •0.5
+I
+I&oI
+ζ
+Α MAST- MA
+E 0.5 1.0 o Δ 1.5 2.0 HI
+2 5
+_aL
+NORMALIZED ROTOR SPEED flo
+Figure 5-17. Two-degree-of-freedom Coleman Plot Sho*ing Sati•faction of Minimum
+Frequency Criteria for Two-blade Hingeless Rotor
+coalescence 5-43ι. Two-bladed Rotors Without Hing-σ the of tle two support system fre-
+ran η. ι..ia..mnenr- ρ-rnntu.Α ahn.,= thai τ*wn...4aI II ν,.-ν.ac Aa I λ nin nni* ,.•tmni,.ultI tha
+can be approximated by rotors with effectivc hinges; operating range.
+thus, the analyses discussed in par. 54.3.1 also can be 3. The first inplane natural frequency of the rotor
+applied to this case. Because of the location of the at high collect~ve pitch be than less 1.15 shall noi
+rotor natural frequencies, the ground resonance times the rotor speed. This assures that the mechan-
+requirements can be me! by satisfying the following ical instability associated with the coalescence of the
+(see criteria Fig. 5-17): rotor natural frequcncy and the lowest support
+I. Sufficient damping must be provided by the system mode (Point be C) will above the overspeod
+landing gear and undercarriage structure of the air- operating range (110% rotor spceW), and prevents ex-
+frame to remove the instabilities (such as Δ-E) cassiva response to steady-state one-per-rev excita-
+associated with the rigid-body cegrees of freedom of tion (fl - 11 line).
+the airframe on its landing izar, The exact amount of
+damping rquired to stabilize the region Δ-E is not 54.3.3 Multibladed Rotors
+knowi,, but it is probably The Ins tharr 3% critical. For analyses discussed in pars. 5-4.3.1 and 5-4.3.2
+configurations skid with gear and pylon isolation, special the are cases of the classical analysis given by
+inherent damping system of the always is sufficient to Coleman (Ref. 25) for mul'ibladed rotora. For rotors prevent instability, with three or more blades, there is no preferred direc-
+2. The mast frequency in the rotating system tion of motion associated with out of-bvlancc forces;
+shall (Point Β) be no than 1.2 per rev. This guar- the stability ranges given less in Fig. 5-16 by Δ.E and H-I
+antees that the mechanical instability associated with are reduced to σ'mple resonances of the support
+5-22

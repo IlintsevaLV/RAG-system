@@ -1,0 +1,55 @@
+706-202 AMCP
+bined into α system employing α digital computer to closely controlled weight and balance system during
+provide rapid component selection from α number of manufactufe. The prerelcac tracking of all other
+random-wcight parts, blades will be made against mastcr tracking blades.
+For final balance the spanwise and product The master blade(σ) are blade(σ) that have been fabri-
+moments of all of the blade components, closely including cated as as possible to design specifications
+adhesive, θ,. paint and are obtained for the un- and to as precise tolerances. These master tracking
+balanced blade. Again, two simultaneous equations blades are produced so that, when they are installed,
+can be written. The unbalanced spanwise moment the controls arc adjusted to the nominal position. It
+and the forward and aft tip weight moments should then ot can be ascertained how much deviation toler.
+juired be equated to the rt spanwise moment of the ance may be allowed on production blades. Consider-
+master blade. The unbalanced product moment along ation of allowable tolerances includc the crew shall
+with the forward and aft tip weight moments should comfort levels defined in MIL-H-8501.
+be equated to the desired product moment. Solving Interchangeability with mauter blades must be
+thesc equations simriltancously will yield the ad- determined either on α tiedown aircraft or on α
+ditional weight required at each location for dy- suitable towcr prior to relesou for random installa-
+namic balance. Α summary of the balance procedure tion. At least one master blade must be tracked with
+is shown in Table 5-3. each group of production blades. The blades should
+By establishing each α weight tolerance for of the speed be tracked at several rotor settings typical of
+major consistent selective components and using α those that will be encountered during operation and
+method of part selection, the blade assembly will, in at several values of collective pitch, with rotor speed
+nearly all cases, balance within the capacity of ad- held constant. Track readings be taken for each shall
+justable weight attachments. Upon final assembly setting. of blade at each speed and pitch Typical data
+the blade, it be balanct,-checked againzt shall α master are shown in Figs. 5-29 and 5-30.
+blade. The tolerance on the actual balance depends
+iu -oil uzolt. Woil iy; of' C.γ., fully itiuiulait UK
+- the of Tolerances the blade. of size the and hingeless, 1.β -
+order of 10 in.-oz are not uncommon. ι.0- This physical 3
+balance of the blade must be performed on α balance
+blade spanwisc mo- the stand capable of registering _ ADE Ba
+ment o to within the specified tolerance. Weight should -- Σ
+_ be added or removed as required to balance the new χ
+1 that as established be master balance The shall blade. 0.5
+blade to which all other blades of α particular part 1.0
+series number or be balanced. This demonstra- shall
+tion be accomplished by balancing each blade .... -Τ... . shall 1.5
+either directly against the master balance blade or 200 210 22Ω 230 240
+for which the mass balance against α calibrated HUIQ4 WEED. rpm
+master blade was the calibration, stanrakd. Figure 5-29. Track rpm With Varying
+The spanwise teeter balance discussed previously (Zero Collective Pitch)
+flywheel demonstrates blade will be in only that the
+balance chordwise dynamic the however, balance; 1.5
+still may be out of tolerance. Dynamic chordwis.
+checkcd balance, therefore, must be by tracking the .- Β-Α-
+blades at various rpm If and collective pitch o0.15 settings. Α
+selection the of parts was controlled during the fabri- " -- --
+5 0 as such adjustment, minor α blades, the of cation
+moving adjustable tip weights forward or aft, will 0o..
+correct any dynamic chordwise deviation.
+"J3.33 Track 1.5
+"To confirm interchangeability, each blade should 7 4
+be tracked prior to its release for installation. How-
+ever, tracking of hir4eless blades is difficult because COLLECTIVE PITCH 0 . 0 "the 5-3, Interchange- With Varying Collectbe Pitch small. Fipure Track deflections at the tip arc
+"ability rpm) (Comntat Rotor can be confirmed by using α of these blades
+5.49

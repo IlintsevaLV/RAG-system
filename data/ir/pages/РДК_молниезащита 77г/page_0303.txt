@@ -1,0 +1,33 @@
+CHAPTER 10
+BY INTERNAL MAGNETIC FIELDS CREATED DIFFUSION THE
+10.1 Circular Cylinders
+Consider Figure 10.1 in which α current, is entering α circular cylinder. I,
+The cylinder is considered long compared to other dimensions, so that there are
+no end effects, but short compared to the electrical wavelength of any of the
+frequency components of the current The return path for the current is not I.
+shown, but it is assumed to be sufficiently far away from the cylinder that there
+are no proximity effects. Also shown are two conductors, one external ( I ) and
+one internal (2) to the cylinder. These are connected to an end cap considered
+sufficiently massive that ν o electromagnetic fields penetrate the cap. the At
+other end of the cylinder are shown two voltages, V 1 measured from conductor
+V2 to the external surface of the cylinder, and measured from conductor to 1 2
+the inner surfilce of the cylinder.
+Resistance 10.1.1
+The cylinder will have α dc resistance
+where resistivity = π
+length Q =
+Α cross-sectional area =
+radius ρ =
+thickness (α<<ρ) α =
+of If the cylinder has the following dimensions and is made of aluminum the
+indicated resistivity
+Q 2μ =
+ρ 15.7cm =
+mm 5") 1 0.28 (0.01 α =
+2.69ξ10-~ !2. rn π =
+R. R, 1.43 then the dc resistance, will be 10-4 If we consider that the input ξ
+Α, there will then be developed α voltage current is 116
+Α 116 is established and allowed to flow for α time sufficiently If the current of
+long that steady state conditions are reached, the voltage developed along the
+mV. cylinder will then be 16.6 This same voltage drop would be measured by α
+conductor external to the cylinder or by one internal to the cylinder.

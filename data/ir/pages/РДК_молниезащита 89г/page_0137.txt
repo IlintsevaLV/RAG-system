@@ -1,0 +1,74 @@
+Fig. 6.5(b), and is applicable to CFC skins as well as
+metal ones. Fine wire screens and paint primers filled
+with chopped metal fibers have been effective in labo-
+greater than though this method requires ratory tests,
+during surface the of maintenance and care average
+the aircraft's life cycle. It is not presently in wide use.
+Protection multiple by layers: A third method is to
+laminate thin metal skins with a non-conductive ad-
+hesive (most structural adhesives are non-conducting).
+Laboratory testing has shown that the melting activity
+inner the with of metal, ply exterior to the is limited
+ply remaining undamaged. The principle is illustrated
+in Fig. 6.5(c). The outer ply burns away, but in do-
+ing so separates from the inner ply and moves the arc
+ply. inner the from away released, is heat where root,
+Vaporization of the adhesive layer probably releases
+gasses which push the outer layer away. In effect, the
+outer layer is sacrificed to protect the inner ply.
+As an example, an exterior ply of 0.5 mm (0.020
+in) aluminum bonded to an inner ply of 0.75 nun (0.030
+in) aluminum will sustain the same lightning environ-
+meet as a single sheet of 2 mm (0.080 in) aluminum.
+Since melting of holes in metal skins is so impor-
+tant to protection of fuel systems these studies are cov.
+ered further in Chapter 7.
+""
+JIm]
+|Imh,•ls0us~
+14e.04a u"u,.Oi 0
+Ida.
+.. Msiexamples.
+Sthe
+-
+a - ming tJ
+Fig. 6.4 Area of holes melted through
+aluneinure and titanium skins.
+120
+
+(a) paint
+aluminum unpainted
+(.000 thk) tbk) (.060 a1iItu
+Ij
+.-.........
+(b)
+pain ......... ..
+-afrminum
+lightning
+paint
+(
+adhesive
+mm 0.75
+(0.020 in) (0.030 in)
+Fig. 6.5 Methods of protecting against melt-through.
+(a) Increasing skin thickness
+(b) Arc root dispersion
+(c) Laminated skins
+6.2.2 Resistive Heating
+As current passes through the resistance of a
+metal conductor, it will generate heat. Resistive heat-
+ing of metal skins by lightning current will never pro-
+duce temperatures high enough to be of concern, be-
+cause cross-sectional area will always be ample, but
+heating of conductors with small cross-sections can be
+sufficient, in some cases. to damage or destroy these
+conductors. Wiring harnesses and control cables are
+A particularly important problem arises if
+a conductor is heated enough to melt it, because then
+wire might literally explode and cause very severe
+damage.
+Some of the factors that affect heating and melt-
+of various metals are listed in Table 6.1.
+Calculation of temperature rise: The temperature
+rise in a current-carrying conductor is:
+0 2 3 8 2 AT (6.3) • 1 d f

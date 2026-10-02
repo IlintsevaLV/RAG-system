@@ -1,0 +1,45 @@
+those the typical low-frequency shields are intended to handle. The dkhotomy
+between the requirements for shielding against high-frequency, lightning-
+produced interference and those for shielding against everyday, low-frequency
+interference is usually too great for both sets of requirements to be met by the
+use of only one shield system.
+Most commonly both sets of requirements can be met only by having one
+shield system to protect against low-frequency interference and a second shield
+system to protect against lightning-generated interference. The lightning shield
+can usually consist of an overall braided shield on a group of conductors with
+this overall shield being grounded to the aircraft structure at least at the ends.
+Within the overall shield may be placed whatever types of circuits are needed.
+Frequently these circuits will have a shielded conductor of their own. a In
+coordinated shielded system the designers of individual circuits should have the
+option of grounding such inner shields as their own requirements dictate, but
+they should not have the power of dictating the treatment of the overall shield.
+Such an overall shield (OAS) is shown in Figure 15.5.
+The method of grounding this overall shield can have a great impact on its
+effectiveness in protecting against lightning-generated interference. Figures
+15.5(b) through 15.5(e) show several methods of grounding such a shield when
+that shield is placed over a group of conductors being brought into an equipment
+case. For best performance the OAS should be terminated on the back shell of a
+connector specifically designed for such termination. The shield should make a
+360" circumferential connection to the back shell of the connector. The
+resistance to its mating connector shell itself should be designed to have low dc
+panel connector. Most commonly, such low-resistance mating requires the use of
+grounding fingers within the connector shell. Connectors without such ground-
+ing fingers frequently have high resistance between the mating shells, since the
+shells are frequently coated with an insulating coating to reduce problems of
+corrosion. The shell of the panel connector should also provide a 360" peripheral
+connection to the metal equipment case. Providing such a connection frequently
+requires that paint or other coatings on the case of the equipment be removed
+and the bare metal exposed.
+In the absence of a 360" connector, an external pigtail is often used for
+grounding the OAS, as shown in Figure 15.5(c). Such pigtails are definitely
+inferior to the connector because they force an interfering current on the 360"
+shield to be concentrated through the pigtail, and hence to provide a much
+greater degree of magnetic coupling to the core conductors than does the
+distributed current flow on a properly designed connector back shell. If such a
+pigtail is used, it should be as short as possible and should terminate on the
+outside of the equipment case. A pigtail of only a very few inches may introduce
+inore leakage from the shield onto the inner conductors than does several-foot a
+section of the shield itself.
+The practice of grounding an overall shield to the inside surface of an
+equipment case through a pigtail and a set of contacts in the connector is less
+effective than the use of an external pigtail, partly because the length of the

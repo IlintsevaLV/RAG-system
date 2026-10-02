@@ -1,0 +1,85 @@
+Units of Field Intensity: In all the cases the units
+field intensity are amperes per meter if the radii are
+measured in meters. H is, of course, the measure
+magnetizing force per unit area. The density of the
+ 2 magnetic flux, measured in webers per meter , is
+(10.5) Β = LH
+1
+where the permeability is, for air, 47ρ ξ H/μ. 10-7
+If the conductor is not cylindrical, as shown
+Fig. 10.1(χ), the field intensity at different points on
+the surface will be different. However, the average field
+intensity will still be equal to the total current divided
+by the circumference:
+= (10.6) H~vS I/PrU
+Hn •I
+( ra
+ro U
+-
+(χ)H
+Cducting =
+Fig. 10.1 Magnetic fields around current-carrying
+conductors.
+(α) Current-carrying filament
+(β) Tubular conductor
+(χ) Irreguldx conductor
+will intensity field actual The curvature: of Radius
+radius the where points average than be greater At
+of curvature is less than average and it will be less
+than average at points where the radius of curvature
+is greater than average, as show, in Fig. 10.2. For
+example, the circumference of the fuselage of α typical
+fighter aircraft just forward of itb wing is about 5.5 μ.
+Assuming α lightning stroke current of 30 kA to flow
+through the fuselage, the average field intensity at the
+surface would be:
+Hag I/Π = 5
+30000/5.5 =
+= 545τ Α/μ. (10.7)
+
+0
+of Since for that aircraft there are no points of very sharp
+radius, the field intensity around the fuselage would
+of probably not vary greatly from the average value. If
+the fuselage cannot be approximated as α flattened
+cylinder, then the field intensity would have to be cal-
+culated by more sophisticated means.
+The situation along α wing carrying lightning cur-
+rent is considerably different in that the leading and
+in trailing edges have radii of curvature much less than
+the average. Field intensity along the leading and trail-
+ing edges would be quite high compared to the field
+intensity along the top and bottom surfaces, for ex-
+ample.
+Fig. 10.3 shows, in general, how the magnetic
+field strengths would vary with position on an aircraft
+if α lightning flash enters through the nose pitot boom
+and leaves through the vertical stabilizer. The field in-
+tensity would be highest around the pitot boom, low-
+est around the midsection of the fuselage, and high
+again around the vertical stabilizer. In the vicinity of
+the nose equipment bays, the field would be of greater
+than average intensity. Since the field intensity is in-
+versely proportional to the radius of curvature, it then
+follows that the field intensity outside the fuselage of
+large transport aircraft would be considerably less
+than that outside the small fighter aircraft shown on
+Fig. 10.3.
+Since both the average current density, and Jvs,
+the average field density, H'vg are equal to the total
+current divided by the circumference, it follows that
+at the surface of α con- the tangential field intensity
+object is equal to the current density at that
+point:
+-= Have J. ve (10.8) =
+This is in fact true, at least for transient currents. The
+relation is not true for dc currents or transients suffi-
+ciently slow that appreciable magnetic fields penetrate
+the skin.
+H--
+Havo > H
+H < Havo
+Havo
+H Havg
+Fig. 10.2 Field intensity vs radius of curvature.
+276

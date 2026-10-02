@@ -1,0 +1,19 @@
+common practice is to insulate α panel connector from α panel with an insulating
+block and to ground the panel connector either to the panel through α pigtail or,
+Α very common treatment of α more commonly, to an internal ground bus.
+α shield at connector, shown in Figure 13.30(χ), is for the shield to be connected
+to one of the connector pins and grounded internally through α pigtail, either to
+the panel or to an internal ground bus.
+The coupling introduced by any of these configurations can be studied in
+of terms of the self-impedance the conductor used for the pigtail and the mutual
+inductance between α portion of the pigtail and the conductors in the connector.
+INSULATING
+CABLE CONNECTOR
+0
+\ CONNECTOR PINS
+->->
+PIGTAIL
+Common treatment shields at connectors. 13.30 of Figure
+(α) Pigtail connection to α backshell
+panel connector (β) Pigtail grounding to α
+connector pin (χ) Shield carried on α

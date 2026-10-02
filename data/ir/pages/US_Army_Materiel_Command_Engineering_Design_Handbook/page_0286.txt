@@ -1,0 +1,104 @@
+comirol putr an onocecie
+monts for ai:al
+δ in pars. 3.7.4.4 and 3.7.4.5 of
+ο
+fixod-wing apecificationc, and can be mot with ruci-
+asgreantation. Aay oouping af tie
+mera! rot axc and ~iral modas (comeaonly
+referred so α α "apiral-ts or "latoral phuguid"
+oqd aqt Aq sqqrrousap ag sou pruous (upou
+6-2.3.2.3 Juberent Alrtreame Sitabtley
+The unaugnontod (imberont) stability of the bedi-
+copter sbelf be considured fuily witih respect to volhicle
+coafiguration and flight csvalope liamits, evon thougk
+sagmocsstion is planped Τ'isis is sarepsary becaure
+situstions can arise ie wbick augmoniation systers
+failurcs rocjuire the pios to fiy only with tbc inioorent
+webicle Elability. Α cost-effectivoneas and porfcvaa-
+anco effactivencas doaign trado-off exists betweex τàε
+degros of fight coatrol sysiom aophistication and the
+degree of inàcrest stability providod Ery the basic heli-
+copier ccafiguration. In offecting such α trado-off
+study, tbe lovei of stability required under failure con-
+ditions stall bc dafinod since it moay be subjoct to
+variation with the flight control systam concept uged.
+For exampke, coasides the following thax relation-
+shipe betwoen augmentation sophistication and in-
+hereat stability:
+1. Α rcliable. multiredundant augmentation
+system can toleraie α significant dogrce of inherent in-
+stability. Α vehicke so aquipped, however, may not be
+capable of flight wih all augmentztion switched off.
+2. Α single-channel augmen'stion system will
+require inherent vehicle stala'ty suitable for com-
+pliance with thc VFR requirements of MIL-H-850!
+under augmentation system failure conditions.
+3. Α dual-channel system will requirc an inherent
+stability level somewhere between thc first two cases.
+Α hardover failure of onc channel (while operating in
+the normal dual mode) can produce α vehicle
+response that causes the remaining operating channel
+to experience α saturation in opposition to the failure.
+Such α failure, with inherent airframe instability,
+results in α rapid divergent vehiclc responsc, whercas
+the vehicle response with increased positive inherent
+trollabic by the pilot.
+Α method for improving the inherent longitudinai
+stability of single- or tilt-rotor vehicles is the ad-
+dition of α horizontal tail; "differential delta thrce"
+(rotor blade flap-pitch coupling on the forward rotor)
+can be used witin tandem-rotor vehicles. Lateral-
+directional stability improvement is afforded by the
+tail rotor and α vertical tail surface on single- or tilt-
+66
+
+rC4O mechin
+(inc!sading tice aft pyion) in tihe of iem-
+prca-γ0ont for ta
+6-2.1.3.4 Varieaien
+Yhe ofieri of addod stabil
+the characierixic roots should reviewed thor-
+oughly on the root plote, speci;illy wiah regard 1o
+changos in aesg srtica gaine, time constants, air-.
+apend, and otiher fighs conditione. This iniormation
+will holp save timne sind cout by indicating ragicus of
+criticel stability and ragioms wiere stabilicy is too sou-
+sitive to cortain parammetric varsatioas.
+The soot plot formsts important to deeign are:
+1. Basic haicpter vertus sirspood, at crisicai groms
+veights and st both extromas of the CG range
+2. Basic belicopter versus sirspoed, as in Iseue 1.
+3. Helicopier with #abilicy augmentation for the
+conditions in Itoms 1 aad 2.
+6-2.13 Typ δ Caatrd
+The typce of stability augmentation appliceble to α
+given derign vary in the parameters they control and,
+tberefore, in how thcy aid the pilot.
+Common sugmniation conirol typas sre:
+1. Ratc
+2. Attitude and trim
+3. Altitude and/or airspeed hold
+4. Heading
+5. Hover position
+6. Special augmentation.
+Rate controls provide improved damping of all
+augmented degrecs of freedom (poientially six, in-
+cluding threc lincar and three angular). This type of
+augmentation aids the pilot in coping with the short-
+period responses, but does not prevent long-term roll
+drift and possibly α slvggish or unstable spced hold,
+even with α stabie stick gradient.
+The addition of attitude loops and trim functions
+(such as lateral accelerometers and speed-hold loops)
+aids the pilot by providing long-term trim-speed hold
+and strong sideslip roll attitude and pitch control.
+The pilot then must provide only the power setting.
+altitude, and heading control. Finally, the use of
+altitude-hold and heading-hold removes the necd for
+pilot input to the controls. Hover-position hold
+loops, and controls designed to impart stability to ex-
+ternal sling loads in forward fight, are examples of
+special augmentation controls.
+6-2.1.4 Transient Kesponse
+The characteristic root analysis only partially des-
+cribas the handling qualities of α helicopter. The mag-

@@ -1,0 +1,110 @@
+5-4.1AMPLIFICATION AND NATURAL
+FREQUENCIES
+vibrations is field of rotor of thi Α summary
+mathematical, this Although highly in Ref. 21, rained
+reference both seeking for those is α valuable
+and rotor loads information on specific and
+discuss specific that follow paragraphs tion. The
+ftequmicy and natural Information. plification
+Information natura frequency Fig. 5-14 presents
+wo-bladed, the method rotor, but teetaing for α τ
+presentation and the design information are
+discussion. Two to warrant α detailed enough
+are made - one labeled collective mode and
+other cyclic mode. These names stem from the
+by the collective caused and motions of forces
+collective rotor, two-baded the For controls. cyclic
+airloads harmonic by even modes excited arm
+harmonics. modes are excited by odd cyclic
+abscissas the frequencies; are natural The ordinates
+are rotor speeds; the vertical lines mark the
+Mre harmonic and the radial lines speed range, rotor
+and uncoupled natural&4- excitation lines. Coupled
+with and cutves by are indicated quencies
+Wi "- - sha8ρ1 moi1ε The symbhols. appnhc-be o~
+to tile schematically. Fiapwise is nomnal shown
+rotation. of plane !he in is inplane of rotation;
+feathering; torsion and coupled means without blade
+freedom. coupled ef these degrees include modes
+harmonic excitatron plot contains even collective
+cyclic odd harmonic plot contains lines, while the
+lines,
+The circ!zd numbers identify three collective
+four cyclic modes. natural All frequencies increase
+with rpm, but the flapwise frequencies increase
+Ire~~~~tarde . - . . . η._ .... ...... . ..... ... £... -η -.
+cyclic mode) because the centrifugal stiffness
+larger percentuge of the total stiffness in the flapwise
+direction. The collective modes show very little
+modal coupling with twist and pitch, while the
+modes show strong coupling,
+de•ign These fan plots ar' the primary guide
+rotor dynamics. Myklestad'σ development (Ref.
+the of variation the compute to possible it made
+oupled frequences with rpm. Finally, the method
+Ref. 17 made it possible to compute the intermodal
+oupling due to twist and ollective pitch.
+the fine of because is necessary computation
+required to avoid resonance throigh the eighth
+monic of excitation, especially for compound
+wide ranges composite rotors having aircraft
+} operating rpm.
+Transient resonances such as Points Α, Β, and
+collecive the mode plot (Fig. 5-14) cannot
+alvoided, \ but they cause no significant load or
+
+uwd tion prolAwm.• Such π'oints are for test verifica-
+tion of 0ε!'ι calculated natural flreqncies. Without Α.ι,'
+confirm plats tlhe fan verification or adjust to such con-
+first several of α new rotor, ground runs during the
+aw . might be required to of tuning weights variations general
+in correct rpm, resulting at operating trends tablish vibra-
+-- of time. cost and loss ccnsiderable an-
+K calculating rotor natural fro- ,ε main objective of V
+such (nronncem) is to prevent coincidences quencies
+or near the normal occurring in as Point Α from of
+general operating rotor rtoo- speed band. Such steady-state
+but often produce graphs nances are not catastrophic,
+the strell high enough to reduce fatigue life signifi-
+types cantly, as well as fuselage vibrations that may require Τ
+, for comfortable flight envelope of the restriction and
+operation.
+factors cannot amplification resonant Generally, while
+design pur- sufficient accuracy for be computed with
+deter- have been amplification factors Once posx&.
+mined for an existing rotor. fairly accurate predic- normal
+of pera- for vAriations loads can made be tions of
+α new these values to meters; however, extrapolating
+factors damping risk. The involves considerable rotor witiout
+arem prturaman rOiur-iuR1 ν hypi'Μ Ar VIompuiing uaH IN IIfLC
+"'. loads of the predicted the value and plane empirical
+low. is necessarily Un-
+mechanisms has damping Progress in evaluating
+dynamic and in both wait for improvements had to The
+because an computing methods aerodynamic
+may be due response at resonance observed level of
+level of dam- or to α high low level of force either to α
+concepts ping. Some'damping associated with the fan
+and plots of Fig. 5-14 are:
+I. All modes contain structural damping on the
+much order of 0.50-1.00% of critl, which is relatively in-
+of. 0.5-100 of•α• cri,,ti.ι-iI. wh~tc ν_*κ.tk; significant.
+α is shown the 2. Flapwise modes such " the ones in
+collective mode plot ame strongly damped aerody-
+inter- namically, while inplane modes not. are
+cyclic 3. Modes with strong intermodal coupling, such as
+those shown in θ, cyclic mode plot, have fme-
+for qucncies that vary significantly with blade pitch; •
+16) thus, they benefit from an effective damping me-
+cyclic The detuning. cyclic as to referred hhanism un-
+of variation in pitch limits the resonance to α few
+degrees of azimuth, preventing steady-state resonant -'
+Accurate~ amplification. This damping source is at least as
+damping. aerodynamic flapwise as the significant tuning
+har-
+and
+RESONANCE 54.3 GROUND of
+The helicopter be free of mechanical insta- shaft
+C in bility at all rotor speeds and opernting conditions
+be (takeoff, flight, landing, taxi) regardless ann of the
+vibra- type of landing gear; under the entire range of gross

@@ -1,0 +1,56 @@
+of the cavity exposed to the magnetic field. The im-
+τ• Δ distance α at be spaced will 11.40(β), Fig. age,
+K) + + 11 [ON 1.5 0.wWaL im- the in and cunrent, the carrying face the behind
+age the reflection of the external current will be of ._2
+as the on produced field electric The polarity. opposite
+(α) inner surface of the face exposed to the external # ι.σ cur- Λ + SO δ! +
+current, α force to act will 11.40(χ), Fig. in shown rent,
+the cav- interior of the circuit defining ir, around the
+ity. The length of the loop involved will be the same δ? 04 Ξ 0δ
+as the length of the cavity, and the width will be twice 6 .
+the depth of the cavity. The internal voltage gradient - -2ε as δ) U
+cur- inner the of product to the proportional be will
+rent density and the resistivity of the face carrying the Λ 0.2 ) Id (ξ
+Π, exhibit will earlier, described as and, external current
+(β) described buildup penetration pulse the characteristic
+/
+in Fig. 11.7. K 0
+xs τ as viewed be may voltage This Internal impedance:
+impressed across α loop or cavity inductance: 06
+4 j.o.2ξ K ρ (11.4J) 1Ei R+jwL. = Z
+The resistance and inductance will both be gv/erned (χ)
+by the effective characteristics of the loop defining the
+cavity. Typical current paths and their characteristic Fig. 11.41 Typical current paths and characteristic
+impedances are shown in Fig. 11.41. Some cavities impedances.
+may be viewed as being sufficiently long and narrow (α) Long sheets
+that they may be defined by parallel strips. Others (β) Rectangular box
+are basically of rectangular or circular shape, or of (χ) Circular cylinder
+some simple shape that may be approximated by an
+equivalent circular cylinder. The inductance and re-
+sistance of each configuration are shown. Each of the
+inductance equations [11.28] has α correction factor,
+log (κ), or K, that relates to the shape of the en- It will be seen, then, that the greater the number F'
+closure. These correction factors are shown in Fig. of fasteners, the less the restriction of current flow and
+11.42. the less resistance inserted into the current path. The
+resistance introduced by the fasteners is important be-
+and Covers fasteners: If the cavity is provided with cause it is frequently mucl, higher than the intrinsic
+α removable cover, and if this cover is in the external resistance of the metal surface and because the resis-
+current flow or is exposed to the external magnetic tance is not subjected to the skin effects that retard
+field, the effects are as illustrated in Fig. 11.43. If the the buildup of current density on the inner surface.
+cover is assumed to be of the same material and thick- An equivalent circuit of the cavity including the
+ness as the rest of the face upon which it is mounted, effects of fasteners is shown in Fig. 11.44. R! is
+the principal effects relate to the resistance of the fas- the equivalent resistance of the fasteners. Circulated
+teners used to hold the cover in place. The covers through this resistance is the undistorted current fluw-
+will seldom make good electrical contact to the rest ing in the exterior face of the fuselage. The sum of R
+1
+of the surface except at the fasteners themselves. Ac- and is equal to the intrinsic resistance of the loop R
+2
+cordingly, the external current flowing in the face will defining the cavity, the resistances being given by the
+be constricted in the vicirity of the fastener and pass equations in Fig. 11.41. The external current will
+from that face onto the cover through the fastener- develop α voltage across o)nly α portion of this resis-
+The major effect of this constriction of current flow tance, since it flows in only α portion of the loop. Let-
+is to introduce α lumped resistance into the electrical ting R, be the resistance through which the external
+circuit, although there is α certain amount of influence current flows, that resistance may be assumed to be
+on the inductance of the circuit whenever the current subjected to the current as retarded the pulse pen- by
+is constricted. etration time constant. The two voltages developed
+330

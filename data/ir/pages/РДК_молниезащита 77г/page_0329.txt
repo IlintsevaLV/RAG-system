@@ -1,0 +1,17 @@
+- VOLTAGE
+- CONDUCTOR 1 CONDUCTOR 7
+Difference voltages and total flux. Figure 10.22
+(Leading edges of waveforms retouched for photographic clarity)
+10.22 Figure shows the voltages between conductors (displayed on two
+separate oscilloscopes and hence displayed on two separate oscillograms) and the
+his i;igral of the conductor-to-conductor voltage. latter is of course
+proportional to the magnetic flux that builds up internally to the cylinder.
+Since, at early times, the line-to-ground voltages have the same waveshape but
+different amplitudes, it follows that the line-line voltage will also have that
+waveshape. Unlike the line-ground voltages, the line-line voltage decays toward
+zero. Since the input current was not a step-function current, the oscillograms
+ps per division show the line-line voltage decaying to zero and displayed at 500
+then reversing as the input current decays and the internal magnetic fields
+attempt t o follow the decaying external magnetic fields. The input current did
+not last long enough for the magnetic field to reach a steady state value, but the
+850 ps. Why the oscillograms do indicate that it seems to crest at about

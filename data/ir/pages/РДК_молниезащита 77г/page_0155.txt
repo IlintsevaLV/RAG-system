@@ -1,0 +1,32 @@
+protection requirement for α 0.203 cm thickness. Therefore, Brick, Oh, and
+Schneider (Reference 6.44) studied dwell times of 400 Α decaying arcs blown by
+the exhaust from α wind tunnel over aluminum and titanium skin panels with
+several surface treatments to see how long such an arc might actually dwell at
+one point before reattaching to the next. Wind speeds of μ/σ (150 mph) and 67
+μ/σ (250 mph), representing approach speeds for typical aircraft, were 112
+utilized. The test current they used was representative of lightning continuing
+0.2 current, and would have delivered an average charge of about C/ms of dwell.
+The researchers reported that the arcs dwelled for 2 ms or less on uncoated
+surfaces of both metals, and for 4.8 ms on an anodized aluminum surface. At 0.2
+C, Clms of dwell these dwell points would have received 0.4 and 0.96
+respectively. Figures 6.17 and 6.18 this would not have been enough charge By
+to melt through even the 0.05 cm thicknesses of either metal. If the lightning
+current amplitude experienced in Zone 2Α never exceeded 400 this result Α, I
+would indicate that skins as thin as 0.05 cm would be safe. The problem is, of
+course, that the occurrence of higher currents has now been recognized as
+possible in Zone 2Α.
+the end of the dwell at one point, the arc will reattach at α point At
+Section 2.3. farther aft on the aircraft, as shown in Figure 6.21 and explained in
+During the dwell times the aircraft would be moving, and the distance covered
+would be
+td (6.4) Δ = v
+(μ) Δ distance arc is drawn along the aircraft surface Where =
+v aircraft velocity (μ/σ) =
+td dwell time (σ) =
+2.0 Thus, at velocities of 67 and μ/σ and with the dwell times of and 112
+ms reported Brick, spacings between successive dwell points would be as 4.8 by
+given in Table 6.4.
+EARLIER LATER
+DIRECTION
+OF FLIGHT
+Basic mechanism of swept-stroke reattachment. 6.21 Figure

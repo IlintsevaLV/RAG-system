@@ -1,0 +1,108 @@
+relubricagion for periodic from the need Α.side
+(60Δ-hr intervals ate common) the greatest difficulty
+for adequate sealing is providing with gear couplings
+the grease. Guillotine slider seals and elastomeric
+high angle ap- found in are most often boots
+be while modified lip-type shafts seals can plications
+used for low angle deg) operation. Shaft speeds (<I
+of 20,000 rpm, which are now common, offer α dis-
+tinct challenge to the designer since few seal designs
+can tolerate the high centrifugal field. Overheating
+dut, :ω of lubricant, followed !σ by plastic shear of
+the hot teeth, is the predominant failure mode for this
+type of coupling.
+Fully hardened, ground, and properly modified
+gear coupling teeth operate well with tooth loads in
+the range of 50,000-70,000 psi at sliding velocities
+well over 100 in./sec. Operation out-side of these
+boundaries, use of improper tooth materials, and use
+of inferior lubricants can result in contact melting,
+smearing, and welding of the teeth.
+Α method of determining the tooth load dis-
+tributions for varying combinations of tooth crown
+curvature, profile modification, misalignment angle,
+and torque is given in Ref. 113. These loads may then
+be used to calculate root fillet bending stress, Hert-
+zian contact stress, and flash temperature indices as
+shown in par. 4-2.2.1.2.
+4-3.2.2 Bearings
+for drive bearings of hanger design for The criteria
+power normal the from considerably differ shafting
+Π to loads The in gearboxes. used bearings loaded
+very light are subjected are bearings hanger which the
+for the bearing of is the capacity where C 10 < < (C/Π
+and survival) probability 90% with cycles 10' of lire α
+sizes are determined by the torque requirement of the
+shaft through the bearing. With high tensile strength
+heavy wall shafts used to reduce shaft outside
+diameter, α relatively small bore (light) series bearing
+can be used in the hanger.
+Bcaring mounting on the shaft should be closely
+controlled to assure true running and that internal
+clearances are adequate to prevent radial preloading
+Grease under operating temperature differcntials.
+lubrication normally is used, and sealed nonrelubri-
+catable as well as relubricatable bearings may be
+used. The lack of adequate internal clearance is α
+common design error found in many existing hanger
+bearing designs.
+Considerable effort has been expended, as des-
+cribed in Ref. 114, to evaluate greases for hanger
+bearings. The grease most commonly used is Μ IL-Γ-
+81322.
+4-80
+
+by in the grease oil loss of the lubricating After
+evaporation or migration, the common failure mode
+is hanger bearings by grease lubricated exhibited
+overheating, failure and expulsion of the cage. and
+due shaft vibration, of balls. Severe finally, expulsion
+or shaft to loss of centering provided by the bearing,
+failure may follow loss of balls.
+Degradation of the lubricant also is caused by en-
+try of water or debris into the bearing. The means of
+sealing bearings provided by bearing manufacturers
+are generally inadequate to preclude α significant
+failure rate in the Army environment unless ad-
+ditional protection is provided. One such means is to
+enclose the drive shaft with α cover to exclude the
+bearing areas from the contaminating environment.
+Another simpler, but less effective, means is to in-
+stall rotating slingers on each side of the bearings
+with closely controlled clearances at the slinger OD.
+This providL shie.δ against the entry of water,
+debris, or cleaning fluids during helicopter wash-
+down. Although an effective seal may be designed
+that will reliably assure reasonable bearing life (1000-
+2000 hr), α hanger that is designed to permit re-
+lubrication can greatly reduce hanger bearing re-
+placement. Frequent introduction of α fresh charge of
+lubricant can revitalize and/or purge the old charge
+of contaminated and thickened grease. However. re-
+lubrication adds to the maintenance burden and the
+risk of servicing with an incorrect and unsuitable
+lubricant is everpresent, but most lubricants will pro-
+at least for the bearing of operation satisfactory vide
+nonserviceable of selection period. The short α
+is α designs or relubricatable bearings replaceable
+bearing cost, as factors such many involving trade-off
+and survivabili- re!iability, man-hours, maintenance
+ty.
+The design of the hanger assembly must be such as
+to prevent inadvertent bearing overloads. Nominal
+bearing loads are limited to shaft weight and ro-
+tating unbalanced loads, neither of which should be
+detrimental. However, misinstallation of the hanger
+can introduce static angular misalignment between
+inner and outer rings (shaft to housing) causing α
+moment load to be imposed on the bearing. Al-
+air- though system compliance (hanger, shaft, and
+frame) may preclude loads of sufficient magnitude to
+cause spalling fatigue, the bearing balls will skid as α
+result of contact angle reversal due to these moment
+loads. Such operation will cause cage distress and
+overheating with abbreviated service life. Adequate
+relief from angular misalignment, in the form of
+proper internal clearances and/or self-aligning outer
+ring mounting, must be provided in the hanger
+design.

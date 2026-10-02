@@ -1,0 +1,66 @@
+The pulse-breakdown rating of the dielectric, however,
+is not α constant ratio to the dc voltage rating, nor
+it normally part of any manufacturer'σ specification.0
+Accordingly, it is safest to consider that such α capac-
+itor is in danger of failure if the pulse voltage exceeds
+the dc rating of the capacitor.
+0.24.MIN
+0.22-
+0. IV
+0.10
+O1
+00
+CAW
+0.0%
+0o 1, .0
+Fig. 17.32 Plot of versus [17.19]. VBD VO/ ι-ρ/ι-,
+0.20
+0.10
+Fig. 17.33 Plot of versus for values VO/ VBD ir,/ρ,
+less than 2 [17.20]. Of Vo/VBD
+~Fig.
+'- '-~-" -''-'
+Its
+MIN I
+_______ _______ _______
+_____________________
+*
+EMOCUMEN1
+~'~" ~Μ
+Damage thresholds of 55107 Fig. 17.34 SN
+line receivers 117.211
+
+~ ~
+φ" Τ" 1Τ '
+is
+100 MAX
+U
+VOLTAGE
+-MAX
+MIN
+....... Λ...JLI 1..J. III loll τ I 1 III
+.10.1 1 1*
+MICROSECOND$ - DURATION PULSE
+Fig. 17.35 Damage thresholds of SN 55109
+line drivers [17.22].
+O aa*usa .* .. ~
+. VOLTAGE - -
+16
+_
+Ilf λ
+0
+PIKES MICRONOI0Σ - DURAhION
+Damage thresholds of 4050 CD 1.7.36
+on capacitors: Electrolytic capacitors, Electrolytic
+the other hand. do not experience when abrupt failure
+exposed short-duration to transients. the voltage If
+across capacitor exceeds the voltage the used to form
+the dielectric dielectric film, the begins to filmn con-
+duct. the has disappeared, After the dielectric pulse
+tran- During the normial its to nearly returns state.
+sient dielectric can carry substantial period the film
+permianent catastrophic without or transient current
+degradation.
+however. may lead Transients. to increased leak-
+age currents. An examp~le of data that is available re- ι
+4630

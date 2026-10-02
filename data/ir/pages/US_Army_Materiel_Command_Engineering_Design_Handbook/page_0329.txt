@@ -1,0 +1,103 @@
+ABACP 706-202
+to limit malfunction automaticaily to s singie circuit,
+and to minimize the danger of smoke and fire not
+oniy in the components, but aiso in the wiring.
+Overload protection of the equipment should be
+considered separately from circuit overload protec-
+tion. In order to obtain maximum safe use of the
+equipment, sny protection required shalii be integral.
+If the equipment is not requived in order to maintain
+controlled flight, and maximum equipment use is not
+necessary, the equipment and circuit protection may
+be accomplished by the same device, provided that
+this dual function does not conflict with the basic
+requirement of protecting the wiring bringing power
+to the equipment.
+The primary intent of circuit protection is to pro-
+tect the interconnect wiring and the equipment. Ali
+wirce measuring more than i ft ftom the bus to the
+load shali be provided with some form of circuit pro-
+tection. Proper sclection of the protective device
+should result in the lowest rating that will not open
+the circuit inadvertently.
+A circuit-protection device shoula be used at any
+point in the circuit where the wire size ch nges, un-
+less the upstream protection provides for the smallest
+wire. Where more than one circuit is fed froni a sing!e
+circuit-protection device, the protection shoula be
+sizod to provide adequate protection for the in-
+dividual circuit. The circuit protection should be lo-
+cated as close to the power source as is practicable in
+ord.r to minimize unprotscted wiring.
+7-S.2 OVERLOAD PROTECTION DEVICES
+Overload protection devices fall into three cate-
+gories circuit breakers, including remote circuit
+breakers; current sensors; and fuses.
+7-5.2.1 Circuft Breakers
+Circuit breukers n.ay be actuated cither thermally
+or magnetically. Both typez are covered by MIL-C-
+5809.
+7-5.2.1.1 Thermal Circuit Breakers
+The actuation of thermal ircuit breakers is de-
+pendent upon a temperature increase in the sensing
+«icment which is produced principelly from the load
+current hesting. The thermal element will be affected
+by externgl heating or cooling. and must be derated
+or uprated from calibration temperature to allow for
+fluctuations in ambient senperature. Th: majority of
+the circuit breakers used at tine present ti-ne are of the
+tnermal type.
+7-5.2.1.3 Magaestc Circuit Breakers
+Maguetic circuit brcakers use a trip mechanism
+7-20
+
+that responds to a mzguetic efiect rather than to the
+heating effect of the current carried by the brcaker.
+Magnetic circuit breakers normally incorporate time
+delay so as to avoid nuisance tripping from current
+surgee of short duret: on. Although the magnetic cir-
+cuit breakers are lcss affected by adverse environ-
+ment, they are not used to the extent that thermal cir-
+cuit breakers are because the trip characteristics of
+magnetic circuit breal:ers may be affected by their
+mounting position and vibration.
+7-5.2.2 kemore Control Circuit Brerkers
+A remote control circuit breaker consists of a con-
+tactor whose solenoid circuit is controlled by a
+current-sensitive clement, plus a manual-switching
+and trip-indicating cevice. The latter unit often con-
+sists of a man-saily operated circvit breaker arranged
+so as to trip whenevur the remote sensor trips. The re-
+mote ciscuit breaker can be utilized best for bus
+fecders and wiring connected to a single load.
+Although an approved remote control circuit breaker
+is not availabie, Military Specification MIL-C-83383
+is being developed for a family of remote control cir-
+cuit breakers.
+7-5.2.3 Current Seasors
+A current sensor is used in conjunction with a con-
+tactor and a manual-switching or trip-indicating de-
+vice in order to obtain the actuation of a remote con-
+trol circuit breaker. The sensor current-sensitive ele-
+ment conirols the soienoid of the contactor. The trip-
+indicating device often consists of a manually
+ope:ated circuit breaker arranged so as to trip when-
+ever the current limit of the sensor is exceeded. When
+a circuit breaker is used with a curront sonsor as s
+rip-indicating device, the lowest possible rating
+should be used in order to obtain an immediate indi-
+cation of when the sensor has tripped. The current
+sensor can be utilized best when there is & need to
+control a high-current loa-sJ, such as in .. motor with a
+low-current ccntrol circuit, and to keep the high-
+current loads to a minimum length.
+7-5.2.4 Fases
+A fuse relies upon the meiting of the current-
+carrying eiement in order to open the circuit when an
+overload occurs. The four bazic fuse types arc: nor-
+mal, time delay, very fast-acting, and current-
+limiting.
+Ench type of fuse is available in a variety of
+characteristice so as to mect various circuit require-
+menis. For a complete listing of characteristice, refor
+to MIL-F-23419 and MIL-F-5372.

@@ -1,0 +1,79 @@
+breakdown voltage, the reverse diode, For α 1NS40
+is 0.93 K, constant, the damage V and is 400 VBD,
+approx- pulse is used to ns If α 200 17.4). Table (See
+current failure the sine wave, MHz damped α 1 imate
+be would the diode for
+10-)1/2 0.93 (2 ξ
+(17.23) 5.2Α 400 F
+from of the source that the impedance now Assume
+is 10 ohms. The transient generated which the voltage
+of 5.2 Α through to produce α current voltage required
+be the diode would
++ I-TansientRgSourece (17.24) let' VTrai.ν -VBD
+VT'rn.iere 452V 2=
+11 α or wide ns 200 pulse, V 452 α single Therefore,
+MHz damped sine wave having α peak amplitude of
+fail. the diode to V would cause 452
+SOURCE ANSIENT N____40___
+Lj~Fig,
+IIRELAY Ve +
+ TRANSIENT
+-
+relay [17.271. Simple remote-controlled Fig. 17.38
+analysis for chosen circuit second The splitter: Phase
+Fig. shown in amplifier simple phase-splitter is the
+input current the determining step in first The 17.39.
+Again__ circuit. the to simplify is for damage required
+the transient producing source voltage that the assume
+At such MHz frequency. wave of sine is α I damped
+and of capacitors Ci the reactances α frequency C
+2
+Likewise be neglected. may they that so small be will
+at be to considered be can line supply power 12V the
+potential. ground
+I.it
+Icem
+01
+"16
+Oo VV
+[17.281. circuit Phase-splitter Fig. 17.39
+
+ii shown after simplification circuit The resultant
+simplified be further circuit can The 17.40. in Fig.
+base the for equivalent resistances the determining by
+and junction base-eniitter The circuits. collector and
+by be replaced can also junction the base-collector
+the in operation represent to equivalents diode their
+shown 'ν circuit is regions. This simplified breakdown
+Also break- the are figure in the shown 17.410. Fig.
+the 2N706Β. for dam-age constants and down voltages
+for the α damage constant Note that for this transistor
+not listed though junction is available, collector-base
+in Table 17.5.
+100 R R, 2 Rm 30 I1K
+RaMP R5
+020
+[ 17.29]. circuit phase-splitter 17.40 Simplified
+Σ-1
+- R,
+J ý 100
+0 25v_ 640 I3_v
+7
+-RU • VsM' -
+4sO 400
+α α 5V SV o ω.ν.ase'Α 0.007Σ K. 20: 5 5
+simplification of phase-splitter Further 17.41 Fig.
+[17.30]. circuit
+The circuit is now simplified to the point where
+lend itself easily to hand analysis. The next step
+the fail and what junction will which is to determine
+generally are components The passive is. mode failure
+for short-duration energies higher able to withstand
+transistor the Therefore, transistors. than can pulses
+is also Failure damage. for consider to element the is
+biased direction. in the reverse assumed to occur
+α calculation is made to see whether the emitter-base
+fail first. junction would collector- base junction or the
+ 1 (17.25) 17Ω 2 τ- = = PEB K / 8
+(17.26) - 130Ω Pc-u KcBt-I/2
+462

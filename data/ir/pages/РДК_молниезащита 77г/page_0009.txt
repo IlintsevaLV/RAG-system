@@ -1,0 +1,83 @@
+11.3 Magnetic Field Zones
+References
+Voltages and Currents Induced on Wiring Chapter 12
+-
+12.1 Elementary Considerations
+12.2 Transmission Line Effects
+12.3 Aids for Calculation of Voltage and Current
+12.4 Voltage and Currents in the
+References
+Effects of Shields on Cables Chapter 1 3
+.
+13.1 Introduction
+13.3 Some Elementary Illustrations
+13.3 Transfer Quantities
+13.4 Multiple Conductors and Shields
+13.5 Transfer Characteristics of Actual Cables
+13.6 Transfer Characteristics of Connectors
+13.7 Grounding of Shields
+References
+Chapter 14 Exaltiples of Induced Voltages Measured on Aircraft
+-
+14.1 Introduction
+F-89J 14.2 Wing from Aircraft
+(DFBW) F-8 14.3 Digital-Fly-By-Wire
+References
+Chapter 15 Design to Minimize Indirect Effects
+.
+15.1 Some Premises and Goals for Design
+15.2 Improvement Through Location of Electronic Equipment
+15.3 Improvement Through Location of Wiring
+15.4 Improvement Through Shielding
+15.5 Improvement Through Circuit Design
+15.6 Circuit Protection Through Use of Protective Devices
+15.7 Improvement Through Transient Coordination
+References
+Chapter 16 Component Damage Analysis
+.
+16.1 Introduction
+16.2 Theoretical Models
+16.3 Empirical Models
+16.4 Limitations
+16.5 Failure Mechanisms--
+16.6 Damage Constants
+
+TABLEOFCONTENTS
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 344
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 348
+. . . . . . . . . . . . . . . . . 349
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . 351
+. . . . . . . . . . . . . . . . 357
+. . . . . . . . . . . . . . . . . . Space Shuttle 359
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 360
+. . . . . . . . . . . . . . . . . . . . . 361
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+. . . . . . . . . . . . . . . . . . . . . . . . . 362
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 369
+. . . . . . . . . . . . . . . . . . . . . . . . 385
+. . . . . . . . . . . . . . . . . . . 393
+. . . . . . . . . . . . . . . . . . . . 394
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 394
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 405
+. . . . . . . . . 407
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 407
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 407
+. . . . . . . . . . . . . . . . . . . . . . . . 413
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 427
+. . . . . . . . . . . . . . . . . . . . . 429
+. . . . . . . . . . . . . . . . . . . . . . 429
+. . . . . . . 429
+. . . . . . . . . . . . . . . . . . 430
+. . . . . . . . . . . . . . . . . . . . . . . . 433
+. . . . . . . . . . . . . . . . . . . . . 438
+. . . . . . . . . . 441
+. . . . . . . . . . . . . . . 446
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 450
+. . . . . . . . . . . . . . . . . . . . . . . . . 451
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 451
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 451
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 451
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 452
+. . . . . . . . . . . . . . . . . . . . Semiconductors 453
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 455

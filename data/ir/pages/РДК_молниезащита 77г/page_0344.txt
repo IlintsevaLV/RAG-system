@@ -1,0 +1,33 @@
+Π, The total magnetic field strength at then, would be the sum of the
+Ξ and axes. components produced by the dipoles lying along the Y
++ Hxy If H,, =
+Ξ
+Ξ, Z The total field strength at point would be the vector summation of the Π Y,
+components of the field.
+The field strength is seen to be inversely proportional to the cube of the
+distance from the aperture to the point in question. Accordingly, the
+aperture-coupled fields will be localized in space near the aperture. Small
+apertures are thus less troublesome than large apertures, both because of the
+decreased magnetic field strength associated with the corresponding dipole and
+hyause of the lesser distance one must be removed from the aperture before the
+field strength becomes negligible compared to the field strength closer to the
+aperture. =
+The above formulation has one major restriction: it is valid only in the
+low-frequency region, low-frequency imply~ng that the aperture is small
+compared to the wavele~gths of the field under consideration. Coupling through
+apertures increases with increasing frequency, as witness the quarter-wave
+resonant slot antenna. The fo~mulation also treats only the internal magnetic
+fields produced by external magnetic fields and does not treat the electric field
+produced by α changing magnetic field or the magnetic field produced by α
+11.1) treats the interaction more changing electric field. Taylor (Reference in
+.~?agne!ic ~δ fields is greater detail. This interaction between changing electric
+at high frequencies and, for the frequency σ$χ;um associated with lightning, is
+possibly of importance only at those frequenc'les for which the aperture is not
+electrically small.
+The above formulation is also valid on'$ when the point at which the field
+is τ o be calculated is at α distance from the ap,:rture that is large compared to the
+rnade to calculate the fields close dimensions of the aperture. If an attempt is to
+the aperture, the results are inaccurate. If the distance from the point to the
+aperture goes to zero, the calczated magnitude of fieldsbecomes infinite,
+whereas the field itself can never in fact bec ~ μ ε larger (barring reflections) than
+It can be shown, in fact, hat the actual field strength in the the external field.

@@ -1,0 +1,103 @@
+“
+LIST OF SYMROLS
+4 - realè dampiag: dericative of rolling mome
+witin roq:ect to roll dstx; R-β/rad-ooc
+Λ dibodrei stability: durivative of rolling mo-
+ment wità roapuce to yaw angk Α-ib/sad
+- roil contrel aansitévity: derivative of rotling
+mostassat wina voapect to control input,
+R-ib/is.
+pitch dempiog: derivesive of pitciaing mo-
+ment with raapect (o pich russ, fi-it!
+rd-ox
+- ssod aability: derivative of pitckiag nro-
+snant wiah reapect to forwsrad velcity:
+Α-β/fp
+α pitch scabrility: dasivative of pitmdina mo-
+maod wits raspect 'o pilcht anglt, Α-lb/red
+Disca consrol sensin.vity: Cerivative of
+pitchinag momart wità repect lo control
+iapeas, il -lb/in.
+– yau Gampiog: derivstive of yaving mo-
+mant wilh raspest so yaw rate, falb/radl-eer
+Nρ yaw stolsility: derivative of ya wisg inoment
+with roapoci to yaw angk, Α-ib/rad
+= yaw cantroi sensitivity: derivative of yaw-
+ing moment vith respect to control inpue,
+R-λ6/in.
+λ – number of pitch Fnks, diensionkess
+- aurader of nonredundant cmpenents
+having the failure rate F,
+- nureber sf rafundant components having
+θ: failure rate Π,
+- number of nonredundent cotapunients
+having the failure tate Π,
+= nunter of redundant comsponents having
+the fuilure rate Π,
+Π - fcilure rate of ugsregate of components,
+hr-1$
+– dyoanuic preseurc, poi
+verticat damping: derivative of vertical
+force with rerzect to verticel velocity,
+ib/fps
+Z, α vertical control scnsitivity: derivativc of
+vertical force wish recpect to contro: input,
+it/in.
+5 - demping rotio, dimensioniess
+α gencralizest rointios about α:.υ axis, rud
+Ω = rotationc! apeed, rad/sec
+- uaoamped iatural frequvncy. rad;scc
+- Latural frequency of inplanc (lcud-log) mo-
+tion of rotor blade, rad/asc
+
+CHAPTER
+FLIGHT CONTROL SUBSYSTEM
+*
+6-1 CENERAL
+leiing α bel bicka bas baur
+shown to satiafy tibe guneral stabilnty
+siated in Chapter 6. AMCP 706-20:, isto α refiapd
+configuratioa that monts the miasion flying-quelity
+requirensnts. Thbe paragraphs that foibow discues tiec π
+infiuence of helicopter siability roquiremonts upos
+tibe deail design of the fight coatrol syutuan.
+6-1.1 DESICN METHOD
+The airframc maruafacturer — aeting as the syatom
+intogrator of airframe, coatrols, andi stability aug-
+mentatior subaystom — should condsct inerative
+and/or corapetitive traio-off studios. Thcse studiee
+wili evaluate the performance, cost, safety. ruliability.
+and maintenance charecteristics of one or sevorai
+const: ol syssenes as they rolate to thc mirsior soquine
+ments &ad fight path stability spocifications refurred
+to within this chapier.
+Σ-1.1.ι Poinr ef Departure
+Tys calìυ, tioe preliminary daign seauts in α defisi-
+tion of the flight controls and α first ectinsatr of
+stability augmentatios: subsystez: characteristics thal
+are believed to be sufficient to germit conpliance of
+the hebicopter wirh the stability and conirel apeci-
+fications. Thece pi iminery design dints inctud:: con-
+tre' kinemstics as lirats on rotor blade or saro-
+Gynamic controi surfare travel, geueral arrangenuent
+of controls, and ncchanical aornntages. The pao
+liminary cesign serves as σ base point tromn vhicks
+desigr alte stionz are proposei for ine purpose of im-
+provng systen capabiliy, relixbility, sraintaingbili-
+iy. and cost. Thexe design alternatives then are sub-
+jxted to α detail design trade-off etudy for assess-
+meat. Typical considerations to he revievve δ arc:
+φ. The level of helicopter stability required, wish or
+without &ugmentation
+2. The parameters that should be controlled, and
+tl ε charactesistics of these control loo;σ
+3. The automatec tasks or autopiloi (pilot relicf)
+functions that shouid be provided
+4. The need for mezeuver augmentation to pro-
+vide satisfactory hekicopter response to pilot control
+inputs as well as to external áisturbances
+5. Thc usc of single, dual-, or multichunnel to
+dundant systems; augmentation aciussor locatio.3;
+and whether augmeristion inputs should τ. in series
+with or peralicl to the gilot'σ inputs
+6-1

@@ -1,0 +1,99 @@
+AMCP 706-202
+I
+1.1 - - -
+j_
+Σ -
+-
+,0.9
+0
+<
+NO 0.8
+0.7 -which %
+0.6 (Λ
+ι.
+Σ0.5
+-divided
+FLUTTER I0
+0
+0.3 1of
+Σ10 15 20 25 30 35
+BLADE ANGLE AT 0.8 RADIUS, deg
+Figure 5-40. Stall Flutter Design Chart
+__
+_ -designing
+SHEAR STRESS
+tA MEASURE 01?Τ
+FLUTTER) STALL
+--
+C -- ]1.0,
+1CM
+-
+12 10 8 6 4 2 0
+ZERO LIFT LINE ANGLE OF ATTACK, deg"
+mnd Figure 5-41. Airfoil Flutter Characteiltldcs Stall
+flutter by evaluated for stall may be also Α blade
+cocffi- of the moment characteristics of the analysis
+the 5-41, in Fig. airfoil. As shown the of cient Cm
+is the airfoil when occurs usually flutter of stall onset
+curve with respect the of peak the near operating C¢
+coeffi- lift the not and axis, elastic torsional to the
+high at only occurs flutter stall Thus, curve. cient CL
+both forward - conditions blade load or thrusting
+airfoil angle. blade for α given Because, reverie. and
+changing CL without thrust or increases the camber
+5-64
+
+4Π.,
+.. -.
+CM, increasing the aitfoil camber is one way of in-
+creasing the forward thrust or power at which α blade
+will be subject to stall flutter. However, in all cases, if
+the is greater than 1.0, the blade will not be $FP
+blade of regardless flutter stall true to susceptible
+angle or loading.
+The other possible cause of high torsional bltde
+response, and also bending response, is Karman vor-
+tex excitation. When the vortex excitation frequency,
+) is proportional (aM to /η, coincides -AV' -VI
+with the torsional or bending natural frequency of the
+blade, significant blade response may result. The
+frequency expression is the reciprocal of the SF*?
+ι.ε., frequency, the torsional by (SFP/χ,)-1.
+tor- of the natural blade Although the coincidence
+5ional or bending frequencies with the Karman
+vortex excitation fregqucncy can result in significant
+blade response, particularly at very high blade angler
+attack or blade stall, the response is not divergent.
+This type of response can be experienced at high
+blade angles even by blades whose is greater SFP
+than 1.0.
+this dikrucsinn is thr. δ--sirsphility of App?:¢ent from
+propelier blades with high torsional
+frequencies so that their is greater than 1.0. If SFP
+this is done, divergent stall flutter is avoided. Also,
+the higher the the less likelihood that Karman SFP,
+problem at very high vortcx excitations will be α
+blade loads. In general, solid propeller blade con-
+struction, ε.γ., using aluminum, gives rclativcly low
+torsional natural frequencies and values below SFP
+so care must be exercised that these bilades are
+not operated in the stall flutter zone of Fig. 5-46.
+Although composite monocoque blade construction
+struction, it frequently gives value,, below 1.0. SF)' In
+general, propeller blades consisting of α structural
+spar and α thin composite airfoil shell have SFP
+1.0 values of inu.η greater than and are not suscepti-
+flutter. stall to ble
+5-8.2.5 Propeller Roughness
+Α propeller can apply loads to the aircraft with
+resulting vibration or roughness that is unacceptable
+vi- These occupants. or the structure aircraft to the
+two sources: from primarily stem excitations bratory
+of the unbolance and aerodynamic wAss excessive
+non- of combination undesirable an propeller, and
+character- dynamic propeller ano flow field uniform
+frequency aircraft at α shakes the former The istics.
+at aircr'aft shakes the latter the I Π, whereas of order
+of the the number of multiples are that frequencies
+propeller. α four-bladed 8Π for ε.γ., 4Π, - blades
+and assembly manufacture, design, Through proper

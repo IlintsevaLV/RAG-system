@@ -1,0 +1,42 @@
+6 CHAPTER
+FUEL SYSTEM PROTECTION
+Introduction 6.1
+Because of the hazardous nature of most fuels and the potential for
+catastrophe if ignition should occur, the design of adequate lightning protection
+for the aircraft fuel system is probably the most important lightning protection
+job t o be accomplished. This is the system that government airworthiness
+certification requirements stress most heavily, for the cause of the most tragic of
+lightning-related aircraft accidents has been attributed to the vulnerability of
+fuel systems.
+Elements of the fuel system are typically spread throughout much of an
+aircraft and occupy much of its volume. They include the fuel tanks themselves,
+as well as associated vent and transfer plumbing, and electrical controls and
+instrumentation. Careful attention must be paid to all of these elements if
+adequate protection is to be obtained.
+The main objective of fuel system protection is of course to prevent any
+direct or indirect source of ignition of the fuel by lightning. Accomplishment of
+this goal is quite challenging when it is remembered that thousands of joules of
+energy must be conducted through the airframe when the aircraft is struck by
+- lightning, that every metallic structural element in and on the aircraft is involved
+2 lo4 x to some degree in this conduction process, and that a tiny spark of
+joule may be all of the energy that need be released inside a fuel tank to ignite a
+fire or initiate an explosion.
+Prevention of fuel ignition from lightning must be accomplished b y at least
+one of the following approaches:
+removing one or more of the requirements for combustion (a)
+eliminating all sources of ignition. (b)
+In this chapter we review typical aircraft fuel flammability characteristics
+and possible ways to control fuel flammability and ignition. Research in the field
+of fuel system protection distinguishes the areas of adequate knowledge and
+practice from areas of inadequate knowledge and practice. Because current
+guidelines for controlling lightning-related ignition derive in part from this
+research, we refer in some detail to several important studies, by way of
+background, before presenting guidelines for effective protection of fuel
+systems.
+Fuel Flammability 6.2
+Ignition of fuel cannot occur until some of the fuel has become vaporized
+and mixed in a compatible proportion with oxygen or air. Thus, the ability of
+fuels to vaporize and mix with air in typical aircraft fuel tanks is of primary
+concern.
+The flammability of the vapor space in a fuel tank varies according to the
+concentration of evaporated fuel in the available air. Reducing the fuel-to-air

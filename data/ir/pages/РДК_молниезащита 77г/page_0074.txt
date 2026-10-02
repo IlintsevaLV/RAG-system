@@ -1,0 +1,20 @@
+CLOUDS PRECIPITATION - -
+100 100
+- -
+IN A CLOUD 7 - 80 80
+-
+- 60 60 RAIN % %
+-
+- 40 40 SLEET
+OR IN - HAIL - 20 THE 20 ?
+NONE CLEAR
+0 0
+TURBULENCE
+100
+0
+Environmental conditions at of strike. 3.5, time 3.7 3.6, Figures
+0%
+-20 -15 15 -10 -5 0 5 10 20
+TEMPERATURE (OC)
+Figure Lightning strikes to aircraft as a function of temperature. 3.8
+64

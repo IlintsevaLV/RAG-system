@@ -1,0 +1,17 @@
+Cut-and-try field plotting 9.8 Figure
+If the wires are all of infinite length, so that no end effects need be
+considered, and are all connected together at their ends, the manner in which
+current divides among the wires may be calculated with the aid of the simple
+computer program MAGFLD, the elements of which are discussed below, and
+in the program given Appendix 1. The equations governing the current
+distribution are given below.
+the location of the wires be defined in terms of the rectangular Let
+coordinates xi and yi, and Iet the radius of the conductors be rl. The
+self-inductance per unit length of each wire is
+R henries per meter. In this equation is defined as the distance from the
+conductor, or from the group of conductors, to an arbitrary return path. The
+numerical accuracy of the current distribution to be calculated does not depend
+critically upon the value assigned to but it should be of the order of 10 to 20 R,
+times the greatest dimension of the structure being modeled.
+there will be a mutual inductance: Between any two conductors, ij,
+henries per meter.

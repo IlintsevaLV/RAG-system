@@ -1,0 +1,55 @@
+FAST WAVE SLOW WAVE>
+V 1.2 pp
+370 _ 367
+372 373
+(α) , 0.6 V pp
+.. 368 - _
+. .switch
+(β)
+Fig. 8.19 Voltages on α fore and aft circuit
+(α) Line to ground voltages
+(Π22, Pin 24 to airframe).
+(β) Line to line voltage
+(Π22, Pin 24 - Pin 25).
+The voltages induced on that switch circuit are
+shown in Fig. 8.20. The voltages measured from line
+to airframe were higher than those measured from line
+to line, but it is significant that the line to line volt-
+ages, while of α somewhat different waveshape, were
+not much lower than the line to ground voltages. The
+reason for this lay in the fact that the load impedances
+in the interface box in the gun bay were different from
+each other on the two sides of the circuit. One side
+connected to α power supply bus, while the other side
+probably connected to an emitter follower.
+Another significant feature about these voltages
+was that they were again of an oscillatory nature.
+They were apparently excited by the leakage of mag-
+netic flux inside the aircraft and were not excited by
+the rise in potential along the structural resistance of
+the aircraft.
+
+Fig. 8.20 Voltages induced in wing position indicator
+open plug Π22. circuit at
+Circuits to actuators: Figs. 8.21 and 8.22 show volt-
+ages measured on two different circuits going to actu-
+ators, one (Fig. 8.21) going to the left pitch actuator
+and the other (Fig. 8.22) going to the left roll actuator.
+In both cases the voltages displayed were the output of
+the driver amplifier used to control the servo valve in
+the actuator. Both of these were differential measure-
+ments, line-line voltage measurements. The significant
+feature about these measurements was, again, that the
+characteristic response was oscillatory and apparently
+excited by the leakage of magnetic flux inside the air-
+craft. There was some dependence of the voltage on
+the path of current followed through the aircraft, but
+the dependence was not large. Both lightning current
+paths pioduced about the same peak voltage of tran-
+sient.
+Bulk cable currents: On the F-8, as is typical of
+most aircraft, the control wires were laced together
+into fairly large bundles. The routing of some typical
+bundles in the gun bay housing the backup and in-
+terface electronic control boxes is shown in Fig. 8.23.
+236

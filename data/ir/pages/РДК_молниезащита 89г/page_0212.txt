@@ -1,0 +1,100 @@
+2. Sealant exacts α weight and cost penalty.
+While applying thick layers of sealant increases
+lightning protection, it also adds to the weight
+of the aircraft which increases costs through ad-
+ditional fuel consumption. Exact figures on the
+weight added as α result of lightning protection
+measures are difficult to determine since much
+the sealant is normally applied to fasteners and
+interfaces in α fuel tank for prevention of fuel
+leaks. However, any additional sealant applied
+for lightning protection adds weight at α rate
+0.048 - 0.056 lb/ins.
+3. Protection may deteriorate with age and constant
+"working" of the airframe,
+As the sealant ages it may deteriorate so that
+there may be areas within the tank where the
+sealant is no longer capable of containing the
+arcs and sparks which occur during lightning cur-
+rent flow. Some progress has been made in this
+area with improved sealants that remain pliable
+throughout the life of the aircraft,
+7.7 Structural Joints
+as fasteners, rivets or of patterns High-density
+commonly used to join fuel tank skins to stiffeners,
+ribs, and spars, should be capable of conducting 200
+kA stroke currents even when nonconductive primers
+and sealants are present between the surfaces, as in
+Fig. 7.24. Short [7.49], for example, reports 200 kA
+stroke tests of skin-to-stringer joint samples fastened
+with double rows of taper-lock fasteners. The samples
+tested had 16 fasteners on each end of the joint, and
+no sparking was detected anywhere at the joint.
+There is no hard-and-fast rule for the number of
+fasteners per joint which are necessary to avoid arc-
+ing, but α rough guideline of 5 kA per fastener, as
+discussed below, can give some indication of the num-
+transfer to required be which may fasteners of ber
+lightning currents among structural elements without
+arcing. In general, it has been found that structural
+fastener configurations inside tanks and not exposed
+to direct strikes can tolerate current densities Zone 3
+without visible arcing and the need for overcoating
+with sealant. Fasteners exposed to exterior surfaces
+be protected must usually I or 2, however, in Zones
+and verit - bv test.
+ 1
+At areas of high current density, arcing usually
+occurs at the interfaces between the fastener and
+rounding metal, as shown in Fig. 7.25, and the occur-
+rence of such arcing depends on other physical charac-
+teristics, such as skin thickness, surface coatings, and
+fastener tightness. Tests in which simulated lightning
+
+currents are conducted through the joint should always
+be made on samples of joints involving new materials
+or designs to confirm protection adequacy.
+Arc thresholds of fasteners in Zone 3 areas: Un-
+der α program sponsored by NASA (7.50], tests were
+performed to determine the spark threshold level of
+of typical fasteners used in aircraft installations. For
+those tests, aluminum lap joint specimens were bonded
+with electrically non-conductive fuel tank sealant and
+were also fastened with α single rivet which had been
+of "wet" installed with the same sealant. Currents were
+conducted directly into one end of the specimen and
+removed from the other end. All current was forced
+through the single fastener since the non-conductive
+sealant eliminated any direct electrical contact be-
+tween the mating surfaces. No coatings of any kind
+were applied to the head of the fastener.
+The tests indicated that the spark threshold cur-
+rent level of the fasteners was 5 kA. Thus, α door
+containing 40 fasteners could conduct nearly 200 kA
+without spafking if the current were distributed evenly
+among the fasteners. In most cases, however, the cur-
+rent will not divide uniformly, but will be concentrated
+in those fasteners closest to the point of attachment or
+exit.
+0ξ
+oooo multiple rows
+of fasteners 0
+00
+0
+primer non-conducti Π or
+sealant at
+contacting
+interfaces
+Fig. 7.24 Bonding through mechanical fasteners.
+Mating surfaces coated with non-
+conductive finishes and sealers.
+ourrent- non-conducUve
+path finishes and
+sealants
+sur-/_ocpotential
+are locti--
+γ
+Fig. 7.25 Potential arc source locations at structural
+interfaces coated with non-conductive
+finishes and sealants.
+196

@@ -1,0 +1,73 @@
++ Λ Μ + . -Α il ι2 Μ ι - .ι. 2 21 2 3 3 2
+(10.24)
+V3 = - Μ ι + Λ ι3 -Μ31il .... + ι. 3 2 3 3 (10.25)
+(10.25)
+V. = - Μ.2ι3 -Μ.li2 - Mni. +'" + Λ. in
+(10.26)
+Equations 10.23 through 10.26 may be placed
+matrix notation as follows:
+V2 ( J
+-Μ -Μ2 ... Μ .] ι2 +Λ 1 2 2 3 22
+3 ξ , -Μ +Λ -Μ -Μ ... 3 3 3 3 23 1
+-Μ.1 -. -Mn 12 ... ι) +Λ)/
+(10.27)
+or, in more compact notation
+IVIiMI (10.28) Ξ
+Current in terms of voltage: Premiltiplying by the
+inverse of the Μ matrix, gives the following:
+WM1-λ
+IVl IxxMx lil (10.29) 1-' jMI
+ι=iMI-' V (10.30) ι ξ
+/
+in V; -. V Mn ι in ι~ν), 13 11 1 2 ι2 Μ21 Μ2 ι - mn V2 1 3 3
+ι3rnM3 rn2Μ MU, Ξ V3 3
+\Mnj Μ2 Μ Mn. in 3
+(10.31)
+where rM1, Μ11, are the elements of the Mi inverse
+3
+of the matrix. Μ
+Current in each element: Nfall of the voltages are τ
+τ the
+same and equal to V, as is the case if all of the induc-
+tances are connected in parallel, the absolute current
+in each element is:
+μ (rnI + ma + Μ1 3. + ι, (10.32) μ,.)V 2
+is =(μ, +μ τ +Μ" . (10,33) '+mM.)V 2 2 2 3
+(10.34) ι3ι(Μ3 ""+~ms)V +ro +ros
+(10.35) + + in' +μ,)V = Μ,, (min Μ,, ...
+
+The total current that flows, which is proportional Σ=
+is impressed voltage, the to
+(10.36) = + ι + ι +''" ir (il ι,)V 3 2
+fraction =The of the total current that flows in each
+circuit is
+/I = '-•(10.37)
+in (.
+(10.38) = 12 ι2
+(10.39) = -- 1
+V3 ρ
+= '" (10.43)
+vi
+/ in
+τ in.
+, 1
+/ iIMM.
+I τ '
+% τ
+Fig. 10.13 Mutually coupled inductances.
+10.5.4 Examples of Externd Magnetic
+Fields
+The magnetic field within and around the clus.
+ter of wires can be determined by taking the proper
+summation of the magnetic field produced by each in-
+dividual wire.
+One computer program 110.7) which incorporates
+the above routines is MAGFLD. Some examples of
+calculations performed with it will now be described
+since they will serve to ilhustrate some of the points
+sections. discussed in previous chosen The geometry
+anslyaisis the hypothetical aircrat for fuselageofthe
+shown in Fig. 10.14. The aircraft, whose airworthi-
+nes is not has under discussion, α fuelage of elliptical
+cros section, two meters along the major xis and one
+283

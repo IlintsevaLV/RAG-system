@@ -1,0 +1,14 @@
+CONDUCTOR INJECTED
+CURRENT VOLTAGES
+Variation conductor voltage with time. 10.21 of Figure
+(Leading edges of waveforms retouched for photographic clarity)
+7 beirtg nearly flat. If the injected current were truly a step on conductor
+function, the two voltages would eventually become equal to the dc resistance
+drop. The bottom set of oscillograms indicates that the current significantly
+departs from a step-function current pattern at later times, and this is reflected
+the long-time response of the two line-ground voltages. Just as the voltage on in
+7 I lagged behind the voltage on conductor during the initial phase of conductor
+it the response, lags behind during the final decay of the current. The
+redistribution time constant with which V I decays toward its final value is seen
+to be of the order of 300 ps, in accordance with the calculations predicated on
+the theoretical factors described in Figure 10.10.

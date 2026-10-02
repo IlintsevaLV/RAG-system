@@ -1,0 +1,105 @@
+j)~
+are be not discussed. These systems sAll designed
+as as are to be at leat as reliable the rotorcraft
+mary flight controls.
+6.33.3 F'ah-sife Prlmdples
+Fail-safe desian, redundancy, and self monitoring
+priniples also are discussed in par. 6-4.3. AMCP
+706-201.
+6-3.3.4 Damage, Battle Vulner.41llty
+shal Steps be taken to reduce vulnerability SAS
+cases where loss of stability augmentation would all
+abort α mission Duplication or triplicintion of
+tuators and hydraulic systems α valid is approach.
+actuators SAS should designed so be that it is
+ble to lock tthem in α centered position in the event
+loss of hydraulic pressure. Duplication or
+cation of hydraulic lines does not reduce vulnere
+bility unless provision is made for automaticall)
+ting off the oil supply to sevcred lines. Levers,
+cranks, and pushrods can made be large in size and
+lig'st-gage, low-stressed material in order to ir"-uce
+fire. Critical components arms tn- vuIneainhlitv -Imall j) Λ not readily duplicated should grouped be and
+tected with armor (see par. 14-3).
+6.3.4 COST'
+6-3.4.1 Developrmat Coam
+The cost of developing α new generally SAS is
+proportion to the ad vance in the state-oif-the-art rep-
+moented the dev~lopment by program. conven- Α
+SAS tonal for conventional airframe α can be
+tained from off-the-she'φ components, whereas α
+concept for α rotor-located SAS, or for sensors based
+upor new teclinoiogy, may require α large
+penditure in order to bring it to production status.
+The new cont&pt must promise α sufficý-nt increas:
+cost-effectiverness in future production to
+pensate for the U.gh cost of development.
+6-3.4.2 Puodsacton Cost
+SAS production cost can be reduced by adhering
+thc following:
+1. Simplicity design χ-φ
+2. Use of integrated and printed circ.uits
+3. CommonalitY' ot circuit mod-Ales
+Extensive 4. use of value engineering principles,
+Production cost increases may be expected with
+increase in:
+1. Number of system components
+2. Quality or precision of components
+3. Number of nonitandard parts
+\ 4. Number of parts that can be assembled
+\corrft-tly
+
+WrC 706-202
+of so Σ. Number and interdependency adjustments to
+pri- be made in final assembly
+6. Number of parts that can be damaged easily in
+assembly
+Dogrce 7. of cicanliness required during assembly
+Unrealistic 8. requirements, or ovcrtzmphasis on
+snua icpiesc ν
+α. Wcght ri~duction
+Compactness β.
+χ. Functional complexity
+Reliability in δ.
+Maintainability ε.
+ac- φ, Structural integrity.
+possi- 6-3.4.3 Msllaterancc Cvt
+of Α simple, mechanaical SAS composed of infinite-
+tripli- life parts (as in the Bell σ".bilizer bar) requires main-
+tenance only in the form of regular inspection and
+cut- lubrication. In the event of battle damage or other
+bell failurc, repairs can be performed by α qualified
+of mechanic. An electrohydraulic SAS, on the other
+hand, may require the sei vices of an instrument
+electronic technician, and snecialist- α qualified an
+pro- helico.pter mochanic. Thus, the ucif-temt cireutit
+should be devised so as !α indicate exactly which sec-
+of plug-in replacement and Removal defective. tion is
+modules represent field mainteniance at lowest cost.
+Added to this cost, however, is the cost of main-
+in taillilg adequate spares.
+6-3.5 TECHNICAL DEVELOPMENT PLAN
+ob- For the dcvcelopmeni of Π conventional (ε~lcctro-
+new λ'yd..aulic) SAS, the plan outlinrd in MIL-C-1γ244
+should be followed. In addition, the airframe and
+ex- rotor dynamic and aerodynamic propcriics cvcnwlu-
+shoull ly he inclucied in the initial system analysis
+in (MlL-C-48244) in order to show thec possible exis-
+rcom- tenc of α~rame cross-coupling and the need forr
+anticross-coupling in the SAS, as well as to show the
+overall behavici of the SAS/airframc coml~ina' ion.
+Six degrees of freedom of the airframe, and quasi-
+to ncrnial modes of the roior (inplane as well as flap-
+ping motion o,' the bltdes), should be used. The
+resulting equations art used later in the simulation
+studies required MIL-C-18244. by The simulaticn
+not only will 41low the pilot to evalute the system, but
+also will permit demonstration of the scverul types of
+anl failure of the SAS, and will indicate time delays per-
+miscible ;)eibre starting corrective action.
+In the development of unconventional SAS'σ, ea-
+pecisily those involving modified rotor dynamics,
+σ,-vwal changes from the procedure in MIL-C-18244
+in- ar mommended Unconventional systems require
+more inisial system synthesis, or concept selection,
+6-13

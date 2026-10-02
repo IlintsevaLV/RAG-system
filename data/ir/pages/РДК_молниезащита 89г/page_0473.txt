@@ -1,0 +1,52 @@
+I ;
+v χ
+VD 0I
+(β)
+0 ( )
+Γ )
+Diode voltage (β)
+current() (χ) Junction
+power Junction (δ)
+breakdown Reverse do transient the If exceeded:
+the 17.31, Fig. voltage, breakdown reverse the exceed
+the upon depends transient equivalent the of duration
+does transient oscillatory the that time the of fraction
+The duration voltage. breakdown reverse the exceed
+the ex- given by wave is rectangular of the equivalent
+pression
+ 2 rp=--;: 7 ra 1 (17.21) - (V•DIV.)
+rco•IV.Δ/Vo)
+17.32 and Figs. in plotted is shown expression This
+ampli- initial whose transients oscillatory For 17.33.
+volt- breakdown reverse the exceeds considerably tude
+α limiting approaches Eq. 17.15 of the junction, age
+the for- with identical thus becomes and of 0.2, value
+Eq. 17.14. cae, ward bias
+relat- of data amount limited Α circuits: Integrated
+of to the breakdown durations current and voltage ing
+and 17.35, 17,34, in Figs. is shown circuits integrated
+
+,
+τ-0
+0
+zI Τ"
+I o (v)
+(17.18]. for waveforms Device 17.31 Fig. V. > VBD
+voltage Generator (α)
+voltage Diode (β)
+current Junction (χ)
+power Junction (δ)
+on SN55107 of measurements results the show 17.36
+AE and CD4050 line drivers, SN55109 line receivers,
+buffers. hex
+uilu 17.6 Mechanism--Capadtorn
+that from different mechanism by α fail Capacitors
+failure capacitor mechanism of The semiconductors. of
+dielectric. type of upon the depends
+pa- dielectrics, with solid Capacitors dhkoctdm Solid
+to non- subjected will, when or ceramics, Mylar, per,
+of the puncture by fai transients, either repetitive
+capacitor α Typically, at all. not fail or dielectric
+σ esv- trsasient short-duration withstand can
+the insulation. of rating the dc than greater erad times
+459

@@ -1,0 +1,21 @@
+LOW
+LOW
+/
+SOLID LOWEST
+/ 2 γ BRAID
+SPIRAL HIGHER
+----
+(dl
+Types of shields. 15.4 Figure
+(α) Unshielded vs shielded
+Multiple-grounded (β)
+(χ) Solid- vs braid- vs spiral-wrapped
+(δ) Conduits
+single- versus multiple-point grounding of circuits. For many, usually legitimate,
+reasons low-level circuits need to be shielded against low-frequency interference.
+Most commonly, and usually legitimately, the shields intended for such
+low-frequency interference protection are grounded at only one end. But in this
+fundamental concept often overlooked is that the physical length of practice α
+of the interfering signals. such shields must be short compared to the wavelength
+Lightning-produced interference, however, is usually broad band and includes
+significant amounts of energy at quite high frequencies, frequencies higher than

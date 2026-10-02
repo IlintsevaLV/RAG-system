@@ -1,0 +1,100 @@
+υ...
+:the parabols and the involute and the point of ioad
+application being the significant factors governing
+the stroso. This form factor roduocs thc extreme fiber
+tensilo strees with α compression component of the
+tooth normal load. The load application point for the
+spur gear factor Y always should be taken at the
+calculated HPSTL and at the tip of the involute gear
+profile for the helical goar factor Y.. Th
+determination of the load puint for the bevel gcar fac
+tor Y, is based upon certain assumptions concerning
+ihe lond contact pattern gaomatry of the bevel tooth.
+.The great difference between the assumptions of Ref.
+64 and the updatod veraion of Ref. 56 accounts for 8
+considerable change in the calculated stress. Use of
+the modifiod Lewis forn factors in conjunction with
+α stress concentration factor K, has provon to be as
+accurate as any method known for involute gear
+tooth stress calculation within the range of prayure
+angles 14.5 deg < $< 25 dcg. However, α significant
+degree of inaccuracy may occur outaide this range as
+weill as for internai gear tooth forms and for
+maximum fillet radius configurations.
+The influence of the stress configuration duc to the
+relative fillet radius and load point location is ac-
+counied for in Kp which is derived fron ihe
+photostress work of Dolan and Broghamer. It should
+be noted that an effective K, is inciuded in the valnes
+for Y, in Eq. 4-38.
+The effective lrad apportionment due to load-
+sl aring among τùτ sneshing teeth is accounted for in
+σ σ :
+the profile oontact ratio Α: < 2.0, az. = 1 beansc all
+calculations Are hused upon the HFSTL. For 2.0 ≤ μ
+≤ 3.0, * * ID when ite highest point of double
+tooth contact is unca for δ'uermination of tir
+geomeiric chage factor J. For heiical gears tie axial
+or face conact rttio in adiluavnriy accounted for by
+μ. = π. (0.93 3). cimensionless (4-39)
+where
+Z * frait vese lngih of iincofscuon, in. Π. * no:ing: srcuian pitch (helical grar). in.
+For spiral bves geus, the modified comact ratio μ..
+ωèich is α tvor-:ncan-squase (rszs) summation of the
+effcrtivs protlc &nd face contact ratio, is usod. When
+mn σ 2., μ = 1, but for μ. > 2.0
+τ $$ δ'len (4-40)
+The C. factor used ins Eq. Α-37 accounts for the
+inclination of the load contaca line and is serived
+
+MCP 706-202
+from cantilovor plate bonding theory as presonted in
+Ref. 65.
+δ'lass (4-41)
+wliere
+- helical tooth losd linc inclination angle «
+Tan- sinφ_tanv), deg
+= normal preasure angle (hclice! gear), deg
+-gear tooth spiral angie, deg.
+The inertia factor K, in Eg. 4-38 accounts for α
+reduced contact ratio. For μ.> 2.0, K, = 1.0 and for
+μ. < 2.0, K, - 2.0/mo:
+Eqs. 4-36 through 4-38 are of assistance in
+evaluating the stress at the location assumed to be the
+weak point of gear tecth. Test results often indicate.
+howeve:, that feilures originate not in the fillet ncar
+the involute flank, but rather deepcr toward the root
+or higher on the tooth flank.
+In the former case, the crack propagation is fre.
+quently downward througl the rim rather than in an
+ceptable failure mode because α large section of the
+gear rather than α single tooth tends to break off.
+Breakage high on the flank may result from the use
+of too thin α tooth on α rigid base with less-than-
+optimu:ν blend between the filiet and the flank. Α
+low Sreak fecuently arises when the back-up rim is
+too tar. : τ. is case the rim bending strers (duc to
+tooth Ioa: σ τ-tnent about the rim neutral axis) can be
+greaier ä;gs line assumed cantilever tooth bending
+stress. Because rim curvature and web resistance
+enter into τùis analysis, it is incorrect to consider only
+ihe rim ihickness. However, for spur and iow-heiix-
+angle helica! gears of about 40 teeth, α rim thickness
+equal tc the tooth depth is generally accepted as ade-
+quate. Slightiy fesser v-lues may be used for gears
+with fe:ver teolkt (vhile greater values may be needed
+for gcsrs witt, sior: than 40 teeth. The existence of
+high thrust lends in helical or bevel gears will com-
+plicate the tnalysis. Considerable web and rim rein-
+fortemant is. necessa:υ to develop full tooth strength
+po:enti:λ ir. nigh-thrust-component spiral bevel
+pinions.
+Fecause the preceding analyses are iwo-dimen-
+sional, thay α:ε not suitable for definition of maxima
+for σ trig.ial strcss field. Computerized methods of
+Finite element analysis are expocted eventually to af-
+fo.χ accurate solutions for these conditions
+Additional precisjon of high-spced gearing ai:aly-
+ses may !:ε χ Stained by inclusion of the hoop siress Σ,
+in fhe gear rim due to the centrifugal acceieration. Α
+4-39

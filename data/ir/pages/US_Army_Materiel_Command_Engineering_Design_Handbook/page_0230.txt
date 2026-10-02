@@ -1,0 +1,112 @@
+I
+free to flap, the blade tip will droop unoer the
+weight. Flap restrainers can be ground
+equipment if blade folding is accomplished
+casionally.
+Two common types of centrifugal droop
+mechanisms reattainer are ovcenter linka3es
+terposer blocks. Both of thes use weights to
+the mechanism as the rotor speed increases,
+springs to re-engage during shutdown,
+Another droop restrainer mechanism is α
+(gimbaled) ring below the hub, with projections
+the flapping portion of each blade. Cyclic
+individual blades ring displaces the to permit
+without restraint, while the ring supports
+blades against collective droo,.
+"5.3 CONTROL SYSTEM CONSIDERATIONS
+In the selection and design of the blade
+system, consideration must be given to tk.ε
+teristics of those elements which aff•ct the
+the rotor control system. Displacement of
+about the pitch axis is opposed by α friction 9
+essentially constant value if angular contact
+nearinns Aorc \ are usewi to react centrriuaai tkut
+blade. On the other hand, both elastomeric
+anJ flexing elements (tensit ν-torsion straps and
+assemblies) tie-bar have the characteristics
+sional springs. When the elements of this
+used to react the blade centrifugal forc, the
+angular opposing motion of the blade is
+tional to the displacement.
+In addition to torque res isting motion about
+"pitch axis that originate in the blade retention
+there also are dspend torques that upon the
+characteristics of the blades. The first of these,
+variously as the propeller moment and
+fugal feathering moment, α is torque that
+displacement of the chordwise principal axis
+cross the section of blade out of the plane of
+torque is directly proportional to the This
+between the moments of inertia with respect
+principal axes section of the cross and also
+directly with ill. The presence of the torque
+been referred to as tffoct". tennis racket "the
+rotors and for main rotors of small helicopters for
+which speed the rotational is high, it may be desirable
+to nullify this torque by equalizing the moments
+inertia. This may be accomplished by the addition
+appropriate balance weights at the root of the
+The second torque that depends on the character- -
+istics of the blade is the conventional inertia
+proportional to the polar moment of inertia
+respect to the pitch axis. This inertial torque
+"with, but is opposite in direction to,
+ρ',3.35
+
+ι rI ¼ :I τ, ..... . I 7-0
+AMCP 106-aV02
+blade (feathering) acceleration. if balance weights arc used
+support to reduce or nullify the centrifugal centering moment,
+only oc- the increased polar moment of inertia will result in
+higher loads in the control system to obtain α given
+and flap change of blade .)itch.
+and in- For those rotors in which cyclic pitch is obtained
+ε.γ., τ about release υ oscillation of the blade the pitch axis,
+and fully articulated and hingeless systems, the dynamic
+characteristics of the system may be important. The
+floating selection of α blade retention system should include
+on the investigation of the response of the blade to the
+motion of oscillating control force. Systems such as tension-tor-
+flapping sion straps or wire tic-bar assemblies that have
+all the known torsional spring characteristics may be
+required to obtain an acceptable relationship between
+the natural frequency of the feathering motion and
+apeed. the rotational
+retention Control system design considerations are discussed
+charac- in detail in Chapter 6. Further discussions of both
+loads on nullification of the centrifugal centering moment and
+the blade optimization of the natural frequency of the
+torque of feathering motion are provided by Ref. 45.
+Ar ball fi
+Α % Α Who of the LD FY.4 λ ρ@Laf9lfN
+bearings For shipboard operation, or for compact stowage,
+wire it is desirable to bring the rotor blades within the fu-
+of tor- solage envelope. When the blades are stowecd in this
+type arc manner, there less is much possibility of blade
+torque damage when moving the helicopter, or when other
+propor- helicopters or vehicles are moved in the vicinity.
+Blade folding is preferable to removing blades; there
+the is chance of handling damage, and rctracking can less
+system, be avoided. Either manual or powered blade folding
+inertia systems be can used, depending upon operational
+known requirements.
+the centri- Consideration be should given to blade folding in
+opposes the initial design of α rotor system, even if the basic
+of the heilcopter criteria do not include this as α require-
+rotation. meat. Appropriate decisions as to the method of
+difference blade attachment, radial location, and clevis
+to the clearances of the blade attachment joint will simplily
+varies incorporation of folding at α later date.
+also has
+For tail 5-5.4.1 Design Rtquireaseiut
+5-5.4.1.1 Manual Blade Foldlag
+The following prvisions are required:
+I. of Rotor brakes, rotor locks, or means of securing
+of trc blades to the fuselage to retain hub azimuth posi-
+tion blade.
+locks, 2. Pitch locking pins, or fixtures to restrict
+reaction, blade motion about the pitch axis, preventing load
+with feedback into the pitch forn control system α folded
+varies blade
+the pitching 3. Flap rcstrainers (articulated, gimbal-mounted,

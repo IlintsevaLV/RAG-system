@@ -1,0 +1,108 @@
+AMCP 706-202
+8-1.3 DECIGN CONSIDFRATIONS
+The design considerations that foll.ow are appli-
+cablc to EMI and should be uscd to assist in keeping
+EMI to a minimum.
+The first design consideration involves the creation
+of a good, basic grouzd plane. This is normally the
+avionic component chassis or the airtrame structure
+for the avionic system installation. An ideal ground
+planc wall provide a zero-potential, zero-impedance
+reference base for all circuits, and a sink or trap for
+all undesired signals that can vecome inte:ference
+sources.
+A second design concideration, particularly at the
+lower communication frequencies, is the require-
+ment for single-point grounding so as to avoid
+ground loops. The lauge, circulating currents in
+ground loops are potential causcs of interference.
+A third design consideraiion concerns shielding
+practices for major components ard for the total air-
+craft installation.
+A fourth design consideration calls for isolating, as
+für as possible, the power-carrying vires and cables
+from the high-impedance, low-levei signal wiring.
+The ba.ic principle is to categorize conductors on the
+basis of wnether their primary leakage
+ponents are magnetic or electrostatic. Ail condactors
+carrying power or signal energy have associated witk
+them ar external or leakage field that can induce ur.-
+wanted signals or noise in nearby conductors by 1.1-
+ductive or capacitive coupling. To minimize thesc un-
+desirat le field components, various techniques are
+used — such as electrostatic and magnetic shielding,
+space separation, twisting of wire pairs, crossover
+wiring methods, use of field-absorbing materials, and
+sophisticated neutralization methods.
+A fifth design consideration s to provide adequate
+bonding and grounding for all elect-ical and cicc-
+troni: equipment, and for parts of the vehicle struc-
+ture that can contribute to the generation of electri
+cai ncis:. All elcctrical and avionic equipment, sub-
+systems, and systems that produce electromagnetic
+energy shall be irstalled to provide a cortinuous low-
+impecance path from the equipment enclosure to the
+aircraft structure. The designer mast demonstrate
+that the proposed bond: -g methods result in a DC
+resistance as specified fc. ie various classes of bond-
+ing in MlL-B-5087. The design shall minimize the
+long-term eftects of opera: * ~mnal vibration, the effects
+of corrosion beiwecn ad,a..nt surfaces and of gal-
+vanic action, the diclecric breakdown of insulating
+finishes, and the undesirable effects of intermittent
+electrical contact. Bonding shali be accomplished by
+direct mctal-to-metal contact whereves practicable. A
+bonding jumper shall be used wherc direct meta!-to-
+8-2
+
+metal contact is impracticable. Such jumpers shall be
+of the standard types as specified in MIL-B-5087, or
+other appropriate types, and shall be kept as short
+and direct as possible. Where practicable, the jumper
+shall not excecd 3 in. in Iength. Surface preparation
+removing all anodic film, grease, paint and lacquer,
+or other higk-resistance materials from the im-
+mediate area of contact. Direct-to-basic structure
+bonding shall used wherever possible. For vehicles
+with metallic skin, the skin shall be designeu so thar a
+unifonn, tow-impedance skin. is produced through in-
+herent RF bonding during construction. RF bonding
+must oe accomplished betwver all structural com-
+ponents. Hatches, access doors, and similar com-
+ponents not in proxinity to interference sources or
+wiring shafl be either bonced to or permanently in-
+sulated from the vehicle skin except for the pro-
+tective static drain band. It is highly desirable, during
+the design phase, to confer regularly with airframe
+designers so as to resolve compatibility problems.
+For guidelines to analysis and design, the design er.-
+gineer should consult MIL-B-5087, AFS:C DH 1-4.
+Ref. 1. and the NAVSHIPS documents referenced in
+field com- MIL-STD-461.
+A sixth design consideration for minimizing EMl is
+1o separate and isolate pulse devices and equipment
+from other devices that are highly suscep:ible to
+EMI. This is accomplished by attempting *o separate
+sucn items as puised radars, interrogators, trans-
+ponders, an 1 HF transmitters from con.puters, data
+processors, and susceptible receivers. This is not
+always possible, 'nasmuch as the physical locations of
+sone devices are dictated by rnission requirements.
+However, the designer shculd strive to achieve as
+cable.
+A final design consideration involves the use of
+double-shielded coaxial cables. Other cables or wires
+requiring shields shall have a minimum of 90%
+coverage. Connectors used with shicid cables shall be
+provided with black shells for fastening cable shiclds.
+8-1.4 ENVIRONMENTAL ASPECTS
+Environmental considerations are pertinent to the
+design of the brsic avionic system, and to the
+airframe-system interface. Susceptibility to rotor
+modulation must be considerec. The very high fre-
+quency omni-directional range (vOR), instrumçat
+landing system (ILS) localizer and glidescope, VHF.
+FM homer, anc other cquipn:ent have bcen affected
+adverscly by near-frequency rotor modulation. As
+rotor blades pass over the air:raft, a modulation of
+the incoming wavefront is set up, with pronounced

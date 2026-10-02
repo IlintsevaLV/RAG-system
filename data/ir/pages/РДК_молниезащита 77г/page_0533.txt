@@ -1,0 +1,22 @@
+17.6.2 Current-Injection Transformers
+Some of the parameters affecting circuit response are shown in Figure
+17.1 7 (Reference 17.31). These include the capacitance of the storage capacitor;
+the inductance of the lead connecting the storage capacitor to the transformer;
+the primary, secondary, and leakage inductances of the transformer; and the
+inductance and resistance of the conductor under test.
+The characteristics of the pulse transformer are among the most important
+properties. These parameters relate to the primary and secondary inductances,
+by the flux in the transformer core, and the proportion of flux produced current
+= C STORAGE CAPACITOR
+= INDUCTANCE OF PULSEGENERATORANDLp
+FOR 500 CONNECTING LEAD (0.77pH/ft
+COAXIALCABLE )
+= OF LPRIMARYINDUCTANCETRANSFORMERI
+= SECONDARYINDUCTANCEOFTRANSFORMERL 2
+= OF INDUCTANCELEADUNDERTEST Ls
+= RsRESISTANCE OF LEAD UNDER TEST
+#, = FLUX DUE TO CURRENTPRIMARYIN
+# , = FLUXDUE TO CURRENTINSECONDARY
+FLUX ) , = LEAKAGEFLUX , ORIGINATINGINPRIMARY , BUTNOTLINKING SECONDARY
+Parameters determining circuit response. 17.1 7 Figure
+523

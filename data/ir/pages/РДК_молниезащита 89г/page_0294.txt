@@ -1,0 +1,78 @@
+At intermediate points the magnetic field inten-
+sity or current density [10.1, 10.2] is:
+1 I
+(2ξ)2[1 • δ2/by H, . β- (10.11) = -
+Σ6
+(α)
+(β)
+Fig. Redistributif. 10.5 ,. effects.
+(α) Early time or high frequency
+Early time (α) or hih frequency
+(β) Late time or low frequency
+β
+2000-
+10 - -"δ Α/μ I-1000
+/ 1000 =
+5Ω- , 01000
+0.5 0 -0.5
+METERS
+Fig. 10.6 Magnetic field intensity at
+the surface of an elliptical conductor.
+This current distribution does not hold for dc cur-
+rents where the current density over θ; surface is de-
+termined by the dc resistance. If the cylinder were of
+uniform thickness, the current density would in that
+case be uniform. The time span or frequency range
+over which α transition takes place between the uni-
+form distribution of current governed by resistance
+and the nonuniform distribution governed by magnetic
+field.σ (Eq. 10.11) can be defined in terms of α factor
+K:
+(102 K
+
+where
+width = β
+depth δ =
+skin depth 6 =
+The classical skin depth is given by
+= 071 (10.13)
+PW# V
+where
+π = resistivity
+H permeability π =
+angular frequency = ω
+and was further discussed in Chapter 9. For < 1, K
+the distribution of current is mostly controlled by resis-
+tance while for > 10, the distribution is controlled K
+by magnetic field effects. The skin depth and value of
+for aluminum, as functions of frequency, are given K
+ι al 01
+Table 10.1. ini
+Table 10.1
+Skin Depth Function of Frequency as α
+depth Skin Frequency VQ~lb
+ξ 1 Hz 8.25 10-2 μ 6.06
+Ξ 1.2
+10 Hz 2.61ξ102μ 19.2
+60.6 μ10 ξ 8.25 Hz 100
+Hz 2.61 ξ 192 10- iM
+μ ξ 606 10-3 8.25 Hz 000 10
+over which range frequency example of the As an
+cylinder an elliptic consider takes place, transition the
+made from aluminum (π = 2.69 ξ with 10' Σ1. im)
+width β Im, depth δ = = 0.25μ, and α wall thickness
+of 1 mm. Even at 10 Hz, 19, indicating that K =
+the current crowds to the edges of the ellipse and has
+α current density given by Equation 10.11. At 1 Hz,
+= 6, about the point where resistive and magnetic K
+effects have an equal effect on the current distribution.
+Thus, the frequency range over which the current den-
+sity changes from its uniform dc value to the limiting
+ac distribution is perhaps 0.5 to 5 Hz. If α step func-
+tion current were applied it would take nearly α second
+before the current became uniformly distributed over
+the surface. The manner in which the currents redis-
+tribute over the surface affects the voltages developed
+on internal circuits, in α manner to be described in
+Chapter 11.
+278

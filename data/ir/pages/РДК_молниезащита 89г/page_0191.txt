@@ -1,0 +1,42 @@
+by which α flammable fuel vapor can be exposed to
+the outside of an aircraft, α considerable amount of
+research has been undertaken to evaluate the possibil-
+_'__
+ities of lightning ignition of fuel vent vapors. (Α) airflow
+1000 ....... ................... ........................ ..........
+1000 ι(Β) airflow
+Σ10000
+1,o ι, ....... ..... ...
+10 Fig. 7.6 Three general classes of fuel vent exits.
+. .. Σ (α,β) Mast or extended outlets
+. .. (χ) Flush vent outlet
+0.1ε 0.001 0.01 0.1 1 10 100 1000 The study showed that α vent discharging into α
+Time. millieeconds free air stream provides the greatest dilution of fuel
+vapor and thus has the smallest flammable region of
+Fig. 7.5 Ignition current versus pulse duration. the vent configurations tested, but it also showed that
+flammable mixtures could exist in the immediate vicin-
+ity of each type of vent outlet.
+7.3.1 Review of Buic Studies
+Dilution profiles: Α typical mixture concentration
+Lockheed study: One of the first fuel vent studies profile of the area aft of α flush vent outlet is shown in
+was that of the Lockheed-California Company and the Fig. 7.7. [7.12] Dilution of the original effluent by air
+Lightning and Transients Research Institute in 1963 to 30% or less of the initial concentration might well
+Sfor the National Aeronautics and Space Administra- lean it out of the flammability envelope, depending on
+tion [7.10]. In that program, fuel-air concentrations in its original fuel-air concentration. Thus, dilution to α
+the vicinity of aircraft vent outlets of several configura- nonflammable mixture probably occurs at α distance
+tions were measured and mapped under various condi- of one vent diameter or more from the vent outlet.
+tions of tank vapor fuel-air ratio and effluent velocity. This finding suggests that α lightning strike or associ-
+The tests were performed in α wind tunnel producing ated streamer must occur very near to the edge of α
+an airflow of up to 100 knots. Mast vents discharged vent outlet for an ignition to occur.
+into wakes and into free air streams were tested, as
+well flush as vents discharging into boundary layers,
+as shown in Fig. 7.6 [7.11].
+Σ Longitudinal Distance - Vent Diamestm
+I•io τ I " '- I 1
+α-ε Perceatag laiUal eo Coneatratioa
+Fig. 7.7 Typical profile of vent effluent in air stream aft of α flush vent outlet.
+ Profiles vary according to boundary layer thickness and velocities efflue of -
+and air stream
+Boundary layer thickness 0.50 vent diameters =
+ Vent exit velocity 0.1 ξ free stream velocity - -
+175

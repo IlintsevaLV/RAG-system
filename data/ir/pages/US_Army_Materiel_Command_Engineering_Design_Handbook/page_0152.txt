@@ -1,0 +1,107 @@
+ACP Ξ:6-202
+muet be woli supported to preverst excessive coning
+u ader the action of the angles rolling elernent load
+vector. Wnen only radial loads or light thrust loads
+sr.s involseo, retaining rings or similas devices arc
+setisfactory for axial retention. The diametral fit
+genterally should be nominally line-to-line to ap-
+ture to reduce ring rotation. Outer iing interference
+us often are linited by requirements for case of as-
+sembly and disssembiy. Higher speeds call for
+eignter fits.
+Outer ring rotation is normally opposite in direc-
+tion to shaf rotation due to thr traction forces
+exerted by tbe loadec rolling clements. However, in
+the case of lighitly losded, outer-land-guided, cage-
+type brarings, the viscous drag may be sufficient to
+reverse the norm.
+It is customary to uaz thetially fitted and pinned
+steel liuers in aluminum or magnesium housings to
+reduce wear and the rate of increasc in outer ring
+mounting clearance due to rsing temperature. The
+increased clearance at operating temperature should
+be cornpenssted for wher the fit is specified at soom
+fcanpe:nivre. In ihe absence of ineimal gradicnis, ihe
+Eit in a massive stoel liner having the same coefficient
+of thermal exparsion as the bearing will remain un-
+changed at operating temperature, but the ft in a
+Sighe ailoy housing without lincr will ioosen in
+proportion with the product of bearing outside
+diameter (OD) temperature rise, and the difference in
+the thermal expansion corfficients of the alloy and
+sicel. The change in thc outer ring fit in the presence
+of & stecl liner instalied in a housing with con-
+siderabic diametran interferençe will lic betwcen these
+two boundary conditions, and is calculated easily. On
+te sssumption that liner is fitted to a minimum of
+250 deg F interference (line-to-line contact when the
+temperature differeniial is 250 deg F) at room
+temperature (par. 4-2.3.2), there is an appreciable,
+unifo.m pressure at the üiner-housing interface. This
+prensure resulte in an clastic reduction in the dia-
+meier of the installed liner bore. As the temperature
+is incrcased, tac pressure is reduced and the bore ex-
+pando. Tne initiai pressure, and, hence, the expansion
+rate, is dependent upon relative section thicknesses
+plication of the clestic cylinder ineory (Ref. 83). Fig.
+4-28 prescuts a graphic solution to the room tempera-
+ture fit correction factor. To illustrate two practi-
+cabie extrcenes, conditions are represented both for a
+140-mm-OD bearing installed in a 0.045-in.-wall liner
+chat is in curn fitted (250 deg F shrink fit) into a 0.05-
+in.-wall thicknees sluninum housing: and for a 60-
+mm-OD bearing. with 0.090-in. wall liner (250 deg F
+4.50
+
+т
+shrink fit) and 0.040-in.-* I aluminum houzing. If
+the operating temperature is 220°F, the correctione
+are 0.0013 in. for the 60-mm bearing and 0.0038 in.
+for the 140-mm bearing in this illustration. However,
+when, as is often the casc, the bearing is the principal
+heat source and the housing provides appreciable
+hent conduction, thesc values should be reduced to
+compensate for the tempcrature gradient. A
+reascnatle ccrrection for most design applications is
+60%. Conscquontly. the room temperature bearing
+proximately 0.0008 in. for the 60-mm OD bearing
+and approximate!y 0.002 in. for the 140-mm OD
+bearing.
+Occasionally, due to space limitations or a desire to
+climinate unnecessary detai! components, integral ex-
+Cernal flanges are used on bearing outer rings for
+axial retention and prevention of rotation. In this
+case. Care must be exercised to avoid radial restraint
+at the flange holes so as to preclude race distortions
+due to thermal or load-induced deflectiors. Under
+the influence of high radial loads, a bearing of this
+design always will exhibit greates stiffness at the
+Sysu! pror iue Sugen sn pue sey
+toward the flange. This characteristic can be used to
+compensate for bending deflections of the shaft or
+housing by appropriate location of the ilangc side oi
+the bearing.
+4-2.2.2.1.2 Labrication Tecbniques
+While thzoretically it is true that only a slight
+amount of oil is needed to lubricate retainct rubbing
+surfaces and to supply fluid to rolling element-race-
+way conjunctions. helicopter applications ofi*s :-
+quire the use of substantially greater quaati :: oF ol.
+For example, circulating oi may be used to rezivs
+retainer wear particles, water condensation ond
+sludge, and to transport spalling failure debris to chip
+cetectors or similar diagnostic aids. Increased oil
+flows also act to modulate temperature gradients by
+forced convective cooling and help to reduce differen-
+tial thermal expansion distortions that otherwise
+could reduce component life. As speeds and loads in-
+crease, thermal stability can be attained only through
+the rapid rates of cooling provided by high oil flows.
+In sddition, centrifugal accclerations and windage
+barriers at ligh speeds make it very difficult to get oil
+to inner raceway and cage lands, ieading to a require-
+ment for forced pressure lubrication. Finally, critical
+bearings often must be lubricated by redundant
+systems so as to incrcase opcrational reliability and
+permit safe operation should the primary system fail.
+Generally, lubricant applications may be grouped

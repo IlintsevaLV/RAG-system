@@ -1,0 +1,55 @@
+Most test methods also assume linearity; that is, discussed sinct that response is essentially the same
+that the response of the aircraft to α low level test can whatever the test level.
+reasonably be extrapolated to estimate the response
+Basic Test Circuit 13.3.1 to full thrzat lightning.
+Resistive effects: Most of the test methods provide As reduced to lumped constants, the basic pulse
+good simulation of the effects of resistance in the air- test circuit is shown in Fig. 13.1. Energy is stored in
+craft structure and the assumption of linearity is gener- α capacitor, conducted into the aircraft and returned
+ally valid, even for aircraft using large amounts of CFC to the capacitor along α return circuit. Duration of
+materials. Studies that have been made of the point current is controlled by the capacitance and series re-
+[13.1, 13.2] have generally shown that predicted resis- sistance while front time is controlled by resistance and
+tively coupled voltages, as predicted on an assumption series inductance, some of which may be intentionally
+of linearity, are if anything higher than any likely to added to the surge generator and some of which will be
+the return circuit. If single intrinsic to the aircraft and be found in actual practice.
+wires are used for the connections between the gener-
+Magnetic field effects: The simulations also provide ator and the aircraft, the inductance of the circuit can
+reasonable estimates of the magnetic field effects pro- be approximated as 1 pH/μ or 0.3 pH/ft times the
+duced by lightning current. What this means is that total distance around the circuit.
+waveshapilng current pulse of level α low by produced the response
+can be scaled linearly to give the response to α high Λ aircraft switch
+level pulse of current, provided the waveforms of the
+currents are the same. The point is discussed further
+in §13.3.3.
+test meth- any of the Whether effects: field Electric
+ef- field electric the of simulation good provide ods
+fects is less clear. Electric field coupling involves the
+/7"7 electric field at the surface of the air- strength of the
+craft, but this can be influenced very greatly by the
+corona and streamers that appear around the aircraft
+when it is struck. Both of these are very non-linear
+Λ the elec- limit streamers corona and phenomena. The ..
+tric field at the surface and may limit the electric field χ
+I coupling. Also, the circuits used for ground based air- C
+craft tests probably do not give the same ratio of mag- I
+netic to electric field effects as is found in flight. This
+chapter will not attempt to address the question of
+whether electric field effects are correctly simulated; Fig. 13.1 Basic test circuit.
+all it will do is alert the reader that there are ques- (α) Generic
+tions about electric field coupling. (β) Practical test circuit
+Some of the issues will be discussed in the follow-
+ing paragraphs, along wit η methods of obtaining an
+electromagnetic environment that is as representative Coaxial return circuits: Using α single wire adja-
+as possible of that produced by natural lightning, cent to the aircraft, Fig. 13.2(α), is not .commended
+as the way to return the current to the generator be-
+Tests Pulse Domain Time 13.3 fields to the magnetic respond would aircraft the cause
+produced current in the return wire, as well as to by
+All pulse testing basically involves charging capac- the electric and magnetic fields produced by current
+itors and then discharging them through waveshaping in the aircraft. Α coaxial geometry, with the aircraft
+elements into the aircraft. Differences between var- as the center conductor and the return path as the
+ious techniques relate mostly to the energy levels of outer conductor, Fig. 13.2(β). is better. indicated As
+the surge generators and the techniques and degree of in §9.7.2, current on α cylindrical conductor produces
+extrapolation needed to estimate full threat responses no magnetic field inside the conductor. In practice,
+sur- is formed from an array of wires Before dis- the return circuit made at less than full threat. from tests
+cussing various approaches to testing, the basic re- rounding the aircraft, shown in as Fig. 13.2(χ), though
+sponse of an aircraft in α pulse test circuit will be sometimes metal cheets are used.
+354

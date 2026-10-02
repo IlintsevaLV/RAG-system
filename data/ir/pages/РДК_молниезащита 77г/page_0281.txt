@@ -1,0 +1,19 @@
+= ti HA,
+Field intensity vs radius of curvature. 9.2 Figure
+The situation along α wing carrying lightning current is considerably
+different in that the leading and trailing edges have radii of curvature much
+less than the average. Field intensity along the leading and trailing edges would
+be quite high compared to the field intensity along the top and bottom surfaces,
+for example.
+Figure 9.3 shows, in general, how the magnetic field strengths would vary
+with position on an aircraft if α lightning flash enters through the nose pitot
+boom and leaves through the vertical stabilizer. The field intensity would be
+highest around the pitot boom, lowest around the midsection of the fuselage,
+and high again around the vertical stabilizer. In the vicinity of the nose
+equipment bays, the field would be of greater than average intensity. Since the
+field intensity is inversely proportional to the radius of curvature, it then follows
+that the field intensity outside the fuselage of α large transport aircraft would be
+considerably less than that outside the small fighter aircraft shown on Figure
+9.3.
+Since both the average current density, Jav, and average field intensity,
+Ha,, are equal to the total current divided by the circumference, or

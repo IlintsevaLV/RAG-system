@@ -1,0 +1,85 @@
+Table 17.4 Typical Diode Damage
+Device Number K VI)
+IN483, Α .3 70.
+.3 IN483, Β 80.
+iN484Α .45 130.
+IN484Β .3 130.
+Ir4485 .3 180.
+IN486, 8 .29 225.
+IN487, Z .3 300.
+IN488 .3 380.
+IN536 I. 50.
+IN537 .51 100.
+IN538, Μ I. 200.
+IN539 1. 300.
+IN540 .93 400.
+IN547 12.1 600.
+IN560 .625 800.
+IN561 .625 nno. 1
+iN562 1.8 800.
+10. IN619 .36
+IN622 .347 150.
+IN625 .164 30.
+IN625Α .045 20.
+IN643 .44 200.
+IN643Α . 200. 1
+IN645 2.8 225.
+2.29 300. IN646
+17.5.9 K Factor as Determined from Thermal
+Resistance
+The third, and least reliable, way of estimating
+the ther- of α knowledge is from constant the damage
+the thermal re- either of the junction, mal resistance
+sistance from junction to case (1ε,) or from junction
+to ambient (%.). For silicon diodes and all silicon
+empirical and mesa devices, except planar transistors
+relations are:
+.
+(17.14) 10.0) > 7070Τ,-*9 (Ojc - K
+ τ 4 ε-' (17.15) 10 Α = ξ 4.11
+For silicon planar and mesa transistors the rela-
+tionq are
+457
+
+Data [17.11, 17.26 - 17.281
+Device Number K VBD
+IN43157 .625 8.4
+1N3189 10. 200.
+IN3190 4.1 600.
+IN3560 .038 .475
+IN3561 .038 .475
+IN3582Α .35 11.7
+IN3600 .18 50.
+IN3821 1.947 3.3
+IN3828Α 6.2 1.95
+IN3893 6.41 400.
+IN3976 132. 200.
+IN4241 33.84 6.
+IN4245 2.4 200.
+IN4249 2.4 1000.
+IN4312 .116 150.
+IN4370Α .625 2.4
+IN4816 6.8 50.
+IN4817 6.8 100.
+IN4820 10. 400.
+IN4823 .208 100V
+IN4989 14.33 200.
+AM2 1.4 50.
+04330 .001
+F0300 .18 125.
+.23 SG22
+10,000. SLDIOEC
+K (@Jc 7079j•*'.9 10.0) (17.16) = >
+2.74 ξ K (17.17) = 1056.'I.σ
+tran- in the given are not and Oj. Ojc Normally
+calculated must be sheets but, rather, sistor data
+from the maximum operating junction temperature,
+(2iu), the total power dissipation case temper- (Pd),
+temperature (Τ,,,O). (Τ7), and ambient ature
+lei.= - (17.18) -(Tm Τ)Pi
+(17.19)
+-
+can resistances thermal these one of least at Generally,
+be determined from the manufacturer'σ data sheet.
+The accuracy of the damage constant as deter-
+mined from either the junction capacitance or the junc-

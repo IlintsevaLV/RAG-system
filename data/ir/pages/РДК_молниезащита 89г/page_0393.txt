@@ -1,0 +1,93 @@
+I -" γ Ti " η
+I . .. ".... .... ,.
+(α)
+σ
+11"Y.. .. I
+(β)
+Fig. 14.8 Multiple conductors.
+(α) Bundled conductors
+bundle Shielded (β)
+Determining the voltage between wires, or
+dB difference between line-to-ground and line-to-line
+voltages in terms of wire locations, is beyond the capa-
+bilities of any elementary type of calculation. Modal
+analysis techniques are called for, but α discussion
+that subject is beyond the scope of this book.
+pirical estimates are often about the best that can
+hoped for.
+is voltage ciacuit the of actual magnitude The
+termined as much, or more, by the impedances of
+circuits to which the wires connect as it is by the
+acteristics of the wire. Prudence might suggest
+counting on line-to-line voltages being more than
+dB less than line-to-ground voltages unless the
+cuits have been carefully designed to have balanced
+impedances at both ends of the cable.
+Efect of α shield: If the wire is covered with α shield
+grounded at only one end, Fig. 14.8(β), the magnet.
+ically induced voltage from conductor to ground
+not be much reduced, though the shield may reduce
+the voltage between conductors. The field will induce
+as much voltage between the end of the shield
+ground as it does between the conductor and ground.
+Α shield grounded at each end will reduce the voltage,
+but further discussion of the matter will be deferred
+to Chapter 16.
+field: 14.10 assume 14.8 and Eqs. the of Orientation
+the magnetic field to be oriented at right angles to
+plane of the wire loop. If the field were oriented differ-
+ently the induced voltage would be less, but for simpli-
+fied calculations such as these it is probably prudent
+to consider only worst case orientation of the field.
+
+Example: Fig. 14.9(α) shows the same conductor as
+"Fig. 14.6(α), but subjected to α changing magnetic
+field of the waveshape indicated in Fig. 14.9(χ). In
+source voltage the 14.7(β) Fig. of circuit equivalent the
+calculated as waveshape magnitude and α have would
+by Eq. 14.9. For this elementary circuit the driving
+V0,, and 14.9(δ), Fig. as the same be would voltage
+its waveshape is that of the derivative of the magnetic
+field. The short circuit current, being proportional
+to the integral of the open circuit voltage, has nearly
+Vthe same waveshape as the magnetic field driving the
+circuit.
+Source impedance: The ratio of open circuit voltage
+α this circuit is 9.6 ohms, short circuit current for to
+cou- resistively for the than found higher value much
+pled example of Fig. 14.6. As in §14.3.1 the value
+surge of impedance applies only for α magnetic field
+having the indicated waveshape.
+the
+14.3.3 Response to Electric Fields
+of Equivalent circuits for objects exposed to an elec-
+Em- tric field are not as intuitively obvious as for conduc.
+be tors exposed to IR rises or to changing magnetic fields.
+They are best developed by discussing the short circuit
+voltage. circuit open discussing before current de-
+the
+char- Short circuit current: For conductors exposed to α
+not changing magnetic field, the voltage cand current can
+20 be eliminated, theoretically, by placing the conductors
+cir- flush with the ground plane. For conductors exposed
+to α changing electric field this may not be so.
+Fig. 14.10(α) (also shown in §9.8.3) shows α sur-
+face exposed to α changing electric field E,, the field
+assumed to be oriented perpendicular to this surface.
+The changing electric field will produce α displacement
+will current and if α portion of the surface is isolated and
+connected to the rest of the surface through α conduc.
+tor, the current through that conductor will be
+and
+I. - KeoA(41
+δ4.
+where is K unity for this geometry and
+- μ2 the surface area of Α =
+the ε 8.854 = ξ 10-11 F/μ
+0
+actual electric - field V/μ - ε
+= tual elect fd τ
+-
+I time seconds = -
+I.ε short circuit current amperes = -
+378

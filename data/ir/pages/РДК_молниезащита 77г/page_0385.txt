@@ -1,0 +1,17 @@
+= CABLE LENGTH
+FEET 28
+= dc RESISTANCE
+R 0.0326
+VOLTAGE CURRENT
+No.40 41 No. I
+0.5 ps/div 0.5psldiv
+Coupling from overall shield to center conductor of α cable Figure 13.13
+similar to RG8/U.
+Treatment of capacitive effects yields the equivalent circuit shown in
+Figure 13.15(χ), which the relation between loop current induced on the in
+signal conductor and external noise voltage becomes
+Vance (Reference 13.2) gives an excellent dissertation on how the transfer
+Μ12 C12 inductance and transfer capacitance may be related to the character-
+of istics of the braided shield. Many the equations and figures that follow are
+reproduced from his work.
+braided shield would, if rolled out on α plane, typically have the Α

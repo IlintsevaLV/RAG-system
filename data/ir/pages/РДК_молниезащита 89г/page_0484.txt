@@ -1,0 +1,92 @@
+Oscillatory transients: Basic oscillatory circuits are
+shown in Fig. 18.11. The frequency of oscillation is
+C 2F7ρ (18.4) 1
+The decrement of the wave may be controlled either by
+adding series or parallel resistance or by the residual
+losses of the circuit and the load to which the generator
+is connected. Most commonly the intrinsic losses are
+enough to give Q 6 and high enough to make it dif- _
+ficult to achieve 24. Taking Q = the output from only
+α portion of Λ results in α lower output impedance and
+makes the effect of load resistance less noticeable, but
+is achieved at the cost of reduced output magnitude.
+The intrinsic output of Fig. 18.11(α) is α cosine
+wave, not the sine wave commonly cited in specifica-
+tions. Α sinusoidal outout can be obtained by tak-
+ing the output from the energy storage capacitor, Fig.
+18.11(β), using α blocking capacitor to avoid cou- Cb,
+pling the dc charging voltage to the output circuit.
+High - +
+Hg DC
+output
+SCL
+(α) ------
+ihimum +
+DC High
+C u
+(β)
+Fig. 18.11 Oscillatory transient generators
+(α) Cosine front
+(β) Sine front
+Questions regarding waveshape: Specifications on os-
+cillatory waveshapes commonly call for damped sine
+waves (Eqs. 18.2 or 18.3), but actually obtaining α
+true sinusoidal front is sometimes difficult. Sometimes
+second order effects come into play, particularly with
+high frequency generators and result in waveforms in
+which the highest amplitude of the transient occurs
+not on the initial half cycle, but on α subsequent half
+cycle,
+Α common deficiency in specifications is that they
+do not give tolerances on allowable waveform distor-
+tion. While specificLtions usually cite Eq. 18.3, that
+represent convention and not be α real engi- may only
+neering requirement. Α better specification, from the
+standpoint of those making tests, would often be
+SE Eo-(C'rlt/Q)]cos(2wft) (18.5)
+-
+
+From an engineering viewpoint the important
+points are probably:
+1. Correct maximum amplitude in order to stress the
+components under test.
+2. Correct decrement of the wave, over the first few
+cycles, in order to maintain stress for sufficient
+time.
+3. Correct frequency, in order to excite internal res-
+onances.
+Questions for those preparing specifications or re-
+quiring tests are:
+1. Does the exact shape of the first quarter cycle
+make any practical engineering difference?
+2. Does the exact shape of the first few cycles make
+engineering difference? any practical
+3. Does α test wave with α front that approximates
+requirement α test satisfy to suffice wave α cosine
+18.3? by Eq. defined wave for α sine calls that
+4. Does the fact that α test wave achieves its max-
+amplitude later than the first half cycle
+make any practical engineering difference?
+18.3.2 Switches for Generators
+Several types of switch can be used for capacitor
+discharge generators. The best discussions of various
+types of switche are apt to be found in the older lit-
+erature, such as [18.1]. In oscillatory circuits, losses
+associated with switches are one of the major factors
+governing the of Q the circuit.
+Spark gaps: Higher power generators, those operat-
+ing at voltages greater than 3 - 5 kV, commonly ;,
+use spark gaps as switches. They may be triggered
+gaps fired by applying α pulse to α trigger electrode,
+gaps that self-fire when the voltage across the energy
+storage capacitor exceeds the breakdown voltage or
+by mechanically closing the electrodes until sparkover
+takes place.
+Gaps in air are the simplest to build, but with
+high power generators may cause enough audible noise
+to be disturbing to those nearby. Commercially avail-
+triggered gaps are generally enclosed. able
+Mechanically closed switches: The easiest method
+of switching is simply to bring tvo contacts together
+mechanically until they are close enough for an arc to
+471

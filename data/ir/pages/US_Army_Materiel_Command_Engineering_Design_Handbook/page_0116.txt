@@ -1,0 +1,33 @@
+434 GEAR BOXES SURVEYED - 173
+32 32 NUMBER OF FAILURES - 34 TOTAL TIME - 172,432 hr |
+.. MTBF - 17,431 - 5,071 v
+28 28
+24 24 000
+NUMBER OF FAILURES 16 20 NUMBER OF FAILURES 16 20 8C
+12 12
+ο
+∞
+GEARBOXES SURVE YED - 14
+RUMBER OF FAILURES - 34
+TOTAL TIME - 17,067 hr
+MTBF - 34 17.052 - 502 hf
+50 100 150 20 300 350 150 300 450 600 750 900 1050
+TIME SINCE OVERHAUL, hr Τ'IME SINCE OVERHAUL, hr
+8 12 16 20 α 12 16 20
+OPERATIONAL EXPOSURE TIME, he ξ 10 - OPERATIONAL EXPOSURE TINE. hr ξ 10°*
+Flgrro 4-9. Number ef Fuilures vs Hours Siace Figure 4-10. Namber ef Fallures vs Hours Siace
+Overharl - MTBF ~ 500 1α5 Operatinn MTBF ≈ 5000 br
+Satisfactory failure rate estimates for rolling ele- basod upon the profile of :he design mission; ι.ε., for
+ment boarings may be derived by several mcthods. § mission profile of α discrcte values of bearing load
+One simple but sufficicnt valus is: Π, cach occurring for & percentage α, of tbe total
+operational time:
+λ - (1 - Σ) /Λ .hr-1 (4-14)
+whare ΣaP 3
+Λ design life or schoduled removal time probability of survival, aimensionkas RMC 100 ,Ib (4-15)
+(ТВОД hr where
+Thc value for Σ is road from the curve in Fig. 4-11 correeponding to the retio of the dasign life E to the Σa,= 100
+life Bro at wbich 10% of the bearing population will Although in maay instances the lifo-load exponent
+fail Tbe Bio value for α given bearing is determined more corroctly can be taken as 4, the cube value is
+from the bearing manufacturer'σ duta for the root generally recommended fur doterminations of failure
+mean cube RMC load. The applicable RMC load is ταtο λ.
+414

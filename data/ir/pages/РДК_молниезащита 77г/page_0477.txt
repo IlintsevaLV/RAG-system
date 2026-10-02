@@ -1,0 +1,36 @@
+V For α 1N540 diode, the reverse breakdown voltage, VBD, is 400 and the
+K, is 0.93 (See Table 16.1). If α 200 ns pulse is used to damage constant,
+MHz damped sine wave, the failure current for the diode approximate at 1
+would be
+Α I ~ = 5 . 2
+Assume now that the impedance of the source from which the voltage transient
+generated is 10 The voltage required to produce α current of 5.2 Α through 52.
+the diode would be
+-
+R 'BD V~ransient '~ransient Source -
++
+V MHz pulse, 200 ns wide or α 1 damped sine wave having α Therefore, α 452
+peak amplitude of 452 V would cause the diode to fail.
+The second circuit chosen for analysis is the simple phase-splitter amplifier
+shown in Figure 16.1 5 (Reference 16.22). The first step in determining the input
+current required for damage is to simplify the circuit. Again assume that the
+MHz voltage source producing the transient is α damped sine wave of 1
+C1 so frequency. At such α frequency the reactances of capacitors and C2 will be
+V small that they may be neglected. Lkewise the 12 power supply line can be
+considered to be at ac ground potential. The resultant circuit after simplification
+is shown in Figure 16.16 (Reference 16.23). The circuit can be further simplified
+by determining the equivalent resistances for the base and for collector circuits.
+by The base-emitter junction and the base-collector junction can also be replaced
+their diode equivalents to represent operation in the breakdown regions. This
+simplified circuit is shown in Figure 16.17 (Reference 16.24). Also shown in
+16.1 Figure 7 are the breakdown voltages and damage constants for the 2N706Β.
+Note that for this transistor α damage constant for the collector-base junction is
+available, though not listed in Table 16.2.
+The circuit is now simplified to the point where it lends itself easily to
+hand analysis. The next step is to determine which junction will fail and what
+the failure mode is. The passive components are generally able to withstand
+higher energies for short-duration pulses than can transistors. Therefore, the
+transistor is the element to consider for damage. Failure is also assumed to occur
+in the reverse biased direction.
+Using the Wunsch damage model (Π Kt-%), α calculation is made to see =
+whether the emitter-base junction or the collector-base junction would fail first.

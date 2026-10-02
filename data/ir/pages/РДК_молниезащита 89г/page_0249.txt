@@ -1,0 +1,77 @@
+by flux produced the magnetic nant area intercepting
+the lightning current in the wing.
+As in the three previous examples, the basic volt-
+age developed in this antenna, and shown in Fig.
+8.15(χ) or 8.15(ε) followed the same pattern as that
+shown for the other circuits. The rapid transition on
+the leading edge of the voltage, however, was capable
+of exciting an oscillation within the coaxial cable feed-
+ing the antenna. When the antenna circuit was termi-
+nated in α resistor matching the surge impedance of
+the cable, the higher frequency ringing oscillation dis-
+appeared, leaving only the underlying response of the
+antenna to the muagnetic field surrounding the wing.
+eGfLUXt PSRG
+(Δ-ρ
+SURGEr (α) GENERATOR (β)
+~ V 20
+•----40Ops. 1
+(χ)-4 40 1 .1
+Not Determined
+nH = 0.06 Λ3
+Ofl 20 = (δ) I
+Α pylon circuit - open at pylon. Fig. 8.13
+(α) Circuit orientation
+(β) Electrical details of circuit
+Open circuit voltage (ρ)
+(δ) Equivalent circuit
+Signiflcant conclusions: Several significant things
+were learned during this test series. The first was that
+the voltages induced in α typical circuit within the
+wing consisted uf the sum α magnetically indtced of ,
+to the ie- end α component proportional component
+sistance of the current path. The !ucation at which
+the wing huAk an impor- the lightning flash contacted
+
+on developed magnitude cf voltage effect on the tant
+different circuits.
+Nearly all the voltages and currents measured on
+the circuits could be explained in terms of α simple
+equivalent circuit, such as those shown in Fig. 8.16.
+One way to view these equivalent circuits is in terms of
+the self inductance of the wing, the self inductance of
+the circuit within the wing, and the mrtual impedance
+between the wing and the internal conductor, as shown
+in Figs. 8.16(α) and (β). Some attempts at developing
+equivalent circuits have ignored the effects of mutual
+inductance, but it is not correct to do so.
+V'
+V
+Τ
+0 7TANK 00~2
+R3 ε Ri
+(β) RELAY
+PYLON
+Hr--rr Ar
+so0V
+Λ•-.---40 LL.Λ (χ)
+Α14 - -I(χ
+Fig. 8.14 Α pylon circuit - loaded at pylon.
+(α) Circuit orientation
+circuit of details Electrical (β)
+(χ) Open circuit voltage
+to view- Another, and probably better, approach
+circuits is one based upon α transfer ing equivalent
+impedance, as shown in Fig. 8.16(χ). In the approach
+based on self and mutual inductances the self induc-
+tance of the wing would be nearly equal to the mutual
+inductance between the wing and the internal conduc-
+tor. The difference between the two would be equal to
+the transfer inductance in the latter approach. Since
+the values of the transfer impedance will be much
+vmaller than the values representing the self impedance
+of the circuit, thn latter approach leads to the more
+compati- equivalent circuit. It is also easily handled
+ble with the concept of mutual inductance or transfer
+cables in Chapter 13. discusmed for shielded impedance
+233

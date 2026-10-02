@@ -1,0 +1,27 @@
+1. Assume that only half of the surrounding composite is available to
+conduct current, as shown in Figure 7.40. The reason for this is that
+the lightning current will want to flow in one predominant
+direction--toward its eventual exit point somewhere else on the
+aircraft.
+2. In this case the relationships among damage, radius, cross-sectional
+area, and composite thickness are given by the following:
+the necessary skin thickness (cm) where δ =
+cross-sectional area required to conduct the required jI2dt, Α =
+7.4 from Table (cm2)
+ρ radius of permissible damage (cm) =
+GENERAL DIRECTION
+OF CURRENT FLOW
+IN AIRCRAFT
+Composite thickness area of damage from conducted currents. Figure vs 7.40
+As an example, consider fuselage skin in Zone 2Α to be made of graphite
+5 cm composite. It is desired that the area of strength loss extend no more than
+outward from an arc attachment point. What thickness must the composite be to
+meet this requirement?
+SAE report The Lightning Test Waveforms and Techniques for Aerospace
+defines the lightning current action integral for Zone 2Α Vehicles and Hawlware
+as 0.25 ξ lo6 Table 7.4 shows that 1.61 cm of graphite composite will Α ~ Σ .
+this action integral without being structurally degraded. Thus, from conduct
+Equation 7.26, the necessary composite thickness needed to limit the degraded
+region to within α cm radius from the arc attachment point may be calculated 5
+as follows:
+239

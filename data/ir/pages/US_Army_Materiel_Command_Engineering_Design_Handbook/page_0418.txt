@@ -1,0 +1,85 @@
+11-3.1 FTTTINGS
+Fittings provide the structura! transition between
+two differeat types of structure, and alco serve as α
+conveniont point for disassembly. They may be
+desigred as woidnd, cast, machinod, or forged sub-
+structures. Appropriate safety factsrs must be usod
+wben calculating fitting strength. For exanple,
+castings roquire aualytical safety factors ranging from
+1.33 to 2.0, depeesding upon the quality control stan-
+dards to be applied. Safety factors are governed by
+the casting classificutions in MIL-C-6021. The deci-
+sion as so type oî fitting depends upon weight,
+production quantity (or cost), and the neture of the
+loads to be transmittod. Castings generally have low
+dongation characteristicz, and, therefore, have poor
+fatigue charactorisics.
+Maticulous care shoußδ be given to koepirg the
+local eccontricities in the fittings to α minimum. All
+chanpes in cross section should be made as gradual as
+possible by using generous fillet radii. Abrupt
+changas in croes soction cause strcss concentrations,
+and, thorefore, must be avoidod.
+Lug analysis roquires spoaal consideration. Refs. 3
+and contain aiscussions of this subject.
+ι qioq ns 'ssu; ju éju. σ jo qi
+and bolts, for α sirgle fitting attachment shouid be
+avoided. Rivete fili the holes ano, therefore, pick up
+loed before bolts do. It is important to preioad bolts
+so that ciamping of the facing surfaces is ac-
+complisbod and bending of the components is mini-
+pazia
+11-3.2 SUPPOKTS
+Sbelves, bcams, and brackets that support equip-
+ment and subeystem parts generally are constructed
+by assembly of ahect-metal components. The support
+must be surong enough to take the dcsign ioad -- ihc
+weight of the itam supporel times the design load
+factor — plus the applicabie mechanical reaction
+forcas and the vibratory loads. The loads being dis-
+tributed into the primary structure from the support
+should not induce secondary strasses, which can
+cause the primary structure to fail. Secondary loads
+are caused by the dsflection of the support.
+Beams having an opes section shculd bc in-
+vestigated for shear center location. When α beam is
+loadod off its shoar center, twisting will occur, as in-
+dicated in Fig. 11-2(Α). Secondary loading and lower
+subeystem natural frequency generally result.
+Brackets should be designod so that the load feed-
+in or foed-out is parallel to α shect-metal face. If the
+load is perpendicular, local bending will occur and
+subsecuent cracking will result. Radii should not be
+counted upon to carry load. Softneas in the support
+
+AMCP 70Σ-202
+will be evidenì, and, again, cracking will occur afer α
+period of service. Figs. 11-2(Β) and (C) show correct
+and incorrect design concepis fer bracket aitach-
+ments.
+11-3.3 FRAMES
+Frames are used to roduce skin panel size and
+stringer column Iength, to maintain aircraft contou",
+to transfer various locai loads to the outer skin as
+shear loads. Fig. 11-3 shows an example of = frame
+reacting shear flow from α tank liner. The weight of
+the tank and the fuel result in α bending load on the
+liner, and the resultant shear flow in the liner is op-
+posite in direction to ihat shown acting on the frame.
+The frame flangei that support the skin must be
+sufficiently thick to provent tension field wrinklcs
+from propagating when the panels are not shear-
+resistant. The moments of inertia of the cross soctions
+of the frames must be adequate to restrain the
+siringers against column failure. Junctions betwecn
+frames, skin, and stringers must be clipped.
+INCORRECT CORRECT
+Τ.V
+KSHEAR
+CENTER
+(Α)
+(Β)
+CRACKS
+(C)
+Figere 11-2. Currect and lacorrect Load Distribution
+11-5

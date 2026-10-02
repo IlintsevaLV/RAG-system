@@ -1,0 +1,29 @@
+current. They can, though, be detected by measuring proper termination of the transmission line formed by
+the voltage between the aircraft and ground or between the aircraft and the return circuit. One type of ter-
+the aircraft and the return conductors, preferably at ruination uses α resistor connected in shunt with the
+the midpoint of the aircraft. Fig. 13.5(ε) shows α aircraft and another uses α resistor connected in series
+calculation of the voltage, between the exit point on the aircraft and the return
+lines. Each is effective, as shown in Fig. 13.6. In ac-
+tual practice neither is completely effective since the
+Controlling traveing waves: These traveling waves impedance of the aircraft is not uniform and actual
+can be controlled and α current wavefront with α rel- resistors have inductance that degrade their perfor-
+atively smooth double exponential front obtained by mance.
+IR Is 1σ
+26 kY
+1.5 uF
+(α)
+V6κ
+700 700
+0 0
+7.
+-300 -300
+0 u'σ Its 2 0 2
+200
+(χ.) (δ)
+0 0
+0 2 2 us 0σ
+Fig. 13.6 Methods of termination.
+(α) Circuit
+(β) Α,-R1-1OOfl, RN-0fl (χ) 0, = 1000( I,-R Re 1
+(δ) 100 ν, (ε) 1000 1 -R, R R3-0fl 1:-R,--Of, - R 3 2
+358

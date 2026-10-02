@@ -1,0 +1,30 @@
+AMCP 706-202
+WING
+OF ANGLE TILT At ZERO LIFY LINE
+ATTACK
+α PROPELLER AXIS LIFT
+INFLOW ANGLE Α 0aV$ PROPORTIONAL
+:
+FLIGHT VELOCITY V.
+EFA V (α-At) V WEIGHT
+348 348
+6
+IP EXCITATION FACTOR 4 2 HIGH GROSS HIIGH GROSS IVEIGHT - 29.
+2
+.4 SFLAPS NO FLAPS
+-6 0 100 200 300 400
+INDICATED AIRSPEEO Vi. kt
+Figure 5-36. 1Π Excitstion Diagram for Typical STOL Aircraft
+In α fixed-wing aircraft, the effective angular in-
+flow into the propeller is α function not only of the
+2 aircraft attitude, but also of the wash effects of the
+1 Γ-LEVEL wings, fusclage, nacelles, stores, jets, etc. In general, these 1ν.:lows vary approximately as the square of the
+0 aircraft velocity, so that the variation of the blade cx- citation EF can be depicted as shown in Fig. 5-36 for
+¡Π EXCITATION FACTOR -2 PROPELLER -0.5 ο α fixed-wing STOL aircraft. Th: ordinate intercept is and the slope of the EF linc is α function of the tilt of determined by the gross weight and the wing arca,
+-3 INCIDENCE = 1.5 deg 1 (As indicated, wing flaps shift the zero-lift line and the propeller axis relative to the wing zero-lift line.
+-4 0 50 100 150 200 250 therefore the slope of the EF linc.) It is customary in aircraft design to consider the 1Π excitation factor
+INDICATED AIRSPEED V.. xt ryhen the nacelle alignment is being chosen. With an
+advantagcous nacelle tilt, the excitation factor at high
+Figure 5-37. 1Π Excltatios Diagram for Helicopter spoed may be no higher than at low specd. For α
+With Pusber Propeller pusher propeller on α helicopter, the EF diagram may
+5-59

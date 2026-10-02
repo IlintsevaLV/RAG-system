@@ -1,0 +1,18 @@
+INCIDENT MAGNETIC FIELD
+END 1
+(4
+Shield not grounded at either end. 13.1 Figure
+Test conditions (a)
+(b) V1
+(c) v2
+(d) Equivalent circuit
+does not Grounding the shield at one end, shown in Figure 13.3,
+significantly affect the common-mode voltage at the other end. The changing
+field induces a voltage between the open end of the shield and ground. The
+conductor is exposed to the same field, and there is thus the same voltage
+developed between the ends of the conductors as that between the ends of the
+shield. Because of the unbalanced load impedances, all this voltage must appear
+1. between the conductor and ground at end Leaving aside considerations of
+unequal load impedance, the shield can reduce voltage at one end only by
+increasing it at the other end. This effect is shown Figure The reason the 13.4. in
+V2 shield reduces the line-to-ground voltage at is that the capacitance between

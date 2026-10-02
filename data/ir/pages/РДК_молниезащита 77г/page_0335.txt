@@ -1,0 +1,14 @@
+10.27 Effects of covers and fasteners. Figure
+skin effects that retard the buildup of current density on the inner surface.
+An equivalent circuit of the cavity including the effects of fasteners is
+Rf 10.28. is the equivalent resistance the fasteners. shown in Figure of
+Circulated through this resistance is the undistorted current flowing in the
+R1 R2 and is equal to the intrinsic exterior face of the fuselage. The sum of
+resistance of the loop defining the cavity, the resistances given by the equations
+10.25. The external current will develop a voltage across only a portion in Figure
+of this resistance, since it flows in only a portion of the loop. Letting R I be the
+resistance through which the external current flows, that resistance may be
+to the current as retarded by the pulse penetration time assumed to be subjected
+constant. The two voltages developed across these resistances then circulate
+current around the entire loop. The rate at which the current builds u p will then
+be the rate at which the magnetic field inside the cavity builds up.

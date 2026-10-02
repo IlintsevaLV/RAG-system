@@ -1,0 +1,84 @@
+event, each helicopter design must be asscesed indi-
+vidually in conducting the system installation :rade-
+off.
+9-2.8.5 Miscellanrous *- stalatice Corsideratioas
+Components requiri:. frequent msintenance shall
+be sccossibl. Such units as fiuid-driven air compres-
+sors, pumpe, and filters must have unusually good
+accees in order to aliow adequste servicing.
+Componcnts that require frequent majntenance,
+such as filterz and pncumatic chemical driers, shall be
+mounted rigidly in order to avoid damage during ser-
+vicing.
+Natural dirt-collecung areas, such as brake vaives
+under ihe cockpit ficor. shall be considered in pian-
+ning sysiem insiallation.
+À iypical exampkc of improper instal'ution is
+routing of lines through a whecl-well ares, where
+leaking air can csuse strumming of both normal and
+energency lines. Autachment of lines to a panei that
+may vibrate will have a similar effect. Proximity to a
+common fire hazard alzo raust be avoided. Separa-
+tion of lines shall be accomplished after consideration
+of all environmental hazards.
+The designer shall avoid instaliations in which an
+enginc mount failure csn drop the engine on crice:l
+lines or components and thereby increase the
+poauibility of losing the helicopter.
+S-2.9 MISCELLANEOUS DESIGN CRITERIA
+Industry experience vith previous hydraulic
+systans and componente has revealed many πiscel-
+lancous design aspects thet shall be considered. The
+paragraphs that follow present some of thesc con-
+siccrations.
+9-2-9.1 Actuators and Associated Equiprment Design
+For protection against dynamic shaft seal failures,
+the designcr should consider usc of dual seals, with a
+return vent incorporated between the seals (Fig. 9.
+4).
+The design of the electriçal system with regard to
+cioctrohydraulic: servo valves shall avoid dither
+signais tbat cause valve oscillation and actuator dy-
+namic seal wear. Protection against clectromagnetic
+interference susceptibility shali be required.
+Liakage pivots on flight control actuators, con-
+sisting of friction-held journal bushings with looce
+tolerances, require critical shimming in order to ob-
+tain the elignment neccssary for frec operation. Ball-
+bearing pivots, with provisions to prevent overtor-
+quisg and operating in system return Nuid, are
+preferred in order to prevent binding of control-valve
+linkage.
+
+AMCP 706-202
+The design of actuator valving shouid include pro-
+visions to prevent fluids being trapped at the ends of
+the main controi-valve spool.
+Actuator pistons shall nor bottom against internal
+actuator stops during autopilot (stability augmenta-
+tion) input, coupled with the extremes of manual in-
+put and rigging end manufacturing tokerances.
+Erratic stabifity augmentation inputs during taxiing
+can cause excessive loads duc to hammnering against
+stop. This condition shall be taken into account
+during testing. as well as in design.
+Internal hydraulic stops in cylinders shall incorpo-
+rate ssubbing. or shali bc sxrengthened sufficiently to
+prevent fatigue loading failures (Fig. 9-45). Rigging
+alone should not be considered in order to prevent
+fatigue loading. However, the designer should
+emphasize the rigging of controls to stick-stcp limits
+to avoid actuator bottoming.
+To prevent blow-by, Teflon piston seals should be
+-rennn
+matically. Piston rings shall be used on piston heads.
+Appropriate seals should be considered for long-
+stroke, large-bore actugtor cylinder applications to
+añleviate chances of roiling and subsequent danage to
+seals.
+VENTEO
+TO RE TURN
+Figure 9-44. Dual Scals With Return Vent
+SNUBBING
+Figure 9-45. Hydraudic Seubbing for Iuterna! Stops
+9-27

@@ -1,0 +1,45 @@
+15.5 Through Improvement Circuit Design
+One of the most important considerations in the control of lightning-
+related interference through proper circuit design lies in the fundamental
+observation that a device with a broad band width can intercept more noise
+energy than can a narrow band-width device. Some of the considerations that
+derive from this observation are shown in Figure 15.6. The noise produced by
+lightning has a broad frequency spectrum. Considering for the moment only the
+spectrum of the lightning current, the observation is frequently made that most
+of the energy associated with the lightning current is contained in the
+20 low-frequency region, below 10 or kHz. Before any sense of security is
+derived from that observation, it should be remembered that equipment is
+damaged or caused to malfunction in accordance with the total amount of
+energy intercepted. In a lightning flash there may be plenty of energy in the
+megahertz and multimegahertz region to cause interference. The energy that is
+available for damage or interference may well be concentrated certain in
+frequency bands by the characteristic response of the aircraft or the wlring
+within the aircraft.
+Without reference to any specific frequency regions, however, the energy
+spectrum of the lightning-generated interference on electrical wiring within an
+receptor with a broad pass band, shown aircraft will still be a broad spectrum. A
+in Figure 15.6(a), will inherently collect more energy than will a receptor with
+narrow pass band, shown in Figure 15.6(b). The narrower the pass band, the
+better. In this respect analog circuits have an inherent advantage over digital
+circuits, since a narrow-pass band digital circuit is almost a contradiction in
+If possible, circuits should not have a pass band that includes dc, shown in terms.
+Figure 15.6(c), because, when dc is excluded, the circuits will inherently be able
+to reject more of the energy associated with the flow of current through
+resistance of the structure.
+The studies of types of interference produced in aircraft by the flow of
+lightning current have shown that the lightning energy excites oscillatory
+frequencies on aircraft wiring, particularly ~f the wiring is based on a single-point
+ground concept. Those characteristic frequencies have tended to be in the range
+of several hundred kilohertz to a few megahertz. If at all possible, the pass bands
+of electronic equipment should not include these frequencies, as does the
+hypothetical pass band shown on Figure 15.6(d). Higher or lower pass bands
+would inherently be better than the one shown. As an extreme example, shown
+in Figure 15.6(e), fiber optic signal transmission operating in the infrared reglon
+avoids the frequency spectrum associated with lightning-generated interference
+almost completely.
+Basic considerations about circuit design and signal transmission are shown
+in Figure 15.7. First, as shown on Figure 15.7(a), signal circuits should avoid the
+use of the aircraft structure as a return path. If the structure is used as a return
+path, the resistively generated voltage drops will be included in the path between
+transmitting and receiving devices. On the other hand, signal transmission over a
+twisted-pair circuit with signal grounds isolated from the aircraft structure tend

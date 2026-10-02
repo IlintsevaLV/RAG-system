@@ -1,0 +1,103 @@
+AXCP 706-202
+indication. and with rapid control of tie particular
+systems and sclcction of various avaiiable options.
+Shape coded controls should be considered to allow:
+the oporator to sclect the various sight mnodes, and
+types and quantitier of ordnance with α minimum di-
+version from his search or tracking tasks. The design
+shall provide the operetor with up-to-the-minute
+store inventory information in order to insure the in-
+telligent choice of ordnance for firing. Design con-
+sideration also shal! be given to preclude inadvertent
+activation ofthe weapun systems.
+10 6.2 DESIGN REQUIREMENTS
+For all weapon control systems, the following
+design requirenients shall be app'ced:
+1. Multipic, and preferably sequential, actions are
+requi:ed from the initial control operation to the nor-
+mal firing or reiease of the ordnance. All weapon
+controls and circuits shal! be fail-safe so as to prevent
+firing or release of ordnance in the event of improper
+control operations or sequences. Where practicable,
+the design should make ut either mechanically or elec-
+trically impossible to actuate control circuits :ν en
+improper sequence. The operator shall be provided
+with feedback to indicatc improper sequencing. If
+deemed necessary, it is permissible to have controls
+serving dual finctions; however, in no case should
+safety be compromised. Controls used for prearm or
+release shall be made unique to that opcration.
+2. Where practicable, all armament controls and
+indicators with the exception of the firing switch shall
+be grouped together. The group should be outlined
+hy α 3/16-in red border (Color 3116. 7ED-STD-595).
+Orange-yellow (Color 23538, FED-STD-595) and
+biack (Coior 27038, FED-STD-595) striped borders
+compartment lighting is used. Placara abbreviations
+shali be made for cach indicator and control in ac-
+cordance with MIL-STD-783 and AIVA BUL 261.
+Preferred locatiors arc shown in MIL-STD-259.
+3. Α complet. failure mode and effect analysis
+(FMEA) during the design stage is desirable in order
+to precluce the inadvertent desiga of unsafe failure
+modes into the system.
+10-6.2.I Arming, Fuzing, and Suspension and
+Release Control Design
+Requirenents for the helicopter arming, fuzing.
+and suspensicn and release control *ystems include:
+1. The helicopter commander shall be provided
+with the capability to permit and/or to prohibit pre-
+arming and arming of the weapons.
+10-8
+
+2. Two activa:ions are required, proferably by two
+separate controls which should be separated so tha:
+they cannot be actuated by one movement. For
+example, mos: turrets require that both an "Action"
+of "Deadman" switch and α trigger be depraeed
+before the weapon will fire. Lever-lock and/or hood-
+ed configurations shali be used for all master arming
+switches. Thesc controls shail be designed so that ir-
+advertent activetion is prevented. Α will-to-usc con-
+trol capability should be provided. Both the design
+and the crew responsibility for this control should be
+developed based upon human factor studies of the
+particular system.
+3. Reversible, inflight capability of arming and re-
+turning to an unarmed, or safe (ondition shall be
+provided for weapons and/or suspension and relcase
+mechanisms. The ARMED state shall be designed to
+return automaticaliy to SAFE, and the SAFE state
+should remain unchanged in the event of an aircraft
+power failure.
+4. The wiring shall be designed to preclude any in-
+teraction between power and critical armament cir-
+cuits. Cont.ol power shall not be applied to the
+weapon unless it is turned on tentionally by the
+operator of thc system.
+5. Jettisoning of ordaance may be effected indi-
+vidually or in multiplcs, provided that the warheads
+are in an unarmed state. Depending upon the &rnia-
+ment system design, missiles may be jettisoned cither
+by free fall or by being fired from their iaunchers.
+10-6.2.2 Huazan Fectorv Counideration
+In all clove-proximity control groups, the in-
+dividual controis beli be arrangod so that those
+operated in jequence ere in line and in their normal
+order of operation progrsseing fromm left-to-right or
+from iop-io-boliom. Wirn two of more switches
+mu. χ sctivatod simu.amously or in α rapid sc-
+quenc- they should be locsted so that they can be
+reachcu simultansouely from α fixsd position. Each
+control should be placed so thet it does not hinde: the
+opcration of another control in the soqunce, witih
+adequate clearance for α 9Sth perceutiic glovod hand.
+10-6.2.3 Indicater Dec
+The following are weapon syatem indicator design
+o5jectives:
+1. Indicators shall have high reliability.
+2. Α minimum number of indicetors shall bc
+provided in the crew compartment to show the con-
+dition (armed or safe) of critical weapon com-
+ponenis.
+3. Indicaior systems shall be current-limited so as

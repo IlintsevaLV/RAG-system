@@ -1,0 +1,44 @@
+(Reference 6.51) shows that the higher the lightning current amplitude, the
+shorter the time, tc, required to reach the coulomb ignition threshold, and that
+6 C of charge are for thicknesses as great as 0.102 cm (0.040 in), only 5 to
+necessary to reach this threshold if the charge is delivered in 10 ms or more by a
+current of 500 A or less. This means that if a titanium skin is proposed for use in
+Zone 2A, a lightning arc should not be permitted to dwell for more than about 5
+ms at any one point on the surface. According to the dwell time data of Table
+may 6.5, in) this means, in turn, that a 0.102 cm (0.040 skin not have its outside
+surface painted. Anticorrosion paints or sealants on the inside surface of a
+titanium skin may ease the problem by providing thermal insulation between the
+fuel and the hot spot, but the degree of actual protection thus obtained should
+be determined by laboratory tests before such coatings are judged reliable in a
+design.
+Time 6.6.4.2 Ways Reduce Dwell to
+The foregoing discussion makes clear the importance of lightning arc dwell
+time in establishing whether or not ignition from a strike to a certain skin is
+likely to occur. And dwell time is perhaps the only lightning characteristic over
+which the integral fuel tank designer may have any control. The objectives, of
+course, should be to have as short as possible a dwell time at any one spot and to
+spread thz arc attachment among many different spots. bare metallic external A
+finish will best achieve these aims, since most paints and other coatings act to
+concentrate the attachment at more widely separated points for correspondingly
+longer times than does a bare surface.
+If a paint must be used, lightning dwell times may be reduced by making
+the paint partially conductive. Robb and others (Reference 6.52) have
+demonstrated that aluminum powder is effective in increasing the conductivity
+of polyurethane paints, thereby increasing the ability of the arc to reattach to
+new points as the aircraft surface moves beneath the arc. Since no parametric
+data relating dwell time to amount of additive are yet available, it is advisable to
+determine in the laboratory the degree of improvement afforded by particular
+combinations.
+6.6.5 Integral Tanks in Trailing Edges Fuel
+If an integral tank skin is the aft-most trailing edge of an aircraft wing tip
+or other structure (Zones IB, 2B), metal skins of almost any thickness will be
+melted completely through because the flash is likely to hang on there for most
+of its life. This conclusion derives from the data presented; the application
+C 99% of all flashes deliver 200 or less, and SAE follows. Figure 1.25 shows that
+C C current component reflects this in its requirement for transfer of 200 in s 1
+7 or less. Figure 6.1 shows that this much charge would melt through aluminum
+13 skins up to 0.8 cm (0.3 in) thick, and Figure 6.18 shows that it would
+(2400 on the inside produce the fuel ignition temperature of 1320 OC
+O F )
+surface of titanium skins over 0.318 cm (0.125 in) thick. Therefore, because of
+153

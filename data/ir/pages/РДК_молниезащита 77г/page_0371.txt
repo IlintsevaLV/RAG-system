@@ -1,0 +1,42 @@
+CHAPTER 13
+ON EFFECTS OF SHIELDS CABLES
+13.1 Introduction
+If electronic equipment is to be operated in α region where there are
+changing electromagnetic fields and if experience or analysis indicates that the
+currents and voltages induced by those fields may be harmful, the most
+straightforward approach toward achieving transient compatibility is to shield
+interconnecting wiring from those fields. In aircraft, shielded conductors are
+most commonly used to control low-level and low-frequency interference
+signals, For many good and legitimate reasons shields on cables are often
+grounded at only one end. If the wiring subjected to the rapidly changing is
+electromagnetic fields associated with lightning, however, shields grounded at
+only one end may not be effective, and in some cases can make the surge
+voltages even larger than they would be if the conductors were not shielded in
+the first place. In this section of the report we shall discuss the ways in which
+shielded cables reduce surge voltages, some of the ways in which common
+practice regarding the use of shields may be at variance with the use required for
+the control of lightning effects, and some of the ways in which this apparent
+conflict of use may be resolved. We shall also discuss how the noise currents
+flowing on shields of cables may be related to the noise signals coupled onto the
+signal conductors.
+13.2 Some Elementary Illustrations
+To illustrate some of these effects let us consider α series of tests
+(Reference 13.1) that were made on α 5μ long length of RG-58/U coaxial cable.
+The cable was placed adjacent to α metal ground plane and α magnetic field
+passed between the cable and the ground plane. The magnetic field was not α
+distributed field but was confined to the core of α pulse injection transformer in
+the manner shown in Chapter 17. Measurements were made of the voltage
+between the center conductor and ground at each end of the cable. These
+voltages thus represent the common-mode voltages that would exist. The first set
+of results is shown in Figure 13.1. Tn an unshielded conductor or one in which
+the shield on α conductor is not used, equal and opposite voltages appear at the
+two ends if all of the loading impedances are balanced. The voltages at the two
+ends of the conductor are of equal amplitude but opposite polarity, as would be
+produced if the conductor were considered to have an equivalent voltage
+generator at its center, as shown in Figure 13.λ(χ). If the load impedances at the
+50 ends are unbalanced by the addition of α resistor at one end (Figure 13.2), fl
+the total voltage induced around the loop remains unchanged, but most of it
+appears at the end with the highest impedance. With reference to the equivalent
+V2 circuit of Figure 13.2(χ), the fact that there is any voltage at implies the
+existence of some capacitive loading as well as the desired resistance load;
+otherwise there would be no voltage across V2.

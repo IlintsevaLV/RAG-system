@@ -1,0 +1,10 @@
+I I
+- - - - - Λ I
+Phase-splitter circuit. 16.15 Figure
+Simplified phase-splitter circuit. 16.1 6 Figure
+This calculation shows that the emitter-base junction is the more susceptible.
+The current required to fail the emitter-base junction would be
+!η
+3.4 IjF Α = =
+BD V
+The voltage from the base to ground is

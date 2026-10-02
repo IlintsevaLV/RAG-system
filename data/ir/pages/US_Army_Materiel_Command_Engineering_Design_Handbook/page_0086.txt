@@ -1,0 +1,106 @@
+γ ii Extinl Fire 3-2.4.2
+high-rate. use designs hbicopter recent all Almost
+systems Most systems. fire-extinguishing discharge
+α dry by propelled extinguishing agents vaporous use
+recently. nitrogen. More of high-presstzre charge
+the as pyrotechnics used have extinguishers some
+bromotri- as such agents. Inert agent. propellant
+often dibromodifluoromethane. or fluoromethane
+prop- extinguishing good their of because used are
+boiling low the Furthermore, toxicity. low and erties
+distri- and vaporization agents facilitates the of point
+zones. fire the within bution
+that one is system fire-extinguishing An effective
+con- volume agent by 15% test, demonstrate will. by
+at of duration α for zone fire the within centration
+the requirements meet must ι'he system sec. least 0.5
+specified in MIL-HDBK-221.
+ENGINE AIR INDUCTION SUBSYSTEM 3-2.5
+aerodynamic the in usefui are tools Two basic
+are: These subsystems. induction air of engine design
+electrically an uses which plotter, field I. Analog
+that fact the based on is paper and conductive
+for identical is equation differential partial LaPlace'σ
+tech- This inviscid fluid. an and field an electrical
+lines, potential velocity streamlines, local nique yields
+two-di- to suited is well and velocities, surface and
+problems. mensional
+flow computer program, which 2. Potential digital
+sources and of superposition of the technique uses
+analog field sinks to yield the same results as the
+accuracy. greater with but plotter,
+the air of design aerodynamic the "Basic for criteria
+the satisfy must which duct, subsystem induction
+are: engine model specification, the of requirement
+any prevent subsystem air induction The ι. shall
+at all operating airflow distribution adverse erratic or
+attitudes. and conditions
+minimal have subsystem air induction 2. The shall
+loss should pressure 0.5-1.0% Α losses. aerodynamic
+designs. system induction air in most be attainable
+(see par. 3- When α particle separator is installed
+not but should will be higher loss the pressure 2.5.2),
+1% exceed 2.0-2.5%. Each of pressure loss results in
+1.5-2.0% power loss.
+3. The air iqduction system shall meet the mini-
+mum acceptable engine inlet distortion limits as pre-
+The local total scribed by the engine specification.
+by more pressure should not differ from the average
+than 5.0%.
+1, and pertain main- Items 2, and 3 are interrelated
+gradients determined by the duct area ly to pressure
+distribution, duct wall radii of curvature, and
+these changes of duct wall curvature. To insure that
+3-6
+
+gradient pressure the duct met. ι• are requirements
+ω the cross- decreasing by flow the for favorable made
+con- by length and its along duct the of area sectional
+equations. to polynomial duct the of walls the touring
+Deuign SWuiswu .dmetliou Air 3-2.5.1
+an fitting by established is profile lip external The
+or I Series α NACA (usually contour cowl external
+the to point tangent lip the from shape) elliptical an
+usually shape lip inner The boundaries. envelope inlet
+parameters design the and contour, has an elliptical
+cir- Α Kuchemann-Weber Class I. Ref. in given are
+para- design yield 2 Ref. in described cular intakes
+also Ref. 2 I. in Ref. given those to similar meters
+free to inlet velocity of range design desired α suggests
+ι.ε.. ratio. velocity stream
+(3-1) 0.65 !_χ 0.4 / V,,_< V,
+where
+fps inlet velocity. V, =
+fps velocity. stream free V. =
+ve- lcading-edge of the possibility this range, Beyond
+nose. at the breakdown flow hence and locity peaks,
+greatly. increases
+frontal area is certain minimum that α shows Ref. 3
+within velocity external maximum the to keep needed
+when is satisfied This criterion limits.
++4 ( I - V / V.)
+(3-2) Ž I =- +
+/ 1 Vo) Α, (V, - 1
+where
+in3 area, frontal inlet maximum = Am
+in.' diameter, inlet, inside of = area Α,
+sur- edge leading along velocity = maximum
+V,,ρ
+fps face,
+in- should pressure measurements addition, In
+pressure, evaluated total in inlet that variations dicate
+engine in the defined as index, of α distortion terms in
+specified the required are within specification, model
+values.
+Protection Inlet 3-2.5.2
+The engine air induction subsystem should be
+designed, to the maximum practicable degree, so that
+foreign objects from external sources will not enter
+level of protection re- induction subsystems. The
+quired for the engine air induction subsystem is de-
+Various air fined during preliminary design. engine
+in Chapter particle separators (EAPS) are dccribed
+AMCP 706-201. 8,
+device, An engine air inlet sand and dust protection
+criteria specified in Chapter if installed, shall meet the
+8, AMCP 706.201.

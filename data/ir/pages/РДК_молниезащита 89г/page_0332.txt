@@ -1,0 +1,97 @@
+The field lines would be circles centered around
+the injected current The current density would have14 J
+the same amplitude as the field intensity, but the flow
+lines would be directed radially away from the point
+where the current was injected.
+Second, there is α special concern about how
+apply the concept of transfer impedance near the ori-
+gin of Fig. 11.13(β). If diffusion effects are not con-
+sidered, the radial voltage gradient would be E,
+1 (11.34) E
+2rr E -'Td'
+which hasa singularity at ρ 0 where Eq. 11.25 would =
+predict the current density to become infinite if the
+injected current were α step function. Physically this
+wiil not happen because the sheet has α finite thick-
+ness and because the current has α finite front time.
+Current spreads away from the injected point and the
+current density never becomes infinite. Still, the trans-
+fer impedance as defined in Eq. 11.11 cannot apply
+or very near ρ = 0.
+Unfortunately, the three dimensional problem
+Fig. 11.13 does not have α known analytic solution
+and results cannot be expressed in α closed form. Nu-
+rnerical means must be employed,
+2DFD numerical solution: method Α that can be used
+to solve this problem is the two dimensional finite dif-
+ference (2DFD) solution of Maxwell'σ equations, which
+has been mentioned in Chapter 10. The quantities
+used when solving the problem of Fig. 11.13 were:
+- lightning channel radius α - 0.00635 μ
+- radial cell size - 0.0127 μ
+- axial cell size - 0.002 μ
+- time step - 2.0 ξ 10-1ι sec.
+- radial boundary at ρ - 0.3048 μ
+- axial boundary at ζ - 0.5232. μ.
+to was assumed waveform current lightning The
+11.14. shown in Fig. step function be the modified
+Results are presented in Fig. 11.15 for two values of
+conductivity, α mho/μ and 10' mho/μ. = = 104 α
+There are several interesting and significant fea-
+tures about Fig. 11.15. First of all, there is α signif-
+1(τ)
+200 kA
+__tary
+τ
+ν
+Fig. 11.14 Lightning current source for Fig. 11.13.
+
+14 - .........
+12 1000) E,(α
+-
+to 10
+>
+8
+.
+(=
+1000) ,
+.
+(• 104) " E = ' -
+0E.( 104)
+0 0.10 0.20 0.30
+Radial distance (μ)
+at Fig. 11.15 Late time electric field amplitudes
+for Fig. 11.13.
+in icant normal electric field at ρ 0, which decreases =
+with increasing ρ. Its value, which is larger than the
+largest radial field, is not predicted by the uniform cur-
+rent flow assumptions implicit in Eqs. 11.11 or 11.16.
+Second, there is α near zone effect with regard
+to the tangential electric field near E, the origin. The
+radial field at the reverse side of the sheet is not highest
+at ρ = 0. Instead it is zero at = 0 and increases to ir
+α maximum at some distance away, depending upon
+conductivity. Also, the radial field has α magnitude
+lower than predicted by Eq. 11.33, which is to say
+that the current density on the reverse side of the sheet
+is lower than it would be if diffusion effects were not
+operating. At late times and sufficiently far from the
+strike point the radial voltage gradient will be given
+by Eq. 11.33 and that distance can be taken as the
+end of the near field zone.
+directly scale these curves that be noted It should
+thickness δ. α'. but not with the the conductivity with
+Although the time domain waveshapes are not
+shown here, they do have the diffusion waveshape
+shown on Fig. 11.7.
+11.4 Redistribution
+In many cases, analysis of lightning interactions
+must account for the phenomenon of redistribution,
+the process by which the division of current changes
+from an initial state governed mostly by inductive ef-
+fects to one governed by resistive effects. An elemen-
+example of redistribution can be illustrated by
+the RL circuit of Fig. 11.16, which also shows the
+waveform of the current in each of the two branches.
+Α curent pulse of short duration entering the network
+316

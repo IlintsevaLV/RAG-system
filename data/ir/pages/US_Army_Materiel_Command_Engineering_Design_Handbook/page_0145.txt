@@ -1,0 +1,110 @@
+1)Π70-0
+are at often than those θ. oil inlet. However, higher
+because these two errors are opposite ip offcct,
+ficient cancellation occurs to rendcic the equatio~is
+acoeptable for estimation purposes.
+Ref. defines the critical 73 temperature Τ,
+respect to scoring 5Ω)OF as α risk, rating - Τ,
+as and risk. α medium risk, tempera- 300*F lesser
+tures the as value of the con- low risks. Theiefore,
+temperature under design + AT Τ, junction
+be condi tions should less than the, value of
+assc with an acceptable level of risk, vaed
+There is no accepted or inherently accurate method
+for calculating although measurements of typical Τ'σ,
+0 helicopter pinions have shown values lO greater 0F
+is than oil inlet temperatures. Although it well known
+(Refs. 74 and that above 75) α certain critical speed
+the scoring load of α given gear set will increase,
+equation does not reflect this consideration AGMA
+speed since no term other than sliding velocity
+used in the deve~opment of Eqs. 4-44 and 4-45.
+An improved calculation ma~hod uses speed-
+dependent friction coefficients (Ref. combined 76)
+the with effects of tooth load sharing. The method
+dlga, ε uic foa,,...,sou ::..,.
+ Subdivide the active . tooth profile into at least 1
+20 equally spaced points,
+-'
+2. Calculater andr at each point.
+Calculate 3. 4at cthpoint,
+4. Calculate φ at each point method by shown
+Ref. or using suitablt; empirical 76 data.
+5. Replace in 4-44 Eq. with Z,-, α modified 2.,
+sv'ring geometry factor.
+ /
+~
+- ...
+kq"-') les ZjC α, V\.0/
+Calculate α value of adjusted to account 6. Ω,'
+load sharing at multiple tooth contact points,
+effects of profile modifications. cluding
+Calculate and conjunction temperature 7. AT
+at each point, AT +
+Proper load sharing distribution in the two-tooth
+contact zone must provided be for involute profile by
+modifications. There are many techniquts in use
+calculation of these modifications, most of them
+based upon the practices recommended Ref. by
+Even though the calculated values are slightly low
+thin-rim helicopter gearing, the tooth defiections
+tained the methods of Ref. should used by 78 be
+profile modification technique. The first point
+.'the
+*\ contact (pinion dedcrndumn with gear tip) is the most
+critical with respect to overload effects of tooth the
+produces the higher absolute errors, and \spacinS
+
+values of the friction coefficient (Fig~σ. 4-6 and 4-7)
+suf- Therefore, to achievc the best proffic modification for
+scoring risk roduction, the prccedinig caltulations
+should slightly biased to increase the be Miaterial
+with removal at first of contact while decreasing the ploint
+the last point of contact. 20-30% bias Α high removal α,.
+shift is generally satisfactory. practic~able reduc- If
+lions in risk are to obtained throught in- be scorinig
+load volute modification, profile tolerances must be slope
+bttween and 0.0002 in. for the held 0.0001 :κ 1 Τ,
+modified zones and tooth-to-tooth spacing ac-
+curacies of in. must 0.0002-0.0003 achieved. bu Ade- ρ
+quacy of the ctlculated design values must con- be
+firm-Α dtiritig initial gearbox bench testing. Prop~ρ
+profilk, modifications for helicopter applicotions must
+reveal full visuni profile contact throughout the rfaige
+the 50-75% of the red-line power; if less than full contact
+is achicved, the rtsultant loss contact ratio at nor- of
+was cruise power may cause excewskvely rough and -mal
+noisy cptration with an attendant reduction in π~it-
+ting life When the level of sophistication desccibed is
+used in the calculation. of together with + AT, Τ).
+Τ. for precision in manufa~cture. the risk evaluations of
+0 of 5ω~~' Feflfit α* value* TI * Λ'Μ
+high but 400*F as 7, α medium risk thus risk, =
+would α suitable classificakion be for carburized AMS
+gears 6265 operating in or lAIL-Λ-7808 MIL-Λ-23699
+lubricantls.
+in The preceding analyses do not adequately accourst
+for certain factors that are. known to influence the
+calculated temperature rise awtd AT the truc for 7:.
+synthetic lubricants. Among thesc factors are:
+0! ef- additive wedr and friction in diffcreaccs The 1.
+ficiency between and MIL-Λ.-7808 MII..-Λ-23699 oiia
+*ι π.,*~ ι -~~~- - texture
+The influence 3. o! behavior as EHI) α function os'
+te erteanvloiy for
+in- When tests are conducted under closely controlled
+φ, wherein the friction coefficient the in- conditions
+itial temperature and the parameters are EHD Τ, Τ,,
+known with accuracy, it has been reported that the
+is invalid. assumption that is constant actually Τ,.
+Ref. 20 shows α semi-log correlation between and Τ,.
+for α dimensionless parameter which depends El-Δ tp
+upon the initial viscosity the sliding and total π,
+velocities 77. and respectively; pitch radius and V , R; V, 7
+for compressive (hertz) stress at failure In this Sc,. cor-
+ob- relation the value of for well heat treated, low Τ,
+for retained austenite, case carburized AMS 6265
+of operating in MIL-Λ-7808 drops from &.bout to 600'F
+about 430*F when the value of increases α factor by τ
+of (from to 10- &~.Values of are 101 ι Τ, - -
+(with lower quality less for F deg 100 approximately

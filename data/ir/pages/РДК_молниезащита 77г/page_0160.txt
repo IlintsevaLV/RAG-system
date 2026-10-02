@@ -1,0 +1,43 @@
+velocities as low as μ/σ (130 mph). From Table 6.5 the expected dwell time 58
+for this unpainted skin would be 2 ms. From Figure 6.22, an average of 2 kA
+C would flow into the dwell point during this period, delivering 4 of charge.
+According to Table these parameters intersect at α point about half-way 6.17
+between the coulomb ignition threshold curves for 0.051 cm (0.020 in) and
+0.102 cm (0.040 in) aluminum skins, indicating that 0.102 cm is the thinnest
+skin that should be considered. Since there would be little margin of safety if α
+skin of this thickness were actually used, it would be prudent to select instead
+the next larger thickness-0.16 cm (0.064 in).
+If one notes that the airworthiness certification criteria of Table 5.6
+generally call for an even thicker skin--0.203 cm (0.080 in)--in lightning-
+strike zones, one must also remember that these criteria make no distinction
+between painted and unpainted surfaces, and that dwell times on painted
+2 surfaces may be considerably longer than the ms experienced on bare
+aluminum skins.
+Different dwell points, different coatings, and different thicknesses will
+cause correspondingly different dwell times. Consider, for example, the longest
+dwell time, 2 0 ms, recorded by Robb, Stahmann, and Newrnan (Reference 6.47)
+for α painted surface. During this period the current of Figure 6.21 would deliver
+C. These parameters intersect at α point just the 0.229 cm (0.090 in) 16 above
+curve in Figure 6.17, indicating that even the 0.203 cm (0.080 in) thickness
+required by the certificating agencies is insufficient to prevent ignition where
+certain paints are used.
+Therefore, if paints must be used, it is advisable to perform swept-stroke
+tests to establish the actual dwell time. The procurement or certificating agencies
+have generally been willing to accept test data in support of an alternate skin
+thickness to the aforementioned 0.203 cm (0.080 in) thickness, and such tests
+may lead to the use of either thinner or thicker skins for ensuring adequate
+protection.
+Titanium and Stainless Steel Skins 6.6.4.1
+By using the chart of Figure 6.1 8, it is possible to determine titanium skin
+thicknesses in α manner similar to that for determining aluminum skin
+thicknesses. The coulomb ignition threshold for titanium occurs when the back
+side of the skin reaches 1320 "C (2400 OF), α temperature sufficient to ignite α
+fuel-air vapor. Because titanium will not melt at this temperature, no hole will be
+formed when the coulomb ignition threshold is reached.
+No charts of the type in Figure 6.17 and 6.1 8 have been generated for
+stainless steel or other metals, since, with the exception of certain space vehicles,
+these materials seldom appear as integral tank skins. Tables 6.2 and 6.3, while
+not accommodating as wide α variation in parameters, provide some guidance.
+Certain other materials, such as fiber-reinforced plastics (composites)
+behave differently from metallic materials under lightning stress. These are
+treated separately in 3ection and Chapter 6.2 7.

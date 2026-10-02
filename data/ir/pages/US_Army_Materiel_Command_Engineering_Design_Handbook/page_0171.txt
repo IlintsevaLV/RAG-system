@@ -1,0 +1,105 @@
+fatigue failures occurred that initially were attrib-
+uted to dynan.ic tooth loading. However, in-
+vestigation revealed that thc fatigue nuclcasions
+usually wcre locs sd in the bottoms of the tooth roots
+or on thc insidcs of the back-up rim. The crack
+propagation gencrally was radial rather than across
+the tooth base, resulting in the loss of α large seg-
+ment of the gear ratber sban α singic looth. Such
+failures are typical of resonant conditions in which
+the tooth meshing froquency or one of its harmonics
+coincides with α particular natural vibration mode of
+the gear.
+Lightweight gear designs fos helicopter usc often
+will exhibit various typcs of vibratory modes, such as
+with radial nodes or circular nodes, singiy and in
+combinations. Typical vibration modes for α thin
+web spur gear with integral zhaft arc given in Ref.
+103. Generally. the mode of concern is that involving
+radial nodes that put the gear rim into axial wave-
+form vibration. The lower orders (say. up to the fifth
+diametral mode) are more likely to involve higher
+amplitudes and, bence, higher oscillatory bending
+stresses. However, relative resonant response ampli-
+tudas for constans forcing input intensity at various
+diecrete resonant Irequencies vary enormousiy with
+gear blank configurations. One gear biank μ.ly
+respond mcet to & tbird diametral mode frequency
+while another to the fifth. The flange, web, and hub
+design. all influence this relationship as well as the
+ratio of higher order resonant frequencies to the fun-
+danental. The resonant frequencies are best dc-
+termined by experimental bench test techniques using
+mechanical shaker. scoustical siren, or electro-
+magnetically by an irduction coil mounted very ncar
+ihe rim surface. Excelicn: visual determination of
+resonant response may be sccomplished vith sand
+pattern techniques if she gear web is of suitable con-
+ficuration. in otber instances, podal and antinoda!
+the risa ar:σ web surfaces with α lightly hand hcid soft
+sieed rux:. Audible detact. on is also sufficiently precise
+for resonast froqucacy identification, although α
+microphune feodback coupled with α radially op-
+peesd isput from the exciter into an oscilloscope is
+requised ta prod.cz Lissajou pziterns necessery to
+distiaguish beiveen fuadamental and cvcrione
+responses. Magnetic sensors may be used for the
+foodbact phasing signal with cqual casc.
+Whea rusonance vibration amaplitudes are sui-
+ficient to produce significant siress Ieveis, the most
+practical quantitative evalzetion can be made by zl-
+tacbing strain gagas to sppropriete antinode regions
+of the rim aad wub. Tbe higker cnergs bevel resonance
+
+AMCP 706-202
+frequencics readily may be identified. In many in-
+stances, designs will exhibit very low vibration duc to
+the favorsble mass and stiffness configurations of the
+fiange, web, and hub, and thercfore will not produce
+α detectable strain gage output. Considerable input
+energy may be required for α realistic determination.
+Although actual operation in the transmission is the
+final arbiter the acoustical siren generally will pro-
+duce sufficient input to get the job done.
+Audible detection also is sufficiently precise, al-
+though α microphone feedback couplcd with ortho-
+gonal axis input from the exciter into as. oscilloscope
+is required to produce Lissajou patterns in order to
+distinguish betwcen fundamental and overtonc
+responses. The observed standing waves are the
+product of α forward and backward traveling (with
+respect to rotational velocity) waveset. If the gear is
+rotating at α given speed ω, two resonant frequencics
+are obrerved for each static fundamental radial vibra-
+tion mode:
+Forward wave natural frequency
+ff = Jo + ≈ω/2, Hz (4-64)
+Barkvard wave natural irequency
+Jf = So - μ/2, Hz (4-65)
+whcre
+= static resonant frequency, Hz
+λ =number of radial nodes
+ω * rotational apood, Hz
+Α graphic presentation of the phenomenon is con-
+tained in Fig. 4-34. The fundamental radial node
+static resonent frequencies are designated on the
+ordinate by the number of their radial nodes. The ab-
+scisse is rotational specd : relative to normal opera-
+ting speed *. The inclined liae represents the gear
+tooti meuhing frequency for α 41-tooth pinion
+driving at α normal speed of 20.000 rpm. Note that
+the forcing function represented by the pinion tooth
+mesh intercepus the forward traveling 8 node vi-
+bration near ground idle spced, the backward wave
+from the 10 sode at about 83% speed, the forwardi 10
+node wave at ncar normal operating speed, and θ=
+backward 12 node wave at overapeed. The 8. 10. and
+12 node vibrations are all potoniatiy hazsrdous.
+Even if it were damorstrated that tie cyclic stresses
+were below the material enduranes limit. ob-
+joctionable acoustical encrgy radiation would vccur
+as thsec iatsroepts. Kesesige of the shape and sass of
+the gear is not very practicable in this example
+nevene sfiacts α maximumn change of 8% in resonant
+froquency for α specific dasiga (Ref. 104).
+469

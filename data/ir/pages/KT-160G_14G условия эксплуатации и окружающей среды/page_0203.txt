@@ -1,0 +1,44 @@
+10-JO
+Схема создания искажений напряжения для однофазного оборудования.
+7
+Op1ional inductance to increa&ε
+source impedance
+Unit under 2 Source
+test
+linear Non load bank 1-------------------------------
+1 6 1 4 1
+j =200uF± .SOUF Σ llne:
+5
+1 VariaЫe 3 neutral 1 resistance
+1 load
+1
+1
+1
+1 ·-------------------------------- 1
+Distortion Production for Phase Equipment Voltagв Singlв
+Схема создания искажений напряжения для трёхфазноrо оборудования.
+to Optlonallnductance
+inaoase source lmpcdance
+7
+2 0Α ε, δ Unit
+und er ев Source eJB test
+0Σ ε: cNN
+4
+Neulral oonductor Nonl inear '---di:.::Ч
+5 ..... +--+---__...:;:=o:::.::=:τ load bank used during (if
+8 , equipment
+-------------------- -• opetallon)
+4
+5 6
+4
+5
+Voltage Distortion Productlon for Three Phase Equipment
+1 2 - 3 - -Источник. Испытываемое оборудование. Блок нелинейной нагрузки.
+4 5 - 6 - -Линия. Нейтраль. Переменная резистинная нагрузка.
+7 -Индуктивность, включаемая для повышения импеданса источника (опция).
+8 - Нейтральный провод (если он используется при работе оборудования).
+16-8.
+Рисунок Типовые схемы создания искажений напряжения
+для испытаний на воздействие гармоник.
+1
+1

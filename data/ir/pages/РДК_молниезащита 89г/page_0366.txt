@@ -1,0 +1,106 @@
+- pL'-'•-Λ' •' ' ι, • ... . ' . - . .- : *• /, • •.- ,
+Table 12.3
+Some Resonance. Modes In α
+Rectangular Enclosure
+(α μ; β 1.5 " 0.7 μ; χ = μ) I =
+Mode Frequency
+Mhz 236 110
+101 180
+011 262
+280 ι1λ
+201 250
+021 454
+1. Α study of the resonance modes or impedance of
+an empty cavity in an aircraft is probably α useless
+exercise. There are virtually no empty cavities,
+and if there were, there would be nothing in such
+α cavity to be damaged or to suffer interference,
+2. Metal enclos'tres within 3uch α cavity would tend
+to raise the resonant frequencies, while wires and
+connecting cables would tend to lower the reso-
+nant frequencies. In an actual aircraft, it is prob-
+able that the effects of connecting cables would
+prevail.
+3. The principle value of knowing the resonance fre-
+quencies of an enclosure is in knowing the fre-
+"quency above which one should not even attempt
+to make an interactions study using simple meth-
+ods of analysis. As such, only the lowest frequency
+resonance mode is of interest. Note that this is not
+to say that the higher order resonance modes are
+not of importance.
+4. Electrical energy oscillating in α cavity resonance
+mode will only appear if there is α source to excite
+that oscillation. Possibly the rapid field changes
+associated with triggered lightning and coupled
+through apertures could excite such oscillations,
+but excitation through diffusion coupling (Chap-
+ter is most unlikely, 11)
+5. Enclosures that act as cavity resonators general-
+fly have quite high Q factors; that is,they have
+low losses. If some transient electromagnetic con-
+dition excites α cavity oscillation, that oscillation
+may persist for much longer than the transient
+that excited the oscillation.
+6. The frequencies associated with cavity resonances
+are apt to be of the same order as the frequencies
+associated with digital equipment located in the
+enclosures. Thus, one can speculate that α cavity
+resonance, if it occurs, might be more of α problem
+for digital electronics than it would be for analog
+electronics.
+351
+
+. ••-
+REFERENCES
+12.1 Lord Rayleigh, "On the Incidence of Aerial and
+Electrical Waves on Small Obstacles in the Form
+of Ellipsoids or Elliptic Cylinders, on the Passage
+of Electric Waves Through α Circular Aperture in
+α Conducting Screen," Vol. 44, pp. Phil. Mag.,
+1897. 28,
+12.2 K.Σ.H. Lee, Editor, "EMP Interaction: Princi-
+ples, Techniques, and Reference Data (Α Coin-
+pleat Concatenation of Technology from the EMP
+Interaction Notes)," Decem- AFWL-TR-80-402,
+ber 1980.
+12.3 Δ.E. Merewether, et al., "Electromagnetic Pulse
+Handbook for Missiles and Aircraft in Flight,"
+Sept. 1972. SC-N-710346, Sandia Laboratories,
+12.4 C.Μ. Butler, Y. Rahmat-Samii, and R. Mittra,
+"Electromagnetic Penetration Through Apertures
+in Conducting Surfaces," IEEE Trans. Electro-
+Vol. EMC-20, No. 1, magnetic Compatibility,
+February 1978.
+12.5 R.Α. Perala, Τ.H. Rudolph, and F. Eriksen, "Elec-
+tromagnetic Interaction of Lightning with Air-
+craft, "IEEE Tr-ans. on Electromagnetic Compat-
+ibility," EMA-24, No. 2, May 1982.
+12.6 C. Δ. Taylor, "Electromagnetic Pulse Penetration
+Through Small Apertures", IEEE Transactions on
+Vol. EMC-15, No. 1, Electromagnetic Capability,
+February 1973, pp. 17-26.
+12.7 C. Δ. Taylor, "Electromagnetic Pulse Penetra-
+tion Through Small Apertures", Interaction Note
+74, Electromagnetic 5, Pulse Interaction Notes,
+March 1973.
+12.8 K. Lee, "EMP Σ. Interaction: Principles, ."pp.
+435 441.
+-
+1 35 481. -
+12.9 K. Σ. Lee, ibid, pp. 475 481. -
+12.10 William Α. David, "Bounding Signal Levels ,
+at Wire Terminations Behind Apertures," Inter-
+action Notes, February 1980. Note 384
+12.11 K.F. Casey, "Low Frequency Electromagnetic
+Penetration of Loaded tures," Apemp IEEE Tans.
+Vol. EMA-23, Electromagnetic Compatibility,
+No. 4 (November 1981).
+12.12 J. Hatm, Ω. Graf, and E.F. "Vance, "Coupling of
+Natural Atmospheric Interference through Aper-
+12.13 J.Δ. Kraus, "Antennas," McGraw-Hill, New York,
+1950.
+12.14 R.Α. Perala, et al., "Evaluation and Mitigation
+of Lightning and Microwave Hazards to the Solid
+Rocket Booster Propellant," June EMA-87-R-63,
+1987.

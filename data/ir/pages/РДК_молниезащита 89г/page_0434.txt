@@ -1,0 +1,47 @@
+Table 15.2 Transfer Impedance of Typical Cable Connactors [15.10).
+Ro Μ12
+Connector Identification (ohms) (H)
+Multipin Burndy NA5-15$63 0.0033 5.7 Ξ 10"1
+Aerospace Deutch 38068-10-SPN 0.15 I 2.5 )5 10Ξ
+connectors
+1010 Ξ 1.6 0.005 38068-18-31SN Deutch (Threaded)
+10"10 Ξ 1.1 0.023 38060-22-55SN Deutch
+5.0 Ξ 10-11 Deutch 38068-14-7SN 0.046
+Deutch 38060-14-7SN 0.10 8.2 Ξ 10"11
+10Τ" Ξ 6.7 0.023 380=0-14-7SN Deutch
+Ξ 1011 3.0 0.0033 Deutch 38068-12-12SN
+10"11 1.3 Ξ 0.012 38068-12-12SN Deutch
+Ξ 10"11 1.3 0.012 39068-12-12SN Deutch
+10-12 Ξ 2.5 <0.001 38060-12-12SN Deutch
+10-11 Ξ 3.5 0.014 38066-12-12SN Deutch
+10-11 1.6 Ξ 0.0067 AMP
+10I"1 1.5 Ξ 0.0067 AMP
+Ξ 10-11 1.9 0.0033 AMP
+UG 21Β/U-UG58Α/U Type N
+IT1 SBC/U-UG1094/U 4-8 Ξ 0.002 Type BNC UG 1 0
+(Bayonet)
+5 Anodized 24206R-228-55 Ξ 104 Ro 20 MHz MS wM < 0
+MHz Ro 20 wM < 0.5-1 MS 3126-22-55 shell Open 0
+. 20 Ξ 10" 0.001 3100-166-1Π MS Split shell
+MS 3106Α-
+*Too small to measure in preaenoe of 4 Inches of copper tube used to
+mount connector.
+REFERENCES search November Technical Memorandum 16,
+1971.
+15.1 F.Α. Fisher, "Effects of α Changing Magnetic 15.4 E. F. Vance, "Comparison of Electric and Mag-
+Field on Shielded Conductors," netic Coupling Through Braided-Wire Shields," Lightning Pro-
+Note 75-2, Internal General Electric Research Memorandum tection Stanford Technical 18,
+Memorandum, High Voltage Laboratory, Cor. February 1972.
+porate Research and Development, General 15.5 E. F. V,7ance, "Coupling to Cables," DXNA Hand-
+Electric Company, Pittsfield, Massachusetts, book Revision, Chapter 11, Stanford Research
+June 2, 1975. Institute, Menlo Park, California, December
+15.2 F. Α. Fisher, "Α Way to Evaluate the Effects 1974.
+of α Chansing Magnetic Field on Shielded Con- 15.8 E. F. Vance, John Coupling to Shielded Cables,
+ductors," IEEE Seattle, Wiley and Sons, New York, 1978. EMC, Symposium on
+WA., August 2-4, 1977, pp. 60-65. and also 15.7 Σ.Α. Shelkunoff, "Electromagnetic Theory of
+77CRD158, General Electric Co., Corporate Coaxial Transmission Lines and Cylindrical
+Research and Development Center, Schenec- Shields," 13, Bell System Technical Journal,
+tady, NY, 1977. 1934, pp. 532-79.
+15.3 E. F. Vance, H. Chang, "Shielding Effective- 15.9 Vance. pp. 1-133 to 11-136.
+ness of Braided Wire Shields," Stanford Re- 15.10 Vance, pp. 11-166.
+419

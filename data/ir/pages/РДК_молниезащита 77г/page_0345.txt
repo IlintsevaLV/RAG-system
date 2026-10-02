@@ -1,0 +1,16 @@
+plane of the aperture, as distinct from the strength of the equivalent dipole, will
+be half the field strength that would exist if the aperture were not there. This
+intractable behavior of the calculated magnitude of the field near the aperture
+arises as a result of a simplifying assumption commonly used in dipole analysis.
+P This assumption, illustrated in Figure 11.5(a), is that point sufficiently far is
+from the center of the dipole that each of the radial distances rl and r2 from the
+P may be represented by the average radial ends of the dipole to the point
+r, of 02 B1 that and each the angles and may be represented by the distance,
+angle 8.
+Dipole approximations. 11.5 Figure
+(a) Elementary dipole
+Dipole size of finite (b)
+With a great increase in numerical complexity, it is possible to develop a
+P formulation for the fields at point that, as shown in Figure 11.5(b), allows the
+dipole to have a finite length. Such a formulation allows one to determine with
+33 5

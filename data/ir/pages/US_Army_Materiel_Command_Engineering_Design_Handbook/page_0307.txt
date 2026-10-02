@@ -1,0 +1,58 @@
+17Ξ
+706-202 AMCP
+istics affecting the helicopter. These data should and provides be Iems, Λ means of generating good flight
+gathcrld over the full range of helicopter con- vehicle characteristics.
+figurations and for the complee flight envelope. During the past few years, heavy emphasis has
+Wind tunnel testing also can provide important in- been placed upon efforts to identify and understand
+formation on inttraxis cross-coupling effects. the fundamental technological and phyfiological fac.
+Measuring the damping derivatives directly in the tort involved in the man/machine interface, par.
+wind tunnel generally requires complex proc--dures ticularly with regard to nonhelicopter rotorcraft
+and techniques. K~owever, the time constants as- systems. where ths basic vehicle configuration often
+sociated with the changing aerodynamic forces and is dictated by the pilot'σ control ability. These efforts
+moment" often arc small compared with vehicle already have produced quantum increase α in the
+rr.iponsc, allowing steady-state wind tunnel results to knowledge of control system theory and criteria, sta-
+be used with sufficient accuracy in dynamic analysem, bility, human factors, handling and flying qualities,
+For ex.-nple, wind tunnel !ν maurti,,cnts of the horn- end hardware design. Because nonhelicopter rotor-
+zontal tail lift characte.ristics and the downwash craft are advanced systems, their ability to comply
+existing at the fail location can be used to calculate with specifications must be substantiated prior to any
+the pitch-damping contribution of that surface, significant financial expenditure. Piloted flight simu-
+knowing the tail arnt. lation provides the means for assaessins, and demon-
+system pilot/vehicle the of adequacy 'the strating Tests 3ench Hardware 6-6.2.2
+hardware procurement. Aa flight control prior to lardwhre components the .rf
+systdemrbe ome ponentsble , theyshoube σ cte ontrol Pilotcd flight simulation should be employed in the
+system become available, they should be subjected to development of any system whet.. the pilot is in-
+laboratoey bench teats in order to describe ac- volved directly in the contro! loop. Α partial list of
+curately their performane ε haracteristics. Tprse flight control design and development studies that
+results then may be ,pdate used to the data Τ o el cn be used in piloted simulation includes:
+~ *vo__! μ.π~oyegl irn the mathematical models. The Ssetblt opitidcdoiiaiz ε
+piot-induc-. to (Piwi I. stiffness, as rich Susceptibility items define Osculation testing can fm- bench
+effects failure mode of Analyses 2. .;raits. rate and level, thresho!δ responi%, quency
+3. Definition of control harmony requirements
+6-6.3 GROUND-BASED PILOTED FLIGHT 4. Height-velocity capability, with emphasis on
+SIMULATION human factors
+air turbulent in qualities Handling 5. not design system control flight helicopter The
+studies trade-off 6. Design minimum the with in compliance result should only
+compo- flight control mixing of and 7. Scheduling specification, the handling quality of requirements
+functions nent po- quality handling θ: maximize should also but
+system augmentation of stability 8. Optimization to the with regard viewpoint from the pilot'σ tential
+forces system control ann flight configuration of design detail requirements. Therefore, mission
+Cornpnex fliaht control systems renuires that the Weapon 9. delivery suitability
+characteristics and re- mode 10. Conversion by using the simulation be inserted into human pilol.
+rotorcraft) non-helicopter (for quirements simu- flight piloted moving-base or fixed-basc either
+(pilot familiarizetion, Flight teat supplement however, does not pro- II. simulation, lators. Fixtd-base
+support) test test planning, for his environment α realistic the pilot with vide
+recovery. entry and 12. Autorotation un- respond him to forces and sensors, body
+realistically cr, sometimes, falsely. Thj correct en- Piloted simulation is effective particularly in failure
+vironment consists of α proper representation of the mode studies. All types and combinations of failurs
+helicopter equations of motion and α proper pilot en- can be presented for evaluation of transient response
+vironment, including vision, sound, touch or feel, and characteristics, profile of pilot reaction, allowable
+motion. time delay prior to corrective pilot action, the need
+Use of α high-fidelity, moving-base, piloted flight for fully automatic protection, and the resultant limi-
+simulator is α cost-effective approach to the en- tations on mission capability. Initially, such studies
+ginetering development of helicopters. The flight are conducted using α fully mathematical rtp-
+tool that can provide high resentation of the helicopter. hardware com. As simulator is an engineering
+confidence in design decision-making regarding new ponents become available, they can be substituted for
+" systems. Application of moving-base flight simu- their corresponding mathematical models, thereby
+λ stion early in the helicopter definition and develop- enabling refinement of the previous estimates made
+mental cycle identifies pitfalls and potential prob- for items such as friction and hysteresia.
+Σ~6-27

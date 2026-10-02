@@ -1,0 +1,101 @@
+On the aaumplion that belicopter umpty weight
+and main rotor speed at invariable, and that thc
+belicopter is capable of carrying its rated payload cx-
+cillations can be avoided is by controlling the stiffness
+K to keep the susponsion system fioquency below
+raode.
+If the characteriszics of individual cargo loads are
+known. it is powible to control the stiffneas K iy
+tailoring the sling dxign to : load, by manipu-
+lating aliag geometry (length). matarial, ard cross-
+re ε ε
+balicopter load combinations by preparing curves of
+-
+penaion gonmetries and sling webbing thicknceses
+(Ref. ι3). Where suepenaion kength is variable in
+fight by tbe uae of α winch, ühe stiffnees of the systemn
+can be decrvased by roeding out more cablc whonever
+the onset of vertical bounce is dotoctod.
+Α more saitafacory soluticn to the probiam of di-
+vergont ertical oscillation is avsilabic to the dc-
+signer (Ref. 14). Tisis solution is to control the stiff-
+nem by inoerting into the suepresics gystem & lced
+υ inclator having α soft spring rate; uaking advantege of
+the facz that, whon two springs are connected in
+series, tke total spring rate K of the combination is
+always los than the stiffaans of aithor spring, in the
+preportion
+$+$ .Π-/R
+K
+spring rate of first apring. lo/τ
+K2 - - spring rste ef second apring. Ib/φ
+Tloi, if tios Bond isolnior by itaadr has α sciffnees such
+thet the exiernal locd frrquancy is abways below the
+0.6 × 1Π turuahold frequzncy, reonanoc with 1Π fre- quency and coupling wich first fucehge bendizg
+sode always will be svoidod, regardices oi the sus-
+cica sling stiffneis.
+Ef α saimplo spriog is moplugud ae α lond incioner, tke
+ρ () Э
+the tigheont Icast oombicret wiche the stifkses abiang. Α
+nbon sq pa or pousp oqay edAp-Sude
+qpq ga γ
+ι with the suezimuce curgo lond (tiner the lissie
+factor). "bs more sey pinisticated typas of load
+I ce bave α veriable peisfacus tibat
+pregortion ba 89 main-
+yudmm astaural fre-
+
+AMCP 706-222
+Thesc nonlincar load isolators can be based on air
+springs or liquid springe, although studies bave
+shown hydropneumatic load isoiators to be gonoraily
+superior (Ref. 11). Such an isolator usually is da-
+signod as an air-oil cylinder, with σ volume of com-
+pressod air providing the spring rate, and the oil pro-
+viding damping and al.o à means of varying the air
+volume to change stiffncss. Wben the applied load is
+increased, an increased quantity of hydraulic Buid is
+metered into the cylinder by α servo valve. Pro-
+visions should be incorporatad to abeorb the rexoil
+shock resulting from an inflight lond releme. The
+load limier slso provides α convonient mount for the
+placemens of α cargo-weighing load cell.
+13.4.2.3 Winches and Hooks
+Wbiic light bclicopters may be abie to ccnduct ex-
+ternal load opcrations satisfactorily with α simpie
+fixed hook and pendani or multiler sling, any cargo
+belicopter should have the capability of hoisting its
+maximum rated extarnal load while in α bover. This
+capabilily makes it posiblc to rotrieve loads from
+tight snots where cloee hovering would be unaafe. and
+also enabics the pilot to roci in Ioads in fligint to mini-
+mize the kind of pendulum loed osciliations which
+threaten controlability (Ref. 35).
+pocts which are beyond tbe realm of the balicupter
+designer. However, the designer should be fasiliar
+with the goneral characteristics requirad so that in-
+(134) talligont apocifications may be writirn. Military heli-
+-qaq = sarq pemua podsuez ruquoo nog pomn αçiso
+apeod winch capabic of boisting the maximum ex-
+ternal load at α rate of at leaxt 60 fpm. Witk lightor
+locda, sponds in ancees of 109 fpm are ve υ dosirable.
+Α no-load rseploymont rate of 300 fpan or more would
+be ueafui is σ combat situation. The winch specd
+-ν σ gu ν qu sqe
+o
+vided, as weil as an autonaatic loed boidar to lock the
+winch in cese of powe: failurs. Hydraulic power
+generally is upnd for high-capacity aircraft wiachas
+bacauae aircraft ekrctrical moiors have inaufficient
+power. Both druam aad capetan wiaches are suitabis
+for Ibedicopier applicacioa. Studies have shoron so
+jo sedue pe mna 'adá seqe soj sieuepe up
+thair applicstiva are arod (Rads. 10. 11. and
+16).
+The same standius bave concludod unarimnously
+thet, witkr the proacnt stats of thbc ert, stuol wire rops
+is the optinuru teccios mesber. Cadis maas-
+facturers recoi sadatioss nikaould be fofllorwed with
+respoct to mimiuam allowable drrae and sboave dia-
+ravters (400 tiancs wirs strand diatbeter or an averses
+SI-EI

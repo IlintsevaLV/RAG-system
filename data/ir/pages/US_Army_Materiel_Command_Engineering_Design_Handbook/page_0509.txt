@@ -1,0 +1,102 @@
+16-4.2.2.1 Termination Seale
+Environment resistant connectors baving wire
+scaling grommets shall be uaed vhenever possible;
+however, potting may be usod when no connoctor
+having α soaling grommet is suitable for the applica-
+tion. Scaling materials should moet the applicabis en-
+vironmental requiroments and sbouid be seiected
+from either MIL-Σ-8516 or MIL-Σ-23586.
+164.2.2.2 Cable Adapters
+Α cablc clamp often is usod at the end of the cir-
+cular connector to support the cable or wires and to
+prevent twisting and pulling of the contact tarmi-
+nations. Avoiding this motion abso heipe to roduce
+the transmission of mcisture along the wire. For
+applicabie cable clamps and other accessory hard-
+ware, consalt the supplement to the; connoctor speci-
+fication.
+16-4.2.2.3 Connector Conpliags
+Throe basic styles of circular connector coupling!
+are usod: threaded. bayonct, and push-puli. The
+bayonet and push-pull stylcs offer quick-disconnect
+fcatures. Other features, or α combination of fea-
+tures, sre sometimas uaad. For cxampke, : pull-to-
+breakaway action may be incorporatad with the basic
+coupling.
+16-4.2.3 Rack and Pasel Consec or
+Rack and panel connectors are used to connect α
+cabie to α fixod roceptacic, α cabie to α cable, or α
+module to α backplate. The common configuration is
+rectangular or some variation of α roctangular shape
+(scc Fig. 16-5(Β) ). Thesc connoctors are availablc in
+many sizes and shapes conforming to Military Speci.
+fications, and also in commercial configurations.
+Refer to Tablcs 16-8 and 16-9 for listings of the mil-
+tary typcs, and to the manufacturers' anv, dis.
+tributers' catalogs for the commarcial typas.
+16-4.2.4 Flat Conductor Cabãε Coanectors
+Where flexible, flat conductor cable is used, con-
+noctors of the MIL-C-55544 type (Fig. 16-5(C))
+should be considerod. Thcec connectors ar: suitable
+for connocting flat cablo to flat cable, to round wires,
+or to printed circuit boards.
+36 4.2 5 Printed Wlring Beard C_sneciors
+Printed wiring boar or prinizd circuit connectors
+(Fig. 16-(Δ)) normally arc not encountered in air.
+eraft wiring. They ars usod fo: connecting printed
+wiriog roa ds to conventionai wiring. prinied wiring
+bonrds to cach ofiaer, or printod wiring boards to α
+
+AMCP 206-222
+backplate. Connoctors in accordance with MIL-C-
+55302 are proferred for printod wiring bonrd ap-
+plications.
+16-43 TERMINALS
+Common typa of terminais currently in use in-
+clude Jug. eyeiet, and notched. Their installation may
+be of the dip-solder, soldgriess wrap, tapar tab, taper
+socket, or crimp style. Unlers otherwise specified in
+the coniractual documenrs or approved by the pro-
+curing activity, wire and ceble terminsds should be of
+the crimp stylo.
+Crimp terminale allow dirsct centact of wire and
+taminal to be accomplishod by oeformstion. They
+can β: installed quickly with uniform and reliable
+π ν re
+can be accomplished wità hand tools or with auto-
+matic equipment ansd can be inspocted casify. Ti.ε
+plications where osher typas would be unocceptable.
+The connection is electrically sound and mechanical-
+ly sirong. Howover, rousc of crimp joints is almost
+impossible. common practice is to provide extra
+wire length in now harnous ogaemblies so that α
+damaged or defective terminal may be raplaced by
+cuttirng otf the oid one and crimping on α new one.
+Α MCP 706-125 providss α dotailed diacunsion of the
+roquirenents and characteristics of various typer of
+terminations. MIL-STD-195 defincs the marking of
+connections for clectrical anerablics.
+For coppsr wire, MS 25036 terminak (φ pe 11. in-
+:latod) shouid be usod — except in applicstions ro-
+quiring conductor temperatures sbove sos*C. Fer
+such applications, uninsulated terminak (Type I).
+conforming to MS 20659 and to the requirememts of
+MIL-Τ-7928, ahould be uaed. For alumipuan cablc,
+icr minaie coníorming to MiiL-Τ-7o99 sbould bs used.
+Table 16-10 containe additional standards.
+16 4.8 TERMINAL BOARDS
+Wbere wire or cable junctions roquire infroquent
+disconnection, or where it is neoessary to joia two or
+more wires or catles to α common point, terminal
+boards shou!τ be used.
+Terminal boards should conform to Ms 21212.
+and covers conforming to MS 18029 sbould be urod
+with tion. Thoes boards rave moldad barriore and
+molded-in studs. They anay be purchaaod in stenkard
+kengths and cut to the length (ouraber of suds) ro-
+quirod for cach installazion. Terninal board ider-
+tificaticn should be in sccordance with the para-
+graph tictad "Junctions" ir MIL-Ω-5088.
+Buses cennecting the terminai studs should con-
+form 19 Ma$ 25226.
+16-19

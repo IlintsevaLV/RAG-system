@@ -1,0 +1,44 @@
+Tests may be made on a complete aircraft, during which tests
+currents of low amplitude but correct waveshape are circulated
+thlough the aircraft. Such tests are sometimes called frutzsietlt
+in and are discussed Section 17.3.2. ut2u!ysis testr
+Tests may be made upon individual pieces of electronic equipment
+or upon interconnected electronic subsystems. During such tests it is
+assumed, explicitly or implicitly, that the waveshapes of the current
+or voltage surges injected into the pieces of equipment or subsystems
+are representative of those produced by natural lightning. Some of
+the aspects of such tests are discussed in Section 17.5.
+17.2 Definitions Waveform
+Before discussing test techniques in detail or discussing the advantages and
+disadvantages of different types of tests, it would be well to discuss general types
+of waveforms and the terms used to describe these waveforms.
+Waveforms of either voltage or current tend to fall into one of the
+The waveforms shown in Figure 17.1 are categories shown in Figure 17.1.
+described in two ways: in terms of the natural type of waveform produced (1)
+(2) by physically reali~able test circuits and by their triangular approximation.
+When any test waveform is described in terms of its triangular approximations, it
+must be understood that there is no intent that an actual test be made with
+triangular waveforms, since such waveforms can never be produced with
+physically realizable hardware. Any test that is to be done should be performed
+with natural waveforms, of which a specified triangular wave is only a
+convenient approximation.
+Perhaps the most common waveform encountered during indirect effects
+testing is the damped oscillatory waveform of Figure 17.l(a). The major
+characteristics of importance for such a waveform are the peak amplitude, A,
+or alternatively, the frequency, f. Since an oscillatory and the period, T ,
+waveform may be either a basically cosinusoidal waveform (one starting at the
+A) or a sinusoidal waveform (one starting at zero), the initial peak amplitude
+time to crest, t should generally be specified in addition to the period, or 1,
+natural, frequency. In addition, specifications may be required as to the
+decrement of the wave, or the time required for the oscillations to damp out to a
+negligible amplitude.
+The second most commonly encountered waveform is the exponential
+wave of Figure 17.l(b). This waveform describes the characteristics of a
+capacitor discharging through a resistor. The most common specifications relate
+to the peak amplitude, the time to crest, t i , and the duration of the tail, or A,
+decay, t2. The front time is described most commonly in terms of its triangular
+approximation, the time required for a tangent line through the major t',,
+portion of the leading edge to intercept the projection of the peak amplitude.
+Surge generators frequently have enough inherent inductance that the leading
+edge is fairly linear over a reasonable length of time, in which case the best fit
+tangent line may be drawn by inspection. To cover those situations in which the

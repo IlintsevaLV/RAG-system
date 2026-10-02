@@ -1,0 +1,90 @@
+Α--- -. _44Α
+MIL-Α-46146 TYPE I SEALANT
+Figure 7-14.
+fication number visible on each wire without cuttin3
+ties. Lacing (or tying) be done with single shall
+Continuous lacing be permitted only in junction shall
+boxes and panels.
+The end studs used for attaching the MS 18029
+minal covers cannot be used for electrical purposes.
+two electrical terminals with mounting hardware arc
+placed on the end studs, the self-locking feature
+not engage in the terminal cover nuts.
+See par. 7-8.2.1 for α further discussion of terminal
+blocki;
+7-7.5 ENGINE COMPARTMENT WIRING
+The two major installation hazards encountered
+4ngine compartment environments are heat and
+I ration. Special attention should be paid to the
+vibration environments of engine enclosures. Wire
+gage shall be α miinimum of 20 in order to
+strand fatigue breakage. Wire bundle clamps shall
+spaced in close proximity so as to prevent wire
+tion between clamps and possibie resultant breakage.
+Crimp-type contacts be used in order shall
+Sclumninate to vibration breakage due strand
+capillary action,
+Wire bundles in low-temperature areas (200°C
+lower) of the engine compartment may be in
+cordance with par. 7-7.3; in higher-temperature
+and on the engine itself, open wire bundles of
+rated at 260*C be used. shall
+Particular care be taken to route all shall
+bundles away from sharp edges, and around
+ment in the engine area to allow extra room for
+bration and for structural expansion and contraction
+due to ambient temperatures and engine thrust.
+bundles be routed and clamped well out of shall
+way for engine change, and design shall take into
+sideration the use of any necessary installa-
+tion/removal ground-handling tools. Fire detector
+elements routed, and securely clamped ghllbe
+position, to eliminate crush possibilities
+engine change.
+7-26
+
+SELF-LOCKING NUT
+LOCK WASHER
+FLAT WASHER
+Terminal Strip Installation
+7-7-6 DOOR HINGE WIRE BUNDLE ROUTING
+ties. Electrical components mounted on access doors
+v, ill require routing the wirr? bundles over the door
+hinges. The wire bundles be routed so that they shall
+ter- twist instead of bend, ι.ε., the bundle be routed shall
+If parallel to the hinge for α distance sufficient to allow
+μ he bundle to twist. Consideration should be given to
+will using Teflon-cushioned clamps at the twist points to
+provide added bundle mobility. Added abrasion re-
+sistance at the hinge, in the form of Τ.ν . vinyl ,
+tubing mnay be required.
+Wire bundles that are exposed to weather and
+or flight, during are opened doors when abrasion
+in during ground servicing, be protected by extra shall
+vi- cove.ring (such as braiding or tubing). Weather-
+high- exposed braiding shall extend into the connector back
+shell clamp, but, because of the wattr-wicking prop-
+reduce erties of the braid, should not extend into potting or
+be connector waterproofing.
+vibra-
+7-7.7 WIRING TO MO I,
+to WNG COMPONENTS
+solder it is necessary when attention is required Special τ
+route wiring bundles to components such as ac-
+or tuotors, missile launchets, or electronic components
+ac- that move during use or storage. These bundles
+areas usually flex α number of times and are critical in their
+wire operation.
+The installation should designed be as follows:
+wire I. The wire bundle clamped firmly to the bZ shel
+equip- moving component so that no movement of the wire
+vi- takes place at the connector or terminal.
+2. The wire bundle be under tension at shall not
+Wire any point in the movement of the equipment.
+the 3. The wire bundle be clamped firmly ti the shall
+con- fixed structure at α position whek ε if there is any mo-
+tion, the wires will twist and not bend.
+4. The attach point of the fixed structure must be,
+into whenever possiblen at the center of the arc formed by
+during the moving equipment.
+5. If the fiued point car not be at θ: center of the

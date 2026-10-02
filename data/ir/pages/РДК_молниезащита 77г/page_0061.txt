@@ -1,0 +1,39 @@
+2.4 Aircraft Lightning Attachment Zones
+Since there are some regions on the aircraft where lightning will not
+attach, and others which will be exposed to attachment for only a small portion
+of the total flash duration, it is appropriate to define the zones on the aircraft
+surface which will be exposed to different components of the flash and therefore
+receive different types and degrees of effects. For purposes of aircraft fuel
+system protection, the Federal Aviation Administration (FAA) has defined in its
+advisory circular AC 20-53 (Reference 2.1 the following zones: 9)
+Zone I.
+inches of the tip All surfaces of the wing tips located within I8 (a)
+measured parallel to the lateral axis of the aircraft, and surfaces
+within 18 inches of the leading edge on wings having leading edge
+sweep angles of more than 45 degrees
+Projections such as engine nacelles, external fuel tanks, propeller (b)
+disc, and fuselage nose
+inches of the tips of horizontal and vertical Tail group: within 18 (c)
+stabilizer, trailing edge of horizontal stabilizer, tail cone, and any
+other protuberances
+point of direct Any other projecting part that might constitute a (d)
+stroke attachment
+Zone Surfaces for which there is a probability of strokes being swept 2.
+point of direct stroke attachment. This zone rearward from a Zone I
+includes surfaces which extend I 8 inches laterally to each side of
+forward projection points of fore-and-aft lines passing through the Zone 1
+stroke attachment. All fuselage and nacelle surfaces, including inches of 18
+I , 2. are included in Zone adjacent surfaces not defined as Zone
+Zone I Surfaces other than those covered by Zones and 2. Ignition 3.
+sources in these areas would exist only in the event of strearnering.
+These definitions confine zone boundaries to the 18-inch distances
+described above. Even though they have proved adequate for protection of
+present-day transport category aircraft, it has been recognized that the lightning
+attachment zones of new aircraft designs in fact may not fit these rigid
+F of the definitions. Therefore, an industry committee, designated special Task
+Society of Auton~otive Engineers (SAE) Committee AE-4 on Electromagnetic
+Compatibility, has recently clarified the definition of these zones and broadened
+F their application by removal of the arbitrary 1Sinch description. The Task
+recommended definitions are as follows (Reference 2.20):
+Zone Surfaces of the vehicle for which there is a high probability of 1.
+direct iightning-flash attachment or exit

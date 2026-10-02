@@ -1,0 +1,35 @@
+Tbese were interconnected to the fly-by-wire control systems through wire
+bundles that ran under the wings. The control systems did not depend upon the
+aircraft structure as α return path; the system was considered to have α
+single-point ground, and that single-point ground was located at α panel in the
+gun bay. By and large, none of the control wiring in the aircraft was shielded.
+In contrast to the tests on the wing of the F-89J aircraft, in which
+high-amplitude currents were injected into the wing from α high-power surge
+F-8 generator, the tests on the complete aircraft were made with what has been
+called the α portable and relatively low-power surge generator transient analyzer,
+capable of injecting currents of α waveform similar to that found in lightning but
+of α much lower, and nondestructive, level. During the tests on the F-8, the
+Α. injected current was of the order of 300 Several different current waveshapes
+were employed; the one to which most frequent reference will be made in
+this abbreviated set of test results is that described as the α fast waveform,
+16 current rising to crest in about ps and decaying to half value in about 3 π.
+These waveforms are shown in Figure 14.8.
+The first set of measurements to which reference will be made was that on
+α α set of spare conductors running between an interface box in the gun bay and
+disconnect panel located near the leading edge of the vertical stabilizer. The
+routings of the circuit and the waveforms are shown in Figures 14.9 and 14.10.
+The voltage measured between the conductor and ground consisted of α
+high-amplitude oscillatory component and α lower amplitude but longer
+duration component. The oscillatory component was excited by magnetic flux
+leaking inside the aircraft, while the longer duration component was produced
+by the flow of current through the structural resistance of the aircraft. Since the
+voltages induced by the leakage of magnetic flux were proportional to the rate
+of change of that flux, it followed that the oscillatory component would have
+been more pronounced for faster currents injected into the aircraft than it was
+MODE AND POWER PANEL
+cENTE19;Π
+STICK
+ \ " C I & RTCELE SYSTEM
+DISPLAY AND KEYBOARD
+Location fly-by-wire control system hardware and wiring 14.7 of Figure
+aircraft. bundles in F-8

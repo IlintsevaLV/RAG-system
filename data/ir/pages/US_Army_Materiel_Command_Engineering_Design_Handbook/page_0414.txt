@@ -1,0 +1,95 @@
+11-0 LST OF SYMROLS
+4 - limit cargo acceleration, number of γ'σ, di-
+monsionioes
+- acceloration due to gravity, 32.2 ft/sc
+ν - peak accoleration, numbes of γ'σ, dimen-
+* aionloes
+- aoceleration ratio, aL/H, dimensionloss
+- longitudinal acceleration, number of γ'σ,
+dimersionloes
+Metan limit flight load factor, dimensionloss timo for accoleration to reach limit cargo
+acceloration, sec
+time to ronch prak acccleration, soc
+velocity et time iL, Α/soc
+- initial velocity, fi/soc
+ω ν width of the cargo floor, st
+= controlled defsction, in.
+11-1 INTRODUCTION
+Structural considerations for helicopter major
+conpotont design were discussed in Chapter 1. This
+chaptor is concerned with thc detail structural design
+of the airframe oniy; ι.ε., fusclage, tail boom, stabi-
+lizers, fins, and auxiliary lifling wings. Socondary
+stucture, such as doors, cowlings, and fairings, is in-
+ciuded. Detail design of transparent areas also is dix-
+Clsaud.
+The basic helicopter configuration is chosen and
+the external loads are deveiopod during the pre-
+liminary design of the helicopter. Fundamental air-
+frame decisions, such as whether to use morocoque
+or somimouocoque construction, also are made du-
+ring preliminary deaign. The task in detail design is to
+confirma that the airframe structure designed in pre-
+liminary dksign mects the mission performance and
+curvivability requiremnents, and that it can be de-
+woloped and produced within the budget cost cs-
+tablisbod for it.
+The bascs for detail design are the helicopter detail
+sPocifications, MIL-Σ-8698 and MIL-Α-8860 through
+-8871, and the design criteria defined by or deveioped
+from thase documents.
+ternative typcs of local structure by application of
+curtain trado-off criteria. Material propertics, method
+of fabrication, weight, and strength limitations are all
+important considerations in the deaign confirmation.
+The determination of how α particular portion of the
+
+AMCP 706-202
+CHAPTEP 11
+AIRFRAME STRUCTURAL DESIGN
+airframe is to be fabricatod — ι.ε., by wolding.
+forging. stoel matal buildup (riveted or bondod), or
+from composite materials -- is the principal docision
+to be made in detail design. The trade-off criteria to
+be usod during the investigation of fabrication
+tochniques include weight, surface finish, stiffness
+and ruggodncss, fatigue sausitivit;, cost, and proper-
+ties of materials.
+11.2 DESIGN CONSIDERATIONS
+11-2.1 WEIGHT
+:.? the beginning of the detail design effort, the
+weight group provides the weight budget to θ
+tistical analyscs and estimates of the prelimitary de-
+sign. Α stato-of-thc-art design, therefore, normally
+would meet the weight allowance, while advancod
+design techniques and new materials should produce
+α structure weighing iess than the aiioimeni. incor-
+poration of rew design techniques in order to save
+weight must be considered in conjunction with the
+other requirements since, for instance, advanced
+decigns may increasc the airframe coat. In any casc, α
+strict accounting of weight with respect to the budget
+must be maintained throughout detail design.
+11-2.2 SURFACE SMOOTHNESS
+Surface smoothness is &ncther structural quality
+that affocts aircraft performance. Criterin that limit
+the use of protruding fasteners, stipulate ι irod areas,
+and dictate external contours are provided oy the
+teria are appliod Jepends upor the impact upon
+manufacturing cost. It may be possible to trade off
+the additional costs of mecting these criteria through
+simplification (therefore, lower costs) of the structure
+itaalf.
+Α curved surface often will be more costly, but it
+will be stiffer, more rugged, lighter, and less fatigue-
+sensitive than the simpler alternative. Limiting flush
+fasteners to the forward 25% of the airframe aero-
+dynamic length may be an acceptable compromise
+that will yield the required drag reduction.
+11-2.3 STIFFNESS AND RUGGEDNESS
+Airframe compcnents must have adequate stiff-
+naas to meet σ'atod vibration criteria. There must be.
+adequate separation between the natural frequencies
+of prime modes ens the exciting frequencies. This
+froquency separation will reduce the internal stresses
+11-1 ***

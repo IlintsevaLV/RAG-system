@@ -1,0 +1,77 @@
+α conductor in free space Z will be on the order of
+ohms. When the wave reaches α discontinuity,
+as the end of the surface or α point where one surface
+joins another surface of different size or orientation,
+will be generated and the total α reflected wave
+will be given by the sum of the initial wave and
+reflected wave. The reflected wave will also eventually
+reach α discontinuity and generate another travelling
+wave. The E and H field magnitudes of any of
+wave components will be given by Eo. 10.14, but
+total magnitude will be different. If current continues
+to flow long enough for steady state conditions to
+approached, then the electric field associated with
+flow of current will go toward zero.
+E
+The fields at α point to which α wave will prop-
+agate can be determined from the fields at the points-
+previously traversed by the wave. Numerical
+niques for doing this are given in §10.5 through §10.8.
+The phenomenon of waves propagating back and forth
+across the surface of the aircraft, or of aircraft reso-
+nances excited by an outside event, is discussed further
+in §10.10.
+Fields of Evaluating Methods 10.5
+There are α number of ways in which the electro-
+magnetic field around α conductor may be evaluated.
+Three of the simpler methods will be discussed here,
+because they have both utility in their own right and
+because they illustrate some of the techniques used in
+the more powerful methods described in §10.6. Some
+of the results from the method to be described
+§10.5.3 will also serve to illustrate the general nature
+the way that external and internal fields are influenced
+by the shape of the aircraft.
+Equa- Laplace'σ of Solution Numerical 10.5.1
+tion
+α cur- around of the field the solution Analytically
+solu- α by determined be may conductor carrying rent
+tion of Laplace'σ equation:
+2 V (10.15) 0 0 =
+where 0 the potential. =
+
+377 In rectangular coordinates Laplace'σ equation be-
+such comes:
++ + _ _ (10.16) 2 + 0. (10.16) field OX' Y + 8-2 =
+the For some geometries Laplace'σ equation can be
+solved analytically; an elliptical geometry is one of
+those cases. The equations defining the field distri-
+the bution will not be presented here, but Fig. 10.9 shows
+the an example of the field around an elliptical cylinder
+of infinite length. If the field is viewed as one due to
+be current in the conductor, the equipotential lines depict
+the the magnetic field lines, these being tangential to the
+conductor at its surface. If the field is viewed as one
+due to α static charge on the conductor, the lines di-
+rected into the conductor depict the electric field lines;
+the paths along which displacement currents flow.
+I
+tech-Α2AS
+44AS, 4 H H
+Fig. 10.9 The field around an elliptical conductor.
+The return path for either the voltage maintaining
+the charge or the current is assumed to be sufficiently
+far away from the conductor that it does not influence
+the field around the indicated region.
+in The indicated flow lines divide the region into 44
+of sectors. At the surface of the conductor, the magnetic
+field strength is inversely proportional to the spacing
+between the flow lines. Since the average field strength
+is surface around the
+(10,17) = H 1/Π,
+between surface at the field strength that the follows it
+is lines flow two any
+Hsurface = (10.18) 44Α---
+In only the simplest geometries is it possible to
+calculate the field analytically. Usually one must resort
+280

@@ -1,0 +1,26 @@
+1
+CURRENT
+PULSE DURATION MICROSECONDS -
+Damage thresholds of line receivers. 0 107 SN 16.1 Figure 55
+Failure Mechanisms--Capacitors 16.7
+Capacitors fail by a mechanism different from that of semiconductors. The
+mechanism of capacitor failure depends upon the type of dielectric. Capacitors
+with solid dielectrics--paper, Mylar, or ceramics--will, when subjected to
+nonrepetitive transients, either fail by puncture of the dielectric or not fail at all.
+Typically, a capacitor can withstand short-duration transient voltages several
+times greater than the dc rating of the insulation. The pulse-breakdown rating of
+is it the dielectric, however, is not a constant ratio to the dc voltage rating, nor
+normally part of any manufacturer's specification. Accordingly, it is safest to
+consider that such a capacitor is in danger of failure if the pulse voltage exceeds
+the dc rating of the capacitor.
+Electrolytic capacitors, on the other hand, do not experience abrupt
+If failure when exposed to short-duration transients. the voltage across the
+capacitor exceeds the voltage used to form the dielectric film, the dielectric film
+begins to conduct. After the pulse has disappeared, the dielectric returns to
+nearly its normal state. During the transient period the dielectric film can carry
+substantial transient current without permanent or catastrophic degradation.
+Transients, however, may lead to increased leakage currents. An example of data
+that is available relates to a series of tests made on tantalum eIectrolytic
+0.47 capacitors of value 0.047 and 0.0047 with a dc voltage rating of pF, pF, pF
+350 V 16.18). (Reference The data indicate that failure (defined as a substantial
+V) increase in the leakage current at voltages of less than 350 can generally be

@@ -1,0 +1,14 @@
+Determination of the voltage produced aperturecoupling. Figure 11.8 by
+surface. The program calculates the field strength normal to that surface and
+performs the graphical integration suggested in Figure 11.8 and necessary to
+determine the total magnetic flux passing through the plane of the loop,
+If the aperture under consideration is not elliptical, a corresponding
+equivalent elliptical aperture can generally be specified, as shown in Figure 11.9.
+The equivalent elliptical aperture would have the same area and the same
+eccentricity as those of the aperture under study. If the aperture were of an
+irregular shape, its area might have to be determined numerically.
+An of example an aperture-coupled field is shown in Figure 11.10 in
+which the elliptical fuselage described earlier has been approximated by two
+sheets of infinite size, one containing the aperture and another serving as the
+reflecting surface. The figure shows only the top half of the field pattern, the
+339

@@ -1,0 +1,49 @@
+This is frequently called as shown in Figs. 8.9(β).
+the aperture field. Α changing magnetic field passing
+α loop, Fig. 8.9(χ), generates an open circuit 2through
+voltage 2V0
+2 ξ (8.1) dH ( .1 H Α Vo χ 4 7ρ δ = Ξ 10- 10 -3sl 7
+or
+Fig. 8.8 An oversimplified model.
+(8.2) not determined -dq- Maximum voltage is = dt
+resistance. end to end total by only
+is the 0 where H is the magnetic field strength and
+through the loop of area total magnetic flux passing
+8.5.2 Magnetically Induced Voltage Α.
+The numerical relationships are discussed further
+volt- the that is point important most The §9.7.4. in in- 8.9, Fig. mechanism, coupling second The
+magnetic of rate the to proportional are ages change of the of volume interior the in fields magnetic volves
+dot. H or as to referred sometimes field, H aircraft.
+is short circuited, α cur- Induced current: If the loop
+in the loop of magnitude rent will be induced
+.,= (8.3) V., dt
+inductance of the loop. The cur- where Λ is the self
+thus tends to have the the short circuited loop reut in
+same waveshape as the inducing magnetic field, unlike
+of to the rate of change voltage, which responds the
+field. magnetic .
+coupling: fields will also be magnetic There Diffusion
+produced by the diffusion of lightning currents to the
+referred inside surfaces of the aircraft skins. These are
+Magnetic field lines to loosely as the diffusion fields. The diffusion fields
+dependent properties Aperture are also related to the frequency (β)
+generated electric field. Because some of the resistively
+of the concepts involved in the study of the diffusion
+fields are central to an understanding of other effects,
+particularly with respect to the response of shielded
+Chapter 11) in detilf wires, they will be discussed (in
+before fields of other origins are considered.
+aircraft: Magnetic effects will be field Magnetic field lines Composite
+in composite aircraft than in metal air- Aperture more severe (χ)
+fiber reinforced plastics craft. Fiberglass and aramid
+provide no magnetic shielding. Carbon fiber compos-
+ites provide some shielding, but not nearly as much as
+Fig. 8.9 Aperture-type magnetic field coupling, provided by metal aircraft. Not only the magnetic ω;U
+rise to peak faster than (α) External field patterns fields be higher, but they will
+in metal aircraft, this being natural consequence of α Internal field patterns (β)
+efect the of resistance of materials. An CFC the high currents Induced voltages and (χ)
+the to- ineased magnetic fields is that much more of
+tal lightning current flows on internal metal objtts Aperture The most common and important coupling:
+in α comparable metal type of magnetic field is that which pasme from the ex- in α CFC aircraft than flows
+* terior through apertures to the interior of the aircraft, aircraft. Another way of phrasing this is that the re-
+229

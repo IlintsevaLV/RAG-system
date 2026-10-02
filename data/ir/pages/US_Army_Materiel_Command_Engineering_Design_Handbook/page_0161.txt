@@ -1,0 +1,103 @@
+external 4. Crowning of the member tooth
+major and diameter
+5. Increased oil flow or othek lubrication improve-
+meats.
+4-2..34 Splme Streqi Analysh
+pressurts bearing allowable gives 706-201 AMCP
+classifications St, for various of involute splines.
+practice current aximate app values reflect These
+the helicopter industry and are defined by
+2Q/ psi (DF). SA•, =
+where
+- pitch diameter, in. Δ
+- face width. in,
+Q lb-in. - torque.
+for standard SAE or ANSI Β5. ι tooth proporti
+where tooth addenda are one-half those AGMA of
+standard 201.02 gears. However, these values
+repreaent true bxanring prssures because the
+, curacies, stiffneuses, and gecmetric proportions
+picai spiines combine rupe the truc cointact in
+Eq. in assumed tacitly 100% than the less to
+by determined is splines of accuracy The
+inspc..ion of method the and specified as tole'ances -"
+manufacture. of method the by than rather employed
+systems), gaged (go-no-go gaged be Splines may
+partially inspected analytically, or completely
+pecaed analytically in the manner of gears.
+following values of the fraction of theoretical
+σ achieved with splines of the various classifications
+are realistic.
+SC,,•Usifi"WAt Fraction Contact
+0.2• CI15 USASI Gaged
+(commercial grade)
+measured Iand Gag
+< 0.7 -υ C 1.5 measu0.45 Β.19 ANSI
+ANSI Β5.15-1950C.5
+Analytically measured
+'υ •0.95 50% 0.75 < SAE .3 (about C1
+tolerance of Β5.15 CI.5)
+The variation of within each classification is -υ
+pendent upon stiffness, proportions, and, in some
+stances, the ductility when the design load
+proaches limit shear strength.
+An external involute splint with face width
+on α solid shaft will exhibit greater Δ.13
+strength than the shaft if (outside diameter of Δ.
+shaft) is only slightly smaller than the spline
+diameter Δ,,,. Therefore. excessive spline lengths
+offer littlo 6cnefit while incrcasing manufacturing
+
+AMCP 70Ω-202
+flanks ficulty and coats. Reasonable proportions for spline
+pitch arc: Δ, fae width F and diameter
+torque-transmitting for 1.0 < 0.4 FID,,
+applications
+0.8 < < 2.0 for lowation and alignment ap- FID,
+plications.
+en- be can uniformity load tooth Lengthwise in
+hanced further by adjusting the shaft diameters and
+wall thicknesses to secure matching torsional de-
+at radial stiffness and by avoiding excessive flections
+(4.55) either end of the spline joint. Stress concentration
+must be avoided by specifying minimum fillet radius
+values, chamfeting or otherw*ise blending tooth ends
+into the shaft section, and achieving uniform loading.
+For most helicopter applications, spline fatigue en-
+criterion oscilla- because limiting is not the durance
+tory loading due to shaft bending or torque fluctua-
+tion is avoided by proper design. bending fatigue If is
+α design consideration, recourse to use of the modi-
+do not fled Goodman diagram (par. 4-2.2.1.2) with ap-
+ac- propriate stress concentration factors is required.
+ofrty- Static stress analyses must demonstrate α positive
+rea margin of safety boh for limit torque compared toa-
+coar- torque ultimate for and strength yield material 4-55.
+spline Limit strength. ultimate material to pated the
+system drime maximum as α defined is torque 1.5
+limit 1.5 as torque μ ultimate and torque continuous
+λ 1 α torque and
+torque.
+in- The following spline static stresses should be cal-
+The culated in addition to the bearing stress values SW.;:
+contact 1. Spline shear stress Σ;
+'.- 4Μ•" -' 3Δý
+1<.4
+where
+Q torque, lb-in. - spline
+- number of spline teeth
+in. thickness, tooth circular - Τ,
+dimension- fraction of theoretical contact, -
+less
+2. Torsional shear stress (external toothed mern-
+• de- bers) Σ,
+in-
+ap-
+π (4-57) 16QD.,
+F ,- _ u(,/ Δ,-) - -
+shear
+the
+minor where
+can - inside diameter of shaft. in. Δ,
+dif- - minor diameter of spline, in. Dw
+"4-59

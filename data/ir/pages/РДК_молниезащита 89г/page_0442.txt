@@ -1,0 +1,104 @@
+Basic Insulation Levels: The transient control level
+philosophy was originally inspired by the Basic Inbu-
+lation Level, BIL, or transient coordination philosophy
+used in the electric power field for many years [16.2].
+developed in recognition that power equipment, such
+surges to be subjected always would transformers as
+of the magnitude that the lightning and by produced
+Ex- terms. in statistical only be known could surges
+were these surges that however, had shown, perience
+equipment that and destroying equipment capable of
+was It arresters. surge by protected to be would have
+built into the insulation that as axiomatic taken also
+abil- with the to be coordinated have would equipment
+axiomatic as was taken it Also, arresters. ities of the
+ratings standard to have be preferable it would that
+number limited to the arresters, coordinated surge
+voltages. operating ratings of standard
+evolved that system coordination transient The
+]ev- of insulation limited number a for provided [16.3]
+23 kV equipment for kV BIL level a 150 such as els,
+Equipment kV equipment. BIL for 115 and 550 kV
+with in- was prcvided at 115 kV to operate designed
+impulse and a U50 kV withstand sufficient to sulation
+and every major piece was verified by test on each this
+shipped. before it was of equipment
+the l2vel to which only the kV represented The 550
+the in be tested would equipment the knew designer
+level the as representing taken never was and factory
+surges to which the equipment would be subjected
+that assurance was designer needed the All field. the
+be used would and available was equipment protective
+be less would surges occuring naturally that to ensure
+margin. kV by a suitable 550 than
+cor,- thus system BIL elements of the essential The
+of: sisted
+tran- Availability of equipment to control natural 1.
+sients.
+2. Standards covering equipment and practices for
+performing tests.
+limited number of standard voltage test 3. A levels.
+protective test levels for surge 4. Struidard current
+devices.
+produced of b'!ing capable waveshapes, Standard 5.
+laboratories. in many by equipment
+6. Agreement to perform the tests using the stan-
+dard test levels and to make changen in levels
+only after it was agreed thet improved protective
+equipment was commercially available,
+
+The BIL system has been in place for many years.
+is recognized world wide and hae resulted in electrical
+power equipment that is very seldom damaged by the
+It effects of lightning.
+: An- Test (SWC) Capability Withstand Surge ANSI
+of the development that influenced specification other
+Surge With- (SWC) ANSI was the TCL philosophy
+was in- The test 16.5]. Test [16.4, Capability stand
+in high found the transients of simulation for tended
+breakers circuit when substations voltage electrical
+Tests had operated. were switches disconnect and
+be might substations in such that equipment shown
+kV of several voltages transient to oscillatory exposed
+was specification the extent To some in magnitude. of
+for those than other equipment of types to applied of
+was because it largely intended, criginally which it was
+stan- by recognized and in existence specification a
+agencies. dardizing
+of circuit voltages open called for The document
+frequency with the oscillatory 2.5 and 3 kV, between
+was specified MHz. Decrement 1.0 to 1.5 being from
+in no less to 50% envelope decay that the by requiring
+lower loss test circuit -. than 6 ,though this iwnplie,ý As
+range The voltage might be found in practice. than
+voltage in high for apparatus specified was reasouable
+equip- electronic be high for might but substations,
+locations. shielded in located ment of
+in The original intent of the test was that the speci-
+the terminals to directly applied be wold voltages fi,&d
+not w.ould equipment the that verify to apparatus of
+some- it is that has shown Experieice be damaged.
+circuits by into voltagcs such inject to difficult times
+transformer coupling.
+of short importance the recognized document The
+ohm source 150 a for called it capability in that circuit
+impedance. The document also provided construction
+details of a surge generator to produce the specified
+wave. The recommended test generator circuit was
+somewhat uncontrolled, using an untriggered spark
+gap firinmg virtually at random at the crest of an ac
+charging voltage, though the waveforn itself does not
+iniply any particular generator test circuit.
+Transients in residentiul wiring: Martzloff and How-
+ell 6.6] [i proposed a transient voltage test with a fre-
+range of 0 to 8 kV. of 100 kHz and a voltag: quency
+of tran- for the duplication wave was intended The
+sients found i, residential circuits on 120 V ac lines, for
+corm- were that transients showed measurements which
+few in a measured frequencies with oscillatory monly
+hundred kHz. The damping was specified such that
+the ratio of successive half-cycles should be greater
+than This 0.6. might be somewhat high, particulariy is
+the transient is to be coupled into equipment through
+transformers.
+428

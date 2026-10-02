@@ -1,0 +1,96 @@
+As in the cylindrical geometry case, the voltage
+for α step function cu:rent injected into the exterior
+the tube will build up according to the pattern shown
+in Fig. 11.7. Its magnitude will be greater than the
+resistance rise in the ratio by which the initial current
+density along the end of the ellipse exceeds the steady
+density. current state
+will again be the sum of α resistive voltage rise V
+2
+and α magnetically induced voltage, this time along
+will component resistive The path the EFDC.
+identical to the resistive component of V1, the resis-
+tance rise along the path For however, there CD. V2,
+pro- voltage of component magnetic non-zero α be will
+duced by the passage of α finite amount of magnetic
+flux through the finite loop The magnetically EFDC.
+induced component of voltage will be given by
+,δ do em = • (Icirc) (11.38) =7
+dtFig. dt
+where is α proportionality constant relating the flux K
+produced in the loop to the internal current. EFDC
+In Eq. 11.32, however, it was shown that the internal
+current was proportional to the integral of the inter-
+unusual rather the to leads This rise. nal resistance
+observation that the magnetically induced component
+of voltage has, initially at least, the same waveshape
+as the component of voltage produced by the flow
+internal current through the resistance of the material.
+The long term response of the magnetically in-
+duced voltage will be different from the resistively gen-
+crated component, since, as steady state conditions are
+reached and the internal magnetic field reaches its final
+value, its rate of change will decrease to zero.
+Influence of physical shape: The amount of the mag-
+netically induced voltage will depend upon the loca-__
+tion of the conductor and upon the degree to which
+the initial distribution of magnetic flux around the out-
+side of the cylinder differs from the final distribution
+of magnetic flux. Since the difference between the ini-
+tial and the final flux patterns is greater for cylinders
+of high eccentricity than it is for cylinders of low ec-
+ceitricity, it follows that the flatter the cylinder, the
+greater will be the influence of the magnetic compo-
+nent.
+11.4.5 Redistribution on α Rectangular
+Cylinder
+Some situations are best studied by numerical
+means, an example being the rectangular coaxial trans-'
+mission line of Fig. 11.22. It consists of α rectangular
+outer conductor, assumed here as perfectly conducting
+and only used to define the problem space, and α rect-
+angular inner conductor made from α poorly conduct-
+ing material. The driving source for the illustration
+
+is taken to be α 1 axial electric field having the V/rn
+of waveshape shown in Fig. 11.23. The current that ul-
+timately results is given by the integral of the voltage
+dc and the inductance of the circuit.
+Conducting Prtecs"
+Outer Condumr
+.3σ μ
+At Β
+μ be *--.262
+Τ. .. "' "" " ' " Α " .... . *
+.12 C Α . xDi,
+I
+1
+•
+I I
+mho/μ 220.4 aam .012
+11.22 Redistribution in α rectangular cylinder.
+0 1.
+,%
+>,
+.J
+of ¢
+.€ ,'
+Ω_ 0_..................
+0 0.20 ns
+Fig. 11.23 Axial electric field used to drive current.
+The problem was solved with the two-dimensional
+finite difference (2DFD) technique described earlier.
+The solution was based on α cell size in the ζ and υ
+directions of 0.004 μ and α time step of 9 ξ 10-12 sec.
+By Eqs. 11.23 and 11.35 the pulse penetration time
+would be 4.04 ns and the redistribution time constant
+ns. would be 465
+Fig. 11.24 shows the internal axial electric field at
+points Α, and Δ. Skin effects force the current Β, C
+on the center conductof to be highest at the comers
+(Β) and lowest along the wider face (Α), and this is re-
+flected in the axial electric field being highest at point
+Β and lowest at point Α. After about one redistribu-
+tion time constant, the currents and thus the internal
+electric fields, are nearly equal.
+321

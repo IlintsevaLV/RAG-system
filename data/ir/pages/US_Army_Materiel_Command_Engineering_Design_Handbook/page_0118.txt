@@ -1,0 +1,112 @@
+AWP 7Q2
+41-1,1.1.3 Maaimalahlty
+Α gcnoral discussion of maintainability may
+,κ found in Chapter 706-201. This discus- ι, MCP
+considerations sion, treats relating speci- therefore,
+fically to the transmission and drive system.
+The basic concept of maintainability often
+expressed as α requirement for α specific or maximum
+number of maintenance man-hours per flight
+(MMH/FH). Army helicopters of α few decades
+as exhib~ted values high as 35 MMH/FH while
+copters in the present Army inventory have values
+ranging from 0.5 for the OH-58 (Ref. 31) to
+MMH/FH for the CH-54 (Ref. 32). Small
+copters as α rule show better maintainability values
+than the larger, more complex machines. However,
+the values for any given size of helicopter may vary
+by 300% depending upon design variables. Current
+RFP requirements arc in the range of 5 MMH/FH
+for medium-sized, twin-engine helicopter for organi-
+zational, direct support (DS), and general support
+(GS) maintenance levels combined. Α value so stated
+must apportioned be in turn (par. 4-1.2.1.2) to
+various subsystems to establish individual design
+goals.
+Achicvcmunt of sadisfactoui-υ -aitai•-ability
+is dependent upon two factors:
+I. High component reliability (par. 4-1.2.1.2)
+2. Ease of maintenance,
+of Mainteinance is generally thought as comprising
+two categories: nonscheduled (due to random failure
+or accident), and scheduled (due to time change
+wear-out components, interim servicing, and
+spections). However, all maintenance. concerned
+componer.τ change is discussed herein as α group.
+The generic failure rates of many external
+!η, rre that at,,ch sytem the drive in Donents
+portents may be ranked in order of required
+qucncy of removal or adjustment. Components
+as hydraulic and electrical accessories, rotor brakes,
+shaft seals, external hanger bearings, and drive
+couplings require relatively frequent inspection
+be maintenance and must designed for ease
+removal and installation. Accessibility is the key
+be terion Such components must not located
+close to one another, and adequate wrench clear-
+"ances be must provided for standard tools,
+Subsystem components such as γ-arboxes
+field generally not maintained at the or direct suppori
+level and, therefore, they must have simple and
+cessible attachments with structural clearances
+quate to permit easy removal and replacement.
+usc of integral guide pins or tapered dowels is rccoin-
+mended in any case where heavy components must
+aligned for the installation of mounting screws, bolts,
+4-16
+
+-
+or clamps. be also should !τ emphasized that true
+be leveling of •lte helicopter is seldom achieved for comn-
+level. ponent change at the direct support Therefore,
+ρ components neceLitate the use of when heavy
+hoisting devices, extra care must taken in the be
+is design of algnment devices and structural cicarancs,
+so as to reduce maintenance effort.
+essembled hour External shaft seals always should be in
+easily ago vemovable housings or holders to permit bench
+heli- changing of the seal element. Squareness, alignment,
+and cleanliness practices all are critical to the proper
+6.5 performance of α seal and are difficult to achieve
+heli- when the seal element must be changed in place. The
+shaft upon which the seal operates also must be easily
+removabie because good practice requires that the
+be shaft slipped into the previously installed seal,
+allowing the use of adequate shaft lead chamfers to
+minimize the danger of seal damage. It also is de-
+sirable to have the shaft engaged with the driving
+spline or some other guiding device prior to making
+contact with the seal to prevent excessiv sidc loading
+the of the seal. ".
+The attachment of all external components should
+be such that one man can remove all fasteners and
+levels similar items. Two examples of design that • poor -
+require unnecessary manpower are:
+I. Bolt-and-nut fasteners through structure where
+one man cannot reach wrenches on both elements.
+Tapped holes on nut plates are proper solutions even
+though α larger number of cap screws may be re-
+of quired because their rigidity or strength may be lower
+in- than that of α bolt-out joint.
+with 2. Components that one man must hold while
+another installs fasteners. Possible solutions include
+com- slotted the use of guide pins, longer pilot flanges,
+hnl,. ,-.aran-.,, cnm- ρ.;• η .. ν. .ν.. -ρ ρ-τ,,nn ,rt
+fre- devices to secure the component temporarily.1 tion
+such Components that require α specific orientation to
+function correctly should be designed so that they can
+shaft be installed only in that position, if possible. When
+dhe or this is not practicable, as in case of some
+of Government-furnished electrical accessories, decals
+be cri- may ustd at the pad location to provide in-
+too siallation instructions. Examples of one-way com-
+ponents hy- are seal housings with drain fittings, _- Α
+require diaulic pumps that line connection fitting
+are orientation, and bearing hangers.
+Components that require tight-fitting pilot bores
+be ac- or similar devices should provided with jacking
+ade- pads for removal. One man can operate two or three
+The jack screws (tightening each one α little at α time),
+whereas their omission might necessitate the use of
+sides be two men to pry simultaneously on both of α
+component (and possibly α third man to catch the

@@ -1,0 +1,31 @@
+have to be replaced by α different device, either α higher voltage relay or some
+type of discharge tube.
+TABLE PARTS LIST SINGLE-POLARITY PULSE GENERATOR 17.3 -
+Yellow (power on)
+Red (pulse on)
+0.1 600V pF,
+IN4003 200 (1 Α, V)
+IN4007 1000 Α, (1 V)
+R, 6800 1 Ω
+15KR,1 Ω
+R, 27 2 Ω
+SPST (power and relay on)
+SPST (pulse on)
+SPST (unidirectional or oscillatory)
+20 V, 2 Variable autotransformer Α) (1
+120/350 40 V, mA
+(Any of α variety of plate transformers is satisfactory.
+Half or all of α center-tapped secondary may be used).
+- 1F53C5 (2 Ferroxcube U-core required) Τ3
+F 120V, I Α -
+RYl Mercury-wetted contact relay -
+1002 or Clare HG
+Potter and Brumfield 1200-8 JML 1
+RYI MUST CLOSE TO CONTACT ON (α)
+OF THE SUPPLY VOLTAGE. HALF-CYCLE (α)
+(β) CONTACT SHOULD BE THE REST OR
+UNENERGIZED POSITION
+J I Gnd
+CONDUCTOR 4
+UNDER TEST
+Single-polarity current injection-pulse generator. 7.16 Figure 1

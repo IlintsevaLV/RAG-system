@@ -1,0 +1,97 @@
+28CP 706-202
+, en * 4-2.2.1.2.1 Baadng Fatigae Streegth
+The detenninution of bending fatiguc risk invoîves
+thrce stoge: load dotermination, stress evaluation
+technique, and dofinition of the propertios of
+malerials used.
+:The basic bending strrss equations, generally in ac-
+corù with AGhf Α practico, may be found in Rafs. 54
+(spur gears). 55 (belical gears), and 56 (bevel gears),
+together with compuier solutions written in FOR-
+TRAN symbology. Becausc of the increased preci-
+sion with which the basic Lewis equstion goonctry
+factors are treated, the usc of these references is
+highly recommendeo. However, for α tetter under-
+standing of tne relative significance of the factors af-
+fecting tooth bonding faiiguc, the general AGMA
+equation wili be rearrengod ani diocussed term by
+term.
+The basic equaticn for tensile stress is Σ, due to
+toorh bending has been defiped (Ref. 57) as
+'σ : ε ()() () , psi (4-24)
+where
+F face width of gear tooch, in.
+J * gconetric shape fector, dimensionless
+* misalignment factor, dimensicnlees
+K overload factor, dimensionless
+> size factor, dimenzionless
+K dynamic load factor, dimensionless
+Pd diametral pitch, in.-1
+ω =gear tooth load, Ib
+Both test and analysis have confirmed that the
+dynanic load # is more correctly expressed as an
+independent varioble rathes tban as being accounted
+for β; spplying the factor K, to the gear teoth load
+Ω.. Tnereforc, Eg. 4-24 sbould be replaced by
+Σ, = (K,Ω, + Ω)Km psi (4-25)
+where
+dynamic load, Ib
+Ref. 58 shows that the dynamic load Ω, exists as
+an incrementai losd duc to tooth errors and gear
+drive dynamnics at opersting speed, and, therefore, is
+relatively unaffected by transmitsed power. Ar ac-
+ceptabie engincering approach to the evaluration of
+4-36
+
+Ω. aiso is given by Ref. 58. This evaluation is bascd
+upon the tooth spring rete calculation taken from
+Ref. 59, which in tar: presents an analysis of the cx-
+perimontal data of Ref. &C. taken during tests of solid
+blank typc gears. Inasmuch as holicopier gears have
+lighter bsck-up rim and web configurations than
+those used in the referencod tests, the dynanic ioad
+analyses based upon these methods will be cosserva-
+tive. Greater procision can be obtained by con-
+sidering factors other than tooth defleriions by the
+methods advanced in Refs. 61 and 62.
+Although dynamic load factors aud increments
+have been studied by numerous investigetors for the
+past century, the results have lad to only slight agrec-
+ment. Therefore, well correlatec test experience is of
+great importance. The interaction of profile modifi-
+Cations, tooth errors, deficction modes, spring con.-
+stants, and inertias are of such conplexity that
+However, certain qualitative observations that find
+general acceptance are:
+1. The dynamic load Ω_ increases tssentially
+lincarly with speed and spacing error. Hence, the im-
+portance of increasing precision with speed is under.
+scored.
+2. There is o limiting vslue for Wg that probably
+occurs when the suration of the velocity puise is less
+than one quarter the period of natural vibration of
+the pinion-gear spring-mass sysem.
+3. The value of Ω. is proportional to both spring
+rate and gear effective mass. Hence, it is important to
+consider total deflection and mass of tooth axd rim
+for helicopter gear designs. Expressions for ap-
+proxinate values of the detlection &τ point of ρ.esh
+impact for solid rim and tut configurations are given
+by Refs. 61 and 62. For thin-rim helicopter gears
+(back-up rim thickness of approximately one tovth
+whole depth) with approxinately 40 or more teeth,
+the deflection can be as much as twice the value for α
+solid rim. The limiting deßection of α spur tooth &τ
+the momert of mesh impact is approximately 10%
+that of α helical tooti, reflecting α spring rate an
+order of magnitude higher. As α result, the limiting
+dynamic load on the spur gear wili be abou: three
+times grsater than that on the helical geäρ. This
+ansiogy also holds for comparing straight and spiral
+bevel gears.
+·4. In mast cases the torque capacity of α hardened
+face durabifity rathur than by tooth breakage re-
+sulting from dynamic loads. Many failures formerly
+attributed to dynamic loads have becn recognized re-
+cently as resulting from resonant or vibratory con-
+ditions that may occur at high spceds (par. 4-2.4.1).

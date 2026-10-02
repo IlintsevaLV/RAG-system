@@ -1,0 +1,22 @@
+Large access doors in Zone over fuselage fuel. 6.33 Figure 2A
+Swept-lightning strokes attach to these doors. will
+Adequate electrical conductivity and protection can not be verified by
+measuring the dc resistance between the door and the surrounding airframe
+because this resistance may change under high-current stress, permitting a
+of current paths through fasteners voltage rise, and also because the inductance
+is equally capable of causing the voltage rises that cause sparking. Structural
+ma, but there bonds that do not spark have often had dc resistances below 2.5
+It is no universal correlation between this resistance and the degree of sparking.
+is, in fact, quite possible that a joint with less than mR of resistance may 2.5
+nevertheless have enough inductance to cause a spark.
+Some guidelines to follow in designing a protected door include the
+following:
+Provide as much bare-metal-to-bare-metal contact as possible. 1.
+If bare-metal-to-bare-metal contact at the mating or faying surfaces 2.
+is not practical because of corrosion problems, provide as much bare
+metal contact via screws or fasteners as possible, and make the
+current paths through these fasteners as short as possible.
+3. Seal door with conductive greases or conductive gaskets if possible.
+The adequacy of an3 design should be verified by performing the
+simulated lightning tests described in the SAE report Lightning Test Waveforms
+A and Techniques for erospace Vehicles and Hardware.

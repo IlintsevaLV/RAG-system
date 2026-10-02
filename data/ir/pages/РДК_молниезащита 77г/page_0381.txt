@@ -1,0 +1,35 @@
+---- -------
+------ - ------
+-
+---
+EXTERNAL ELECTRIC FIELD -EXTERNAL CURRENT DENSIN
+Ee Je
+/
+EXTERNAL NOISE CURRENT
+I
+/\
+ρ
+/' INTERNAL ELECTRIC FIELD Ei
+/
+EXTERNAL NOISE CURRENT -
+(β)
+0 time
+Coupling via diffusion through α solid wall. 13.9 Figure
+Current and field polarities (α)
+Current and field waveshapes (β)
+1, Frequently braided cables exhibit α phenomenon, shown in Figure 13.1
+in which the net polarity of the internal magnetic field is opposite to the
+polarity of the external magnetic field. The result of this phenomenon is that α
+change in external noise current induces an internal electric field of the opposite
+polarity. The reasons for this behavior are not clear to this author, but the
+phenomenon seems to depend upon the thickness of the braided covering of the
+shield and the total diameter of the shield, as well as upon the degree of
+tightness of weave of the shield. '
+Some illustrative examples of the behavior of braided shields are shown in
+and The figures show the test geometry and the Figures 13.12 13,13,
+conductor-to-ground voltage produced by currents having waveforms of several
+R 47 different times to crest. The resistors shown provide the termination for
+the signal conductor and prevent the voltage at the other end from being
+shows α obscured by the internal oscillations of the cable. Figure 13.12
+double-shielded cable with the voltage measured from the inner shield to ground.
+This particular cable exhibits the phenomenon shown in Figure In Figure 13.8.

@@ -1,0 +1,93 @@
+Response of current transformers: Current trans-
+formers are limited both in their low and high fre-
+quency response, In the time domain they are charac-
+terized by droop at long times and roll-off and oscilla-
+tions at short times. Particularly with measurements
+of short circuit current induced by resistive effects care
+must be taken that the response at low frequencies is
+adequate.
+and Power system RF| transformers: Current trans-
+formers operate by passing the secondary current
+through α burden resistor to develop an output volt-
+age. Α high burden resistor provides high output volt-
+age, but poor low frequency response, while α low bur-
+den resistor provides better low frequency response,
+but lower sensitivity. No transformer should be used
+without α burden resistor. Current transformers made
+for power frequency metering and relaying are not pro-
+vided with α burden resistor and are not generally
+satisfactory for measurements, though if fitted with
+α non-inductive burden resistor may be. Response
+measurements would be necessary to prove the point,
+Current transformers made for EMI/EMC measure-
+ments are also usually not satisfactory since they are
+meant to be loaded with the 50 ohm input impedance
+of α measuring instrument and do not have satisfactory
+low frequency response.
+13.4.3 and Noise Shielding
+Noise is induced into the measurement system in
+several ways, as shown in Fig. 13.19. Electric and
+magnetic fields can impinge on the measuring oscillo-
+scope and induce noise directly into the internal cir-
+cuits. Experience indicates that the best way to avoid
+this problem is to install the oscilloscope in α shielded
+enclosure.
+dkftt Ves~nt
+* sum
+3_U_1
+ownm .The
+Fig. 13.19 Noise induced into measuring circuits.
+
+Α more common source of noise comes from cur-
+rent induced in the shields of the measurement cables.
+Such currents may be caused by differences in poten-
+tial between the point of measurement and the oscillo-
+scope, or they may be caused by electric and magnetic
+field induction into the measuring cable. As the cur-
+rents flow through the resistance of the cable shield
+they produce α voltage drop which appears at the ter-
+minals of the cable. Minute amounts of magnetic and
+electric flux also leak through the holes in the shield
+and induce voltages. As the current on the cable flows
+through the connectors at the oscilloscope additional
+voltages are introduced. The way to eliminate these
+problems is to use well shielded measurement cables
+and to keep the noise currents out of the measurement
+cable and away from the oscilloscope, usually by using
+extra shielding or by using triaxial cables.
+Shielding for oscilloscopes: The primary way to min-
+imize noise problems during LTA tests is to shield the
+oscilloscope and the measuring leads. Some reference
+to such shielding has been made, but more discussion is
+in order since experience has shown α lot about which
+techniques are useful and which are not.
+Fig. 13.20 shows more of how to shield the mena-
+suring oscilloscope and treat the leads carrying signals
+into the oEcilloscope. There are two main concerns.
+The first is to prevent incoming leads from carrying
+noise current into the box and radiating electromag-
+netic noise directly into the oscilloscope. The box can
+shield against external electromagnetic fields, but not
+against fields produced by currents on the shields of
+the measuring cables. The other concern is to prevent
+current from flowing across connectors. Connectors
+(particularly BNC connectors) are α weak link. their
+resistances are relatively high and they are not partic-
+ularly well shielded.
+Shielding measurement ceaMowe for The best way to
+avoid problems is to keep noise currents off the shields
+of the measuring cables. This can be done by fitting
+all incomning leads with external an braided shield and
+terminating this shield on the shielding box, not on the
+input oonnectors of the oscilloscope. Triaxial cable is
+good, but it is easy to slide woven copper braid over
+the top ordinary of coaxial cable.
+objective of the shield is to keep noise cur-
+rents the off measuring cable and away from the os.
+cilloscope, particularly the input connectors where the
+oscilloscope is most vulnerable to noise pickup. is It
+best to terminate the external shield on the rear of
+the box and as far from the input of the oscilloscope
+as possible. The inconvenience of having to reach into
+the back of the box to make connections is part of
+367

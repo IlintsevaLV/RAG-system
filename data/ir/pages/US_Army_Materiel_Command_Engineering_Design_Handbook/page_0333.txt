@@ -1,0 +1,106 @@
+ci,-:uits power DC and AC for used be should
+EMI super-imposed of coupling order to prevent
+transients, and noise
+-shielded cables and conductor-twisted Two 4.
+be audio and control, signal, DC used for should
+required. is grounding Single-point cuits.
+shoull uable mustiplc-shield coaxial or Single- 5.
+is RF grounding Multipoint circuits. for used be
+quired.
+enclosures necessary. is of shielded 6. Continuity
+connectors. be through routed should Shields 7.
+returns should Minimum-length grourtd 8.
+members from structural insulation and shield used,
+be insured. should
+Filtess 7-.5.3.3
+at outputs of EMI generating the Filters are used
+(broadband EMI signal to prevent sources in order
+Types paths. coupling interference narrowband)
+ani attenuation containment for EMI filters utilized
+filters, high-pass, and band-pass low-pass, include
+feedthrough capacitors. and as bypass well
+induc- capacitance, pao ameters include Basic filter
+mb-aiax. iMC.ξ, F•cit and u,.pI.mhwas paraainte,
+filtering action by α differant method; ι.ε., capaci-
+tance by short-circuiting, -inductance by open-
+ι-ltcrs dissipation. by and resistance circuiting,
+only the :interfering signals.; How- should suppress
+upon desired have an effect the filter may ever,
+the equipment. the operation of to rents necessary
+loss is of insertion an understanding Therefore,
+to filter applications. portant
+the capacitors, of bypass In the application
+length from the capacitor to ground becomes an
+the effective- factor. nullifies Self resonance portant
+equaito, 1rejueneieS filter for signals at of the ness
+frequency. the resonant greater than, .. .
+only can be effectiv; of EMI Filter containment
+isolated from olher shielded and he. the source can
+thus preventing the interference ternul circuitry,
+within or circuitry into other wiring coupled being
+conduct spurious may Such coupling subsystem.
+directly energy or radiate wiring, to external
+must be bonding of the unit. Proper other parts
+in currents interference to prevent in order
+ground circuit from shunting the filter element.
+SYSTEM ELECTRICAL 7-7
+INSTALLATION
+GENERAL 7-7.1
+installa- refers to the instaliatior Electrical system
+(equip- oquipmelt tior. and electronic of electrical
+(electri~cal wire bandle and ment installation)
+7-24
+
+electronic includes This the airframe. in stallation) in
+power electrical relays, clectrical ccmponents,
+test boxes, junction cabh:σ, coaxial wires, generators,
+control aircrew not include does but etc., connectors,
+in- system panels. Electrical instrument panels and cir-
+MIL-E- with accordance in be should stallation
+subsequently. described as and MIL-E-7080, 25499,
+re-
+INSTALLATION EQUIPMENT 7-7.2 .
+equipment installations, of design the During
+must be reliability, and producibility be maitainability, ..
+the production concept to from design considered
+be given to attention should Close phase. hardware
+each par- might arise with problems tha: the servicing
+all electronic ticular likcly that It is not installation,
+The accessible. be made immediately components can
+during considered each must be reliability of service or
+as electronic Factors such installation. design of the of
+test to and acccsibility installation after alignment
+is installed If equipment be considered. points must as
+of capable must be row con-ip'nents front in rows,
+tc rear accessibility to provide quicHy being removed
+mounted components.
+Equipment-mounting hardware should consist of /
+not less 'han Number 10 screws, except where vi-
+the box in which case are used, isolators bration
+screws should be no smaller than Namber mounting
+screws no mounting isolator multiple 10, with the cur-
+to in- Care must be taken 8. than Number smaller
+behind are not hidden mounting screws sure that im-
+neighboring of portions and protruding flanges
+approach the straight-in easy accessibility, boxes. For lead
+im- should be provided for all mounting hardware.
+of the placement involving installations Equipment
+ob- or other bulkheads receptacles facing electrical or
+room for installation sufficient must allow structions
+in accordance α bend radius bundle with of the wire if
+and dis- as well as room tc engage .with MAL-Ω-5088. in-
+without darmaging the from engage electrical connectors
+on boxes should terminals electrical wires. If possible, α
+wrench for socket of α ratchet-drive permit the use
+and removal. installation wiring from
+so as to facilitate be designed boxes must Junction used
+to internal Access and troubleshooting. maintenance the
+compoaicrts must be such as to permit easy replace-
+must be components of internal Th,. locations ment.
+Foreign- decals. attached permanently by ider.tified
+all junc- on be provided must covers protective objct
+must drain η,'les nonsealed boxes, boxes. On all tion
+be Wiring musi lowest point. at the be incorporated
+for or color-coded and numbered neatly, installed
+ease of maintenance,
+must be etc., Relays, small transformers, resistors, in-

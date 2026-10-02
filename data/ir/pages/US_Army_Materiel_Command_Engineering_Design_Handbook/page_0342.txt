@@ -1,0 +1,55 @@
+AMCP 706-202
+8 CHAPTER
+AVIONIC SUBSYSTEMS DESIGN
+INTRODUCTION &-I 1) (EMC/EM compatibility/intcrfercnce magnetic
+must considered. be
+I in general, the dcsilbn sequencing must 1 GENERAL ioflowing 8-1.
+occur. astheap- efiW clctrni")is Avioics(avatio
+(aiaton eectonicj ι defnodas te α- Determine the Avonis avionic requirements. 1.
+plication of elenronic techniques accomplish such 2.Dtrieheaonchrctiscs io
+τ diagramot:erinterfces ablonck CDnteruineth 3. flight as navigation, )ν- communication, functions
+heitefcet agam. syste eonctrictal the terget and surveillance, sensivig, identificatio~ν, trol.
+ar hnh system. eletricalbsclyoto 4.ε defined be will subsystems avionic The deaignation.
+ntear aototesser ai eeo 4 discuss will chapter This specification. detail the by
+τ'eses~asysems craft for mock-up purposes. desin rquiemets o iterliic
+weith θ uiemheniots toStractcs:sbytm . Develop α schematic wiring diagram for the
+withthe elioter.system.
+From an operational viewpoint, the helicopter 6. Develop an interconnect diagram.
+avionic cowplrement can be subdivided into (1) the 7 eeo at it
+eco at it 7 and (2) the special- basic helicopter configuration,
+miwoneqwpent.8. Develop α wire list.
+la nlss discussed .Dvlpaneetia The batsic helicopter configuration as in
+analysis EMC/EMI preliminery α Complete 10. ad weight, space, the to limited is handbook thic
+ytm η o pa electronics minimurn the of requiremnents power
+necessary in order to provide the basic mission capa- ELECTROMAGNETIC Α-ι.!
+The of CNPTBLF RGA helicopter bility for α specific ciazz heiicopter. Jmedium
+RGA CMAIIIT tactical utility, observatio'ν, light include classes
+electrical/elec- of items by generated Interference lift heavy external and transport, and heavy
+in α as proximity, in close iirutalled equipment tronic transpor-..
+in- in an can result easily systcem, typical helicopter the ad- as is defincd equipment Special-misuion
+serious- reduce that could loe, interference tolerable commun- basic the beyond ε,'ectronics ditional -
+and might or equipment, airborne of usefulness the ly re- functions identification navigation, cation, -
+in par. 9-11.2, defined As ineperative. it even render IFFK such missions specific as to accomplish qunired
+establish shall contractor prime the 706-203, AMCP con- visibility under reduced night operation flight,
+for program compatibility EMI integratcd overall an dcsig- target recognition, and target detection ditions,
+helicopter. the in lound as is such control, fire integrated and nation,
+optimum of an application by achieved is EMC systems. weapon aircraft and tactical gunships
+iephnicM ρ~norr-χ- miannapriai anti mhin,,,ι.nn of - Avionic procurement, installation, and quaiii-
+-*-*---- *-*-- - - - - the: final through stage design the earfiist from test and flight preflight bench, with cation, Along
+demonstration feasibility operational or product Specifications Military defined by are requirements,
+be es- shall program an EMC stage. Accordingly, MIL-STD- MIL-STD-454, MIL-STD-461, as such
+will; that ;ablished MIL-Ω-5088, MIL-Β-5087, 462, MIL-STD-704,
+efficiprn MIL-E.540, MIL-E-6051. and MIL-1-8700. Insure the integration of engineering. ι .
+Tbc first step in avionic systcm design is to management, and de- λ1ity assurance tasks q, as thty
+termine the proper location for each individual relate to EMC.
+system. Because avionic systems are made up of 2. isure the efficient integration withk 1 EMC of all
+several subsystems and coimponents, it is mandatory other systems an~δ subsystems.
+that the total helicopter systcrr. and its environ- The first requirement for acnieving in an EMC
+mental capability known. be Every avionic system avionic system is that all major components and sub-
+component has temperature and vibration limE*- systems be designed, constructed, tested in comn- -,nd
+tu!:ons. Before any or location is pliance de- with MIL-STD-461λ placement
+termined, the inter/intra-system compatibility of the The second requirement is compliance with MIIL-
+location must determined to insure that heat bi, and as an operating helicopter system, with all E-6051
+) vibration will not have α detrimental effect upon the avionics and other equipme~nt installed and per.
+performance of the equipment. in addition, electro- for-ning their normal functions.
+Β-1

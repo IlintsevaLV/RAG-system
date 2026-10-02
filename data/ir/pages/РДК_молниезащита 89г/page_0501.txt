@@ -1,0 +1,88 @@
+actual installation. The the in be would as they
+mode. its normal in should be powered
+as follows: be would procedure The test
+EUT the from generator surge the Disconnect 1.
+open specified the until level power the adjust
+as level the Record is obtained. voltage cuit
+is waveshape voltage the that observe Also,
+rect.
+and generator surge of the output the Ground 2.
+amplitude correct of the is current the that serve
+waveshape current the that Note waveshape. and
+voltage of the as that same the to be need does not
+be "correct." to
+zero. to generator the of setting power the Reduce 3.
+ground to the generator surge the Connect 4.
+until output the increase and the EUT of minal
+reached. is or flows current specified the either S,,
+pulses. number of requisite Apply the 5.
+operation. for proper EUT the Check 6.
+pen EUT
+locally
+wire(s) teshould
+Vpulse
+generator oscilloscope
+Fig. 18.41 Test setup for ground injection,
+Injection Ground for Procedures 18.8.1
+5 Waveform
+attention special requires 5 of Waveform Injection
+current The and duration. amplitude of its because
+suppression surge on filters, duty severe impose may
+to heating Fusing, of cables. shields and devices
+spark- and insulation cable to damaging temperature
+possible. interference are all with resultant, ing
+com- a system to be applied is to the test Where
+of equipment, pieces interconnected posed of several
+
+various into resistors to insert necessary be may it EUT
+in the flow to current injected the force to paths ground
+resistors required the of Determination paths. desired
+described is but material, this of scope the is beyond
+[18.9]. in
+and
+Tests Field Magnetic and Electric 18.9 cir-
+9,,.
+particularly tests, field magnetic and Electric cor-
+impedance constant of aid the with those performed
+to performed been mostly have simulators, line strip
+used for spe- been have but effects, NEMP for check ob-
+effects. indirect of lightning studies in purposes cialized
+the with evaluating to do had have those Principally
+enclosures. equipment of properties shielding
+160C developing DO the and SAE AE4L, FAA,
+using tests for call specifically not do specifications
+war- circumstances when them allow but lines, strip
+some provides [18.8] book" "'Yellow SAE The rant.
+but tests, line strip making of of methods discussion ter-
+book" "Orange SAE the nor document that neither
+field to as recommendations any specific make [18.10]
+levels.
+is test techniques strip line of discussion Further
+material. this of scope the beyond
+6
+Tests for Levels 18.10
+wave- the and tests, conduct to which at Levels
+type of the on somewhat depend be used, to forms
+and voltages which in tests spepking, Broadly test.
+test under of a device pins to the are coupled currents
+be done at one of the levels given in Tables 16.2
+into the are injected currents in which Tests 16.3. and
+expected levels the at be done should of cables shields
+lightning. by produced to be
+a in specified be should and waveshapes Levels
+guidance Some test. the prior to prepared plan test
+in the is given levels be appropriate might what as to
+following sections.
+Tests Injection Pin 18.10.1
+of
+injection pin making for reason common most The
+certain survive EUT will the that establish is to tests
+there Unless currents. and voltages chosen arbitrarily
+it is recommended the contrary, to reasons specific are
+16.2 and Tables of those from be chosen levels that
+are probably 16.12 of Fig. and 3 2 16.3. Waveforms a
+be coupled will of what representative most ones the
+metallic to attachment of lightning result as a to pins
+generator transient the that imply airframes. These
+ 25 ohms. of 5 - an impedance have should
+488

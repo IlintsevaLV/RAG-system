@@ -1,0 +1,107 @@
+ANCIP 706-202
+D 3-2.XIA Checlist
+The following items are applicable to each or the
+preceding types of engine installations and, as such,
+are basic design objectives:
+I. A properly designed engine enclosure shall be:
+Aerodymanically a. clean
+b. Sized and proportioned to the engine and its
+related subsystems
+c. Fastened to the airframe, not the engine,
+This eliminates problems with metal fatigue
+associated with engine vibrations.
+d. Arranged in such a fashion that the major
+portion may be opened quickly for inspection and
+minor repairs, or removed entirely for major
+maintenance tasks and cowling repairs
+e. Adequately ventilated to prevent accumu-
+lations of gases. and designed so that accumulations
+of dirt, waste, or fuel may be observed without
+removal of cowl sections
+f. Properly drained so that no fuel is trapped in
+any ground or flight attitudes. Any fuel likely to leak
+into the engine compartment must be drained clear of
+the helicopter through appropriate an drain system.
+2. Appropriate firewalls must be provided to con-
+tain fires within the engine cowling or nacelle,
+3. Daily maintenance aids should be incorporated
+if the configuration will permit them. These include
+work platforms, inspection access doors. and sup- Ports to hold cowling or nacelle panels in an open
+position hase to maintenance operations and protect
+equipment against accidental dama ne d
+equMaxipme a insterchacc enabliy d pag. s2.
+4. Maximum interchangeability of parts be shall
+incorporated into the design.
+5. It should be easy for an observer at ground level
+to determine that the cowling is secured properly.
+6. The enclosure should have easily-accessible pro-
+visions for fire extinguishing, by ground personnel,
+during engine starts.
+S7. All portions of the cowling that might be sub-
+jected to exhaust gas impingement and to exhaust
+flames in the event of an exhaust subsystem failure,
+be corrosion-resistant shall steel, titanium, or other equivalent temperature-resistant alloy material. The
+material selected also be determined by the shall heat
+transfer analysis considering the engine heat r
+tion.
+8. Cowlings interfere with shall any parts not of the
+engine, its operation, its accessories, or its installa-
+lion.
+9. Cowlings .hall be designed to provide udequate
+cooling of the engines and engine accessories during
+flight and ground operations.
+3-4
+
+3-2. ENGINE MOUNTING
+The engine mounts be designed to withstand shall
+the loads resulting from the engine torque, thrust.
+and gyroscopic couple in combination with all
+applicable ground, flight, and inertia loads. In addi-
+tion, engine mounts withstand transient torque shall
+and crash load conditions. The engine mounts and
+supporting structure shall withstand the inertia
+torque resulting from sudden stoppage of the turbine
+rotors combined with the flight loads for 3.0 g flight.
+Torque decay time histories shall be determined by
+analysis of the engine characteristics, but in no ca.e
+stoppage be considered shall as occurring ?n more
+than 3.0 sec.
+Engine mounting requirements are specified in
+MIL-E-8593 and shall be followed.
+Turboshaft-engine-powered helicopters may
+require critical alignment of high-speed shafts. Ii is
+good practice to design a high degree of accuracy into
+the mount. and supporting structure, and thus
+eliminate the need for adjustment on installation.
+rhis require,- more intricate tooling during manu-
+facturing, but insures positive shaft alignment.
+For multiengine configurations, interchange-
+ability is desirable and can be achieved by designing
+the engine mounts so that common detail parts can
+be assembled to result in opposite assemblies.
+The various types of engine mountings may be
+described briefly as follows:
+I. A three-point-suspension type that incorporates
+a gimbal or ball joint
+A mounting that cantilevers the engine from the
+gearbox. Few engines can be cantilever-mounted;
+consequently, this method will not be discussed.
+The front mount of the three-point suspension may
+be either a single- or two-point configuration. The
+gimbal arrangement likewise may be a single- or two-
+point support. The ball joint arrangement, on the
+other hand, must use the two-point support to obtain
+torsional restraint for the engine. When the three.
+point support is used with either the gimbal or ball
+joint, it must provide engine freedom for thermal
+expansion in all directions. This is accomplished by
+providing lateral, axial, and vertical restraint at the
+wo laterally disposed points, vertical restraint at the
+single point, and torsional restraint through the two
+laterally disposed points.
+Other configurations using the three-point ar- rangement may place the gimbal or ball joint support
+alongside the drive shaft instead of concentrically as
+is commonly the case, Because the engine support
+and drive shaft no longer are concentric, a simple
+"trailer hitch" arrangement may be used advantage-
+ously for cost savings and to provide for easier drive

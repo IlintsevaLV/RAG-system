@@ -1,0 +1,41 @@
+F For this purpose SAE Task has also defined the lightning current com-
+ponent(~) likely to strike the aircraft in each of the four lightning attachment
+Further references will be made to zones. The results are shown on Table 5.1.
+F criteria during discussion of protection techniques in succeeding these Task
+chapters of this book.
+5.1 Table LIGHTNING CURRENT COMPONENTS
+IN EXPERIENCED EACH ZONE
+BCDA
+Current Component First Return Intermediate Continuing
+Zone Stroke Stroke Current Restrike
+X X 1A: initial attachment
+point with low
+probability of
+flash hang-on
+1B: initial attachment
+point with high
+probability of
+flash hang-on
+2A: swept-stroke
+zone with low
+probability of
+flash hang-on
+2B: swept-stroke
+zone with high
+probability of
+flash hang-on
+low probability X 3:
+of direct attach-
+ment
+*Only if flash hang-on time is greater than ms 5
+5.4 Applicable Airworthiness Regulations
+There are a number of government airworthiness regulations that apply
+specifically to aircraft lightning protection. These are applicable in the United
+States and other countries and generally must be complied with as part of the
+aircraft certification requirements. Table lists the regulations presently in 5.2
+effect. These are concerned primarily with fuel system protection, since this
+system has presented the most serious hazard in the past. Other areas such as
+nonmetallic structures and aircraft electronics systems are of increasing concern,
+however, and are beginning to appear in updated requirements. Applicable
+will be referred to and discussed in portions of the regulations in Table 5.2
+succeeding chapters.

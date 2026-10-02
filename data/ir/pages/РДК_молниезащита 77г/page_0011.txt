@@ -1,0 +1,43 @@
+CHAPTER 1
+THE LIGHTNING ENVIRONMENT
+Introduction 1.1
+The lightning flash originates with the formation of electrical charge in the
+air or, more commonly, clouds. The most common producer of lightning is the
+cumulonimbus thundercloud. Lightning, however, can also occur during sand-
+storms, snowstorms, and in the clouds over erupting volcanos. Lightning has
+even been reported to occur in clear air, though this phenomenon is rare and is
+possibly a result of lightning originating in conventional clouds beyond the
+observer's field of vision. Lightning originating in sandstorms and volcanic
+eruptions is not of serious concern to aircraft, but lightning associated with
+snowstorms occurs sufficiently often as to present a problem, not because its
+nature is different from lightning associated with thunderstorms but because it is
+apt to occur when it is unexpected.
+The most common types of lightning are those involving the cloud and
+and lightning between charge centers ground, called cloud-to-grou~zd lightning,
+This latter is sonletimes erroneously within a cloud, called intracloud lightning.
+or True cloud-to-cloud I~glltning called intercloud cloud-ro-cloud lightning.
+between isolated cloud centers is possible; however, what appears to be cloud-to-
+cloud lightning is often a spectacular manifestation of intracloud discharges.
+Most research on lightning has centered on cloud-to-ground l~ghtning;
+despite its importance to aircraft operation, much less information on the
+characteristics of intracloud lightning than on those of cloud-to-ground lightning
+exists, for a variefy of reasons. The first is simply that intracloud lightning,
+unlike cloud-to-ground lightning, is largely hidden from direct observation. The
+second is that conducting research on the characteristics of lightning is often a
+labor of love requiring both extensive apparatus and extreme patience. Observing
+lightning from a fixed ground station is rnuch easier and cheaper than observing
+lightning from a moving aircraft. The third is that most of the funding for re-
+search on lightning has come, directly or indirectly, from those who are con-
+cerned with the effects of lightning on electric power transmission and distribu-
+tion lines, which are affected only by cloud-to-ground strokes.
+The characteristics of lightning are discussed in the sections which follow.
+However, much of the material relative to the physics of lightning will be dis-
+cloud-to-ground strokes for the reasons cited cussed primarily in terms of
+above and because frequently it is difficult to say for any given flash which type
+was involved. While aircraft may be involved with any of the three types of
+lightning, cloud-to-ground and intracloud lightning flashes are the most common
+types. But where aircraft design and operation are of concern, the type of flash
+makes little difference.
+generalized waveshape for the current flowing to Figure 1.1 shows a
+ground from a typical negative cloud-to-ground flash and presents terms for the
+five main regions shown: the leader, the initial return stroke, an intermediate

@@ -1,0 +1,45 @@
+electromagnetic environment to the inside of the aircraft is through apertures, it
+follows that equipment should be located as far from major apertures as
+possible.
+Further, since access doors with their imperfectly conducting covers are a
+major source of electromagnetic leakage, it follows that equipment should be
+located as far from such access doors as possible. In practice this may be more
+easily said than done, however, because frequently the purpose of access doors is
+to provide ready access to electronic equipment.
+One main goal should be to locate electronic equipment toward the center
+of the aircraft structure rather than at the extremities, since the electromagnetic
+fields tend to cancel toward the center of any structure.
+Another main goal should be to locate electronic equipment away from
+particularly away from the nose of the aircraft, the outer skin of the vehicle
+-
+where the radius of curvature of a prime current-carrying path is smallest.
+Furthermore, if possible, electronic equipment should be located in shielded
+compartments.
+Improvement Through Location of Wiring 15.3
+The designer has somewhat more control over the routing of wiring used
+to interconnect equipment than he does over the location of equipment itself.
+Wiring should be located away from apertures and away from regions where the
+radius of curvature of structural members or the outer skin is smallest. Moreover,
+wiring should be located as close to a ground plane or structural member as
+possible. If the structural member is shaped or can be shaped to provide a
+trough, the member will provide more inherent shielding than it will if the wiring
+is placed on the edge of the member. Some examples of typical structural
+members and the best places for bundles of wiring are shown in Figure 15.1. In
+each case the structural niember is assumed to be carrying current along its axis.
+Some basic principles to follow are these:
+The closer a conductor is placed to a metallic ground plane, the less 1.
+is the flux that can pass between that conductor and the ground
+plane.
+2. Magnetic fields are concentrated around protruding structural
+members and diverge in inside corners. Hence, conductors located
+atop protruding members will intercept more magnetic flux than
+conductors placed in corners, where the field intensity is weaker.
+Fields will be weaker on the interior of a U-shaped member than 3.
+they will be on the edges of that member.
+Fields will be lowest inside a closed member. 4.
+Some examples of cable routing are shown on Figure 15.2. Along the
+interior of a structure a cable clamped to stiffeners, as at position will 1,
+A effectively be spaced away from the metal skin by the height of the stiffeners.
+conductor along the outside edge of the U-shaped member, as shown by
+2 in Figure 15.2(a), may or may not be better placed than conductor conductor
+effectiveness depends on how closely the conductor is attached to the side of 1 :

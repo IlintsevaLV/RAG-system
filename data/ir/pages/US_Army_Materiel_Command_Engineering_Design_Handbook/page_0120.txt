@@ -1,0 +1,107 @@
+EOc-Σ02 δ
+with the rotor and/or tail rotor and propeller, the
+higher froquencics are generally attributable to the
+tranamission and drive, and propulsion systams and
+their accessories.
+Typical Army requirements spocify α maximum
+- ε
+at & spocific distance from the flight path. Doaign
+goals for appropriate froquencios and sound pres-
+sures are given in Table 4.2. Noise Ievel survey
+requirements are described in Chapter 8, AMCP 706-
+203. Dasign tochniques to socure external as well as
+internal gaarbox noiso reduction are discussed in par.
+4-1.2.1.1.4.
+Complete defeat of ballistic threats must be ac-
+complishod for smaller caliber ordnance, and damage
+bors. Depending upon roquirements peculiar to the
+.. mission, tho drive sysiem components must be capa-
+bie of withstanding α single ball or armor-piercing
+.7.62-mm dullct at 2550 fps, aligned or futly tumbiod.
+striking at any obliquity at any point in thc system.
+The 75-dog solid angle of the upper hemisphere (with
+rexpect to the helicopter) normally is sxcluded. The
+larger ordnanos for «hich damage minimization
+sbould be considered is 23-mm high explo-ive in-
+concdary (HEi).
+Tha spocific techniques available to the designer to
+Arect the stated requirements include:
+1. Radundancy
+2. Designi configuration
+3. Self-sealing oil sump materials
+4. Emergency lubricetion çonsiderations
+5. Armor.
+41.2.1.4.1 Reoundancy
+Rodundancy is typificd by multiple engine con-
+figurations. In thcse configurations all individual
+drive subsystan components between the engines and
+TABLE 4-2. EXTERNAL NOISE LEVEL
+EXTERNAL NOISE LE VEL
+FREQUENCY. Hz SOUNO PRESSURE LEVEL, dB
+8 AND CENTER® PERCE I VE Δ
+OVERALL 90
+22.4.44.7 31.6 98
+44.7.89.2 63 85
+89.2-178 12 85
+178·366 290 86
+602-99€ 500 88
+709 1.410 1000 98
+1,410-2.820 2000 8ι
+2.820·5.630 000 76
+6.620-11.200 8000 72
+*DAIVE SYSTEN PREQUENCIES *NOMINAL CENTER FREQUENÇY (DETEAMINED BMPIRICALLY)
+418
+
+the colloctor goar in the main gearbox or combining
+gearbox rsually arc excluded from the survivability
+roquiroment by nature of sheir functional dupli-
+cation, providal that:
+1. No single projoctile can kill all duplicatod power
+paths
+2. Α single power-path kill cannot cause secon-
+dary failure of the duplicated power paths due to
+fragmentation of the first.
+Thesc two criteris can be satisfied by:
+1. Physical separation of the drive paths sufficient
+to reduce the impingament angle within which σ
+single projectile can produce α multiple kill
+2. Sufficic. : sizc and strength of the killed-path
+component to attenuate the projextile velocity below
+the kill threshold for the second path component
+3. Usc of structure Setwoen the paths to confine α
+fragmented or loose component to its immediate
+locale
+4. Use of armor to confine fragments or prevent
+projectile impact.
+4-1.2.ι.4.2 Design Conñgurstion
+Configuration is by fat the most important and ef-
+ficient technique for reducing vulnerability. Many
+slight configuration changes can increcse surviva.
+bility greatly without scrious compromise of ef-
+ficiency, weight, or cost.
+For examplc, casc hardened gears with tough,
+fracturo-resistant core structure have surprisingly
+good toierance to ballistic damage. Spiral bevel gears
+and planetary gears, used effectively throughout the
+drive train of emall and medium helicopters are in-
+vuinerable to the 7.62-mm threat. Planetary ring
+gears may be penctrated so that the planct idlcr geurs
+cannot mesh at α particular segment. but the re-
+maining gears pick up the overload necessary to con-
+tinuc normal power transmission. The relatively high
+contact rs ios and coarser pitch of spiral bevel gears
+8 o facto.σ that make them particularly resistent to
+failure from loss of α single tooth segment. Narrow-
+face spu: gears (lass than 0.5 in.) can be α problem,
+and, therefore, it is desirable to usc greater face
+widths in all primary poner paths.
+Expcrience with 12 7-ν.°ν ammunition is less exten-
+sive than with the 7.62-min projectiles, but the same
+general observations hold true with α slightly larger
+scale of reference. Gear rins, webs, and integral
+outer-race sections of planciary idiers sitould be pro-
+portioned such that α ricochet entering the mesh will
+deform, fracture, or crack the gear teeth rather than
+the tooths supporting structure. Extensive obscr-
+vation of main rotor gaarboxes damaged hy 7.&2-mm
+ball and armur-pienzing (AP) amionnition have

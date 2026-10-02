@@ -1,0 +1,103 @@
+AMCP 706-02
+For. all the helicoptere and compounds investi-
+can be expressed by the empirical expression gated in Ref. 34, the rotor gust-load ratio AT/Thow-
+ΔΤ 0.057 + 0.85Λ σ
+where hower ( Thoter
+- empirical constant, dimensioniess
+- wing lint, it
+Λ/Thowr =' wing lift ratio prior to gust encour-
+ter, dimensioniess
+This relstionship givee reasonable accuracy with ap-
+propriate conservaism with C ν 0.2 for semirigid
+(teetering) rotors and C - 0.1 for rigid and articula-
+ted rotors. For & compound helicopter, the wing gust
+load should be determined by conventional fixed-
+wing mcthods. However, &ν additional alieviation of
+the wing guss load, owing to the intcraction with the
+rotor, was found to be reiated to the rotor thrust co-
+efficient-solidity ratio Cr/o. With further refinement,
+this approach may provide an acceptable basis for
+gust design roquirements.
+The relative effects of various parameters on gust
+response are summarized in Table 5-1.
+54.7 TORSIONAL STABILITY
+Gas turbine engines first developed for sircraft ir.-
+cluded fized-turbine engines for both turbojet and
+turboshaßτ configurations, and free-turbine engines
+for driving rigid loads or loads with natural fre-
+quencies far above the maximum response range of
+the engine governor. Sophistiçated hydromechanical
+TABLE 5-I. THE RELATIVE EFFECTS OF
+VARIOUS PARAMETERS ON GUST RESPONSE
+EFFECT
+DISK LOADING LITILE INFLUENCE
+SOLIDITY RATIO. C/ MAJOR EFFECT (SEE EQUATION 5-7)
+CONSIDERABLE EFFECT AT HIGH VALIJES
+OF C./o DUE TO LIFT SHARING RITH Α
+Π¿NG'
+AOTOR TYPE SOME EFFECT. DEPENDS ON OYNAMICS
+NUMBER OF BLADES LITTLE EFFECT
+NUMBER OF ROTORS CONFIGURATION INCREASED EFFECT FOR TANDEM
+FOAWARD VELOCITY AND
+ADVANCING-TIP MACH LITTLE INFLUENCE
+NMBEI
+SLIGHT REDUCT'ON OF GUST
+LOCK NUMBER LOAD WITH INCREASED LOCK
+NUMBER
+FITCH·FLA COUPLING LITTLE SFFECT
+RICH CONL COLPLING APPRECIABLE EFFECT
+NI LHO13MBOS COULECTIVE SI STEM APPRECIABLE EFFECT
+5-26
+
+governors were optimized for these systums; how-
+copter applications. À scvious drivo systen: insta-
+bility was prodicted for the XH 40, the first helicop-
+(5-7) ter using the froc-turbine engine (this analysis was
+later published in Ref. 38). The predicted instability
+occurrod as prodicted, but the consequences were not
+scrious. Means to stabilize the system had boer pro-
+vided and the test program waz able to proceed,
+alihough with α rathcr siuggish governor.
+Extensive analog computer studies have shown
+that serious penaltics would be incurred if the heli-
+copter drive sysiem were morificd to solve the prob-
+lem, but that modification of the governor resulted in
+only α slight penalty. As α resuit, Ref. 39 was for-
+mulatedt. This publication assigns responsibilivics to
+both the engine and helicopier manufacturers in
+order to insure early rexognition and solution of the
+drive system stability problan in future applications.
+The discussion that follows supplements the reviews
+of drive system torsional stebiity in Chapter 5, and
+of the engine/airframe integrated control system in
+Chapter 8, both in AMCP 706-201.
+5-4.7.1 Discuselon of Proèlem
+Thc dynamic characteristics of three systems are
+involved: the gas producer and its governor, the
+power turbine and its governor, and the helicopter
+drive systom with onc or more low natural frc-
+qucncies. The system equations of motion conveni-
+u
+atrayed as σ block diagram (Refs. 38 and 40). During
+throltle movements, the gas producer governor con-
+trols the engine. Ai steady-state throitle conditions,
+the power-turbine governor controls power-turbine
+specd by modulating fuel flow. When this speed
+urops below the sclected value, additional fuel flow is
+called for to nullify the error. Accordingly, when the
+power turbine overspeeds, fuel fiow is decrcased. This
+cycle of events can be stable or unstable depending
+upon system parameters.
+The drive system for rotors without drag hinges
+usually can be simplified to α system consisting of the
+mair-rotor ard power-turbine inertias connected by
+the effoctive shaft stiffness between them. This is α
+singlc-degree-of-frecdom system in which the main
+rotor can bc considered as nodalized because its iner-
+tia is much larger than that of the power turbine. This
+mode usually has α natural frequency below 5 Hz, is
+lighily damped, and is continuously excited at α low
+level by rotor control rrotiens and external transi-
+ents. Resulting oscillations in the power turbine
+speed arc sensed by the flyball governor, which
+modulates the fuel flow accordingly. With α governor

@@ -1,0 +1,104 @@
+..∴
+AMCP: 7U6-202
+The basic typos of rotary reciprocating actuators
+are vane and piston. Basically, the vanc actuator con-
+sists of a cylindrical chamber, a stationary barrier, a
+contral shaft with a fixed vanc, and end caps through
+which the shaft projocts and which support the shaft-
+and-vane assembly. Fluid energy on one side of the
+vare produces an unbalancod force on the shaßt. The
+shaft extension can protrudo from cither or both
+asds, and has key-ways, splines, Or squared cnds sor
+mochanical connection of the load. Vanc actuaturs
+usually have one or two vancs, but may have threc or
+moro. The arc of rotation for single-vant units is
+about 280 dog: for double-vane units, about 100 deg.
+Maximum arc varics with the size and const uction of
+the unit. Besides the torque, there is a radial force on
+the vane shaft, and this sidc load tends to deflect the
+shaft. Thus, the output shaft must be large cnough to
+withstand mcximum torque and side load withort
+excessive deflection, and bearing areas must be large
+enough to support thesc loads with minimum wear
+and friction. Efficiency of single-vane units varics
+bearings and bearing length-to-diameter ratio.
+Dooble-vane units contain opposing vancs and op
+posing stationary barriers. Fluid enters one compait-
+ment from an external port and flows through inter-
+nal passages to the opposi:e compariment. A force is
+exerted on cach vane, and the force that tends to dis-
+place the shaft is balanced transverscly. Because pure
+torque is the only load on the shaft, cfficiency of the
+double-vane unit is high; torque output is double: that
+of a singlo-vane unit of comparable dimensions.
+Vaue-type actustors are available in a varicty of stan-
+dard sizes and mountings. with torque outputs
+ranging from 3 1b-in. at 50 ps1 to more ihan 700.000
+Ib-in. at 3000 pai.
+Piaton actuators are available in several types. In a
+helical apline sctuator, fluid is applied to one side of
+the piston which is kept from rotating by guide rods.
+The actuutor can be stopped at any poini in its
+suroke. The helix angle on the shaft end piston is self-
+locking. preventing rotation of the actuator under
+external torque loads. Scaling is by ring seais around
+the piston, the fluid rods, and the helical screw. Stan-
+dard urits are available for a ivide range of torque
+outputs and pressures. The arc of rotation can be
+larger than 360 deg. Adjustable cushions art
+available to reduce shock at each end of the stroke.
+А variation of this type of astuator uses two
+pistons in the same cylinder. The shaft has a right-
+ha id belix on haif of its length and a lef'- hand helix
+on the other half. Fluid is introduced into the area
+between the pistons and causcs linear movement of
+the pistons, thereby imparting rotary motion to the
+9-44
+
+conter shaft. The pistor-rack actuator may have a
+cylincier witi. two pistons, escit integral with a rack,
+or two cylinsors with four pistons. in each casc, the
+racks angage a pinion in the xenter of the cylinder
+and, as the pistoas move che racks, the pinion is ro-
+tated. Equal torquc thus is produced in cact direction
+of rotation. Pistens usually are soulod by standard O-
+ring soais. Units are avaiiabic with bigis torque
+ratinags and for preauros to 300c psi.
+9.3.2.9.2 Brake Valres
+Pneumatic brake vaives provide a means of
+supplying operating pressure to hclisopter wheci
+brakes. The pressure applied to the pedais (or hand
+lecer. depending upon valve design) deliver* à
+regulatod, proportionate pressure to the valve outlet
+port, thus allowing air to flow to the brakes.
+Relcasing of the brake podal (or handic) vents the
+preusurized air on the brakes. Podal or handle sravel
+is proportional to brake valve outiet pressure, i.c., to
+the pressurc applicd to the whesl brakc. The design of
+brake valves should feature minimumn hysteresis char-
+acteristics. For incrcasod relcase response, rapid-
+exhaust vaiver are located betwecn the brake valves
+and thc brakes.
+9-3.2.9.3 Pneematic Fuoes
+A fusc is uscd to protect a pneumatic system while
+permitting full, efficient operation of companents in
+ihe remainder of the system. Essentially. thc fuse
+operatcs on a rate of flow that is sensed by a pressure
+drop through the fusc itscif. Once closed, the fuse
+rescts automatically as scon as the pressure differ-
+preesed air.
+9-3.2.9.4 Quick-disconnects
+Quick-disconnects provide easy. instant coupling
+and uncoupling of pneumatic systems and system
+use greatly facilitates aircraft overhauls and service
+replacements. in order to mect varying require-
+ments, two types of quick-disconnects are available: a
+lever type and a rotating type.
+9-3.3 PNEUMATIC SYSTEM INSTALLATION
+AND QUALIFICATION
+Pneumatic systems are classified into types and
+classes as follows:
+1. Types:
+a. Type A. Airborne compressor-charged
+system, in whicn system air pressure is maintained by
+a compressor mounted in the helicopter

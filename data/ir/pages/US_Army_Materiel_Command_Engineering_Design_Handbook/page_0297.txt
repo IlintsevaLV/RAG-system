@@ -1,0 +1,96 @@
+v4.3HUMAN....On~
+Α prer.xquisite for ain affective system control is α
+design definition of control au mentation neoded as α
+function of total pilot workload. Α force focl system
+may require no pilot control in order to maintsin α
+trimmed flight condition.
+64.3.1 Comirx Force Cues
+The control force aytem should provide:
+1. Trim position identification tha: will enable the
+pilo* to focl an out-of-trim condition and to fecl and
+identify trim when returning
+2. Hold control in trim when the pilot is flying
+hands-off
+3. An increasod force cue to indicate increasing
+severity of maneuvering wherever it occurs. An in-
+creesc in gradient with increazing airspcel is recom-
+mended. Care should be taken to avoid force cucs in-
+troduced to the longitudinal control due to collective
+inputs. The optimal system would provide α constant
+relationship between longitudinal stick forces and re-
+sulting aixcraft load factor during maneuvers.
+mediate and significant cue to the pilot, indicating the
+. Xopter response to control command in any flight
+cc. dition. This tightens the loop of pilot control and
+vehicle response, and enables the pilot to rcalize op-
+timum control. Α lesscr performance Icads to use of
+the fel system only as α trim hold device, and thc
+pilot may prefer to turn it off under demanding con-
+trol situations.
+6-4.3.2 Developmental Test
+Moving-base flight simulation can be uscful in
+developing the optimum control fecl to suit the
+helicopter mission. In the moving-basc simulator,
+pilots can draw upon past experience to identify
+desired force feel characteristics. Stick force pro-
+portional to rates of control displacement, helicopter
+angular rates, and to normal accelerations should be
+investigated so as to insure the design of an optimum
+system.
+As the functions of the artificial fecl system are in-
+creased, the complexity of the feel unit also in-
+creases. Α design requirement for & specified linear
+gradient in the region of trim and α different linear
+gradient at grcater excursions can result in α feel
+system with more than one sprirg. Furthermore, if α
+requirement exists for nonlinesr force versus de-
+fection characteristica, cams or linkages can be em-
+ployed. Fig. 6-7 is α schematic diagram of an arti-
+ficial fecl system.
+Flight safcty at high spoeds can be incrcased by
+reducing the occurrence of high rotor loads associ-
+
+AMCP_ 706-202
+ated with: excessive control displacement. Α dynamic
+pressuro-scnsitive (γ-scnsitive) control foroc fecl
+systam produces minimum forces in hover and
+maximum force gradicnts in high-speed flight, wherc
+the sensitivity is greatet. This concept is an elter-
+native to use of à control ratio changer in tho pri-
+mochanical (with q-bellows), electrical, or clectro-
+hydraulic.
+In fixed-wing aircraft, q-fcel is provided iur α
+slight'υ diffcrent purpose. The pilot flics the airplane
+by sensing, among other cues, normal acceleration
+and control stick forces. Response oi an aiplane is
+such that the change in normal acccleration jur unit
+of elevator defloction incrcases with q. If the arti-
+ficial stick force per unit of elevator deflection aiso is
+made to increasc with γ, then the relationship of stick
+force to normal acceleration can be made to ap-
+proximste α constant value of stick force per γ.
+regardless of flight speed.
+Military Spocifications useful in the detail design of
+the artificial foel system include MIL-H-8591, MIL-
+Σ-8698. Μ1Λ-F-8785, MIL-F-9490, annd MIL-F-
+18372.
+SPANG
+CAM CONTROL ROO TO
+POMER ACTUATORL.
+ww
+TAIM
+CONTHOI ASTUAIOR
+CABLES
+(Α) TRIM CONDITION CONTROL DISPLACEO
+CONTROL CENTERED FROM TRIM
+(Β) TRIM CONDITION CONTROL DISPLACED
+CONTROL DISPLACED FROM TRIM
+Figure 6-7. Artificial Feel and Trim Schematic
+64.4 AUTOMATIC CONTROL INTERFACES
+Inner loop stabilization signals are summed with
+the pilot'σ commands through electro/hydrome-
+chanical actuators in serics wich the pilot'σ controls.
+It is important that che high-frequency, small-ampli-
+tude stabilization signals do not reach the cyclic stick
+in the forni of foros or deflections. Thus, there is α
+6-17

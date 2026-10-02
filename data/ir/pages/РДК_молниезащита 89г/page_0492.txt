@@ -1,0 +1,68 @@
+winding or, for that matter, with the same number
+turns on the two windings. Figs. 18.28 and 18.29 show
+on the ways in which turns qualitatively some of
+number the if results the affect the other or winding
+of turns on the two windings are not equal. For
+stance, if the conductor under test is looped through
+the core several times, α given excitation on the trans-
+former will produce less short circuit current, more
+open circuit voltage, and α decrease in the frequency
+of the natural oscillatory mode of the cable under test.
+If there are more turns on the primary, there will
+more short circuit current, less open circuit voltage,
+and α decrease in the frequency of the natural oscilla-
+tory mode of the pulse generator. There will also be
+longer rise time of the current and voltage pulses.
+3
+LpL
+N7
+SERiES AIDING LA I Lp Lg IN Γ
+UUCKING LIS Lp Λ IN Α SERIES
+3
+V (LA-Le) 41 4
+(α) 1/71 N$/Np ma
+at at*Lp( Λ0(I-K)α I-K)" Λ π - ,.11 Λ λ- ag,(ε
+Lps 3 Ξ 69
+(β)
+( I -K) tp(I - KIL(I K
+(Ω)
+Fig. 18.25 Development of equivalent circuits.
+(α) Basic transformer equations
+(β) Equivalent circuit referred to secondary
+(χ) Circuit Λ. if - and N. Lp -Σ N,
+efatm .0.-tvinaahvmw .-- eadvetat us4od test
+J"wiL j;
+... " • - Τ CT Τ',Τ ,
+Fig. 18.20 Complete equivalent circuit of
+α conductor under test.
+
+of
+α"
+single turn τ_13)
+/ one # 10 wire
+j,• long)
+in-
+be
+α
+msingle turn
+Ferroxcube (1"long) (α) (3C0 core material)
+Lp LS = 8.3 mH =
+28 MH = LA
+LB = 0.3 iAH
+6.93 Μ ItH -
+K = 0.83
+1.38AH Lp(I-K) = Lps(I-K) =
+(β) KLp = 8.93pH
+1.3η1&H 1.$81AH
+input
+transformer. typical α of circuit Equivalent 18.27 Fig.
+(α) Core dimensions
+(β) Measured and derived quantities
+(χ) Equivalent circuit
+UNDO CONoDUCTOR
+11ST
+Fig. 18.28 Effect of more turns on secondary.
+Les short circuit current More open circuit voltage
+ Α decrease in the frequency of the natural -
+oscillatory mode of the cable under test
+4 79

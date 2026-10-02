@@ -1,0 +1,94 @@
+on the tests were based regarding TCL [18.0, 18.7]
+intended to simulate the premise that the test was
+fects of α given amount of magnetic flux and not to
+circulate α specified current through the cable actually
+under test or to develop α specified voltage at the ter-
+minals of the device under test. The current through
+the actual cable under test, or the actual voltages de-
+veloped at the terminal of the EUT, would then
+depending on how much the different by an amount
+actual impedance of the interconnecting cable differed
+the dummy cable. from that of
+18.37, Fig. proposed, procedure calibration The
+transformer onto α dummy was to place the injection
+and length, and hence specified cable of specified size
+level of the then to adjust the power impedance, and
+surge generator until the desired short circuit current
+was obtained. The dummy cable was then open cir-
+cuited and α check made to see that the desired open
+circuit voltage could be developed.
+ALUMINUM TRNSFORMER
+0.4 cm Td,
+SURGE
+, 1RG-K)Α/U
+ε
+Avoltage 3Μ
+CURRENT
+VIEWING
+TRANSFORMER
+CODCTOR
+UNDER TEST
+Fig. 18.37 Calibration on α dummy circuit.
+the then to be placed on transformer was The
+and current of the magnitudes test. The under cable
+be recorded, but cable were to induced on the voltage
+not to was generator of the surge level the power
+changed from that determined during the calibration.
+The practice that has come to be most common
+is α variant of the originally suggested practice. Open
+circuit voltage is measured on α single turn winding
+threaded through the core, often made α permanent
+cur- Short circuit transformer. injection part of the
+length threaded is measured on α wire of minimum rent
+#14 AWG di- generally of # 10 to through the core,
+anmeter.
+"Yellow book" approach No. 1: This approach, not
+specifically labeled as No. 1 in [18.8], involves calibrat-
+ing the transformer with the actual cable that would
+be used during the test, or α close replica thereof. The
+
+objective depends on the procedure actual calibration
+of the test. ef-
+The basic approach is to develop the specified
+voltage amplitude and waveshape on α cable. The
+generator is adjusted to deliver that voltage on the
+cable, as measured by α voltage probe connected to
+one of the cable wires open at one end and grounded
+be at the other end. The cable is then shorted and the
+current noted to verify generator source short circuit
+impedance. The cable is then connected to the EUT
+tests applied. number of and the appropriate
+low by virtue generally cable, impedance α low For
+involve at each end, tests of an overall shield grounded
+circuit current. The out- delivering α specified short
+adjusted to deliver that the surge generator is put of
+current, as measured by α measuring current trans-
+former placed over the shorted cable. The appropriate
+number of pulses are then applied to the system.
+"Yellow book" approach No. 2: This approach, not
+specifically labeled as No. 2 in [18.8], is applicable if
+ve- the cable under test does not duplicate the actual
+hice cable. The recommended procedure is as follows.
+1. Clamp the injection transformer over the open cir-
+cuited test cable.
+2. Adjust the generator until the desired open circuit
+Σ~, is obtained. Record the setting, of the
+generator.
+then readily open circuited, cannot be the cable If
+the open circuit voltage can be measured on α
+single turn measuring loop on the injection trans-
+former.
+the generator until the and adjust the cable 3. Short
+Record culrrent is obtained. short circuit desired
+of the generator. Si the setting, be
+4. Connect the cable to the EUT.
+Reduce the power level of the 5. generator to zero.
+of the generator power level adjust the 6. If < Si, Σ.
+obtained or the either the desired current is until
+number reaches Apply the appropriate setting Σ,.
+of pulses.
+7. If adjust the power level of the generator Σ, Si <Σ
+until either the desired circuit voltage is obtained
+or the setting reaches Apply the appropriate Si.
+number of pulses.
+485

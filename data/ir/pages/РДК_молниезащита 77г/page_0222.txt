@@ -1,0 +1,30 @@
+Figure 7.18 shows the high voltage applied between the test electrode and
+7.15. the fuel tank of Figure Tn this test the electrode was at negative polarity
+with respect to the tank; thus the waveform has α negative deflection. Both
+polarities, of course, should be applied in the course of any complete test
+program. The rate of rise of this test voltage was 1000 kV/ps; it had reached
+1000 kV when complete flashover of the 1 μ air gap and fiberglass tank
+occurred.
+kV/div. 250 0.5 ps/div.
+Typical high-voltage test waveform for attachment tests. 7.18 Figrtre
+δ V - 1000 kV/ps =
+dt
+Flashover on rise at 1000 kV
+The kV reached by this test voltage (Figure 7.18) was of course 1000
+applied across the total breakdown path between the high-voltage electrode and
+5. That amount of this voltage the metallic parts of the tank, shown in Figure 7.1
+be which must develop across the fiberglass wall for puncture to occur can
+determined by applying test voltage directly across the wall. Figure 7.19 shows
+5, using only 2.54 cm in) such α test of the wall of the fuel tank of Figure 7.1 (1
+of air gap between the electrodes and the wall. Each test voltage was allowed to
+reach its peak and to decay through the test circuit if breakdown did not occur,
+and the tests were repeated with successively higher peak voltages until
+breakdown occurred.
+In the tests of Figure 7.19(α), peak impulse voltages of up to 125 kV were
+withstood by the wall, but partial breakdown occurred when α peak of 152 kV
+was applied. Complete breakdown occurred at 173 kV. From this test it might
+be concluded that the path involving puncture of the tank wall would require
+173 kV more voltage than would the path along the outside of the tank, and
+that if the external and internal paths were otherwise the same, the external path
+would always be fully ionized before the wall was punctured. In practice,
+212

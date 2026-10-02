@@ -1,0 +1,54 @@
+Punctures of these composites can be prevented
+by installing conductors to intereept the lightning
+flashes and divert them to the surrounding metallic corona streamers
+structure. Design of such conductors requires some drawn from internal
+objects this and puncture of mechanism the of understanding
+is reviewed in the following section.
+Mechanism of 6.3.2 Damage
+Lightning produces damage to a non-conducting
+skin by two different mechanisms; by puncture or by
+" the strength are controlled by fiashover. Both surface
+of the local electric field.
+radome
+Electric The fields, basic electrical breakdown pro- radar
+(a)
+cess was reviewed in Chapter 1 and in Chapter 3 the
+mechanism of attachment to an aircraft was reviewed.
+those sections, high electric fields result Incident electric field As noted in
+in the formation of corona and streamers which prop-
+agate outward from the aircraft. Fig. 6.24 shows a
+sketch of the process. Whether the streamers from -ndn
+longitudi elec- changing rapidly the by induced are aircraft the
+tric field of an approaching lightning leader or whether
+they grow in response to a quasi--static electric field is Erda
+.- radil de- do leaders the that is point the academic; rather
+velop.
+The surface conductivity of the composite, 1012 to
+1014 ohms per square for materials used in fairir.gs and
+10 ohms per square for materials used in radomes, is
+sufficient to yield relaxation times of 10-100 millisec- on charge takes it how long of measure a is time Relaxation onds.
+electrical charge to move off a surface. inner surface
+What this means is that in response to a slowly
+changing external electric field, charges will migrate
+(b) from neighboring conductive structures on to the non-
+conductive surface. These charges reduce the electric
+field intensity within and underneath the surface.
+by an charges induced Streamers and Fig. 6.24 how- changes rapidly, electric field If the external
+field. incident electric an approaching by is produced does if it as it ever,
+Internal and external streamers across the sur- (a) leader, charge cannot move lightning
+fields produced (b) Charges and electric fast enough to prevent face of the composite material
+electric fields from penetrating to the regions covered by internal streamers
+by the dielectric skin. If the internal electric field be-
+of the skin is higher form on Because the dielectric constant comes high enough, electrical streamers will
+than that of the air, the electric field in the compos- the internal metallic objects and will propagate out-
+ward and come into contact with the internal surface ite skin material will be lower than the electric field
+of the skin. There they will deposit electric charge, in the air. What happens next involves some complex
+as shown in Fig. 6.24. A crude analogy is that the interactions between the development of the internal
+streamers spread electric charge around in the same and external streamers and the dielectric strength of
+way that a water hose would spread water around on the materials involved.
+the internal surface.
+External The electric charge will produce an electric field, flashover: One possibility is that external
+Fig. 6.24(b), having one component directed tangen- streamers from adjacent metal structure may develop
+tially along the inner surface and one component di- fast enough to suppress the internal streamers. A
+rected radially through the skin and out to the air. streamer develops from a metal surface when the elec-
+137

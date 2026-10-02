@@ -1,0 +1,82 @@
+mybgie , oftecr the legt ound. , MMF.
+Total magnetizing force: The total magnetizing force
+around the length of the core, may be given MMF,
+in ampere-turns, NI or in gilberts, 0.47rNI. If there
+por- large α circuit, magnetizing the in gap an air is
+be needed may force magnetizing the total tion of
+though the air gap, even flux across force magnetic
+the to compared small very is gap air the of length the
+the core. of the length around distance total
+The magnetizing unit length: force per Magnetizing
+is material magnetic on the acting force
+(18.6) NI H
+per meter, measured in ampere-turns be and may
+per or in ampere-turns centimeter per ampere-turns
+commonly mea- it is specifications In material inch.
+per centimeter. gilberts or in oersteds sured
+0.47rNI
+17 τ/
+mea- be may flux magnetic Total flux: magnetic Total
+in kilolines. or maxwells) lines (or in webers, sured
+.Flux
+(18.8) kilolines 10' = lines 10σ = 1 weber
+density: Flux density may be measured in teslas
+square lines per gauss (or meter), square per (webers
+In inch. square per kilolines) (or lines or in centimeter)
+silicon grain oriented of made α core numbers, round
+of about density flux α maximum can support steel
+Α ferrite gauss. 000 16 or inch square per kilolines 100
+4000 about of density flux α maximum sustain can core
+gauss.
+units: between Relations
+ampere-turns 1.257 = gilbert 1
+gilbert/cm 1 = oersted 1
+ampere-turns/in 0.495 = oersted 1
+ampere-turns/μ 10-1 1.257 ξ = 1 oersted
+meter2 per weber 1 = tesla 1
+104 gauss 1 tesla =
+ 2 lines/in ξ 10-5 1.550 1 tesla =
+2 kilolines/in ξ 10-2 1.550 = tesla 1
+ 2 gauss 155 = 1 kiloline/in
+V, between voltage, The relations vs. flux: Voltage
+are flux, 4', and
+
+(18I .9) iIN-α V
+=
+Nt
+Α web er[ (18.10) (18)Vdt N
+δ 1o to
+J (18.11) lines - δ- AO =
+volt-second given of voltage α transient Developing
+α requires absolutely transformer thus α in product
+cannot If the core in magnetic flux. net change given
+gen- be cannot the voltage flux, the requisite sustain
+of voltage, pulse rectangular α an example, As erated.
+α and volts 100 of amplitude an with 18.16(α) Fig.
+volt-second product α have ps, would of 10 duration
+wire passing on α this voltage Developing of 10-3.
+re- time would one transformer injection through an
+or lines, 101 by to change core in the flux the quire
+material, α ferrite were of core If the 100 kilolines.
+is from previous pulses flux the iesidual in which one
+about have to be area would cross sectional small, the
+square centimeters. 25
+0
+00
+500V
+7ott 8.414
+voltages. transient 18.16 Representative Fig.
+λ0-' volt-seconds τ (α) V = .
+volt-seconds 10' ξ 9.47 τ V (β) = .
+as defined wave exponentiai double α For
+(18.12) ε-'J V0 - = [ε-€
+=
+is volt-second product total the
+J
+(18.13) λ/0] - [1/α = V VO
+α with α voltage turn α single on Developing
+time of 6.4 ps volts, α front amplitude of 1000 peak
+1093, α ps = half-value of 70 α time to and = (V
+0
+0.0947) of product volt-second 265, 647 3 = 11 354,
+475

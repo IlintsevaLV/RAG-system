@@ -1,0 +1,107 @@
+of determining to some numerical or graphical method
+may be determined the field. Numerically, the field *
+of Laplace'σ equation. by α numerical solution
+Π surrounded 10.10 shows α conductor at potential
+case, at potential α return conductor, α circle in this
+To this geometry is fitted α rectangular zero.
+grid. shown here as α very coarse
+Initially, all grid points that lie on the conductor
+all the grid points would be assigned α potential Π, and
+α poten- would be assigned return path lie on the that
+in two dimensions can tial zero. Laplace'σ equation
+to be approximately: shown
+4 (10.19) 1"1 + 0] + 82 + 20;Z1[1+ 02 03 O2• 52• 04-
+υ ýj_
+From this it follows that Laplace'σ equation is
+if the numeric values at four points surrounding isfied
+point have values that satisfy the equation α central
+*-2+•β3+•4-4•β00 (10.20)- •bi
+conductor of the field around the determination -Α
+field values at all of the points then involves assigning
+between the conductor and its return path, and
+points until Eq.10.20 is justing the value of these
+The literature isfied everywhere within the grid.
+numerical techniques indicates α number of the 10.4]
+at the points may be adjusted by which the potentials
+* tedious, it While the process is to their final values.
+as by hand, to do impractical is not completely
+cussed briefly in §10.5.2. Usually the process is
+that solve the field equations. by computer routines
+field values of the the numerical to tabulating addition
+points, frequently such computer routines at the grid
+and equipotential lines. allow one to plot the flow
+illustrates Fig. 10.10 space and grid size: Problem
+of of numerical evaluation aspects important two
+is that the solution fields. The first tromagnetic
+space. For an in α defined problem only take place
+problem an aircraft in flight, the lated object such as
+directions far in all extend very ideally should space
+the most at even field intensity the in theory, since,
+surface of the remote point affects the field at the
+the preci- craft. The second is that the grid size affects
+with which the field may be calculated. sion and detail
+smaller than Ideally the grid size should be much
+field is of the aircraft around which the dimensions
+be determined,
+and α large problem space would Α small grid size
+amount of computer memory require an excessive
+time, partic- amount of computer running an excessive
+dimensions. if calculations are desired in three ularly
+for time domain solutions The problem is compounded
+must be calculated anew for each because the field
+size and computer resources step. Problem spare, grid
+
+to less than the desired pre- will usually limit solutions
+cision.
+in the field in the Frequently one is only interested Fig.
+of the aircraft. If so, the problem by immediate vicinity
+of computer memory needed, space, and the amount
+field magni- can be made relatively small by setting grid,
+the outer boundary of the problem to an ap- tudes at
+rather than zero, proximation of their correct values,
+the calculations on the field around and concentrating
+similar On the aircraft study. under the conductor
+be used to concentrate the calculation be techniques can
+of most interest. those portions on
+be 'π1
+problem
+apace
+-
+sat-
+-- -
+η η -- - -3 - -.
+0-"
+-
+- -
+π-tentil Z Π 7
+ad-
+sat-
+[10.3, potental 0 =
+potential
+I -
+dis-
+evaluation Fig. 10.10 Α rectangular grid for done
+of Laplace'σ equation. In
+Apertures: of Laplace'σ equation Any solution
+coupling allow the pattern of low frequency will also
+tech- Computer to be calculated. through an aperture
+such solutions, used for commonly niques are now elec-
+tank and resistive paper but in the past electrolytic can
+of the used. Hand mapping were widely iso- techniques
+is outlined also done and that technique fields was
+either with routines deal computer in §10.5.2. Most
+rotational with or problems problems two-dimensional
+the aperture In α two-dimensional case, air- symmetry.
+being studied. would run the length of the conductor
+im- is not necessarily α disadvantage, since some This
+and apertures are basically two- the portant geometries
+aperture is that which may to dimensional. An important
+the flaps have exist behind the rear spar of α wing when
+extended. Since it is α convenient region to reach, been
+region. Electrically it is and wiring is often placed in this
+aperture is near α region where α poor place, since the
+to the wing are high. An- the magnetic fields external
+may be approx- other important set of apertures that
+the as α continuous opening is that formed by time imated
+aircraft. in the fuselage of α transport windows
+281

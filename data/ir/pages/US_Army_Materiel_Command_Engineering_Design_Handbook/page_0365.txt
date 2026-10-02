@@ -1,0 +1,99 @@
+AMCP 706-202
+the normal and thc backup systems. During thc time
+delay, thc pressure-scnsing system tests thc subsystem
+and mechanically inhibits the switching function if
+the subsystem does have an external Icak. Fig. 9-17
+contains α schematic of this approach.
+9-2.6.2 Operating Pressure Considerations
+Operating pressure is α function of helicopter size,
+complexity. and performance. Sinaller nelicopiers
+with manual reversion capability may use low
+pressures, such as 1000-1500 psi, without significant
+weight penaltics. Gencrally, Jynamic scal life is beuter
+with reduced pressures. Larger helicopters will
+require 3000-psi systems in order to at:ain reasonable
+volumes and system weights.
+The impact upon devclopment, qualification, test
+and maintenance equipment requirements mnay be α
+strong motivation for maintsining 3000 psi or lower
+pressures. However. it is desirable to conduct α
+syster pressure-weight-cost trade-off study as α
+means of actermining optimum helicopter hydraulic
+system configuration. Par. 9-4.2, AMCP 706-201.
+contains α discussion of the pressure selection con-
+siderations as related to preliminary design func-
+tions.
+Thc basic scicction decision usualiy is madc in the
+preliminary design phase. and α later re-evaluation
+change as the design α.ivgnces into thc hardware
+phasc.
+BACKUP SYSTE:Δ1 NORMAL STSTEN
+RETUIRN $ RETURN
+BLOCKING
+SECTION
+TIME
+DELAY
+NOTE VALVE SHOUN IN IHE
+SLUSY,TEN TEST Α DE
+OF PRESGUAE VESSEL
+INJEGANIY ENISTS.
+SENSCR BEL ALLOW
+DE CHANICAL- COWLE!ION OF SAITCHI-
+INTERCOINE CT/ ING F FOESURE VESSEL
+WAS LOST ν 'EGR:TY, THE
+PRESSURE SENSCR MB LL NOT ALLOW
+SENSING SLBSYSTEM COPLETION CF TE
+Σ Σ*ITCHNG
+Figure 9-17, Swicchöag Vadre
+9-10
+
+9-2.6.3 Selection of Fluid Medium
+MIL-H-5606 fluid is the most commonly uxd
+medium and has present widespread usage through-
+out the military world.
+Α synthetic hydrocarbon δ:fined by MIL-H-83282
+now is being considered for use in Army sircraft. Ius
+primary attraction is that it is significantly lcss Bam-
+mable than MIL-H-Σ606. Operationa! charactzr-
+istics at ve:υ low temperatures have not as yet bacn
+fully established.
+For α chorough discussion of hydraulic Buids, refes
+to AMCP 706-123.
+9-2.6.4 Filraticn (Contamiaatioa)
+Systern fluid filtration and external contamination
+factors must be considered since they have α direct
+efiect upon the reliability and scrviceability of the hy-
+draulic system.
+9-2.6.4.1 Fleid Fitratiou
+Several filtration mcthods are available. These in-
+clude: central filtration, subsystem filtration, return
+case drain ccncepts, and suctios line fitration.
+Central filtration involvcs α pressure filter, α return
+fiter, snd α φ ump caee árain fiter. This fitratior
+method requires that all critica! componcats, such as
+flight control sctuators, shall have inlet acreens.
+These scrocns shal be in the size tanlge of 100-150
+maicron sbsolute particie. ι.ε.. particias with two
+dirnensions larger than the riaximum allovable stall
+Subsysten filtration involves & pressure filser zhat
+cach component or subsysiem. The returs filter
+generally will be of α common single configuration.
+The casc drain from cach pump shail have α scparate
+filter.
+The return case drain philosophy applies to both of
+the foregoing categories. The case drain and return
+system filter functions may be combined within α
+single filtet assembly. The assembly may contain
+cither α singie- or two-stage clement. If the clement is
+two-stage, thc full or transicnt flow stage shell be per
+Mill-F-8815 (5 microns nominat, 15 mirsons abso-
+Jute) and ihe low flow or bypasing stage stall be 3 or
+5 microns absolute. The capabißity of the singke-stage
+eiement may be α compromise between the two. such
+as α Σ-micron abtolute capability.
+Succion lin: feltration genergtly is not used bocause
+the sucaion pressure capstvilities of pumps demand
+that the suction line pressure drop be hegi to α
+minimuns. This means & suction lite ciemest would
+be quite largt anst, thercfore. bufty and heavy. Tu
+weight penalty usually is unzcceprable.

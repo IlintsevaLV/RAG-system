@@ -1,0 +1,47 @@
+An example of an aperture-coupled field is shown dimensions of the aperture, if an attempt is made to
+in Pig. 12.11 in which the elliptical fuselage described calculate the fields near the aperture the results will be
+in Section 10.5.4 has been approximated two sheets βý too high, becoming infinite at zerm distance from the
+of infinite size, one containing the aperture 'and an- plane of the aperture. Correction factors may be [12.9]
+other serving as the reflecting surface. The figure applied to the above equations if the distance from the
+shows only the top half of the field pattern, the field aperture is not large, Fig. 12.12 showing an example.
+in the bottom half being symmetrical with the top Formulations of the problem can also be devised that
+half. The aperture considered was 0.2 mn high by 0.1 are not based on the use of infinitesimal dipoles, but
+in wide, the long axis of the ellipse being oriented at α simple rule of thumb is to recognize that the field at
+right angles to the plane of the figure. The short cir- the piane of the aperture cannot be greater than half
+cuit field strength (the field that would exist if the the magnitude of the short circuit field and simply to
+aperture were not there) was taken IM) Α/μ, as the ignore numerical answers that are larger.
+field strength that would be produced by the afore-
+mentionecd current 1000 Α fiowing axially along of the 4
+elliptical fuselage The field strength that would exist
+at the aperture was 80 Α/in, half of the short circuit
+_VO field.
+seen The field strength is to be inversely propor-
+-___"__
+tional to the cube of the distance from the aperture
+in question. Accordingly, the aperture 3. to the point
+coupled fields will be krv.ali.ed in spac, near the aper-
+80. η/% fs tham troublesome less thus are apcortures Small ture.
+large apertures, both berause of the decreased mag-
+netic field strength associated with the corresponding
+dipole and because of the lesser distance one must be 2-
+removed from the aperture before the field strength be- 0.'
+comes negligible compared to the field strength near
+the aperture. 0.1
+I
+I //" ",, II/R
+I 0
+Σ0.5
+Α/μ 0
+1I&" I\
+o.50 3.
+I *0
+ι'fs
+1.0 Μ 0.5 0
+Fig. 12.11 Fields coupled through an aperture.
+Major axis oriented verticafly - !
+(0.3 ξ 0.1 μ aperture).
+Lmidtations 12.5.3 Q!τ. 0
+circular aperture. Corrmwtion factors for α when the Fig. 12.12 is valid only The above formulation
+point at which the field is to be calculated is at α dis- In terms (α) of 1IR.
+tance from the aperture that 'σ large compared to the In terms of (β) hlIRO
+34ρ

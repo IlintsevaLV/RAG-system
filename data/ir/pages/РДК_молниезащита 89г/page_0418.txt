@@ -1,0 +1,83 @@
+conductor through the use voltage developed on the
+impedance, and R, the values of which Λ α transfer
+12
+depend upon the type of shield,
+The Inductance: vs. mutual Inductance Transfer
+with be confused should not Λ transfer inductance
+12
+and shield the Μ between inductance the mutual
+12
+that system conductor two the For conductor.
+9.13, mutual inductance in §9.7.3 and Fig. described
+shaded area the magnetic flux in the is controlled by
+would transfer inductance ρ3 while ρ and between
+2
+governed by the magnetic flux between ρ and ρ2. 1
+inductance, but the usage the term for transfer Μ
+2 1
+if of the shield were zero and If the resistance
+and the signal between the shield mutual inductance
+self-inductance, that were equal to the conductor
+of the shield on current of flow the coupling, unity
+to be developed any voltage would not cause cable
+section and the signal conductor. This tween the shield
+the factors that prevent the report will now discuss of
+conductor from between shield and signal the coupling
+being perfect.
+N
+~~~ "•:'..:..:,'~~
+,. .. ,.. .. .. : :.• ." . :'
+V, V) (..--....-, tIV)
+(α) /For
+(β)
+-- -- % % ,MV
+tVV, Ze If
+Α%
+(χ)
+cable. Fig. 15.10 Multiple-shielded
+(α) Test conditions
+(β) Conductor voltages
+(χ) Equivalent circuits
+
+shield Shields: Consider first α tubular of Thin tubular
+noise cur- 15.11. An external with no openings, Fig.
+through the resistance of the shield pro- rent flowing
+duces an electric field on the internal surface of the
+will be electric fields and external internal shield. The
+which through are no openings there and since equal
+term inductance the transfer can leak field α magnetic the
+zero. be will Eq. 15.4 of Λ was
+12
+-"
+β" 'Λ€°•Δ•
+- -
+is α
+the
+is,
+(α) the
+be-
+. 1RLN0MCUIST
+"
+,
+o (β) μ.-0
+effects resistance from resulting Coupling 15.11 Fig.
+Current and field polarities (α)
+"(β) Current and field waveshapes
+was of α tubular shield The transfer impedance
+and Eqs. 9.113 - 9.118. discussed in §9.9.1 previously
+the transfer imped- tubes and low frequencies thin
+ance is just the dc resistance of the shield;
+(15.4) 2irra R, =
+where
+ρ = radius of the shield
+α wall thickness =
+conductivity of the shield = α'
+electric field will be the The waveshape of the internal
+same as that of the external noise current.
+for which hold at any frequency Eq. 15.3 would
+thickness of is large compared to the the skin depth 6
+discussed in §9.4.5 and α shield. Skin depth was the
+expression shown to be numerically convenient
+6 ρ meters. (15.5) =
+6'fkH. F0
+403

@@ -1,0 +1,77 @@
+their long compared to the conductors are If
+spacing the terms cancel and the inductance be- δ1λ
+comes directly proportional to length:
+[
+In
+4 ξ ]H/ρ. I (9.66) = LT
+go - *"_ /77Z -
+return
+(α)
+-θ } ( β ) nruter
+pairs. Fig. 9.15 Conductor
+(α) Fields cancel
+(β) Fields add
+Conductors over α ground plane: If current flows
+con- α perfectly through and returns conductor along α
+in the ducting ground plane, Fig. 9.16, the current
+ground plane will be distributed, being most dense un-
+derneath the conductor and least dense at points far
+from the conductor. The effect is the same as though
+on an image conduc- the return current were to flow
+plane. The self inductance tor underneath the ground
+ground plane can then of α conductor over α perfect
+visualized as that of α conductor pair, the actual be
+plane. Taking conductor and its image in the ground
+the individual inductances in Eqs. 9.63 and 9.64, and
+I η gives: where case the evaluating for >
+(9.67) H/mn ξ10-ln[] Λ 2 Λ = Ξ.
+η
+, ,
+/ /
+, , , ,
+η
+ε•J-/-"•-/17 7 7
+CCZZZ7VO)-
+plane. α ground Conductor over Fig. 9.16
+Only one pair of inductances ι. involved; the im-
+does not actually carry current and the age conductor
+implies that it has concept of α perfect ground plane
+no internal inductance of its own.
+
+between two conductors, The mutual inductance
+9.17, is Fig.
+Δ
+[Σ] = 10- H/rn. (9.68) Λ 2 ξ In
+12
+perfectly conducting Ground planes that are not
+in §9.9.3. are treated surfaces
+#2
+2 η
+λ
+-
+inductance. in mutual involved Geometry Fig. 9.17
+Proximity effects: The above formulations of induc-
+conductors over α ground tance for conductor pairs and
+only approximations since they assume cur- plane are
+rent to be uniformly distributed over the surface of the
+conductors. This is not the case if the conductors are
+close together. Exact formulations involve hyperbolic
+functions, the inductance of α conductor over α ground
+plane, for example being:
+0 [ι
+(9.69) ]. H/μ cosh-'[ Μ Ll-
+ρ ι
+be also can 9.69 Eq. in function hyperbolic The
+written as:
+.υ7~Λ: H/re. [+ + (9.70) υ λ ln
+Thus eract expressions for inductance can be written
+by substituting:
+I for 2η. (9.71) + + η
+• ρ 7
+in 9.67. Eq.
+ignoring proximity effects Generally the error in
+Even when η δ, the simplified formula of is small. -
+than 9,67 predicts an inductance only 5 higher Eq. %
+These proximity predicted by the exact 9.70. Eq.
+effects do not arise on isolated or coaxial conductors.
+2Ω

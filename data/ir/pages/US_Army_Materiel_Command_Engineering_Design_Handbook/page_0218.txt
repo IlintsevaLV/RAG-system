@@ -1,0 +1,55 @@
+A•P 706-202
+modes operating of the rotor. hcli.-opter and compound; and each to discuu speed with the Thus, under
+the number of degrees of freedom is reduced, fixed and rotating system divergence and flutter, or
+simplifying the equations of motion However, the static and oscillatory aeromochanical instabilities.
+analyses of the mechanical instability ranges and J-K
+L-M in Fig. 5-16 are identical to the two-bladed case 5-4.4.2.1 Helicopter
+and must be treated with the same considerations.
+5-4..2.11 Ixcd System
+5-4.4 FLUTTER Historically, relatively 1i'tle attention has been ASSESSMENT
+heli- for flutter and divergence fixed-system to given di- arc instability rotor potential of types other The
+requirements design end operational as other coptcrs, that follows and flutter. The discussion vergencc
+and operating life, fatigue static strength, as such 5, in Chapter given review the analytical supplements
+and flutter. precluded divergence speed havc AMCP 706-201.
+When the developing acrodynamic force simply
+overpower the elastic constraints and the motion 5-4.4.2.1.2 Rotating System
+exceeds some presdlected bounds, i.e., goes unstable, A number of rotor acromechanical instability
+divergence has been reached. Flutter usually involves problems were encountered in the period before 1960.
+change in and coalhacence of two or more system Solutions usually were worked out by trial and error 2
+natural frequencies because of dynamic or aerody- long before they were understood mathematically.
+nemic effects, and the coupling of oscillatory motion Included were problems such as weaving, pitch-flap.
+of the lifting surface with the airstream in such a way pitch-lag, and pitch-conc instabilities, and stall and
+as to derive energy irom the airtream to increase the binary flutter. Of thesc only o11c of recent occurrClece
+motion. is stall flutter, which has been actively restarched
+The first formulation of the flutter problem was (Refts. 30 &iid 31). This work has provided an under-
+published in 1934 and subsequently republished as standing of the problem and the ability to predict the
+26. reasonable accuracy. houndary Rcf.a. iuwitr stall with
+Each potential fluster problem is related to modal The basic dexign changes that sol~ed most of these
+couplings that are configuration-oricnted. and the problems were overbalanced blades, torsionally stiff
+number of such couplings is very large. Furtier, in H-lades, and, with the advent of hydraulic boost, in-
+each specific configuration, the stability equations in- creased control-system stiffness.
+volve a large numbcr of parameters whose meaning During the design of conveuit.onal rotors, the cur-
+and measure are only made clear by a rather precise rent practice is to forego elaborate calculations. The
+analytical diagram or model. Thus, a specific, rather only mandatory check for main rotors is that the
+than gen-ral, method has evolved. No method has yet chordwise location of the effective CG of the blade be
+bearn devised for writing mcaningful specifications forward of chord, and preferably forward of 24% 25%
+and simple instructions for designers for the preven- chore- For unconventional designs, Serious con-
+tior' or avoidance of these instabilities. Notable sidertion should given to detailed quantitative be
+attempts toward simpiification are given in Ref. 27 analysis. The list of known problems should be
+for fixed-wing aircraft and Ref. 28 for helicopters, checked to see if an analytical solution is available,
+and a recent attempt at ordering and classifying is preferably a method that has been checked against
+given in Ref. 29. experimental results.
+5:-4.4.1 Carrels Crlittr 5-4,4f2.2 Compound
+static and oscilla- list of "7he most comprehensive
+System Fixtcd 54-4..2.2.1 for hell- to date compiled instabilities tory acroclastic
+is presented in Ref. Several specific con- In the development of compound helicopters, con- 29. coptem
+•3-figuration-oriented problems are named, and' for- sidcrable a:tention has been given to divergenmc and
+the speed range beyonw due to the extension of and oscillato- flutter for determining static mulas are given
+prvc- helicopters. Conventional to that of conventional list could be extended stability boundaries. This ry
+as those outlined in Chapter AMC-- specification dealing with tices, such form the basis for a usable 5.
+case, signim.!- one known In adequate. are 706-201, to helicopters. basic phenomena the aeroelastic
+cant buffeting of the vertical fin was encountered due
+Cosu.derations Dedpa to the impingement of disturbed air from the hub and 54.41
+the up by cleaning was solved The problem pylon. it is convenient considerations, design To discuss
+"to flow. as configurations aircraft the applicable classify
+5-23

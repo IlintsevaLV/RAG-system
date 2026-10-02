@@ -1,0 +1,97 @@
+CHARACTERICS TYPICAL 7-2. TABLE
+U I
+..
+" URREN • Τ C / H Τ . WEIG ' • 'Τ Π EW - hr β
+lb 2hr CAPABILITY TYPE AT
+Iu IRATE
+50 CAPACITY ξ 10-13 75 NICKEL-CADMIUM
+CAPACITY 10-13 20 78 LEAD-ACID ξ
+ξ CAPACITY 6 2530 34 SILVER-ZINC
+not reach current does gtnerator output When the
+"the at battery will charje limit, the current-regulator
+will be deter- The charging current voltage. constant
+during the battery of charge of the by the state mined
+considered. out- When the generator time .intervals
+the current-regulation to exceed current tends put
+the reduces automatically regulator the limit,
+" the to lim;τ the current voltage so as to generator
+the battery these conditions, value. Under regulated
+equal to thc oaf- current cha.rae,• at α constant will be
+and the current the regulated ference between
+battery state- in current. The increase utilization-load
+by the can be computed this ".ase in 6, of-charge
+formula: followinm
+Α-hrSuch 0.8I
+Α-hr (7-2) Σ-
+where
+- charging current, Α Ic
+min time, charging χ -
+efficiency charging 0.8 -
+battery including loading system total When
+-
+of the rating exceecs the continuous charging -
+output the limits regulator current α generator,
+battery the that means This value. safe α current to
+the utilization difference between the supply ust. μ
+current. generator maximum the and load current
+the operating, is the system when any case, In
+at or discharging charging either always is batte~υ
+of the overall by the demands determined some rate
+generator. output of the and the system utilization
+"The any at charging state the of conditions actual
+and voltage generator the by controlled are time
+current regulator.
+in nickel-cadmium especially temperature, Battery
+over- to prevent be monitored should batteries,
+of Α combination reduces capacity. heating, which
+of 150•°F) and (ι.ε., in excess battery temperature high
+7-16
+
+24 SYSTEMS AH BATERY V, 34 OF
+~~~RETE•NT
+'AE• ION
+" , FONo . HARG • . OFCh / - η / β-
+CELLS CEtL 14DAYS AT200Α, AT200Α,
+VOLTAGE 80"F AT 0 of 800F
+.1,2. 19..; 93% 7 9
+j 1.9 12 90% 5 3
+1.4 17 88% 16 17
+in α con- can result at constant voltage overcharging
+un: This is an runaway". called *'thermal dition
+that ulti- temperature rise in battery controllable
+As the temperature the battery. will destroy matcly
+resistance decreases, effective internal increases, the
+drawn from the currents to be ever-higher permitting
+the re- decreases in turn source. This constant-voltdge
+spiral. ever-increasing in an still further, sistance
+the battery condition of the over-all In general,
+SOMA" cha-o"ν-- monritor,,δ durins should be
+(battery con- systems incorporate control lations
+and tewiiperature which monitor ditioner/analyzers)
+bat- the geneial constantly analyze state-of-charge,
+ar on and off charging proess status, and cut the tery
+conditioas dictate.
+systems typically us,; other approaches to
+battery-charging, some of which are itemized in
+operational with tweir rincipol 7-3, along Table
+characteristics.
+7-3.3 UTILIZATION LOAD ANALYSIS
+.
+based be should assignments load utilization I he
+cn- be to likely conditions dcmand;ng most the upon
+it shoud For example, operation. countered during
+night, at ting is oper, aircraft the that be assumed
+and climb, during takeoff, lights used landing with
+duration the conoerning data Approximate landing.
+To obtain assumed. or known be should load each of
+the inter- analysis, the load from results conservative
+occur to are considered usually peaks load mi:tent
+duration, heavy the short Despite concurrently.
+can reduce starting, engine as during such loading,
+be con- should and sharply capacity battery the
+sidered.
+arbitrary set of prepared for an load analysis is The
+set of conditions α svere Too conditions. operating
+Fpst during power system the would overburdcn
+choce ot conah- optimistic An overly operations.
+aircraft. The of the limit the usefulness tions would

@@ -1,0 +1,90 @@
+AMCP 706-202
+APU during grouns checkout. Central system com-
+ponents include:
+1. System manifold, a package containing system
+fiiters, pressure transmitters (with associated snubber
+and fuse), system relief valves, ground test connec-
+tions, snd return line check valves
+2. System accumulator, α gas-β'echarged, piston
+unit with associated servicing valve and pressure gage
+3. System reservoir, including return and pump
+suction line fittings, bleed and fill provisions, over-
+board vent, and level indicator. The reservoir also in-
+corporates reservoir level-scnsing. with associated
+subsystem isolation valves.
+9-2.1.2 Flight Control Suksysterns
+A typical fight control subsystem consists of (1) s
+boost-actuating system, (2) a stability augmentation
+system (SAS), and (3) a stick boost hydraulic system.
+The pilot's control movements, transmitted through
+a sysiem of bell cranks, rods, and levers, are mixed to
+provide the correct lateral, cyclic, and pitch motions
+through hydraulically powered actuatoss as shown in
+Fig. 9-2. If dual actuators are used, cach half of the
+act'sator is powered by a separate system.
+A typical du; } reversed SAS is jiiustrated in F.g. 9-
+3. The SAS actuator inputs to tr.e boost actuators
+affect the movemeni of the rolor blades without feed-
+back forces to the pilot controls. The SAS actuators
+must be capablc of being engaged or disengaged by
+the pilot, and musi incorporate an automatic lockout
+feature that oper:tes in the event of hydraulic power
+failure.
+а1,“л s~..
+т
+Figare 9-2. Dual System Hyd:sulic-powered
+Flight Control Actuntors
+SCLEAC A!
+PRLAE RECLIER
+9IURN
+dan$ !rSTEe ?
+Figurr 9-3. Dual-powered Stabiliy
+Augncetation Sysica
+¢-2
+
+т
+2
+The stick boost system provides the pilot with low-
+force sick movement capability. As shown in Fig.-9-
+4, an actuator is provided in each axis to overcome
+friction and inertia loads. The:e actuators function to
+react inputs from the SAS so chat they cannoi bc felt
+through the pilot controls.
+9-2.2 UTILITY HYDRAULIC SYSTEMS
+The uility system may be powered in cesentially
+the came manner as is the flight control system, using
+accessory gearbox-drivan pumps when the rotor ic
+turning or the APU for ground operation. Tke cen-
+tral portion of the system will contain basically the
+same components as docs the fight control systern. if
+system demand during peak load phases is relatively
+high, additional pumps in parallel may te necessary.
+To minimize the weight and size of subsystem Crcuits
+that do not have high pressure and fow require-
+ments. pressure reducers should be considered.
+9-2.2.1 Engine-starting Subsysiems
+There are two basic types of hydraulic enginc-
+staring systems. One uses a limited amount of stored
+encrgy that is available in an accumulator, while the
+Diber considers the maximum power ouipui availabic
+from an auxiliary power supply.
+Because energy is limitcd in the first type of system,
+the design goal is to complete the start in the shortest
+possible time. As shown in Fig. 9-5, enginc starting is
+RETURN
+SUPPL SYSTEMI
+DUAL ACTUATOR
+TYCAL
+COLLECTIVE Y48 Р!Ск ROLL
+RETURA SUPPLY SYS1EN?
+Figure 9-4. Dual-powered Stick Boost
+Hydraulic System
+CAS
+FLut ACCUMULATOR
+:ge i RECrAhGIM VALVE
+START VALVE
+TARNNE
+YORAULO. STARYEN
+PE SERVOR
+Figwe 9-5. Hydroulic Sirting:
+Eners gy-Homiied System

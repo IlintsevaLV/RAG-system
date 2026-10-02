@@ -1,0 +1,104 @@
+The vaiving unit is composod of α scat and α con-
+trol cleme.ns. The scat may be Nat, spherical, or con-
+ical in shape. with its configurstion determining the
+sealing and opening characteristics of the relief valve
+to α large degree. There are four commonly used con-
+trol element doigns: ball, conical-poppet, V-poppet,
+and piston.
+The ball control element is used extensively in both
+quick-opening and proportional relief valves because
+of its simplicity, low manufacturing cost, and in-
+herent self-aligning capability as it rescats. When
+used in α quick-opaning relicf velve (safoty vaive), the
+ball tends to chatter when discharging fluid. It is
+limitod to smail valve sizes, and has α short life cyclc.
+Like the ball control, the conical-poppat may be
+used in both quick-opening and proportional relicf
+valves. Conical-poppets Iend themsclves to larger
+port sizos, but roquire closer tolerances on the scaling
+surfaces of the poppet and soat. The control element
+stem must be guided in order to obtain alignment
+between thc poppet and scat. When the valvr. is open,
+however, the inzide surface of the guide is cxposed to
+thc fluid. If gae is discharged. cooling during expan-
+will prevent the valve from closing. This type is
+quicter in operation than the ball, due to frictional
+damping induced by the guide.
+The V-poppet element is used only in safety valves.
+As soun az the valve starts to open, the fluid — by
+changing momentum duc to the V-design — exerts α
+greater force against the poppet, causing it to pop
+open for full flow. The poppet uses only its inner cone
+for α scaling surfacc. Like the conical plug. the pop-
+pet stem is guided. Precision machining is required in
+order to obtain accarate poppet-sest concentricity
+and alignment.
+Α piston sometimes is used in relief valves for
+closed air systems. The piston offers no positive
+scating surface to prevent Icakage, depeno.ng pri-
+marily upon closc tokerances. Valve opening is pro-
+portional to the overpressure. Pistons are uscd com-
+monly as the socond stage in pilot-operated relief
+valves, rather than in singlo-ziage valves.
+9-3.2.6.3 Preamere-reduciag Valves
+The most practical components for maintaining
+socondary lower pressures in α pncumatic system are
+two-way valves that sense downstream pressure in
+order to close. There are two types, direct-acting and
+pilot-operated.
+Direct-acting valves are usually of sliding spool
+design. Air flows from the high-pressure inict to the
+low-pressure outlet. An adjustablc spring holds the
+9-38
+
+poppet or spool open, and roduced pressure auts to
+closc θ valve. When the valve is clcred. α small
+quantity of air bloods from the low-preasure side of
+the va've through the spring chamber to the atmco-
+phere, usually through α fixed or adjustablc orifice in
+the spool or body. The bleodoff prevents dowastream
+praaure from increasing above the valve stting
+bocausc of spool lcakage when the valve cioses. The
+spring chamber always is drainod to he atmosphare
+in order to provent fuid proasurc from building up
+and holding the valve open. Dimct-acting valvos
+require α large envelope to provide space for the
+spring and adyustmont. Also, spring ranges usually
+arc narrow. As in reliof valvos, α small pilot sction
+may be addod to control the main valve.
+In α pilot-operatod. prossure-roducing valve, the
+stream pressure at both ends. Α light spring holds the
+vaive open. Α small pilot rolief vaive, usually buit
+into the main valve budy. bleods air to the atmoe-
+phere when roduced pressure reaches the pilot valve
+spring sctting causing α prossure dmop acroas the
+Spool or poppet. Prcusure differential iban mroves ii
+toward its cloeod position against the force of the
+light spring. The pilot valve relieves only enough fuid
+to position the main vajve spool or poppat so that
+flow through the main valve oquaks the flow roquire-
+ments of the roducod-pressure circuit. If no flow is
+requirod in the low-proseure circuit during α portion
+of the cyclc, the main valve closas. High-proasure air
+Icaking into the roducod-prousure soction of the valve
+then returns to the atmosphare through the pilot
+relief vaive. Pilot-operated, prousuro-reducing vaives
+generaliy have α widor range of spring acjusiment
+ihan do direci-acting vaives. and provide mnore
+repctitive sccuracy. Howuver, contamination can
+block flow to the pilot valve, causing the main valve
+to fai to open properiy.
+9-3.2.6.4 Preanre Regulators
+The pressure compensator bypass flow rogulator
+and moisture separator usually is α part of the air
+compressor, and controls flow by diverting excoss
+compressor output overbosrd. In α typicai exampke,
+flow-pressure drop across α metering orifice is uaed to
+shift = balancod spool against α control spring. This
+spool movement is used to maintain α constant pres-
+sure drop across the orifice, diverting or bypassing
+excess supply flow. The pressure drop. which is deter-
+mined by spool area and spring force, is relatively
+low. •
+9-3.2.6.5 Directional Control Valres
+This term describes all multiple-pasage valves,

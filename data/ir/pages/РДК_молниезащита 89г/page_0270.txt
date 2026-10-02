@@ -1,0 +1,80 @@
+9.7.3 Inductance
+The self-inductance of α conductor is defined
+the ratio of magnetic flux surrounding α conductor the mutual the flux while current that establishes the
+inductance between two conductors is defined as
+ratio of the magnetic flux surrounding conductor 2
+the current in conductor 1.
+= 01/1 (9.52) Λ
+11
+(9.53)
+Λ = 02/11 12
+conductors: Isolated linear Determining the
+mag- the integrating requires conductor α of ductance
+netic field intensity over an area to determine the total
+flux set up by current in the conductor. An elemen-
+tary case is that of the isolated conductor of Fig. 9.10.
+in which the return path is assumed to be sufficiently
+far away that the magnetic field from the return path
+is negligible compared to that of the conductor under
+consideration. For dc conditions this implies that the
+return path is at infinity.
+The self inductance is controlled by the flux in the
+area Α-Β-C-Δ. Integrating Eq. 9.51 first over the lim-
+its -1/2 and 1/2 snd then integrating that expression
+over the limits rl and gives: ρ 3
++VI+7'
++] =2~~Li 0I[lt(
++ (9.54) - webers )27+!
+1ρ
+from which the inductance can be determined using
+Eq. 9.52.
+If there are two conductors, Fig. 9.13, the mutual
+inductance between conductors 1 and 2 is determined
+limits and that is, the by the flux between the ρ3; ρ2
+flux in the shaded area.
+the equation is the same as that The form of
+than being and ρ2, rather 9.54; the limits Eq. ρ3
+and Note ri. that the radii of the conductors are not
+involved, only their locations. This implies that
+well as filaments for defined be can inductance tual
+conductors.
+How one evaluates the flux, and thus the self
+mutual inductance, depends on the relative values of
+and ρ2 ρ3.
+Case I I > ρ : Under dc conditions the magnetic field
+3
+extends to infinity and so Eq. 9.54 must be evaluated
+over the limits oo and ri. When ρ3 = oo, the = ρ3
+
+sum of all the terms involving ρ7 goes to zero and thus
+the self-inductance of conductor 1 becomes:
+as
+to 10- /(1/('/), + 2 ξ =φ 1 lO-71ρ Λ11 Inj + (I+ V11ý2
+the
+to V +1+[]H (9.55) )2 -
+and the mutual inductance between conductors 1 and
+2 is:
+2xi-Tu[ln{Λ+λ 10
+in- + 1 + H. (9.56) )2 -2 -
+Case 2 ρ3 > and >. For α long conductor 1) I ρ-:
+under dc ccnditions the inductances are:
+In = 2 ξ 10- [ 2- H/μ 1- (9.57) Λ11
+ρ I .
+[ln Λ12= 2 ξ Λ' 11 H/rn. (9.58) lc-Τ1 -
+Λ J ρ2
+Note that the inductances are not directly propor-
+tional to length.
+Case 31 > ρ Where the : two conductors 3 are parallel 6
+length: equal of and
+10
+ ril I I- ξ = ν~ H LI (9.59) =2 .
+H = 2 ξ ]σ (9.60) Λ 1O-7λ[ln 12
+... ............... .............. '.. of
+................... ρ2
+mu-............................. ....... I
+. ....................... as
+. ...... ' ' ... ...
+or . ..........
+0 ry ρ2 ρ3
+Fig. 9.13 Flux involved in mutual inductance.
+254

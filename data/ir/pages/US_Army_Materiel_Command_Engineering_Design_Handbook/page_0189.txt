@@ -1,0 +1,105 @@
+5. Dutermine location for cooling fan and, based
+on required heat rejection rate of the coolcr, choosc α
+fan thet will most the airflow requirements of the
+cooler. Csoler spocificationc te be met arc:
+Ratod cil flow spm
+Rated air flow 3/min
+Ratod beat rejection Beu/min
+Oil inlet tomnperatuze •F
+• Oil out ξ temperature °F
+Oil inlet prcsure paig
+Oil preasure drop psi
+Air static prossure drop in. H,C
+(*Thcee values will be establishod by the sysien
+design and the heat rejxction requirements.)
+Any number of actual combinations of airflow and
+cooler sizes can meet the establisiod heat rejection
+roquirements. Hovever. tbe final choice will be based
+upon the sysiem interfaces, ι.χ., availabk fan Srive
+power; location of fan and ducting required; fan size
+limitations imposed by surrounding airframe or other
+hardware; and resulting limi ations on airflow coo!er
+location, and size linsitations. The necessaty cal-
+culations for α cooler and fan design are presented
+fuity in Reí. 18.
+44.2.2 Coolineg Fan Sizing
+Sizing of the cooling fan can be accomplished by
+the method Gescribed in Chapier 8, AMCP 706-201.
+The airflow requirements (volume, pressure, and
+velocity) will be determined by the heat rejaction
+required of the coolcr, the oil flow rate, and cooler
+core parameters. Based on the required airflow, α fan
+that will interface with the available drive and space
+can be designed to meet the requirements. Both axial
+and centrifugal fiow fans arc used in cooler blowers.
+Choice of the type of fan is dependent upon airflow
+volume and pressure requirements. The axial fan
+generally is used where higher shaft speeds are avail-
+able, and pressure head at the cooler is high. The con-
+trifugal flow fan generally is used where high volume
+flow at lower pressures is required. An adverse side-
+effect possible with the axial flow fan is α high pitch
+noise.
+44.3 EMERGENCY LUBRICATION
+Design of α power transmission system to mect
+specific emergency opcration requirements entails α
+comprchensive evaluation of cach and every dy-
+namic component that ca:: influence the loss of crive
+continuity as & result of interruption or loss of lubri-
+cation. Redundancy of power paths, dormant auxil-
+iary lubricants, secondary cooiing systems, and
+specific design tolerances are considerations directly
+pertinent to emergency lubrication or operation
+
+σ γ
+without bencfis of primary lubrication and cooling
+tablisbing and evaluating design paracuciers ax-
+sociatod with energency operation, ι.χ., fail-safe
+dauign (Rufs. 35. 37. and 38). Thc basic cricrion that
+og ra nn eqa minium of 30 min subaequent to tota! loes of
+lubricant. As α riaimum, thc continuing flight sball
+be at the power Icved requirod to maintain the spoud
+for maximum renge at sca level standard conditions.
+Lous of lubricant initialiy is synonymous with loss
+of cooling and is followed immediately by an in-
+creose is ihe coefficicnt of friction with attendant in-
+creasc in bert generation, due to the change to dry
+operation. As ibe primary beat transfer medium of
+oil is lost, an immediate heat buildup occurs at the
+heat-generating points; and the sccondary hcat
+transfer paths becorne paramount. If unstabilized
+healing is to be averted, the hcat gcnerating cierment
+must maintain α balance of heat generated to heat
+transferred through the secondary medium at α
+maximum temperature that is safe. Heat sources
+(gears and bearings) must be designed to minimize
+doy friction losucs, and ihc genrcrated hest musi te
+transferred away by the most efficient means avail-
+abkc.
+Gears desigucd for fail-safe operation must have
+sufficient clearanse to prevent interference at the
+higher stabilized tempersture. The clearance neces-
+sary is determined by calculating the differential ex-
+pansion between steel gear œenters and the same dis-
+tance in the housing. which is usually noaferrous
+material. For instance, α gear set consisting of
+straight spurs operating at α center distance Lco of
+6.0 in. and α normal operating temperature of 200 °F
+may attain α temperature of 900°F while the alumi-
+num housing containing the gesrs (and bearings) only
+rises to 400°F. The rate of expansion of the stecl Σ. is
+6.5 × 10-* in./in.-°F and the aluminum expansion
+rate Ss is 12 × 10-• in./in.-°F. The differential
+amount of expansion would then be
+ΔLCD = (Tδ -ΔTA1δ1) ×LD
+* [(Τ - Τ1)Fe δFe - (Τ - Τ1)Α δαt)
+× LcD
+[(900 -200)(6.5)10--(400 -200)
+(12)10-*1 ×6.0
+[(700)(6.5 × 10-•) - (200) (12)(10-•)]
+× 6.0
+[(45.5)10-^ -- (24)10-*] × β.0 (4-6%)
+= 0.013in.
+The significance of the preceding calculation is that
+the gears expand in α radial direction toward cach
+4-8?

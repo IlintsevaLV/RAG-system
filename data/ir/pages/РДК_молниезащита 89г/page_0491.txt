@@ -1,0 +1,95 @@
+and have the same waveshape. Under these ideal
+ditions there would be no limit to the amount of
+rent that could be injected by α core.
+In practice, two factors, shown in Fig. 18.23,
+to limit the amount of current that may be trans-
+formed. One is brought about by the resistance
+the conductor upon which current is induced. Current
+through that resistance develops α voltage which leads
+to an increase in core flux, even though the induced
+voltage may be distributed along the conductor and
+not measurable. The other is that the magnitude of
+the induced current will be less, by virtue of leakage
+inductance, than the inducing current, irrespective
+the resistance of the conductor. The net result is that
+eventually and will 01 be less than will always 02
+cay to zero. For sufficient the Α1 net flux in the core
+can increase until the core is saturated, at which point
+transformer action ceases.
+Since long conductors have more resistance than
+short conductors, it follows that it is harder to induce
+ones. than short current on long conductors
+current induci
+induced current1 "ι ε cEquivalent
+in
+Fig. Effect of conductor 18.23 resistance
+on core flux.
+Injection of Circuits Equivalent 18.4.2
+Transformers
+Some of the parameters affecting the response of
+α complete current injection system are shown in Fig.
+18.24. These include the capacitance of the storage
+capacitor; the inductance of the leads connecting
+storage capacitor to the transformer; the primary, sec-
+ondary, and leakage inductances of the transformer;
+and the inductance and resistance of the conductor
+under test.
+0!: Is Λ.
+-Λ, " Λ' Re Λ
+Σ,-
+Fig. 18.24 Factors affecting performance of
+an injection transformer.
+
+I
+con- The characteristics of the injection transformer
+cur- are among the most important properties. These pa-
+rameters relate to the primary and secondary induc-
+act tances, the flux in the transformer core, and the pro-
+portion of flux produced by current in the primary that
+of links the secondary winding. The difference in these
+two fluxes is the leakage flux, and it is the leakage
+flux that prevents the secondary current from being as
+large as the primary current.
+Determining inductance: For α given transformer, the
+primary and secondary magnetizing inductances may
+of either be measured on an inductance bridge or be de-
+termined by discharging α known capacitor through
+of oscillation. frequency observing the winding and de- the
+The magnetizing inductance can also be determined
+from the average slope of the Β - H curve:
+dO
+(18.14) N = Λ
+related to the degree which is Mutual inductance,
+of coupling between windings, can be determined by
+connecting the primary and secondary windings in se-
+in are up set fields magnetic two the that so first ries,
+the same direction (series aiding) and then so the mag-
+netic fields are in opposite directions (series bucking),
+as shown in Fig. 18.25(α).
+circuit of transformer: Knowing the pri-
+mary, secondary, and mutual inductances, one can pro-
+duce an equivalent circuit of an injection transformer.
+One such circuit is the Pi circuit of Fig. 18.25(β). If
+the number of turns on the primary winding is equal to
+the number on the secondary winding (the usual case),
+the circuit reduces to that of Fig. 18.25(χ). The ba-
+is induced can be that current the governing factor sic
+shunt the to inductance series leakage the of the ratio
+magnetizing inductance. Leakage inductance is not
+particularly affected by saturation of the transformer,
+but saturation does affect magnetizing the inductance.
+When the core saturates, the shunt impedance drops
+the to α low value and diverts current from the conductor
+under test.
+Complete equivalent circuit: Α complete equivalent
+circuit, Fig. 18.26, includes the parameters of the
+transient generator and the conductor under test, and
+ τ possibly the stray capacitance of the injection ;ans-
+former.
+For α typical small injection transformer, Fig.
+18.27(α), the measured parameters were as shown
+circuit that an equivalent Fig.18.27(β), indicating in
+would as shown in be Fig. 18.27(χ).
+Effects of multiple turns: The transformers are not
+constrained to be operated with only one turn on each
+478

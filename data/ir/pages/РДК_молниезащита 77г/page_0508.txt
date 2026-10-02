@@ -1,0 +1,42 @@
+tangent line is not obvious by inspection, specifications frequently require that
+10% and 90% the straight line defining the front be that passing through the
+points. Sometimes specifications require that the straight line be drawn through
+points. The duration of the tail, τ2, is most frequently defined the 30% and 9Wo
+as the time required for the wave to decay to one-half its initial amplitude. Some
+alternate specifications may define the tail in terms of the ε-folding time, the
+time required for the wave to decay to λ/ε, or approximately 37% of its initial
+amplitude.
+With some types of test circuits the characteristic wave produced is that of
+an exponential wave with α relatively small backswing, as shown in Figure
+17.λ(χ). Technically, such α wave is α damped oscillatory wave with α high
+degree of damping. Specifications made with regard to the peak amplitude of
+τ'λ, Α,, such α wave, and to the time to crest, or will be the same as those for τ,
+the exponential wave. Specifications relating to the decay time may refer to
+either the time required for the wave to decay to one-half (or alternatively 37%)
+of its initial amplitude or the time required for the wave to decay to zero, tj.
+Specifications which relate to an exponential wave with backswing frequently
+require that the maximum amplitude of the backswing, Α2, be less than some
+specified fraction of the initial amplitude. The duration of the backswing is
+frequently unspecified. In summary, then, the characteristics required to specify
+Α, the generalized triangular wave of Figure 17.λ(δ) are the peak amplitude, the
+time to crest, τ λ , and α measure of the duration of the wave. This latter may be
+either the time required to decay to half value, τ2, or the time required to decay
+to zero, tj. If is small with respect to either τ2 or τ j , τ2 may be assumed to be τ λ
+equal to one-half of τ3.
+1 7.3 Tests on Complete Vehicles
+Tests on complete vehicles may be intended either as full-scale proof tests
+of the aircraft and all its internal electrical and electronic systems, or they may
+be transient analysis tests to determine only how the wiring responds to the
+electromagnetic fields produced by the simulated lightning current.
+17.3.1 Proof Tests Techniques and Waveforms
+Proof tests on α complete vehicle are intended primarily to identify system
+incompatibility problems--systems which may operate properly by themselves
+but which may fail when the complete vehicle is subjected to lightning currents.
+For example, redundant systems may provide no redundancy when they are
+simultaneously affected by the same induced voltages. Typical test setups are
+shown in Figure 17.2 (Reference 17.4).
+In α test of this nature α high-power surge generator is placed adjacent to
+the aircraft; current is passed into one extremity of the aircraft and returned to
+the surge generator through an external wire or wires--preferably wires
+sufficiently well insulated that the test current is confined to the test circuit and
+does not enter the ground network of the facility where the tests are made.

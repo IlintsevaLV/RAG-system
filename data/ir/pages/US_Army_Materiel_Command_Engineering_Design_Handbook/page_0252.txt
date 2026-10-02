@@ -1,0 +1,110 @@
+"vice hall life. Service life dtermination consider,
+minimum, the flight mmneuver end loading
+ditiors of a realistic misklon profile and the resulting
+s streg of occurrence of damiagio frequency
+par. 4-1i. AMCP (ne 706-201).
+PROPELLERS M4
+""6-8.1 GENERAL
+The essential elements of propeller design
+described in the pariraphs that follow. Included
+discussion a of propeller dynamic behavior and
+it is handled in design; information on the
+and blades; and dcign of hubs, actuators, controls,
+description of how test data are used to verify that
+propeller has a satiufactory fatigue life.
+In many respects, the propeller design process
+much the same as the design of a helicopter
+However, bccause of differences in the technology
+and therefore in various details of the process,
+discussion for the most part is independent of
+description in prior paragraphs of the rotor
+process. Also. the design requirements specific
+g-eneraiiy propeiers arc bcyond the scope of
+handbook. Therefore, the paragraphs that follow
+descriptive 01.ly of the process and are povided
+assistance in thl - integration of propellers into the
+design of compound helicopters,
+Almost all propeller techiology has dtveloped
+conventional from design work and experience with
+aircraft applications. However, the information
+seated here is applicable to propelsers for helicopters
+as well. Where appropriate, there are special
+ments relative to helicopter applications. Propellers
+of metal or composite material, with hydraulic
+for controlling angle, are emphasized. blade Informa-
+tion on other kinds of propellers, such as fixed-pitch
+blade angle electrical with those or versions wooden
+actuation, may be found in ANC-9.
+The preliminary design procedure for choosing
+propeller is described in considerable detail in par.
+generalized 3, AMCP 706-201. The performance
+weight methods given therein allow an examination
+so of all pertinent variables tLat the best configura-
+tion can be selected. The best configuration is usually
+a compromise that depends upon the relat.ve
+tance of cruise performance, takeoff thrust, and
+characteristics. This systematic method of propeller
+selection has proven succesful for fixed-wing
+craft and can be expected to provide the basir for
+proper choice of propellers for helicopters.
+"Besides the fundamental performance parameters,
+noise frequently plays a major role in tht selection
+configuration. If propelier a noise is an important
+criterion, design some further compromise may
+
+AW~ 7036-2M2
+as a to be made as in both performance and weight quiet
+generialy con- propellers and require low disk loading tip
+speed.
+cycles design, the propeller diameter, During preliminary
+activity number of bladm% factor, integrated design
+"lift aelecaed. be will speed and rotational coefficient,
+The planform and twist distribution be also will
+distribution camber and type the airfoil and selected,
+significant performance parameters and defined, The
+are the aerodynamic loads under important oprA 4ing
+dine s e armte are and the rgn cocnt terforman
+haw conditiwns then computed for use in are the mow
+detail chanical design of the propeller.
+a PROPELLER SYSTEM DYNAMICS 5-842
+the Vibratory 5-&2.1 Loads
+The structural design of a propeller is determined
+primarily is by its aerodynamic configuration require-
+rotor. ments, and by the structural capacity required to han-
+die the -'rodynamic loads. Although the centrifugal
+this and steady aecodynamic loads must be taken into ac-
+loads the count, usually it is the vibratory that dominate
+design the structural design. Basic vibratory loads originate
+to from several sources, primarily thr following:
+I. i~s Aefudy-atini
+aie 2. Engine (These excitations, which generally are
+for
+significance with turbine engines and are not disa
+cussed her. The subject is treated briefly in Ref. 49.)
+3. Gyroscopic and inertial
+4. Stall flutter.
+pre- Vibratory aerodynamic blade lords are a result of
+the propeller operating in a nonuniform flow field,
+com- which cacses the aerodynamic lift on each blade sec-
+tion to vary as the blade rotates. For conventional
+means aircraft, the nonuniform flow field as primarily an
+angular inflow into the propeller disk resulting from
+with the attitude of the aircraft, which varies flight the of helicopters, some For weight. gross and speed
+factors that can cause propeller flow aberrations in
+a direction, velocity, and density are listed in Fig. 5-33.
+3- For normal flight ope-atin$ conditions, the non-
+and uniform propeller flow field is steady, and the varia-
+tion in aerodynamic blade forces as the blade rotates
+is periodic. The blade forces at each azimuthal and
+radial position may be calculated by standard aero-
+impor- techniques dynamic such as are used for propeller
+other performance computation. The harmonic compo-
+neqts loading evaluated of the may be by Fourier
+lotding. air- analysis of the periodic Thee harmonics are
+the the P-order atrodynamic excitations - I P, 2P, 3P,
+etc. - where P is the propeller rotational frequency.
+Although all of these excitations cause blade stres,
+;t of the strongest and mc important is that due to IIP
+(see Fig. 3-.'4) provided the dynamic design of the
+have propeller system is handled properly.
+5-57

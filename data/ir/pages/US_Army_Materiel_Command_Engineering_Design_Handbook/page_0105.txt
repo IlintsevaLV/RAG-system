@@ -1,0 +1,105 @@
+μ : dynsrnic viacosity, Ib-scc/in.8
+μ Poisson'σ ratio, dimensionicss
+υ heiical tcoth Icad lino inclination, deg
+EHD paremeter, dimensionless
+= densiiy, slug/ft'or Ib/in.
+σ =: standard deviation, dimensionicss
+φ - gear tooth pressure angle, deg
+- normal pressure angle (helical gear), deg
+- transversc operating prcesure ang!ε, deg
+gcar tooth helix or spiral angic, deg
+- angular acceleration or deceleration cf ro-
+tor. rad/sec
+ω rotational specd, Hz
+4-1 INTRODUCTION
+41.1 GENERAL
+The proper usc of this chapter as an aid in the
+achicvement of satisfactory transmission and drive
+system detail design requires α clear understanding of
+several basic concepts. The contents reflect the past in
+that prior applications are uscd to generate an ex-
+pericnce and information basc. The suggested analy-
+tica! approeches and techniques for design and for
+the basic sclections of gear, bearing. and shafting
+iguratiens represent the present state-of-the-art.
+H. vever. the technology as discussed docs not
+excludc the future in that arcas of uncertainty and
+limitations of knowledge are emphasized wherever
+they appear applicable. The mechanical drive system
+designer must practice his skill from α moving or
+living technology basc.
+The use of geared trunsmission systems predates
+recorded history. Α rclatively sophisticated differen-
+tial gear-drive system was employed in the Ch:nese
+"South Pointing Chariot" circa 2600 Β.C. (Ref. !).
+and geared drives still represent the most efficient
+method of power transmission. This chapter is in-
+tended to encourage rather than to subvert new und
+unconventional approaches to old problems. The sole
+limitation upon incorporation of the unconventional
+in helicopter drive systems is that thc basic rules of
+nature (laws of mechanical physics) are relatively in-
+violable and should be treated with respect,
+There is no perfect or unique design solution to α
+given power transmission requirement, and all
+known designs have been compromised by the indi-
+vidual requirements of the aircraft into which they
+must be integrated. Optimizaion of α design cannot
+be viewed within the context of the power trans-
+mission task alone; thorough tradc-off studics must
+consider such factors as suspension, layout, airframe
+support structure, retor control systems, aircraft
+weight and balance, space limitations, and locations
+ef engines. Almost any known drive system could be
+
+AMCP_ 706-202
+made lighter, more efficient, ar δ less costly if it werc
+not necessary to conrider interface effects. Hiowever,
+the design optimization techniques addresscd in this
+chapter are limited to the components of the power
+transmission subsy tems without consideration of the
+possible overriding effects peculiar to α given aircraft
+configuration.
+The designer must be aware of the significance of
+thc to:al Army environment. Major subsystem com-
+ponents such as gearboxes, driveshafts, or hanger
+bearing assemblics probab!υ will be subjecteó to
+rough treatment during shipping, handling. and
+removal frorn or installation on the helicopter. The
+consistent use of sophisticated or special fools and
+torque wrenches simply will not occur, even though
+specified by the designer. Extremes in temperuture,
+humidity, sunlight, precipitation, and sand and dirt
+contamination will occur during both flight opera-
+tion and lengthy periods of outdoor parking. Pres.
+sure cleaning equipment — employing steam, water-
+soap solutions, or other solvents — wili be usea on
+the helicopter and its drive subsystem; thess cleaning
+solutions may be more than 100'F hotter or colder
+ihan tne components crcating the fuithei risk of thci-
+mal shock. Exposure to such hostile envionments will
+occur repcatedly for long periods of time, but must
+not compromise the mission availability of the
+helicopter. Improper maintenance, tool drops, and
+reverse or improper installation where possiblc also
+will ccur. Component design must be tolerant and
+forgiviag of such treatment wherever practicable.
+4-1.2 REQUIREMENTS
+General requirements arc applicable to all drive
+system configurations. There also are specific
+requirements that vary according to the aireraß con-
+figuration and intended mission (par. 7-1.1, AMCP
+706-201) and general re juirements peculiar to par-
+ticufar configurations or arrangements of engines and
+rotors (par. 4-1.3).
+4-1.2.1 Geverat Raquirements
+Certain requirements are common to all Army
+helicopters regardless of configuration or intended
+usage. The desired level of attainment of thesc
+requirements and their rclative importance generally
+are specified in the appropriate prime item develop-
+ment specification (PIDs). Because .ne transmission
+and drive system represents α significant portion of
+the totai complexity and cost of the helicopter. these
+common requirements must be consicered during
+4-3

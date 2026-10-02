@@ -1,0 +1,96 @@
+aspucts of propeller design, determination of blade
+fatigue strength must be basod upon both compr:
+honsive fatigue tosts of full-scale blades and vibra-
+tory blade stresscs mcasurod on the aircraft under
+conditions represcntative of service operations.
+The number of vibratory stress cycles accumu-
+latod in the service life of α propelier is so great that
+vibratory strescs below the endurance limits are
+nocassery for most operating conditions, For in-
+stance. assuming α 1Π vibratory strrss and α rota-
+tional spocd of 1500 rpm, 9 × 10° cycles are accumu-
+lated in 100 hr of service.
+Somc momontary or intermittent operating con-
+ditions can occur in which stress amplitudes excced
+the endurance limit. Each cycle of such stress uscs up
+some of the fatigue life of the propeller, and it is
+nocessary to cstablish conservatively that the ac-
+cumulaton of thesc cycles can be tolerated. Current
+practice is to appiy Miner'σ Rule for cumulative
+fatigue damage.
+Vibratosy stress limits must be derived primarily
+fromn controlled laboratory tests for full-scalc pro-
+pelier blades, suppienented by apecimen tests.
+Ground and flight mcasurement of propeller vi-
+bratory siresses during aircrati operation is describedi
+in Chapier 8, AMCP 706-203. The instrumentation
+roquired, many of the co: iderations involved in
+planning and executing α vibratory stress survey, ard
+the interpretation of results are included. Certain of
+thesc subjects are summarized in the paragraphs that
+follow, with emphasis on the interpretation of resulis.
+An example of the application of Miner'σ Rulc is in-
+cluded by reference.
+5-8.5.1 Endurance Llealt and Other Strecturat
+Teating
+5-8.5.8.1 Specianes Toots
+Cosriderable information about the fatigue
+sirongth of propetier blade material can be obtainod
+from specimen teus. Α discusion of types of iesting.
+mumber of sasapica, and statistical intarprctation of
+fatigue sest data can be found in Ref. $7.
+5-E.3.1.3 Fuil-ecade Toats
+Sperimen testing can cousplanent, but nover
+repioce, tasting of full-scale production compononts.
+Rocauee of the larg : sipe, fabr ation differonoes, and
+differences in airees statc, fuli-ale comptsonts tend
+to kave botie lowor smeea fatigue strengths and
+grauies gustier thas convantional laboratory spaci-
+suons. Α typical ilicestsrntion of thsis difforesce is sbown
+in Fig. Σ-4σ, wiaare tie msan fatigue strength of fuail-
+acade componesle at larger nunbere of cycies is about
+σ ee o gq
+5-7
+
+mmlL.
+MEAN
+SPLCIMENS - ± 2 oLIM:TS
+AMPLITUDE
+CYCLIC STRESS FULL SCALE
+CYCLES TO CRACK DETECTION - LOG SCALE
+Figure 5-48. Fatigue Strength Difference Becween
+Speclmen and Fuli-scale Tests
+(represented by the cocfficient of dispersion; ι.ε., the
+ratio of the standard deviation in fatigue strength to
+the mean fatigue strength, at α particular number of
+cycics) is generally in the range of 5-10% for
+specimens, but may be as high as 13-20% for full-scale
+componenis.
+The types of full-ecalo tests to be conducted depend
+upon π.evious tests on similar components, antici-
+pated service loadings and environments, and related
+service experience. The various rogions of the blade
+— tip, mid-blade, airfoil transition, shank and reten-
+tion — must de considered as to their shapes and
+fabrication details, their steady and vibratory
+ioadings, and their environmental exposures. The
+requirenents for fatigue tosting of propeller blades
+are similar to those for rotor biades discussed in par.
+5-7 and in Chapicr 7, AMCP 706-203.
+5-8.5.2 Fight Leade Teet Dete and Fetigee Life De
+turinination
+5-8.5.2.1 Abcrant Teats
+The instrumentation roquir.δ for measuring biade
+vibratory stresses in flight is describod in Chapter 8,
+AMCP 706-203.
+In general, survey tests are programmod to on-
+compass all significant service oporasing conditioas,
+with adoquate allowance for variability and, whare
+possibic, for future change and growth. Tbe rosults of
+α propoler vibratory stross survey customarily are
+summarized in plots of vibratory stros against the
+airspoed, power or time. The curvas usually are
+sclocced to show the bighast stresnos in the tip. the
+mid-blade, and the shank rigioas of the blade. An
+examplc of α strew summary plot is ahowe in Fig. Σ-
+fatigue life analysis.

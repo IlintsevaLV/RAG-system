@@ -1,0 +1,53 @@
+No practical thickness of paint is sufficient to pro- There are several aspects of windshield and canopy de-
+vide metallic conduction of α full lightning current. In- signs which could make them susceptible to damage
+stead, the paint acts mostly to guide α flashover across and designers should verify that these conditions do
+the coated surface and the lightning current is then not result in safety of flight hazards.
+carried mcre in the resulting arc than in the coating Windows and windshields are fabricated from
+of conductive paint. glasses, acrylics, and polycarbonates, or some combi-
+Conducting paint films are least effective if there nation of these materials. These materials all have
+is some conducting object under the surface of the in- higher dielectric strengths than the non-conductive
+sulating surface being protected. In such α case, the composites. Generally, conductive objects will not be
+arc voltage -night be high enough to cause α puncture positioned close to the inside surface and thus there
+through the insulating surface to that object. will be little tendency for α lightning flash to puncture
+Conducting paint does have the virtue that it can the windows.
+be applied to an existing surface, even one of corn- Lightning punctures can occur to the electrical
+plex shape. Copper paints have been the most widely heating elements embedded in windshield laminates.
+used. One of the most successful applications of copper
+loaded paints has been in the protection of helicopter Electrically heated windshields: Electrical heating
+rotor blades fabricated of non-conductive composites. elements embedded within laminated windshields are
+Α coating of conductive paint approximately 0.1 mm used to clear icing and fogging. Typical configurations
+(0.003 - 0.005 in) applied under the finish coat of paint are shown in Fig. 6.38. Heating elements are either
+has been shown to prevent punctures of the blade skin. fine metal wires or metal films, powered from either 28
+Paints have been less successful on blades with metal volt dc or 115 volt ac systems.
+spars or embedded heater wires because sufficient volt- Since the wires are of small diameter and arranged
+age builds up along the conducting paint to puncture in zig-zag patterns, an electric field directed through
+to the internal conductors. The mechanism is sketched the glass is concentrated at those wires and can result
+on Fig. 6.37. in puncture of the glass ply and conduction of light-
+Conductive paints are the least desirable of light- ning currents directly into the heating elements and
+ning protection methods, partly because of this volt- the power circuits. Electric fields can be produced ei-
+age buildup problem and also because they may erode ther by an approaching lightning leader or by electrical
+away when exposed to intense rain or hail. charge that collects on the outside of the window as the
+aircraft flies through precipitation. Puncture should
+provide they because films metal with less likely metalpaintbe metal paint less tendency for the electric field to concentrate at
+j ι--___ points. -
+V result from could that hazards Other potential
+- - R- puncture of the outer ply of the windshield are illus-
+contained partially first is the 6.39. The trated in Fig.
+hTatr wire shock wave. This is always sufficient to shatter the ex-
+inner to shatter the sometimes sufficient terior ply and
+ply as well. If that happens, particles may be blown
+directly into the pilot'σ face.
+of direct conduction is hazard potential Another
+very high surge currents into the aircraft'σ electric
+power distribution system, often after damaging the
+source. same the from loads powered electrical
+Fig. 6.37 Voltages developed along metal loaded Protection methods: One method of eliminating
+pamnt. these problems is to de-ice the windshield with hot air
+Windshields, and Windows Canopies 6.4 instead of electrical heating elements. Removing the
+heating elements eliminates the most frequent cause
+Windshields, canopies, and side windows are of- of windshield puncture and eliminates the conducted
+ten located in direct and/or swept stroke attachment surge problem.
+regions, Zones ]Α or Lightning damage to wind- The following approaches can be followed to re- 2Α.
+shields has not been frequent, but at least one accident duce or eliminate the hazards if electrical heating ele-
+in the 1930σ has been attributed to such damage 16.201. ments are present.
+146

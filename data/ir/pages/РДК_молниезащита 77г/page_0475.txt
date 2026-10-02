@@ -1,0 +1,17 @@
+- PULSE DURATION MICROSECONDS
+Damage thresholds of hex buffers. AE 16.12 CD 4050 Figure
+ductor electronic circuit components. These data were mostly obtained by
+1 to 10 ps duration and up t o 1 testing with a square-wave pulse input of kV
+peak. would be expected, not all such components are invulnerable to pulses As
+of this shape. The test results for several kinds of components are presented in
+8 Table 16.4 (Reference 16.20). The test conditions consisted of an 1 kV ps,
+pulse applied 10 times to each device. In the case of multiterminal components,
+several pairs of terminals were tested in this manner.
+Examples of Use Damage Constants 16.9 of
+Some examples of how the preceding material may be used to determine
+whether or not a given transient will cause damage to semiconductors follow.
+The first circuit chosen for analysis (Figure 16.14) (Reference 16.2 1) is a
+a simple remote-controlled relay. Across the terminals of the relay coil there is
+diode which would be exposed to the same transients as those to which the coil
+is exposed. The analysis approach that will be taken is first to calculate the
+current level that would cause the diode to fail and then to see whether or not

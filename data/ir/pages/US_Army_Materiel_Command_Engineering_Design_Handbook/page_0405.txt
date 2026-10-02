@@ -1,0 +1,99 @@
+χ. Piler'σ side consoles
+δ. Pilot'σ secondary panel lighting
+ε. Co-pilot/gunner'σ main instrument panel
+φ. Co-pilot gunner'σ side consoles
+γ. Co-pilot/zunner'σ seoondary panel lighting.
+Lighting rhoostats shall be capuable of continuous
+«djustament from FULL "ON" to FULL "OFF" to
+provide the low setings roquirod for use with light
+&mplification davices such as night vision gosgles. Α
+singie switch to control all cockpi: lighting shail be
+providod if night vision goggles will be vsod ex-
+tensively.
+10-2.3 LOW INTENSITY READABILITY
+Particular attention must be directod toward opti-
+mizing the primary instrument lighting and edgo-lit
+panels for readability at low intensity settings. All
+pointer, scale marking. and nomenclature shall be
+readable at 30% rated voltage when viewod from 8
+distance of 32 in. under fully dark adapted con-
+taining uniformity in scale design, and letter size and
+font. Two instruments may differ significantly in the
+total arcas of tbe dial fece marking: and the instru-
+ment with the greater total marking ares wil appear
+brighter. Careful attention to balancing the area
+betwoun instrumonts wili roduce thc differencce. In
+some cascs α resistor may be added in the lighting cir-
+cuit of the instrumont with greater apparent bright-
+pom if matching ζòε aroa of the dial face markings is
+not practical. Additional dosign guidanre in instru-
+mont lightizg design may be found in Refs. 4 and 5.
+10-24 WARNING, CAUTION, AND ADVISORY
+SICNALS
+Α.ll warning, caution, and advisory signals shal! be
+dreigned, diaplayed, and oporated in accordance with
+MIL-STD-4ι1. Α wamning signal is α signal ssscnbly
+indicating the existence of α hazardous condition
+roquiring immediate corrective action. Α caution
+signal is α signal assembly indicating the cxistance of
+an impending dangerous condition requiring at-
+tontion but not pocessarily immodiate action. An ad-
+visory signal is : signal assambly indicating safe or
+normal configuration, condition of performancs,
+operation of essential equipment, or to attract at-
+tention and impart information for routine action
+purpoecs. Spocial consideration shall be given to
+minimizisag erroneous signals, and to combining
+order to provide α more credible signal for such com-
+plex and critical situetions as an engine-out con-
+10-2
+
+dition. The use of α voios warnung aystan (VWS) aleo
+should be considered. VWS is adyantageous par-
+ticularly during mission phasos whon the crow'σ iask
+loading is high and their attention is diroctod outaide
+the cockpit. Under such conditions, α light signal fre-
+quontly may go undotociod for long periods of time.
+In addition when α problom is dotectod via α maataxr
+caution or warning light, tas specific cautura or
+warning light then must be located and read, and cor-
+rective action initiatod or deforred, depending upon
+the criticality of the problem. With Vws, tho caow is
+made aware immodiately of the exact nature of the
+proolem and can decide whether to initiate or defar
+corroctive action without diverting attentioa from
+primary tasks. However, as with α visuai overhesd,
+noise and auditory luad may not provide ar cnviron-
+mont conducive to the dotoction and recogsition of
+aural caution or -warning signals. The final mix of
+visual and auditory caution/waraing signals stad be
+basod on α human factors analysis of (1) criticality,
+ι.ε. time available to respond to esch caution war-
+ning signal; and (2) thc viaual and audio workioad of
+cach mission segment for which α caution/warning
+signal is critical. The lists of warning, caution, and
+advisory sigoals that follows are providod as α
+suggestsd bareiine. The final conliguration must be
+determinod from the subsystom failure modes and
+effects analysis, and the previoualy mentioned HFE
+analysis.
+10-2.4.1 Warning Siguals
+Warning signals should include, but not bs limited
+to, the following information:
+1. Engine out (identify engine if multiengine)
+2. Engine fire (identify engine if multiengine)
+3. Landing gear up (if retractable gear installod)
+4. APU fire (if applicable)
+5. Other fire 2ones (as appropriate)
+6. Low/kigh rotor/argine RPM.
+10-2.4.2 Caution Sheadk
+Caution signals should include, but not be limitod
+to, the foilowing informaticn:
+1. Low trensmission oil
+2. Low engine oil prossure (idontify engine if mul-
+tiengine)
+3. Low hydraulic fluid pressure (idontify system)
+4. Hich engine oil temperature (idenify engine if
+multisngine) 5. Low engine fuel prossure (identify engine if
+multiongine) 6. Engine fuel pump inoperative (identify engine
+if muitiangine)

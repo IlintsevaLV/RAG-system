@@ -1,0 +1,37 @@
+theoretically the conditions which will lead to surface damage because they
+depend upon many variables, such as the geometrical design and the details of
+the crystal structure of the surface. The theoretical prediction of surface arcing
+under pulse conditions is not practical (Reference 16.1). It should be cautioned
+that surface damage, in the general case, may occur in devices at power levels
+which are orders of magnitude below those sustainable by devices in which bulk
+occurs (Reference 16.2). damage
+Bulk damage, which results in α permanent change in the characteristic
+electrical parameters of the junction, indicates some physical change in the
+structure of the semiconductor crystal in the region of the junction. The most
+significant change is melting of the junction as α result of high temperatures.
+Other types of change may involve the impurity concentrations, the formation
+of alloys of the crystal materials, or α large increase in the number of lattice
+imperfections, either crystal dislocations or point defects.
+The simplest structure to analyze is α diode. Consider Figure 16.1. In this
+diode α current is assumed to flow as α result of some outside stimulus and, in
+doing so, to produce α voltage across the diode. This voltage may be the forward
+bias voltage (0.5 to 1.5 V), or it may be the reverse breakdown voltage if the
+I outside stimulus has biased the diode the reverse direction. Assume that is α in
+square wave and that is not α function of time, as it might be if V depended V
+upon the junction temperature. The instantaneous power dissipated in the diode
+is then also α square pulse of magnitude
+and the total energy produced is
+I
+Assume that the power level is sufficient that the device fails at the end of the
+pulse. Both experimental and theoretical analyses indicate that the power (or
+energy) required to cause failure depends on pulse width: the narrower the
+pulse, the greater the power required to cause failure. Over α broad range of times,
+typically between 0.1 ps and 100 ps, the power required to cause failure is
+inversely proportional to the square root of time. For very short pulse durations
+the power required to cause failure is inversely proportional to the first power of
+time, and for very long pulse durations the power required to cause failure is α
+constant threat. These relations may be expressed by the following equations:
+>
+Π Constant τ (16.5) 100 = ps
+1 where To generally lies between 10 ns and ps.
+Ω Figure 16.2 (Reference 16.3) shows an example for α 10 diode. The most

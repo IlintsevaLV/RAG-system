@@ -1,0 +1,12 @@
+I current on the shield =
+Λ self-inductance of the shield =
+Shield grounded at one end. Figure 13.4
+(α) Test conditions
+Voltages (β)
+Equivalent circuits (χ)
+This shield current reduces the voltage induced between the signal conductor
+and ground. The reduction in voltage can be viewed equally well from two
+different viewpoints.
+The first is that the shield current produces α magnetic field that tends to
+cancel the incident field. From this viewpoint the voltages on the signal
+conductors to ground respond only to the difference between the incident and

@@ -1,0 +1,26 @@
+H HIGHEST ON IS
+LEADING AND TRAILING
+EDGES
+Variation of magnetic field strength with aircraft radius of curvature. 9.3 Figure
+it follows that the tangential field intensity at the surface of a conducting object
+is equal to the current density at that point. This is in fact true, at least for
+transient currents. The relation is not true for dc currents or transients
+sufficiently slow that appreciable magnetic fields penetrate the skin. The
+H field vector is always at right angles to the direction of the orientation of the
+9.4) current vector. While small gaps in the structure (Figure direct the current
+around the gap, the magnetic field is virtually unaffected, except directly on the
+surface and on a length scale that is small compared to the dimensions of the gap
+interrupting the current flow.
+9.2 Determination of the External Current and Magnetic Flux
+Density
+Both the resistive voltage drops inside a structure and the amounts of
+magnetic or electric field which penetrate through apertures depend upon the
+external field distribution, most importantly upon the magnetic field distribu-
+tion. This section will discuss some of the ways in which this field distribution
+might be determined.
+The current density at the surface of a conductor is seldom determined by
+the dc resistance of the conductor; rather, it is primarily controlled by magnetic
+effects. The magnetic distribution of current density can be calculated in simple
+geometries. Around the periphery of a cylinder, for example, the current density
+is uniform, assuming the return path for that current is far removed from the
+cylinder: greater than ten times the diameter of the cylinder.

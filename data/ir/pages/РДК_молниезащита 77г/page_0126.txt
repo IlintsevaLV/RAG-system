@@ -1,0 +1,46 @@
+ratio below a definite minimum value produces a vapor and air mixture that is
+too lean in fuel to burn. Likewise, there is a maximum fuellair ratio which, when
+exceeded, results in a vapor space mixture too rich in fuel to be flammable. In
+between these extremes there is a range of mixtures that will burn. When only
+equilibrium conditions are considered, the particular fuellair ratio that can exist
+is determined by the temperature and altitude of the fuel system. The
+temperature determines the quantity of the fuel by controlling its vapor
+pressure, and the altitude determines the quantity of air. Therefore, by a suitable
+combination of temperature and altitude, under equilibrium conditions, the
+ullage of a fuel tank can be made either flammable or nonflammable b y varying
+combinations of temperature.and altitude.
+Much research into the fuel vapor and flammability characteristics that
+exist within aircraft fuel systems has been accomplished by many organizations
+concerned with aircraft propulsion and the resulting need to safely transport
+large quantities of fuel aloft in a vehicle with severe space and weight limitations.
+This research has included laboratory investigations of the flammability
+characteristics of the fuel vapors that exist within laboratory-type containers as
+well as those that exist during flight. Perhaps the most comprehensive laboratory
+work is that of Nestor (Reference 6.1), who has paid particular attention to the
+behavior of fuels in aircraft tanks and flight environments. Nestor shows that, as
+a result of the wide variety of temperatures, pressures, and motions that can
+exist in flight, there are correspondingly wide variations in the amount of fuel
+that can exist in the vaporized state. One reason for this variation is that, in
+addition to fuel already present as a vapor, the aircraft motion and vibration also
+cause the liquid to be dispersed in the vapor space in the form of mists and
+spray. An ignition source may preheat these droplets of fuel to a point where
+sufficient vapors are evolved to support a flame, even if insufficient vapor has
+been released from the bulk fuel surface itself. The heat from the developing
+flame then causes more fuel to vaporize and continue to feed and enlarge the
+flame. Temperature and altitude, however, are the primary characteristics that
+relate to flammability.
+The relationship of temperature and altitude to tank vapor flammability is
+illustrated by the envelope. A typical flammability envelope is flammability
+6.1 6.2). (Reference shown in Figure
+Turbine engine fuels are placed in two broad categories based on their
+distillation temperature ranges: wide-cut turbine engine fuels and aviation
+100 kerosenes. Aircraft with reciprocating engines are commonly fueled with
+octane gasoline. Turbine- Cjet-) powered aircraft fueled in the United States and
+A in some foreign countries utilize aviation kerosenes. These include Jet and Jet
+A-1 fuels. U.S. military aircraft and commercial transports in some other foreign
+B or JP-4, which are countries are fueled with wide-cut fuels, such as Jet
+The kerosene-type fuels with a higher percentage of volatile components.
+flammability limits for the turbine fuels as determined in the laboratory by
+6.3). 6.2 Nestor are presented in Figure (Reference
+The flammability envelopes are defined as lines beyond which no
+6.2 these lines flammable points were observed in the laboratory tests. In Figure

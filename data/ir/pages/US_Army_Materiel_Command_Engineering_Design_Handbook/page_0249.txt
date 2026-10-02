@@ -1,0 +1,98 @@
+8CP 706-202
+usually is prefcrable in order to include the esfocts of
+load iranafer butwoen components. For bonded,
+woldod, or otberwisc permanently fastened assem-
+blies indivicual component test dats must be ac-
+quised; or Σ-N dats of such components in like
+material, procrss, and configuration may be
+ampiovad, if available. Thcac data should be mod-
+ifiod by use of the Goodman diagram or other acccp-
+table means to relect the presence of steady loads as
+appropriate. Methods of obtaining acceptable com-
+ponent Σ-N deta are discussed in par. Σ-7.2.
+5-7.2 ENDURANCE LIMIT TESTING
+5-7.2.1 Generel
+Endurance limit testing generally is required to ob-
+ta' data adequate to guarantec the service life for
+rotor blades (sec par. 7-4.2.2.2, AMCP 706-203). This
+is tasting in which thc material and/or part is sub-
+jected to repested cycles of load, with or without α
+steady, or constant, load maintained. The endurance
+limnit for most homogenesus, near-isotropic materials
+has Seen established, and is defined in MIL-HDBK-
+5. Fatigue data for plastics and sandwich construc
+tion arc containcd in MiL-HDBK-¡7 uad -23, respeo
+tively. In most instances, these data are presented for
+both smootl: and notchod specinicns. However, with
+the introduction of many and variad reinforced
+plastics and advancea composites, applicable fatigue
+test resuits are not yet available in the litercture.
+Basic tests thus will ie required for such advaneed
+naterials.
+It is alvays necessary to exercisc care in uzing data
+that are related to the shape of material under con-
+sideration. For exsmple, the use of shect stock in
+rotor blgk: design diciete ite usc of tension-tension
+fatigue data, wher available, to predict skin fatigue
+life or the life of any part made from shect stock.
+However, it may be more appropriate to use R. R.
+Moore roiating beann fatigue date when solid bar or
+plate stock is integrated into the blade design. Ad-
+ditionally, an appliesble notc. factor, either inherent
+in the tesign or resuftäng from the manufacturing
+process is of primary inuporence.
+To confirra α materiai selectic:, it may be neces.-
+sary to cogdues coupon trsts to subutantiate α per-
+ticular material condition sot covered in the current
+literature. In conducting the coupos: fatigue tests, it is
+extremely important that the test msterial has beer.
+subjected to ihe processes associated with fabrice-
+ticn of the criticul comporent. In addition, tests shall
+be corducted cn ths pertisseni material sbape, using
+stock, bar, or plate as the design: dictates. Other
+aspecta of the proposad component contiguration
+such as edge condition, fillet radii, of snary bend
+5-54
+
+rsäii in joggles or over similar fitting sress, should be
+included in the specimens testod.
+Fatigue or endurance tests shal! be conducted on α
+sufficient number of coupons for ench condition. The
+number of coupons never shall ibe less than fivc.
+However, if the standard deviation ofithe data points
+for any teat condition exceods 15% of he sean strees,
+additional coupons shall be tested.
+Coupon tesis may be conducted on any suitable
+test fixture or stand capable of applying an aiter-
+nating load. The alternating load may be superim-
+posed on α steady, or mean, load to produce α load
+condition as show. in Fig. 5-31. In the normal rotor
+blade load sprctrum., cach load condition is α combi-
+nation of stesdy and alternating loads. Therefore, the
+use of this loading condition for coupon testing is
+rscommended.
+Coupon Jesign depcads upon the type of material
+being tested. When the material is shect metal stock
+some forin of the "dog-bone" coupon should be
+used. The transition from the gage seciion to the grip
+areu shall be such as to climinate α stiess concentra-
+tion due to saction change. An acceptable racius for
+such α transition is given in Ref. 47. Additionally,
+care must be tahen with ibe adge condition of shcet
+stock coupons. The machining of the edge should be
+controlled so es to pfevent thermal degradation of
+the material ncar thr edge. Edges should be prepared
+to α polished conoition by using fint grit sandpaper
+or by burnishing. In this manner 3 base line endu:-
+ance limit can be estabiished that will permit uotch
+and safety fa tor reductions from α reliable reference.
+ALTEFNATING
+STRESS
+STRESS MAXIMUM
+STECY
+SIRESS
+MIN!MLIM
+STRESS
+TIME
+Figuse 5-31. Aiterwating Stres: Superimposed on
+Stendy Stress

@@ -1,0 +1,86 @@
+MAGETo XTIRNAL PFrequency
+FOD MAGNETIC IN•NAL LINE
+,IRCULATINGCEMENT
+MCUAtM SY Τ-•Μ CI
+It
+I0MITM0 OF NROPAGAT"O It' o~.: - - OF THE
+INTERNAL MAGNETIC FIELD
+V, "of •% ---
+6
+(α)
+11 ι I)~,~j tIM.
+rI ρ , ρ , ρ . ρ, ρ ire
+Μ
+the governing Factors 11.5 Fig.
+internal voltage.
+(α) Geometry and decaying
+eddy currents
+(β) Current density at different
+times
+SCause skin of effect: The voltage rise along the
+nal path of Fig. 11.5 will be completely different AB
+from the voltage rise along the path of Fig. CD
+This is because the phenomenon of skin effect
+the buildup of current on the inner surface of the
+der. The origin of the skin effect phenomenon is shown
+in Fig. 11.5. If α magnetic field line is assumed to
+suddenly established internal to the wall of the
+ducting cylinder, there will be induced eddy currents
+circulating around that field line. These eddy currents
+will induce α magnetic field of their own of polarity
+opposite to that set up by the external magnetic
+Only as the eddy currents decay will the magnetic
+penetrate the wall of the cylinder.
+Further analysis of the resistively generated
+ages requires α discussion of surface and transfer im-
+pedances,
+11.3.4 Surface and Tr-anfer Impedances
+Z., The surface impedance is the ratio of the
+density current the to surface external the on field tric
+on the external surface, while the transfer impedance,
+is Zo, the ratio of the electric field on the internal
+face to the current density on the external surface,
+Formulations can be given in either θ• frequency
+the time domain.
+
+domain formulation: Exact expressions for
+surface and transfer impedance of α flat sheet were
+given in Chapter 9, but for most all cases of practical
+interest simplified expressions [11.3] are sufficiently ac-
+curate.
+(11.10) Z(• = κ--•coth(.jkmd)
+Z ) jkm .( τ~ κ .δ .χ = 1 .0
+(11.11) km/) = Zt(ω) ,sin(κ,,δ)
+where
+1(1
+-Μ (11.12) κ,,,κ (1
+thickness = δ
+conductivity.
+U--
+While ad can be readily eval- Eqs. 11.10 11.11
+uated in the frequency domain, it is sometimes help-
+ful to use series formulations. This can be done by
+expressing the coth(ξ) and sin(ξ) functions by their
+expansions. series
+inter- 1 0 1(.
+coth(ξ) + F, (113) =
+ 2 11.2. 2 (nw) "-1 + Ξ
+delays 00 2
+cylin- sin(ξ) 1 _! (11.14) ι = -_
+.- I
+be Substituting these expressions into Eqs. 11.10 and
+con- 11.11 gives
+Z'.(ω) = _- + jw 2-+ (11.15) %
+field. jw ω, +
+field
+~ ()= (1)ι
+volt. ird owl +iw/ω (I ) (11.18) 5
+where
+1 /.,)
+(11.17) elec.- #---) . -
+fat These formulations (11.11 are applicable to
+sur- sheets or to sheets having radius α of curvature large
+compared to the thickness of the sheet. conditions For
+so, or where this is not applicable formulas are Lgven iv
+Chapter 9.
+311

@@ -1,0 +1,111 @@
+number of (gear or spline) teeth N
+or bolts or sttds N number -
+number -τ orteeth on gear NI
+ number or teeth on piniot - NP
+ν number of discrete values -
+ number or radial nodes ν -
+ rotational R- - speed, rpm
+N - critical speed, rpm
+normal operating rotational speed, nap
+ pinion rotational speed, rpm -
+ load, - lb
+power loss, hp PL
+ power lors to oil cooler, hp PLC -
+-power loss to oil cooler (cold Pc
+hp
+Π base pitch, in. -
+ diamet'al - pitch, ?δ ir.'
+ transverse diametral - pitch (measured Π4
+large end of bevel gear), in.-'
+ friction - power loss, hp Pf
+- ver inuut pt to transmission, hp Π,
+ power loss, Π, - % of transmitted
+ mean - transverse diametral pitch Π,
+Sgear), in.-
+los,, oil pump hp Π, -
+Π, fastuner tension !oading. lb -
+ gear Π windage power loss, hp -
+ π pump discherge pressure, psig -
+circular pitch, Σ- in.
+pitch (helical gear), normal circular PM -
+ torque, lb-ft or lb-in. -
+ brake torque. lb-ft -
+skid torque, lb-ft Qs
+ flange torque capacity. lb-in. Q -
+lb-in. 0. stud torque. -
+ mean transverse pitch radius, in. R -
+ reliability (for I-hr mission), dimensionless R -
+ distance from pitch circle to point of R, -
+application, in.
+ρ radius of curvature of γ-,ar tooth, in. -
+-radius of curvature of pinion tooth, ρ
+.nrcbability of survival, dimensionless ι
+Σ rms surface finish. pin.
+allowable endurance limit stresi., psi Σ.,
+ bearing stress, psi SA, -
+ compressive Σ, - (Hertz) stress, psi
+ compressive (Hertz) stress at failure, Σ,.φ -
+Σ hoop stress, - psi Σ
+ bursting stress, psi Σ4 -
+• Σ, shear stress, psi
+Σ, tensile stress, psi -
+ torsional shear stress, psi Σ,, -
+ tempcrature, °F Τ -
+ ambient TI air temiperature, °F -
+4-2
+
+ ambient - air temperature (cold condition) TA
+OF
+ - critical temperaturm, F Τ,
+7". circular tooth thickness, in. -
+Τ initial temperature, °F -
+σ average external - surface temperature, "F
+ Τ. - average external surface temperature (cold
+condition), OF
+rpm U -- EH I speed parameter, dimensionless
+VI rolling - velocity of faster of two bodies in
+contact, it./sec or fps
+ rolling velocity of slower of two bodies in - V2
+contact, in./sec or fUe.
+conditiwi), total rolling velocity - (V, + V2) of two VT
+bodies in contact, ln./wec or fps
++ in./sec or fps VT (Vi V )/2. - 2 vldoc;ty, slig "4 V, - in,/sec or fps
+lb at load, Ω -
+Ω helicopter - weight carried on braked
+wheele, lb
+ EHD Ω - load parameter, dimensionless
+lb dynamic load, - Wd
+(bevel - failure load, lb Ω,
+lb gvat touih luad, _11
+ effective Ω - gear tooth load Ω).), (K. Ω, + -
+lb 4 .
+ω running - load, lb/in.
+Y modified Lewis form factor (spur gear), di- -
+mensionless
+Lewis form factor (helical gear), in. modified - Y -
+dimensionless
+Y4 modified - Lewis form factor (bevel gear).
+dimensionless
+ total - transverse length of line of action, in. 2
+7 .- ,,,,, α rn fam~ ,.,, ,ε,,onsn,., =
+Z,' modified scoring geometry factor kspur -
+gear), dimensionless
+load α pressure viscosity - coefficient, in3/lb
+α linear coefficient - of thermal expansion.
+in./in.-*F
+in. contact - anghe, deg
+di- fraction of - theoreticai contact (splines),
+.
+mensionless
+ 2 incraent, - deg F as Α I, or Α(Δ,,/ ), in.
+ mean surface roughness, pin. CLA 6 -
+ incremental &• lrowth, in./(in.-*F) -
+psi deflection, α - compressioo, or protrusion, in.
+ efficiency, 4 dimensionless or subscripts χ %. -
+ana and denote coarse ι %'id fine π. φ,
+pitch, pump, and transmission, respecti-
+C
+vely
+ ratio of oil film thickness to sur- -
+face roughness, dimensionless
+ failure rate, hr-' -

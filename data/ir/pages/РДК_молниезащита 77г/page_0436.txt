@@ -1,0 +1,47 @@
+452 aircraft. Oscillogram No. in Figure 14.21 indicated the rate of change of
+field as failing to zero at about 400 ys. This would indicate that the field itself
+reached its crest value in about 400 ys. The different nature of the response of
+the fields inside the gun bay and the battery compartment can be explained in
+terms of the types of covers and fasteners used on the two compartments. The
+cover over the battery compartment was held in place by fasteners spaced about
+every cm, and hence made good contact to the rest of the airframe. The use 3.8
+of multiple fasteners resulted in minimum constriction of the current flow and
+minimum resistance to the circulating current within the battery compartment.
+The gun bay covers, on the other hand, since they were originally designed for
+fast access time, had far fewer fasteners. The fasteners in the gun bay, in fact,
+were spaced about every cm. Accordingly, the cover on the gun bay provided 30
+a much greater constriction of current flow and a much greater resistance than
+did the cover on the battery compartment. Both of these factors were of a
+nature to allow the field within the gun bay to reach its peak value faster than
+did the field within the battery compartment.
+Some of the significant points about the results of tests on this aircraft
+may be summarized here. The first was that the use of a single-point ground
+system most emphatically did not eliminate all transient voltages produced by
+the flow of lightning current through the structure of the aircraft. The second
+was that the characteristic response of the wiring, both for voltage and for
+I MHL. 5 to The current, was a damped oscillation with a frequency in the range
+very abbreviated series of test results just presented does not indicate the fact
+clearly, but the frequency of oscillation depended considerably on the length of
+the circuit involved: the longer the physical length of the wires, the lower the
+oscillatory frequencies. This was not a clear-cut rule, since the response of any
+one circuit was greatly influenced by the high degree of coupling between all of
+the different circuits. The third significant point is that the total current on any
+cable bundle was of the order of 20 to 100 A for an average lightning flash. This
+bulk cable current was again oscillatory with a frequency tending to correspond
+to the length of the cable bundle. The equipment bays in this aircraft, not being
+designed for electromagnetic shielding qualities, allowed significant amounts of
+magnetic flux to develop within those bays. This is particularly true of those
+bays intended for ease of access. As a rule of thumb, it might be expected that
+on aircraft the equipment bays housing electronic equipment might well be
+fitted with covers designed more with ease of access in mind than with magnetic
+shielding qualities in mind. It must thus be expected that those enclosures for
+which the electromagnetic shielding should principle be the greatest may well In
+be those enclosures having the poorest shielding.
+No attempt was made to determine in this aircraft the degree to which any
+circuit voltages could be reduced by the use of shielded conductors. was I t
+noted, however, that on those circuits in which a shield was used and in which
+the shield was grounded at more than one point, the current on that shield
+tended more to have the slower double exponential waveshape of the external
+lightning current than to have the high-frequency oscillatory current excited on
+all of the unshielded cable bundles.
+426

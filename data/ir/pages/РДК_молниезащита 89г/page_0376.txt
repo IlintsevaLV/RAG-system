@@ -1,0 +1,94 @@
+It is largely for this reason that the standardized light-
+fning threat described in Chapter 5 is described in such
+detail.
+κ• 100 /
+(0)
+o •Full
+, . .best
+(β)
+to 0 Ums
+crest
+Fig. 13.12 Justifiable extrapolation.
+(α) Full threat current
+(β) Low amplitude test current
+13.3.4 Approaches to Pulse Testing
+There are several approaches to pulse testing:
+to test- Full threat verification tests: One approach
+ing is to subject α complete aircraft, fully configured,
+with all systems operating, to α full threat lightning
+current and observe whether any harmful effects are
+noted. If treated as α test, this approach Go/No-Go
+has, in principle at least, the virtues of simplicity and
+requiring the least time for preparation, but is seldom
+used in practice because:
+The cost 1. and complexity of α simulator capable of
+generating 200 kA peak current with the required
+fast rise time is excessive,
+2. The current and charge distributions on the air-
+craft while in the simulator will be different from
+those that exist while in flight,
+3. Since the test program would not be aimed at
+gathering information on voltages and currents,
+there would be no information with which to cor-
+rect problems should they be found,
+4. There is no predictable method to update test re-
+suits for aircraft modifications.
+5. The perceived lightning threat may be changed in
+the future as more data becomes available,
+6. There is α potential for damage to the test vehicle,
+Σ
+The major drawback to such tests is the cost and
+complexity of the test equipment. Equipment has been
+
+built to perform full threat tests, on small aircraft at
+(13.4], least but capacitor banks operating at more
+than 2 million volts are required. Because of the long
+duration of lightning currents, the energy required to
+be stored is many times that required for full threat
+nuclear electromagnetic pulse (NEMP) tests. Costs of
+facilities would be several million dollars.
+threat analysis tests: Conceptually, it would be
+to use full threat, or near full threat currents, dur-
+and voltage evaluate to measurement program α ing
+tests Such the aircraft. on points many at current
+are made during evaluations of NEMP effects, but the
+costs are quite high.
+Full threat lightning analysis tests have seldom
+been made on aircraft, partly because of lack of test
+facilities. Even if test facilites were available, costs
+would be high since the tests would require α consider-
+able amount of time to perform. Large energy storage
+banks require considerable time to charge, frequently
+need maintenance and safety requirements have to be
+quite stringent. Also, high current level test circuits
+are subject to the same constraints as lower level cir-
+cuits in such things as size and impedance of return
+circuits and relationships between magnetic and elec-
+tric field magnitudes.
+level oscillatory High tests: As discussed in §Α8,
+unidirectional current waves are produced either by
+leading to circuit complexity, or by using crowbarring,
+enough circuit resistance to damp oscillations, lead-
+ing to inefficient use of the energy stored in the surge
+generator. An alternative approach to testing, more
+widely used in the past than at present, is to accept
+oscillatory test currents when evaluating indirect ef-
+fects, just as they are accepted during tests of direct
+effects. Oscillatory currents of high magnitude can be
+produced by simple capacitor banks, but the wave-
+forms will be totally unlike those produced by natural
+lightning.
+Accepted practice, in the past at least, has been
+to make tests using two different generators, each of
+which produces an underdamped oscillatory current.
+One generator, usually operated in α Marx configura-
+tion, is configured to oscillate at high frequency and
+provide α fast rate of rise while the other is config-
+ured to oscillate at low frequency and provide α long
+duration current. The high frequency waveform is in-
+tended primarily for evaluation of aperture effects and
+the low frequency waveform is intended for evaluation
+of resistive and diffusion effects.
+Oscillatory currents (and have) had both advan-
+tages and disadvantages.
+361

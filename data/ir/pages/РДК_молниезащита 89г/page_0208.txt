@@ -1,0 +1,99 @@
+(a)
+lightning are
+tank products skin- are -uel
+-the uadapter
+, r Jscribed
+fasteneradapter
+metal potential arc e
+Srgcontacting
+metal chain lanyar
+COW
+lightning arc
+• s • cap surface notched metal
+products arc fuel tank skin
+fastener
+potential arc at source-
+"-0
+ring seal- plastic
+plastic lanyar
+Fig. Fuel 7.20 filler cap designs.
+(a) Unprotected
+(b) Protected
+A lightning protected cap typically uses a plas-
+tic insert so that there are no metallic faying surfaces
+across which sparking can occur. If a lanyard is re-
+quired, it is made of plastic since one source of spark-
+ing on filler caps was found to be along the ball chain
+used to retain the cap.
+Lightning protected caps are generally designed to
+be used in conjunction with mating adapters. An elec-
+trically non-conductive O-ring provides a seal between
+the plastic insert and the mating adapter to prevent
+fuel leaks. When a strike to the cap occurs, the result-
+ing lightning currenits arc from the cap to the adjacent
+adapter, since the O-ring seal prevents direct electri-
+cal contact between the two parts. The arcing creats a
+pressure buildup at the O-ring. If the pressure is too
+high, arc products could blow past the O-ring and into
+the fuel vapor. In order to minimize pressure buildup,
+a series of cutouts is made around the perimeter of
+the cap surface so that arc products can vent to the
+outside of the tank.
+An alternative protection design replaces all the
+metal parts of the cap with plastic, thus preventing
+direct arc attachment and any arcing from taking place
+at the O-ring seal.
+Lightning protected caps should always be used if
+there is any possibility that the cap may receive a light-
+ning strike, i.e., if the cap ,nust be located in direct or
+swept flash Zones 1A, or 2B. At least one spec- 1B, 2A,
+192
+
+ification, has been written describing MIL-C-38373B,
+a lightning protected cap. If there is any doubt about
+protection capability of the particular design, the
+cap should be tested with its mating adapter as de-
+in [7.28]. The interface between the filler cap
+and the surrounding tank skin can also arc
+and care must be taken to prevent such arcing from
+fuel vapors. The methods employed are
+discussed in §7.10.3.
+7.6.2 Access Doors
+Problems: Access panels or doors are found in nearly
+all fuel tank designs to enable installation and main-
+tenance of system hardware. Typical doors are shown
+in Fig. 7.21. Since they are frequently in the external
+skins, they are exposed to lightning strikes. Early tests
+showed that sparking could occur at access doors not
+specifically designed to tolerate lightning. Modifica-
+tion procedures [7.48] were developed which prevented
+sparking, even when the access doors were struck di-
+rectly. Such modifications usually consist of some com-
+bination of the following features:
+1. Avoidance of metal to metal contact between
+parts exposed to fuel vapor spaces.
+2. Provision of adequate current conduction paths
+between door and adapter and between adapter
+and surrounding skin, away from fuel vapors.
+This is usually via the fasteners, which are sep-
+arated from vapor areas by O-rings, gaskets or
+sealants.
+3. Application of sealant to other potential arc or
+spark sources, so as to prevent contact with fuel
+vapors. Sealants are discussed in §7.6.3.
+Protection techniques: Any design which allows the
+door installation to tolerate the applicable lightning
+environment while meeting other perfcrmance and
+structural requirements is acceptable and there are
+many design applications and approaches that have
+proven satisfactory. Some acceptable access door de-
+signs are shown in Figs. 7.22(a) through 7.22(d).
+0-rings: Fig. 7.22(a) shows a common design in
+which an O-ring, fitted in a slot in the doubler, pre-
+vents arc products around the fastener from entering
+the fuel vapor space. Instead, the arc products escape
+to the outside. In addition, the access door riveted nut
+plate (dome nut), doubler fastener, and the fillets have
+been covered with polysulfide type fuel tank sealant to
+contain the arc products occurring at these locations,
+thus preventing them from contacting fuel vapor.

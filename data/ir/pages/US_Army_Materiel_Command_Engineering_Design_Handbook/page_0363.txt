@@ -1,0 +1,96 @@
+EOE Σ02 C5WV
+thet will meet the previously mentioned goals. The al-
+terizatives τ) st may be considered are:
+1. Two os threc indepcndent, normally operative
+sysicms
+2. Normally operative system pius emergency
+backup systems, the backup(σ) normally being in-
+operative until loss of α primary system
+3. Normally operative systems plus hydraulic cir-
+cuit breakers (HCB)
+4. Intersystem switching for redundancy with sp-
+propriate provisions against loss of fluid in the newly
+applied system if first system failure is due to loss of
+Rluid
+5. Combinations of independent system plus intcr-
+system switching and hydraulic circuit breakers
+6. Use of armor in conjunction with sysiem re-
+dundancy
+7. Reversion to manual control where applicablc
+and possiblc.
+For examplc, computer analyses indicate that two
+systems vith HCB incorporated are nearly as sur-
+vivable as three independent systems, and that signi-
+approach. Α complete analysis of weight and cost im-
+pact versus survivability and reliability shall be con-
+ducted as early in thc program as possible. Close
+coordination is required with the procuring activity
+during this phase in order to insure that contract re-
+quirements are being met and that the design is ap-
+proved.
+The combat safety aspects are concerned pri-
+marily with fire resulting from battle damage. Fire-
+resistant fiuids are developed and shall be con-
+sidered.
+HCB concepts aiso should be considered as to their
+fire minimization impact since they can limit signifi-
+cantiy the amount of fiuid dumped into α fire.
+Noncombat safety aspects are focused primarily on
+gronind maintenance aspects of the system operation.
+This fscet is coverod in detail in par. 9-2.8. However,
+α davic flight contrc' safety requirement dictates that
+if there is α compicte power failure, at lcest one
+system shall be driven by the autorotating rotor.
+9-2.6.1.1 Reservoir Levei Sresiag
+Reservoir level sensing (RLS) is α technique which
+uses the reservoir to operate subsystern pressure shut-
+off valves mechanically. The reiurn portian of the
+aynem is isolated by α check valvc located in the
+return linc. Both the mechanicaily operated pressure
+stutoff vaive and θ return check valve shail be
+Jocated as ciose to the central power source as possi-
+ble in orger to provide the naximum central power
+souroe protection. RLS allows α reduction in punp
+9-8
+
+replacement, fiter changing. and fiushing systom
+maintenance. The RiS conoept can sensc and isolate
+* leak of any magnitudc, thus reducing subsystom
+component and/or linc leakage failures that normally
+cause complete system loss. RLS is detailed in par. 9.
+4.5.4, AMCP 706-201.
+9-2.6.1.2 System Swieching
+When normally operated or passive backup
+sysicms are used as backups for flight control
+systems, intersystem switching is an important con-
+sideration. The switching function must bc very
+reliabie, and must provide for climination of inter-
+sysicm Ieakage as : sieady-state or transicnt condi-
+tion.
+One method of accomplishing the switching fugc-
+tion is through thc use of α lapped spool and sieeve,
+wish pressure andi return of both systems on the sanse
+spool. To minimize intersystam leakage. only the
+returns are associated directly so that diffcreatial
+prersure between systems is minimized (Fig. 9-12).
+Α secoud alternative is usc of check valves to
+seferate the pressure side oi the systems. Α power
+iFresure snd spring) shuutic is used to switch the
+return syaiems. The prezzure and return suritching are
+accomplished independently. This approach may not
+de acceptabie under œrtain dynsmic conditions of
+system operation (Fig. 9-13).
+ESCEPT OR TOANEMS
+BACR-UN NORJU
+SVSTEU SUSTES
+CEIL
+Rt TUNN
+Figue 9-12. Coutbined Spool Swischáng ve
+BACA UP SYSTEN DE7um
+ьЕ
+IDAL ST3TEE
+TNSLA.
+μ
+10
+sarvsia
+Figare 9-13. Preeaure Check Vebres

@@ -1,0 +1,52 @@
+AMCP 706-292
+woapons; air-cooled, automatic 20 mm weapons; a1r- food train to insure equivalent belt tension on both
+cooled electrically-operatod and controlilod 30 mm sidos of thc gun fooder.
+automatic cannons, and air-coolod weapons for firing In other cascs, the food action introduces repeti-
+40 inm grenade ammunition. Typica! guus are listed tive accelerations upon the ammunition belt by
+in Table 14-1, requiring the belt to start, niove one cariridge pitch
+Operational and maintenance datailn are containod distance, then return to rest in the procces of firing
+in the applicable spscification. Us Army Armanient cach shot. Sharp turns in thc vicinity of the feeder,
+Command (ARMCOM). Rock Ialand, Il., can pro- and belt drag conditions that will cause link stretch
+vide information about gans not listod in Table 14-1 under these conditions, must be avoided.
+е and also can provide operation tomperatures, 'ubri- In some systems an ammunition booster will need
+catioa requiroments, powes requiroments, peak and to be addod at an appropriate location in the ammu-
+sieudy-state rocoil forcos, life of gun and critical nition path #- that the beit pull forccs are alleviated.
+parta, and similar partinent details on all guns The booster commonly is driven by a fractional HP
+available for belicopior use. motor and must be controlled by various means to
+Fos some applicatio s. the gun is installod on sense ammunition demand. Starting and stopping ac-
+rocoil sdapters. Thia installation minimizes the effect celerations must be controlled so that foeding will be
+of gun recoil forces upon the belicopter structure. In compatible with gun demand for ammunition. Care
+selecting and designing recoil adapters, careful con- must be taken to prevent obstructions from falling
+sideration siould bs given to gun muzzic cnergy: gun betwoen fiexible chute elements.
+weight, including attaching fooder and drive motor;
+and the rosponse dynamias of tbe helicopter struc-
+ture. ARMCOM can provide tbe iatest information 14-2.1.2 Lecatioa
+on those roquiroments. Gun location is part of the overall heicopter opti-
+Foud mechanisns for these weapons vary, and ench mization as discusied in Chaptar 2, AMCP 706-201.
+type preents & special set of design problems. In There are minimum roquirements imposed by the
+some instances, the ammu.sition feod must start from nature of the veapon. The location must provide
+reut and must roach the peak ratc cf fire within thc asccessibility, unimpodod projoctilc flight paths and
+tihne rcquirod for the firing of one round. This im- debris ejoction paths, and the ability to jettison
+poees high scceleration forces upon the foed train and externally mouniod gun pods; and it must be such
+the storage containers. that the vehicke can withstand gun muzzic blast
+In other applications, a foed mochanism is used effocts.
+that extrects cartridges from a recycling conveyor Heyond these minimum roquirements, the degroc
+bait. The istegral foeder is adaptod for this purpoec of optimization must be relatod to the overall effec-
+nd pr de n Ses tivencus criteria used in evaluating the vehicke. The
+. trado-offs will involve structural and geomctrical
+and cyclical deviations of the gun from a nominal limitations arising from the desire to optimize cost
+raie of fire, require carefual design of the ammunition and fligkt performence versus the optimum location
+TABLE I4-1. TYPICAI. HELICUPTER GUNS
+GUN DESIGNATION CALISER RATE OF FIRE. ю METHOD OF REFERENCE
+ярт OPERATION FIRING
+MOOC MACHINE GUN 7.02 mm SELF-POWERED GAS ELECTRIC TM 9-1090-201-12
+OPERATED SOLENOID
+M13A AUTOMATIC GUN 7.62 mm 750-6000 EXTERNAL MOTOR Tν 9-1005-205- 15
+(SELFCONTAINED)
+M61 AUTOMATIC GUN 20 mm 4000-7200 EXTENNAL MOYOR ELEC TRIC 221-1411α
+M197 AUTOMATIC GUN 20 mm 400-1500 EXTERNAL MOTCIR ELECTAC NAVAIR 11-20Μ197-1
+XM140 AUTOMATIC 30 mm 05 SELF-CONTAINED PEACUSSION POMM 1005-285-15
+ELECTRIC MOTOR (SELF-ACTUATED)
+XM129 AUTOMATIC 40 mm 400 EXTERNAL. MOTOR PERCUSSION TM 1050-203-12
+GIENADE LAUNCHER (SELF-CONTAINED)
+142

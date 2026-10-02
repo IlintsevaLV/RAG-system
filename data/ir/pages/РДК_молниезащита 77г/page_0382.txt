@@ -1,0 +1,30 @@
+EXTERNAL MAGNETIC FIELD LINES
+I
+(α)
+FIELD LINES LEAK
+IN THROUGH HOLE
+INTERNAL ELECTRIC FIELD
+-/
+jF- \ 1
+\ 1
+I ,, ,,,, Λ,
+- EXTERNAL NOISE CURRENT
+0 time
+(χ)
+Coupling via magnetic leakage through holes. 13.10 Figure
+(α) Current and field polarities
+Field leakage through holes: end view (β)
+(χ) Current and field waveshapes
+13.1 α cable similar to RG-8/U cable is shown. This cable exhibits the negative 3
+coupling inductance shown in Figure 1. 13.1
+Another source of coupling is via capacitive leakage through the holes in
+If the shield is held at ground potential by the shield, as shown in Figure 13.1 4.
+deliberate grounds, if the signal conductor is held near ground potential by
+external loads, and if the shielded cable is subjected to an external and changing
+will electric field, dielectric flux pass through the holes in the cable from the
+external source and onto the signal conductor. The flow of these dielectric, or
+displacement, currents through the external load impedances produces α voltage
+An between the signal conductor and the shield. alternate source of coupling,
+shown in Figure 13.14(β), involves the voltage on the shield itself. Noise currents
+flowing through the external impedance of the shield may, if the shield is not
+perfectly grounded, produce α voltage between the shield and any external

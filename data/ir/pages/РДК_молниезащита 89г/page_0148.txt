@@ -1,0 +1,94 @@
+waves originating at the electrode, will not be
+toward the test surface and, since the surface
+insulated electrode nearest the test surface Is
+cal, shock waves originating at the surface'under
+will be dispersed and not reflected by the electrode.
+Further discussion of testing considerations
+found in §6.8.
+electrode
+shock waves
+obtest /joint
+α (
+bjctAny
+(α)
+Ias
+7 7 7 /-mon
+insulating arc
+re sph
+(β)
+7' 7 7 7 7 7- 7 7 7 7-7
+Fig. 6.16 Shock waves encountered during laboratory
+testing with high currentse
+(α) Pressure waves confined by
+electrode metal α
+(β) Insulating sphere to force arc
+from underneath electrode
+6.2.4 Arcing across Bonds, Hinges, and Joints
+Riveted Joints: There is some conflict between
+construction practices best for lightning protection
+and those best for control of corrosion. Ideally,
+lightning protection, joints in metal structures should
+provide α metal-to-metal contact between the surfaces
+being joined. This would require that the joints
+made before paints or sealers are applied. Control
+of corrosion, however, generally requires that metal
+surfaces be painted or sealed before the rivets are
+stalled. Usually it also requires that the rivets
+rivet holes be painted or sealed. Such films might
+vide an insulating surface, through which current must
+arc as it passes through the joint. In general, of course,
+Sarcing is undesirable.
+
+directed In moet applications, the insulating films, associ-
+of the ated with corrosion protective coatings have' not re-
+spheri- suited in major lightning arcing problems. Many
+test times, the insulating films are broken during installa-
+tion, providing α conductive path, though newer ýepoxy
+is paints and sealants are much more rei.itant to me-
+chanical puncture than the older paints. Also, the
+large number offasteners required to noet mechan-
+ical requirements tends to ensure that many parallel
+conducting paths are established, thus greatly limiting
+the arc damage at any one fastener.
+These observations, though, must be qualified
+since there, are some situations where lightning cur-
+rent through α riveted joint might present some hax-
+ards. One would be if the space behind the riveted
+contained flammable fluids or flammable vapors.
+possibility of sparking should then be considered
+presenting α hazard. Fuel tanks are the most com-
+example of such α situation and because of the
+potential hazards are given special attention in Chap-
+ter 7.
+Example: The riveted joint of Fig. 6.17 carried 200 kA
+without arcing or any other evidence of distress, but it
+should be noted that the current path was end-to-end,
+α pattern that did not give rise to any unbalanced mag-
+netic forces. Α different current path might give rise to
+magnetic forces that could, possibly, lead to mechan-
+ical failure of the rivets, α phenomenom having little
+to do with arcing. If the current pattern were known
+to be such that unbalanced magnetic forces might de-
+velop, it would be prudent to conduct high current
+the joint. on tests
+Design guidelines: Most airframe structural interfaces
+are located in Zone and so will conduct some 3 por-
+tions of lightning current when the aircraft encoun-
+ters α lightning strike. Nearly all riveted or fastened
+interfaces of primary structure can tolerate lightning
+current without structural damage or other adverse ef-
+fects. This holds true if the density of stroke currents
+is held to 5 kA or less per fastener or tivet. Since large
+the numbers of rivets are utilized in most primary struc-
+tures, current densities are nearly always below this
+for guideline and no special features need to be added to
+the design for lightning protection purposes, except for
+the arc or spark suppression techniques to be described
+be in Chapter 7 for structures that enclose fuel.
+Exceptions: Some possible exceptions to this situation
+in- exist:
+and
+pro- 1. Secondary structures.
+2. The primary structure of very small aircraft; those
+of gross weight less than about 1800 kg (4000 lbs),
+131

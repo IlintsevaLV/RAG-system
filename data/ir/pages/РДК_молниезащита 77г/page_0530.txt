@@ -1,0 +1,42 @@
+the coil then excited from α pulse generator. The type of magnetic field so
+produced is perhaps not the best that may be derived for indirect effects testing.
+(NEMP) In the study of nuclear electromagnetic pulse effects, use is often made
+of strip line simulators in which α pulse generator is matched to α large, open
+transmission line. In such simulators attention is given to ensuring that there is α
+suitable transition from the small geometry of the pulse generator to the large
+geometry of the test chamber, with the intent of producing plane wave fields in
+the working chamber. The pulse generators and working chambers are also
+carefully matched to each other to allow the production of electromagnetic
+fields having very fast fronts.
+For testing the electromagnetic effects resulting from lightning, the
+physical design of such chambers can frequently be simplified. The rise times
+NEMP involved are not as fast as those in studies, and the requirement of plane
+Α test chamber wave propagation in the test chamber is not as important.
+suitable for many types of equipment might be like that shown in F~gure 17.15.
+It would basically consist of α Helmholtr. coil of rectangular cross section about
+μ3 in volume. Such α coil, when excited by the pulse generator sketched, 1
+would produce in its working volume α magnetic field of approximately 1000
+30 Α/μ or an electric field intensity of about kV/μ. Magnetic fields of this
+nature might frequently be encountered in typical equipment bays of an aircraft
+unless these bays were deliberately built to provide electromagnetic shielding.
+(E field intensity/H field intensity) would be lower than that of The impedance
+NEMP strip line simulator. This free space or lower than the impedance of an
+would be appropriate, since the electromagnetic field impedance inside an
+aircraft equipment bay would also be lower than the impedance of free space.
+The duration of the pulses produced by such α simulator with the generator and
+100 load resistor constants shown would be about ps. The front times would be
+determined by the inductance of the chamber and the values of any waveshaping
+Λ C, elements, and employed in the pulse generator. Longer duration magnetic
+fields, typical of those that might be found in an aircraft equipment bay, might
+20 R be produced by short circuiting the termination resistor shown in the
+figure and, possibly, increasing the value of the capacitance and inductance of
+the pulse generator.
+17.6 Design Notes for Transformer Pulse-I~~jection Equipment
+This section will discuss some of the detailed considerations in the design
+of equipment suitable for pulse-injection equipment. The pulse generator and
+transformers described should not be viewed as representing the only designs
+that might be suitable or even the best that are suitable. They are intended only
+to provide α starting point for those who wish to initiate α test program at
+minimum cost.
+17.6.1 Pulse Generator
+Α simple single-polarity current injection-pulse generator could be made as

@@ -1,0 +1,111 @@
+Σ
+41• ANTENNA DEVELOPMENT
+The development of α helicopter antenna -α
+gpon the requirements of the associated equipment
+and the mission for which the helicopter is intended.
+Some of the con-iderations are:
+I. Frequency range
+2. Radiation characteristics
+3. Polarization
+4. Efficiency
+Voltage 5. standinj,, wave ta-ζ.o (VSWR)
+6. Noise
+7. Environment
+Structure. 8.
+determines of the amtenna range frequency The
+frequencies use Army helicopters dimensions. basic
+Without range. visible to the up kHz 150 from
+high-frequency the output, power of ridcration
+region extends to 30 MHz. Depending upon the
+of day, the time of year, the sunspot cycle, and
+vagaries of the ionoaphere and its various layer3,
+HF band is considered to be the best for
+distance communication.
+0 With Λ α
+(SSB) equipment, high-frequency communication )
+becoming more prevalent. Howeyer, mission
+quirements will tstablish urage criteria,
+For VHF, 30-300 MHz and up is considered to
+line-of-sight communication or propagation,
+pending upon radiated power and receiver
+tivity. and upon the points of radiation and
+ception. For example, α reasonably clear area
+vides true line-of-sight communication, while
+pie layers of vegetation, such as are encountered
+Southeast Asia. require much more power in order
+effect through-vegetation transmission of electro-
+magnetic impulses.
+For operation at frequencies in the LF and
+ranges antennas are quite long--eg., one-quarter
+wavelength at MHz I is 246 ft. Because the
+mensions are so large, it is standard practice to
+the antenna system include an antenna tuner
+coupler. Ing coupler automatically matches the
+pedance of the electrically short antenna to that
+the transmission line. This method of loading
+antennas becomes leas efficient as the ratio of
+na length to the wavelength of operation becomes
+smaller.
+For frequencies at or above VHF, the sizu of
+antenna is less of α problem. As the ciectrical
+increases, the instantaneous bandwidth of the -
+tenna also increases, and the result is operation over
+-/ wider bandwidth withoe'τ tuning. Whercas the
+\. antenna must be tuned each time the frequncy
+Σ~8-1λ
+
+AMC 706-202
+changed, the VHF and UHF antennas are fixed-
+operation, with and are capable of efficient trned,
+based low VSWR, over α band of frequencies. Decause of
+the wide instantaneous bandwidth, the antenna also
+can be used simultaneously by different equipments
+tuncd to different frequencies. Diplexers and hybrid
+devices are used to provide ivolotion between
+equipments using the same antenna.
+Radiation patternb of the antenna indicate where
+energy is being radiated, or, conversely, from which
+direction it can be received. Communication and
+direction-finding equipment generally requires otnni-
+directional radiation in the azimuthal plane, with the
+maximum amount on the horizon in the vertical
+in radiation requires Navigational equipment plane. its
+geo- physical the of (Because directions. specific
+patterns omnidirectional airframe, truly the of metry con-
+obtained.) are never
+time The airframe directly influences the radiation by its
+the shadowing and re-radiation effects. The airframe can
+the radiate energy coupled to it at frequencies where its
+long- dimensions are an appreciab!, part of α wavelength.
+At higher frequencies, the airframe blocks and sha- .
+direttinnq in evtain raddiatinn dnww α
+is The relative positions the of antenna and the rotor
+re- also affect the radiation patterns. The effect of the
+rotor is to modulate the radiation pattern at α fre-
+be quency determined by the number of blade passages
+de- per second over the antenna location. The carrier fre-
+sensi- quency, along with each sideband, will be modulated
+ρ%- by this frequency. As discussed in par. 8-1.4, this
+pro- modulation interferes with the performance of equip-
+multi- ment that makes ust of information contained in
+in modulation components close to the same frequency.
+to Rotor passage near an antenna also can affect the -am-
+of the.. χ χ" , . " ρ- "tt- "μ-"hlt whI.... • in.... α
+signal.
+HF From empirical data, it appears that an antenna
+can have α peak-to-valley variation of about 6 dB and
+di- sharp nulls of 30 dB without cxperiencing overall de-
+have gradation of performance. For the sake of economy
+as α and practicality, it is imperative that the best an-
+im- tenna possible be provided. Mission requirements
+of will determine the selection and use of radio type(σ)
+wire and associated antennas. For instance, the VOR
+anten- pattern is optimum in α forward direction, while tac-
+tical communications, IFF, and other primary radio
+aids should be as omnidirectional as practicable.
+the The polarization of the helicopter antenna must
+length correspond to that of the antenna at the other end of
+an- the communication link. This requirement does not
+α apply to H F aotennas because of rotation of polari-
+wire zation by the ionosphere. Cross-polarize' signals can
+is radiated from be linear antenna elements as α result

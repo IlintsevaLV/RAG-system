@@ -1,0 +1,55 @@
+706-202 AMCP
+cular crosslinking of both materi.Js by the high- requirements. Thus, the selection of a connector for a
+,nergy electronic beam process. These consiructions specific application will involve a compromise.
+provide significant space and weight savings while re- M IL-C-5015 covers circular electrical connectors
+tSining excellent abrasion resistance, ac- with solder or removable crimp contacts, and
+MIL-W-25038 covers single wire for electrical use cessorics such as protective covers, storage re-
+under short-time emergency conditions involving ex- ceptacles, strain relief clamps, and potting molds.
+posure to flame and temperatures of up to 2000*F. These connectors arc for use in electronic, electrical
+This wire is intended for use in circuits where it is power, and control c-ircuits. They have threaded
+,necessary to maintain the electrical irtegrity of the in- couplings, and may require safety wiring in order to
+sulated conductor for 5 min in a 2000*F flame with eliminate inadvertent decoupling in high-vibration
+the operating potential not exceeding 125 V. areas.
+MIL-C-26482 covers environmental-resistance,
+"7-8.2 FITTINGS quick-disconnect, miniature electrical connectors
+and ac- contacts removable crimp or with solder include any fix- area, and cover a broad Fittings
+bayonet couplings connectors ha'e cessories. Thes are termi- Two basic fittings to a wire. ture attaching
+wire. safety not require and do strips and connectors. nal
+MIL-C-83723 covers an environmental-re3isting
+7-8.2.1 Termhna Strips family of miniature, circular, electrical connectors.
+strips These ;:onnectors may have threaded or bayonet
+Termina! strips are used where there is a require- couplings.
+gd inr c Terminal wires. more or two of junction a for ment panel and rack rectangular covers MIL-C-28748 inap- diconcct aso ay a ued e stris
+strips also may be used as disconrects in ap- and electrical connectors with nonremovable solder
+plications where :'t is impractical to use a connector, cnat n eoal rm otcs contacts. removable crimp and contacts pro- maintenance and assembly simplify or to
+or, .ts ly sb nMIL-C-39012 covers the general requirements for
+co- fiexibie with used connectors frequency radio ~ ~ ~ ~ or ~ ~ ~ ~ 27212 MS is the terminal etrip standard The The temiablrpesth.S 712 xa stndr
+MIL-T-81714 which consists of a series of threaded axial RF cable.
+studs retained in a plastic insulating strip. Each ter- The designer make every effort to select only shall
+termination common provide that connectors ter- four of a maximum accommodate will stud minal
+hard- back common contacts, common i.e., methods; between used be may bar a bus minals; however,
+tools and methods assembly commor, and ware, wiles four than more for allow order to - in studs
+guide. a as using MIL-STD-1353 junction. common a having
+The new NAS standard terminal strip, which con-
+sists of series of modules rctainei between mounting 7-9 LIGHTNINC( AND STATIC
+rails, offers maity advantages over the old style MS ELECTRICI'TY
+terminal strip. MIL-T-81714 covers environmental 7-9.1 GENERAL feedthrough and srifi tef Fror noni'mr.dilzrough ii,,l ips.
+is of electronic systems The proper functioning accordance parts in be new designs qualified shall
+with MIL-T-81714. This type of unit is similar to an taking on increased importance in mission effective.
+•loctrical connector in concept in that it uses a crimp ness and flight saf.ty with the development of elec-
+pin, and in insertion-extraction tool for installing the tronically controlled, automatic flight and engine
+wires, controls. Thus, the common occurrence of total elec-
+Each terminal strip requirement must be evaluated trical system failure ft'om lightning strikes is no
+individually in order to determine which of the type longer acceptable and a higher degree of static elec-
+can be used best. tricity and lightning prottction must be provided for
+the helicopter in order to ussure reliable, safe, and ef-
+fective operation over its operational lifetime.
+"74.2.2 Conmetors One lightning strike can ft expected to occur on a
+as The ideal situation, as far reliability is con- helicopter approximately e-.cry 2500 flight hr (Ref.l),
+) cerned, is to have continuous conductors throughout depending upon aircraf zone of operation, mission.
+the entire circuit. However, this usually is not pus- normal flight altitudes, susceptibility, etc. Minor to
+si•': interconnects must be added to facilitate serious structural damage cav result in cases where
+assembly and maintenance. The designer must select protection is not provided.
+the connector that best combines high-performance New materials, such as pbolyurethane paints. have
+factors with capabilities for meeting env'ronmental many advantages relative to corrosion protection;
+7-29

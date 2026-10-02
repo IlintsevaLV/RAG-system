@@ -1,0 +1,50 @@
+itance and inductance. After shorting the current de-
+cays with α time constant governed by the load induc-
+thus Crowbarring resistance. external the tance and Switch rise time of the current. does nothing to improve the
+ι od3 uH 0.01 ohms R
+Σ(closed) 3 uH
+uF 025 Loadd
+Single Point Ground nV δ 100
+SSwitch______________________
+(α) ~
+Load
+α ι 0. kA 200
+0 generator. surge current High 6.60 Fig.
+(α) Circuit diagram
+Approximate (χ) dimensions
+Unidirectional current waves: There are three ways
+to produce unidirectional current waves. The most
+straightforward is to use sufficient series resistance to
+damp the oscillations. Critical damping is obtained -200 kA
+-
+with α resistance of 2 kA0Fs
+IS J0
+(β)
+R=27rVI- (6.29) 160 kA-
+Fig. 6.61 shows the effect on waveshape of the cur-
+rent from the indicated surge generator as resistance R 0.5 α
+the faster the resistance, the greater The increased. is
+11 2. 0 7 Series resis- current. less the peak but the front time,
+tance effectively brings about α unidirectional current
+wave by throwing away as heat most of the energy
+-
+initially stored in the capacitor bank.
+Another way is to use α series resistor that has α
+non-linear characteristic, such as afforded by the -40 kA--- VI - -
+in surge arresters. Such α block 0 100 u1σ zinc-oxide blocks used
+would have α low dynamic resistance and little effect
+on the current when the current is high, but as the cur- Fig. 6.61 Effect of damping resistmice
+rent returns to zero and tends to reverse the dynamic on waveshape.
+impedance becomes high and rapidly absorbs energy, (α) Circuit
+suppressing subsequent half cycles. Fig. 6.62(α) shows (β) Underdamnped circuits
+the connection and Fig. 6.62(β) illustrates the current (χ) Overdamped circuits
+waveshape.
+The third way to obtain α unidirectional current Fig. 6.63(α) shows the principle and Figs. 6.63(β)
+wave is by "crowbarring", that is, to short, the surge and (χ) illustrate the resulting waveshapes. The figure
+generator at the instant when current, in the test piece shows the generator to have some internal inductance.
+is at α maximum 16.35, 6.361. Ideally, all the en- since it can never be completely eliminated.
+ergy stored on the capacitors would then have been Crowbarring greatly complicates the test circuit
+transferred to external inductance, where it could be and is difficult to do successfully. If the surge gen-
+"trapped" by the crowbar switch. Prior to shorting, erator were free of inductance, the voltage across the
+the current waveform is governed by the circuit capac- capacitors would be zero at the time of shorting, all
+163

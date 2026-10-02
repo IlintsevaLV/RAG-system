@@ -1,0 +1,20 @@
+0
+0
+0 σ pa U'σ 100 100 us
+Fig. 16.13 Damped uscillatory waves.
+(Eo = φ 1, 10oKhz/)
+Q (α) =6
+(β)Q=
+χ;.tion of of Test Method Τ05 amplitude MIL-STD-1 757Α[16.141. of 200 kA and are intended to duplicate the
+The test method is titled - External Indirect effects Effects of α lightning flash that directly contacts the
+Electrical Hardware. exterior of the aircraft.
+The test method calls for current Component E to The references to External Hardware and to full
+be applied in order to check for magnetically induced sized hardware should be emphasized. Equipment on
+effects, Component E being defined in [16.14] as α "fast the inside of an aircraft is not exposed to such cur-
+rate of rise stroke test for full sized hardware". The rents. There is no justification for performing such
+specified waveforra has α peak amplitude of 50 kA and tests on (for example) α small metal box deep inside
+α rate of rise of at least 25 kA/ps. The test method the structure of the aircraft and whose only function
+also calls for application of the high current waveforms is to mount several electrical connectors and provide α
+specified in test method for evaluation of direct Τ02 way to distribute wires in several cables.
+effects. Those are the waveforms that have α peak
+435

@@ -1,0 +1,56 @@
+will be new advisory circular which will define the the most recent aircraft lightning standards, such as α
+lightning environment and methodology to be used to and the SAE "orange book". 795 MIL-STD-1
+verify compliance with the new regulation. SAE Com-
+Multiple burst environment: mittee AE-4Λ was tasked by FAA to draft the new The moat importa
+com- environment, burst" "multiple the is these of advisory circular.
+prised of α large number of comparatively low ampli-
+has tude current pulses characterized by high rates-of-rise book": The result of this activity SAE "Orange
+been published in the SAE Committee AE-4Λ report and short duration, and occurring randomly over the
+Examples of typical intra-cloud of the flash. lifetime Recommended Protection of Draft Advisory Circular:
+lightning flash currents are presented in Chapter 3. Aircraft Electrical/Electronic Systems Against the In-
+Effects [5.4]. This document, which direct of Lightning
+The Standardized Environment 5.5.6 is more commonly known as the "orange book", is
+now in wide use as α de facto standard for certification
+of flight critical or essential systems aboard transport The standardized lightning environment defined
+category aircraft. in [5.2] and [5.41 is in present use for aircraft design
+is α com- purposes. This environment and certification "orange book" both the SAE and 795 MIL-STD-1
+embody the original SAE lightning current and volt- bination of individual waveforms which have been syn-
+characteristics of natural from the important from the cloud- thesized which were derived age components
+environment originally compiled by lightning flashes described in Chapters 2 and 3 for cer- to-earth lightning
+Α, of components tification purposes. The waveforms envi- of this reviews Pierce. Subsequent Cianos and
+and Δ are derived from cloud-to-ground light- ronment have been conducted by the SAE committee Β, C,
+and UK/European standards organizations, and ad- ning discharges. Component H represents additional
+ditional references compiling data obtained after the characteristics of intracloud and cloud-to-cloud dis-
+Pierce publication have also become avail- charges. Cianos and
+able. One such reference is that compi!.δ by Anderson There are five current component waveforms (Α,
+and Erickson [5.15]. Careful review of this data shows and H) that are applied as appropriate to the Β, C, Δ
+that the original Cianos and Pierce database is still lightning strike zone(σ) in which system is located. To-
+representative of the cloud-to-earth lightning environ- gether these components constitute the external light-
+ment. Thus, no changes in this part of the lightning ning current environment. They are defined as follows:
+standards have been appropriate.
+The advent of full authority control systems em- Component Initial High Peak Current: Com- Α -
+ploying sensitive microelectronics began to focus at- ponent Α has α peak amplitude of 200 kA, an action
+ 2 tention on other aspects of the lightning environ- integral of 2 ξ 102 Α .σ and α double exponential wave-
+ment including the characteristics of intra-cloud and form. This waveform, represents α first return stroke
+cloud-to-cloud lightning strikes encountered by air- of 200 000 amperes at α rate-of-rise of 1 ξ 10" Α/σ at
+craft. Whereas the amplitude and action integrals τ = 0.5,us. It has α peak rate of rise of 1.4 ξ Α/σ 101
+of the currents in these strikes was believed to be at τ 0+. This waveform is defined mathematically =
+less than those associated with cloud-to-earth flashes, as
+other aspects, such as peak rates of change of current
+ τ (5.2) - eC ] = was the concern, as were of of pulses, and multiplicity ι(τ) Io [ε-`
+need for better understanding of the locations of strike where
+zones and the interaction of lightning flash channels 218810 Α = ro
+with aircraft.
+σ-1 Σ= 11354
+647265 σ- =3 several re- For these reasons, Research programs:
+search programs were implemented, beginning in 1980, time σ = τ
+to study the intra-cloud and cloud-to-cloud lightning
+5.3. in Fig, is shown waveform The spon- were which these programs, In environment.
+to multi- are given 5.3 in Eq. The constants the FAA, and Air Force, the US sored by NASA,
+and dimensional consistency precision only for digit with instrumented were aircraft government, French
+en- lightning the actual that be inferred not it should pa- electrical recording and sensing of capable devices
+or that tests 'that precision, known to is vironment of The results strikes. lightning in-flight of rameters
+environment must duplicate that to duplicate have made Chapter 3, in are reviewed these programs, which
+has any engineer- such precision or that such precision aspects of the intra- several published and been widely
+cloud lightning environment have been incorporated in ing value.
+99

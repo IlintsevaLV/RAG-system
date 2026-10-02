@@ -1,0 +1,47 @@
+Magnetically induced voltages: Other fields may 2. Full authority electronic flight control (Fly-by-
+I
+arise inside the aircraft when lightning current diffuses wire) systems.
+to the inside surfaces of skins. In either case these
+internal fields pass through aircraft electrical circuits 3. Supervisory control steps capable of initiating
+and induce voltages in them proportional to the rate control inputs that could endanger flight safety.
+of change of the magnetic field. These magnetically
+induced voltages may appear between both wires of α 4. Fully or highly integrated cockpit instruments and
+two-wire circuit, or between either wire and the air- displays.
+frame. The former are often referred to as line-to-line 5. Electronic flight instrumentation (EFIS) systems.
+voltages and the latter as common-mode voltages.
+6. Aircraft electric power control and distribution
+systems. induced these to IR addition In voltages: Structural
+voltages, there may be resistive voltage rises along the 7. Electrical/avionic systems that include externally
+airframe as lightning current flows through it. These mounted apparatus, such as air data probes,
+are called structural IR voltages. If any part of an heaters, actuators and antennas.
+aircraft circuit is connected anywhere to the airframe,
+these structural 'R voltages may appear between cir-
+and cuit wires and the airframe, as shown in Fig. 4.20. Relation to EMI EMC: Indirect effects of light-
+For airframes made of highly conductive aluminum, ning are part of the broad subject of electromagnetic
+these voltages are seldom significant except when the interference (EMI) and control (EMC). The EMI and
+lightning current must flow through resistive joints or EMC standards in industry wide use, however, do not
+hinges. However, the resistance of steel or titanium is deal with the indirect effects of lightning. Neither do
+10 times that of aluminum, and the resistance of most aircraft industry performance standards, such as DO-
+CFC structures is over α hundred times the resistance 160 published by the Radio Technical Commission for
+of comparable aluminum structures, so the structural Aeronautics (RTCA) [4.23]. Efforts are underway to
+IR voltages in aircraft fabricated of these materials add meaningful lightning indirect effects environments
+may be much higher. to the family of EMI/EMC I standards, but significant
+differences exist between the two environments.
+Other aspects of indirect effects: Magnetically in- Α major difference is that lightning induced tran-
+duced and structural IR voltages orcur simultaneously sients are best characterized as α time domain phe-
+in nearly all wiring within an aircraft during α light- nomenon, while classical EMI/EMC concerns relate
+ning strike, so the potential exists for multiple effects to the frequency domain. Susceptibility to excessive
+on avionic systems. For example, four channels of voltages or currents and susceptibility to narrow band
+α quadruplex redundant digital flight control system interference or emission are not the same thing and
+might all be damaged at the same time, if protection protection against one does not necessarily imply pro-
+against indirect effects is not incorporated. Safe op- tection against the other.
+erations of such systems in the lightning environment
+cannot be achieved by relying only on redundant sys- Coordination of standards: Coordinated standards
+tems. are unlikely in the near future. Therefore, separate
+be must criteria and protection concern: efforts of dedicated Systemns and re- concern Systems of greatest
+criti- of flight protection successful achieve to applied following, the include effects garding indirect
+cal/essential systems against lightning indirect effects.
+1. Full authority, digital engine control (FADEC) Design of protective measures against indirect effects
+systems. is treated in Chapters 8 through 18.
+0
+86

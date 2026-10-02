@@ -1,0 +1,30 @@
+Λ, assume that the diverter strap has an inductance, of 1.0 pH/μ of length.
+Assume α maximum lightning current rate of rise of 100 kA/ps, and determine
+the air-gap impulse sparkover voltage from Figure 6.39 or from impulse voltage
+tests of the particular configuration. Then make sure that the inductive voltage
+rise
+is less than the gap sparkover voltage. It is prudent to add α safety margin of 50%
+or more to the calculated inductive voltage when making this comparison.
+Foil Thin Strips
+Thin foil strips, usually made of aluminum 0.008 to 0.040 cm (0.003 to
+0.015 in) thick, are capable of conducting moderate strokes or of melting and
+vaporizing on severe strokes. the latter case they leave an ionized channel In
+the flash may travel. Because they are through which subsequent currents in
+thin, foil strips have good aerodynamic characteristics, but they usually provide
+protection against only one severe flash. The thin foil strips are generally used
+when aerodynamic drag requirements prevent thicker straps from being installed
+on external surfaces. Α typical strip is shown in Figure 7.26.
+Thin strip. 7.26 foil Figure
+The skin of the structure must be thick enough to withstand safely the
+blast pressure that occurs if the strip vaporizes. Thick foil strips may also be
+used; however, they release more energy during vaporization than the thinner
+foil strips and, therefore, require α thicker radome outer skin. Wide foil strips are
+preferred because they distribute the explosive forces over α larger surface area.
+Α 0.008 cm (0.003 in) thick 0.64 cm (0.375 in) wide aluminum strip by
+ξ 2 will protect α 0.1 cm (0.040 in) thick fiberglass wall from one 200 kA, lo6
+stroke and associated intermediate or continuing current, but the strip will Α ~ - Σ
+have been vaporized and must be replaced.
+Thus, the foil strips should not be used for applications where more than
+one strike might occur in the same flight. This caution means that they should
+not be used to protect fiberglass fuel tanks or other structures in which α
+222

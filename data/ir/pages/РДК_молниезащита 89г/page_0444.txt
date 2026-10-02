@@ -1,0 +1,53 @@
+first to ex. been the have to seem papers These changing rapidly α should include transient The 4.
+in impedance question of source the with deal ele- plicitly circuit coupled inductively to excite phase
+ments. transient specifications.
+Philosophy Level Control Transient 16.6.2 pro- be could one that be should The transient 5.
+by relatively to equipment coupled and duced by
+ba- the follows 16.13] [16.12, philosophy TCL The equipment. test simple
+coor- to transient approach BIL of the sic concepts
+to relative specifications targets or in that dination open circuit voltage the with associated Directly
+to those who de- should be assigned both transients transient. The short circuit current transient was α
+those and boxes") ("black equipment sign electronic flow which would current was that current short circuit
+black boxes, interconnect those who design wiring to of which could impedance α source the internal from
+The lev- develop by chance. things rather than having 50 Fig. parallel with as 50 fl in be represented yH,
+transient coordinator (Pro- by α would be aasigned α set were els taken together as The test waves 16.10(α).
+performed to verify be tests would and gram Office) the to those relating were than more consistent thus
+that the goals had been met; tests on equipment to Shuttle. Amplitudes of neither current nor volt- Space
+and tests withstand the transients that it can verify would be part test levels since the were specified, age
+levels had the specified that verify to the aircraft on level specification. control of transient
+exceeded. been not of users and readers fGom response to answer In
+16.11. Fig. in illustrated is philosophy TCL The the on [16.10] paper Martzloff and original Fisher the
+and Fisher, philosophy, Crouch, level control transient
+transient _ dif- somewhat α test wave proposed [16.11] Martzloff equipment
+wave, voltage The revised one. original ferent from the levels usceptbilty σ
+na- the oscillatory emphasized 16.10(β), in Fig. shown I
+transient equipment did it, as deemphasizing than rather wave, of the ture
+(MTDL) level design to raised was time front The wave. test original the
+definedT crest being the wave after the course of 0.5Ups,
+kHz and of 100 frequency its oscillatory terms of in
+margi of the ratio that by requiring specified decrement the
+The voltage 0.6. than be greater successive half-cycles
+control transient proposed with that identical became nearly thus wave
+Howell. and Martzloff by (TCL) levels
+~ transient actual
+MHlevels 50
+II TRANSIENT
+SOURCE iW
+(α) EEWiring
+Eetni
+is Interconnecting Electrical/
+Wiring Electronic
+Equipment 100V -
+6.8 Α -v[ Fig. 16.11 The transient coordination philosophy.
+the following: It encompasses .sc
+tran- the actual that level: Ensuring transient Actual
+source other (or any lightning by level produced sient (β)
+the with associated that than less be will of transient)
+cable to the assigned number level control transient
+be to an- job would designer'σ The cable designer.
+lightning would the electromagnetic threat that alyze so0 V
+rout- circuit techniques of whatever use to and present
+the that to ensure necessary would be or shielding ing TCL proposals. 16.10 Original Fig.
+exceed did not by lightning produced transients actual impedance Source (α)
+of circuit. type that particular specified for values the current and (β) Voltage
+430

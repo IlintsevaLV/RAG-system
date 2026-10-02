@@ -1,0 +1,101 @@
+few megahertz. If at all possible, the pass bands of
+electronic equipment should not include these frequen-
+cies, as does the hypothetical pass band shown on Fig.
+17.7(δ). Higher or lower pass bands would inherently
+be better than the one shown. As an extreme example,
+shown in Fig. 17.7(ε), fiber optic signal transmission
+operating in the infrared region avoids the frequency
+spectrum associated with lightning-generated interfer-
+ence almost completely.
+17.4 Protective Devices
+Circuit protective devices can sometimes be used
+to limit the amount of electrical energy that α wire
+can couple into α piece of electronic equipment. While
+one can seldom eliminate interference through the use
+of the circuit protective devices, circuit protective de-
+vices judiciously used can virtually eliminate physical
+damage to electronic devices. Judicious use usually
+means that protective devices must be incorporated
+into α piece of equipment at the time it is built, not
+added after trouble has been experienced.
+Basic types of protector: There are two basic types
+of overvoltage or transient protection device; switching
+devices and non-linear devices, having V-I character-
+istics as indicated on Fig. 17.8.
+......
+woihtage δ -
+•
+......... _β Σ........
+. ,
+drop are
+Y •ceases
+Σ (α)normal
+- I
+Fig. 17.8 characteristics of protective devices. V-I
+(α) Switching device
+()
+Switching devices: Switching devices, Fig. 17.8(α),
+conduct essentially no current until the voltage across
+them reaches α critical value, at whici, time the volt-
+age collapses to nearly zero and current is controlled
+by the externel circuit. Examples are spark gaps and
+controlled rectifiers.
+The instantaneous power dissipated in α transient
+protective device is the product of the surge current
+flowing through the device and the voltage across the
+device. Thus, even though the surge current through
+α conducting spark gap may be high, the power dissi-
+pated in the gap will be small,
+
+Spark gaps and other switching devices do not
+control surges by absorbing the energy of the surge.
+Primarily they operate by reflecting surge energy back
+towards its source, where it may be dissipated in the
+resistance of the conductors.
+Non-linear devices: Non-linear devices have V-I
+characteristics as shown in Fig. 17.8(β). They conduct
+very little current at low voltage levels, but once con-
+duction begins, the voltage across the device remains
+fairly constant. Examples include Zener type surge
+suppression diodes and metal oxide varistors, MOV'σ.
+Because the voltage does not collapse to zero, energy
+is released in the device and the rating of the device
+will be governed by the amount of energy, the ther-
+mal nmass and the allowable temperature rise of the
+device. Non-linear devices control surges partly by
+turning electrical energy into heat and partly by re-
+flecting it back towards its source.
+For α given surge-power handling capability, α
+spark gap will thus be smaller physically than α surge
+suppr'ssion diode or varistor device.
+Recovery characteristics: Another fundamental 'dif-
+ference between switching devices (spark gaps) and
+non-switching devices (surge suppression diodes or
+varistors) relates to their recovery characteristics af-
+ter the surge has passed. If α line is protected by α
+spark gap and if that line is connected tia source of
+energy (α power bus. for example), that energy source
+must be disconnected from the line before the spark
+gap can switch back from its low-impedance conduct-
+state. nonconducting its high-impedance to ing state
+Generally this requires opening α circuit breaker on the
+line. Α surge suppression diode or varistor effectively
+to conduct as soon as the voltage returns to itb
+value. Operation of remote circuit breakers is
+not required.
+Circuit interrupters: There are also devices which,
+on sensing an overvoltage, interrupt the power flow to
+the load. If this interruption is accomplished by elec- tromechanical means, they should not be considered
+transient protection devices because they are inher-
+ently slow to respond. None of them will be discussed
+in this section.
+Reflection energy: of All types of overvoltage protec-
+tion devices inherently operate by reflecting α portion
+of the surge energy to its source and by diverting the
+rest into another path, all with the intention of dis-
+sipating the surge energy into the resistance of the
+ground and interconnecting leads. The alternative to
+reflecting the energy is to absorb the surge energy in
+an unprotected load. Reflection and diversion of the
+surge energy are not without their hazards:
+440

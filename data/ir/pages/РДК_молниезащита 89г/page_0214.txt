@@ -1,0 +1,93 @@
+Assume that the leading and trailing edge sections
+of α wing are nonconductive or sufficiently isolated
+to be unavailable for conduction and that the remain-
+ing wing box is comprised of skins and spars having
+the dimensions as shown in Fig. 7.26. The cross sec-
+tional area of the spars and skins forming this box
+ 2 135 cm (21 in'). The tank also contains an aluminum
+vent pipe electrically bonded to the structure at each
+end of the tank. This tube has an outside diameter
+ 10 cm (4 in), α 2 wall thickness of 0.5 mnm (0.02 in )
+ 2 2 and α cross sectional area of 1.56 cm (0.24 in ).
+30cm vent 50CM 50Cm
+0.64.Μ -- --
+2Τ0χ χ 0
+.200cm 0.2ra
+Fig. 7.26 H~ypothetical wing box with integral
+fuel tank.
+Assume an intermediate strike with an average
+amplitude of 2000 Α foi 5 ms, in accordance with Coin-
+ponent Β of [7.28]. The current in the pipe can
+calculated as follows:
+ 2 [ 1.56 cm .
+ 2 Ipipe σ [ 2000 Α = 23.1 Α (7.2) cm Ix
+135
+Currents of this order of magnitude have pro-
+duced arcs at movable, poorly conducting, interfaces
+in some couplings. More common examples of electric
+arc sources include motor commutators.
+are jumpers or straps bond Electrical straps: Bond
+sometimes installed across poorly conducting pipe cou-
+plings, as shown in Fig. 7.27. These bond straps
+should not be relied upon to prevent sparking from
+lightning currents. Current is apt to divide in propor-
+tion to resistance which may be the result of α small
+contact area in the coupling. Some current in the cou-
+pling could lead to sparking even with the bond strap
+in place.
+EtEMI.Α.
+IONDING
+COUPLING
+Fig. 7.27 Electrical bonding jumper across
+insulated coupling,
+
+0 Conduction through couplings and interfaces: The
+as extensive use of anodized, coatings to provide noncor-
+rosive mating surfaces in pipe couplings would seem to
+preclude arcing across the pipe interface, but relative
+motion between these surfaces can wear through the
+is anodized coating, forming α conductive path. if there
+happens to be α large, bare metal-to-metal contact
+within the coupling, this could provide α spark free
+of path. However, α slight change in the relative posi-
+tion of the mating surfaces, or introduction of dirt or ,
+residue might drastically change the electrical capabil-
+ity of α coupling. It is probable that the electrical ca-
+pability of α typical pipe coupling changes many times
+by caused motion of relative result as α flight α during structural vibrations and flexing.
+Some of the commercially available couplings and
+bulkhead fittings have been designed to conduct im-
+pulse currents up to 2500 amperes without sparking.
+These couplings should be adequate for use in most
+metal tanks where currents are of the order of α few
+hundred amperes or less.
+Fuel tanks fabricated of CFC materials, however,
+are more highly resistive than aluminum. Currents on
+be the exterior skin surface of such tanks will diffuse more
+rapidly to internal conductive plumbing and currents
+might greatly exceed 2500 amperes.
+Guidelines for protection: In the absence of definitive
+data on the electrical conductivity of pipe couplings
+under in-service conditions, it is advisable to take the
+following approach:
+1. Determine, by analysis or test, the fraction of
+lightning current expected in α particular pipe.
+2. Inject this current into α sample of the coupling
+under simulated in-flight vibration and contami-
+nation conditions.
+3. Perform this test in α darkened enclosure and ob-
+serve whether any arcs or sparks occur. Repeat
+the test until α reliable result is established.
+One solution to the interfaces: Non-conducting
+plumb- and couplings at and sparks of arcs problem
+ing interfaces with aircraft structure is to insert elec-
+to eliminate them as current carrying paths. This so-
+lution, of course, requires additional couplings, which
+may add additional weight compared to the traditional
+all aluminum plumbing.
+solution Another is to make the pipes of α non-
+conductive material. Various solid polymers or fiber
+reinforced resins may be used for this purpose. Some
+electrical conducting material must be provided in the
+interior linings of pipes transferring fuel however, to
+198

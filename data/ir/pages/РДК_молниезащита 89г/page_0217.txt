@@ -1,0 +1,51 @@
+-p-IET"NC
+1-tLoNo FUSELAGE-4 TO RUN CABLE SHIELDED
+PRSTO
+S~SHIELDS
+GROUNDED S~TO
+AIRFRIAE AT ONLY HIGHEST
+ELECTRONICS INDUCED WIRNS
+BLETWEEN CWAPACITANICEI.TrYPE
+TANK
+Fig. 7.29 Typical fuel probe wiring.
+ Most magnetic flux and induced voltage appears between wire -
+(or shield) and the airframe at probe end.
+ Less flux and induced voltage exists between any two wires. -
+I
+ Even less flux and voltage exists between a wire and its shield. -
+ Other voltages can occur between probe and airframe -
+JR because of structural potentials.
+S~to
+the airframe. Because of this, design, of~ adequate
+insulation between the active elements of the probe
+I insulator and the airframe may not be entirely within the probe
+II
+o
+designer's control.
+wires The fuel probe wires: of fuel probe Shielding aFgahmen
+most closely the c- the airframe at referenced to Sare
+If one or which is usually in the fuselage. tronics end, SI
+can be conflict more of the wires am e shielded, there a
+for con- practices that are best between the grounding
+and those considered lightning induced voltages trol of low
+state electromagnetic i wter- for control of steady acbest orniUsually, EMI. ferenme, high considerations and con- of EMI because
+end of the shield is for "ground loops", only one cerm•
+from the commonly at the end remote grounded; most
+shield at both ends per- fuel senor. Grounding the
+in induce circulating currents mits stray ac fields to
+breakdown of gaps in the shield, and such currents may interfere with the Fig. 7.30 Possible
+fuel quantity electronics. operation of the probe, capacitance-type
+grounded at conflict arises because a shield The High to low 1.
+in- not act to reduce magnetically only one end does to airframe 2. High
+though between conductors and ground, voltage Low to airframe 3. due�d
+cmdurtors in the it may reduce voltages between
+at length .n Chapter The subject is treated with time on the shield. that accumulate ContmFinnts
+a shield can re- gist of the matter is that volt- 1f, but the may act to reduca the sparkover probe surfaces
+it and ground only if duce voltages between conductors a factor f two therefore, it is wise to incorporate age;
+current. ends and allowed to caary an- is grounded at both necesary to tolerate the when designing clearances
+in- ungrounded at one end, magnetically wiring If a shield is expected in fuel tank ticipated induced voltages
+end between the edc develop at that duced voltages . harnesses.
+on Thus, most shields found conductors and ground. the proafmity of the Fig. 7.29 illustrate. that
+probe to the airframe structure on which it is mounted fuel quantity probe wiring harnesses offer little or o)
+induced effects. from lightning voltages protection breakdown in determining is very important
+201

@@ -1,0 +1,86 @@
+H ι
+..
+η δ ..... .... voc
+.......
+Lw Rw
+1Isc
+(β)
+Fig. 14.7 Response to magnetic induction.
+(α) Voc
+(β) 2".χ li
+2 - in involved loop the of area Α =
+Α θ in Fig. 14.7 =
+47ρ ξ 10-Τ = Io
+ webers - linked flux total 0 =
+ Α/rn magnetic field intensity H = -
+τ = time - σ
+Ipendent φ
+in inches: If and are measured 1 η
+(14.9) lh 1011 Ξ 8.11 V.,δ = dance
+where
+length - in I =
+in ground plane - above height = η
+H magnetic field intensity Α/rn = - τ = time - -
+to proportional thus is voltage The induced
+and ground above height its wire, the cf length
+reduced can be Voltage field. magnetic the of strength
+plane ground the to close cables or wires keeping by
+magnetic the where α path along them routing by and
+further discussed are points These is low. strength field
+15. Chapter in
+elemen- an 15, Chapter in be discussed will As
+of consists α wire in voltage induced for model tary .
+of one end center or the at placed source voltage
+loads of the with some representation wire, along
+then voltage The induced ends of the wire. two the
+The ends of the wire. the loads at the divides between
+appears across the load with highest lazLiest voltage
+
+case analysis, one can consider impedance. For worst
+the other end the wire to be grounded with one end of
+then appear at the circuited. All the voltage will open
+open circuit end of the wire.
+Short circuit current: The maximum current is that
+of the wire or cable are which flows when both ends
+to the Vehicle structure through α low or connected
+The short circuit cur- zero impedance, Fig. 14.7(β).
+rent is then mostly affected the wire by inductance
+is inductance, only treating and,
+(14.10) V -- ,dt. 8= 0
+where
+amperes =
+cable - H self-inductance of wire or = Λ
+circuit induced voltage V - Voc open =
+τ = time - σ
+that drives the current, The induced voltage, Vo.,
+the but height, cable the to proportional directly is
+current, of flow the impedes that Λ inductance cable
+of the cable height. is proportional to the logarithm
+are proportional to cable length. The Both Voc and Λ
+is practically inde- is that short circuit current result
+of the length of the cable and only moderately
+height of the cable above ground. dependent on the
+imped- low α have might wire individual An
+load by being connected to α semiconductor, in
+directly short circuit current might flow which case the
+semiconductor and its bias source. If the through the
+α low input intentionally designed to have circuit is
+if the current is there may be no damage impedance,
+circuit cur- short available large. Maximum not too
+rent is an important point to consider when selecting
+surge protective devices.
+Multiple If α group of wires is involved, Fig. wires:
+ex- that is calculated so voltage induced the 14.8(α), the
+(coin- group of conductors entire the between isting the
+structure. vehicle the and cable) or bundle the prising
+each on voltages the impedances, load Assuming equal
+de- not will and same the about be will wires the of
+or bundle the within wire the of location the on pend
+cable.
+(also voltages Line-to--line voltages: Line-to-line α
+than be less will voltages) or circuit differential called the
+α factor of 10 generally by voltages, at line-to-ground
+individual conductors to 46 dB, because 200, or 20 to
+thus and are often twisted, close together are usually
+reducing the total loop area.
+377

@@ -1,0 +1,105 @@
+Α typical plot (Fig. 5-29) cf the tracking data
+ρ- orded by any one of several tracking methods
+during an rpm sweep of an articulated rotor indicates
+that blade (Α) is aerodynamically similar to the
+master; however, an incidence or pitch adjustment is
+required to correct the blade track to zero. Blades (Β)
+and (C) can be corrected by downward trim tab ad-
+justment. The appropriate adjustments should be
+made to bring all blade tracks within the tolerance
+level compatible with crew comfort levels previously
+established. This tolerance will depend on rotor size
+but commonly will equivalent be to dIfferential blade
+coning angles min. of the order of 5
+Α typical plot (Fig. of track data during 5-30) α
+collective pitch swoep with the same articulated rotor
+depicts blades (Α) and (C) out of track δ.ic to dy-
+namic unbalance. This condition is corrrected by
+moving α portion of the adjustable weight of blade
+(Α) forward while that of blade (C) is moved aft.
+seen Blade (Β) ι: to be dynamically similar to the
+master blade without adjustment. Weight adjust-
+ments and/or trim tab or trailing edge adjustments
+rmvide -"will hlnd that are dynamicaly and aerody-
+namically alike, permitting interchangeability with all
+that other blades of configuration. In both Figs. 5-29
+and 5-30, the reference master blade is shown as α
+horizontal straight line through zero without slope,
+Several methods of tracking blades may be
+employed; the accuracy, safety, and reliability of the
+electronic trackers provide excellent results.
+In addition to tata flat and collective tracking data,
+determined be should moments pitching blade the
+with α suitable calibrated load cell. Pitch link forces
+should match master the blade pitching moment
+demonstrated that vibratory levels do not exceed the
+limits of MIL-H-8501 and that life-limiting oscilla-
+tory are stresses not induced.
+$&4 ROTOR BLADE MATERIALS
+varie- broad α relatively α-δ in par. 5-6.2, discu As
+construc- ty of materials may be used in rotor blade
+tion. This piiragraph considers the major factors that
+lo lead the selection of specific materials, based upon
+the inherent properties of the materials and irre-
+of construction. details the of spective
+Helicopter rotor blades unique arm in that many
+conditions that must be met depend upon various
+combinations of material properties. Α rotor blade
+must be designed as an integrated com- part of the
+plete rotor system. One specific requiremenW is that
+the mass moment of inertia of the rotor system must
+be of at least α minimum value to provide sntis-
+factory autorotational characteristics. This require-
+5-σ0
+
+ment much has influence in the establishment of the
+minimum mass distribution for the rotor blade. No
+weight savings can be realized beyond the limit ir-
+pGed by this requirement; thus, exigts α point beyond
+which an increase in the strength-to-weight ratio of
+the material cmnnot reduce blade weight. Although α
+high strength-to-weight ratio is desirable, more im-
+portant factors are the ratios of both the fatigue
+strength and density to the modulus of elasticity of
+the nmaterial.
+α The tetal loads on rotor blade cannot be pre-
+α dicted by straight forward examination of rotor
+thrust and centrifugal force.rTe loads depend upon
+the response of the blades to the periodic airloads
+which themselves are affected by the blade motion.
+The blade response also depends heavily upon the
+mass distribution. Α change in stiffness affects the
+bending moments, radii deflection, and of curvature
+of the blade to the extent that the response is
+changed. It is impos.ible to predict - without α re-
+evaluation of the blade response whether α change -.
+in stiffness will increase, decrease, or have no effect
+on the radius of curvature of the blade. In other
+words, the radius of curvature of α rator bWade do,
+%Α not have the simple proportional relationship to
+> .. stiffness that exists in α static structure because the ..
+bending moment is α dependent variable. Neverthe-
+less, the following equation from simple beam theoty
+for the radius of curvature ρ is applicabtle
+= . (5-9)
+- - O Zt--I
+and bending stress crt in α particular material with
+modulus E is
+or'σ psi (5-10)
+AE-
+Substituting Eq. 5-9 in Eq. 5-10,
+_.-,π
+ρ
+where
+ distance - from beam neutral axis to outer χ
+fiber, il.
+ modulus - ofclasticity. ps . E
+4 in inertia, of moment I . -
+bending moment, in.-lb Μ -
+If α stiffness change is made in such α way that the
+distribution of mass and stiffness is unchanged, the
+blade response, and thus the radius of curvature, also
+wid be sub ntantially unchanged. Then, as in Eq. 5-11,
+the blad. bending stress will increase in direct pro-
+portion to the material modulus of elasticity It E.
+follows that the most desirable rotor blade material is

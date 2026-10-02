@@ -1,0 +1,43 @@
+active electrodes and the airframe because the highest induced voltages usually
+appear between all of the incoming wires and the airframe. The reason is
+6.41. The wires are most closely referenced to the airframe illustrated in Figure
+at the electronics end, which is usually in the fuselage. If one or more of the
+wires are shielded, usually only the electronics ends of the shields are grounded
+to the airframe because grounding of both ends permits stray ac fields to induce
+circulating currents in these shields. These currents are α source of steady state
+electromagnetic interference (EMI) sufficient to interfere with the operation of
+the fuel quantity electronics. This EM1 has been avoided by leaving the shields
+at the fuel tank end. ungrounded
+I
+. /am
+SHIELDED
+-
+SHIELDS
+GROUNDED
+ONLY AT
+ELECTRONICS 1-27 :I / / INDUCED
+END VOLTAGES
+ARE
+FJENVEEN μ χ * sAcITAN PROBE χ E - npE
+SHIELDS
+AND
+AIRFRAME WING
+FUEL
+TANK
+Typical fuel probe wiring. 6.41 Figure
+Most magnetic flux and induced voitaie appears between either
+wire (or shield) and the airframe at probe end.
+Less flux and induced voltage exists between any two wires.
+Even less flux and voltage exists between α wire and its shield.
+The performance of shielded circuits within magnetic fields is discussed in
+13.2, where it is shown that α shield grounded at only one Chapter 13, Section
+end actually provides no magnetic shielding of an enclosed wire whose return
+path (the airframe) is outside of the shield. If α shieId is grounded at only one
+end, the magnetic flux encircled in the loop this shield forms with the airframe
+will induce α voltage in this loop of
+4 flux = magnetic where
+Most of this induced voltage will appear between the open end of the shield and
+the airframe. The same field will induce α similar voltage between the enclosed
+wire and the airframe. Only if the shield is grounded to the airframe at both ends
+will it prevent these voltages from being induced. If the ungrounded end of the
+shield is in α fuel tank, the highest induced voltages will appear there.

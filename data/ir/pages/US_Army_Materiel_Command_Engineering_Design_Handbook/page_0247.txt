@@ -1,0 +1,99 @@
+AMCP 706-202
+In view of growing pressurcs to usc advanced com-
+posites in aireraft siructures, it is appropriate to
+examine the benefits, if any. to be derive:λ from tiscir
+application to rotor blades. The outstending attrac-
+tions of such msteriais are very high stiffness, high
+strength, end low weight. It has been shown that thc
+ratios of these properties .-- rather than the absolute
+valucs — ase of prine importance. From the stand-
+point of fatigue resistance (Coluinn 2. Tabie 5-4).
+these materi-ls appcar to bc very compatible with
+snore conventional materials for use in rotor blades.
+The question, then, becomes whet'er there are over-
+riding advantages to be gained from other character-
+istics, such &σ ballastic tolerance, or the high value of
+the ratio E/π.
+The rotor blade dynamic response is highly depen-
+dent upon the rotating natural froquencies of the
+blade, and it is neccssary that the biade be designed to
+avoid frequencies that are in resonance with any for-
+cing functions. The expression for natural freguency
+of α rotauing beam ωg. is
+«йn μ + :,rad/sec (5-12)
+where
+α, = coefficient which is dependent upon mass
+and stiffness distribution and has α δ.ffer-
+ent value for cach mode of vibration, di-
+mensionniess
+El = stiffness. Ib-in.²
+≈ coefficient dependent upon mass distribu-
+tion and the mode of vibration, dimension-
+les3
+= mass per unit length of heam, slug/in.
+= lcngth, in.
+Ωa :otational spced, rad/sec
+For hinged beams, tihe values α. and K„ fer the first
+three modes arc: α, = 15., α = 50.0.α3 = 105.0
+K, = 6.36, K, = 17.65. κ, = 3.50
+To exainine the effect of stiffness Ef on natural fre-
+quency, an example is presented: & constant-cross-
+soction blade of 25-ft radius with α weight of 4.0 15/ft
+and α flapwise EI of 20 ξ °:. Ib-in.² Α tip speed of
+680 fps is assumed, giving α rotational epeed Ω of 27.2
+rad/sec: hence
+(15.5) 20 × 4×(25×12) +6.38(27.2)
+12 × (32.2× 12)
+"695 + 4720 = √$415
+73.6 rad/sec
+5-52
+
+ι.
+which is
+$$ 73.6 2.72
+ΙΛ2
+ог WR1 = 2.720
+Now, assuming that *he stiffness El is incrcased to 40
+× 10 1β-in., wR =1390 +4720 #\6110
+78.2 rad/sec
+Thus. for the frst flapwise bending mode on α typical
+hin.ged rotor blade, α 100% stiffness change 1esults in
+α change in rotating frequency ωR| = 4.6 rad/sec,
+or 6%. This mode of vibration is critical in an articu-
+lated rotor, and the only effective way to control it is
+by varying the mass distribution, because little can be
+donc by changing the stiffness.
+Further examination would show that the first
+chordwise mode of vibration, as well as the higher
+modes in both planes, is affected significantly by
+blade stiffness. Fer hingeless or semirigio rotors, ail
+modes are affected significantiy by blade stiffness. In
+these types of rotors, the higner modes of vibration
+are manifest primarily in blade stress levels, as op-
+posed to vehicle vibrations. For multibladed rotors,
+the higher vibration modes also can contribute signi-
+ficantiy to vibrations.
+Material selection aiso can be very important in
+rotor blade fabrication. It now is possible to produce
+nonuniform blade cross sections in any of the
+available materials, although it generally is easier
+with composites, which can β: molded. As in in-
+stances where noncompatible values of E/o can cause
+high stresses in flight, it also is important to avoid
+material combinations with greatly differing conf-
+cients of thermal expansion. Such ascemblics can
+develop high resicual stresses as α result of adhesive
+bonding opcrations.
+Ideally, 9 rotor biade should be made of materiais
+that are highiy resistant to both corrosion and ero-
+sion. Corrosion resistance of the nonmetallic com-
+posites is highly attractive and car be influential in
+material selection. In α nionolithic composite blade,
+it is necessary to protect the forward portion against
+erosion. The most effective materiala for this purposc
+are steinless steel, nickel, cr cobalt abrasion shieids.
+Of the clastomeric materiais, the urethancs are
+superior and are very durable wbcn subjected to
+sand, but generally have been found to have short
+lives when rain is α significant part of the environ-
+ment.

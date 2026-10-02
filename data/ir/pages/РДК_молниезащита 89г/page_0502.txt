@@ -1,0 +1,54 @@
+consideration impedance is an important erator source are prominant in composite Waveforms 4 and 5
+im- low source imply very voltage rises structural since low imped- on 5 dominant with Waveform structures
+ance circuits. To evaluate their effects, generator im- pedance. Ideally, test generators should have imped-
+pedances of 0.1 to 5 ohms are appropriate. ances of a fraction of an ohm. If higher impedance
+Some combination of all these waveforms will gen- generators are used, care must be taken to ensure that
+erally be present at some amplitude. Since these tests the requisite curr'ent is obtained.
+are intended to evaluate damage, only the most severe
+Precautions 18.11 Regarding Support patterns of amplitude and energy content need to be
+Equipment applied to equipment.
+Transformer 18.10.2 Injection Tests Most tests require the EUT to be supported and
+monitored by equipment that is not normally installed
+Injection into unshielded circuits: Injection into un- in the aircraft. Experience has shown that many of the
+shielded circuits is most commonly done to evaluate problems involved in performance of lightning indirect
+whether upset will occur with certain arbitrarily cho- tests in; olve the support equipment. It has also shown
+sen voltages and currents. Unless there are specific rea- that some supposed "failures" of the equipment under
+sons to the contrary the levels of Tables 16.2 and 16.3 test have really been caused by the support equipment.
+should be used, just as with pin injection tests. Imped- Problems can occur either because of malfunction of
+ance of the source, transient generator and coupling the 6upport and monitoring equipment or because the
+transformer is a valid consideration since the coupled leads to that equipment p.ovide extraneous coupling
+transients may manifest themselves either as voltage paths into the EUT.
+or current, according to the impedance of the circuit Care should be taken that this equipment and
+under test. Effective impedances of 5 - 25 ohms are the connecting leads are well protected against light-
+appropriate. ning indirect effects since the test, of necessity, sub-
+jects the support equipment to as severe a test as it
+Injection into shielded circuits: Injection into over- does the equipment being monitored. As a minimum,
+all shields of cables (shields grounded at both ends) all leads connecting the monitoring equipment to the
+is most commonly done to evaluate the effectiveness EUT should be shielded. Often it is appropriate to use
+of the shields and to see if the EUT will be affected copper tubing for the shields. If monitoring equipment
+by the residual signals coupled through the shield to is connected to the internal circuits of the EUT, opti-
+the conductors in the shield. Current levels should ap- cal isolation devices are appropriate. Also, the mon-
+proximate those expected to be produced by lightning, itoring equipment should be as far from the EUT as
+but estimating the required currents is a task totally possible in order to minimize direct radiation from the
+separate from the conduct of the verification tests, test circuit and EUT into the monitoring equipment.
+Source impedance is of little concern as long as
+18.12 Safety the overall shield is continuous, grounded at each end
+and able to carry current. Under such conditions the
+important consideration is the amount and waveshape Indirect effects testing, particularly at high power
+of the induced current. Source impedance is only of levels, involves the use of test equipment operating at
+concern for tests on shielded cables when an attempt voltage levels high enough to be lethal. Safety precau-
+is made to observe the effects if the continuity of the tions are essential and must be addressed in test plans
+overall shield is broken or degraded. Otherwise there or laboratory procedures. Some minimal precautions
+is little reason to be concerned with what the open are as follows.
+circuit voltage might be on an unshielded circuit if the
+those operating area to the test access to 1. Limit to be shielded. going in fact, always is, circuit
+the test equipment. Tests Injection Ground 18.10.3
+2. Provide all capacitor banks with a grounding stick
+Ground injection tests are generally made to eval- or switch. Never touch a capacitor until it has
+uate the effects of airframe IR voltage on circuits with been verified that the grounding stick or switch is
+references to different points on the airframe. Most in place.
+O commonly, such circuits will be fitted with protective
+devices or contained in cables with overall shields. 3. Consider placing all high voltage equipment into a
+Tests should be done at current levels determined test cage fitted with interlocks that prevent ener-
+by the techniques discussed in Chapters 10 - 14. Gen- gizing high voltage power supplies until all access
+489

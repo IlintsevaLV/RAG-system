@@ -1,0 +1,44 @@
+piece. None of of the test distorted by non-linearities to measuring minimize interference In order to
+the response of in- have any practical effect on generator normally would these equipment, α complete surge
+they can cause expensive controversy in of all the compornent genera- sulation, but have the low voltage side
+tors connected together at one point, as shown in Fig. interpretation.
+6.48. Early practice, before about 1960, called for α
+Standards and Practices Test 6.8.2 α and Canada USA and waveshape in the ξ 40 ps 1.5
+1 ξ50 ps waveshape in Europe. Tolerances on front and
+Techniques and waveforms for direct effect light- tail times were intentionally loose, however, and there
+ning tests on aircraft have been codified by industry was little practical difference between the two. Inter-
+working groups and are presented in [6.34] and [6.38]. national standardizing activities have led to α compro-
+The documents prcesent α general consensus of prac- mise and the present 1.2 ξ 50 ps wave is used world-
+tice in both the USA and Europe. They have been wide. The wave, when not interrupted by breakdown
+influenced by test practices that were common in the of α gap or insulation, is called α Full Wave, as dis-
+electric power industry long before testing on aircraft cussed in §1.5.3 and Fig. 1.11. It is carried over into
+was codified, and some discussion of those practices aircraft testing as -Full in Voltage Waveform Β Wave
+paragraph 3.2.1.2 of [6.341. in interpreting [6.33] and [6.381. Power in- is useful
+gap of α spark performance the When measuring as [6.33] such in documents is codified practice dustry
+depends voltage the breakdown that found is usually it test- aircraft possible wherever and - 9.41] and [6.39
+indus- Power increased. is voltage the rapidly how on guidelines, those follow to tended have practices ing
+volt- the breakdown has been to measure try practice than necessary. no more deviating
+voltage waves spark gaps by applying age of protective
+Voltage test waves: Impulse voltage test waves were rising at the rate of 1000 kV/ps. Such α voltage can
+developed in response to the observation that voltages be produced by suitable adjustment of the charging
+were voltage and circuit elements of standard Marx circuit induced on power transmission lines by lightning
+generally unidirectional and tended to have front times impulse generators. The resulting voltage is called α
+of α few microseconds and decay times of α few tens of Steep Front, SF, wave. It is carried into aircraft testing
+microseconds. Similar waveforms could be produced as Voltage - Waveform Α Basic Lightning Waveform
+in the laboratory by simple, though expensive, surge in paragraph 3.2.1.1 of [6.34].
+generators such as the Marx circuit impulse generator. Power industry practice also calls for evaluating
+of transmission line insulators sparkover voltage idealized waves, the that might produce other Generators
+such as square, trapezoidal or triangular waves, would when exposed to switching surges having front times
+have been much complex. of several tens or hundreds of microseconds. Such volt-
+be produced by Marx circuit impulse define the standard light- ages can also Present practice is to
+ning test wave as one having α 1.2 ξ 50 ps waveshape, generators. Similar voltages are called for in aircraft
+that is, α frorf time of 1.2 ps and α decay time of testing as Voltage - Waveform Δ Slow •'ont Model
+ps, the definitions being as given in §1.5.2. Front of paragraph 3.2.2.2 of [6.34]. 50 Tests
+time is taken as the virtual front time of Fig. 1.10 be-
+cause it is often more clearly defined than the actual Current test waves: Power industry testing of surgc
+time to crest. High voltage surge generators do not arresters calls for α 8 ξ 20 wave, es was discussed ps
+deliver mathematically pure double exponential waves; in §1.10. In the aircraft industry, similar test waves
+the wave is initially distorted by the firing of the spark are used for evaluating surge arresters used in aircraft,
+gaps of the generator and the wave near crest may be but are not in use otherwise.
+0
+1617

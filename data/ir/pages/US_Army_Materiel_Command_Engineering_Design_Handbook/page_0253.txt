@@ -1,0 +1,66 @@
+FLOW FIELD AT PROPELLER DETERMINED BY -
+1. Α'SE.AGE
+2. MA'N WING
+3. HONIZONTAL STABILIZER
+4. VERTICAL STABILIZER
+1.0
+0.8
+VTOL AIRCRAFT
+RELATIVE MAGNITUDE OF EXCITATIONS 0.6 0.4
+0.2 CONVENTIONAL AIRCRAFT
+0
+2 3 4 5
+Π-ORDER EXCITATION
+Figure 5-34. Comparison of Π-orde. Excitations
+Thc development of 1Π-blade loads from angular
+inflow is depicted in Fig. 5-35, where blade #1 is in
+the retrcating position rolative to the infiow wiih
+roducod angle of attack and relative velocity and
+biade γ3 is in τ ε advancing position, with increased
+angle and velocity. This figure shows that although
+the resuiting loads on the blades and propeller shaft
+vary at α frequency of 1Π, the moment and side force
+loads on tho airframe are always in the same direc-
+tion. Those airframe loads are steady if there are three
+or more blades. The variation in lif experienced by α
+blade soction rotating around σ propeller centeriine
+inclinod to the airflow is proportional τ3 :be product
+of the inflow angle Α snd the aquare of tze aircraft in-
+dicated eirspood v.. ι.o., 1Π-blade excitution. is pro-
+
+MAIN ROTOR
+_PUSHER
+ENGINE JET EXHAUST PROPELLER
+ANTITORQUE ROTOR
+5. JET EXHAUST
+6. MAIN ROTOR SLIPSTAEAM
+7. ANTITORQUE ROTOR SLIPSTREAM
+8. MAIN ROTOR PYLON
+Figure 5-33. Propeller Flow Field for Compound Helicopters
+V. - FLIGHT VELOCITY
+12R . AOTATIONAL VELOCITY
+V. - BLADE RELATIVE VE.OCITY
+8 - BLADE ANGLE OF ATTACK
+Τ - OUT-OF-PLANE FORCE
+Δ - IN-PLANE FORCE !Π MOMENT ?
+SUBSCRIPTS:
+1 - RETRATING BLADE
+3 - ADVANCING BLADE
+Δ, IP SIDE FORCE
+Δ,-o,
+ΩR
+ο
+ΩR
+6 Figure 5-35. Propeller 1Π Loads from Nonaxiat Inflow
+portional to AV?. The dimensionless excitation
+factor EF is defined εs
+EF = 348 δ'less (5-13)
+where
+Α
+V, = indicated airspcod, kt
+An alternative expression usod to indicate the severity
+of 1Π aerodynamnic excitation is Ag. The relationship
+between the two expressions is
+Aq = 409 EF (5-14)
+where
+= dynamic pressure, Ib/ft²

@@ -1,0 +1,97 @@
+9|α
+--
+TABLE 7-1. OF OUTPUTS
+CONTINUOUS-CURRENT
+CONTINUOUS- SINGLE-PHASE
+POWIR-FACTOR, % CURRENT CONVERTER
+GENERATOR
+100 100 85
+100 78 95.5
+90 100 74
+ole voltages in the DC output can avoided be by the
+use of polyphase input supplies.
+MIL-STD-704 specifies that utilization equipment
+requiring ar. AC input of 500 volt-amperes (VA) or
+more and α 28 V DC output of 5 Α or less use shall
+static conversion, unless it is designed sp-cifically for
+use with DC generators.
+to DC AC Converters
+Σ2,5.'.
+fails into also into AC converting DC for Devices
+static. The rotary and classes: fundamental two
+devices same types of the class are basically rotary
+be either they may - conversion in AC-DC used
+con¶verters; the or synchronous sets motor-generator
+of ope- the capability converter having synchronous
+con- AC. In this and converting into rating on DC
+and inverted be operating to are said they dition
+In inverters. as commonly therefore are known
+said regarding motor-genera- general, what has been
+remains true here versus synchronous converters tors
+and are more cheaer, the inverteirs more cmlqcrat,
+sets. In comparable motor-generator than compact
+this mode, however, some suitable electrical DC-AC
+con- since used be must control speed mechanical or
+condition. (The this in away" "run to tend verters
+highly inductive load weakens the field through
+armature reaction and allows the speed to increase.)
+For most ordinary, ι.ε., relatively low-load, appli.
+common DC-AC conversion device cations the most
+is the static inverter. This is α circuit that alternately
+connects the output lines to opposite side of the DC
+such solid-state com- typically via the use of supply
+Such semiconductor inverters, ponents as thyristors.
+using both thyristors and transistors in three-phase,
+aircraft conventional are in bridge circuits, full-wave
+in static inverter rotary and between choice The use. Sany cast must depend upon such parameters specific
+required output input sources, the . as the available
+relative costs - chnasacteristics o; the system, and the
+and weights.
+• • °"'•
+
+AMCP 7 -202
+-_ _ _ _
+CONVERTERS RELATIVE TO
+GENERATOR
+THRLE-PHASE FOUR-PHASE SIX-PHASE
+CONVERILR CONVERTER CONVERTER
+132 161 194
+120 145 170
+109 128 145
+7-3 BATTERIES
+In general, battery selection is based upon battery
+characteristics, electrical characteristics of generators
+and associated controls, utilization loads, and car-
+tain assumptions in unrcraft operations.
+7-3.1 BATTERY CHARACTERISTICS
+Nickel-cadmium and silver-zinc storage batteries
+sybicvis.α.- eiectricai in aircraft used preserntly :ρ
+service has particular system electrochemical
+excellent cy- exhibits Nickel-cadmium characteristics.
+of discharge range α wide output over life and cle
+starting systems for is preferred to other rates, and
+highest electrical gives the engines. Silver-zinc turbine
+is the most volume, but unit weight and output per
+life. cycle the shortest batteries and has of expensive
+in and is used the systems, oldest of is the Lead-acid
+starts. It not requiring main engine helicopter design
+conventional electricai cir- is well-adapted to most
+discharge rates. lypical cults requiring mcierate
+7-2. in Table are listed characteristics comparative
+CONTROL GENERATOR 7-3.2
+CHARGING BATTERY
+Engine-driven generators are subject to variations
+in speed in the approximate ratio of 3:1. Thus, α
+voltage regulator must be provided in order to main-
+speeds. The tain constant voltage at high engine
+generator is dropped off the bus by the reverse
+current relay at all lower engine speeds, and the
+at engine all utilization loads battery must assume
+and below the cutoff value. Various generator speeds
+voltage regulctor combinations have been designed
+speed. idling down to voltage svrctem maintain that
+in manner the limited, is current the generator If charged will depend upon the uti- whicih the battery is
+time interval. during α specific lization load current
+that and upon the state o :barge of the battery in
+period.
+-7-15

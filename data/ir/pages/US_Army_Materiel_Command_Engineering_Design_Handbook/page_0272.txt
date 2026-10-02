@@ -1,0 +1,85 @@
+16,000
+14,000
+12,000
++ psi
+0001
+MID-BLADE VIERATORY STRESS, 000 6.00
+4,000
+0002
+POWER = NORMAL RATEU
+0=
+100 160 200 280 300
+INDICATED AIRSPEO V, ki
+Curves
+5-8.5.2.2 Iaierpretatien ef Renunits
+To dotermine siructural integrity. the mcasurod
+stroses in various regions of the biade — after due
+consideration of background data snd allowance for
+change — must be compared with appropriate
+material streogth information. Tbe strength data are
+ostablishod from fuil-ecaie anui specimen testing. in
+choneing appropriate strongth data, the level of mcan
+stroe from design computatioas is sufficicutly ac-
+curste. For operating conditions considered to be esaen-
+tially oontinuous, the sireas leveis muat be below the
+endurance limit. Normal cruice flight must be treated
+as α contiauous oporating condition, and, in some in-
+3 po π
+tranted simitarty.
+Α furtiber afer astabliching that
+pontisuou ope acaaptabiu
+atracua, is to deter
+poociy repestabia, pera oq ε noqi ge or Le., 8o δ — micins
+become too high undsr axpactable variations in ctir-
+amstanose. Such€ operation
+
+AMCP 706-202
+at cortain critical apoods in σ ridom ground winden-
+vironment, or soma instances of stall flutter. In such
+cascs, it may ba noceusary to avoid spocific operating
+rogions in order to assure structural integrity,
+For conditions, such as takooff and inflight ma-
+neuvers, where vibratory stroes levels exceod ths en-
+durance limit, the cumulative fatigue damage must be
+shown to rosult in an accoptable fatigue lifc for the
+propeller. Fatigue life dotermination is discussed in
+Chapter 4, AMCP 706-201.
+5-9 ANTITORQUE ROTORS
+5-9.1 GENERAL
+The tail rotor of α single-rotor helicopter is
+designed to provide thrust for counteracting main
+rotor torque at all flight conditions and to provide
+variable thrust for control in both the torque and
+antitorque directions. Yaw control is effocted by vari-
+ation and modulation of the collective pitch setting of
+ths tail rotor. The collective pitch is controlled by
+directional control pedals and normally is adjusted so
+that, at the design point hover condition, the pedals
+are in α neutral position. For single-rotor kelicopters
+360 tionai diraction of main roto: rotation), the left pedal with the sdvancing bladc on the right, (the conven-
+increases tail rotor (positive to the right) thrust, pro-
+ducing α keft yaw. Likewisc, the right pedal wili pro-
+duce α right yaw. with the tail rotor going to lower
+valucs of thrust au.δ finally into "reverse thrust".
+The tail rotor design goal is to produce, with
+minimum power and weight, the thrust necessary to
+moct the control and antitorque roquirements. Tail
+rotor roquirements must be met without the oc-
+currence of any undesirable vibretion, whirl, or sbake
+characteristics. The tail rotor is dasignod for the most severe anbi-
+ent conditions inciuding helicoptes critical bover el-
+titude and tamperature, and the critical altiude for
+thc enginc.
+The maximum thrust that the tail rotor must pro-
+visr without blade stall is that required to counteract
+main rotor torquc, while aiso providing the specified
+positive yaw acceleration and overcoming tail roter syroscopic proccssion effects, in the siaximum spoci-
+fied croma-wind. Provision muat be included to
+countoract disturbances such as gusts. Coaaiceration
+alao nanat be given to tse thruet loes due to intarfer-
+ance with the wertical fin, main rotor, and otber parts
+of tha halioopiat. Exporience hae abown that if the tail rotor thruet
+requiremests &τ ths critical low-apeed vonditions (α-γ.. hover plas laft yaw lato α aide wriad α- misimuen
+msiey adtitude) are sca, al requiromoncs for
+forward fght uaualy wil be sstiafßied. Howavsr, tiks
+5-77

@@ -1,0 +1,21 @@
+CLOUD
+Leader direction as determined from direction of branching. 1.9 Figure
+Downward-branching leader starts at cloud. (α)
+(β) Upward-branching leader starts at ground.
+filament rises from its initial current of α few tens of amperes to higher values, it
+gets hotter, its diameter expands, its longitudinal gradient decreases, and it
+becomes an even better conductor, which in turn allows even more current to
+flow in the arc. As the charge in the lower part of the leader is neutralized, the
+heavily conducting arc reaches higher into the charged leader channel. The head
+in which this neutralization takes place moves upwards at α rate of of the region
+roughly 100 000 km/σ (or one-third the velocity of light) until it reaches the
+produces the cloud. This heavily conducting region, called the return stroke,
+intense flash normally associated with the lightning stroke. Some stages in the
+I. 10 (Reference 1.13). development of the return stroke are shown in Figure
+the The velocity with which this return stroke propagates, together with
+of amount of charge deposited in the leader channel, determines the amount
+current developed in the return stroke. Let v be the velocity of the return stroke
+q be the amount charge deposited per unit length, dQ, along the leader and of
+channel. Since
+and
+then

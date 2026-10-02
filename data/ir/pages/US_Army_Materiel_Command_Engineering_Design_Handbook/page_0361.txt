@@ -1,0 +1,109 @@
+,3. υ
+MCP 706-202
+Loss of systems due to accumuiator precharge gas
+kcakage can be reduced to α great extent by elimi-
+nating the nced for α main sysiein accumuiator. One
+method is to design α sysiem relief valve having the
+response capability nocessary to dump high-preisure
+fluid to the low-pressure return side of the sysem
+quickly enough to reduce the amplitude of pressure
+spikes.
+If α variable-delivery. pressure-compensated pussp
+is used, preasurc surges can be reduced by designing
+the punsp with α drivative rompensator. The com-
+pensetor anticipates pressure surges by scnsing the
+rate of ressure rise, and thus acts to reduce the
+magnituoe of that rise befor: it reaches α critical
+value.
+The design approaches discussed in this paragraph
+represent the Ist:st state-of-the-art developments
+asd, therefore, may not prove to be the best methods.
+However, their considered vsage coußδ be worth-
+whike in increasing system rrliability.
+-2.4 HYDRAULIC SYSTEM STRENGTH CON-
+SIDERATIONS
+Hydraulic system components and attaching
+linkageu sbal! be designec so as to meet the most cri-
+tical ioads o: combination of loads. Load factors or
+design factors shall be cstablished for syatems in
+order to insure adequate safery and life of the com-
+ponents. Where applicable, boad factors must comply
+with Milinary Specification requirements. When no
+Military Specification requisement exists. tbesc fac-
+tors must be determined and assigned in accordance
+with good design practice. The following basic cri-
+teria stall be considrred in catablishing these factors:
+ι. Tne structure must not sufer fatigue wine.. sui-
+jected to normal working louds. The uait siress under
+normal working londs must be limited so as noi to
+cacced the fatigue strength of the material, under
+repeated loadiag. for the anticipated life of thc sis.
+ture, with sireos conceniration factors taken into con-
+sideration.
+2. Thc structure must not yictd when ssbjscted to
+maximum expected loads. The unit stress at the limit
+krad mus uot exced thc yield srength of ihe
+material. It should be recognized that tesi loads may
+be impoued upon the structure that may excoed the
+maximum limit lond encouniered after insiallation.
+No part of the siructure ssould take any permanent
+set or expericnce sny damage wher subjected to
+applicaiole sest Jonds.
+3. The structure axust not fail at tibe ultimate load.
+Whas applicable, ultimate srengt: of material
+srould be determtined oy bending or iorsional
+modulus of rapiure.
+9-6
+
+4. Deflection of components must not causc mal-
+funcsion. Defection, rather than strength, is often thc
+major criterion for design of hydraulic system com-
+ponents and associaied structural ciements. When
+this is the situation, thc design shalf be based upon
+limit losds rather than ultimate foads.
+5. Temperature variations must not cause mal-
+functioning or excesaive stress. Consideratior. must
+be given to expected temperature variations so that
+no binding. sticking, or maifunctioning of compo-
+nente wili result. Internal strerses, such as those
+resulting from the use of dissimilar materials in com-
+bination, siould not excced allowable stresses unc
+the mast adverse temperature conditions. Where
+components are expeciod to opergte at cxtromely
+high temreraturca, allowabic unit streacs may be
+redciced.
+Hydraulic systein design pressures (operating.
+proof test. and burst) shal! be determined in accor-
+dance with Table I of MIL-H-5440. Thc design
+should be based upon the most critical condnion. In
+ad-fition, MIL-H-Σ440 requires that all hydraulic
+systems and components that are subjected, during
+operacion of tne aircrañι, to siruciurai or vincr ionds
+not of hydraulic origin shall withstand such loads
+π
+priate proof pressure as spocified in Tabie 1, without
+excooding the yield point at the maximum operating
+temperature. MIL-H-Σ440 also requires that actu-
+ating cylanders and other components, and thcir ai-
+taching lines snd fittings. if subject to arcderated
+loads, stall be designsd and tesied on the basis of α
+preasure cqual to the maximum pressure that will be
+developed. without exceeding the yield point at the
+maxiasuans operaing semperature.
+Δ2.Σ HYDRAULIC SYSTEM TEMPERATURE
+CONSIDERATIONS
+Hydraulic Nuid selection criteria include tie
+expectod range of opcrating icmperatures, tinoc al
+of sauperature coatrol, and fuid physical propurtixs
+at expected temperature leveis. Where ambieng asd
+structural tessperatures are above the hydroulic fluid
+-od α auduos ε ! nod ay σ/pe q
+icntial fire hazard must be considered. Fluid sability
+is affected by thermad stress, which can reault in
+changes is viscosity and fornation of volatile com-
+ponents, insolubie materiak, and corrocive deposis.
+Hydraulic syuem efficiencies are raducod by igh
+fluid viscosity at lower temperatures, which resuls in
+iniet problens with pumps, siuggish reoponac of csiti-
+cal actuators. pover lous in transmission. and weighi
+penaltias due to lien: size. Ai high tomperaturos, low

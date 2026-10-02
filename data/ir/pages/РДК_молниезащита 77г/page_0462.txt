@@ -1,0 +1,42 @@
+estimated from the quantities listed in a data sheet description prepared by
+manufacturers for a diode or a transistor.
+16.4 Limitations
+Certain limits to the accuracy and application of the theoretical and
+empirical models exist and must be noted in estimating component device
+vulnerability. The models have been verified only for diodes and bipolar
+transistors. Other devices, such as FETS and unijunction transistors, have been
+tested in insufficient numbers for conclusions to be drawn as to their
+conformance with the model. Also, the results and models which are presented
+apply strictly only to an isolated device--that is, not to a device in a circuit. In
+the case of a multiple-terminal device, they apply only to the two terminals
+connected for test, with any other terminals open.
+The assumptions made about junction heating and transfer of heat in the
+derivation of the models limit their applicability to the region of pulse durations
+20 ps. For longer times appreciable heat transfer may of approximately 0.1 to
+take place away from the junction area during the pulse input. For short pulses
+(1 the power levels are so high to 10 kW) that very large currents flow;
+consequently, the joule heating in the bulk material is appreciable. The
+transition behavior between these three regions of pulse duration (regions that
+will be more preciseIy described later in this section) is not well defined and may
+vary from one device type to another. Examination of available data indicates
+the transition region generally occurs between 100 ns and 1 MS.
+Still another limitation is fundamental to the work summarized in this
+section: it applies only to junctjon burnout. Other modes of device failure, such
+as metallization burnout and internal arcing, are not treated. Based on the results
+obtained in studies of junction burnout, it would seem that other effects, such
+as metallization burnout, occur at higher power input levels than those input
+levels sufficient to damage the junction.
+16.5 Failure Mechanisms--Semiconductors
+PN The two principal breakdown modes for semiconductor junctions are
+the following:
+I . Surface damage around the junction as a result of arcing
+Internal damage to the junction region as a result of elevated 2.
+temperatures.
+refers to the establishment of a high-leakage path around the Surfuce damage
+junction which effectively eliminates any junction action. The junction itself is
+not necessarily destroyed, since, if it were possible to etch the conducting
+material away from the surface, the device might be able to return to its normal
+operating state. This is not practical, of course, an operational semiconductor. in
+It is equally likely that the formation of any surface leakage path would be the
+result of excessive heat formation in the bulk of the material, and this would
+typically be an irreversible phenomenon. It is very difficult to predict

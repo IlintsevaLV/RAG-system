@@ -1,0 +1,115 @@
+"Τ
+.V"I.
+• ••:•
+system result weight will from placing the clutch
+the location of highest speed; ι.ε., between the
+first and the stage of reduction gearing.
+other considerations in multiengine configurakions
+such as vulnerability, reliability safety, and -
+require locating the clutch between the first
+second stage of reduction gearing,
+requircments Operational for clutches
+helicopter configuration, and mission, life
+However, current Army clutch requirements
+twin-engine helicopters typically art..
+capacity ultimate torque I. The minimum
+"dutch be shaIl ξ limit torque (limit torque 2.0
+Ξ maximum continuous drive torque).
+overrunning continuous full-speed 2. 2-hr,
+posbible without operational capability impairment.
+3. 30-min, full-spocd continuous safe
+be possible after total loss of hlbricant shall
+hse requirements apply to the entire. clutch 7
+including support bearings and, often, seals.
+In addition to these requirements, there exist
+significant design considerations as evidenced
+served failure modes in existing helicopter clutch
+Splihiiui,;
+) I. Brineiling due to the presence of oscillatory
+que pulsations. Depending upon operating
+and configuration, overrunning clutches wilt
+tolerate only 10 to 30% continuous oscillatory
+que. External shaft bending and radial or
+loads must be eliminated from the clutches by
+relatively rigid support bearings that maintain
+between centricity at all times the driving and
+running members. When modeling α drive system
+torsional analysis, it is important to consider
+clutch as α rclatively soft torsional spring.
+values typically range frog 35,000 to 350,000
+lb/rad (Ref. 94).
+2. Excessive wear at intermediate overrunning
+speeds. Maximum wear conditions usually are
+countered when the output member is operating
+speed full and the engine speed. is at idle Most sprag-
+and roller-type clutches evidence their greatest
+rates wlhen (input speed) / (output speed) - 0.5
+to the product of centrifugally induced compressive
+stresses and sliding velocities.
+3. Failure to engage at In high speeds. many
+stances reported, the second engine has failed
+gage after the first has accelerated the system
+ground idle speed. Both sprag and roller clutches
+quire α critical friction coefficient of about
+to engage. Hydrodynamic elastohydrodynamic or
+film formation and/or externally induced
+modes may lower friction coefficients below this
+speed at synchronization, the moment of resulting
+
+Τ. NLa
+AW-•Π 706-202
+in momentary or complete Subsquwnt overspeods. ad-
+engine justments of input or output speeds may lead to
+HoNever. abrupt engagement with attendant shock loads suf-
+ficient to fail adjacent drive system components.
+- may 4. False brinelling of clutch elements or support
+and bearings. Clutch support bearings operate in α static
+mode whenever the dlutch is engaged because both
+vary with inner and outer bearing Ex- rings rotate in unison.
+cycle. tcrnal vibration thus may cause fretting or false
+for brinelling at the roiling element/racc contacts. The
+entrapment of wear particles and sludge in the outer
+is im- wear. Therefore, it often accelerates such of the race
+the static capacity of the support 1.5 portant to maximize -
+envelope bearings for the available and to provide
+areas. stagnation without oil circulation good be shall
+Design considerations peculiar to particular types
+operation of clutches am given in the paragraphs that follow.
+system.
+Spaig σ system, 4.2.Λ4.1 Cts
+clutches Sprag am the used most widely type for
+other helicopter drive systems. Two variations have been
+by with ob- used success. Both employ α complement of
+ap- equally spaced, full-phasing sprag cams operating
+between concentric circular races. Α detailed study of
+tor- their geometric and operating characteristics is pre-
+stresses sented in Ref. 95. Race cross sections must be suf-
+safely ficiently large to prevent elastic deflection under load
+tor- from increasing the sprag space by more than about
+moment 0.002 in. Race hardness and case depth must be ade-
+use of quate to support operating Heriuian stresses of 450,-
+con- 000 to 500,0Ω psi at the sprag/inner race contact.
+over- Successful applications of these designs are based
+between for upon 3 10' and cycles 10' of full torque Ξ
+the application without failure.
+Stiffness For ,noderate to high-speed operation it is pre-
+in.- ferable to use outer race power input with inner race
+overrunning to reduc the centrifugally induced
+sprag/racA contact stress. In such usage the sprag
+en- complement should remain stationary with respect to
+at the outer race and should slip at the inner race during
+overrunning. This arrangement also permits centri-
+wear tugal-feed lubrication through the inner race and re-
+due duces the race/sprag sliding velocity for α given over-
+running speed.
+Both clutch types usually employ α degree of cen-
+in- trifugal self-energimation by virtue of sprag center of
+to en- gravity (CG) offset with respect to their ,.ontact
+engagement to axes. This can cause some with problems
+rt- high-speed because applications the drag torque
+and be 0.05-0.07 (power loss) wear may excessive.
+oil The two dutch types differ in some characteristics.
+vibratory For example, one user two concentric cage elements
+level to separate the sprags, while the other uses α single
+cage. in outer The double-cage type uses an inner race
+4-61

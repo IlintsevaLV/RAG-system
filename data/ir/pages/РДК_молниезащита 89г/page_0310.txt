@@ -1,0 +1,39 @@
+/
+0.81 6.5
+....
+N 0 0,
+(β) (α)
+4 -5.. -21.9
+o 1.28 0 1.28 Ps ms
+2.8 620
+o
+.,,.,- 0I
+(χ) (δ)
+1.28 Ps 0 1.28 ms 012.60
+1460 1000
+0 . . :. 0 .1.28.U 0.1.
+0
+-1220 -2200
+0 1.28 1.28 Ps me
+Fig. 10.28 Calculated and measured response to triggered lightning - CV-580.
+(α) Δ-dot right wing sensor (ε) Right wing Β-dot sensor
+(β) Vertical stabilizer Δ-dot sensor (φ) Forward fuselage Β-dot sensor
+(χ) Left wing Δ-dot sensor (γ) Aft fuselage Β-dot sensor
+(δ) Left wing Β-dot sensor
+Measured - solid, Calculated - dotted
+Responses for other points are shown in Figs. codes is α way of simulatina5 the way corona forms
+α triggered light- and deelops into around the aircraft agreement between 10.28(φ). The general 10.28(α) -
+used to can then be involved currents event. The ev- ning results is (dashed) calculated (solid) and measured
+Good compar- the response of the aircraft. determine comes close to reproducing that the simulation idence
+cal- from results and results measured between isons lightning flash. of the real the effects
+procedures the numerical that give evidence culation is shown for the current calculated waveshape The
+charac- the physical and that properly function α used has lightning current predicted 10.29. The in Fig.
+reasonably are modeled flash the lightning of teristics rate maximum with α 2 kA of about amplitude peak
+the currents correctly. of change of 20 kA/jas, values typical of
+is α lightning phenomena Calculation of triggered flashes. lightning triggered during encountered
+described intensive process, for reasons computer very
+Modeling Interaction re- Nonlinear calculate to employed 10.9 been not It has earlier.
+lightning α triggered of full duration for the sponses
+Α description of triggered lightning was given in event, but the model described here is applicable to at
+Chapter 3. Nonlinear modeling with time domain least the initial stage of triggered lightning.
+2940

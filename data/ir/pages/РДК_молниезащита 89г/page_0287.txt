@@ -1,0 +1,53 @@
+Table,9.4
+for Calculation of BESSEL - Α Program in BASIC
+of Complex Arguments and Hankel Functions Bessel
+(Conclusion)
+' 10910
+and v(2) v(1) needs log(v) 10920 '
+V(4)*PI/180 LOG(V(3)):U(2) = U(1) 10930 -
+10280 GOSUB 10940
+u(1) u(5) 'returns 10950 RETURN -
+10960 '
+ω(2) and ω(1) plus v(2) and v(1) needs v~ω 10970
+10930 GOSUB 109ε0
+U(2) - U(1):V(2) - 10990 V(Λ)
+10580 GOSUB 11000
+U(2) - U(1):V(2) - V(1) 11010
+10280 GOSUB 11020
+- u(5) u(1) 'returns RETURN 11030
+Table 9.5
+Constants Evaluating For BASIC in Α Program - EXPON
+Waves Exponential of Double
+(Partial)
+"tl and τ2";Τ1,Τ2 1000 INPUT
+ Τ2/Tl - 1020 TOVERT
+amplitude point .5 'find halt - 1040 FAC
+1060 BOVOLD 10*TOVERT -
+DOVOLD 1080 BOVERA -
+'find 1100 GOSUB 1700 sun
+1120 SUN SUNOLD -
+SOVERA 5*TOVERT - 1140
+sum 1160 GOSUB 1700 tfind
+1180
+DOVEXA value for now GOSUB 1580 'find 1200
+1220 DOVOLD DOVERA -
+SUN SUMOLD - 1240
+1260 - DOVZRA DOONEW
+1 1280
+THEN 1360 ELSE 1160 1300 IF ABS(SUN)<.00001
+1320 1
+the answers 1340 'print
+ ATI/Τ1 - 1360 ALPIM
+1360 BETA BOV3RA*ALPMA -
+1400 PRINT
+ EXP(-Al) EXP(-ATI) - - 1420 BOVERE
+"\ \##.###**9AAA 1440 α Α$
+Α$iwalpha - 1460 PRINT USING "IALPUM
+";gWTA 1460 PRINT Α$;beta U3ING -
+ ";γ1/OVURE USING Α;*2E1/E - 1500 PRINT
+PRINT 1520
+1540 STOP
+1560 1
+to find DOVERA now 1550 'subroutine
+- BOVOLD SOVMRA 1600 DELX -
+271

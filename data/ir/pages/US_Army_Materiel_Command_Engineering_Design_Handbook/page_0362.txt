@@ -1,0 +1,108 @@
+fuid viscosity can cause internal Icakage and slippage
+in pumps, actuators, and valves. Compressibility of α
+fluid increases with pressurc and temperature, and
+the resultant loss of volume output of pumps is α
+significant design consideration. In control systems,
+compression of fluid provides α mass-spring condi-
+tion that can limit sysiem responsc. Successful opera-
+ton of the hydraulic system throughout the design
+temperature range depends upon the interaction of
+the hydraulic fluid with all other components of the
+system.
+The designer shall consider the temperature distri-
+bution within the hrdicopier in order to achieve
+judicious placement of hydraulic sysiem plumbing
+and components in the cocier regions. However, it
+may be necessary to locate portions of the hydraulic
+sysiem in high-temperature regions of the airframe.
+Radiation shiclding and proper ducting for air
+cooling may be necessary for such equipment. The
+design of actuators locaiod in extreme-tcmperature
+arees should be such as to provide for continuous
+exchange of fluid to assist in controlling tempera-
+ture. This may bc sccomplished by controlled intes-
+nal Icakagc. which likely will be inherent in fight
+control aciuators, bui special consideration also must
+be given to utility actuators, which may he subjected
+to extreme thermal environments for extended
+periods of time when in α static or nonoperating con-
+dition.
+Although intermittent-aciuating systems must be
+designed to operate with cold hydraulic fud.
+theis normal operating temperatures rapidly regard- continuous-power-tranzmission systems will ρ:ach
+less of original ambient temperature. Hrat ex-
+changer and viscosity considerations favor vse of the
+qo ν
+without encountering fluid breakdown and excessive
+wear of moving parts. For Mil.-H-83282 fluid, the
+normal upper limit is 275°F maximum (Class I1
+sysiem). However. high-tcmperature design tands to
+imposc α cost penalty due to thx atiendsnt require-
+ment for special materials, alozg with α reduction in
+ge ν
+ertics of the fiuid. In many applications, normal heat
+loses from lines and components are adequaie to
+maintain kydraulic system temperatures within
+dezign limirs; thus, use of heai exchangers is un-
+necessary.
+Fos analytical purpoees, the assumption of uni-
+form tesaperature tbroughout = hydraulik circuit
+usually is quite sccurate. Wben α pressure drop oc-
+curs without cxternal wark resulting — ι.ε.. losses
+through orifices and tubing — the hydraulic Sluid
+semperature risces by 7°F per 1000 pei drop for cach
+
+υ
+AMCP 706-202
+circuit. However, this rise normally is dissipated as
+thc fluid passcs through the sysiem.
+9-2.6 HYDRAULIC SYSTEM DESIGN
+Hydraulic system design begins with an evaluation
+of the system as it cvolved in the preliminary design
+phase. The production configuration requiremenis
+are cumpared with the preliminary design, and thc
+necessary changes are incorporated. In sddition, &
+final examination of the system shall be made in
+order to ascertain not only that it mects the procure-
+ment specification, but that it is optimum with regard
+80 weight, cost, and performance. MIL-H-5440 and
+is associated specifications will be part of lic pro-
+curement specification.
+The subecquent discussion covers the major sysiem
+design areas, including number and type of systems.
+operating pscssure sciection, fluid media sclection,
+fitrstion, filangs, power levels and transmission
+system ozaimization, and heet rejoction require-
+ments. The starting system is discussed, as are system
+analyais, including failure modc and effect analysis
+(FMEA). and reports required for mecting thc heli-
+apier piocurement specifications.
+The component sclection and design requirements
+also are discussed, as arc system installation design
+and areas of good design practice with general
+application to components or installation.
+The hydreulic system is influenced by the size and
+complexity of the helicopter ard by the procurement
+specificstions. Following is α discussion of the criticat
+elements of hydraulic systern design.
+9-2.6.1 Survivablity. Reliebilicy. and Safety Trade-
+efs
+The problems of designing for combat surviva-
+bility and for system reliability are similar. Redun-
+dancy of systems and components may be required in
+either case. For survivability, the requirement may be
+α tolerance of two hits anywbere in the flight control
+system without loss of the capability of returning
+safely to basc. The elimination or reduction of thc
+possibility of hydraulic system fires associated with
+incendiarics also may be α requirement. Reliability
+aspects involve icses duc to equipment failures. The
+losus requirement may be stated in terms of "no more
+than ξ" losses per 10 3,000 noncombat missions. The
+component end/or subsysiem reliability requi:ε-
+menes may be stated ss mean time betwsen failures
+(MTBF), which must be demonstraied by *nalysis,
+icst, and service.
+Trade-off/optimization studies are required in
+order to euabish the basic system configurations
+9-7

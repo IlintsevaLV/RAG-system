@@ -1,0 +1,18 @@
+Output characteristics of generator shown in Figure TCL 17.1 17.9(β). 0 Figu~ε
+Current Α/major 40 div.
+-
+Voltage Vlrnajor div. 1000 -
+flowing through whatever transfer impedances might be present, would induce
+transients upon the internal circuitry. Presumably one would have previously
+determined in some manner what would be an appropriate amount of current to
+inject into the shields.
+Direct injection of current is an appropriate test technique if the system
+wder test will be exposed to α severe electromagnetic field threat, since any
+successful system will almost certainly be fitted with shields on the intercon-
+necting wires.
+7.5.3 Equipment for Transformer Injection of Transients 1
+Another powerful test technique by which transients may be injected into
+the electrical wiring interconnecting different pieces of electronic equipment is
+through the use of α pulse-injection transformer and α suitable pulse generator.
+2. Current that is passed The elements of such α system are shown in Figure 17.1
+from the pulse generator through α primary winding on α magnetic core sets upa

@@ -1,0 +1,79 @@
+000π 206-212
+An aitornate mathod of calculation is to dotc.mine
+the boering life for cach condition of foad and spood
+by using Eq. 16-!, and thon to calculato α total
+beariag lifo by:
+7 1 ,hr
+where
+» total bearing life, hr
+= calculatod tuaring life α: load
+Π,and speod N, kr
+Bearing life at high specd inay be reduced
+.significanity by the effect of contirifugal loads im-
+posod by the rolling elements agsinst the outer raue.
+The calculation of the internai boaring sireescs and
+bearing life is = lengthy procedure that is coverrd
+adaquately in Ref. 3. However, for the vast majority
+of applications, the centrifugal effects can be
+nogiectod, and. thenefore, Eqs. 16-1 through 16-6 are
+valid. The effect of centrifugal force, however, must
+be taken into accomt in ths case of higher rotational
+spocds, sucia as shose founa in some engine roduction
+gearbox bearings.
+Usually, thc life of α particular beering can be in-
+creaso. by α significant factor rimply by uring
+bearing materiais that offer greater uniformity and
+better fatigue life han Joes st ndard stoel. Table 16-1
+shows approximate life adjusumont factors for several
+auporior bearing steels. Consult Ref. 13 for = com-
+plote discussion of bearing life. The calculated Β-10
+Hife should be multipliod by these factors in order to
+determine the actual &-ι0 life to be expocted from
+thers matvrials. Although SAE Σ2100 air-melt stocl ie
+wsed as the basis for the AFBMA ratings. vacuumn-
+degamed material now is considerod to be thc stand.
+ard stoel throughout the bearing industry.
+!
+TABLE 16-1. LIFE FACTORS FOR
+ANTIFRICTION BEARING MATERIALS
+LIFE FACTOR
+MATERIAL BALL ROLLER
+BEARINGS BEARINGS
+SAE 52100 AIR MELT STEEL 1
+STEFL SAE 52100 VACUUN-DEGASSED 3 2
+SAE 52100 CVM 4 €
+Μ-50 CVM 35
+16-6
+
+In nany helicopter bearing applicationa, the load
+imposed upon the bearing is vibratory or is α com-
+bination of steady and vibratory loacr. Such con-
+ditions of ioading may bu converted to an oquivalent
+steady load for the purpose of bearing lifc
+(16-6) is greater than the amplitude of the vibratory load, cakcuations. For conditicns in which the steedy load
+the mothod illustrated in Fig. 16-1 is usod. Tbe ratio
+of vibrsiory to sicady load is calculated, and the cor-
+responiding sonreversing load factor K,from Fig. 16-
+1 is multiplior by the autual steady load to yield the
+oquivalent steady load. Α similar procodure is usod
+for the case of α reversing load condition (amplitude
+of the vibratory load greater than the steady load).
+The reversing load factor E, from Fig. 16-2 then is
+mussipliod by the imposed vibratory lond to yield tho
+equivalent stoady loud usod in tho life calcuiation.
+Antifriction bearings are manufactured in various
+tolerance ranges or classcs •φ procision. These classes
+huve becn standardized by the Annular Bearing
+1.4
+1.3
+- STEADY LOAD
+Peg - EQUIVALENT LOAD VIBRATORY LOAD
+Xs, dimensioniess 12
+1.1
+Pea - Ks Ps
+1.0
+0.2 0.4 0.6 0.8 1.0
+Py/Ps, dimensionless
+Figure 16-1. Equivalent Ssendy Load for
+Combinatios of Steady and Vibratory
+Leads (Noureversiag)

@@ -1,0 +1,107 @@
+I. Reduction in augmentation system authority
+2. Increase in inherent airframe stability
+3. Multichannel redundant systems.
+Selection from among these methods during
+design process is done after due consideration of
+other flight control system requirements such as
+formance (especially the authority needed to
+gust and maneuvering requirements), reliability,
+maintainability, and cost.
+Failure-effect studies, which note the consequence
+of each component failure, should conducted be in
+organized manner. These must identify:
+I. Any failure that cannot be tolerated, such as
+oscillation due to loss of feedback
+2. Any compromise in control margin
+3. Failure causing multiaxis response too difficult
+for the pilot to control
+4. Ability of the pilot to switch out failures
+5. Consequence of subsequent failures.
+As an example of Item 5, after the first failure
+dual system, the remaining system must niect
+failure criteria or the flight envelope must be
+stricted so as to meet the failure requirements.
+Pilot-in-the-loop simulation is a valuable tool
+.......
+impact upon detail system design.
+AUGMENTATION STABILITY 6-3
+SYSTEMS
+GESAS's.
+contains Par. iz-fercnccs 6-2 numerous to stability
+augmentation systems (SAS). Owing to the
+herently poor stability of a helicopter rotor,
+factory flying qualities have been achieved in
+cases by altering the inherent characteristics
+ficially Such techniques are celled mechanical
+bility augmentation.
+The pilot workload associated with early
+copters was very heavy. The handling qualities
+requitiments of MIL-I1-8501 have been developed
+not only to reduce this workload, but also to
+crease the mission capability of the helicopter. The
+result, however, is that it is virtually impossible
+satisfy thrse requirements without modifying the
+herent characteristics of the helicopter with a
+sophisticated SAS.
+6-3.1.1 Bell Stablllzr Bar
+SAS Perhaps the earliest mechanical is the
+stabilizer bar. A bar with weights on the ends
+mounted pivotally upon the rotor shaft at
+angles to the two-bladed, teetering rotor (Fig.
+connected Mixing levers are to the bar, and through
+
+706-202 AMCP
+pushrods, to both the swashplate and the blade pitch
+blades is the sum of arms. Cyclic pitch input to the
+pilot control input and stabilizer bar teetering mo-
+connected the tion. Viscous dampers, from the stabilizer
+the bar to the rotor shaft, control the rate at which the
+per plane of rotation of the bar and rotor follows or lags
+roter meet the tilt of the shaft. This lag in tilting stabilizes
+or damps the helicopter pitch and roll motion. Ad-
+ditional data may be obtained from Ref. 7, and pars.
+6-2.4.3.2 and 6-4.2.1 of AMCP 706-201.
+an
+6-3.1.2 Hiller Servo Rotor
+an Another early mechanical SAS is the Hiller servo
+rotor. The two-bladed, universally mounted, under-
+slung rotor has a gyro bar fastened to the hub at right
+angles to the blades. On each end of the gyro bar is a
+short paddle blade with airfoil cross section, whose
+pitch is controlled cyclically by the swashplate. Cyclic
+pitch imparted to the servo rotor tilts its plane of
+in a rotation, resulting in a cyclic pitch input to the main
+the rotor blades. Stabilization results from the lag in the
+response re- of' the servo rotor to tilting of the rotor
+shaft, and the consequent pitch and roll damping due
+for to the lagged response of the main rotor. Additional
+ur ubtainud u and zci. a in pars. 6-2.4.3. U4* 111n1y
+and 6-4.2.1 of AMCP 706-201.
+Mechanical 6-3.1.3 Gyro
+Refs. II 9, 10, and discuss two applications of
+intermediate-size (10-15 Ib) gyros in mechianic&l
+The first, produced by Cessna, is a rete gyro
+that is connected mechanically in series with the in-
+in- put from the pilot control stick to the control boost
+satis- actuator. This system acts primarily to damp roll
+many motions. The second, the "Dynagyro" by Dyna-
+arti- sciences, is a two-axis, hydraulically driven unit with
+sta- rotating damping arranged sn as to align the gyro
+wheel slowly with its mounting reference in the fuse-
+heli- lage. Outputs of the gyro, i.e., its pitch and roll dis-
+placements relative to its mounting, are fed into hy-
+draulic boost actuators that are connected in series
+the in- with pilot's cyclic pitch boost actuators in the re-
+spective directions. in This design is similar principle
+to to the Bell stabilizing bar, except that blade pitching
+in. moments are prevented from feeding back into the
+rather gyro. The hicludes Dynasciences a SAS also
+hydraulically driven rate gyro mechanically coupild
+into the hydraulic boost actuator that controls tail
+collective rotor pitch. This provides yaw damping.
+either Bell No electrical power is required in system.
+is Ref. 12 describes an all-mtchanical yaw rate gyro
+right for single-rotor gyro, hel.copters. The located at and
+5-7). driven by the tail rotor, tilts about a longitudinal axis
+in response to a yawing rate of the helicopter, and
+6-9

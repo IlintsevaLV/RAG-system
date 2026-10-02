@@ -1,0 +1,50 @@
+Chapter 18
+TEST TECHNIQUES FOR EVALUATION OF INDIRECT EFFECTS
+18.1 Introduction
+The purpose of this section is to discuss some of most common type of test, Fig. 18.1(α), involves corn-
+the existing test techniques for evaluation of indirect mon mode injection of transients, but differential in-
+effects on electrical and electronic equipment, and to jection, Fig. 18.1(β) can also be done.
+suggest possible avenues of improvement in some of
+Equipment under that might be performed these test techniques. Tests
+(EUT) Text most but described, are individual circuit elements on
+of the material will deal with tests that might be made . - - I
+upon individual pieces of electronic equipment or upon Trnit!nenaI
+interconnected electronic subsystems. Generato~rciutrI
+J - complete and evolving still are techniques Test
+standardization has not yet been achieved. Practices
+discussed in standards and specifications may not yet
+address all the necessary aspects of lightning indi-
+under (α)Equpment and con- Ambiguities and interactions. rect effects
+flicts between standards and specifications abound.
+Often, purchase specifications refer to inappropriate ρ " --
+standards and call for tests that have little technical Tasetinternal
+and Transient circuitry ι justification may result in excessively costly test
+.Λ___J Λ pGenerator
+Some test equipment is available commercially,
+in in equipment fabricated involves testing but most -
+dividual testing laboratories. Standards and guides do F ( ) γ-.1 Pi in-τ-te σ
+not yet exist that give specific construction details for (β) Fig, 18.1 Pin injection tests.
+test equipment and as result α different laboratories (α) Common mode injection
+may employ quite different equipment to perform the (β) Differential injection
+same general type of test.
+Tests may involve injection of specified voltages
+18.2 Types of Test or specified currents, though care must be taken in
+specifications to avoid wording that can be interpreted
+The various types of test that might be performed as requiring α specified voltage to be developed across
+on aircraft electronic systems are described, in general α lead that is shorted to ground or requiring α specified
+terms, in the following material. Detaif 'am conducting current to flow into α lead that prements an open circuit
+some of these tests discussed are in later sections. or high impedance. Such erroneous specifications can
+be avoided by specifying the transient in terms of its
+Inmjecdo 18.2.1 Ph of Traswents open circuit voltage, and its short circuit current, as
+discussed in §18.5, or in terms of equivalent generator
+Direct injection transients into of the input and source impedance.
+output terminals devices, of Fig. 18.1, is an appro. Techniques for pin injection test are discussed fur-
+way priate of determining whether the equipment will ther in §18.5.
+be damaged by transients, but is generally not an ap-
+propriate method of for testing circuit upset since the 18.2.3 Μ'ransformer Injection
+low impedance transient genertor may adversly lead
+the circuits under test, Furthermore, verification of Trasformer injection might logically be consid-
+Smultiple individual circuit and component damage tolerance to ered as α simulation of magnetic field effects, but it
+the specified test level becomes less certain due to the is useful whenever transient tests must be done on an
+current paths in interconnected circuits. The interconnected system, whatever might be the source
+467

@@ -1,0 +1,27 @@
+TEMPERATURE
+P
+Typical flammability envelope of an aircraft fuel. 6.1 Figure
+have been drawn to enclose those data points at which ignition and flame
+propagation occurred but exclude some of the data points where only ignition
+occurred with no flame propagation. This results in a random scatter of ignition
+6.2. points about the lines, as shown by Nestor in Figure The flammability
+and Jet differ from the envelopes of the aviation kerosene-type fuels (Jet A A-I)
+(JP-4 B) and Jet primarily in their temperature ranges. The wide-cut fuels
+aviation kerosenes have an average lean limit at sea level of about 38 and a "C
+For the wide-cut fuels, the lean and rich rich limit of approximately 80 OC.
+"C -20 I0 and respectively. limits at sea level are about "C,
+Lockheed study flammability of advanced Figure 6.3, taken from on 3
+6.4) shows the flammability envelopes of aviation flight vehicles (Reference
+along with a number of turbine fuels. The Reid vapor gasolines (AVGAS)
+pressure of each of these fuels is also presented, and here the relationship
+between this parameter and volatility becomes apparent. Fuels with higher vapor
+pressures will release sufficient vapor at lower temperatures to reach a flammable
+mixture, thus lowering the flammability envelope as compared with the envelope
+of a fuel with a lower vapor pressure, which must be at a higher temperature to
+release sufficient vapor to form an ignitable mixture.
+The temperature vs altitude profiles for standard and tropical atmospheres
+6.3 to show the mean air temperature at various are also presented in Figure
+flight altitudes.
+There are important factors which may alter the flammability limits of the
+6.1 6.3, and vapor inside an aircraft fuel tank from those shown in Figures
+however. One of these is the mixing of one type of fuel with a small amount of

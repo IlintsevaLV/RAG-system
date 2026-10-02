@@ -1,0 +1,50 @@
+§1.5.2. and α in Shorter of 5Ops, as defined tail time -- ___. _ - ___ γ 1000 stray 0.01 but the effects of can be produced, front times
+per- the to both important, more become inductance
+150kS 2000 _ 10000, 00 200 the of 500 .±. to calculation and generator the of formance
+0 o 0 set of circuit constants. by α given waveshape produced
+Voc 5ν /F .05 influ- the though produced, be can tail times 1 Longer
+(α) ac- must be taken into resistors the charging ence of
+tail times requires generation of short count. Efficient
+discharg- in series with the of inductance the addition
+ing resistors [6.32].
+kV- 500
+1.0
+0.9
+output
+____
+Rsj Σ Ls
+~0.3 χ R /
+I /
+-
+(β) tf us 5 0
+500 kV- Generator circuit including Fig. 6.57
+waveshaping elements.
+of these expressions for the effects Analytic vri- -
+just but it is more practical are available, ous factors
+0.5 many the of one using calculations numerical make to
+cir- For the circuit analysis programs. time domain
+7 calculated open circuit voltage of Fig. 6.58(α) the cuit
+front 6.58(β) (χ). The and as given in Figs. would be
+1 0- 67 and ps 1.3 are [6.33] in defined as tail times, and
+u00α 1 τ.τ 0 (χ) 6.58(α) Fig. of constants circuit The respectively. ps
+for that might be used typical of α small generator are
+aircraft equipment. testing of
+waveshape. circuit voltage Opern 6.58 Fig. du- to not is generators the of purpose the Since
+values circuit Representative (α) of effects the duplicate to only but plicate lightning,
+frcnt of Waveshape (β) ability to pro- the lightning, by produced voltages high
+tail of Waveshape (χ) is and purpose no special serves currents high duce
+are large voltage generators attempted. High seldom
+they are usu- high inductance. Also, rnd tend to have
+generators: currant for testing effects Direct High prevent to series resistance internal with ally designed
+for the injec- generally calls more aircraft components since such currents from flowing, currents oscillatory
+of the or sample portion currents into α of high tion which capacitors, on the voltage tarsals of to re lead
+aircraft complete into α Injection structure. aircraft of Fig. constants The circuit life. their shorten may
+com- Most necessary. or attempted either is seldom moderate actual of an representative fairly 6.59(α) are
+test item unier the into is injected current the monly, in- the as regards particularly machine, machine size
+or length cm. in α few air gap α small either through and Figs. 6.59(β) resistance. and inductance ternal
+metallic connection. sometimes by direct series re- of external two different values show, for (χ)
+required such as those current generators, be ob- Surge that would the short circuit current sis ance,
+Δ cur- and Component Α Component the to produce on capacitor α load with dispenses The circuit tainted.
+of aircraft, employ 16.341 for testing rents specified wave would α unidirectional current the premise that
+in parallel, connections being capacitors many large be desired.
+161

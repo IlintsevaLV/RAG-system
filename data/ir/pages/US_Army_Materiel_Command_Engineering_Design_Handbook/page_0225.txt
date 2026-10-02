@@ -1,0 +1,109 @@
+berings Moments and &hear fort for the pitch
+amr highe than thoe of an equivalent fully articu-
+1taed same rotor. Motions are of the order of magni-
+tude but, as noted previously, do not Include tie o-
+cillations due to cyclic pitch. Retention methods are
+same the as those previously described for the pitch
+axis of the fully articulated hub.
+Σ-τ1", Teetearla Huls
+configu- hub rotor two-bladed common Anothir
+ration, used on the and the Fairchild-Hiller OH-58Α
+. FH-λ an 100, is hub free to teeter about axis normal
+to both the blade span and thu rotor shaft for cyclic
+Capping. Control linkages to each blade change col-
+lective This and cyclic pitch. type of hub has
+preconed pitch axes underslung below the teetering
+hinge, and, in general, the loads and motions arc
+similar to those of the two-bladed, gimbal-mounted
+hub. However, larger chordwise moments are caused
+by the lack of full gimbal provisions, and the pitch
+axis bearings must accommodate the oscillatory
+as collecti,\ motions of cyclic pitch well as motions.
+.: Ri5δ Rotor Σ 1 &5.1.3
+blade retention rotor "'rigid," or hingeless, The
+confiSuration attache the rotor blades firmly to the
+hub, which, in turn, is attached rigidly to the rotor
+retention mast. The blade system must be capable of
+transferring forces and moments in both flapwise and
+lead-lag I directions. The blade centrifugal force may
+be reacted by any of the conventional methods (α ten-
+clastomeric sion-torsion an strap, bearing, or α stack
+of antifriction bearings). The retention must provide
+"α pitch change capability (both cyclic and collective),
+centrifugal and the be. force must reacted across the
+... •,, ,-,,ε- .... ... aaaa -. * pna urn... μ ass
+SNo are hinges provided for flapwise or lead-lag
+motion and the only flap or lag movement of the
+blades relative to the fixed support structure is due to
+structural deflection. The specific layout of the hub
+and the retention determines the manner and extent
+to which these daflections couple with and affect the
+pitch motion of the blades.
+As with other systems that do not incorporate α
+flapping hinge, α precone angle usually is built into
+α the blade retention for hingeless rotor. This built-in
+angle helps to alleviate the flapping moment that the
+retention geometry must react, The of the retention
+of the span- may include sweep and/or droop also
+wise axis of the blade relative to the feathering hinge
+"axis. The direction and amount of these alignments,
+specific together with the geometry of the blade pitch
+control coupling input, define the feedback between
+tion blade u and pitch control input. The necessity
+5-30
+Sz_%'.
+. .-
+
+K
+for significas and of then coupling upon the effects
+stability of the rotor system are discussed in detail in
+Chapter AMCP 5, 706-201.
+The advantage of the hingeless rotor in- "am
+dude the high level of control provided by the tra-
+for of moments. The system may be physcally iniple,.
+Α
+but the strength required to transmit the forces and
+moments across the blade retention system can cause
+the retention to be heavier than is true for other types
+rotors. of
+(~NSIDflATIONS
+considerations The design applicable to the use of
+rolling element bearings in rotor blade retention
+systems are reviewed in this paragraph. Additional
+discussion of bearings, for blade retentions and for
+other applications, is found in par. 16-3.
+Other components associated with the blade reten-
+tion system that also are discussed in this paragraph
+are: lag dampers, lead and lag stops, droop and flap
+stops, and drvop and flap retainers.
+Μ5.2.1 Rolling Element Bearila
+{- used ρ in rotor Rolling element bearings are widely
+hinges. Experience with them has been good and the
+technology, which is based upon both analytical
+methods and empirical data, hat been verified by
+extensive service experience. Gene ally, these bear-
+ings are compact. Bearing friction as low and has α
+negligible effect on hub loads However, the effect of
+pitch axis bearing friction on control system loads
+be should evaluated; on large helicopters this friction
+usually is low compared with the aerodynamic and
+dynamic loads, but on smaller helicopters the effect
+iliy tic as α~if st. ν
+The failure mode of osczllattng rolling element
+bearings most generally encountered is gradually pro-
+gressive spalling looseni-ss, that results in heat
+generation, These and aircraft vibration. factors have
+some incipient failure warning characteristics.
+Both grease- and oil-lubricated bearings have been
+used in rotor hinges. The for of oil um is favored the
+majority of cunent helicopters. Some characteristics
+of the two systems are:
+Oil 1. Lubrication:
+satisfactory α. Oil is over α broad temperature
+range and is changed easily in ra*.onse to environ-
+changes. mental
+β. Oil sight gages provide positive indication of
+lubricant presence.
+χ. Oil permits "on condition" maintenance.
+δ. Reservoirs should centri- be located so that
+fugal force drives oil into the bearings.

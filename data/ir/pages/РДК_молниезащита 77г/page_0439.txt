@@ -1,0 +1,42 @@
+CHAPTER 15
+TO MINIMIZE INDIRECT EFFECTS DESIGN
+15.1 Some Premises and Goals for Design
+Any design program aimed at minimizing or eliminating the indirect
+effects of lightning needs to be founded on certain premises of which the
+following might be examples. The first premise is that it is desirable to achieve a
+design that prevents the indirect effects from causing irreversible physical
+damage. The second premise is that it is essential to eliminate that interference
+which provides an imminent hazard to the safety of the vehicle or its crew or
+one that presents a severe risk of preventing the completion of the aircraft's
+mission. (It is, of course, desirable to minimize all interference.) For example,
+indirect effects that cause warning lights to appear might be acceptable whereas
+indirect effects that lead to the tripping of circuit breakers would be
+unacceptable, even if it were possible to reset the circuit breakers. Immediately
+after a lightning flash the pilot of the aircraft might have enough things to do
+that he should not be called upon to reset circuit breakers. Further, interference
+that leads to the scrambling of one channel of a redundant digital control system
+is probably acceptable, but interference that causes computers to shut down is
+unacceptable, particularly if the computers are shut down in a disorderly manner
+A which results in the internally stored programs becoming scrambled. third
+premise is that it is more productive to design electronic equipment that can
+accept transient signals on input and output leads than it is to initiate a retrofit
+A fourth premise is that it program to provide protection to an existing system.
+is more practical to design an electronic system around the capabilities of
+existing and proven protective devices or techniques than it is to develop and
+retrofit new and improved protective techniques to an electronic system
+designed without consideration of the transients that might be produced by
+A fifth premise is that trade-offs must be made between the cost of lightning.
+providing electronic equipment capable of withstanding lightning-induced
+transients and the cost of shielding equipment and interconnecting wiring from
+A the electromagnetic effects of lightning. sixth premise is that designers should
+take as much advantage as possible of the inherent shielding that aircraft
+structures are capable of supplying and should avoid placing equipment and
+wiring in locations that are most exposed to the electromagnetic fields produced
+by lightning.
+15.2 Improvement Through Location of Electronic Equipment
+While it is recognized that the designer may not have much choice in the
+matter, it is often possible to make improvements in the resistance to indirect
+effects by locating electronic equipment in regions where the electronlagnetic
+fields produced by lightning current are lowest and by avoiding the placement of
+equipment in the region where the electromagnetic fields are highest. For
+example, since the most important type of coupling from the outside

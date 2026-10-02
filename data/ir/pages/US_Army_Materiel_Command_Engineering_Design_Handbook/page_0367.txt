@@ -1,0 +1,92 @@
+MCP 7 -202
+The usc of titanium is being initiated in lir :σ and
+fittings with significant weight savings. Techniques
+fected. Α weight-cost trade-off covering the use of ii-
+tanium may be performed in the final design config-
+uration commitment phasc.
+9-2.6.6 Dynamic Fluid Coanectious
+Swivels, hoses, and coiled or torsion tubing are al-
+ternatives to be considered wbere relative motion
+between an actuatos and α structure must be allowed.
+Becausc thesc typcs of fittings may imposc weight
+and cost penaltics, other mcans of soiving thc relative
+motion problem must be considered seriousiy. The
+use of an articulating link betwecn the structurally
+mounted and immobilized actuator and the moving
+col.irol surface or other subsystem is an alternative
+that has bcen used frequently. Fig. 9-20 is an examplc
+of such an installation. Par. 9-4.3, AMCP 706-201,
+presents information covering dynamic fluid connec-
+tions.
+If hoses are the only alternative. χ'osc attention
+musi be given to design of the installation. The
+minimum sllowable bend radius of the hose must not
+be excceded during motion of the actuator. Thc hose
+position relative to str. cture and areas on the actu-
+ator during motion must bc analyzed in α layout
+drawing in order to deternine that interference does
+not exist. Ir: addition, α protective cover must be in-
+stalled to protect the hosc from abrasion damage due
+to vibration and γ'σ, which can cause the hose to de..
+flect outside its aormal path during motion (Fig. 9.
+21).
+SUPPLY LIAES
+ARTICULATING LI
+ACTUATOR
+HELICOPTER STRUCTURE
+Figa re 9-20. Use of an Articulatiag Link
+PYER
+HOSE
+PROTECTIVE COYER-
+Figure 9-21. Usc of Proteccive Coves oa Hoses
+9-12
+
+Swivels may bc used in conjunction with hoscs, or
+as scissor assemblics, to resolve relative motion prob-
+lems. The swivel assembly rigidity minimizes vibra-
+tion and accelcration problems. However. the joints
+involve the usc of dynamic scals. which can result in
+nuisance or catastrophic lcaks.
+Tt ε use of coiled or torsional tubing or articu-
+lating links is the preferred method.
+9-2.6.7 Peak Power Leoels
+The dctermination of peak power levels, and,
+therefore, of hydraulic pump and li.sc sizc, is dctailed
+in par. 9-4.6. AMCP 706-201. It is desirablc to
+develop α precise knowledge of the parallel-scries
+operation of the subsystems so that adequate perfor-
+mance is attained at minimum weight and cost. Un-
+due conservatism in hydraulic system design will
+penalize helicopte: performance, insofar as weight
+and power extraction are cqncerned.
+The samc techniques of power system analysis that
+are discussed in par. 9-4.6. AMCP 706-201. shall bc
+used in establishing system peak power require-
+ments. In addition, = mission profile analysis shal! be
+co ducted to determine total energy requirements
+and the system hcat load. Fig. 9-22 is α typical exam-
+ple of α mission profile requirement.
+9-2.6.R APU and Engine Starting
+It is customary to use hydraulics for starting
+APU'σ and turbinc engincs, since thc hydraulic star-
+ting system is self-containcd and provides α capa-
+bility for multiple starts. No external ciectrical or
+ground hydraulic carts are required, and α hand
+pump allows recharging of the accumulators fos sub-
+sequent starts in the cvent that thc first stiempt is un-
+successfui. Thc basic hydraulic starting system con-
+sists of air- or nitrogen-charged accumulators that
+are discharged through α hydraulic motor that is con-
+nected machanically to the turbine engine or APU via
+TAME OF F LAMIN.
+CRUSE |COMAT| CPUISE
+SUY 13v9
+100
+TRANSIENT.
+00
+INPUT HORSE PONER.Σ κ юі STEADWETATE
+REQLAREMENTS
+20
+10 ю 4 я ν
+MISS:ON DURATION, Am
+Figure 9-22. Typical Minion R. juirewcot Profic

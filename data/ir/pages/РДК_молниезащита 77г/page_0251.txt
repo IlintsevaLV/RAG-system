@@ -1,0 +1,44 @@
+joints suffer more damage from lightning currents than do bolted joints. Other
+tests (Reference 7.25) have also been made on various joints, with similar results.
+The reader is referred to these sources for further information on the specific
+joints researchers have evaluated and the results they have obtained.
+7.3.2.4 Electromagnetic Field Penetration
+The importance of keeping the electromagnetic fields produced by
+lightning currents away from the aircraft'σ electric wiring is by now clear. In
+conventional aircraft this is conveniently and successfully accomplished by the
+aluminum skins, and the electrical system designer benefits greatly from this
+assistance heretofore given him by the structures designer. Substitution of
+composites for aluminum, however, poses an additional threat to the electrical
+systems because composites do not possess the excellent shielding property of
+aluminum, with the result that the electrical system designer may now have to
+provide his own protection against these fields.
+The relative shielding effectiveness of composites as compared with various
+(H) fields by Fisher and Fassell metals has been measured for magnetic
+an (Reference 7.26) by establishing H-field of known intensity on one side of α
+of it reaching the other side. composite surface and measuring the amount
+Continuous sine-wave fields at several different frequencies were applied to the
+top side of α test sample in the arrangement of Figure 7.41, and the shielding
+capability of the sample was determined by measuring the voltage induced in α
+receiving coil on the other side by that portion of the field which penetrated it.
+The current, in the transmitting coil was kept constant during the tests to I,
+make sure that reflected fields did not change the level of field radiated in the
+first place. The amount of H-field attenuation was then determined by the usual
+expression:
+v
+1
+Attenuation 20 Log = -
+v 2
+where V1 is the voltage induced in the receiving coil when no test sample is
+present and V2 is the voltage when α sample of composite or other material is
+placed between the coils. The metal enclosure was used to avoid fringing effects.
+Figure 7.42 shows the H-field attenuations for boron and graphite composites by
+7.43 shows the improvements in shielding effectiveness themselves, and Figure
+gained by application of conductive coatings (Reference 7.27).
+The measurements of the shielding effectiveness of panels covered with
+flame-sprayed aluminum and aluminum foil indicated that most of the shielding
+16 came from the aluminum. Values of dB and 20 dB were measured at 0.5 MHz
+and 1.0 MHz for 2.1 mm (0.083 in) boron with α coating of flame-sprayed
+0.4 mm. aluminum. The thickness of the aluminum was about
+Many investigations into the shielding effectiveness of conductive coatings
+of enclosures have, of course, been made for other purposes. One is that of Uhlig
+(Reference 7.28), who evaluated several conductive coatings applied to 1.2 μ

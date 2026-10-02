@@ -1,0 +1,98 @@
+Establish Protection Criteria δ - 5.6.4 Step
+of the criteria for each the specific In this step,
+should of protection systems in need and structures
+include will this effects, direct For upon. decided be
+can be that of physical damage of the degree definition
+es- and structures, critical/essential flight by tolerated
+tanks. the fuel for free criteria ignition of tablishment
+found in Chapters is topics these of discussion Further
+usu- will this protection, effects indirect For 7. 6 and
+Lev- Transient Control of establishment include ally
+Equipment and wiring interconnecting for els (TCL'σ)
+and electrical for Levels Design Transient (ETDL'σ)
+equipment. electronic
+In current: circuit short and voltage circuit Open
+of the terms in defined be will levels these cases, most
+current circuit short the and (eoc) voltage circuit open
+The interfaces. wiring/equipment at appearing (ι.χ)
+impedances source the by related be will ic and eoc
+and wiring, of interconnecting impedance) loop (ι.ε.,
+for different determined levels may be different there
+The relation- voltages. or operating circuit functions
+transient equipment control, transient ship between
+in Fig. is illustrated levels susceptibility design and
+specifications in the stated is usually The 5.14. ETDL
+an and constitutes equipment electrical/electronic for
+equipment. for this level acceptance test
+transient equipment ρ
+10,613 euepUbllity -: ii-
+transient equipment
+level (ETDL) design
+margin
+control transient
+(TCL) levels
+-[λ v actuallvanient
+Electrical/ Interconnecting
+Eectronic Wring
+Equipment
+levels. between transient 5.14 Relationships Fig.
+are typi- design levels transient Since equipment
+requirements, standardized by these represented cally
+Nor- evaluation. protection greatly simplifies their use
+be levels will design and control the transient mally,
+system in- or manufacturer airframe by the established
+or of vehicle the penalties compare who will tegrator,
+of equip- with those wiring protection interconnecting
+Sment efficient levels, the most to establish hardening
+
+utilized standards industry describes for 15 Chapter
+discussions TCL'σ. Further and of definition ETDL'σ
+in Chapters are presented effects protection of indirect
+18. through 8
+Protection Design 5.6.5
+or changes additions, design specific this step, In
+critical/essential flight the to made are modifications
+them to enable components and systems structures,
+δ. Step in established protection criteria the meet to
+of number α large involve will this effects, direct For
+basic the of solution from ranging techniques, design
+to techniques manufacturing material and structural
+elec- improve to devices or of treatments addition the
+finishes, suppression, arc or spark trical conductivity,
+divert- lightning of application gaskets, and sealants
+provi- bonding electrical and structures insulating ers,
+discussion Further equipment. of and relocation sions
+7. and 6 found in Chapters is methods these of
+appli- involves effects against indirect Protection
+of low provision shielding, of electromagnetic cation
+of surge incorporation surfaces, grounding impedance
+cir- output of input and design and proper suppressors
+of discussion Further equipment. of electronic cuits
+17. 8 though Chapters found in is these methods
+Adequacy Protection φ - Verify Step 5.6.6
+by can be accomplished protection of Verification
+or by proven designs to previously similarity analysis,
+simi- but used, be can methods three the of Any test.
+Tests normally analysis are and first. considered larity
+un- be performed they cannot made, but to be do need
+avail- made built and designed, has been hardware til
+for testing. able
+of di- verification used for Typical analyses Analysis:
+of calculation include methods protection rect effects
+based on current, due to rises temperature conductor
+in- and action area cross-sectional material, conductor
+mag- of or calculation current, lightning of the tegral
+upon current dependent which are effects netic forces
+are These analyses factors. and geometrical amplitude
+can be de- laws which physical on fundamental based
+terms. in mathematical scribed
+present de- of analyses include comparison Other
+data an empirical designs for which with earlier signs
+or extrapolations extensions exists. In this case, base
+bases data existing empirical the to relate are utilized
+of interest. the designs to
+the to determine be utilized can rarely Analysis
+structures complex in currents of lightning behaviour
+and current components with multiple interfaces or
+been have not these interfaces especially when paths,
+111

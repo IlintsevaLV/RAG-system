@@ -1,0 +1,107 @@
+tailed discussions of these effects and related protec-
+tion methods are found in the succeeding chapters.
+The emphasis of FAR 25.581 on the external and
+bonding aspects of lightning protection does not, of
+course, excuse the designer from actively identifying
+and addressing all potentially hazardous direct and
+indirect lightning effects. The first sentence of FAR
+25.581 is the important general requirement:
+The airframe must be protected against catas-
+trophic effects of lightning.
+5.2.2 Protection of the Fuel System
+The emphasis of FAR 25.581 on the external as-
+pects of lightning protection, and the occurrence of
+several catastrophic accidents directly attributed to
+lightning-related ignition sources within fuel tanks, led
+to the addition of FAR 25.594, which focuses specific
+attention on aircraft fuel systems, as follows:
+9 25.954 Fuel system lightning protection.
+The fuel system must be designed and ar.
+ranged to prevent the ignition of fuel vapor
+within the system by—
+(a) Diroct lightning strikos to areas hav-
+ing a high probability of stroke attachment;
+(b) Swapt lightning strokes to arens where
+swept strokes are highly probable; and
+outlets. (c) Corona and streamering at fuel vont
+Identical wording is found in the regulations for
+General Aviation Aircraft (Part 23) and Rotorcraft
+(Parts 27 and 29), shown in Table 5.1. Again the em-
+due to the lightning strike attachment to exterior sur-
+faces of the aircraft, but the frst sentence states the
+important requirement:
+The fuel system must be designed and ar-
+ranged to prevent the ignition of fuel vapor
+FAR 25.594 thereby addresses one of the most
+important potential lightning hasards to an aircraft.
+Acceptable means of compliance with this regulation
+are described in a companion Advisory Circular (AC)
+5.2].
+5.2.3 Protection of Other Systems
+No FAR's deal specifically with lightning protec-
+tion of other systems, such as the flight control, propul-
+sion, electrical and avionic systems. However, the gen-
+eral safety regulations for equipment, systems and in-
+stallations aboard the aircraft, stated in FAR 25.1309,
+riquire protection against hasards resulting from any
+
+foreseeable operating condition, one of which is a light-
+ning strike, as follows:
+s 25.1309 Equipment sysiems and installa-
+tions.
+(a) The equipment, systems, and installa-
+tions whose functioning is required by this
+subchapter, must be designed to ensure thnt
+they perform their intended funetions under
+any foreseeable operating condition.
+(b) The airplane systems and associnted
+components, considered separntely and in rola-
+tion to other systems, must bo designed so
+that-
+(1) The occurrence of any failure con-
+dition wiich would prevent the continued
+safe Aight and lunding of the airplane is
+extremely improbable, and
+(2) The occurrence of any other failure
+conditions which would result in injury to
+the occupants, or reduce the capability of
+the airplane or the ability of the crew to
+cope witls adverse opernting conditions is
+improbable.
+(c) Warning information mmust be pro-
+vided to alert the crew to unsafe system op.
+erating conditions, und to ennblo them to take
+approprinte corrective action. Systems, con-
+trols, and associnted monitoring and wurning
+means must be designed so thint crow errors
+that would croute additionnt huzards nr:
+improlable.
+(d) Compliance with the roquiroments of
+paragraphs (b) and (c) of this section must
+bo shown by anntysis, and whorw necesary, by
+approprinte ground, flight, or flight simulator
+tests. Tio analysis must considor--
+(1) Possible modes of failurs, including
+malfunetions and dlamngo from externnl
+courres,
+(8) The probability of multiple failures
+and undotected fniluros.
+(8) The resulting effects on the nirplane
+und acugunta, considering the stugo of
+flight nnd oporating conditione, anl
+(4) Tho crew warning cuer, cormctive
+netion requirot, and tho capmbility of detoct.
+ing fnulta.
+(o) Each instatlation whena funetioning in
+roquired by this subehaptor, aad thnt roquiros
+a juower suppty. in an "esantint lond" ons the
+power supply. Tho power moures aud the sys.
+trm must le abloe to supply tho following puower
+komds in promblo oporating coanbinntions and
+for prdmblo cturntioms:
+(1) Lands connertel to the system with
+tho system functioning normnlly.
+(2) Eswontint londa, atter fnilurn of any
+ono prioe mover. p*ower comverter, or cnergs
+sorage dosicv.
+16

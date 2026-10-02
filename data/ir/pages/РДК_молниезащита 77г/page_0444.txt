@@ -1,0 +1,23 @@
+Current flow along windshield posts. 15.3 Figure
+(a) External current flow
+Internal magnetic fields (b)
+since it is theoretically possible that uniform grounding can lead to troublesome
+standing waves if the shield is illuminated by a sustained frequency interference
+source.
+Of the different types of shields, shown in Figure 15.4(c), the solid shield
+inherently provides better shielding than does a braided shield, and a
+spiral-wrapped shield can be far inferior to a braided shield in performance. In
+severe environments braided shields using two overlapping courses of braid may
+give shielding performance approaching that of a solid-walled shield.
+15.4(d), Conduits, shown in Figure may or may not provide electro-
+magnetic shielding. Conduits in aircraft tend to be used more for mechanical
+protection than for electrical protection of conductors. Only if the conduit is
+electrically connected to the aircraft structure will it be able to carry current and
+thus provide shielding for the conductors within. Conduits for mechanical
+protection frequently are physically mounted in clamps that use rubber gaskets
+to prevent mechanical vibration and wear. Such clamps, of course, insulate the
+conduit and prevent it from having any magnetic shielding capability. Clearly,
+nonmetallic conduits will not provide electromagnetic shielding.
+The requirement that shield intended for protection against lightning a
+effects must be grounded at both ends raises the perennial controversy about
+434

@@ -1,0 +1,13 @@
+shield. This is governed by the outer current flowing through R1 and MI, the
+transfer factors of the outer shield. In the second stage of the problem, this inner
+shield voltage is impressed across the inductance existing between the inner and
+outer shields order to determine the current flowing on the inner shield. In in
+M2, R2 the third state, the current on the inner shield is passed through and the
+transfer parameters of the inner shield.
+The resultant voltages are then the voltages that appear between line and
+ground on the central signal conductor. The amplitudes and shapes of these
+(4
+Multiple-shielded cable. 13.23 Figure
+Test conditions (a)
+Conductor voltages (b)
+(c) Equivalent circuits

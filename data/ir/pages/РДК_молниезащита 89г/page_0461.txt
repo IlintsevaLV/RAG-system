@@ -1,0 +1,94 @@
+(Π)ε, .•
+(α) (β) ()voltage
+to MOV. Fig. 17.20 Connections
+(α) Bad - long leads
+Better - short leads (β)
+(χ) Best - three terminal connections
+Table 17.1
+Typical 130 V for Ratings Maximum
+[17.11 Varistors Oxide Metal
+Mlvmm utaP (5•QC)
+I coqu
+DevIN Modd pea MM
+DC Nu=rb 3MB bfp COrnal So Mwklg
+V011Ω v'dp tWM04 . WIan)
+. wvf
+Amp, Joft WOW VOW
+2σ 1200 875 λ 130 7 V130LAI 1301 I1 1200 830 875 130• V13tO 7
+20 2500 175 10I 1305 130 V130LAS 130 175 3σ 45)0 14 VI30LAIOA 130Li0
+20 2500 V8OLAMA WS 175 20 130Λ 0Σ 20 85 70 300 8301.20 V8AZOA
+20 σ "75_ vt3otAWo Io 130 1~ : 0
+Table 17.2
+V 130 Typical for Specifications
+Metal Oxide Varistors [17.11
+1
+(250) η.ι
+β
+VyaW Til 4NIU5
+1% me
+Τ • v- - *". 3 ε
+ V" MM It to IM -C - -
+Will Y UP '*
+V 0 180
+vL IM4 = 30 10 tsoo 22
+221 2Σ 400 V13K1AO 834 Μ Ω
+8005 340 to0 XID V13LANA 184 22
+100 1 INO =I vIIMAN, 114 2 220
+.
+con- continuous Α fundamental voltage: Maximum
+of any surge protective sideration in the application
+excessively under normal device is that it not conduct
+since the heat produced by con- operating conditions
+
+the device. Con- is likely to destroy conduction tinuous
+the normally under even not take place duction must
+exam- As an voltage. of operating excursions allowed
+at α nominal systems operate power sorne aircraft if α regulator were to fNl, dc voltage of 28 volts,'but
+on the bus could go as high volts. as 80 Α
+rated either be have to circuit would Α on such MOV
+be fitted with α or would have to higher than 80 volts
+it from the bus. breaker to disconnect fuse or circuit
+The V13OLA devices are rated as capable of con-
+V peak) or withstanding 130 V-rms (184 tinuously
+175 V-dc without excessive conduction. Such α device
+V-rms ac moot likely be used on α nominal 115 would
+ap- would not be ratings Lower voltage power system.
+on α power system because operating voltage propriate
+may temporarily be significantly higher than nominal.
+MOV devices Because or dc voltage: peak RMS vs
+the reference systems, are frequently used on ac power
+be noted. Other protective to rms quantities should
+notably zener diode based devices, are more devices,
+on electronic systems and are usually commonly used
+voltage. peak ac dc or for α nominal rated
+maximum pulse Transients: Two different types of
+energy allowable the commonly supplied; are rating
+de- is current Peak current. peak maximum the and
+α wave0hope, ξ 20 an 8 having surge α fined for
+of the type generally used for testing of ac power surge
+in §1.5.2. The maximum al- equipment, as discussed
+the other hand, is defined for lowable energy rating, on
+ps used for the longer ξ 1000 waveshape commonly 10
+discussed as telecommunications equipment, of testing
+in [17.4].
+independent relatively is clamping voltage Since
+of surge current, instantaneous power is the product
+Α rectanjpj- current and clamping voltage. of surge
+α through amperes, passing oa 100 current surge lar
+power varistor clamping to 340 volts, would deliver α
+watts. If the device were rated to withstand of 34 000
+could flow for then the surge 70 joules (watt-seconds)
+2.06 milliseconds. MOV specification sheets provide
+curves relating voltage and current. More precise es-
+timates of surge energy dissipated could be made by
+relating instantaneous surge current to surge voltage
+and numerically integrating the result.
+mA: at 1 Voltage spec- is commonly voltage Varistor
+because α leakage current, partly at mA test 1 ified
+cause for concern and partly current of 1 mA is seldom
+convenient and easily measurable refer- because it is α
+ence point for curves. V-I
+voltage: Catalog data commonly Maximum clamping
+clamping voltage at α surge current cites the maximum
+to the size of the device. Fbr more com- appropriate
+"447

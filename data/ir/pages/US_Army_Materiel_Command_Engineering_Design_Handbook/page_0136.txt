@@ -1,0 +1,107 @@
+AMCP 70&,202
+surface at the level of mayimum oithogonal shear
+stress, and classical theory has been dtvclopcd about
+these conditions. However, rtcent studizs establish
+that the shear stresses tend to bc located nearer to the
+surface. even in the presenc of very s small magni-
+uadces of slip ( cf.48). The traction stresses imposed
+sliding by can raise the surfac shear stresses to
+within 40% of the maximum Hertzian stress (Ref. 49).
+These conditions lead to surface initiation of pitting
+or cracking that ultimately msull in the gross pitting
+or spalling failures ohserved in most failed mechani-
+cal comp5iients. For example, it has been established
+that the vast majoriqy of pitting (spalling) failures in
+UH-! and CH-47 helicopter gearboxes are surface-
+initiated (ReF. 46).
+Secondary 4-2.1.2 Failure Modes
+that modes all those are modes failure Secondary
+arc not classified as primary. By definition secondary
+failure modes do not contribute directly to corn-
+to greatly they contribute MTBR; however, Fonent
+the cost of overhaul, and in some instances they limit
+....... .. r .. k *; .... o..----, of ..... f .:.i L...-
+failure. primary
+Secondary failure modes are grouped into three
+categories, each with a different design avoidance
+technique.
+Failures 4-2.1.2.1 Overload
+failure the due to are overloaded that Components
+mem- carrying load series connected or of a parallel
+short a in failure secondary in result frequently bet
+time. Tandem thrust bearings or multiple planet or
+epicyclic gear trains are typical parallel lond-path
+configurations. Such components limit the pro-
+gression rate of a primary failure by an automatic
+deflection or from increased load reduction resulting
+corn- of !he failing primary %ear material removal
+secondary load-carrying designs, the ponent. In such
+members should be analyzed under full power to in-
+Such continued operation. life for safe sure adequate
+analy,,es should show a minimum life of 100 hr.
+Series-connected secondary failures are typified by
+transfer of damage from one gear member to another
+in a train arrangement or by the upstream overload
+* of a component duc to an bdvanced downstream
+rolling element bearing such as a "jammed" failure
+with advanced retainer or ball fractures. The static
+yield strength of the primary power path corn-
+ponents (gears, shafts, bearings, couplings, etc.) must
+be sufficient to withstand the maximum red.line
+to load required transient the incremental plus power
+fracture and break clear the rclati,.ely frangible pri-
+mary failed component.
+S~4-34
+
+-
+Debris-caused 4-2.1.2.2 Failure
+Debris from a spalled tooth or bearing often enters
+another gcar mesh or bearing and results in suf-
+fi,:ient denting, embossing, or brinelling to initiate a
+secondary failure after relatively few cyclic stressings.
+White the da mage incurred in fears and cylindrical
+roller bearings is less severe than in ball bearings (due
+to the preferential debris entrapment of conformal
+contact bodies), the rate of replacement of sccondari-
+ly damaged parts at overhaul has considerable cost
+impact (Ref. 46). Much potential damage can be
+avoided by compartmentalized designs or use by of
+shields or baffles to protect dynamic components by
+deflecting and re-routing debris to catch-trap or
+sump areas. The objective is localization of the
+damage to the primary failure component.
+lndjccd Failures Er.vironmnntally 4-2.1.2.3
+Oxidation, stress corrosion, galvanic corrosion,
+and aging or embrittlement fractures are examples of
+to future significant could hecome that failures
+MTBR data for helicopters with increased TBO in.-
+tcrv,,.l Thtsp fuihire" r,&iitt from inaderitnte atten-
+to control quality or production design tion during
+materials, protective plating, or finish coatings. Con-
+centric Enodes always should be used during plating
+of tubular shaft mcmbcr.; to secure adequate pro-
+tection of internal surfaces. Special attention must be
+water to eliminate trappea drains to providing given
+Ad- locations. seal and mast boss, stlid, at gearbox
+in par. recommended are practices protective ditional
+4-2.3.1.
+4-2,2 DYNAMIC COMPONENTS
+The dynamic components common to all drive
+subsystems are:
+wheels (gears) "oothcd poN cr transmission I.
+of rolling or total velo- operate over a wide range that
+slip high sliding or moderate to relatively cities with
+velocities, under Hertzian stresses rarely exceeding
+250.000 psi
+2. Rolling element support members (bearimigs)
+that operate at similar total velocities, lowe; slip velo-
+cities, but generally higher Hei tzian stresses
+3. Interconnecting members (shafts and couplingi)
+that are splined, bolted, or welded together and to
+and moments impose:d gears, with external forces
+while rotating
+4. Other miscellaneous elements such as shaft
+seals, nuts, and locking devices.
+Gears 4-2.2.1.
+Helicopter gear design will be viewed from three
+aspects: limitations, analysis, and the drawing or

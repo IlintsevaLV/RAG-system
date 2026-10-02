@@ -1,0 +1,50 @@
+AACP 706-202
+moct this criterion. In general, the cortact pattern da baiie for vitridod AMS 6475 it is appropriate to usc
+crcascs when too large α cutter is used, while α shift 3hifts toward the hecl of the tooth as the load in- K, = 1 for Δ.≥9
+toward the toe results from usc of an cxcessively K, = 0.5 + 4.5/Dp for 9 > Δ.> 3 (4-35)
+small cutter diameter. The correct diemeter wilß result κ2 for Δ, ≤
+both toe and heel. in approximately equal pattern spreading toward The geometric shape factor J is usci to axcount for
+The stress cvaluation portion of Eq. 4-25 consists the ahape of the csntilevened gear-tooth beam; and it
+includes the influenccs of stress concentration, load
+The diametral pitch divided by face width (Pg/F) sharing, and the modified Lewis forn factor. The
+defines the physicai size and hence the basic sirength recommendod equations for J are:
+of the gear tooth. Ξ. is α size factor to account for the for spur gear;
+phenomenon that larger components may not exhibit
+smaller components. It is grouped with other terms in fatigue endurance stress levels equal to those for K,mn dimensioniess (4-3ι)
+comparison may be made with the basic material the equation for gear tooth stress Σ, so that resdy wbere
+sllowable strcss. = form factor, dimensionless
+For spiral bcvcl gear applications Kef. 56 recom- K$ = stress concentration factor (Ref. 63).
+mends for Π. Σ16 the usc of dimens:onless
+τ contact ratio factor, dimensioniess
+. K, - 2Π,-0.35, dimensionless (4-32) for helical gear;
+YC,cos "Ψ δ'less (4-37)
+and for Pg;> 16 Km_
+wherc
+K, - 1.0, dimensionieas (4-33) * form fector, dimensionless
+C =load incination factor, dimensionless
+- helix angle, deg
+However, for spur and helical gears for which and for bevel gear;
+6≤φ ≤1.2. Ref. 54 suggests K. = 1 becavze test daia
+tributablc to size. β YAREP (4-38)
+It should be emphasized that the values for K. MKRPF
+given by Eqs. 4-32 and 4-33 are based upon she where
+assumpions that the ratio o! case depth to tooth Yk form factor, dimensioniess
+thickness remains cssentially consrant for case- R, distance fron: pitch circle to point of
+hardened gear teett, and that the characteristics of load application, 7.
+case and core materiai and residual strcss fields are F. effoctive face widthn, in.
+unaffected by size. Although the fetter condition can κ = inertia factor, dimensionless
+be achieved in the practical sensc over α fairly wide R meen transverse pitch radius, in.
+range fcr case-carburized matenals, it cannot be Pd transverse diametral pitch (measured
+satisfied tor nitrided materiais. Fer materials such as at λ&rge end of bevei gear), in.-1
+AISI 4340, AMS 6470, and AMS 6475 that are to be Π.μ = meen transverse diametral pitch, in.-1
+casc-hardened by nitriding, α correction hecomes Eg. 4-38 is taken from σ Gleason standard (Ref. &4)
+necessary as the diametral pitch: increascs. While snd is prest ted primarily for discussion of the perti-
+there are few published data in this area, reascnable nent parameters. As mentioned previously, α more
+corrections for nitrided Α1SI 4340 or AMS 5470 for thorough and accurate evaluation can be obtained
+various values of pitch diameter Δ. are with the computer program of Ref. 56.
+The modified Lewis form factor appears as Y, Yc.
+and Y, in Eqs. 4-36, 4-37, and 4-38, respectiveiy. This
+K, = 1 for Δ,≥ 12 factor is based upon bending stress calculation for α
+K = 12/Δ for 12 > Δ,>3 (4-34) parabolic cantilever beam inscribed within the in-
+K, = 4 for Δ,≤ 3 volute tooth form with the point of tangency between
+4-38

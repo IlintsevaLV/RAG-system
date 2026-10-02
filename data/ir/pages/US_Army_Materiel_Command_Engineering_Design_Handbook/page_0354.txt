@@ -1,0 +1,106 @@
+.~~~
+.•,•
+ipr-dra& wide-band antenna for both UHF
+VHF freauencis. With the assitance of α diplexer
+this used single, simple antmna is to receive
+transmit simultaneously in tha UHF and VHF
+munication bands. The same philosophy could
+used for lower frequency VHF (30-75) and
+sen antennas.
+Ω-5..1 Cemmutmscad Astema
+" CeulkMuajem
+.considerations, Together with EMI/EMC,
+tennas poe the most difficult problem for the
+copter avionic engine"ρ. Α typical helicopter
+in is shown antennas communication standard
+3, which depict α simple, operational combat
+navigational of the helicopter (none or observation
+shown). ε &atemnaw©σ
+by antenna are affected functions Antenna
+illustratca 8-3 in Fig. the helicopter tice, and
+the HF antenna due to exumple, For problmsm
+operational affect could landing hard α cadon
+beaten by antenna also is This characteistics.
+"aim rotor downwash, and breakage could caus
+wrapped tWil rotor. up it. the bccrc α�nsenn to I
+problem impedance eclctical an addidioe,
+over the blades passing main rotor from the
+The VHF-FM modulation. causing rotor and
+used for tactical communicationk ist in antenua,
+degradation, could camu.physical exhaust, which
+of the is forward of the helicopter the bulk
+The shadowing. antenna in partial resulting
+clear relatively may be in the belly, shown antenna,
+would gave landing Sear but the many problems,
+the nulls in and consequent properties flective
+antenna, shown pattern. The UHF tenna
+and above the cab top, is vulnerable to triboelactric
+noise and to rotor modulation. The VHF-FM
+antenna is in front of the aircraft and in the field
+view of the flight crew, which could be distracting.
+also may be vulnerable to rotor modulation
+triboel-ctric noise.
+-, .Radiation
+Σ....
+.2 so Αý N Sdirectional,
+Stransmitting
+Fig 8-3. Typical Commmmleatlom
+An α Layoet
+
+, . ., ., ......... ,
+C• 706-Μ,0
+and Effects of rotor modulation can be controlled of-
+foctively by installing notch filter equipment in the
+and primary area of interest. In the case of com-
+com- munication receivers, band stop filters are used to eli-
+be minate unwanted modulation frequencie in the
+ADF audio band.
+"-3.2 Low Fre"q (LF)
+The primary use the or low-frequency sp%-trum is
+for automatic direction-finding. The ADF system
+use" α loop antenna having α figum-of-light radiation
+an- plus an omnidirectional whip (sese) on- pattern,
+heli- tenna. The sense antenna output is combined with
+with that of the loop antenna to produce α cardioid
+am- directional the eliminating thereby pattern, 8. Fig.
+scout bilguity of the loop. The location of the loop antenna
+considerations: by two is restricted
+in- loop and the receiver cable between the The 1.
+is of and input circuitry of the receiver put is part lica-
+length. fixed typical
+of mini- α position located in must be The loop 2. 1o-
+distortion. pattern mum
+α current in the lines that induce The magnetic field the
+the loop are distorted by the airframe, thereby causing an
+,,,, ,,v.. ,,,, In
+engineer the design in the equipment, compensated results
+in- for each location the best determine must antenna
+in should positioned be sense antenna stallation. The #1
+to the an aca of minimum electrical field distortion
+heli. as the ADF performance accurate and maintain
+in what is the ground station over or near copter flies antenna,
+con- of the The size zone. the "'confusion" called VHF
+can vary as indication the ADF in which fusion zone, of
+of the characteristics depends upon dog, much as 180 re-
+α minimum upon maintain'nS apd sense antenna the an-
+receiver. signal input level to the forward
+3-5.3.3 High Freqnracy (HF)
+#2 HF, employe for long-range δ communication, use
+of wire antennas. The wire can be fixed between two
+It points on the helicopter, or α trailing wire can be
+and used. The use of antenna couplers is required with
+this type antenna. of major Α problem with wire an-
+te,%nas is the posabdlity that they will become tangled
+in the rcAor-.
+patterns, which, ideally, would be omni-
+arc dependent upon location. They can
+be shadowed by the airframe, which itself can radiate
+and cause distortion. The wire antenna usually will
+have nulls at its end directions. The antenna wire is
+coated with polyethylene in order to prevent corona,
+and the supports must be designed to withstand
+level voltages.
+LORAN also utilizes the wire antenna. Corona
+and voltage breakdowns are not problems, but omni-
+directional co'υ.agt still is α requirement.
+8-13

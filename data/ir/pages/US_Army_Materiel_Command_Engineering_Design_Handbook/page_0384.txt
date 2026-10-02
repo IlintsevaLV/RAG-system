@@ -1,0 +1,75 @@
+Coatrol Design 9-2.9.3 System
+shall have system assemblies Flight control
+pro- be or otherwise guards, clearance adequate
+tecked, jam- against protection maximum afford to
+foreign objects. by rming
+flight-control routing avoid designer The shall
+areas is required removal its which in through linkage
+engine, the order to replace in
+considered be shall devices tension-retaining Cable
+tension cable control preventing of means α as
+changes.
+bolts noi system shall control of Overtorquing
+operation. during friction in increased result
+avoided, bc bolts special of use The shall
+Design 9-2.9.4 Electrical
+hydraulic components to connectioni Electrical
+consis- iequiremen strength α mechanical shall hav/ε
+Wires requirements maintenance handling tent with
+if possible. installation in the be buried should
+re- and component troubleshooting To simplify
+in- components or pneumatic hydraulic placement,
+integral have shall function an electrical corporating
+replacement. and for removal connectors electrical
+ni-o α•wt pi.•aun .χ..ir. α hl;ghcr I.•., Puiili 5
+cure than can be withstood by electrical insulation.
+The compounds also must be compatible with subsc-
+quent processes applied to the assembly δ,,ring
+manufacture, such as welding or baking for epoxy
+cure or strain relief.
+Proper manufacturing of electrical connectors
+wire rquires that only the should enter the soldering
+connection, The first layer of insulation of the wire
+should enter the potting compound so as to provide
+moisture kakage protection (Fig. 9-49). The braided
+insulation should clamped adequately the con- be α
+nector inlet, and should not enter the potting com-
+pound in such α manner as to provide α leakage path.
+Higher quality electrical parts should be used in
+place of MS parts in critical applications where
+failure creates α high probability of catastrophic
+INSULATION CLAMP
+WIRE
+BRAID POTTING
+PiWr -" Couaectow . Properly Aembl• Electrical
+
+AMCP 706-202
+effect. Detailed failure analyses of electronic and elec-
+in order to determine circuits are required trical
+parts is justified. priced of such higher where use
+run- to prevent order in is required fix Α positive
+motor is stepped possibility One actuators. trim away
+operation.
+braking with parallel, in actuators electrical Two
+electrical indcpendent have must dc-energized, when
+stroke it% complete to actuator fitst the that so inputs
+braked. and de-energized be can
+Design Filter .9.$
+line drain the pump in installed be Filters shall
+(Installation coolers. the oil eotry into to its prior
+trapped downstream of the coolers will allow pump
+replace α recontaminate to in the cooler particles
+is impor- cooler of α flushing Proper element.) filter
+tant.
+should filtration central Τ-valve inst'liations, For
+in- flow as the to avoid differential in order be used
+9- (Fig. changes pressure differential filter dividual
+50).
+in. 0.070 of under hole sizes with restrictors All
+filters. incorporate should
+PRESSURE
+6LE HLTFR
+PRESSURE
+FILTER
+(Β CORRECT
+9-50. Fiture Τ-talhe (eeiaul Filtrvaim

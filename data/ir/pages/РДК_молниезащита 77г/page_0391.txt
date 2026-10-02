@@ -1,0 +1,22 @@
+20 30 70 40 80 50 10 60
+- cr WEAVE ANGLE, degrees
+Variation of mutual inductance and mutual capacitance with 13.18 Figure
+weave angle for constant coverage.
+more effective in allowing flux to leak inside than are apertures of the same area
+but with their major axes oriented at right angles to the liues of flux. The mutual
+capacitance varies only slightly with weave angle, since the major factor
+governing the mutual capacitance is simply the projected area of the apertures.
+Μ and from the preceding equations, To simplify the task of estimating C
+the functions of the eccentricity of the apertures are plotted in Figure 13.19
+( I - K ) ~ / ~ plotted in Figure 13.20 (Reference 13.6) and the variation in
+(Reference 13.7).
+Tape-wound shields, as shown in Figure 13.21, are often used where
+flexibility of the shielded cable is required. The shield may be formed either
+from α narrow metal sheet spiraled around the core or from α carrier of fine
+wires, again spiraled around α core. Flexible armor and flexible conduit, which is
+normally used primarily for mechanical protection, may also be analyzed as
+tape-wound shields. The tape-wound, or spiral-wound, shield is α rather poor
+shield for preventing coupling of current from the shield onto the internal
+conductor because the shield tends to behave as α solenoid wound about the
+internal conductors. There is thus α rather large mutual coupling term relating
+the internal voltage to the shield current. This is particularly true if the tape is

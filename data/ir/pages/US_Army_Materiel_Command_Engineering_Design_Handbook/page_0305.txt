@@ -1,0 +1,108 @@
+3. Power actuator dynamics
+4. Automatic flight controls:
+(α) Stability augmentation system
+(β) Outer loop etabilization
+(χ) Automatic trim systems.
+Pilot 5. iN the feedback loop,
+Frequently, tht mechanical controls and the power
+actuator are analyzed together as α subsystem.
+Characteristics of the mechanical controls that have.
+an effect upon the responses of the servo system are:
+com- system control of balance and I. Inertia
+poncns
+2. Damping at control stick, actuator valve,
+and/or control surface
+3. Friction at control system joints
+4. Looseness of control system joints,
+Friction can cause control system hysteresis, which
+prevents the control stick from returning to the trim
+positior once it is displaced. The provision of posi-
+tive centering requires α preload force larger than the
+value of the friction force. However, excessive con-
+trol break.uAsforce around the neutral or trim posi-
+tion is undesirable because it rcsults in α tendency for
+the pilot to ovcr'ontrol the helicopter.
+Looseries, thQ result of escemive buildup of ii
+tolerances and wear at β.Warings and joints, causes
+"backlash of back- effe4ts The system. tht control iq
+con- and unsatisfactory can range from sloppy lash
+oscillations. pilot-induced to trol characteristics
+digi- with high-apeed conducted Dynamic analysis
+identifies required not only computers tal or analog
+characteristics of the automatic systems, but also
+identifies design requirements for the mechanical
+identiem.suh dsin rnetic
+system, such as:
+I. Balancing of certain control components, par.
+τ,•ildfy thic cyclic and. Cl*'., ..... 1χ....
+2. Stiffening of control elements and backup struc-
+ture
+3. Insta!lation of antibackl2sh springs to eliminate
+looseness
+4. Additional damping at stick, actuator valves,
+and/or control surfaces
+5. Establishment of the allowable upper limit for
+Scontrol system friction,
+. Major aocidents can result from improper or in-
+adequate maintenance of flight control systems.
+Specific aesign guidelines for maintainability of con-
+Irol systems include:
+I. Understand the skill level of the maintenanre
+personil, their operating environment, and the type
+of errors they are likely to make
+2. Replace routine maintenance with on-condition
+maintenance accompanied by adequate failure warn-
+ing
+
+706202 AMCP
+3. Incorporate physical barriers against incorrect
+assembly and installation of gcnerally similar parts.
+The design insure that the omission of critical shall
+fasteners either is obvious during ground runup or
+cannot result in catastrophic flight. failure in
+4. Realize that the same maintenance crror may be
+repeated in all paths of α redundant systein
+5. Human factors engineering should be applied to
+design for maintainability to minimize human error.
+SYSTEMS TRIM 6-5.3
+The force trim system is provided in order to allow
+the pilot to reduce the control force to zero when the
+helicopter is trimmed along α stabilized flight path.
+MIL-H-8501 requires that, for all conditions and
+speeds specified, it be possible in steady-state shall
+flight to trim steady longitudinal, lateral, and di-
+rectional control forces to zero. At all trim con-
+δ'tions, the controls shai exhibit positive self-
+centering characteristics. Stick "jump" when trim is
+actuated is undesirable.
+Severas types of control force trim systems are des-
+cribed in the paragraphs that follow.
+6-5.3.1 Disconnect Trim
+satisfied be can requirements quality handling The
+with α mag- in combination spring preloading by α
+this method of advantage principal The netic brake.
+spring of the magnituo,; the However, is simplicity.
+combine the system may kinematics o" force and the
+to produce an objectionable kick when the magnetic
+brake is released. Α damper in parallel with the mag-
+brake will reduce this undesirable characitt istic; whenever the trim button is held, the magnetic brake
+is disengaged from the control linkage, and, there-
+feel, diign- fore, the trim, or force springs also arc
+gaged. In α well-designed system, this can be an ad-
+vantage, as it simplifies the input of small control dis-
+placements such as those required for precise
+hovering control.
+6-5.3.2 Continuous TrIm
+An al'ernative to the on-off system is α system in
+which the trim is continuous. Upon activation of the
+trim switch, the control forces are trimmed slowly to
+zero. In thit system, the magnetic brakes are re-
+placed by electromechanical actuators. This type of
+trim can be provided readily in helicopters that are
+equipped with parallel actuators for outer loop stabi-
+lization. However, the two-axis (Chinese hat) 1ec-
+trical trim switch on the cyclic stick grip can activate
+only longitudinal and lateral trim; the directional
+trim switch must be located elsewhere.
+I o avoid the trim switch limitation, it is possible to
+6-25

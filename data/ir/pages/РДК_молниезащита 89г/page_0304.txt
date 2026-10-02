@@ -1,0 +1,91 @@
+the domain time the In space: problem and Modeling
+are: equations curl Maxwell two
+ξ Β
+-limitations &
+(10.50) ξ V + J, H + aE
+-Δ -it
+equations of the domain solution α time Implementing
+each surface that requires coordinates in rectangular
+be under study article) other (or any the aircraft of
+cells, dimensional three of assemblage by an modeled
+Fig. 10.22. on as shown
+TDdTO
+Z
+in used F-106 of Model 10.22 Fig.
+code. finite-difference
+de- resolution on the depends cells the of size The
+thumb of rule Α domain solution. time the in sired
+wavelength the resolve to are needed cells five is that
+the if Therefore, interest. of frequency highest of the
+di- cell then the MHz, 100 is up to resolution desired
+μ) wide (0.6 2 foot be about to have would mension
+waves electromagnetic which with velocity the since
+more or 1 ft/ns, about is surface the along propagate
+mn/ns. 0.3 precisely,
+on information contains cell each one time At any
+instant next the At fields. electric magnetic and the
+to propagated have will cell each in fields the time of
+fields the how on depending manner α in cells, adjacent
+time previous the at cells those in distributed were
+step.
+in the fields way the that analysis assumes The
+fields on the only depends propagate cell α particular
+step. time previous at the neighbors its immediate in
+partial various the allow to suffices information This
+approximated to be equations Maxwell'σ in derivatives
+suggested as two quantities, of of differences ratios by
+has beenwidely which procedure, The Yee [10.241. by
+detailed not be will NEMP community, the used in
+10.25 110.23, literature in the described it is but here,
+ 10,27]. -
+288
+
+cells, the of each of coordinates the on Informat•ion
+electric magnetic and the information on with along
+the in must be stored cells the of each in intensity field
+totally impractical) are (hand calculations computer
+one of the the required memory locations provide and
+can be aircraft which the degree to on the
+size the halving by resolution the Doubling modeled.
+α factor by storage requirements the raises the cells of
+size is cell if the Also, computations. for 3Δ eight of
+must the time step then two, of α factor by reduced
+in order Therefore, of two. factor by α be reduced
+gridded more finely of the the response calculate to
+the original as final time same to the space problem
+computer time. requires sixteen times as much problem
+has technique finite difference domain The time
+understand- to application successful an extensive had
+thunder- C-580 and F-106Β the response of the ing
+- [10.28 lightning triggered to aircraft research storm
+re- lightning the to model been used also It has 10.37j.
+of response the to model [10.38], helicopters of sponse
+test fa- lightning to design facilities and in test aircraft
+three and dimensional two Both [10.39, 10.40]. cilities
+been have approaches and 3DFD) (2DFD) dimensional
+implemented.
+straightfor- is α approach the Because Advantages:
+are there equations curl of Maxwell'σ ward solution
+ac- solution though approximations, no fundamental
+the to which degree the the by limited be may curacy
+be modeled can aircraft of an actual shape complex
+in factor The main limiting cells. of assemblage as an
+used computer the of memory and speed the is analysis
+usage. computer of cost the and calculations the for
+are: approach of this advantages Other
+can be modeled. 1. Nonlinearities
+in described sources lightning of types three All 2.
+modeled, be can §10.6
+and (linear elements line transmission and Circuit 3.
+with interfaced and integrated be can nonlinear)
+interac- self-consistent allowing thus codes, 3DFD
+fixtures test and generators pulse of lightning tion
+modeled. being aircraft the with
+has been it in that credibility considerable 4. It has
+both data, to experimental compared successfully
+communities. lightning and NEMP the in
+mod. can be shapes dimensional three 5. Complex
+eled.
+is approach this disadvantage of One Disadvantages:
+consider- need users and complex are codes the that
+is sub- require may codes that the is Another able skill.

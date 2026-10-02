@@ -1,0 +1,17 @@
+SOURCE OF Α
+NOISE SOURCE
+Coupling via capacitive leakage through holes. 13.14 Figure
+(α) Coupling from an external source
+Coupling from voltage on the shield (β)
+appearance shown in Figure (Reference The characteristics of the 13.1 13.3). 6
+shield may be described in terms of the following symbols:
+the radius of the shield α -
+τ the number of carriers, or bands of wire, that make up the shield -
+N the number of ends, or the number of wire strands, in each carrier -
+the number of picks, or carrier crossings, per unit length Π -
+- δ the diameter of the individual wires
+Some important quantities that may be defined in terms of the above
+characteristics are
+4naP
+α Weave angle: =tan-'- (13.7)
+C

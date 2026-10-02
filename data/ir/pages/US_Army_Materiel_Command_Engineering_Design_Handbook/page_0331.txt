@@ -1,0 +1,108 @@
+AMCP 706-202
+broad- Typical amplitude. and time in or constant
+power switches, motors, are EMI of generators band
+circuits, pulse ground currents, lines, distribution
+capacitors, and transistors,
+oscil- an by produced is interference Narrowband
+fre- the at only energy contains that circuit latory
+bar- output The multiples. its oscillation or of quency
+its internal or transmitter communication α of monics
+Spurious EMi. narrowband of typical arc oscillators
+α wide cover can or receiver α transmitter of outputs
+of characteristics the exhibit and frequencies of range
+is distribution energy the however, noise; broadband
+sharply. defined
+Inherent interferences unique to the helicopter can
+of members rotating as the such sources from arise
+rotors. tail and main and shaft, drive engine, the
+radio/ helicopters, medium-sized and small- In
+α by seriously hampered is frequently operation radar
+creates which modulation rotor called phenomenon
+some and ADF, VOR/ILS, in especially problems
+inter- modulation Rotor systems. communication
+the of reflection chopping or the to due arise ferences
+and the speed rotor The rotor. the main by signal RF
+point α givcn pass to nurmber combine blades τ rotor of
+sig- RF the arriving of the modulation in resulting
+(amplitudes, perturbat,,ns distortion These nal
+interference up set can harmonics) or cancellations,
+error, system noise, create navigation that patterns
+become caa interference The oscillation. needle and
+critical when integrated flight control systems are
+helicopter oscillation. in resulting used,
+of ei- variety in α helicopters use of The expanding
+can effects interference These considered previously.
+prievent, α particular or even seriously, downgrade
+arise probles interference Some capability. mission
+precipi- potentials, field charging atmospheric from
+(elec- phenomenon discharge corona charging, tation
+α around field electrical by α strong accelerated trons
+(fric- charging potentials or triboelectric point), sharp
+con- material of dissimilar α result as charging tional
+tact)-
+noticeable the most probably these sources, Of
+by the produced will be qualification for EMC effect
+members rotating of helicopter charging tniboelectric
+rotors). and shaft, drive transmission, (engine,
+7-6.5 INTERFERENCE SUPPRESSION
+into four be divided may α subsystem within EMI
+categories:
+emi3sions interference signal Device 1.
+signels such to susceptibility Device 2.
+(solid signals of interfering path 3. Transmission
+wave) or
+7-22
+
+pre- signal ι.ε., coincidence, Inierference time 4.
+susceptibility. of receptor timea during sentation
+number the and subsystem, of the The complexity
+sources, interfcrence internal the of magnitude and
+ap- design protoctive of choice the determine
+appwoaches reduction interference to Basic proachcs.
+include: subsystem or helicopter tne within
+corn- ι. interference-free inherently of Dftiagn
+ponents
+Equipment isolation 2.
+routing Cable 3.
+suppression Source 4.
+and suppression. containment point 5. Signal
+Compoeats interferencC-free 7-.5.1
+limits imposed the meet electrical systems All shall
+as such spec-ification, equipment the applicable by
+are primarily speci!ι'zations MIL-STD-461. These
+to susceptibility with and radiation, with concerned
+and broadband or conduction-propagated radiation-
+these with Compliance interference. narrowband
+state-of-the-art maximum specifications represents
+are specifications the However, control. interference
+not inic.ι-eren:ce do soive necemsariiV ihe and oroad
+. border- individual If systems. in all arising problems
+elimi- not are sources interference component line
+not does limits specification with compliance nated,
+the wben develop not will problems EMC that insure
+specification limits. from degrades system total
+4-6.5.2 Equipment Isolation and Cable Routing
+positioniing by oolved arr. problems EMC Many
+ntoruigcbesshthth) eetrncqup
+Lccation interfereacc. minimal radiate up or pick
+in pre- parameters importan'.τ two are orientation and
+__ ._ .. ι:ola.ι.
+and oricn- location antenna distance. with attnuates
+EMI. or reduce can prevent tetion
+effective, always is not of cables shielding Simple
+In such signals. of interfering magnitude to the due
+is necessary. cables of equipment isolation instances,
+be may cables low-leve, from high-level of Scparation
+allow- space and design upon depending required,
+rn- may cabIls power and primary wires ances. Signal
+at α terminating when even routing separate quirm
+connector. single
+or location equipmea.τ of is α result interference If
+be investi- should areas following the routing, cable
+gated:
+I. from run separately wiring control and Power
+wires signal-carrying
+from separately run wir-σ frequency 2. Audio
+frequency of higher wirec
+of crossing the right-angle for madt 3. Provisions
+cables circuit sensitive

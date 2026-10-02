@@ -1,0 +1,25 @@
+1.04
+0.17L
+* 0
+AA- A 0
+Ii -1.22
+0 1.06 us 0 1.06 us (b) (a)
+26 240
+-56 -960 ,
+A -
+0 1.06 1.06 us( 0 us (d) (c)
+Fig. 10.37 Calculated and measured response of CV-580 to triggered lightning.
+(a) Left wing B-dot sensor - calculated
+(b) Left wing B-dot sensor - measured
+(c) Right wing current - calculated
+(d) Right wing rate of change of current - calculated
+Significance of oscillations: Aircraft resonances are ical length of the harness than by the length of the
+gen- important in that they are one of the factors governing aircraft. There is some correlation between the
+the ringing frequencies of the transients excited in air- eral nature of the aircraft ringing frequencies and the
+craft wiring. If the aircraft ringing frequency happened ringiag frequencies of the transients typically induced
+.the to coincide with the ringing frequency of a wiring har- on aircraft wiring; transients induced in small aircraft
+ness there would be the possibility of more efficient tend to ring at higher frequencies than do transients
+coupling of energy from the exterior of the aircraft to induced in larg3 aircraft. Partly this would occur be.
+the internal wiring. The natural ringing frequency of cause wiring harnesses in small aircraft naturally tend
+wiring harness, though is given more by the phys- to be shorter than wiring harnesses in large aircraft.
+301

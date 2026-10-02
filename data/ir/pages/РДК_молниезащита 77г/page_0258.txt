@@ -1,0 +1,28 @@
+Dielectric Coatings
+Dielectric coatings such as polyurethanes or Kapton' film have been
+proposed by Kung, Amason (Reference 7.34), and others, as a means of
+protecting composite surfaces in swept-stroke zones (Zone These re- 2A).
+searchers acknowledge that some external conductors must still be used, but
+they suggest that the distance between such conductors could be extended by
+applying a dielectric coating to the composite surface, as shown in Figure 7.45.
+0.076 In tests of a mm (3-mil) polyurethane coating over a graphite composite,
+Kung and Amason report that a 78 cm (31 in) separation is possible between
+conducting strips. In their tests a strike to the first conductor is initiated and
+caused to sweep aft in a wind stream across the dielectric coating until it
+reattaches to the second conductor, in the manner of Figure 6.2 discussed As 1.
+in Section of Chapter the distance this arc will sweep depends on the 6.6.2 6,
+voltage withstand capability of the surface paint versus the amount of voltage
+which can be developed along the arc. The greater the insulation capability of
+the coating, the longer the sweep to the next attachment point; the higher the
+arc voltage, the shorter the sweep. The principle of the dielectric coating concept
+is simply to make the coating from a good dielectric able to withstand high
+occur, the voltages. But there is a pitfall: if a puncture of the dielectric should
+arc will remain attached to this point much longer than it would have had no
+dielectric coating been present, and in so doing the arc will inflict more damage
+to the composite than if the arc had been uninhibited by the dielectric coating
+and allowed to move quickly from one place to another.
+METAL FOIL
+'ING DIELECTRIC COAT
+Dielectric coating protection system. 7.45 Figure
+'~rademark the duPont de Nemours Company, Inc. E. I. of
+248

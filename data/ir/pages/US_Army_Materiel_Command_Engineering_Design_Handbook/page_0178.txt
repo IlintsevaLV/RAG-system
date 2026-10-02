@@ -1,0 +1,56 @@
+or totally offset by the addi- periodic relubrication: and α flexi- shafting will partially be with α fitting for α
+elimination of The or dampers. tion of α daniper prac- of current design coupling arc typical ble disk
+tice. The end fittings and their attachment represent α hangers and the attendant maintenance requirements
+considerable portion of the cost of the manu- also may be offset by the addition of maintenance
+facturing such δ'ii-α shafts. of The fittings may be at- requirements for the dampers.
+tached by adhesive bonding, riveting, boiling, clec- Acceptable tolerance to ballistic strikes requirs
+tron beam welding, or brazing. Tolerance of mating hardware testing under simulated service conditions.
+maintained to ensure good Parameters for ballistic-tolerant designs for super- pairts must be closely
+parallelism of end fittings and low vibration charac- critical shafting have not been defined and de-
+teristics. pendence on individual tests is almost complete.
+speeds and Α method for calculation critical of type of ccuplings selected, their mass. Io- The
+"cation, and friction characteristics, influcnce critical bending modes for high-speed shafting is well
+whirling modes as well as torsional response modes presented and explained in Ref. 110.
+ofthe shafting. Α recent investigation of coupling ν-
+duccd whirl phenomena on turboshaft powered heli-
+copters is given in Ref. 4-3.2 COMPONENT DESIGN 10Σ.
+The basic drive shaft system components, coup-
+α.gs, bearings, and shafts are discussed separately in
+4-3.1.5 Supercritical Shafting the paragraphs that follow.
+Supercritical shafting usually opc. "-σ at α mced
+between the first and second critical specu of ro-
+although even high orders are possible. "The 4-3.2.1 Couplings tation,
+main rotor and tail rotor shafts, or masis, often pass The primary purpose of the shalt coupling is to
+moh rp η 4 'φ . τ λ • fi ε τ Pr sn δ ýν rpr .. hk ituCjti' cf η in ν | mis aa η gn μ en tan opr ν γ ut - di ξ'; al prvd.
+operating speed. However, the critical speed is ,ela- motion between various shafting elements and the
+tively low, the dwell tin-. is momentary, and aero- engines and gearboxes. This relieves stresses in the
+dynamic damping forces are quite On the I.. ge. other shafting, bearing, gearbox, and engine components
+hand. interc.onnect drive shafting and tail rotor drive induced by bending moments and axial forces. The
+shafting generally operate at relatively high speed rcla!ive motions between these components may be
+with very little inherent damping. due to airframe structural deflections. thermal ex-
+The advantafes of α super.;'itical shaft design aic pansion. or pylon excursions required by rotor vi-
+the smaller number of detail parts and bearing hanger bration isolation schemes. There are six major types
+assemblies. The disadvantages are the need for of couplings that have been used in helicoptcrs, and
+dampers, which for reliability should be redundant, the selection of one among them for α given ap-
+~ ~ and the physical length of the !hafts, which may im- plication depends greatly upon the required dis- ...... "- I�:*-" other .. "'• . ,,τ• π .. "•- "- . . .... ρ"-" .olrt ni
+can be paccimicrts &no thle ioaos that tirid ι IRO"•* IRtOKOl1τ%,3. .Q1 13#0 %-41J11 /'%13V. VBl 9 201 6 10.%,
+tars ι'ay dermine shaft diameter and wall thick- their supporting elements. The six are:
+he~σ. Shaft sizes larger than thosc required by the I. Laminated flexible disk couplings (Thomas
+power requirements μ4N be necessary to maintain α type). This type of coupling, shown in Fig. 4-37, is
+rptio sufficient to avoid critical torsional probably LID the simplest design for angulai misalign-
+buckling, or to counter α ;pecific ballistic threat. ments deg. I It has been used oi the CH-47 syn-
+Once si.ε has been determined, the design require- chronizing 5haft and on the OH-58 tail rotor drive
+ments for shafts in the supercritical speed range system. Eachi driving sp;der may have two or three at-
+primarily on damping und dynamic balancing.- taching points (four or six equally spaced holes in the center
+Re.φ. the ncessity rhe larger 109, preferred As in for balancing oisk complement). number is shown α to
+very clo tolerance over the entire span er from v:ewpcints of vulnerability sur- the super- the and
+The critical shaft is paramount for successful operatio,, vivability. laminated disks are generally circular
+It is incorrect to assume that α supercritical shaft- rings, although square and hexagonal shapes have
+ing system will automatically weigh less than α sub- bcen ustd. One problem that has been encountered is
+critical system. Dircwtly comparable designs for α disk fretting at the bolt attachment.
+given helicopter application have to made and the This coupling features high torque capacity, light- be
+total instalted weights dctc'mi.ed accurately and %eight, simplicity, and constant angular velocity. The
+compared. The weight saving apparently achieved by torque capacity can be varied easily by the addition
+elinminating the hangers necessary for the subcritical or deletion of laminates. However. increasing the
+I
+4-76

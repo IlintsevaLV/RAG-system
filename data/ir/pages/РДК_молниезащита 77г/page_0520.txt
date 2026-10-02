@@ -1,0 +1,47 @@
+50% specified--only that its amplitude should be less than of the initial
+amplitude.
+The rationale behind this waveform concept included the following several
+aspects.
+It should be in some measure proportional to the derivative of the
+magnetic field produced by a lightning current.
+The duration of the transient should be long enough that possible
+failures of semiconductors would not be strongly affected by the
+waveshape of the transient, since, with transients of duration shorter
+than about a microsecond, the failure levels of semiconductors are
+strongly affected by waveshape.
+The duration of the transient should be roughly comparable to the
+duration of clock cycles in digital equipment.
+The transient should include a rapidly changing phase to excite
+inductively coupled circuit elements.
+The transient should be one that could be produced by and coupled
+to equipment by relatively simple test equipment.
+Directly associated with the open circuit voltage transient was a short
+circuit current transient. The short circuit current was that current which would
+flow from a source the internal impedance of which could be represented as 50
+in parallel by 50 The test waves taken together as a set were thus more S2. pH
+consistent than were those relating to the Amplitudes of neither Shuttle. Space
+current nor voltage were specified, since the test levels would be part of transient
+control level specification.
+The most common type of transient encountered would be oscillatory.
+Some existing specifications relating to osciIlatory transients are summarized in
+Table 17.2. The first two shown deal with the and were essentially Shuttle Space
+17.1 oscillatory versions of the unidirectional transients shown in Table As
+presented at that time there was no specification on the initial front time;
+however, the maximum front time would be governed by the oscillatory
+frequency. The decrement of the transient was defined by requiring that the
+25% amplitude of the fifth half-cycle be more than of the amplitude of the
+initial amplitude.
+The low-frequency component was ultimately dropped from further 2
+consideration, since there was little evidence from transient analysis tests of such
+low-frequency oscillations being excited by diffusion-coupled magnetic flux.
+(SWC) ANSI A specification of somewhat longer standing the Surge is
+Withstand Capability Test (Reference 17.18). This test was derived from
+considerations of the transients found on control equipment in high-voltage
+substations. The specification makes no reference to short circuit currents. The
+2.5 open circuit voltages are specified as being between and with the kV, 3
+1.5 MHz. Decrement is specified by oscillatory frequency being from 1.0 to
+50% requiring that the envelope decay to in no less than ,us. 6
+The test was intended for simulation of the transients found in
+high-voltage electrical substations and to which equipment in such substations
+might be exposed. The voltage range specified is reasonable for such apparatus
+510

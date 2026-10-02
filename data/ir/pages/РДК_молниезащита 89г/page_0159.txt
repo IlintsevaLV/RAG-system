@@ -1,0 +1,103 @@
+cient to tell how the diverters will work in actual
+tice. Laboratory testing of complete non-conducting
+structures, such as radomes, including simulation
+the conducting objects inside the radome, is the
+way to evaluate any particular design.
+Application of diverters: Proper application of either
+type of diverter involves being sure that there is never
+enough voltage to cause puncture through the insulat-
+ing structure to the internal objects. Voltage can
+velop because of the resistance of the ionized channel
+along α segmented diverter or because of the induc-
+tance of α solid diverter. Diverters should be neither
+too far from the objects to be protected nor too close,
+Typical diverter spacings range from 30 cm (12 in)
+(24 in). Application guidelines are: 60 cm
+1. As much as possible, orient the diverters in α
+and aft direction, as shown in Fig. 6.32(α).
+provides an opportunity for swept strokes to
+low the diverter, rather than jumping across
+insulating structure being protected.
+keep and diverters of adequate number an Provide 2.
+the current path as short as possible, although
+this might require some diverters to be oriented
+perpendicular to the line of flight.
+3. Use enough diverters to be sure that any light-
+the of surface the across flash will strike ning
+striking and skin the puncturing than rather
+objects under the skin. Fig. 6.32(β) illustrates
+the point.
+4. The spacing of either type of diverter depends
+the dielectric strength of the skin material,
+proximity of conducting objects behind the skin,
+and the length of the diverters. Typical spacings
+range from 30 cm (12 in) to 60 cm (24 in),
+there are no "cook book" analytical tools with
+which to determine the necessary spacing for
+ticular configurations. Selection of spacing is
+done by test of actual structures with diverters
+applied in α "cut and try" process. Flat panel
+specimens of the non-conductive composite
+may be used for spacing tests; it is not necessary
+to have α complete sample of the object to be
+tected. Α typical test setup is shown in Fig. 6.33.
+5. Be sure that the current along the diverter does
+not produce enough inductive voltage rise to cause
+puncture to the internal objects, as illustrated
+Fig. 6.34. The inductive voltage rise,
+(6.20) Λ- V =
+dt
+
+prac- may be calculated by assuming Λ to be 1 H/μ for
+most diverters, and assuming dr/dt to be 100,000
+of Α/ps (1 ξ 101 Α/σ). This voltage rise must be
+best compared with the puncture voltage of the corn-
+posite skin and the air gap between the skin and
+conductive objects inside. If this is not known,
+the design can be verified by α high current test
+of α typical diverter installation.
+de- 6. Fasten the diverter strips or bars securely to the
+skin. Solid diverters are mechanically fastened
+about every 15 cm (6 in). Segmented diverters
+are adhesively bonded directly to the composite
+skin.
+to
+either type of diverter, provide α At the aft end of
+suitable path to carry the lightning current to the
+fore conducting airframe structure. This can be via
+This α single fastener or α fastener and spacer combi-
+fol- nation, as illustrated in Fig. 6.35. In either case
+the the arrangement should be capable of conducting
+currents appropriate for the zone in which the di..
+verters Pre located.
+7. Provide an appropriate finish. This may be α
+paint on solid diverters, but the individual seg-
+ments of segmented diverters must not be covered
+with primers or paints. If covered with paint, these diverters will not ionize and thus will not
+ion. τ skin
+function. the
+8. The protection adequacy of α complete diverter
+arrangement should be verified by high voltage
+strike attachment tests to verify ability to inter-
+on cept strikes and prevent puncture, and by high
+the current tests to confirm adequacy of mechanical
+and electrical fastening and grounding designs.
+These tests must be conducted on full scale hard-
+but ware duplicating that to be used in production.
+par- The intent of Guideline 3 is to assure that enough
+best diverters are used to prevent punctures resulting from
+initial srikes. Guideline 4 extends this criterion for
+swept strokes, and Guideline is aimed 5 at preventing
+skin punctures resulting from inductive voltages that arise
+when lightning currents flow through the diverter.
+pro- Guideline 6 is aimed at assuring that the diverter re-
+mains physically attached and adequately bonded to
+the airframe when it is called upon to conduct or guide
+high currents.
+In applying these guidelines it is helpful to know
+in the voltage needed to puncture covers or to cause
+flashover across α surface. The voltage to puncture
+α particular nonmetallic skin is α function of the ma-
+patterns, as of layup as well thickness, and type terial
+core fillers, and surface treatments. Examples of skin
+142

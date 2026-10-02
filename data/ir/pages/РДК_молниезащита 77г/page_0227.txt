@@ -1,0 +1,46 @@
+Equation 7.19, the maximum displacement distance would necessarily be as
+folIows:
+Maximum
+cm 150kV 15 displacement (7.24) = =
+kV/cm distance (cm) lo
+If this diverter has an inductance of 1.0 then the minimum pH,
+displacement distance, by Equation 7.23, is as follows:
+Minimum
+BA/, (luu
+displacement ( 1 φ λ ) =
+λ o kV/
+distance (cm)
+Thus, it can be concluded that the diverter strap should be placed between 5.0
+and 15 cm away from α point directly over the protected conductor.
+The above analysis assumes that the internal conducting objects are at the
+same potential as the conducting structure to which the diverter is bonded. This
+assumption is valid because no lightning current flows through the internal
+conducting objects, and thus there are no potential differences between them
+and α common conducting structure.
+The protection of α nonmetallic structure is most important when the
+1 structure contains an integral fuel tank. If this combination is located in Zone
+2, or Zone α protective diverter system to prevent punctures and the ignition of
+be fuel should be applied. Of course the number or size of diverters that may
+required can be minimized by making as many as possible of the internal fuel
+tank components of nonconductive materials. By so doing, some objects within
+the tank which could otherwise be the source of streamers and eventual
+attachment points will eliminated. conducting parts that must remain Any be
+as possible, inside should then be positioned as far away from the outside skins
+6, and they should be devoid of sharp edges, as discussed in Chapter Section 6.7.
+an 4) Plumer (Reference 7.1 discusses α particularly challenging situation:
+entire wing, including an integral fuel tank, is made of fiberglass; moreover, α
+metal capacitance probe, vent pipe, end panels, and filler cap are present. The
+be tank is shown in Figure 7.21. The vent line and end plates of this tank could
+made of nonconducting materials. The capacitance-type fuel quantity probe, on
+the other hand, must of necessity be made of conducting material, and the probe
+should be positioned as far as possible from the top and bottom skins.
+Figure 7.21 also shows the protective diverters that were designed for the
+bottom and top skins of this tank. Diverters will usually be required if there is
+conducting object within the tank--and sometimes even if there are no any
+conducting objects inside. If the puncture and surface flashover characteristics of
+the enclosing skin materials are known, the diverter arrangement can be designed
+using Equations 7.19 to 7.23. Frequently, however, when newer materials are
+used, puncture and surface flashover information is not available. In this case, α
+section of the proposed skin material can be given α high-voltage test to
+determine the required diverter spacings, as illustrated in Figure 7.22. The skin
+217

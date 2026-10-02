@@ -1,0 +1,105 @@
+peres. For a tank constructed of CFC, there is a high
+probability that this limit will be exceeded so that al-
+ternatives, such as isolation links or electrically non-
+conductive fuel and vent lines should be considered. If
+the expected current levels in the plumbing are low,
+as in metal & tank for example, it may be desirable
+to evaluate the arc threshold level of the couplings to
+compare with the currents which are expected. The
+arc threshold level may be determined by inserting the
+coupling into the light-tight chamber described previ-
+ously. Initial test current amplitudes should be lower
+than the expected arc threshold level of the coupling
+with subsequent tests performed at increasing current
+amplitudes until arcs are detected. Several coupling
+samples should be tested to obtain a range of spark
+threshold levels.
+Fuel quantity probes: Capacitance type fuel quantity
+probes, as described in §7.9, may become fuel ignition
+hazards if the voltage potential difference developed
+between them and the adjacent interior tank skin sur-
+face is high enough to result in an air gap flashover.
+This condition is most likely to occur in a fuel tank
+constructed of CFC because of the high IR voltages
+which can develop along the skin during a lightning
+strike. It is advisable to perform voltage flashover tests
+on a typical fuel quantity probe since the curves shown
+in Fig. 7.27 can only be considered approximate.
+The probe to be tested should be positioned ad-
+jacent to a simulated fuel tank skin surface so that the
+test setup accurately represents actual fuel tank probe
+to skin air gap dimensions. Voltage impulses, such
+as the 1.2 x 50 us voltage waveform B of [7.28] and
+MIL-STD-1757A [7.63], should be applied by direct
+connection to the probe with the simulated tank skin
+connected to test circuit ground. Initial peak voltage
+levels applied to the probe should be lower than the ex-
+pected flashover level, with subsequent tests performed
+at increasingly higher levels until voltage breakdown
+results in an air gap flashover. The voltage flashover
+level determined by these tests must be adjusted for
+the air pressure level at cruising altitude,
+7.14.3 Full Scale Tests on Tanks
+Once tests have been completed on the hard-
+ware and panel specimens described above, the fuel
+tank should be ready for full scale tests to verify por-
+tions of the design which cannot be obtained from the
+panel and hardware tests. These include measurement
+of adhesive bond line voltages, current amplitudes in
+plumbing and vent lines, voltage potential differences
+between fuel quantity probes and adjacent fuel tank
+skin, and evaluation of potential ignition sources at
+access doors, fuel filler caps, structural interfaces, fuel
+217
+
+quantity probes, and couplings in fuel and vent lines.
+Measurement of voltage and current on wiring:
+Measurements of voltages and currents induced in elec-
+trical wiring and plumbing located within the tank
+should be made. Test currents are conducted directly
+into a typical lightning attachment location, such as
+the wing tip. Current return wires are connected to a
+typical current exit point, such as the wing root area.
+Positioning of the return wires around the structure
+is important since the magnetic fields associated with
+them can affect the magnetic field environment within
+the tank. Ideally, the internal tank field environment
+should only be a function of the currents in the tank
+skin as occurs during strike attachment, in a natural
+lightning environment. Return wire influence can be
+minimized by positioning the wires in a radial array
+around the aircraft structure, as discussed in Chapter
+13.
+Measurement of current on plumbing: If possible,
+measurements should also be made of currents in fuel
+and vent lines for comparison with the spark threshold
+levels determined during fuel and vent line hardware
+tests and also for comparison with analyses of the cur-
+rent levels expected in these tanks.
+Measurement of voltage on fuel probes: Voltage dif-
+ferences between fuel qua&-tity probes and the adjacent
+interior skin surfaces can be measured and compared
+to the voltage breakdown levels determined during
+tests on the probes. Measurements at five fuel probe
+locations within the NASA CFC wing showed vbltages
+ranging from 1200 volts at the wing root probe to 3200
+volts for the wing tip probe when currents of 190 kA
+were conducted through the wing.
+Tests to determine ignition sources: Ignition source
+tests should be performed on a full scale wing to deter-
+mine whether couplings, access doors, fuel filler caps
+and adapters, structural interfaces, or fuel quantity
+probes located within the tank will be the source of
+fuel ignitions. Although tests will most likely have
+been performed on individual fuel tank elements to
+determine arc and spark threshold levels, it is also rec-
+ommended that ignition source tests also be performed
+on a full scale fuel tank. Current densities in materi-
+als and current amplitudes in structural elements are
+difficult to analyze for a complex full scale structure
+and the numerous paths fhat can exist in a tank can
+result in the existence of several locations where arcs
+or sparks could occur. Full scale tank tests can also
+verify the adequacy of the sealant application which is
+usually an important part of the lightning protection
+design. A more detailed discussion of procedures for

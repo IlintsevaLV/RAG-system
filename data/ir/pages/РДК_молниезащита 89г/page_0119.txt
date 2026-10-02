@@ -1,0 +1,89 @@
+Multiple The recommended burst; waveform consists
+of repetitive component H waveforms in 24 sets of
+pulses each, distributed over α period of up to
+seconds, as shown in Fig. 5.6. The minimum time
+between individual component H pulses within α burst
+is 10 pss and the maximum is 50 14σ. The 24 bursts
+are distributed over α period of 2 sec according to
+following constraints:
+- The minimum time between subsequent strokes
+10 Ms.
+strokes subsequent between time maximum - The
+ms. is 200
+kA 10
+__
+(α) One burst is 20 pulses distributed
+over millisec I ond.
+Hzone kA 10
+Λ
+dtu
+2 seconds. bursts distributed over four β) Twenty
+10 kA
+H SComponent
+Component_
+_ _ _
+(χ) ,•. 3 4 5 1 2
+Fig. 5.6 Multiple burst waveform.
+(α) Overall waveform
+(β) Pattern of pulses in α burst
+(χ) Waveform of an individual pulse
+Component H represents α high rate of rise pulse
+whose amplitude and time duration are much less than
+those of α return stroke. Such pulses have been found
+to occur randomly throughout α lightning flash, in-
+terspersed with the other current components. While
+not likely to cause physical damage to the aircraft
+electronic components, the random and repetitive na-
+ture of these pulses may cause interference or upset to
+certain systems.
+
+The multiple stroke and multiple burst environ-
+20 ments are not intended to be applied to the full vehicle
+two in α test. The multiple stroke and burst internal envi-
+ronment may be determined by testing using α single
+component to obtain the transfer function of interest,
+or to obtain the actual transient response level. The
+the independent responses should then be repeated and
+spaced as described in Figs. 5.5 and 5.6 for upset as-
+sessment. It should then be shown by analysis or test
+is that, by virtue of system design, architecture, hard-
+ware or software measures, there is sufficient immunity
+environment. this system from the of recovery or
+the idealized of parameters of the summary Α
+lightning current waveforms is given in Table 5.3.
+Current Components: Current of Application Zone
+components Α, and H and the multiple- Β, C, Δ
+stroke and multiple burst waveforms may be utilized
+for analyses or test purposes, or for combinations
+thereof. The appropriate current component(σ) for
+each zone of the aircraft are shown in Table 5.2. When
+the area of interest includes more than one zone, the
+protection assessment shall be performed utilizing the
+environment. severe most the with zones or Zoning is used to determine the current path(σ)
+through the aircraft and in locating the particular
+severe threat to represent(σ) the most path(σ) which
+most For investigation. under system or structure the
+well as 3 Zone in located is airframe the applications,
+2Α, or Zone 1Α, other zones (ι.ε. more of the as one or
+2Β). The current components from Table 5.5 are then
+applied together with the multiple stroke and multiple
+burst environments to assess the potential lightning
+verify and system, or structure aircraft the on effects
+adequacy of protection designs.
+Test Waveforms: The idealized severe waveforms in
+Section 1 are appropriate for analysis, but they are
+sometimes difficult to apply to full scale components
+or vehicles in α test program. This is because it may
+become prohibitively costly to develop and operate
+simulators which can deliver the severe environments,
+especially to large vehicles such as transport aircraft.
+Therefore, the approach for testing will frequently in-
+volve the use of waveforms other than the idealized
+waveforms of Figs. 5.3 and 5.4. However, these al-
+ternate waveforms must have the property that test
+results can be readily extrapolated or scaled to those
+or which would be obtained if the vehicle were tested with
+the idealized waveforms. Additional discussion of test
+waveforms and methods is found in Chapters 6, 7 and
+15.
+102

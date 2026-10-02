@@ -1,0 +1,15 @@
+Pulse (V) Height
+Representation of pulse test data for Sprague tantalum 16.13 0.0047 pF Figure
+electrolytic capacitors.
+ρ
+1
+RELAY
+Simple remote-controlled relay. 16.14 Figure
+the transient voltage source could supply that current. It will be assumed that
+1 MHz 1 the oscillatory pulse is α transient of frequency or period. At this ps
+frequency the inductive reactance of the relay coil would be sufficiently large
+that the relay could be neglected. The current required to cause failure at time,
+τ, would be
+- ~ τ - %
+Pf = - IF (16.20) =
+VBD VBD

@@ -1,0 +1,43 @@
+hinge itself, or else to provide additional hinges.
+Bond straps across hinges sometimes to prevent the are required
+electromagnetic interference that arises from precipitation static charges being
+conducted through hinges with loose or resistive contact. The low currents
+involved are sometimes unable to follow uninterrupted paths through hinges,
+with the result that minute sparking occurs. Bond straps are usually able to
+If provide enough conductivity to reduce this sparking. bond straps are applied
+1 for this purpose, the guidelines of Figure 7.1 should be followed.
+7.3 Nonmetallic Structures
+With the use of nonmetallic materials in aircraft structural and fuel system
+components, the question of lightning vulnerability becomes important. An
+all-metallic airframe is in many ways quite compatible with basic lightning
+protection requirements; often only minor design modifications have been
+needed to provide adequate lightning protection. Nonmetallic structural com-
+ponents, however, may be considerably more vulnerable to lightning from lack
+of electrical conductivity. Thus, protective measures must usually be applied. If
+this is not done, hazardous consequences, such as those illustrated in the
+4.5 4, example described in Section of Chapter may result.
+There are three basic types of nonmetallic materials found in aircraft.
+These are fiberglass-reinforced plastics (commonly called "fiberglass"), boron- or
+graphite-reinforced plastics (commonly called "advanced composites" or simply
+.
+"composites"), and polycarbonate resins such as Lexan' and Plexiglas2 The
+latter materials are used for windshields or canopies. Fiberglass is used most
+commonly to achieve light weight in wing tips, fin caps, access doors, and in
+other applications where high mechanical strength is not required. The advanced
+composites, on the other hand, are capable of sustaining very high tensile and
+shear loads; for this reason they are being considered for primary structural
+applications.
+Since the electrical conductivity and high-voltage withstand capability of
+each of these types of nonmetallic materials vary widely from those of the
+others, in the following paragraphs we shall discuss the important lightning
+effects problems and design of protective measures for structures made of each
+basic material.
+7.3.1 Fiberglass Structures
+Fiberglass-reinforced plastics have essentially no electrical conductivity.
+Moreover, they are usually incapable of withstanding the high-voltage stresses
+created by the approaching lightning leader and frequently will undergo
+dielectric breakdown, allowing the flash to puncture them and terminate on
+some conducting object inside. The ensuing return stroke current can blast a
+'
+Trademark of General Electric Company the
+2~rademark the Rohm and Haas Company of

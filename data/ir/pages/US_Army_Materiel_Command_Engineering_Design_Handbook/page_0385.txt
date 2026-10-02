@@ -1,0 +1,106 @@
+~7W2.V2 r 'U
+Test filtration should not exceed that of the
+ponent in actual use.
+Design Fittings 9-2.9.6
+Hydraulic fittings, such as AN g33 universal
+can port, valve in a installed when types- head
+fluid restricted or interference valve in internal
+selection fitting and design port Component
+occur. cannot interference that such
+incorporated if suppressors, - and fittings Pump
+Sshall values allowable maxinmum to torqued be
+order to prevent loosening and subsequent
+fluid. Use of an acceptable locking device is
+for any large fitting in high-pressure application.
+The use of pipe plugs for external sealing of
+passages can lead to internal stresses in
+housings, resulting in cracks. The Lee plug
+less stress concentration and should be considered.
+9-2.9.7 Cage apd Indicator Design
+d Design It ageneraly gndit tlet
+It generally is good design to include fuses as
+as snubbers at the upstream ends of the lines
+to gages and indicators. An alternative is to install
+the system in into fittings pressure sensors
+line. Helimcil an annendant of in stead
+instead of 5ourdon are recommendod elements
+. types.
+. Gages with Bourdon tube or rack and pinion
+gearing shall be avoided for use as pressure gcators. The transmitter should be conneted
+system with flexible hose or with a tube having
+ficient bend to absorb vibrations,
+SGage, cases incorporate a vent hole to shall
+buildup of case pressure if the sensing element
+The vent hclt should be covered with tape to
+corrosion.
+9-2.9.8 Hose Design
+such devices of testi'g and design Realistic
+hose side must take brake control valves
+4,.count.
+cross-con- prevent routing or sizing Hose shall
+nection at actuators. However, deviations from
+mal hydraulic practices, such as use of return
+that arc smaller than pressure hoses, be shall
+because such deviations can have an adverse
+,i- 9-2.9.9 Pump Desiga
+Insuring compatibility of the pump with the
+requires determination of the effects of
+pressure, high case drain (or bypass) back
+and the interaction of the two on the internal
+Sof the pump. Back pressuie also can cause
+9-30
+I'
+
+com- cooling flow, leading to shortened pump life. Com-
+patibility determination includes analysis of the
+generation properties of contamination nature of the
+keep back be used to must sufficient filters the pump;
+hulk- pressure low within a reasonable cleaning schedule
+the pump. for supply fluid a clean maintaining while result
+non- large, shall consider system design Two-pump flow.
+line Should pump. each of the drain in filters bypass be shall
+case pump low insure to be used filters bypiss-type
+a second, through routed shall be flow the pressures,
+filter. return larger in
+loss of Pulsations resulting from pump ripple, which may
+advisable be intensified by system resonance, can be deter-
+mined by oscilliscope scanning of the pressure
+drilled through the range of operation. Peak pulsations shall
+component be kept below +150 psi (300 psi total). Pressure
+produces pickups must be in the line (not on appendages), and
+be located at the pump and, at least, at the first shall
+downstream component. The optimum design fur-
+nishes some elasticity to the system at the pump out-
+port. Short, dead-ended lines near the pump
+well require particularly close scrutiny, and should be
+leading avoided.
+the
+pressuriza- result if reservoir will Pump cavitation in- line
+the suc- fluid in the to accelerate is not sufficient tion sennine -
+with pump dis- compatible a flow rate tion line to tube
+placement. This condition is likely to be a more cri- "-
+tical design condition than is the steady-state flow re-
+indi- quirebnent. Qualification testing of pumps, particu- to the larly those for use in power-control systems, should
+suf- include suction and clemznd requirements based
+upon the condition of the application.
+preven" Connecting two or more pump systems from a
+leaks. common routing can result in priming problems, with
+prevent a momentary interruption of inlet flow resulting if
+reservoir pressurization is low.
+the normai sysiem pump is pumping air and ii
+cavitating a bootstrap reservoir, the auxiliaiy pump
+supply low bootstrap by the adversely can be affected as
+A check-off accumu- not prime. and may loads into pressure,
+bootstrap order to maintain be required in lator may
+pressure. of normal system with losh pressure
+nor- Centrifugal pump operation with an outlet flow
+hoses blockage can result in overheat, thus causing seal or
+avoided case (structural) failures. Therefore. bypass flow for
+effect. cooling be provided. shall
+Pump testing shall include realistic case drain
+system chara.-teristics. The internal leakage of a hy-
+system dreulic pump is necessa.-y for lubrication and cooling
+low inlet of the pump mechanisms. However, the subsystems
+pressure, into which the flow is discharged vary among heli-
+balance copter designs. The designer spocify the case shall
+reduced drain system characteristics to insure adequate

@@ -1,0 +1,86 @@
+Principle Equivalence 12.11.1
+The equivalence principle is discussed in [12.19).
+Consider the generalized conducting body containing
+α cavity backed aperture, Fig. 12.20. Let Σ be the sur-
+face of the body, Si be the surface of the aperture, and
+V and V" be the volume of the body and the enclosed.
+cavity, respectively. The field everywhere is broken
+into three components:
+(12.76) = El + EP + Ei E
+(12.77) + H1 + HP H' H =
+incident the is field, total H' the is E', where H E,
+field produced by α distant source, is the field El, H'
+scattered by the body with no aperture and no cavity
+present, and is the "perturbed field" - the EP, HP
+without with and field the scattered between difference
+aperture and cavity present. the
+yn
+-
+Σ ε Σ1
+Σ V •• 1
+V
+ E" "E EP + + -
+and @1+E{
+ε_ an .by
+1 H H HS + HP V1 - +
+Fig. 12.20 Cavity backed aperture.
+According to the equivalence theorem, the surface
+electric and magnetic current densities,
+(12.78) ξ H .=
+Μ. ξ (12.79) =ν E,
+the place of Σ in surface the in introduced are they if
+distant source, will produce the correct field E, H
+inside and zero field outside [12.20]. Here, the Σ,
+medium of the body includ- medium inside Σ is the
+ing the cavity behind the aperture.
+Because the polarization and conduction currents
+of components for the are responsible that H' EP,
+define one can also Σ, contained within are fields the
+surface current densities:
+= ν ξ (12.80) J HP
+= ξ (12.81) Μ, E' ν.
+347
+
+fields the of component the produce These HP EP,
+two components these inside. If no field Σ with outside
+are added together, the resultant current densities,
+= + J. J. J,'
+= - ξ (12.82) (H HP) ν
+.Μ. = + Μ. Μ.
+(12.83) (E - E), = ν
+in- Σ, field total correct the produce over distributed
+HP) and (EP field perturbed the and andH) Σ side (E
+outside Σ. Substituting Eqs. 12.80 and 12.81 into Eqs.
+yields: 12.83 and 12.82
+φ (12.84) (H' + H) ξ ν
+(12.85) ν = (E' ξ + EI). Μ'
+Considerable simplification in these formulas can
+be made; first, because Ei = 0 on α good conduc- + E'
+the surface on J' impressed because tor, and second,
+of application (by field no produces conductor the of
+"total correct the Therefore theorem). reciprocity the
+"per- correct and the cavity the inside (E, H) field"
+obtained are body the HP), outside (EP, field" turbed
+impressing α source current = J' (Ht•,, 0) ξ ν over
+the aperture Σ, in the body.
+12.11.2 Uniqueness Theorem
+Fig. 12.21 illustrates the uniqueness theorem.
+The approach is to first solve for the external interac-
+tion response of the aircraft with α large grid, all aper-
+tures being closed. Then, α region around the aperture
+is defined and the initial fields within the region R and
+the boundary fields (for all time) are stored. Next, α
+second problem is solved in which only the aperture
+and the region R are represented, but with α much
+size. grid finer
+Htan
+π Boundary
+Etan No Source within R -
+R
+Initial Conditions on
+Fields Within R
+theorem. uniqueness of Illustration Fig. 12.21
+Advantages and disadvantages: The main advantage
+of this approach is that the solution does not require α
+radiation boundary (as does the equivalence principle
+approach) and this greatly eases the computer require-

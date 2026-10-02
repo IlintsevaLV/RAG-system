@@ -1,0 +1,107 @@
+conservative value fow this steady stress (at α con-
+stant speed) may be taken as
+ 2 -. 9 10-π(nD) psi (4-42) ,
+where
+7.095 dimensional 10-6 - constant Ξ
+3 material = density, lb/in. π
+"ν Σ gear speed, rpm
+Δ3, gear root diameter, in. -
+The oscillatory stress due to bending Σ, may be com-
+' . bined with the hoop stress Σ, by use of α modified
+"7 Goodman diagram constructed on the basis of the
+material properties of the specific gear. The modified
+Goodman diagram can be used to account for the re-
+duced allowable bending limit for an idler gear ap-
+plication in which the calculated stress is fully re-
+versing. Use of the diagram is discussed in detail in
+Reft 54.
+Α maximum safe working value of tooth stress
+due Σ,.. to bending can be determined as
+~,+K, ,
+(4-43) Σ
+allowable endurance limit stress, psi -
+lf acodmesols K,
+temperature factor, dimensionless - K,
+reliability factor, dimcnsionless - Kr
+unity for all is assumed as The life factor K,
+Sapplications designed for infinite life, ι.χ., greater
+than cycles. 101 All Army helicopter power gearing
+The temperature must meet this criterion. designs
+the gear blank is taken as unity provided factor K,
+draw temperature is blow the hardress operating
+caett - hi..σ . .' ...-. , . ... 6-ρ;.,io..
+helicopter power satisfied by all Army must be
+gearing designs. The ieliability factor K, effectively is
+con- α factor of safety that is used when the statistical
+unknown data scatter) are and reliability (test fidence
+limit stress, value of the eriduranco for α given mean
+for of 3.0 is recommended casts, α value In such K,
+for is known limit endurance allowabl the When Σ,,
+level, 1.0 reliability the specified - K,
+always should be chosen to rmect the desired Σ.,
+reliability for the design application. Α genS'rlly
+recognized safe design practice for helicopter geaing
+as is to select the value 3 standard daviatior4 (3o) Σ.
+below the mean endurance limit demonstrated by
+* teat. The value of the standard deviation as well α, as
+greatly with limit, varies mean endurance the
+manufacturing practices,! treatment heat material,
+variability, and the quality control level exercised in
+non- and inspection acceptance component final
+' destructive test and evaluation methods. Endurance
+"4-40
+
+limit data and an applicable value for may be oh- u,
+tained from an R. R. Moore rotating beam specimen
+. ω every to dnplicate be taken care must test. Extreme
+metallurgical and manufacturing characteristic of α
+gear itself or the data are useless. However, the value
+of ε from these tests invariably will be smaller than
+that for the more complex production gear.
+Refs. 66, 67, and 68 present the results of indepen-
+jdent test programs conducted to determine an ac-
+curate mean endurance limit for carburized AMS -
+6265 gears. The resultant Σ., values vary from
+160,000 to 210,000 psi. Relative strength data for
+many materials and process as treated in single
+tooth (pulsor) machiqes over α 15-yr period may be
+found in Ref. 69. The variability of and α with Σ,,
+material and process is shown in Fig. 4-22, extracted
+from Ref. 41. None of the test gears were shot peened
+since this proess could ;..ve masked the inherent
+differences in the materials and processes.
+The endurance limit is, of course, merely one of
+several factors that must be assessed by the designer
+the from Aside selection. material gear his making in
+obvious criteria of fainiliarity, confidence level in
+hmanulacturing and process coatrol, cost, tempera- ρ
+ture environment, and size, the crack propagation
+characteristics must be satisfactory. Although the
+safe design stress for one candidate material may be
+be must also it of another, that than higher far
+or secondary damage that ballistic damage assumed
+will occur in any critical gear mesh of an Army hell-
+copter. Such damage could result in an impact-type
+high- could cause α through.-hardened, overload that
+fail instan_!υ material to shatter and tensile-strength
+provided by α core structure The degree of ductility
+of lower hardness (commonly core hardness 20 points
+often sufficient to than the case) is Rockwell C lowe-
+with α relatively low rate provide α safe failure mode
+be of crack propagation. When this technique cannot
+hardness gradients the use of lower employed,
+may suffice. geometric crack stoppers together with
+mechanics primer on the fracture α useful Ref. 70 is
+designer. the gear for
+the peening in controlled shot use of properly The
+gear fillkt area often can reduce scatter (smaller α)
+and in some instances can increase the design
+allowable Σ., by to 25% 13 in carburized AMS 6265
+gears. Practices vary widely with regard to peening of
+gear tooth faces. Some specifications require masking
+the faces during peening, others require removal of
+or honing. grinding by flank of peening the effects
+sur- the running of peening allow others and still
+faces. Peening requirements are tailored to the gear
+be stated: may generalities application, but certain
+I. Peen in accordance with MIL-Σ-13165.

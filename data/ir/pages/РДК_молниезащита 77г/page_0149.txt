@@ -1,0 +1,42 @@
+damage would be limited to partial meltthrough and no hole would be formed.
+Robb, Hill, Newman, and Stahmann reported this result in 1958 (Reference
+6.29), based on tests in which α three-component simulated lightning current
+consisted of the following:
+o6
+Return stroke 1 IOOkA 0.069 ξ 1 Α ~ - Σ
+C 30 intermediate stroke 2 5 kA 0.172 lo6 Α2-sxC 200 continuing current 200kA 0.040 ξ lo6 Α2-σ 3
+1 This current was applied to commonly used samples of 0.05 cm (0.020 in),
+1 0.1 02 cm (0.040 in), 0.1 63 cm (0.064 in), 0.206 cm (0.08 in), and 0.259 cm
+(0.102 in) aluminum skin materials. Robb reported that this discharge, which is
+about as severe as α similar combination of SAE (Reference 6.30) current
+Δ, Β, C components and (in that order, which would be specified for tests in
+Zone 2Β), did not puncture the skins which were 0.206 cm or greater. Kester,
+C Gerstein, and Plumer confirmed this result by showing that over 200
+(delivered at 288 Α) are required to melt through 0.163 cm aluminum
+1). (Reference 6.3
+C The τ hree-component discharge including α 200 continuing current
+would almost certainly appear only at α trailing edge (Zone 2Β) after being
+swept there from an initial attachment point somewhere on α leading edge or
+forward extremity. Fuel is rarely in direct contact with trailing edges of aircraft
+or within direct stroke zones (Zone IB), where extended flash hang-on is likely;
+yet airworthiness certification criteria, such as those listed in Table 5.1, generally
+require that integral fuel tank wall thicknesses be at least 0.203 cm (0.080 in)
+wherever lightning strikes are expected.
+Robb also observed (Reference 6.32) that swept-flash pit marks from
+(2 ft) apart are commonly found, and that α several centimeters to about 60 cm
+slow, worst case aircraft velocity of 62 mls (140 mph, 205 ftls) would result in
+the lightning arc dwelling for 9.7 ms at each point.
+- 0.6μ =9.7ms - - 'dwell
+62 mls
+If this is so, the amount of charge delivered to each dwell point across α typical
+μ wing surface by α lightning flash similar to Robb'σ three-component dis- 3
+charge would be as shown in Figure 6.16 (Reference 6.33).
+Since the amount of charge entering any of the Zone 2Α points in Figure
+C 6.16 is considerably less than the 230 applied by Robb to melt through 0.1 63
+cm aluminum skins, it might be argued that α skin thinner than 0.203 cm would
+be adequate to prevent meltthrough. On the other hand, it has been found that
+the rate of charge delivery (current amplitude) is also important in determining
+whether sufficient energy is available to melt completely through, or not, and
+that smaller amounts of charge will also cause meltthrough of 0.163 cm
+aluminum if the amounts are delivered at α sufficiently high rate. Since any
+meltthrough of aluminum skins must be considered α possible source of fuel

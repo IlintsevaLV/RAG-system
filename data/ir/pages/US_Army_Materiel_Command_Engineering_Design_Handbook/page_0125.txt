@@ -1,0 +1,104 @@
+3. Construct a thermal map with probable steady-
+state "dry running" temperature gradients.
+4. Redasign ali gear ano becring elements to
+provide some clearance under the mapped grsdients.
+Aaded clearance should be provided at high-sate fric-
+tional heating sources to accommodate transient con-
+ditions. For example, reiieving clearance will not be
+provioed by expansion of the gear case until the in-
+the c8c.
+5. Use materiels with adequate hot hardness and
+friction properties for thermally vulnerable com-
+ponents.
+6. Provide self-lubrication of bearings where pos-
+sibie. Methods include the use of suitable cage
+materials or the use of appropriately located wick de-
+vices.
+7. Re-caiculate bearing lives and gear stresses for
+the increased clearance conditions occurring during
+operation in the normal lubrication regimc. Adiust
+design parameters accordingly; i.c., increase face
+widths o: pitch of gear members, along with bearing
+capacitics, as required.
+4-1.2.1.4.5 Areor
+In some cases it may be appropriate to employ ar-
+mor plate to protect the vulnerable component. This
+design technigue is the least preferred because it adds
+weight, increases maintenance task times, and
+penalizes the full-time payload.
+In such applications, integral srmor is preferred
+over parasitic or bolt-on armor. Not only is the
+weight penalty slightly lcss withs intcgral ermor, but
+the pitfalls of increasing payload at the expensc of ar-
+-is pdn iim as i
+plications dual-hardness steel armor will be the most
+efficient type to integrate because it can be rolled,
+welded, bolt-fastened, or inegrally cast. Design of ar-
+mor installations is discussed in detail in Chapter 14.
+4-1.2.3 Detve System Configurations
+The specific requiremente for the drive system are
+dictated by the detailad configuration layou: and
+vehiche requirements. ANiCP 706-201 sets fortt: the
+evolution of an approved preliminary design con-
+fguration, which will include detailed requirements
+drives: i.e., the spoeds, powers, location, and relative
+orientation of ihese drives. Typical configuration
+requirements for existing Army belicovters are dis-
+cusaed further in the paragruphs that foilow.
+4-1.2.2.1 Sigie Mala Rotor Drive Systes
+The msjority of helicopiers in current use are of the
+
+AL.CP 705-202
+single main rotor configuration and are powered by
+cither one or two eagines. A shaft-driven, singie-
+lifting-roto: helicopter alvays employs antitorque
+reaction and thrust device to counteract main rotor
+driving torque and to provide yaw control for hcli-
+copter maneuverability. A shaft-driven tail rotor lo-
+catod at the aft end of the tailboom and arranged as
+cither a pusher or a tractor propeller is used most
+comnonly.
+The tail rotor shaft is driven through a 90-deg bevel
+gear set that ir turn is driven from the main rotor
+gearbox by a long driveshaft or serics of counected
+driveshafte. Tbe power takcoff from the main rotor
+gearbox for the tail rotor is gearec to the main rotor
+drive downstream of the output side of the free-
+wheeling or overrunning clutch iocated between the
+enginc(s) and the main rotor geurbox; this ar-
+rangement permits full yaw maneuver capability
+during auto-sotation or engine-out operetion.
+Accessory drive requirements vary extensively and
+are dependent upon the primary vehicle mission and
+helicopter size. These drives muy be mounted on the
+main gearbox or isolated in an accessory gearbox that
+is driven by a shaft from the maie: geurdox. Secon-
+dary accessory elements may be driven from the tail
+rotor driveshaft. Table 4-3 identifies certain con-
+figuration characteristics for the single main rotor
+helicopters in current Army usc.
+It should be rietect that accessory regeirements in-
+creasc with the size of tfse helicopter. Light ohserva-
+tion helicopters (LOkr's) hsve few accessory requise..
+ments and possibly no drive sucduncancy. In gr rul.
+these helicopters may be fiown safely without hy-
+draulic booet of the flight controls, and the batsery
+suffices for emeigency clectrical supply in the event of
+failure of cho engine-driven generator.
+Utility helicopters (UH) frequently require redun-
+dant hydraulic pump and electrical generator drives
+due to the magnitude of the rotor controi loads and
+the incrcased clectrical loads attendant upon the
+larger anounts of instrumentation, electronics, and
+mission-cssential equipment.
+Cargo helicopters (CH) often must have auxiliary
+power unit (APU) for ground operation &nd check-
+out of electrical &nd hydraulic subsystems. It is com-
+mon practice to employ an independert axessory
+gearbox driven througl: overrunning clutches from
+both APU and main rotor gearbox to permit ac-
+cessory operation from either power source.
+4-1.2.2.2 Meltälgtog-rotas Drive Systems
+Multilifting-rotor helicopiers have becn designed
+and tested in many configurations — such ns fere and
+4-23

@@ -1,0 +1,29 @@
+--
+7.2.3 Thermal Elongation
+Most metals expand when their temperatures rise. This phenomenon will
+not be α problem for flexible conductors which can deflect when expanded, but
+large stresses may arise in some rigidly held conductors, such as the diverter strap
+or the pitot probe air pressure tube shown in Figure 7.4. By virtue of its location
+at the nose of the aircraft, the pitot probe will be in Zone and must therefore I Α
+2 be designed to conduct return stroke currents of lo6 Α ~ - σ . The purpose of ξ
+to transmit pitot-static pressure back to the flight the air pressure tube is
+instruments, but the tube may also provide α safe path for lightning currents to
+enter the airframe if the tube designed to safely withstand the resistive is
+heating, thermal elongation, and magnetic force effects.
+NOSE RADOME
+AIR PRESSURE AND/OR GROLINnINC: TI IRF
+DIVERTER
+Examples of rigidly held lightning current conducton. 7.4 Figure
+Cross-sectional area should be sufficient to prevent excessive
+temperature rise and thermal expansion.
+For example, if the air pressure tube in the radome of Figure 7.4 is made
+an of copper and has outside diameter of 0.476 cm (3116 in) and α wall
+thickness pf 0.124 cm (0.049 in), it will have α cross-sectional area of 0.138 cm2
+(0.021 in2). According to the curves of Figure 7.3(χ) an action integral of lo6 7- ξ
+will raise the temperature of α conductor of this cross-sectional area 67 Α ~ - Σ OC.
+The amount of thermal expansion to be expected along any dimension of
+α part is dependent on the temperature rise and the thermal coefficient of linear
+expansion of the metal, according to the following relation (dimensions in
+parenthesis):
+Expansion coefficient (7 = -9) AL
+Λ where is the length of the dimension of concern. Of course all dimensions of α

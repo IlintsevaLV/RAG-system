@@ -1,0 +1,43 @@
+A flame-suppression system developed by Fenwal, Inc. (Reference 6.15)
+for industrial applications was also tested in this program. This system consisted
+of a fast-acting sensor for detecting the presence of a flame and a set of canisters
+containing a quantity of liquid suppressing agent for release into the surge tank
+by an electric detonator. When the detector sees the light of the flame, it sends a
+pulse to the detonator, which disperses the extinguishant into the tank within a
+few milliseconds of flame sensing, before the flame itself has reached the tank.
+This system effectively suppressed those flames which traveled slowly enough
+(30 mls or less) to give the system time (18 ms) to react, but did not stop those,
+of course, which had gone past the surge tank by the time the extinguishant was
+released. In the latter case the extinguishant might still extinguish the fire in the
+surge tank, but the flame front on its way through interconnecting vent lines to
+the fuel tanks would have passed out of the reach of the extinguishant.
+The Atlantic Research-LTRI program also included an investigation of arc
+plasma propagation into the vent line, which was inconclusive because of
+instrumentation difficulties. The question of icing of the successful flame
+arrester was also considered (Reference 6.16), resulting in the conclusion that
+unacceptable icing would occur only when the worst combination of atmos-
+pheric and flight conditions existed. This conclusion, however, is based on
+analysis only and should be verified by flight tests if this arrester or any other is
+to be incorporated into an aircraft fuel system.
+6.4.1 Airflow Velocity Effects
+Lightning attachment to the lip of a vent outlet was assumed to be
+possible in the Atlantic Research-LTRI and Lockheed programs reviewed in the
+preceding paragraphs. No attempt, however, was made in these programs to
+establish whether or not this phenomenon could in fact occur to an aircraft in
+flight or, if it could, how often. Yet neither the Elkton airplane nor any other
+airplane known to have been struck by lightning has shown evidence of lightning
+attachment to a vent outlet, and the outlet in the B-707, while located near the
+the very tip of the wing, where lightning is known to wing tip, is not located at
+attach. It is therefore improbable that flush-mounted vents, such as those on the
+B707, will receive direct strikes. These questions then arise: Could an arc sweep
+across the outlet from another point and ignite the effluent?; if so, How close to
+the outlet must such an arc pass to cause ignition?; and Is it possible for
+streamering to be induced at the vent outlet and ignite an effluent? Answers to
+these questions were sought by Newman and others, who undertook an
+experimental program (Reference 6.17) during 1966 and 1967. Simulated
+lightning strikes were delivered to a B-707 wing tip and vent assembly to learn
+more about these possibilities, as well as the degree to which air flowing past at
+realistic flight speeds would make ignition unlikely even if an arc did in fact
+become attached to the outlet.
+Whereas in earlier programs ignitions were obtained nearly 100% of the
+time when the vent outlets were in still air, Newman found that ignition of a 1.5

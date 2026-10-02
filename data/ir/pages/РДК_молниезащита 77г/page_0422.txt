@@ -1,0 +1,45 @@
+representing the flux within the wing, was the larger.
+A fourth circuit, and one which illustrates the interaction between the
+lightning-developed voltage and the circuit response is shown in Figure 14.5. In
+a this circuit a slot antenna excited by grounded stub and fed from a length of
+75 coaxial cable was installed in the leading edge of the wing. The shorted 52
+stub that excited the slot antenna was the predominant area intercepting the
+magnetic flux produced by the lightning current in the wing. As in the three
+previous examples, the basic voltage developed in this antenna and shown in
+Figures 14.5(c) or 14.5(e) followed the same pattern as that shown for the other
+circuits. The rapid transition on the leading edge of the voltage, however, was
+capable of exciting an oscillation within the coaxial cable feeding the antenna.
+When the antenna circuit was terminated in a resistor matching the surge
+impedance of the cable, the higher frequency ringing oscillation disappeared,
+leaving only the underlying response of the antenna to the magnetic field
+surrounding the wing.
+Several significant things were learned during this test series. The first was
+that the voltages induced in a typical circuit within the wing consisted of a
+magnetically induced component and a component proportional to the
+resistance of the current path. The location at which the lightning flash
+contacted the wing had an important effect on the magnitude of voltages
+developed on different circuits. None of the circuits displayed the easily
+understandable response of the conductors within the elliptical cylinder, and in
+none of the circuits could a clearly definable transfer impedance that was easily
+relatable to the structural geometry of the wing be derived. Nearly aU the
+voltages and currents measured on the circuits could be explained in terms of the
+14.6, simple equivalent circuit shown in Figure but there did not seem to be any
+easy way in which the magnitudes of the transfer impedance could be related to
+the physical geometry of the wing or to the location of the conductors within
+the wing. It was possible, however, to say that conductors located in the forward
+portion of the wing were better shielded, and consequently had lower transfer
+impedances, than those along the trailing edge. Likewise, it could be observed
+that circuits which did not have any electrical return through the wing structure
+had lower transfer impedances than those circuits which did have a return
+through the wing structure.
+These equivalent circuits may be based upon the self-inductance of the
+wing, the self-inductance of the circuit within the wing, and the mutual im-
+pedance between the wing and the internal conductor. Alternatively, they may
+be based upon a transfer impedance, as shown in Figure 14.5(c). In the former
+the self-inductance of the wing would be nearly equal to the mutual inductance
+between the wing and the internal conductors. Their difference would be equal
+to the transfer inductance in the latter approach. Since the values of the transfer
+impedance will be much smaller than the values representing the self-impedance
+of the circuit, the latter leads to the more easily handled formulation. The latter
+approach is also compatible with the concept of mutual inductance or transfer
+impedance discussed for shielded cables in Chapter 13.

@@ -1,0 +1,51 @@
+Chapter 10
+THE EXTERNAL ELECTROMAGNETIC FIELD ENVIRONMENT
+Introduction 10.1
+In order to estimate the lightning induced tran- magnetic effects that couple to the inside of the air-
+sients in an aircraft, one must first determine the ex- craft, there is little need to study the reverse coupling;
+ternal electromagnetic fields. While they are not of the voltages and currents induced on wiring will not
+prime concern, since the internal electromagnetic envi- affect the lightning. It is this separation of interaction
+ronment is what determines the voltages and currents effects that allows the internal response of the aircraft
+induced on wiring, the internal environment is deter- to be calculated by first determining the external elec-
+mined by the external environment and the degree to tromagnetic fields without consideration of how they
+which it couples to the inside of the aircraft. Coupling couple to the interior and then to apply the coupling
+mechanisms are discussed in Chapters 11 and 12. factors to those fields to determine the internal en-
+The purpose of this chapter is to discuss the fac- vironment. Some analysis procedures do calculate the
+tors that affect the external environment and to outline external environment and the coupling simultaneously,
+methods of determining it. Elementary factors govern- but they can also be treated separately.
+ing it will be discussed first, then various methods of For many purposes. approximate methods of anal-
+calculation will be presented, ranging from simple ap- ysis provide coupling estimates that are satisfactory
+proximations to the more complicated ones based on for lightning protection purposes. The type of analyti-
+non-linear interactions of the aircraft and the light- cal method which one uses depends upon financial con-
+ning channel. siderations, vehicle complexity, design requirements,
+Detailed calculations are complex because tJe air- available computational tools, and known susceptibil-
+craft is α complex electromagnetic object. The geom- ity and criticality of electrical and electronic systems
+etry is complex, requiring three dimensional solutions. in the aircraft.
+The materials are varied, consisting of highly conduct-
+10.2 Elementary Effects Governing Magnetic ing metals such as aluminum and copper, more resis-
+Fields tive metals such as titanium, carbon fiber composites
+that are three orders of magnitude less conductive than
+metals, and insulators such as glass, Kevlar, fiberglass In Chapter 9 it was shown that if α long conductor
+and plastic. is carrying α current, and the return I, path is far
+Finally, the lightning environment itself is com- removed, the field intensity at α distance, ρ, from the
+plex. One of the more significant features is that it is conductor, as shown in Fig. 10.1(α), is:
+both α high frequency and low frequency event. Time I
+scales on the order of tens of nanoseconds must be (10.1) =fi-. H
+2Τ'ρ lightning environment the parts of some and resolved
+may last on the order of one second. Also, different If instead of α solid wire, the current is carried on α
+aspects of the lightning environment dominate at dif- hollow tube of radius ρ , as shown in Fig. 10.1(β), the
+0
+ferent times within the event. For example, during the field intensity, H, at radius ρ is again:
+attachment phase, the electric field and its rate of rise
+are of primary interest and at later times the current H (10.2) =
+are impor- both For some times primary interest. is of
+tant. The interaction of the aircraft with the lightning and at the surface of the tube, where ρ ρ., the field =
+channel is also α nonlinear phenomenon, some features intensity is:
+of which are not yet well understood.
+Fortunately, however, α mathematically rigorous 2* (10.3) H =
+27rr. sim- One important required. always is not treatment
+plification in the analysis procedure is that it can fre- It follows that the field intensity at the surface of the
+quently be taken in stages since the inside and outside tube is also equal to the total current divided by the
+of the aircraft are only loosely coupled. What this circumference, Π,
+(10.4) electro- may produce = the lightning IP. while H is that means
+275

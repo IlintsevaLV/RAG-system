@@ -1,0 +1,106 @@
+-xa Jo squdaun poqd sorge og aouodens a
+юuя be determinad.
+A
+uiroments are givon by REIL-H-aSO1 for all but the
+wursical axia. Some complication arines with the intro-
+Cou ppiqa 'sdooq wogmomitee Argqe jo noganp
+seod so reduos the costrol somsitivity. This effioct cae
+pndug ponnco jo groun sq q sarcanno sq
+1 -forward аrтa at. T'hia approach sot only
+aous uae of Nigh-gaig ntntion for minissu..
+onposae tu estersel disterbanoe, but also providos
+tihe doired sonsitivity to pilot inpute.
+In addition to specificatioas for Jongitudinal coa-
+Srol scneitivity. MIl.-H-8501 procnts a crisorion for
+mansuver sability. It statos that. following a
+spacifiod stop input, tbe accelaration and pitch rate
+rosponse shet be concave dowaward and con-
+vergent in not more than 2 sec aftcr the start of thc is-
+put. A shorter time is decirod for attaining a stabi-
+vorisg capability is cucantial to thc miscion. Analysis
+caa indicate mothods of maximizing this per-
+formsece by considering various combinstions of
+foed-forward and loop closures. Suck analysis should
+include any significant structural dynamics. Fo:
+cxamplc, clasticity of the rotor mounting causes a
+major increase in the time roquired for the response
+to become concave downward (Ref. 2).
+Tt also is desirable to analyze the transient response
+to puise imputs. This responsc will indicate the heli-
+copter bchavior in turbulent ais. An apscssment of the
+attitudc time historics, and the time interval required
+to reacquire the initial trim fight condition with
+alternate stability augmentation schemes, is
+secommended. For augmentstion sysiems employ-
+ing some form of pilot control feed-forward, the
+puise should be inserted downstream cf the aug-
+mentation system so as to simulate a turbulence en-
+counter :.nce pilot pulsc imput into such & system is
+not equivalent to an atmospheric pulse.
+In addition tö the transient response analyses
+noted, transients associated with the following
+maneuvers should be asscssed with respect to SAS
+authority, control margins, and vchicle capability:
+1. Jump takeoff
+2. Rapid acceleration from kover to maximum
+Ievel specd
+3. Quick stop
+4. Autorotation entry and recove:y
+5. Hovering turns
+6. Pedal-fixed turn entrics and recoveries
+7. Fixoó collective, constant spead turn entry and
+recovery.
+The characteristics of residual, limit-cycle os-
+
+QACP 706-2022
+be maintaigod wichic axcnpiabie
+Joj myug 3qiaco go xe * spueead 19 ape.1 gn
+moc by tive
+Fig. 6-3 ie a grapbical presuntacion of allowabie
+o o
+hen thbe high-frequancy limnait, anguakie:r
+rale eriablinies ths middio-froquency range, and an-
+nabtiabas the tow-froquency
+mnit.
+6-2.1.5 Oebx Facturs
+The stabiliay and control roquairemonts specifiod ur
+o
+jectives for tihe flight control systona. Therefore, caci
+vortigatod to insure that it docs not violaie theec
+oparational roquirementa. Ofien, a stabifity aug-
+formance for smali-perturtation mancuvers or dis-
+during large disturbances and atmospheric tur-
+bulence because of its rate-limiting or saturation
+charestaristics. Aben, it becomce neosnssgy 10 -
+tablish the operational limits of the flight control
+system through analyais and experiment. If the
+system limits vehicle stability. it muzt be re-
+configured appropriately in order to assure spoci-
+fication compliance. Fligkt conditions for which such
+studics must be made include high-rate vehicke
+motions, regions where stability may de sensitive or
+highiy nonlincar, and turbulent air.
+The influence of flight control system scnsor out-
+puts upon vehicle stability also must be considered
+and monitored in order to assure proper design and
+operation. For example, a vertical gyro employed as
+a pitch angle sensor in a bouly axis coordinate sysiem
+will introduce significant inter-axis coupling at large
+bank angles, becausc the gyro operates in an earth-
+axis coordinate system.
+The effoct of atmospheric or self-induced tur-
+bulence upon helicopter stability and control requires
+significant attention. A vehiclc that has satisfactory
+handling qualitics in calm air may exhibit large at-
+titude and rate responses, inciuding poor spced hold,
+in gusty air due to poor modal damping or to control
+loop nonlinearitics. Response to atmospheric tur-
+bulence shall be evsluated over thc entire flight en-
+velope. MIL-F-8785 provides criteria suitab': for
+gust analyses in cruising flight. Attention also shall be
+given to special operating requirements, such as an
+external cargo hookup, where gusts or wind shifts
+often incrcase the demand upon the position sta-
+bility augmentation system.
+Many nonhelicopter rotorcraft are subjoct to sta-
+67

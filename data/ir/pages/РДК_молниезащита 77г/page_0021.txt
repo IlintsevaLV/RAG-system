@@ -1,0 +1,23 @@
+As a numerical example let
+The velocity of the return stroke is not constant from one stroke to the
+next. It seems to vary with the magnitude of current that is ultimately
+developed. The relationship between current and velocity may be deduced either
+from theoretical concepts or experimentally. The relationship derived by Wagner
+I. 1.14) (Reference is shown in Figure Considerations of the return stroke 1.1
+velocity are primarily of importance in studying the time history of the electric
+field produced by the lightning flash. The velocity, however, may affect the
+surge impedance of the lightning stroke, and thus the way that the stroke
+interacts with a metallic conductor like an aircraft.
+TIME
+HGFCDEINAf
+13 15 17 8 19 4 -5 SEC 0 p
+Stages in the development of the return stroke. 1.10 Figure
+a - z 8
+1 . 2 ~ 1 0 ~
+w V)
+E w 0
+O.9x1O8' V) oz YI
+I
+0 100 150 200 50
+STROKE CURRENT IN KILOAMPERES
+Relation between stroke current and velocity of return stroke. 1.11 Figure

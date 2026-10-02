@@ -1,0 +1,91 @@
+of the sheet, and Ξ 0. U Thus, for the frequencies
+* of interest in most lightning compatability analyses
+100 (< and for most conducting materials, even MHI,)
+the carbon fiber composite materials having conduc-
+tivities of 8000 to 20 000 mho/μ, Ξ is < 1 and the
+impedance can be taken as
+Z. = μ coth-,.δ (9.134)
+where
+]1/2 Wl,<)
+2 (9.135) V (1 jC
+and α = conductivity.
+Transfer impedance of α flat sheet: In aircraft in-
+teractions this is of particular importance because it
+defines the resistive voltage produced by current flow-
+ing along the surface of α thin cylinder.
+(9.136) /) (
+μ
+sinh(ymd) Ξ(cosh(Τ.md) - 1) -
+The same considerations concerning the quantity
+Ξ apply here as for the internal impedance, and thus
+(9137)
+Zt-- = si/, (9.137)
+sin ymd
+Analytical Descriptions 9.10 of Waveshapes
+points miscellaneous few α discuss will section This
+indirect of analysis and test for used waveshapes about
+effects.
+9.10.1 Difference of Two Exponentials
+Α waveform commonly used for analysis of both
+direct and indirect effects is the double exponential:
+(ε-at - ε-0). (9.138) El = E
+The constant governs 0 the rise of the wave while
+governs α the decay, but determining the values of
+these constants for α particular wave is not straight-
+forward. The following describeu the method of calcu.
+lation given by Bewley [9.9), who also gives α graphical
+means of evaluating the constants in Eq. 9.138.
+The peak amplitude is reached at the time tj when
+thederivative is o zer .
+dE
+= 0 ), (9.139) =+ -ae+ -E
+from which
+(9./(0)(α) τ= = - -
+-"-α • -//- )" .4(β)
+265
+
+The peak voltage is thus
+(ε-" E = (9.141) ε-α(Π/α)) - .ζ
+from which
+= (9.142) -tCh). 'E
+E -
+to half value decays the wave which τ at The time
+2
+on the tail is given by
+E+
+( 09 oI0
+2
+1
+Eq. 9.143 is transcendental, but may be solved in
+an iterative manner for the value of tl/ that satisfies N
+the equality.
+The procedure for evaluating the constants for α
+particular waveshape is thus:
+1. From the known values of τ and solve by plot- τ2, 1
+ting or other method of approximation, for the
+value of that satisfies Eq. 9.143. ý//
+2. Using that value, the known value of ti, and Eq.
+α 9.140, evaluate and thence 0.
+3. From those values, the desired peak voltage E,
+and Eq. 9.142, evaluate El.
+If were defined as the time to decay to 37%, the τ2
+be would 9.143 Eq. in of 1/2 value the time, ε-folding
+1/2.718.... by replaced
+Α computer routine written in the BASIC lan-
+guage that performs the above operations is given in
+§9.11.
+As an example, for α double exponential wave that
+reaches α peak of 1.0 in ips and decays to half value
+α 106, 106 in 10jus, 0.079237 = ξ Π 4.001 ξ and -
+1.1043. Fig. 9.31 shows the waveshape. =_ El
+The rise time (10% - 90%) of the wave would be
+2.2/0 and the time to decay to 10% would be 2.3/α.
+1.0
+.
+ρ
+)
+0
+10
+Fig. 9.31 Exponential waveforms.
+Double exponential
+Inverse exponential

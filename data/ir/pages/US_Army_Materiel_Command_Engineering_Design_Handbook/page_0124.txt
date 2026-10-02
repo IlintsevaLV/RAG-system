@@ -1,0 +1,109 @@
+ei AAXCP 706-202
+epillow block housings tal rotor and intermediate
+msin gcarboxco, and inpet/output quill aaemblies
+must be joined, retainod, or mounted with α suf-
+. icient number of redundant fasteners to preclude
+I Joes of function fiom α single projectile. For well
+separaled attachment points, four fasteners ofton suf-
+fice. However, :otating shaft joints ard ccuplings
+ofen require six or more fasteners. Frequeni usc of
+Nanges, ribs, and abrupt soction changes in castings,
+housings, * 1 simitar structures provioe effactive
+stoppage of crack propagatioa, while enhancing heat
+rejoction to the atmosphere. Internal ribs in oil sump
+areas are desirable because of the possibility of
+cracking by hydraulic ram effect in the oil as well as
+dy projectile impaci.
+4.1.2.1.4.3 Scif-svaliag Sanps
+Another design techsiqur involves the use of self-
+sealing materials in the gcarbox oil sump area. The
+inost efficient material now available is defied as
+Type 11 in MIL-Τ-5579. This rubberized scif-sealing
+compound originalily was developed for fuel cells and
+can be fabriceted to defeat cither the 7.o2-mm or the
+12.7-mm threat. Another excellent defensc material
+for 7.62-mm thieat is 8 cast urethane coating ap-
+proximately 3/8 in. thick. With the latter material,
+the design of the sump shouid be relltively simple, as
+in α casting cope where the drag may -ε witharawn
+without usc of breakaway core prints The cazt
+coating contracts after pouring and high residual
+comprersive stress results. This prestressed resilient
+coa: then shrinks to close çompictely the hole leti by
+the piercing bullet. The coating is relatively dense (2.0
+Ib/ft² for the 7.62-mm threat), and also serves as an
+excellent hcat insulator and noisc and vibration
+damper. Its density is such that the rurface area to be
+coated should be kept to α minium to reduce the at-
+tendant penalty on sizing of the oil cooling system.
+Flat shallow oil pans and srmps often provide the
+most efficient configurations.
+The various shaft seals must be designed so that α
+direct hit cannot cause all the oil to leak from α gear-
+box. This may be accomplished by using aontubbing
+labyrinth or slinger seals in series with the con-
+ventio.nal contacting face- or lip-type of seal and by
+limiting the oil flcw rate at the inboard seal face to 8
+minimum.
+Where external oil coolers and lines are usod,
+current specifications often require the use of
+emergency o.: :hut-off valves to divert the oi directly
+back to the transmission Iubrication distribution
+system in the event of α cooler or line hit, thus pre-
+venting total loss of oil. One such device is defined ir.
+Ref. 34.
+4-22
+
+4-1.2.1.4.4 Esergeacy Lrbricatiom
+1 ε preforred mcthod of reducing vuincrability is
+to assure fail-safe or amergency lubricativn in the
+event If total loss of ths normal lubrican: supoly.
+This capahility must al!ow continved safe operation
+for 30 min at minimum cruise power at mission gross
+weight. Oil dams. wicks, and other fcans of re-
+taining α mininum oil supply in the critical bearing
+areas sre simple tochniques to employ. Ball and roller
+bearing cages may be fabricated from sacrificially
+wearing. self-lubricating composite materials (Ref.
+35) such as polyimides, Teflon-filled Fiberglas
+matrices, and siiver-piatod, high-temperature stecl.
+The US Army Ballistic Rescarch Laborutorics (BRL)
+has demonstratea composite idicr gears that wear off
+on mcshing drive gears, thus providing α form of gear
+tooth lubricstion (Res. 36).
+Ref. 37 reports α successfui application of α greasc
+developed specifically for helicopter gear and bearing
+lubrication. However, the normal lubricants (Mil.-Λ-
+7808 or MIL-Λ-23699) serve the equally important
+functions of reducing frictien and cooling. Ref. 38
+aescrides ine requirement thai inermai equilibrium
+nnnnn Οι poeir aa uopos Bulns . kup., meu υ 10
+achieve 30-min safe operation after loss of the cooling
+oil. The equilibrium Can be established only by main-
+ta.niag adeguate ru.ining clcaranccs and backlash in
+the bearings ansd gears in the presence of the chermel
+gradients that exist in the "dry" condit.on, with its
+aitered frictional heat sources and niodified con-
+duction, radiation, and convective heat rejection
+can be of valuc in susta.ting sofe operation oniy in
+such α case. If α gear or bearing loses running
+clearance, α rapidly degenerative sequence of events
+results in catastrophic failure. Loss of opcrating
+clearance results in abnormally high heat generation
+because the gear toeth and bearings operate under in-
+terference conditions with attendant overloads. This
+heai generation in turn produces an increasr in the
+therinal gradients, resulting in α further increase in
+overload and interference until the bearings seize or
+the gear teeth γ:τ so hot that they undergo plastic
+failure. Specific mctl.ods of preventing such oc-
+currences are discussed in par. 4-4.4.3. The general
+recon.mended design proceduie (Ref. 38) is as
+follows:
+1. Dasign for minimal frictional losses commen-
+suratc witn available manufacturing ability.
+2. Calculate frictional losses for the "dry running"
+regime. An average triction cocfficient j = 0.16 is
+suggested for the first approximation. Use chis value
+with the mcan valucs for sliding velocity, and load in
+the gear meghes and bearing contact areas.

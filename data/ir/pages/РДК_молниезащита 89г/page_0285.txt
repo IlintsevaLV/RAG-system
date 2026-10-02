@@ -1,0 +1,60 @@
+Table 9.4
+Program BESSEL Α in BASIC for Calculation of -
+Bessel and Hankel Functions of Complex Arguments
+(Continuation)
+2290 H0-JO-Y2 'real part of HO-ι(ξ)
+2300 Hil=J2+YO 'imag part of HO-I(ξ)
+2310 V(ι)-KO:V(2)=K2
+2320 Ω(ι)-Kl:Ω(2)-K3
+2330 GOSUB 10700 'v/ω
+2340 K4-U(ι) 'real part of KO(Ξ)/KI(ξ)
+2350 K5-zU(2) 'imag part of KO(Ξ)/Ki(ξ)
+2360 H2-J1-Y3 'real part of Hi-ι(ξ)
+2370 H3-J3+Yi 'imag part of Hl-λ(ξ)
+2380 H4-JO+Y2 'real part of HO-2(ξ)
+2390 H5-J;,-Y0 'imag part of HO-2(ξ)
+H6-Ji+Y3 2400 'real part of Hi-2(ξ)
+H7-J3-Yl 2410 limag part of Hi-2(ξ)
+2420 PRINT Function real imaginary" "1
+2430 PRINT
+F$-"###.##### 2440 #####
+USING F$;JO,J2 2450 PRINT ";:PRINT "JOMx
+USING F$:Ji,J3 2460 PRINT ";:PRINT "Jl(ξ)
+USING 2470 PRINT ";:PRINT F$jYO,Y2 "YO(ξ)
+2480 USING PRINT ";:PRINT F$;Yi,Y3 "Yi(ξ)
+2490 PRINT 1(ξ) ";τ:PRINT USING F$;10,12 "
+2500 USING FS1I1,13 PRINT 1(ξ) ";:PRINT "
+2510 USING PRINT ";:PRINT F$uKO,K2 "KOMx
+2520 It USING PRINT Ki(ξ) -;:PRINT F$u11,K3
+2530 PRINT USING ";:PRINT F$;14,15 "I0(Ξ)/Ii(Ξ)
+2540 PRINT "ι:PRINT USING F$;K4,K5 "KO(Ξ)/Ki(Ξ)
+2550 It USING PRINT HO-ι ";:PRINT F$;HO,Hi
+2560 It PRINT Hi-ι $$;:PRINT USING F$uH2,H3
+2570 It USING PRINT HO-2 "liPRINT F$IH4,HS
+2580 USING PRINT F$;HGH7 H1-2 "π:PRINT "τ
+PRINT 2590
+2600 PRINT
+2610 INPUT "continue (YIN) 011Α$
+"yin 2620 IF Α$ "Y" OR Α$ = THNN - 1250 ELSB STOP
+2630 STOP
+2640
+2650
+10000 -------- general purpose complex number routines
+and 10170 Or wit to π input is v(1) v(2)
+10190 US ABS(V(3)) - - ADS(V(1))tUg
+10190 US THEN ATN(U9/US) IF V9 V(5) - ->
+IF US U9 THEN V(5) 10200 ATN(US/U9) < Π1/2 - -
+< 0 10210 - IF V(1) THEN V(4) PI-V(Σ)
+THEN V(4) IF <0 10220 -V(5) V(2) -
+10230 - V(4) V(5)*lSO/PI
+- 10240 + V(3) BQR(V(1)*V(1) V(2)*V(2))
+10250 returns RETURN v(1 V(Σ I -
+10260 '------------------------------ is and 10270 'ρ to π with u input u(1) u(2)
+10260 US Α35(U(1)):U9 Α38(U(2)) - -
+10290 IF US U9 THEN U(Σ) ATN(U9/US) - ->
+10300 IF US U9 THEN U(Σ) Π1/2 ATN(U6/U9) < - -
+10310 IF U(1) < THEN 0 U(Σ) PI-U(4) -
+10320 IF U(2) < 0 THEN U(Σ) -U(Σ) -
+10330 U(4) U(Σ) *1Σ0/PI -
+10340 UM3 SQR(U(1)'U(1) - + U(2)OU(2))
+289

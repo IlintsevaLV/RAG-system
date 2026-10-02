@@ -1,0 +1,52 @@
+AMCP 7065202
+-
+~ Wu vide, as an integral pArt of the startcr/generator. α 1 -
+tachometer generator that enables iegu!ator the to j• I
+' - sense speed, thereby terminating the start at α pre-
+So• I "starting I is •dctcrmined weight speed. economy. The primary advantage of sht-nt IIA line contactor. designed in accordance with
+MIL-R-6λ06 and with the proper rating, can be used 4 ~ •, : --- • -. .- ge .crator to connect the This ,, to the bus. contactor - ρ.' "',
+Sf also would be used fLr the starter armature current Σ". • during starting, and by tht; reverse current ovcrvol-
+4 tage, _- ovtrexcitation, startup into short, and feeder ,
+' functions ��- fault in disconnecting the generator from
+Γ the O 0 bus. .1 VA 0Λ F __-ι-.-j 0 Io τ2 14 1 β IR α 'o
+Α relay in the regulator should be used to de-excite ...... ...... , CUNkNI Δ ι... ,• Α the generator in the event of overvoltage, overexcita-
+Figure 7.12. Emitted Gaem from Nickel-Cadmium tion. startup into short, and feeder fault conditions.
+Slitered Plate Cell During Owercarge at
+ 0 70 -73F 7-4.1.2 Reverse Current Pelays
+The reverse current (cutout) relay is designed to static. type is MIL-R-23761, However, as thi% spci- connect and disconnect α generator automatically
+fication deals only with voltage regulation and from the bus in V α 28 DC system. The reverse
+paralleling, the system designer must consider the current relay will close when the generator is pro-
+ftiritionlng of voltage regulation. generator paralicl- ducinR 18 to 28 V and is at leest 0.5 V above the bus
+ing, field weakening for shunt star'ing. line contac- potential. Depending upon the unit-rating, when the
+tor control, engine stirt control, and protection generator voltage drops below bus voltage, the relay
+against reverse current, overvoltagc, overc•citation. will open %ith α given reverse current. These units are
+startup into shorted bus, and fceder fault. available in 100-, 300-. and 600-Α continuous ratings.
+It is recommended that, whenevcr possible, the Dependin upon gen•erator -apacity, teversc current 3
+static type voltage regulator Uhe be used. regulator relays be sized to match the shall maximum con-
+procurement specification should include all of the tinuous generator output.
+foregoing funi.tions. This will economize on weight
+and installation time since separate componcrts will 7-4.1.3 Overvoltoe Relays
+not be required. Overvoltage relays are used to remove the
+The switching action of som- static voltage regu- generator from the bus by tripping the field relay if
+lWtrs has app!rc.ti.ν " probl'0:σ. chin- Sw-- the gornerotor voltaae exceeds α specified limit.
+frequencies that are kept constant, and at values
+above 1000 Hz, generally will above be any engine 7-4.2 or AC VOLTAGE REGULATION
+generator resonant frequencies. This switching action MIL-Γ-21480 is α teprcscntative Military Specifi-
+also can produce some radio frequency noise; but if cation for AC systems. Highly rclipble control units
+proper switching speeds ard filtering are used, radio - which provide voltage regulation, field relay con-
+noise can be held to α minimum. Locating the regu- trol, contactor control, and ovcrvoltagc, under.
+iators close to the generator also will serve in keeping voltage, feeder fault, and underfrequency protection
+down radiated and conducted interferences. are available in solid-state versions. -
+The use of shunt starters with field weakening is α AC generator manufacturers design and build
+recent approach to turbine engine starting. The static AC voltage regulators to match their genera-
+regulators sense the voltage on the starter/generator tors. I[he designer must consider the electromagnetic
+at the equalizer terminal, and use this variable- interference requirement, regulator operation en-
+current voltage by varying the shur, field current in vironmental conditions, and the qualifitation data
+the starter/generator so as to provide α prede- before choosing α rtgulator.
+)
+termined armature current. Starter/generators with -
+interpole 'indings can develop α shunt field current OVERLOAD 7-5 PROTECTION
+that can result in no-loaa, 7-5.1 overspeed GENERAL self-destruction, -- *
+In case of shaft failure, α means must be provided to
+limit the no-load speed. Some manufacturtrs pro- The primary objectives of overload protection are
+7-19

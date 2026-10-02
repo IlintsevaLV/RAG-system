@@ -1,0 +1,43 @@
+6.8.3 Joints and Interfaces in Pipes and Couplings
+Because they are metallic and come in contact with structure, the myriad
+of fuel, hydraulic and vent pipes, and other plumbing inside a fuel tank will have
+to conduct some, however small, amounts of current when lightning currents are
+flowing through the structure containing them. This current may cause sparking
+is intermittent or poor electrical at pipe joints and couplings where there
+conductivity. Some pipe couplings, for example, are designed to permit relative
+motion between the mating ends of a pipe so as to relieve mechanical stresses
+caused by wing flexure and vibration. Also, anodized or other electrically
+insulating coatings are often applied to the pipe ends and couplings to control
+corrosion. Relative motion and vibration may wear this insulation away,
+providing unintentional and intermittent conductive paths. To date, almost no
+quantitative information has been developed to describe the amounts of current
+or voltage necessary to cause a spark, nor has this possibility been related to the
+design or condition of a particular system. Yet this sparking may have been a
+factor in the cause of the several in-flight explosions associated with lightning
+strikes cited earlier in this book. This aspect should, therefore, be given
+particular attention in the design of aircraft fuel systems.
+6.8.3.1 Lightning Currents in Plumbing
+Because of their relatively short duration, the high-amplitude, short-
+duration stroke currents will not have time to spread very deeply into interior
+structural elements or other interior conductors. Most of this current will remain
+in metallic skins, but this current does begin immediately to diffuse into
+underlying metallic structure. Appreciable current levels may be reached in
+spars, stringers, pipes, and other internal conductors if the lightning stroke
+persists long enough.
+The basic penetration, or current process is described in redistribution,
+8, and it is shown that penetration times for typical aircraft skins are of Chapter
+the order of several tens of microseconds. If the stroke current were to remain at
+its peak amplitude for a time longer than this, dc conditions would be
+approached and the current would be distributed resistively, with a significant
+portion of it flowing in the internal structure. Fortunately, the stroke current
+does not remain at its peak level for more than a few microseconds. The amount
+of this stroke current which, under typical lightning-stroke conditions, can
+actually flow on internal pipes is not yet known, and determination of the
+magnitude of this current cannot yet be done confidently by analysis.
+Laboratory tests in which simulated lightning currents are forced through
+complete fuel tank structures can be performed, however, and the current in
+particular pipelines can be measured.
+Intermediate and continuing currents do persist for times long enough for
+the penetration process to be completed, and it is possible to estimate, as
+follows, the amount of current that may flow in a pipe after dc intermediate
+conditions are reached.

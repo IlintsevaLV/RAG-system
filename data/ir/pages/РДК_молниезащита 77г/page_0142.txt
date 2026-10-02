@@ -1,0 +1,46 @@
+the research programs just discussed. While not all of the answers to
+lightning-related vent flame questions are in hand, a number of important
+conclusions and protection considerations can be drawn from the research.
+As 1. of this writing there has been no positive evidence that a natural
+lightning strike ever ignited a vent effluent ona transport-type aircraft, although
+there have been several in-flight explosions after lightning has struck wing tips at
+places within a meter or so of the vent outlet.
+2. For ignition to occur, a lightning-type arc must attach directly to the
+edge of a vent outlet or within a few centimeters of it, or must be swept over a
+vent outlet. Neither of these situations has been reported to date. Most aircraft
+vent outlets are located in conformance with FAA Advisory Circular AC 20-53
+(Reference 6.24). This guideline says that vent outlets should not be located in
+or 2 and defines these zones by the "18 inch" rule, 1 lightning-strike Zone
+which, if interpreted literally, are as illustrated in Figure 6.1 ](a). If the points
+defined by the "fore and aft line passing through the Zone 1 forward projection
+points of stroke attachment" are taken to be at the outboard tips only, then
+Zone 1 is restricted to a small area and Zone 2 may extend inboard only a little
+18 inches (0.46 m) from the tip. If the tip is sharp, strikes are indeed more than
+1 would be limited to a small most likely to attach only to the edge, and Zone
+distance (several centimeters or so) inboard. However, if the tip has a large radius
+a I , it is prudent to utilize of curvature, such as that illustrated in Figure 6.1
+more conservative interpretation and consider Zone 1 to extend inboard the full
+18 inches (0.46 m).
+If the radius of curvature of the outboard tip is greater than 18 inches, the
+lightning attachment points will be even more scattered over the surface, and
+Zone 1 should be considered to extend inward a distance equal to the actual
+radius of curvature.
+When nonmetallic skin materials are used on the wing tips, it is probable
+that direct strikes will occur to the edge of the outermost metallic element, such
+as a rib or spar, instead of to the nonmetallic tip itself. Therefore, Zone 1 must
+18 inches include not only the nonmetallic tip but also an area extending
+inboard from the outermost metallic structure, as shown in Figure 6.1 l(b). If
+there is a metallic diverter assembly mounted on the outboard edge of a
+nonmetallic tip, this diverter instead of the outboard rib (for example) may
+I receive strikes and thus permit Zone to begin at the outboard edge, as in
+Figure 6.1 ](a). Metal diverter bars intended for this purpose have been installed
+on nonmetallic wing tips, and subsequently failed, however, in their intended
+purpose, with strikes circumventing the diverter and either puncturing the
+nonmetallic skin or attaching to an exposed metallic item inboard of the
+diverter. The most common reason for this failure is that the diverter has been
+coated with a tough, erosion-resistant paint or coating. Moreover, most of these
+paints also have good electrical insulating capability, which inhibits formation of
+the electrical streamers necessary for the diverter to intercept oncoming
+lightning flashes. Greater reliability for a diverter intended to protect a
+nonmetallic tip assembly or to enable location of avent outlet farther outboard
+132

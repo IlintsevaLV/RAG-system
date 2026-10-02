@@ -1,0 +1,78 @@
+ground, and that single-point ground was located at a
+pane! in the gun bay. By and large, none of the control
+wiring in the aircraft was shielded,
+P-- Wps IlO~p---
+Fig. 8.17 Location of fly-by-wire control system
+hardware ind wiring bundles in F-8
+aircraft.
+In contrast to the tests on the wing Test techniques:
+of the F-8PJ aircraft, in which high amplitude currents
+were injected into the wing from a high power surge
+generator, the tests on the complete F-8 aircraft were
+made using the lightning trarsient analysis technique
+described in §8.6 and Chapter 13. During the tests
+on the F-8, the injected current was on the order of
+A. In 300 the measurements that will be shown, the
+amplitudes refer to that injected current. To scale the
+rerults to what would be produced by a fairly com-
+mon 30 kA lightning current the measured amplitudes
+should be multiplied by 100. To scale the results to
+the design level amplitude of 200 kA they should be
+multiplied by 666.
+were em- waveshapes current different Several
+will reference frequent most which to the one ployed;
+is that test results set of this abbreviated iii be ma9-
+to crest rising a current fast waveform, as the deFcribed
+in about 60 ps. to half value 3 ps and decaying in about
+8.18. The fast in Fig. waveforms are shown These
+that which representative of is the one most waveshape
+is now recommended for such tests,
+Fore aad aft circuit: The first set of measurements
+to which referenee will be made was that on a set of
+spare conductozs running between an interface box in
+the gun bay end a disconnect panel located near the
+leading edge of the vertical stabilizer. The routing of
+the circuit is shown in Fig. 8.19(a) and the waveforms
+of the voltages are shown in Fig. 8.19(b). The voltage
+measured between the conductor and ground consisted
+of high-amplitude ,A oscillatory component and a lower ,
+amplitule, but longer duration component. This is
+the paitern that is most commonly noted on voltages
+induced by lightning currents.
+
+-•
+z II
+1- -4 s - 100 h-10ps
+Fig. 8.18 Simulated lightning test waveforms.
+(a) Slow wave
+(b) Intermediate wave
+(c) Fast wave
+Voltages measured between conductors, shown in
+Fig. 8.19(c), were much smaller than the voltages
+measured between either of the conductors and the
+airframe. Such results would be expected on a well-
+balanced circuit. The voltages were, however, not zero,
+and one should not assume that voltages on twin con-
+ductor circuits will be low enough to eliminate prob-
+leins.
+excited was voltage of oscillatory component The
+leaking fields) possibly electric (and flux magnetic by
+compo- duration the longer while the aircraft, inside
+the through of current by the flow was produced nent
+the voltages aircraft. Since resistance of the structural
+flux were propor- of magnetic the leakage induced by
+that of that flux, it follows to the rate of change tional
+the oscillatory component would have been more pro-
+aircraft into the injected faster currents nounced for
+than it was for slower currents. This effect was noted,
+as indicated the oscillograms. by
+Circuit to wing position Indicator: The second set of
+measurements was made on a circuit running from the
+interface control unit and the gun bay to a wing po-
+sition indicator switch located underneath the leading
+edge of the wing. The wing on the aircraft F-8 could
+be taised or lowered around a pivot point towards its
+rear in order to achieve a lower pitch angle during land-
+ing and takeoff and the purpose of the switch was to
+indicate the position of the wing.
+235

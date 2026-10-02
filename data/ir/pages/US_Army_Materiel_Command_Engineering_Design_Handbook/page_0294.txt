@@ -1,0 +1,108 @@
+M M7-2U2
+do than conventional systems; and model studies
+should be undertaken as an aid. The models
+from simple mock-ups of gyro range in complexity
+through dynamically and linkage arrangements,
+remote controlled scaled models, to wind tunnel
+flying models.
+Tne dealing paragraph of MIL-C-18244
+experimental models studies that notes model
+rotor full-scale, engine-driven form of take the
+upon a truck mounted suitably SAS assemblies,
+for measurement and observation of dynamic
+conditions. behavior under forward-flight maxi- The
+mlium possible experience with and knowledge of
+system should be gained before the start of testing
+a man-carrying flight article.
+Full-scale wind tunnel tsts, although expensive,
+.- an be used to test the flight article progressively
+conditions beyond the extremes of the projected
+flight envelope.
+Further substantiation of the airworthiness of
+unconventional SAS and rotor system can be
+tained by operating an identical system on a tieiown
+teat, where a given nurmber of hours is requirc-i
+flight each hour of aciuai icsinig.
+to establish data rcqulrcd and The documentation
+the satisfactory fulfillment of the technical devel-
+opmant plan are described in MIL-C-18244,
+stituting SAS for automatic flight control system
+(AFCS).
+PILOT EFFORT 6-4
+The helicopter designer must consider pilot effort,
+or control system loads, from two points or vie,..
+first concern is the significanice of cntrol feel with
+by fly normally Pilot. qualities. to fiying gard phyicald ssocfin t atios. appliednorcea of nd
+physical association of applied force and
+mapeuve'ing response of the aircraft. iherefore.
+cont.ol feel in maneuvers plays an important role
+the assessment of handling qualities. Stick position-
+ing also is a fundamental characteristic, be cause
+h3lds the helicopter in the selected trim attitude when
+thu controls arc released. MIL-H-8501 provides
+stick position trim and hold by specifying breakout
+gradients. force and forces
+The other design consideration is rclaied to
+structural integrity of the com- components. The
+ponents achieve specified factors of safety when shall
+subjected to loads due to pilot and copilot effort, arti-
+MIL-S-8699 etc. actuators, power devices, feel ficial
+of pilot wefort. aspect this covers
+64.1 CRITERIA FOR POWER CONTROLS
+Whenever line-.rity the magnitude and of control
+6-14
+:- •
+
+A
+loads permit, direct mechanical control be uwed saill
+for power controls. can unless there is a valid requirement
+is the simplest and most Direct mechanical control
+control system. Howcvcr, power-operated foolpioof
+system en- wbhn the control systems may be required
+vironment contains high control forces, feedback of
+or mixing of control forces. The with vibratory forces,
+need for power- verify a must system designer control may
+weight, their cost, before adding systems operated and
+design. ,he helicopter to and complexity bed
+6-4.1.1 Control Forces
+the Not all helicopters require power actuatots. For
+cxarrple, of on small, single-lifting-rotor vehicles, a
+system of weights may be installed in the antitorque-
+rotor controls. Centrifugal force acting upon the
+to weights balances the pitch link loads, and the system
+is adjusted on the ground to compensate for the con-
+t•annot trol forces in cruise. The pilot trim the system
+an in flight, and accepts the unbalanced forces in the
+ob- pedals in hover and flight modac cruise. other than
+However, this is a small disadvantage in comparison
+for with the aimplicity of mechanical design. Also, it may
+feasibie be th.. design a to bungc spiring wdil
+. pitch ' in collective steady download counteract the
+Medium- and heavy-lift helicopters generally
+.
+sub- require power magnitude actuators due to the of their
+loads pitch link loads. Pitch link are sensitive to rotor
+blade design parameters, both aerodynamic and in-
+ertial.
+6&41.2 Vibration Feedback
+The control moment of a lifting rotor blade is a
+The steady pitching moment with various alternating har-
+monic re- components superimposed. in the non-
+eermoc.Intenn opoet tr d the rotating control system, these components appear as
+the n-per-rcv forces due to the n number of pitch litiks
+the passing over the attochment point where the non-
+in rotating controls support the swashplate. The
+preoence sh of these p vibrations in cyclic stick
+it generally is intolerable to the pilot. Vibration ab-
+sorbers can be used to reduce the amplitude of the vi-
+for bration transmitted by means of a simple mechanical
+system.
+the 6-4.1.3 Kinematic Effects
+forces The generation of control and moments
+¶he along and about various axe of the helicopter is
+and collective of combinctions by accomplished
+3- in par. discdssed as rotor(s), the on pitch cyclic
+3.3.1.3, AMCP 706-201. The motions of the cyclic
+stick and thrust lev,;r (and, on sonic helicopters, the
+motion of the pedals) are transmitted through the
+swashplate In to the rotor(s). some installations, the

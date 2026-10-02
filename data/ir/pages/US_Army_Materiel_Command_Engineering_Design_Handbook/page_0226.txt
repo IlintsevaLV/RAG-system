@@ -1,0 +1,114 @@
+JV
+Σ-AMCP
+χ. Reservoirs and lubrication cavities should
+refillable without the necessity for venting to
+air pockets.
+φ. Oil rcquires elaborate seals and the
+nance of seal integrity. Radian-positive-pressurm
+are commonly used for dynamic sealing. These
+should be installed so that contaminants do not
+them through centrifugal ι'nrce.
+2. Grease:
+α. Shields or simple seals are adeqiate
+grease bearings are rclubricated at regular intervals.
+Grease retention is fairly gocd with α failed
+β. Purged grease tends to exclude external
+taminants from the bearing,
+χ. Grease in oscillating bearings tends
+channel, and the soap base may harden.
+mL'υ hard may be ineffective bccansz the soap
+proper distribution of new grease. Premature
+may result. Yet, if channeling occu-σ, debris detection
+will not oc an effective means of faijure
+extreme δ. Changing greases (as for
+perature use) can accomplished be effectively
+disassembly.
+".-•-..1.1 itearlogs CVlihidcal Rolleir
+" Cyiindricai ι roiicr . . . high
+&-.χ
+capacity withi small space requirement.
+sidesations mainly are ,mpirical, and many
+factors are discussed in detail Ref. 42. One ι,1
+computing of the basic load capacity with
+Ref. motion is given in 43. Other factors
+determined by endurance testing and service
+tnic.
+Some of the factors that influerce the life of
+drical roller bearings in rotor blade retentions
+I. Angular deflection of the hinge pin, which
+cause concentrated load end on one of the
+roilern, 2. Crowning of the which can
+better stress distribution and tend to ,ninimime
+fect of hinge pin deflections
+3. Roller guidance (ε.γ., use of α cage), wh;ch
+reduce ro;ler misalignment
+4. Large angles of oscillation, which can
+the number of stress cycles on the bearing rollers
+races
+5. Mounting fits, which must be as specified
+particular application in order to obtain rated
+ty
+6. Type of lubricant,
+5-5.2.1.2 Tapered Roller Bearings
+Tapered roller bearings have very high radial
+thrust capacities. Design factors are similar to
+Sof cylindrical roller bearings and are discussed
+42. bearings These can be mounted in pairs
+Α\
+
+706-202
+be vide α capability to react moments as well as forces.
+avoid The roller taper direction of paired bearings can be
+reversed to increase the tolerance to misalignment.
+mainte-
+seals 5-5,2.1,3 Angular Coatact Ball hearInp
+seals An angular contact ball bearing carries α high, one-
+enter directional thrust load in combination with radial
+loads. The end faces of these bearings can be ground
+so that two or more beatings in tandem will share α
+when thrust load. Α common method of pitch (leather)
+hinge construction is to use stacked angular contact
+seal. bearings to react the α blade centrifugal force, with
+con- reversed bearing to preload the set and to react thrust
+reversal. This configuration has the capability of
+rn-omenms to reacting and radial loads as well as thrust.
+Regreasing Design aiscussed factors for these bearings are in
+prevent Ref. 44.
+failure
+5-5.2.2 Beatings Teflon Fabric
+Teflon fabric bearings detection. are used in the main hingcs
+low-tern- of several operational helicopters. in the ε.γ., 0-6
+only by lag hinge and AH-IG pitch bearing. These bearings
+are even more widely used in rotor control systems
+where they have demonstrated their ability to with-
+st-nd hi;η an adw I'cds vs ,ι;ol in environment.
+Design con- The Teflon fabric liner varies in thickness from ap-
+of the proximately 0.01 to 0.02 in. deperdirrg upon the
+method manufacturer. Strands of α material such as cotton,
+oscillatory Dacron, or Fiberglas are interwoven in the back sur-
+must be face of the fabric. The fabric then is bonded to the
+experi- outer hou.-ing, with the non-Teflon strands pro-
+viding good bond adherence. Various bonckng
+cylin- agents, bonding procedures, and fabric weaves cre
+arc: used; these can result in different characteristics of'
+can the finished bearing.
+rolles considerations Design for these bearings are:
+1. α&fdl pfovidt α Loads inotion.σ. The cfftl of loads and
+the ef- motions on Teflon bearing lives is based upon empiri-
+cally determined factors. It is general design practice
+can to compare bearing fives as α function of where Π PV,
+ pressure, - psi, based on the projected area of the
+increase bearing surface in the direction of load, and V
+and average velocity of contacting surfaces, fpm.
+The acceptable value of for α given life varies PV
+for with the pressure. Also, load reversals may reduce the
+capaci- acceptable value by half. Large-diameter bearings
+appear to withstand α higher PV.level than do small
+bearings. It is clear that PV is only α convenient index
+for comparison of bearings in similar appli.ations,
+and real design values will depend upon endurance
+full and test data for scale bearings.
+those 2. Friction. Measured values of the coefficient of
+in Ref. friction of Teflon-fabric com- bearings under loads
+to pro- parable 'he to those of rotor hinges gcnerally are in
+5-31

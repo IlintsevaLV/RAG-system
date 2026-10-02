@@ -1,0 +1,35 @@
+being to damp out any internal oscillations that might be developed. The
+conductors were terminated on switches so that measurements could be made to
+or be made between any two conductors. ground on any conductor
+8 CONDUCTORS AND WERE TAPED 1
+FLUSH AGAINST THE INNER 2
+SURFACE OF THE METAL SHEET
+SCREEN ROOM
+*υ
+1
+4
+ABOUT 400 mm
+58 OF RG Α/U
+COAXIAL CABLE
+ELLIPTICAL CYLINDER
+Arrangement of conductors inside elliptical cylinder. 10.1 9 Figure
+(α) Detail
+End view showing locations of conductors (β)
+(χ) ElectricaI termination of internal conductors (typical)
+The measurement principles are shown in Figure 10.20. Line-ground
+an input voltage measurements were made with the normal preamplifiers of
+oscilloscope. The oscilloscope was located in the screen room directly adjacent
+to the end of the elliptical cylinder and connected to the output jacks on the
+cylinder by only α short length of coaxial cable. Accordingly, the measurenients
+would not be influenced by any loading effects of the measurement cables.
+Voltages between pairs of conductors were made with the oscilloscope
+Β Α in the minus mode. Since the voltage between any pair of preamplifier
+conductors would depend only upon the magnetically induced component of
+voltage, the resistive component being rejected by the δ~fferential amplifier, it
+was then possible to integrate the difference voltage and derive α signal
+proportional to the internal magnetic field. This was done using an operational
+amplifier connected as an integrator, shown in Figure 10.10(χ).
+Typical tests results are shown Figures 10.11 and 10.22. Figure 10.21 in
+shows, on four different time scales, the injected current and the line-to-ground
+I located adjacent to the small voltage on two different conductors, conductor
+7 located near the center. With the radius end of the ellipse and conductor

@@ -1,0 +1,91 @@
+; α
+SOLENOID
+RETUN
+TO MAIN SECTION
+PRESSUIRE CONTROL ANEA
+(Α) THE PILOT VALVE CONFIGURATION SHOWN IS
+FOR FONER RETURN OF MAIN SECTION TO THE
+DE-EMERGIZED POSITION
+[SOLENOID
+RETURN Dnar
+TO MAIN SECTION
+PRESSUIRE CONTROL AREA
+(Β) TH. PILOT VA_VE CONFIGURATION SHOWN IS
+FOR SPRING RETLKN OF MAIN SECTION TO THE
+DE-ERERGIZED POSITION
+Fignre 2. Power an: Spctag Miaa Sactlon Vaivt
+Reter te Nageal
+ma; τ. sithe: two-way or one-wey. Screc:. contami-
+natvn protec-on it requ.toa for orifices with α dia-
+meier smainer chan 0.070 In.. as specñec in Mit.-H-
+5440.
+Generaily, tae idcul locz jion fo: he rectr:ctors as in
+thn actuator device. They inay be cani ndge: o π ass-
+1 3 π
+bacalizes oesgn requirements ir: sauations *rre
+Maisting cads can cause high press.. ε. In zdantaan.
+exierns. seak point: are reduced. Fiow from α res..α:.
+tor can nave des.ructive effects waea exiausai
+direct.υ into α hydraubc host inc Or anac α snerp tuer
+bena This snouid te avoidec Α pruma: · tca une af
+onfice restrictors is taat they are relat ε: inaz.is.:
+to temperature ciange; the π xsure δ. o for .
+flon varies with the density of the flt
+The detai requiremens for restricto.ae covered
+in MIL-H-So40 and Μ3Λ.-V-25517.
+Seq erate sarvos sre requairec for SAS €AS, and
+Othnz suct. apon-α.os: * sere requireme-as ant dt
+or caai-. st inuegratc: into the flighi contsol aa.
+atoxre. Sarvos may be aaued for either singie o: du.
+
+ANCP 706-202
+systems. The control of the output ram is via an elec-
+trohydraulic *ulve tha: converts the electrical com-
+mands into the appropriate actions. The total
+package inciudes electrical signal feedback devices,
+and the preferred device is α linear variable-differ-
+ential transformer (LVDT). The preferred electrohy-
+draulic concept is the jet pipe valve, which is inher-
+catly tolerant of contamination. Fig. 9-43 shows α
+scirensatic of α typical single-system servo. Separate
+servos generally are series-type control devices, and
+incorporate α position lock that is activated when the
+systcim is not actuated or when system pressure is
+lost. MIL-V-27162 covers servo control valves.
+¢.2.7.ι4 Aftswable Extereel Leakage
+Consideration should be given to leakage levels for
+dynamic scals is both static and operational
+situations. ARF 1084 defines realistic in-service re-
+quirenaeants for static and dynarnic scals.
+9-2.8 HYDRAULIC SYSTEM INSTALLATION
+The paragraphs that follow discuss the proper in-
+stallation and support of hydraulic lines, hoses, and
+components. The requirements also are discussed in
+ARP 994.
+9-2.8.3 Uise of Hoses aad Snirels
+Hoses and swiveis raay te bcaty, costly, and can be
+α maintenance problemr. Tiherefore, use: of these items
+shall be minimized. Desirable alternatives for hand-
+ling relative motion include coiled tubing and fixed-
+body actuators, with articuiatirg links between the
+actuator and the control surface ot :ubsystem func-
+tion where applicabie.
+4-2.8.2 Mainieasace Acccss
+In order for the weight benefits of permangtt fit-
+tings to be realized, thc hydraulic installation must be
+locmed behind other rernowable equipment and in-
+staliations
+Fiher eleems shafi de lak.med so as to permit easy
+access via doors. Differential psressare inqicators shall
+be ε.ther ilusn with the skin or visible through trans-
+pareat skin sections or nonstructural pingle- or two-
+button doors. Thi: is neces. ary because α check of the
+pressure leve: ι: required auring preflight.
+All scparubi. connections shali be relacively
+ac. essible since hey are employed to perinit compo-
+nt. ι ren:ova. and/or removal of lines for access to
+oth = equipme it.
+Α visual check ef tic sesci vo.ρ flujd level condition
+shol id oe possiolc withu removal of access panels.
+I fi. and!or biccding ≈σ required, access to thesc
+9-25

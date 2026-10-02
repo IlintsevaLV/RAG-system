@@ -1,0 +1,74 @@
+5000 of loading (total used were resistor series ohm
+oscilloscope. the signal reaches the 1% of ohms), only
+or- on the were signal voltage induced the unloaded If
+be 10 would the scope to the signal volt, der of one
+background that the Experience has shown millivolts.
+noise") is or "white (thermal in the scope noise levels
+to be a signal This would of 1 millivolt. order on the
+for margin any without 10:1, even of only level noise
+cables. measurement on the pickup noise
+some in be required may probes Active probes: Active
+Both be measured. must small signals when instances
+are commercially probes and differential ended single
+has indi- them some of with but experience available,
+to elim- be sufficient shielding may not that their cated
+must be checked They of noise pickup. problems inate
+Active probes adequate. shielding is that the to insure
+probe the Both 13.17. Fig. custom made, be also can
+shielded. well be to have supply power the and
+long can feed
+0 0 able output
+ld g lll Volts L51 --
+probe. Active 13.17 Fig.
+the to measure is only If the task pickup: Intrinsic
+mea- if some cable, and an aircraft pickup of intrinsic
+another times, short at tolerated be can error surement
+to cables and 50 ohm measurement is to use approach
+cable of the aircraft the far end circuit at install a short
+into induced the entire voltage forces test. This under
+to the at the end connected cable to appear the aircraft
+measurement without the cable. Making measurement
+be voltage to the ultimate allows resistance any series
+oscillations but the high frequency recorded correctly,
+series resis- a high Using recorded correctly. are not
+re- more faithfully to be the oscillations allows tance
+of the signal the level reduces of course but produced,
+to the oscilloscope. delivered
+measuiennts:, Most current Current uisasurements
+be can that trandormers current pulse using made are
+oscillo- measuring cable to the 50 ohm through coupled
+and the point the oscilloscope between scope. Spacing
+Currents on problem. is seldom a under measurement
+be measured can small bundles wires and individual
+in Fig, 13.18(a). probes. as clamp-on current with
+306
+
+win- large with available are probes on clamp- Some
+may bundles cable large which through openings dow
+cores solid have transformers current Other passed. be
+the con- Measurements require be opened. cannot that
+and transformer the through be threaded to ductor
+for cable bundles, feasible generally then reconnected,
+connec- a removable in terminates the cable provided
+may re- transformers such conductors single tor. For
+respliced. and then to be cut the conductor quire
+trans- current improvise to is feasible it Sometimes
+de- Construction cores. or split toroidal using formers
+The 13.18(b). in Fig. shown are circuits and tails
+is of the transformer sensitivity
+(13.2) KNR.
+ohm input 50 the by paralleled R equals where Re
+core Larger oscilloscope, measuring the of resistance
+wind- secondary turns on the more cross section, size
+low extend the all loading resistors smaller ing and
+Improvised transformer. response of the frequency
+good as seldom have responses current transformers
+as commercially available transformers, but they may
+deter- be should Responses the task, for sufficient be
+mined experimentally.
+(a)
+N tur Val
+(b)
+Sprlrt traesformers. 13.18 C Fig.
+core (a) Split
+(b) Solid COre

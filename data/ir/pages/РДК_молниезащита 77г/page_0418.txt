@@ -1,0 +1,24 @@
+the lightning current contacts the external tank, that circuit will be influenced
+Rl R2, by the resistance of the hangers fastening the tank to the wing, by the
+by magnetic flux arising from the flow of inherent resistance of the wing, and
+current.
+INSTRUMENT
+ENCLOSURE----
+current injection tests on the wing from an 14.1 F-89J. High Figure
+(a) Test arrangement
+Waveshape injected current of (b)
+Typical results for the stroke position shown are given in Figure 14.2(c)
+and 14.2(d). The open circuit voltage is seen to rise rapidly its crest and to to
+I 14. decay more rapidly than does the injected curlent shown in Figure (b). a As
+result, the open circuit voltage was responding primarily to magnetic flux.
+When the conductor was shorted to ground at the instrument enclosure,
+the short circuit current rose to its crest in approximately the same length of
+time as did the injected current and displayed much the same waveshape as the
+injected current.
+Figure 14.2(e) shows an approximate equivalent circuit that might be
+a L1 R1 derived. and represent transfer impedance between the current flowing
+R2 L2 the wing and the voltage developed on the circuit. and represent the in
+inherent inductance and resistance of the wires between the fuselage and the
+light. The transfer inductance and resistance, which it should be emphasized do
+not necessarily represent any clearly definable resistance or inductance of the
+wing, are merely those values which, when operated upon by the external

@@ -1,0 +1,84 @@
+the surge current in the lower energy device and allow
+voltage to develop that initiates conduction in the high
+energy device,
+Incoming Surge
+ρ-xAnother
+-
+Low Line
+I
+Τ
+Reflection
+SVARISTOR SPARK
+Fig. 17.23 Paralleled protectors
+physically separated.
+if the Physical separation: Best protection is obtained
+two surge protectors are physically separated α con-
+siderable distance. For example, large MOVs or spark
+gaps should be located near exposed electrical appa-
+ratus such as lights and air data probe heaters, and
+smaller MOVs or diodes installed closer to solid state
+power controllers or other electronic equipment so that
+the interconnecting wires can provide the requisite im-
+pedance between high and low energy devices. Phys-
+ical separation also minimizes problems of inductive
+voltage drop in grounding connectors.
+Resistive or inductive Isolation: Physical separation
+is not always possible in aircraft applications and ad-
+ditional resistance or inductance may be needed, as
+shown in Fig. 17.24. Inductance may be appropri-
+ate for power circuits, but has the disadvantage that
+slowly changing surge currents may still pass into the
+low energy protector without ever developing enough
+voltage to cause conduction through the high energy
+protector. Resistors ane preferable bercause the carrent
+through the low energy protector can be controlled ir-
+respective of the surge waveshape.
+CommIercial vallabilty: Hybrid protectors corn- ae
+mercilly available that have hinh and low energy pro-
+tective device incorporated into α single package.
+17.4.7 Surge Protecting Connector
+At least two lines of activity have been pursued
+with the aim of incorporating surge protective devices
+directly in electrical connections. One approach 117.6)
+incorporated spark gaps between the connector pins
+and the connector shell. Α high dielectric material,
+rutile, was used to stimulate internal flashover and
+
+to achieve α protective level of about 1100 to 1300 V
+with an impulse ratio nearly unity, even with voltage
+rates of change at 10 kV/zs. This design withstood ex-
+tremely large currents (100 to 250 kA). The work on
+this device was performed at Sandia Laboratories and
+supported by the U.Σ. Atomic Energy Commission.
+line of approach uses zinc oxide varistor
+material to hold the pins in α connector. This work
+was being done by General Electric Company for the
+U. Σ. Army Harry Diamond Laboratories.
+Protective connectors are available commercially.
+ 7 7 7 - 7 7 7 . 7 -7-7 7
+0 #01 / 4 / / 7 7 O 0 O
+Fig. 17.24 Hybrid protectors.
+(α) Sparkgap and MOV
+(β) MOV und diode
+Damage Analysis Semiconductors 17.5 -
+The energy conpled into α system by lightning in-
+duces large current pulses into the cabling and wiring
+of the system and resulting voltage pulses across loads.
+Determining whether or not these voltages and cur-
+rents cause upset or damage to active or passive com-
+ponents requires ν knowledge of the failure thresholds
+of devices. These failure thresholds have been inves-
+tigated extensimely during studies of nucleat electro-
+magnetic pulse (NEMP) effects on electronic equip-
+ment. The following sections will discuss some of how
+damage analysis is performed.
+Where vulnerability or failure involves thermal
+considerationi. one difference between NEMP and light-
+ning analysm must be noted. NEMP vulnerability an-
+seesments are mostly made for α single pulse, but light-
+ning subjects equipment to α series closely of spaced
+pulses.
+Semiconductor electronic -omponents are gener-
+ally more vulnerable under puke conditions than are
+non-semiconductor components. This discussion of
+452

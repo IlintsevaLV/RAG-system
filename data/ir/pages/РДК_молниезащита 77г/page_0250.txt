@@ -1,0 +1,41 @@
+If a boron composite were to be used, its thickness would have to be at
+5 least ten times greater to restrict the damage radius to the same cm. The
+thicknesses of either composite would have to be even greater, of course, if the
+2 1, where an action integral of is composites were located in Zone x lo6 A ~ - S
+to be expected. In such a case, it is likely that either the area of damage or the
+composite thickness required to reduce this damage would be intolerable. And in
+such case the addition of some protective device(s) capable of keeping some or a
+all of the lightning current out of the composite should be considered. The
+coatings and diverter strips for fiberglass described in Section 7.3.1.2 may also
+applicable for advanced composites; and several coatings were developed be
+specifically for use on composites. The most promising of these are discussed in
+Section 7.3.2.5.
+7.3.2.3 Problems Joints at
+In addition to lightning currents causing direct effects by entering or
+flowing in composite materials, these same currents may also cause damage at
+the composite--for example, a place where the the places where they leave
+original panel is joined to another one or to substructure such as ribs and spars.
+in Two basic methods of joining composites are in use. One of these is bonding,
+which the composite is joined (glued) with an adhesive to another member. The
+other method is with joints, in which bolts, rivets, or other mechanical bolted
+fasteners are employed to hold two members together.
+Unfortunately, most adhesives used in bonding are highly resistive and by
+themselves are not able to conduct lightning currents. Instead, arcing occurs
+within the adhesive, releasing sufficient gas pressure to make the structure
+literally "come unglued." Either the adhesive must be made electrically
+conductive or a separate conducting path must be provided to carry lightning
+currents across the joint. conductive paint or foil may be able to accomplish A
+this if it is necessary only to transfer lightning current from one composite panel
+to an adjacent one. But if the composite is also fastened to substructure,
+A electrical contact must be made to this substructure as well. metal foil
+wrapped around the edge of the composite panel may suffice; however, such a
+foil must be held securely to the composite surface so that the magnetic force (a
+problem of Figure 7.8) does not cause the foil to pull away. If bolts or fasteners
+are used, they may provide the necessary electrical path, whether intentional or
+not, but the concentration of current near them may degrade the composite's
+strength in this important region.
+Relatively little work has yet been accomplished to evaluate the degree of
+strength loss caused by lightning currents in composite joints; however, further
+research is now in progress. Schneider, Hendricks, and Takashima (Reference
+7.24) are studying the effects of lightning currents on typical bonded and bolted
+joints of graphite composites, and their preliminary findings show that bonded

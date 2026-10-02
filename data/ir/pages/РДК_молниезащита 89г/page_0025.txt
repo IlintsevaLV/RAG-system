@@ -1,0 +1,40 @@
+SI conductor
+ma!:: 30
+Σ-• χ •-lcm
+waveshape
+breakdown onset
+streamer streamer ns 250 0
+Fig. 1.9 Positive corona.
+Gaps show and Air In applied Processes suddenly is voltage Breakdown which to α gap 1.5
+It will gradually raised. voltage is different if how it is
+α de- applied voltage has conditions if the also discuss that the breakdown is α common misconception It
+strength of air is about 30 kV/cm or 3 MV/μ. That caying tail and explain both how front and tail times
+and explain affect how fast the breakdown progresses electric field gradient at figure is indeed about the
+which corona will begin to form and it is the intrinsic how this leads to α volt-time or time-lag effect.
+to provide be will section aim of the basic The be- contained gaps air of short strength breakdown
+un- on physical an emphasis with material tutorial any to eliminate contoured carefully electrodes tween
+derstanding of electrical arcs used in testing, of light- regions where the local electric field strength is greater
+than 30 kV/cm. Such electrodes are usually found ning phenomena and how lightning interacts with air-
+only in laboratories. With practical gap geometries, craft. It will deal only with air at near sea level at-
+electrodes spaced mainly with pressure and mospheric than α greater with gap geometries particularly and
+few centimeters in extent, it is much more realistic so far apart that the field between them is far from
+to assume the average breakdown strength of air un- uniform and in which the metal of the electrodes and
+der lightning conditions to be about 5 kV/cm or 500 the vapor from them can play no significant part in
+kV/μ. With longer duration waveforms the average the breakdown process.
+breakdown strength may be more on the order of 3 Also, the section will focus on the phenomena that
+kV/cm. With short duration pulses the breakdown occur when the electrodes are directly connected to
+strength may be much more than 5 kV/cm, but such α α voltage source that supplies the energy necessary
+condition usually means only that α developing break- for the development of the arc and the electric field
+down has not had sufficient time to progress to final through which it propagates. On an aircraft the dis-
+breakdown. With α large gap, such as found around charge may originate at the aircra'τ and the energy
+an aircraft in flight, any place the macroscopic electric necessary for the development of the arc must be ex-
+field has α gradient greater than 500 - kV/μ is 600 tracted from the pre-existing electrical field. There
+α place where one can assume that α breakdown is in are some differences in the two processes and these
+process or is about to be. differences are discussed in Chapter 3.
+The following material will illustrate why the
+Voltage Types of Sure 1.5.1 breakdown strength of air has this surprisingly (to
+some) low value. The section will discuss the con-
+ditions under which corona streamers can continue to When discussing the breakdown strength of air it
+grow until α gap is completely bridged. It will dis- is common practice to refer to lightning surges, switch-
+cuss the mechanism by which the streamers develop in ing surges and power frequency voltages. The terms
+8

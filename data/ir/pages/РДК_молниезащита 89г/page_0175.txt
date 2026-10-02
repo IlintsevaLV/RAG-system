@@ -1,0 +1,89 @@
+.aircraft
+--
+SOMONPILAMEt
+IL
+Fig. 6.55 Zener diode model of boron filaments
+within a laminate,
+effects just the current conduction In addition to
+blast forces from and the high temperature described,
+the arc have been found to cause substantial damage
+at the point of attachment, just a boron composite
+with CFC structures. Holes blown in a boron compos-
+greater than would tend to be somewhat ite material
+be expected in a CFC panel of similar thickness.
+tails of test results will not be reviewed further since
+boron materials are now seldom used.
+6.6.2 Protection of Boron Composites
+Boron composites can be protected by several
+of the same techniques previously described for non-
+conductive composites. The electrical behavior
+boron is more like the non-conductive composites re-
+inforced with aramid fiber and glass than CFC, so
+woven wire mesh, expanded aluminum toil and arc
+flame-sprayed metals are most appropriate. Interwo-
+ven wires and metal-coated boron filaments have
+been evaluated for protection of boron composites and
+these methods are not as likely to be as successful
+they are for protection of CFC.
+If composites reinforced with boron or other less
+familiar materials are to be employed in the future,
+extensive testing will be necessary to define and quan-
+tify lightning effects and develop satisfactory protec-
+tion methods.
+Systems Propulsion on Effects Direct 6.7
+Lightning attachment to an engine pod or
+
+celle can result in damage to the structure. Struc-
+tural effects of this type are identical to those dis-
+cussed previously for other exposed structure. The
+propulsion system does contain some unique
+functions which can be damaged by lightning direct
+contain nu- engines efficiency new high The effects.
+merous electronic monitors and controls which may be
+vulnerable to the indirect effects of lightning. Those
+effects are covered in Chapters 8 - 18. The effects dis-
+cussed here are those related to propellers and rotors,
+turbofan engines. and stalls of gear boxes,
+671Propeilers
+Aircraft propellers are frequent targets for light-
+ning strikes. The general location of propellers, front
+for traction or rear for pusher, probably accounts
+for their susceptibility to lightning strike attachment.
+Tractor blades are in a Zone or 2A location 1A while
+pushers will be in Zone The high current compo- lB.
+nent of lightning , due to its short duration, will affect
+only one blade. The duration of the intermediate cur-
+rent is of a short enough time that it will also involve
+does spin fast the blades, but the propeller only one of
+current will continuing the long duration enough that
+to divide among all the blades.
+as A lightning flash to a metal propeller does little
+damage. It may produce minor pitting and erosion of
+to require but not sufficient metal at trailing edges,
+De- corrective action beyond filing down of rough spots.
+Propellers of fiberglass are more vulnerable to
+lightning, especially if internal conducting parts are
+present. Then the flash can puncture to those in-
+ternal conducting objects, causing delamination and
+eventually complete destruction. If the internal part
+has only a small cross-section it can explode and cause
+explosive shattering of the blade. Lightning current
+of entering a heater wire, for example, could propagate
+elsewhere and cause problems, but that is an indirect
+the effect treated in later chapters. Protection techniques
+or are the same as for other dielectric structures as de-
+scribed in §6.3.5 and include conductive paints, divert-
+not ers, and surface coatings. Often a metal leading edge
+rain erosion strip can be designed to safely intercept
+as the lightning flash.
+Dielectric blades will be subject to precipitation
+static problems and any antistatic system that is in-
+stalled will be subject to lightning as well. The effects
+of lightning strikes to the antistatic system must be
+assessed to insure that no safety of flight hazards can
+occur. Graphite composite blades are less vulnerable
+to lightning than dielectric composites, but verifica-
+function of the critical to the due is mandatory tion
+blade. If protection is required, methods discussed in
+na- §6.5 can be applied.
+158

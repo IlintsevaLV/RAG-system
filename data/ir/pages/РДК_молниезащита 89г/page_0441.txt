@@ -1,0 +1,67 @@
+360 degree connector core
+rs conduct (best) (β)
+external pigtail Γ
+I remote ground
+(bad) (δ)
+internal pigtail
+(Poor) (ε)
+connection to signal ν
+tg (wor' ground
+.all ground ructure o•
+Fig. 16.8 Types of grounding φ,'ρ shields.
+Grounding to an Inside surface: Grounding an over-
+shield to the inside surface of an equipment case
+through α pigtail and'α set of contacts in the connes-
+tor is less effective than the use of an external pigtail,
+partly because the length of the pigtail is inherently
+longer and partly because it brings currents directly
+to the inside of the case. Such grounding of an over-
+all shield should be ,voided wherever possible and, in
+particular, must be avoided whenever the overall shield
+signif- α intercept it will where region α through runs
+icant amount of energy from the external electromag-
+netic field.
+Grounding to signal bus: In no case should an overall,
+shkied be connected to α signal ground bus.
+Daisy chain grounding: Daisy chain grounding of
+cable shields, illustrated in Fig. 16.9, should never
+be used. It constrains current intercepted by all the
+shields to flow through α common path and so pro-
+vides the greatest potential to defeat the purpose of
+the shields.
+Coordination 16.6 Between Transients and
+Specifications
+Section 5.7 discussed criteria in terms pass/fail
+Σ of Levels and Equipment Transient Transient Control
+while [16.11 suggests Design Levels, TCLE and ETDLs
+possible levels. The following material discusses the
+concepts in more detail.
+427
+
+remote structure ground
+Fig. 16.9 Daisy chain grounding.
+Alternstitue regarding transients: Three possible ap-
+proaches to dealing with lightning induced transients
+are:
+1. Dasigners of aircraft equipment ("black boxes")
+might be considered to have the responsibility to
+provide equipment that will withstand the tran-
+sients that might be developed in the aircraft,
+whatever those tiansients might be.
+to be considered might wiring aircraft of Designers 2.
+have the responsibility for ensuring that transients
+never exceed the capabilities of terminal equip-
+ment, whatever that might be.
+3. Design efforts might be coordinated so that de-
+signers of equipment would guarautee that their
+equipment could withstand transients of one level
+and designers of wiring systems would guarantee
+that the transients would never exceed another,
+and lower, level.
+'ransient coordination represents the third of the
+approaches.
+Evolution of Transient 16.6.1 Standards for
+Aircraft
+Transient control level standards now coming into
+use for aircraft have evolved from se-eral sources; air-
+craft, military and industrial.

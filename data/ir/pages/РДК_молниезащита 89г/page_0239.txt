@@ -1,0 +1,51 @@
+.
+CHAPTER 8
+TO INDIRECT EFFECTS INTRODUCTION
+Introduction 8.1
+one end shields at only of grounding wire EMI practice dealt with the direct chapters have The previous
+in subject discussed most important, α is perhaps the chapters will but the remaining of lightning, effects
+16. Chapter The term with deal effects indirect indirect effects.
+and test tools very broadly, analytical of Speaking to or malfunction to the damage of lightning refers
+particu- are not developed for flashes. techniques from lightning equipment that results electrical EMI/EMC
+effect problems, to lightning indirect larly applicable circuit break- range from tripped These effects may
+domain phe- is α time because lightning damage of input or principally physical computer upset, to ers to
+the activities deal with most EMI/EMC be nomenon and There may of electronic equipment. output circuits
+to narrow band Practices related frequency domain. that pertain of lightning flashes indirect effects other
+deal may not adequately and absorption crew or RF emission blindness of the safety, such as flash to aircraft
+of magnitude voltages and currents with time domain effects, however, are not These acoustic shock waves.
+components. burn out electrical sufficient to in this definition and this chapter. Included treated in
+and currents induced the voltages discussed here are
+activi- NEMP, pulse, electromagnetic Nuclear NEMP: ir- aircraft, of the wiring electrical the on lightning by
+ef- indirect lightning on influence α great had have ties currents and voltages such whether or not respective of
+funded well been has activity that because partly fects, equipment. of electrical or upset damage cause
+This chapter is intended as an introduction to the and partly because NEMP is α time domain phenome-
+work analytical of the all Virtually as is lightning. non, briefly, be explained, it will In follow. that chapters
+the work by influenced has been effects indirect on with along involved phenomena electrical of the some
+of codes computer Most of the field done in be taken must program steps that the of NEMP. α discussion
+de- originally were aircraft in analyses lightning use for of Some effects. the indirect with deal successfully to
+analyses analytical most of the and veloped for to aircraft made on have been that measurements the NEMP
+refined through apertures were with coupling be dealing effects will also nature of indirect the determine
+NE&Π. Perhaps connection with in disseminated and discussed be that will the subjects of Most reviewed.
+work is [8.1]. of that analytical the best single summary in later chapters. in more detail here will be discussed
+most important references to the It contains numerous
+8.2 Industry Activities of the original works.
+have also in- for developed Test techniques worthwhile activities is of industry Some overview NEMP
+true This is particularly those for lightning. small fraction fiuenced can review only α because this volume
+voltage are in- and tests in which current light- of bench indirect effects of available on the of the material
+interconnect- and the into electronic equipment chap- jected this and the following The discussions in ning.
+that the test levels and waveshapes ing wiring. Some of but certain groups of cite various references, ters will
+regarding lightning specifications appear in purchase for further at- important are particularly documents
+as those developed for the same are virtually tention. NEMP.
+and current related to voltage All of the work in the con- the practices involved Many of EMI/EMC:
+(Wunsch damage semiconductors to those levels necessary are the same as indirect effects trol of lightning
+community. analyses) have also come from the NEMP in classical electromagnetic interference and involved
+Chapter 17 work is reviewed in Some of that generally one can compatibility and electromagnetic
+of light- good for control practices that are say that the
+shielding bonding and effects, grounding, ning indirect
+with of work dealing review Α comprehensive This AEHP: problems. of EMI/EMC good for control are also
+. the Atmo- conducted effects was indirect not lightning and certainly they are the same say that is not to
+by the Program organized Hazard spheric Electricity prob- control of attention to that to say EMI/EMC
+Military Airplane Corn- with Boeing Air Force of the US Some of lightning. prevent problems lems will
+program reviews In that contractor. as the prime fact pany developed in that have mythology and practices
+and the environment of the lightning were conducted The clabsical problems. lightning of solution impede
+2Z'3

@@ -1,0 +1,43 @@
+an overall shield grounded at both ends to enclose a bundle of individually
+shielded wires whose shields are left ungrounded at one end for purposes. A EM1
+relative comparison of six possible wiring methods is shown in Figure It is 6.42.
+recommended that methods a and b of this figure be used, and that c and d not
+be used only if the (leading or trailing edge) enclosure has an electrically
+conductive skin or coating that can provide some electromagnetic shielding
+against the outside world. Methods e and f are preferable because they will
+provide the lowest induced voltages at the probe. Method f is to be used if the
+EM1 individual shields must be left ungrounded at one end for control purposes.
+The comparisons shown in Figure apply also for wiring to fuel tanks in 6.42
+other parts of the aircraft.
+For whatever method is used, assurance should be obtained that the
+expected induced voltages are lower by a factor of 10 to than the probe 1
+sparkover voltage at altitude. An estimate of the induced voltages to be expected
+in the fuel tank wiring can be obtained by analysis as described in Chapter or 12
+by lightning transient analysis tests, as described in Chapter 17.
+6.9 Fuel System Checklist
+considerable amount of information on various aspects of fuel systems A
+has been presented in the preceding paragraphs. With reference to these
+paragraphs, the following checklist is provided to summarize key points and to
+focus the designer's attention on the important aspects of fuel system lightning
+protection:
+2, Are the fuel tanks located in Zones and where lightning strokes 1 1.
+5, Sections and may directly contact their skins? (Chapter 5.2 5.3)
+If so,
+a. What is the expected arc dwell time on these skins? (Section
+6.6)
+Are the skins thick enough to avoid meltthrough? (Section b.
+6.6)
+c. Can a lightning arc attach directly to an access door or filler
+cap?; if so, can the lightning current be conducted into the
+surrounding skin without sparking inside the tank? (Section
+6.8)
+Are there "dry bay" areas into which fuel may leak from adjoining 2.
+tanks or plumbing? If so, these are also subject to questions la, lb,
+and c. 1
+Are fuel vent outlets or jettison pipes located in direct strike zones 3.
+A (Zones or or swept-stroke zones (Zones or where the B) 2A 2B) 1 1
+5, arc may attach or sweep close to the vent outlet? (Chapter
+5.3; Sections and Sections and 5.2 6.4 6.5)
+a. If so, is an effective flame arrester or surge tank protection
+(STP) system used?; has its effectiveness been verified by test?
+(Section 6.4)

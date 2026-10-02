@@ -1,0 +1,99 @@
+composite (CFC). Because of their long duration, the
+distribution of these currents among the various air-
+frame conductors are primarily controlled by the re-
+sistance of the conductors, rather than by their induc-
+tance.
+The source impedance associeted with Waveform
+will tend to 5 approach the dc resistance of the struc-
+ture or shield across which the driving voltage is de-
+veloped and may be as low as α few milliohms. Aside
+from the high energy content, the major concern in
+airframe wiring with this current waveform is that the
+accompanying voltages are sometimes insufficient to
+activate suppression devices and allow the current to
+be diverted away from paths where it may cause dam-
+age.
+Waveform is typical 5Α of the' currents developed
+in low impedance conductors 5 ohms) such as (-C
+shields, power wires or other circuits with suppression
+devices at both ends. Current amplitudes associated
+with Waveform will tend 5Α to be low to non-existent
+inside of an all metallic fuselage, but could be quite
+high on equipment with interfaces subject to α direct
+lightning strike, such as lights, antennas, and various
+pressure and temperature probes.
+Waveform 5Β occurs in much the same manner as
+Waveform 5Α, but is observed more often in conduc-
+tor6 within structures CFC because of the higher cur-
+rents that result from resistive sharing with the struc-
+ture. Curnent amplitudes associated with Waveform
+5Β will tend to be very high in CFC structures. Am-
+plitudes may be hundreds of amperes in smaller gauge
+conductors, such as power and low impedance signal
+wires, and thousands of amperes in the larger gauge
+conductors, such as shields and power buses.
+Multiple stroke waveforms: Simultation of the ef-
+fects of the multiple stroke lightning currents defined
+in §5.5.6 involves applying one of the internal airframe
+waveforms to the operating system under test. Each
+pulse of the multiple stroke flash is represented by the
+ielected internal waveform, which is scaled to repre-
+sent the peak amplitude induced by the appropriate
+lightning components Α and Δ/2. In some situations,
+more than one of the internal wvaveforms may be re-
+quired to satisfy the system design requirements for
+multiple stroke.
+Multiple burst waveforms: Practices regarding sirau-
+lation of the effects of the multiple burst lightning cur-
+rents defined in §5.5.6 are still evolving. The trend is
+toward using the damped oscillatory waveform 3, but
+no consensus has yet developed as to what frequencies,
+levels and rate of application are approp.-iate.
+
+Categories of equipment for various levels: What
+transient test level is appropriate for various types of
+equipment is α task for the system integrator to decide.
+Guidance is offered in [16.1 and 16.13].
+Level 1 (I): This level would be appropriate for equip-
+ment and interconnecting wiring installed entirely in
+α well protected environment, such as an avionics bay
+enclosed in an all-metal aircraft.
+Level 2 (J): This level would be appropriate where
+the equipment and interconnecting wiring are in α par-
+tially protected environment, such as an avionics bay
+enclosed in an aircraft composed principally of metal.
+Level 3 (K): This level would be appropriate for equip-
+ment and interconnecting wiring installed in α mod-
+erately exposed envwronment, such as the cockpit or
+flight deck of an aircraft composed principally of metal.
+asd Levels 4 5 (Λ and Μ): These levels pertain to
+equipment and interconnecting wiring in severe elec-
+tromagnetic environments, such as aircraft of which
+large portions are fabricated with composite material
+and where no special shielding measures have been
+taken. 6
+Other waveforins: The waveforms TCL discussed in
+[16.1 and 16.13] are not the only ones currently called
+for in specifications. Some of them call for damped
+sine waves as shown on Fig. 16.12, Waveform 3, the
+waveforms being defined as
+/Q) sin (2-rt)] (16.1) = EO E [C-(wJ
+Frequencies range from 1 MHz to 50 MHz (or
+more). Source impedance is generally specified as 100
+ohms resistive.
+These specifications call for specific damping fac-
+tors, such as Q 6 or Q 24, damping factors not = =
+necessarily consistent with those defined in FAA and
+related documents. Figs. 16.13(α) and (β) show waves
+with those damping factors.
+16.7 Common Problems in Specifications
+Since transient specifications and techniques for
+controlling transients are still evolving there are situ-
+ations where specifications are poorly worded or im-
+properly applied.
+Α common error is to call for tests to be made on
+equipment within the aircraft at levels that are only
+appropriate for equipment located on the outside of
+the aircraft and exposed directly to α lightning flash.
+Most commonly this situation arises through misappli-
+434

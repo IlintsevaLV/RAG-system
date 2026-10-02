@@ -1,0 +1,93 @@
+Optical coupling: Some of the noise problems encoun-
+tered during surge testing can be overcome by using
+optical links to couple the outputs from voltage and
+current probes to the measuring oscilloscope, but op-
+tical links have problems of their own. Analog, not
+digital, optical links are required, and the bandwidth
+of the optical link should be as wide as that of the mea-
+suring oscilloscope. Wide bandwidth optical links tend
+to have high noise levels and limited dynamic range.
+Sensitivity of the link is more prone to change than is
+the sensitivity of conventional hard wired links. Care
+must be taken not to overload the transmitters and
+the sensitivity of the link must be checked frequently.
+Swept Continuous Wave Low-Level 13.5
+This frequency domain technique involves exciting
+the aircraft with continuous waves rather than time
+domain pulses. Basically, the method utilizes a net-
+work analyzer to measure transfer functions, ampli-
+tude and phase, from the lightning attachment point
+to test points, voltage or current, within the aircraft.
+These transfer functions, if measured over a suitable
+wide frequency range, may then be multiplied by the
+frequency spectrum of a lightning pulse to determine
+the overall spectral response at the test point. Fourier
+transforms can then be taken to evaluate the time do-
+main response.
+Advantages and disadvantages of the swept CW
+technique are as follows:
+Advantages
+1. Standard low level oscillators and network analyz-
+ers may be used. These are commercially avail-
+able and operate at levels sufficiently low that
+there are no safety problems, either to personnel
+or the aircraft.
+2. Narrow band tuned measuring instruments can
+be used and these are more sensitive and less sus-
+ceptible to interference than time domain instru-
+ments.
+Aircraft and wiring 3. system resonances are clearly
+displayed and quantified.
+4. System responses may be quantified by tabular
+listings of amplitude and phase without need for
+developing equivalent circuits.
+5. Many useýrs are more used to working with fre-
+quency domain data than with time domain re-
+sponses.
+370
+
+Disadvantages
+1. No way to evaluate non-linearities in the aircraft
+response.
+2. Scaling to full threat levels requires cousidernble
+mathematical manipulation.
+Safety 13.6
+Most simulated lightning testing, even though ap-
+plied at reduced levels, involves the use and opira-
+tion of high voltage equipment including capacitors
+and arcing switches. The electrical energies involved
+human fatalities exceed the levels necessary to cause
+and safety precautions must be taken and test proce-
+dures followed which ensure that during the test appli-
+cations, personnel cannot accidentally come in contact
+with any electrically energized parts of the test circuit.
+A secondary concern is the inherent danger of
+passing substantial carrents through an aircraft fuse-
+lage containing fuel. This concern includes the prob-
+lems associated with electrical arcing taking place in
+an area where fuel vapors may be present.
+13.6.1 Perconnel Safety
+People actively involved with operating surge gen-
+erators and measuring equipment may need to be
+physically close to or inside the aircraft during the test.
+This is particularly true for those operating measuring
+instruments. This can be done safely, but safety pro-
+cedures must be developed and be well understood by
+all, both those involved in the tests and those who may
+be only casual bystanders.
+Personnel familiarization: Prior to the start of active
+testing, all personnel working in the area, both those
+assigned to the test and those normally working in ad-
+jacent areas, should be assembled for a safety briefing
+and familiaiization with the project. Written safety
+procedures are advisable.
+Test area: The aircraft, lest generators, waveshaping
+circuits, HV power supply, and capacitors will from
+time to time be energized to potentially dangerous
+voltages. A clearly defined test area should be fenced
+or roped off in such a mannimer as to preclude any per-
+son standing outside of the area from coming in con-
+items or any other the above listed tact with any of
+potentially hazardous point. No one should enter the
+test area without the permission of the test operator.
+0

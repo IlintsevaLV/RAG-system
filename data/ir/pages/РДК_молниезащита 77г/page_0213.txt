@@ -1,0 +1,43 @@
+7.1 straps intended to carry lightning currents are presented in Figure 1. The
+basic rules to follow are these:
+Use conductors with sufficient cross-sectional area to conduct
+intended lightning current action integral
+Keep bond straps as short and close to the air gap length as possible
+Avoid bends of more than or other features that result in 45",
+reversal of current directions
+Avoid all sharp turns
+If two or more parallel straps are used, separate them sufficiently
+30 cm or more) to minimize magnetic force effects. (usually
+Of course, the above rules should also be followed not only for bond straps but
+for any other structural element that must carry lightning currents.
+Because of weight limitations, the strength and rigidity of some metallic
+components, such as wing tips, flaps, and ailerons, may not be sufficient to resist
+deformation as a result of the magnetic forces from lightning currents
+concentrated in these extremities. Such deformations will not normally impair
+safety of flight, but they may require repairs or replacement. Normally, only
+severe lightning currents cause this deformation; therefore, increased reinforce-
+ment of the extremity, if it were deemed economical, could minimize or prevent
+deformation in many cases.
+Since determination of magnetic force effects by mathematical analysis for
+all but the most elemental geometries is very difficult, laboratory tests may
+prove the most straightforward and economical way to determine whether or
+not magnetic force effects are likely to cause deformation of prospective
+structures. For such tests, simulated lightning strokes in accordance with the
+(Reference SAE criteria of Lightning Test Waveforms and Techniques 7.9)
+should be passed through the component being evaluated.
+Arcing across Bonds, Hinges, and Joints 7.2.5
+Basically, the riveted skins and substructures found in conventional
+aluminum aircraft are adequate to safely conduct lightning currents through the
+aircraft, and, aside from the special considerations relating to fuel tank areas
+6, discussed in Chapter no provisions need be made to improve this conductivity
+for lightning protection purposes. Even with the profusion of electrically
+insulating primers and wet sealers now used to coat joined surfaces, the great
+number of rivets or fasteners needed to meet mechanical strength requirements
+provides the necessary electrical path between mating surfaces. This generaliza-
+tion has proved to be reliable even when the fasteners and holes themselves have
+been coated with primers or wet sealants.
+If hinges or bearings are located where lightning currents may pass through
+2B), them (such as on control surfaces in Zone 1B or they should be able to
+safely withstand these currents with no impairment of their function. Otherwise
+suitable means should be provided to divert much of the lightning current
+around them. In a few cases, passage of lightning currents through some hinges

@@ -1,0 +1,76 @@
+Gr .206-202
+HORIZONTAL
+FORCE
+OMENT AAM ґο
+PITC. AXIS
+FIL.Α.' HINGE - PITCH BEARING
+(Α) CORIOLIS MOMENT FROM BLADE FLAP
+tan0= 0
+sin Bo for 0<0.3rad
+PITCH AVIS
+er sin Bo
+(Β) PITCH MOMENT FROM LIFT OFFSET
+Figure 5-12. Pitch-flap Coupling of Rotors
+vancc ratio. and thc sinc of the azimuth angle. Α sub-
+harmonic instability of blade motion can occur at
+moderate advance ratio, χ.γ.. μ = 0.4. This type of in-
+stability can be suppressed by an adequate amount of
+inplane damping. Ref. 13 suggests that, if the biades
+are sufficiently flexible in torsion, pitch-lag coupling
+can be used as an additional mcans of suppressing lag
+motion instability.
+54 ROTOR SYSTEM DYNAMICS
+54.1 OSCILLATORY LOADING OF ROTOR
+BLADES
+The oscillatory losding of rotor blades is important
+for both vibration and fatiguc.
+Rotors usually are designod by extrapolation from
+previously successful designs. This can be expensive
+bocause many rotors have boen designed, buiit, and
+flight sestod without significantly extending the uscful
+enveiope of existing rotors in relation to loads and vi-
+5-16
+
+LIFT
+RESULTANT SECTION LIFT
+LOCAL WIND
+VELOCITY
+INFLON ANGLE
+OF ATTACK
+DUE TO BLADE DUE TO ROTOR SPEED
+LEAD VELOCITY
+(Α) ADDITIONAL LIFT DUE TO BLADE LEAD VELOCITY
+INCREMENTAL
+CENTRIFUGAL
+un FORCE
+VIRTUAL FLAP MINGE o
+(Β) INCREMENTAL CENTRIFUGAL FORCE DUE TO BLADE
+LEAD VELOCITY
+Figure 5-13. Mfechanlsm of Flnp-lag Instability
+brations. Rotor design considerations -— such as
+fa:igue spoctra (based on mission profiles and ma-
+neuver frequencies), details of bearing stress, peak
+siress, and stiffness of complex shapes — remain dif-
+ficult. Howevcr, other considerations, ε.γ., static dc-
+flection and gross vibratory response, are becoming
+fairly well definod and calculation procedures are
+availablc.
+5-4.1.1 Hypothetical Consideration of Rotor
+Vibratory Loads
+The procodure for development of preliminary
+rotor design into α detail design requires continuous
+iterations by acrodynamics, dynamics, stress, and
+fatigue spocialists. The integration of computed vi-
+bratory rotor loads into the detail design is described
+best by α generalized method toward which thc in-
+dustry is moving.
+Ideally, the following program, wbich hinges on
+the existence of α complete seroelastic flight-vchicic
+analysis, could be usod to link the preliminary and
+detail designs:
+1. Α mancuver spoctrum should be defined, based
+upon previous helicopier experience and the mission
+roquirements of tire new helicopter.
+2. The maneurer spectrum should be "flown" ana-
+lytically with the preliminary design helicopter, and
+loads and vibrations should be computod at the

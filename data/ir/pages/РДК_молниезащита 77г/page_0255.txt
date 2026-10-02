@@ -1,0 +1,44 @@
+Graphite composites, by virtue of their higher conductivity, provide 3.
+more effective shielding than do boron composites.
+When conductive coatings are present for control of the direct 4.
+effects of lightning, they will have more effectiveness as electro-
+magnetic shields than the composites they protect.
+When conductive coatings are not needed for direct effects protec- 5.
+tion, electrical wiring enclosed within these composites may need to
+be placed in conduits or otherwise shielded from the intense fields
+which will pas. through the composites.
+Electric fields (Efields) are also associated with lightning strikes and may
+cause as much interference in some electrical systems as do the magnetic fields,
+as or more. No E-field shielding effectiveness data have yet been reported,
+however.
+Furthermore, no measurements have yet been made of the voltages which
+lightning may actually induce in the electrical circuits inside of composite
+aircraft structures because there have been few such structures yet available. Nor
+are there analytical techniques yet available for prediction of field levels within
+composite structures. The shielding effectiveness measurements reported by
+Fisher and others have always involved small panels usually clamped to a simple
+test receptacle, like that of Figure 7.41. However, when panels are employed in a
+structure, with provisions made for conducting currents out of edges and joints,
+it is likely that some improvement in shielding effectiveness will result, and the
+situation will not be as bleak as it is indicated to be by the small panel data now
+available.
+Protection for Advanced Composites 7.3.2.5
+That it is necessary to supply lightning protection for all composites wher-
+ever they are employed on the aircraft is certainly not a foregone conclusion.
+4 2A, plies thick and located in Zone for Graphite composites greater than
+example, will not be completely punctured and will suffer only localized surface
+damage, as indicated by Figure 7.39. Some lightning protection may be
+1 necessary, however, for Zone applications of graphite and for virtually arzjl
+lightning-stroke zone application of boron.
+number of programs have been undertaken to develop suitable A
+protective coatings for composites. The most important of these was conducted
+by Quinlivan, Kuo, and Brick (Reference 7.30), who developed and tested a
+wide variety of conductive coatings, and Brick, King, and Quinlivan have
+continued this work (Reference 7.31). Coatings evaluations have also been
+carried out by Fisher and Fassell (Reference 7.32) and others; the reader is urged
+to study these references to obtain the performance data necessary for the
+selection of a coating for a particular application. Coatings that have performed
+especially well include the five discussed below.
+Wire Fabrics
+Wire fabrics are flexible meshes woven or knitted from very fine aluminum
+245

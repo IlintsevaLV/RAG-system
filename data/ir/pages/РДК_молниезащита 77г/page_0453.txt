@@ -1,0 +1,43 @@
+They have high impedance and low capacitance. The low-shunt
+capacity and leakage current characteristics of gas-filled spark gaps
+minimize insertion problems for operating frequencies below 1 GHz.
+They provide bilateral operation, having the same characteristics on
+either polarity.
+The disadvantages of spark gaps include the following:
+They have relatively high sparkover voltage.
+Simple gaps do not extinguish follow current. This is a most
+important point to consider if they are to be used on a power
+circuit. The arc must be extinguished by removing the voltage
+(circuit breaker of fuse) or by inserting resistance rapidly into the
+circuit by an additional element, such as a silicon carbide or zinc
+can be made oxide varistor. Through suitable designing, gaps
+100 V. Such self-extinguishing for applied voltages up to about
+self-extinguishing properties require the use of the magnetic blow-
+out principle.
+They may have a large dependence of sparkover voltage on the
+waveshape of the voltage. Specifications relating to the impulse ratio
+or volt-time effect should be carefully considered.
+Since spark gaps reflect more energy than they absorb, external
+resistive components may be required to minimize ringing. Discrete
+linear or nonlinear resistors are sometimes used to assist in
+extinguishing a gap. This component may serve the dual purpose of
+limiting current and dissipating power.
+Diodes Zener 15.6.2
+This category includes all single-junction semiconductor devices such as
+rectifiers, in addition to Zener diodes. While other semiconductor devices, such
+PNPN as devices and bipolar transistors, may have appIication as surge arrestors,
+they will not be covered here because of the limited pertinent data available.
+Zener diodes are basically polarized devices which exhibit an avalanche
+breakdown when the applied voltage in the reverse bias direction exceeds the
+device's specified breakdown, or Zener voltage of the device. Operated in an
+opposed series configuration, diodes can be used as effective suppression devices.
+Since Zener diodes are designed to operate in the breakdown mode, they usually
+can perform more effectively as terminal protection devices than can signal
+diodcs. While the energy-handling capabilities of Zener diodes are modest when
+compared with those of spark gaps, they are very well adapted for protection of
+individual components or circuit boards.
+The advantages of Zener diodes include the following:
+They are of small size.
+They are easily mounted.
+They have low "firing" voltage.
+They have low dynamic impedance when conducting.

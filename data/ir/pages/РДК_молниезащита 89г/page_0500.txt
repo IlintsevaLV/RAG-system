@@ -1,0 +1,55 @@
+the with start frequencies, above of the At each 3. currents and voltages call for test specifications
+and level power α low for adjusted generator surge the adjust specified by (18.8], those than other
+the until either level generator the surge then raise is current circuit short until the desired generator
+or 18.1 is reached in Table level specified current of the generator. Σ setting, Record the obtained.
+4
+reaches Σ•. until it
+5. Insert the injection transformer over the cable un-
+der test. 4. Apply the requisite number of pulses.
+6. Reduce the power level of the generator to zero. 5. Upon completion of the test series verify that the
+operation of the EUT is within specifications.
+7. If < Si, adjust the power level of the gener- Σ.
+ator until either the desired current is obtained
+CW Σ.. the Apply reaches the setting or cable the on Signal
+appropriate number of pulses. injection probe -Source
+8. If <Σ adjust the power level of the generator Σ, Si
+test under cable rnt obtained is desired circuit voltage the either until
+or the setting reaches Apply the appropriate onitor probe Σ,.
+number of pulses.
+to V probe alternative An Impedance: of verification Alternative
+means of verifying the correct functioning of the surge plotter
+Receiver circuit open to measure is transformer, generator and
+by 50% falls voltage the that verify then and voltage,
+impedance. Measurement of cable 18.39 Fig. the trans- to load is connected resistive α 25 ohm when
+former. This method is most appropriate when the
+impedance of the generator and transformer is known
+to be predominantly resistive.- 1000 Λ-
+Modified multiple frequency approach: The ap- . 316
+-^-,-/
+proach starts by measuring the impedance of the cable
+under test using an impedance analyzer or α calibrated ----- 100
+RF receiver. The recommended measuring setup is
+shown in Fig. 18.39, and α typical plot of cable im-
+- -
+31.6 impedance Points of Fig. 18.40. in shown pedance
+---
+maxima and minima should be noted as they may in-
+dicate frequencies at which the system is particularly 10
+--
+susceptible to interference.
+I Tests are made at the above frequencies, plus 50 I
+50 Mhz 10 Mhz 1 and 1 Mhz distributed between frequencies logarithmically
+50 MHz, the frequencies being given by
+impedance. cable Typical 18.40 Fig. (18.16) 0o.0346729ξ(ν-1) = FMh,
+where ν 1, 2, ... 50. = 3
+18.8 Procedures for Ground Circuit
+Injection The test procedure is as follows:
+Position the injection transformer in α ohm 1. 100
+of surges into equipment ground and adjust the power Direct injection test jig, described in [18.9],
+is an appropriate way to test for the effects of setting of the surge generator to achieve the volt- points
+basic test setup rises. The ground circuit the set- structural in Table 18.1. Record level called for age
+is shown in Fig. 18.41. Any lead from an internal ting as Σ..
+ground point is connected to the ground stud of the
+the of the case connecting Cables case. equipment and test under of equipment pieces the Position 2.
+installed should be of equipment other pieces EUT to cables. the appropriate them with connect
+487

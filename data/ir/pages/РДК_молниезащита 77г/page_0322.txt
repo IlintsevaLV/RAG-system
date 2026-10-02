@@ -1,0 +1,25 @@
+usual assumptions about the length of the cylinder and the return path for the
+V1 V2 and are shown, both injected current are assumed to apply. Voltages
+being measured between their respective conductors and α point on the inner
+wall of the cylinder. Figure 10.16(β) shows that all of the internal flux will pass
+2 and the inner wall of the cylinder, while only α small between conductor
+1 and the inner wall. Correspondingly, α amount will pass between conductor
+large fraction of the internal flux passes through the plane defined by
+1 2. and conductors
+Α POINT ON THE
+INNER WALL
+. 2 CONDUCTOR CONDUCTOR 1
+\ I I SMALL AMOUNT OF INTERNAL FLUX
+I
+\
+LARGE AMOUNT OF INTERNAL FLUX (β)
+governing the internal voltaye, Factors 10.16 Figure
+(α) The geometry
+Internal linkages (β) flux
+The voltage between any two points is defined again as the line integral of
+the potentials around α closed path. Figure 10.17(α) and (β) shows the sinlplest
+V1 paths to consider. would be the sum of the potentials developed around the
+ABCD. If 1, there is no current along conductor the potential along path loop
+Β-C Α-Β The will be zero. potential drop along the path will be zero because of
+C-Δ will the assumptions regarding the end cap. The potential along the path
+then be the voltage drop produced by the inner current density times the

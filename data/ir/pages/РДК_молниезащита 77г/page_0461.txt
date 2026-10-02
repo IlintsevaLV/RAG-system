@@ -1,0 +1,39 @@
+CHAPTER 16
+COMPONENT DAMAGE ANALYSIS
+16.1 Introduction
+The energy coupled into a system by lightning induces large current pulses
+into the cabling and wiring of the system and resulting voltage pulses across
+loads. Determining whether or not these voltages and currents cause upset or
+damage to active or passive components requires a knowledge of the failure
+thresholds of devices. These failure thresholds were investigated extensively
+(NEMP) effects on electronic during studies of nuclear electromagnetic pulse
+equipment.
+Assessment of the vulnerability of a system to a transient environment
+leads to the observation that failure of the system to function properly may
+result from a degradation in performance of a single active or passive component
+device when it is subjected to a transient voltage pulse. Systems vulnerability
+evaluation therefore requires that one know the failure thresholds for devices
+subjected to transients. Simulation of failure resulting from transients at the
+component level can be conveniently performed in the laboratory by means of
+high-voltage pulse generators. Information from such simulation can then be
+correlated with the original threat (EMP or lightning) by analytical techniques.
+Semiconductor electronic components are generally more vulnerable under pulse
+conditions than are nonsemiconductor components; therefore, most of the
+discussion of this section will be devoted to semiconductors.
+16.2 Theoretical Models
+The number of 'semiconductor devices that have been experimentally
+tested (mostly diodes and transistors) is only a small sample of the total number
+of devices available. However, the scope of the experimental results has been
+extended by development of theoretical models which relate significant changes
+in the properties of a semiconductor PN junction to high temperatures generated
+in the junction region during application of a high-voltage pulse. Theoretical
+models based on thermal analysis of the junction region yield a mathematical
+in the junction relation between junction temperature and power dissipation
+region. This re!ation can be used to define a constant characterizing the
+operation in a given time domain of each device.
+16.3 Empirical Models
+In addition to the theoretical correlations just described, the experimental
+data have been used in the development of empirical relations which are
+obtained from two models of semiconductor junction devices--the junction
+a capacitance model and the thermal resistance model. These models provide
+framework from which the power failure threshold of an untested device can be

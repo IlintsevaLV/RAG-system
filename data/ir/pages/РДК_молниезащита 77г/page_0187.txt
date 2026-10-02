@@ -1,0 +1,45 @@
+Induced voltages will also appear two or more wires or shields at between
+the probe end, but any one of these wire-to-wire voltages will usually be less
+than the voltage between either conductor and the airframe because the area
+between wires in α cable bundle is usually less than the area between any one of
+them and the airframe.
+The routing of the fuel probe wires, therefore, has α lot to do with how
+much induced voltage appears at apparatus inside fuel tanks. Since fuel tanks are
+often completely enclosed with metallic walls which are electrically bonded and
+well sealed, the magnetic fields from lightning (or any other source) are likely to
+be lowest inside the tanks. Thus, wires that must eventually enter the tanks
+should be routed through them from the start. Newman, Robb, and Stahmann,
+11 V, or less, in the fuel quantity probe for example, have measured up to
+α KC-135 wing fuel tank (Reference 6.64) through which circuits routed inside
+50 kA strokes with α 50 kA/ps rate of rise were being conducted. This voltage
+at α severe stroke amplitude of 200 would extrapolate to α maximum of 44 V
+kA. Plumer (Reference 6.65) measured up to 4 in α fuel probe circuit routed V
+inside the tanks of an F-89J wing. The simulated lightning current in this case
+was 40 kA, with α rate of rise of 8 kA/ps. From these results Plumer predicted
+V that α 200 kA, 100 kA/ps lightning stroke would induce 185 in the same
+circuit. At the time these measurements were made, most researchers looked for
+induced voltages of the same duration as that of the lightning current and paid
+little attention to other signals, suspected to be "noise," appearing within the
+first microsecond of an induced voltage trace on an oscilloscope. These "noise"
+signals, however, often had higher amplitudes than the more familiar, longer
+duration voltages considered to be authentic. With the advent of better
+instrumentation, these high-frequency voltages became known to be legitimate,
+induced perhaps by the higher frequency traveling wave currents that may
+appear in the airframe as α result of the mechanism described in Chapter 8,
+Section 8.2. Thus, higher voltages than those reported by Newman and Plumer,
+may in fact be induced in fuel quantity probe circuits, although the literature
+shows no recent measurements of induced voltages in fuel tank electrical circuits
+to establish what the amplitudes of these voltages might actually be.
+If it is not possible to route wiring inside the fuel tank, it may be routed
+6.41; outside of α tank as pictured in Figures 6.30 and but, if this is done, great
+care must be taken to minimize the amount of magnetic flux that may link these
+wires or their shields. This precaution is particularly pertinent for wings where
+wires are routed within leading and trailing edges, which are often exposed to
+higher magnetic field levels than Asewhere. Fiberglass has replaced aluminum in
+some leading edge skins, and, in some aircraft, control surface openings allow
+magnetic flux to penetrate directly to the aft wing spar, along which electrical
+cables are often routed.
+If fuel system wiring must be routed outside of the tanks, there are several
+methods that can be used to control induced voltages, often to levels far below
+those required to cause α spark at α fuel probe. These involve routing
+improvements, grounding of the shields to the airframe at both ends, and use of

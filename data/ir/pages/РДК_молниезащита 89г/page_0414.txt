@@ -1,0 +1,47 @@
+α loaded conductor. Fig. 15.5, the division of volt- , IOW Μ
+002 11-0-1 is primarily governed by the load impedances and
+Iage IND
+no difference the shield makes practically connecting
+voltage. the in
+--- am COAM τ
+.. .. .. .. .. .. .. ..... .... ._.2..., ! ! (bYI C0 I , (Ω v~....λ 1
+(α)
+2V . V 2
+ι (C
+(β)
+-es -in -+ (α) cod Τ- -
+(β) (δ) u _ . -
+Fig. 15.2 Shield not grounded at either end-
+-+
+loadditio nof 5ohm α τ rensis ate ena ed. bythe volt-
+age at the loaded end is reduced, but since the total
+voltage induced around the 1lop remains unchanged, ( Tsci
+,.. with the highest to the end is just shifted the voltage ..
+impedance. With reference to the equivalent circuit of.
+voltage at there is any fact that 15.3(χ), the Fig. .v) ,ovI V V1 v, 2
+implies the existence of some capacitive loading as well
+as the desired resistance load; otherwise there would (α)
+be no voltage across (α) V .
+2
+Shield grounded at one end: Adding α shield, but . - - -
+grounding the shield at only one end, Figs. 15.4 and .,-, V
+2
+15.5, lowers the voltage at the end where the shield
+-. phe-_ The end. other, it at the but raises grounded, is -V
+nomenon can be explained by the equivalent circuit of
+_
+Fig. 15.4(χ). The changing magnetic field induces α
+voltage between the ends of the shield and siuce one
+π lo" (β) ap- mist voltage the all grounded, is shield the end of
+pear between the open end of the shield and ground. +
+The conductor is exposed to the same field and the ; J
+ends tI of between the developed will be same voltage
+the conductor as between the ends of the shield. V V
+2
+How this voltage divides depends on both the 1 7. 7--, 77
+grounding of the shield and the load impedances on the (C) Fig. 15.4 Shield grounded at one end
+conductor. With unloaded conductors, Fig. 15.4, the Test conditions (α)
+voltage at end 2 is reduced by the capacitance between Voltages (β)
+the conductor and the grounded end of the shield, but (χ) v altcges
+circuit With (χ) Equivalent voltage just appears at the other end. the excess
+399

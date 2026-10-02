@@ -1,0 +1,56 @@
+as an endorsement of should not be taken may discussion bipolar transistors, PNPN devices and such as
+have application as surge arresters, they will not be any one product. For purposes of design, the manu-
+here. facturers literature should be consulted. covered
+devices which basically polarized are diodes Zener
+exhibit an avalanche breakdown when the applied volt- Reverse standoff voltage: This specifies the voltage
+age in the reverse bias direction exceeds the device'σ below which leakage current is negligible and thus cor-
+specified breakdown, or Zener voltage of the device, responds to the leakage region discussed for metal ox-
+Diodes intended for regulation of voltage can be used ide devices. One difference is that the quantity cited
+to suppress surge voltages, but diodes specially fab- is α dc voltage, unlike MOV devices that wvould most
+ricated for surge suppression are better. These have likely be rated in terms of V-rms for sinewave excita-
+bigger silicon junctions and more massive end caps to tion.
+better dissipate heat. Some surge suppression diodes
+voltage developed are intended only for protection against surges of one Breakdown voltage: This is the
+polarity and act as conventional forward biased diodes in response to α test current, usually 1 mA dc, as is
+in the other direction. Others are intended for dual common with MOV devices.
+back- connected diodes two effectiyely are and polarity
+to-back. Clamping voltage and peak pulse current: The allow-
+are stated diodes and MOVs surges for protective switch to α able the diode does not The voltage across
+low value when conducting, but remains at the Zener somewhat differently. Diodes are specified in terms of
+voltage. This characteristic accounts for their abil- α clamping voltage at α specified current, the product
+ity to cease conduction when the voltage falls below of Vc, and Ipp yielding the peak power instantaneous
+the Zener level, but it has α disadvantage thermally. of 1500 watts for which the devices are rated. MOVs
+During conduction, the power absorbed by the diode are rated in terms of energy. For both totae deposited
+is the product of the current through the diode and protective diodes and MOVs the specified current wave
+the voltage across the diode. The power absorbed for has the 10 ξ 1000 ps wavesh•,pe specified in [17.4],
+constant current, thus, is directly proportional to the Instantaneous powers higher than 1500 watts may
+diode voltage, be dissipated if the duration of the surge current is
+Partially offsetting this disadvantage, however, is less than 1 ms. Other product lines have higher power
+the phenomenon that surge energy absorbed in the ratings.
+diode is energy that cannot be reflected back into the When conducting, the voltage and current of α
+system to cause trouble elsewhere, protective diode are related in the same manner as
+with MOVs;
+Depletion layer: In diodes, the voltage drop takes I (17.3) kV* =
+place across the narrow depletion layer andi the mass
+available for absorption of energy is thus very small. The exponent α for protective diodes is in the range
+Heat must be conducted into the metal end caps and 100 -- 500, higher than the comparable figure for
+then dissipated through the leads of the diode. Energy MOVW. The clamping voltage for protective diodes
+handling capability of diodes is thus intrinsically less is thus more nearly constant with surge current than
+than that of spark gaps and metal oxide varistors. As for MOVs.
+α result, diode networks will not be the preferable pro-
+tective device where extremely high transient current Capacitance: Surge suppression diodes have α high
+or energy is predicted. For most lightning hardening capacitance, several hundred pF to several nF, values
+applications in aircraft, this is not α serious limitation, on the same order as MOVs of comparable current and
+since the induced surge current levels are in the to energy ratings. I
+100 Α range at those locations where surge suppression
+diodes are most likely to be used. Speed of Since the response: non-linear action of pro-
+thin depletion takes place in the very tective diodes
+Ratings Zener-typs diodes: of Ratings of Zener- region, there is little dependence of clamped voltage
+type protective devices follow α pattern similar to that on waveshape of surge current. Theoretical response
+discussed for metal oxide devices. The discussion that times of 5 I - picoseconds (1 -5 ξ 10-12 seconds) have
+follows will be illustrated by reference to General Semi- been cited, but such times have little meaning since
+φ17.5]. conductor diodes Table 17.3 refers to α line the performance of protective diodes is governed by
+of 1500 watt bipolar devices in α hermetically inductace DO-13 of leads just as with MOVs. Excessive lead
+sealed package. Similar devices are available from length degrades the performance of any protective de-
+other sources and, as with metal oxide varistors, the vice.
+449

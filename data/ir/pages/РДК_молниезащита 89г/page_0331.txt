@@ -1,0 +1,75 @@
+of the tube to two different wave- The response
+shapes is shown on Fig. 11.12. The figure shows how
+the waveshape of the internal response may be almost
+independent of the waveshape of the external driving
+current, α situation that will occur if the duration of
+the external current is short compared to the pulse
+penetration time. The amplitude of the internal re-
+sponse will depend on the external driving current,
+but only on its impulse strength, or time integral,
+0-6cidteory
+.. 1•__ 100
+_....
+0an
+-zo1.
+0 ,u&α ndc mn io* too *
+. 0.2 0.25.
+(β)
+0 00
+suo 0 Soo o narosme• 0
+0.08 0.0 . .- .
+0 • ......... 0
+Soo 0 wam~coend. So50 udavW9WcOu 0
+Fig. 11.12 Internal and external waveshapes.
+(α) Input current 1, -
+(β) Current on inner face - 1ι
+(χ) Cavity current - I'
+Internal cavity impedance: The equivalent circuit can
+be extended by incorporating the internal impedance,
+sur- shielding the by bounded volume the of Li and Ri
+face. In general, the internal impedance bounded by
+induc- the internal by be dominated will surface the
+tance, which leads to the observation that the internal
+be will current
+(11.32) dt. E Ii=-J
+The magnetic field will have the same shape as that
+predicted by Eq. 11.32. which is to say that the deriva-
+will have essentially field internal magnetic tive of the
+voltage shown on Fig. 11.12. the same shape as the E.
+is of cavities impedance of internal The question
+in §11.7. further discussed
+315
+
+11.3.6 Plane Conducting Sheets
+Thus far, attention has been focused on uniform
+current flow on plane sheets or on α circular cylin-
+der. One might reasonably ask whether or not the
+concepts which have been discussed also apply to sit-
+uations where the current flow is not uniform.
+Such α situation is illustrated in Fig. 11.13, which
+shows α current entering α plane sheet of thickness δ
+α. situa- This conductivity isotropic homogeneous and
+examples importance, practical considerable of is tion
+lightning strike on an aircraft fuel including α direct
+or to case of α rocket motor, tank, to the conductive
+ques- The cables. nearby with internal skin aircraft
+tion of interest is the internal electric fields, perhaps to
+of fuel ignition or to evaluate evaluate the possibility
+to cables. coupling the
+the between differences some significant There are
+examiples, such situation of Fig. and the previous 11.13
+as Fig. (plane wave normally incident on α plane 11.1
+current flow on α cylin- sheet) or Fig. 11.2 (uniform
+is not density the current 11.13, Fig. First, for der).
+field on the outer surface uniform, in that the magnetic
+of the sheet is given by
+H =-.(11.33)
+aIHH
+,
+(0,0)
+Er δ (Ez) (β)
+E ζ
+plane conducting to α Lightning strike Fig. 11.13
+sheet.
+view (α) Oblique
+solution the for model used 2DFD (β)

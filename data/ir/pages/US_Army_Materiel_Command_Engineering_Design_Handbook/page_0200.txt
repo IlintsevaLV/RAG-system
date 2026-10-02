@@ -1,0 +1,111 @@
+I
+9_.CP
+corresponding cqLnerally is that value
+(ρ/UD),.,j,(Ref. 4). Further, it is preferable to
+α blade configuration (planform, twist, and
+section(σ) ) such that the ratio of section lift 3nd
+coefficients is maximum simultaneously cl/cd
+along the blade span.
+5-2.1.τ Tip NvaSWb Blade Mach
+Performance and weight considerations
+arm in conflict when efforts made to are
+rotor tip speed. High tip Mach numbers (greater
+0.65) can be attractive from the points of view
+transmission and blade weight, but they have
+mental effects upon both power required and
+propagation. If higher tip Mach numbers
+employed, tip airfoil selection becomes
+• hover performance; thin airfoils (thickness
+than 10% of chord length) are desirable, and the
+must be selected so as to maintain relatively
+lift coefficients,
+5-2.1.4 Number of Iades
+I C'gr γ:ti Inklina unit.σ,, nf ....
+Mach tip blade and lift cocfficient, blade
+With uniquely. defined has been rotor solidity
+planform α rectangular from variation significant
+-- α, solidity rotor effective the blades, the rotor
+I. of Ref. the method using evaluated be
+rotor of product the by is defined area Blade
+among divided can be and area disk ty and
+expeijenc design Propeller blades. of number
+dicates that efficiency increases with increasing
+numbers of blades. However, recent analytical
+data, and whirl test by flight vances, confirmed
+that tg -is 'ρ ρ.. τ
+Apparently, intcrblad¢ interference can reduce
+hovering efficiency of muitibladed rotors
+The selection of the number of β!ades, therefore,
+dependent morm upon considerations of overall
+system weight than upon aerodynamic efficiency
+par. 3-4.1, AMCP 706-201).
+Σ-2.1.5 Twig
+Selection of blade twist for the "'ideal" rotor
+covered in Ref. in current helicopters, I
+generally is linear in order to simplify
+turing. If used, stretch-formed spar3 are
+twist is obtained quite easily. In any event, twist
+tion is α function of disk loading and blade tip
+number. The higher the disk loading, the greater
+optimum twist; and the higher the tip Mach
+the greater the required twist. Twist optimization
+achieved by systematic variati.ns using
+analytical methods.
+
+06-202
+5-2.1.6 to Airfoil Sectiom
+sections obtain Rotor blade airfoil preferred for %lhcir
+aerodynamic airfoil characteristics frequently are incom-
+drag patible with structural design requirements. and α
+all compromie nmmt be made. In general, for the
+hovering rotor the inboard airfoil should be of α low-
+drag type (at least with extensive lower.surface lami-
+nar flow). Outboard of 70% radius, compressibility
+generally effects ι..ust τ considered, and the lift-to-drag α ratio
+optimize Λ/Δ for the airfoil section slould occur at the local
+than Mach number and angle of attack. These conditions
+of both suggest α spenwise variation in airfoil contour. If α
+dctri- constant airfoil is employed, its scleclion should be
+noise weighted toward complying with the angle of attack
+are and Mach nun.ý,er conditions at or near the blad- tip
+more critical (outboard of 80% radius).
+less
+twist 5-2.1.7 Hovering Thrust Capability
+low tip The capability of α hovering rotor to produce
+thrust can be expressed by α simple relationship.
+However, the agreement between the calculated and
+measured values of thrust produced for α given
+of power applied of practical amount mean to rotors con-
+σ are ,prove•ne, " Several not good. is figuration number,
+AMCP par. 3-2.1.1, in arc reviewed and available any
+calcu- for appropriate most method The 706-201. for
+is depen- possibly new rotor of α the capability latinS should
+analyti- which for to rotors similarity the upon dent
+limita- The results are available. experimental and cal solldi-
+of the prediction for methods available of tOie tions an-,
+in is discussed also rotors hovering of performance in-
+Ref. 5.
+ad-
+GuIdeflin 5-2.1.8 show
+'rth o
+.. v. .u-*v.rn
+the eters requires systematic parAmethc varip.tion in-
+(Ref. 5). volving all of the major variables given previously.
+is This analysis is discussed in detail in par. 3-4 1,
+rotor AMCP 706-201. Generalized results arce given in the
+(see paragraphs that follow.
+In current helicopter designs, disk loading general-
+ ' does not exceed lb/ft . Light helicopters (less ly 10
+lb than 5000 gross weight), tend to have disk ioadings
+2 is of 3-5 lb/ft . The medi in,-size helicopter, 5000-
+lb/fl' twist 15,000 tends to lb be in the 6-5 class, and for
+manufac- larger helicopters disk loading is of the order of 10
+ ' nonlinear lb/ft . Si'ε and weight effects bias the disk Ioadings
+selec- higher as gross weight increases.
+Mach The curremt cinphasis on high-altitude, high-tem-
+the perature design conditions results in values of mean
+number, β!ude lift coefficient values of the order of 0.44 to ?'Λ
+is 0.54 for sea level standard day conditions at primary
+detailed mission gross weight.
+Current helicopters have hove:ing blade tip Mach
+5-5

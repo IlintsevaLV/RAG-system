@@ -1,0 +1,92 @@
+parad to 1 500 mi for fixed-wing aircraft. Bearing sizos
+can be cstablicbed by the methode outlined in Ref. 2
+or α comparable relier bauring har dbrok. À soal or
+other moans of preventing water from entering the
+corrosion.
+12-1.1.3.3 Sbeck Struts
+The most commonly-used devices for absorbing
+cnergy during α landing, and for supporting the heli-
+coptar during taxing and ground operations, are mo-
+chanicci springs, liquid springs, and sir-oil struts.
+Otber methods ot absorbing energy (usually referred
+to &σ socondary energy or ono-time application usagc)
+are:
+φ. Cruabatle structures, ε.γ., honcycomb
+2. Friction devices, ι.o., two materials in contact
+with cacis other
+3. Exiruc ing Gevicos, ε.3., metal drawn through an
+undersiaod bole
+4. Cutting χ vices, ε.γ.. α shrrp edge slicing
+through mctal as it movos 3. Fiastic deformation, ι.ε., material stretched
+beyond the clastic limit.
+Thesc devicos are mentionod as possible solutions
+wben an euergy abeurption beyond the normal land-
+ing gear cagability is desirod.
+The most commonly-usod mechanical spring is the
+cantilever type, with eithor α tiat or α tubular cross
+soction. These can be considerod to have α linpar lond
+defloction curve if they are not strossed beyord the
+dlastic iuni:. Otber types of grochanical springs —
+such as Belleville washers, ring springe, and_rubber
+— bave nonlincar load defloction diagrams. Dam-
+ping is small (usuaiiy due oniy to ioss of energy at tine
+support, or frictional forces beatweon clementa).
+Bocause the rprings return far more energy than they
+dissipate, the use of spring landing gesr usually is
+limited to light aircraft. Tbe lack of damping alao in-
+creasas the likelihood of ground resonance.
+Both the liquid spring and the air-oil strus absorb
+cnergy by the deahpot principle, forcing fluid uncer
+prossure through an orifice. In either application the
+arca of the oriñice may be fixed or may vary with dis-
+placoment, as α metering pin of varying diameter
+moves through α fixod orifice. In the liquid spring tbe compressibility of the fluid
+is v aod to store epargy. Spocial consideration must be
+giv. Α in the gland designs to the high prosures at
+which thcac units oporatc. The sonsitivity to changes
+in temperature also must be considerod. For examplc,
+to accommodate low tamperatures, the unit prob-
+ably will be pressurized in the extended, or un-
+loadod, cqudition to 2000 pei and special fortures
+
+AKcP. 706-202
+such as α "decuparator" unit must be provided to
+limit the pressure rise due to high temperature. Α
+liquid spring is particuiarty well suitod for short
+stroke applications with leverod goar arrargonenta,
+but any longth stroke can be schioved by proper com-
+bination of piston rod diameter and total volurao of
+oil. In fact, with tail rod liquid spings, exceptionally
+long strokes can be achioved. For servicing α liquid
+spring without jacking the helicopter α chsrging
+pressure of 20,000 pai is requirod, while the maxi-
+mum charging pressure roquired probably is 2000 pai
+when the spring unit is unloaded and fuily extonded
+by jacking the helicopter.
+In the air-oil strut α chamber of compressed air is
+used to restore the strut to α suatic position and to
+provide α cushion while taxiing and ma reuvering the
+helicopter on the ground (Fig. 12-3). The efficiency of
+nee 01 ss doup kq usous σ eos o jo sh sψ
+be betwoon 80 ais 93%. Α conscrvatively low valuc
+for the shock absorber efficiency shouid be uaad,
+together witl .he specified resorve energy descent vo-
+locity and the dosign limit landing load factor, to es-
+tablish the maximum strut stroke required to absorb
+the toiai reserve energy. This design calculation is die-
+cussrd in pcs. 4-10.3, AMCP 706-201.
+The lower values of efficiency are applicable to
+struts containing fixod orifices. The higher values arc
+achieved by the introduction of α mctering pin. This
+configuraton provides α variable orifice, which can
+METERING PIN
+ORIFICE AND BEARING
+SNUBBER
+PISTON
+CYLINDER
+HYDRALILIC FLUID
+LOWER BEARING
+SEPARATOR PISTON
+AIR
+Fignre 12-3. Typical Air-O8 Strut in Static
+12-5

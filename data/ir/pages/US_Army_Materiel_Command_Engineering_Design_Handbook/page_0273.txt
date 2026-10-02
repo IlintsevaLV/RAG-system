@@ -1,0 +1,93 @@
+AMCP 706-202
+tail rotor thrust caprhif".· sti" ·· be an yzed
+under forward flight conditions, sncluding critical
+maneuvers. Without such verification, it may be
+necessary to restrict the helicopter operational enve.
+lope or to redesign the tail rotor when deficiencies are
+discovered during subsequent Right test.
+Prior to final definition of the maximum required
+tail rotor thrust, consideration should be given to in-
+creased thrust requirements resulting from the in-
+crcased engine power availablc with enginc growth.
+Refs. 58 through 61 givc additional data on tail
+rotor design. There currently are no Military Specifi-
+cations applicable specifically to the design of anti-
+torque rotors.
+5-9.2 TYPCIAL ANTITORQUE ROTORS
+Tail rotors in current use employ from two to six
+blades. However, there is no basis for limiting the
+number of blades. The blades arc retained ι.ν α hub τ
+allow collective pitch change ranging from positive to
+negative angles. Two-bladed tail rouors Λ-aliy are
+designed with iectering biades, whercas rotors with
+threr or more blades havc individual hirges. In cithes
+type, 8, commonly is used to control the flapping
+magnitude. In tail rotors with te tering blades, the
+precone required for vznding moment reauction aiso
+can be used to compensate for the acrodynamic and
+centrifugal twisting moment that drives the blade to
+low collective pitch angles. The blades may be
+retained in the hub by bearings, trnsion-torsion
+straps, or elustomeric bearings.
+The blades used for tail rotors are much stiffer in
+all modes than those used for main rotors. For in-
+stance, in the torsional mode, the combination of
+biade and contrul stiffness generaily is five to six
+times greater than the stiffness in main rotors. This,
+combined with the higher relative mass and high
+beari ig Gamping. usualiiy ciiminatas the mass baiance
+requirement for preventing flutter and divergence.
+(Ref. 59).
+5-9.3 TAIL ROTOR DESIGN REQUIREMENTS
+The tail rotor shall produce the thrust nscessary for
+helicopier ysw contrui and the antitorquc require-
+ments of the main rotor. This thruss must be pro-
+duced when operating in the flow ficld and dyramic
+environment found with tail rotor belicopters; ε.γ., in
+the presence of α tail fin, in the wake of thc main
+rotor ai sideward velocitics, ncar the ground, and
+when the helicopter has α positive or negative yaw
+rate and/or accekration.
+Basod upon the goometric conditions between the
+tail rotor and the rest of the helicopter (Fig. 5-50)., the
+tail roto. thrust Τ.. required is found from Eqs. Σ.19
+and 5-20 with Ξ and R. meusured ies foct:
+5-78
+
+(ΩR)μ: 550 HPm Rmr . ft-1β (5-19)
+"Λ Qmr + 12: 16 (5-20)
+Ξ
+where
+mass moment of inertia of hclicopter in
+yaw, slug-ft²
+= distance from centerline of main rotor to
+centerline of tail rotor, ft
+yaw accelcration, rad/sec
+mr main rotor torque, ft-lb
+R mr main rotor radius, ft
+(ΩR). mr main rotor tip speed, fps
+" tail rotor θ. ust required to comapensate for
+main rotor torque, and to provide required
+yaw acccleration, lb
+The tail rotor thrust calculated in Eq. 5-20 is the
+net thrust. taking into account all interference losses
+due to the presence of vertical tail fins, flow ficld, and
+dynamic effects. The rotor will be designed to mect
+the thrust requirement found in Eg. 5-20 at the criti-
+cai hovering temperature and altitude or θ critical
+engine altitude. Normal forward flight condi.ions are
+of secondary importance since the vertical tail fin
+usually is designed to unload the tail rotor at cruisc.
+High-speed autorotations and rolling pullouts are
+ewo critical exceptions.
+In addition to producing the thrust required. the
+tail rotor shal! be decigned for case of control.
+manual or boosied. The rotor should bc designed so
+that α linear control wifl be obtained in all flight con-
+ditions where the tail rotor docs not operate in thc
+vortex stage. The natural frequency of the rotor
+should not correspond to any criticai froquencies oc-
+curring in the rest of the structure. In addition to nor-
+mal structural integrity. tail rotor design skall con-
+sider acroclastic prob!ems.
+Fieure Σ-se. Geovetrie Dete

@@ -1,0 +1,107 @@
+AMCP 706-202
+considering ble, orifices and jet and internal toler-
+ances, so that capacity requirements can be reduced.
+Subsystem 3-8.3.3 APU Lubrication
+self- is subsystem generally lubrication The
+oil an external unless APU, within the contained
+completely α toward is trend required. The is cooler
+mairne- * sealed oil system requiring no scheduled
+nance. Filters are included internally and, with
+current uiits, are serviced at specified intervals. With
+(if used), air of buffer filtering and seals adequate
+external contamination virtually can be eliminated,
+should valves, bypass with filters, larger Slightly
+over.hauls. Oil between for change the need eliminate
+so that enough are low generally rates consumption
+long periods. for eliminated may be level.checks oil
+APU of maintenance field subsystems, fuel As with
+it than introduces more problems systems lubrication
+pumps, lubrication for factors Reliability solves.
+systems are supply or mist and jet valves, relief filters,
+high.
+the in def--ied are requirements Altitude operating
+temperature Maximum model specification. APU
+specifica- APU model in the specified limits also are
+tion.
+Qualification testing of the lubrication system is
+in accordance APU qualification with concurrent
+with MIL-Π-8686.
+Drive APU Reduction 3-83.4
+established is design APU-reduction-drive The
+accessories equipment and driven by the primarily
+to designed is usually air APU bleed The recuired.
+shaft output total its of percentage α small deliver
+con- fuel for provided be will pads Drive horsepower.
+driven all and needed), (if control generators trols,
+hydraul- and generators as electrical accessories such
+"ic pumps. ic pumps.
+"The turbine nozzle and diffuser matching within
+the APU can be changed to trade off shaft power
+capability for bleed performance within the limits of
+stall. For: the shaft horsepower APU, output may be
+APU If pads. larger two at one or concerntrated
+combining an aircraft into directly applied is power
+gearbox, fewer APU pads will be needed. In this case,
+required helicopter accessory outputs can be ob-
+tained from the auxiliary gearbox.
+'tilg APU Sts 3-8.3.5
+The APU starting subsystem be fully auto- shall
+matic, using the sequencing systems previously
+the exceed must level energy starter The described.
+APU drag (resistive) torque by sufficient margin to
+provide the required acceleration. The starting torque
+requirements will be described in the APU model
+specification.
+3-20
+
+(.
+Electrical starting is satisfactory if starter and
+battery energy levels are chosen properly. The
+the smallest subsystem requires minimum-weight
+torque, breakaway adequate with consistent battery
+This drop. voltage of initial consideration including
+(15 speed rated to time starting α longir in result will
+to provide some to 20 sec), but battery is adequate
+torque to very high speeds (80-90%). The basic limi-
+tation is that cold-day starting (-65°F) is not practi-
+H be It will batteries. oversized and warm without cable
+found that when APU size increases above 300 hp,
+start the slower Also, excessive. size becomes battery
+accelera- the fuel to more sensitive the APU makes
+at both atarts successful schedule. Achieving tion
+may adjustments without +130°F and -65*F
+mechanism. compensation α require
+satisfac- is starting of APU method hydraulic The
+Hy- is required. starting -650F especa~iy when tory,
+initial high for be sized should motors starter draulic
+to will tend This acceleration. rapid to give torque
+requirement, volume accumulator α lower in result
+variations. fuel schedule to sensitivity to reduce and
+cranting initial an will have typical subsystem Α
+APU resistive highest than the of 50% more torque
+torque. Ideally, the motor should incorporate an
+onto \: drag is induced clutch so that no 'verrunning
+the APU when accumulator fluid is expended.
+at the APU may self-sustein -65°F starting, During
+α from drag of foot-pounds few Α speed. 40-50%
+volume additional accumulator necessitate can motor
+speed. 60% or to 55 continues starting torque that so
+be can starting hydraulic discussed, previously As
+by or power for control α battery by using arranged
+control and ignition an APU-driven of incorporation
+generator. magnet) (permanent
+RELIABILITY 3-8Α4 "
+Rlait haraciLiTe R
+Reliability characteristics are specified in the Α'PU
+model specification. For helicopters using thc U
+for inflight emergency power, starting reliability is o ι
+for APU requirements Typical major importance.
+3-2. in Table shown are rates failure starting
+TABLE 3-2
+APU RELIABILITY
+_ _
+NUMBER OF STARTS ALLOWABLE FAI LURES
+0 0-500
+501-775 1-
+776-1050 24
+1051-1390 3-

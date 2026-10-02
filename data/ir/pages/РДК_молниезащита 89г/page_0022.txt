@@ -1,0 +1,76 @@
+cribed to the growth of α streamer that leads to
+ization in the gas and is separate from any processes
+taking place at the electrodes. Whether the streamer
+leads to α complete breakdown between two electrodes,
+or is confined to the localized discharges called corona
+depends to α considerable extent on how the electric
+field is distributed across the entire gap. The localized
+corona discharge will be considered first. It occurs
+when only the region around the electrode is highly
+stressed; that is, exposed to α sufficiently high electric
+field, 25-30 kV/cm.
+1.4 Corona
+Corona, Fig. 1.3, is α glow discharge that forms
+around conductors when the surface voltage gradient
+(rate of change of voltage with distance normal to
+surface of the electrode) exceeds α critical level, about
+30 kV/cm in air at sea level atmospheric pressure.
+can also form on grounded objects exposed to α
+electric field from some remote source such as high
+voltage conductors or charged thunderstorm clouds.
+It also forms on the masts of ships and on the
+tremities of aircraft when they are charged by flying
+through clouds. Then the phenomenon is commonly
+called St. Elmo'σ fire, but the mechanism is the same
+as that observed on high voltage conductors. Corona
+is α localized discharge, but can be the precursor to
+complete breakdown, and can be α prolific source of
+interference in radio receivers,
+Fig. 1.3 Corona.
+1.4.1 Negative Corona Processes
+The negative corona process occurs when the clec-
+trode upon which the corona forms is subjectd to
+sufficiently large negative electric field, α negative field
+.
+being defined as one in which an electron in the space
+around the electrode is forced away from the electrode,
+Fig. 1.4. Α common situation involves the electrode
+being connected to the negative terminal of α power
+supply while the positive terminal is grounded. The
+
+ion- negative electrode need not be directly connected to
+α power source however; the electric field may be cre-
+ated by induction from other charged electrodes. Con-
+sideration of where the other electrodes are located
+is rather academic since the important matter is the
+electric field in the immediate region of the conductor
+upon which corona is formed.
+electrode
+field lines
+"electron
+K - .
+' -
+the
+It Fig. 1.4 Motion of an electron in α
+high negative field.
+Because of some initial ionization process, an elec-
+ex- tron is liberated in the gap. Under the influence of
+the electric field the electron is repelled away from
+the electrode. As it is repelled, it collides with the
+gas molecules and α flood of other electrons is trig-
+gered by the avalanche process described in §1.1. This
+leaves α cloud of mixed positive and negative charge,
+Fig. 1.5(α). The electric field forces the electrons away
+from the space where the avalanche is formed and so
+point - + +
+no light light
+++
+4
++
+α +
+46 EDP
+positive ions negative ions
+sweep into sweep outward
+electrode and are lost
+Fig. 1.5 Motion of ions for negative corona.
+3

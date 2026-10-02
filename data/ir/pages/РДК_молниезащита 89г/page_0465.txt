@@ -1,0 +1,84 @@
+6. Not normally availabie for voltages above a few
+hundred volts.
+Diodes Forward-Conducting 17.4.4
+In a forward-conducting state, a diode conducts
+little current below about 0.3 V for germanium and
+V for silicon. They can, as a result, be placed directly
+across a low-voltage line and afford substantial protec-
+tion. Diodes can be connected in series for higher
+age circuits. Diodes in parallel back-to-back would
+needed for bipolar protection.
+Advantages of forward-conducting diodes:
+1.
+1. Small size.
+2. Not costly.
+3. Provide protection at very low-voltage levels.
+4. Excellent surge-current ratings.
+Disadvantages:
+1. Not bilateral. For protection of both polarities,
+two diodes in parallel must be used. Some vendors
+for protection purposes. supply bipolar diodes
+2. Conduction may occur on normal signals with
+tendant signal-clipping and frequency multiplica-
+tion effects, Diodes must be used in series to levels. voltae
+3. High capacitance.
+17.4.5 Reverse Biased Diodes
+17.22, Fig. in as shown diodes, biased Reverse
+fer excellent protection for signal circuits. Under
+mral operation the diodes are reverse biased and effec-
+tively disconnected from the circuit, but whenever
+voltage on the signal line exceeds the power supply
+volta•, the diodes become forward biased and
+the surge to be conducted into the capacitors. Since
+no circuit will operate correctly for normal signals
+ceeding the supply voltage for the input semiconductor
+circuits, the supply voltage for the protective diodes
+uutomatically of the correct level.
+The reverse biased diodes have very low capai-
+tance and the circuit is thus well adapted to protection
+of high frequency circuits for which the capacitance
+diodes presents surge protective and Zener type MOVe
+problems. When called upon to provide protection,
+*the diodes operate forward biased and even small
+
+nal diodes can carry very large surge currents. Some
+CMOS device3 have similar diodes built in, but they
+are only intended to guard against static electricity
+against protection offer to on relied be not should and
+surges.
+Resistors may be used to prevent excessive surge
+0.6 energy from being conducted into the circuit power
+supply and surge protective diodes can be used to by-
+pass excessive surge energy to ground should the surge
+volt- charge the capacitors to an excessive voltage.
+be
+Advantages reverse biased of diodes:
+1. Low capacitance.
+LSmallacsize.e
+2. Excellent surge handling capability.
+Disadvantages:
+Must 1. be included in initial design of circuit.
+2. Seldom practical to add to existing circuit boards.
+"
+load source
+at-
+)
+raise -V
+Fig. 17.22 Reverse biased diodes.
+Protection Hybrid 17.4.6 of-
+nor- Frequently a spark gap and a MOV, or a MOV
+and surge protecting diode, a are used together to pro-
+the vide added protection, as shown in Fig. 17.23. The
+higher energy device is connected close to the point
+allow where the surge may enter the system and the lower
+energy device is connected close to the more sensitive
+ex- components. The principal is that the high energy de.
+vice provides the primary protection and diverts the
+is major portion of the surge energy while the lower en-
+ergy device provides protection for the residual tran-
+sients.
+of Isolation of deviceua Protective devices cannot be op-
+with the the device in parallel since directly erated
+lowest clamping voltage would all the surge cur- carry
+sig- rent. Impedance between the two is needed to limit
+451

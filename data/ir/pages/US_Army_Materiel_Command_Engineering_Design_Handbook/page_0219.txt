@@ -1,0 +1,99 @@
+ABAPP 206-202
+5-4.4.2.2.2 Retatieg System
+A grest Coal of ruaanch bas boen accomplished
+duriag the extension of the helicopter spsed range by
+compounding. Ref. 32 is a good sunimary of the car!y
+work in this area. This work shovod that increaaing
+advance rstics and blade tip Mach numbers roquire
+prog rossive unloading of thc rotor and reduction of
+rotational spocd — even down to zero. The associ-
+ated dynamic phenomena ars continuous and
+trackabir until zero rotor spcod is approachod.
+At high advance ratios, thrust and flapping cocirol
+are difficult bocausc of high sanaitivity to gusts. The
+principal dyramic probirm is limit-cycke fiapping in-
+stabitity. This inatability produces both harmonic
+and nonharmonic flapping. the latter being visibie as
+* weaving cf the tip path planc. The history of this
+probiem is skctchod and tie picture clarifiod in Ref.
+33, which ahows two azimuthal regions of instability.
+one on tho advaucing side due to negative spring rate,
+and one on the retreating side duc io negative dainp-
+ing. Measures for stabiizing both are discussed.
+5-4.5 ACOUSTIC LOADING
+Conventional rotcrs, bucause of their relatively iow'
+dixk loadings, experience negligible acoustic loading.
+Airflow over the tiade surfaces can reach sonic ve-
+locity locally and morientarily produce a shock
+vave. Aerodynamic Josding variations occo. pri-
+marily at the blade tip, which generate the characier-
+istic acoustical sigrature referred to as blade alap.
+Rotors have operated in such an environment for
+yoars with no evider. x of structural fatigue causzd by
+either acrodynamic or acoustic loading. Blade slap
+has teen shown to be drag-reiated, hence. the
+acoustic iosding occurs inpiane aiong the axes of
+maximum suength of the blade skin.
+Proprotors and propellers Iocated in close proxim-
+ity to cither a fuselage or a wing can experience -ome
+degree of acoustic losding. Howeves, the rotor nir
+presurc impingement on chs fuselage or wing struc-
+ture is an order of magnitude more significant thar:
+acoustic losding of the rotating syster).
+Tail rotors locatod closs to a tail boom enparience
+aerodynamic knuling cauued by the partiai blockage
+of airlow anc: the intafzreme by the fin with the
+blade surfece pruaure ficld. As with oonventional
+main rotors, there is no evidence of mcasurable
+ecoustit toading. Ductod fans used ar antitorque
+devices, because of their relatively high disk loe lings,
+may pioduce grrater aooustic losding than con-
+ventional tail rotors. However, the duct suirounáing
+the fan eaperienoes higher loadings than do the fan
+blades.
+5-24
+
+5-4.6 GUST LOADINGS
+The nood for moaningful gust loading specifica-
+tions has increased with the development of high-per-
+formance helicopters and compounds. The first de-
+finitive work was Ref. 33, in which the nature of toc
+problem was clucidatod and some solutions were
+offered. A more precisc trcatment requirod more so-
+phisticatod analytical methods. One such mcthod (an
+extension of the rotorcraft fight sinulation Eicthod
+discussed in par. 5-4.1.1) was deveiopex and uard for
+an extensive study of thc problem (Rcf. 34). This
+reference also revicws the state of tne art. The prob-
+lem of helicopter responsc to gusts and some of the
+design censideraticns are discussed in pars. 5-4.6.1
+and 3-4.6.2 that follow.
+5-4.5.1 Discuasios of the Gust Problem
+Rotary-wing aircraft experience milder reactions to
+gusts than do most fixed-wing aircraft. One of the
+carlicst reports oi this difference presents qualitative
+copter with side by-side rotors and thc < ncr iut a
+fixed-wing girplane. A similar test wes concucted
+later by NACA with instrumentation to mcazure nor-
+mal forccs in both types of aircraft flyitg through tur-
+bulent air.
+The relstively mild reaction of the rotary-wing sir-
+craft is not substantiated by the simple theoretical ex-
+prssions currently in use, particularly those that
+evolved from fixed-wing experience. Fig. 5-18 shows
+an example of gus: lord factors resulting from harp-
+edged gusts, computed oy the procodure in Ref. 35.
+This procedure ic conservative in that it negkects stall
+and compressibility efiects and assumes instantane-
+ous changrs in rotor angle of sttack, induced veloci-
+ty, and blade ping.
+MIL-S-8698 provides a gust alleviation factor by
+which theoretica. gust losc factor may be roduced.
+a
+NO COMPRESSIBILITY OR STALL
+60 Ips SUDDEN GLIST
+GUST-LOAE 0
+0.1 0.2 0.3 0.4
+ADVANCE RATIO μ
+Flyyre 5-18. Gost Load Factor Conputed for the
+UH-1B Helicopter Uang Liucar Tbeory

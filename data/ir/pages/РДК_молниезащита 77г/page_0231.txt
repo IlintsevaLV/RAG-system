@@ -1,0 +1,33 @@
+Since the metal straps are installed on the outside surface, there may be α
+small drag penalty. This drag can be minimized by orienting the straps parallel to
+the airstream or by shaping the cross section of the straps aerodynamically.
+Internal Strap with Protruding Studs
+Mounting of external straps flush within the nonmetallic wall not only
+creates tooling and manufacturing problems but also degrades the strength of the
+wall because of stress concentrations along the grooves required for flush
+mounting. Therefore, metal straps or tubes have sometimes been mounted on
+the inside surface structure, with metal studs protruding through the wall to
+serve as lightning attachment points, as shown in Figure 7.25.
+'/ /
+BENEATH SURFACE
+Internal strap protruding 7.25 with studs, Figure
+Although this type of diverter installation may reduce the aerodynamic
+drag created by external mounting, it fails to take advantage of the insulation
+capability of the nonmetallic wan, and, in fact, may even intensify the electric
+field stress through the wall, promoting punctures if the protruding studs are too
+far apart. In general, the thicker the wall, the farther apart may be the studs. In
+30 (1 many cases, cm ft) is close enough, but individual cases should be
+evaluated by high-voltage tests similar to that of Figure 7.22, or by tests of the
+5. and 7.1 Appropriate test complete structure similar to those of Figures 7.1 4
+conditions for the latter are described in Test Wavefornzs for Lightning
+The possibility of puncture to an internal Aerospace Vehicles and Hardware.
+strap or tube can be minimized if the portion of it between the protruding studs
+is covered with an insulating sleeve.
+When lightning currents travel through any internal conductor, of course,
+there is also the possibility of the inductive voltage rise causing sparking to
+nearby conductors which are not carrying current. Covering of the lightning
+will conductor with an insulating sleeve in the vicinity of nearby conductors
+reduce the possibility; the internal strap or tube can be used without such α
+sleeve if the spacing between the strap and adjacent conductors is great enough
+to prevent sparking. For purposes of estimating what this spacing should be,
+1 22

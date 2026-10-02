@@ -1,0 +1,99 @@
+accomplished by releasing stored cnergy from α
+charged accumulator. This caergy dives & positive-
+dispiacement starter mounted on the enginc. The
+starter may consist of α simrle fixed-displacement
+motor, and is sized so that no special controls are
+needed. Weight can be minimized by using the
+highest pressure and largest displacement acceptable
+to the motor. Thesc two factors are limited by the
+torque capacity of the mounting pad and the fuel
+control acceleration capabilities of the engine. This
+type of starting system is most appropriate fo: stasi-
+ing small engines (50-150 hp). where zhe accumu-
+laior size and charging time are not excessive.
+The power-limited type of starter usually consists
+of α self-sufficient aystem that uscs α small turbinc
+enginc as an APU (Fig. 9-6). Hydrauiic Nuid is stored
+in an accumulator that has been pressurized cisher by
+-anpee nr pe
+draulic sysiem. The pressure reltased by cnergizing α
+solenoid-operated starter valve drives α fixcd-dis-
+placement starter pump, which acts as & motor to
+stast the APU. When the APU starts, the starter
+pump converts to α pumping mode so as to drive the
+main Engine starter. This starter senses the proper
+flow or pressure, and its displacement is varied auto-
+matically so as to sccelerats thc engine to idie spced.
+The power limit of the APU is not excceded becausc
+ACCUMULATOR
+GAS
+RAM) FLUD
+VALVE CHCCS APU
+START START VALVE π
+VALVÉ
+STATER NOLOR Μ:Ch STARTEA PraR
+TUSLAME APU
+RCLIEF VALVE
+Λ OR PRESSANE REXRVOR
+Figwe 9-6. Hydreell: Seurtiag:
+Power-Bimited Systevza
+ACCULATOR
+CAS
+HAMO PUBP
+CNECR FLUIC
+TO SYSIEN VALVE VAI VE SIART
+START VAL VE
+ACCESSONY GEAN BOX
+1URQME
+SSTARIER σ STAR:8
+PUANP
+RESERVOM
+Flgove 9-7. APU Seartiag Sysiem
+
+AMCF 706-202
+of shis variable-displacement frature. In power-
+limited APU systemns, the starter/pump is sized for
+the maximum output capability of ihe auxiliary
+engine becausc the startirg requirements &rc lower
+than are the pumping requirements.
+The system shown in Fig. 9-7 uses an energy.
+limited. dual purposc, starter-pump system on the
+APU. and α power-limited, variable-displacement
+starter on the main engine. As the APU is started, the
+starier/pump drives α fixed-displacement motor
+mounted on the accessory gearbox. The gearbox
+motor drives ali accessories, including the utility
+pump(σ), which in turn provides the power to drive
+the main enginc starters. After the start cycle is com-
+pleted, the main engine drives the accessory gearbox.
+An added advantage of using an APU starting system
+is that it can be operated to provide power for ground
+checkout.
+9-2.2.2 Cargo Door and Ramp Systemn
+Cargo and/or troop carrying helicopters normally
+will incorporate some type of cargo door and ramp
+system. The system shown in Fig. 9-8 is actuated by
+two direct-acting hydraulic cylinders. It is important
+to note that the actuators are self-locking in the
+retracted position. The manual contro! valve shal! be
+located conveniently near or adjacent to the ramp.
+Actuation of the control valve directs pressure to
+release the actuator locks, and the ramp then is pulled
+down by the force of gravity. This is an important
+featurc becausc the actuators may be unlocked via
+not avai.able, allowing the ramp and door to free-fall
+open as an emergency measurc.
+RAMP CONIROL VALVE Π Τ1) C, =- RAMP UR PTOC,=RAMP DOWM
+IPTOC3=RELEASE LECKS
+$10Π
+UPQON
+FRE SSURE
+ACTUATEU
+TAESTRITOR
+VALVE
+RAMP CYLINDER
+CARGO 8
+DOOR
+MO10R RAP" DOW RAMF OCMN
+Figure 9-8. Curgo Door zad Ramp Sysiexa
+9-3

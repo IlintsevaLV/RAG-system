@@ -1,0 +1,28 @@
+(1 dl6 4 j) = + Zd
++ NCo nd2 cos sinh (1 j) δ/6 α
+npo ε2 - < = MI2 ( I - K ) ~ / ~ 45") 3.12) (1 (α
+6C - E(ε) (1 -ε2) K (ε)
+In the above expressions
+α conductivity of the wires =
+po= 4 ν ξ 1 0 - 7
+K(ε) and E(ε) complete elliptic integrals of the =
+first and second kinds
+For many analyses Zd may be taken, with sufficient accuracy, as the dc
+resistance of the shield. This dc resistance is also slightly dependent on the
+coverage.
+4 1 - -
+% " 2 2 (13.17)
+FNC ~ o nd2 cosa ν ad cos α
+For the specific cable with construction as indicated, Figure 13.17
+(Reference 13.4) shows how the transfer impedance varies with frequency for
+different degrees of optical coverage. Several observations might be made about
+500 kHz, the this figure. The first is that at low frequencies, below about
+transfer impedance is basically just the dc resistance of the cable shield. The
+2 MHz second is that for frequencies above about the transfer impedance is
+primarily reactive, being represented by the transfer inductance of the cable
+shield. The third is that for the most common types of shields (those with
+90%) optical coverage of less than the dip in transfer impedance below the dc
+skin effects) is not great. It is for this reason resistance (the dip being α result of
+that the equivalent circuit of Figure 13.15(β), in which the frequency-dependent
+properties of the shield resistance are ignored, is adequate for most engineering
+analyses.

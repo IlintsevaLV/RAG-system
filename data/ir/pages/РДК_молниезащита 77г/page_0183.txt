@@ -1,0 +1,45 @@
+capacitance-type fuel quantity probes or small electric motors which operate
+pumps or valves. If these wires are totally enclosed by metal skins and ribs or
+spars, the internal magnetic fields and induced voltages will be relatively low.
+Electrical devices, such as fuel probes, have been intentionally designed to
+withstand comparatively higher voltages without sparking. The fuel system
+designer, however, must be continually alert for structural design or materials
+changes that may alter this situation and permit excessive induced voltages to
+appear in fuel tank electrical circuits.
+number of measurements have been made of the voltages which Α
+simulated lightning currents may induce in fuel probe wiring found in
+conventional aircraft. Measurements have also been made of the voltages
+required to cause α spark between the elements of typical capacitance-type fuel
+quantity probes. The sparkover voltages have always been found to be much
+higher than those found to be induced in the wiring. Newman, Robb, and
+Stahmann (Reference 6.61) found that at least 3 000 V of dc voltage were
+required to cause α spark between the active and grounded cylinders of α
+capacitance-type fuel probe found in α KC-135 aircraft wing, and that even
+higher voltages were needed to spark over the other gaps in this probe. Plumer,
+50 ,us impulse voltage (Reference 6.62) ran α similar test using the 1.2 ξ
+Report waveform specified as Voltage Waveform C of SAE Lightning Test
+and found that Waveforms and Techniques for Aerospace Vehicles and Hardware
+12 kV were required to cause α spark between the inner and outer cylinders of
+the probe. Small gaps like this will withstand more impulse than dc voltage, and
+the impulse test more realistically represents an induced voltage.
+The tests reported above were made at atmospheric pressure on the
+ground; the same gap would break down at α lower voltage when at the lower air
+pressures associated with flight altitudes. The amount of reduction to be
+expected in impulse sparkover voltage at various altitudes can be determined
+from the curves of Figure 6.39(α) and (β) (Reference 6.63). The product, pd, of
+Hg) pressure (mm and gap distance (mm) is first determined by obtaining
+pressure at altitude from the chart of Figure 6.39(χ). If it is desired to find the
+5 mm gap at 10 000 μ altitude, for example, the pressure sparkover voltage of α
+at this altitude is first determined from the chart to be 198.16 μ μ Hg. The
+Hg) 990.8 mm Hg mm. From product, pd, would then be (5 mm) (198.16 mm =
+Figure 6.39(β), the gap would spark over at about 5500 V.
+The sparkover voltages of Figures 6.39(α) and (β) should be considered
+approximate, since these curves were determined for plane parallel electrodes
+only. Other electrode configurations, such as α sharp point-to-plane, would spark
+at voltages perhaps 25% more or less than these. Impulse sparkover tests should
+be made on particular gap configurations to determine the actual sparkover
+voltages.
+Contaminants on the electrode surfaces may also act to reduce the
+breakdown voltage; therefore, it is wise in any case to reduce voltage levels
+measured by laboratory tests by α factor of at least 2 when assigning α withstand
+voltage to α fuel probe or other electrical gap that might appear in α fuel tank.

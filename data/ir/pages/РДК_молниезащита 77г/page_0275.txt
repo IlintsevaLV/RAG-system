@@ -1,0 +1,20 @@
+LIGHTNING FL
+Other examples of resistance. 0 Figure 8.1
+The pylons for external stores (α)
+Joints in structural members (β)
+Effects of grounding. 1 Figure 8.1
+(α) Structural return, IR V1 =
+Single-point ground, low V2 (β) =
+(χ) Single-point ground, IR V3 =
+IR. R, V across the joint resistance, produces α driving voltage: Since the =
+V1 is measured employs the structure as α ground-return circuit across which
+V1 Α would be high. circuit path, the circuit couples all of this voltage; thus
+employing α single-point ground does not include this resistive drop; hence V2
+would be low. The use of α single-point ground, however, does not eliminate the
+V3, voltage, since in this latter case the voltage at the source end of the circuit,
+would be high.
+These elementary descriptions of joint resistance should not be relied upon
+to predict coupling into circuits extending throughout the entire aircraft. The
+more massive the joint and the lower the dc resistance, the greater will be the
+dependence of resistance on the waveform and frequency content of the
+lightning current, and the greater will be the proportionate effects of changing

@@ -1,0 +1,81 @@
+7 777--7-.
+As α numerical example, evaluate the internal
+nimpedande' et 100, H', and 10 kHz of an aluminum
+3.53) (α = 60 6 aie-σ) tube 2 cm'diameter and
+wall thickness of 2 mm (α 0.01 μ, = 0.002 μ, = Τ
+= 0.012 mr) .
+μ 10-1 skin depth, Eq. 9.22, is 8.47 ξ The
+mmn) ξ μ (0.847 10-1 Hz and 8.47 at 100 (8.47mm)
+is consider- At 100 Hz the skin depth at 10kHz.
+ably greater than the wall thickness, implying that
+the current would be nearly uniformly distributed over
+The internal impedance of the wall; dc conditions.
+10-4 ξ 2.06 dc resistance, the just is then tube the
+mm, is only 0.847 kHz the skin depth ohms/re. At 10
+less than the wall thickness. The impedance would be
+ohms/rn. ξ + j)4.54 (I 10-4
+internal impedance with internal return: If the
+current returns on the inside of the tube, Fig 9.29 or
+Fig. 9.7, the impedance is Zi. The formulations are
+virtually identical with those for Zi,, differing only in
+that α and β are reversed.
+u
+return. with internal impedance Internal 9.29 Fig.
+This return: external with Transfer impedance
+sur- inner to the that leaks measure of the field is α
+and tube the along flows current when tube of the face
+returns through an external path, Fig. 9.8. The trans-
+ferred field is that which would be measured by α volt.
+meter connected along the inner surface. The exact
+expression is again given in terms of Bessel functions,
+wall for thin arc suitable simpler expressions though
+tubes.
+1919 Z, 1 2wab- 1 (Ta)K:(yb) (9.109) 2. - I:(Tb)K'(1α) 1
+α9 ( I Z,
+_Τ _ Ti(Τ sinh() (9.110) Z2Vr
+(9.111) (α ) I ) Tr Z, R
+1+j
+wvaobep-I~)11o(<
+-α
+(9.112)
+χ + (6 2 1 α) Τ χ , [oos(Τ/6) - - ( Tfaces [sn(Τ/6)
+Σ(9.113)
+
+For the tame geometry discussed in §9.1.1 the
+transfer impedances are 8.47 ξ ohms/μ at 100 Hz 10-3
+α (same as the internal impedance) and (1 + j)3.956 ξ
+β ohms/μ 10-1 at kHz. 100
+with internal return: This Transfer impedance
+to the outer would leak of the field that is α measure
+con- tube if current flows on an internal surface of the
+ductor and returns along the inner surface of the tube.
+The defining equations are the same as those of §9.1.3
+with α and reversed. β
+Solid Bodies Circular, but 9.9.2
+con- solid for appropriate are formulations Two
+ductors. Exact and simplified expressions are given in
+the following sections.
+Internal impedance with external return: This
+is the same geometry discussed in §9.7.3 and the fol-
+lowing equations provide one more formulation of the
+internal impedance.
+"υ = -υ (9.114) Io(ta)
+2irab (ya) Ii
+1 α) (9.ν5) (6β
+Z = 1+J (β α) (9.116)
+27raa'
+This return: with internal impedance Internal
+electric α measure of the is and of §9.9.2 is the inverse
+passed is which through of α hole the surface along field
+α current carrying conductor, Fig. 9.30.
+7 Ko(α).
+(9.117) 2raa Z, = K (-fa)
+Z,- (9.118) In +
+jta) (α)
+(9.119) 1.781...) = (-yo
+α) (6 C (9.120) +j =
+2wa6α'
+9.9.3 Flat Surfaces
+Exact expressions for the impedance of flat sur- are very complex approximations are and gener-
+ally used.
+263

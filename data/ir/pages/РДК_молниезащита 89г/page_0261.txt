@@ -1,0 +1,89 @@
+* • Chapter 9,
+ASPECTS ELEMFN-AkY
+9.1 Introduction.
+elsewhere, and. nvoid repetition to For ,cference
+"lectromag- electrical circuits and sone eoncepts of
+Mathe- reviewed in thils chapter. nmtic theory will be
+atten- reviewed witb particular operations are ruatical
+or complex arguments. the, use of imaginary, tion to
+of electric as the line integral The .ncept of voltage
+is of fupdamerntal importance is reviewed since it field
+on wiring voltages are deveioped in understanding'how
+'υ field Magnetic lightning. strvck an aircraft inside
+thiure are some subtle -ffc-ts are treated in Jetail since
+inductance of condiuc- about flux linkages and points
+Α most impor- appreciated. are not always tors that
+it is pointed out is that of §0.7.2, where taut subject
+not does tube circular α alon& flowing current that
+prmuce α magnetic field within the tube.
+im- the most are also treated, effects Cap.acitance
+related to dis- probably being those portant points
+electric "hanging α by induced currents placement
+field.
+surface external and of internal discussions The
+reviewed carefully density, §9.9, bhould be current
+conductors run with why it is that since ihey deal
+voltages exposed to damn&erous along one path may be
+conductors run currents while as α result lightning of
+volt- minor only experience will path another along
+induced much voltage is discussions of how ages. The
+fields, §9.7.4, to changing magnetic in loops exposed
+much current fio-•σ in objects exposed to α and how
+field, §9.8.4, are also of fundamental changing electric
+imlortance. in the presented are discussions Those
+For analysis frequency domain formulations. classical
+it is more useful to have formu- of lightning effects
+are provided in domain. These tinmt lationss in the
+Chapter 10.
+Units and Symbols 9.2
+be generally will dimensions 18 - 9 Chapters In
+parenthe- in equivalents English with units SI in given
+excep- with follows as be generally will Symbols ses.
+tions as noted in the text.
+α Α
+=tu
+4 ares - μ2 -
+radius μ - ,α
+rCi
+= Coulosnbs C
+capacitance - F V( =
+
+EFFECTS OF INDIRECT
+light 3 = v,.locity of ξ μ/ρ; χ 108 -
+- V/μ/eec = time derivative of EDV/ρ electric field intenidty E = -
+= Farads F
+frequency - H. φ =
+Heni H =
+- Α/μ intensity field magnetic H =
+- Α = current I
+current density - Α/μ = j
+-- imaginary operator -%/- j
+ H - inductance Λ
+" iength - mn
+μ --- meters
+resistance R - =
+- μ ρ radius =
+conductivity) of (unit Siermens Σ =
+seconds α =
+time - σ φ =
+Volts V =
+- V voltage V =-
+velocity rM/σ v =
+corktant propagation υ
+ F/ρ •0 permittivity - =
+impedance - ohms wave !=
+- H/rn permeability π=
+of free space- H/μ permeability pr0 =rl
+permeability relative =
+= Ohms
+- 24 angular frequency
+-:
+α 11 - resistivity = π
+- Σ conductivity u =
+Opertlos Mathematical 9.3
+effects analysis oi electroraguetic Mathematled
+functions with complex arguments. frequently involves
+encountered ate the follow- commonly Some identities
+hand- be found in any mathernatical Others cau itag.
+tbok.
+245

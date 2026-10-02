@@ -1,0 +1,92 @@
+Control Level Philosophy 16.6.2 Transient
+in Specifications 16.7 Common Problems
+REFERENCES
+Chapter 17
+CIRCUIT DESIGN
+17.1 Introduction
+17.2 Signal Transmission
+17.3 Circuit Bandwidth
+17.4 Protective Devices
+Spark Gaps 17.4.1
+17.4.2 Non-Linear Resistors
+17.4.3 Zener-Type Diodes
+Diodes 17.4.4 Forward-Conducting
+17.4.5 Reverse Biased Diodes
+17.4.6 Hybrid Protection
+17.4.7 Surge Protecting Connectors
+- Semiconductors 17.5 Damage Analysis
+17.5.1 Theoretical Models
+17.5.2 Empirical Models
+17.5.3 Limitations
+17.5.4 Failure Mechanisms-Semiconductors
+17.5.5 Damage Constants
+Experimental Determination of K 17.5.6
+17.5.7 K Factor as Determined from
+17.5.8 K Factor as Determined from
+from 17.5.9 K Factor as Determined
+Oscillatory Waveforms 17.5.10
+17.6 Failure Mechanisms-Capacitors
+Components 17.7 Failure Mechanisms-Other
+Damage Constants 17.8 Examples of Use of
+REFERENCES
+Chapter 18
+FOR TEST TECHNIQUES EVALUATION
+18.1 Introduction
+of Test 18.2 Types
+18.2.1 Pin Injection of Transients
+18.2.3 Transformer Injection
+18.2.3 Capacitivc Injection
+Ground Circuit Injection 18.2.4
+18.2.5 Field immersion tests
+18.2.6 Tests on Circuit Elements
+18.3 Transient Generators
+18.3.1 Capacitor Discharge Generators
+Switches for Generators 18.3.2
+Power Amplifiers 18.3.3 Generators Using
+18.3.4 Multiple Pulse Generators
+ix
+
+430
+434
+436
+437
+437
+437
+439
+440
+441
+443
+448
+451
+451
+451
+452
+452
+453
+453
+453
+453
+454
+454 Factor
+Junction Area 455
+Junction Capacitance 456
+Thermal Resistance 457
+458
+459
+461
+461
+464
+OF INDIRECT 467 EFFECTS
+467
+467
+467
+467
+468
+469
+469
+469
+470
+470
+471
+472
+472

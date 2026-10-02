@@ -1,0 +1,28 @@
+21-11
+60
+63 For Category Π the fundamantal tranamit frequency and
+80 range of 2 10 30 Mitz shali nct exceed the Catagory Β harmoncally seisted conducted amvssions an the frequency
+3 onducted emseion lam&σ for radro tranamaters operateng from
+2 to 30 MMtz when the transmatter σ keyed and power ss
+delivered to the antenna load
+40
+Level : CIBUA 0ε
+1
+20 Category Π
+Power Lines and
+4 Interconnecting Bundles
+0.1 .180 2 10 30 182 1000
+Frequenay in MHz
+2
+Curve definition : Limi Lewl= ange * logfreqin MHkz) + interrept
+5 Categury Π: F-2 Miiz sloqe - -29.3K, Intercept - 48.83
+1 -Уровень β дБмкА
+2 -Частота β МГц
+3 - Для категории Ρ диапазоне от 2 до 30 МГц не должны превосходить предельные значения кондуктивных помех
+категории Β для радиопередатчиков, работающих β диапазоне от 2 до 30 МГц, когда
+производится манипуляция передатчика, η мощность поступает β нагрузку антенны.
+4 - Категория Ρ, линии электропитания η соединительные кабели
+5 - Определение кривой: Предельный уровень = наклон × lод(частота β МГц) + пересечение
+Категория Ρ: F<2 МГц, наклон = -29,335, пересечение = 48,83
+Рисунок 21-3 Максимальный уровень кондуктивных радиочастотных помех
+ихх

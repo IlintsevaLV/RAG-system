@@ -1,0 +1,56 @@
+Table 17.3 Specifications for Typical Protective Diodes [17.51
+MAXIMUM
+REVERSE CLAMPING MAXIMUM MAXIMUM
+STAND-OFF VOLTAGE REVERSE PEAK PULSE
+VOLTAGE BREAKOOWN @Opp LEAKAGE CUnRENT
+2) (Note @VR mSEC) (1 VOLTAGE 1) (Noto JEDEC
+IPP IR vc IT @ 6 VR TYPE
+WUMBER VOLTS MA VOLTS mA VOLTS A
+6.75 8.25 5.5 1N6036 - 11.7 1000 10 128.0
+t1NB036A 7.13- 7.88 6.0 10 11.3 1000 132.0
+6.5 1N6037 738- 9.02 10 12.5 500 120.0
+124.0 500 10 12.1 7.79 - 8.61 7.0 t 1NG037A
+1N5038 7.0 8.19- 10.00 10 12.8 200 109.0
+tINS03BA 8.65 7.5 9.55 10 - 134 200 112.0
+50 100.0 150 11.00 1 8.0 9.00- 1N6030
+t 1NG03lA 8.5 10.50 1 14.5 50 10&0 1.50-
+8.5 9,90- 1N6040 12.10 1 10 93.0 162
+t 1S6 9.0 10.50- 11.60 1 10 96.0 1NS040A
+1 1N6041 10.80- 13.20 87.0 9.0 17.3 5
+t 1NI041A 10.0 11.40- 12.60 1 18.7 5 90.0
+1N1042 10.0 11.70- 14.30 1 5 19.0 79.0
+t 1N642A 11.0 82.0 1240- 1170 1 18.2 5
+1116043 1 68.0 11.0 13.50- 18.50 22.0 5
+5 71.0 21.2 15.80 1 t 14.30- 1NS043A 12.0
+64.0 5 1N6044 12.0 14,40- 17.00 1 23.5
+t1NG044A 5 15.20- 118L0 22.5 110 1 67.0
+1N6045 28.S 5 14,0 18.20- 1980) 1 58.5
+5 59.5 17.10- 1 18.90 t 1N1045A 150 2&2
+5 1115046 51.5 29.1 1 18.0 1800- 22.00
+IN5046A t 17.0 19.00- 2100D 5 1 27.7 54.0
+5 47.0 1 31.9 24.20 19.80- 17.0 ING047
+5 30.6 1 23.10 20M90- 1,0 IN1047A 490 t
+410 5 34.7 1 26,40 19.0 21,60- 1N6048
+5 1 22.80.- 2520 ING04A 20.0 t 4&0 3U2
+5 38.5 1 39.1 24.30- 29.70 21.0 1N6043
+t 1NG043A 22.0 2570- 2A40 1 37.5 5 40.0
+ratio. turnup, or impulse 6. Low volt-time of diodes: Protec- parallel connection Series and
+series with no problems. may be placed in tive diodes
+for volt- Disadvantages: matched must be carefully in parallel Diodes
+age, just with MOVe. as
+Failure mode: Most commonly, excessive surge energy 1. Not intrinsically bilateral. To protect against
+causes the semiconducting junction to melt and the both polarities, two diodes in series back.to-back
+device to fail shorted. configuration are necessary. Bipolar peckages are
+available.
+Advantages Zener-type of diodes:
+2. High junction capacitance may cause significant
+1. Small size. signal loss at operating frequencies above 1 MHz.
+Special diode assemblies may extend the useful
+2. Easily mounted. frequency to approximately 50 MHz.
+Low clamping voltage. 3. 3. They do not switch state between a conducting
+and a non-conducting mode.
+4. Low dynmic impedance when conducting.
+4. Lower energy capabilities than spark gaps
+voltage drops When applied Self-extinguish.ng. 5.
+below the Zener level, they cease conduction. Not available for voltage below 5. about V. 3
+450

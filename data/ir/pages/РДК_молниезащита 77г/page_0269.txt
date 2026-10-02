@@ -1,0 +1,44 @@
+wire; a pulse current was passed along the wire, through the model, and along
+the rest of the fine conductor wire to a termination resistor. The fine wire
+represented the channel of the lightning arc. The input and output currents and
+the current at the center of the model were measured with small transformers.
+Typical results are shown in Figure 8.5. One significant point about the
+results was that fast-rising incident currents excited a higher degree of oscillation
+of the aircraft than did slower rising currents. The second significant point
+demonstrated was that in most cases the waveform of the lightning current
+passing through the center of the aircraft was sufficiently similar to the
+waveform of the basic lightning current that the oscillatory component
+superimposed as a result of the change in impedance between the arc channel
+and the aircraft was not significantly large.
+In the case of a nearby lightning flash, the electric field from the flash will
+8.4, the effect could excite a dipole oscillation of the aircraft. In terms of Figure
+3 1 in which the impedance of conductors and was infinite, be viewed as one
+leading to complete reflection and no transmission at the entry and exit points
+aircraft on a low-impedance aircraft. A dipole kind of oscillation excited on an
+structure would be the typical response considered if one were evaluating the
+effect on aircraft of the electromagnetic fields produced by nuclear explosions.
+The period of oscillation would be proportional to the length of the aircraft;
+thus, large aircraft would tend to ring at lower frequencies and higher amplitudes
+than would shorter aircraft. While the response of aircraft and missile systems to
+by nuclear explosions has the rapidly changing electromagnetic fields produced
+-
+been extensively studied, there have not been any c~rres~ondl~~-studies of the
+response of aircraft to the electric fields associated with the passage of a nearby
+lightning flash. Accordingly, in this record we will not treat further the case of a
+nearby lightning flash, except to add the cautionary statement that it has not
+been proven finally that the indirect effects associated with a nearby lightning
+flash are necessarily lower than those associated with a lightning flash that
+contacts the aircraft. In the case of a nearby lightning flash it would appear that
+the aircraft structure would be subjected to currents of much lower amplitude
+but currents much more oscillatory in nature. These lower amplitude-higher
+frequency currents might lead to more upsets of sensitive electronic circuits than
+- - would currents of higher amplitude and lower frequency.
+The Internal Response of the Aircraft Structure 8.3
+metallic aircraft is often viewed as a ~ arada ~ screen, a concept from A
+electrostatics which implies that the electrical environment inside the aircraft is
+separate and distinct from the environment outside. To some extent this is true
+for the electrical environment inside the structure: the environment is not nearly
+as harsh as is the external environment. There are, however, some important
+mechanisms by which electrical energy couples to the interior of the aircraft.
+The basic coupling mechanisms are shown on Figure 8.6. The first of these
+relates to the electric field produced alo~lg the inner surface of the aircraft. This

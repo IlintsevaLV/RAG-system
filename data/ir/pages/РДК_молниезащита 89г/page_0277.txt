@@ -1,0 +1,52 @@
+ampem (9.102) R ι EJwC
+o '•areas
+or
+dE ι --- Ω- amperms C (9.103)
+Similar displacement currents flow as α result of
+α changing electric field. Fig. shows 9.26, α surface
+exposed to α changing electric field, the field assumed
+to be oriented perpendicular to the surface. portion Α
+of the surface has been isolated and connected to the
+rest of the surface through α conductor. The current
+through the conductor will be:
+(9.104) amperes. eoA-ýE. = ι
+dt
+where
+2 area of the Α = surface μ -
+= actual electric field intensity - V/μ E,
+E. = undisturbed electric field intenity
+(α)
+(-) view μ.tric ...
+(β) Endv)ε
+as in For α sufc flush with its surroundings, Fig.
+9.26, the electric field impinging on the surface will
+as he the same the undisturbed field. If the isolated
+. section is raised abore the surroundin surfae, Fig.
+9.27, the electric field will be coneentrated and the
+actual electric field intensity will he higher than the
+undisturbed electric field intensity E.. Alternatively,
+onecould say that the elevated plate has acapture ares
+
+larger Σ than its physically projected area Α. Effective
+for some typical geometries are given in Uble
+9.3 [9.51. Displacement currents are also discused in
+§14.4.3.
+9.9 Surface and Transfer Impedances
+In §9.6.2 it was observed that the voltage differ-
+ence between two points is determined summing the by
+electric field between the points. §9.6.4 presented def-
+initions of surface and transfer impedances and §9.7.3
+presented some discussion of the internal impedance
+of conductors in terms of internal magnetic flux. This
+section will present mathematical expressions by which
+be calculated. may impedances and trander surface
+The defining equations are here presented in the fie-
+quency domain and without discussion, Formulations
+in the time domain are given in Chapter 11. Some
+alternative formulations in the frequency domain are
+given in [9.61.
+Fig. 9.27 Elevated surfae.
+(α) Flat surface
+(β) Embedded hemieylinder
+(χ) End view
+261

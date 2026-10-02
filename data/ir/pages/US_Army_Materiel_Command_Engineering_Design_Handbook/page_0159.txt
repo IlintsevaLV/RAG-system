@@ -1,0 +1,52 @@
+100
+AFBMA CALCULATED LIFE 75 RIGID OUTER RACE
+LIFE, 50
+BEARING Λ,, DI FORMABLÈ OUTER RACE
+25
+0
+0 0.001
+Figure 4-32. Clearance 1σ Λ. — Elastic aad Rigil Solatious
+loads; corner brcakout limits: retainer dimensions in-
+cluding pocket clearances, surface finishes; and ap-
+plicable special dimensions which differ from
+ABEC/RBEC standards.
+5. Finishing requirements:
+α. Methods and limitations on plating. peening.
+honing. polishing. and stock removal, when ap-
+plicuble
+β. Protection against embrittlerent and stress
+corrosioni.
+6. Nondestructive iasting:
+σ. Requirements for magnetic particle, pene-
+trant, and etchant teciniques
+β. Control frequency and sequenoe of test or in-
+spoction
+χ. Frequency of certifi-ation processes.
+The use of life modification factors (Eq. 4-53) can-
+not be warranted os substantiated unless specifically
+controlled by the fabricstion and/or procurement
+document.
+
+AMCR 704-302
+0.002 0.003 0.004
+INTERNAL DIAMETRAL CLEARANCE, in.
+4-2.2.3 Splines
+Basic introductory and classification information
+concerning splines is contained in AMCP 706-201.
+Therefore, this discussion is limitod to spocific dasign
+applications of power-tranemitting splincs.
+The primary failure mode for α properly designed
+spline is wear. When reintive motion is slight, fretting
+corrosion often acoelerates woar. Good design prac-
+tice will insure α wear life in excess of the usoful com-
+ponent life. Galling and pickup (welding) occur onty
+under excessive compreauive streas in the presence of
+slight motion. Tooth breakage and fatigue seldom oc-
+cur unicas shaft bending moments vere neglocied in
+the design analysis. Noglect of propes fillet radius
+control or advancod fretting corrosion often con-
+tributes to such failures. Bursting of the internally
+to ihed member is rare, but raults from an ex-
+ficient for the hoop or tensile streases imposod by the
+tooth separating and centrifugal forcas.
+4-57

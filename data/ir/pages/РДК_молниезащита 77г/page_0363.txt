@@ -1,0 +1,44 @@
+tance and inductance, the values of which are determined by the size of the
+conductors and the distance of the conductors from adjacent ground planes and
+other conductors. When these are considered, the effect of a changing magnetic
+field is to produce an oscillatory open circuit voltage. shown in Figure 12.3, As
+these oscillations will be superimposed on an underlying voltage proportional to
+the rate of change of the magnetic field. When the internal magnetic field is of
+complex waveshape (as is the usual case) and not the idealized ramp function
+12.1 shown in Figures and 12.3, the resulting open circuit voltage may be of a
+very complex nature. few examples will be shown in Chapter While the 14. A
+maximum voltage may be difficult to predict, given the complex nature of the
+superimposed oscillations, the amplitude of the envelope can at least be
+12.2. and The frequency of the superim- approximated from Equations 12.1
+posed oscillations tends to be inversely proportional to the conductor length.
+Conductors, such as shields, grounded at one end tend to ring as quarter-wave
+10 7.5 dipoles: for example, a conductor m long tends to ring at MHz. Even this
+simple relationship is difficult to apply, since one conductor is seldom free of
+the influence of adjacent conductors.
+Aircraft wiring is grouped into bundles, the bundles usually containing
+both short and long conductors. The assembly, even if exposed to a magnetic
+field of simple waveshape will oscillate in a complex manner. Generally there
+will be one dominant frequency with several other frequencies, usually higher,
+superimposed. Each will have its own characteristic decrement. Almost the only
+reliable generalization is that the cables associated with large aircraft will be
+longer than the cables associated with small aircraft and will characteristically
+oscillate at lower frequencies. On fighter aircraft, measurements of induced
+voltages have shown the characteristic frequencies to be in the range 1 to 10
+MHz.
+Currents measured on bundles of conductors tend to be oscillatory, like
+the voltages, as long as the conductors are part of a wiring group employing a
+single-point ground concept. If the conductors are part of a wiring group
+employing a multiple-point ground concept, the conductor currents tend not to
+be oscillatory but to follow the underlying shape of the internal magnetic field.
+Fields 12.2.2 Response to Electric
+When the aircraft is struck by lightning, it is forced to assume the electric
+MV field potential of the lightning flash at that point, perhaps with respect 100
+to ground. The magnitude of voltage with respect to ground is of no real
+importance, but the electric field intensity at the surface of the aircraft is of
+importance. This electric field intensity depends upon the total amount of
+charge stored on the aircraft surface and the size of the aircraft surface, and
+could, in principle, be extremely high. In practice, the electric field intensity at
+the surface cannot exceed more than about kVIm before intense electrical 500
+discharges take place from the aircraft surface into the surrounding The air.
+electric field strength will be greatest about points of small radius of curvature.
+The discharges from those points will tend to reduce the electric field strength at

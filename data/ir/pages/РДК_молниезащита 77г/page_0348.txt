@@ -1,0 +1,19 @@
+REFLECTING SURFACE
+2 IMAGE OF IMAGE OF IMAGE OF 3 1
+Reflecting surface. 11.6 Figure
++ + + I I + IIIIII 1 i 4 4
+SURFACE WITH
+APERTURE
+REFLECTING SURFACE
+tAI ! I
+I
+Multiple reflecting surfaces. 11.7 Figure
+problems, a computer program, APERTURE, has been written and is described
+11.4). This program allows one to define an arbitrary in the literature (Reference
+X-Y plane. The orientation of the aperture and the elliptical aperture in an
+orientation and strength of the external field are defined as input quantities and
+Y X and reference axes. The do not necessarily have to be oriented along the
+- - -- - -- -
+program allows one to tabulate the interior field strength at whatever points are
+desired, in either rectangular or polar coordinates. The program also allows one
+to determine the total magnetic flux passing any arbitrary four-sided plane

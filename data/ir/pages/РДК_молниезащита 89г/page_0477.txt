@@ -1,0 +1,39 @@
+This calculation shows that the emitter-base junc- PcB = BVcBolcB = 93Ω (17.30)
+tion is the more susceptible. The current required to which is below its failure-threshold power.
+fail the emitter-base junction would be: The total current into the circuit is then
+IjF = VBD PEB = 3.4Α (17.27) Vbase
+The voltage from the base to ground is Itransient = IjF + IcB + Req1 (17.31)
+and the ITransient voltage required to cause failure is
+VBase = BVeso + IjFReq2 = 1.5kV. (17.28)
+The current through the collector-base junction is VTrassient = VBase + ITransient Rsource = 2.5kV
+(17.32)
+IcD = REQ3 VBasE – BVcBo = 3.7.Α (17.29) Therefore (assuming α 100 ohm source impedance) α
+2.5 kV pulse, 200 ns wide, will cause the transistor to
+The power dissipated in the collector-base junction is fail.
+Table 17.7 Damage Test Results for Non-semiconductors [17.26]
+Mamufacturer'σ
+Device Type Menufacturer Part Number Test Rerults
+Capacitor Capacitor Cornell-Dublier Cormell-Dublier C100K CK62 Series 10 pF 4700 pF. 500 Vdc No change in capacity
+Sprague 1 μF. 200 Vdc or leakage resistance
+WES CAP KF223KM 0.022 μF, 600 Vdc
+Coil Coil Collins Colliat 240-2524-00 542-0916-002 220 μH . 2 μH 10 Hz 3 2 μH 103 H2 ) or resistanoe No change in inductance
+Filte Bundy 21-0526-00 H 0021 pe 009 41on No change in
+Filler Varo 0016210156 Bendpess 400 Hz frequency response
+Potentiometer Polentiometer Olamite Computer Insa. 51927-1 MI&-178105 2508 400 No changes
+Porentiometer Ohmite 51927-3
+Reiley Bebcock RP1IS73-Γ2 Resietance Incrcene:
+625 ± > 629 8
+Mtay C. Π.Clare 1-SKSV Armature Resistance lucroess:
+418Ω>425Ω2
+Relay Hathowy 63863 Magnetic Reod Resistance increnss: 2.5%
+Relay Pocter Brumfield FLB4002 Magnetice Latching stance $1> :000100π
+Relay FC6-36Σ No chang
+Dektronics Δ78Z322 Audile Frequency
+Tramforn Dektronios Δ78Z225
+Tremformer Frood 667-0386-00 or voltagos, no arcin
+Traasformex Vero 950-1622-200
+Transforumer Vare 00C-Λ610-666
+5876 68Ξ7 UHF Hgh
+68C4
+μ. 35%
+463

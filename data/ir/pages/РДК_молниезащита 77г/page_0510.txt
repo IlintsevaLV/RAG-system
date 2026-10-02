@@ -1,0 +1,46 @@
+since the mechanism of coupling electron~agnetic fields into the interior of α
+vehicle is different at different frequencies. The high-frequency waveform is
+intended primarily for evaluation of aperture effects and has α minimum
+100 10 kA and α fundamental frequency of kHz. The low- amplitude of
+frequency waveform is primarily for evaluation of diffusion effects and has α
+minimum amplitude of 2 0 kA and α fundamental frequency of 2 kHz. As α
+result of the inductance of the test circuit, the waveforms are typically of α
+sinusoidal nature, and no independent definition of the front time, need be τ λ ,
+made.
+During the tests the responses of the electrical equipment should be
+of the full amplitude measured. Since neither of the test current waves is
+associated with lightning, the test results must be extrapolated to the full
+lightning-threat level, 200 kA. For the high-frequency test current wave, the
+average rate of rise of the first quarter cycle of the test waveform should be
+determined by measurement or calculation and the test results extrapolated to
+100 kA/ps. Measurements made with the low-frequency current wave must be
+200 extrapolated from the measured peak amplitude of the current wave to the
+kA level.
+The use of these oscillatory currents is one of the necessary compromises
+with perfection previously mentioned. These waves are used for proof tests
+simply because test facilities capable of subjecting α complete aircraft to α
+full-threat lightning current do not exist. For purposes of simulation the
+oscillatory waves have both merits and drawbacks. These are summarized below.
+The fast oscillatory wave has the following merits:
+Over α narrow band of frequencies it simulates one important aspect
+of indirect effects--the aperture coupling of electromagnetic fields.
+High amplitude is available from relatively low-energy-surge gener-
+ators, since little energy is lost in waveshaping resistance.
+It can be nearly α full-threat-level test because of the higher
+frequency coupling effects.
+The fast oscillatory wave has the following drawbacks:
+It overemphasizes deliberately so) one of the component (and
+frequencies of lightning currents.
+It underemphasizes low-frequency coupling effects, particularly the
+effects of vehicle resistance and the diffusion penetration of
+magnetic fields.
+It is fundamentally different in waveshape from the waveshapes of
+natural lightning currents.
+It is potentially damaging to avionic equipment. In this respect,
+however, it must be remembered that if avionic equipment can be
+damaged by α simulated lightning proof test, it can also be damaged
+by an actual lightning flash.
+and expensive test equipment is required to make the test. Bulky
+Some of the drawbacks of the fast oscillatory test wave are offset by its
+companion, the slow oscillatory wave. The slow oscillatory wave has the
+following merits:

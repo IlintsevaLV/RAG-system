@@ -1,0 +1,23 @@
+PLASTIC PLASTIC
+TIP TIP
+- - - - - - -
+I----------
+7 Plastic wing tips and associated electric circuits and locations of 4.1 Figure
+lightning effects.
+components, causing circuit breakers to pop. Because circuit breakers, however,
+react much too slowly to prevent passage of a lightning surge, at least one piece
+1 VHF of equipment (the No. communication set) and several instrument lamps
+were burned out.
+There have been several similar incidents (References 4.23 and 4.24), and
+together these have stimulated the design and verification of protective measures
+(Reference 4.25) for general aviation aircraft with fiberglass components such as
+these wing tip fuel tanks, Many of these aircraft, however, are still flying without
+adequate protection.
+The foregoing incident is an example of how a change in materials can
+increase the vulnerability not only of the airframe but also of other systems
+which previously had the inherent protection of conventional aluminum skins.
+The lightweight lamp and sender unit electrical wires were quite adequate for an
+installation in which a metal skin was available to carry away lightning currents,
+but they are woefully inadequate when used unmodified inside a plastic wing
+tip, where they become the only conducting path available to lightning currents
+trying to enter the main airframe.

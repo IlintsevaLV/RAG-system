@@ -1,0 +1,111 @@
+airrrame liaspections. Of the material during temoval
+when deleatod Also, soundprooflng efforts often are
+or torn ciI-soked mateirits art removed and never
+ri~eplcod,
+The uae of elastomeric isolation mounting devices
+hanger bearing supports is highly at the gearbox and
+effective in rnduc'ang structural noise. Airborne noise
+housinp or clintisating any should by be minimized
+through use of proper wall thickness, case resonance
+shape, gear or internal or bearing quill attachmcint
+methods. While is virtually impossibl* to calculate it
+these conditions with suffkienrt accuracy in the design
+they are itlatively stage, measured easly during ini-
+tial component testing, and corrective redesign then
+or can undertaken. be Modifications in the shape in-
+volute pr ofiles so zs to change drastically the funda-
+mental and harmonic noise content have been in-
+vestigated analytizally (Ref. However, the slight 23).
+variation in profile requite to achieve theoretical im-
+provements was boyond tLn. judged p~resent rltinu-
+facturing state of the art Soni't methods for ap-
+proximate analytical prediction of resonant per-
+* for relatively simple structural housing formance
+* :ha~ L~ dvaniMd RC.24 an
+It is not certain that the elimination of all interac-
+tin& vibratory and resor..rit behavior in the various
+gear meshes entirely beneficia; Is i.c., some sacrifice
+in the efficiency of the lower (boundaty speed lubri-
+cation regime) meshes may result. effects of axial The
+lubrication upon reduction of tooth-meshing the fric-
+tion is reported Ref. 25. int
+Although the engineering field of gearbox noise
+generation is imprecise yet, there as exists con-
+can of practical knowledge that be siderable general
+benefit to the designer. For example, it is known that
+hnigh contact ratio gearing and finer pitch sizes pro.
+duce. ess noise than their opposite counterparts.
+Similarly, helical gears quieter then ame ttraight
+spurs; spiral bevel are quieter ctraight than gear
+or Zerol gpars because bevel of their greater inherent
+contact raitios reduced dynamic increments or waste
+loads, and increased smoothness operation. of
+In addition, increased tooth backlash and gear
+clearance can to maintain help subsonic air ejection
+velocities fromt blgh-sprtd meshing teeth (Ref. 26).
+Viscous films between tAtionary bearing rings and
+housingsi can provide suffikient to roduce vi- damping
+bratlon and noise propagation. Coulomb or dry fric-
+* tion have been successilul devices in damping reson-
+in at modes Sea have high and webs, as hy- rims
+staresis materialis clad or bonded to shafts and webs.
+onthe
+4-12.1.2 UdhIEfy
+discussion of reliability A complete general con-
+4-42
+
+cepts AMCP is contained in Chapter 12, 706-201.
+Thin paragraph, therefore, deals with specifics as re-
+to trantsmission ccmponents lated mechanical power
+the transmission system. of
+Concept definitions and numerical values for
+quantitative reliability indices generally are speciriod
+in procurement documents and, with increasing frm
+drive system in For transmission and quency, PIDS.
+are two types indices: design there of
+Values for I. such characteristics as mission relia-
+bility, flight safety reliability, and system reliability
+rot the entire helicopter (us.ually for a gi-een mission
+and operational enviroanmcnt). Typical values and
+methods of expression might respectively, be, to 0.90
+for ont. hour 0.99 of misL,.ion time. one failure per 20.-
+probability 0,80 0(N) flight hours, and to 0.70 per mis-
+ion hour of no system failures requiring unscheduled
+nainteniance. Because the reliability of the helicopter
+is a composite of the reliabilities of individual the
+subsystems, individual reliability levels must be as-
+signed %s targets for the design effort. As an example,
+assumei the Request for Picoposal (RFO) specified
+values of and (one 6.98 failure 0.9999 per hr) 10,000
+ur minkimiu and safivt criteria, respectively, The Ai- (
+lowable apportionment for the drive system would be
+dependent upon the complexity and type of heli-
+copter, but typical values for this apportionment
+could well and be 0.999 respectively. 0.9999.
+Techniques for desigri to these requirements will be
+addressed in par. 4-2.
+2. values for suhsy,6tems and component~s for such
+characteristics as reliability after storage and mean
+time between removals (MTBR). Typical values are a
+time betweenA degradation in mean maximum of 10%
+failures (MTBF) after storage for six months in ap-
+proved environment or containers and hr 1IS0 '
+MTBR, including both scheduled and nonscheduled
+removals. This type index is directly applicable f to .-
+individual subsystems, including the transmission
+and drive system. The MTBF values subject to the
+maximum degradation 10% limit lite those specified
+implicitly or explicitly in Item i.e.. the 1, 0.90 to 0.99
+mission reliability carries the recirrocal meaning of a
+to' hr MTBF, 10 the 100 one failure in 20,000 for hr
+flight safety is statement 20,000 a hr MTORE, and of
+the to probability 0. 70 0.80 of zero system fail urs per
+hr implies to hr MTBF. # 3.3 5.0 The MTBF levels
+corresponding to the drive subsytcm apportionment
+.
+in Item are hr I and 1000 (0.999) hir 10,000 (0.9999).
+respectively. (
+is important It that the designer understand that
+MTBR arid MTBF criteria discussed previously ~
+interrelate in a unique fashion with the subsystem
+design reliability when a finite timne between over-

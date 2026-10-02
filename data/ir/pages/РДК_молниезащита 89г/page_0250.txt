@@ -1,0 +1,42 @@
+Σ~~LIGHTNING
+• .
+CURRENT'"
+(α)
+(β) COAX FLUX 752 (α)
+ANTENNA -- ,R 7-,
+IL
+1...,.-.• Μ.
+__o___(Eoe 30ju (ε ,--30,(us-- R
+(χ) circuit. antenna An 8.15 Fig.
+circuits. Equivalent 8.16 Fig. orientation Circuit (α)
+(β) Electrical details of circuit (α) and (β) Circuits based on self and
+(χ) Open circuit voltage - = 00 mutual inductances of the wing RT
+(δ) Open circuit voltage - = 75fl (χ) Circuit based on an equivalent transfer RT
+(ε) Open circuit voltage - = oo admittance: Z RT = Rt + jwMt
+= 0 - curernt circuit Short (φ) RT
+(DFBW) Fly-By-Wire Digital 8.7.2
+There did not seem to be any easy way in which The second set of measurements [8.16], about
+the magnitudes of the transfer impedance could be re- which some discussion will follow, was that made on
+lated ι;o the physical geometry of the wing or to the an F-8 aircraft fitted with α fly-by-wire control sys-
+location of the conductors within the wing. It was tem. The fly-by-wire controls, shown in Fig. 8.17,
+possible, however, to say that conductors located in consisted of α primary digital system, α backup ana-
+the forward portion of the wing were better shielded, log system, and α common set of power actuators op-
+and consequently had lower transfer impedances, than crating the control surfaces. The major components
+those along the trailing edge. Likewise, it could be ob- of the control system were located in three locations:
+served that circuits which did not have any electrical the cockpit, where sensors coupled to the controi stick
+return through the wing structure had lower transfer provided signals for the control systems; an area be-
+impedances than those circuits which did have α return hind the cockpit, where there was located the digital
+through the wing structure, computer; and α compartmet behind and below the
+Α significant point was that short circuit currents cockpit on the left side of the aircraft. This latter
+had waveshapes of longer duration than did open cir- compartment was one that would normally have been
+cuit voltages. This occurs because the impedance of occupied by guns. Accordingly, it will be referred to as
+conductors is primarily inductive, not resistive. Some the "gun bay", though in this research aircraft it was
+of the specifications now being placed on proof test- used to house the interface and control assemblies, not
+ing for aircraft avionic systems do not recognize this guns.
+inductive nature of wiring systems. Rather, by design Several hydraulic actuators were located at each
+or by oversight, they effectively treat the impedance of the major surfaces. These were interconnected to
+as being resistive, α factor that complicates test proce- the fly-by-wire control systems through wire bundles
+dures and may lead to improper interpretation of test that ran under the wings. The control systems did
+results. This matter is discussed further in Chapter not depend upon the aircraft structure as α return
+18. path; the system was considered to have α single-point
+234

@@ -1,0 +1,48 @@
+Table 3.6
+F106 Fields For Altitude Triggering High and Low
+Orientation of Field Charge, Altitude and vs
+Top Bottom Right Left Back Front Aircraft
+to to .o to to to Charge
+Top Bottom Left Right Front Back
+470 470 280 190 280 190 0
+590 590 380 380 250 250
+300 600 107 200 200 200 +0.5Q μ
+660 210 350 230 210 140
+300 160 640 150 200 -0.5Q 273
+μ
+660 350 210 160 210 230
++Q. 80 80 20 20 24 50
+160 120 40 40 34 60
+80 20 80 15 20 24 -Q.
+120 40 160 34 40 60
+magnitude is the high altitude field The top number
+level. number refers to sea kV/μ. The bottom in
+to pro- field is necessary Α more intense ambient air break- α negative corona because are considered,
+aircraft is only the charge on the duce triggering if positive corona air breakdown. α is different from down
+- 250 kV/μ order 100 levels of the Q . Field half of is the net of each matrix column In the leftmost μ
+is oriented if the field produce triggering to needed are charge Five aircraft. placed on the that was charge
+stronger Α somewhat aircraft. the aft along fore and 1.0 ± Qm. and ±0.5 Q,. charge, no were used: values
+wing. to wing oriented is field if the is needed field the are matrix of the interior the in values The
+and in clouds found are magnitudes Fields of these which field electric the thunderstorm of magnitudes
+cause to found necessary fields the with consistent are α cause least triggered lightning, or at cause would
+applied to externally subjected air gaps in breakdown potential the that has the aircraft from of corona burst
+impulses. as that, Note channel. α lightning into of developing
+- 600 kV/μ would 300 Fields having magnitudes the much less for are the field magnitudes expected,
+ori- field were triggering if the to cause be necessary static α pre-existing has the aircraft cases in which
+with geometry along an aircraft, top to bottom itself ented the charge for those cases, of because Q,., charge
+flashes to most fact that The to the F-106Β. similar field all of the virtually produces of Q,) (by definition
+nose the at least involved, started at, or F-106 the produce breakdown. to necessary
+magnitude that of fields vertical that boom suggests co!- from as the aircraft, charge on pre-existing Α
+also sug- studies Laboratory encountered. are seldom suf- is not charging) (triboelectric with particles lisions
+apt to lead to magnitude are fields of that gest that away streamer propagation cause extended ficient to
+of an air- without the intrusion lightning flashes even full fledged development into the aircraft and from
+craft. be α must earlier, there As discussed leaders. lightning
+to oc- field for leader propagation ambient pre-existing
+on Trigger Size and Shape Elfects of Aircraft strength The (3.17) that requisite field suggests cur. Pierce
+af. aircraft size both Aircraft shape and charged or Conditions: aircraft of 10 kV/μ. Thus is on the order
+surface of the the fields at the feet the degree to which ("Π-static") only to triboelectric to fields due exposed
+environment The thunderstorm aircraft are enhanced. limited streamer- corona and charging may develop
+for dif- strike may be different for α triggered trigger lightning necessary but will not their extremities, ing at
+thun- for an identical of aircraft; that is, ferent types pre-existing field into there is not α flashes, because
+encounter α one aircraft may derstorm environment, extract the en- can develop and the streamer which
+dif- while α second direct strike, naturally occurring for further propagation. ergy needed

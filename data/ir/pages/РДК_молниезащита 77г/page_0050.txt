@@ -1,0 +1,25 @@
+rn2, is, For α typical transport aircraft with α total surface area of 3000 C
+from Equation 2.1
+o - ~ Ξ I 17 17 17 picofarads (pF) .7 1 = =
+Α similar calculation has been made by Schaeffer and Weinstock
+2.2) for smaller fighter aircraft, of 420 pF, and by Moore (Reference (Reference
+pF. 1.3) for helicopters, of 600
+The amount of charge which can be stored by an object having α known
+capacitance is
+where
+Q charge (coulombs) =
+= capacitance (farads) C
+object potential (volts) V =
+Thus, before the amount of charge which can be stored on an aircraft can
+V, be found, it is necessary to determine the potential, which the aircraft can
+will be assumed that the potential of the entire assume. For this purpose, it
+aircraft is the same as that of α small sphere whose radius is similar to that of the
+sharp aircraft extremities from which streamers develop and from which charge
+2 begins to leave the aircraft. Assuming, for example, that this radius is cm, the
+capacitance α sphere of this radius is first determined directly from Equation of
+2.1.
+The electric field at the surface of this charged sphere (Reference 2.4) is given by
+Q E (2.5) =
+7 4 7 7 ~ ~ ~ ~ α ~
+E 30 If assumed to be equal to kVIcm, which is the ionization stress of air in α IS
+Q, if uniform field, and Equation 3.3 is substituted in Equation 1.5 for then

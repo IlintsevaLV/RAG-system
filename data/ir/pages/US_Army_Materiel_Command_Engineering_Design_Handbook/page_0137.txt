@@ -1,0 +1,87 @@
+specificstion. The primary chafhasis is upon power
+transmission geazing ratier than torque gearing (tigth
+load/low spced, as in actuaior or hoist spplications)
+or acoxsory goaring. The latter is diccusted briefly in
+par. 4-5.
+4-2.3.1.1 Gaas Limktations
+Sucoessful helicopter gear designs usualiy have
+employed counter-forma! involute spur, heical, and
+apirai bevei configurations.
+Some applicasions, notably the Westiund WG-13,
+have usec conformal circular arc helical tooth forms.
+Although somewhat superior in performancs with
+tespect to surface durability, conformel gears ttave
+numerous configurstional limitations, ε.γ., operating
+center distance is very erizical, and frequent!υ exhibi
+reduced teoth bending fatigue strengtit. Anaytical
+techniques used for involute tooth strcngth ar.nlysis
+are not well-suited for circular arc teeih, althougn an
+excellent anslytical finite elemens approach to bend-
+ing stress calculation may be found in Ref. 50. The
+need for three-dimensional analysis is described in
+Ref. 51. This gear form is particularly sens'tive to
+center distance variaticn uniess consideran!* mis-
+match of tooth curvature is used between pit:icn and
+gear. The immediste result of this practice is α con-
+siderable increase in the inaxinaum Hiertzian stress
+with an att-ndant reduction in cke theoreticcl sur-
+face durability of the pinion. The defection inhercnt
+in the elastic reaction of the loaded tooth introduces α
+small degres of slip that furiner reduces the theo-
+retica! pitting endurance (par. 4.2.1.1). Conforma)
+gears are of considerable interect from & research and
+development visvpoint, but at present, design
+od π jo pu o
+mit ± nu aningful design discuscion of this configuia-
+tion.
+The relative efficiencics of the various spur, heli-
+cal. and spiral bevel tooth forans were discussed in
+par. 4-1.2.τ.1. The high sliding and resultant power
+loss and limiaed load-carrying capacity of crossed
+can:σ eliminaie their usefulnçss excxpt in accessory
+drive spplications.
+4-1.2.1.2 Gear Acalysis
+Succussful detail involute gear design analysis re-
+quircs an understanding of ihe relative risks of the
+three failure modes (par. 4-2.1.1) under the par-
+ticular operating cond-tions for each specific gear
+appication. Initial insight may be obtainad by
+reviewing the regions of dominant distress as shown
+in Fig. 4-20. based upor: Ref. 42. This graphic reis.
+tionship reflecte the characteristics of cacc-hardened
+
+APCP 706-202
+precision kelicoptor grais operasing in synthotic tur-
+bine lubricants. The relative positions oi each zonal
+derarcution wii vary & α function oi the diameral
+pitch Π. prcssure angke $. contact ratio, root fillet
+formn, surface finish, α.nd material-procscing charsc-
+teristics of each individual design. Fig. 4-20 repre-
+sents reasonably accirate estimates for & standard
+proportion, Π = 8.5, 35 × 61 tooth sec of fuit fillet
+fornt, ground flank, carburized AMS 626) involute
+spur gears.
+The variation in the thrce failure mods rclation-
+shipe when all factors are consiant except tor dia.
+Retra: pitch may tec scen in Fig. 4-21 (Ref. 33).
+TOOTH BREAKAGE Λ WIT
+ELDING ANO
+*EARLIMI
+GE AF TORQUE PIN TING LMiT
+SCORING LIMIT
+SUCCESSFUL OPRFATION
+NO SIGNIEICANT WEAR (WITH PROPER LUBRICATION)
+FITCH LINE VELOCITY
+Figure 4-20. Graphic Relstionsbip — Failure Modes
+— Load os Velocit:
+CORDITIONS CEF :DISTANCE 12 ν.
+SPEED PRESSURE ANGLE 22.5 10,00 fρam
+RECULZION RATIO
+TOOTH BREAKAGE LMIT
+GEAR TOXQUE PITTING LIRT
+SCORING LMIT
+12 10 9 : 6
+QIANETRAL PITCH φ& … in."*
+Figure 4-31. Grepbis Relacionsbip — Failue Moder
+— Load vs Tocth Sias
+4-35

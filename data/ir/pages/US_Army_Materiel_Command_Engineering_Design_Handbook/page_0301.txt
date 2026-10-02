@@ -1,0 +1,109 @@
+~
+- -- -..........
+SWASHPLATV
+HOR'4 PITCH
+-Although
+/
+- - -. -stress
+Σ""certainties
+I
+/
+SWASHPLATE
+gRand
+SFigere 6-12. Relatve Flich Rod Link End
+forces α keyed washer against the turnbuckle,
+attached to the washer with α cotter pin. The
+nut/washer combination prevents turnbuckle motion
+that would shorten the rod, and the lockwire
+vents any rod extension. The relativa position of
+rod ends is maintained by an internal slot
+rangenent. Proper relative rod end position is
+Vortail' in order to assure sod end clearance
+the swas'π.ste and pitch horn loss (Fig. 6-12).
+In addition to the rotation rriative to the stationary
+controis, relative motion occurs within the
+controls. The drive scissors has two horizontal
+and one universal joint to accommodate the
+and tilting motions of the swashplate. Pitch link
+eiids have self-aligning bearings to accommodate
+small angular changes between the swashplate
+and the pitch horn caused by swashplate
+Rod-end-to-lu% clearances provided be in α/sol
+to prevent contact during these motions.
+Lrjjjll dAMi.. - :ce 4ρ . Ω ... Ale
+Although wear may reouce frictional moments,
+tend to increase as α result of vibratory levels
+;ooseness caused by wear, and bearing replacement
+becomes necessary. Ease of bearing replacement
+design consideration. Bearing replacement times
+catablishcd TBO test programs and by Pervice hy
+perience.
+6-5.1.2 Test Remlts
+pnosible it becomes progreses, design As detail
+replace preliminary design estimates with
+tative information gained during bench and
+testing, Chapters 7, 8, and 9, AMCP 706-203, define
+the procedures, tests, and demonstrations involved
+demonstrating proof of wompliance with the
+requirements. Chapter 4, AMCP 706.201,
+the procedures for fatigue-life determination.
+"discussion that follows defines methods for insuring
+that bench and flight test data are sutfficiently
+and complete to be used to best advantage in
+
+- - <~-
+--
+706-202 AMCP
+system. rotating 'he of design detail
+6..!.,.1 Belch Tests LN
+the fatigue analysis of the rotating con-
+trols may thorough, the effects of be the complex
+concentrations introduced locking features by
+other un- connections, along with and threaded
+preclude an acceptable such as fietting,
+analytical fatigue strength determination. Therefore,
+it is essential that bench testing to determine the
+fatigue strength of components be coordinated
+properly with other elements of the design prucess,
+that the fatigue test requirements be based upon
+Position representative or. at least, conservative - service .- and is conditions, The factors discussed in pars. 6-5.1.2.1.1
+through 6-5.1.2.1.4 influence the estab!ishment of the
+test requirements. Component fatigue test require-
+pre- ments are discussed in dezail in par. 7-4, AMCP 706-
+the 203.
+ar-
+im- 6-5.1.2.1.1 Test Loads
+within Although it is desirable technically to duplicate all
+flight loads un the bWach, θ'σ is not always an
+economic or physical possibility. When flight loads
+rotating will not be the basis for bench test loading, an analy-
+pivots tical assessment must be made in order to determine
+vertical which of the secondary loads is significant. In the
+rod ro.ating conrol system rod end. frictional moments
+the are usrally significant whi!ε centrifugal forces are in-
+lugs significant.
+motions. Steady loads in rotating control system com-
+order ponents generally are low in comparison to the al-
+ternating loads. Consequently, the load range is
+thrwh zero.. thus increauin,, the relative motion of ,
+the components and the possibility of fectting. Test loads
+be programmed so as to insure loading the should
+through zero.
+is α the moment induced by rod end friction is If
+are significant, must be included in the test. This secon- :1
+cx- dary load must be phased properly with the primary
+load. The effects of end moments may be induced
+artifically by applying eccentric axial loads. Another
+method to is use stiff bearings and to induce bearing
+be it may ,ither test, In the test. motion during to
+quInti- neceary to evalute temperature extremes.
+flight
+6-5-1.2.1.2 imstrnmentatilm
+in The correlation of flight loads to beach test
+design measurements is α primary consideration. Unless the
+describes load distribution upon the part under test can be as.
+The certained readily from applied loads, bench test speci-
+mens should be instrument4δ and calibrated. Where
+timeily α complex bending moment exists, α component
+the should be instrumented with sufficient bridges to de-
+6-21

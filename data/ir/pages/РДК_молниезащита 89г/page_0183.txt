@@ -1,0 +1,39 @@
+a practical matter, current generators are low imped- develop Component A currents, but charging voltage
+ance devices and the current delivered to the load does need not be as high.
+depend on the impedance of the load. Peak currnt is
+one measure of the ability to cause damage aLd dura- Continuing currents: Continuing currents can be pro-
+tion of current flow is another, but they do not corn- duced by a dc source, such as storage batteries con-
+pletely define the matter. The fact that the current nected in series, ac transformers feeding rectifiers or
+is oscillatory indicates that energy is being transferred rotating machines. Storage batteries are probably the
+back and forth between the capacitance of the genera- most straightforward and economical method.
+tor and the inductance of the entire circuit. A current
+that oscillates for a long time, and thus might have a Complete current circuit: Direct effects testing fre-
+large action integral, does not indicate that it is capa- quently requires that Component A, B and C currents
+ble of causing extensive damage; it only indicates that be injected into a test piece. A typical circuit that al-
+energy is not being lost from the surge generator. lows this to be done is shown in Fig. 6.66. Closure of
+When the high current produces arcing in the ob- switch S allows the Component A generator to dis- 1
+ject under test, the load resistance is not constant, but charge into the test piece, the frequency of oscillation
+may increase with time as the current burns the surface being determined by the capacitance of the generator
+of the object under test. When this happens, the in- and the circuit inductance and the decrement being
+creased resistance causes more energy to be deposited controlled by The resulting voltage across gaps R .
+1
+in the test sample, which is to say, causes energy to and G causes them to spark over G and allows the 2 1 be transferred more efficientiy from the generator into Component B and C generators to discharge into the
+the test sample. The fact that energy has been ex- test piece. Lb and Rb are adjusted so that the Com-
+tracted from the generator means that the degree of ponent B current is unidirectional and of the proper
+oscillation of the test current is reduced. An anoma- amplitude and duration. L, and R, adjust the am-
+lous situation then arises, because the action integral plitude of the continuing current, Component C, and
+of the current, which supposedly measures the damage prevent the Component A and B generators from dis-
+producing ability of the current, is reduced because the charging into the low impedance storage battery. The
+current has produced damage to the object under test. duration of the Component C current can be adjusted
+Intermediate currents: Intermediate currents, Corn- by opening switch closing S , switch or by $3 blow-
+2
+ponent B of [6.341 can also be produced by capaci- ing of fuse F. Currents are measured by pulse current
+and resistive shunts, T , R and are larger than those used to transformers tor banks. Capacitances R . 1 2 3
+Sc
+R
+Loo
+7Component
+T, C
+FiC . 0.0n Complete curr,,R generator.
+10
+16GO

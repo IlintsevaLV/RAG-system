@@ -1,0 +1,31 @@
+The second set of measurements was made on α circuit running from the
+interface control unit and the gun bay to α wing position indicator switch
+F-8 located underneath the leading edge of the wing. The wing on the aircraft
+could be raised or lowered around α pivot point towards its rear in order to
+change the angle of attack during landing and takeoff. The purpose of the
+switch was to indicate the position of the wing. The voltages induced on that
+switch circuit are shown in Figure 14.1 1. The voltages measured from
+line to airframe were higher than those measured from line to line, but it is
+significant that the line-line voltages, while of α somewhat different waveshape,
+were not much lower than the line-to-ground voltages. The reason for this lay in
+the gun bay were the fact that the load impedances in the interface box in
+different from each other on the two sides of the circuit. One side connected to
+α power supply bus, while the other side probably connected to an emitter
+follower. Another significant feature about these voltages was that they were
+again of an oscillatory nature. They were apparently excited by the leakage of
+magnetic flux inside the aircraft and were not excited by the drop in potential
+along the structural resistance of the aircraft.
+(SWITCH CLOSED
+WING UP)
+ONE LINE-TO-AIRFRAME
+NO. ps/div. 0.2V/div. NO. ps/div. 364 I 0.2V/div. 361 I
+14.11 Voltages induced in wing position indicator switch circuit at open Figure
+plug Π22.
+Figures 14.1 2 and 14.1 show voltages measured on two different circuits 3
+going to actuators, one (Figure 14.12) going to the left pitch actuator and the
+other (Figurc 14.13) going to the left roll actuator. In both cases the voltages
+displayed were the output of the driver amplifier used to control the servo valve
+in the actuator. Both of these were differential measurements, line-line voltage
+measurements. The significant feature about these measurements was, again, that
+the characteristic response was oscillatory and apparently excited by the leakage
+of magnetic flux inside the aircraft. There was some dependence of the voltage

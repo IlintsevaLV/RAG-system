@@ -1,0 +1,53 @@
+The major elements of any fire cositrol system con- weapon is aimed and fired. An optical sight, either
+sit of sight, sensors, and computei. The weapon direct-viewing or periscopic, Senorally is used for
+controls are a part of the fire control equipment, and daylight operations, and may provide selectable do-
+their functions are to nctivate the gun or missile, greos of optical magnification.
+regulate gun firing rate, select the weapon, regulate The sighting station also may provide target range
+the ammunition feed system, inventory the am- and image intensification sensors. Target range
+munition supply, etc. equipment can include lasers, radar, or stadiametric
+The complexity and sophisticntion of an avionic ranging devices. Image intensifiers include low-light-
+fire control system wvill vary according to the degree level television, electronic image amplifiers, and op-
+of accuracy required, rnd the type and flexibility of tical telescopes.
+the armament subaysate,. The armament subsystem Direct viewing weapon sights have been a major
+may be an integral subsy3tem of the helicopter, or it source of fatal and serious head trauma during
+may be a modular comporeeni that can be snapped on crashes in US military aircraft during World War II,
+or off to suit the particular mission requirements. Korea, and Vietnam. It is essential that all sighting
+Thus, the designer must establish fire control design devices be designed to eliminate their potential as in-
+requirements commensurate with required aircraft jury producers. Factors to be taken into con-
+missions. sideration in order to delethalize sighting devices are: Because the kinds of missions to b-. derformcd arc Ability 1. to instantly remove, jettison, or stow likely to be broad in scope (ranging, perhaps, from during emergency
+close tactical support to rescue), the fire control re- 2. Not to create additional hazard(s) to other crew
+quirements likewise will be varied. Mission analysis pers.nmnel in the event of emergency
+will determine the fire control functions to be per- 3. Adequate stowed tiedown strength to prevent
+formed, and a careful selection of multiuse arms- sight from rebounding during impact
+mernt subsystem equipment will reduce weight and 4. Not to represent lethal missile 1azard in the
+for helicopters include flexible turreted Suns, fixed Review 5. of Ref. 5.
+guns, rockets, and missiles. The interface character-
+istics of their supporting functions are as different 8-44 SENSORS 3S
+the armament systems themselves. Consequenfly, de- Fire control system sensors provide the in-
+tailed integration design specifications for each typo formation necessary for solving the fire control prob-
+of armament subsytem be issued so as to insure Ien and directing shall the weapon(s) at the target. Sensor
+ffective weapon delivery. include those that measure target and typ aircraft
+-84.2 INSTALLATION motion or position, and those that assist in target de-
+tection. Externally mounted sensors should be
+Adequate provisions for installation of the housed in aerodynamic fairings wherever possible,
+elements of the respective fire control systems should and protection should be provided against such en-
+be incorporated into the helicopter to insure proper vironmental conditions as handling and accidental
+matching or harmonization of such systems with ar- ground maintenance damage. Sensors that produce
+mament. The fire control system should be installed elactro-optical or electronmagneic energy should be
+as specified in the helicopter specification governing located so that neither direct nor reflected energy
+control of guns, rockets, and guided missiles. The enters the crew compartment. Furthermore, the
+helicopter manuuacturer is responsible for the shock mounting provisions for auch semors should permit
+mounting of all fire control equipment installed, attachment of ground operation warning devices to
+Vibration-isolating mounts should be incorporated alert ground crews to potential radiation hazards.
+so that equipment will not be affected adversely by vi- The mechanical interfee between the sensor awd
+brations in the helicopter. Testing be in ac- the helicopter should be shall desgned for adequate
+cordance with MIL-STD-810. strength, ease of maintmanc, and amcurate a:gn-
+meat with the helicopter datum plane. Sensors pro-
+8-4.3 SIGHTING STATION jecting from helicopter mold line should be iocated
+S * I
+The sighting station providts the means by which so that they will not interfme with aircw entry and
+the weapon operator establishtx the xLý.nuth and de- exit. Aerodynamic soeors includc those or the pitot
+pression coordinates of the target relative to the air- tube, anglof-attack indicator, and air data com-
+craft position. For flexible weapons, the sihting sta- puter. They should located be as iar forward on the
+tion includes the operating controls which by the aircraft, and as far from the fUseg or appendags
+84e•tigb llf ralmqe

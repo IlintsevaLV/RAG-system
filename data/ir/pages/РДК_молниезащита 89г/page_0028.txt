@@ -1,0 +1,87 @@
+down, chopped waves or tail (CW) as chopped waves
+those causing breakdown after the voltage has begun
+to decay and (SF) or front steep front chopped waves
+reaches wave the before breakdown cause that as those
+its peak prospective voltage.
+If repeated applications of voltage are made, start-
+ing initially at α low level and then increasing, there
+can be found α level below which no breakdowns occur,
+the withstand (WS) level. At α somewhat higher level
+If always. not but sometimes, occur will breakdowns
+where is found α level further, still is raised voltage
+the crit- breakdown, cause of the impulses 50 percent
+ical flashover (CFO) level. That peak voltage level is
+designated TJ50, from the German Uberspannung or
+overvoltage.
+With short gaps, up to about 10 - 20 cm, the
+breakdowns will occur at the peak of the voltage wave,
+but with α sufficiently long gap the breakdowns will oc-
+cur after the voltage has reached its peak and started
+to decay. If the voltage is raised still further break-
+down occurs at earlier times, perhaps before the volt-
+age has reached its peak prospective voltage. Con-
+necting the breakdown points results in α volt-time or
+time-lag curve, Fig. 1.12. For breakdowns that occur
+after the voltage has begun to decay the point plot-
+ted is the maximum voltage and the time at which
+breakdown occurs. Fig. 1.13 shows volt-time curves
+measured on various lengths of transmission line insu-
+lators. Note that the critical flashover voltage is about
+550 kV/μ and that much higher voltages are required
+to produce breakdown at short times. This suggests
+that breakdown is α process that does not take place
+instantaneously. Research indicates that this is so.
+time-lag curve
+"• .-- prospective
+voltage
+€ 'τ-α
+voltage
+WS -is
+_
+or of α volt-time Development Fig. 1.12
+time -lag curve,
+lw0
+
+length insulation
+em
+3 5μ
+4μ
+4μ
+3μ
+2μ
+1μ
+6 5 4 3 2 1 0
+time to breakdown us
+Fig. 1.13 Volt-time curves for transmission
+line insulators [1.61.
+1.5.4 Streamer Development
+When α long air gap (length greater than about
+0.5 μ) is stressed with α positive or negative impulse
+voltage and the flashover observed with α camera that
+is able to observe the stages of the breakdown process,
+it is found that there are several fairly distinct stages
+in the process. These are the formation of an initial
+corona, growth of α leader, and α final jump which
+culminates in the development of α highly conducting
+channel.
+Initial corona. The initial burst of corona takes place
+from the energized electrode as soon as the electric
+field at the tip of the rod reaches about 30 kV/cm and
+usually this takes place before the applied voltage has
+reached its maximum value. The corona forms in α
+small fraction of α microsecond and propagates away
+mi- meters per several rapidly, very electrode the from
+crosecond (mi/ps). This corona discharge, however,
+does not go across the entire gap between the elec-
+trodes unless the electrodes are close together, perhaps
+25 cm. If the voltage were to be removed the discharge
+would stop and there would be no breakdown.
+Streamer: If the voltage is of sufficient magnitude and
+maintained, α more intense and more localized dis-
+charge called α streamer develops out of this initial
+corona and works its way towards the grounded elec-
+trode in α manner very similar to that of lightning,
+as discussed in Chapter 2. Initially this leader propa-
+gates at several centimeters per microsecond (cm/ps),
+and carries corona, does the initial much slower than
+α current of about 100 Α.

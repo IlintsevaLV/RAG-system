@@ -1,0 +1,98 @@
+11., will shield, inner on the current noise the shields,
+is conductor the to which voltage total The zero. be
+in- the conditions Under such V..-.. is also exposed
+noise the of reduction much provide not will shield ner
+voltage,
+HWJ Σ._€.vc,•,,..• ι •surface φ ζ
+...
+(α)
+__,_ _
+OVI6 V#U
+Σ.._.-.over
+. _ Σ7 ...............- 7 0' 7-ρ-77per 7 7
+(β)
+cable. Double shielded 15.9 Fig.
+field polarities and (α) Current
+forced and inner shield on (β) Current
+Λ through ,.o,. 1
+inner the If ends: both at grounded Inner shield
+ends at both shield outer the to is connected shield
+by shared will be current the noise closed), Σ (switch
+re- will conductor but the outer shields, and the inner
+the of inner surface the field along to the only spond
+be confined will current the all Lnitially shield. inner
+the cur- dc conditions under shield and outer to the
+of the the resistance to according be divided rents will
+region be α transient will there in between but shields,
+pri- determined will be current of the division where
+outer inner and the between inductance by the marily
+shields.
+currents: to visu- One way component as Treatment
+to have current the to consider is phenomenon alize the
+impressed noise current the total two components,
+circulating α component and source an outside from
+view- this From shields. outer and inner the between
+to equal be will shield inner on the current the point
+the on current the while component circulating the
+two components. the of sum be the will shield outer
+"The shield the inner on the current drives that voltage
+through of current the flow by produced that will be
+volt- This shield. of the outer impedance transfer the
+the between the impedance on when impressed age,
+on the the current determines outer shields inner and
+is impedance shielded cables this well shield. For inner
+402
+
+cur- the of waveshape The inductive. predominantly
+I1., to proportional is then shield, inner the on rent
+the along developed voltage the of integral time the
+the on current shield. The outer the of surface inner
+and time rise slower α has typically thus shield inner
+the inner along the field does than duration α longer
+the in- on 11., current, This outer shield. of the surface
+ternal shield then produces an electric field along the
+re- The conductor . E shield, inner of the ,. 1 1
+inner along the field the electric to sponds primarily
+shield.
+be apparent will It shielding: multiple of Example
+con- shield of combinations of α number are there that
+"nections are pos- which impedances termination and
+the of response overall the affecting them all of sible,
+demon- been have effects these of Some system. cable
+in described tests the of extension an during strated
+coax- RG-58/U of piece The 15.7. through 15.2 Figs.
+by pulling modified was tests those used for ial cable
+cop- of flexible another length jacket the outer
+of is cable Triaxial cable. triaxial forming α braid,
+available. cOnmiercially course
+Fig. on shown are results and connections test The
+com- separate has three circuit The equivalent 15.10.
+all prac- for that each, the sense in separate ponents;
+The independently. be treated may tical purposes,
+induced voltage the determines circuit of the first part
+gov- is This shield. the outer of surface inner the along
+transfer the through flowing current the outer by erned
+MI. and R, shield, the outer of §15.4) (see impedance
+this inner the problem, of stage the second In
+ex- the inductance across is impressed voltage shield
+order to in shields and outer the inner isting between
+shield. inner on the flowing current the determine
+shield the inner current on the the third stage, In
+the in- of impedance transfer the through is passed
+and current of product Μ . The and ner shield, R 2 2
+be- that appear voltages the gives impedance transfer
+conductor. signal central ground on the line and tween
+shown voltages, of these amplitudes and shapes The
+developed those less than are much Fig. 15.10(χ), in
+Fig. 15.7. conductor, singly shielded on the
+Sldelds Impedance of Cable Transfer 15.6
+which is one 15.7 Fig. of equivalent circuit The
+in- self the transformers, of use the through depicts,
+and the shield and conductor the both of ductances
+mu- two. Self and the between inductance the mutual
+precision with great be known inductances must tual
+α require- accurately, be calculated are to results if
+two is split into circuit is the can be relaxed that ment
+relates of the circuit One part 15.8. as in Fig. parts,
+shield on the flowing the current field to magnetic the
+the shield to on the the current another relates and

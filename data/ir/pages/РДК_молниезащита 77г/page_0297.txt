@@ -1,0 +1,31 @@
+τ
+'*
+METERS PERIPHERAL DISTANCE IN
+tLLW llC4 \
+APPROXIMATING
+Y
+,
+I I
+0.2 0.8 0.6 0.4
+-0.1 METERS ; , τ --
+-0.2 O μ -
+Wire approximation of the elliptical fuselage. Figure grid 9.13
+each fdament to be controlled by the magnetic distribution. The field patterns
+clearly show the field in the recessed cavity to be less than the field at other
+exterior points on the fuselage.
+The degree τ o which the MAGFLD program can calculate the magnetic
+field external to the aircraft fuselage, while interesting, may not be of great use
+for aircraft studies, since it is usually only the field intensity at the surface of the
+structure that is of interest. The program, however, is capable of calculating the
+field distribution interior to these simple geometries with sufficient accuracy for
+many purposes. One such purpose is to help determine the effective area through
+9.1 5, which circulating currents flow. For such calculations, as shown on Figure
+the number of filaments defining the structure can be greatly increased, since
+each of them will carry α uniform current. Determining the current distribution
+on many more fdaments when that current is determined magnetically might
+lead to numeric problems, since the order of the matrix that must be inverted is
+The greatest utility of the equal to the number of conductors involved.
+MAGFLD program would be to calculate the current density or magnetic field
+9.17 density at the surface of α structure. Figure shows the current distribution
+on the filaments for the geometry previously shown on Figure The current 9.16.
+density here is determined magnetically.

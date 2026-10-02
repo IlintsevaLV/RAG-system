@@ -1,0 +1,108 @@
+level, protection The type. MIL-Τ-27422. dance with
+by the specification be ap- and class as defined shall
+I (ε.γ.. Type for self- to the application propriate
+tank con- sealing. Type II for nonself-sealing). The
+comply figuration and installation shall with Μ IL-F-
+38363 and MIL-Τ-27422. These specifications con-
+tain the requirements for liquid-tight structure sur-
+rounding self-sealing tanks and the installation of
+backing boards to protect flexible self-sealing tanks.
+contain expan- each tank To prevent overflow shall
+less sion space equal to no than 3% of the total fuel
+volume of the tank when the helicopter is in α normal
+ground attitude. Gravity filler openings be so shall
+located that all tanks can be filled without overfilling
+into the expansion space. For pressure refueling
+systems the level shutoff valve prevent filling of shall
+the expansion space. Each filler opening cap be shall
+be in accordance with MIL-C-38373. All tanks shall
+provided with α low-point drain for fuel sampling
+and defueling purposes.
+External fuel can be contained in tanks complying
+with MIL-Τ-7378 or MIL-Τ-18847. The installed
+location should permit service personnel standing on
+the ground to inspect visually and service the tanks.
+)
+Inflight jettisoning should not affect the helicopter
+adversely. To minimize combat turnaround time, all
+external tanks should be readily removable and
+replaceable without helicopter disassembly.
+3-4.2.2 Fuel Tank Vents
+atmosphere to'the be vented fuel tank Each shall
+with compatible capabilities are whose lines :hrough
+without pro- the helicopter, of performance the
+the helicopter to detrimental pressures tank ducing
+or to the tank. structure
+the vent- required, is system refueling α pressure If
+.o be sufficieni also of each tank ing capacity shall
+flow, without maximum rate of fuel discharge the ,ξ-
+that the refueling pressure in the event cessive tank
+Traps in an open position. valves fail shutoff system
+be should subsystem and the be avoided, must
+amphibious if afloat helicopter the with operable
+used to If vent valves are are required. operations
+.hall, prevent spillage, they as required by MIL-STD-
+1290. close when the helicopter is in α position of
+extreme attitude. The vent lines may be designed to
+prevent spillage without valves by traversing three
+6 design details. for vent line etc. See Ref. directions,
+3-4.23 Fuel Gaging
+In accordance with MIL-F-38363. α fuel-gaging
+MIL-Γ-26988 system that meets the requirements of
+It be installed in accordance be provided. shall shall
+indication of total fuel System with MIL-Γ-7940.
+
+sli tank in each main of the quantity and quantity
+Design fuel continuous. of the gaging system and be
+gaging system puncture cell interface must preclude
+of the fuel cell during crash conditions.
+Each main tank shall contain α device independent
+of the fuel gaging system to provide α low-fuel warn-
+ing. The quantity of fuel remaining at the moment of
+be actuation of the low-fuel warning must suiTicint
+to allow the engine to operate for 0.5 hr at maxi-
+specified. unless otherwise mum-range power
+u 342.4 Refuellg ai
+The refuel/defuel features for any given fuel sub-
+system be specified by the procuring activity. shall
+shall However. the design criteria for such features be
+in accordance with MIL-F-38363.
+All helicopters be capable of being refteled on shall
+the ground, using α gravity refueling system. without
+external power being applied. Unless the tar.Ks are
+be too small for the rate to practical. or the pro-
+curing activity has specified another .- ate. the fuel
+system be capable of being refeled, at α con- shall
+tinuous rate of 200 gpm without any operations other
+than removing the filler cap and connecting the
+fueling nozzle bonding plug being required. During
+the tank topping portion of the refueling, the flow
+rate may be less than 200 gpm.
+If the internal fuel capacity is 600 gal or more. α
+pressure refueling system be required (MIL-F- shall
+38363). In this case, it be possible to refuel all shall
+lines being connection, the fuel α single from tanks
+theoreti- tanks in all level fuel the to allow as such
+On the simultaneously. the full position to reach cally
+it that be such must design subsystem hand, the other
+or to any individual tank to fill selectively is possible
+of shutoff Operation tank. any given filling avoid
+depend must not system, plus the precheck valves,
+external power. To prevent excessive the use of upon
+system, shutoff pressure within the refueling surge
+or appropriate may It •ρ.wtrolled, closure time valve
+sys- Additional incorporated. valves relief pressure
+MIL-F-38363. in given are requirements tern
+using the be possible Defueling of tanks shall
+pressure refueling system when installed. When the
+defueling adapter (MIL-Α-25896) is not usted also for
+refueling, positive means, such as α check valve, shall
+be installed to prevent refueling through the adapter.
+illustrated in system is pressure refueling Α typical
+Fig. 3-5.
+shall Α sump be provided in that portion of each
+fuel tank which is lowest when the helicopter is in the
+normal ground attitude. Α drain valve for fuel
+sediment watersh.ll for removal of and sampling and
+each tank sump (MIL-F-38363). provided in he
+3.11

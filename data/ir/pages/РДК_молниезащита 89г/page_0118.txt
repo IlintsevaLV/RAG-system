@@ -1,0 +1,93 @@
+Α 109405 - 10
+σ-' 22708 α :
+Ssmi 1294530 α-'
+time σ =
+5.4. in Fig. is also shown waveform current The
+Compo- current: of rise rate H - High Component
+rate peak α kA and 10 of current peak α H has nent
+is waveform The 0+. τ = at 2 10"Α/σ Ξ of rise
+as mathematically
+ι(τ) Io 0 - -
+where
+10572 Α io =
+187191 σ-1 =
+σ-1 19105 =
+σ time = τ
+The current waveform is shown in Fig. 5.6.
+and Α, components Current Application: C, Δ Β,
+characteristics the important comprise together
+not although current flash lightning natural severe
+the everywhere on may attach the components of
+are described and H Α, craft. Components Δ Β,
+the to provide expressions exponential double
+and as rise such characteristics tant waveshape
+amplitude and charge peak rate of rise, times,
+is α rectangular C integral. Component or action fer
+of the charge most transfers pulse that current
+components applicable The current flash. lightning
+which 5.2, in Table are shown areas specific
+lightning strike to the components the current
+α particular on strike zones for locating Guidance
+in §5.6.1. craft is presented
+Table 5.2
+Zones In Various Applicable Components Current
+C~lrt• Wav•ε• ane
+multiple multiple
+χ Surst Δ Stroke AaXxXXXX ta
+XXXX 3Α
+xXXXX 2α
+KKXKKK 2
+Ois
+flash con- lightning cloud-to-ground typical Α
+of version α severe restrike, than one more tains
+fact, flashes Δ. In by component represented
+
+03nly
+For pro' been recorded. strokes have up to 24 taining
+consider to adequate is it effects, direct tection against
+one return stroke or restrike (Component Α or Δ)
+because this is assumed to occur anywhere within the
+for However, 2Α or 2Β). zone (1Β, strike appropriate
+consider to it is necessary effects of indirect evaluation
+flash, lightning of an actual nature the multiple-stroke
+corre- strokes may induce the succession of because
+example) (for circuits transfer in data pulses sponding
+sys- sensitive to damage cumulative upset or causing of
+multi- following the purpose, this For or devices. tems defined
+the α basis using as defined, has been flash stroke pie
+stroke) and (first return Α definitions of components
+(5.6) Δ (restrike).
+multiple stroke The synthesized stroke: Multiple
+fol- component defined as an Α current is waveform
+lowed by 23 randomly spaced restrikes of peak ampli-
+This waveform is shown tude of 50 000 amperes each.
+2 of α period over occur restrikes 23 The 5.5. Fig. in
+constraints. following the to according sec
+is strokes subsequent time between The minimum -
+10 Ms.
+strokes subsequent between time The maximum H
+200 ms. is of α
+all
+identical parameters waveform have restrikes The air-
+that exception the with component Δ current to the by
+airframe of an most Because 703 amperes. 54 = impor- I0
+more of the one or as well as zone 3 located within is decay
+nearly is environment stroke the multiple zones, other trans-
+special cases may be there However, applicable. always
+and subsystem or aircraft system the 2 where α in zone in
+Α of the initial effects from the is isolated wiring to its
+to the not exposed therefore and is component current relates
+cases, special In these or fields. current component Α zones.
+current the first but still applies multiple stroke the air-
+000 α peak of 200 from be reduced can component
+should The applicant amperes. 100 000 to amperes
+coordinate this reduction in multiple stroke environ-
+basis. case by α case on FAA the with ment
+too Ω,
+so 0 .
+N.
+Α
+I $*mods Λ
+which
+flash. Multiple stroke 5.5 Fig. con-
+101

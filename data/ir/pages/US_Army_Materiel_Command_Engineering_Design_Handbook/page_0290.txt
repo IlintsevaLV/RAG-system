@@ -1,0 +1,107 @@
+AMCP 706-202
+collective. tail rotor changes mechanically
+poiat reference the moves displacement pedal
+for the system spring, biasing gyro centering
+6-3.1.4 Lockheed Coutrol Gyro
+In later versions of the Lockheed control gyro,
+gyro bar, consisting of as many arms as the rotor
+blades, is mounted universally upon the rotor
+above the rotor hub. Pitch links connect each
+α pitch anm cn the following blade. Push rods
+connect each arm to α point directly below on
+swashplate. Sp,-ing capsules in the linkage
+the swashplate and the control stick enable the
+to exert α moment upon the swashplate. This
+is proportional to stick displacement, and is
+ferred to the control gyro, which precesses in the
+propriate direction 90 deg of rotor rotation later.
+tilt of the gyro results in an input of cyclic pitch
+main rotor blades. Rotor tilt and fuselage tilt
+because of the relatively high flapping natural
+quency of the hingeless blades. Additional data about
+this system may be obtained in Ref. 13 and in
+2.4.3.2, AMCP 706-201.
+SAS Electrohydraulic 6-3.1.5
+In order to achieve acceptable handling
+many helicopters use electrically driven and
+rate gyros to measure rates of pitch, roll, and
+(Ref. 14). These rate signals are amplified,
+cross-coupled where appropriate, and fed into
+trohydraulic servo actuators in series with the
+ventional control boost actuators.
+6-3.1.6 Fluidic and Hydrofluldic SAS
+The fluidic SAS, which is operated by air or
+is analogous to tke electrohydraulic SAS and may
+substituted for it (Rcfs. and 16). The fluidic SAS, 15
+with specially developed angular rate sensors
+no moving parts and with integrated circuits having
+ν3 external plumbing, offers advances in
+and significant savings in cost and weight.
+it represents an advanced state-of-the-art, and
+may suffer from problems such α3 leakage,
+ture sensitivity, and nuii shift of the sensors.
+6-3.1.7 Fsp'lup Moment Feedback γ
+Rigid-rotor helicopters exhibit strong noseup
+pitching moments with an increase in speed or
+ward gust encounters. One method of counteracting
+this tendency is to sense the pylon bending
+rind to apply cyclic pitch in such α direction
+reduce the moment. If the pylon is flexible, its
+flection due to rotor moment can be connected
+mech-mically into the cyclic pitch loop at the
+6-10
+".Λ• I - Ω '- , ,•,- -,,. . .. . .• . . .: ..• . .
+
+This concept 17). (Ref. δ,:flection the to reduce phase Rudder
+fully. developed been not yet has the of
+turns.
+6-3.2 CRITERIA FOR SELECTION
+*Σ-3.2.1 Augmentation Requirements
+α it is virtually impossible for α helicopter to comply
+has with the handling quality requirements of MIL-H-
+shaft 8501 without some type of SAS. Selection of the type
+arm to of system to be installed requires evaluation of the de-
+also ficiencies of the unaugmented, or inhereny, charac-
+the teristics. The evaluation criteria include both the
+between specification requirements and the requirements im-
+pilot posed by the missions assigned to the helicopter.
+moment Refs. 18 and 19 discuss the tailoring of helicopter
+trans- handling qualities to mission requirements exceeding
+ap- those set forth ip MIL-H-8501. Par. 6-3.1, AMCP
+The 706-201, presents recommendations for contrcl
+to the power and damping.
+follow High-performance attack and troop support heli-
+fre- copters require high control power in order to
+achieve the necessary maneuverability. Good damp.
+per. ing 6- in rol!, pitch, and yzw also is required in order to
+prevent the helicopter from being oversensitive and
+given attitude. Furthermore, in hoid α to diicult at very high helicopters become more divergent
+qualities, speeds, with the result that speed compensation of the
+sensed stabilization system may be required. By means of
+yaw simulation studies with alternate helicupter/SAS
+shaped, combinations, it is possible to determine α range of
+lcc- gains for the SAS that will cover the extrcmes of
+con- opetational requirements. During flight test of SAS
+prototypes, adjustment capability can be provided by
+or resistors calibrated potentiometers means of
+(decade boxes). Final values for system gains should
+liquid, be baqed upon adjustments made under actual flight
+be conditions duplicating those of the required mission.
+The test program also will establish whether or not
+having the gains can be constant, or if they must vary with
+flight speed, gross weight, or any other parameter.
+reliability For α smail obsevation helicopter, the require-
+However, ments of MIL-H-8501 generally are adequate, and
+it still the simplest mechanical SAS may be sufficient to
+tempera- meet them.
+6-3.2.2 Helicopter Size
+The gcneral category of SAS, mechanical or
+power-assisted, to be used is dctermined by heli-
+in up- copter size, Only the smallest helicopters can use all-
+mechanical systems, because the rotor feedback
+moment forces that the SAS must overcome are corrcspond-
+as to ingly small, In helicopters with power-operated con-
+de- trols (par. 6-4), the need not operate SAS directly
+upon the rotor but can operate at α much lower force
+proper levcl in the control system below the power actuatorr
+._ : ,• :. . . " • •• • . .•• := • . :

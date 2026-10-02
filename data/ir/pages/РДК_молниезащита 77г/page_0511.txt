@@ -1,0 +1,45 @@
+It simulates over α narrow band of frequencies one important aspect
+of indirect effects--the resistive coupling of electromagnetic fields.
+High amplitude is available from relatively low-energy-surge gener-
+ators, since little energy is lost in waveshaping resistance.
+It can approach α full-threat-level test of lower frequency resistive
+coupling effects, at least for lightning strokes of low to average
+amplitude.
+The slow oscillatory wave has drawbacks parallel to those of the
+high-frequency test wave:
+It overemphasizes (and deliberately so) one of the component
+frequencies of lightning currents.
+It may not correctly simulate diffusion penetration of magnetic
+fields. One can take refuge, however, in the observation that
+imperfect simulation is better than no simulation.
+It does not constitute α full-threat-level test for the higher amplitude
+lightning flashes. Data obtained at low amplitudes require extra-
+polation to give effects that would be present at full lightning-
+current amplitude.
+It is fundamentally different in waveshape from the waveshapes of
+natural lightning currents.
+It is potentially damaging to avionic equipment. The observation
+made previously about the high-frequency test waveform applies
+equally well to the same drawback in the low-frequency test.
+It too requires bulky test equipment.
+17.3.2 Transient Analysis Tests
+Α major virtue of the fast oscillatory test wave is that it can simulate fairly
+well one of the important aspects of natural lightning--the electromagnetic
+effect, associated with the initial rate of change of lightning current. Because of
+the emphasis that is placed on rate of change, it is often believed that only rate
+of change of current is important. Likewise, it is often believed that α
+nondamaging test for indirect effects analysis can be made by applying α current
+that initially rises at the full-threat-level rate, 100 kA/ps, but not allowing that
+current to flow for very long or not allowing it to increase to α high amplitude.
+Such concepts are fallacious.
+Consider Figure 17.3 (Reference 17.5) in which two different current
+waves are applied to an equivalent circuit of the type shown in Figure 17.3(α).
+One current rises at the rate of 100 kA/,us to α value of 10 kA, with τ λ equal to
+0.1 ps, and the second rises at the rate of 100 kA/ω to α value of 100 kA, with
+equal to ps. The responses of the circuit, shown in Figure 17.4 (Reference τ 1 1
+are fundamentally different. 17.6),
+The most nearly correct method of making α nondestructive test of
+indirect effects is to keep the basic waveshape the same, reducing only the
+amplitudes. Such scaling is shown in Figure 17.5 (Reference 17.7). Frequently,
+concern is expressed about the fact that reducing amplitude but keeping front
+1 50

@@ -1,0 +1,32 @@
+to obtain assurance that the melting point will not be reached. The temperature
+rise in α current-carrying conductor is expressed by the basic equation (units in
+parenthesis):
+JIZ dt (AZ -σ) Resistivity (Rcm)
+AT("C) (γ*) ( ) (7.1) =
+Specific heat Density Areaz (cm4 )
+γ-"C cm
+It is evident that temperature rise is directly proportional to the square of
+the lightning current and inversely proportional to the square of the cross-
+7.1 has two sectional area of the conductor. As it stands, however, Equation
+shortcomings:
+1. It assumes no energy (heat) loss resulting from radiation during the
+time current is flowing
+It assumes that resistance does not change with temperature. 2.
+lost during the short time duration of lightning Since little energy is
+strokes, the first shortcoming has α negligible effect on the accuracy of the
+predicted temperature rise. Resistance does depend on temperature, however,
+and, since resistance also affects the amount of electrical energy that can be
+deposited in the conductor, it is important to account for this dependency. This
+can be done by expressing resistivity as α function of temperature, using the
+following expression:
+7.2 Ξ where is the temperature coefficient of resistivity. Incorporating Equation
+into the expression of Equation 7.1 gives the following equation:
++
+[ ($)AT('C)] η 1 ~ 1 ' δ τ (Α' Resistivity (R-cm) -σ)
+"TCC) =
+(Α) Specific heat Density ~ rea ' (cm4) (γ@)
+cm3 (7.3) γ-°C
+Since everything but is material property constant, this equation is α
+most easily solved by combining the conductor dimensions and material
+properties in α constant, κ, in the following expression:
+where κ is equal to the right side of Equation 7.1.

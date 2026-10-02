@@ -1,0 +1,55 @@
+706-202 _olingAMCP _ _ _ _-_.__ _ __
+Cooling 7-2.23 DATA DESIGN
+gene- AC in an α primary requirement Cooling, EQUIPMEN
+by air or by CHARACTERI_,_os specification, may be accomplished rator TIS-
+are generators oil-cooled and air-coaled Both liquid. EU IO
+applications. helicopter for 0ORMATIONemploked 1 Ω For air-coolcd generators, either self-cooling or
+of self- In the case may be employed. cooling blast
+of the rotor on the is located fan integral an cooling,
+CARD LOAD machine, and diffusers or baffling are employed to di-
+., ,1Δ SORT rect the air over the hot internai surfaces. the If in.
+fan the to provided is ducting that such is stallation
+this ducting of characteristics the pressurz-flow inlet,
+air- all through-generator that so be considered must
+generator self-cooled are met. Α flow requirements
+may the laboratory in good performance exhibits that IPT
+burn up on the airframe because duct restrictions TAPE
+of blast-coo!cd the case In not considered. were
+and pressure-altitude airflow inlet generators,
+characteristics of the separate forced-air supply must
+proper of use order al'ovi defined adequately in be tis.
+Cooling-air this manner. cooled in α gcnerator LISTING EDIT INPUT EDIT
+tempcrature and ambient altitude versus temperature
+cooling speci- adequate of an are vital aspects data
+Contaminant in MIL-Γ-6099. as discussed φ.cation
+air is required. of cooling lprotectiorn
+--.
+categories, two into fall generators Oil-cooled YES ERRORS
+Oil-cooled and spray-coaled. conduction-cooled CANCEL RUN DETECTED
+oil tempe,-atures with inlet are practical generators
+0 F. to 330 -65' from
+"In cir- is oil generator, the conduction-cooled
+and the housing in closed passages through culated
+of by conduction is obtained Cooling rotor shaft.
+Y heat to the oil from the hot windings. The bearings
+and for cooling, as well as oil for lubrication use the
+of the weight required. The are seals rotating
+- ,- . η- ic ν- -. . .
+generator. the air-cooled of that
+ef- the cooling oil, in generator, spray-cooled In the TAPE
+rest-its This the windings. directly on is sprayed fect,
+α along with transfer, in heat improvement in an
+to compared 15% of approximately reduction weight
+To generator. cgnduction-oil-cooled or the air-cooled
+have been generators all spray-oil-cooled date, ANALSSI LOAD
+at 12,000 sy:tems, and operate applied to 400-Hz REPOR
+α α rating; 90-kVA assume comparison rpm. For
+using magnesium generator air-cooled modern
+90 approximately alloys weighs and cobalt housing Flow Charl 7-5. Typical Autoration Figure
+rating the same with generatnr Α spray-cooled lb. is generally bearings of lubrication Oil vironm-nt.
+approximately of weight generator lb. Α 55 weighs of 15,000 excess in speeds tor generator necessary
+If cooling. with apray is aciicvable kVA per 0.5 lb br-ν has hr 10,000 of excess in life Bearing rpm.
+the to zcavenge it is necessary used, is cooling spray I ~) ι- oil using helicopter generators in achieved
+excess oil fesulting remove ι.ε.. to cav:ay, generator gene Ator AC bearing oil-lubricated Α typical cation.
+windings. the of spraying from 7-6. in Fig. shown is
+7-7

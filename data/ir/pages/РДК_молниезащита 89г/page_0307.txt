@@ -1,0 +1,83 @@
+violate linear constraints, but it does prevent the
+lem from having α single unique solution.
+The linear technique can be used for either
+gered or natural lightning; the distinztion being
+triggered lightning begins at the aircraft and moves
+away while natural lightning moves toward the
+craft. Typical geometries for each of these cases
+shown in Fig. 10.26. The figure shows the channel
+attached to the nose of the aircraft, as often happened
+on the F-106Β, but the analysis procedure allows
+tachment to any point on the aircraft.
+and 10.26(α) Fig. between diff.!rence The
+10.26(β) is the location of the current source.
+calculations simulating natural lightning the source
+located at the edge of the problem space, as far
+the aircraft as possible, reflecting the fact that the
+tiation and driving forces for α natural lightning
+occur away from the aircraft and the lightning propa-
+gates towards it. For triggered lightning it is located
+near the point where the channel attaches to the
+craft, reflecting the fact that the flash originates at the
+aircraft and propagates away from the aircraft.
+Jto (α)
+(β)
+Fig. 10.2( 3Δ finite difference model of CV-580 aircraft,
+(α) Top view
+(β) Bottom view
+Formation times of multiple channels: While the rou-
+tines can handle multiple exit channels, it is necessary
+to define in advance when they are to form; the forma- Sduring
+tion times cannot be left as α matter to be calculated
+the solution of the problem.
+
+prob- edge of problem space
+eema
+current channel trig-
+that
+_ _ _ _-_,
+sourcee air- N_ current sensor
+I are
+[
+at- -- edge of problem space
+I
+current channel Fig.
+For (
+is
+ensaor from
+ini- [
+flash current source
+Fig. 10.26 Locations of current source
+air- (α) Natural lightning
+(β) Triggered lightning
+Lightning channel geometry: The geometry of the
+lightning channels should be defined since there can be
+"radiation from the channels that affects the response
+of the aircraft. This radiation, however, has much less
+of an impact on the response than does the current in-
+jected from the channel. Since the orientation of real
+channels cannot be determined in advance, it is gener-
+ally satisfactory just to assume the lightning channels
+Fig. 10.26. as shown in lines, be straight
+Channel characteristics: The channel characteristics,
+the most important of which are impedance and ve-
+locity of propagation, must be defined since there are
+interactions between the aircraft and the channel and
+these depend on the channel impedance. Elementary
+aspects of this interaction were discussed in Chapter 8.
+The impedance and velocity of propagation are deter-
+mined from the resistance and inductance and capac-
+Wr two being determined by the physical diameter of the
+channel, as discussed in Chapter 2.
+The analysis technique allows the investigator to
+define any desired impedance characteristics of the
+channel, as long as those characteristics do not depend
+on the way the problem evolves. The impedance may
+vary with time, but the variation must be predicted in
+advance.
+In an actual channel the impedance probably de-
+pends on the current that has flowed through the chan-
+nel, but the linear analysis technique does not allow
+channel impedance to be defined as α function of cur-
+rent.
+291

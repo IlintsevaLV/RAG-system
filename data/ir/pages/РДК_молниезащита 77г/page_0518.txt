@@ -1,0 +1,34 @@
+other waveforms are specified for other purposes, these are the most common
+waveforms.
+17.2 TABLE SPECIFICATIONS RELATING TO
+OSCILLATORY TRANSIENTS
+Peak Damping
+Amplitude Period Frequency Definition
+Component 1 Space Shuttle -
+>
+10 8~ 0.25 125 Α2 kHz Α ] Α
+on fifth cycle
+> 50 125 V kHz 8~ 0.25 Α2 Α,
+on fifth cycle
+Component Shuttle 2 Space -
+>0.25 5 1200 Hz Α;! Α 1 Α 833 /.IS
+on fifth cycle
+>
+0.25 Α1 Α2
+on fifth cycle
+ANSI SWC Test
+Α NA NNA
+MHz Envelope decay 0.67-1 .O-1.5 2.5-3.0 1 kV /.ti
+to 50% in no
+less than ps 6
+Martzloff and Howell
+NNANAA
+10 ps I00 0.8 kHz kV
+Some of the older American literature refers to α voltage wave having α
+time to crest of 1.5 and α decay time to half amplitude of 40 ps. For all /.ti
+ξ 1.2 50 ps waveshape, the 1.2 ξ 5 0 practical purposes, this is the same as the ps
+wave representing α fusion of slightly different American and European
+1.2 standards. The ξ 5 0 figure is often viewed as representing the waveshape ps
+of the lightning current. This view, however, incorrect; it represents the is
+voltage produced at high-voltage equipment, such as transformers, by the effects
+ξ current wave of α lightning stroke at some remote point. The 4 10

@@ -1,0 +1,64 @@
+ever current crosses joints and couplings, there exists
+the possibility of arcing or sparking. Since so little
+energy is needed to ignite fuel, the behavior of these
+internal currents is of great importance to fuel systemn
+safety.
+Arcing can also occur, at some instances, when
+lightning currents in the skin encounter discontinuities,
+such as access doors and filler caps. Electrical wires
+in fuel tanks pose another potential sparking problem
+because high voltages could be produced by the high
+electromagnetic fields associated with lightning,
+Fig. 7.19 shows the possible lightning current
+paths in a typical fuel tank and calls attention to the
+areas of greatest concern. In the following paragraphs
+each of these areas is discussed. Areas of concern for
+which little or no quantitative data is yet available will
+also be discussed,
+7.6.1 Filler Caps
+Problems: Filler caps must be fitted with gaskets and
+seals between the cap and its adapter in the tank.
+Most of these seals have little or no electrical conduc-
+tivity. If a lightning flash contacts the filler cap there
+may be a spark across or through the seals. The spark
+may then generate sufficient pressure to blow plasma
+past the seal and into the fuel vapor space.
+Fig. 7.19 Lightning
+and potential
+
+Newman, Robb, and Stahmann [7.47] were among
+the first to recognize this possibility and evaluate it in
+the laboratory. They demonstrated that direct strikes
+to filler caps of the design then in common use would
+cause profuse spark showers inside the tank. They ap-
+plied simulated strikes, which ranged in energy from a
+2 very mild 35 kA, 0.006 x A .s stroke to 10s a very severe
+2 180 kA, 3 x 106 A '. stroke, to typical fuel filler caps.
+Profuse sparking occurred under all conditions. When
+an ignitable fuel mixture was piaced in the tanks, these
+spark showers readily produced iguition.
+Newman and his colleagues did not report spark-
+ing or fuel ignition when the same filler caps were not
+struck directly but were only located in a tank skin
+through which lightning current was being conducted.
+Other literature does not report such sparking either,
+but the possibility of such an occurrence might still
+exist under some conditions.
+Protection techniques: After observing the sparking
+from direct strikes to the original filler caps, Newman
+evaluated several design modifications to prevent this
+sparking. Fig. 7.20(a) shows where sparking can take
+place on the inside surfaces of an unprotected filler cap
+while Fig. 7.20(b) shows a design intended to prevent
+internal sparking.
+SKINS, BETWEEN JOINTS
+RIBS SPARS, AND
+JOINTS AND INTERFACES
+IN LINES & FITTINGS
+DOORS ACCESS
+AND
+FILLER CAPS
+AND WIRING
+current paths in a fuel tank
+problem areas.
+191

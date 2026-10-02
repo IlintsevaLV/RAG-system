@@ -1,0 +1,91 @@
+Coupling mechanisms: With .NEMP the primary
+that energy couples to the interior of the aircraft
+through apertures. Aperture coupling is also impor-
+tant to lightning interactions, but coupling through
+sistive or diffusion mechanisms is also important,
+ticularly for aircraft using large amounts of composite
+materials in their structure. These coupling mecha-
+nisms are illustrated in §8.5 and discussed in more
+tail in Chapters 11 and 12.
+Frequency spectra: NEMP and lightning can also
+compared according to their frequency spectra,
+8.3 showing an example. Broadly speaking, NEMP
+involves more energy than lightning at high frequen-
+cies (50 MHz and above) while lightning contains more
+data The lower frequencies. at than energy NEMP
+of Fig. 8.3, should, however be viewed with caution
+since the frequency spectrum calculated for lightning
+based on simplified waveforms that may not truly
+Research lightning. of nature the multi-pulse resent
+indicating that there are portions of lightning currents
+that change with time more rapidly that previously
+assumed.
+Λ
+*Severelihng o ligtningE.γ,,
+~Moderate * λ igtning
+*"
+"�NEMP
+NNE. Π
+"*"
+"
+UVoltage
+Frequency - Hz
+Fig. 8.3 Frequency spectra of lightning and NEMP
+μ) 0.75 (Range =
+8.5 Basic Coupling Mechanisms
+Α metal aircraft is often viewed as α Faraday
+screen, α concept from electrostatics which implies
+that the electrical environment inside the aircraft
+separate and distinct from the environment outside,
+To some extent this is true; the lightning environment
+inside an aircraft is not nearly as harsh as is the exter-
+nal environment. There are, however, some important
+mechanisms by which electrical energy couples to the
+Sthe interior of the aircraft. The basic coupling methods
+are shown on Fig. 8Α4. Subsequent chapters discuss
+points in greater detail.
+
+way 8.5.1 Resistive Voltage
+is
+The first of these relates to the electric field pro-
+re- duced along the inner surface of the aircraft by the flow
+par- of current through resistance, or in elementary terms
+the resistive voltage rise caused by the passage of cur-
+rent. In some cases an easily identifiable resistance
+de- will be involved, though frequently the resistance will
+be of α distributed nature and probably frequency or
+time dependent.
+be
+Fig.
+IL -..
+(α) hR
+is External magnetic field
+rep- τ Aperture.
+is I"
+field magnetic Internal (β)
+External electric field
+field electric ()Internal
+Fig. 8.4 Coupling mechanisms.
+(α) Resistive
+Magnetic (β) fields
+(χ) Electric fields
+rise: The term voltage is preferable to rise
+drop voltage since the product of current and resis-
+tance acts as α source (akin to α battery as α voltage
+source) which is then applied to an external circuit, in
+this case the wiring of the aircraft.
+Joint resistance: The most easily understood mech-
+anism by which the passage of lightning current gives
+rise to voltages on aircraft electrical currents is that in
+which the current, flowing through joint resistances,
+produces α voltage by the elementary IR mechanism.
+is Such α case is shown in Fig. 8.5. Here lightning is
+shown contacting wing α tip navigation light. The
+lightning current flowing through the resistance of the
+mechanical mounting structure of the lamp housing
+produces α voltage across that resistance. The voltage
+rise across the resistance will have the same waveform
+as that of the lightning current. The voltage at some
+remote point, however, may not have the same wave-
+form, since the distributed inductance and capacitance
+227

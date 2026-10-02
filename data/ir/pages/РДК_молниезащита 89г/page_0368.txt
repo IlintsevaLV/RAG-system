@@ -1,0 +1,86 @@
+Chapter 13
+EXPERIMENTAL
+Introduction 13.1
+Analytical techniques can seldom be relied on
+the sole method of determining the voltages and cur-
+rents to which aircraft wiring and avionic equipment
+would be subjected. Most aircraft design programs
+require some experimental analysis of the aircraft and
+its wiring, either as the prir.,ary methods of analysis
+as backup to analytic studies. This chapter discusses
+some of the test methods available. It deals only with
+the response of the aircraft and its wiring. Testing
+avionic equipment is discussed in Chapter 18.
+There are several different approaches to testing
+of complete aircraft, each with advantages and disad-
+vantages.
+pulses unidirectional level High 1.
+2. High level oscillatory pulses
+3. Intermediate level unidirectional pulses
+4. Low level unidirectional pulses
+6. Low level swept continuous wave (CW)
+Techniques 1 through 5 are time domain tech-
+niques while the sixth is α frequency domain technique.
+High level time domain test procedures can be used as
+proof or verification tests; that is. tests, Go/No-Go
+to make an overall evaluation of the effectiveness
+protective measures. Most commonly though, tests
+on complete vehicles are used only for analyzing the
+response of the aircraft and its wiring while verifica-
+tion tests of protective measures is done by bench level
+testing, as described in Chapter 18.
+The following sections will discuss the various ap-
+proaches to testing. The Lightning Transient Analy-
+sis (LTA) procedure will be discussed further in §13.4.
+Selection of the most appropriate method is challeng-
+ing since it depends on the ultimate use of the data
+and the state of developmeut of the air vehicle. Α
+simulation technique that imposes all features of the
+lightniag in α proper time sequence is desirable, but
+Slation this may not be effective for subsystems or providing
+design data. It is especially important that the simu-
+technique provide data on the system, subsys-
+tern or component equipment or line replaceable unit
+
+OF METHODS ANALYSIS
+as (LRU) responses that can be extrapolated to the val-
+ues that occur when the air vehicle is exposed to the
+real lightning environment.
+This chapter will concentrate on techniques for
+performing low level pulse tests. Much of that discus-
+or sion is, however, equally applicable for any of the test
+procedures.
+13.2 Basic Assumptions of
+All of the experimental techniques are based to
+one degree or another on certain premises:
+Threat Defined 13.2.1
+Α fundamental point, not always appreciated, is
+that lightning testing is done primarily in terms of α
+standardized lightning threat, one definable in docu-
+ments, rnther than in terms of what is most commonly
+produce:δ by lightning. The standardized threat, pre-
+sented in Chapter 5, is intended to represent α very
+severe lightning flash, though not neceRsarily the most
+severe conceivable. One of the aims of testing, there-
+fore, should be to determine the response of the air-
+craft to the waveforms defined in that threat. Discus-
+siona as to whether those waveforms are truly repre-
+sentative of natural lightning is α topic to be addressed
+of separately from that of how to perform tests related
+to the standardized threat. Α test program may in-
+volve using or discussing other waveforms as well, but
+it should, as α minimum, deal with the waveforms of
+the defined threat.
+13.2.2 Linearity
+Another basic premise is that the response of an
+aircraft in flight to natural lightning can in fact be
+predicted by making tests at ground level. There is
+always some question as to whether this is actually so
+and some investigators, recognizing the complicated
+interactions of the electromagnetic fields, surrounding
+an aircraft in flight during α lightning strike, refer to
+ground tests as "stimulations" rather than "simula-
+tions". The electromagnetic environment of an air-
+craft parked on α hangar floor is vastly different from
+that of one in flight.
+35¶3

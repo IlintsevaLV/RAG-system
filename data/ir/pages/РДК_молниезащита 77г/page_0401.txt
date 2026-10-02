@@ -1,0 +1,15 @@
+22 No.
+I ps/div---, -0.5
+Signal shield voltages: low source impedance on one shield. 7 13.2 Figure
+17 13.29. Compare oscillogram No. of this figure to oscillogram No. 11 in Figure
+Figure 13.28. Connecting the signal conductor to ground via α low impedance at
+the same end as that at which the shield around that signal conductor is
+connected to ground does not change the voltage appearing at the other end of
+the cable on that signal conductor. If the ground on that shield is moved to the
+right-hand of the cable, however, the voltage on the signal conductor at the
+right-hand end of the cable remains virtually unchanged. This was not the case
+when there was no low-impedance termination on the signal conductor at the
+left-hand end of the cable. Compare oscillogram No. 16 of Figure 13.29 with
+14 oscillogram No. of Figure 13.28. Finally, note that α ground on the internal
+shield at each end keeps the voltage on the signal conductor low even with α
+low-impedance connection to ground on the other end of the signal conductor.

@@ -1,0 +1,20 @@
+Al (100V) OPEN CIRCUIT
+0
+Revised proposals for test waves. 17.8 TCL Figure
+(a) Open circuit voltage
+Short circuit current (b)
+here generally en~ploy capacitors that are discharged into a wave-shaping circuit.
+That circuit would be resistive if unidirectioi~al transients are to be produced,
+and inductive if oscillatory transients are to be produced. Some representative
+examples of circuits are shown in Figure 17.9 (Reference 17.13). The switching
+gap may be either triggered or untriggered depending on the degree of
+sophistication desired. Components should be chosen and laid out in such a way
+as to minimize undesired residual inductance. Circuit voltages are typically high
+enough to be hazardous; therefore, appropriate safety precsutions should be
+17.10 (Reference 17.24) taken in both their construction and their use. Figure
+shows an exanlple of the types of transients that are produced by the revised
+TCL test circuit shown in Figure 17.9(b).
+One way in which the generators may be used is to connect the output
+directly to the terminals of the device under test. When generators are used in
+such a manner, one may determine the level of transient that causes a device to
+fail or, alternatively, determine that a given transient does not cause the device

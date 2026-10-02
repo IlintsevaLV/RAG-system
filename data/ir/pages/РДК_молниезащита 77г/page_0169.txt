@@ -1,0 +1,44 @@
+sparks resulting from lightning current having been conducted through the fuel
+tanks caused some of these disasters. Whereas the relatively large amount of
+thermal energy released at the points of concentrated lightning current entry
+into the aircraft would be expected to leave tell-tale evidence, the marks left by
+a several-millijoule spark are very difficult, if not impossible, to detect.
+In the past, much attention has been given to keeping lightning currents
+out of the interior of the aircraft by providing conductive and tightly bonded
+skins. While most lightning currents, by virtue of their short duration, d o not
+have sufficient time to diffuse completely to interior structural elements such as
+spars and ribs, it is correct to assume that no current flows in these interior not
+structures. Nor is it correct to assume that none of the lightning current flows in
+other internal conductors such as fuel and vent lines. Since so little energy is
+needed for an igniting spark, the behavior of these internal currents is of great
+course, when the lightning currents which importance to fuel system safety. Of
+do flow in the skin encounter discontinuities at access doors, filler caps, and the
+like, a possibility of sparking exists if electrical bonding is inadequate; therefore,
+the behavior of lightning currents remaining in the skins-is important.
+Electrical wires entering fuel tanks from other locations in the aircraft
+pose another potential problem if they are routed in areas which may be reached
+by high electromagnetic fields when lightning strikes occur.
+Figure 6.30 shows the possible lightning current paths in a typical fuel
+tank and calls attention to these areas of greatest concern. In the following
+paragraphs we discuss each of these and present guidelines for protection design,
+referring to related research or testing experience that exists. We also call
+attention to other areas of concern for which little or n o quantitative data is yet
+available.
+Doors 6.8.1 Filler Caps and Access
+The need to provide a liquid-tight seal around fuel tank filler caps and
+access doors has led to use of various gaskets and seals between the cap or door
+and its mating surface in the tank. Most of these have little or n o electrical
+conductivity, leaving the metallic screws or other fasteners as the only
+conducting paths into the cover. If these fasteners are inadequate or if they
+present too much inductance, lightning currents may build sufficient voltage
+along such paths to spark across the nonconducting seals, creating shorter paths.
+Some of these sparks may occur at the inside surfaces of the joints and be a
+source of fuel ignition.
+Newman, Robb, and Stahmann were among the first-to recognize and
+evaluate this possibility in the laboratory. They demonstrated (Reference 6.54)
+that direct strikes to filler caps or access doors of (then) conventional design
+would cause profuse spark showers inside the tank--spark showers of ample
+energy to ignite fuel. They applied simulated strokes to typical fuel filler caps
+and access doors. Their test strokes ranged in energy from a very mild kA, 35
+o6 o6 x kA, 3 I 1 x A2-s stroke toa very severe 180 A2-s stroke; profuse 0.006
+sparking occurred under all conditions. When an ignitable fuel mixture was

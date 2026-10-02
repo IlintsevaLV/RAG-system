@@ -1,0 +1,20 @@
+Λ, the internal inductance of the tube, is given by
+= permeability of the material π where
+Hence the penetration time constant is seen to be
+pa2 = - 7
+ν2π
+time
+Diffusion-type response toa step function. 10.6 Figure
+10.6, Figure is called α The response curve, shown in drfusion-type
+and is characteristic of many types of situations involving the response
+An transmission of energy through α distributed medium. example would be the
+transfer of heat into α block if α heat flux were suddenly applied to one face of
+the block. Another example would be the transfer of electrical energy through
+R/C Λ/R an or ladder network. Figure 10.7 shows examples, with Figure 10.7(β)
+often being used as the best illustrative example of the phenomenon of skin
+effect. Several important observations might be made about the shape of the
+10.6. response curve shown in Figure The first is that the response initially
+changes only slowly and thus has α zero first derivative, unlike α simple
+exponential response, which has α finite first derivative. The second is that the
+response approaches its final value much more slowly than does α simple
+exponential response. The third is that in three tirne constants the response has

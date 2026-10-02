@@ -1,0 +1,32 @@
+- SIGNAL CONDUCTOR
+CURRENT ON INNER SHIELD ---------------
+IisA -
+INTERNAL FIELD OF INNER SHIELD -------
+Ei-is
+INNER SHIELD
+INTERNAL FIELD OF OVERALL SHIELD
+10σ
+CURRENT ON OVERALL SHIELD
+SIGNAL CONDUCTOR
+is-0σ INNER SHIELD
+ttsv xis is-0σ OVERALL SHIELD ω β
+(β)
+Double-shielded cable. 13.22 Figure
+(α) Current and field polarities
+Current on inner shield and forced (β)
+through Lis-os
+the inner shield thus typically has α slower rise time and α longer duration than
+does the field along the inner surface of the outer shield. This current, Iis, on the
+internal shield then produces an electric field along the surface of the inner
+shield, Ei-is.
+13.4.2 Examples of Response Multiple-Shielded Cables of
+It will be apparent that there are α number of combinations of shield
+connections and termination impedances which are possible, all of them
+affecting the overall response of the cable system. Some of these effects have
+been demonstrated during an extension of the tests described in Figure 13.1
+RG-58/U coaxial cable used for those tests was through 13.6. The piece of
+modified by pulling over the outer jacket another length of flexible copper
+braid. The test connections and results are shown on Figure 13.23. The
+equivalent circuit has three separate components--separate in the sense that
+each, for all practical purposes, may be treated independently. The first part of
+the circuit determines the voltage induced along the inner surface of the outer

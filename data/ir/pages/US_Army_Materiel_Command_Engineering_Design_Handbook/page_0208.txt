@@ -1,0 +1,49 @@
+ROTOR
+ROTATION
+FEATHERING
+NON--ROTATING SWASHPLATE
+Curved shors installed at the points at which the
+strap: are clamped to the hub prevent ex:casive bond-
+ing of the straps at any one point. In this otherwise
+hingeless rotor, lag hinges are located at the outer
+ends of the tension-slap-torsion straps. Exccssive
+static droop of the blades is prevented by stiff cuffs
+that are attached to the blades and cover the straps.
+Co.itact between the inboard ends of the cuffs snd
+the hub limits the downward and upuard flapping ex-
+cursions of the blades.
+5-3.6 ROTOR SYSTEM KINEM.ATIC
+COUPLING
+Adversc kinematic coupling can result in various
+types of instability in a particular rotor system. This
+paragraph reviews the subject independently of the
+rotor type, but considere the blade and its retention
+sysiem. The rechanism of rotor instability resultia:g
+from blade kinematics is examined separately under
+
+ARCP 706-202
+CONTROL GYRO
+CONTROL FORCE
+ROTATING SWASHPLATE
+-SWASHPLATE MOVEMENT
+RESULTING FLIGHIT DIRECTION
+Figure 5-9. XH-51 Rotor System
+the categories of pitch-lag. pitch-fiap, and fiap-lag.
+Pq i
+outlined in Chapter 5, AMCP 706-201.
+3-3.6.1 Pitce-lag Instability
+Rotor biades with substantial chordwise displace
+critical degroes of fr-cdom involved are fiap and lag.
+However. the critical design parameter is a kine-
+matic coupling thar causes a biade pitch angle change
+in response to lag motion, or chordwise displace-
+ment.
+The mechanism of this instability is depicted in
+Fig. 5-1f. As thc b'ade lags (A). and if the pitch-lag
+coupling causes the blarde pitch to decrease (B). there
+is a loss of lift. Downward flap of the blude occurs
+due to lift loss (C). and produces a Coriolis force in
+the lag direction (D). causing additional blade lag.
+Further discussion of this phenomenon may be found
+in Rcfs. 9 and 10.
+5-13

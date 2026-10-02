@@ -1,0 +1,106 @@
+3-2.5.3
+An incuction anti-icing subsystem sbal! be de-
+signcd to anti-ice satisfactorily the induction system
+witen opersting in the icing environments specifiod in
+MiL-E-8593. Thc anti-icing subsysten shall/ function
+from sen level to the helicopier service cciling.
+If an ice detector is installed in the induction
+sysemn, the detoctor shalf conform to Mil-Δ-8181.
+Any failure of the anti-icing control shall result in
+the anti-icing subaystem remaining in or reverting τ0
+the snti-icing ON mode.
+Engiae air induction sysiems can be anti-iced cither
+clectrically or by the use of engine blced air. The
+former (electrically) can usc α nonmctallic duct in
+which thermoeiectric heating elements are cmbedded.
+The latter type (blced air) has used α metallic duct
+that is formed isto α double-skin heat exchanger
+adjacent to the area requiring thermal protection.
+Thesc bieed air heat exchangers have bcen made with
+and without fins.
+Thc decision between electrical and not sir systems
+is made for cach helicopier on the basis of the
+required helicopter mission and results of trade-off
+studies in which the airirame/transmission/engine
+match is considered to determinc the system which
+resuits in thc lowest aircraft penalty.
+3-2.5.3.1 Electrical Anti-iciug
+Typically, electrically anti-iced helicopter engine
+air induction subsystems require α variation in local
+power density from 4.0 to 16.0 Ω/in.3 to account for
+local variations in surface velocity and moisture im-
+pingement ratc. Relatively large amounts of elcctri-
+cal power are necessary, which results in α substan-
+tisl investment in generator power and helicopter
+weight.
+Elcctrical systems are relatively casy to design and
+test. The surface temperature of the air induction
+duct normally is held to 40°F (4.4°C) for the aimo-
+spheric design condition the anti-icing system is
+required to meet. Calculation procedures are con-
+tained in Ref. 4.
+3-2.5.3.2 Bieed Air Anti-icing
+Hot-air-type anti-icing subsystems usc compressor
+bleed air. which nust be adequate in quantity and
+temperature to mcet all requirements throughout the
+power and environmnental spectra. An advantage of
+tiese systems is that the related powei penalty is
+applicable only on α cold day. when anti-icing is
+required. In most cases, the helicopter will not be
+power-limited on α colc day and. therefore. will suf-
+fer only α fuel consumption penaity from the use of
+compressor bleed air.
+
+The bleed ais system presents some machanical
+probleris, however. Fins. if used, muss be brazed
+properly to the outer skins; otherwise. the local fin
+thernai effectiveness will be zcro. Α double-skin heat
+exchanger without Fns requires smalß gap heights
+whose tolerances become very important. Manutac-
+turing and ussembiy capabilities also beconse impor-
+tant design considerations.
+In α blced air anti-icing subsystem, enginc Siced air
+is ducted from the comprcasor blced port to α sole-
+noid shutoff valve and then into ine intake manifold
+at the keading edge of the induction subsysiem inict.
+The flow then impinges on the inlet leading cdge. pro-
+viding the greatest heat transfer at the external Slow
+stagnation point where the thermal Joad is highest.
+The Nlow then passes through heat exchangers along
+the inner and outer lips of the sir intake. The gap
+height (minimum gap = 0.080 in.) along the induc-
+ternal skin temperature is maictained ciose to 40°F.
+The air then is discharged ovcrbosrd through dis-
+charge slois located at the rear of the outer lip. Α
+thermal switch should be csed to monitor duct skin
+tempera'ure. This switch actustes α waroing light if
+ihe skiz. temperature drops below 40°F while the
+system ι. in operation. Actuation of the: light in-
+dicutes ei her α subsystem failure or icing conditions
+more severe than the subsystem capacity.
+3-2.5.3.3 Anti-icieg Demonstraticn
+The capability of the anti-icing subsystem must be
+demonstrated by test. The test requirements are
+described In Chapter 9. AMCP 706-203.
+3-2.6 EXHAUST SUBSYSTEM
+The design of the engine exhaust system shall! meet
+the following objectives:
+1. Minimize pressure loss to reduce engine power
+loss. Losses usually can be held to α pressure loss of
+λ'% or less. Α 1% pressure loss generally results in an
+approximate 1% power loss.
+2. Prevent loss of tail rotor eficiency due to hot
+exhaust gas flowing through the tail rotor
+3. Prevent loss of power duc to heating of the inlet
+air and/or reingestion
+4. Prevent overheating of the adjacent strveture
+duc to impingement by exhacst gases
+5. Provide maximum possible ihrust recovery.
+Exhaust system assemblies usuaily are welded or
+furnace brazed. The brazed asseinbly offers high re-
+sistance te metal fatigue because the strength of the
+material is not affected appreciably by the brazing
+operation. Brazing has both advantages and disad-
+vantages. It requires higher initiu! tooling expendi-
+tures, has α potentially iower unit price. and usualty is
+3.7

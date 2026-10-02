@@ -1,0 +1,28 @@
+Redc.if lar Dic, Ides'ME
+Diodes Reference
+Diodes Switching
+Point Contact Diodes WN Ω/
+Microwave Diodes
+10 100 1 0.1 0.01 0.001
+Damage Constant. KC
+Fig. Range of pulse power daniage 17.28 constants
+1]. for representative diodes [ 17.1
+High Transistors ýPower
+Silicon CaO~raleod Rectifil rs
+Germanium Transistors
+Switching Transistors
+Low Pmowe Transistors
+~ "fail JJ Μ #loll@I
+0.01 0.1 1 10 100
+Constant, Δ0mage IC
+constants damage power of pulse Range 17.29 Fig.
+for representative transistors [17.12).
+17.5.8 K Factor as Determined J~unction frofs For silicon planar and mesa transistors the rela.
+Capactaac.tion is
+The 2 next most reliabl determining the of 10-%jVW- method K 1.66ξ (17.13) -
+damWg constant is from α knowledge of the capaci-
+tance and breakdown voltage Val) of the junction. For base-emitter junction, α the capacitance used CI
+I diodes and silicon transistors except should be taken at α reverse bias of apprcscizately all pla- Fur silicon
+or diode junction, the V. collector-base junction For α mesa devices, the relation is nar and
+value should be taken at the reverse bias of approsci-
+ξ (17.12) to V. 5 10 K - 4.97 lO-3CViA' Mately

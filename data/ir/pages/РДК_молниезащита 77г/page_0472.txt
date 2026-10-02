@@ -1,0 +1,27 @@
+0.24
+0.22
+0.20
+0.18
+0.16
++
+0.14
+Τ
+0.12
+0.10
+0.08
+0.06
+0.04
+0.02
+0
+-
+VBD
+Plot of versus Vo/VBD. 16.8 Figure 7 17 σ Π
+0.2, approaches α limiting value of and thus becomes identical with the forward
+bias case, Equation 16.1 8.
+Α limited amount of data relating voltage and current durations to the
+breakdown of integrated circuits is available. Figures 16.10 (Reference 16.15),
+1 16.1 (Reference 16.16), and 16.12 (Reference 16.1 7) show the results of
+SN55 SN55 109 AE 107 line receivers, line drivers, and CD4050 measurements on
+hex buffers.
+VO /VBD
+Plot of σ versus Vo/VBD for values of V,/VBD less than ρ 2. Π 16.9 Figure 17

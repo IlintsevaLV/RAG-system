@@ -1,0 +1,37 @@
+10.1 OF Table RESISTIVITIES TYPICAL METALS
+Conductivity Resistivity
+Resistivity as a fraction of relative to
+Material ohm-meters that of copper copper
+oe8
+copper .O 1.68 x 1 .O 1 1
+aluminum* 2.69 x lo-' 0.62 1.6
+magnesium** 4.46 x 0.38 2.65
+nickel lox lo-8 0.17 6
+Monel 42 x 0.04 25
+stainless steel 7 0 x 2 0.024 4
+Inconel lOOx lo-8 0.01 7 60
+titanium 180 x 0.009 107
+x *Aluminum alloys range from 2.8 to 5.6 S2.m; harder alloys generally
+have higher resistivities.
+**Magnesium alloys containing aluminum and zinc range from 10 to 17 xOm .
+10.2 Elliptical Cylinders
+If we consider a cylinder of other than circular shape, conditions may be
+considerably different. Figure 10.9 shows an elliptical cylinder into which a
+step-function current is injected. As previously, we will assume that the cylinder
+is long enough that all end effects may be neglected, that it is short compared to
+the wavelengths of any frequency components of the injected current, and that
+the return path for the current is far enough removed that no proximity effects
+need be considered.
+We will also treat the instantaneous current in the cylinder as being
+composed of the sum of a steady state and a transient component of current.
+a The transient component takes the form of circulating eddy current. For the
+following section it should be kept in mind that the eddy currents described
+represent only the transient component of current and that the total current at
+the sum of the two components. any point or time is
+10.2.1 Eddy Currents and the External Magnetic Field
+Under steady state conditions the current density along the wall of the
+cylinder will be governed by the dc resistance and, if we assume uniform wall
+thickness, will have a uniform current density. The current in the cylinder will
+produce a magnetic field. Most of the field lines will completely encircle the
+cylinder, as shown Figure 10.9(a), but some, because of the uniform current in
+density, will pass through the cylinder. The greater the eccentricity of the

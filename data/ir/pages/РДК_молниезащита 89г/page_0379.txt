@@ -1,0 +1,94 @@
+relative to its surroundings and estab- high voltage
+lish~s a high electric fiald at the surface of the vehicle,
+a second arc will be eptab- few microseconds later, A
+lished from the vehicle to ground, suddetuy reduci.g
+field back to zero and completing the cir- the electric
+cuit allowing current to flow.
+•'•2. [ A~Q0r-
+T arc arc second Sfirst
+-
+------
+pulse technique. excited Shock, 13.15 Fig.
+inter- These changes in electric field couple to the
+what nal circuits, presumably in a manner similar to
+Testing enists -i nature when the aircraft is struck.
+a well shielded high probably should be done with
+the spark voltage gerierator to minimize coupling from
+be done at voltages gaps of the generator and should
+and limits the elec- sufficiently high that corona forms
+tric field at the surface of the vehicle. Voltages in
+excess of volts are probably required. 106
+coupling shown that electric field Some tests have
+was the primary coupling method for high impedance
+signal circuits, as contrasted to low impedan"'e circuits
+magnetic field coupling predominated. Elec- for which
+tric field effects are not covered by the standardized
+lightning environment and there is as yet no clear con-
+be treated or what test sensus as to ho'v they should
+techniques are best.
+13.4 Conduct of LTA Tests
+This section will discuss some of the objectives of
+for making satisfactory LTA pulse tests ar.d techniques
+measurements. They are applicable whatever the cur-
+at which the tests are made. The objectives rent level
+CW are nlso applicable for tests nade using the Swept
+technique discussed in §13.b.
+13.4.1 Objectives
+The main purpose of LTA tests, and of other types
+sections, in the foregoing test described of full vehicle
+electrical transients the magnitudes of is to determnie
+wiring, aircraft interconnecting in appearing aciually
+data is necessary to verify that actual transients This
+estab- (TCL) control the not exceed do level sient tran
+its collec. and circuits and specific lished for systems
+in as described process, certification of the tion is part
+5, Chapter
+
+voltages and short circuit current: The Open circuit
+most important typeof data to be collected is that on
+currents. There and short circuit open circuit voltages
+are two reasons for this:
+1. They represent the maximum possible volteges
+and currents.
+are Equipment transient design levels (ETDLs)
+shomt and circuit voltage of open in terms defined
+at appearing currents be- the interfaces circuit Itween
+looking into and equipment viewed wiring
+the wiring.
+appearing the voltage is voltage open circuit The
+The disconnected. equipment with the at the interface
+short short circuit current is the current flowing in a
+between two wires, or between a wire and the airframe
+ground, also at the equipment interface.
+The open circuit voltage and short circuit current
+suffice to define a Thevenin equivalent of the circuit.
+in a test gen- They also define the capabilites needed
+of the equipment erator used to evaluate the ability
+to withstand equipment transient design levels. This
+is the second part of the verification pro- latter process
+for conducting in Chapter 5. Methods cess described
+equipment tests are described in Chapter 18.
+to be Other measurements: Other measurements
+made during LTA tests include bulk cable currents,
+magnetic fields within currents on shields of cables,
+structures and structural IR voltages.
+measure tran- practical to it is never Since Test plans:
+all wires of an aircraft, or even all wires of a sients in
+made are usually critical system, measurements flight
+The choice of which wires only on representative wires.
+upon which to make measurements is made on the
+wire routing, degree of shielding and circuit basis of
+of simi- function, so as to be typical of other wires
+lar description. The process of selection of circuits
+and wires to be measured is a very important part of
+process. and together with selection of the certification
+test conditions, that is, current entry and exit points,
+constitutes the teqt plan.
+be reviewed plans should Proposed certification
+prior to the for concurrence authorities with certifying
+of tests. start
+pur- second IETDLs: A and TCLs of EstabUshonwt
+which from data to obtain is tests vehicle full of pose
+of course, established. This, be can and ETDLs TCLs
+an at available is airframe a suitable if possible only is
+364

@@ -1,0 +1,43 @@
+- -
+- IIIII 1 1 1 1 1 1 - I \ I λ " 1 1 ~ llIl - 7 - -
+- -
+- -
+-
+-
+-
+- MAX β
+- - - -
+- -
+VOLTAGE
+- -
+- -
+MIN - I -
+-
+- - - - -
+- -
+- -
+- -
+-
+-
+MAX - ' -
+CURRENT
+MIN
+lllll . I 1 1 1 1 1 IIIlIIIIIIII 1
+0.01 0.1 10 1
+- PULSE DURATION MICROSECONDS
+Damage thresholds of 109 line drivers. SN 5 5 Figure 16.1 I
+associated with the time during which internal conduction occurs. For these
+3 components, conduction was initiated at to 4 times the voltage rating. Leakage
+current increased continuously with time of conduction, from initial values of α
+few nanoamperes through milliamperes. The value of the capacitance determines
+how quickly the voltage across the capacitor reaches the breakdown voltage
+V, range, 90 to 140 which then relates to the time of conduction and the extent
+16.13 16.1 of damage. Figure (Reference 9) shows the data for the nine 0.0047
+capacitors tested. For particular pulse duration of an increase α fils, in 5 pF
+is V leakage current expected; for pulse voltages of 100 to 150 and for pulses of
+V, It 150 to 900 an increase in leakage current to milliamperes is possible. is
+cautioned that this behavior may not be readily extended to capacitors of
+different materials or construction. The capacitor data remains insufficient to
+draw general conclusions as to system ilr~plications at this time.
+16.8 Failure Mechanisms--0 ther Components
+Α limited amount of pulse test data is available for various nonsemicon-

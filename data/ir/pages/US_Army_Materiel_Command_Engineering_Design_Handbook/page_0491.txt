@@ -1,0 +1,97 @@
+OF SYMBOLS 16-0 LIST
+Β length, in -laminate
+C - basic dynamic capacity, lb
+lb - load rating for life and speed C, Λ, N,
+ε - life exponent, 3 for ball bearings and
+for roller bearings
+interior clearance, dimensionless change in AIC -
+K nonreversin, load factor, dimensionless -
+ reversing load factor, dimensionless K, -
+ total bearing life, hr Λ -
+ Β-10 life, hr Λ
+-
+life, revolutions Β-10 LV - 0
+ calculated bearing life at load Π, and Li -
+hr N,,
+ laminate width, in. _ - Λ,•.
+hr life. - - ]
+Μ, - ratio shaft internal of diameter to
+dimensionless bore,
+to outer diameter ratio of bearing bore - Μ 2
+dimersionless ring, inner
+of inner diameter of bearing outer Μ - ratio
+3
+ring to bearing outer ring,
+dimensionless
+the diamctcr to outer ratio of bearing - Μ4
+housing outer diameter, dimensionless
+ rotational specd, rpm N -
+bearing for fraction imposed on - ýpeed N,
+τ;mp rnm ρ
+N rotational speed at which the capacity - 1
+is determined, radial load equivalent
+lb Π equivalent radial load. -
+lb equivalent steady ioad, - Π,
+fraction load imposed on bearing for Π, -
+lb time ι,
+lb speed N,, load fcr prorated
+-
+lb load, steady Π,
+lb vibratory load, Π,
+ radial load, lb R -
+shape factor, dimensionless SF
+ thrust load, lb Τ -
+laminate thickness, in. τ
+ fraction of time, dimensionlcss I -
+V rotation factor, dimensionless -
+Ξ radial factor, dimensionless
+Y thrust factor, dimensionless -
+
+AMP706202
+16 CHAPTER
+PARTS STANDARD
+16-1 INTRODUCTION
+of this handbook, Standard parts for the purposes
+as as are defined those items normally used pur-
+chased with no change or modifications, and
+manufactured to meet industty, associa.ion, or
+specifications materials. as 10/3 Governmental to size,
+etc. performance, mechanical properties,
+The standard parts discussed in this rhapter are
+fasteners, bearings, ekctrical fittinjs, pipe and tube
+controls, fittings, control pulleys, push-pull flexible
+shalls, cables, and wires. The applications for and 0τ-,
+limitations applicable to each of these are diacustad.
+Further discussion of standard parts is found in
+speed AMCP 706-100.
+FASTENERS 16-2
+F
+bearaig -
+ty;eu and available many in are Fasteners
+suid consttuc- for use in the design however, futeners of
+selected systems hall be mechanical tion of aerospace
+MIL-STD-3I15. Generally, in accordance with
+fasteners can be classified either threaded or non- as
+threaded, and furthnr either reusable or non- as
+screws, bolts, indude Threaded fasteners reusable.
+and related hardware such as nuts and washers. Non-
+threaded fasteners include rivets, pins, quick-relent
+grommets. rings, clamps, and fasteners, rctaining of
+or iO-LZ RKK ILU IA5NERS
+Screws 16-2.2.1 rpm
+χ.ontains MIL-HDBK-5 allowable design loads for
+screws. all structural InstallatiQn of structural screws
+of should be performed in accordance with Chapter 4,
+to AFSC 1-2. Screws should be torqued the DR
+compatible with the preload, practicable maximum
+method. torquing applicable
+con- Screw threads for structural fasteners should
+form to MIL-Σ-7742 or MIL.Σ-Σ879. MIL-Σ-"879
+threads ;hall be u-ed on all materials wi.η α minimum
+ultimatc tensile strength in of 150 ksi or with α excess
+minimum hardness greater than Rockwell C32 or
+equivadent. These threads also be used in shall
+applications where the operational temperatures will
+con- exceed 450°F; in applications that require the
+sideration of fatigue strength; for all bolts and screws
+16-1

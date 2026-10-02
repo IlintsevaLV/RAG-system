@@ -1,0 +1,73 @@
+currents. The segmented diverters thus guide, rather
+than conduct, the flash across the protected surface,
+di- and ionization process of segmented The structure
+Fig. 6.31. verters are shown in
+Segmented diverters have been used on many
+radome systems. The field experience to date indi-
+cates that for most applications, they appear to be
+almost as effective as solid diverters.
+Σ/
+I II....
+ι___
+diverters. 6.30 Segmented Fig.
+Ionization: In order for segmented diverters to ionize,
+there must be an electric field tangential to the length
+of the diverter. This is provided by the approaching
+lightning leader, or by intense ambient fields that pre-
+cede an aircraft triggered strike.
+Effect of internal conductors: Conductors beneath
+the structure being protected can affect the perfor-
+imme- Α conductor diverters. mance of segmented
+short out most of the beneath the strip will diately
+tangential electric field and inhibit ionization of the
+diverter. Even if the diverter does ionize, there will be
+α voltage rise along it and that voltage may be suffi-
+cient to cause puncture to the internal conductor. This
+can also happen when tubes or antennas are placed on
+Positioning radome. of the inside surface or near the
+the will improve the skin away from conductors such
+situation.
+Spacing between diverters: The maximum spacing
+between segmented diverters, and the minimum per-
+missible spacing to underlying conductors, is depen-
+dent, among other things, upon the amount of voltage
+
+required to ionize the segmented strips. Ideally, the
+ionization voltage (electric field strength might be α
+to ion- be lower than that required better term) would
+radome and the bare surface of the ize α path along
+also much lower than that required to puncture the
+radome. Laboratory tests have shown the ionization
+levels of several strip designs to be 20 to 50 kV per
+meter. This is much less than the 500 to 700 kV per
+meter required 'to ionize the air across an insulating
+surface.
+RESISTANCE MATERIAL CONNECTING SEGMENTS
+φ~~~~~~DIELIECTRIC SUBSTR[ATIE RSSAC UTII
+RESISTANCE MATERIAL
+SPA•KS SEGMENT
+-• °I (SUTTON--)
+DIELECTRIC
+SUBSTRATE
+CONTINUOUS MO-
+TROKE INI
+CURRENTS
+(β)
+Fig. 6.31 Design and breakdown process
+in segmented diverters.
+(α) Design
+Breakdown and conduction process (β)
+Breakdown voltage: Ionization of segmented divert-
+era is α highly nonlinear process and the total voltage
+required to cause ionization, when applied end to end,
+may change very little as the length of the strip is var-
+ied. Ionization probably proceeds from the ends in
+the propagat- similar to propagating manner, α self
+test 2. The 1 and in Chapters ing leaders discussed
+measurement characteristics, generator configuration,
+connections and gaps between the generator and the
+strip have been observed to significantly alter the test
+results and the conditions to cause ionization are not
+understood as well as one might like. Laboratory com-
+parisons of various diverter designs may not be sufli-
+141

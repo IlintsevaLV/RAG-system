@@ -1,0 +1,50 @@
+Spark and arc thresholds: The arc and spark thresh-
+old level of a particular aircraft design depends on sev- metal
+eral factors which include the following: uicontainso housing
+Type of skin material. adsaking fro. I. • [ *prts la oct Saparin
+thicness Structure -- en 2, Skin thickness. surfaces i•• n close proximity
+3. (a)Rubber Thickness of primer and surface finishes. seal ng
+contains products Sparking between of 4. Arc entry vs. conducted current entry. from and screw arcing sleeve fetener
+Screw to structure
+5. Current amplitude.
+FSFastener
+elements. Current division among structural 6. Metal washer Structre
+coverage. sealant tank fuel of Thoroughness 7. (b)
+and sparks oc- levels at which arcs The threshold
+sim- by estimated be may design aircraft a new in cur occurs Spearkin
+ex- base data a which for designs other ilarity with .su between pfa. Fastener be careful should fuel tank designer the However, •ists. Metal whnassuming that a new design is similar to a pre- suhesrfatrctue
+Structure washers
+vious one. Any differences in materials, thicknesses,
+the im- change will fasteners of or number coatings, contains Structu products Gasket (c)
+which the tank, within paths current and pedances fastener from surface arcing of can to alter structure, the threshold levels.
+Fig. 7.43 Gasket sealed fasteners. The current density in a particular set of fasten-
+but techniques, estimated by mathematical ers can be nut plate rivetless (a) Self sealing
+possi- not yet is current of structural determination washer Gask-o-Seal (b)
+the and paths current complexity of to the due ble sealing washer 1523 (c) NAS
+difficulty of describing them in electrical terms. Tech-
+10 Chapters in described are estimates such for niques self-sealing rivetless of levels threshold Arcing
+re- the about uncertainty some is there Since 11. and simi- than higher generally are 7.43, Fig. nutplates,
+be designs that best is it calculations, liability of these combina- the to due rivets, with fasteners nutplate lar based on similarity or upon analysis supported by test data. arc of blowby prevents seal, which rubber the of tion
+data. elimination the and space, vapor fuel the products into
+tanks Composite and Plumbing 7.11 arcing of source the generally are which rivets the of
+when currents of any appreciable amplitade are con- The use of CFC materials, which are 1000 times
+ducted through the nutplate fastener. While arcing more resistive than aluminum, subjects the internal
+threshold levels of typical fasteners have been shown components to higher electrical levels which might re-
+to be approximately 5 kA, the levels achieved by riv- sult in arcs or sparks that would not occur in alu-
+etless nutplate fasteners have been three to four times minum.
+construction mate- areas in which CFC The three this level.
+fuel with problems associated the increased have rials
+Structural interfaces: Sealant coatings must also be tank design are:
+applied to structural interfaces, at least in exterior 1. An increase in the possibility of sparks due to high
+skins where current densities are highest. In tanks voltage potentirl differences developed within the
+fabricated of aluminum, coatings of electrically non- tank.
+conductive corrosion finishes on interfacing parts can
+result in arcing between the parts due to the poor elec- 2. An increase in the possibility of arcs due to
+trical contact. For CFC tanks, arcing can be caused higher magnitude currents in internal plumbing
+by the non-conductive resins and adhesives used in and other hardware.
+the fabrication of . structures. Arcing may occur due
+voltage levels ap- between elements and 3. An increase in the induced to insufficient electrical contact
+sparking may occur due to voltage potential differences pearing on internal electrical wiring from reduced
+between elements. Recommended fillet sealing dimen- shielding effectiveness of the surrounding struc-
+sions are shown in Fig. 7.44. [7.55]. ture.
+209

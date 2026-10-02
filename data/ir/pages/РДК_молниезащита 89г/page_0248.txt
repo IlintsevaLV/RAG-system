@@ -1,0 +1,100 @@
+circuit that will be light circuit: The first Position
+α circuit supply- 8.12. was shown in Fig. discussed,
+on the external to α position light mounted ing power
+fuel tank. An electrical diagram of the circuit, shown
+in Fig. 8.12(β), shows that the circuit consisted of
+one wire supplying power to the filament of the po-
+sition light with the return circuit for the light being
+through the wing structure. Accordingly, if the light-
+ning current contacts the external tank, that circuit
+will be influenced by the resistance of the hangers R 1
+fastening the tank to the wing, by R , the inherent
+2
+resistance of the wing, and by magnetic flux arising
+from the flow of current.
+WING' WING
+TANK-
+Τ
+POSITION or 1,, V
+" SURGE
+GENERATOR
+FILAMENT
+0 FLUX 0 0 0
+(α) (β) V
+TANK WING R η - J J 2
+ζ)Iziz
+"'lL(δ)
+-€ -40 40Α
+ = R Λ = 11pH 2φ 2 2
+4.3 uH Lt =
+[Ri:= 700 pO
+(α)
+Fig. 8.12 Α wing tip circuit.
+(α) Circuit orientation
+of circuit details (β) Electrical
+(χ) Open circuit voltage
+(δ) Short circuit current
+(ε) Equivalent circuit
+Typical test results are given in Fig. 8.12(χ) and
+8.12(δ). The open circuit voltage is seen to rise rapidly
+to its crest and to decay more rapidly than does the
+injected current shown in Fig. 8.11(β). This indicates
+that the open circuit voltage was responding primarily
+to magnetic flux.
+When the conductor was shorted to ground at the
+instrument enclosure, the short circuit current rose to
+
+of time as the same length its crest in approximately
+the same much and displayed injected current did the
+the injected current. waveshape as did
+Fig. 8.12(ε) shows an approximate equivalent cir-
+cuit that might be derived. Λ, and represent α R.
+transfer impedance between the current flowing in the
+wing and the voltage developed on the circuit. Λ and
+2
+R represent the inherent inductance and resistance
+2
+of the wires between the fuselage and the light. The
+transfer inductance and resistance are merely those
+values which, when operated upon by the external
+lightning current, produced the observed open circuit
+voltage. They do not necessarily represent any clearly
+definable resistance or inductance of the wing.
+Pylon circuit: Α different type of circuit is that shown
+in Fig. 8.13. In this circuit α conductor ran through
+the leading edge of the wing and terminated in an open
+circuit on α pylon mounted underneath α wing. In
+the electrical detail circuit shown in Fig. 8.13(β), it
+can be seen that this circuit would not respond to the
+voltage developed across the resistance between the
+tank and the wing. The circuit would respond in some
+and measure to some fraction of the wing resistance to
+some fraction of the magnetic field set up by the flow
+of current in the wing, but since the circuit was only
+capacitively coupled to the wing, the total coupling
+impedance ~of should have been, and was, less than that circuit the shown in Fig. 8.12.
+The purpose of the conductor shown in Fig. 8.13
+bolts explosive to and relay α to power to supply was
+the 8.13 Fig. In weapon. α hold to used pylon the in
+the on load no was there so installed, not was pylon conductor. Fig. 8.14 shows the results when that py-
+lon was installed, when the conductor was connected
+to α relay with α return through the aircraft structure,
+and when the lightning flash was allowed to contact the
+pylon. The combination of α structural return path for
+the circuit and α lightning flash terminating upon the
+pylon and thus including the resistive drop across R3,
+the resistance between the pylon and the wing, served
+to make the voltage much greater than it was when
+was No attempt circuited. was open the conductor
+made to completely analyze from which area the total
+flux was coming or whether the amount of magnetic
+flux representing 01, that in the pylon, or repre- 02,
+senting that in the wing, was larger.
+Antenna circuit: Α third circuit, and one which illus-
+trates the interaction between the lightning developed
+voltage and the circuit response is shown in Fig. 8.15.
+In this circuit α slot antenna excited by α grounded
+stub and fed from α length of 75ν1 coaxial cable was
+installed in the leading edge of the wing. The shorted
+stub that excited the slot antenna was the predorni-
+232

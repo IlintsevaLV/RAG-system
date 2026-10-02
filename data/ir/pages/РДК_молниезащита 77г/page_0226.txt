@@ -1,0 +1,38 @@
+If
+(7.21) (Diverter inductive voltage) <(Skin puncture voltage),
+then
+Minimum
+Diverter inductive voltage (kV) Skin puncture voltage (kV)
+- displacement =
+distance (cm) Surface flashover voltage (kV/cm) (7.22)
+This distance may also be expressed in terms of the diverter inductance and
+lightning current rate of rise as follows:
+LGH) dIL/dt (kA/ps) Skin puncture voltage (kV) -
+displacement =
+distance (cm) Surface flashover voltage (kV/cm) (7.23)
+If α minimum displacement distance applies, then the diverter, to be
+and the effective, must be positioned somewhere between the minimum
+displacement distances from α point directly above the enclosed maximum
+conductor.
+Clearly, the skin-puncture voltages of nonmetallic skins must be known
+before protective diverter systems can be designed. The skin-puncture voltage for
+α particular nonmetallic skin construction is obtainable by impulse voltage
+breakdown tests, and is α function of the material type and thickness, as well as
+of layup patterns, core fillers, surface treatments, etc. Examples of skin puncture
+voltages determined from 1000 kV/ps impulse tests are given in Table 7.3.
+7.3 TMPULSE BREAKDOWN VOLTAGES OF TYPICAL Table
+FIBERGLASS SKIN MATERIALS
+Total Breakdown
+Thickness Voltage Skin Construction
+0.163 cm One fiberglass sheet
+1 (0.064 in) 2 kV
+1.27 cm Two filament-wound fiberglass tape skins
+enclosing polyimide foam filler (0.500 in) 150 kV
+0.99 cm Two fiberglass skins enclosing foam filler
+(0.388 in) 70 kV
+Surfrlce flashover voltage levels depend most significantly on the type of
+surface finish applied. Most rainerosive paint surfaces will flash over at an
+average stress of around 10 kV/cm of surface. For example, if α diverter to
+prevent punctures to the grounding tube located directly beneath the fiberglass
+skin of the radome of Figure 7.4 was desired, and if this skin was found to have
+α puncture voltage of 50 kV and surface flashover voltage of 10 kVlcm, then, by

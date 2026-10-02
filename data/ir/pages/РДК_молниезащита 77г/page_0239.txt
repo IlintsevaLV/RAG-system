@@ -1,0 +1,29 @@
+nor good insulators, nor good providers of shielding against electromagnetic
+fields. If these materials are used in lightning-strike zones, it is possible that they
+will require some form of protection. The questions which must be answered are
+these: Just how vulnerable are particular advanced composites to lightning? and
+What protection, if any, may be necessary?
+LAMP HOUSING NOT
+BONDED TO DIVERTER
+ALLOWS CURRENT TO
+ENTER POWER WIRES
+Inadvertent causes of disaster. 7.32 Figure
+Unlike fiberglass-reinforced plastics, which have no electrical conductivity,
+the boron filaments or graphite fibers which are imbedded in the matrix are
+resistive conductors and will conduct some lightning currents. However, the fact
+that, like any resistor, they heat up when electric current flows in them causes a
+B serious problem. For example, typical boron and gra hite composites have
+9 resistivities of 4 to x a-cm and 0.9 to 1.1 x 10 acm , respectively, as
+x a-crn for aluminum. This means that the composites compared to 2.8
+will try to absorb between 100 and times more energy from the lightning 1000
+current than will aluminum. Moreover, the materials may not be able to dissipate
+this much heat without some change in or destruction of physical properties.
+Simulated lightning-strike tests of typical composite laminates have demon-
+4.12 and strated this problem, with results similar to those shown in Figures
+4.1 3.
+A number of careful studies of the electric current conduction and damage
+mechanisms within advanced composites have been made in order to learn the
+quantitative relationships between current intensity and the amount of
+mechanical strength degradation. It has been confirmed that damage results
+primarily from electric current flow through the boron filaments or graphite
+229

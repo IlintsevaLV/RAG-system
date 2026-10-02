@@ -1,0 +1,83 @@
+Chapter 16
+TO MINIMIZE DESIGN
+16.1 Introduction
+This chapter covers some of the ways that indirect
+effects can be controlled, focusing mostly on matters
+locations as a whole, such as that involve the aircraft
+wiring. Phrased another and types of for equipment
+way, the chapter deals primarily with matters of basic
+protection against lightning with and policy regarding
+integration. systems of matters basic
+Some of the policy steps involved in controlling
+indirect effects are:
+1. Specify the requirements.
+for equipment. locations best the Choose 2.
+3. Choose the best locations for wiring.
+4. Choose good wiring and grounding practices.
+specifications. with transients actual 5. Coordinate
+6. Explicitly require that equipment withstand tran-
+sients.
+transient performance be verified 7. Require that
+test.
+These points are discussed in the following sec-
+tions. The goals for design in §16.2 may seem
+evident, but are frequently not followed. Location
+of equipment, §16.3, and locations for wiring, §16.4,
+discuss general good practice. Section 16.5 discusses
+shielding of interconnecting wiring and brings up
+percanial controversy of single vs. multiple point
+grounding of shields, a subject that was covered
+detail in Chapter 15. Determining the transient levels
+was the subject of Chapters 9 -14. Design of equip-
+ment is discussed further in Chapter 17 and verifica-
+tion testing is discussed in Chapter 18.
+The transient control level concept is becoming
+more widely used for aircraft, but since it is still fairly
+new, it is explained in some detail, including discus- a
+sion of its historical development,
+Goals and Requirements 16.2
+The minimum requirements regarding indirect
+fects are probably:
+
+INDIRECT EFFECTS
+1. Indirect effects should not cause physical damage.
+interference that effecL should not cause 2. Indirect
+to the safety of the an imminent hazard presents
+vehicle or its crew, or interference that presents
+completion of air- a severe risk of preventing the
+mission. craft's
+Other interference, though undesirable, might be
+tolerated. For example, indirect effects that cause
+warning lights to appear might be considered accept-
+able whereas indirect effects that lead to the tripping
+if it even unacceptable, circuit breakers might be of
+were possible to reset the circuit breakers. Interfer-
+ence that leads to the scrambling of one channel of a
+redundant digital control system is probably accept-
+able, but interference that causes computers to shut
+the computers if particularly unacceptable, is down
+are shut down in a disorderly manner which results in
+the internally stored programs being scrambled.
+Some general premises that go along with these
+by goals might be:
+1. It is more productive to design electronic equip-
+ment so that it can accept lightning induced tran-
+self sients on input and output leads than it is to ini-
+tiate a retrofit program to provide protection to
+an existing system.
+the 2. It is more practical to design an electronic sys-
+tern around the capabilities of existing and proven
+in protective devices or techniques than it is to de-
+velop and retrofit new and improved protective
+techniques to an electronic system designed with-
+out consideration of the transients that might be
+produced by lightning.
+3. Trade-offs must be made between the cost of pro-
+viding electronic equipment capable of withstand-
+ing lightning induced transients and the cost of
+shielding equipment and interconnecting wiring
+lightning. of effects electromagnetic the from
+4. Designers should take as much advantage as poe-
+ef- sible of the inherent shielding that aircraft struc-
+tures are capable of supplying and should avoid
+421

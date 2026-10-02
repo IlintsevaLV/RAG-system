@@ -1,0 +1,38 @@
+.
+K K to express in kW psM, since the value of in these units then becomes
+numerically equal to the power necessary for failure, dissipated by α square pulse
+16.2 of ps duration. If this point is located on α log-log graph (Figure or Figure 1
+16.31, -1/2, then α curve of slope, drawn through this point reconstructs the
+curve fit to the data for α particular device, and the power for failure at other
+K factor pulse durations can be read directly from such α graph. Ideally, the
+should be known for both the forward bias and the reverse bias conditions. Gen-
+K erally, only the factor for the reverse bias condition is known. This limitation
+K gives conservative answers, since for the reverse bias condition is almost always
+K for the forward bias condition. lower than is
+The magnitude of the damage constant depends upon the type of junction
+larger for large junctions and smaller under consideration: broadly speaking, it is
+16.4 16.5 16.5) for small junctions. Figures and (Reference show the range of
+the damage constant for typical diodes and transistors.
+K Experimental Determination of Factor 16.6.1
+K Experimentally the factor is determined by injecting power pulses into
+the semiconductor junction, starting at low levels and increasing the levels until
+either failure or significant degradation of the junction occurs. Devices would
+normally be pulsed in both the forward and reverse directions.
+K α factors and breakdown voltages for number of semiconductors are The
+K 16.1 16.2 16.6). and (Reference In the case of transistors, the given in Table
+factor listed generally refers to the base-emitter junction, since this is generally
+K the junction most susceptible to burnout. In all the cases the factor refers to
+the reverse bias direction.
+K Factor as Determined from Junction Area 16.6.2
+K If the factor is not measured, it may be estimated by one or more of
+three methods. The most accurate of the indirect methods involves α knowledge
+K of the area of the junction. If the area is known, the factor may be estimated
+from the following relations:
+- K 0.56 Α Diodes =
+K 0.47 Transistors Α = -
+K in kW psM
+For transistors, the junction area to be used is that of the base-emitter region.
+This is generally the weaker junction (lower breakdown voltage), and it is that
+for which the experimental average value for K(Α) was obtained.
+by the availability of information on This method is of course limited
+junction area, but where such information is available, the method yields damage

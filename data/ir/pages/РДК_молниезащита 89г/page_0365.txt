@@ -1,0 +1,48 @@
+12.12 Resonance Modes of Cavities
+It is possible for an enclosed cavity to be reso-
+by electro- might be excited that α frequency at nint
+magnetic fields penetrating an aperture. In the simple
+rectangular enclosure shown in Fig. 12.26, the simplest
+type of cavity resonance involves α plane wave bounc,.
+ing off the four walls and arriving back at the starting
+point in phase with succeeding waves. This can only
+occur for certain characteristic frequencies. It is pos-
+sible for the waves to arrive back at the starting point
+after making more than one bounce off each wail, and
+if there are more walls, there are an infinite number
+of reflection patterns for which α wave can return to
+the starting point in phase with succeeding waves. For
+rectangular enclosures, some of the simpler resonance
+modes are as shown in Fig. 12.27. The frequencies
+corresponding to such modes are given by
+• 2 ν2 π2 fo
+= α ES + (12.86) φ(j, ν,Ip) + π
+where μ, ν and π are integers identifying the resonance
+velocity of light. μ/σ, the co 3 ξ 10σ modes and -
+110 Mrlde
+011 Mode
+201 Mode
+Fig. 12.27 Some resonance
+
+The magnitude of the integers μ, ν and π is equal
+to the number of repetitions of the magnetic field along the corresponding dimension.-6
+τ
+As α numerical example, some of the character-
+istic resonance frequencies of α rectangular enclosure
+having dimensions 0.7 ξ 1 ξ 1.5 μ are given in Table
+12.3.
+.. ....
+-
+-
+,.
+--
+- '
+.01
+------
+of cavity resonance. mode 12.26 An elementary Fig.
+α0
+Mode 101
+Moda I11
+0.• ode 1.
+modes in α rectangular enclosure.
+350

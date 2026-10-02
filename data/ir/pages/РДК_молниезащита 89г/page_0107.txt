@@ -1,0 +1,100 @@
+Federal 5.1 Table -
+to Lightning
+Aircraft
+General
+Aviation
+23.867 Airframe
+23.954 System Fuel
+23.1309 Systems Other
+of the Airframe 5.2.1 Protection
+lightning protection regulation for The basic
+is the same for all vehicle categories, and frames
+pears in the FAR's as:
+LIGHTNING PROTECTION
+1 tLghtnin 25.5$1 pretstalon.
+airlplane ()The must be protected against
+effloets from catastrophic lightning.
+metallic components, compliance For (b)
+with Imorgetph (a) of this section may be
+shown by-
+properly components the Bonding (1)
+airframe; the or to
+a so that components Designing the (9)
+the airplane. strike will not. endanger
+components, (a) conmpliance For nonmetallic
+(a) of this section may be with paragraph
+by- shown
+to mini- (1) Designing the components
+miss the sffect of a strike; or
+Incorporating acceptables means of (9)
+electrical current m) diverting tim remslting
+airplane. dte endanger not to as
+Identical regulations are found in the FAR's
+General Aviation (Part 23) and Rotorcraft ing with
+(Parts 27 and 29). These regulations state that
+components bonding pliance can be shown either by
+or by components so delglng to the airfame
+will not endanger the airframe. In this a strike
+the term "bondin" refers to electrical connec- text
+sufficient to withstand light- tions among components,
+ning currents.
+At the time this basic regulation was formulated
+widely believed that hasardous lightning eabects it was
+or to compo- were limited to the external structure
+nents directly exposed to lightning strikes and
+effects could be achieved protection from these
+to the ensuring that they wee adequately bonded
+flight control surfaces, main airframe. Examples were
+and other compo- air data probes, empennage tips
+
+E
+Pertaining Regulations Aviation
+Protection
+Regulations and Tv)a Vehicle
+ft Rotorcra
+Transport Normal Transport
+29.610 27.610 25.581
+29.954 27.954 25.954
+27.1309H 27.1309D 25.1309
+nents light- located at extremities of the aircraft where
+ning strikes most frequently occur. Adequate bond-
+damage to the hinges, fasteners and air- ing would prevent
+to the air- other means of attaching these components ap-
+frame.
+Bonding resistance: Unfortumately, this emphasis on
+some designers to conclude that bond- bonding has led
+ing, by itself, will provide adequate lightning protec-
+need be done. tion for an aircraft and that little else
+protected aircraft has meant a To them, a lightning
+aircraft. Verification of this "bonded" status "bonded"
+of a specified by attainment been signified has, in turn,
+"bonded" components. the among resistance electrical I
+bonding resistance various has adapted The industry
+US military the them among purpose, for this limits
+[5.1], which requires that specification MIL-B-5087B
+lightning currents be intercon- components subject to
+"bonding" resistance not exceeding 2.5 nected with a
+is achieved by allowing metal-to- milliobms. This
+by a dc re- metal contact among parts and verified
+sistance measurement.
+Criteria like the 2.5 miUiohm bonding specifica-
+to own, their all of an importance on taken have tion
+purpose of design, which is to the neglect of the real
+deal- prevent hazardous lightning effects. Whereas electri-
+among metal parts of an aircraft is im- cal continuity
+portant, there are many other features of a successful corn.
+of equal or greater impor- protection design that are
+that tance.
+con-
+Efects within the aircraft: The focus of 2&581 FAR
+externally mounted components on the bonding and
+much attention low designers to give has perhaps led
+ei- to lightning effects occuning within the airframe,
+from current flow among internal struc- ther directly
+magnetic tural members or indirectly, from changing
+and electric fields interacting with electrical systems. that
+been the cause of several by These indirect effects have
+catastrophic accidents. brought about by electrical
+and by burnout arcing among fuel tank components
+components. More de- of flight essential electronic
+9o

@@ -1,0 +1,78 @@
+SPECIFICATIONS TYPE
+MIL-Τ-7928
+MIL-Τ-7928
+MIL--Τ-.7099
+MIL-Τ-21606 FERRULE
+MIL-Τ-38732 SPLICE
+16-Σ ELECTRICAL SWTTCHES
+ё 16-5.1 GENERAL
+Military switches maot be dsignod to ottain
+maximam power capacity withis: a Kreitod size and
+apacs. Eiectrically, the most iraportant con-
+siderations tnvolve costaet ioed ratirg and arrange
+ment. Thess factors tko iry diciats the type o?
+switch to be ucaed in a girgo application. Orher coz-
+aldorutions instude derirost riiching aquence, in-
+# suiaion rolatence, radio interfarence, caviren-
+mane npectz, and any slety teaturs that might be
+required.
+The load-zartying roquirmnaanis for cnch switch
+must be analyzod thoroughly. Suc. factors as vol-
+tage, steady curnat, surge currert, frequency. con-
+tact haat cimipution, typos of loads, and lifc require-
+mants Exuat be coradored.
+The most conomonly usei switchas are toggle,
+е pust-button, alics, estd rotary. Eacth one hes par-
+licular advantager. vritich must be weighed for the
+dasign taek undier conskderation. MIl-STD-1132
+ortains selectios and installation roquircments for
+: swischce.
+Wbere iadvertent actcesion of a sviich might pro-
+duce serious convaquessces, a switch guard shsii be in-
+salled. Ths sscapesbie typan of guard generally ful!
+into eitàer tie Eixod or site hinged catogory.
+Fixast gua:ds are chennel-shapad, motai members
+tnat require a finger to de inoertod iato te ares
+16-20
+
+TADLE I6-IA MILITARY SPECIFICATIONS AND STANDARDS FOR CRIMP-STYIE
+TEXMINALS
+CLASS STANDARDS WIRE
+MS20659, MS21003, COPPER
+4,5,6,7,8,9,10,
+11 . 12, 13, 14, AND
+15
+1 MS17143, MS25036 COPPER
+1 MS25435, 6, 7, 8 ALU'MINUM
+AND 9
+1 MS18121, MS21980, SHIELDED
+MS21981 CABLE
+MS27429 COPPER
+batwsen the chennel kegs to sctuate the switch. See
+MS 24417 and MS 25221 for this configuration.
+Hinged guards have s cover that swings down over
+the switch. This ccver raust Se raisod and rotated out
+of te way before the switcit can be actueted. Two
+types of hinged guards spocified in MIL-G-7703 are
+Type A switch guards, which nawe more than one
+maintained poaition, and Type B cwitch guards,
+which are spring-loaded to the clocod position.
+Military Standards deacribing switch guerds incht le
+MS25034, -25214. 25223, 25224, -25225, a8:d -25452.
+Tablc 16-11 lists specifications and standards ap-
+plicable to the several typer of switchcs.
+16-5.1.1 Tosgle Switches
+Two types of toggle switch action are common:
+momentary and maintaincc. These switches generally
+are actuated by a toggle lever (oiten shapod in the
+form of a bat), and have a snap type of actioa. They
+usually have either iwo or three positions: either side
+of the center and the center position. Otbßer ar-
+rangements are availabie as special configurations.
+The switching action may be one cf many standard
+tygus, such as rocker-contact, positive-action toggie
+link, or others. Toggle switches are relatively low in
+cost, and are uaed widely.
+165.1.2 ution Swicches
+Push-button switches are classifiod as momentary-
+action, maintained-action, and sequential-action

@@ -1,0 +1,107 @@
+ROTOR AND
+5-0 LIST OF SYMBOLS
+ - propcller inflow angle, de3 Α
+α spred of sound, fps -
+α, - cofficient which is derendent
+and stiffness distribution and has α
+ect value for each mode of vibration,
+mensionless
+φ !oss tip = factoi, dimensionless
+lb/ft' blade loading, 8Λ -
+ - number of blades β
+ blade - semichord, ft β,
+ empirical - constant, dimentionless C
+ mean - rotor blade profile drag CD
+dimensionless
+coefficient of lift, dimensionless CL =
+meL - nrean rotor blade lift coefficient, dimen-
+sionless
+ coefficient - of pitching moment, dimension- CM
+less
+%Π - o .. ρ. Ip , diiac
+coefficirnt, dimensionless thrust CT
+mil χ distance fro:ν beam neutral axis to - I,
+fiber, in.
+ airfoil section drag coefficient, cd -
+less
+χ airfoil section lift coefficient, =
+less
+= coefficient, section lift maximum χ,, =
+sionless
+ι - propeller diameter, ft Δ
+ modulus - of elasticity; psi E
+excitation factor, dimensionless .F
+ lb-in) - stiffness, El
+ε - location of flappiig hinge from the
+of rotation, in.
+ force, lb - F
+2 γ - acceleration due to gravity, ftisec
+ profile - power requiid, hp HP
+0
+2 - mass moment of inertia, slug-ft
+= momcnt of inertia, in.'
+moment polar - of inertia (per blade for 1,
+tail rotor), slug-fV
+Ie - propeller mass moment of inertia,
+ mass moment -
+o slug-ft
+ι,,,- helicopter yaw mass moment of inertia,
+slug-ft'
+5K total ratio of - tail rotor thrust to net
+rotor thrust, dimensionless
+ notch - factor, dimensionless -Τ
+ gust alleviation factor, dimensionless -
+
+CCHAPTEP 5
+PROPELLER SUBSYSTEM DESIGN
+4 coefficient dependent upon mass distribu- -
+tion and the mode of vibration, dimension-
+upon mass less
+differ- kinetic energy, ft-lb KE -
+NCR di- rotational kinetic energy, ft-lb =
+wing lb lift, Λ,
+length, in. I =
+ft-lb Μ bending moment, in.-lb or -
+Μ iumber, Mach dimcnsionl=es
+= advancing tip Mach number, dimension- Md, , ,
+less
+coefflcient, Μ, mass - per unit length of the beam, slug/in.
+ - mass of spanwise increment at outboard MR
+end of blade (N), slug
+ - mass of spanwise increment at inboard end μ,
+of blade slug (χ).
+load factor, dimtnisionless ν` 1
+ν the number of vibratory stress cycles ac- -
+,-siocm,,oed α 2nariruiard vI.rcc ε nv ρ φ
+particular operating condition
+outer H tail rotor rotational speed, rev/sec
+factor, gust load dimensioniess
+dimension- Π actual powet required, hp =
+Π pressure, psi
+dimension- engine torque, units as required Q, =
+propeller torque, lb-ft Qp -,
+dimen- main lb-ft rotor torque, = Q,,ρ
+2 q dynamic lb/ft pressure, -
+propeller tip radius, = ft R
+rotor radius, units as required R =
+main φ, = 4,%, . Λ.δ adi.,. robo
+= tail rotor radius, ft 1R,
+center - outside blade radius, in. RN
+= radius, ft ρ
+radius ρ of curvature, in.
+Σ Laplace operator, see-'
+stall = flutter parameter, dimensionless SFP.
+ratic of blocked disk area to total .Σ/Α disk area, =
+dimensionless
+α lb thrust, - Τ
+AT - change in thrus', lb
+2 slug-ft tail = rotor disk or thrust loading, Τ/Α psf
+ tail rotor θ, ust required to compensate Τ -
+for main rotor lb torque,
+lb total tail rotor thrust required. Τ,,
+Τ,, total tail rotor thrust minus the fin force,
+tail lb
+ρ propeller axis downtilt from wiog zero-lift-
+line, deg
+V true airspeed, kt -
+5-1

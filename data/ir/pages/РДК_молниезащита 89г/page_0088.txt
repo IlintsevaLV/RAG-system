@@ -1,0 +1,58 @@
+0
+often at occur most other hand, on the effects, direct appar- recent years it has become In Indirect effects:
+or within attachment of lightning near the points or other may cause to aircraft lightning strikes ent that
+cur- lightning lie within that fuel tanks or structures else- located equipment to or effects, effects, indirect
+This points. or exit entry strike between paths rent of operation the example, For aircraft. where in the
+4.1. in Fig. is illustrated comparison been inter- has equipment navigation and instruments
+fered with, and circuit breakers have popped in elec-
+tric power distribution systems when the aircraft has
+been struck by lightning. The causes of these indirect
+effects are the electromagnetic fields and the struc-
+tural voltage rises associated with lightning currents
+INDIRECT
+provide a though metallic skins in the aircraft. Even
+EFCT
+high degree of electromagnetic shielding, some of these
+fields may penetrate through windows or seams and in-
+duce transient voltage surges in the aircraft's electrical
+wiring. The resistances of structural joints and non-
+metallic structures permit voltages to occur between
+equipment locations in the aircraft. These surge volt-
+ages in turn may damage or upset electrical or elec-
+tronic equipment.
+Trends that increase potential hazard: To date, few
+aircraft accidents can be attributed positively to the DIRECT
+in trends two are there but lightning, of effects indirect EFFECTS
+aircraft design which threaten to aggravate the prob-
+lem unless specific protective methods are incorpo-
+rated in system equipment designs. The first of these Fig. 4.1 Areas of direct and indirect effects.
+trends is the increasing use of miniaturized, solid state
+protecting Before discussing the techniques for in aircraft electronics and electric power components
+effect, it is type of lightning aircraft against either efficient, lighter in These devices are more systems.
+review some of the common examples powerful than their worthwhile to weight, and far more functionally
+vacuum tube or electromechanical predecessors, and of each which occur on today's aircraft. The purpose
+they operate at much lower voltage and power levels, of this review is to remind the aircraft designer of ar-
+Thus, they are inherently more sensitive to overvolt- eas needing particular attention and to alert pilots to
+age transients, such as those produced by the indirect what to expect when lightning strikes occur in flight.
+effects of lightning. Detailed discussion of the causes of each effect, includ-
+The second trend is the increasing use of rein- ing the lightning flash characteristic most responsible
+forced plastics and other nonconducting materials in and its quantitative relationship to damage severity, i
+place of aluminum skins, a practice that reduces the deferred until protective measures are discussed, be-
+electromagnetic shielding previously furnished by the ginning with Chapter 6.
+highly conductive aluminum skin. This reduced shield-
+Direct Effects 4.2 on Metal Structures ing may greatly increase the level of surges induced in
+wiring not protected by other means. Because elec-
+tronic systems were being increasingly depended upon Metal structures include the outer skins of the air-
+for safety of flight, the National Aeronautics and Space craft together with internal metallic framework, such
+Administration, the Federal Aviation Aministration, as spars, ribs, and bulkheads. Because lightning cur-
+and the Department of Defense initiated research pro- rents must flow between lightning entry and exit points
+grams, beginning in 1967, to learn how to measure on an aircraft and because these currents tend to
+or predict the levels of lightning induced voltages and spread out as they flow between attachment points, us-
+how to protect against them. A considerable amount ing the entire airframe as a conductor, the aluminum
+of research has been conducted since by government with which most of these structures are fabricated pro-
+and industry organizations. vides excellent electrical conductivity. As a result, the
+Since the indirect effects originate in the aircraft's current density at any single point in the airframe is
+electrical wiring, their consequences may show up any- rarely sufficient to cause physical damage between en-
+where within the aircraft, such as at equipment loca- try and exit points. Only if there is a poor electrical
+tions remote from the lightning flash attachments. The bond (contact) between structural elements in the cur-
+70

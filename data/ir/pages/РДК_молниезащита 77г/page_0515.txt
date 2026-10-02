@@ -1,0 +1,43 @@
+Tests are frequently required to determine what voltages and currents might be
+induced on the electrical wiring by a lightning stroke to such hardware. These
+tests are needed because the currents and voltages may be conducted to other
+electrical systems in the vehicle. The basic principle by which one of such tests is
+made is shown in Figure 17.6 (Reference 17.1 1). The test object should be
+mounted on a shielded test chamber so that access to the electrical connectors of
+the object can be obtained in an area relatively free from the electromagnetic
+fields produced by the surge generator. The test object should be mounted to
+the shielded enclosure in a manner similar to the way in which it is mounted on
+the aircraft, since normal bonding impedances may contribute to the voltages
+induced on circuits. If the shielded enclosure is large enough, the measurement
+oscilloscope may be contained within it. If not, a suitably shielded instrument
+cable may be used to transfer the induced voltage signal from the shielded
+enclosure to the oscilloscope. Measurements of the voltage induced on the
+electrical circuits within the test objects should be made on both a line-ground
+and a line-line mode. Since the direct contact of the lightning flash with the test
+object frequently produces quite high voltages, dividers or attenuators external
+to the oscilloscope may be needed. If used, these should be checked to ensure
+that the signals displayed on the oscilloscope are not the result of either spurious
+pickup on the attenuator or overload effects in the amplifiers used in the
+oscilloscope.
+The appropriate waveforms of the surge currents to be injected into the
+test object depend on where the object will be located on the aircraft and
+whether or not it will be likely to intercept the initial lightning current stroke or
+whether it is likely only to intercept a stroke blown back along the surface of
+the vehicle by the swept-stroke mechanism. The literature on test requirements
+discusses in considerable detail the waveforms appropriate to the different zones
+on the aircraft, and for any such test the reader is referred to that literature
+2). (Reference 17.1
+17.5 Tests on Internal Equipment
+The second major category of tests involves tests to determine how the
+avionic equipment within the aircraft responds to the transients induced on the
+wiring by the flow of lightning current. Equipment for and specifications
+relating to these tests are in an embryonic state of development at the present
+time. In the following sections we will attempt to discuss some of the available
+test techniques, the goals they are intended to accomplish, and some of the
+factors to which attention must be given during the conduct of such tests.
+7.5.1 Waveforms and Amplitudes 1
+Tests and measurements have shown that the transient voltages and
+currents to which avionic equipment is subjected are most commonly of a
+damped oscillatory nature. Voltages are almost always of this nature and
+currents usually are as well, although the currents flowing on the shields of
+shielded conductors have more of a tendency to be of a unidirectional nature

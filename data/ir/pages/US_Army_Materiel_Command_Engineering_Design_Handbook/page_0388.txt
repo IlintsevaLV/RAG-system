@@ -1,0 +1,41 @@
+706.202 ___MCP
+APU may used for providing emergency be of particular components, α An To aid in the selection
+list of commonly used comnponents, and an oper- rneumatic power. The APU shiould be designed to
+stional description of each. is provided in par. 9-3.2. use stored χ'mpress,-δ air for starting and then to
+Refs. I through 4 arc additional sources of informa- provide α limited amount of power for the essential
+4 tion corn- regarding design and analysis of pneumatic subsystems of the helicopter.
+poncnts aaud systems.
+v
+DESIGN COMPONENT 9-3.2 Redundancy System 9-3.1.2
+Compresirs Air 9-3.2.1 are essen- that services operated pneumatically Ali
+in tial to safety flight or landing be provided The air compressor maintains the pneumatic shall
+with emergency devices per MIL-Π-5518. The emer- system pressurization during flight. It can be driven
+completcey gency systems must be independent of the by direct drive from the helico'pter engine gearbox, by
+main system up to, but not necessarily including, the an electric motor, or more commonly, by α hydraulic
+actuating cylinder or motor. These emergency sys- motor powered by the utilit) hydraulic system. Com-
+tems should be designed to be actuated onty by corn- pressor operation usually is controlled by α manifold
+cltctro- the compressor cutting pressure sensing switch, with pressed air, direct mechanical connection,
+mechanical units, gravity, or combinations of these, in when system pressure drops to α preset minimum
+Where dual pneumatic lines are used to providc and cutting out at α prescet maximum.
+emergency operation of α mechanism, the classified normal Compressors can be into two basic
+shcll and emergency lines be separated by as great α groups: positive displacement, and dynamic, or non-
+distance as is practicable, so that the possibility of positive, displacement.
+both lines being ruptured by α single projectile is
+Displacement Positive 9-3.2.1.1 in order necessary valves are shuttle remote. Where
+C α by confining pressure is increased an In this type, systems to normal and emergency to connect .he
+α o ,ω in prnoreL*Wsivelv dirninishini svace. There are .. - • .... ν *κ. '-.- u in ω..τ, on ... . .. α_ ... Σ u,.... ι,.:.τ
+-
+from cylinder. The emergency line tPe shuttle valve number of different arrangements, among them- the
+When should be vented to the atmosphere not in use. axial piston and the rotary.
+bmttle When an air is used as an emergency back- In the axial system α piston moving within α
+up energy source, α standard pressure gage be cylinder (Fig. 9-52) alternately traps and compresses shasl
+installed to allow maintenance personnel to check the the gas. This is the most widely used type, and sizes
+pressure. The air bottle should be located so as to range from less than I hp to 5000 hp. Good part-load
+produce α minimum length of line between it and the efficiency makes this ty;3ε most acceptable where
+shuttle valve. wide variations in capaci.vy are required.
+IN LtT
+OUTLET
+,9
+"Figure 9-52. Axial Piston Compressor
+9-33
+...... . . .... . . .... . ... . Wtik

@@ -1,0 +1,45 @@
+372 REFERENCES
+Chapter 14
+373 WIRING AIRCRAFT OF RESPONSE
+373 Introduction 14.1
+373 Wire Impedances 14.2
+374 Wires - Short Response Mechanisms 14.3
+374 Rises Voltage to Resistive Response 14.3.1
+375 Magnetic Fields to Response 14.3.2
+378 Fields to Electric Response 14.3.3
+383 Effects Line Transmission 14.4
+383 Field Zones 14.5 Magnetic
+385 Space Shuttle to the as Applied 14.5.1 Zones
+386 and Current of Voltage 14.5.2 Calculation
+387 Modeling 14.6
+387 Process in the Modeling 14.6.1 Steps
+388 of Modeling Example 14.6.2
+391 of Modeling and Limitations 14.6.3 Extensions
+394 REFERENCES
+15 Chapter
+397 SHIELDING
+397 15.1 Introduction
+397 Effectiveness 15.2 Shielding
+397 Effects Cable Grounding 15.3
+401 Shields in Cable Conductors 15.4 Multiple
+401 on Cables Shields 15.5 Multiple
+403 Shields Impedance of Cable 15.6 Transfer
+408 Cables of Actual Transfer Characteristics 15.7
+408 15.8 Connectors
+409 Shields for Connections 15.9 Ground
+411 of Enclosures 15.10 Shielding
+419 REFERENCES
+16 Chapter
+421 EFFECTS INDIRECT TO MINIMIZE DESIGN
+421 16.1 Introduction
+421 and Goals Requirements 16.2
+422 Equipment of Electronic Location 16.3
+422 of Wiring 16.4 Location
+424 Grounding Practices and Wiring 16.5
+424 Grounding Practices 16.5.1 Basic
+425 Interconnecting Wiring of Shielding 16.5.2
+425 of Shields Grounding 16.5.3
+425 for Shields Connections 16.5.4 Ground
+427 and Sieciflcations Tramuients Betwen 16.6 Coordination
+427 for Aircraft Standards of Transient Evolution 16.6.1
+viii

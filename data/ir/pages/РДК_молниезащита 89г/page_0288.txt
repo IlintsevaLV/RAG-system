@@ -1,0 +1,44 @@
+Table 9.5
+EXPON - Α Program in BASIC For Evaluating Constants
+of Double Exponential Waves
+(Conclusion)
+1620 DELY SUM - SUMOLD -
+1640 BOVNEW BOVERA - DELX*SUM/DELY -
+1660 RETURN
+1680 1
+1700 'subroutine to find SUM
+1720 - LOG(BOVERA)/(BOVERA-1) ATI
+1740 AT1*BOVERA Al -
+1760 Α2 AI*TOVERT -
+1780 Α3 - AT1*TOVERT
+- (EXP(-Α3) 1800 SUM - EXP(-Α2))
+1820 - SUM - FAC*(EXP(-ATI) SUM - EXP(-Al))
+1840 RETURN
+1860 END
+Table 9.6
+Calculation of Bessel and Hankel Functions
+0.5Λ451 Ξ = for
+Function real imaginary
+0.99902 -0.06249 JO(ξ)
+J1(ξ) 0.18224 0.17120
+-0.48333 0.57148 YO(ξ)
+Y11(ω) -1.14039 0.85145
+10(ξ) 0.99902 0.06249
+0.17120 0.18224 11(ξ)
+KO(ξ) 0.85591 -0.67158
+Kl(ξ) 0.17120 -1.52240
+I0(Ξ)/I1(Ξ) 2.91772 -2.74097
+KO(Ξ)/KI(Ξ) 0.56158 0.17445
+N0-1 0.42754 -0.54582
+-0.66920 -0.96919 111-1
+0.42083 1.57050 HO-2
+H1-2 1.03369 1.31158
+Table 9.?
+Wave Exponential for α Double of Constants Calculation
+Times and Tall Front of With 1.0 an Amplitude Having
+respectively Microseconds and 1.0 10.0 of
+le-6,100-6 tl and τ3?
+alpha - 79.2375Z+03
+beta - 40.01023+05
+, 1.10433+00 31/I
+272

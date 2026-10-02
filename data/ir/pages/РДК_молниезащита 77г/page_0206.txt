@@ -1,0 +1,35 @@
+Based on Ampere'σ Law, the force per unit length on wire is 2
+pa permeability of media between conductors = where
+1 0 ' ~ for air =
+,2 1 PI force on conductor or conductor (N/μ) 2 =
+Q 1 unit of length of conductor or conductor (μ) = ,2 1 2
+Δ center-to-center distance between conductors (μ) =
+,2 I1 currents in conductor or conductor 1 = 2
+These forces act to pull the conductors together when the currents in them
+flow in the same direction and to repel the conductors when the currents are in
+opposite directions. In either case, the magnetic forces are strongest when the
+conductors are close together. One such case would exist, for example, in α
+radome-mounted pitot system in which two air pressure tubes are needed to
+convey both static and dynamic air pressure to the flight instruments. If these
+are 2 of tubes mounted cm apart and half the lightning current is assumed to
+flow in each, the peak force in each conductor, as α result of the currents in
+both, will be
+000 N/μ of tube length 100 =
+= 6 854 Ib/ft of length
+This peak force, of course, would exist only at the instant when the lightning
+current is at its peak, with lower forces active when the current is lower. During
+the short duration of the higher amplitude stroke currents, the mass of the
+conductor may prevent its being deflected appreciably because of its relatively
+slow mechanical response time, although it can absorb appreciable kinetic energy
+in that time and continue deflecting afterward. The resulting deflection also
+depends on the degree of restraint provided by supports, but forces of this
+magnitude have been shown to cause tubes in one typical installation to slam
+7.6. together, leaving permanent deformations, as shown in Figure Deformations
+7.6 7.3) like those in Figure (Reference are sufficient to disrupt the transmission
+of pitot pressure to flight instruments.
+Mathematical calculation of expected deformations from impulsive forces
+such as these is difficult, and such calculation is further complicated by
+unknown mechanical factors. James and Phillpott, however, have defined an
+effective transient force, Pt which, applied slowly but continuously, results in if
+the same stress as that produced by the peak magnetic force, Po, calculated by
+7.1 Equation This effective force, Pt, is α function of the angular frequency, 1.

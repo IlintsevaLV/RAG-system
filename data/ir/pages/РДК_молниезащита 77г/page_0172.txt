@@ -1,0 +1,20 @@
+Lightning-protected caps should always be used if there is possibility any
+that the cap may receive a lightning strike. The consequences of not doing so
+have been demonstrated by Plumer (Reference 6.56) in tests of a light aircraft
+nonmetallic wing tip fuel tank equipped with an automotive-type fuel filler cap
+located in a region where it would be subject to direct and swept strokes. The
+cap sparked to its grounded adapter even when struck by a very low-amplitude
+kA) stroke, igniting a flammable mixture of AVGAS and air. The resulting (-5
+flame exhausted through a blowout hole that had been cut in the underside of
+the tank, as shown in Figure 6.32. The same type of cap on the same type of tip
+tank was also struck during the in-flight incident described in Section 4.5 (Figure
+4.16); however, n o ignition occurred, presumably because the tank contained
+sufficient fuel to keep the ullage vapor overly rich, as would be predicted by the
+AVGAS flammability envelope limits of Figure 6.3.
+Direct strike to unprotected fuel filler resulting in internal Figure cap 6.32
+sparking and ignition fuel. of
+The flammability limits for a particular fuel should not be relied upon, of
+course, to establish adequate lightning protection because there are factors--
+such as fuel quantity, misting, and venting--which may cause the actual
+conditions prevailing in a particular tank to deviate from the limits shown in
+6.2 and Figure Major emphasis should always be placed upon Figure 6.3.

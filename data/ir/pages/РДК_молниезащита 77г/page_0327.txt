@@ -1,0 +1,21 @@
+I 1 dt - eo = (V ,-V ,)
+RcI
+dt = '+ (Vl-V2)
+Measurement principles. 10.20 Figure
+(α) Line-ground measurements
+Line-line measurement (β)
+(χ) Magnetic field measurement
+500 ps per division, the input current exception of the oscillograms displayed at
+α step-function current. In both cases the line-ground can be considered as
+voltage is seen to display the pulse penetration-type response shown in Figure
+1 10.6. The small bump at the leading end of the voltage on conductor is
+primarily the result of leakage from the surge generator into the screen rooni
+housing the measuring instruments and to coupling from the trigger pulse used
+to fire the surge generator. In both cases the initial rise of voltage follows the
+3 ,us, α time in same pattern and reaches essentially its final value in about
+1.7 ps accordance with the calculated pulse penetration time constant of
+I discussed previously. At later times the voltage on conductor is seen to decay
+back toward α lower final value in the manner shown in Figure 10.17. Likewise,
+7 is seen to be nearly flat, rising only slightly, as shown the voltage on conductor
+10.21. It is probably only α fortuitous combination of conductor in Figure
+location and the characteristics of the elliptical cylinder that result in the voltage

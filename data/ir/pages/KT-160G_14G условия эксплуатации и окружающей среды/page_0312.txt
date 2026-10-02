@@ -1,0 +1,66 @@
+1
+Coaxial 50 Ohm Load
+>5W
+VSWR 1.2:1 < 3
+--.
+-
+lnjection Probe 2
+Calibration
+Fixture 1
+500hm
+Attenual.or
+5
+>5W
+VSWR 1.2:1 <
+1
+CS Category Amplitude
+ower Current or Measurement в ~
+ln50 Ohms nstrument 1 1
+1
+Data Recorder
+13
+1 - Калибровочная установка
+2 -Инжектор
+3 50 -Коаксиальный кабель Ом, нагрузка
+4 - Направленный ответвитель
+5- 50 5 Аттенюатор Ом, нагрузка более Вт,
+6 - Мощность прямой волны, направляемая
+7 - Усилитель мощности радиочастотного
+8- CS Ток категории или мощность в
+9- NQ 1 Измеритель амплитуды
+1 NQ 2 - О Измеритель амплитуды
+11 - Сигнал-генератор
+12- Генератор сигнала модуляции
+13 - Регистратор данных
+20-7
+Рисунок Восприимчивость к помехам
+1
+1
+
+20- 32
+6
+4 Fo JW ard Power
+to ln jection РгоЬе
+D•rectional
+.
+Coupler
+1
+RF Power
+7 Amplifier
+10 11
+9
+Amplltude
+Signal
+Measurement
+Generator
+ln strument 2
+1 1
+Modulation Data Recorder
+Generator
+13 12
+5 1,2:1 < более Вт, КСВ
+< 1,2:1 КСВ
+в инжектор
+излучения
+50 сопротивлении Ом
+проводимости. Калибровочная установка

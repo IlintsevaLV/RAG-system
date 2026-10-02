@@ -1,0 +1,38 @@
+into the shields of cabIes through coupling transformers are desckibed in Chapter
+17.
+If actual measurements of coupling effects are not available, the transfer
+characteristics of many cables can be estimated from other published literature.
+One such summary giving the parameters of coaxial cable shields is shown in
+Table 13.1 (Reference 13.9).
+1 3.6 Transfer Characteristics of Connectors
+The transfer impedance of a cable connector or splice can be represented
+by
+&
+where is the resistance measured across the connector and Mi2 is a mutual
+inductance between the external shield circuit and the internal conductors of the
+The cable. value of ZT is usually not calculable, but it can be measured by
+passing current through a cable sample containing the connector and measuring
+the open circuit voltage induced on conductors inside the shield. Some typical
+MI 2 values of Ro and have been measured on cable connectors and are listed in
+Table 13.2.
+The transfer impedance of a connector is a lumped element in the cable
+circuit, in contrast to the distributed nature of the transfer impedance of the
+cable shield. The effect of leakage through the connector can thus be
+represented a discrete voltage source by
+where I. is the shield current.
+Because most connectors that would be used for shielded cables have
+essentially 100% optical coverage, their transfer admittance is usually negligible.
+In addition, most bulkhead or panel-mounting connectors are located at points
+where the shield voltage is a minimum, so that excitation of the internal
+conductors by the transfer admittance is small even the transfer admittance if
+itself is not small.
+13.7 Shields Grounding of
+It should be emphasized that the transfer parameters of Table 13.2 refer
+only to the properties of the connector itself. Additional transfer impedances
+may be produced by the manner in which the cable shield is connected to the
+connector or by the manner in which the cable connector is mounted to a
+bulkhead. Even slight inattention to detail may introduce into the circuit
+transfer impedances far greater than the impedance of the connector or possibly
+A far greater than that of the rest of the cable shield. common treatment of a
+shield at a connector is to insulate the shield with tape and connect it to the
+back shell through a pigtail. Such treatment is shown in Figure 13.30(a). Equally

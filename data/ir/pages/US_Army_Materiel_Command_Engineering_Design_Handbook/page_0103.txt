@@ -1,0 +1,50 @@
+AAXCP 708-202
+CHAPTER
+TRANSMISSION AND DRIVE SUBSYSTEM DESIGN
+40 LIST OF SYMBOLS = frequency of backward travelling wave, Hz
+μ frequency of forward travelling wave, Hz
+= axial foice, It inner race curvature, % of ball diameter
+α bearing outer ring bore, is. oufer race curvature, % of ball diameter
+- portion of totel time, % static resnnant frequency, Hz
+Β . life at which 10% of α bearing population Γ EHD material parameter, dimensionless
+fails, cycies or hr Γ speed effects factor (bearings), dimension-
+ь = Hertzian contact band scmiwidth, in. less
+ь - bearing OD, in. - lengthwise tooth stiffness constant, psi
+= capacity of bearing for life of ι0 cycles Gs =spocific weight of oil, Ib/gal
+with 90% probability of survival. ib ν - misalignment factor (bearings), dimension-
+= case convection cooling coefficient, Ap/°F less
+= load inclination factor (helical gear), η * oil film thickncas, μin.
+dimensionlese - EHD oil film thickness. μin.
+σ, - clastic coefficient, (psi)/2 1 – stress index modificr, dimensionlcss
+- liner (stecl) OD, in. = moment of inertis, slug-ft:
+* speciñχ heat of oii, Bu/id-*F geometric shape factor, dimensioniess
+- gear diameter, in. - Hertz stress index, psi
+Δ material factor (bearings), dimensionless = stress concentration factor, din:ensionless
+Dsc - bolt circle diameter, in. = inertia factor, dimensionless
+– stud pitch dianeter, in. κ, = life factor, dimensioniess
+= involute base circle diameter, in. = misalignment factor, dimensionless
+– inside diameter, in. K = overload factor, dimensionless
+Δ mt spline minor diameter, in. ξ = reliability factor, dimensioniess
+Δ. outside diameter, in. - size factor, dimensioniess
+pitch diameter, in. κ, - temperature factor, dim.ensionless
+Δ, gear root diameter, in. ξ$ ж dynamic load factor, dimensicnless
+Δ major diameter of spline, in. κ conversion constant
+Δ - outside diameter of spline tocth member, κ – contact linc inclination factor, dimension-
+in. less
+– pinion pitch diameter, in. = geometry factor, dimensionless
+δ irack of breked whecls, ft Λ – gear face width, in.
+δ - light alloy section OD, in. Λ design life or scheduled removal time
+E - modulus of elasticity (Young'σ modulus). (TBO), hr
+psi Ls = adjusted lifc, hr
+E ED energy dissipation rate, Btu/in.²-min processing factor (bearings), dimensicnless Λ2 Lco = gear center distance, in. - life for 2% failure of α bearing population.
+E combined modulus of elasticity, psi hr
+pitch plane misalignment, in./in. Λ10 - life for 10% failure of α bcaring popula-
+F flow rate, gpm tion. hr
+F face width of gear tooth, in. Μ mechanical advantage. dimensioniess
+F = lubrication factor (bearings). dimension- Μ – moment. in.-lb
+less τ = profile contact ratio, dimensionless
+F breukaway slip force. Ib gear ratio, dimensionless
+F = effective face width, in. = contact ratio factor. dimensionless
+= gverage effective face width, in. modified contact ratio (spiral bevei ggar).
+– coefficient of friction, dimensionless dimensionless
+4-1

@@ -1,0 +1,24 @@
+Responses of circuit. 17.4 Figure
+current (a) Response to a 10 kA
+Response to a current I00 kA (b)
+The techniques of making transient analysis tests have been described in
+other literature (References 17.8, 17.9, and 17.10) and will not be discussed
+A here. summary of their advantages and disadvantages follows.
+The transient analysis type of test has, among others, the following
+advantages:
+The tests may be made with current surges of waveshape nearly
+representative of those of natural lightning.
+The waveshapes have the correct ratio of high- and low-frequency
+components.
+The test correctly simulates frequency-dependent resistance and
+diffusion-coupled electromagnetic effects.
+The test is nondamaging to avionic equipment if it is made at low
+current levels.
+Relatively small and inexpensive equipment is required to make the
+tests.
+The transient analysis type of test has, among others, the following
+drawbacks:
+Because a considerable amount of energy is lost in resistive circuit
+elements, a given size test generator produces less current than it
+would if it were used to produce damped oscillatory current waves.
+Data obtained at low amplitudes must be extrapolated to full-threat

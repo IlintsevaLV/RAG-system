@@ -1,0 +1,37 @@
+AVIONICS DESIGNER SYSTEM INTEGRATOR CABLE DESIGNER
+VULNERABILITY
+I B
+SUSCEPTIBILITY
+THE CABLE DESIGNER'S L 1
+JOB IS T O ENSURE THAT
+DO ACTUAL TRANSIENTS
+ANOT EXCEED WORST
+CASE TRANSIENT CON-
+TROL LEVEL
+TRANSIENT DESIGN LLEL
+TDL
+I
+(TRANSIENT CONTROL THE JOB O F THE AVIONICS
+- TCL LEVEL) DESIGNER IS T O ENSURE
+THAT HIS VULNERABILITY. OR
+SUSCEPTIBILITY LEVEL, IS
+GREATEK THAN THE
+TRANSIENT DESIGN LEVEL
+b 1
+ACTUAL TRANSIENT
+LEVEL
+transient coordination philosophy. 15.8 Figure The
+would be higher than the transient control level by a margin
+reflecting how important it was that lightning did not in fact
+interfere with the piece of equipment under design. margin is A
+necessary because any single lightning flash might produce an actual
+transient level higher than the assigned transient control level, which
+would have been derived for a predicted average in spite of the cabIe
+designer's good intentions. Prediction of actual transient levels is an
+imperfect art.
+The job of the avionics designer wouId be to ensure that the
+vulnerability and susceptibility levels of the equipment that he is to
+supply would be higher than the assigned transient design level. The
+is that level of transient which, if applied to the vulnerability level
+input or output circuit under question, would cause the equipment
+to be permanently damaged. The susceptibility level is defined as

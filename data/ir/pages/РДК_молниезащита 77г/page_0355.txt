@@ -1,0 +1,31 @@
+during the course of an extensive analytical investigation. The magnetic field
+amplitudes assigned to each of these zones, based on the analytical study, are
+given in Table 11.1 (Reference 11.8). The fields Were divided into two
+components, an A-component referring to fields coupled through apertures and
+a B-component referring to fields coupled by diffusion through metal surfaces.
+The A-component of the field would tend to have the same rapidly changing
+waveshape as the external magnetic field, while the B-component would have a
+much slower waveshape. In the study the waveforms of the Space Shuttle
+different components were taken to be as shown on Figure 11.14 (Reference
+11.9). In each case the field intensity was based on a worst case 200 kA lightning
+- A THROUGH D MOST PROBABLE LlGHTNlNG ARC ENTRY AND EXIT POINTS
+SHUTTLE ZONES - - - - - - - - - . - . . . . . . . . . . . . . IT.UT nFCK PAY1 CIAn FI A RAV . . 1
+7 2 CENTER EQUIPMENT BAY AFT EQUIPMENT BAY
+8 LOWER EQUIPMENT BAY ENGINE COMPARTMENT 3
+FORWARD VERTICAL STABILIZER 9 TOP 4
+10 5 FORWARD CENTER WING
+Shielded zones within the structure. 11.13 Figure Orbiter
+vehicle. The field amplitudes of Table 11.1 current passing through the Orbiter
+were the maximum amplitudes calculated for any of the possible lightning
+current entry or exit points. While no particular claim for accuracy can be made
+the field amplitudes at least seem about any individual point within the Orbiter,
+reasonable.
+The concept of dividing an aircraft structure into different magnetic field
+zones and assigning a ruling magnetic field strength to each zone, while
+imperfectly formulated at present, is fundamentally no different from the civil
+engineering practice of designing a structure to withstand a standard (generally
+worst case) wind loading. While the wind loading may differ widely at different
+on points on the structure, the task of calculating the wind loading each and
+every structural member would probably be sufficiently expensive that it would
+offset the savings that one might realize by tailoring each structural member to
+its own specific wind loading.

@@ -1,0 +1,81 @@
+Sprotective
+ device .
+gu !oncinoped
+connection
+circuit. Protected 18.36 Fig.
+af- normally functions EUT the If margin: Protective
+the protection to assume safe it is ter the test probably
+a question may still remain but there adequate, was
+de- the protective margin protective how much about
+edge on the was just circuit the offer. Possibly vices
+would protector less effective slightly and a of failure
+development engineering During failure. allowed have
+pro- the whether to determine appropriate might be it
+is satisfactory. tective margin
+a is desired, margin protective of an assessment If
+as follows, be procedure might test suitable
+and measure the lead test to normal Apply the 1.
+the circuit. on developed the voltage
+to generator the surge level of the power 2. Reduce
+zero.
+device, protective the Disconnect 3.
+protective questions of in involved not are Filters
+be disconnected. should not and margin
+at starting lead, the unprotected to Apply surges 4.
+the until level the increasing and level power a low
+was in than it is greater developed peak voltage
+The waveshape margin. 1 by an appropriate step
+from be different most likely will of the voltage
+developed in step 1. that
+shopld margin constitutes an appropriate What
+30% of plan. A margin the test out in be spelled
+be appropriate. may
+cir- test the device and the protective Reconnect 5.
+proper operation. cult for
+the protective disconnect to not appropriate It is
+The purpose surges. full level then apply devices and
+
+circuit of hav- relieve the devices is to protective of the
+ing to withstand full amplitude surges.
+Injection for Transformer Procedures 18.7
+Tests
+of somewhat on the objectives Procedures depend
+devel- is threat lightning induced the how and the test
+procedures under test. Test the equipment for
+are still evolving and there is not as yet uniformity
+Test agencies. and groups testing various the among
+yet have not that ambiguities involve may practices
+resolved. been
+Level of Power Adjustment 18.7.1
+involves some ra- of these The most prominent
+of the power level adjusting the of tional method
+the of characteristics impedance generator to the surge
+fun- test. Several system under and cable equipment
+are possible. approaches different damentally
+level to power circuit and the generator 1. Adjust
+dummy upon to an agreed waves specified deliver
+and to the EUT the circuit apply Then circuit.
+may. they what be and let I V
+spec- to deliver level and power the circuit 2. Adjust
+gener- whatever using to the EUT, I (or ified V)
+may be required. ator
+V a specified gives setting power what Determine 3.
+power level for Treat this as a maximum (or I).
+a give to level power adjust the Then test. the
+the maxi- without exceeding specified I (or V)
+level. power mum
+three different these discussions following For the
+circuit," "dummy as the to be referred will approaches
+approaches, "Modified" the and Book," "Yellow tht
+use. in widespread not names these are although
+1 2. and for Waveforms Procedures 18.7.2
+be must generator pulse and transformer The
+cir- short the required to deliver together adjusted
+open circuit voltag2 appropriate or the cuit current
+ei- generating involve the tests Generally waveforms.
+circuit cur- short specified both) the not ther (but
+voltage circuit open or the specified 1) (Waveform rent
+imped- to the appropriate is (Waveform 2), whichever
+test. under of the circuit ance
+a proposals Original circuit: on dummy Calibration
+484

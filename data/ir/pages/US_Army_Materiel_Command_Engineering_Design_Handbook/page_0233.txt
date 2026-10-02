@@ -1,0 +1,109 @@
+AMCP 706-202
+con- The 706-201. AMCP 3-4.1, pEr. in is described
+con- flight principal three the siderations pertinent to
+maneuvering and lift, high-speed hover, ditions - -
+that Ir paragraphs the 5-2. par. in reviewed are
+of design two types the of sign-ficance the follow,
+- structural and aerodynamic - parameters
+design detail on the emphasis reviewed, with
+will these that satisfy blades of rotor :manufactuie
+requirements.
+Twist 5-6..1
+SGenera'υ, rotor blades have α linear twist on
+attack of angle tip blade the and deg, 8 to 4 of order
+con- The primary (washout). at the root than that less
+value deaign the of se:ction to leading siderations
+efficiency between hover trade-offs the in occur twist
+staql. blade retreating high-speed, of delay the and SThus, Thfor raircraft α mission profile that φ ra particular aic at μ si ν π oiet
+combines both hover and cruise, an optimum twist
+hover high both allow will that determined be must
+~~~~gross δ ι cThe weight and good cruise efficiency. .- Sg.ad
+.reate to is Dode. hover the in twist of effect The
+more uniform intlow distribution trom the biae
+(which results "ideal twist" so-called The root. the to
+in unretical ω lus of twist ν-ar the blad, rnfo )
+orctically would result in α uniform inflow distri-
+up an! ounts of twist, across the rotor. Large bution
+least 12 deg, approximate this distribution over at
+outboard half of the blade. Twist has the effect
+. reducing both the induced gad profile drag losses
+,.he rotor so that the hover efficiency, generally
+par. (-cc increased is Merit, of Figure as to refer:-ed
+2, AMCP 706-201).
+The theoretical maximum value for Figure
+"Merit vadue is unity. This value can occur only if
+rotor has no tip losses and also posse2.ses no profile
+drag. These conditions cannot occur, so an actual
+rotor Figure of Merit value always will be less
+unity.
+The effect of twist in the forward flight mode
+rotor blades is to lower the pitch at the tip while
+maintaining α larger angle near the root. This reduc-
+tion of tip angle of attack gives α corresponding
+decrease in the rotor profile drag power, which,
+Σ.Aerodynamic turn, allovs α higher forward speed to be obtained,
+parametric studies used to optimize
+design twist for α particular aircraft also must include
+torsional deflection in obtaining the section angle-of-
+attack and the corresponding aerodynamic loading,
+Effects of drag loads and centiifugal twisting
+should be included ;ν the elastic twist angle deter-
+ruination. Th: forward flight angle-of-attA;κ deter-
+minartion also should include the effect of blade pitch
+rrte (tennis racket effect) on the instantaneous twist
+
+the azimuth. Commonly the around it varits as angle
+to due twisting ccr.trifugal -- ι.,., contribution inertia
+thc greatar than be will rate - pitch and pitch blade
+tar- net the and monrents, twist.ing aerodyninmic
+direction. nosedown the is in sional deflectiou
+forward-flight high at is that further requirement Α is
+zero, or near zero, tip has the advancing 'blade speeds, and
+high Mach lift the corrcsponding that load in order
+of amount given For α be minimized. drag numbc-
+twist and α given forward speed, this minimum drag
+For weight. gross specific at one orly met can he
+the operations at gross weights above this value the in-
+increased in resu'ts pitch collective in required crease is
+blade-tip lift and drag loadings Also, at gross
+blade twisted highly α minimum, this weights below of
+lift negative with speed forward high at operates tIp
+causes This disk. the of side advancing the of part on
+α nosedown control-load pulse, and the aircraft flight α en eo ε μ yb ι ι - β χ ue η ρ ul ntv ρ -
+envclope may be limit-δ brcause the resultant vibra-
+limits. prescribed exceeds tion
+of twist that is optimum for forward amount loi etitdb η lgtpwrrqieet
+the by restricted is also power requirements flight α
+hen- relatively increase in oscillatory flanwise linear tip
+the general, In increased twist. moment with ding
+. blade torsional moments consumption and powe,"
+the- duc to compressibility effects can be minimized if, at
+the design condition, the blade is twisted to produce
+tip. lift on the advancing to zero
+the
+of 5-6 1.2 Planform Taper
+of As with twist, the effect of planform taper is to give
+α more uniform inflow distribution across the disk
+of 're Fs& the increase to thus and hover during 3-
+Merit. The local induced velocity is proportional to
+of the square root the lift, which of blaied ie-_ε.inn in
+the turn, is directly proportional to the local blade chord.
+Thus, by increasing the root chord over that at the
+tip, the induced velocity over the inboard portion of
+than the disk can be increased, simultaneously increasing
+the thrust over the inboard portion of the disk. Ex-
+of periniental results have shown, however, that the os-
+cillatuy bending nroments are increased as the plan-
+form taper is .ncreased (ι.ε., tip chord is much less
+than root chord).
+in The higher cost of producing planform-tapered
+blades has ruled out their general use. In addition, α
+blade with planform taper requires α thickness taper
+in order to retain α uniform airfoil section with
+known characteristics. Also, significant planform
+taper results in α srmaller blade tip cross-sectional
+also area available for tip balance weight placement. Also,
+excessive amounts of root chord as dictated from -
+Figure of Mer;τ optimization studies - can cause α
+premature power limit on forward speed due to an in-
+crease in profile power.

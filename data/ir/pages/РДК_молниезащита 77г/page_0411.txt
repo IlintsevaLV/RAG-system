@@ -1,0 +1,33 @@
+The flow of current through the self-inductance of the pigtail produces α voltage
+This voltage, less that induced in the mutual inductance between the
+pigtail and the conductors in the connector, will add directly to that produced
+by the flow of current along the shield.
+The self-inductance of α straight conductor is
+Π is the length of the conductor and ρ is its radius, both measured in where
+centimeters. The inductance of α typical pigtail will not be significantly different
+even if it is not straight.
+The mutual inductance between the two conductors is
+Q, where the factor shown in Figure 13.31, is α function of the ratio of the
+<
+length of conductors to their spacing. If δ then Q,
+Mutual inductance so defined is not the same as the mutual inductance
+referred to Equations 13.4 and 13.1 2. This latter is best referred to as α in
+which one would normally want to be small. The transfer inductance,
+Μ. Λ corresponding quantity for the parallel conductors would be minus One
+would normally want the mutual inductance (Equation 13.27) between two
+conductors to be large.
+numerical example will illustrate the problems associated with pigtail Α
+grounds. Assume α shield is carried, as in Figure 13.30(χ), through α panel on α
+pigtail and α set of connector pins. Assume the total length of the pigtail-pin
+7 combination to be cm, the spacing between the pigtail and α signal conductor
+22AWG to be, on the average, 0.05 cm, and the pigtail to be made from number
+wire having α radius of 0.0323 cm. The self-inductance of the pigtail would then
+74.5 be nH, the mutual inductance between the two would be 65.0 nH, and the
+difference, the factor equivalent to the transfer inductance for the shielded
+Α cable, would be nH. rather mediocre shielded braid would have an 9.5
+inductance on the order of nH/μ, and α large-diameter, tightly woven braid 1
+might have an inductance on the order of 0.25 nHlm. The amount of voltage
+injected into α signal circuit by the current flowing through this one relatively
+short pigtail, then, would be as much as that coupled onto the signal conductor
+by to 40 μ of cable shield braid. This point may be illustrated by Figure 10
+13.32, an extension of the test series previously discussed in reference to Figures

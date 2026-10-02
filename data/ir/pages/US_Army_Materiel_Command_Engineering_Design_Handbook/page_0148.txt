@@ -1,0 +1,99 @@
+IL -I-'' - -
+15
+LK
+I2~ - - - -
+- -4
+,,..- -δ
+j~----*formal I
+1 --
+- - - -1teeth. 11 Λ λ ~
+2Σ 39 15 40 455 0
+SUL'Λ EQUIO'1NU tHAftQMC$$ R,
+vsHardessline Figue 4-6. hearYlel
+4-6. F~gue hearV~el vsHarm...load
+ftpaation as depicted in Regime 11 of Fig. 4-3.
+Opsrating in this region is not observed often in hedi-
+copter drive subsystems where low-viscosity syn-
+thetic lubricants are used, except in the very high
+imei vA'~rino stna~es Tntm' veladitie&'V.. + - V. V.
+the ordt.ρ of 15,0UU ft/nun or greater are rcquirod
+Regime coaditions. 11 achieve
+calcu- the to approach AGMA The fundamental
+lation of pitting life is given in Ref. 80. For helicoptcr
+use the following adaptation is suggested
+calculation of the Hertz stress, Σ,:
+TLcalculated CP
+(4-48) psi ,
+-
+whom
+coefficient, elastic (psi)ι C. -
+ι
+streas factor, psi -
+index stress modifier, dimensionless I -
+In 4-48 Eq. the elastic coefficient is given by C,
+4Ω
+-- Λ
+where
+gometr factor, dimensionles (for κ
+-
+ý.-Ylindrical contact 2.0; for elliptical κ -
+contact 3.0) κ -
+Λ combined modulus of elasticity, psi
+-
+givent as
+2
+E'
+/+ '"+ jl~π /
++ E-
+wherep, are the Poisson'σ ratios.
+"6~
+
+1
+factor stress Ξ is delined The as
+mi
+j' (4-50) ).ps WF (-!
+where
+total tooth load (Eq. 4-29), lb effective Wf*;
+pinion pitch diameter. in. -
+F in. -face width,
+α N /N,. gear ratio number μ .- 1.0Λ
+used 4-50 the 1) In counter- term is with mEq. (Μ1, + 1 is used with conformal teeth and ) (min
+that varies from Ω,' load tooth ffcctivc Thec
+Ω, used in 4-29 in that is taken Eq. at the pitch line.
+and for miost applications because thc 0 pitch Wj -
+dynamic incremental an while is governing load
+mesh contact. usuAlly is limited to the initial
+as modified in 4-48 is defined Eq. The stress index I
+'
+κ (4-) C~
+τ
+where nf
+to cat.si
+'ess O (4-52) C1-
+2
+tases pftn rsueagc
+for rasersgpaig δ psueage
+and the valegfrtecnatrti atrm loi
+4-2.2.1.2.1. par. in us
+bc shuuld 4-48 Eq. using calculrAted of Σ, value The
+in Fig. 4-12 to pre- the curve shown Σ-N used with
+dict pitting life.
+4-212.1.2.3.3 Wear Initiated Failure
+This is the most frequently encountered failure
+mode, predominating throughout the transitional
+lubrication states between pure: boundary layer and
+and cor-Y (Fig. 4-3). Causes full conditions El-Δ 9)
+action are discussed in detail in pars. 4-1.2.11.2, rective
+4-1.3.1, and 4-2.1.1.
+In the absence of relevant test data or cxtensivce ξ-
+perience, the best procedure for analyzing this failure
+Σ,. mode is to calculate 4-48 and by Eq. to apply this
+value to the applicable curve Σ-N of Fig. More 4-18.
+suitable life equations that take into account many of
+,~myso θ'an other variables gignifierant the
+research programs become available from the many
+now under way. One such program, entitled
+Co~icen- of "Relationship in Fatigue and Lubrication
+trated Contact", is being conducted the Rescarch by
+on Lubrication of the ASME.
+.Committee

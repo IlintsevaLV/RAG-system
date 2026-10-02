@@ -1,0 +1,101 @@
+inductance of the tape-wound shield was calculated
+as 3.9 pH/μ, of the order greater than the mutiinl 104
+inductance obtained for α braided-wire shield.
+for are most often used trays: Cable trays Cable
+chanical protection of wires, but if viewed as shields,
+they may also provide electrical protection. The char-
+acteristics of α cable tray that make for good electrical
+protection are the same as those of any other shield:
+1. It must be able to carry current along its axis.
+material. low-resistance of be should It 2.
+3. It should completely surround the conductors,
+implying that the tray should be fitted with α
+conducting cover, making good electrical contact
+along its entire length.
+4. It should have α miiimum number of openings
+through which magnetic fields may leak.
+5. It should have as few joints as possible, and such
+joints should be made in such α manner as to
+vide minimum resistance and leakage of magnetic
+fields.
+The transfer characteristics of the tray by itself
+would be about the sane as those of the solid tubular
+shields discussed previously. This comparison assumes
+the tray to be of solid metal and fitted with α well
+sealed cover. Since covers never form perfect seals,
+the pulse penetration time constant would probably
+not be as long as predicted by Eq. 11.24. Even with
+an imperfect cover, the transfer impedance Zr would
+not be greater than the dc resistance.
+Trays are most commonly built in short sections
+and joined by splices or transition sections. Such sec.
+tions frequently provide for thermal expansion and
+contraction and are, at any rate, seldom designed
+ther to provide good electrical continuity or to pro-
+tect against magnetic leakage. When joints are con-
+sidered. the transfer characteristic of the tray is fre,.
+quently found to depeud almost entirely on the treat-
+ment of the joints. Leakage at joints can be red! iced
+covering them with flexible tape or metal braid. The
+transfer characteristics can seldom be determined
+calculation; they must be determined experimentally.
+Condults: Conduits in aircraft work are muat com-
+monly used only for mechanical protectioii of wires
+should and not be relied upon for electromagnetic field
+shielding unless it has been verified that the conduit
+at is electrically continuous and grounded each end.
+More commonly, conduits we mounted in rubber
+sulated mounting brackets and so are not grounded,
+
+0
+15.7 Transfer Characteristics of Actual
+Cables
+The transfer impedance of α shielded cable is not
+by the manufac- specified either me- α factor commonly
+Wurer or by procurement specifications. Even among
+cables of the same nominal type, this transfer imped-
+ance may vary considerably between the cables sup-
+plied by different manufacturers. The most straight-
+forward method of determining the transfer character-
+istic of α shielded cable, particularly if the cable in-
+impedances load multiple and shields multiple voives
+on conductors within the shield, is to make actual mea-
+surements of the conductor voltages that are produced
+by currents which are circulated through the shield.
+The techniques by which transient currents may be
+injected into the shields of cables through coupling
+transformers axe described in Chapter 18.
+If actual measurements of coupling effects are not
+available, the transfer characteristics of many cables
+can be estimated from other published literature. One
+such summary giving the parameters of coaxial cable
+pro- shields is shown in Table 15.1 [15.91.
+Connectors 15.8
+Transfer impedance: The transfer impedance of α ca- 6
+ble connector or splice can be represented by
+(15.7) R, + jwL1 ZT = 2
+where R. is the resistance measured across the con-
+nector and Λ is α transfer inductance between the
+12
+external shield circuit and the internal conductors of
+the cable. The value of is usually not calculable, ZT
+but it can be measured by passing current through α
+cable sample containing the connector and measuring
+the open circuit voltage induced on conductors inside
+ei- the shield. Some typical values of and have R. Li
+2
+been measured on cable connectors and are listed in
+Table 15.2.
+The transfer impedance of α connector is α lumped
+element in the cable circuit, in contrast to the dis-
+by tributed nature of the transfer impedance of the cable
+shield. The effect of leakage through the connector can
+by thus be represented by α discrete voltage source
+V - lgT (15.8)
+where is the shield current. I
+admittance: Transfer Because most connectors that
+would be used for shielded cables have essentially 100%
+optical coverage, their transfer admittance is usu.
+in- ally negligible. In addition, most bulkhead or panel-
+mounting connectors are located at points where the
+408

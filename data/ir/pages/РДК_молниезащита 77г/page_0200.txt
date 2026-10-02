@@ -1,0 +1,44 @@
+7.6 7.5 Physical and electrical properties needed in Equations and for
+common structural metals and electrical conductors are provided in Table 7.1.
+The melting points of these materials are also provided.
+7.1 PHYSICAL AND ELECTRICAL PROPERTIES Table
+COMMON METALS OF
+I
+Stainles
+(304) Silver Aluminum ntanium Steel Magnesium Copper
+lo6 lo4 lod Resistivity, 2.8 lod 1.72 lo6 42 72 4.45 ξ 1.59 lo6 xxxxx
+(0-cm)
+Temperature 0.00479 0.00393 0.0035 0.001 0.0165 0.0041
+coefficient of
+resistance, η
+(11°C)
+lo4 lo4 lo4 lo4 Thermal 0.254 0.164 lo4 0.085 0.120 0.025 lo4 0.019 xxxxxx
+coefficient
+of linear
+expansion
+(]PC)
+Specific heat 0.2 15 0.092 0.124 0.120 0.245 0.056
+(γ-~al/~?C)
+Density 2.70 8.89 4.51 7.90 1.74 10.49
+(dcm3)
+Melting point 660 1084 1670 1150 6 50 962
+ε χ )
+Because of their high amplitudes, the return stroke and restrike currents
+have the highest action integrals and may be expected to produce higher
+temperatures than the other components of the lightning flash do when they are
+conducted through structural metals or other electrical conductors. For design
+Α purposes, the action integrals associated with current waveform Components
+Δ SAE andlor of the report Lightning Test Wuveforms and Techniques for
+should be used for determining temperature Aerospace Vehicles and Hanlwarc
+rise in conductors, depending on the lightning-strike zone in which the particular
+located. conductor 1σ
+It should be remembered that if several parallel conductors are available to
+share the stroke current, the current in each will be divided by the number of
+in each will be reduced by the square of conductors but that the actiorl integral
+NAV light is the number of conductors. Consider, for example, α case in which α
+plastic vertical fin cap and grounded to the airframe via two bond mounted on α
+7.2. If straps, as shown in Figure this case is considered to be located in Zone
+IB, its bond straps must be able to conduct the entire flash current. If is it
+assumed that the arc not touch the bond straps, the limiting lightning design will
+criterion for these straps is that together they must be able to carry safely
+Δ, current Components and which have α total of ξ Α ~ - σ . However, lo6 Α 2.25

@@ -1,0 +1,104 @@
+AMCP 706-202
+uaed to carry fcavy thrust loaós in one diroction, with
+the boarings shuring the load oqually. However,
+tandem mounting doxs not romove all of the internel
+loosonens from the bearings, and, thareiore, perguits
+some shaft float.
+16-3.2.3 Thrust Ball Bearinge
+Thrust bail bearings are available for applicatiors
+in which pure thrust loads are to be supported at
+moderats spoods. These bearings afford a vory high
+thrust capacity, b:t provide no radial support for the
+shaft. Thrust bail bearings are quite lin:ited in speod
+capability due to spinning in the ball-to-race con-
+tacts, and they also are sensitive to misalignment.
+Becuuse even small amcunts of misalignment can
+rosult in hig,h internal contact stresscs, a high degree
+of respendicularity must be maintained bezwoen the
+bearing rrces and the axis of the shaft.
+Thrust ball bearings are made for applications
+roquiring thrust-supporting capatilitics in one or two
+directions. The various configurations available are
+е sbown in such catalogs of manufscturers as Ref. 7.
+16 3.3 ROLLER BEARINGS
+Rolier boarings are used most frequently in appli-
+cations roquiring high load capacity for a given space
+envelopc. The various types of rolier bcarings include
+cylindrica!, needle, spherical, and tapered roller con-
+figurations. Needie rolker bearings have 8 rolling
+dement length-to-diamcter ratio significantly greater
+than that encountered in typical cylindrical roller
+bearings. Spherical roller bearings use concave or
+coavex rolling clements in order to permit operation
+with misalignment betwoen th:e shaft and the housing.
+Both spherical and tapered rolier bearings can sup-
+spoods are lower than thoec of cylindrical rolier
+bearings because of sliding between the rollers and
+the guiding ribs.
+16-3.3.1 Cytiwdrical Roller Beariaga
+Cylindrical roller bearings are used typically in
+applications in which a purely radial load is to be
+supportod. In most cases, the roilers are crowned in
+order to prevent end loading and to compensate for
+amali amounts of misalignment.
+Cylindrical roller bearings are manufactured in 8
+sianderd grads designatod RBEC-1 for most com-
+inercial applications. Precision-gradc RBEC-5
+baerings are used for critical helicopter applications
+wbere bigh-spood capabilitics, and very procisc loca-
+tion and aligament of the shaf are essential.
+Cylindrical roller bearings are constructed with the
+16-10
+
+rollers running betwoen two flangas on either the in-
+ner or the outor ring. In some casas, ono or two ad-
+ditional shoulders are usod in ordor to limit axial mo-
+tion and to allow the boaring to support light thrust
+loads. Such configurations are known as locating
+types of bearings and are designatod as ono- or two-
+directional, Jepending upon whather one or two
+shoulders are usod. One-diroctional locsting bearings
+have separable rings, and incorporate a single
+shoulder to prevent axial movement of the shaft in
+one direction. Two-directional locating bearings usc
+two race shoulder to provide shaft location and light
+thrust load capability in both axial directions.
+Locating roller bearings have design capabilitics
+similar to those for non-locating bcarings, except for
+a slightly lower limiting speod due to sliding of the
+roller ends on the face of the shoulder.
+Cylinárical roll r bearings afford the highest apoed
+capabilities of all roller bearing types. In utilizing
+thesc capabilitie', the designer must be aware of the
+special problems «ssociated with high-speed opera-
+tion. Operation at very high speeds, usuailly while
+carrying rather low radial loads, can result in roller
+skidding. contributing. in turn, to carly bearing
+failure. In order to prevent skidding. several toch-
+I iques can be employed. The simplest and most
+reliable mcthod is to insure that a radial load suf-
+ficient to maintain rolling contact always is present.
+Becausc this is not always possible, particularly when
+the only load imposed upon the shaft is torque,
+spocialized design features — such as reduced inier-
+nal clearance, out-of-round outer races, or the incor-
+poration of two or more prcloaded hollow rollers —
+have been introduced to heip maintain rolling contact
+and a constant retainer spoed. However, bearings in-
+corporaiing such features usuaiiy require extensive
+development and testing.
+With high-speed roller bearings, in which the
+retainer is guided by a shoulder on the outer ring, the
+radial growth of the retainer due to incrcased
+terfcrence between the retainer and the outer ring. the
+initial retainer clcarance must be large enough to in-
+sure a running clearance at the maximuin operating
+temperature of the bearing.
+16-3.3.2 Needke Bearings
+Neodle bcarings con.prise a spocial class of cylin-
+drical roller bearings in which the rolling elenents are
+long in relation to thcir diameter. Such a dasign has
+the advantage of a very high load capacity for a given
+radial section. Ncodie bearings are manufactured in
+both full-complement and retainer typas. The full-
+complement typcs provide high raJial capacity since

@@ -1,0 +1,53 @@
+stantial computer time and expense. Ongoing trends
+in computer speed and cost can be counted upon to
+reduce these problems.
+Examples: Some examples of the use of this approach
+are given in §10.8 and §10.0, in which predictions of
+the response of the F-106B and C-580 thunderstorm
+research aircraft are compared to measured data. The
+predictions cover both linear and nonlinear (triggered
+lightning) modeling.
+Integral Equation Approaches 10.7.2
+There are at least three integral equation ap- Fig. 10.23 Simple wire grid model of a cruise missile.
+proaches which have been used for lightning interac-
+tion analysis. They all use the method of moments
+(MOM) and calculations are made only in the fre- Triangular patch: The triangular patch method [10.44
+quency domain. Determining the response to a light- -10.461 models the aircraft by an assemblage of trian-
+ning transient would require calculations to be made gular surfaces. The current at the center of each patch
+at many frequencies, after which the time domain re- is then calculated using either the electric field integral
+sponse could be extracted by inverse Fourier transform equation (EFIE) or the magnetic field integral eq'a-
+techniques. Since making calculations at the large tion (MFIE), depending on the shape of the object
+number of frequencies required for a meaningful trans- being modeled. The MFIE can only be used for closed
+formation would be quite expensive, the methods have surfaces. A gridding of the F-18, showing the distri-
+not been used much for lightning interaction problems. bution of current at 1 MHz, is shown on Fig. 10.24.
+Also, because all the approaches assume linearity in The method allows lossy materials to be modeled.
+their formulation, they cannot be used to solve non- A virtue of a triangular grid is that it allows for
+linear problems. fairly faithful modeling of complex shapes, and for this
+This is an inherent feature of all frequency domain reason triangular grids are the ones most commonly
+analysis techniques, whatever the application, and is used for field analysis in other disciplines. A draw-
+not peculiar to calculations of lightning interactionc. A back, though, is that the model can only be used for
+consequence of this is that none of them can be used a steady state solution. The literature [10.44 - 10.46]
+to analyze initiation of triggered lightning. Lightning shows several examples of the response at a fixed fre-
+must be considered either as a discrete current source quency, but no lightning transient responses have been
+injected onto the aircraft at some point (and removed published, perhaps because the cost of calculating the
+at one or more points elsewhere) or it must be assumed response at sufficient frequencies for a Fourier trans-
+to be the source of an electromagnetic field that im- form into the time domain has been excessive.
+pinges on the aircraft.
+WIRANT: The program WIRANT [10.41 - 10.43] is
+based on the electric field integral equation (EFIE) of
+§10.6. The aircraft is replaced by an approximately
+equivalent structure made of thin wire segments, as
+illustrated on Fig. 10.23. WIRANT is then used to
+determine the current on the individual wire segments.
+Those currents provide an approximation of the actual
+surface currents on the vehicle. Most commonly the
+procedure has been used to determine the response of a
+structure to an impinging electromagnetic field, but for
+lightning interactions the procedure can also be used to
+determine how current divides among the various wires
+point. particular a at injected is current lightning if
+Lossy materials can be included in the model. Results
+. ITMY
+with predicted by WIRANT have compared favorably
+test data 110.44]. Fig. 10.24 Triangular patch model of an F-18.
+289

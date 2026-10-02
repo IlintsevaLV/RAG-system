@@ -1,0 +1,69 @@
+7.23 Fig.
+(b)
+Resistance measurements: Adequate electrical con-
+ductivity and protection cannot be verified just
+measuring the dc resistance between the door and
+surrounding airframe and seeing that it is below some
+arbitrary value, such as 2.5 milliohms. Shortcomings
+of resistance measurements were previously discussed
+in §6.2.5.
+be to way only The protection: of Verification
+tain that a protection design is adequate is to perform
+lightning tests on production-like installations. Other
+factors, such as mating surface finishes and fastener
+torque or tightness play a role in protection effective-
+ness and these factors, with appropriate tolerances,
+should be accounted for in test planning and assess-
+ment of results.
+The SAE report [7.28] describes tests appropriate
+for all zones.
+7.6.3 Fuel Tank Sealant
+to prevent possible not is it situations some In
+sources of arcing around fasteners. In those cases the
+arc products must be prevented from contacting fuel
+vapors, often by coating the arc source with polysulfide
+type tank sealant. In addition to preventing fuel leaks,
+the sealant acts to contain the arcs and sparks which
+occur at these fasteners during a strike attachment and
+prevents contact of the arc products with the fuel va-
+.
+por space. Typical areas requiring sealant protection
+include structural interfaces, fasteners which extend
+through the tank skin from the exterior surface, and
+internal fasteners and rivets which form part of the
+members are current path, especially if the structural
+
+Sslotted
+gasket C),
+opening
+designs. gasket Alternative
+(a) Conventional ring gasket
+Ventilated gasket
+of CFC material. A further discussion of sealant is
+by given in §7.10.3.
+the Protection requires that sealant application be
+thorough and of sufficient thickness, with no voids, or
+thinly applied areas.
+Advantages of sealant: The advantages of sealant
+following: the include cer-
+1. Sealants may already be applied to prevent leaks.
+Containment of arcs and sparks may only require
+that the sealant be applied more thickly or over a
+wider area.
+2.
+Easily applied.
+3. Can be applied to existing designs.
+of sealant: Disadvantages The disadvantages of
+following: the include sealant all
+Application is operator dependent. 1.
+The adequacy of the sealant application depends
+on the skill of the person applying the sealant, es-
+pecially in areas of the tank which are difficult to
+access. In these areas, even a skilled operator may
+have difficulty in ensuring that sealant coverage is
+complete without voids or thin spots. Some areas
+may receive excessive sealant while others may
+receive too little to contain the more energetic
+arcs and sparks. Application also depends on how
+to sealant guidelines. closely the operator adheres
+195

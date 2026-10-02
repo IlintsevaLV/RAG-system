@@ -1,0 +1,88 @@
+ο Α, STEADY-FONCE RESONANCES
+C SHAFT CMITICAL FREOUENCY (COUPLED)
+Δ SHAFT CAITICAL FREQUBNCY (UNCOUPLED)
+ME CHANICAL ONE-PFR V EXCITATION
+INSTABILITY IN ROTATING SYSIEM
+RE.GION
+PYLON AC TOR
+ROTATING SYSTEM NATURAL FREOUENC?, Hz PYLON β Ε MECHANICAL INSTABILITY F
+SHAFT CRITICAL REGION
+SPEEDS
+C:/
+TYPICAL OPERATING
+rpm DAND
+AOTOR SPEED 0.μ
+Figure 5-15. Single degrer-of-fcedom Coieman Plot
+weight conditions, and throughout the cxtreme tem-
+peraiure range spociñco by the coniraci. An cxiensive
+serics of tests is specific.1 by Chapter 9, AMCP 706-
+203. Thesc tests can be relaxed, or climinated, pro-
+vided that it can be demonstrated to the satisfaction
+of the procuring activity that the helicopter is froc of
+mechanical instability.
+Occurrence of the instability problem usually is α
+result of α primary failure in the system. Additional
+information is contained in Refs. 22. 23, and 24. The
+discussion that follows supplements the analytical
+review given in Chapter 5, AMCP 706-201.
+The analysis of the mechanical instability of two-
+bladed, hingod rotors differs from that of rotors with
+three or more blades. In the original cnalysis (Ref.
+22) it was assumed that the support system below the
+rotor — including the fusclage, pylon, and landing
+gear — could be resolved into α singlo-degrce-of-
+freedom support in cachs of two perpendicular (fore-
+and-aft and lateral) diroctions. This nocessitates the
+computation of the effective mass and effoctive
+lateral and fore-and-aft hub springs in the rotor plane
+for cach modc of vibration of the support. It was
+further assum. δ that cach support system mode can
+be trcatod independently.
+The analyais is used to compute the coupled
+natural froquencics of the model, which has clements
+of both fixed and rotating systems; thus, the fre-
+quencies can be calculated and plotted in either
+
+AMCP 706-202
+ο Α,Β.C - STEADY-FOACE RESUNANCES
+Δ, H - SHAFT CRITICAL FREOUENCIES (COUPLEU)
+E. I - SHAFT CRITICAL FREOUENCIES (UNCOUALED)
+DE. HI - SHAF Τ CRITICAL INSTABILITY REGIONS
+ZTTTL JK FG LM REGIONS MECHANICAL INSIABILITY ONE-PER-REV EXCITATION
+IN ROTATING SYSTEM
+MAST
+POTATING SYSTEM NATURAL FREOUENCIES Hz PYLON
+κ
+ε!
+FG
+ROTOR SPEED I3 .rpm
+Figure 5-16. Two-degree-of-freedom Colk man Plot
+system. Such graphs (Coleman plots) present both
+frequency and stability information according to con-
+ventions detailed in Ref. 22.
+Potential irstabilitics — Α through F — indicated
+in the frequency plot in Fig. 5-15 are classifieu in
+throe catagorics in accordancc with the mode of exci-
+tation:
+1. Poi.nts Α and Β: ordinary resonarces (reso-
+nance with steady force) that occur at ono-half the
+support system coupled natural frequency for any
+support mode (Point Α) and at the coupled rotor-
+pylon natural frequency (Point Β)
+2. Points C and Δ: shaft-critical specds (excits.
+tion by an out-of-balance force) that occur at the
+pnn ν on ( dod) nn
+system frequcucics
+3. Points E and F: coalescence of pylon and blade
+foquencics, marking boundarics of the mechanical
+instability range (self-excited modes due to negative
+damping foroa). Thcso points always occur at sotor
+spceds greater than the first inplanc rotor natural fre-
+quercy (Point Σ).
+The analysis of Ref. 2ι includes two degrecs of
+freedom of the support syscm in cach direction. The
+analysis is given in Fig. 5-16. It shows an additional
+steady force resonance Β, an additional shaft critical
+range H-I, and two additional instability ranges F-Γ
+and Λ-Μ.
+Σ-21

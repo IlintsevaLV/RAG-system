@@ -1,0 +1,109 @@
+In addition to testing the complete fuel subvstem. all
+in accordance be qualified must components with
+pas,.,cd he qualified or have must so MIL-F-8615. and
+tests approved the procuring activi- by %fetv of flight
+ground and flight tests are conducted. Fuel ty before
+subsystem demonstration requirements arm described
+in Chapter 9. AMCP 706-203.
+3-5 LUBRICATION SUBSYSTEM
+he Engine lubrication subsystems may an integral
+part of the engine, thereby eliminating various con-
+nections to the airframe and conditions that may lead
+to oil contamination when changing engines. Lubri-
+cation oil may be contained in an engine-mounted oil
+tank and cooled by α heat exchanger.
+Engines lacking an integral lubrication subsystem
+require the addition of an oil reservoir, lines, instru-
+cx- mentation, and α cooler - if an engine heat
+changer is not available - to cool the oil. Airframe-
+mounted oil reservoirs be located in the shall not
+engine compartment.
+Α lubrication subsystem integral to the engine
+%will
+have been tested completely during engine qualifica-
+tion. Component testing of nonintegral subsystems
+will be necessary in accordance with MIL-O-19838 to
+substantiate proper rates of oil flow. pressure, tem-
+perature. and deaeration. Engine lubrication sub-
+system demonstration requirements are specified in
+Chapter 9, AMCP 706-203.
+COMPARTMENT 3-6 COOLING
+is re- compartment the engine through Airflow
+acces- engine-mounted the engine: to prevent quired
+or fluids within equipment, other components, sories;
+from structure surrounding and/or compartment; the
+limits, temperature allowable max'imum exceeding
+will normally temperatures maximum allowable The
+be given in the applicable engine or equipment speci-
+fication but additional limits may be prescribed by
+the system specification. Temperatures must be kept
+below the allowable limits under all operating condi-
+tions, both ground 'vnd flight, prescribed for the heli-
+copter for all ambienit air conditions between the hot
+and cold atmospheres (temperature as functions of
+attitude) given as limits by the system specification.
+Further. the maximum compartment or component
+shall temperature limits be exceeded following not
+engine shutdown from any operating condition with
+conditions ambient air anywhere within the pre-
+scribed limits.
+Heat rejection requirements for the engine and its
+components will be provided by the engine specifica-
+tion. The amounts of heat rejected by other acces-
+sories or eouipment installed within the engine com-
+3-14
+
+ina. in parilncn! provided he the applicahle equip-
+χ and of tranmi%,,on, In the as -. pecfaicoitior% ;in,
+manufat.- the helicopter bh developed ecarho.χ,.
+he rate must calculated. turer. the heat rejection
+η.icd tn design values for gcar-mesh and bearing
+efficiencic-. and later confirmed test (%ec Chapter by
+4). When the heat rejection rates are known. surface
+compo- heat-producing of individual temperature%
+he nents can calculated on the basis of free air con-
+section vection at the ,urface. Rcf. 4 contains α which
+each treat% of the fundamental heat transfer mecha-
+nisms ι.ε.. - conduction, convection, and radiation
+- in considerable detail. The equations and calcu-
+lation procedures for both steady-state and trinsient
+heat transfer problems arc given, together with tables
+charts and of values of the physical properties of ma-
+terial-, needed in the calculations. Should the infor-
+be mation inadequate for α given problem. an cxtcn-
+sivc is list of references also provided.
+rhe quantity of cooling airflo% required for
+adequate cooling of the engine compartment also
+must determined anal.ticallv he by heat-transfer cal-
+culatioms. This flow ,,;.ally must be obtained by
+forccd convection during operation of the engine.
+with the residual heat remaining at shutdown being
+dissipated by free convection. The calculation of heat
+hdance within the compartment is complex. with
+consideration of all three heat-transfer mechanisms
+being required. In the design of the cooling sub-
+system, it is necessary to assure that the airflow over
+large surfaces such as the engine is such that the
+Large uniform. approximately are temperatures
+ex- in differential result can differentials temperature
+Such α engine case. of the hence warping and pansion
+engine loads on cause excessive which can condition,
+must be engine failure. hence premature bearings and
+avoided.
+As mentioned in par. 3-2.6.1, an engine exhaust
+compart- ejector ik α convenient means for pumping
+ment cooling air during operation. The design of an
+shall ejector cooling system be coordinated with the
+design of the engine exhaust system, with care being
+taken that the installation does not cause excessive
+power loss or adversely affect engine operation by
+producing an unacceptably high pressure at the
+In engine exhaust. any case, the engine exhaust
+shall system meet the requirements given in par. 3-2.6
+(this handbook) and Chapter AMCP 706-201. Pro- 8,
+cedures for the design of an ejector, or jet pump, are
+given in Ref. 4. For additional ejector design infor-
+mation see "'Performance of Low Pressure Ratio
+for 1191, Ejectors Engine Nacelle Cooling", AIR
+Engineers. November 1971. Society of Automotive
+Procedures for design, including determination of the

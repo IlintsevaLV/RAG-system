@@ -1,0 +1,36 @@
+Tape-wound shield. 13*21 Figure
+The maximum transfer impedance found at dc or low frequencies, or is
+frequencies low enough that the thickness of the shield is small compared to the
+skin depth. That impedance is the dc resistance
+The transfer impedance decreases with increasing frequency. Accordingly,
+the internal electric field will, in response to a step-function current, increase
+10.9 according to the pulse penetration time constant predicted by Equation
+10.6 and shown in Figure of Section 10.1.
+In the absence of any end effects or openings through which magnetic
+M 1 2 of Equation 13.4 will be zero. fields can leak, the mutual inductance term
+Cable trays are most often used for mechanical protection of wires, but if
+viewed as shields, they may also provide electrical protection. The characteristics
+of a cable tray that make for good electrical protection are the same as those of
+any other shield:
+It must be able to carry current along its axis.
+It should be of low-resistance material.
+It should completely surround the conductors, implying that the
+tray should be fitted with a conducting cover.
+It should have a minimum number of openings through which
+magnetic fields may leak,
+It should have as few joints as possible, and such pints should be
+made in such a manner as to provide minimum resistance and
+leakage of magnetic fields.
+The transfer characteristics of the tray by itself would be about the same
+as those of the solid tubular shields discussed previously. This comparison
+assumes the tray to be of solid metal and fitted with a well-sealed cover. Since
+covers never form perfect seals, the pulse penetration time constant would
+10.9. probably not be as long as predicted by Equation Even with an imperfect
+cover, the transfer impedance ZT would not be greater than the dc resistance.
+Trays are most commonly built in short sections and joined by splices or
+transition sections. Such sections frequently provide for thermal expansion and
+contraction and are, at any rate, seldom designed either to provide good
+electrical continuity or to protect against magnetic leakage. When joints are
+considered, the transfer characteristic of the tray is frequently found to depend
+almost entirely on the treatment of the joints. The transfer characteristics can
+be determined experimentally. seldom be determined by calculation; they must

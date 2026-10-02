@@ -1,0 +1,42 @@
+Orient the diverters as nearly possible in the line of flight so that as 1 .
+flashes which originally strike the diverter can reattach farther aft on
+the same diverter as the aircraft moves forward.
+2. While the fore-aft arrangement recommended in Guideline 1 is
+desirable for reattachment purposes, an adequate path must also be
+provided for Iightning current to be conducted into the airframe.
+This requirement usually calls for some of the diverters to be
+oriented perpendicularly to the line of flight. Examples of preferred
+arrangements incorporating both of these guidelines are shown in
+Figure 7.20.
+The surface flashover voltage from any point over the external 3.
+surface to the nearest diverter strap must be less than the maximum
+voltage required to puncture the skin and attach to α conducting
+maximum object beneath. Thus, the diverter must be within α
+from α point on the skin directly opposite the displacement distarzce
+as follows: enclosed conductor. This relationship is defined
+Maximum
+Skin puncture voltage (kV) <
+displacement (7.19)
+(cm) distance Surface flashover voltage (kV/cm)
+This criterion should be met for lightning voltage stresses of either
+polarity applied at up to 1000 kV/ps rate of rise.
+The maximum voltage drop from the original attachment point to 4.
+any other point on α lightning arc swept aft directly above α
+nonconducting surface must not exceed the skin puncture voltage
+from that point through the skin to any conducting objects inside.
+The maximum arc voltage drop will occur during α restrike
+formation in α multiple-stroke flash and can be assumed to be equal
+to or less than the free air breakdown voltage, or about 500 kV/μ of
+α point directly arc length. Since this voltage will be applied from
+above the surface, instead of from an approaching leader, this
+swept-stroke environment may be more severe than one produced by
+an initial strike.
+5. The inductive voltage rise, VL, along any diverter segment carrying
+be lightning-stroke currents to conducting structure must less than
+the skin puncture voltage between the diverter and the nearest
+conducting object inside the structure. The inductive voltage rise,
+VL, may be expressed as follows:
+Λ diverter segment inductance (henries) = where
+IL lightning current (amperes) =
+τ time (seconds) =
+Λ may be assumed to be pH/μ for most diverter In practice, 1

@@ -1,0 +1,22 @@
+CURRENT GENERATOR
+TEST VEHICLE
+GROUND RETURN WIRES
+CONNECTION INSULATED FROM GROUND
+WHERE INDUCED VOLTAGE
+MEASUREMENTS ARE MADE
+WHEELS RETURN GROUND WIRES ON
+ELECTRICAL INSULATION INSULATED FROM GROUND CONNECTION
+Typical setups for complete vehicle tests. 17.2 Figure
+(a) Vehicle under test grounded
+side of current generator grounded Low (b)
+There should be a ground on the system. If the low side of the surge generator
+can be insulated from ground, it is generally preferable that the vehicle under
+test be grounded as shown in Figure 17.2(a). If this is not possible, the test
+vehicle must be insulated from ground and the ground made at the low side of
+the surge generator, as shown in Figure 17.2(b).
+Since present surge generators are not sufficiently powerful to circulate
+the full-design lightning current through the aircraft, it is accepted practice to
+perform the proof test with two or more damped oscillatory currents having as
+waveforms one which provides the fast rate of rise characteristic of a natural
+lightning stroke wave front and the other a long-duration period characteristic of
+natural lightning-stroke duration. The two different components are necessary,

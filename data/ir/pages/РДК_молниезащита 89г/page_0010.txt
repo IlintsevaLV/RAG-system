@@ -1,0 +1,97 @@
+Chapter 10
+THE EXTERNAL ELECTROMAGNETIC
+Introduction 10.1
+10.2 Elementary Effects Governing Magnetic
+10.3 Elementary Effects Governing Electric
+10.4 Combined Magnetic and Electric Fields
+10.5 Methods of Evaluating Fields
+10.5.1 Numerical Solution of Laplace's
+10.5.2 Hand Plotting of Fields
+10.5.3 Calculation Using Wire Filaments
+10.5.4 Examples of External Magnetic
+10.6 Maxwell's Equations
+10.7 Survey of Interaction Models
+10.7.1 Time Domain Finite Difference
+10.7.2 Integral Equation Approaches
+10.8 Application of Finite Difference Codes -
+10.8.1 Modeling of the Aircraft
+10.8.2 Neces.ary Assumptions
+10.8.3 Transfer Functions
+10.8.4 Results of Calculations
+10.9 Nonlinear Interaction Modeling
+10.9.1 Air Conductivity
+10.9.2 Steps in the Calculation Process
+10.9.3 Examples of Calculations
+Aircraft 10.10 resonances
+10.11 Composite Aircraft
+10.11.1 Implementation in 2D Cylindrical
+10.11.2 Implementation in 3D Models
+REFERENCES
+11 Chapter
+THE INTERNAL FIELDS COUPLED BY
+11.1 Introduction
+11.2 Internal vs. External FieldR
+11.2.1 Impinging Electromagn.etic Field
+11.2.2 Impinging Current
+11.3 Diffusion Effects
+11.3.1 DC Voltage on Circular Cylinders
+11.3.2 External Voltage on Circular
+11.3.3 Internal Voltage on Circular Cylinders
+11.3.4 Surface and Transfer Impedances
+11.3.5 Characteristic Diffusion Response
+11.3.6 Plane Conducting Sheets
+11.4 Rojistribution
+11.4.1 Elliptical Cylindeis
+11.4.2 Eddy Currents and the Internal
+11.4.3 Interval Loop Voltage%
+11.4.5 Redistribution on a Rectangular Cylinder
+11.4.6 Redistribution with Both Metal
+11.5 Implementatio of u Diffusion and Redistribution
+
+FIELD ENVIRONMENT 275
+275
+Fields 279
+Fields 279
+279
+280
+Equation 280
+282
+282
+Fields 283
+286
+287
+Approaches 287
+289
+Linear Modeling 290
+290
+290
+292
+292
+294
+295
+295
+296
+296
+303
+Models 303
+303
+304
+DIFFUSION AND REDISTRIBUTION 307
+307
+309
+308
+308
+308
+309
+Cylinders 309
+310
+311
+313
+315
+316
+318
+Magnetic Field 319
+320 6
+321
+and Composite Materials 322
+in 3D Models 323

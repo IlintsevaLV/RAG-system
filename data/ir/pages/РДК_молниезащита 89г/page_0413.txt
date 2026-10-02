@@ -1,0 +1,97 @@
+source
+I
+output
+fair
+'"
+better (Y)
+7 77-7
+ρ..
+() ,best
+7 7concept .7
+ρ-
+hdirectly
+bad
+(δ)
+Fig. 1ground
+(α) Shield used as α conductor
+Unbalanced two wire transmission (β)
+(χ) Balanced τ ransmission and reception I
+Boalned tura (χ) o acommon-mode
+(δ) Loaded source
+The single poiat ground concept is most applica-
+ble in α situation such as that of Fig. 15.1(α) in which
+α source feeds α load in α grounded enclosure. the If
+source is physically and electrically ungrounded, any
+noise voltage that might exist between the source and
+V1, ground, or between the source end of the shield
+and ground, V2, does not couple to the interior of the
+shield ard is of no consequence.
+most objection- shield are the on currents Noise
+Fig. source, the for as return is used the shield able if
+to directly added is voltage shield any since 15.1(α),
+the signal from the source. Shield voltages are of lesser
+concern if two-wire transmission, Fig. 15.1(β), is used,
+since the shield voltages couple then only through the
+capacitance between the shield and the signal conduc-
+tors. Shield voltages are of least concern if true bal-
+anced transmission is used, with the output taken from
+α differential amplifier, Fig. 15.1(χ).
+If the source is coupled to ground through an im-
+pedance, Fig. 15.1(δ), the single point ground con-
+cept is degraded, regardless of the type of transmis-
+sion, since this does allow some of the voltage on the
+source or the ungrounded end of the shield to couple
+to conductors and the load. An impedance often un-
+recognized is that provided by the stray capacitance
+
+to ground of the source. With rapidly elec- ých"anig
+tromagnetic fields the effects of such capacitance can
+be of more importance than the performince of the
+shield,
+Multiple point grounding: an aircraft &ubjected In4
+to the rapidly changing electromagnetic fields associ-
+ated with lightning, interference freq-iencii. Can ex-
+I α shield in) and 10 = MHz 30 than tend higher in (Λ
+such condi- short". Under to be "noL would begin long
+tions, shields grounded at only one end may not be ef-
+fectice, and in some cases the shields may act as anten-
+than even larger voltages make the surge and can nas
+in shielded inot were conductors the if be would they
+the first place. In such cases α multiple-point ground
+is more appropriate. That concept aims to
+ensure that noise currents do flow on shields, an aim
+opposite to that of the giound sing4ε-point
+concept.
+Illustration of grounding effects: Some of these con-
+nection effects have been illustrated by α series of tests
+[15.1] made on α 5 μ long length of RG-58/U coax-.
+ial cable. The cable was placed aejacent to α metal
+plane and α magnetic field passed between the
+cable and the ground plane to generate "interference".
+During the tests, measurements could be made of the
+voltage between the center conductor
+and ground at each end of the cable or of the current
+flowing in the shield of the cable. The magnetic field
+was not α distributed field but was confined to the core
+of α pulse injection transformer in the manner shown
+in Chapter 18. The "interference" was thus magneti-
+cally induced, the induced voltages being proportional
+to the rate of change of magnetic flux. In actual prac-
+tice interference can also be induced by electric field
+coupling and with high frequencies one will never ex-
+the to follow illustrations In the the other. ist without
+apply would are illustrated that conclusions ultimate
+fields. induced by electric to interference well equally
+Unshielded conductor: Figs. 15.2 and 15.3 show con-
+ditions on an unshielded conductor, or one in which
+the shield is not used.
+Balanced loads: In Fig. 15.2 the conductor has equal
+(open) load impedances at the two ends. The changing
+magnetic field induces α total voltage of 64 volts. How
+that voltage divides depends on the impedances at the
+end of the conductor. Since the impedances are equal,
+half of the voltage appears at each end of the conductor
+and the voltages are of opposite polarity, as would be
+produced if the conductor were considered to have an
+equivalent voltage generator at its center, Fig. 15.2(δ).
+398

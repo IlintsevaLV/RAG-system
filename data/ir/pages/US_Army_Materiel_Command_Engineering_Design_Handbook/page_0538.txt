@@ -1,0 +1,94 @@
+saeumbly. This can be achioved by an over-bend or
+under-bend allowance, but this allowance never
+should be so groat as to prevent Éand prossure from
+bringing the part iato the final form that is desirod in
+the finiabed psomably. The rexidual strairs caused by
+such α condition are nogligible.
+Bondod structures usually are assembled in
+tooling. This precdudes α visual examination of the
+rodative iocations of components during the curing
+stage. Because the adhesive becomcs fiuid at some
+poiat during the cure, and thermal expansions are
+taking place, some shifling of ono part relative to
+anotber usualiy must be anticipated. Thus, adjoining
+parts must be dimensionod and tolerancod to accom-
+modate such movement. Fig. 17-14 iliustrates such α
+casc. The bottom of the figure shows α gap where two
+ε ε in ε
+gramraod in the dosign and usually should be from
+0.020 to 0.069 in., depending upon the size of the
+structure. In the cxample sbown at the top of Fig. 17-
+14. insufficient allowance was provided and the
+partly designed joint willfill with adnesive squeczc-out
+Σ-Sg quA oy 0
+punod
+Currentiy, all structural bonds roquire pressure
+during their curing This pressure must be reactod in
+some way. Either onc of thc members being joined
+muast be stiff arough so that it will not deflect signif:-
+cantly under the pressure reyuired to bond the other
+manbers to it, or provisions must be made for
+tooling that will provide the reaction force. Wi ν
+such tooling is sequired, the deiail dexign must pro-
+vide space for the tooling and σ means of removing it
+after ihe cure cycie is complcied.
+IMPROPER DESIGN
+0.020 in. min INCLUDING
+ACCUMULATED TOLERANCES
+Figure 17-14. Baiasce Bar Deslgn
+
+AMCP 706-302
+nee
+tortions can occur due to differontial expansions, bo-
+causc the bonds are being cured at tamperatures
+ranging from 223° to 350°F. Such distortions of the
+structure can be minimized if ihe member with thc
+lowest coefficiont of expansion is ttretched er
+otherwise strained by the application of external
+forcc whiic undergoing cure. This often sreans that
+some extra length must β= provided to permit grip-
+ping the momber or pinning it to the bond: fixture.
+This extre material can be removed afier the bonding
+is completed.
+It ofien is impractical to complete an entire as.
+sembly in α single bonding operation. This creates U.:
+opean nn
+the assembly is reheated to bonding temperature
+whik additional parts are bonded to it. The mnost
+commonly used adhesives are quite weak at the
+temperuture at which they were cured and, tkus, there
+is α risk of destroying the original bond during α
+secondary bonding operation ι proper precautions
+are not taken. One such precaution is the use of α
+lower-temperature curing adhasive for the secondary
+bond. Another, more reliable technique is to reapply
+will be subjected to the heat of seccndary bonding.
+Provisions nust be made in the design to assure that
+reapplication of pressure is possibie in such cuses.
+Finally, the designer always should consider pro-
+viding, for physicai teating. some kind of extension of
+the basic siructure that can be cemoved after bond-
+ing. Nondestructive testing techniques are being im-
+proved constantly, but there is no subsitute for de-
+Ctructive tests of joints thgt are built along with, and
+duplicate, the actuel structure.
+17-4.5 SWAGING AND CABLE SPLICING
+Wire rope and cable may be used in helicopter con-
+trol mechanisms, although push rods are preferred.
+Aircraft cable made of high-carbon steel wire, elec-
+trolytically galvanized and drawn to size, has the
+highest strength and greatest resistance to fatigue of
+any cable.
+Representative wire rope fittings ure illustrated in
+Fig. 17-15. For aircraft, the more commonly used
+types range in size from 1/16 to 5/8 in.
+Swaged fittings on wire rope have α strength rating
+equivalent to the strength of the wire rope. These fit-
+fngs are appliad to the end or the body of wire rope
+by the application of high pressure, causing the stecl
+to flow around the wires and strands of the wire rope
+to form α union as stron3 as the rope itself. The
+necessary high preesure and flow are ascomplished by
+means of apecial dies. Machines for this purpose are
+deucribed in MIL-Σ-6180 and MIL-Σ-80035.
+17-15

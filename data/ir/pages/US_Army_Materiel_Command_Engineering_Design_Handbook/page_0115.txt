@@ -1,0 +1,113 @@
+F)
+Ision hauls (TBO) is selected. On the astiumption
+transmission and drive system failures
+detectability) ficicnt magnitude (and tn. force
+to be aborted, and further that
+(scheduled removal) reqjuirement is imposed,
+The ow MTBR. MTBF that the follows
+would MTBR 1500hr of α requirement
+failure rate Α !• 0.0O004 or α one-hr mission
+drive and smission the tra for 0.9933 of
+1
+relationships satisfied in the preceding
+are:
+IhMT
+.Β
+Maclaurin'σ form of Taylor'σ and using
+formula
+xp~(κ R
+where
+R (for α I-hr mission), =reliability
+sionless
+α 2500-hr TBO level were to be However, if
+be satisfied only by MTOR could the 500-hr I
+reliability number (lower failure ratte). The
+~bnp . - - -- flf Λ.. -Α U.. φ IL-. rpirbbvd ivjjaffuw. uti ivi bi.0-ha, Imuy
+3MB
+TO+Xr1 _Α<
+Β ABO+IM AMBR-£
+0.00067 - AAIBR = ___00
+o.00040
+XTaO - --
+2500
+Ξ Therefore, Α. •Β~ !5 E •! ý.o
+0.0027 :5
+-0.00040
+lic~cthcnc-v TBFmus be~ 304hr
+IT# I "Α
+responding ireliabilty R ;± 0.99973.
+It is paradoxical that such factois as flight
+reliability and the increased cost of overhaul
+degraded ly gearbox (extensive secondary
+may fix the TBO interval at α level that in
+quires α significant increase in the required
+achieve α specified MTBPR.
+Relationships defined in this maniier are
+sumed to fit α simple exponential failure distri-
+bution. This not only simplifies the arithmetic
+volved, but enables the designer to think
+terms of the inverse relationships between
+number cf detail components comprising )
+system and their intrinsic failure rate
+Although many individual gefirbox componients
+better represented by other distributions
+Weibull, gamma, and lognormal - -
+effect on the subsystem as α whole is such as
+&mill
+
+705-=2 Α&IcP
+that. ν~λ cancellation effecta, leaving value α not do- MTSIF
+are of suf- fined with sufficient precision to express design relia-
+α mis- bility rc-quiremenrts.
+no TOO Yh "ft of given α set of gearbox failure data to
+then teepnniiasmto eel eti hrc it
+cfteoertaingcar reveals. asysumtemion tcrestxcsofth imposed
+loprtng, α sufihenl If in* q syrou μ ah teimeci of α necessitate
+reliability cetwerotrndwlb bevdasao-
+sann eosre erottedwl dfnt The system.
+statemenits cnsatorireigfiuert.Omoroeti-
+will begin eventually compontnts (wearing) sensilive
+to dominate the failure picture as the end of their tue-
+ful life is approached. Generally, those componenits
+regimes lubrication boundary layer in deep operating
+the picture. lit such in- the first to influence be (4-12) Ω19I
+con- to state wherein α the wear will progress stances
+α of the occurrence for fa'vorable become ditions
+failtire mode indigenous to that new set of operating
+partict'li wear state. conditions established the by
+or de- example of α well-developed Fig. 4-9 gives an dirnen-
+that satisfies low TRO gearbox with relatively bugged
+α:curately dcflned the rancom failure characteristics assigned,
+(Rd. 27). the exponential distributi.on α higher by
+rclation. Fig. 4-9 represents α gearbox with α 350-hr
+scheduled tria _..-- - sn.. Cý . φý I I as. _ - ii 1,0λ -1 α50
+350-hr to the due However, of 0.9930. reliability
+is MTDR resulting the frequency, removal scheduled
+hr. (4-13) 204
+Fig. 4.10 from~ Ref. 28 represents the distribution
+with rela- gearbox %ι~el dc-bugged by α evidenced
+tively high In thin caa- the upward inflectiorn or TBO.
+concavity of the data points reveas the strong in-
+0.00067 fluence of component wear-out as the TBO level is
+approached.
+riditecor ISimilarly, Fig, 4-10 represents α gearbox with an
+I100-hr scheduled TBO, an MTBF of SUP' hr, and α
+one-hr reliability of 0.9998. Ir~ this cast the scheduled
+safety removal frequency results in an MTBR of 904 hr.
+of α bad-
+failures) Obviously, design MTBR and MTBF values sart
+turn rm dependent upon the desiner'σ knowledge of repro
+MTBF to 5entative failure modes and his ability to assign
+reasonably accurate failure rates. Extensive test and
+tacitly as- service experience with analogous componewts and
+subsystem elements is essential in arriving at realistic
+in- predictions. There is little published literature to aid
+directly in the designer, but the selection of components with
+the known lower generic failure rates always should be
+the sub-. the objective. It should be recognized that generic
+requirements. failure rates (indicativz of the intrinsic reliability
+are characteristic of any component) cannot truly exist
+ε.γ., apart from the envirvnment in which the component -
+the averaging functions. Some insight into these environmental in-
+to invite lucrnces is given in par. 4-2.1.1.
+4-13

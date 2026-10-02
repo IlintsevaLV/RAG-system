@@ -1,0 +1,74 @@
+2. Magnetic fields are concentrated around protrud-
+ing structural members and diverge in inside cor-
+ners. Hence, conductors located atop protruding
+members will intercept more magnetic flux than
+conductors placed in corners, where the field in-
+tensity is weaker.
+Fields will be weaker on the interior of a U-shaped 3.
+member than they will be on the edges of that
+member.
+4. Fields will be lowest inside a closed member.
+Some examples of cable routing are shown on Fig.
+16.2.
+(a)
+I
+' '
+,to (b)
+Fig. 16.2 Conductor routing.
+(a) A fuselage structure
+(b) A wing structure
+In each case pictured
+Conductor 1 - highest flux linkages: worst
+Conductor 4 - lowest flux linkages: best
+structure, a cable a of interior the Along Stileners:
+clamped to stiffeners, as at position will effectively L,
+be spaced away from the metal skin by the height of the
+stiffeners. A conductor along the outside edge of the
+U-shaped member, as shown by conductor 2 in Fig.
+16.2(a), may or may not be better placed than con-
+ductor effectiveness depends on how closely the con- 1:
+is attached to the side of the U-shaped men- ductor
+ber. Conductor 3, placed along the edge where the
+U-shaped member is attached to the stiffeners, would
+probably be in a lower field environment than would
+Io- either conductor or conductor 2. Conductor 4, I
+
+cated on the interior of the U-channel, would be in
+the lowest field region and hence in the most effective
+position. Similar considerations apply to conductors
+located in structures like wings or stabilizers.
+Trailing edges: A conductor located along the outside
+trailing edge of the wing, as shown by conductor in 1
+Fig. 16.2(b), will pick up much more flux than will any
+conductor located on the inside, probably by several
+orders of magnitude. Hence conductor 2, located on
+the inside of the trailing edge, would be better placed.
+Conductors 3 and 4, in that order, would be in the re-
+gions of lowest magnetic flux. conductor that could A
+be run inside a major structural member, as shown by
+conductor 4, will be exposed to a minimum amount
+of magnetic flux. Conductor 5, located at the leading
+edge of the wing, would be in a well shielded region if
+the leading edge of the wing were metal, but it would
+be in high field region and therefore vulnerable if a
+the leading edge were a nonmetallic covering. How-
+ever, even if the covering were metallic, conductor 5
+would not be in as protected a region as either con-
+ductor 3 or conductor 4, because of the tight radius of
+the leading edge.
+Windshield posts: Windshield posts, shown in Fig.
+on the the current flowing 16.3, tend to concentrate
+exterior surface of the vehicle, particularly if a flash
+is swept back, contacting the windshield pou.t directly
+or the eyebrow region above the windshield. Since the
+magnetic field intensity is concentrated, the current
+inside the crew compartment tends to be very high.
+by the fact that the wind- The situation is aggravated
+shields, unlike other regions where the field might have
+diffuse through the metal surfaces, act as large aper-
+tures and so allow the internal magnetic flux to build
+to its peak values very rapidly.
+Fig. 16.3 Current flow along windshield poets.
+External current (a) flow
+magnetic (b) Internal fields
+423

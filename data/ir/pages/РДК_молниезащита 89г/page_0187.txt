@@ -1,0 +1,94 @@
+.
+CHAPTER 7
+SYSTEM FUEL
+Introduction 7.1
+The design of adequate lightning protection for
+light- important mo.it the uf one is systems fuel aircraft
+ping protection tasks to be accomplished. Government
+airworthiness cerification requirements stress fuel sys-
+for responsible system has been this because safety tem
+accidents. aircraft lightning-related most
+spread are typically system the fuel of Elements
+throughout much of an aircraft and occupy α signif-
+icant amount of its volume They include the fuel
+tanks themselves, associated vent and transfer plumb-
+ing, and electrical controls and instrumentation. Core-
+ful attention must be pai to ali of these elements if 1
+adequate protection is to be obtained.
+The main objective of fuel system lightning pro-
+tection is to keep ignition of fuel from destroying the
+aircraft iluring α strike. This goal is quite challeng-
+ing because thousands of amperes of current must be
+transferred through the airframe when the aircraft is
+one than of less spark α tiny and by lightning struck
+ampere may release sufficient energy inside α fuel tank
+and initiate an explosion. to ignite the fuel vapor
+Prevention of fuel ignition hazards from lightning
+by one or more of the following must be accomplished
+approaches:
+1. Containment: 'Designing the structure to be
+capable of containing the resulting overpressure
+without rupture.
+2. Inerting: Controlling the atmosphere in the fuel
+system to ensure that it cannot support combus-
+tion.
+Foaming: Filling 3. the fuel systems with α mate-
+rial that prevents α flame from propagating.
+4. Eliminating ignition sources. Designmug the
+structure so that lightning does not produce any
+ignition sources,
+The following paragraphs discuss all of these
+of preventing fuel system hazards. Several methods
+to fuels and the mechanism important studies relating
+of ignition are reviewed and guidelines for effective pro-
+tection of fuel systems are then presented.
+lightning simulated involving Laboratory studies
+or portions of an airframe contain- strikes to fuel tanks
+ing fuel tanks have demonstrated several possible ig-
+of the accidents in- Investigations nition mechanisms.
+raised other haw- fires explosior and fuel tank volving
+171
+
+PROTECTION
+possibilities. Possible ignition sources can be divided
+into the following two broad categories, thermal and
+electrical.
+Thermal ignition sources
+com- or of metal surfaces interior the spots on Hot 1.
+attachment lightning to due tank skins, fuel posite
+exerior surfaces. to
+2. Hot parts, such as electrical wires, ground braids
+or tubes, raised to elevated temperatures by high
+densities of lightning currents on these parts.
+For hot spots to ignite fuel vapor, their tempera-
+ture must usually exceed 8000C or 15000 F for α pe-
+riod of one second or more. Some metals, such alu- as
+minum, will melt through before the interior surface
+reaches the ignition point of the fuel.
+ignition sources Electrical
+between conductive elements iso- 1. Electrical sparks
+lated from each other, due to potential differences
+lightning currents in the airframe, or arising from
+fields. from changing magnetic
+2. Electrical arcs, the ejection of molten and/or
+burning material due to current passing between
+conductive elements in contact with each other
+when the current density exceeds the current car-
+rying capability of the contact points.
+Arcing and sparking within the fuel vapor space
+of α fuel tank is one of the primary concerns of the fuel
+tank protection designer. The distinction between arc-
+ing and sparking is worth reviewing. Arcing is the re-
+sult of current through the interface between two con-
+ducting materials which are making limited electrical
+contact. Such α condition may exist at the interface
+of α fastener with structure, as at an access door, or
+as α spar and between two structural components such
+spark, on the other hand, is an electrical dis- rib. Α
+charge resulting from α difference of potential across an
+air gap or along α dielectric material. This condition
+elements structural when two for example, may exist,
+other such α spar and wing as isolated from each are
+skin which are bonded together an electrically non- by
+tank may Current through the conductive adhesive.
+these struc- between of potential in difference result -τ

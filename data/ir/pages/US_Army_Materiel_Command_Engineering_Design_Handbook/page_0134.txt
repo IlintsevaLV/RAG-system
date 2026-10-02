@@ -1,0 +1,107 @@
+AMCP 706-202
+overpower levels. The "'small-cutter" and oiher
+of spiral bevel gears tend to resist pattern shift
+increasing power and are good candidates for
+cessful overpower testing. Iir well designed
+gear reductions, it is not uncommon to find α
+test at α 125% overpower in uait stress for crease
+stant spvcd.
+ball bearing of limitation The mechanical 3.
+There be exceeded. constraints must not path
+and bearing height shoulder race be sufficient
+at the fully ball path the to retain ing rigidity
+condition. power test
+have should bearings roller Cylindrical 4.
+(or -ficient roller crown race crown) to preclude
+ent lercong ra to o prcreade σ
+end lo an du eton
+Ssimple Hertzitan deflection.
+-vrpwe. The increased thermal gradients preent
+Sovinrpower result testing must not in excessive
+preloading or gear misalignment due to housing
+tortions.
+criteria Design for successful overpower
+preclude must gear toatli bending fatigue failure,
+crushings, or scuffing (scoring) failure modes. Ac-
+fencatidte ceromi eon wear without τ of σ
+test the specified gearbox for of the function
+te is criterion of success.
+4-1.4.4 Other Sibsbmatlatlon Life RelabUilty and
+Testing
+Α 200-hr qualification test is required by
+706-203, and follows the tests in the preceding
+graphs. Also required are α 50-hr preflight
+test (PFAT) and α 150-hr "must pass" qualification
+test in α ground Beyond test vehicle (GTV).
+tests, it is frequently desirable to conduct
+bench or GTV tests to assist in the determination
+initial TBO levels and to uncover failure modes
+detected in previous tests. All testing in these
+gories is based upon spectrum loading conditions.
+The selected spectrum should have an RMC
+level in excess of the anticipatcd flight
+Because most lubrication system elements
+shaft seals) exhibit failure modes that are
+to power levcl, no meaningful accelerated test
+programs exist for the lubrication system, and
+evaluation requires the accumulation of many
+hours. Although the majority of lubricat;on
+components will have undergone some degree
+evaluation in early tests (par. 4-1.4.1), evaluation
+their performance in the total system environment
+must await these extended time or endurance
+4-32
+
+types 4-2 TRANSMISSIONS
+with 4.2.1 FAILURE MODES
+suc-
+planetary Many competing failure modes exist simul-
+50% in- tancously in any mechanical transmission device. The
+as often represen- dominant are modes rewognizod con-
+in which the observation phase tative of the life-χ' cIe
+of definition and classification, Recognition, is made. load
+to successful fundameptal limits are operating safe should
+as primary be identified may modes Failure design. mount-
+In one study of analysis. ease for secondary and over-
+for the at overhaul replacement on component based
+were failures secondary gearbox, CH-47 and UH-ι suf-
+severe shown to exceed primary failures least an order by at
+ever of magnitude (Ref. 46). Although the majority of
+design effort is directed toward preventing primary
+area, fai! the cost of drive subsystem maintenance and
+during overhaul reflects the total of both categories. There-
+bearing fore, reduction in secondary failure modes is an im-
+dis- portant objective for future design.
+testing
+case 4-2.1.1 Prfry Faili Modes
+desin ae fmp odnan iderv iaiecause thosoet
+of some because render unservicenaif α comomnnt intervan
+other than nor- conditional occurrence .self-genrated
+mal wear. Cracked, broken, pitted, or spalled elu-
+ments that fail while operating at normal loads,
+speeds, and ,nvironmental conditions are repre-
+sentative of this failure category.
+There is α reasonable statistical level of occurrence
+for primary failures, perhaps on the order of
+AMCP 0.5%/ 1000 hr, that typifies the normal dispersion as-
+sociateed para- with acceptable and cost-effective design
+assurance practices. Failure rates in excess of this level aor con-
+sidered α result of design or manufacturing defi-
+Identification these ciency. and elimination of components
+extended with excessive failure rates arc the objectives of the
+of qualification assurance testing outlined in AMCP
+not 706-203.
+cate- Properly designed zystems and manufactured drive
+must not exhibit catastrophic primary failure modes.
+power It is not unreasonable to expect primary modes to be
+spectrum. exclusively noncatastrophic. This criterion may be
+(including satisfied by inherent redundancy in load paths or
+insensitive load sharing, or by failure prcgression rates that arm
+commensurate with available built-in failure de-
+tection its and die.goostic δ,. vices.
+test ,.onscientious application of classical structural
+system analysis methods as modified by relevant test and ser-
+of vice experience, coupled with adequate quality as-
+of surance methods, effectively will eliminate static and
+bending fatigue failures. However, the surface dura-
+tests. bility of loaded members such as gear teeth and

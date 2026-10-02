@@ -1,0 +1,67 @@
+and lightning magnetic force effects. In sandwich
+skins with foam or honeycomb cores, the mounting
+teners are often surrounded by plastic inserts to
+vent moisture from entering the cores,
+If solid diverters are installed on the outside sur-
+face, they may cause some drag. This can be
+mized by orienting the bars parallel to the airstream,
+by ahaping the cross section of the bars aerodynami-
+cally, or by embedding the diverters into the external
+surfaces of the skins,
+Fig. 6.28 Solid diverters on α radome.
+Internal diverters: Embedding solid diverters
+α composite skin creates tooling and manufacturing
+problems and may also degrade the strength of the
+because of stress concentrations along the required
+grooves. An alternative is to mount solid diverters
+on the inside surface, with metal fasteners, sometimes
+called studs protruding through the wall to serve
+lightning attachment points, as shown in Fig. 6.29.
+Although this type of diverter installation may reduce
+the aerodynamic drag created by external mounting,
+it does not take advantage of the insulation capabil-
+ity of the dielectric wall, and internal side flashes
+result. In addition, magnetic forces due to lightning
+flashes sweeping from one stud to the next may
+the diverter away from the skin.
+
+type In general, the thicker the wall, the farther apart
+fas- may be the studs. In many cases, 30 cm (1 ft) is close
+pre- enough, but each individual case must be evaluated by
+strike attachment tests. Appropriate test procedures
+are discussed in §6.8.
+mini-
+Foil strips: Thin foil strips, usually made of aluminum
+0.008 to 0.040 cm (0.003 to 0.015 in) thick, have oc-
+casionally been used in the past, but these usually
+provide protection against only one flash since they
+may melt or vaporize. In such α case they leave an
+ionized channel through which subsequent currents in
+the same flash can travel. Protection is lost for later
+flashes. Also, the exploding strip may sometimes dam-
+age the adjacent composite material. For these reasons
+they are not recommended for certifiable designs and
+no further discussion of them will be provided.
+Sexp se
+Σ •~stud•
+strap or tube/
+~beneath
+/surface
+probe radome fuselage
+Fig. 6.29 Internal diverter strip with protruding studs.
+into Segmented diverters: Solid diverter bars tend to in-
+terfere with the beam from α radar antennna, and to
+skin overcome this, segmented diverters, also called "but-
+ton strips," were developed [6.12 - 6.15]. These consist
+of α series of thin, conductive segments, or "buttons,"
+interconnected by α resistive material, and fastened to
+as α thin composite strip which can then be cemented to
+the surface to be protected. Typical strips [6.17] are
+shown in Fig. 6.30.
+Segmented diverters do not provide α metal path
+to carry lightning current. Instead, they provide many
+can small airgaps that ionize when α high electric field is 4
+applied. Since the small gaps are close together, the
+tear resulting ionization is nearly continuous and thus pro-
+vides α conductive path for lightning leaders and flash
+140

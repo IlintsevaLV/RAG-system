@@ -1,0 +1,95 @@
+The cathode spots will rapidly move about and if
+arc is free to move there will be little damage to
+surface of the cathode. Loca'ized melting and boil-
+ing may occur, but the cathode spots will move away
+before the surface as α whole is noticeably damaged.
+Lightning flashes sweeping across the surface of bare
+aluminum surfaces of aircraft frequently produce only
+α mottled blemish on the surface. However, if the arc
+is constrained to stay in one point then the heating
+continues in that area and more intense damage may
+occur. Surface coatings, even α thin film of paint, may
+be enough to prevent the arc from moving freely.
+discussing taken in be should Care "resistance": Arc
+the "resistance" of an arc; since it is α quantity that
+ally only applies for α particular current and for steady
+state conditions. Arc voltage as α function of current
+the more useful quantity. As regards aircraft, arc volt-
+age is important in three main contexts; the amount
+of damage done to α surface contacted by an arc, the
+length of arc which may be swept across an insulating
+surface before the voltage becomes sufficient to punc-
+ture the insulation, and in the design of laboratory
+equipment with which to simulate lightning effects. All
+of these are discussed in more detail in later chapters.
+An example of the voltage across an arc burning
+in air is shown on Fig. 1.31. In this particular case the
+temperature high the as with time fluctuated voltage
+carried the arc into the air and the are length changed,.λ
+Similar variations are noted if the conditions at the
+electrodes change, as during tests where the arc burns
+away the surface of the object under test.
+Investigations of arc voltage with currents such as
+found in lightning flashes, several tens of thousands of
+amperes in the return stroke or several hundreds
+amperes in the continuing current phase, have mostly
+been concerned with the performance of power circuit
+switching devices and are of limited value in analysis
+of effects of lightning on aircraft. Most investigations
+of the voltage across an arc in air, the condition
+most importance regarding aircraft, were made many
+years ago with arc currents on the order of α few am-
+peres or at most α few tens of anmperes. They (1.16]
+show the total voltage across an arc of fixed length to
+decrease with current and be given approximately by
+an equation of the form
+Β
+. (1.7) ε =Α +
+8
+The constant ν seems to be α linear function of the
+absolute boiling temperature Τ of the anode,
+ 4 10 (1.8) ν = 2.62 Τ. Ξ 0
+
+the and ranges from about 0.5 to 1.5. For nitrogen at at-
+the mospheric pressure the constant of Eq. Α 1.7 is about
+51 and Β about 84.
+The characteristic curve relating arc voltage to
+arc current thus has the general shape shown in Fig.
+1.32. Part of the voltage, on the order of 20 - 40 volts,
+is due to the cathode and anode drops and the rest is
+the voltage across the arc column. For long arcs in air,
+*up to 50 cm, iron electrodes and for currents of α few
+amperes, the arc voltage is given by
+,= C)Ξ. Α + (Β + (1.9)
+62, = 11.4 Α = re- where ξ is the arc length in cm. and Β
+and = 32.6. The quantity Α would account C for
+is the effects at the electrodes and the vapor near the
+electrodes. The rest of the expression accounts for
+the arc in the air and suggests that the voltage along
+α freely burning arc would be on the order of 10 -
+15 volts/cm. For higher currents Eq. 1.9 probably
+underestimates the arc voltage. Fig. 1.31 suggests the
+voltage would be about 25 volts/cm for arcs carrying
+several hundreds of amperes.
+-
+- 300 Α -- " . --
+... ...
+-
+(α) Α.............. .H..TIRI
+.............. ..
+of ... ... ....
+0 . - -
+715 V ..-.. . .
+-. -
+." -
+of . . .'-..
+-
+, , . .
+I'
+- ,. .... . .... .... ....... .•. .. . .•. ..- . .
+0 sec 0 1 -
+Fig. 1.31 Voltage and current of α 7 inch gap
+burning in air.
+(α) Current
+(β) Voltage
+17

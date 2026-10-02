@@ -1,0 +1,31 @@
+Line-to-line or circuit voltages will be less, generally by α factor of 10 to
+46 dB, down from the common-mode voltages because individual 200, or 20 to
+conductors are usually close together and are often twisted, thus reducing the
+total loop area.
+The maximum cable current is that which flows when both ends of the
+cable are connected to the vehicle structure through α low or zero impedance.
+Such an impedance may be an overall shield grounded at each end, or it may be
+α group of semiconductor circuits, each having low input impedance. In the first
+case, the current will flow on the overall shield with the current on the input
+circuits determined by the shielding properties of the shield. In the second case,
+the current will flow directly through the input semiconductors and their bias
+sources
+The short circuit current that flows (Figure 12.2) may be determined from
+the familiar expression
+whence
+I where amperes =
+Λ self-inductance of cable in henries =
+ε open circuit induced voltage in volts =
+τ time in seconds =
+Cable inductance may be estimated from the expression
+4η o - ~
+Λ 2 ξ loge-- H/μ 1 (12.5) =
+δ
+where η height above α ground plane =
+conductor diameter δ =
+The induced voltage, ε, which drives the current, is proportional to the cable
+height, but the cable inductance, which impedes the flow of current, is
+proportional to the logarithm of the cable height.
+12.2 Transmission Line Effects
+12.2.1 Response to Magnetic Fields
+Conductors always have associated with them some distributed capaci-

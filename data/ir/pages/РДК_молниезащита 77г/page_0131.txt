@@ -1,0 +1,43 @@
+caused by lightning-induced voltages in the electrical wires leading to
+such a probe
+The balance of this chapter considers each of the above ignition sources
+and methods of their elimination.
+6.4 Vent Outlets
+The temperature of a lightning arc far exceeds that required to ignite a
+flammable fuel-air mixture; therefore, any direct contact of the lightning flash
+with such a mixture must be considered an ignition source. Since fuel tank vents
+which a flammable fuel vapor can be exposed to the are the primary means by
+outside of an aircraft, a considerable amount of research has been undertaken to
+evaluate the possibilities of lightning ignition of fuel vent vapors. One of the first
+studies of this possibility is that of the Lockheed-California Company and the
+kghtning and Transients Research Institute in 1963 for the National Aero-
+nautics and Space Administration (Reference 6.7). In this program, fuel-air
+concentrations in the vicinity of aircraft vent outlets of several configurations
+were measured and mapped under various conditions of tank vapor fuellair ratio
+and effluent velocity. The tests were run in a wind tunnel producing an airflow
+of up to 100 knots. Mast vents discharging into wakes and free air streams were
+tested, as well as flush vents discharging into boundary layers, as shown in
+Figure 6.5 (Reference 6.8). The study showed that a vent discharging into a free
+stream exhibits the greatest dilution and thus the smallest flammable region, but
+that flammable mixtures can exist in the immediate vicinity of each type of vent
+outlet.
+typical mixture concentration profile aft of a flush vent outlet is shown A
+6.6 in Figure (Reference 6.9). Depending upon the richness of the original
+effluent, dilution of it by the addition of air to 3096, or more, might well lean it
+of out the flammability envelope. Thus, dilution to nonflammable mixture a
+probably occurs farther than about one outlet diameter away from the outlet.
+This finding suggests that a lightning strike or associated streamer must occur
+very near to the edge of a vent outlet for an ignition to occur.
+1963 The above prediction was confirmed in the second part of the
+Lockheed-LTRI study, which included application of simulated lightning strikes
+to a flush vent outlet with flammable fuel-air mixtures exiting from it into an
+100 knots, both with and without flame arresters installed. airstream moving at
+These flame arresters, which were being evaluated as possible protective devices,
+consist of a parallel bundle of small-diameter metal tubes inserted into the vent
+line near the vent outlet, as pictured in Figure 6.7(a) (Reference 6.10). An
+alternate construction utilized a series of baffles extending into the fuel vapor
+flow, as shown in Figure 6.7(b). The object in either case is to quench
+(extinguish) the flame by cooling it, and the small tubes, or baffles, are intended
+to accomplish this by providing additional surface area to conduct heat away
+from the flame. The test results showed that it was possible to get ignition of the
+vent effluent in the 100-knot airflow only when the lightning arc was delivered

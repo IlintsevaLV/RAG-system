@@ -1,0 +1,16 @@
+indicated magnetic field does not crest at the time the line-line voltage goes
+through zero, 1300 ps, is not known. Perhaps instrumentation errors in the
+At any rate, the decay time constant for the line-line integrator are to blame.
+10.23. voltage agrees with the value predicted by Equation
+10.23 With α somewhat different waveshape of injected current, Figure
+as shows the voltages α function of the position of the conductor. The voltage on
+8 conductor is not shown; however, it was virtually identical with that shown for
+5 . conductor
+(5ps/div.)
+Voltages as function of position. Figure α 10.23
+Within 10.3 Fields Cavities
+ι It frequently happens that in the fuselage of an aircraft there will be
+cavity that is effectively exposed to the external field on only one face, either
+because the inner walls of the cavity are thick enough to provide more shielding
+to from the other parts of the external field or because the cavity is much closer
+320

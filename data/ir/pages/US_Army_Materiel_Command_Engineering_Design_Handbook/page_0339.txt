@@ -1,0 +1,110 @@
+AMCP 706-202
+but their exeleknt dielvctri: characteristics also
+introduce serious static electricity problems. The
+dielectric strength of the painted surface permits
+buildup of 5000 to 50,000 V from friction charging
+the surface, which may be followed by puncture
+the base metal and accompanied by an energy
+least in tens of joules. This can cause precipitat'on
+static or streamer radio interference, and - if
+paint is covering an elcctiical component. such as
+engine inlet heating grid also can result in a -
+circuit of the element. This often is followed by
+up, as a result of energizing of the initial spark by
+power system, with resultant major damage.
+Possible internal problems with high-quality
+electrics include the charging of fluid lines from
+liquid flow and the charging of painted internal
+tank walls from spray electrification or sloshing.
+7-9.2 LIGHTNING F OTECTION FOR
+ELECTRONIC SUBSYSTEMS
+helicopter for protection of lightning designer The
+use make maximum should electronic subsystems
+purposes. skin for shielding frame and metallic the
+Specific protection, or lightning-resistant lightning
+at the major lightning should be provided designs,
+These include main rotor and tail try points.
+pitot-static lights, antennas, nrvigation blades,
+active electrical probe discharger heads, and
+other electrical -omponents exposed on the exterior
+In of the helicoptcr. addition, because of the general-
+reduced ly shielding of helicopter frames and
+(compared with fixed-wing aircraft), greater
+siderations and must be givan to magnetic electrical
+field penetrations into the vehicle interior.
+Where all other factors are roughly equal, it i'
+visable to use mechanical primary flight controls
+engine and rotor controls and to use the electronic
+systems prin-arily for trim or management controls.
+Electronic surge suppressors of various types, such
+gas or zener diodes and simple capacitors, may
+used on critical circuits for suppressing the residual
+surgc voltage (which can penetrate despite the
+ternal lightning protection design), particularly
+electronic systems require very-low-voltage
+tection.
+In summary, the preventive design approaches
+I. Principal lightning protection efforts should
+directed toward blocking electromagnetic energy
+trance through electroma.gnetic windows such
+navigation lights and antennas,
+S. flight systems for primary of electronic Use
+trols Use should be avoided. should extend only
+trim or management.
+3. suppressors Surge should be used where
+7-30
+
+can required, eith(r because of large surge voltages that
+high cannot be reduced at the entry point low- or for
+the signal-level circuits that require low-level protective
+of devices.
+of 4. Simple lightning test facilities should be used to
+re- permit quick evaluation of component performance.
+Untested lightning protection designs often have
+the proved to be not only ineffective, but sometimcs
+an more dangerous than the components they were in-
+short tended to protect.
+burn- Lightning protection through geometrical con-
+the figuration control of external components, such as
+antennas and navigation lights, has proven to be one
+di- of the most effective methods of preventing lightning
+the penetration into the aircraft. For example, tests of
+fuel navigation and cofision light designs have shown
+1-in.change that a in a cover screw position can re-
+duce the resultant lightning damage from total de-
+struction of the element, with major energy pene-
+trations into the vehicle interior, to negligible physi-
+re- voltage pulse amplitude in resulting damage cal
+Thus, geometrical volts. few hundred to a of 4;uctions
+lightning pro- for external components of all control
+itc most economicai ap- purpubcz is gcncraiiv ivt;6iun
+entry en- and cost. Typical in terms of weight proach,
+shown in rotor points requiring protection design effort are
+7-16. Fig. tubes,
+any Earlier HF and UHF antennas of the voltage-fed
+type constituted one of "he princip~t electromagne',-
+windows through which lightning energy could enter
+skins the vehicle interior. To offset a possible total electri-
+con- cal system loss, these units often can be replaced with
+shunt-fed antennas, grounded which are inherentl)
+designs in which the lightning energy essentially is
+ad- channeled into the external vehicle skin, with only re-
+as sidual high-,oltage, low-energy pulses entering the
+electronic systems. HF lightning arresters are avail-
+able commercially for HF antennas. ttid their ef-
+as fectiveness in preventing bothi structural and radio
+be equipment damage has been demonstrated in their
+use on commercial jet airliners during millions of
+ex- flight hours.
+if the Other external components, such as pitot-static
+pro- heads and active discharger probe heads, require
+typical electronic system protection approaches. The
+are: pitot-static heads can be protected effectively by con-
+be ventional electrical system protective devices such as
+en- zener diodes or gas diodes; however, the high-voltage
+as active discharge probe heads require more extensive
+protection development because of high operating
+levels. voltage con-
+electrical to For surge suppressi n, mac:y types of de-
+vices are available commercially - including zener
+diodes, gas tubes, simple capacitors, spark gaps, and

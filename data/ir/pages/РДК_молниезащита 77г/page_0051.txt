@@ -1,0 +1,39 @@
+C The values of and α of Equation 2.4 are then substituted into Equation
+as follows: 2.6 and the equation solved for V,
+1 (30ξ 05j [(O. o - ~ ) (0.02)~] ξ 1 1 1 =
+(2.7)
+2 . 2 2 ~ 10-12
+0 . 0 0 1 3 2 ~ 0~000594ξ108 - - =
+2.22ξ 10-11-
+59.4 kV =
+Since the cloud and ground charge centers already establish an ambient field,
+59.4 kV is the potential at which the aircraft must be relative to the ambient
+field for streamering to occur. If the capacitance of even α large aircraft is no
+more than about 2000 pF, as given by Equation 2.2, then the maximum amount
+of charge which the aircraft can retain is
+(C) Q 1 8 . 8 ~ 1 0 - ~ coulombs 1 =
+= Q (PC) 100 microcoulombs
+This can be considered the amount of charge which α leader can deliver to
+the aircraft before streamers occur from opposite extremities. If additional
+charge flows onto the aircraft, more profuse streaming will occur, and from
+extremities of larger radii of curvature. In fact, the maximum charge which can
+be on the aircraft probably exceeds by up to 100 times the streamer initiation
+value. However, statistics on natural lightning characteristics show that α typical
+C to 10 (Reference 2.Σ), so there is still no room for any leader contains about 1
+significant portion of this to accumulate on an aircraft. Thus, the aircraft merely
+becomes an extension of the path being taken by the leader on its way to an
+ultimate destination at α reservoir of opposite polarity charge. Streamers may
+propagate onward from two or more extremities of the aircraft at the same time.
+If so, the incoming leader will have split, and the two (or more) branches will
+continue from the aircraft independently of each other until one or both of
+them reach their destination. This process of attachment and propagation
+onward from an aircraft is shown in Figure 2.3.
+When the leader has reached its destination and α continuous ionized
+channel between charge centers has been formed, recombination of electrons
+and positive ions occurs back up the channel, and this forms the high-amplitude
+return stroke current. This stroke current and any subsequent stroke or
+continuing current components must flow through the aircraft, which is now
+part of the conducting path between charge centers, as shown in Figure 2.4(α).
+If another branch of the original leader reaches the ground before the
+branch which has involved the aircraft, the return stroke will follow the former,
+No and all other branches will die out, as shown in Figure 2.4(β). substantial

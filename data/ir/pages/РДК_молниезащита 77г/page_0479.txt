@@ -1,0 +1,11 @@
+7 Further simplification of phase-splitter circuit. 16.1 Figure
+The current through the collector-base junction is
+The power dissipated in the collector-base junction is
+which is below its failure-threshold power.
+The total current into the circuit is then
+'CB + κ E = 9 . 4 'Transient Α ' j ~ =
+R~~ I +
+IT^^^^^^^^
+and the voltage required to cause failure is
+200 kV 2.5 Σ1 Therefore (assuming α 100 source impedance) α pulse, ns
+wide, will cause the transistor to fail.

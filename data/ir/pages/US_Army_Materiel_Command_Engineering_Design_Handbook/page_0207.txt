@@ -1,0 +1,59 @@
+AMCP 70F-202
+Σ~& CYCLIC
+PITCH ./-
+HUBA ROTOR
+Figure 5-8.
+articulated of an those to similar characteristics
+with α flap hinge located at 20% of the blade
+Precone of the blades, typical of the gimbaled
+hingeless designs, permits cancellation of the
+lift moment by the moment due to the centrifugal
+force of the rotating blade acting through the
+cal disolacemcnt of the blade above the disk
+Kinematic coupling in α hingeless rotor is influenced
+by the location of the feathering axis with respect
+the precone angle and to the equivalent flapping
+hinge location.
+5.3.5.1 XH-51 Rotor System
+Α schematic of the Xh-51 hingelcss rotor,
+has cantileverd blades with only α feathering
+of freedom, is shown in Fig. 5-9. Α mechanical stabi-
+lizing gyro is connected by one set of links to
+blade pitch arma and to the rotating swashplate
+another set.. Blade cyclik pitch is controlled by
+control gyro, which, in turn,, is controlled by
+swr.shplate input. The blades of this rotor have
+chordwise stiffness, but arn provided with flap
+bility by α flat spring section inboard of the
+ering axis. The blades are swept ferward about I
+ahead of the featherin, axis to locate tme CG of
+Σ5-' 2
+
+'
+Σ~PRECONE/
+Hingeless Rotor Schematic
+inertia the Thus, axis. feathering of the ahead blade rotor
+radius. forces acting theough the CG produce moments
+and about the feathering axis, producing, in turn, feed-
+steady back forces at the gyro. Analysis has shown that this
+displacement of the CG forward of the feathering
+verti- axis permits the gyro effectively and simply to pro-
+niane. vide stabilizina pitch innuts to the rotor.
+In this system, upward flapping of the blade puts
+to an up force on the pitch link, causing the control gyro
+te precess. ThL. tilting of the gyro then puts cyclic
+pitch back into the blade at the proper phase to mini-
+mize blade flapping motion. The control gyro also
+provides the blade pitch angle changes necessary for
+which stability of the helicopter. The AH-56Α rotor also is
+degree of this type, but us= α door-hinge arrangement of thu
+pitch change (feathering) bearings in order to obtain
+the the desired high chordwise stiffness of the hub
+by without excessive drag.
+the
+the 5-3.5.2 OH4Α Rotor
+high The OH-6Α rotor syst:μ, shown in Fig. 5-10, is
+flexi- another type of hingelcas rotor. Multiple straps
+feath- transmit the centrifugal force from one blade across
+deg the hub to the opposite blade, and are flexible enough
+the to allow both flapping and feathering of the blade.

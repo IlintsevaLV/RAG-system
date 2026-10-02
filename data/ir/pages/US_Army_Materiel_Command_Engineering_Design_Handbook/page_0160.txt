@@ -1,0 +1,105 @@
+drive in types are employed splint Two basic
+system design: face splines and concentric splines.
+4-.2,3.1 Face Splins
+are splines typically used to couple two shafts Face
+or α shaft and α Sear. Flat-faced, tapered, V,
+square form teeth may be milled, shaper cut, or
+ground - dependin, upon material hardness and ac-
+curacy requirements. The fabrication of high-quality,
+;ou'ts interchangeable, concentric with uniform tooth
+contact is relatively difficult & exl.π":vc; conse-
+quently, they ate seldom used in drive systems.
+The most common face spline is the CurvicO
+system (Ref. 92). Curvic* splines are easily fabri-
+and cated with pressure angles between 10 30 deg deg,
+although the higher value is predominant. Most de-
+sign deficiencies result from inadequate localization
+ctnter of tooth contact relative to the tooth or from
+inadequate clamping means to rcsist the tooth sepa-
+rating forces and the bending moments on θ: joint,
+ORegistered Trademark - Gleason Works
+4-2.2.3.2 Coaceutdlc or Longitudinal Splints
+This type ofjoint has its α δ-beating- surtfub es-
+axes sentially parallel to the rotational of the coupled
+components that comprise the external and internal
+mating elements. This discussion is limited to the
+commonly used involute tooth form. although other
+* types are occasionally used.
+involute The spline may be manufactured by any
+involute gear production method, in addition
+methods not well to full-depth, η'Sh-strength buited
+gear tooth forms. Depepding upon the limitations
+imposed by production volume and precision,
+produced volute splines be by millins. shaDing. may
+shear cutting, broaching, cylindrical thread rolling.
+rack cutting, shaving; by rolling, bobbing, and form
+or profile-generating grinding. Relatively trouble-free
+applications are limited to misalignments of 0.001 in.-
+/in. and are either clamped or floating. Operating
+misalignment of the axes of the mating parts of 0.25
+deg or greater under load requires the use of flexible
+couplings (par. 4-3.2.1). It is very difficult to obtain
+satisfactory wear life with floating splines operating
+with misalignm.nt.
+4-2.3.3 Properties of Splins
+Involute splines are designated as major-diameter
+or sidefit, depending upon the controlling
+mensional features. Minor-diain.Ater-fit splines
+should be avoided in all but special applications (such
+ex- as with α weaker internal member) due to the
+cessive stress concentration caused by the sharp
+*- cxttraid tooth-root fillet radius on the member.
+4-53
+
+motion. relative are to prevent clamped Splines
+of major-diameter Light interference fit dimensioning
+or side fit splines may be employed to assist in at- ρ;
+taining secure clamping. When radial loads domi-
+nate the joint design, adjacent mating cylindrical
+or bores and shoulders with light press fits frequently
+are used to complement the spline; successful ap-
+plication requires close control of concentricity
+between joint elements.
+Floating spline joints primarily are used to ac-
+commodate axial motion. Diametral looseness and
+backlash must be sufficient to provide clearance un-
+der operating conditions. The choiw between major-
+diameter and side fit control normally is predicated
+upon concentricity and balance requirements. Major-
+diameter control is preferable for precision ap-
+plications where rotational speeds or alignment are
+side critical. While fit splints of 20 deg or greater
+pressure angles provide self-centering under torque
+loads, their looseness may permit excessive com-
+ponent imbalance and eccentric operation under no-
+load, high-speed operation.
+Conventional involute splines may offer ap-
+Α safe design value axial force for oil-lubricatcd Α 1
+spline may be taken as:
+O/Dr (4-54) Α/ OA - lb
+where
+lb-in. Q - torque,
+to pitch diameter, in. Dp -
+Reduction in slip for= may be achieved by use of
+special lubricants, friction-reducing tooth coatings,
+in- platings (silver, etc.) and treatments; with ball splines;
+by ,.η .. Or itroducti .. ρ
+(par. 4-3.2.1). Nylon (Ref. 93) and epoxy-bonded
+molybdenum disulfide coatings are often effective.
+Floating spline joints also are used to provide α
+slight accommodation for radial, axial, and angular
+these conditiots. misalignment. Under operating
+fretting and galling wear modes may prove trouble-
+sonic. Their occurrence is difficult to predict, and de-
+termination of secondary effects and solutions fre-
+quently must await design development testing.
+Depending upon the severity of the problem and the
+design restrictions, the following solutions have
+found widespread use individually or in combination:
+α I. Increased hardness and accuracy (generally
+di- matter of gear tooth grinding precision)
+2. Shot peenring of onc or both members (relatively
+sind high intensities surfacc texture modification are
+desired)
+3. Use of dissimilar materials, types of heat treat-
+ment, and hurdnesses

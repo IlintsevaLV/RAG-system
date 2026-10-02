@@ -1,0 +1,87 @@
+Philosophy: The TCL of the TCL Implementation
+philosophy is still evolving, but is becoming engrained
+requirements of aircraft work. FAA in transient design
+though not yet formally adopted (16.1], in- proposed,
+clude requirements for TCL testing.
+Levels appropriate for aircraft: Levels that have been
+16.2 and suggested for aircraft use are shown in Tables
+16.3. Table 16.2 relates to tests using single transients
+of ι.ran- using bursts to tests 16.3 relates while Table
+sients.
+16.2 Table
+and Current Levels Suggested ETDL Voltage
+Waveforms
+Level 4 3 5
+Vp/Ip V IPl VP/Ip Vp/Ip
+100/4 30/10 N/Α 1 50/10
+N/Α 125/25 250/10 125/25 2
+300/100 300/60 300/60 600/24 3
+4 75011000 750/150 1500/60 750/150
+1600/3000 1600/320 3200/128 1600/320 5
+20,000 to
+,.__,_Derivative
+volts, in voltage circuit open peak the is Vp
+Ip is the peak test; lmit current in amperes.
+ac- voltage and current waveforms of The Waveforms:
+wiring of structure and to the internal tually coupled
+on both the cou- aicý depend are complex an aircraft
+and the type of circuit. The TCL pling mechanism
+philosophy recognizes, however, that they can be sep-
+their and that several distinct categories arated into
+impedance depends on the coupling mechanism. The
+specified in FAA and evolving international waveforms
+standards [16.1 and 16.13] are shown in Fig. 16.12.
+exponential, unipolar cur- is α double I Waveform
+lightning in shape to the defined rent waveform similar
+current (Component Α). This waveform return stroke
+that represents that portion of the lightning current
+such as cable shields would flow in internal conductors,
+and conduits. Within certain structures this waveform
+the appearance of current will slow down and take on
+Waveform 5, described below,
+
+Table 16.3
+Multiple Burst Suggested
+Levels Test
+wavefro 3
+1peak Vpeak. Level
+_
+5 125 2
+12 300
+4 750 30
+5 1600 64
+Vp - Peak Open Circuit Voltage
+Ip Peak Short Circuit Current -
+derivative α double exponential Waveform 2 is
+re- circuit open is the classic and waveform voltage
+around in and field produced magnetic to the sponse
+is waveform This flash. lightning α during aircraft the
+stroke current the lightning of the derivative similar to
+equal zero crossing time to has α Α) and (Component
+to the time to peak of current Component Α. Wave-
+high with circuits in unshielded predominates form 2
+the is coupling field magnetic where loads impedance
+contributor. major
+in also appear waveshapes can voltage
+crossing zero to time the but circuits, shielded some
+peak of the shield the time to be controlled by will
+short current, not the external lightning current. The
+circuit current related to this voltage waveform will
+of the or to the waveform Waveform 1, be similar to
+shield current. related
+voltage wave- damped sinusoidal 3 is α Waveform
+one of the responses to the lightning stroke form and is
+Δ. It is the only response currents, Components Α and
+H. The pre- Component multiple burst current, to the
+frequencies are often associated with the dominant
+also be natural resonances of the aircraft, but may
+associated with resonances of aircraft apertures, air-
+(pigtails) or circuit wiring, shield terminations craft
+interfaces.
+lie in The defined frequencies for this waveform
+the range of 1 to 50 MHz. Short circuit currents are
+by the surge typically related to this voltage waveform
+of the aircraft circuit. impedance
+Waveform 4 is α double exponential, unipolar
+waveform and represents the potential differ- voltage
+432

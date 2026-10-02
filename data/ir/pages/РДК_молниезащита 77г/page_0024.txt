@@ -1,0 +1,23 @@
+lightning return stroke has both a high capacitance and a high inductance per
+unit of length. In this respect differs from a solid conductor of large diameter it
+which, while possessing a high capacitance per unit length, simultaneously
+a possesses low inductance per unit length. It follows that the surge impedance,
+governed by the ratio of inductance to capacitance, is high while the velocity of
+propagation, governed by the product of inductance and capacitance, is less than
+that of the speed of light.
+(a)
+(b)
+Effect of corona cloud on velocity of propagation. Figure 1.13
+Distributed charge surrounding highly conductive central a (a)
+core
+Highly conductive central conductor fastened onto a series (b)
+of projecting splines
+Wagner (Reference 1.15) concludes that the surge impedance of the
+000 for return strokes of large amplitude, lightning flash is of the order of 3 52
+a) 100 kA. This value large compared to the surge impedance ( ~ 5 0 0 of a is
+simple conductor in air and remote from a ground plane or other current return
+path.
+The waveshapes of lightning-flash currents measured at ground level are
+reasonably well known, principally from the work of Berger (Reference 1.16).
+Typical waveshapes detailing the front of the initial return stroke are shown in
+1.1 1 .I 8). 1.14 Figures and 5 (References and In all cases, the current is 1.17

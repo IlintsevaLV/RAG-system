@@ -1,0 +1,50 @@
+Chapter 14
+WIRING AIRCRAFT OF RESPONSE
+Introduction 14.1
+Verifying that an aircraft will not be harmed by tude of the voltages and current induced by lightning
+effects. about by per- to come is most likely indirect effects
+forming bench tests in which voltages and currents are This chapter undertakes to provide such tech-
+injected into the terminals and wiring of aircraft sys- niques. The resulting estimates may not be very pre-
+tems, tests such α3 described in Chapter 18. Specifi- cise, but they can at least indicate the general magni-
+cations for such tests are often deficient in that they tude and nature of the induced voltages and currents,
+merely specify something like and that may be sufficient for preliminary designs or
+tests.
+Bench shall the equipment The discussions to follow will treat both the open tests stebject to the
+lightning environment specified in circuit voltage ... and the short circuit current induced on
+aircraft wiring. Α knowledge of open circuit voltage is
+The referenced document then describes only the important because it represents the maximum volt-
+lightning environment to which the aircraft as α whole age to which α circuit or electrical insulation might be
+should be designed. Equipment inside the aircraft, of exposed. Short circuit current is important because
+course, is not subjected to the full lightning threat, and it represents the maximum current that might flow
+it would not be meaningful to subject each individual through an element designed to carry current, such
+box or cable to the 200 000 amperes peak current that as α protective spark gap or diode. The two factors
+might represent the external lightning threat. together define the source impedance of the surge, α
+Some sort of program is needed to estimate real- quantity needed in order to conduct rational bench
+istic levels at which tests should be conducted. Even testing of equipment.
+if tests are not performed, some sort of program is The discussions will also provide an introduction
+needed to estimate levels to which equipment should to the art of modeling the response of electrical circuits
+be designed. If no estimates are made, either equip- to the voltages and currents induced by lightning.
+ment must be designed and tested to arbitrarily chosen
+Wire Impedances levels, or it will be designed or selected without any 14.2
+special regard for lightning indirect effects.
+Some have called the process of determining volt- Inductance and capacitance of conductors were
+ages and currents on individual components α flow- treated in §9.7.3 and §9.8.1. For wires above α ground
+process, implying that it is one of determining plane, Fig. 14.1, and using only air as insulation, sim- down
+how much of the external lightning environment "flows plified expressions for calculation are:
+down" onto individual components. Ideally. the per-
+formance of flowdown calculations to determine the
+most likely voltages and currents on the wiring of an = 0.2 ln(4η/δ) pH/μ (14.1) Λ
+aircraft would be clearly identified as one of the neces- pF/μ (14.2) 55.56
+sary engineering tasks and would be allocated suitable ν(4η/δ C
+staff, time and funding.
+where air- the on and currents voltages the principle, In
+craft wiring may be calculated from the geometry of
+the aircraft wiring and knowledge of the strength and
+plane height above α ground = electric fields, magnetic and of the internal orentation η
+as discussed in Chapters 10, 11 and 12. Alternatively, conductor diameter = δ
+they may be determined experimentally as discussed
+in Chapter 13. Since staff and funding are not always Inductance and capacitance may also be estimated
+available to perform the necessary measurements and from Figs. 14.2 and 14.3.
+calculations, it is useful to have simplified techniques Inductance and capacitance also define the surge
+that at least let one determine the order of magni- impedance of α conductor.
+373

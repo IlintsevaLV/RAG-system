@@ -1,0 +1,77 @@
+Self-inductance in terms of GMR: Section 9.5 intro-
+duced the concept of geometric mean radius, GMR,
+and the of some common geometries was given GMR
+in Fig 9.3. The self inductance of any conductor can be
+evaluated by finding the mutual inductance between
+two filaments separated by the of the conductor, GMR
+As an example, consider α circular tubular conductor
+with α very thin wall. From Fig. 9.3 the is GMR
+equal to the physical radius. Substituting the GMR
+into Eq. 9.55 for the mutual inductance of two fila-
+ments gives the same formulation as Eq. 9.58 for the
+self inductance of α conductor of radius ρ.
+This approach to formulating self-inductance is
+of most benefit for irregularly shaped conductors, Fig.
+9.18. It also provides α way of evaluating the internal
+inductance of conductors, as discussed in the following
+section.
+- _-------
+- - -- ----------
+GMR
+Fig. 9.18 Self inductance in terms of geometric
+mean radius,
+Internal Inductance of conductors: All of the for-
+mulations of §9.7.3 relate only to the fields external
+the for valid being formulations the the conductors, to
+high frequency case where skin effects confine current
+to the surface of conductors. At lower freqen-ies cur-
+rent penetrates into the conductors and α magnetic
+field is established within the conductor, Fig. 9.19.
+The maximum internal flux occurs with solid conduc-
+tore and at dc where the current density is uniform.
+Under such conditions the flux density varies as the
+distance from the center. The total flux within the
+conductor and the internal inductance are found to
+be:
+•! webers (9.72) = I
+from which
+0 5( Ξ 1 Σ$
+ 0.0 H/μ. (9.73) Σ -
+
+4
+3
+external flux
+.4
+... 4 5 3
+distance
+Fig. 9.19 Internal and external field density.
+GMR as applied to internal inductance: An al-
+ternative approach to internal inductance involves the
+concept of geometric mean radius. In Fig. 9.1 the
+ln(1/4) of α disk of radius ρ was shown GMR to be ρ
+or 0.7788ρ. Substituting this value into Eq. 9.58 for
+the mutual inductance of two filaments gives the total
+inductance of the conductor under dc conditions:
+Lii =2ξ τ]H/μ'. (9.74) 1O-'1lIn2!-1+
+The difference in inductance between the value given
+by Eq. 9.57 (treating only external inductance) and
+that of Eq. 9.74 is the internal inductance, or the
+inductance due to magnetic flux within the conductor.
+Numerically, for non-magnetic conductors, it is
+2 ξ 10-?
+0,05 AH/μ (9,75) = = 4
+While the internal inductance is generally small
+compared to the external inductaihce, it is intimately
+linked with the transient resistance of conductors. The
+transient resistance and internal inductance of con-
+ducting bodies is of such importance to how lightning
+currents penetrate into aircraft that the subject of in-
+ternal impedance is discussed in much morm detail in
+§9.9 and Chapter 10.
+Practical equatious for inductance 9.7.4
+Equations have been developed for the inductance
+of almost any geometry, the best collection appearing
+in (9.41. Equations for α few selected geometries are
+presented below. Inductances are in microhenres &Ad
+dimensions are in centimeters.
+257
