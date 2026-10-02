@@ -1,32 +1,32 @@
-distribution time constants in a CFC aircraft are much
-faster than in a metal aircraft. The phenomena of
+distribution time constants in α CFC aircraft are much
+faster than in α metal aircraft. The phenomena of
 distribution is discussed further in Cha.ter 11.
 8.5.3 Capacitively Generated Currents
 The third type of coupling, Fig. 8.10, involves
 electric fields passing directly through apertures, such
 as windows or canopies, to the interior of the aircraft.
-The displacement current forced through a grounded
-object, Fig. 8.10(c) is
- (8.4) A 2 x LE 8.85 ,= 10-
-where A is the area available to intercept displacement
+The displacement current forced through α grounded
+object, Fig. 8.10(χ) is
+ (8.4) Α 2 ξ LE 8.85 ,= 10-
+where Α is the area available to intercept displacement
 current E is the intensity of the electric field. If the
 current flows through an impedance it will, of course,
 produce an electrically induced voltage. Capacitively
 induced voltages and currents, which are discussed
 §9.8.3, are proportional to the rate of electric of change
 field, frequently referred to as E or E dot.
-(a) tthat E~t
+(α) tthat E~τ
 .
 Zino Eim
 Et E~zdecisions
-(b)
+(β)
 BMesuem
 • , ,proaches
-(c)
+(χ)
 Fig. 8.10 Aperture-type electric field coupling.
-(a) Extermal field pattens
-(b) Internal field patterns
-(c) Induced current
+(α) Extermal field pattens
+(β) Internal field patterns
+(χ) Induced current
 
 In metal aircraft, electric field coupling is entirely
 re- through apertures, since virtually any thickness of
@@ -35,11 +35,11 @@ tric fields. With composite aircraft this may or may
 not be the case.
 8.6 Approaches to Determining the
 Response of Circuits
-There are two basic methods of conducting a flow-
+There are two basic methods of conducting α flow-
 down analysis, that is, determining how much voltage
 and current might be induced on aircraft wiring by
 measurement. and analysis lightning; numerical
-Numerical analysis: Since an aircraft is a complex
+Numerical analysis: Since an aircraft is α complex
 structure it is difficult to determine by analytical
 means the voltages and currents that might be in-
 duced on aircraft wiring by lightning. Some techniques
@@ -49,7 +49,7 @@ on techniques derived from the field, and in NEMP
 fact most of the advanced numerical and mathemati-
 cal treatments of lightning interactions have their ori-
 gins in the analytical studies funded by efforts. NEMP
-All of them require a considerable investment in com-
+All of them require α considerable investment in com-
 puter resources and training of personnel. They are
 also limited in the degree to which they can predict 0
 the voltages and curients of actual aircraft wiring, as
