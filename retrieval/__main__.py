@@ -58,7 +58,7 @@ def _cmd_build(args: argparse.Namespace) -> int:
     model = args.embedding_model if args.dense else None
     if args.dense and not model:
         model = get_settings().embedding_model
-    write_index(chunks, report, out, embedding_model=model)
+    write_index(chunks, report, out, embedding_model=model, force=args.force)
     print(f"Индекс: {out}")
     print(
         f"Файлов JSON: {report.files}, страниц в JSON: {report.pages_seen}, "
@@ -68,7 +68,7 @@ def _cmd_build(args: argparse.Namespace) -> int:
         "Отсеяно — другой класс: {skipped_class}, не ok: {skipped_status}, "
         "low_confidence: {skipped_low_confidence}, пустые: {skipped_empty}, "
         "оглавление: {skipped_toc}, без текста пункта: {skipped_short}, "
-        "пустой JSON: {empty_json}".format(**report.to_dict())
+        "мусор: {skipped_garbage}, пустой JSON: {empty_json}".format(**report.to_dict())
     )
     if report.dense:
         print(f"Плотные векторы: {model or 'cache'}")
@@ -81,6 +81,20 @@ def _cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+_MODES = ("lexical", "dense", "hybrid", "hybrid_bm25_heavy", "hybrid_dense_heavy")
+
+
+def _use_embedding_model(index, requested: str | None) -> None:
+    if not requested:
+        return
+    loaded = index.embedding_model
+    if loaded and requested != loaded:
+        print(
+            f"Внимание: запрос кодируется {requested}, индекс собран моделью {loaded}."
+        )
+    index.embedding_model = requested
+
+
 def _cmd_query(args: argparse.Namespace) -> int:
     query = args.query or sys.stdin.read()
     query = query.strip()
@@ -88,7 +102,8 @@ def _cmd_query(args: argparse.Namespace) -> int:
         print("Пустой запрос.")
         return 1
     index = load_index(_index_dir(args.index_dir))
-    if args.mode in ("dense", "hybrid") and not index.vectors:
+    _use_embedding_model(index, args.embedding_model)
+    if args.mode != "lexical" and not index.vectors:
         print("Плотные векторы не найдены. Сначала: python -m retrieval build --dense")
         if args.mode == "dense":
             return 2
@@ -101,7 +116,8 @@ def _cmd_query(args: argparse.Namespace) -> int:
         w_bm25=args.w_bm25,
         w_dense=args.w_dense,
         rrf_k=args.rrf_k,
-        min_score=args.min_score if args.mode == "lexical" else 0.0,
+        min_score=args.min_score,
+        min_dense=args.min_dense,
     )
     if args.json:
         payload = {
@@ -123,7 +139,18 @@ def _cmd_eval(args: argparse.Namespace) -> int:
         print("Пока его нет, самопроверка: python -m retrieval probe")
         return 2
     index = load_index(_index_dir(args.index_dir))
-    result = eval_gold(index, gold, mode=args.mode, top_k=args.top)
+    _use_embedding_model(index, args.embedding_model)
+    result = eval_gold(
+        index,
+        gold,
+        mode=args.mode,
+        top_k=args.top,
+        w_bm25=args.w_bm25,
+        w_dense=args.w_dense,
+        rrf_k=args.rrf_k,
+        min_score=args.min_score,
+        min_dense=args.min_dense,
+    )
     print(
         f"n={result['n']} mode={args.mode} "
         f"recall@1={result['recall_at_1']} recall@3={result['recall_at_3']} "
@@ -160,6 +187,11 @@ def main(argv: list[str] | None = None) -> int:
         help="Добавить векторы embedding_model. Нужен sentence-transformers.",
     )
     build.add_argument("--embedding-model", default=None)
+    build.add_argument(
+        "--force",
+        action="store_true",
+        help="Пересчитать все векторы, если --embedding-model отличается от meta.json.",
+    )
     build.set_defaults(func=_cmd_build)
 
     query = sub.add_parser("query", help="Вернуть чанки без генерации")
@@ -167,29 +199,47 @@ def main(argv: list[str] | None = None) -> int:
     query.add_argument("--top", type=int, default=3)
     query.add_argument("--json", action="store_true")
     query.add_argument("--index-dir", default=None)
-    query.add_argument("--mode", choices=("lexical", "dense", "hybrid"), default="lexical")
+    query.add_argument("--mode", choices=_MODES, default="lexical")
     query.add_argument("--w-bm25", type=float, default=1.0)
     query.add_argument("--w-dense", type=float, default=1.0)
-    query.add_argument("--rrf-k", type=int, default=60)
+    query.add_argument("--rrf-k", type=int, default=10)
+    query.add_argument("--embedding-model", default=None)
     query.add_argument(
         "--min-score",
         type=float,
         default=5.0,
-        help="Лексический порог BM25. Ниже него — «не найдено». 0 отключает порог.",
+        help="Порог BM25. В hybrid отсекает лексических кандидатов до слияния. 0 отключает.",
+    )
+    query.add_argument(
+        "--min-dense",
+        type=float,
+        default=0.7,
+        help="Порог косинуса dense. Ниже него dense-ответ — «не найдено».",
     )
     query.set_defaults(func=_cmd_query)
 
     probe = sub.add_parser("probe", help="Самопроверка: предложение из чанка ищется обратно")
     probe.add_argument("--limit", type=int, default=100)
     probe.add_argument("--index-dir", default=None)
-    probe.add_argument("--mode", choices=("lexical", "dense", "hybrid"), default="lexical")
+    probe.add_argument("--mode", choices=_MODES, default="lexical")
     probe.set_defaults(func=_cmd_probe)
 
     ev = sub.add_parser("eval", help="recall@k и MRR по golden JSON")
     ev.add_argument("--gold", default="data/ir/gold/retrieval_v1.json")
     ev.add_argument("--index-dir", default=None)
-    ev.add_argument("--mode", choices=("lexical", "dense", "hybrid"), default="hybrid")
+    ev.add_argument("--mode", choices=_MODES, default="hybrid")
     ev.add_argument("--top", type=int, default=5)
+    ev.add_argument("--w-bm25", type=float, default=1.0)
+    ev.add_argument("--w-dense", type=float, default=1.0)
+    ev.add_argument("--rrf-k", type=int, default=10)
+    ev.add_argument("--embedding-model", default=None)
+    ev.add_argument(
+        "--min-score",
+        type=float,
+        default=0.0,
+        help="Порог BM25. По умолчанию 0, чтобы эталон сравнивался с прежним лексическим прогоном.",
+    )
+    ev.add_argument("--min-dense", type=float, default=0.7)
     ev.set_defaults(func=_cmd_eval)
 
     check = sub.add_parser("check", help="Проверки нарезки и поиска на синтетике")

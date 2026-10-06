@@ -9,6 +9,7 @@ from pathlib import Path
 from core.text_norm import normalize_greek_lookalikes
 from retrieval.clauses import AdmittedPage, TextChunk, chunk_document, heading_num, join_hyphens
 from retrieval.engine import (
+    is_index_garbage,
     is_mush,
     BuildReport,
     SearchIndex,
@@ -370,6 +371,62 @@ def run_checks() -> int:
     if not fused or fused[0].chunk.clause_id != "24":
         _fail(f"hybrid dropped the chunk that contains the code: {[h.chunk.clause_id for h in fused]}")
 
+    direct_lex = search(para, "гидравлические системы 27.1435", mode="lexical", top_k=1)
+    if direct_lex and direct_lex[0].score >= 20:
+        strong = search(
+            para,
+            "гидравлические системы 27.1435",
+            mode="hybrid",
+            query_vector=[0.0, 1.0],
+            top_k=1,
+        )
+        if not strong or strong[0].method != "lexical" or strong[0].chunk.clause_id != "27.1435":
+            _fail("BM25 >= 20 was mixed with dense")
+    heavy = search(
+        para,
+        "гидравлические системы 27.1435",
+        mode="hybrid_bm25_heavy",
+        query_vector=[0.0, 1.0],
+        top_k=1,
+    )
+    if not heavy or heavy[0].chunk.clause_id != "27.1435":
+        _fail("hybrid_bm25_heavy lost the clause")
+    low_dense = search(
+        para,
+        "рецепт пирога",
+        mode="dense",
+        query_vector=[0.5, 0.0],
+        min_dense=0.7,
+        top_k=1,
+    )
+    if low_dense:
+        _fail("dense cosine below 0.7 was returned")
+    gated = search(
+        para,
+        "гидравлические системы 27.1435",
+        mode="hybrid",
+        query_vector=[0.0, 1.0],
+        min_score=5,
+        top_k=1,
+    )
+    if not gated or gated[0].chunk.clause_id != "27.1435":
+        _fail("hybrid min-score compared the RRF value and dropped a BM25 hit")
+    xml = (
+        "<lcMultipleSelect id='a'><lcAnswerOption>пиропатрон</lcAnswerOption>"
+        "</lcMultipleSelect><para>вариант</para>"
+    )
+    url = "https://www.nasa.gov/some/very/long/path/to/a/document.pdf"
+    numbers = "12 34 56 78 90 11 22 33 44 55 66 77 88 99 10 20 30"
+    prose_ok = "Каждая гидравлическая система должна выдерживать нагрузки при расчетном давлении."
+    cited = (
+        "Требования к прочности гидросистем изложены в документе по адресу "
+        "https://example.com/a.pdf и обязательны для заявителя."
+    )
+    if not is_index_garbage(xml) or not is_index_garbage(url) or not is_index_garbage(numbers):
+        _fail("xml, url or a number table stayed in the index")
+    if is_index_garbage(prose_ok) or is_index_garbage(cited):
+        _fail("prose was marked as index garbage")
+
     with tempfile.TemporaryDirectory() as tmp:
         gold_path = Path(tmp) / "gold.json"
         gold_path.write_text(
@@ -417,6 +474,22 @@ def run_checks() -> int:
             loaded = load_index(out)
             if not loaded.vectors or loaded.embedding_model != "intfloat/multilingual-e5-small":
                 _fail("dense.npy was not reloaded")
+            relabel = BuildReport()
+            write_index([hydro], relabel, out, embedding_model="intfloat/multilingual-e5-base")
+            meta = json.loads((out / "meta.json").read_text(encoding="utf-8"))
+            if calls != [1] or meta.get("embedding_model") != "intfloat/multilingual-e5-small":
+                _fail(f"cache hit rewrote the model name: {meta.get('embedding_model')} calls={calls}")
+            forced = BuildReport()
+            write_index(
+                [hydro],
+                forced,
+                out,
+                embedding_model="intfloat/multilingual-e5-base",
+                force=True,
+            )
+            meta = json.loads((out / "meta.json").read_text(encoding="utf-8"))
+            if calls != [1, 1] or meta.get("embedding_model") != "intfloat/multilingual-e5-base":
+                _fail(f"--force did not rebuild vectors: {meta.get('embedding_model')} calls={calls}")
     finally:
         engine.embed_passages = saved
 

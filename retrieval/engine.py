@@ -22,6 +22,14 @@ _TOKEN = re.compile(
     re.IGNORECASE,
 )
 _CLAUSE_IN_QUERY = re.compile(r"\d+(?:\.\d+)+")
+_XML_TAG = re.compile(r"</?[A-Za-z][\w:.-]*\b[^>]*>")
+_URL = re.compile(r"https?://\S+")
+_HYBRID_MODES = {"hybrid", "hybrid_bm25_heavy", "hybrid_dense_heavy"}
+# BM25 bands for adaptive hybrid. A strong exact hit stays lexical.
+# A weak lexical list leaves the answer to dense.
+_BM25_STRONG = 20.0
+_BM25_WEAK = 5.0
+
 _STOP = frozenset(
     """
     и в во на по с со к ко о об от из за до для при или не ни но а же ли бы
@@ -44,6 +52,7 @@ class BuildReport:
     skipped_empty: int = 0
     skipped_toc: int = 0
     skipped_short: int = 0
+    skipped_garbage: int = 0
     empty_json: int = 0
     dense: bool = False
     notes: list[str] = field(default_factory=list)
@@ -61,6 +70,7 @@ class BuildReport:
             "skipped_empty": self.skipped_empty,
             "skipped_toc": self.skipped_toc,
             "skipped_short": self.skipped_short,
+            "skipped_garbage": self.skipped_garbage,
             "empty_json": self.empty_json,
             "dense": self.dense,
             "notes": self.notes,
@@ -338,42 +348,53 @@ def is_mush(text: str) -> bool:
     return len(text) >= 200 and punct * 1000 / len(text) < 2
 
 
+def is_index_garbage(text: str) -> bool:
+    """XML dumps, bare URLs and number tables. They sit near every dense query."""
+    compact = re.sub(r"\s+", "", text)
+    if len(compact) < 20:
+        return False
+    letters = sum(1 for ch in compact if ch.isalpha())
+    digits = sum(1 for ch in compact if ch.isdigit())
+    if letters == 0:
+        return True
+    other = len(compact) - letters - digits
+    if other / len(compact) > 0.5:
+        return True
+    if len(_XML_TAG.findall(text)) >= 2:
+        return True
+    if _URL.search(text):
+        rest = _URL.sub(" ", text)
+        if sum(1 for ch in rest if ch.isalpha()) < 40:
+            return True
+    return False
+
+
 def _above_min_score(ranked: list[tuple[int, float]], min_score: float) -> list[tuple[int, float]]:
     if min_score <= 0:
         return ranked
     return [item for item in ranked if item[1] >= min_score]
 
 
-def search(
+def _hybrid_weights(mode: str, w_bm25: float, w_dense: float) -> tuple[float, float]:
+    if mode == "hybrid_bm25_heavy":
+        return 3.0, 1.0
+    if mode == "hybrid_dense_heavy":
+        return 1.0, 3.0
+    return w_bm25, w_dense
+
+
+def _rrf(
     index: SearchIndex,
     query: str,
+    lexical: list[tuple[int, float]],
+    dense_ranked: list[tuple[int, float]],
     *,
-    top_k: int = 3,
-    pool: int = 50,
-    mode: str = "lexical",
-    query_vector: list[float] | None = None,
-    w_bm25: float = 1.0,
-    w_dense: float = 1.0,
-    rrf_k: int = 60,
-    min_score: float = 0.0,
+    top_k: int,
+    pool: int,
+    w_bm25: float,
+    w_dense: float,
+    rrf_k: int,
 ) -> list[Hit]:
-    """mode: lexical | dense | hybrid. Default stays BM25 even if vectors are loaded.
-
-    Lexical answers keep the strict gate (half the query words). Hybrid fuses a
-    softer list: a third of the words, or a technical code such as ARP4754A.
-    """
-    lexical = _lexical_hits(index, query)
-    if mode == "lexical" or (mode == "hybrid" and not index.vectors and query_vector is None):
-        return _as_hits(index, _above_min_score(lexical, min_score), "lexical", top_k)
-
-    dense_ranked = _dense_ranking(index, query, query_vector=query_vector)
-    if mode == "dense":
-        return _as_hits(index, dense_ranked, "dense", top_k)
-    if not dense_ranked:
-        return _as_hits(index, _above_min_score(lexical, min_score), "lexical", top_k)
-    if mode == "hybrid":
-        lexical = _lexical_hits(index, query, cover_ratio=1.0 / 3.0, accept_codes=True)
-
     asked = query_clause_ids(query)
     lex_rank = {idx: rank for rank, (idx, _) in enumerate(lexical[:pool], start=1)}
     dense_rank = {idx: rank for rank, (idx, _) in enumerate(dense_ranked[:pool], start=1)}
@@ -403,6 +424,70 @@ def search(
         if len(hits) >= top_k:
             break
     return hits
+
+
+def search(
+    index: SearchIndex,
+    query: str,
+    *,
+    top_k: int = 3,
+    pool: int = 50,
+    mode: str = "lexical",
+    query_vector: list[float] | None = None,
+    w_bm25: float = 1.0,
+    w_dense: float = 1.0,
+    rrf_k: int = 10,
+    min_score: float = 0.0,
+    min_dense: float = 0.0,
+) -> list[Hit]:
+    """mode: lexical | dense | hybrid | hybrid_bm25_heavy | hybrid_dense_heavy.
+
+    Lexical answers keep the strict gate (half the query words). ``min_score`` is
+    a BM25 floor. ``min_dense`` is a cosine floor for e5, separate from BM25.
+    Plain hybrid is adaptive: BM25 ≥ 20 stays lexical, BM25 < 5 uses dense,
+    otherwise reciprocal rank fusion with k=10.
+    """
+    lexical = _lexical_hits(index, query)
+    lexical_kept = _above_min_score(lexical, min_score)
+    hybrid = mode in _HYBRID_MODES
+    if mode == "lexical" or (hybrid and not index.vectors and query_vector is None):
+        return _as_hits(index, lexical_kept, "lexical", top_k)
+
+    raw_dense = _dense_ranking(index, query, query_vector=query_vector)
+    dense_ranked = _above_min_score(raw_dense, min_dense)
+    if mode == "dense":
+        return _as_hits(index, dense_ranked, "dense", top_k)
+    if not raw_dense:
+        return _as_hits(index, lexical_kept, "lexical", top_k)
+
+    soft = _above_min_score(
+        _lexical_hits(index, query, cover_ratio=1.0 / 3.0, accept_codes=True),
+        min_score,
+    )
+    w_bm25, w_dense = _hybrid_weights(mode, w_bm25, w_dense)
+    top_bm25 = lexical[0][1] if lexical else 0.0
+    soft_top = soft[0][1] if soft else 0.0
+    if mode == "hybrid" and top_bm25 >= _BM25_STRONG:
+        return _as_hits(index, lexical_kept, "lexical", top_k)
+    # A technical code (ARP4754A) is an exact token. Its BM25 can sit under 5
+    # in a tiny index, and dropping it would hand the answer to dense.
+    code_hit = False
+    if soft:
+        qtokens = [tok for tok in tokenize(query) if _is_code_token(tok)]
+        code_hit = any(index.bm25.tf[idx].get(tok) for idx, _score in soft for tok in qtokens)
+    if mode == "hybrid" and max(top_bm25, soft_top) < _BM25_WEAK and not code_hit:
+        return _as_hits(index, dense_ranked, "dense", top_k)
+    return _rrf(
+        index,
+        query,
+        soft,
+        dense_ranked,
+        top_k=top_k,
+        pool=pool,
+        w_bm25=w_bm25,
+        w_dense=w_dense,
+        rrf_k=rrf_k,
+    )
 
 
 def _dense_ranking(
@@ -490,16 +575,22 @@ def _load_encoder(model_name: str):
 def build_chunks(pages_dir: Path) -> tuple[list[TextChunk], BuildReport]:
     report = BuildReport()
     grouped = load_admitted(pages_dir, report)
-    chunks: list[TextChunk] = []
+    raw: list[TextChunk] = []
     for doc_pages in grouped.values():
-        chunks.extend(chunk_document(doc_pages))
-    report.chunks = len(chunks)
-    report.docs = len({chunk.doc_id for chunk in chunks})
+        raw.extend(chunk_document(doc_pages))
     used_pages = {
         (chunk.doc_id, page)
-        for chunk in chunks
+        for chunk in raw
         for page in range(chunk.page_start, chunk.page_end + 1)
     }
+    chunks = []
+    for chunk in raw:
+        if is_index_garbage(chunk.text):
+            report.skipped_garbage += 1
+            continue
+        chunks.append(chunk)
+    report.chunks = len(chunks)
+    report.docs = len({chunk.doc_id for chunk in chunks})
     admitted_pages = {
         (page.doc_id, page.page) for doc_pages in grouped.values() for page in doc_pages
     }
@@ -567,21 +658,45 @@ def _write_dense(
     report: BuildReport,
     out_dir: Path,
     embedding_model: str,
-) -> None:
+    *,
+    cached_model: str | None = None,
+    force: bool = False,
+) -> str | None:
+    """Return the model name that belongs in meta.json.
+
+    A full cache hit keeps the model that produced the vectors. A different
+    --embedding-model is ignored unless --force rebuilds every vector.
+    Missing chunks are never filled with a second model.
+    """
     cache = _read_dense_cache(out_dir)
+    encode_with = embedding_model
+    stored_model = embedding_model
+    changed = bool(cached_model) and cached_model != embedding_model
+    if changed and not force:
+        encode_with = cached_model or embedding_model
+        stored_model = cached_model or embedding_model
+        report.notes.append(
+            f"dense cache от {cached_model}; --embedding-model {embedding_model} не записан. "
+            "Чтобы пересчитать векторы новой моделью, передайте --force."
+        )
+    elif changed and force:
+        cache = {}
+        report.notes.append(
+            f"dense --force: кэш {cached_model} сброшен, пересчёт моделью {embedding_model}"
+        )
     missing = [i for i, chunk in enumerate(chunks) if chunk_text_sha(chunk.text) not in cache]
     fresh: list[list[float]] = []
     if missing:
         try:
-            fresh = embed_passages([chunks[i].text for i in missing], embedding_model)
+            fresh = embed_passages([chunks[i].text for i in missing], encode_with)
         except RuntimeError as exc:
             report.notes.append(f"dense skipped: {exc}")
             report.dense = False
-            return
+            return None
         if len(fresh) != len(missing):
             report.notes.append("dense skipped: encoder returned the wrong number of vectors")
             report.dense = False
-            return
+            return None
     elif chunks:
         report.notes.append("dense cache hit, model not loaded")
     rows: list[list[float]] = []
@@ -604,6 +719,7 @@ def _write_dense(
     )
     report.dense = True
     report.notes.append(f"dense embedded {len(missing)}, reused {len(chunks) - len(missing)}")
+    return stored_model
 
 
 def write_index(
@@ -612,6 +728,7 @@ def write_index(
     out_dir: Path,
     *,
     embedding_model: str | None = None,
+    force: bool = False,
 ) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     meta_path = out_dir / "meta.json"
@@ -627,9 +744,16 @@ def write_index(
     legacy = out_dir / "vectors.json"
     if legacy.exists():
         legacy.unlink()
+    model_name = None
     if embedding_model and chunks:
-        _write_dense(chunks, report, out_dir, embedding_model)
-    model_name = embedding_model if report.dense else None
+        model_name = _write_dense(
+            chunks,
+            report,
+            out_dir,
+            embedding_model,
+            cached_model=old_meta.get("embedding_model"),
+            force=force,
+        )
     if model_name is None and _load_aligned_dense(out_dir, chunks):
         model_name = old_meta.get("embedding_model")
         report.dense = bool(model_name)
@@ -713,6 +837,11 @@ def eval_gold(
     *,
     mode: str = "hybrid",
     top_k: int = 5,
+    w_bm25: float = 1.0,
+    w_dense: float = 1.0,
+    rrf_k: int = 10,
+    min_score: float = 0.0,
+    min_dense: float = 0.0,
 ) -> dict:
     data = json.loads(gold_path.read_text(encoding="utf-8"))
     items = data["items"] if isinstance(data, dict) else data
@@ -720,7 +849,17 @@ def eval_gold(
     rr_sum = 0.0
     missed: list[str] = []
     for item in items:
-        hits = search(index, item["query"], top_k=top_k, mode=mode)
+        hits = search(
+            index,
+            item["query"],
+            top_k=top_k,
+            mode=mode,
+            w_bm25=w_bm25,
+            w_dense=w_dense,
+            rrf_k=rrf_k,
+            min_score=min_score,
+            min_dense=min_dense,
+        )
         if item.get("relevant") is False:
             rank = 1 if not hits else 0
             if rank:
