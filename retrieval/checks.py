@@ -426,6 +426,16 @@ def run_checks() -> int:
         _fail("xml, url or a number table stayed in the index")
     if is_index_garbage(prose_ok) or is_index_garbage(cited):
         _fail("prose was marked as index garbage")
+    formula = "L = 0.004[a ln 2a/p + b] + 1.5*c^2"
+    xml_dump = "BRDP-S1 <refs> rowsep"
+    xml_prose = (
+        "Элемент <refs> задаёт порядок заполнения перечня, если модуль данных "
+        "описывает гидравлическую систему и вложенные позиции узла."
+    )
+    if not is_index_garbage(formula) or not is_index_garbage(xml_dump):
+        _fail("a bare formula or an XML dump stayed in the index")
+    if is_index_garbage(xml_prose):
+        _fail("a Russian paragraph that names one tag was dropped")
 
     with tempfile.TemporaryDirectory() as tmp:
         gold_path = Path(tmp) / "gold.json"

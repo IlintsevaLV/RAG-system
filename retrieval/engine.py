@@ -27,7 +27,10 @@ _URL = re.compile(r"https?://\S+")
 _HYBRID_MODES = {"hybrid", "hybrid_bm25_heavy", "hybrid_dense_heavy"}
 # BM25 bands for adaptive hybrid. A strong exact hit stays lexical.
 # A weak lexical list leaves the answer to dense.
-_BM25_STRONG = 20.0
+# Gold verbatim queries on this corpus score 21–50. Paraphrases score 0,
+# except one false lexical hit at 23. A cut at 10 keeps those verbatim
+# hits lexical and also covers exact questions that land around 11–17.
+_BM25_STRONG = 10.0
 _BM25_WEAK = 5.0
 
 _STOP = frozenset(
@@ -349,7 +352,9 @@ def is_mush(text: str) -> bool:
 
 
 def is_index_garbage(text: str) -> bool:
-    """XML dumps, bare URLs and number tables. They sit near every dense query."""
+    """XML dumps, bare URLs, number tables and bare equations."""
+    if _xml_fragment(text) or _formula_chunk(text):
+        return True
     compact = re.sub(r"\s+", "", text)
     if len(compact) < 20:
         return False
@@ -367,6 +372,46 @@ def is_index_garbage(text: str) -> bool:
         if sum(1 for ch in rest if ch.isalpha()) < 40:
             return True
     return False
+
+
+_CYR_WORD = re.compile(r"[А-Яа-яЁё]{5,}")
+_LONG_LATIN = re.compile(r"[A-Za-z]{12,}")
+_XML_NAME = re.compile(r"</?([A-Za-z][A-Za-z0-9]*)[^>]*>")
+_EQ_OPS = set("=∫∑∏√∂≤≥≠≈+-*/^[](){}")
+
+
+def _xml_fragment(text: str) -> bool:
+    """A tag dump. A Russian paragraph that mentions one tag stays."""
+    names = [match.group(1) for match in _XML_NAME.finditer(text) if len(match.group(1)) >= 4]
+    if not names:
+        return False
+    return len(_CYR_WORD.findall(text)) < 4
+
+
+def _equation_lines(text: str) -> list[str]:
+    lines = [line.strip() for line in text.splitlines() if line.strip()] or [text.strip()]
+    found: list[str] = []
+    for line in lines:
+        body = _URL.sub(" ", line)
+        if _CYR_WORD.search(body) or _LONG_LATIN.search(body):
+            continue
+        if not any(ch in "=∫∑∏√∂≤≥≠≈" for ch in body):
+            continue
+        compact = re.sub(r"\s+", "", body)
+        if len(compact) < 10:
+            continue
+        ops = sum(ch.isdigit() or ch in _EQ_OPS for ch in compact)
+        if ops / len(compact) >= 0.35:
+            found.append(line)
+    return found
+
+
+def _formula_chunk(text: str) -> bool:
+    """An equation with no clause around it. A sentence that contains '=' stays."""
+    lines = _equation_lines(text)
+    if not lines or not text:
+        return False
+    return sum(len(line) for line in lines) >= 0.6 * len(text)
 
 
 def _above_min_score(ranked: list[tuple[int, float]], min_score: float) -> list[tuple[int, float]]:
@@ -444,7 +489,7 @@ def search(
 
     Lexical answers keep the strict gate (half the query words). ``min_score`` is
     a BM25 floor. ``min_dense`` is a cosine floor for e5, separate from BM25.
-    Plain hybrid is adaptive: BM25 ≥ 20 stays lexical, BM25 < 5 uses dense,
+    Plain hybrid is adaptive: BM25 ≥ 10 stays lexical, BM25 < 5 uses dense,
     otherwise reciprocal rank fusion with k=10.
     """
     lexical = _lexical_hits(index, query)
@@ -847,7 +892,11 @@ def eval_gold(
     items = data["items"] if isinstance(data, dict) else data
     recalls = {1: 0, 3: 0, 5: 0}
     rr_sum = 0.0
+    precision_sum = 0.0
+    ndcg_sum = 0.0
+    junk_sum = 0
     missed: list[str] = []
+    window = min(5, top_k) or 1
     for item in items:
         hits = search(
             index,
@@ -860,20 +909,30 @@ def eval_gold(
             min_score=min_score,
             min_dense=min_dense,
         )
+        shown = hits[:window]
         if item.get("relevant") is False:
             rank = 1 if not hits else 0
             if rank:
                 rr_sum += 1.0
+                precision_sum += 1.0
+                ndcg_sum += 1.0
                 for k in recalls:
                     recalls[k] += 1
-            elif len(missed) < 8:
-                missed.append(item["query"])
+            else:
+                junk_sum += len(shown)
+                if len(missed) < 8:
+                    missed.append(item["query"])
             continue
         rank = 0
         for i, hit in enumerate(hits, start=1):
             if _gold_match(hit, item):
                 rank = i
                 break
+        relevant_here = 1 if rank and rank <= window else 0
+        precision_sum += relevant_here / window
+        junk_sum += len(shown) - relevant_here
+        if relevant_here:
+            ndcg_sum += 1.0 / math.log2(rank + 1)
         if rank:
             rr_sum += 1.0 / rank
             for k in recalls:
@@ -887,6 +946,9 @@ def eval_gold(
         "recall_at_1": round(recalls[1] / n, 4),
         "recall_at_3": round(recalls[3] / n, 4),
         "recall_at_5": round(recalls[5] / n, 4),
+        "precision_at_5": round(precision_sum / n, 4),
+        "ndcg_at_5": round(ndcg_sum / n, 4),
+        "junk_at_5": round(junk_sum / n, 4),
         "mrr": round(rr_sum / n, 4),
         "misses": missed,
     }

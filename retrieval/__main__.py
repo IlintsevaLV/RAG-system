@@ -154,7 +154,8 @@ def _cmd_eval(args: argparse.Namespace) -> int:
     print(
         f"n={result['n']} mode={args.mode} "
         f"recall@1={result['recall_at_1']} recall@3={result['recall_at_3']} "
-        f"recall@5={result['recall_at_5']} MRR={result['mrr']}"
+        f"recall@5={result['recall_at_5']} precision@5={result['precision_at_5']} "
+        f"nDCG@5={result['ndcg_at_5']} junk@5={result['junk_at_5']} MRR={result['mrr']}"
     )
     for miss in result["misses"]:
         print(f"  промах: {miss}")
@@ -213,7 +214,7 @@ def main(argv: list[str] | None = None) -> int:
     query.add_argument(
         "--min-dense",
         type=float,
-        default=0.7,
+        default=0.85,
         help="Порог косинуса dense. Ниже него dense-ответ — «не найдено».",
     )
     query.set_defaults(func=_cmd_query)
@@ -239,7 +240,7 @@ def main(argv: list[str] | None = None) -> int:
         default=0.0,
         help="Порог BM25. По умолчанию 0, чтобы эталон сравнивался с прежним лексическим прогоном.",
     )
-    ev.add_argument("--min-dense", type=float, default=0.7)
+    ev.add_argument("--min-dense", type=float, default=0.85)
     ev.set_defaults(func=_cmd_eval)
 
     check = sub.add_parser("check", help="Проверки нарезки и поиска на синтетике")
